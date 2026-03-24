@@ -1,0 +1,18 @@
+services:
+  app:
+    container_name: cardinalsixcyber
+    build:
+      context: .
+    image: jbegarek/cardinalsixcyber:latest
+    restart: unless-stopped
+    read_only: true
+    tmpfs:
+      - /var/cache/nginx
+      - /var/run
+      - /tmp
+    networks:
+      - proxy-net
+
+networks:
+  proxy-net:
+    external: true
