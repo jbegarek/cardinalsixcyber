@@ -26,16 +26,20 @@ FEEDS = [
     ("SecurityWeek", "https://www.securityweek.com/feed/"),
     ("CISA Alerts", "https://www.cisa.gov/cybersecurity-advisories/all.xml"),
     ("The Record", "https://therecord.media/feed"),
+    ("NVD", "https://nvd.nist.gov/feeds/xml/cve/misc/nvd-rss.xml"),
 ]
 
 USER_AGENT = "C6Cyber-NewsBot/1.0"
 TIMEOUT = 15
-MAX_ARTICLES = 50
+MAX_ARTICLES = 75
 SUMMARY_LENGTH = 200
 OUTPUT_PATH = Path(__file__).resolve().parent.parent / "data" / "news.json"
 
 # Atom namespace
 ATOM_NS = "http://www.w3.org/2005/Atom"
+# RSS 1.0 (RDF) namespaces
+RSS1_NS = "http://purl.org/rss/1.0/"
+DC_NS = "http://purl.org/dc/elements/1.1/"
 
 
 def strip_html(text: str) -> str:
@@ -196,6 +200,29 @@ def fetch_feed(source_name: str, url: str) -> list[dict]:
                         "published": pub_date.isoformat() if pub_date else None,
                         "_sort_date": pub_date,
                     })
+
+    # Try RSS 1.0 (RDF) — used by NVD
+    if not articles:
+        for item in root.iter(f"{{{RSS1_NS}}}item"):
+            title_el = item.find(f"{{{RSS1_NS}}}title")
+            link_el = item.find(f"{{{RSS1_NS}}}link")
+            desc_el = item.find(f"{{{RSS1_NS}}}description")
+            date_el = item.find(f"{{{DC_NS}}}date")
+
+            title = title_el.text.strip() if title_el is not None and title_el.text else None
+            link = link_el.text.strip() if link_el is not None and link_el.text else None
+            desc = desc_el.text.strip() if desc_el is not None and desc_el.text else ""
+            pub_date = parse_date(date_el.text if date_el is not None else None)
+
+            if title and link:
+                articles.append({
+                    "title": strip_html(title),
+                    "link": link,
+                    "summary": truncate(strip_html(desc)),
+                    "source": source_name,
+                    "published": pub_date.isoformat() if pub_date else None,
+                    "_sort_date": pub_date,
+                })
 
     log.info("Fetched %d articles from %s", len(articles), source_name)
     return articles
