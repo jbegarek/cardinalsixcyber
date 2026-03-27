@@ -1,6 +1,69 @@
 {
-  "last_updated": "2026-03-27T16:16:31.362565+00:00",
+  "last_updated": "2026-03-27T18:16:11.442974+00:00",
   "articles": [
+    {
+      "title": "UK weighs new limits on political donations as reports warn of hard-to-trace foreign interference",
+      "link": "https://therecord.media/uk-weighs-limits-political-donations-foreign-interference",
+      "summary": "The parliamentary report warns that hostile actors are conducting sustained and increasingly sophisticated campaigns to interfere in democratic processes, exploiting divisive issues to amplify...",
+      "source": "The Record",
+      "published": "2026-03-27T17:28:00+00:00"
+    },
+    {
+      "title": "FBI confirms theft of director’s personal emails by Iran-linked hacking group",
+      "link": "https://therecord.media/fbi-confirms-theft-of-directors-personal-emails-iran-group",
+      "summary": "An FBI spokesperson told Recorded Future News that the information is “historical in nature and involves no government information,” adding that the agency has “taken all necessary steps to mitigate...",
+      "source": "The Record",
+      "published": "2026-03-27T17:06:00+00:00"
+    },
+    {
+      "title": "TeamPCP Pushes Malicious Telnyx Versions to PyPI, Hides Stealer in WAV Files",
+      "link": "https://thehackernews.com/2026/03/teampcp-pushes-malicious-telnyx.html",
+      "summary": "TeamPCP, the threat actor behind the supply chain attack targeting Trivy, KICS, and litellm, has now compromised the telnyx Python package by pushing two malicious versions to steal sensitive data...",
+      "source": "The Hacker News",
+      "published": "2026-03-27T16:53:00+00:00"
+    },
+    {
+      "title": "Fake VS Code alerts on GitHub spread malware to developers",
+      "link": "https://www.bleepingcomputer.com/news/security/fake-vs-code-alerts-on-github-spread-malware-to-developers/",
+      "summary": "A large-scale campaign is targeting developers on GitHub with fake Visual Studio Code (VS Code) security alerts posted in the Discussions section of various projects, to trick users into downloading...",
+      "source": "BleepingComputer",
+      "published": "2026-03-27T16:51:52+00:00"
+    },
+    {
+      "title": "China Upgrades the Backdoor It Uses to Spy on Telcos Globally",
+      "link": "https://www.darkreading.com/threat-intelligence/china-upgrades-backdoor-spy-telcos",
+      "summary": "Chinese APT Red Menshen's super-advanced BPFdoor malware defeats traditional cybersecurity protections. All telcos can do, really, is try hunting it down.",
+      "source": "Dark Reading",
+      "published": "2026-03-27T16:48:49+00:00"
+    },
+    {
+      "title": "Pro-Iranian Hacking Group Claims Credit for Hack of FBI Director Kash Patel’s Personal Account",
+      "link": "https://www.securityweek.com/pro-iranian-hacking-group-claims-credit-for-hack-of-fbi-director-kash-patels-personal-account/",
+      "summary": "The group that it was making available for download emails and other documents from Patel’s account. The post Pro-Iranian Hacking Group Claims Credit for Hack of FBI Director Kash Patel’s Personal...",
+      "source": "SecurityWeek",
+      "published": "2026-03-27T16:42:22+00:00"
+    },
+    {
+      "title": "CVE-2026-28369 - Undertow: undertow: request smuggling via malformed http request headers",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-28369",
+      "summary": "CVE ID :CVE-2026-28369 Published : March 27, 2026, 4:13 p.m. | 52 minutes ago Description :A flaw was found in Undertow. When Undertow receives an HTTP request where the first header line starts with...",
+      "source": "CVE Feed",
+      "published": "2026-03-27T16:13:05+00:00"
+    },
+    {
+      "title": "CVE-2026-28367 - Undertow: undertow: request smuggling via `\\r\\r\\r` as a header block terminator",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-28367",
+      "summary": "CVE ID :CVE-2026-28367 Published : March 27, 2026, 4:13 p.m. | 52 minutes ago Description :A flaw was found in Undertow. A remote attacker can exploit this vulnerability by sending `\\r\\r\\r` as a...",
+      "source": "CVE Feed",
+      "published": "2026-03-27T16:13:05+00:00"
+    },
+    {
+      "title": "CVE-2026-28368 - Undertow: undertow: request smuggling via inconsistent header parsing",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-28368",
+      "summary": "CVE ID :CVE-2026-28368 Published : March 27, 2026, 4:13 p.m. | 52 minutes ago Description :A flaw was found in Undertow. This vulnerability allows a remote attacker to construct specially crafted...",
+      "source": "CVE Feed",
+      "published": "2026-03-27T16:13:03+00:00"
+    },
     {
       "title": "Dutch court threatens xAI with fines over Grok's nonconsensual nude images",
       "link": "https://therecord.media/dutch-court-threatens-xai-with-fines-grok-nudification",
@@ -11,65 +74,72 @@
     {
       "title": "CVE-2026-5027 - Langflow - Path Traversal Arbitrary File Write via upload_user_file",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-5027",
-      "summary": "CVE ID :CVE-2026-5027 Published : March 27, 2026, 3:17 p.m. | 33 minutes ago Description :The 'POST /api/v2/files' endpoint does not sanitize the 'filename' parameter from the multipart form data...",
+      "summary": "CVE ID :CVE-2026-5027 Published : March 27, 2026, 3:17 p.m. | 1 hour, 48 minutes ago Description :The 'POST /api/v2/files' endpoint does not sanitize the 'filename' parameter from the multipart form...",
       "source": "CVE Feed",
       "published": "2026-03-27T15:17:04+00:00"
     },
     {
       "title": "CVE-2026-4984 - Botpress - Credential Disclosure via Twilio Webhook Handler",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-4984",
-      "summary": "CVE ID :CVE-2026-4984 Published : March 27, 2026, 3:17 p.m. | 33 minutes ago Description :The Twilio integration webhook handler accepts any POST request without validating Twilio's...",
+      "summary": "CVE ID :CVE-2026-4984 Published : March 27, 2026, 3:17 p.m. | 1 hour, 48 minutes ago Description :The Twilio integration webhook handler accepts any POST request without validating Twilio's...",
       "source": "CVE Feed",
       "published": "2026-03-27T15:17:03+00:00"
     },
     {
       "title": "CVE-2026-33758 - OpenBao has Reflected XSS in its OIDC authentication error message",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-33758",
-      "summary": "CVE ID :CVE-2026-33758 Published : March 27, 2026, 3:16 p.m. | 33 minutes ago Description :OpenBao is an open source identity-based secrets management system. Prior to version 2.5.2, OpenBao...",
+      "summary": "CVE ID :CVE-2026-33758 Published : March 27, 2026, 3:16 p.m. | 1 hour, 48 minutes ago Description :OpenBao is an open source identity-based secrets management system. Prior to version 2.5.2, OpenBao...",
       "source": "CVE Feed",
       "published": "2026-03-27T15:16:57+00:00"
     },
     {
       "title": "CVE-2026-33757 - OpenBao lacks user confirmation for OIDC direct callback mode",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-33757",
-      "summary": "CVE ID :CVE-2026-33757 Published : March 27, 2026, 3:16 p.m. | 33 minutes ago Description :OpenBao is an open source identity-based secrets management system. Prior to version 2.5.2, OpenBao does not...",
+      "summary": "CVE ID :CVE-2026-33757 Published : March 27, 2026, 3:16 p.m. | 1 hour, 48 minutes ago Description :OpenBao is an open source identity-based secrets management system. Prior to version 2.5.2, OpenBao...",
       "source": "CVE Feed",
       "published": "2026-03-27T15:16:57+00:00"
     },
     {
       "title": "CVE-2026-33755 - Authenticated SQL Injection in Contact/query addressBookIds filter",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-33755",
-      "summary": "CVE ID :CVE-2026-33755 Published : March 27, 2026, 3:16 p.m. | 33 minutes ago Description :Group-Office is an enterprise customer relationship management and groupware tool. Prior to versions...",
+      "summary": "CVE ID :CVE-2026-33755 Published : March 27, 2026, 3:16 p.m. | 1 hour, 48 minutes ago Description :Group-Office is an enterprise customer relationship management and groupware tool. Prior to versions...",
       "source": "CVE Feed",
       "published": "2026-03-27T15:16:57+00:00"
     },
     {
       "title": "CVE-2026-33748 - BuildKit Git URL subdir component can cause access to restricted files",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-33748",
-      "summary": "CVE ID :CVE-2026-33748 Published : March 27, 2026, 3:16 p.m. | 33 minutes ago Description :BuildKit is a toolkit for converting source code to build artifacts in an efficient, expressive and...",
+      "summary": "CVE ID :CVE-2026-33748 Published : March 27, 2026, 3:16 p.m. | 1 hour, 48 minutes ago Description :BuildKit is a toolkit for converting source code to build artifacts in an efficient, expressive and...",
       "source": "CVE Feed",
       "published": "2026-03-27T15:16:57+00:00"
     },
     {
       "title": "CVE-2026-33206 - calibre has a path traversal vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-33206",
-      "summary": "CVE ID :CVE-2026-33206 Published : March 27, 2026, 3:16 p.m. | 33 minutes ago Description :calibre is a cross-platform e-book manager for viewing, converting, editing, and cataloging e-books. Prior...",
+      "summary": "CVE ID :CVE-2026-33206 Published : March 27, 2026, 3:16 p.m. | 1 hour, 48 minutes ago Description :calibre is a cross-platform e-book manager for viewing, converting, editing, and cataloging e-books...",
       "source": "CVE Feed",
       "published": "2026-03-27T15:16:54+00:00"
     },
     {
       "title": "CVE-2026-27876 - RCE on Grafana via sqlExpressions",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-27876",
-      "summary": "CVE ID :CVE-2026-27876 Published : March 27, 2026, 3:16 p.m. | 33 minutes ago Description :A chained attack via SQL Expressions and a Grafana Enterprise plugin can lead to a remote arbitrary code...",
+      "summary": "CVE ID :CVE-2026-27876 Published : March 27, 2026, 3:16 p.m. | 1 hour, 48 minutes ago Description :A chained attack via SQL Expressions and a Grafana Enterprise plugin can lead to a remote arbitrary...",
       "source": "CVE Feed",
       "published": "2026-03-27T15:16:50+00:00"
     },
     {
       "title": "CVE-2026-1496 - Coverity CLI Authentication Bypass",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-1496",
-      "summary": "CVE ID :CVE-2026-1496 Published : March 27, 2026, 3:16 p.m. | 33 minutes ago Description :Vulnerable versions of Coverity Connect lack an error handler in the authentication logic for command line...",
+      "summary": "CVE ID :CVE-2026-1496 Published : March 27, 2026, 3:16 p.m. | 1 hour, 48 minutes ago Description :Vulnerable versions of Coverity Connect lack an error handler in the authentication logic for command...",
       "source": "CVE Feed",
       "published": "2026-03-27T15:16:48+00:00"
+    },
+    {
+      "title": "Wartime Usage of Compromised IP Cameras Highlight Their Danger",
+      "link": "https://www.darkreading.com/cyber-risk/wartime-usage-of-compromised-ip-cameras-highlight-their-danger",
+      "summary": "The list of countries exploiting internet-connected cameras to give them eye's inside their adversaries' borders continues to expand, with Russia, Iran, Israel, Ukraine, and the United States all...",
+      "source": "Dark Reading",
+      "published": "2026-03-27T14:42:31+00:00"
     },
     {
       "title": "In Other News: Palo Alto Recruiter Scam, Anti-Deepfake Chip, Google Sets 2029 Quantum Deadline",
@@ -81,7 +151,7 @@
     {
       "title": "CVE-2025-13478 - Cache Misconfiguration Leading to Cross-User Data Exposure",
       "link": "https://cvefeed.io/vuln/detail/CVE-2025-13478",
-      "summary": "CVE ID :CVE-2025-13478 Published : March 27, 2026, 2:16 p.m. | 1 hour, 34 minutes ago Description :Cache misconfiguration vulnerability in OpenText Identity Manager on Windows, Linux allows remote...",
+      "summary": "CVE ID :CVE-2025-13478 Published : March 27, 2026, 2:16 p.m. | 2 hours, 49 minutes ago Description :Cache misconfiguration vulnerability in OpenText Identity Manager on Windows, Linux allows remote...",
       "source": "CVE Feed",
       "published": "2026-03-27T14:16:07+00:00"
     },
@@ -142,16 +212,16 @@
       "published": "2026-03-27T13:00:00+00:00"
     },
     {
-      "title": "European Commission investigating breach after Amazon cloud hack",
-      "link": "https://www.bleepingcomputer.com/news/security/european-commission-investigating-breach-after-amazon-cloud-hack/",
-      "summary": "The European Commission, the European Union's main executive body, is investigating a security breach after a threat actor gained access to its Amazon cloud infrastructure. [...]",
+      "title": "European Commission investigating breach after Amazon cloud account hack",
+      "link": "https://www.bleepingcomputer.com/news/security/european-commission-investigating-breach-after-amazon-cloud-account-hack/",
+      "summary": "The European Commission, the European Union's main executive body, is investigating a security breach after a threat actor gained access to the Commission's Amazon cloud environment. [...]",
       "source": "BleepingComputer",
       "published": "2026-03-27T12:22:19+00:00"
     },
     {
       "title": "CVE-2026-25099 - Remote Code Execution via Unrestricted File Upload in Bludit",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-25099",
-      "summary": "CVE ID :CVE-2026-25099 Published : March 27, 2026, 12:16 p.m. | 3 hours, 34 minutes ago Description :Bludit’s API plugin allows an authenticated attacker with a valid API token to upload files of any...",
+      "summary": "CVE ID :CVE-2026-25099 Published : March 27, 2026, 12:16 p.m. | 4 hours, 48 minutes ago Description :Bludit’s API plugin allows an authenticated attacker with a valid API token to upload files of any...",
       "source": "CVE Feed",
       "published": "2026-03-27T12:16:19+00:00"
     },
@@ -312,28 +382,28 @@
     {
       "title": "CVE-2026-32669 - BUFFALO Wi-Fi Router Code Injection Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-32669",
-      "summary": "CVE ID :CVE-2026-32669 Published : March 27, 2026, 6:16 a.m. | 9 hours, 33 minutes ago Description :Code injection vulnerability exists in BUFFALO Wi-Fi router products. If this vulnerability is...",
+      "summary": "CVE ID :CVE-2026-32669 Published : March 27, 2026, 6:16 a.m. | 10 hours, 48 minutes ago Description :Code injection vulnerability exists in BUFFALO Wi-Fi router products. If this vulnerability is...",
       "source": "CVE Feed",
       "published": "2026-03-27T06:16:38+00:00"
     },
     {
       "title": "CVE-2026-27650 - Buffalo Wi-Fi Router OS Command Injection Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-27650",
-      "summary": "CVE ID :CVE-2026-27650 Published : March 27, 2026, 6:16 a.m. | 9 hours, 33 minutes ago Description :OS Command Injection vulnerability exists in BUFFALO Wi-Fi router products. If this vulnerability...",
+      "summary": "CVE ID :CVE-2026-27650 Published : March 27, 2026, 6:16 a.m. | 10 hours, 48 minutes ago Description :OS Command Injection vulnerability exists in BUFFALO Wi-Fi router products. If this vulnerability...",
       "source": "CVE Feed",
       "published": "2026-03-27T06:16:38+00:00"
     },
     {
       "title": "CVE-2026-22742 - Server-Side Request Forgery in BedrockProxyChatModel via Unvalidated Media URL Fetching",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-22742",
-      "summary": "CVE ID :CVE-2026-22742 Published : March 27, 2026, 6:16 a.m. | 9 hours, 33 minutes ago Description :Spring AI's spring-ai-bedrock-converse contains a Server-Side Request Forgery (SSRF) vulnerability...",
+      "summary": "CVE ID :CVE-2026-22742 Published : March 27, 2026, 6:16 a.m. | 10 hours, 48 minutes ago Description :Spring AI's spring-ai-bedrock-converse contains a Server-Side Request Forgery (SSRF) vulnerability...",
       "source": "CVE Feed",
       "published": "2026-03-27T06:16:37+00:00"
     },
     {
       "title": "CVE-2026-22738 - SpEL Injection via Unescaped Filter Key in SimpleVectorStore Leads to Remote Code Execution",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-22738",
-      "summary": "CVE ID :CVE-2026-22738 Published : March 27, 2026, 6:16 a.m. | 9 hours, 33 minutes ago Description :In Spring AI, a SpEL injection vulnerability exists in SimpleVectorStore when a user-supplied value...",
+      "summary": "CVE ID :CVE-2026-22738 Published : March 27, 2026, 6:16 a.m. | 10 hours, 48 minutes ago Description :In Spring AI, a SpEL injection vulnerability exists in SimpleVectorStore when a user-supplied...",
       "source": "CVE Feed",
       "published": "2026-03-27T06:16:37+00:00"
     },
@@ -354,72 +424,51 @@
     {
       "title": "CVE-2026-4906 - Tenda AC5 POST Request WizardHandle decodePwd stack-based overflow",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-4906",
-      "summary": "CVE ID :CVE-2026-4906 Published : March 27, 2026, 1:16 a.m. | 14 hours, 34 minutes ago Description :A vulnerability was determined in Tenda AC5 15.03.06.47. The affected element is the function...",
+      "summary": "CVE ID :CVE-2026-4906 Published : March 27, 2026, 1:16 a.m. | 15 hours, 48 minutes ago Description :A vulnerability was determined in Tenda AC5 15.03.06.47. The affected element is the function...",
       "source": "CVE Feed",
       "published": "2026-03-27T01:16:21+00:00"
     },
     {
       "title": "CVE-2026-33890 - MyTube has an Unauthenticated Admin Privilege Escalation via Passkey Registration",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-33890",
-      "summary": "CVE ID :CVE-2026-33890 Published : March 27, 2026, 1:16 a.m. | 14 hours, 34 minutes ago Description :MyTube is a self-hosted downloader and player for several video websites Prior to version 1.8.71...",
+      "summary": "CVE ID :CVE-2026-33890 Published : March 27, 2026, 1:16 a.m. | 15 hours, 48 minutes ago Description :MyTube is a self-hosted downloader and player for several video websites Prior to version 1.8.71...",
       "source": "CVE Feed",
       "published": "2026-03-27T01:16:21+00:00"
     },
     {
       "title": "CVE-2026-33747 - BuildKit vulnerable to malicious frontend causing file escape outside of storage root",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-33747",
-      "summary": "CVE ID :CVE-2026-33747 Published : March 27, 2026, 1:16 a.m. | 14 hours, 34 minutes ago Description :BuildKit is a toolkit for converting source code to build artifacts in an efficient, expressive...",
+      "summary": "CVE ID :CVE-2026-33747 Published : March 27, 2026, 1:16 a.m. | 15 hours, 48 minutes ago Description :BuildKit is a toolkit for converting source code to build artifacts in an efficient, expressive...",
       "source": "CVE Feed",
       "published": "2026-03-27T01:16:21+00:00"
     },
     {
       "title": "CVE-2026-33728 - dd-trace-java: Unsafe deserialization in RMI instrumentation may lead to remote code execution",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-33728",
-      "summary": "CVE ID :CVE-2026-33728 Published : March 27, 2026, 1:16 a.m. | 14 hours, 34 minutes ago Description :dd-trace-java is a Datadog APM client for Java. In versions of dd-trace-java 0.40.0 through prior...",
+      "summary": "CVE ID :CVE-2026-33728 Published : March 27, 2026, 1:16 a.m. | 15 hours, 48 minutes ago Description :dd-trace-java is a Datadog APM client for Java. In versions of dd-trace-java 0.40.0 through prior...",
       "source": "CVE Feed",
       "published": "2026-03-27T01:16:20+00:00"
     },
     {
       "title": "CVE-2026-33701 - OpenTelemetry: Unsafe Deserialization in RMI Instrumentation may Lead to Remote Code Execution",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-33701",
-      "summary": "CVE ID :CVE-2026-33701 Published : March 27, 2026, 1:16 a.m. | 14 hours, 34 minutes ago Description :OpenTelemetry Java Instrumentation provides OpenTelemetry auto-instrumentation and instrumentation...",
+      "summary": "CVE ID :CVE-2026-33701 Published : March 27, 2026, 1:16 a.m. | 15 hours, 48 minutes ago Description :OpenTelemetry Java Instrumentation provides OpenTelemetry auto-instrumentation and instrumentation...",
       "source": "CVE Feed",
       "published": "2026-03-27T01:16:19+00:00"
     },
     {
       "title": "CVE-2026-4905 - Tenda AC5 POST Request WifiWpsOOB formWifiWpsOOB stack-based overflow",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-4905",
-      "summary": "CVE ID :CVE-2026-4905 Published : March 27, 2026, 12:16 a.m. | 15 hours, 33 minutes ago Description :A vulnerability was found in Tenda AC5 15.03.06.47. Impacted is the function formWifiWpsOOB of the...",
+      "summary": "CVE ID :CVE-2026-4905 Published : March 27, 2026, 12:16 a.m. | 16 hours, 48 minutes ago Description :A vulnerability was found in Tenda AC5 15.03.06.47. Impacted is the function formWifiWpsOOB of the...",
       "source": "CVE Feed",
       "published": "2026-03-27T00:16:24+00:00"
     },
     {
       "title": "CVE-2026-4904 - Tenda AC5 POST Request setcfm formSetCfm stack-based overflow",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-4904",
-      "summary": "CVE ID :CVE-2026-4904 Published : March 27, 2026, 12:16 a.m. | 15 hours, 33 minutes ago Description :A vulnerability has been found in Tenda AC5 15.03.06.47. This issue affects the function...",
+      "summary": "CVE ID :CVE-2026-4904 Published : March 27, 2026, 12:16 a.m. | 16 hours, 48 minutes ago Description :A vulnerability has been found in Tenda AC5 15.03.06.47. This issue affects the function...",
       "source": "CVE Feed",
       "published": "2026-03-27T00:16:24+00:00"
-    },
-    {
-      "title": "CVE-2026-33945 - Abitrary file write through systemd-creds option",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-33945",
-      "summary": "CVE ID :CVE-2026-33945 Published : March 27, 2026, 12:16 a.m. | 15 hours, 33 minutes ago Description :Incus is a system container and virtual machine manager. Incus instances have an option to...",
-      "source": "CVE Feed",
-      "published": "2026-03-27T00:16:23+00:00"
-    },
-    {
-      "title": "CVE-2026-33898 - Local Incus UI web server vulnerable to nuthentication bypass",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-33898",
-      "summary": "CVE ID :CVE-2026-33898 Published : March 27, 2026, 12:16 a.m. | 15 hours, 34 minutes ago Description :Incus is a system container and virtual machine manager. Prior to version 6.23.0, the web server...",
-      "source": "CVE Feed",
-      "published": "2026-03-27T00:16:23+00:00"
-    },
-    {
-      "title": "CVE-2026-27893 - vLLM's hardcoded trust_remote_code=True in NemotronVL and KimiK25 bypasses user security opt-out",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-27893",
-      "summary": "CVE ID :CVE-2026-27893 Published : March 27, 2026, 12:16 a.m. | 15 hours, 34 minutes ago Description :vLLM is an inference and serving engine for large language models (LLMs). Starting in version...",
-      "source": "CVE Feed",
-      "published": "2026-03-27T00:16:22+00:00"
     },
     {
       "title": "Ajax football club hack exposed fan data, enabled ticket hijack",
@@ -427,6 +476,13 @@
       "summary": "Dutch professional football club Ajax Amsterdam (AFC Ajax) disclosed that a hacker exploited vulnerabilities in its IT systems and accessed data belonging to a few hundred people. [...]",
       "source": "BleepingComputer",
       "published": "2026-03-26T20:37:25+00:00"
+    },
+    {
+      "title": "Coruna, DarkSword & Democratizing Nation-State Exploit Kits",
+      "link": "https://www.darkreading.com/endpoint-security/coruna-darksword-democratizing-nation-state-exploit-kits",
+      "summary": "Nation-state malware is being sold on the Dark Web and leaked to GitHub; and ordinary organizations might not stand much of a chance of defending themselves.",
+      "source": "Dark Reading",
+      "published": "2026-03-26T19:56:41+00:00"
     },
     {
       "title": "Is the FCC's Router Ban the Wrong Fix?",
@@ -478,13 +534,6 @@
       "published": "2026-03-26T17:40:00+00:00"
     },
     {
-      "title": "US official accuses China of supporting, exploiting cyber scam crisis in Southeast Asia",
-      "link": "https://therecord.media/china-scam-compounds-southeast-asia",
-      "summary": "A senior U.S. official accused China’s government of implicitly backing Chinese criminal syndicates running cyber scam compounds across Southeast Asia and of exploiting a crisis that has resulted in...",
-      "source": "The Record",
-      "published": "2026-03-26T17:30:00+00:00"
-    },
-    {
       "title": "Critical 9.8 CVSS SpEL Injection and SSRF Flaws Hit Spring AI Framework",
       "link": "https://securityonline.info/spring-ai-security-vulnerabilities-rce-ssrf-spel-injection-patch/",
       "summary": "Critical 9.8 CVSS SpEL Injection and SSRF Flaws Hit Spring AI Framework Spring AI, the popular framework for integrating Artificial Intelligence into Java applications, is facing a series of security...",
@@ -518,13 +567,6 @@
       "summary": "The United Kingdom's Foreign, Commonwealth and Development Office (FCDO) has sanctioned Xinbi, a Chinese-language cryptocurrency-based online marketplace that sells stolen data and satellite internet...",
       "source": "BleepingComputer",
       "published": "2026-03-26T15:42:43+00:00"
-    },
-    {
-      "title": "Pro-Ukraine hacker group Bearlyfy targets Russian companies with custom ransomware",
-      "link": "https://therecord.media/ransomware-ukraine-russia-bearlyfy",
-      "summary": "A pro-Ukrainian hacker group known as Bearlyfy has carried out more than 70 cyberattacks against Russian companies over the past year and is now escalating its campaign with newly developed...",
-      "source": "The Record",
-      "published": "2026-03-26T15:30:00+00:00"
     },
     {
       "title": "How Organizations Can Use Mistakes to Level Up Their Security Programs",
@@ -639,13 +681,6 @@
       "published": "2026-03-26T12:50:17+00:00"
     },
     {
-      "title": "Cisco Patches Multiple Vulnerabilities in IOS Software",
-      "link": "https://www.securityweek.com/cisco-patches-multiple-vulnerabilities-in-ios-software/",
-      "summary": "The high- and medium-severity flaws could lead to denial-of-service, secure boot bypass, information disclosure, and privilege escalation. The post Cisco Patches Multiple Vulnerabilities in IOS...",
-      "source": "SecurityWeek",
-      "published": "2026-03-26T12:32:17+00:00"
-    },
-    {
       "title": "Intermediaries Driving Global Spyware Market Expansion",
       "link": "https://www.darkreading.com/cyber-risk/intermediaries-driving-global-spyware-market-expansion",
       "summary": "Third-party resellers and brokers foil transparency efforts and allow spyware to spread despite government restrictions, a study finds.",
@@ -714,13 +749,6 @@
       "summary": "Cybersecurity researchers have discovered a new payment skimmer that uses WebRTC data channels as a means to receive payloads and exfiltrate data, effectively bypassing security controls. \"Instead of...",
       "source": "The Hacker News",
       "published": "2026-03-26T06:53:00+00:00"
-    },
-    {
-      "title": "GitHub adds AI-powered bug detection to expand security coverage",
-      "link": "https://www.bleepingcomputer.com/news/security/github-adds-ai-powered-bug-detection-to-expand-security-coverage/",
-      "summary": "GitHub is adopting AI-based scanning for its Code Security tool to expand vulnerability detections beyond the CodeQL static analysis and cover more languages and frameworks. [...]",
-      "source": "BleepingComputer",
-      "published": "2026-03-25T23:23:39+00:00"
     },
     {
       "title": "At RSAC, the EU Leads While US Officials Are Sidelined",
@@ -1297,13 +1325,6 @@
       "published": "2026-03-19T10:58:00+00:00"
     },
     {
-      "title": "DarkSword iOS Exploit Kit Uses 6 Flaws, 3 Zero-Days for Full Device Takeover",
-      "link": "https://thehackernews.com/2026/03/darksword-ios-exploit-kit-uses-6-flaws.html",
-      "summary": "A new exploit kit for Apple iOS devices designed to steal sensitive data from is being wielded by multiple threat actors since at least November 2025, according to reports from Google Threat...",
-      "source": "The Hacker News",
-      "published": "2026-03-19T09:14:00+00:00"
-    },
-    {
       "title": "EU Sanctions Companies in China, Iran for Cyberattacks",
       "link": "https://www.darkreading.com/threat-intelligence/eu-sanctions-companies-china-iran-cyberattacks",
       "summary": "These rulings prohibit the entities from entering or doing business in the European Union.",
@@ -1379,27 +1400,6 @@
       "summary": "When technical expertise meets clear communication, cybersecurity teams thrive. Learn how to foster trust and collaboration across diverse working groups.",
       "source": "Dark Reading",
       "published": "2026-03-17T21:42:46+00:00"
-    },
-    {
-      "title": "Less Lucrative Ransomware Market Makes Attackers Alter Methods",
-      "link": "https://www.darkreading.com/threat-intelligence/less-lucrative-ransomware-market-makes-attackers-alter-methods",
-      "summary": "Ransomware actors are ditching Cobalt Strike in favor of native Windows tools, as payment rates hit record lows and data theft surges.",
-      "source": "Dark Reading",
-      "published": "2026-03-17T21:41:12+00:00"
-    },
-    {
-      "title": "Hackers Target Cybersecurity Firm Outpost24 in 7-Stage Phish",
-      "link": "https://www.darkreading.com/threat-intelligence/hackers-target-cybersecurity-firm-outpost24-phish",
-      "summary": "In an unsuccessful phishing attack, threat actors leveraged trusted brands and domains to try to redirect a C-suite executive at Outpost24 to give up his credentials.",
-      "source": "Dark Reading",
-      "published": "2026-03-17T19:41:24+00:00"
-    },
-    {
-      "title": "Warlock Ransomware Group Augments Post-Exploitation Activities",
-      "link": "https://www.darkreading.com/threat-intelligence/warlock-ransomware-post-exploitation-activities",
-      "summary": "In a recent attack, the group showcased stealthier cross-network activity, thanks to its use of a new BYOVD technique and other tools.",
-      "source": "Dark Reading",
-      "published": "2026-03-17T15:36:52+00:00"
     }
   ]
 }
