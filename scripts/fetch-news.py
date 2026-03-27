@@ -27,6 +27,8 @@ FEEDS = [
     ("CISA Alerts", "https://www.cisa.gov/cybersecurity-advisories/all.xml"),
     ("The Record", "https://therecord.media/feed"),
     ("NVD", "https://nvd.nist.gov/feeds/xml/cve/misc/nvd-rss.xml"),
+    ("CVE Feed", "https://cvefeed.io/rssfeed/severity/high.xml"),
+    ("CVE Newsroom", "https://cvefeed.io/rssfeed/newsroom.xml"),
 ]
 
 USER_AGENT = "C6Cyber-NewsBot/1.0"
