@@ -1207,23 +1207,37 @@
 
         .footer-legal a:hover { color: var(--c6-text-muted); }
 
-        /* ===== SCROLL REVEAL ANIMATIONS ===== */
+        /* ===== ANIMATIONS ===== */
+        @keyframes fade-up {
+            from { opacity: 0; transform: translateY(24px); }
+            to   { opacity: 1; transform: translateY(0); }
+        }
+
         .reveal {
             opacity: 0;
             transform: translateY(24px);
-            transition: opacity 0.6s ease, transform 0.6s ease;
         }
 
         .reveal.visible {
-            opacity: 1;
-            transform: translateY(0);
+            animation: fade-up 0.6s ease forwards;
         }
 
-        .reveal-delay-1 { transition-delay: 0.1s; }
-        .reveal-delay-2 { transition-delay: 0.2s; }
-        .reveal-delay-3 { transition-delay: 0.3s; }
-        .reveal-delay-4 { transition-delay: 0.4s; }
-        .reveal-delay-5 { transition-delay: 0.5s; }
+        .reveal-delay-1.visible { animation-delay: 0.1s; }
+        .reveal-delay-2.visible { animation-delay: 0.2s; }
+        .reveal-delay-3.visible { animation-delay: 0.3s; }
+        .reveal-delay-4.visible { animation-delay: 0.4s; }
+        .reveal-delay-5.visible { animation-delay: 0.5s; }
+
+        /* Fallback: if JS fails or observer doesn't fire, show everything after 1.5s */
+        @keyframes fallback-show {
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .reveal {
+            animation: fallback-show 0s ease 1.5s forwards;
+        }
+        .reveal.visible {
+            animation: fade-up 0.6s ease forwards;
+        }
 
         /* ===== RESPONSIVE ===== */
         @media (max-width: 1024px) {
@@ -1386,6 +1400,7 @@
                 <li><a href="#services">Services</a></li>
                 <li><a href="#why-c6">Why C6</a></li>
                 <li><a href="#frameworks">Frameworks</a></li>
+                <li><a href="news.html">Cyber News</a></li>
                 <li><a href="#contact" class="nav-cta">Get in Touch</a></li>
             </ul>
             <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
@@ -1399,6 +1414,7 @@
         <a href="#services" class="mobile-link">Services</a>
         <a href="#why-c6" class="mobile-link">Why C6</a>
         <a href="#frameworks" class="mobile-link">Frameworks</a>
+        <a href="news.html" class="mobile-link">Cyber News</a>
         <a href="#contact" class="mobile-link">Get in Touch</a>
     </div>
 
@@ -1457,8 +1473,8 @@
                     <div class="stat-label">Active Clearance</div>
                 </div>
                 <div class="stat-item reveal reveal-delay-2">
-                    <div class="stat-number">GS-13</div>
-                    <div class="stat-label">Cybersecurity Specialist</div>
+                    <div class="stat-number">DoD</div>
+                    <div class="stat-label">Federal Cybersecurity</div>
                 </div>
                 <div class="stat-item reveal reveal-delay-3">
                     <div class="stat-number">PhD</div>
@@ -1575,7 +1591,7 @@
                         Cardinal Six Cyber isn't a staffing firm with a compliance checklist. We're led by an active federal cybersecurity specialist who works the mission daily — inside the same frameworks, on the same networks, against the same threats our clients face.
                     </p>
                     <ul class="why-points reveal reveal-delay-3">
-                        <li>Active GS-13 IT Cybersecurity Specialist (INFOSEC) at Military Sealift Command</li>
+                        <li>Active federal cybersecurity professional within the Department of Defense</li>
                         <li>TS/SCI clearance holder — understands classified environments</li>
                         <li>PhD candidate in Cybersecurity — bridging theory and operations</li>
                         <li>Direct experience with CORA assessments, not just reading about them</li>
@@ -1591,7 +1607,7 @@
                         </div>
                         <div>
                             <h4>Federal Practitioner</h4>
-                            <p>Active duty cybersecurity operations within the Department of Defense.</p>
+                            <p>Hands-on cybersecurity operations within the Department of Defense.</p>
                         </div>
                     </div>
                     <div class="cred-card reveal reveal-delay-1">
@@ -1798,19 +1814,40 @@
             });
         })();
 
-        /* Scroll reveal */
+        /* Reveal on scroll + immediate reveal for above-fold content */
         (function() {
             var reveals = document.querySelectorAll('.reveal');
-            var observer = new IntersectionObserver(function(entries) {
-                entries.forEach(function(entry) {
-                    if (entry.isIntersecting) {
-                        entry.target.classList.add('visible');
-                        observer.unobserve(entry.target);
+
+            /* Immediately reveal hero and stats strip */
+            document.querySelectorAll('.hero .reveal, .stats-strip .reveal').forEach(function(el) {
+                el.classList.add('visible');
+            });
+
+            /* Observer for everything else */
+            if ('IntersectionObserver' in window) {
+                var observer = new IntersectionObserver(function(entries) {
+                    entries.forEach(function(entry) {
+                        if (entry.isIntersecting) {
+                            entry.target.classList.add('visible');
+                            observer.unobserve(entry.target);
+                        }
+                    });
+                }, { threshold: 0.01, rootMargin: '0px 0px 50px 0px' });
+
+                reveals.forEach(function(el) {
+                    if (!el.closest('.hero') && !el.closest('.stats-strip')) {
+                        observer.observe(el);
                     }
                 });
-            }, { threshold: 0.15, rootMargin: '0px 0px -40px 0px' });
+            } else {
+                /* No observer support — show everything */
+                reveals.forEach(function(el) { el.classList.add('visible'); });
+            }
 
-            reveals.forEach(function(el) { observer.observe(el); });
+            /* Safety net: reveal everything after 3 seconds no matter what */
+            setTimeout(function() {
+                reveals.forEach(function(el) { el.classList.add('visible'); });
+            }, 3000);
         })();
     </script>
 
