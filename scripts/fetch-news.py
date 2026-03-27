@@ -33,7 +33,7 @@ FEEDS = [
 
 USER_AGENT = "C6Cyber-NewsBot/1.0"
 TIMEOUT = 15
-MAX_ARTICLES = 75
+MAX_ARTICLES = 200
 SUMMARY_LENGTH = 200
 OUTPUT_PATH = Path(__file__).resolve().parent.parent / "data" / "news.json"
 
