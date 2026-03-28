@@ -1,54 +1,152 @@
 {
-  "last_updated": "2026-03-27T22:05:34.503332+00:00",
+  "last_updated": "2026-03-28T00:14:32.200713+00:00",
   "articles": [
+    {
+      "title": "CVE-2026-4248 - Ultimate Member <= 2.11.2 - Authenticated (Contributor+) Sensitive Information Exposure to Account Takeover via Shortcode Template Tag",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-4248",
+      "summary": "CVE ID :CVE-2026-4248 Published : March 27, 2026, 11:17 p.m. | 29 minutes ago Description :The Ultimate Member plugin for WordPress is vulnerable to Sensitive Information Exposure in all versions up...",
+      "source": "CVE Feed",
+      "published": "2026-03-27T23:17:14+00:00"
+    },
+    {
+      "title": "CVE-2026-33992 - pyLoad: Server-Side Request Forgery via Download Link Submission Enables Cloud Metadata Exfiltration",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-33992",
+      "summary": "CVE ID :CVE-2026-33992 Published : March 27, 2026, 11:17 p.m. | 29 minutes ago Description :pyLoad is a free and open-source download manager written in Python. Prior to version 0.5.0b3.dev97...",
+      "source": "CVE Feed",
+      "published": "2026-03-27T23:17:14+00:00"
+    },
+    {
+      "title": "CVE-2026-33991 - WeGIA has SQL Injection in deletar_tag.php",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-33991",
+      "summary": "CVE ID :CVE-2026-33991 Published : March 27, 2026, 11:17 p.m. | 29 minutes ago Description :WeGIA is a web manager for charitable institutions. Prior to version 3.6.7, the file...",
+      "source": "CVE Feed",
+      "published": "2026-03-27T23:17:13+00:00"
+    },
+    {
+      "title": "CVE-2026-33989 - @mobilenext/mobile-mcp alllows arbitrary file write via Path Traversal in mobile screen capture tools",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-33989",
+      "summary": "CVE ID :CVE-2026-33989 Published : March 27, 2026, 10:16 p.m. | 1 hour, 30 minutes ago Description :Mobile Next is an MCP server for mobile development and automation. Prior to version 0.0.49, the...",
+      "source": "CVE Feed",
+      "published": "2026-03-27T22:16:22+00:00"
+    },
+    {
+      "title": "CVE-2026-33981 - Changedetection.io Discloses Environment Variables via jq env Builtin in Include Filters",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-33981",
+      "summary": "CVE ID :CVE-2026-33981 Published : March 27, 2026, 10:16 p.m. | 1 hour, 30 minutes ago Description :changedetection.io is a free open source web page change detection tool. Prior to 0.54.7, the `jq:`...",
+      "source": "CVE Feed",
+      "published": "2026-03-27T22:16:22+00:00"
+    },
+    {
+      "title": "CVE-2026-33980 - Azure Data Explorer MCP Server: KQL Injection in multiple tools allows MCP client to execute arbitrary Kusto queries",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-33980",
+      "summary": "CVE ID :CVE-2026-33980 Published : March 27, 2026, 10:16 p.m. | 1 hour, 30 minutes ago Description :Azure Data Explorer MCP Server is a Model Context Protocol (MCP) server that enables AI assistants...",
+      "source": "CVE Feed",
+      "published": "2026-03-27T22:16:22+00:00"
+    },
+    {
+      "title": "CVE-2026-33979 - Express XSS Sanitizer: allowedTags/allowedAttributes bypass leads to permissive sanitization (XSS risk)",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-33979",
+      "summary": "CVE ID :CVE-2026-33979 Published : March 27, 2026, 10:16 p.m. | 1 hour, 30 minutes ago Description :Express XSS Sanitizer is Express 4.x and 5.x middleware which sanitizes user input data (in...",
+      "source": "CVE Feed",
+      "published": "2026-03-27T22:16:22+00:00"
+    },
+    {
+      "title": "CVE-2026-33976 - Notesnook vulnerable to RCE via stored XSS in Web Clipper rendering",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-33976",
+      "summary": "CVE ID :CVE-2026-33976 Published : March 27, 2026, 10:16 p.m. | 1 hour, 30 minutes ago Description :Notesnook is a note-taking app. Prior to version 3.3.11 on Web/Desktop and 3.3.17 on Android/iOS, a...",
+      "source": "CVE Feed",
+      "published": "2026-03-27T22:16:22+00:00"
+    },
+    {
+      "title": "CVE-2026-33955 - Notesnook vulnerable to RCE via stored XSS in Note History diff viewer",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-33955",
+      "summary": "CVE ID :CVE-2026-33955 Published : March 27, 2026, 10:16 p.m. | 1 hour, 30 minutes ago Description :Notesnook is a note-taking app. Prior to version 3.3.11 on Web/Desktop, a cross-site scripting...",
+      "source": "CVE Feed",
+      "published": "2026-03-27T22:16:22+00:00"
+    },
+    {
+      "title": "CVE-2026-33953 - LinkAce's SSRF protection can be bypassed via internal hostname resolution in LinkAce",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-33953",
+      "summary": "CVE ID :CVE-2026-33953 Published : March 27, 2026, 10:16 p.m. | 1 hour, 30 minutes ago Description :LinkAce is a self-hosted archive to collect website links. Versions prior to 2.5.3 block direct...",
+      "source": "CVE Feed",
+      "published": "2026-03-27T22:16:21+00:00"
+    },
+    {
+      "title": "CVE-2026-33946 - MCP Ruby SDK: Insufficient Session Binding Allows SSE Stream Hijacking via Session ID Replay",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-33946",
+      "summary": "CVE ID :CVE-2026-33946 Published : March 27, 2026, 10:16 p.m. | 1 hour, 30 minutes ago Description :MCP Ruby SDK is the official Ruby SDK for Model Context Protocol servers and clients. Prior to...",
+      "source": "CVE Feed",
+      "published": "2026-03-27T22:16:21+00:00"
+    },
+    {
+      "title": "CVE-2026-33943 - Happy DOM ECMAScriptModuleCompiler: unsanitized export names are interpolated as executable code",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-33943",
+      "summary": "CVE ID :CVE-2026-33943 Published : March 27, 2026, 10:16 p.m. | 1 hour, 30 minutes ago Description :Happy DOM is a JavaScript implementation of a web browser without its graphical user interface. In...",
+      "source": "CVE Feed",
+      "published": "2026-03-27T22:16:21+00:00"
+    },
+    {
+      "title": "CVE-2026-33941 - Handlebars.js has JavaScript Injection in CLI Precompiler via Unescaped Names and Options",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-33941",
+      "summary": "CVE ID :CVE-2026-33941 Published : March 27, 2026, 10:16 p.m. | 1 hour, 30 minutes ago Description :Handlebars provides the power necessary to let users build semantic templates. In versions 4.0.0...",
+      "source": "CVE Feed",
+      "published": "2026-03-27T22:16:21+00:00"
+    },
+    {
+      "title": "CVE-2026-33940 - Handlebars.js has JavaScript Injection via AST Type Confusion when passing an object as dynamic partial",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-33940",
+      "summary": "CVE ID :CVE-2026-33940 Published : March 27, 2026, 10:16 p.m. | 1 hour, 30 minutes ago Description :Handlebars provides the power necessary to let users build semantic templates. In versions 4.0.0...",
+      "source": "CVE Feed",
+      "published": "2026-03-27T22:16:21+00:00"
+    },
+    {
+      "title": "CVE-2019-25651 - Ubiquiti UniFi Devices Use of AES-CBC Allows Key Recovery and Unauthorized Device Control",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2019-25651",
+      "summary": "CVE ID :CVE-2019-25651 Published : March 27, 2026, 10:16 p.m. | 1 hour, 30 minutes ago Description :Ubiquiti UniFi Network Controller prior to 5.10.12 (excluding 5.6.42), UAP FW prior to 4.0.6...",
+      "source": "CVE Feed",
+      "published": "2026-03-27T22:16:19+00:00"
+    },
     {
       "title": "CVE-2026-4976 - Totolink LR350 cstecgi.cgi setWiFiGuestCfg buffer overflow",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-4976",
-      "summary": "CVE ID :CVE-2026-4976 Published : March 27, 2026, 9:17 p.m. | 29 minutes ago Description :A vulnerability was found in Totolink LR350 9.3.5u.6369_B20220309. This vulnerability affects the function...",
+      "summary": "CVE ID :CVE-2026-4976 Published : March 27, 2026, 9:17 p.m. | 2 hours, 29 minutes ago Description :A vulnerability was found in Totolink LR350 9.3.5u.6369_B20220309. This vulnerability affects the...",
       "source": "CVE Feed",
       "published": "2026-03-27T21:17:28+00:00"
     },
     {
       "title": "CVE-2026-34046 - Langflow: Authenticated Users Can Read, Modify, and Delete Any Flow via Missing Ownership Check",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-34046",
-      "summary": "CVE ID :CVE-2026-34046 Published : March 27, 2026, 9:17 p.m. | 29 minutes ago Description :Langflow is a tool for building and deploying AI-powered agents and workflows. Prior to version 1.5.1, the...",
+      "summary": "CVE ID :CVE-2026-34046 Published : March 27, 2026, 9:17 p.m. | 2 hours, 29 minutes ago Description :Langflow is a tool for building and deploying AI-powered agents and workflows. Prior to version...",
       "source": "CVE Feed",
       "published": "2026-03-27T21:17:27+00:00"
     },
     {
       "title": "CVE-2026-33938 - Handlebars.js has JavaScript Injection via AST Type Confusion by tampering @partial-block",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-33938",
-      "summary": "CVE ID :CVE-2026-33938 Published : March 27, 2026, 9:17 p.m. | 29 minutes ago Description :Handlebars provides the power necessary to let users build semantic templates. In versions 4.0.0 through...",
+      "summary": "CVE ID :CVE-2026-33938 Published : March 27, 2026, 9:17 p.m. | 2 hours, 29 minutes ago Description :Handlebars provides the power necessary to let users build semantic templates. In versions 4.0.0...",
       "source": "CVE Feed",
       "published": "2026-03-27T21:17:27+00:00"
     },
     {
       "title": "CVE-2026-33937 - Handlebars.js has JavaScript Injection via AST Type Confusion",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-33937",
-      "summary": "CVE ID :CVE-2026-33937 Published : March 27, 2026, 9:17 p.m. | 29 minutes ago Description :Handlebars provides the power necessary to let users build semantic templates. In versions 4.0.0 through...",
+      "summary": "CVE ID :CVE-2026-33937 Published : March 27, 2026, 9:17 p.m. | 2 hours, 29 minutes ago Description :Handlebars provides the power necessary to let users build semantic templates. In versions 4.0.0...",
       "source": "CVE Feed",
       "published": "2026-03-27T21:17:27+00:00"
     },
     {
       "title": "CVE-2026-33875 - Authenticator Vulnerable to Authentication Flow Hijack",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-33875",
-      "summary": "CVE ID :CVE-2026-33875 Published : March 27, 2026, 9:17 p.m. | 29 minutes ago Description :Gematik Authenticator securely authenticates users for login to digital health applications. Versions prior...",
+      "summary": "CVE ID :CVE-2026-33875 Published : March 27, 2026, 9:17 p.m. | 2 hours, 29 minutes ago Description :Gematik Authenticator securely authenticates users for login to digital health applications...",
       "source": "CVE Feed",
       "published": "2026-03-27T21:17:24+00:00"
     },
     {
       "title": "CVE-2026-33873 - Langflow has Authenticated Code Execution in Agentic Assistant Validation",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-33873",
-      "summary": "CVE ID :CVE-2026-33873 Published : March 27, 2026, 9:17 p.m. | 29 minutes ago Description :Langflow is a tool for building and deploying AI-powered agents and workflows. Prior to version 1.9.0, the...",
+      "summary": "CVE ID :CVE-2026-33873 Published : March 27, 2026, 9:17 p.m. | 2 hours, 29 minutes ago Description :Langflow is a tool for building and deploying AI-powered agents and workflows. Prior to version...",
       "source": "CVE Feed",
       "published": "2026-03-27T21:17:23+00:00"
-    },
-    {
-      "title": "CVE-2019-25651 - Ubiquiti UniFi Devices Use of AES-CBC Allows Key Recovery and Unauthorized Device Control",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2019-25651",
-      "summary": "CVE ID :CVE-2019-25651 Published : March 27, 2026, 9:16 p.m. | 30 minutes ago Description :Ubiquiti UniFi Network Controller prior to 5.10.12 (excluding 5.6.42), UAP FW prior to 4.0.6, UAP-AC, UAP-AC...",
-      "source": "CVE Feed",
-      "published": "2026-03-27T21:16:30+00:00"
     },
     {
       "title": "Backdoored Telnyx PyPI package pushes malware hidden in WAV audio",
@@ -60,72 +158,30 @@
     {
       "title": "CVE-2026-4975 - Tenda AC15 POST Request setcfm formSetCfm memory corruption",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-4975",
-      "summary": "CVE ID :CVE-2026-4975 Published : March 27, 2026, 8:16 p.m. | 1 hour, 30 minutes ago Description :A vulnerability has been found in Tenda AC15 15.03.05.19. This affects the function formSetCfm of the...",
+      "summary": "CVE ID :CVE-2026-4975 Published : March 27, 2026, 8:16 p.m. | 3 hours, 30 minutes ago Description :A vulnerability has been found in Tenda AC15 15.03.05.19. This affects the function formSetCfm of...",
       "source": "CVE Feed",
       "published": "2026-03-27T20:16:38+00:00"
     },
     {
       "title": "CVE-2026-4974 - Tenda AC7 POST Request SetSysTimeCfg fromSetSysTime memory corruption",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-4974",
-      "summary": "CVE ID :CVE-2026-4974 Published : March 27, 2026, 8:16 p.m. | 1 hour, 30 minutes ago Description :A flaw has been found in Tenda AC7 15.03.06.44. Affected by this issue is the function fromSetSysTime...",
+      "summary": "CVE ID :CVE-2026-4974 Published : March 27, 2026, 8:16 p.m. | 3 hours, 30 minutes ago Description :A flaw has been found in Tenda AC7 15.03.06.44. Affected by this issue is the function...",
       "source": "CVE Feed",
       "published": "2026-03-27T20:16:38+00:00"
     },
     {
       "title": "CVE-2026-34205 - Home Assistant: Unauthenticated App (Add-on) Endpoints Exposed to Local Network via Host Network Mode",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-34205",
-      "summary": "CVE ID :CVE-2026-34205 Published : March 27, 2026, 8:16 p.m. | 1 hour, 30 minutes ago Description :Home Assistant is open source home automation software that puts local control and privacy first...",
+      "summary": "CVE ID :CVE-2026-34205 Published : March 27, 2026, 8:16 p.m. | 3 hours, 30 minutes ago Description :Home Assistant is open source home automation software that puts local control and privacy first...",
       "source": "CVE Feed",
       "published": "2026-03-27T20:16:35+00:00"
     },
     {
       "title": "CVE-2026-33871 - Netty HTTP/2 CONTINUATION Frame Flood DoS via Zero-Byte Frame Bypass",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-33871",
-      "summary": "CVE ID :CVE-2026-33871 Published : March 27, 2026, 8:16 p.m. | 1 hour, 30 minutes ago Description :Netty is an asynchronous, event-driven network application framework. In versions prior to...",
+      "summary": "CVE ID :CVE-2026-33871 Published : March 27, 2026, 8:16 p.m. | 3 hours, 30 minutes ago Description :Netty is an asynchronous, event-driven network application framework. In versions prior to...",
       "source": "CVE Feed",
       "published": "2026-03-27T20:16:34+00:00"
-    },
-    {
-      "title": "CVE-2026-33765 - Pi-hole Web Interface has a Command Injection Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-33765",
-      "summary": "CVE ID :CVE-2026-33765 Published : March 27, 2026, 8:16 p.m. | 1 hour, 30 minutes ago Description :Pi-hole Admin Interface is a web interface for managing Pi-hole, a network-level ad and internet...",
-      "source": "CVE Feed",
-      "published": "2026-03-27T20:16:34+00:00"
-    },
-    {
-      "title": "CVE-2026-33654 - Zero-Click Indirect Prompt Injection and Authentication Bypass via Email Polling",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-33654",
-      "summary": "CVE ID :CVE-2026-33654 Published : March 27, 2026, 8:16 p.m. | 1 hour, 30 minutes ago Description :nanobot is a personal AI assistant. Prior to version 0.1.6, an indirect prompt injection...",
-      "source": "CVE Feed",
-      "published": "2026-03-27T20:16:32+00:00"
-    },
-    {
-      "title": "CVE-2026-31943 - LibreChat has SSRF protection bypass via IPv4-mapped IPv6 normalization in isPrivateIP",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-31943",
-      "summary": "CVE ID :CVE-2026-31943 Published : March 27, 2026, 8:16 p.m. | 1 hour, 30 minutes ago Description :LibreChat is a ChatGPT clone with additional features. Prior to version 0.8.3, `isPrivateIP()` in...",
-      "source": "CVE Feed",
-      "published": "2026-03-27T20:16:29+00:00"
-    },
-    {
-      "title": "CVE-2026-34375 - AVideo Vulnerable to Reflected XSS via Unsanitized plugin Parameter in YPTWallet Stripe Payment Page",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-34375",
-      "summary": "CVE ID :CVE-2026-34375 Published : March 27, 2026, 7:16 p.m. | 2 hours, 30 minutes ago Description :WWBN AVideo is an open source video platform. In versions up to and including 26.0, the YPTWallet...",
-      "source": "CVE Feed",
-      "published": "2026-03-27T19:16:43+00:00"
-    },
-    {
-      "title": "CVE-2026-34374 - AVideo has SQL Injection in Live_schedule::keyExists() via Unparameterized Stream Key",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-34374",
-      "summary": "CVE ID :CVE-2026-34374 Published : March 27, 2026, 7:16 p.m. | 2 hours, 30 minutes ago Description :WWBN AVideo is an open source video platform. In versions up to and including 26.0, the...",
-      "source": "CVE Feed",
-      "published": "2026-03-27T19:16:42+00:00"
-    },
-    {
-      "title": "CVE-2026-26061 - Fleet's unbounded request body read allows remote Denial of Service",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-26061",
-      "summary": "CVE ID :CVE-2026-26061 Published : March 27, 2026, 7:16 p.m. | 2 hours, 30 minutes ago Description :Fleet is open source device management software. Prior to 4.81.0, Fleet contained multiple...",
-      "source": "CVE Feed",
-      "published": "2026-03-27T19:16:42+00:00"
     },
     {
       "title": "European Parliament rejects extension of CSAM scanning rules for tech platforms",
@@ -133,13 +189,6 @@
       "summary": "The 311 members of Parliament who voted against an extension did so despite strong support from law enforcement, children’s rights groups, German Chancellor Friedrich Merz, several European...",
       "source": "The Record",
       "published": "2026-03-27T18:44:00+00:00"
-    },
-    {
-      "title": "CVE-2025-15617 - Wazuh GitHub Actions Workflow Exposure of Sensitive Credentials",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2025-15617",
-      "summary": "CVE ID :CVE-2025-15617 Published : March 27, 2026, 6:16 p.m. | 3 hours, 30 minutes ago Description :Wazuh version 4.12.0 contains an exposure vulnerability in GitHub Actions workflow artifacts that...",
-      "source": "CVE Feed",
-      "published": "2026-03-27T18:16:03+00:00"
     },
     {
       "title": "UK weighs new limits on political donations as reports warn of hard-to-trace foreign interference",
@@ -156,55 +205,6 @@
       "published": "2026-03-27T17:22:00+00:00"
     },
     {
-      "title": "CVE-2026-4961 - Tenda AC6 POST Request QuickIndex formQuickIndex stack-based overflow",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-4961",
-      "summary": "CVE ID :CVE-2026-4961 Published : March 27, 2026, 5:16 p.m. | 4 hours, 30 minutes ago Description :A vulnerability was identified in Tenda AC6 15.03.05.16. Affected by this vulnerability is the...",
-      "source": "CVE Feed",
-      "published": "2026-03-27T17:16:31+00:00"
-    },
-    {
-      "title": "CVE-2026-4960 - Tenda AC6 POST Request WizardHandle fromWizardHandle stack-based overflow",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-4960",
-      "summary": "CVE ID :CVE-2026-4960 Published : March 27, 2026, 5:16 p.m. | 4 hours, 30 minutes ago Description :A vulnerability was determined in Tenda AC6 15.03.05.16. Affected is the function fromWizardHandle...",
-      "source": "CVE Feed",
-      "published": "2026-03-27T17:16:30+00:00"
-    },
-    {
-      "title": "CVE-2026-33867 - AVideo has Plaintext Video Password Storage",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-33867",
-      "summary": "CVE ID :CVE-2026-33867 Published : March 27, 2026, 5:16 p.m. | 4 hours, 30 minutes ago Description :WWBN AVideo is an open source video platform. In versions up to and including 26.0, AVideo allows...",
-      "source": "CVE Feed",
-      "published": "2026-03-27T17:16:29+00:00"
-    },
-    {
-      "title": "CVE-2026-28369 - Undertow: undertow: request smuggling via malformed http request headers",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-28369",
-      "summary": "CVE ID :CVE-2026-28369 Published : March 27, 2026, 5:16 p.m. | 4 hours, 30 minutes ago Description :A flaw was found in Undertow. When Undertow receives an HTTP request where the first header line...",
-      "source": "CVE Feed",
-      "published": "2026-03-27T17:16:28+00:00"
-    },
-    {
-      "title": "CVE-2026-28368 - Undertow: undertow: request smuggling via inconsistent header parsing",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-28368",
-      "summary": "CVE ID :CVE-2026-28368 Published : March 27, 2026, 5:16 p.m. | 4 hours, 30 minutes ago Description :A flaw was found in Undertow. This vulnerability allows a remote attacker to construct specially...",
-      "source": "CVE Feed",
-      "published": "2026-03-27T17:16:27+00:00"
-    },
-    {
-      "title": "CVE-2026-28367 - Undertow: undertow: request smuggling via `\\r\\r\\r` as a header block terminator",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-28367",
-      "summary": "CVE ID :CVE-2026-28367 Published : March 27, 2026, 5:16 p.m. | 4 hours, 30 minutes ago Description :A flaw was found in Undertow. A remote attacker can exploit this vulnerability by sending `\\r\\r\\r`...",
-      "source": "CVE Feed",
-      "published": "2026-03-27T17:16:27+00:00"
-    },
-    {
-      "title": "CVE-2025-15381 - Unauthorized Access to Tracing and Assessment Endpoints in mlflow/mlflow",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2025-15381",
-      "summary": "CVE ID :CVE-2025-15381 Published : March 27, 2026, 5:16 p.m. | 4 hours, 30 minutes ago Description :In the latest version of mlflow/mlflow, when the `basic-auth` app is enabled, tracing and...",
-      "source": "CVE Feed",
-      "published": "2026-03-27T17:16:26+00:00"
-    },
-    {
       "title": "FBI confirms theft of director’s personal emails by Iran-linked hacking group",
       "link": "https://therecord.media/fbi-confirms-theft-of-directors-personal-emails-iran-group",
       "summary": "An FBI spokesperson told Recorded Future News that the information is “historical in nature and involves no government information,” adding that the agency has “taken all necessary steps to mitigate...",
@@ -214,8 +214,8 @@
     {
       "title": "TeamPCP Pushes Malicious Telnyx Versions to PyPI, Hides Stealer in WAV Files",
       "link": "https://thehackernews.com/2026/03/teampcp-pushes-malicious-telnyx.html",
-      "summary": "TeamPCP, the threat actor behind the supply chain attack targeting Trivy, KICS, and litellm, has now compromised the telnyx Python package by pushing two malicious versions to steal sensitive data...",
-      "source": "The Hacker News",
+      "summary": "TeamPCP Pushes Malicious Telnyx Versions to PyPI, Hides Stealer in WAV Files TeamPCP, the threat actor behind the supply chain attack targeting Trivy, KICS, and litellm, has now compromised the...",
+      "source": "CVE Newsroom",
       "published": "2026-03-27T16:53:00+00:00"
     },
     {
@@ -466,8 +466,8 @@
     {
       "title": "LangChain, LangGraph Flaws Expose Files, Secrets, Databases in Widely Used AI Frameworks",
       "link": "https://thehackernews.com/2026/03/langchain-langgraph-flaws-expose-files.html",
-      "summary": "Cybersecurity researchers have disclosed three security vulnerabilities impacting LangChain and LangGraph that, if successfully exploited, could expose filesystem data, environment secrets, and...",
-      "source": "The Hacker News",
+      "summary": "LangChain, LangGraph Flaws Expose Files, Secrets, Databases in Widely Used AI Frameworks Cybersecurity researchers have disclosed three security vulnerabilities impacting LangChain and LangGraph...",
+      "source": "CVE Newsroom",
       "published": "2026-03-27T08:07:00+00:00"
     },
     {
