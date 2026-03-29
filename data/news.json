@@ -1,24 +1,150 @@
 {
-  "last_updated": "2026-03-29T14:10:21.922966+00:00",
+  "last_updated": "2026-03-29T16:06:42.409068+00:00",
   "articles": [
+    {
+      "title": "CVE-2026-5046 - Tenda FH1201 Parameter WrlExtraSet formWrlExtraSet stack-based overflow",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-5046",
+      "summary": "CVE ID :CVE-2026-5046 Published : March 29, 2026, 3:16 p.m. | 34 minutes ago Description :A flaw has been found in Tenda FH1201 1.2.0.14(408). Affected is the function formWrlExtraSet of the file...",
+      "source": "CVE Feed",
+      "published": "2026-03-29T15:16:36+00:00"
+    },
+    {
+      "title": "File read flaw in Smart Slider plugin impacts 500K WordPress sites",
+      "link": "https://www.bleepingcomputer.com/news/security/file-read-flaw-in-smart-slider-plugin-impacts-500k-wordpress-sites/",
+      "summary": "A vulnerability in the Smart Slider 3 WordPress plugin, active on more than 800,000 websites, can be exploited to allow subscriber-level users access to arbitrary files on the server. [...]",
+      "source": "BleepingComputer",
+      "published": "2026-03-29T14:38:25+00:00"
+    },
+    {
+      "title": "CVE-2026-5045 - Tenda FH1201 Parameter WrlclientSet stack-based overflow",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-5045",
+      "summary": "CVE ID :CVE-2026-5045 Published : March 29, 2026, 2:16 p.m. | 1 hour, 34 minutes ago Description :A vulnerability was detected in Tenda FH1201 1.2.0.14(408). This impacts the function WrlclientSet of...",
+      "source": "CVE Feed",
+      "published": "2026-03-29T14:16:32+00:00"
+    },
+    {
+      "title": "CVE-2026-5044 - Belkin F9K1122 Setting formSetSystemSettings stack-based overflow",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-5044",
+      "summary": "CVE ID :CVE-2026-5044 Published : March 29, 2026, 1:17 p.m. | 2 hours, 33 minutes ago Description :A security vulnerability has been detected in Belkin F9K1122 1.00.33. This affects the function...",
+      "source": "CVE Feed",
+      "published": "2026-03-29T13:17:03+00:00"
+    },
+    {
+      "title": "CVE-2026-33575 - OpenClaw < 2026.3.12 - Long-lived Credential Exposure in Pairing Setup Codes",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-33575",
+      "summary": "CVE ID :CVE-2026-33575 Published : March 29, 2026, 1:17 p.m. | 2 hours, 33 minutes ago Description :OpenClaw before 2026.3.12 embeds long-lived shared gateway credentials directly in pairing setup...",
+      "source": "CVE Feed",
+      "published": "2026-03-29T13:17:03+00:00"
+    },
+    {
+      "title": "CVE-2026-33573 - OpenClaw < 2026.3.11 - Workspace Boundary Bypass via Agent RPC Parameters",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-33573",
+      "summary": "CVE ID :CVE-2026-33573 Published : March 29, 2026, 1:17 p.m. | 2 hours, 33 minutes ago Description :OpenClaw before 2026.3.11 contains an authorization bypass vulnerability in the gateway agent RPC...",
+      "source": "CVE Feed",
+      "published": "2026-03-29T13:17:02+00:00"
+    },
+    {
+      "title": "CVE-2026-33572 - OpenClaw < 2026.2.17 - Insufficient File Permissions in Session Transcript Files",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-33572",
+      "summary": "CVE ID :CVE-2026-33572 Published : March 29, 2026, 1:17 p.m. | 2 hours, 33 minutes ago Description :OpenClaw before 2026.2.17 creates session transcript JSONL files with overly broad default...",
+      "source": "CVE Feed",
+      "published": "2026-03-29T13:17:02+00:00"
+    },
+    {
+      "title": "CVE-2026-32987 - OpenClaw < 2026.3.13 - Bootstrap Setup Code Replay via Device Pairing",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-32987",
+      "summary": "CVE ID :CVE-2026-32987 Published : March 29, 2026, 1:17 p.m. | 2 hours, 33 minutes ago Description :OpenClaw before 2026.3.13 allows bootstrap setup codes to be replayed during device pairing...",
+      "source": "CVE Feed",
+      "published": "2026-03-29T13:17:02+00:00"
+    },
+    {
+      "title": "CVE-2026-32980 - OpenClaw < 2026.3.13 - Resource Exhaustion via Unauthenticated Telegram Webhook Request",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-32980",
+      "summary": "CVE ID :CVE-2026-32980 Published : March 29, 2026, 1:17 p.m. | 2 hours, 33 minutes ago Description :OpenClaw before 2026.3.13 reads and buffers Telegram webhook request bodies before validating the...",
+      "source": "CVE Feed",
+      "published": "2026-03-29T13:17:02+00:00"
+    },
+    {
+      "title": "CVE-2026-32978 - OpenClaw < 2026.3.11 - Approval Bypass via Unrecognized Script Runners",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-32978",
+      "summary": "CVE ID :CVE-2026-32978 Published : March 29, 2026, 1:17 p.m. | 2 hours, 33 minutes ago Description :OpenClaw before 2026.3.11 contains an approval integrity vulnerability where system.run approvals...",
+      "source": "CVE Feed",
+      "published": "2026-03-29T13:17:01+00:00"
+    },
+    {
+      "title": "CVE-2026-32975 - OpenClaw < 2026.3.12 - Weak Authorization via Mutable Group Names in Zalouser Allowlist",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-32975",
+      "summary": "CVE ID :CVE-2026-32975 Published : March 29, 2026, 1:17 p.m. | 2 hours, 33 minutes ago Description :OpenClaw before 2026.3.12 contains a weak authorization vulnerability in Zalouser allowlist mode...",
+      "source": "CVE Feed",
+      "published": "2026-03-29T13:17:01+00:00"
+    },
+    {
+      "title": "CVE-2026-32974 - OpenClaw < 2026.3.12 - Forged Event Injection via Feishu Webhook Verification Token",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-32974",
+      "summary": "CVE ID :CVE-2026-32974 Published : March 29, 2026, 1:17 p.m. | 2 hours, 33 minutes ago Description :OpenClaw before 2026.3.12 contains an authentication bypass vulnerability in Feishu webhook mode...",
+      "source": "CVE Feed",
+      "published": "2026-03-29T13:17:01+00:00"
+    },
+    {
+      "title": "CVE-2026-32973 - OpenClaw < 2026.3.11 - Exec Allowlist Pattern Overmatch via POSIX Path Normalization",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-32973",
+      "summary": "CVE ID :CVE-2026-32973 Published : March 29, 2026, 1:17 p.m. | 2 hours, 33 minutes ago Description :OpenClaw before 2026.3.11 contains an exec allowlist bypass vulnerability where...",
+      "source": "CVE Feed",
+      "published": "2026-03-29T13:17:01+00:00"
+    },
+    {
+      "title": "CVE-2026-32924 - OpenClaw < 2026.3.12 - Authorization Bypass via Misclassified Reaction Events in Feishu",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-32924",
+      "summary": "CVE ID :CVE-2026-32924 Published : March 29, 2026, 1:17 p.m. | 2 hours, 33 minutes ago Description :OpenClaw before 2026.3.12 contains an authorization bypass vulnerability where Feishu reaction...",
+      "source": "CVE Feed",
+      "published": "2026-03-29T13:17:00+00:00"
+    },
+    {
+      "title": "CVE-2026-32922 - OpenClaw < 2026.3.11 - Privilege Escalation via Unvalidated Scope in device.token.rotate",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-32922",
+      "summary": "CVE ID :CVE-2026-32922 Published : March 29, 2026, 1:17 p.m. | 2 hours, 33 minutes ago Description :OpenClaw before 2026.3.11 contains a privilege escalation vulnerability in device.token.rotate that...",
+      "source": "CVE Feed",
+      "published": "2026-03-29T13:17:00+00:00"
+    },
+    {
+      "title": "CVE-2026-32918 - OpenClaw < 2026.3.11 - Session Sandbox Escape via session_status Tool",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-32918",
+      "summary": "CVE ID :CVE-2026-32918 Published : March 29, 2026, 1:17 p.m. | 2 hours, 33 minutes ago Description :OpenClaw before 2026.3.11 contains a session sandbox escape vulnerability in the session_status...",
+      "source": "CVE Feed",
+      "published": "2026-03-29T13:17:00+00:00"
+    },
+    {
+      "title": "CVE-2026-32915 - OpenClaw < 2026.3.11 - Sandbox Boundary Bypass via Subagent Control Surface",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-32915",
+      "summary": "CVE ID :CVE-2026-32915 Published : March 29, 2026, 1:16 p.m. | 2 hours, 33 minutes ago Description :OpenClaw before 2026.3.11 contains a sandbox boundary bypass vulnerability allowing leaf subagents...",
+      "source": "CVE Feed",
+      "published": "2026-03-29T13:16:59+00:00"
+    },
+    {
+      "title": "CVE-2026-32914 - OpenClaw < 2026.3.12 - Insufficient Access Control in /config and /debug Endpoints",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-32914",
+      "summary": "CVE ID :CVE-2026-32914 Published : March 29, 2026, 1:16 p.m. | 2 hours, 33 minutes ago Description :OpenClaw before 2026.3.12 contains an insufficient access control vulnerability in the /config and...",
+      "source": "CVE Feed",
+      "published": "2026-03-29T13:16:59+00:00"
+    },
     {
       "title": "CVE-2026-5043 - Belkin F9K1122 Parameter formSetPassword stack-based overflow",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-5043",
-      "summary": "CVE ID :CVE-2026-5043 Published : March 29, 2026, 12:15 p.m. | 53 minutes ago Description :A weakness has been identified in Belkin F9K1122 1.00.33. The impacted element is the function...",
+      "summary": "CVE ID :CVE-2026-5043 Published : March 29, 2026, 12:15 p.m. | 3 hours, 34 minutes ago Description :A weakness has been identified in Belkin F9K1122 1.00.33. The impacted element is the function...",
       "source": "CVE Feed",
       "published": "2026-03-29T12:15:57+00:00"
     },
     {
       "title": "CVE-2026-5042 - Belkin F9K1122 Parameter formCrossBandSwitch stack-based overflow",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-5042",
-      "summary": "CVE ID :CVE-2026-5042 Published : March 29, 2026, 11:16 a.m. | 1 hour, 52 minutes ago Description :A security flaw has been discovered in Belkin F9K1122 1.00.33. The affected element is the function...",
+      "summary": "CVE ID :CVE-2026-5042 Published : March 29, 2026, 11:16 a.m. | 4 hours, 34 minutes ago Description :A security flaw has been discovered in Belkin F9K1122 1.00.33. The affected element is the function...",
       "source": "CVE Feed",
       "published": "2026-03-29T11:16:34+00:00"
     },
     {
       "title": "CVE-2026-5036 - Tenda 4G06 Endpoint DhcpListClient fromDhcpListClient stack-based overflow",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-5036",
-      "summary": "CVE ID :CVE-2026-5036 Published : March 29, 2026, 8:15 a.m. | 4 hours, 53 minutes ago Description :A vulnerability was found in Tenda 4G06 04.06.01.29. This vulnerability affects the function...",
+      "summary": "CVE ID :CVE-2026-5036 Published : March 29, 2026, 8:15 a.m. | 7 hours, 34 minutes ago Description :A vulnerability was found in Tenda 4G06 04.06.01.29. This vulnerability affects the function...",
       "source": "CVE Feed",
       "published": "2026-03-29T08:15:56+00:00"
     },
@@ -46,21 +172,21 @@
     {
       "title": "CVE-2026-5024 - D-Link DIR-513 formSetEmail stack-based overflow",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-5024",
-      "summary": "CVE ID :CVE-2026-5024 Published : March 29, 2026, 4:16 a.m. | 8 hours, 53 minutes ago Description :A vulnerability was found in D-Link DIR-513 1.10. This issue affects the function formSetEmail of...",
+      "summary": "CVE ID :CVE-2026-5024 Published : March 29, 2026, 4:16 a.m. | 11 hours, 34 minutes ago Description :A vulnerability was found in D-Link DIR-513 1.10. This issue affects the function formSetEmail of...",
       "source": "CVE Feed",
       "published": "2026-03-29T04:16:00+00:00"
     },
     {
       "title": "CVE-2026-5021 - Tenda F453 httpd PPTPUserSetting fromPPTPUserSetting stack-based overflow",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-5021",
-      "summary": "CVE ID :CVE-2026-5021 Published : March 29, 2026, 2:16 a.m. | 10 hours, 52 minutes ago Description :A flaw has been found in Tenda F453 1.0.0.3. This affects the function fromPPTPUserSetting of the...",
+      "summary": "CVE ID :CVE-2026-5021 Published : March 29, 2026, 2:16 a.m. | 13 hours, 34 minutes ago Description :A flaw has been found in Tenda F453 1.0.0.3. This affects the function fromPPTPUserSetting of the...",
       "source": "CVE Feed",
       "published": "2026-03-29T02:16:17+00:00"
     },
     {
       "title": "CVE-2026-5004 - Wavlink WL-WN579X3-C UPNP firewall.cgi sub_4019FC stack-based overflow",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-5004",
-      "summary": "CVE ID :CVE-2026-5004 Published : March 28, 2026, 6:15 p.m. | 18 hours, 53 minutes ago Description :A vulnerability was determined in Wavlink WL-WN579X3-C 231124. This impacts the function sub_4019FC...",
+      "summary": "CVE ID :CVE-2026-5004 Published : March 28, 2026, 6:15 p.m. | 21 hours, 34 minutes ago Description :A vulnerability was determined in Wavlink WL-WN579X3-C 231124. This impacts the function sub_4019FC...",
       "source": "CVE Feed",
       "published": "2026-03-28T18:15:57+00:00"
     },
@@ -88,135 +214,16 @@
     {
       "title": "CVE-2018-25225 - SIPP 3.3 Stack-Based Buffer Overflow via Configuration File",
       "link": "https://cvefeed.io/vuln/detail/CVE-2018-25225",
-      "summary": "CVE ID :CVE-2018-25225 Published : March 28, 2026, 12:16 p.m. | 1 day ago Description :SIPP 3.3 contains a stack-based buffer overflow vulnerability that allows local unauthenticated attackers to...",
+      "summary": "CVE ID :CVE-2018-25225 Published : March 28, 2026, 12:16 p.m. | 1 day, 3 hours ago Description :SIPP 3.3 contains a stack-based buffer overflow vulnerability that allows local unauthenticated...",
       "source": "CVE Feed",
       "published": "2026-03-28T12:16:03+00:00"
     },
     {
       "title": "CVE-2018-25224 - PMS 0.42 Stack-Based Buffer Overflow via Configuration File",
       "link": "https://cvefeed.io/vuln/detail/CVE-2018-25224",
-      "summary": "CVE ID :CVE-2018-25224 Published : March 28, 2026, 12:16 p.m. | 1 day ago Description :PMS 0.42 contains a stack-based buffer overflow vulnerability that allows local unauthenticated attackers to...",
+      "summary": "CVE ID :CVE-2018-25224 Published : March 28, 2026, 12:16 p.m. | 1 day, 3 hours ago Description :PMS 0.42 contains a stack-based buffer overflow vulnerability that allows local unauthenticated...",
       "source": "CVE Feed",
       "published": "2026-03-28T12:16:03+00:00"
-    },
-    {
-      "title": "CVE-2018-25223 - Crashmail 1.6 Stack-based Buffer Overflow Remote Code Execution",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2018-25223",
-      "summary": "CVE ID :CVE-2018-25223 Published : March 28, 2026, 12:16 p.m. | 1 day ago Description :Crashmail 1.6 contains a stack-based buffer overflow vulnerability that allows remote attackers to execute...",
-      "source": "CVE Feed",
-      "published": "2026-03-28T12:16:03+00:00"
-    },
-    {
-      "title": "CVE-2018-25222 - SC v7.16 Stack-Based Buffer Overflow Remote Code Execution",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2018-25222",
-      "summary": "CVE ID :CVE-2018-25222 Published : March 28, 2026, 12:16 p.m. | 1 day ago Description :SC v7.16 contains a stack-based buffer overflow vulnerability that allows local attackers to execute arbitrary...",
-      "source": "CVE Feed",
-      "published": "2026-03-28T12:16:02+00:00"
-    },
-    {
-      "title": "CVE-2018-25221 - EChat Server 3.1 Buffer Overflow via chat.ghp username Parameter",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2018-25221",
-      "summary": "CVE ID :CVE-2018-25221 Published : March 28, 2026, 12:16 p.m. | 1 day ago Description :EChat Server 3.1 contains a buffer overflow vulnerability in the chat.ghp endpoint that allows remote attackers...",
-      "source": "CVE Feed",
-      "published": "2026-03-28T12:16:02+00:00"
-    },
-    {
-      "title": "CVE-2018-25220 - Bochs 2.6-5 Buffer Overflow Remote Code Execution",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2018-25220",
-      "summary": "CVE ID :CVE-2018-25220 Published : March 28, 2026, 12:16 p.m. | 1 day ago Description :Bochs 2.6-5 contains a stack-based buffer overflow vulnerability that allows attackers to execute arbitrary code...",
-      "source": "CVE Feed",
-      "published": "2026-03-28T12:16:02+00:00"
-    },
-    {
-      "title": "CVE-2017-20229 - MAWK 1.3.3-17 Stack-Based Buffer Overflow",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2017-20229",
-      "summary": "CVE ID :CVE-2017-20229 Published : March 28, 2026, 12:16 p.m. | 1 day ago Description :MAWK 1.3.3-17 and prior contains a stack-based buffer overflow vulnerability that allows attackers to execute...",
-      "source": "CVE Feed",
-      "published": "2026-03-28T12:16:02+00:00"
-    },
-    {
-      "title": "CVE-2017-20228 - Flat Assembler 1.71.21 Stack-Based Buffer Overflow ROP",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2017-20228",
-      "summary": "CVE ID :CVE-2017-20228 Published : March 28, 2026, 12:16 p.m. | 1 day ago Description :Flat Assembler 1.71.21 contains a stack-based buffer overflow vulnerability that allows local attackers to...",
-      "source": "CVE Feed",
-      "published": "2026-03-28T12:16:02+00:00"
-    },
-    {
-      "title": "CVE-2017-20227 - JAD 1.5.8e-1kali1 Stack-Based Buffer Overflow",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2017-20227",
-      "summary": "CVE ID :CVE-2017-20227 Published : March 28, 2026, 12:16 p.m. | 1 day ago Description :JAD Java Decompiler 1.5.8e-1kali1 and prior contains a stack-based buffer overflow vulnerability that allows...",
-      "source": "CVE Feed",
-      "published": "2026-03-28T12:16:01+00:00"
-    },
-    {
-      "title": "CVE-2017-20226 - Mapscrn 2.0.3 Stack-Based Buffer Overflow",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2017-20226",
-      "summary": "CVE ID :CVE-2017-20226 Published : March 28, 2026, 12:16 p.m. | 1 day ago Description :Mapscrn 2.0.3 contains a stack-based buffer overflow vulnerability that allows local attackers to execute...",
-      "source": "CVE Feed",
-      "published": "2026-03-28T12:16:01+00:00"
-    },
-    {
-      "title": "CVE-2017-20225 - TiEmu 2.08 Stack-Based Buffer Overflow Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2017-20225",
-      "summary": "CVE ID :CVE-2017-20225 Published : March 28, 2026, 12:16 p.m. | 1 day ago Description :TiEmu 2.08 and prior contains a stack-based buffer overflow vulnerability that allows attackers to execute...",
-      "source": "CVE Feed",
-      "published": "2026-03-28T12:16:01+00:00"
-    },
-    {
-      "title": "CVE-2016-20049 - JAD 1.5.8e-1kali1 Stack-Based Buffer Overflow Remote Code Execution",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2016-20049",
-      "summary": "CVE ID :CVE-2016-20049 Published : March 28, 2026, 12:16 p.m. | 1 day ago Description :JAD 1.5.8e-1kali1 and prior contains a stack-based buffer overflow vulnerability that allows attackers to...",
-      "source": "CVE Feed",
-      "published": "2026-03-28T12:16:01+00:00"
-    },
-    {
-      "title": "CVE-2016-20048 - iSelect 1.4.0-2+b1 Local Buffer Overflow via key parameter",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2016-20048",
-      "summary": "CVE ID :CVE-2016-20048 Published : March 28, 2026, 12:16 p.m. | 1 day ago Description :iSelect 1.4.0-2+b1 contains a local buffer overflow vulnerability that allows local attackers to execute...",
-      "source": "CVE Feed",
-      "published": "2026-03-28T12:16:01+00:00"
-    },
-    {
-      "title": "CVE-2016-20047 - EKG Gadu 1.9 Local Buffer Overflow via Username Parameter",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2016-20047",
-      "summary": "CVE ID :CVE-2016-20047 Published : March 28, 2026, 12:16 p.m. | 1 day ago Description :EKG Gadu 1.9~pre+r2855-3+b1 contains a local buffer overflow vulnerability in the username handling that allows...",
-      "source": "CVE Feed",
-      "published": "2026-03-28T12:16:01+00:00"
-    },
-    {
-      "title": "CVE-2016-20046 - zFTP Client 20061220+dfsg3-4.1 Local Buffer Overflow",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2016-20046",
-      "summary": "CVE ID :CVE-2016-20046 Published : March 28, 2026, 12:16 p.m. | 1 day ago Description :zFTP Client 20061220+dfsg3-4.1 contains a buffer overflow vulnerability in the NAME parameter handling of FTP...",
-      "source": "CVE Feed",
-      "published": "2026-03-28T12:16:00+00:00"
-    },
-    {
-      "title": "CVE-2016-20045 - HNB Organizer 1.9.18-10 Local Buffer Overflow via -rc Parameter",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2016-20045",
-      "summary": "CVE ID :CVE-2016-20045 Published : March 28, 2026, 12:16 p.m. | 1 day ago Description :HNB Organizer 1.9.18-10 contains a local buffer overflow vulnerability that allows local attackers to execute...",
-      "source": "CVE Feed",
-      "published": "2026-03-28T12:16:00+00:00"
-    },
-    {
-      "title": "CVE-2016-20044 - PInfo 0.6.9-5.1 Local Buffer Overflow via -m Parameter",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2016-20044",
-      "summary": "CVE ID :CVE-2016-20044 Published : March 28, 2026, 12:16 p.m. | 1 day ago Description :PInfo 0.6.9-5.1 contains a local buffer overflow vulnerability that allows local attackers to execute arbitrary...",
-      "source": "CVE Feed",
-      "published": "2026-03-28T12:16:00+00:00"
-    },
-    {
-      "title": "CVE-2016-20043 - NRSS RSS Reader 0.3.9-1 Stack Buffer Overflow",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2016-20043",
-      "summary": "CVE ID :CVE-2016-20043 Published : March 28, 2026, 12:16 p.m. | 1 day ago Description :NRSS RSS Reader 0.3.9-1 contains a stack buffer overflow vulnerability that allows local attackers to execute...",
-      "source": "CVE Feed",
-      "published": "2026-03-28T12:16:00+00:00"
-    },
-    {
-      "title": "CVE-2016-20042 - TRN 3.6-23 Stack Buffer Overflow Local Code Execution",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2016-20042",
-      "summary": "CVE ID :CVE-2016-20042 Published : March 28, 2026, 12:16 p.m. | 1 day ago Description :TRN 3.6-23 contains a stack buffer overflow vulnerability that allows local attackers to execute arbitrary code...",
-      "source": "CVE Feed",
-      "published": "2026-03-28T12:16:00+00:00"
     },
     {
       "title": "Cloudflare-Themed ClickFix Attack Drops Infiniti Stealer on Macs",
@@ -702,13 +709,6 @@
       "published": "2026-03-26T13:11:00+00:00"
     },
     {
-      "title": "Coruna iOS exploit framework linked to Triangulation attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/coruna-ios-exploit-framework-linked-to-triangulation-attacks/",
-      "summary": "The Coruna exploit kit is an evolution of the framework used in the Operation Triangulation espionage campaign, which in 2023 targeted iPhones via zero-click iMessage exploits. [...]",
-      "source": "BleepingComputer",
-      "published": "2026-03-26T13:10:14+00:00"
-    },
-    {
       "title": "Intermediaries Driving Global Spyware Market Expansion",
       "link": "https://www.darkreading.com/cyber-risk/intermediaries-driving-global-spyware-market-expansion",
       "summary": "Third-party resellers and brokers foil transparency efforts and allow spyware to spread despite government restrictions, a study finds.",
@@ -961,13 +961,6 @@
       "published": "2026-03-24T12:01:00+00:00"
     },
     {
-      "title": "Ghost Campaign Uses 7 npm Packages to Steal Crypto Wallets and Credentials",
-      "link": "https://thehackernews.com/2026/03/ghost-campaign-uses-7-npm-packages-to.html",
-      "summary": "Cybersecurity researchers have uncovered a new set of malicious npm packages that are designed to steal cryptocurrency wallets and sensitive data. The activity is being tracked by ReversingLabs as...",
-      "source": "The Hacker News",
-      "published": "2026-03-24T12:00:00+00:00"
-    },
-    {
       "title": "Pharos Controls Mosaic Show Controller",
       "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-083-01",
       "summary": "View CSAF Summary Successful exploitation of this vulnerability could allow an unauthenticated attacker to execute arbitrary commands with root privileges. The following versions of Pharos Controls...",
@@ -993,6 +986,13 @@
       "link": "https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-083-01",
       "summary": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to send a specially crafted file, and when parsed, could result in a denial-of-service condition. The following...",
       "source": "CISA Alerts",
+      "published": "2026-03-24T12:00:00+00:00"
+    },
+    {
+      "title": "Ghost Campaign Uses 7 npm Packages to Steal Crypto Wallets and Credentials",
+      "link": "https://thehackernews.com/2026/03/ghost-campaign-uses-7-npm-packages-to.html",
+      "summary": "Cybersecurity researchers have uncovered a new set of malicious npm packages that are designed to steal cryptocurrency wallets and sensitive data. The activity is being tracked by ReversingLabs as...",
+      "source": "The Hacker News",
       "published": "2026-03-24T12:00:00+00:00"
     },
     {
