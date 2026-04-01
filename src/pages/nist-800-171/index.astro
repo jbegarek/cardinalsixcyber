@@ -1,0 +1,622 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import nistData from '../../../data/nist-800-171.json';
+import cmmcData from '../../../data/cmmc-practices.json';
+
+/* ── Build CMMC practice lookup by id ── */
+interface CmmcPractice {
+    id: string;
+    displayId: string;
+    title: string;
+}
+
+const cmmcMap = new Map<string, CmmcPractice>();
+for (const p of (cmmcData as { practices: CmmcPractice[] }).practices) {
+    cmmcMap.set(p.id, p);
+}
+
+/* ── Group requirements by family at build time ── */
+interface Requirement {
+    id: string;
+    displayId: string;
+    title: string;
+    family: string;
+    familyCode: string;
+    cmmcPractices: string[] | null;
+}
+
+interface FamilyGroup {
+    code: string;
+    name: string;
+    requirements: Requirement[];
+}
+
+const grouped: FamilyGroup[] = [];
+const familyMap = new Map<string, FamilyGroup>();
+
+for (const r of (nistData as { requirements: Requirement[] }).requirements) {
+    let group = familyMap.get(r.familyCode);
+    if (!group) {
+        group = { code: r.familyCode, name: r.family, requirements: [] };
+        familyMap.set(r.familyCode, group);
+        grouped.push(group);
+    }
+    group.requirements.push(r);
+}
+
+const totalCount = (nistData as { requirements: Requirement[] }).requirements.length;
+
+/* ── Helper: resolve CMMC displayIds for a requirement ── */
+function getCmmcDisplayIds(cmmcRefs: string[] | null): string[] {
+    if (!cmmcRefs || cmmcRefs.length === 0) return [];
+    return cmmcRefs
+        .map(ref => cmmcMap.get(ref)?.displayId)
+        .filter((d): d is string => !!d);
+}
+---
+
+<BaseLayout
+    title="NIST 800-171 Requirements | Cardinal Six Cyber"
+    description="All 110 NIST SP 800-171 Rev 3 security requirements for protecting CUI, organized by family with CMMC practice cross-references."
+    canonical="https://cardinalsixcyber.com/nist-800-171"
+    ogDescription="Complete reference for all 110 NIST 800-171 requirements grouped by family with filtering and CMMC practice mappings."
+    navFixed={false}
+    activePage="resources"
+>
+    <Fragment slot="head">
+        <script type="application/ld+json" set:html={JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://cardinalsixcyber.com/" },
+                { "@type": "ListItem", "position": 2, "name": "NIST 800-171", "item": "https://cardinalsixcyber.com/nist-800-171" }
+            ]
+        })} />
+        <script type="application/ld+json" set:html={JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "CollectionPage",
+            "name": "NIST 800-171 Requirements",
+            "description": "All 110 NIST SP 800-171 Rev 3 security requirements for protecting CUI, organized by family with CMMC practice cross-references.",
+            "url": "https://cardinalsixcyber.com/nist-800-171",
+            "isPartOf": { "@type": "WebSite", "name": "Cardinal Six Cyber", "url": "https://cardinalsixcyber.com" }
+        })} />
+    </Fragment>
+
+    <!-- ═══ Hero Header ═══ -->
+    <section class="nist-header" aria-label="Page header">
+        <div class="container">
+            <span class="eyebrow reveal">Compliance Reference</span>
+            <h1 class="nist-title reveal reveal-delay-1">NIST 800-171 <span class="accent">Requirements</span></h1>
+            <div class="divider reveal reveal-delay-2"></div>
+            <p class="section-sub reveal reveal-delay-2">All 110 security requirements for protecting Controlled Unclassified Information (CUI) in nonfederal systems, organized by family with CMMC practice mappings.</p>
+        </div>
+    </section>
+
+    <!-- ═══ Sticky Filter Bar ═══ -->
+    <div class="filter-bar" id="filterBar">
+        <div class="container">
+            <div class="filter-row">
+                <!-- Family pills -->
+                <div class="filter-pills" id="familyPills" role="group" aria-label="Filter by family">
+                    <button class="filter-pill active" data-family="" aria-pressed="true">All <span class="pill-count">{totalCount}</span></button>
+                    {grouped.map(g => (
+                        <button class="filter-pill" data-family={g.code} aria-pressed="false">
+                            {g.code} <span class="pill-count">{g.requirements.length}</span>
+                        </button>
+                    ))}
+                </div>
+
+                <!-- Search only (no level toggle) -->
+                <div class="filter-controls">
+                    <div class="search-wrap">
+                        <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg>
+                        <input type="search" id="searchInput" class="search-input" placeholder="Search by ID, title, or CMMC mapping..." aria-label="Search requirements" autocomplete="off" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ═══ Requirement Listing ═══ -->
+    <section class="nist-listing" aria-label="NIST 800-171 requirements">
+        <div class="container">
+            <div id="requirementResults" aria-live="polite">
+                {grouped.map(g => (
+                    <div class="family-group" id={g.code} data-family-group={g.code}>
+                        <div class="family-heading">
+                            <h2 class="family-title">
+                                <span class="family-code">{g.code}</span>
+                                {g.name}
+                                <span class="family-count" data-family-count={g.code}>{g.requirements.length}</span>
+                            </h2>
+                        </div>
+                        <div class="requirement-list">
+                            {g.requirements.map(r => {
+                                const cmmcIds = getCmmcDisplayIds(r.cmmcPractices);
+                                const cmmcText = cmmcIds.join(', ');
+                                return (
+                                    <a
+                                        href={`/nist-800-171/${r.id}`}
+                                        class="requirement-row"
+                                        data-family={r.familyCode}
+                                        data-search={`${r.displayId} ${r.title} ${cmmcText}`.toLowerCase()}
+                                    >
+                                        <span class="req-id">{r.displayId}</span>
+                                        <span class="req-title">{r.title}</span>
+                                        {cmmcText && (
+                                            <span class="req-cmmc" title={`CMMC: ${cmmcText}`}>
+                                                &rarr; {cmmcText}
+                                            </span>
+                                        )}
+                                        <svg class="req-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="M12 5l7 7-7 7"/></svg>
+                                    </a>
+                                );
+                            })}
+                        </div>
+                    </div>
+                ))}
+            </div>
+
+            <!-- Empty state -->
+            <div class="nist-empty" id="emptyState" style="display:none;">
+                <svg class="nist-empty-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/><path d="M8 11h6"/></svg>
+                <h3>No Matching Requirements</h3>
+                <p>No requirements match your current filters. Adjust your search or filter criteria.</p>
+            </div>
+        </div>
+    </section>
+</BaseLayout>
+
+<style is:global>
+    /* ── Hero ── */
+    .nist-header {
+        padding: calc(var(--space-32) + var(--space-8)) 0 var(--space-12);
+        text-align: center;
+        background: var(--c6-gradient-hero);
+        position: relative;
+        overflow: hidden;
+    }
+    .nist-header::before {
+        content: '';
+        position: absolute;
+        top: 20%;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 800px;
+        height: 600px;
+        background: radial-gradient(ellipse at center, rgba(192, 57, 43, 0.06) 0%, transparent 70%);
+        pointer-events: none;
+    }
+    .nist-header .container { position: relative; z-index: 2; }
+    .nist-title {
+        font-family: var(--font-display);
+        font-size: clamp(2.5rem, 5vw, 4.5rem);
+        font-weight: 700;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        line-height: 1.1;
+        color: var(--c6-text-primary);
+        margin-top: var(--space-4);
+    }
+    .nist-title .accent { color: var(--c6-red-bright); }
+
+    /* ── Sticky Filter Bar (reuse CMMC pattern) ── */
+    .filter-bar {
+        position: sticky;
+        top: 64px;
+        z-index: 100;
+        background: rgba(17, 17, 17, 0.92);
+        backdrop-filter: blur(12px);
+        -webkit-backdrop-filter: blur(12px);
+        border-bottom: 1px solid var(--c6-border);
+        padding: var(--space-4) 0;
+    }
+    .filter-row {
+        display: flex;
+        flex-direction: column;
+        gap: var(--space-4);
+    }
+    .filter-pills {
+        display: flex;
+        gap: var(--space-2);
+        overflow-x: auto;
+        scrollbar-width: none;
+        -ms-overflow-style: none;
+        padding-bottom: var(--space-1);
+    }
+    .filter-pills::-webkit-scrollbar { display: none; }
+    .filter-pill {
+        font-family: var(--font-display);
+        font-size: 0.82rem;
+        font-weight: 500;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        color: var(--c6-text-muted);
+        background: transparent;
+        border: 1px solid var(--c6-border);
+        padding: var(--space-2) var(--space-4);
+        border-radius: var(--radius-full);
+        cursor: pointer;
+        white-space: nowrap;
+        transition: transform 0.2s ease, border-color 0.2s ease, color 0.2s ease, background 0.2s ease;
+        flex-shrink: 0;
+    }
+    .filter-pill:hover {
+        border-color: var(--c6-border-accent);
+        color: var(--c6-text-secondary);
+    }
+    .filter-pill:focus-visible {
+        outline: 2px solid var(--c6-red);
+        outline-offset: 2px;
+    }
+    .filter-pill.active {
+        background: var(--c6-red);
+        border-color: var(--c6-red);
+        color: var(--c6-text-primary);
+    }
+    .filter-pill .pill-count {
+        font-family: var(--font-mono);
+        font-size: 0.7rem;
+        margin-left: var(--space-1);
+        opacity: 0.7;
+    }
+
+    /* ── Filter Controls (search only) ── */
+    .filter-controls {
+        display: flex;
+        align-items: center;
+        gap: var(--space-4);
+    }
+
+    /* ── Search Input ── */
+    .search-wrap {
+        position: relative;
+        flex: 1;
+        max-width: 320px;
+    }
+    .search-icon {
+        position: absolute;
+        left: var(--space-3);
+        top: 50%;
+        transform: translateY(-50%);
+        width: 16px;
+        height: 16px;
+        color: var(--c6-text-dim);
+        pointer-events: none;
+    }
+    .search-input {
+        font-family: var(--font-body);
+        font-size: 0.85rem;
+        color: var(--c6-text-secondary);
+        background: rgba(255, 255, 255, 0.04);
+        border: 1px solid var(--c6-border);
+        border-radius: var(--radius-full);
+        padding: var(--space-2) var(--space-4) var(--space-2) calc(var(--space-3) + 22px);
+        width: 100%;
+        transition: border-color 0.2s ease, box-shadow 0.2s ease;
+        outline: none;
+    }
+    .search-input::placeholder { color: var(--c6-text-dim); }
+    .search-input:focus {
+        border-color: var(--c6-red);
+        box-shadow: 0 0 12px var(--c6-red-glow);
+    }
+
+    /* ── Requirement Listing ── */
+    .nist-listing {
+        background: var(--c6-gradient-section);
+        padding: var(--space-12) 0 var(--space-16);
+        min-height: 400px;
+        position: relative;
+    }
+    .nist-listing::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 1000px;
+        height: 600px;
+        background: radial-gradient(ellipse at center, rgba(192, 57, 43, 0.04) 0%, transparent 70%);
+        pointer-events: none;
+    }
+
+    /* ── Family Group ── */
+    .family-group {
+        margin-bottom: var(--space-10);
+    }
+    .family-group:last-child {
+        margin-bottom: 0;
+    }
+    .family-heading {
+        margin-bottom: var(--space-4);
+        border-bottom: 1px solid var(--c6-border);
+        padding-bottom: var(--space-3);
+    }
+    .family-title {
+        font-family: var(--font-display);
+        font-size: clamp(1.1rem, 2vw, 1.4rem);
+        font-weight: 600;
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+        line-height: 1.3;
+        color: var(--c6-text-primary);
+        display: flex;
+        align-items: center;
+        gap: var(--space-3);
+        flex-wrap: wrap;
+    }
+    .family-code {
+        font-family: var(--font-mono);
+        font-size: 0.85rem;
+        font-weight: 500;
+        color: var(--c6-red-text);
+        background: rgba(192, 57, 43, 0.1);
+        border: 1px solid rgba(192, 57, 43, 0.2);
+        padding: var(--space-1) var(--space-3);
+        border-radius: var(--radius-sm);
+        letter-spacing: 0.04em;
+    }
+    .family-count {
+        font-family: var(--font-mono);
+        font-size: 0.72rem;
+        color: var(--c6-text-dim);
+        margin-left: auto;
+        letter-spacing: 0.02em;
+    }
+
+    /* ── Requirement Row ── */
+    .requirement-list {
+        display: flex;
+        flex-direction: column;
+        gap: 1px;
+        background: var(--c6-border);
+    }
+    .requirement-row {
+        display: flex;
+        align-items: center;
+        gap: var(--space-4);
+        padding: var(--space-4) var(--space-6);
+        background: var(--c6-black);
+        border-left: 3px solid transparent;
+        cursor: pointer;
+        transition: transform 0.2s ease, background 0.2s ease, border-color 0.2s ease;
+        text-decoration: none;
+        color: inherit;
+    }
+    .requirement-row:hover {
+        background: var(--c6-black-elevated);
+        border-left-color: var(--c6-red);
+        color: inherit;
+    }
+    .requirement-row:focus-visible {
+        outline: 2px solid var(--c6-red);
+        outline-offset: -2px;
+        border-radius: 0;
+    }
+    .req-id {
+        font-family: var(--font-mono);
+        font-size: 0.82rem;
+        font-weight: 500;
+        color: var(--c6-text-secondary);
+        letter-spacing: 0.02em;
+        white-space: nowrap;
+        min-width: 60px;
+    }
+    .req-title {
+        font-family: var(--font-display);
+        font-size: 0.95rem;
+        font-weight: 500;
+        letter-spacing: 0.02em;
+        color: var(--c6-text-primary);
+        flex: 1;
+        min-width: 0;
+    }
+    .req-cmmc {
+        font-family: var(--font-mono);
+        font-size: 0.72rem;
+        color: var(--c6-text-muted);
+        letter-spacing: 0.02em;
+        white-space: nowrap;
+        flex-shrink: 0;
+    }
+    .req-arrow {
+        flex-shrink: 0;
+        width: 18px;
+        height: 18px;
+        color: var(--c6-text-dim);
+        transition: transform 0.2s ease, color 0.2s ease;
+    }
+    .requirement-row:hover .req-arrow {
+        color: var(--c6-red);
+        transform: translateX(4px);
+    }
+
+    /* ── Empty State ── */
+    .nist-empty {
+        text-align: center;
+        padding: var(--space-20) var(--space-8);
+    }
+    .nist-empty-icon {
+        width: 64px;
+        height: 64px;
+        margin: 0 auto var(--space-6);
+        color: var(--c6-text-dim);
+    }
+    .nist-empty h3 {
+        font-family: var(--font-display);
+        font-size: 1.3rem;
+        font-weight: 600;
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+        color: var(--c6-text-secondary);
+        margin-bottom: var(--space-3);
+    }
+    .nist-empty p {
+        font-size: 0.9rem;
+        color: var(--c6-text-muted);
+        max-width: 400px;
+        margin: 0 auto;
+    }
+
+    /* ── Responsive ── */
+    @media (max-width: 768px) {
+        .nist-header {
+            padding-top: calc(var(--space-24) + var(--space-8));
+            padding-bottom: var(--space-8);
+        }
+        .filter-controls {
+            flex-direction: column;
+            align-items: stretch;
+            gap: var(--space-3);
+        }
+        .search-wrap {
+            max-width: 100%;
+        }
+        .requirement-row {
+            padding: var(--space-3) var(--space-4);
+            gap: var(--space-3);
+        }
+        .req-id {
+            min-width: 50px;
+            font-size: 0.75rem;
+        }
+        .req-title {
+            font-size: 0.85rem;
+        }
+        .req-cmmc {
+            display: none;
+        }
+        .req-arrow {
+            display: none;
+        }
+    }
+    @media (max-width: 480px) {
+        .filter-bar { top: 56px; }
+        .requirement-row {
+            flex-wrap: wrap;
+            gap: var(--space-2);
+        }
+        .req-id {
+            min-width: auto;
+        }
+        .req-title {
+            width: 100%;
+            order: 3;
+        }
+    }
+</style>
+
+<script>
+    (function() {
+        /* ── Reveal animations ── */
+        var reveals = document.querySelectorAll('.reveal');
+        document.querySelectorAll('.nist-header .reveal').forEach(function(el) { el.classList.add('visible'); });
+        if ('IntersectionObserver' in window) {
+            var observer = new IntersectionObserver(function(entries) {
+                entries.forEach(function(entry) { if (entry.isIntersecting) { entry.target.classList.add('visible'); observer.unobserve(entry.target); } });
+            }, { threshold: 0.01, rootMargin: '0px 0px 50px 0px' });
+            reveals.forEach(function(el) { if (!el.closest('.nist-header')) observer.observe(el); });
+        } else { reveals.forEach(function(el) { el.classList.add('visible'); }); }
+        setTimeout(function() { reveals.forEach(function(el) { el.classList.add('visible'); }); }, 3000);
+
+        /* ── Filter state ── */
+        var activeFamily = '';
+        var searchQuery = '';
+
+        var familyPills = document.getElementById('familyPills');
+        var searchInput = document.getElementById('searchInput');
+        var groups = document.querySelectorAll('.family-group');
+        var rows = document.querySelectorAll('.requirement-row');
+        var emptyState = document.getElementById('emptyState');
+        var resultsEl = document.getElementById('requirementResults');
+
+        /* ── Family pill click ── */
+        if (familyPills) {
+            familyPills.addEventListener('click', function(e) {
+                var pill = e.target.closest('.filter-pill');
+                if (!pill) return;
+                familyPills.querySelectorAll('.filter-pill').forEach(function(p) {
+                    p.classList.remove('active');
+                    p.setAttribute('aria-pressed', 'false');
+                });
+                pill.classList.add('active');
+                pill.setAttribute('aria-pressed', 'true');
+                activeFamily = pill.getAttribute('data-family') || '';
+                applyFilters();
+            });
+        }
+
+        /* ── Search input ── */
+        if (searchInput) {
+            var debounceTimer;
+            searchInput.addEventListener('input', function() {
+                clearTimeout(debounceTimer);
+                debounceTimer = setTimeout(function() {
+                    searchQuery = searchInput.value.trim().toLowerCase();
+                    applyFilters();
+                }, 150);
+            });
+        }
+
+        /* ── Apply combined filters (AND logic) ── */
+        function applyFilters() {
+            var visibleCount = 0;
+            var groupVisibleCounts = {};
+
+            rows.forEach(function(row) {
+                var rowFamily = row.getAttribute('data-family') || '';
+                var rowSearch = row.getAttribute('data-search') || '';
+
+                var familyMatch = !activeFamily || rowFamily === activeFamily;
+                var searchMatch = !searchQuery || rowSearch.indexOf(searchQuery) !== -1;
+
+                var visible = familyMatch && searchMatch;
+                row.style.display = visible ? '' : 'none';
+
+                if (visible) {
+                    visibleCount++;
+                    groupVisibleCounts[rowFamily] = (groupVisibleCounts[rowFamily] || 0) + 1;
+                }
+            });
+
+            /* Show/hide family groups */
+            groups.forEach(function(group) {
+                var code = group.getAttribute('data-family-group') || '';
+                var groupCount = groupVisibleCounts[code] || 0;
+                group.style.display = groupCount > 0 ? '' : 'none';
+
+                /* Update family count badge */
+                var countEl = group.querySelector('[data-family-count]');
+                if (countEl) {
+                    countEl.textContent = String(groupCount);
+                }
+            });
+
+            /* Update the "All" pill count */
+            var allPill = familyPills ? familyPills.querySelector('[data-family=""]') : null;
+            if (allPill) {
+                var allCount = allPill.querySelector('.pill-count');
+                if (allCount) allCount.textContent = String(visibleCount);
+            }
+
+            /* Update individual family pill counts */
+            if (familyPills) {
+                familyPills.querySelectorAll('.filter-pill[data-family]').forEach(function(pill) {
+                    var fc = pill.getAttribute('data-family');
+                    if (!fc) return; // skip "All"
+                    var cnt = pill.querySelector('.pill-count');
+                    if (cnt) cnt.textContent = String(groupVisibleCounts[fc] || 0);
+                });
+            }
+
+            /* Empty state */
+            if (emptyState) {
+                emptyState.style.display = visibleCount === 0 ? '' : 'none';
+            }
+            if (resultsEl) {
+                resultsEl.style.display = visibleCount === 0 ? 'none' : '';
+            }
+        }
+    })();
+</script>
