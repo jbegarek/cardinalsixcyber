@@ -1,0 +1,80 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import GlossaryEntry from '../../components/GlossaryEntry.astro';
+import glossaryData from '../../../data/glossary.json';
+
+export function getStaticPaths() {
+    // Sort terms alphabetically for prev/next navigation
+    const sorted = [...glossaryData.terms].sort((a, b) =>
+        a.term.localeCompare(b.term, 'en', { sensitivity: 'base' })
+    );
+
+    return sorted.map((entry, index) => {
+        const prevTerm = index > 0
+            ? { id: sorted[index - 1].id, term: sorted[index - 1].term }
+            : null;
+        const nextTerm = index < sorted.length - 1
+            ? { id: sorted[index + 1].id, term: sorted[index + 1].term }
+            : null;
+
+        return {
+            params: { id: entry.id },
+            props: { entry, prevTerm, nextTerm }
+        };
+    });
+}
+
+const { entry, prevTerm, nextTerm } = Astro.props;
+
+// Strip HTML tags from definition for meta description
+const plainDef = entry.definition.replace(/<[^>]*>/g, '');
+const metaDesc = plainDef.length > 155
+    ? plainDef.slice(0, 152) + '...'
+    : plainDef;
+
+const pageTitle = `${entry.term} | Cybersecurity Glossary | Cardinal Six Cyber`;
+const canonical = `https://cardinalsixcyber.com/glossary/${entry.id}`;
+---
+
+<BaseLayout
+    title={pageTitle}
+    description={metaDesc}
+    canonical={canonical}
+    ogTitle={`${entry.term} — Cybersecurity Glossary`}
+    ogDescription={metaDesc}
+    navFixed={false}
+    activePage="resources"
+>
+    <Fragment slot="head">
+        <script type="application/ld+json" set:html={JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "DefinedTerm",
+            "name": entry.term,
+            "description": plainDef,
+            "inDefinedTermSet": {
+                "@type": "DefinedTermSet",
+                "name": "Cybersecurity Glossary",
+                "url": "https://cardinalsixcyber.com/glossary"
+            },
+            "url": canonical
+        })} />
+        <script type="application/ld+json" set:html={JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://cardinalsixcyber.com/" },
+                { "@type": "ListItem", "position": 2, "name": "Glossary", "item": "https://cardinalsixcyber.com/glossary" },
+                { "@type": "ListItem", "position": 3, "name": entry.term }
+            ]
+        })} />
+    </Fragment>
+
+    <GlossaryEntry
+        term={entry.term}
+        definition={entry.definition}
+        whyItMatters={entry.whyItMatters}
+        relatedResources={entry.relatedResources || []}
+        prevTerm={prevTerm}
+        nextTerm={nextTerm}
+    />
+</BaseLayout>
