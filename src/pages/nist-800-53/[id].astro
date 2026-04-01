@@ -1,0 +1,94 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import ControlDetail from '../../components/ControlDetail.astro';
+import controlsData from '../../../data/nist-800-53.json';
+import cmmcData from '../../../data/cmmc-practices.json';
+import nistData from '../../../data/nist-800-171.json';
+
+export function getStaticPaths() {
+    return controlsData.controls.map(control => ({
+        params: { id: control.id },
+        props: { control }
+    }));
+}
+
+const { control } = Astro.props;
+
+// Build cross-references: CMMC practices
+const cmmcRefs = (control.cmmcPractices || []).map(refId => {
+    const practice = cmmcData.practices.find(p => p.id === refId);
+    return practice ? { id: practice.id, displayId: practice.displayId, url: `/cmmc/${practice.id}` } : null;
+}).filter(Boolean);
+
+// Build cross-references: NIST 800-171 requirements
+const nist171Refs = (control.nist800171 || []).map(refId => {
+    const req = nistData.requirements.find(r => r.id === refId);
+    return req ? { id: req.id, displayId: req.displayId, url: `/nist-800-171/${req.id}` } : null;
+}).filter(Boolean);
+
+// Build cross-references: related 800-53 controls
+const relatedControlRefs = (control.relatedControls || []).map(refId => {
+    const related = controlsData.controls.find(c => c.id === refId);
+    return related ? { id: related.id, displayId: related.displayId, url: `/nist-800-53/${related.id}` } : null;
+}).filter(Boolean);
+
+// Same family controls: same familyCode, exclude self, first 4
+const sameFamilyControls = controlsData.controls
+    .filter(c => c.familyCode === control.familyCode && c.id !== control.id)
+    .slice(0, 4)
+    .map(c => ({ id: c.id, displayId: c.displayId, title: c.title, url: `/nist-800-53/${c.id}` }));
+
+const pageTitle = `${control.displayId} — ${control.title} | NIST 800-53 | Cardinal Six Cyber`;
+const metaDesc = control.description.length > 155
+    ? control.description.slice(0, 152) + '...'
+    : control.description;
+const ogTitle = `${control.displayId} — ${control.title}`;
+---
+
+<BaseLayout
+    title={pageTitle}
+    description={metaDesc}
+    canonical={`https://cardinalsixcyber.com/nist-800-53/${control.id}`}
+    ogTitle={ogTitle}
+    ogDescription={metaDesc}
+    navFixed={false}
+    activePage="resources"
+>
+    <Fragment slot="head">
+        <script type="application/ld+json" set:html={JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "TechArticle",
+            "name": ogTitle,
+            "description": control.description,
+            "datePublished": "2026-04-01",
+            "author": { "@type": "Organization", "name": "Cardinal Six Cyber LLC" },
+            "publisher": { "@type": "Organization", "name": "Cardinal Six Cyber LLC" },
+            "url": `https://cardinalsixcyber.com/nist-800-53/${control.id}`
+        })} />
+        <script type="application/ld+json" set:html={JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://cardinalsixcyber.com/" },
+                { "@type": "ListItem", "position": 2, "name": "NIST 800-53", "item": "https://cardinalsixcyber.com/nist-800-53" },
+                { "@type": "ListItem", "position": 3, "name": control.family, "item": `https://cardinalsixcyber.com/nist-800-53#${control.familyCode.toLowerCase()}` },
+                { "@type": "ListItem", "position": 4, "name": control.displayId }
+            ]
+        })} />
+    </Fragment>
+
+    <ControlDetail
+        id={control.id}
+        displayId={control.displayId}
+        title={control.title}
+        family={control.family}
+        familyCode={control.familyCode}
+        description={control.description}
+        supplementalGuidance={control.supplementalGuidance}
+        relatedControls={relatedControlRefs}
+        cmmcRefs={cmmcRefs}
+        nist171Refs={nist171Refs}
+        notes={control.notes}
+        sameFamilyControls={sameFamilyControls}
+    />
+</BaseLayout>
