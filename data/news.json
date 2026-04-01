@@ -1,6 +1,76 @@
 {
-  "last_updated": "2026-04-01T18:16:17.966969+00:00",
+  "last_updated": "2026-04-01T20:12:25.109932+00:00",
   "articles": [
+    {
+      "title": "Nissan says stolen data came from third-party vendor after hacking group claims breach",
+      "link": "https://therecord.media/nissan-hackers-data-breach",
+      "summary": "A hacking group claimed this week to have breached the file-transfer system used by a company that offers services to Nissan and Infiniti dealerships across North America. Nissan said there was no...",
+      "source": "The Record",
+      "published": "2026-04-01T20:00:00+00:00"
+    },
+    {
+      "title": "New EvilTokens service fuels Microsoft device code phishing attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/new-eviltokens-service-fuels-microsoft-device-code-phishing-attacks/",
+      "summary": "A new malicious kit called EvilTokens integrates device code phishing capabilities, allowing attackers to hijack Microsoft accounts and provide advanced features for business email compromise...",
+      "source": "BleepingComputer",
+      "published": "2026-04-01T19:42:25+00:00"
+    },
+    {
+      "title": "LatAm's Self-Taught Cyber Talent Overlooked Amid Cyberattack Glut",
+      "link": "https://www.darkreading.com/remote-workforce/latam-cyber-talent-overlooked-cyberattack-glut",
+      "summary": "A newly released study exclusively shared with Dark Reading details the unique circumstances that make up Latin America's labor pool, and why organizations may want to expand their talent search.",
+      "source": "Dark Reading",
+      "published": "2026-04-01T19:00:00+00:00"
+    },
+    {
+      "title": "Mercor confirms security incident tied to LiteLLM supply chain attack",
+      "link": "https://therecord.media/mercor-confirms-security-incident-tied-to-litellm",
+      "summary": "Although the LiteLLM attack was reportedly tied to a group called TeamPCP, the hacking gang Lapsus$ claimed on its website that it obtained hundreds of gigabytes of Mercor’s data.",
+      "source": "The Record",
+      "published": "2026-04-01T18:58:00+00:00"
+    },
+    {
+      "title": "CVE-2026-34751 - Payload has Unvalidated Input in Password Recovery Endpoints",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-34751",
+      "summary": "CVE ID :CVE-2026-34751 Published : April 1, 2026, 6:16 p.m. | 15 minutes ago Description :Payload is a free and open source headless content management system. Prior to version 3.79.1 in...",
+      "source": "CVE Feed",
+      "published": "2026-04-01T18:16:31+00:00"
+    },
+    {
+      "title": "CVE-2026-34445 - ONNX: Malicious ONNX models can crash servers by exploiting unprotected object settings.",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-34445",
+      "summary": "CVE ID :CVE-2026-34445 Published : April 1, 2026, 6:16 p.m. | 15 minutes ago Description :Open Neural Network Exchange (ONNX) is an open standard for machine learning interoperability. Prior to...",
+      "source": "CVE Feed",
+      "published": "2026-04-01T18:16:30+00:00"
+    },
+    {
+      "title": "CVE-2026-34236 - Auth0 PHP SDK Insufficient Entropy in Cookie Encryption",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-34236",
+      "summary": "CVE ID :CVE-2026-34236 Published : April 1, 2026, 6:16 p.m. | 15 minutes ago Description :Auth0-PHP is a PHP SDK for Auth0 Authentication and Management APIs. From version 8.0.0 to before version...",
+      "source": "CVE Feed",
+      "published": "2026-04-01T18:16:30+00:00"
+    },
+    {
+      "title": "CVE-2026-34159 - llama.cpp: Unauthenticated RCE via GRAPH_COMPUTE buffer=0 bypass in llama.cpp RPC backend",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-34159",
+      "summary": "CVE ID :CVE-2026-34159 Published : April 1, 2026, 6:16 p.m. | 15 minutes ago Description :llama.cpp is an inference of several LLM models in C/C++. Prior to version b8492, the RPC backend's...",
+      "source": "CVE Feed",
+      "published": "2026-04-01T18:16:29+00:00"
+    },
+    {
+      "title": "CVE-2026-34072 - cronmaster: Middleware authentication bypass enabling unauthorized page access and server-action execution",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-34072",
+      "summary": "CVE ID :CVE-2026-34072 Published : April 1, 2026, 6:16 p.m. | 15 minutes ago Description :Cr*nMaster (cronmaster) is a Cronjob management UI with human readable syntax, live logging and log history...",
+      "source": "CVE Feed",
+      "published": "2026-04-01T18:16:29+00:00"
+    },
+    {
+      "title": "CVE-2026-27489 - ONNX: Path Traversal via Symlink",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-27489",
+      "summary": "CVE ID :CVE-2026-27489 Published : April 1, 2026, 6:16 p.m. | 15 minutes ago Description :Open Neural Network Exchange (ONNX) is an open standard for machine learning interoperability. Prior to...",
+      "source": "CVE Feed",
+      "published": "2026-04-01T18:16:28+00:00"
+    },
     {
       "title": "'NoVoice' Android malware on Google Play infected 2.3 million devices",
       "link": "https://www.bleepingcomputer.com/news/security/novoice-android-malware-on-google-play-infected-23-million-devices/",
@@ -14,6 +84,41 @@
       "summary": "A water treatment plant in the city of Minot, North Dakota, was hit with ransomware but city officials said it continues to operate normally.",
       "source": "The Record",
       "published": "2026-04-01T18:00:00+00:00"
+    },
+    {
+      "title": "CVE-2026-33949 - @tinacms/graphql has Path Traversal that leads to overwrite of arbitrary files",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-33949",
+      "summary": "CVE ID :CVE-2026-33949 Published : April 1, 2026, 5:28 p.m. | 1 hour, 3 minutes ago Description :Tina is a headless content management system. Prior to version 2.2.2, a path traversal vulnerability...",
+      "source": "CVE Feed",
+      "published": "2026-04-01T17:28:39+00:00"
+    },
+    {
+      "title": "CVE-2026-20160 - Cisco Smart Software Manager On-Prem Arbitrary Command Execution Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-20160",
+      "summary": "CVE ID :CVE-2026-20160 Published : April 1, 2026, 5:28 p.m. | 1 hour, 3 minutes ago Description :A vulnerability in Cisco Smart Software Manager On-Prem (SSM On-Prem) could allow an unauthenticated...",
+      "source": "CVE Feed",
+      "published": "2026-04-01T17:28:31+00:00"
+    },
+    {
+      "title": "CVE-2026-20155 - Cisco Evolved Programmable Network Manager Improper Authorization Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-20155",
+      "summary": "CVE ID :CVE-2026-20155 Published : April 1, 2026, 5:28 p.m. | 1 hour, 3 minutes ago Description :A vulnerability in the web-based management interface of Cisco Evolved Programmable Network Manager...",
+      "source": "CVE Feed",
+      "published": "2026-04-01T17:28:31+00:00"
+    },
+    {
+      "title": "CVE-2026-20094 - Cisco Integrated Management Controller Command Injection Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-20094",
+      "summary": "CVE ID :CVE-2026-20094 Published : April 1, 2026, 5:28 p.m. | 1 hour, 3 minutes ago Description :A vulnerability in the web-based management interface of Cisco IMC could allow an authenticated...",
+      "source": "CVE Feed",
+      "published": "2026-04-01T17:28:29+00:00"
+    },
+    {
+      "title": "CVE-2026-20093 - Cisco Integrated Management Controller Authentication Bypass Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-20093",
+      "summary": "CVE ID :CVE-2026-20093 Published : April 1, 2026, 5:28 p.m. | 1 hour, 3 minutes ago Description :A vulnerability in the change password functionality of Cisco Integrated Management Controller (IMC)...",
+      "source": "CVE Feed",
+      "published": "2026-04-01T17:28:29+00:00"
     },
     {
       "title": "Cyberattacks Intensify Pressure on Latin American Governments",
@@ -37,17 +142,17 @@
       "published": "2026-04-01T16:18:00+00:00"
     },
     {
-      "title": "CERT-UA Impersonation Campaign Spread AGEWHEEZE Malware to 1 Million Emails",
-      "link": "https://thehackernews.com/2026/04/cert-ua-impersonation-campaign-spread.html",
-      "summary": "The Computer Emergency Response Team of Ukraine (CERT-UA) has disclosed details of a new phishing campaign in which the cybersecurity agency itself was impersonated to distribute a remote...",
-      "source": "The Hacker News",
-      "published": "2026-04-01T16:10:00+00:00"
-    },
-    {
       "title": "Hasbro takes some systems offline after cybersecurity incident",
       "link": "https://therecord.media/hasbro-takes-some-systems-offline-after-cyber-incident",
       "summary": "The company filed a notice with the Securities Exchange Commission (SEC) on Wednesday warning investors that its IT team discovered unauthorized access on March 28.",
       "source": "The Record",
+      "published": "2026-04-01T16:10:00+00:00"
+    },
+    {
+      "title": "CERT-UA Impersonation Campaign Spread AGEWHEEZE Malware to 1 Million Emails",
+      "link": "https://thehackernews.com/2026/04/cert-ua-impersonation-campaign-spread.html",
+      "summary": "The Computer Emergency Response Team of Ukraine (CERT-UA) has disclosed details of a new phishing campaign in which the cybersecurity agency itself was impersonated to distribute a remote...",
+      "source": "The Hacker News",
       "published": "2026-04-01T16:10:00+00:00"
     },
     {
@@ -88,23 +193,30 @@
     {
       "title": "CVE-2026-35093 - Libinput: libinput: unauthorized code execution and information disclosure through lua bytecode plugins",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-35093",
-      "summary": "CVE ID :CVE-2026-35093 Published : April 1, 2026, 2:16 p.m. | 2 hours, 15 minutes ago Description :A flaw was found in libinput. A local attacker who can place a specially crafted Lua bytecode file...",
+      "summary": "CVE ID :CVE-2026-35093 Published : April 1, 2026, 2:16 p.m. | 4 hours, 15 minutes ago Description :A flaw was found in libinput. A local attacker who can place a specially crafted Lua bytecode file...",
       "source": "CVE Feed",
       "published": "2026-04-01T14:16:57+00:00"
     },
     {
       "title": "CVE-2026-35091 - Corosync: corosync: denial of service and information disclosure via crafted udp packet",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-35091",
-      "summary": "CVE ID :CVE-2026-35091 Published : April 1, 2026, 2:16 p.m. | 2 hours, 15 minutes ago Description :A flaw was found in Corosync. A remote unauthenticated attacker can exploit a wrong return value...",
+      "summary": "CVE ID :CVE-2026-35091 Published : April 1, 2026, 2:16 p.m. | 4 hours, 15 minutes ago Description :A flaw was found in Corosync. A remote unauthenticated attacker can exploit a wrong return value...",
       "source": "CVE Feed",
       "published": "2026-04-01T14:16:57+00:00"
     },
     {
       "title": "CVE-2026-34430 - ByteDance DeerFlow LocalSandboxProvider Host Bash Escape",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-34430",
-      "summary": "CVE ID :CVE-2026-34430 Published : April 1, 2026, 2:16 p.m. | 2 hours, 15 minutes ago Description :ByteDance Deer-Flow versions prior to commit 92c7a20 contain a sandbox escape vulnerability in bash...",
+      "summary": "CVE ID :CVE-2026-34430 Published : April 1, 2026, 2:16 p.m. | 4 hours, 15 minutes ago Description :ByteDance Deer-Flow versions prior to commit 92c7a20 contain a sandbox escape vulnerability in bash...",
       "source": "CVE Feed",
       "published": "2026-04-01T14:16:52+00:00"
+    },
+    {
+      "title": "CVE-2026-30289 - Tinybeans Private Family Album App File Overwrite Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-30289",
+      "summary": "CVE ID :CVE-2026-30289 Published : April 1, 2026, 2:16 p.m. | 4 hours, 15 minutes ago Description :An arbitrary file overwrite vulnerability in Tinybeans Private Family Album App v5.9.5-prod allows...",
+      "source": "CVE Feed",
+      "published": "2026-04-01T14:16:49+00:00"
     },
     {
       "title": "Microsoft Warns of WhatsApp-Delivered VBS Malware Hijacking Windows via UAC Bypass",
@@ -144,7 +256,7 @@
     {
       "title": "CVE-2026-29014 - MetInfo CMS Unauthenticated PHP Code Injection RCE",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-29014",
-      "summary": "CVE ID :CVE-2026-29014 Published : April 1, 2026, 1:16 p.m. | 3 hours, 16 minutes ago Description :MetInfo CMS versions 7.9, 8.0, and 8.1 contain an unauthenticated PHP code injection vulnerability...",
+      "summary": "CVE ID :CVE-2026-29014 Published : April 1, 2026, 1:16 p.m. | 5 hours, 15 minutes ago Description :MetInfo CMS versions 7.9, 8.0, and 8.1 contain an unauthenticated PHP code injection vulnerability...",
       "source": "CVE Feed",
       "published": "2026-04-01T13:16:35+00:00"
     },
@@ -198,13 +310,6 @@
       "published": "2026-04-01T12:36:00+00:00"
     },
     {
-      "title": "Romania under daily barrage of cyberattacks, defense minister says",
-      "link": "https://therecord.media/romania-cyberattacks-russia-defense-minister",
-      "summary": "Romanian government institutions are facing thousands of cyberattack attempts every day targeting a wide range of public institutions, Defense Minister Radu Miruta said.",
-      "source": "The Record",
-      "published": "2026-04-01T12:15:00+00:00"
-    },
-    {
       "title": "2 Million Monthly Users at Risk: Critical 9.3 CVSS SQL Injection Hits MikroORM in “Duck-Typed” Disaster",
       "link": "https://securityonline.info/mikroorm-sql-injection-vulnerability-cve-2026-34220-9-3-cvss/",
       "summary": "2 Million Monthly Users at Risk: Critical 9.3 CVSS SQL Injection Hits MikroORM in “Duck-Typed” Disaster A critical vulnerability has been identified in MikroORM, a widely used TypeScript...",
@@ -212,10 +317,17 @@
       "published": "2026-04-01T12:03:16+00:00"
     },
     {
+      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/04/01/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "summary": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation. CVE-2026-5281 Google Dawn Use-After-Free Vulnerability This type...",
+      "source": "CISA Alerts",
+      "published": "2026-04-01T12:00:00+00:00"
+    },
+    {
       "title": "New Chrome Zero-Day CVE-2026-5281 Under Active Exploitation — Patch Released",
       "link": "https://thehackernews.com/2026/04/new-chrome-zero-day-cve-2026-5281-under.html",
-      "summary": "Google on Thursday released security updates for its Chrome web browser to address 21 vulnerabilities, including a zero-day flaw that it said has been exploited in the wild. The high-severity...",
-      "source": "The Hacker News",
+      "summary": "New Chrome Zero-Day CVE-2026-5281 Under Active Exploitation — Patch Released Google on Thursday released security updates for its Chrome web browser to address 21 vulnerabilities, including a...",
+      "source": "CVE Newsroom",
       "published": "2026-04-01T11:42:00+00:00"
     },
     {
@@ -263,21 +375,21 @@
     {
       "title": "CVE-2026-23899 - Joomla! Core - [20260306] - Improper access check in webservice endpoints",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-23899",
-      "summary": "CVE ID :CVE-2026-23899 Published : April 1, 2026, 10:16 a.m. | 6 hours, 16 minutes ago Description :An improper access check allows unauthorized access to webservice endpoints. Severity: 8.6 | HIGH...",
+      "summary": "CVE ID :CVE-2026-23899 Published : April 1, 2026, 10:16 a.m. | 8 hours, 15 minutes ago Description :An improper access check allows unauthorized access to webservice endpoints. Severity: 8.6 | HIGH...",
       "source": "CVE Feed",
       "published": "2026-04-01T10:16:16+00:00"
     },
     {
       "title": "CVE-2026-23898 - Joomla! Core - [20260305] - Arbitrary file deletion in com_joomlaupdate",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-23898",
-      "summary": "CVE ID :CVE-2026-23898 Published : April 1, 2026, 10:16 a.m. | 6 hours, 16 minutes ago Description :Lack of input validation leads to an arbitrary file deletion vulnerability in the autoupdate server...",
+      "summary": "CVE ID :CVE-2026-23898 Published : April 1, 2026, 10:16 a.m. | 8 hours, 15 minutes ago Description :Lack of input validation leads to an arbitrary file deletion vulnerability in the autoupdate server...",
       "source": "CVE Feed",
       "published": "2026-04-01T10:16:16+00:00"
     },
     {
       "title": "CVE-2026-4370 - Improper TLS Client/Server authentication and certificate verification on Database Cluster",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-4370",
-      "summary": "CVE ID :CVE-2026-4370 Published : April 1, 2026, 9:16 a.m. | 7 hours, 16 minutes ago Description :A vulnerability was identified in Juju from version 3.2.0 until 3.6.19 and from version 4.0 until...",
+      "summary": "CVE ID :CVE-2026-4370 Published : April 1, 2026, 9:16 a.m. | 9 hours, 15 minutes ago Description :A vulnerability was identified in Juju from version 3.2.0 until 3.6.19 and from version 4.0 until...",
       "source": "CVE Feed",
       "published": "2026-04-01T09:16:17+00:00"
     },
@@ -347,7 +459,7 @@
     {
       "title": "CVE-2025-15484 - Order Notification for WooCommerce < 3.6.3 - Unauthenticated WooCommerce REST Permission Bypass",
       "link": "https://cvefeed.io/vuln/detail/CVE-2025-15484",
-      "summary": "CVE ID :CVE-2025-15484 Published : April 1, 2026, 6:16 a.m. | 10 hours, 16 minutes ago Description :The Order Notification for WooCommerce WordPress plugin before 3.6.3 overrides WooCommerce's...",
+      "summary": "CVE ID :CVE-2025-15484 Published : April 1, 2026, 6:16 a.m. | 12 hours, 15 minutes ago Description :The Order Notification for WooCommerce WordPress plugin before 3.6.3 overrides WooCommerce's...",
       "source": "CVE Feed",
       "published": "2026-04-01T06:16:14+00:00"
     },
@@ -368,86 +480,37 @@
     {
       "title": "CVE-2026-5292 - Google Chrome WebCodecs Out of Bounds Read Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-5292",
-      "summary": "CVE ID :CVE-2026-5292 Published : April 1, 2026, 5:16 a.m. | 11 hours, 16 minutes ago Description :Out of bounds read in WebCodecs in Google Chrome prior to 146.0.7680.178 allowed a remote attacker...",
+      "summary": "CVE ID :CVE-2026-5292 Published : April 1, 2026, 5:16 a.m. | 13 hours, 15 minutes ago Description :Out of bounds read in WebCodecs in Google Chrome prior to 146.0.7680.178 allowed a remote attacker...",
       "source": "CVE Feed",
       "published": "2026-04-01T05:16:02+00:00"
     },
     {
       "title": "CVE-2026-5290 - Google Chrome Use After Free in Compositing Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-5290",
-      "summary": "CVE ID :CVE-2026-5290 Published : April 1, 2026, 5:16 a.m. | 11 hours, 16 minutes ago Description :Use after free in Compositing in Google Chrome prior to 146.0.7680.178 allowed a remote attacker who...",
+      "summary": "CVE ID :CVE-2026-5290 Published : April 1, 2026, 5:16 a.m. | 13 hours, 15 minutes ago Description :Use after free in Compositing in Google Chrome prior to 146.0.7680.178 allowed a remote attacker who...",
       "source": "CVE Feed",
       "published": "2026-04-01T05:16:02+00:00"
     },
     {
       "title": "CVE-2026-5289 - Google Chrome Use After Free in Navigation",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-5289",
-      "summary": "CVE ID :CVE-2026-5289 Published : April 1, 2026, 5:16 a.m. | 11 hours, 16 minutes ago Description :Use after free in Navigation in Google Chrome prior to 146.0.7680.178 allowed a remote attacker who...",
+      "summary": "CVE ID :CVE-2026-5289 Published : April 1, 2026, 5:16 a.m. | 13 hours, 15 minutes ago Description :Use after free in Navigation in Google Chrome prior to 146.0.7680.178 allowed a remote attacker who...",
       "source": "CVE Feed",
       "published": "2026-04-01T05:16:02+00:00"
     },
     {
       "title": "CVE-2026-5288 - Google Chrome Android WebView Use-After-Free Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-5288",
-      "summary": "CVE ID :CVE-2026-5288 Published : April 1, 2026, 5:16 a.m. | 11 hours, 16 minutes ago Description :Use after free in WebView in Google Chrome on Android prior to 146.0.7680.178 allowed a remote...",
+      "summary": "CVE ID :CVE-2026-5288 Published : April 1, 2026, 5:16 a.m. | 13 hours, 15 minutes ago Description :Use after free in WebView in Google Chrome on Android prior to 146.0.7680.178 allowed a remote...",
       "source": "CVE Feed",
       "published": "2026-04-01T05:16:02+00:00"
     },
     {
       "title": "CVE-2026-5286 - Google Chrome Use-After-Free Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-5286",
-      "summary": "CVE ID :CVE-2026-5286 Published : April 1, 2026, 5:16 a.m. | 11 hours, 16 minutes ago Description :Use after free in Dawn in Google Chrome prior to 146.0.7680.178 allowed a remote attacker to execute...",
+      "summary": "CVE ID :CVE-2026-5286 Published : April 1, 2026, 5:16 a.m. | 13 hours, 15 minutes ago Description :Use after free in Dawn in Google Chrome prior to 146.0.7680.178 allowed a remote attacker to execute...",
       "source": "CVE Feed",
       "published": "2026-04-01T05:16:02+00:00"
-    },
-    {
-      "title": "CVE-2026-5282 - Google Chrome WebCodecs Out-of-Bounds Read Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-5282",
-      "summary": "CVE ID :CVE-2026-5282 Published : April 1, 2026, 5:16 a.m. | 11 hours, 16 minutes ago Description :Out of bounds read in WebCodecs in Google Chrome prior to 146.0.7680.178 allowed a remote attacker...",
-      "source": "CVE Feed",
-      "published": "2026-04-01T05:16:01+00:00"
-    },
-    {
-      "title": "CVE-2026-5281 - Google Chrome Use-After-Free Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-5281",
-      "summary": "CVE ID :CVE-2026-5281 Published : April 1, 2026, 5:16 a.m. | 11 hours, 16 minutes ago Description :Use after free in Dawn in Google Chrome prior to 146.0.7680.178 allowed a remote attacker who had...",
-      "source": "CVE Feed",
-      "published": "2026-04-01T05:16:01+00:00"
-    },
-    {
-      "title": "CVE-2026-5278 - Google Chrome Android Web MIDI Use-After-Free Remote Code Execution",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-5278",
-      "summary": "CVE ID :CVE-2026-5278 Published : April 1, 2026, 5:16 a.m. | 11 hours, 16 minutes ago Description :Use after free in Web MIDI in Google Chrome on Android prior to 146.0.7680.178 allowed a remote...",
-      "source": "CVE Feed",
-      "published": "2026-04-01T05:16:01+00:00"
-    },
-    {
-      "title": "CVE-2026-5275 - Google Chrome ANGLE Heap Buffer Overflow",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-5275",
-      "summary": "CVE ID :CVE-2026-5275 Published : April 1, 2026, 5:16 a.m. | 11 hours, 16 minutes ago Description :Heap buffer overflow in ANGLE in Google Chrome on Mac prior to 146.0.7680.178 allowed a remote...",
-      "source": "CVE Feed",
-      "published": "2026-04-01T05:16:00+00:00"
-    },
-    {
-      "title": "CVE-2026-5274 - Google Chrome Codecs Integer Overflow",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-5274",
-      "summary": "CVE ID :CVE-2026-5274 Published : April 1, 2026, 5:16 a.m. | 11 hours, 16 minutes ago Description :Integer overflow in Codecs in Google Chrome prior to 146.0.7680.178 allowed a remote attacker to...",
-      "source": "CVE Feed",
-      "published": "2026-04-01T05:16:00+00:00"
-    },
-    {
-      "title": "CVE-2026-5272 - Google Chrome GPU Heap Buffer Overflow",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-5272",
-      "summary": "CVE ID :CVE-2026-5272 Published : April 1, 2026, 5:16 a.m. | 11 hours, 16 minutes ago Description :Heap buffer overflow in GPU in Google Chrome prior to 146.0.7680.178 allowed a remote attacker to...",
-      "source": "CVE Feed",
-      "published": "2026-04-01T05:16:00+00:00"
-    },
-    {
-      "title": "CVE-2026-4374 - Improper Restriction of XML External Entity Reference vulnerability in RTI Connext Professional (Routing Service,Observability Collector,Recording Service,Queueing Service,Cloud Discovery Service) allows Serialized Data External Linking, Data Serializat...",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-4374",
-      "summary": "CVE ID :CVE-2026-4374 Published : April 1, 2026, 2:16 a.m. | 14 hours, 16 minutes ago Description :Improper Restriction of XML External Entity Reference vulnerability in RTI Connext Professional...",
-      "source": "CVE Feed",
-      "published": "2026-04-01T02:16:03+00:00"
     },
     {
       "title": "TrueChaos: The TrueConf Zero-Day That Turned Secure Updates Into a Government Espionage Backdoor",
@@ -462,41 +525,6 @@
       "summary": "Vim Modeline Vulnerability: How a Crafted File Can Hijack Your System The Vim project has issued a critical security advisory regarding a high-severity vulnerability that could allow attackers to...",
       "source": "CVE Newsroom",
       "published": "2026-04-01T01:40:10+00:00"
-    },
-    {
-      "title": "CVE-2026-35056 - XenForo Remote Code Execution via Authenticated Admin",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-35056",
-      "summary": "CVE ID :CVE-2026-35056 Published : April 1, 2026, 1:16 a.m. | 15 hours, 16 minutes ago Description :XenForo before 2.3.9 and before 2.2.18 allows remote code execution (RCE) by authenticated, but...",
-      "source": "CVE Feed",
-      "published": "2026-04-01T01:16:41+00:00"
-    },
-    {
-      "title": "CVE-2025-71282 - XenForo Path Disclosure via open_basedir Exceptions",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2025-71282",
-      "summary": "CVE ID :CVE-2025-71282 Published : April 1, 2026, 1:16 a.m. | 15 hours, 16 minutes ago Description :XenForo before 2.3.7 discloses filesystem paths through exception messages triggered by...",
-      "source": "CVE Feed",
-      "published": "2026-04-01T01:16:40+00:00"
-    },
-    {
-      "title": "CVE-2025-71281 - XenForo Template Method Call Restriction Bypass",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2025-71281",
-      "summary": "CVE ID :CVE-2025-71281 Published : April 1, 2026, 1:16 a.m. | 15 hours, 16 minutes ago Description :XenForo before 2.3.7 does not properly restrict methods callable from within templates. A loose...",
-      "source": "CVE Feed",
-      "published": "2026-04-01T01:16:40+00:00"
-    },
-    {
-      "title": "CVE-2025-71279 - XenForo Passkey Security Bypass",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2025-71279",
-      "summary": "CVE ID :CVE-2025-71279 Published : April 1, 2026, 1:16 a.m. | 15 hours, 16 minutes ago Description :XenForo before 2.3.7 contains a security issue affecting Passkeys that have been added to user...",
-      "source": "CVE Feed",
-      "published": "2026-04-01T01:16:40+00:00"
-    },
-    {
-      "title": "CVE-2025-71278 - XenForo OAuth2 Unauthorized Scope Request",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2025-71278",
-      "summary": "CVE ID :CVE-2025-71278 Published : April 1, 2026, 1:16 a.m. | 15 hours, 16 minutes ago Description :XenForo before 2.3.5 allows OAuth2 client applications to request unauthorized scopes. This affects...",
-      "source": "CVE Feed",
-      "published": "2026-04-01T01:16:40+00:00"
     },
     {
       "title": "Claude Code source code accidentally leaked in NPM package",
@@ -548,13 +576,6 @@
       "published": "2026-03-31T20:55:13+00:00"
     },
     {
-      "title": "Google links axios supply chain attack to North Korean group",
-      "link": "https://therecord.media/google-links-axios-supply-chain-attack-north-korea",
-      "summary": "Google Threat Intelligence Group (GTIG) joined several other researchers in attributing the attack to a North Korean threat actor they call UNC1069. SentinelOne found the same group using macOS-based...",
-      "source": "The Record",
-      "published": "2026-03-31T20:30:00+00:00"
-    },
-    {
       "title": "Google's Vertex AI Is Over-Privileged. That's a Problem",
       "link": "https://www.darkreading.com/cyber-risk/googles-vertex-ai-over-privilege-problem",
       "summary": "Palo Alto Networks researchers show how attackers could exploit AI agents on Google's Vertex AI to steal data and break into restricted cloud infrastructure.",
@@ -592,8 +613,8 @@
     {
       "title": "TrueConf Zero-Day Exploited in Attacks on Southeast Asian Government Networks",
       "link": "https://thehackernews.com/2026/03/trueconf-zero-day-exploited-in-attacks.html",
-      "summary": "A high-severity security flaw in the TrueConf client video conferencing software has been exploited in the wild as a zero-day as part of a campaign targeting government entities in Southeast Asia...",
-      "source": "The Hacker News",
+      "summary": "TrueConf Zero-Day Exploited in Attacks on Southeast Asian Government Networks A high-severity security flaw in the TrueConf client video conferencing software has been exploited in the wild as a...",
+      "source": "CVE Newsroom",
       "published": "2026-03-31T16:03:00+00:00"
     },
     {
@@ -672,13 +693,6 @@
       "summary": "Cybersecurity researchers have disclosed a security \"blind spot\" in Google Cloud's Vertex AI platform that could allow artificial intelligence (AI) agents to be weaponized by an attacker to gain...",
       "source": "The Hacker News",
       "published": "2026-03-31T13:09:00+00:00"
-    },
-    {
-      "title": "Microsoft fixes Outlook Classic crashes caused by Teams Meeting add-in",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-outlook-classic-crashes-caused-by-teams-meeting-add-in/",
-      "summary": "​Microsoft has resolved a known issue that rendered the classic Outlook email client unusable for users who enabled the Microsoft Teams Meeting Add-in. [...]",
-      "source": "BleepingComputer",
-      "published": "2026-03-31T12:04:15+00:00"
     },
     {
       "title": "Critical CrewAI Vulnerabilities Allow RCE and Sandbox Escapes via Prompt Injection",
@@ -996,13 +1010,6 @@
       "published": "2026-03-26T12:04:31+00:00"
     },
     {
-      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-      "link": "https://www.cisa.gov/news-events/alerts/2026/03/26/cisa-adds-one-known-exploited-vulnerability-catalog",
-      "summary": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation. CVE-2026-33634 Aqua Security Trivy Embedded Malicious Code...",
-      "source": "CISA Alerts",
-      "published": "2026-03-26T12:00:00+00:00"
-    },
-    {
       "title": "OpenCode Systems OC Messaging and USSD Gateway",
       "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-085-02",
       "summary": "View CSAF Summary Successful exploitation of this vulnerability could allow an authenticated low-privileged user to gain access to SMS messages outside of their authorized tenant scope via a crafted...",
@@ -1020,6 +1027,13 @@
       "title": "PTC Windchill Product Lifecycle Management",
       "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-085-03",
       "summary": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to achieve remote code execution. The following versions of PTC Windchill Product Lifecycle Management are...",
+      "source": "CISA Alerts",
+      "published": "2026-03-26T12:00:00+00:00"
+    },
+    {
+      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/03/26/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "summary": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation. CVE-2026-33634 Aqua Security Trivy Embedded Malicious Code...",
       "source": "CISA Alerts",
       "published": "2026-03-26T12:00:00+00:00"
     },
@@ -1353,16 +1367,9 @@
       "published": "2026-03-20T00:49:19+00:00"
     },
     {
-      "title": "AI Conundrum: Why MCP Security Can't Be Patched Away",
-      "link": "https://www.darkreading.com/application-security/mcp-security-patched",
-      "summary": "RSAC Conference Preview: MCP introduces security risks into LLM environments that are architectural and not easily fixable, researcher says.",
-      "source": "Dark Reading",
-      "published": "2026-03-19T21:54:38+00:00"
-    },
-    {
-      "title": "Schneider Electric EcoStruxure PME and EPO",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-078-04",
-      "summary": "View CSAF Summary Schneider Electric is aware of a vulnerability in its EcoStruxure Power Monitoring Expert (PME) and EcoStruxure Power Operation (EPO) products. EcoStruxure Power Monitoring Expert...",
+      "title": "CTEK Chargeportal",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-078-06",
+      "summary": "View CSAF Summary Successful exploitation of these vulnerabilities could enable attackers to gain unauthorized administrative control over vulnerable charging stations or disrupt charging services...",
       "source": "CISA Alerts",
       "published": "2026-03-19T12:00:00+00:00"
     },
@@ -1381,13 +1388,6 @@
       "published": "2026-03-19T12:00:00+00:00"
     },
     {
-      "title": "Schneider Electric Modicon M241, M251, and M262",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-078-01",
-      "summary": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to cause a denial-of-service condition on the product. The following versions of Schneider Electric Modicon...",
-      "source": "CISA Alerts",
-      "published": "2026-03-19T12:00:00+00:00"
-    },
-    {
       "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
       "link": "https://www.cisa.gov/news-events/alerts/2026/03/19/cisa-adds-one-known-exploited-vulnerability-catalog",
       "summary": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation. CVE-2026-20131 Cisco Secure Firewall Management Center (FMC)...",
@@ -1395,9 +1395,9 @@
       "published": "2026-03-19T12:00:00+00:00"
     },
     {
-      "title": "IGL-Technologies eParking.fi",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-078-07",
-      "summary": "View CSAF Summary Successful exploitation of these vulnerabilities could enable attackers to gain unauthorized administrative control over vulnerable charging stations or disrupt charging services...",
+      "title": "Schneider Electric Modicon M241, M251, and M262",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-078-01",
+      "summary": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to cause a denial-of-service condition on the product. The following versions of Schneider Electric Modicon...",
       "source": "CISA Alerts",
       "published": "2026-03-19T12:00:00+00:00"
     }
