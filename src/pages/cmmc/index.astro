@@ -1,0 +1,663 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import practices from '../../../data/cmmc-practices.json';
+
+/* ── Group practices by domain at build time ── */
+interface Practice {
+    id: string;
+    displayId: string;
+    title: string;
+    domain: string;
+    domainCode: string;
+    level: number;
+}
+
+interface DomainGroup {
+    code: string;
+    name: string;
+    practices: Practice[];
+}
+
+const grouped: DomainGroup[] = [];
+const domainMap = new Map<string, DomainGroup>();
+
+for (const p of (practices as { practices: Practice[] }).practices) {
+    let group = domainMap.get(p.domainCode);
+    if (!group) {
+        group = { code: p.domainCode, name: p.domain, practices: [] };
+        domainMap.set(p.domainCode, group);
+        grouped.push(group);
+    }
+    group.practices.push(p);
+}
+
+const totalCount = (practices as { practices: Practice[] }).practices.length;
+---
+
+<BaseLayout
+    title="CMMC 2.0 Practices | Cardinal Six Cyber"
+    description="All 110 CMMC 2.0 practices organized by domain. Level 1 practices support self-assessment via C6 Overwatch."
+    canonical="https://cardinalsixcyber.com/cmmc"
+    ogDescription="Complete reference for all 110 CMMC 2.0 practices grouped by domain with filtering by level and search."
+    navFixed={false}
+    activePage="resources"
+>
+    <Fragment slot="head">
+        <script type="application/ld+json" set:html={JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://cardinalsixcyber.com/" },
+                { "@type": "ListItem", "position": 2, "name": "CMMC 2.0 Practices", "item": "https://cardinalsixcyber.com/cmmc" }
+            ]
+        })} />
+        <script type="application/ld+json" set:html={JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "CollectionPage",
+            "name": "CMMC 2.0 Practices",
+            "description": "All 110 CMMC 2.0 practices organized by domain. Level 1 practices support self-assessment via C6 Overwatch.",
+            "url": "https://cardinalsixcyber.com/cmmc",
+            "isPartOf": { "@type": "WebSite", "name": "Cardinal Six Cyber", "url": "https://cardinalsixcyber.com" }
+        })} />
+    </Fragment>
+
+    <!-- ═══ Hero Header ═══ -->
+    <section class="cmmc-header" aria-label="Page header">
+        <div class="container">
+            <span class="eyebrow reveal">Compliance Reference</span>
+            <h1 class="cmmc-title reveal reveal-delay-1">CMMC 2.0 <span class="accent">Practices</span></h1>
+            <div class="divider reveal reveal-delay-2"></div>
+            <p class="section-sub reveal reveal-delay-2">All 110 CMMC 2.0 practices organized by domain. Level 1 practices support self-assessment via C6 Overwatch.</p>
+        </div>
+    </section>
+
+    <!-- ═══ Sticky Filter Bar ═══ -->
+    <div class="filter-bar" id="filterBar">
+        <div class="container">
+            <div class="filter-row">
+                <!-- Domain pills -->
+                <div class="filter-pills" id="domainPills" role="group" aria-label="Filter by domain">
+                    <button class="filter-pill active" data-domain="" aria-pressed="true">All <span class="pill-count">{totalCount}</span></button>
+                    {grouped.map(g => (
+                        <button class="filter-pill" data-domain={g.code} aria-pressed="false">
+                            {g.code} <span class="pill-count">{g.practices.length}</span>
+                        </button>
+                    ))}
+                </div>
+
+                <!-- Level toggle + search -->
+                <div class="filter-controls">
+                    <div class="level-toggle" role="group" aria-label="Filter by CMMC level">
+                        <button class="level-btn active" data-level="" aria-pressed="true">All</button>
+                        <button class="level-btn" data-level="1" aria-pressed="false">L1</button>
+                        <button class="level-btn" data-level="2" aria-pressed="false">L2</button>
+                    </div>
+                    <div class="search-wrap">
+                        <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg>
+                        <input type="search" id="searchInput" class="search-input" placeholder="Search by ID or title..." aria-label="Search practices" autocomplete="off" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ═══ Practice Listing ═══ -->
+    <section class="cmmc-listing" aria-label="CMMC practices">
+        <div class="container">
+            <div id="practiceResults" aria-live="polite">
+                {grouped.map(g => (
+                    <div class="domain-group" id={g.code.toLowerCase()} data-domain-group={g.code}>
+                        <div class="domain-heading">
+                            <h2 class="domain-title">
+                                <span class="domain-code">{g.code}</span>
+                                {g.name}
+                                <span class="domain-count" data-domain-count={g.code}>{g.practices.length}</span>
+                            </h2>
+                        </div>
+                        <div class="practice-list">
+                            {g.practices.map(p => (
+                                <a
+                                    href={`/cmmc/${p.id}`}
+                                    class="practice-row"
+                                    data-domain={p.domainCode}
+                                    data-level={String(p.level)}
+                                    data-search={`${p.displayId} ${p.title}`.toLowerCase()}
+                                >
+                                    <span class="practice-id">{p.displayId}</span>
+                                    <span class="practice-title">{p.title}</span>
+                                    <span class={`practice-level level-${p.level}`}>L{p.level}</span>
+                                    <svg class="practice-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="M12 5l7 7-7 7"/></svg>
+                                </a>
+                            ))}
+                        </div>
+                    </div>
+                ))}
+            </div>
+
+            <!-- Empty state -->
+            <div class="cmmc-empty" id="emptyState" style="display:none;">
+                <svg class="cmmc-empty-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/><path d="M8 11h6"/></svg>
+                <h3>No Matching Practices</h3>
+                <p>No practices match your current filters. Adjust your search or filter criteria.</p>
+            </div>
+        </div>
+    </section>
+</BaseLayout>
+
+<style is:global>
+    /* ── Hero ── */
+    .cmmc-header {
+        padding: calc(var(--space-32) + var(--space-8)) 0 var(--space-12);
+        text-align: center;
+        background: var(--c6-gradient-hero);
+        position: relative;
+        overflow: hidden;
+    }
+    .cmmc-header::before {
+        content: '';
+        position: absolute;
+        top: 20%;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 800px;
+        height: 600px;
+        background: radial-gradient(ellipse at center, rgba(192, 57, 43, 0.06) 0%, transparent 70%);
+        pointer-events: none;
+    }
+    .cmmc-header .container { position: relative; z-index: 2; }
+    .cmmc-title {
+        font-family: var(--font-display);
+        font-size: clamp(2.5rem, 5vw, 4.5rem);
+        font-weight: 700;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        line-height: 1.1;
+        color: var(--c6-text-primary);
+        margin-top: var(--space-4);
+    }
+    .cmmc-title .accent { color: var(--c6-red-bright); }
+
+    /* ── Sticky Filter Bar ── */
+    .filter-bar {
+        position: sticky;
+        top: 64px;
+        z-index: 100;
+        background: rgba(17, 17, 17, 0.92);
+        backdrop-filter: blur(12px);
+        -webkit-backdrop-filter: blur(12px);
+        border-bottom: 1px solid var(--c6-border);
+        padding: var(--space-4) 0;
+    }
+    .filter-row {
+        display: flex;
+        flex-direction: column;
+        gap: var(--space-4);
+    }
+    .filter-pills {
+        display: flex;
+        gap: var(--space-2);
+        overflow-x: auto;
+        scrollbar-width: none;
+        -ms-overflow-style: none;
+        padding-bottom: var(--space-1);
+    }
+    .filter-pills::-webkit-scrollbar { display: none; }
+    .filter-pill {
+        font-family: var(--font-display);
+        font-size: 0.82rem;
+        font-weight: 500;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        color: var(--c6-text-muted);
+        background: transparent;
+        border: 1px solid var(--c6-border);
+        padding: var(--space-2) var(--space-4);
+        border-radius: var(--radius-full);
+        cursor: pointer;
+        white-space: nowrap;
+        transition: transform 0.2s ease, border-color 0.2s ease, color 0.2s ease, background 0.2s ease;
+        flex-shrink: 0;
+    }
+    .filter-pill:hover {
+        border-color: var(--c6-border-accent);
+        color: var(--c6-text-secondary);
+    }
+    .filter-pill:focus-visible {
+        outline: 2px solid var(--c6-red);
+        outline-offset: 2px;
+    }
+    .filter-pill.active {
+        background: var(--c6-red);
+        border-color: var(--c6-red);
+        color: var(--c6-text-primary);
+    }
+    .filter-pill .pill-count {
+        font-family: var(--font-mono);
+        font-size: 0.7rem;
+        margin-left: var(--space-1);
+        opacity: 0.7;
+    }
+
+    /* ── Filter Controls (level toggle + search) ── */
+    .filter-controls {
+        display: flex;
+        align-items: center;
+        gap: var(--space-4);
+    }
+    .level-toggle {
+        display: flex;
+        gap: 0;
+        border: 1px solid var(--c6-border);
+        border-radius: var(--radius-full);
+        overflow: hidden;
+        flex-shrink: 0;
+    }
+    .level-btn {
+        font-family: var(--font-display);
+        font-size: 0.8rem;
+        font-weight: 500;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        color: var(--c6-text-muted);
+        background: transparent;
+        border: none;
+        padding: var(--space-2) var(--space-4);
+        cursor: pointer;
+        transition: background 0.2s ease, color 0.2s ease;
+        white-space: nowrap;
+    }
+    .level-btn:hover {
+        color: var(--c6-text-secondary);
+        background: rgba(255, 255, 255, 0.04);
+    }
+    .level-btn:focus-visible {
+        outline: 2px solid var(--c6-red);
+        outline-offset: -2px;
+    }
+    .level-btn.active {
+        background: var(--c6-red);
+        color: var(--c6-text-primary);
+    }
+    .level-btn + .level-btn {
+        border-left: 1px solid var(--c6-border);
+    }
+
+    /* ── Search Input ── */
+    .search-wrap {
+        position: relative;
+        flex: 1;
+        max-width: 320px;
+    }
+    .search-icon {
+        position: absolute;
+        left: var(--space-3);
+        top: 50%;
+        transform: translateY(-50%);
+        width: 16px;
+        height: 16px;
+        color: var(--c6-text-dim);
+        pointer-events: none;
+    }
+    .search-input {
+        font-family: var(--font-body);
+        font-size: 0.85rem;
+        color: var(--c6-text-secondary);
+        background: rgba(255, 255, 255, 0.04);
+        border: 1px solid var(--c6-border);
+        border-radius: var(--radius-full);
+        padding: var(--space-2) var(--space-4) var(--space-2) calc(var(--space-3) + 22px);
+        width: 100%;
+        transition: border-color 0.2s ease, box-shadow 0.2s ease;
+        outline: none;
+    }
+    .search-input::placeholder { color: var(--c6-text-dim); }
+    .search-input:focus {
+        border-color: var(--c6-red);
+        box-shadow: 0 0 12px var(--c6-red-glow);
+    }
+
+    /* ── Practice Listing ── */
+    .cmmc-listing {
+        background: var(--c6-gradient-section);
+        padding: var(--space-12) 0 var(--space-16);
+        min-height: 400px;
+        position: relative;
+    }
+    .cmmc-listing::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 1000px;
+        height: 600px;
+        background: radial-gradient(ellipse at center, rgba(192, 57, 43, 0.04) 0%, transparent 70%);
+        pointer-events: none;
+    }
+
+    /* ── Domain Group ── */
+    .domain-group {
+        margin-bottom: var(--space-10);
+    }
+    .domain-group:last-child {
+        margin-bottom: 0;
+    }
+    .domain-heading {
+        margin-bottom: var(--space-4);
+        border-bottom: 1px solid var(--c6-border);
+        padding-bottom: var(--space-3);
+    }
+    .domain-title {
+        font-family: var(--font-display);
+        font-size: clamp(1.1rem, 2vw, 1.4rem);
+        font-weight: 600;
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+        line-height: 1.3;
+        color: var(--c6-text-primary);
+        display: flex;
+        align-items: center;
+        gap: var(--space-3);
+        flex-wrap: wrap;
+    }
+    .domain-code {
+        font-family: var(--font-mono);
+        font-size: 0.85rem;
+        font-weight: 500;
+        color: var(--c6-red-text);
+        background: rgba(192, 57, 43, 0.1);
+        border: 1px solid rgba(192, 57, 43, 0.2);
+        padding: var(--space-1) var(--space-3);
+        border-radius: var(--radius-sm);
+        letter-spacing: 0.04em;
+    }
+    .domain-count {
+        font-family: var(--font-mono);
+        font-size: 0.72rem;
+        color: var(--c6-text-dim);
+        margin-left: auto;
+        letter-spacing: 0.02em;
+    }
+
+    /* ── Practice Row ── */
+    .practice-list {
+        display: flex;
+        flex-direction: column;
+        gap: 1px;
+        background: var(--c6-border);
+    }
+    .practice-row {
+        display: flex;
+        align-items: center;
+        gap: var(--space-4);
+        padding: var(--space-4) var(--space-6);
+        background: var(--c6-black);
+        border-left: 3px solid transparent;
+        cursor: pointer;
+        transition: transform 0.2s ease, background 0.2s ease, border-color 0.2s ease;
+        text-decoration: none;
+        color: inherit;
+    }
+    .practice-row:hover {
+        background: var(--c6-black-elevated);
+        border-left-color: var(--c6-red);
+        color: inherit;
+    }
+    .practice-row:focus-visible {
+        outline: 2px solid var(--c6-red);
+        outline-offset: -2px;
+        border-radius: 0;
+    }
+    .practice-id {
+        font-family: var(--font-mono);
+        font-size: 0.82rem;
+        font-weight: 500;
+        color: var(--c6-text-secondary);
+        letter-spacing: 0.02em;
+        white-space: nowrap;
+        min-width: 110px;
+    }
+    .practice-title {
+        font-family: var(--font-display);
+        font-size: 0.95rem;
+        font-weight: 500;
+        letter-spacing: 0.02em;
+        color: var(--c6-text-primary);
+        flex: 1;
+        min-width: 0;
+    }
+    .practice-level {
+        font-family: var(--font-mono);
+        font-size: 0.72rem;
+        font-weight: 600;
+        letter-spacing: 0.06em;
+        padding: var(--space-1) var(--space-3);
+        border-radius: var(--radius-sm);
+        white-space: nowrap;
+        flex-shrink: 0;
+    }
+    .practice-level.level-1 {
+        color: var(--c6-gold);
+        background: rgba(201, 168, 76, 0.12);
+        border: 1px solid rgba(201, 168, 76, 0.25);
+    }
+    .practice-level.level-2 {
+        color: var(--c6-red-text);
+        background: rgba(192, 57, 43, 0.1);
+        border: 1px solid rgba(192, 57, 43, 0.2);
+    }
+    .practice-arrow {
+        flex-shrink: 0;
+        width: 18px;
+        height: 18px;
+        color: var(--c6-text-dim);
+        transition: transform 0.2s ease, color 0.2s ease;
+    }
+    .practice-row:hover .practice-arrow {
+        color: var(--c6-red);
+        transform: translateX(4px);
+    }
+
+    /* ── Empty State ── */
+    .cmmc-empty {
+        text-align: center;
+        padding: var(--space-20) var(--space-8);
+    }
+    .cmmc-empty-icon {
+        width: 64px;
+        height: 64px;
+        margin: 0 auto var(--space-6);
+        color: var(--c6-text-dim);
+    }
+    .cmmc-empty h3 {
+        font-family: var(--font-display);
+        font-size: 1.3rem;
+        font-weight: 600;
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+        color: var(--c6-text-secondary);
+        margin-bottom: var(--space-3);
+    }
+    .cmmc-empty p {
+        font-size: 0.9rem;
+        color: var(--c6-text-muted);
+        max-width: 400px;
+        margin: 0 auto;
+    }
+
+    /* ── Responsive ── */
+    @media (max-width: 768px) {
+        .cmmc-header {
+            padding-top: calc(var(--space-24) + var(--space-8));
+            padding-bottom: var(--space-8);
+        }
+        .filter-controls {
+            flex-direction: column;
+            align-items: stretch;
+            gap: var(--space-3);
+        }
+        .search-wrap {
+            max-width: 100%;
+        }
+        .practice-row {
+            padding: var(--space-3) var(--space-4);
+            gap: var(--space-3);
+        }
+        .practice-id {
+            min-width: 90px;
+            font-size: 0.75rem;
+        }
+        .practice-title {
+            font-size: 0.85rem;
+        }
+        .practice-arrow {
+            display: none;
+        }
+    }
+    @media (max-width: 480px) {
+        .filter-bar { top: 56px; }
+        .practice-row {
+            flex-wrap: wrap;
+            gap: var(--space-2);
+        }
+        .practice-id {
+            min-width: auto;
+        }
+        .practice-title {
+            width: 100%;
+            order: 3;
+        }
+    }
+</style>
+
+<script>
+    (function() {
+        /* ── Reveal animations ── */
+        var reveals = document.querySelectorAll('.reveal');
+        document.querySelectorAll('.cmmc-header .reveal').forEach(function(el) { el.classList.add('visible'); });
+        if ('IntersectionObserver' in window) {
+            var observer = new IntersectionObserver(function(entries) {
+                entries.forEach(function(entry) { if (entry.isIntersecting) { entry.target.classList.add('visible'); observer.unobserve(entry.target); } });
+            }, { threshold: 0.01, rootMargin: '0px 0px 50px 0px' });
+            reveals.forEach(function(el) { if (!el.closest('.cmmc-header')) observer.observe(el); });
+        } else { reveals.forEach(function(el) { el.classList.add('visible'); }); }
+        setTimeout(function() { reveals.forEach(function(el) { el.classList.add('visible'); }); }, 3000);
+
+        /* ── Filter state ── */
+        var activeDomain = '';
+        var activeLevel = '';
+        var searchQuery = '';
+
+        var domainPills = document.getElementById('domainPills');
+        var levelBtns = document.querySelectorAll('.level-btn');
+        var searchInput = document.getElementById('searchInput');
+        var groups = document.querySelectorAll('.domain-group');
+        var rows = document.querySelectorAll('.practice-row');
+        var emptyState = document.getElementById('emptyState');
+        var resultsEl = document.getElementById('practiceResults');
+
+        /* ── Domain pill click ── */
+        if (domainPills) {
+            domainPills.addEventListener('click', function(e) {
+                var pill = e.target.closest('.filter-pill');
+                if (!pill) return;
+                domainPills.querySelectorAll('.filter-pill').forEach(function(p) {
+                    p.classList.remove('active');
+                    p.setAttribute('aria-pressed', 'false');
+                });
+                pill.classList.add('active');
+                pill.setAttribute('aria-pressed', 'true');
+                activeDomain = pill.getAttribute('data-domain') || '';
+                applyFilters();
+            });
+        }
+
+        /* ── Level toggle click ── */
+        levelBtns.forEach(function(btn) {
+            btn.addEventListener('click', function() {
+                levelBtns.forEach(function(b) {
+                    b.classList.remove('active');
+                    b.setAttribute('aria-pressed', 'false');
+                });
+                btn.classList.add('active');
+                btn.setAttribute('aria-pressed', 'true');
+                activeLevel = btn.getAttribute('data-level') || '';
+                applyFilters();
+            });
+        });
+
+        /* ── Search input ── */
+        if (searchInput) {
+            var debounceTimer;
+            searchInput.addEventListener('input', function() {
+                clearTimeout(debounceTimer);
+                debounceTimer = setTimeout(function() {
+                    searchQuery = searchInput.value.trim().toLowerCase();
+                    applyFilters();
+                }, 150);
+            });
+        }
+
+        /* ── Apply combined filters (AND logic) ── */
+        function applyFilters() {
+            var visibleCount = 0;
+            var groupVisibleCounts = {};
+
+            rows.forEach(function(row) {
+                var rowDomain = row.getAttribute('data-domain') || '';
+                var rowLevel = row.getAttribute('data-level') || '';
+                var rowSearch = row.getAttribute('data-search') || '';
+
+                var domainMatch = !activeDomain || rowDomain === activeDomain;
+                var levelMatch = !activeLevel || rowLevel === activeLevel;
+                var searchMatch = !searchQuery || rowSearch.indexOf(searchQuery) !== -1;
+
+                var visible = domainMatch && levelMatch && searchMatch;
+                row.style.display = visible ? '' : 'none';
+
+                if (visible) {
+                    visibleCount++;
+                    groupVisibleCounts[rowDomain] = (groupVisibleCounts[rowDomain] || 0) + 1;
+                }
+            });
+
+            /* Show/hide domain groups */
+            groups.forEach(function(group) {
+                var code = group.getAttribute('data-domain-group') || '';
+                var groupCount = groupVisibleCounts[code] || 0;
+                group.style.display = groupCount > 0 ? '' : 'none';
+
+                /* Update domain count badge */
+                var countEl = group.querySelector('[data-domain-count]');
+                if (countEl) {
+                    countEl.textContent = String(groupCount);
+                }
+            });
+
+            /* Update the "All" pill count */
+            var allPill = domainPills ? domainPills.querySelector('[data-domain=""]') : null;
+            if (allPill) {
+                var allCount = allPill.querySelector('.pill-count');
+                if (allCount) allCount.textContent = String(visibleCount);
+            }
+
+            /* Update individual domain pill counts */
+            if (domainPills) {
+                domainPills.querySelectorAll('.filter-pill[data-domain]').forEach(function(pill) {
+                    var dc = pill.getAttribute('data-domain');
+                    if (!dc) return; // skip "All"
+                    var cnt = pill.querySelector('.pill-count');
+                    if (cnt) cnt.textContent = String(groupVisibleCounts[dc] || 0);
+                });
+            }
+
+            /* Empty state */
+            if (emptyState) {
+                emptyState.style.display = visibleCount === 0 ? '' : 'none';
+            }
+            if (resultsEl) {
+                resultsEl.style.display = visibleCount === 0 ? 'none' : '';
+            }
+        }
+    })();
+</script>
