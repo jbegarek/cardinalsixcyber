@@ -1,0 +1,128 @@
+---
+interface Props {
+    level: number;
+    groupName: string;
+    groupIndexUrl: string;
+}
+
+const { level, groupName, groupIndexUrl } = Astro.props;
+
+const isLevel1 = level === 1;
+
+const heading = isLevel1
+    ? "Track Your Level 1 Progress"
+    : "Level 2 Requires Assessment";
+
+const bodyText = isLevel1
+    ? "Use C6 Overwatch to track your CMMC Level 1 self-assessment progress, manage your POA&Ms, and maintain continuous compliance readiness."
+    : "CMMC Level 2 requires a practitioner-led readiness engagement and third-party assessment. Cardinal Six Cyber provides expert guidance through every phase of preparation.";
+
+const primaryHref = isLevel1
+    ? "https://overwatch.cardinalsixcyber.com"
+    : "mailto:info@cardinalsixcyber.com";
+
+const primaryLabel = isLevel1
+    ? "Launch C6 Overwatch"
+    : "Request a Consultation";
+---
+
+<aside class="compliance-cta" aria-label="Call to action">
+    <div class="cta-accent"></div>
+    <h2 class="cta-heading">{heading}</h2>
+    <div class="divider"></div>
+    <p class="cta-body">{bodyText}</p>
+    <div class="cta-actions">
+        {isLevel1 ? (
+            <a href={primaryHref} class="btn-primary" target="_blank" rel="noopener noreferrer">
+                {primaryLabel}<span class="sr-only"> (opens in new tab)</span>
+            </a>
+        ) : (
+            <a href={primaryHref} class="btn-primary">
+                {primaryLabel}
+            </a>
+        )}
+        <a href={groupIndexUrl} class="btn-secondary">
+            Explore {groupName} practices &rarr;
+        </a>
+    </div>
+</aside>
+
+<style>
+    .compliance-cta {
+        position: relative;
+        background: var(--c6-black-elevated);
+        border: 1px solid var(--c6-border);
+        border-radius: var(--radius-md);
+        padding: var(--space-10) var(--space-8);
+        margin-top: var(--space-12);
+        text-align: center;
+        box-shadow: var(--shadow-card);
+        overflow: hidden;
+    }
+
+    .cta-accent {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 3px;
+        background: var(--c6-gradient-accent);
+    }
+
+    .cta-heading {
+        font-family: var(--font-display);
+        font-size: clamp(1.4rem, 2.5vw, 1.8rem);
+        font-weight: 600;
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+        color: var(--c6-text-primary);
+        margin: 0 0 var(--space-4) 0;
+        line-height: 1.2;
+    }
+
+    .cta-body {
+        font-family: var(--font-body);
+        font-size: 1rem;
+        line-height: 1.7;
+        color: var(--c6-text-body);
+        max-width: 600px;
+        margin: var(--space-6) auto var(--space-8);
+    }
+
+    .cta-actions {
+        display: flex;
+        flex-wrap: wrap;
+        gap: var(--space-4);
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sr-only {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        margin: -1px;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        white-space: nowrap;
+        border: 0;
+    }
+
+    @media (max-width: 480px) {
+        .compliance-cta {
+            padding: var(--space-8) var(--space-6);
+        }
+
+        .cta-actions {
+            flex-direction: column;
+            width: 100%;
+        }
+
+        .cta-actions :global(.btn-primary),
+        .cta-actions :global(.btn-secondary) {
+            width: 100%;
+            text-align: center;
+        }
+    }
+</style>
