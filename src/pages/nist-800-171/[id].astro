@@ -1,0 +1,82 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import ComplianceDetail from '../../components/ComplianceDetail.astro';
+import nistData from '../../../data/nist-800-171.json';
+import cmmcData from '../../../data/cmmc-practices.json';
+
+export function getStaticPaths() {
+    return nistData.requirements.map(req => ({
+        params: { id: req.id },
+        props: { req }
+    }));
+}
+
+const { req } = Astro.props;
+
+// Build cross-references: map CMMC practice IDs to linked objects
+const cmmcRefs = req.cmmcPractices.map(refId => {
+    const practice = cmmcData.practices.find(p => p.id === refId);
+    return practice ? { id: practice.id, displayId: practice.displayId, url: `/cmmc/${practice.id}` } : null;
+}).filter(Boolean);
+
+// Related requirements: same family, excluding self, max 4
+const related = nistData.requirements
+    .filter(r => r.family === req.family && r.id !== req.id)
+    .slice(0, 4)
+    .map(r => ({ id: r.id, displayId: r.displayId, title: r.title, url: `/nist-800-171/${r.id}` }));
+
+const pageTitle = `${req.displayId} — ${req.title} | NIST 800-171 | Cardinal Six Cyber`;
+const metaDesc = req.description.length > 155
+    ? req.description.slice(0, 152) + '...'
+    : req.description;
+const ogTitle = `${req.displayId} — ${req.title}`;
+---
+
+<BaseLayout
+    title={pageTitle}
+    description={metaDesc}
+    canonical={`https://cardinalsixcyber.com/nist-800-171/${req.id}`}
+    ogTitle={ogTitle}
+    ogDescription={metaDesc}
+    navFixed={false}
+    activePage="resources"
+>
+    <Fragment slot="head">
+        <script type="application/ld+json" set:html={JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "TechArticle",
+            "name": ogTitle,
+            "description": req.description,
+            "datePublished": "2026-03-31",
+            "author": { "@type": "Organization", "name": "Cardinal Six Cyber LLC" },
+            "publisher": { "@type": "Organization", "name": "Cardinal Six Cyber LLC" },
+            "url": `https://cardinalsixcyber.com/nist-800-171/${req.id}`
+        })} />
+        <script type="application/ld+json" set:html={JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://cardinalsixcyber.com/" },
+                { "@type": "ListItem", "position": 2, "name": "NIST 800-171", "item": "https://cardinalsixcyber.com/nist-800-171" },
+                { "@type": "ListItem", "position": 3, "name": req.family, "item": `https://cardinalsixcyber.com/nist-800-171#${req.familyCode.toLowerCase().replace('.', '-')}` },
+                { "@type": "ListItem", "position": 4, "name": req.displayId }
+            ]
+        })} />
+    </Fragment>
+
+    <ComplianceDetail
+        framework="nist-800-171"
+        id={req.id}
+        displayId={req.displayId}
+        title={req.title}
+        groupName={req.family}
+        groupCode={req.familyCode}
+        level={2}
+        description={req.description}
+        assessmentObjectives={req.assessmentObjectives}
+        crossRefs={[{ label: "CMMC Practice Mapping", items: cmmcRefs }]}
+        nist80053={req.nist80053}
+        notes={req.notes}
+        relatedItems={related}
+    />
+</BaseLayout>
