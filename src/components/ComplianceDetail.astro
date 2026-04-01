@@ -1,4 +1,6 @@
 ---
+import ComplianceCTA from './ComplianceCTA.astro';
+
 interface Props {
     framework: 'cmmc' | 'nist-800-171';
     id: string;
@@ -32,6 +34,9 @@ const {
 } = Astro.props;
 
 const isCmmc = framework === 'cmmc';
+const groupIndexUrl = isCmmc
+    ? `/cmmc#${groupCode.toLowerCase()}`
+    : `/nist-800-171#${groupCode}`;
 const frameworkLabel = isCmmc ? 'CMMC 2.0' : 'NIST 800-171';
 const frameworkUrl = isCmmc ? '/cmmc' : '/nist-800-171';
 const groupUrl = isCmmc
@@ -97,10 +102,63 @@ const eyebrowParts = [
         </div>
     </section>
 
-    <!-- TODO: Section 4 — Assessment Objectives -->
-    <!-- TODO: Section 5 — Examiner Notes / Discussion -->
-    <!-- TODO: Section 6 — Related Practices -->
-    <!-- TODO: Section 7 — CTA (ComplianceCTA component) -->
+    <!-- Section 4: Assessment Objectives -->
+    <section class="objectives-section" aria-label="Assessment Objectives">
+        <div class="objectives-card">
+            <h2 class="objectives-label">Assessment Objectives</h2>
+            {assessmentObjectives.length > 0 ? (
+                <ul class="objectives-list">
+                    {assessmentObjectives.map((obj) => (
+                        <li class="objective-item">
+                            <svg class="objective-check" viewBox="0 0 20 20" fill="none" aria-hidden="true" width="20" height="20">
+                                <rect x="1" y="1" width="18" height="18" rx="3" stroke="currentColor" stroke-width="1.5" />
+                                <path d="M6 10.5l2.5 2.5 5.5-5.5" stroke="var(--c6-gold)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                            <span class="objective-text">{obj}</span>
+                        </li>
+                    ))}
+                </ul>
+            ) : (
+                <p class="objectives-empty">Assessment objectives not available for this requirement.</p>
+            )}
+        </div>
+    </section>
+
+    <!-- Section 5: Practitioner Notes -->
+    <section class="notes-section" aria-label="Practitioner Notes">
+        {notes ? (
+            <div class="notes-card">
+                <h2 class="notes-label">Practitioner Notes</h2>
+                <div class="notes-content" set:html={notes} />
+            </div>
+        ) : (
+            <div class="notes-card notes-card--empty">
+                <h2 class="notes-label">Practitioner Notes</h2>
+                <p class="notes-placeholder">Practitioner commentary coming soon.</p>
+            </div>
+        )}
+    </section>
+
+    <!-- Section 6: CTA -->
+    <section class="cta-section" aria-label="Call to action">
+        <ComplianceCTA level={level} groupName={groupName} groupIndexUrl={groupIndexUrl} />
+    </section>
+
+    <!-- Section 7: Related Items -->
+    {relatedItems.length > 0 && (
+        <section class="related-section" aria-label={`Related ${frameworkLabel} requirements`}>
+            <h2 class="related-heading">Related {frameworkLabel} {isCmmc ? 'Practices' : 'Requirements'}</h2>
+            <div class="divider divider--centered"></div>
+            <div class="related-grid">
+                {relatedItems.slice(0, 4).map((item) => (
+                    <a href={item.url} class="related-card">
+                        <span class="related-id">{item.displayId}</span>
+                        <span class="related-title">{item.title}</span>
+                    </a>
+                ))}
+            </div>
+        </section>
+    )}
 </article>
 
 <style>
@@ -299,6 +357,201 @@ const eyebrowParts = [
         white-space: nowrap;
     }
 
+    /* === Section 4: Assessment Objectives === */
+    .objectives-section {
+        margin-bottom: var(--space-12);
+    }
+
+    .objectives-card {
+        background: var(--c6-black-elevated);
+        border: 1px solid var(--c6-border);
+        border-radius: var(--radius-md);
+        padding: var(--space-6);
+        box-shadow: var(--shadow-card);
+    }
+
+    .objectives-label {
+        font-family: var(--font-display);
+        font-size: 0.85rem;
+        font-weight: 600;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+        color: var(--c6-gold);
+        margin: 0 0 var(--space-6) 0;
+        line-height: 1.3;
+    }
+
+    .objectives-list {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        gap: var(--space-4);
+    }
+
+    .objective-item {
+        display: flex;
+        align-items: flex-start;
+        gap: var(--space-3);
+    }
+
+    .objective-check {
+        flex-shrink: 0;
+        color: var(--c6-border-accent);
+        margin-top: 2px;
+    }
+
+    .objective-text {
+        font-family: var(--font-body);
+        font-size: 0.95rem;
+        line-height: 1.65;
+        color: var(--c6-text-body);
+    }
+
+    .objectives-empty {
+        font-family: var(--font-body);
+        font-size: 0.9rem;
+        color: var(--c6-text-muted);
+        margin: 0;
+        font-style: italic;
+    }
+
+    /* === Section 5: Practitioner Notes === */
+    .notes-section {
+        margin-bottom: var(--space-12);
+    }
+
+    .notes-card {
+        background: var(--c6-black-elevated);
+        border: 1px solid var(--c6-border);
+        border-left: 3px solid var(--c6-gold);
+        border-radius: var(--radius-md);
+        padding: var(--space-6);
+        box-shadow: var(--shadow-card);
+    }
+
+    .notes-card--empty {
+        border-left-color: var(--c6-text-dim);
+    }
+
+    .notes-label {
+        font-family: var(--font-display);
+        font-size: 0.85rem;
+        font-weight: 600;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+        color: var(--c6-gold);
+        margin: 0 0 var(--space-4) 0;
+        line-height: 1.3;
+    }
+
+    .notes-content {
+        font-family: var(--font-body);
+        font-size: 0.95rem;
+        line-height: 1.75;
+        color: var(--c6-text-body);
+    }
+
+    .notes-content :global(p) {
+        margin: 0 0 var(--space-4) 0;
+    }
+
+    .notes-content :global(p:last-child) {
+        margin-bottom: 0;
+    }
+
+    .notes-content :global(ul),
+    .notes-content :global(ol) {
+        margin: 0 0 var(--space-4) var(--space-6);
+        padding: 0;
+    }
+
+    .notes-content :global(li) {
+        margin-bottom: var(--space-2);
+    }
+
+    .notes-placeholder {
+        font-family: var(--font-body);
+        font-size: 0.9rem;
+        color: var(--c6-text-muted);
+        margin: 0;
+        font-style: italic;
+    }
+
+    /* === Section 6: CTA === */
+    .cta-section {
+        margin-bottom: var(--space-12);
+    }
+
+    /* === Section 7: Related Items === */
+    .related-section {
+        margin-bottom: var(--space-12);
+    }
+
+    .related-heading {
+        font-family: var(--font-display);
+        font-size: clamp(1.2rem, 2vw, 1.6rem);
+        font-weight: 600;
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+        color: var(--c6-text-primary);
+        margin: 0 0 var(--space-4) 0;
+        text-align: center;
+        line-height: 1.2;
+    }
+
+    .divider--centered {
+        width: 80px;
+        height: 2px;
+        background: var(--c6-red);
+        margin: 0 auto var(--space-8);
+    }
+
+    .related-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: var(--space-4);
+    }
+
+    .related-card {
+        display: flex;
+        flex-direction: column;
+        gap: var(--space-2);
+        background: var(--c6-black-elevated);
+        border: 1px solid var(--c6-border);
+        border-radius: var(--radius-md);
+        padding: var(--space-4) var(--space-6);
+        text-decoration: none;
+        box-shadow: var(--shadow-card);
+        transition: border-color 250ms, transform 250ms, box-shadow 250ms;
+    }
+
+    .related-card:hover {
+        border-color: var(--c6-border-accent);
+        transform: translateY(-2px);
+        box-shadow: var(--shadow-card-hover);
+    }
+
+    .related-card:focus-visible {
+        outline: 2px solid var(--c6-red-text);
+        outline-offset: 2px;
+    }
+
+    .related-id {
+        font-family: var(--font-mono);
+        font-size: 0.82rem;
+        color: var(--c6-gold);
+        letter-spacing: 0.04em;
+    }
+
+    .related-title {
+        font-family: var(--font-body);
+        font-size: 0.88rem;
+        line-height: 1.5;
+        color: var(--c6-text-body);
+    }
+
     /* === Responsive === */
     @media (max-width: 640px) {
         .detail-page {
@@ -316,6 +569,10 @@ const eyebrowParts = [
         .eyebrow {
             font-size: 0.78rem;
             letter-spacing: 0.15em;
+        }
+
+        .related-grid {
+            grid-template-columns: 1fr;
         }
     }
 </style>
