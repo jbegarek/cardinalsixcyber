@@ -1,0 +1,430 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout
+    title="Cardinal Six Cyber | Command Your Defense"
+    description="Cardinal Six Cyber — CMMC readiness, RMF/NIST compliance, STIG hardening, and vulnerability management for defense contractors and federal agencies."
+    canonical="https://cardinalsixcyber.com/"
+    ogDescription="Practitioner-led cybersecurity consulting — CMMC readiness, RMF/NIST compliance, STIG hardening, and vulnerability management for defense contractors and federal agencies."
+>
+    <Fragment slot="head">
+        <script type="application/ld+json" set:html={JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "name": "Cardinal Six Cyber LLC",
+            "alternateName": "C6 Cyber",
+            "url": "https://cardinalsixcyber.com",
+            "logo": "https://cardinalsixcyber.com/brand/logo.png",
+            "description": "Practitioner-led cybersecurity consulting for defense contractors, federal agencies, and critical infrastructure. Specializing in CMMC readiness, RMF authorization, STIG compliance, and vulnerability management.",
+            "foundingDate": "2025",
+            "address": { "@type": "PostalAddress", "addressLocality": "Chesapeake", "addressRegion": "VA", "addressCountry": "US" },
+            "contactPoint": { "@type": "ContactPoint", "email": "info@cardinalsixcyber.com", "contactType": "customer service" },
+            "parentOrganization": { "@type": "Organization", "name": "Begarek Enterprises LLC" },
+            "areaServed": "US",
+            "knowsAbout": ["CMMC", "RMF", "NIST 800-53", "NIST 800-171", "STIG Compliance", "Vulnerability Management", "CORA", "ACAS", "FISMA", "Zero Trust Architecture"],
+            "serviceType": ["Cybersecurity Consulting", "CMMC Readiness", "RMF Authorization", "STIG Compliance", "Vulnerability Management", "Risk Management", "Advisory & Training"]
+        })} />
+        <script type="application/ld+json" set:html={JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "ProfessionalService",
+            "name": "Cardinal Six Cyber LLC",
+            "alternateName": "C6 Cyber",
+            "url": "https://cardinalsixcyber.com",
+            "logo": "https://cardinalsixcyber.com/brand/logo.png",
+            "description": "Practitioner-led cybersecurity consulting specializing in CMMC readiness, RMF authorization, STIG compliance, and vulnerability management.",
+            "address": { "@type": "PostalAddress", "addressLocality": "Chesapeake", "addressRegion": "VA", "addressCountry": "US" },
+            "email": "info@cardinalsixcyber.com",
+            "priceRange": "$$",
+            "areaServed": { "@type": "Country", "name": "United States" }
+        })} />
+    </Fragment>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero" aria-label="Hero">
+        <div class="hero-grid" aria-hidden="true"></div>
+        <div class="container hero-content">
+            <div class="hero-text">
+                <div class="hero-eyebrow reveal">Cybersecurity Consulting</div>
+                <h1 class="hero-title reveal reveal-delay-1">
+                    Command<br>Your <span class="accent">Defense</span>
+                </h1>
+                <div class="hero-divider reveal reveal-delay-2"></div>
+                <p class="hero-sub reveal reveal-delay-2">
+                    CMMC readiness, RMF authorization, STIG compliance, and vulnerability management — built by a practitioner who works the mission every day.
+                </p>
+                <div class="hero-actions reveal reveal-delay-3">
+                    <a href="#contact" class="btn-primary">Request Consultation</a>
+                    <a href="#services" class="btn-secondary">Our Services</a>
+                </div>
+            </div>
+            <div class="hero-visual reveal reveal-delay-2">
+                <div class="hero-shield">
+                    <picture>
+                        <source srcset="/brand/logo.webp" type="image/webp">
+                        <img src="/brand/logo.png" alt="" class="hero-logo-img" aria-hidden="true" width="640" height="640" fetchpriority="high">
+                    </picture>
+                    <div class="status-card">
+                        <div class="status-card-header">
+                            <div class="status-dot"></div>
+                            <span class="status-card-label">Systems Secure</span>
+                        </div>
+                        <div class="status-card-stats">
+                            <div class="status-stat">
+                                <div class="status-stat-value">99.8%</div>
+                                <div class="status-stat-label">Uptime</div>
+                            </div>
+                            <div class="status-stat">
+                                <div class="status-stat-value">0</div>
+                                <div class="status-stat-label">Findings</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Strip -->
+    <section class="stats-strip" aria-label="Key metrics">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item reveal">
+                    <div class="stat-number">15<span class="red">+</span></div>
+                    <div class="stat-label">Years in Federal Cybersecurity</div>
+                </div>
+                <div class="stat-item reveal reveal-delay-1">
+                    <div class="stat-number">TS/SCI</div>
+                    <div class="stat-label">Active Clearance</div>
+                </div>
+                <div class="stat-item reveal reveal-delay-2">
+                    <div class="stat-number">DoD</div>
+                    <div class="stat-label">Federal Cybersecurity</div>
+                </div>
+                <div class="stat-item reveal reveal-delay-3">
+                    <div class="stat-number">PhD</div>
+                    <div class="stat-label">Candidate — Cybersecurity</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services" aria-labelledby="services-heading">
+        <div class="container">
+            <div class="services-header">
+                <span class="eyebrow reveal">What We Do</span>
+                <h2 id="services-heading" class="section-heading reveal reveal-delay-1">Mission-Ready Services</h2>
+                <div class="divider-wide reveal reveal-delay-2"></div>
+                <p class="section-sub reveal reveal-delay-2">
+                    Hands-on expertise across the full spectrum of DoD and federal cybersecurity requirements.
+                </p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card reveal">
+                    <div class="service-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2L3 7v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V7l-9-5z"/><path d="M9 12l2 2 4-4"/></svg></div>
+                    <h3>CMMC Readiness</h3>
+                    <p>Gap analysis, SSP development, POA&M remediation, and assessment preparation. We get defense contractors from zero to certified.</p>
+                    <span class="service-tag">CMMC 2.0</span>
+                </div>
+                <div class="service-card reveal reveal-delay-1">
+                    <div class="service-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 3v18"/></svg></div>
+                    <h3>RMF Authorization</h3>
+                    <p>Full lifecycle Risk Management Framework support — categorization through continuous monitoring. ATO packages that pass muster.</p>
+                    <span class="service-tag">NIST 800-37</span>
+                </div>
+                <div class="service-card reveal reveal-delay-2">
+                    <div class="service-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"/></svg></div>
+                    <h3>STIG Compliance</h3>
+                    <p>Security Technical Implementation Guide hardening and validation across operating systems, applications, and network infrastructure.</p>
+                    <span class="service-tag">DISA STIGs</span>
+                </div>
+                <div class="service-card reveal">
+                    <div class="service-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M12 8v4M12 16h.01"/></svg></div>
+                    <h3>Vulnerability Management</h3>
+                    <p>ACAS/Nessus scanning, IAVM compliance, ESS/Trellix deployment, and risk-based remediation strategies that reduce your attack surface.</p>
+                    <span class="service-tag">ACAS / ESS</span>
+                </div>
+                <div class="service-card reveal reveal-delay-1">
+                    <div class="service-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 3v18h18"/><path d="M7 16l4-6 4 4 5-8"/></svg></div>
+                    <h3>Risk Management</h3>
+                    <p>Quantitative and qualitative risk assessments, CORA preparation, continuous monitoring programs, and executive risk reporting.</p>
+                    <span class="service-tag">CORA / NIST</span>
+                </div>
+                <div class="service-card reveal reveal-delay-2">
+                    <div class="service-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75"/></svg></div>
+                    <h3>Advisory & Training</h3>
+                    <p>Cybersecurity program development, staff training, policy review, and strategic advisory for organizations building their security posture.</p>
+                    <span class="service-tag">vCISO</span>
+                </div>
+            </div>
+            <div class="services-explore reveal reveal-delay-3" style="text-align:center; margin-top:var(--space-10);">
+                <a href="/cmmc" class="btn-secondary" style="margin-right:var(--space-4);">CMMC Practices</a>
+                <a href="/nist-800-171" class="btn-secondary">NIST 800-171</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why C6 Section -->
+    <section class="why-c6" id="why-c6" aria-labelledby="why-c6-heading">
+        <div class="container">
+            <div class="why-grid">
+                <div class="why-text">
+                    <span class="eyebrow reveal">Why Cardinal Six</span>
+                    <h2 id="why-c6-heading" class="reveal reveal-delay-1">
+                        Practitioner-Led.<br><span class="gold">Mission-Proven.</span>
+                    </h2>
+                    <div class="divider reveal reveal-delay-2"></div>
+                    <p class="reveal reveal-delay-2">
+                        Cardinal Six Cyber isn't a staffing firm with a compliance checklist. We're led by an active federal cybersecurity specialist who works the mission daily — inside the same frameworks, on the same networks, against the same threats our clients face.
+                    </p>
+                    <ul class="why-points reveal reveal-delay-3">
+                        <li>Active federal cybersecurity professional within the Department of Defense</li>
+                        <li>TS/SCI clearance holder — understands classified environments</li>
+                        <li>PhD candidate in Cybersecurity — bridging theory and operations</li>
+                        <li>Direct experience with CORA assessments, not just reading about them</li>
+                        <li>Built to serve small and mid-size defense contractors who need real guidance</li>
+                    </ul>
+                </div>
+                <div class="credentials-column">
+                    <div class="cred-card reveal">
+                        <div class="cred-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2L3 7v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V7l-9-5z"/></svg></div>
+                        <div><h3>Federal Practitioner</h3><p>Hands-on cybersecurity operations within the Department of Defense.</p></div>
+                    </div>
+                    <div class="cred-card reveal reveal-delay-1">
+                        <div class="cred-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 7V5a4 4 0 00-8 0v2"/></svg></div>
+                        <div><h3>Cleared Personnel</h3><p>TS/SCI clearance — we understand the constraints and sensitivities of classified work.</p></div>
+                    </div>
+                    <div class="cred-card reveal reveal-delay-2">
+                        <div class="cred-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c0 2 3 3 6 3s6-1 6-3v-5"/></svg></div>
+                        <div><h3>Academic Rigor</h3><p>PhD candidate in Cybersecurity — research-informed approach to real-world problems.</p></div>
+                    </div>
+                    <div class="cred-card reveal reveal-delay-3">
+                        <div class="cred-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="5"/><path d="M8 13l-2 9 6-4 6 4-2-9"/></svg></div>
+                        <div><h3>Personal Mission</h3><p>"Cardinal" honors family legacy. "Six" is the commanding officer. This is personal.</p></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Frameworks Section -->
+    <section class="frameworks" id="frameworks" aria-labelledby="frameworks-heading">
+        <div class="container">
+            <div class="frameworks-header">
+                <span class="eyebrow reveal">Compliance Expertise</span>
+                <h2 id="frameworks-heading" class="section-heading reveal reveal-delay-1">Frameworks We Work</h2>
+                <div class="divider-gold reveal reveal-delay-2"></div>
+                <p class="section-sub reveal reveal-delay-2">
+                    Deep operational experience across the frameworks that matter for defense and federal compliance.
+                </p>
+            </div>
+            <div class="framework-grid">
+                <div class="framework-item reveal"><div class="fw-label">CMMC</div><div class="fw-name">Cybersecurity Maturity<br>Model Certification</div></div>
+                <div class="framework-item reveal reveal-delay-1"><div class="fw-label">RMF</div><div class="fw-name">Risk Management<br>Framework</div></div>
+                <div class="framework-item reveal reveal-delay-2"><div class="fw-label">NIST</div><div class="fw-name">800-53 / 800-171<br>Security Controls</div></div>
+                <div class="framework-item reveal reveal-delay-3"><div class="fw-label">STIGs</div><div class="fw-name">Security Technical<br>Implementation Guides</div></div>
+                <div class="framework-item reveal reveal-delay-1"><div class="fw-label">CORA</div><div class="fw-name">Cybersecurity Operational<br>Readiness Assessment</div></div>
+                <div class="framework-item reveal reveal-delay-2"><div class="fw-label">ACAS</div><div class="fw-name">Assured Compliance<br>Assessment Solution</div></div>
+                <div class="framework-item reveal reveal-delay-3"><div class="fw-label">FISMA</div><div class="fw-name">Federal Information<br>Security Management</div></div>
+                <div class="framework-item reveal reveal-delay-4"><div class="fw-label">Zero Trust</div><div class="fw-name">DoD Zero Trust<br>Reference Architecture</div></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section" id="contact" aria-label="Contact">
+        <div class="container">
+            <div class="cta-inner">
+                <span class="eyebrow reveal">Ready to Start</span>
+                <h2 class="reveal reveal-delay-1">
+                    Eyes Forward.<br><span class="accent">Shields Up.</span>
+                </h2>
+                <div class="divider-wide reveal reveal-delay-2"></div>
+                <p class="reveal reveal-delay-2">
+                    Whether you're preparing for a CMMC assessment, building an RMF package, or need a practitioner who actually understands the mission — let's talk.
+                </p>
+                <div class="cta-buttons reveal reveal-delay-3">
+                    <a href="mailto:info@cardinalsixcyber.com" class="btn-primary">Request Consultation</a>
+                    <a href="mailto:info@cardinalsixcyber.com" class="btn-secondary">info@cardinalsixcyber.com</a>
+                </div>
+                <div class="cta-contact reveal reveal-delay-4">
+                    <p>Or reach us directly — <a href="mailto:info@cardinalsixcyber.com">info@cardinalsixcyber.com</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+</BaseLayout>
+
+<style>
+    /* ===== INDEX PAGE STYLES ===== */
+    .hero { position: relative; min-height: 100vh; display: flex; align-items: center; overflow: hidden; background: var(--c6-gradient-hero); }
+    .hero::before { content: ''; position: absolute; top: 15%; left: 55%; transform: translateX(-50%); width: 1000px; height: 1000px; background: radial-gradient(ellipse at center, rgba(192, 57, 43, 0.07) 0%, rgba(192, 57, 43, 0.03) 40%, transparent 70%); pointer-events: none; }
+    .hero::after { content: ''; position: absolute; bottom: 10%; left: 10%; width: 500px; height: 500px; background: radial-gradient(ellipse at center, rgba(139, 26, 26, 0.05) 0%, transparent 65%); pointer-events: none; }
+    .hero-grid { position: absolute; inset: 0; background-image: linear-gradient(rgba(255,255,255,0.03) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.03) 1px, transparent 1px); background-size: 60px 60px; pointer-events: none; mask-image: radial-gradient(ellipse at center, black 40%, transparent 80%); -webkit-mask-image: radial-gradient(ellipse at center, black 40%, transparent 80%); }
+    .hero-content { position: relative; z-index: 2; display: grid; grid-template-columns: 1fr 1fr; gap: var(--space-16); align-items: center; padding-top: var(--space-32); padding-bottom: var(--space-20); }
+    .hero-text { max-width: 600px; }
+    .hero-eyebrow { font-family: var(--font-display); font-size: 0.9rem; font-weight: 400; letter-spacing: 0.3em; text-transform: uppercase; color: var(--c6-red-text); margin-bottom: var(--space-6); display: flex; align-items: center; gap: var(--space-3); }
+    .hero-eyebrow::before { content: ''; width: 32px; height: 2px; background: var(--c6-red-text); display: inline-block; }
+    .hero-title { font-family: var(--font-display); font-size: clamp(2.5rem, 5vw, 4.5rem); font-weight: 700; letter-spacing: 0.05em; text-transform: uppercase; line-height: 1.1; color: var(--c6-text-primary); margin-bottom: var(--space-6); }
+    .hero-title .accent { color: var(--c6-red-bright); }
+    .hero-divider { width: 80px; height: 2px; background: var(--c6-red); margin-bottom: var(--space-6); }
+    .hero-sub { font-family: var(--font-body); font-size: 1.1rem; color: var(--c6-text-body); line-height: 1.8; max-width: 480px; margin-bottom: var(--space-10); }
+    .hero-actions { display: flex; align-items: center; gap: var(--space-6); flex-wrap: wrap; }
+    .hero-visual { position: relative; display: flex; align-items: center; justify-content: center; }
+    .hero-shield { position: relative; width: 400px; height: 440px; display: flex; align-items: center; justify-content: center; }
+    .hero-shield::before { content: ''; position: absolute; width: 360px; height: 360px; border-radius: 50%; border: 1px solid rgba(192, 57, 43, 0.18); background: radial-gradient(circle, rgba(192, 57, 43, 0.04) 0%, transparent 70%); animation: pulse-ring 3s ease-in-out infinite; }
+    .hero-shield::after { content: ''; position: absolute; width: 460px; height: 460px; border-radius: 50%; border: 1px solid rgba(192, 57, 43, 0.08); animation: pulse-ring 3s ease-in-out infinite 1s; }
+    @keyframes pulse-ring { 0%, 100% { transform: scale(1); opacity: 0.5; } 50% { transform: scale(1.05); opacity: 1; } }
+    .hero-logo-img { width: 320px; height: auto; position: relative; z-index: 2; filter: drop-shadow(0 0 60px rgba(192, 57, 43, 0.25)) drop-shadow(0 0 120px rgba(192, 57, 43, 0.1)); }
+    .status-card { position: absolute; bottom: 10px; right: -40px; background: rgba(17, 17, 17, 0.9); border: 1px solid var(--c6-border); border-radius: var(--radius-md); padding: var(--space-4) var(--space-6); backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px); box-shadow: var(--shadow-card); z-index: 3; min-width: 200px; }
+    .status-card-header { display: flex; align-items: center; gap: var(--space-2); margin-bottom: var(--space-3); }
+    .status-dot { width: 8px; height: 8px; border-radius: 50%; background: #2ECC71; box-shadow: 0 0 8px rgba(46, 204, 113, 0.5); animation: blink-dot 2s ease-in-out infinite; }
+    @keyframes blink-dot { 0%, 100% { opacity: 1; } 50% { opacity: 0.5; } }
+    .status-card-label { font-family: var(--font-mono); font-size: 0.75rem; color: #2ECC71; letter-spacing: 0.05em; text-transform: uppercase; }
+    .status-card-stats { display: flex; gap: var(--space-6); }
+    .status-stat { text-align: left; }
+    .status-stat-value { font-family: var(--font-display); font-size: 1.4rem; font-weight: 700; color: var(--c6-text-primary); line-height: 1; }
+    .status-stat-label { font-family: var(--font-mono); font-size: 0.65rem; color: var(--c6-text-muted); text-transform: uppercase; letter-spacing: 0.05em; }
+    .stats-strip { position: relative; background: var(--c6-black-elevated); border-top: 1px solid var(--c6-border); border-bottom: 1px solid var(--c6-border); padding: var(--space-10) 0; }
+    .stats-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: var(--space-8); text-align: center; }
+    .stat-item { position: relative; }
+    .stat-item:not(:last-child)::after { content: ''; position: absolute; right: 0; top: 10%; height: 80%; width: 1px; background: var(--c6-border); }
+    .stat-number { font-family: var(--font-display); font-size: clamp(2.2rem, 3.5vw, 3.2rem); font-weight: 700; color: var(--c6-text-primary); line-height: 1; margin-bottom: var(--space-3); letter-spacing: 0.02em; }
+    .stat-number .red { color: var(--c6-red-text); }
+    .stat-label { font-family: var(--font-body); font-size: 0.85rem; color: var(--c6-text-muted); letter-spacing: 0.02em; }
+    .services { position: relative; padding: var(--space-32) 0; background: var(--c6-gradient-section); }
+    .services::before { content: ''; position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: var(--c6-glow-red); pointer-events: none; }
+    .services-header { text-align: center; margin-bottom: var(--space-16); position: relative; }
+    .services-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: var(--space-8); position: relative; }
+    .service-card { background: var(--c6-black-elevated); border: 1px solid var(--c6-border); border-radius: var(--radius-md); padding: var(--space-12) var(--space-8) var(--space-10); box-shadow: var(--shadow-card); transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease; position: relative; overflow: hidden; }
+    .service-card::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 2px; background: var(--c6-gradient-accent); opacity: 0.5; transition: opacity 0.3s ease; }
+    .service-card:hover { transform: translateY(-6px); box-shadow: var(--shadow-card-hover); border-color: var(--c6-border-accent); }
+    .service-card:hover::before { opacity: 1; }
+    .service-icon { width: 48px; height: 48px; margin-bottom: var(--space-6); display: flex; align-items: center; justify-content: center; }
+    .service-icon svg { width: 40px; height: 40px; stroke: var(--c6-red); stroke-width: 1.5; fill: none; }
+    .service-card h3 { font-family: var(--font-display); font-size: clamp(1.2rem, 2vw, 1.5rem); font-weight: 600; letter-spacing: 0.03em; text-transform: uppercase; color: var(--c6-text-primary); margin-bottom: var(--space-4); line-height: 1.3; }
+    .service-card p { font-family: var(--font-body); font-size: 0.95rem; color: var(--c6-text-body); line-height: 1.7; }
+    .service-tag { display: inline-block; margin-top: var(--space-6); font-family: var(--font-mono); font-size: 0.7rem; letter-spacing: 0.05em; text-transform: uppercase; color: var(--c6-red-text); border: 1px solid var(--c6-border-btn); padding: var(--space-1) var(--space-3); border-radius: var(--radius-sm); }
+    .why-c6 { position: relative; padding: var(--space-32) 0; background: var(--c6-black-surface); overflow: hidden; }
+    .why-c6::before { content: ''; position: absolute; top: 50%; right: -200px; width: 600px; height: 600px; background: radial-gradient(ellipse at center, rgba(201, 168, 76, 0.04) 0%, transparent 65%); transform: translateY(-50%); pointer-events: none; }
+    .why-grid { display: grid; grid-template-columns: 1fr 1fr; gap: var(--space-16); align-items: center; position: relative; }
+    .why-text h2 { font-family: var(--font-display); font-size: clamp(1.8rem, 3vw, 3rem); font-weight: 600; letter-spacing: 0.04em; text-transform: uppercase; line-height: 1.2; color: var(--c6-text-primary); margin-bottom: var(--space-4); }
+    .why-text h2 .gold { color: var(--c6-gold); }
+    .why-text .divider { margin: var(--space-6) 0; }
+    .why-text p { color: var(--c6-text-body); line-height: 1.8; margin-bottom: var(--space-6); }
+    .why-points { list-style: none; display: flex; flex-direction: column; gap: var(--space-4); }
+    .why-points li { display: flex; align-items: flex-start; gap: var(--space-3); font-family: var(--font-body); font-size: 0.95rem; color: var(--c6-text-secondary); line-height: 1.6; }
+    .why-points li::before { content: ''; flex-shrink: 0; width: 6px; height: 6px; background: var(--c6-red); margin-top: 0.5em; transform: rotate(45deg); }
+    .credentials-column { display: flex; flex-direction: column; gap: var(--space-6); }
+    .cred-card { background: var(--c6-black-elevated); border: 1px solid var(--c6-border); border-radius: var(--radius-md); padding: var(--space-6) var(--space-8); box-shadow: var(--shadow-card); display: flex; align-items: flex-start; gap: var(--space-4); transition: transform 0.2s ease, border-color 0.2s ease; }
+    .cred-card:hover { transform: translateX(4px); border-color: var(--c6-border-accent); }
+    .cred-icon { flex-shrink: 0; width: 40px; height: 40px; display: flex; align-items: center; justify-content: center; background: rgba(192, 57, 43, 0.08); border-radius: var(--radius-sm); }
+    .cred-icon svg { width: 22px; height: 22px; stroke: var(--c6-red); stroke-width: 1.5; fill: none; }
+    .cred-card h3 { font-family: var(--font-display); font-size: 1.1rem; font-weight: 600; letter-spacing: 0.03em; color: var(--c6-text-primary); margin-bottom: var(--space-1); }
+    .cred-card p { font-size: 0.85rem; color: var(--c6-text-muted); line-height: 1.5; }
+    .frameworks { position: relative; padding: var(--space-32) 0; background: var(--c6-gradient-section); }
+    .frameworks::before { content: ''; position: absolute; inset: 0; background: var(--c6-glow-gold); pointer-events: none; }
+    .frameworks-header { text-align: center; margin-bottom: var(--space-16); position: relative; }
+    .framework-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: var(--space-6); position: relative; }
+    .framework-item { text-align: center; padding: var(--space-10) var(--space-6); background: var(--c6-black-elevated); border: 1px solid var(--c6-border); border-radius: var(--radius-md); transition: transform 0.2s ease, border-color 0.2s ease; }
+    .framework-item:hover { transform: translateY(-2px); border-color: rgba(201, 168, 76, 0.25); }
+    .framework-item .fw-label { font-family: var(--font-display); font-size: 1.6rem; font-weight: 700; color: var(--c6-gold); margin-bottom: var(--space-2); letter-spacing: 0.03em; }
+    .framework-item .fw-name { font-family: var(--font-body); font-size: 0.8rem; color: var(--c6-text-muted); letter-spacing: 0.02em; line-height: 1.4; }
+    .cta-section { position: relative; padding: var(--space-32) 0; background: var(--c6-black); overflow: hidden; }
+    .cta-section::before { content: ''; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 900px; height: 500px; background: radial-gradient(ellipse at center, rgba(192, 57, 43, 0.06) 0%, transparent 60%); pointer-events: none; }
+    .cta-inner { position: relative; text-align: center; max-width: 700px; margin: 0 auto; }
+    .cta-inner h2 { font-family: var(--font-display); font-size: clamp(2rem, 4vw, 3.5rem); font-weight: 700; letter-spacing: 0.05em; text-transform: uppercase; line-height: 1.15; color: var(--c6-text-primary); margin-bottom: var(--space-4); }
+    .cta-inner h2 .accent { color: var(--c6-red-bright); }
+    .cta-inner p { font-size: 1.05rem; color: var(--c6-text-body); max-width: 550px; margin: 0 auto var(--space-10); line-height: 1.7; }
+    .cta-buttons { display: flex; justify-content: center; align-items: center; gap: var(--space-6); flex-wrap: wrap; }
+    .cta-contact { margin-top: var(--space-10); font-family: var(--font-mono); font-size: 0.85rem; color: var(--c6-text-muted); }
+    .cta-contact a { color: var(--c6-red-text); transition: color 0.2s ease; }
+    .cta-contact a:hover { color: #E8655A; }
+    .cta-contact a:focus-visible { outline: 2px solid var(--c6-red); outline-offset: 2px; border-radius: 2px; }
+
+    @media (max-width: 1024px) {
+        .hero-content { grid-template-columns: 1fr; text-align: center; gap: var(--space-12); }
+        .hero-text { max-width: 100%; }
+        .hero-eyebrow { justify-content: center; }
+        .hero-divider { margin-left: auto; margin-right: auto; }
+        .hero-sub { margin-left: auto; margin-right: auto; }
+        .hero-actions { justify-content: center; }
+        .hero-visual { order: -1; }
+        .hero-shield { width: 300px; height: auto; flex-direction: column; }
+        .hero-logo-img { width: 260px; }
+        .status-card { right: auto; bottom: auto; position: relative; margin: var(--space-6) auto 0; }
+        .services-grid { grid-template-columns: repeat(2, 1fr); }
+        .why-grid { grid-template-columns: 1fr; gap: var(--space-12); }
+        .framework-grid { grid-template-columns: repeat(2, 1fr); }
+    }
+    @media (max-width: 768px) {
+        .hero { min-height: auto; padding-top: 100px; }
+        .hero-content { padding-top: var(--space-12); padding-bottom: var(--space-12); }
+        .hero-shield { width: 200px; height: 240px; }
+        .hero-logo-img { width: 180px; }
+        .hero-shield::before { width: 240px; height: 240px; }
+        .hero-shield::after { width: 300px; height: 300px; }
+        .stats-grid { grid-template-columns: repeat(2, 1fr); gap: var(--space-6); }
+        .stat-item:nth-child(2)::after { display: none; }
+        .services-grid { grid-template-columns: 1fr; }
+        .framework-grid { grid-template-columns: 1fr 1fr; }
+    }
+    @media (max-width: 480px) {
+        .stats-grid { grid-template-columns: 1fr 1fr; }
+        .hero-actions { flex-direction: column; width: 100%; }
+        .hero-actions .btn-primary, .hero-actions .btn-secondary { width: 100%; text-align: center; }
+        .cta-buttons { flex-direction: column; }
+        .cta-buttons .btn-primary, .cta-buttons .btn-secondary { width: 100%; text-align: center; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+        .hero-shield::before, .hero-shield::after { animation: none; }
+        .status-dot { animation: none; }
+    }
+</style>
+
+<script>
+    /* Nav scroll effect */
+    (function() {
+        const nav = document.querySelector('.nav');
+        if (!nav) return;
+        let ticking = false;
+        window.addEventListener('scroll', function() {
+            if (!ticking) {
+                window.requestAnimationFrame(function() {
+                    nav.classList.toggle('scrolled', window.scrollY > 40);
+                    ticking = false;
+                });
+                ticking = true;
+            }
+        });
+    })();
+
+    /* Reveal on scroll + immediate reveal for above-fold content */
+    (function() {
+        var reveals = document.querySelectorAll('.reveal');
+        document.querySelectorAll('.hero .reveal, .stats-strip .reveal').forEach(function(el) {
+            el.classList.add('visible');
+        });
+        if ('IntersectionObserver' in window) {
+            var observer = new IntersectionObserver(function(entries) {
+                entries.forEach(function(entry) {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('visible');
+                        observer.unobserve(entry.target);
+                    }
+                });
+            }, { threshold: 0.01, rootMargin: '0px 0px 50px 0px' });
+            reveals.forEach(function(el) {
+                if (!el.closest('.hero') && !el.closest('.stats-strip')) {
+                    observer.observe(el);
+                }
+            });
+        } else {
+            reveals.forEach(function(el) { el.classList.add('visible'); });
+        }
+        setTimeout(function() {
+            reveals.forEach(function(el) { el.classList.add('visible'); });
+        }, 3000);
+    })();
+</script>

@@ -1,0 +1,81 @@
+---
+interface Props {
+    fixed?: boolean;
+    activePage?: string;
+}
+
+const { fixed = true, activePage = '' } = Astro.props;
+const navClass = fixed ? 'nav' : 'nav scrolled';
+---
+
+<nav class={navClass} aria-label="Primary navigation">
+    <div class="container nav-inner">
+        <a href="/" aria-label="Cardinal Six Cyber — Home">
+            <picture>
+                <source srcset="/brand/logo.webp" type="image/webp">
+                <img src="/brand/logo.png" alt="Cardinal Six Cyber" class="nav-logo" width="640" height="640">
+            </picture>
+        </a>
+        <ul class="nav-links">
+            <li><a href="/#services" class={activePage === 'services' ? 'nav-active' : ''}>Services</a></li>
+            <li><a href="/#why-c6" class={activePage === 'why-c6' ? 'nav-active' : ''}>Why C6</a></li>
+            <li><a href="/#frameworks" class={activePage === 'frameworks' ? 'nav-active' : ''}>Frameworks</a></li>
+            <li><a href="/cmmc" class={activePage === 'resources' ? 'nav-active' : ''}>Resources</a></li>
+            <li><a href="/news" class={activePage === 'news' ? 'nav-active' : ''}>Cyber News</a></li>
+            <li><a href="https://overwatch.cardinalsixcyber.com" target="_blank" rel="noopener noreferrer" class="nav-cta nav-cta-overwatch">C6 Overwatch<span class="sr-only"> (opens in new tab)</span></a></li>
+            <li><a href="/#contact" class="nav-cta">Get in Touch</a></li>
+        </ul>
+        <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="navOverlay">
+            <span></span><span></span><span></span>
+        </button>
+    </div>
+</nav>
+
+<nav class="nav-overlay" id="navOverlay" aria-label="Mobile navigation">
+    <a href="/#services" class="mobile-link">Services</a>
+    <a href="/#why-c6" class="mobile-link">Why C6</a>
+    <a href="/#frameworks" class="mobile-link">Frameworks</a>
+    <a href="/cmmc" class="mobile-link">Resources</a>
+    <a href="/news" class="mobile-link">Cyber News</a>
+    <a href="https://overwatch.cardinalsixcyber.com" target="_blank" rel="noopener noreferrer" class="mobile-link mobile-link-overwatch">C6 Overwatch<span class="sr-only"> (opens in new tab)</span></a>
+    <a href="/#contact" class="mobile-link">Get in Touch</a>
+</nav>
+
+<script>
+    (function() {
+        var toggle = document.querySelector('.nav-toggle');
+        var overlay = document.getElementById('navOverlay');
+        if (!toggle || !overlay) return;
+        var links = overlay.querySelectorAll('a');
+
+        function closeMenu() {
+            overlay.classList.remove('open');
+            toggle.classList.remove('active');
+            toggle.setAttribute('aria-expanded', 'false');
+            document.body.style.overflow = '';
+            toggle.focus();
+        }
+
+        toggle.addEventListener('click', function() {
+            var isOpen = overlay.classList.toggle('open');
+            toggle.classList.toggle('active');
+            toggle.setAttribute('aria-expanded', isOpen);
+            document.body.style.overflow = isOpen ? 'hidden' : '';
+            if (isOpen && links.length) links[0].focus();
+        });
+
+        links.forEach(function(link) { link.addEventListener('click', closeMenu); });
+
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'Escape' && overlay.classList.contains('open')) closeMenu();
+        });
+
+        overlay.addEventListener('keydown', function(e) {
+            if (e.key !== 'Tab' || !overlay.classList.contains('open')) return;
+            var focusable = overlay.querySelectorAll('a[href]');
+            var first = focusable[0], last = focusable[focusable.length - 1];
+            if (e.shiftKey && document.activeElement === first) { e.preventDefault(); last.focus(); }
+            else if (!e.shiftKey && document.activeElement === last) { e.preventDefault(); first.focus(); }
+        });
+    })();
+</script>
