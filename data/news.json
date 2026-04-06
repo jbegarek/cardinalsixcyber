@@ -1,6 +1,181 @@
 {
-  "last_updated": "2026-04-06T20:11:08.203081+00:00",
+  "last_updated": "2026-04-06T22:08:26.032457+00:00",
   "articles": [
+    {
+      "title": "New GPUBreach attack enables system takeover via GPU rowhammer",
+      "link": "https://www.bleepingcomputer.com/news/security/new-gpubreach-attack-enables-system-takeover-via-gpu-rowhammer/",
+      "summary": "A new attack, dubbed GPUBreach, can induce Rowhammer bit-flips on GPU GDDR6 memories to escalate privileges and lead to a full system compromise. [...]",
+      "source": "BleepingComputer",
+      "published": "2026-04-06T21:44:15+00:00"
+    },
+    {
+      "title": "AI-Assisted Supply Chain Attack Targets GitHub",
+      "link": "https://www.darkreading.com/application-security/ai-assisted-supply-chain-attack-targets-github",
+      "summary": "PRT-scan is the second in recent months where a threat actor appears to have leveraged AI for automated targeting of a widespread GitHub misconfiguration.",
+      "source": "Dark Reading",
+      "published": "2026-04-06T21:38:53+00:00"
+    },
+    {
+      "title": "CVE-2026-5709 - AWS Research and Engineering Studio (RES) FileBrowser Command Injection",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-5709",
+      "summary": "CVE ID :CVE-2026-5709 Published : April 6, 2026, 9:32 p.m. | 19 minutes ago Description :Unsanitized input in the FileBrowser API in AWS Research and Engineering Studio (RES) version 2024.10 through...",
+      "source": "CVE Feed",
+      "published": "2026-04-06T21:32:04+00:00"
+    },
+    {
+      "title": "CVE-2026-5708 - Improper Control of User-Modifiable Attributes in RES CreateSession API",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-5708",
+      "summary": "CVE ID :CVE-2026-5708 Published : April 6, 2026, 9:28 p.m. | 23 minutes ago Description :Unsanitized control of user-modifiable attributes in the session creation component in AWS Research and...",
+      "source": "CVE Feed",
+      "published": "2026-04-06T21:28:03+00:00"
+    },
+    {
+      "title": "CVE-2026-5707 - Command Injection via Virtual Desktop Session Name in AWS Research and Engineering Studio (RES)",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-5707",
+      "summary": "CVE ID :CVE-2026-5707 Published : April 6, 2026, 9:25 p.m. | 26 minutes ago Description :Unsanitized input in an OS command in the virtual desktop session name handling in AWS Research and...",
+      "source": "CVE Feed",
+      "published": "2026-04-06T21:25:48+00:00"
+    },
+    {
+      "title": "CVE-2026-35399 - WeGIA has Stored XSS in backup file names",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-35399",
+      "summary": "CVE ID :CVE-2026-35399 Published : April 6, 2026, 9:16 p.m. | 35 minutes ago Description :WeGIA is a Web manager for charitable institutions. Prior to 3.6.9, a stored XSS vulnerability allows an...",
+      "source": "CVE Feed",
+      "published": "2026-04-06T21:16:21+00:00"
+    },
+    {
+      "title": "CVE-2026-35395 - WeGIA has a SQL Injection in DespachoDAO.php via id_memorando parameter",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-35395",
+      "summary": "CVE ID :CVE-2026-35395 Published : April 6, 2026, 9:16 p.m. | 35 minutes ago Description :WeGIA is a Web manager for charitable institutions. Prior to 3.6.9, WeGIA (Web gerenciador para instituições...",
+      "source": "CVE Feed",
+      "published": "2026-04-06T21:16:21+00:00"
+    },
+    {
+      "title": "CVE-2026-35394 - Mobile Next has Arbitrary Android Intent Execution via mobile_open_url",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-35394",
+      "summary": "CVE ID :CVE-2026-35394 Published : April 6, 2026, 9:16 p.m. | 35 minutes ago Description :Mobile Next is an MCP server for mobile development and automation. Prior to 0.0.50, the mobile_open_url tool...",
+      "source": "CVE Feed",
+      "published": "2026-04-06T21:16:21+00:00"
+    },
+    {
+      "title": "CVE-2026-35393 - Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') in goshs POST multipart upload",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-35393",
+      "summary": "CVE ID :CVE-2026-35393 Published : April 6, 2026, 9:16 p.m. | 35 minutes ago Description :goshs is a SimpleHTTPServer written in Go. Prior to 2.0.0-beta.3, the POST multipart upload directory not...",
+      "source": "CVE Feed",
+      "published": "2026-04-06T21:16:21+00:00"
+    },
+    {
+      "title": "CVE-2026-35392 - goshs has an Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') in goshs PUT Upload",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-35392",
+      "summary": "CVE ID :CVE-2026-35392 Published : April 6, 2026, 9:16 p.m. | 35 minutes ago Description :goshs is a SimpleHTTPServer written in Go. Prior to 2.0.0-beta.3, PUT upload in httpserver/updown.go has no...",
+      "source": "CVE Feed",
+      "published": "2026-04-06T21:16:21+00:00"
+    },
+    {
+      "title": "CVE-2026-35391 - Bulwark Webmail getClientIP() trusted client-controlled X-Forwarded-For value, enabling rate limit bypass and audit log forgery",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-35391",
+      "summary": "CVE ID :CVE-2026-35391 Published : April 6, 2026, 9:16 p.m. | 35 minutes ago Description :Bulwark Webmail is a self-hosted webmail client for Stalwart Mail Server. Prior to 1.4.11, the getClientIP()...",
+      "source": "CVE Feed",
+      "published": "2026-04-06T21:16:20+00:00"
+    },
+    {
+      "title": "CVE-2026-35389 - Bulwark Webmail S/MIME signature verification accepted self-signed certificates",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-35389",
+      "summary": "CVE ID :CVE-2026-35389 Published : April 6, 2026, 9:16 p.m. | 35 minutes ago Description :Bulwark Webmail is a self-hosted webmail client for Stalwart Mail Server. Prior to 1.4.11, S/MIME signature...",
+      "source": "CVE Feed",
+      "published": "2026-04-06T21:16:20+00:00"
+    },
+    {
+      "title": "CVE-2026-35213 - Regular Expression Denial of Service (ReDoS) in @hapi/content HTTP header parsing",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-35213",
+      "summary": "CVE ID :CVE-2026-35213 Published : April 6, 2026, 9:16 p.m. | 35 minutes ago Description :@hapi/content provided HTTP Content-* headers parsing. All versions of @hapi/content through 6.0.0 are...",
+      "source": "CVE Feed",
+      "published": "2026-04-06T21:16:20+00:00"
+    },
+    {
+      "title": "Axios Attack Shows Social Complex Engineering Is Industrialized",
+      "link": "https://www.darkreading.com/threat-intelligence/axios-attack-complex-social-engineering-industrialized",
+      "summary": "The attack on the popular NPM package Axios is just one of many targeting maintainers and has shone a light on how threat actors can scale sophisticated social engineering campaigns.",
+      "source": "Dark Reading",
+      "published": "2026-04-06T20:55:44+00:00"
+    },
+    {
+      "title": "Fortinet Issues Emergency Patch for FortiClient Zero-Day",
+      "link": "https://www.darkreading.com/vulnerabilities-threats/fortinet-emergency-patch-forticlient-zero-day",
+      "summary": "The authentication bypass flaw, tracked as CVE-2026-35616, is the latest in a series of Fortinet vulnerabilities that have been exploited in the wild.",
+      "source": "Dark Reading",
+      "published": "2026-04-06T20:24:19+00:00"
+    },
+    {
+      "title": "FBI: Cyber fraud surges to $17.6 billion in losses as scams, crypto theft soar",
+      "link": "https://therecord.media/cyber-fraud-surges-to-17-billion-fbi-ic3",
+      "summary": "Cyber-enabled fraud was behind 85% of all losses reported to the FBI in 2025 and constituted 45% of the 1,008,597 complaints it's IC3 unit received overall.",
+      "source": "The Record",
+      "published": "2026-04-06T20:24:00+00:00"
+    },
+    {
+      "title": "CVE-2026-35459 - pyLoad has SSRF fix bypass via HTTP redirect",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-35459",
+      "summary": "CVE ID :CVE-2026-35459 Published : April 6, 2026, 8:16 p.m. | 1 hour, 35 minutes ago Description :pyLoad is a free and open-source download manager written in Python. In 0.5.0b3.dev96 and earlier...",
+      "source": "CVE Feed",
+      "published": "2026-04-06T20:16:28+00:00"
+    },
+    {
+      "title": "CVE-2026-35185 - HAX CMS's public /server-status endpoint exposes authentication tokens, user activity, and client IP addresses",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-35185",
+      "summary": "CVE ID :CVE-2026-35185 Published : April 6, 2026, 8:16 p.m. | 1 hour, 35 minutes ago Description :HAX CMS helps manage microsite universe with PHP or NodeJs backends. Prior to 25.0.0, the...",
+      "source": "CVE Feed",
+      "published": "2026-04-06T20:16:27+00:00"
+    },
+    {
+      "title": "CVE-2026-35184 - EcclesiaCRM has a Critical SQL Injection",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-35184",
+      "summary": "CVE ID :CVE-2026-35184 Published : April 6, 2026, 8:16 p.m. | 1 hour, 35 minutes ago Description :EcclesiaCRM is CRM Software for church management. Prior to 8.0.0, there is a SQL injection...",
+      "source": "CVE Feed",
+      "published": "2026-04-06T20:16:26+00:00"
+    },
+    {
+      "title": "CVE-2026-35182 - Missing Authorization Privilege Escalation",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-35182",
+      "summary": "CVE ID :CVE-2026-35182 Published : April 6, 2026, 8:16 p.m. | 1 hour, 35 minutes ago Description :Brave CMS is an open-source CMS. Prior to 2.0.6, this vulnerability is a missing authorization check...",
+      "source": "CVE Feed",
+      "published": "2026-04-06T20:16:26+00:00"
+    },
+    {
+      "title": "CVE-2026-35178 - Workbench Affected by Remote Code Execution (RCE) via Malicious Cookie in Timezone Conversion",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-35178",
+      "summary": "CVE ID :CVE-2026-35178 Published : April 6, 2026, 8:16 p.m. | 1 hour, 35 minutes ago Description :Workbench is a suite of tools for administrators and developers to interact with Salesforce.com...",
+      "source": "CVE Feed",
+      "published": "2026-04-06T20:16:25+00:00"
+    },
+    {
+      "title": "CVE-2026-35022 - Anthropic Claude Code & Agent SDK OS Command Injection via Authentication Helper",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-35022",
+      "summary": "CVE ID :CVE-2026-35022 Published : April 6, 2026, 8:16 p.m. | 1 hour, 35 minutes ago Description :Anthropic Claude Code CLI and Claude Agent SDK contain an OS command injection vulnerability in...",
+      "source": "CVE Feed",
+      "published": "2026-04-06T20:16:25+00:00"
+    },
+    {
+      "title": "CVE-2026-35020 - Anthropic Claude Code & Agent SDK OS Command Injection via TERMINAL Environment Variable",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-35020",
+      "summary": "CVE ID :CVE-2026-35020 Published : April 6, 2026, 8:16 p.m. | 1 hour, 35 minutes ago Description :Anthropic Claude Code CLI and Claude Agent SDK contain an OS command injection vulnerability in the...",
+      "source": "CVE Feed",
+      "published": "2026-04-06T20:16:24+00:00"
+    },
+    {
+      "title": "CVE-2025-54328 - Samsung Exynos SMS Stack-based Buffer Overflow",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2025-54328",
+      "summary": "CVE ID :CVE-2025-54328 Published : April 6, 2026, 8:16 p.m. | 1 hour, 35 minutes ago Description :An issue was discovered in SMS in Samsung Mobile Processor, Wearable Processor, and Modem Exynos 980...",
+      "source": "CVE Feed",
+      "published": "2026-04-06T20:16:20+00:00"
+    },
+    {
+      "title": "Medusa ransomware group using zero-days to launch attacks within 24 hours of breach, Microsoft says",
+      "link": "https://therecord.media/medusa-ransomware-group-zero-days-microsoft",
+      "summary": "Microsoft said it has been alarmed to see how effective Medusa actors are, citing multiple cases where the group can move from initial access to data exfiltration and ransomware deployment within 24...",
+      "source": "The Record",
+      "published": "2026-04-06T20:08:00+00:00"
+    },
     {
       "title": "Big tech vows to continue CSAM scanning in Europe despite expiration of law allowing it",
       "link": "https://therecord.media/big-tech-vows-to-continue-csam-scanning",
@@ -39,58 +214,51 @@
     {
       "title": "CVE-2026-35470 - OpenSTAManager has a SQL Injection via righe Parameter in confronta_righe Modals",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-35470",
-      "summary": "CVE ID :CVE-2026-35470 Published : April 6, 2026, 6:16 p.m. | 31 minutes ago Description :OpenSTAManager is an open source management software for technical assistance and invoicing. Prior to 2.10.2...",
+      "summary": "CVE ID :CVE-2026-35470 Published : April 6, 2026, 6:16 p.m. | 3 hours, 35 minutes ago Description :OpenSTAManager is an open source management software for technical assistance and invoicing. Prior...",
       "source": "CVE Feed",
       "published": "2026-04-06T18:16:44+00:00"
     },
     {
       "title": "CVE-2026-35174 - Chyrp Lite has a Path Traversal to Remote Code Execution",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-35174",
-      "summary": "CVE ID :CVE-2026-35174 Published : April 6, 2026, 6:16 p.m. | 31 minutes ago Description :Chyrp Lite is an ultra-lightweight blogging engine. Prior to 2026.01, a path traversal vulnerability exists...",
+      "summary": "CVE ID :CVE-2026-35174 Published : April 6, 2026, 6:16 p.m. | 3 hours, 35 minutes ago Description :Chyrp Lite is an ultra-lightweight blogging engine. Prior to 2026.01, a path traversal vulnerability...",
       "source": "CVE Feed",
       "published": "2026-04-06T18:16:43+00:00"
     },
     {
       "title": "CVE-2026-35171 - Arbitrary Code Execution via Malicious Logging Configuration in Kedro",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-35171",
-      "summary": "CVE ID :CVE-2026-35171 Published : April 6, 2026, 6:16 p.m. | 31 minutes ago Description :Kedro is a toolbox for production-ready data science. Prior to 1.3.0, Kedro allows the logging configuration...",
+      "summary": "CVE ID :CVE-2026-35171 Published : April 6, 2026, 6:16 p.m. | 3 hours, 35 minutes ago Description :Kedro is a toolbox for production-ready data science. Prior to 1.3.0, Kedro allows the logging...",
       "source": "CVE Feed",
       "published": "2026-04-06T18:16:43+00:00"
     },
     {
       "title": "CVE-2026-35164 - Brave CMS Sffected by Unrestricted File Upload via CKEditor Endpoint",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-35164",
-      "summary": "CVE ID :CVE-2026-35164 Published : April 6, 2026, 6:16 p.m. | 31 minutes ago Description :Brave CMS is an open-source CMS. Prior to 2.0.6, an unrestricted file upload vulnerability exists in the...",
+      "summary": "CVE ID :CVE-2026-35164 Published : April 6, 2026, 6:16 p.m. | 3 hours, 35 minutes ago Description :Brave CMS is an open-source CMS. Prior to 2.0.6, an unrestricted file upload vulnerability exists in...",
       "source": "CVE Feed",
       "published": "2026-04-06T18:16:42+00:00"
     },
     {
       "title": "CVE-2026-35050 - text-generation-webui affected by Remote Code Execution (RCE) through Path Traversal at \"Session -> Save extention settings to user_data/settings.yaml\".",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-35050",
-      "summary": "CVE ID :CVE-2026-35050 Published : April 6, 2026, 6:16 p.m. | 31 minutes ago Description :text-generation-webui is an open-source web interface for running Large Language Models. Prior to 4.1.1...",
+      "summary": "CVE ID :CVE-2026-35050 Published : April 6, 2026, 6:16 p.m. | 3 hours, 35 minutes ago Description :text-generation-webui is an open-source web interface for running Large Language Models. Prior to...",
       "source": "CVE Feed",
       "published": "2026-04-06T18:16:42+00:00"
     },
     {
       "title": "CVE-2026-35047 - Brave CMS has Unrestricted File Upload in BraveCMS via CKEditor Endpoint",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-35047",
-      "summary": "CVE ID :CVE-2026-35047 Published : April 6, 2026, 6:16 p.m. | 31 minutes ago Description :Brave CMS is an open-source CMS. Prior to 2.0.6, an Unrestricted File Upload vulnerability in the CKEditor...",
+      "summary": "CVE ID :CVE-2026-35047 Published : April 6, 2026, 6:16 p.m. | 3 hours, 35 minutes ago Description :Brave CMS is an open-source CMS. Prior to 2.0.6, an Unrestricted File Upload vulnerability in the...",
       "source": "CVE Feed",
       "published": "2026-04-06T18:16:42+00:00"
     },
     {
-      "title": "CVE-2026-35045 - Tandoor Recipes Affected by Private Recipe Exposure and Unauthorized Modification",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-35045",
-      "summary": "CVE ID :CVE-2026-35045 Published : April 6, 2026, 6:16 p.m. | 31 minutes ago Description :Tandoor Recipes is an application for managing recipes, planning meals, and building shopping lists. Prior to...",
-      "source": "CVE Feed",
-      "published": "2026-04-06T18:16:42+00:00"
-    },
-    {
-      "title": "CVE-2026-35044 - BentoML has a Server-Side Template Injection via unsandboxed Jinja2 Environment in Dockerfile generation",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-35044",
-      "summary": "CVE ID :CVE-2026-35044 Published : April 6, 2026, 6:16 p.m. | 31 minutes ago Description :BentoML is a Python library for building online serving systems optimized for AI apps and model inference...",
-      "source": "CVE Feed",
-      "published": "2026-04-06T18:16:41+00:00"
+      "title": "Attackers exploited this critical FortiClient EMS bug as a 0-day",
+      "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/06/forticlient_ems_bug_exploited/",
+      "summary": "Attackers exploited this critical FortiClient EMS bug as a 0-day Fortinet released an emergency patch over the weekend for a critical FortiClient Enterprise Management Server (EMS) bug believed to be...",
+      "source": "CVE Newsroom",
+      "published": "2026-04-06T18:14:25+00:00"
     },
     {
       "title": "Microsoft removes Support and Recovery Assistant from Windows",
@@ -105,69 +273,6 @@
       "summary": "Bryan Fleming, founder of pcTattletale, was ordered to pay a $5,000 fine by a San Diego federal judge and will spend no time in prison beyond the one day he already served.",
       "source": "The Record",
       "published": "2026-04-06T17:33:00+00:00"
-    },
-    {
-      "title": "CVE-2026-35039 - fast-jwt Affected by Cache Confusion via cacheKeyBuilder Collisions Can Return Claims From a Different Token (Identity/Authorization Mixup)",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-35039",
-      "summary": "CVE ID :CVE-2026-35039 Published : April 6, 2026, 5:17 p.m. | 1 hour, 31 minutes ago Description :fast-jwt provides fast JSON Web Token (JWT) implementation. From 0.0.1 to before 6.1.0, setting up a...",
-      "source": "CVE Feed",
-      "published": "2026-04-06T17:17:13+00:00"
-    },
-    {
-      "title": "CVE-2026-35030 - LiteLLM has an authentication bypass via OIDC userinfo cache key collision",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-35030",
-      "summary": "CVE ID :CVE-2026-35030 Published : April 6, 2026, 5:17 p.m. | 1 hour, 31 minutes ago Description :LiteLLM is a proxy server (AI Gateway) to call LLM APIs in OpenAI (or native) format. Prior to...",
-      "source": "CVE Feed",
-      "published": "2026-04-06T17:17:12+00:00"
-    },
-    {
-      "title": "CVE-2026-35029 - LiteLLM affected by privilege escalation via unrestricted proxy configuration endpoint",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-35029",
-      "summary": "CVE ID :CVE-2026-35029 Published : April 6, 2026, 5:17 p.m. | 1 hour, 31 minutes ago Description :LiteLLM is a proxy server (AI Gateway) to call LLM APIs in OpenAI (or native) format. Prior to...",
-      "source": "CVE Feed",
-      "published": "2026-04-06T17:17:12+00:00"
-    },
-    {
-      "title": "CVE-2026-34989 - CI4MS affected by Profile & User Management Full Account Takeover for All-Roles & Privilege-Escalation via Stored DOM XSS",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-34989",
-      "summary": "CVE ID :CVE-2026-34989 Published : April 6, 2026, 5:17 p.m. | 1 hour, 31 minutes ago Description :CI4MS is a CodeIgniter 4-based CMS skeleton that delivers a production-ready, modular architecture...",
-      "source": "CVE Feed",
-      "published": "2026-04-06T17:17:12+00:00"
-    },
-    {
-      "title": "CVE-2026-34977 - Aperi'Solve Affected by Unauthenticated RCE via JPSeek Analyzer Command",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-34977",
-      "summary": "CVE ID :CVE-2026-34977 Published : April 6, 2026, 5:17 p.m. | 1 hour, 31 minutes ago Description :Aperi'Solve is an open-source steganalysis web platform. Prior to 3.2.1, when uploading a JPEG, a...",
-      "source": "CVE Feed",
-      "published": "2026-04-06T17:17:11+00:00"
-    },
-    {
-      "title": "CVE-2026-34976 - Dgraph Affected by Pre-Auth Database Overwrite + SSRF + File Read via restoreTenant Missing Authorization",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-34976",
-      "summary": "CVE ID :CVE-2026-34976 Published : April 6, 2026, 5:17 p.m. | 1 hour, 31 minutes ago Description :Dgraph is an open source distributed GraphQL database. Prior to 25.3.1, the restoreTenant admin...",
-      "source": "CVE Feed",
-      "published": "2026-04-06T17:17:11+00:00"
-    },
-    {
-      "title": "CVE-2026-34975 - Plunk has a CRLF Email Header Injection in raw MIME message construction allows authenticated API user to inject arbitrary email headers",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-34975",
-      "summary": "CVE ID :CVE-2026-34975 Published : April 6, 2026, 5:17 p.m. | 1 hour, 31 minutes ago Description :Plunk is an open-source email platform built on top of AWS SES. Prior to 0.8.0, a CRLF header...",
-      "source": "CVE Feed",
-      "published": "2026-04-06T17:17:11+00:00"
-    },
-    {
-      "title": "CVE-2026-34841 - Axios npm Supply Chain Incident Impacting @usebruno/cli",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-34841",
-      "summary": "CVE ID :CVE-2026-34841 Published : April 6, 2026, 5:17 p.m. | 1 hour, 31 minutes ago Description :Bruno is an open source IDE for exploring and testing APIs. Prior to 3.2.1, Bruno was affected by a...",
-      "source": "CVE Feed",
-      "published": "2026-04-06T17:17:10+00:00"
-    },
-    {
-      "title": "CVE-2026-34783 - Ferret has a Path Traversal in IO::FS::WRITE allows arbitrary file write when scraping malicious websites",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-34783",
-      "summary": "CVE ID :CVE-2026-34783 Published : April 6, 2026, 5:17 p.m. | 1 hour, 31 minutes ago Description :Ferret is a declarative system for working with web data. Prior to 2.0.0-alpha.4, a path traversal...",
-      "source": "CVE Feed",
-      "published": "2026-04-06T17:17:10+00:00"
     },
     {
       "title": "Microsoft links Medusa ransomware affiliate to zero-day attacks",
@@ -210,69 +315,6 @@
       "summary": "Threat actors likely associated with the Democratic People's Republic of Korea (DPRK) have been observed using GitHub as command-and-control (C2) infrastructure in multi-stage attacks targeting...",
       "source": "The Hacker News",
       "published": "2026-04-06T16:24:00+00:00"
-    },
-    {
-      "title": "Singapore, US warn of latest Fortinet bug being exploited in wild",
-      "link": "https://therecord.media/singapore-us-warn-of-fortinet-bug-exploited",
-      "summary": "The Cybersecurity and Infrastructure Security Agency (CISA) gave federal agencies until Thursday to apply the hotfix.",
-      "source": "The Record",
-      "published": "2026-04-06T16:20:00+00:00"
-    },
-    {
-      "title": "CVE-2026-34982 - Vim modeline bypass via various options affects Vim < 9.2.0276",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-34982",
-      "summary": "CVE ID :CVE-2026-34982 Published : April 6, 2026, 4:16 p.m. | 2 hours, 31 minutes ago Description :Vim is an open source, command line text editor. Prior to version 9.2.0276, a modeline sandbox...",
-      "source": "CVE Feed",
-      "published": "2026-04-06T16:16:38+00:00"
-    },
-    {
-      "title": "CVE-2026-34950 - fast-jwt has an incomplete fix for CVE-2023-48223: JWT Algorithm Confusion via Whitespace-Prefixed RSA Public Key",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-34950",
-      "summary": "CVE ID :CVE-2026-34950 Published : April 6, 2026, 4:16 p.m. | 2 hours, 31 minutes ago Description :fast-jwt provides fast JSON Web Token (JWT) implementation. In 6.1.0 and earlier, the...",
-      "source": "CVE Feed",
-      "published": "2026-04-06T16:16:38+00:00"
-    },
-    {
-      "title": "CVE-2026-34589 - OpenEXR: DWA Lossy Decoder Heap Out-of-Bounds Write",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-34589",
-      "summary": "CVE ID :CVE-2026-34589 Published : April 6, 2026, 4:16 p.m. | 2 hours, 31 minutes ago Description :OpenEXR provides the specification and reference implementation of the EXR file format, an image...",
-      "source": "CVE Feed",
-      "published": "2026-04-06T16:16:36+00:00"
-    },
-    {
-      "title": "CVE-2026-34588 - OpenEXR has a signed 32-bit Overflow in PIZ Decoder Leads to OOB Read/Write",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-34588",
-      "summary": "CVE ID :CVE-2026-34588 Published : April 6, 2026, 4:16 p.m. | 2 hours, 31 minutes ago Description :OpenEXR provides the specification and reference implementation of the EXR file format, an image...",
-      "source": "CVE Feed",
-      "published": "2026-04-06T16:16:35+00:00"
-    },
-    {
-      "title": "CVE-2026-34402 - Time Based Blind SQL Injection via Property Value in ChurchCRM",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-34402",
-      "summary": "CVE ID :CVE-2026-34402 Published : April 6, 2026, 4:16 p.m. | 2 hours, 31 minutes ago Description :ChurchCRM is an open-source church management system. Prior to 7.1.0, authenticated users with Edit...",
-      "source": "CVE Feed",
-      "published": "2026-04-06T16:16:35+00:00"
-    },
-    {
-      "title": "CVE-2026-34208 - SandboxJS: Sandbox integrity escape",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-34208",
-      "summary": "CVE ID :CVE-2026-34208 Published : April 6, 2026, 4:16 p.m. | 2 hours, 31 minutes ago Description :SandboxJS is a JavaScript sandboxing library. Prior to 0.8.36, SandboxJS blocks direct assignment to...",
-      "source": "CVE Feed",
-      "published": "2026-04-06T16:16:34+00:00"
-    },
-    {
-      "title": "CVE-2026-33752 - Redirect-based SSRF leading to internal network access in curl_cffi (with TLS impersonation bypass)",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-33752",
-      "summary": "CVE ID :CVE-2026-33752 Published : April 6, 2026, 4:16 p.m. | 2 hours, 31 minutes ago Description :curl_cffi is the a Python binding for curl. Prior to 0.15.0, curl_cffi does not restrict requests to...",
-      "source": "CVE Feed",
-      "published": "2026-04-06T16:16:34+00:00"
-    },
-    {
-      "title": "CVE-2025-47392 - Integer Overflow or Wraparound in GPS",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2025-47392",
-      "summary": "CVE ID :CVE-2025-47392 Published : April 6, 2026, 4:16 p.m. | 2 hours, 31 minutes ago Description :Memory corruption when decoding corrupted satellite data files with invalid signature offsets...",
-      "source": "CVE Feed",
-      "published": "2026-04-06T16:16:28+00:00"
     },
     {
       "title": "CISA orders feds to patch exploited Fortinet EMS flaw by Friday",
@@ -350,13 +392,6 @@
       "summary": "⚡ Weekly Recap: Axios Hack, Chrome 0-Day, Fortinet Exploits, Paragon Spyware and More This week had real hits. The key software got tampered with. Active bugs showed up in the tools people use every...",
       "source": "CVE Newsroom",
       "published": "2026-04-06T12:46:00+00:00"
-    },
-    {
-      "title": "Major outage hits Russian banking apps, metro payments across regions",
-      "link": "https://therecord.media/outage-hits-russian-banking-apps",
-      "summary": "The disruption on Friday affected apps from some of the country’s largest banks, including Sberbank, VTB, Alfa-Bank, T-Bank and Gazprombank.",
-      "source": "The Record",
-      "published": "2026-04-06T12:37:00+00:00"
     },
     {
       "title": "Whitespace Flaw Re-Opens Critical JWT “Algorithm Confusion” Bypass",
@@ -604,13 +639,6 @@
       "published": "2026-04-03T20:40:22+00:00"
     },
     {
-      "title": "OpenClaw gives users yet another reason to be freaked out about security",
-      "link": "https://arstechnica.com/security/2026/04/heres-why-its-prudent-for-openclaw-users-to-assume-compromise/",
-      "summary": "OpenClaw gives users yet another reason to be freaked out about security For more than a month, security practitioners have been warning about the perils of using OpenClaw, the viral AI agentic tool...",
-      "source": "CVE Newsroom",
-      "published": "2026-04-03T20:30:15+00:00"
-    },
-    {
       "title": "Hims & Hers warns of data breach after Zendesk support ticket breach",
       "link": "https://www.bleepingcomputer.com/news/security/hims-and-hers-warns-of-data-breach-after-zendesk-support-ticket-breach/",
       "summary": "Telehealth giant Hims & Hers Health is warning that it suffered a data breach after support tickets were stolen from a third-party customer service platform. [...]",
@@ -630,13 +658,6 @@
       "summary": "Even organizations with users unwilling or unable to adopt iOS 26 can now protect themselves from a severe mobile OS-cracking tool.",
       "source": "Dark Reading",
       "published": "2026-04-03T17:08:57+00:00"
-    },
-    {
-      "title": "Die Linke German political party confirms data stolen by Qilin ransomware",
-      "link": "https://www.bleepingcomputer.com/news/security/die-linke-german-political-party-confirms-data-stolen-by-qilin-ransomware/",
-      "summary": "The Qilin ransomware group has claimed responsibility for an attack against Die Linke ('The Left'), forcing an IT systems outage at the political party, and threatening sensitive data leak. [...]",
-      "source": "BleepingComputer",
-      "published": "2026-04-03T16:36:44+00:00"
     },
     {
       "title": "Microsoft Details Cookie-Controlled PHP Web Shells Persisting via Cron on Linux Servers",
@@ -1323,27 +1344,6 @@
       "summary": "Ten finalists had three minutes to make their case for being the most innovative, promising young security company of the year. Geordie AI wins the 2026 contest.",
       "source": "Dark Reading",
       "published": "2026-03-25T15:03:45+00:00"
-    },
-    {
-      "title": "SANS: Top 5 Most Dangerous New Attack Techniques to Watch",
-      "link": "https://www.darkreading.com/threat-intelligence/sans-most-dangerous-attack-techniques",
-      "summary": "For the first time, SANS Institute's five top attack techniques all have one thing in common — AI.",
-      "source": "Dark Reading",
-      "published": "2026-03-25T14:40:33+00:00"
-    },
-    {
-      "title": "Why a 'Near-Miss' Database Is Key to Improving Information Sharing",
-      "link": "https://www.darkreading.com/cyber-risk/experts-near-miss-database-improve-information-sharing",
-      "summary": "Organizations disclose attack details, though information may be limited. What if they did the same with close calls?",
-      "source": "Dark Reading",
-      "published": "2026-03-25T14:09:01+00:00"
-    },
-    {
-      "title": "AI-Native Security Is a Must to Counter AI-Based Attacks",
-      "link": "https://www.darkreading.com/cybersecurity-operations/ai-native-security-counter-attacks",
-      "summary": "Attacks by artificial intelligence agents are a reality. Experts at Nvidia's GTC conference say defenders need to use the same tools to fight them off.",
-      "source": "Dark Reading",
-      "published": "2026-03-25T12:26:14+00:00"
     },
     {
       "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
