@@ -1,12 +1,124 @@
 {
-  "last_updated": "2026-04-07T18:17:28.236971+00:00",
+  "last_updated": "2026-04-07T20:11:13.650956+00:00",
   "articles": [
+    {
+      "title": "Grafana Patches AI Bug That Could Have Leaked User Data",
+      "link": "https://www.darkreading.com/application-security/grafana-patches-ai-bug-leaked-user-data",
+      "summary": "By hiding malicious instructions on an attacker-controlled Web page, AI could ingest orders as benign and return sensitive data to the attacker's server.",
+      "source": "Dark Reading",
+      "published": "2026-04-07T19:52:26+00:00"
+    },
+    {
+      "title": "Snowflake customers hit in data theft attacks after SaaS integrator breach",
+      "link": "https://www.bleepingcomputer.com/news/security/snowflake-customers-hit-in-data-theft-attacks-after-saas-integrator-breach/",
+      "summary": "Over a dozen companies have suffered data theft attacks after a SaaS integration provider was breached and authentication tokens stolen. [...]",
+      "source": "BleepingComputer",
+      "published": "2026-04-07T19:39:18+00:00"
+    },
+    {
+      "title": "Anthropic Unveils ‘Claude Mythos’ – A Cybersecurity Breakthrough That Could Also Supercharge Attacks",
+      "link": "https://www.securityweek.com/anthropic-unveils-claude-mythos-a-cybersecurity-breakthrough-that-could-also-supercharge-attacks/",
+      "summary": "New AI model drives Project Glasswing, a effort to secure critical software before advanced capabilities fall into the wrong hands. The post Anthropic Unveils ‘Claude Mythos’ – A Cybersecurity...",
+      "source": "SecurityWeek",
+      "published": "2026-04-07T18:39:56+00:00"
+    },
     {
       "title": "US warns of Iranian hackers targeting critical infrastructure",
       "link": "https://www.bleepingcomputer.com/news/security/us-warns-of-iranian-hackers-targeting-critical-infrastructure/",
       "summary": "Iranian-linked hackers are targeting Internet-exposed Rockwell/Allen-Bradley programmable logic controllers (PLCs) on the networks of U.S. critical infrastructure organizations. [...]",
       "source": "BleepingComputer",
       "published": "2026-04-07T18:02:26+00:00"
+    },
+    {
+      "title": "CVE-2026-4631 - Cockpit: cockpit: unauthenticated remote code execution due to ssh command-line argument injection",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-4631",
+      "summary": "CVE ID :CVE-2026-4631 Published : April 7, 2026, 5:16 p.m. | 55 minutes ago Description :Cockpit's remote login feature passes user-supplied hostnames and usernames from the web interface to the SSH...",
+      "source": "CVE Feed",
+      "published": "2026-04-07T17:16:38+00:00"
+    },
+    {
+      "title": "CVE-2026-39307 - PraisonAI has an Arbitrary File Write (Zip Slip) in Templates Extraction",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-39307",
+      "summary": "CVE ID :CVE-2026-39307 Published : April 7, 2026, 5:16 p.m. | 55 minutes ago Description :PraisonAI is a multi-agent teams system. Prior to 1.5.113, The PraisonAI templates installation feature is...",
+      "source": "CVE Feed",
+      "published": "2026-04-07T17:16:36+00:00"
+    },
+    {
+      "title": "CVE-2026-39305 - Arbitrary File Write / Path Traversal in Action Orchestrator",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-39305",
+      "summary": "CVE ID :CVE-2026-39305 Published : April 7, 2026, 5:16 p.m. | 55 minutes ago Description :PraisonAI is a multi-agent teams system. Prior to 1.5.113, the Action Orchestrator feature contains a Path...",
+      "source": "CVE Feed",
+      "published": "2026-04-07T17:16:36+00:00"
+    },
+    {
+      "title": "CVE-2026-35615 - PraisonAI has a Path Traversal in FileTools",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-35615",
+      "summary": "CVE ID :CVE-2026-35615 Published : April 7, 2026, 5:16 p.m. | 55 minutes ago Description :PraisonAI is a multi-agent teams system. Prior to 1.5.113, _validate_path() calls os.path.normpath() first...",
+      "source": "CVE Feed",
+      "published": "2026-04-07T17:16:35+00:00"
+    },
+    {
+      "title": "CVE-2026-35614 - Frappe has a SQL injection in bulk_update",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-35614",
+      "summary": "CVE ID :CVE-2026-35614 Published : April 7, 2026, 5:16 p.m. | 55 minutes ago Description :Frappe is a full-stack web application framework. Prior to 16.14.0 and 15.104.0, Frappe has a SQL injection...",
+      "source": "CVE Feed",
+      "published": "2026-04-07T17:16:35+00:00"
+    },
+    {
+      "title": "CVE-2026-35610 - PolarLearn has a Server Action Admin Bypass in Account Management Actions",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-35610",
+      "summary": "CVE ID :CVE-2026-35610 Published : April 7, 2026, 5:16 p.m. | 55 minutes ago Description :PolarLearn is a free and open-source learning program. In 0-PRERELEASE-14 and earlier...",
+      "source": "CVE Feed",
+      "published": "2026-04-07T17:16:35+00:00"
+    },
+    {
+      "title": "CVE-2026-35607 - File Browser: Proxy auth auto-provisioned users inherit Execute permission and Commands",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-35607",
+      "summary": "CVE ID :CVE-2026-35607 Published : April 7, 2026, 5:16 p.m. | 55 minutes ago Description :File Browser is a file managing interface for uploading, deleting, previewing, renaming, and editing files...",
+      "source": "CVE Feed",
+      "published": "2026-04-07T17:16:34+00:00"
+    },
+    {
+      "title": "CVE-2026-35604 - File Browser share links remain accessible after Share/Download permissions are revoked",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-35604",
+      "summary": "CVE ID :CVE-2026-35604 Published : April 7, 2026, 5:16 p.m. | 55 minutes ago Description :File Browser is a file managing interface for uploading, deleting, previewing, renaming, and editing files...",
+      "source": "CVE Feed",
+      "published": "2026-04-07T17:16:34+00:00"
+    },
+    {
+      "title": "CVE-2026-35580 - Emissary has GitHub Actions Shell Injection via Workflow Inputs",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-35580",
+      "summary": "CVE ID :CVE-2026-35580 Published : April 7, 2026, 5:16 p.m. | 55 minutes ago Description :Emissary is a P2P based data-driven workflow engine. Prior to 8.39.0, GitHub Actions workflow files contained...",
+      "source": "CVE Feed",
+      "published": "2026-04-07T17:16:33+00:00"
+    },
+    {
+      "title": "CVE-2026-23696 - Windmill < 1.603.3 File Ownership Handling SQLi RCE",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-23696",
+      "summary": "CVE ID :CVE-2026-23696 Published : April 7, 2026, 5:16 p.m. | 55 minutes ago Description :Windmill CE and EE versions 1.276.0 through 1.603.2 contain an SQL injection vulnerability in the folder...",
+      "source": "CVE Feed",
+      "published": "2026-04-07T17:16:27+00:00"
+    },
+    {
+      "title": "CVE-2026-22683 - Windmill < 1.615.0 Operator Role Missing Authorization Checks RCE",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-22683",
+      "summary": "CVE ID :CVE-2026-22683 Published : April 7, 2026, 5:16 p.m. | 55 minutes ago Description :Windmill versions 1.56.0 through 1.614.0 contain a missing authorization vulnerability that allows users with...",
+      "source": "CVE Feed",
+      "published": "2026-04-07T17:16:27+00:00"
+    },
+    {
+      "title": "CVE-2026-22682 - OpenHarness Improper Access Control via File Tools",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-22682",
+      "summary": "CVE ID :CVE-2026-22682 Published : April 7, 2026, 5:09 p.m. | 1 hour, 2 minutes ago Description :OpenHarness prior to commit 166fcfe contains an improper access control vulnerability in built-in file...",
+      "source": "CVE Feed",
+      "published": "2026-04-07T17:09:01+00:00"
+    },
+    {
+      "title": "CVE-2025-59528: Flowise CustomMCP Code Injection RCE",
+      "link": "https://thecyberthrone.in/2026/04/07/cve-2025-59528-flowise-custommcp-code-injection-rce/",
+      "summary": "CVE-2025-59528: Flowise CustomMCP Code Injection RCE April 7, 2026Status: Actively exploited | CVSS: 10.0 (Critical) | EPSS: 99.25% | Exposure: 12,000+ internet-facing instancesVulnerability...",
+      "source": "CVE Newsroom",
+      "published": "2026-04-07T17:05:14+00:00"
     },
     {
       "title": "Russia Hacked Routers to Steal Microsoft Office Tokens",
@@ -44,13 +156,6 @@
       "published": "2026-04-07T16:34:26+00:00"
     },
     {
-      "title": "CVE-2026-4631 - Cockpit: cockpit: unauthenticated remote code execution due to ssh command-line argument injection",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-4631",
-      "summary": "CVE ID :CVE-2026-4631 Published : April 7, 2026, 4:30 p.m. | 19 minutes ago Description :Cockpit's remote login feature passes user-supplied hostnames and usernames from the web interface to the SSH...",
-      "source": "CVE Feed",
-      "published": "2026-04-07T16:30:28+00:00"
-    },
-    {
       "title": "National security veterans warn against delays in FISA 702 reauthorization",
       "link": "https://therecord.media/national-security-vets-warn-section-702-authorization-delay",
       "summary": "The missive, obtained by Recorded Future News, arrives days before policymakers return from recess next week and aim for a quick extension Section 702 of the Foreign Intelligence Surveillance Act...",
@@ -65,65 +170,72 @@
       "published": "2026-04-07T16:29:00+00:00"
     },
     {
+      "title": "Russian hackers hijack internet traffic using vulnerable routers",
+      "link": "https://www.helpnetsecurity.com/2026/04/07/russian-hackers-router-hijacking-dns-credential-theft/",
+      "summary": "Russian hackers hijack internet traffic using vulnerable routers The Russian state cyber group APT28 has been compromising routers to hijack web traffic and spy on victims, the UK’s The National...",
+      "source": "CVE Newsroom",
+      "published": "2026-04-07T16:18:00+00:00"
+    },
+    {
       "title": "CVE-2026-35567 - SQL Injection in MemberRoleChange.php",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-35567",
-      "summary": "CVE ID :CVE-2026-35567 Published : April 7, 2026, 4:16 p.m. | 33 minutes ago Description :ChurchCRM is an open-source church management system. Prior to 7.1.0, the NewRole POST parameter in...",
+      "summary": "CVE ID :CVE-2026-35567 Published : April 7, 2026, 4:16 p.m. | 1 hour, 55 minutes ago Description :ChurchCRM is an open-source church management system. Prior to 7.1.0, the NewRole POST parameter in...",
       "source": "CVE Feed",
       "published": "2026-04-07T16:16:29+00:00"
     },
     {
       "title": "CVE-2026-35566 - ChurchCRM has a SQL Injection via Unquoted Session Value in FundRaiserStatement.php",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-35566",
-      "summary": "CVE ID :CVE-2026-35566 Published : April 7, 2026, 4:16 p.m. | 33 minutes ago Description :ChurchCRM is an open-source church management system. Prior to 7.1.0, a critical SQL injection vulnerability...",
+      "summary": "CVE ID :CVE-2026-35566 Published : April 7, 2026, 4:16 p.m. | 1 hour, 55 minutes ago Description :ChurchCRM is an open-source church management system. Prior to 7.1.0, a critical SQL injection...",
       "source": "CVE Feed",
       "published": "2026-04-07T16:16:29+00:00"
     },
     {
       "title": "CVE-2026-35521 - Pi-hole FTL affected by Remote Code Execution (RCE) via dhcp.hosts Newline Injection",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-35521",
-      "summary": "CVE ID :CVE-2026-35521 Published : April 7, 2026, 4:16 p.m. | 33 minutes ago Description :FTLDNS (pihole-FTL) provides an interactive API and also generates statistics for Pi-hole's Web interface...",
+      "summary": "CVE ID :CVE-2026-35521 Published : April 7, 2026, 4:16 p.m. | 1 hour, 55 minutes ago Description :FTLDNS (pihole-FTL) provides an interactive API and also generates statistics for Pi-hole's Web...",
       "source": "CVE Feed",
       "published": "2026-04-07T16:16:28+00:00"
     },
     {
       "title": "CVE-2026-35520 - Pi-hole FTL affected by Remote Code Execution (RCE) via dhcp.leaseTime Newline Injection",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-35520",
-      "summary": "CVE ID :CVE-2026-35520 Published : April 7, 2026, 4:16 p.m. | 33 minutes ago Description :FTLDNS (pihole-FTL) provides an interactive API and also generates statistics for Pi-hole's Web interface...",
+      "summary": "CVE ID :CVE-2026-35520 Published : April 7, 2026, 4:16 p.m. | 1 hour, 55 minutes ago Description :FTLDNS (pihole-FTL) provides an interactive API and also generates statistics for Pi-hole's Web...",
       "source": "CVE Feed",
       "published": "2026-04-07T16:16:28+00:00"
     },
     {
       "title": "CVE-2026-35519 - Pi-hole FTL affected by Remote Code Execution (RCE) via dns.hostRecord Newline Injection",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-35519",
-      "summary": "CVE ID :CVE-2026-35519 Published : April 7, 2026, 4:16 p.m. | 33 minutes ago Description :FTLDNS (pihole-FTL) provides an interactive API and also generates statistics for Pi-hole's Web interface...",
+      "summary": "CVE ID :CVE-2026-35519 Published : April 7, 2026, 4:16 p.m. | 1 hour, 55 minutes ago Description :FTLDNS (pihole-FTL) provides an interactive API and also generates statistics for Pi-hole's Web...",
       "source": "CVE Feed",
       "published": "2026-04-07T16:16:28+00:00"
     },
     {
       "title": "CVE-2026-35518 - Pi-hole FTL affected by Remote Code Execution (RCE) via dns.cnameRecords Newline Injection",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-35518",
-      "summary": "CVE ID :CVE-2026-35518 Published : April 7, 2026, 4:16 p.m. | 33 minutes ago Description :FTLDNS (pihole-FTL) provides an interactive API and also generates statistics for Pi-hole's Web interface...",
+      "summary": "CVE ID :CVE-2026-35518 Published : April 7, 2026, 4:16 p.m. | 1 hour, 55 minutes ago Description :FTLDNS (pihole-FTL) provides an interactive API and also generates statistics for Pi-hole's Web...",
       "source": "CVE Feed",
       "published": "2026-04-07T16:16:28+00:00"
     },
     {
       "title": "CVE-2026-35517 - Pi-hole FTL affected by Remote Code Execution (RCE) via dns.upstreams Newline Injection",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-35517",
-      "summary": "CVE ID :CVE-2026-35517 Published : April 7, 2026, 4:16 p.m. | 33 minutes ago Description :FTLDNS (pihole-FTL) provides an interactive API and also generates statistics for Pi-hole's Web interface...",
+      "summary": "CVE ID :CVE-2026-35517 Published : April 7, 2026, 4:16 p.m. | 1 hour, 55 minutes ago Description :FTLDNS (pihole-FTL) provides an interactive API and also generates statistics for Pi-hole's Web...",
       "source": "CVE Feed",
       "published": "2026-04-07T16:16:28+00:00"
     },
     {
       "title": "CVE-2026-35490 - changedetection.io has an Authentication Bypass via Decorator Ordering",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-35490",
-      "summary": "CVE ID :CVE-2026-35490 Published : April 7, 2026, 4:16 p.m. | 33 minutes ago Description :changedetection.io is a free open source web page change detection tool. Prior to 0.54.8, the...",
+      "summary": "CVE ID :CVE-2026-35490 Published : April 7, 2026, 4:16 p.m. | 1 hour, 55 minutes ago Description :changedetection.io is a free open source web page change detection tool. Prior to 0.54.8, the...",
       "source": "CVE Feed",
       "published": "2026-04-07T16:16:27+00:00"
     },
     {
       "title": "CVE-2026-35488 - Tandoor Recipes — CustomIsShared permits DELETE/PUT on RecipeBook by shared (read-only) users",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-35488",
-      "summary": "CVE ID :CVE-2026-35488 Published : April 7, 2026, 4:16 p.m. | 33 minutes ago Description :Tandoor Recipes is an application for managing recipes, planning meals, and building shopping lists. Prior to...",
+      "summary": "CVE ID :CVE-2026-35488 Published : April 7, 2026, 4:16 p.m. | 1 hour, 55 minutes ago Description :Tandoor Recipes is an application for managing recipes, planning meals, and building shopping lists...",
       "source": "CVE Feed",
       "published": "2026-04-07T16:16:27+00:00"
     },
@@ -151,79 +263,30 @@
     {
       "title": "CVE-2026-5373 - runZero Platform superuser privilege escalation",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-5373",
-      "summary": "CVE ID :CVE-2026-5373 Published : April 7, 2026, 3:17 p.m. | 1 hour, 32 minutes ago Description :An issue that allowed all-organization administrators to promote accounts to superuser status has been...",
+      "summary": "CVE ID :CVE-2026-5373 Published : April 7, 2026, 3:17 p.m. | 2 hours, 54 minutes ago Description :An issue that allowed all-organization administrators to promote accounts to superuser status has...",
       "source": "CVE Feed",
       "published": "2026-04-07T15:17:47+00:00"
     },
     {
       "title": "CVE-2026-4740 - Rhacm: open cluster management (ocm): cross-cluster privilege escalation via improper kubernetes client certificate renewal validation",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-4740",
-      "summary": "CVE ID :CVE-2026-4740 Published : April 7, 2026, 3:17 p.m. | 1 hour, 32 minutes ago Description :A flaw was found in Open Cluster Management (OCM), the technology underlying Red Hat Advanced Cluster...",
+      "summary": "CVE ID :CVE-2026-4740 Published : April 7, 2026, 3:17 p.m. | 2 hours, 54 minutes ago Description :A flaw was found in Open Cluster Management (OCM), the technology underlying Red Hat Advanced Cluster...",
       "source": "CVE Feed",
       "published": "2026-04-07T15:17:46+00:00"
     },
     {
       "title": "CVE-2026-35463 - pyLoad has Improper Neutralization of Special Elements used in an OS Command",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-35463",
-      "summary": "CVE ID :CVE-2026-35463 Published : April 7, 2026, 3:17 p.m. | 1 hour, 32 minutes ago Description :pyLoad is a free and open-source download manager written in Python. In 0.5.0b3.dev96 and earlier...",
+      "summary": "CVE ID :CVE-2026-35463 Published : April 7, 2026, 3:17 p.m. | 2 hours, 54 minutes ago Description :pyLoad is a free and open-source download manager written in Python. In 0.5.0b3.dev96 and earlier...",
       "source": "CVE Feed",
       "published": "2026-04-07T15:17:44+00:00"
     },
     {
       "title": "CVE-2026-35458 - Gotenberg has a ReDoS via extraHttpHeaders scope feature",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-35458",
-      "summary": "CVE ID :CVE-2026-35458 Published : April 7, 2026, 3:17 p.m. | 1 hour, 32 minutes ago Description :Gotenberg is an API for converting document formats. In 8.29.1 and earlier, Gotenberg uses...",
+      "summary": "CVE ID :CVE-2026-35458 Published : April 7, 2026, 3:17 p.m. | 2 hours, 54 minutes ago Description :Gotenberg is an API for converting document formats. In 8.29.1 and earlier, Gotenberg uses...",
       "source": "CVE Feed",
       "published": "2026-04-07T15:17:43+00:00"
-    },
-    {
-      "title": "CVE-2026-35457 - libp2p-rust has unbounded rendezvous DISCOVER cookies enable remote memory exhaustion",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-35457",
-      "summary": "CVE ID :CVE-2026-35457 Published : April 7, 2026, 3:17 p.m. | 1 hour, 32 minutes ago Description :libp2p-rust is the official rust language Implementation of the libp2p networking stack. Prior to...",
-      "source": "CVE Feed",
-      "published": "2026-04-07T15:17:43+00:00"
-    },
-    {
-      "title": "CVE-2026-24660 - LibRaw Heap-Based Buffer Overflow Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-24660",
-      "summary": "CVE ID :CVE-2026-24660 Published : April 7, 2026, 3:17 p.m. | 1 hour, 32 minutes ago Description :A heap-based buffer overflow vulnerability exists in the x3f_load_huffman functionality of LibRaw...",
-      "source": "CVE Feed",
-      "published": "2026-04-07T15:17:37+00:00"
-    },
-    {
-      "title": "CVE-2026-24450 - LibRaw Heap Buffer Overflow Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-24450",
-      "summary": "CVE ID :CVE-2026-24450 Published : April 7, 2026, 3:17 p.m. | 1 hour, 32 minutes ago Description :An integer overflow vulnerability exists in the uncompressed_fp_dng_load_raw functionality of LibRaw...",
-      "source": "CVE Feed",
-      "published": "2026-04-07T15:17:37+00:00"
-    },
-    {
-      "title": "CVE-2026-21413 - LibRaw Heap-Based Buffer Overflow Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-21413",
-      "summary": "CVE ID :CVE-2026-21413 Published : April 7, 2026, 3:17 p.m. | 1 hour, 32 minutes ago Description :A heap-based buffer overflow vulnerability exists in the lossless_jpeg_load_raw functionality of...",
-      "source": "CVE Feed",
-      "published": "2026-04-07T15:17:35+00:00"
-    },
-    {
-      "title": "CVE-2026-20911 - LibRaw Heap Buffer Overflow Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-20911",
-      "summary": "CVE ID :CVE-2026-20911 Published : April 7, 2026, 3:17 p.m. | 1 hour, 32 minutes ago Description :A heap-based buffer overflow vulnerability exists in the HuffTable::initval functionality of LibRaw...",
-      "source": "CVE Feed",
-      "published": "2026-04-07T15:17:35+00:00"
-    },
-    {
-      "title": "CVE-2026-20889 - LibRaw Heap-Based Buffer Overflow in x3f_thumb_loader",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-20889",
-      "summary": "CVE ID :CVE-2026-20889 Published : April 7, 2026, 3:17 p.m. | 1 hour, 32 minutes ago Description :A heap-based buffer overflow vulnerability exists in the x3f_thumb_loader functionality of LibRaw...",
-      "source": "CVE Feed",
-      "published": "2026-04-07T15:17:35+00:00"
-    },
-    {
-      "title": "CVE-2026-20884 - LibRaw Deflate DNG Load Raw Integer Overflow Heap Buffer Overflow",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-20884",
-      "summary": "CVE ID :CVE-2026-20884 Published : April 7, 2026, 3:17 p.m. | 1 hour, 32 minutes ago Description :An integer overflow vulnerability exists in the deflate_dng_load_raw functionality of LibRaw Commit...",
-      "source": "CVE Feed",
-      "published": "2026-04-07T15:17:35+00:00"
     },
     {
       "title": "Docker CVE-2026-34040 Lets Attackers Bypass Authorization and Gain Host Access",
@@ -268,18 +331,11 @@
       "published": "2026-04-07T14:23:51+00:00"
     },
     {
-      "title": "CVE-2026-5627 - Path Traversal in mintplex-labs/anything-llm",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-5627",
-      "summary": "CVE ID :CVE-2026-5627 Published : April 7, 2026, 2:16 p.m. | 2 hours, 33 minutes ago Description :A path traversal vulnerability exists in mintplex-labs/anything-llm versions up to and including...",
-      "source": "CVE Feed",
-      "published": "2026-04-07T14:16:24+00:00"
-    },
-    {
-      "title": "CVE-2026-35554 - Apache Kafka Clients: Kafka Producer Message Corruption and Misrouting via Buffer Pool Race Condition",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-35554",
-      "summary": "CVE ID :CVE-2026-35554 Published : April 7, 2026, 2:16 p.m. | 2 hours, 33 minutes ago Description :A race condition in the Apache Kafka Java producer client’s buffer pool management can cause...",
-      "source": "CVE Feed",
-      "published": "2026-04-07T14:16:23+00:00"
+      "title": "The dangers of telehealth: data breaches, phishing, and spam | Kaspersky official blog",
+      "link": "https://www.kaspersky.co.uk/blog/telehealth-issues-2026/30218/",
+      "summary": "The dangers of telehealth: data breaches, phishing, and spam | Kaspersky official blog privacy Telehealth services and apps are blowing up in popularity right now, making the availability of medical...",
+      "source": "CVE Newsroom",
+      "published": "2026-04-07T14:08:23+00:00"
     },
     {
       "title": "10.0 CVSS Flaw in Kestra Grants Full Server Control",
@@ -315,20 +371,6 @@
       "summary": "Join the live diagnostic session to expose hidden coverage gaps and shift from flawed tool-level evaluations to a comprehensive, program-level validation discipline. The post Webinar Today: Why...",
       "source": "SecurityWeek",
       "published": "2026-04-07T13:19:29+00:00"
-    },
-    {
-      "title": "CVE-2026-5733 - Incorrect boundary conditions in the Graphics: WebGPU component",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-5733",
-      "summary": "CVE ID :CVE-2026-5733 Published : April 7, 2026, 1:16 p.m. | 3 hours, 33 minutes ago Description :Incorrect boundary conditions in the Graphics: WebGPU component. This vulnerability affects Firefox...",
-      "source": "CVE Feed",
-      "published": "2026-04-07T13:16:47+00:00"
-    },
-    {
-      "title": "CVE-2026-5732 - Incorrect boundary conditions, integer overflow in the Graphics: Text component",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-5732",
-      "summary": "CVE ID :CVE-2026-5732 Published : April 7, 2026, 1:16 p.m. | 3 hours, 33 minutes ago Description :Incorrect boundary conditions, integer overflow in the Graphics: Text component. This vulnerability...",
-      "source": "CVE Feed",
-      "published": "2026-04-07T13:16:47+00:00"
     },
     {
       "title": "Critical JWT Bypass in Convoy Panel Allows Full Account Takeover",
@@ -368,8 +410,8 @@
     {
       "title": "Over 1,000 Exposed ComfyUI Instances Targeted in Cryptomining Botnet Campaign",
       "link": "https://thehackernews.com/2026/04/over-1000-exposed-comfyui-instances.html",
-      "summary": "Over 1,000 Exposed ComfyUI Instances Targeted in Cryptomining Botnet Campaign An active campaign has been observed targeting internet-exposed instances running ComfyUI, a popular stable diffusion...",
-      "source": "CVE Newsroom",
+      "summary": "An active campaign has been observed targeting internet-exposed instances running ComfyUI, a popular stable diffusion platform, to enlist them into a cryptocurrency mining and proxy botnet. \"A...",
+      "source": "The Hacker News",
       "published": "2026-04-07T12:46:00+00:00"
     },
     {
@@ -464,13 +506,6 @@
       "published": "2026-04-07T08:30:39+00:00"
     },
     {
-      "title": "White House Seeks to Slash CISA Funding by $707 Million",
-      "link": "https://www.securityweek.com/white-house-seeks-to-slash-cisa-funding-by-707-million/",
-      "summary": "The Trump administration says the FY2027 budget refocuses CISA on its core mission: protecting federal agencies and critical infrastructure. The post White House Seeks to Slash CISA Funding by $707...",
-      "source": "SecurityWeek",
-      "published": "2026-04-07T08:29:41+00:00"
-    },
-    {
       "title": "Microsoft Warns Storm-1175 Exploits Web-Facing Assets 0-Day Flaws in Medusa Ransomware Attacks",
       "link": "https://cybersecuritynews.com/microsoft-warns-storm-1175-exploits-web-facing-assets-0-day-flaws/",
       "summary": "Microsoft Warns Storm-1175 Exploits Web-Facing Assets 0-Day Flaws in Medusa Ransomware Attacks A new ransomware campaign is putting organizations on high alert. A financially motivated threat group...",
@@ -494,8 +529,8 @@
     {
       "title": "China-Linked Storm-1175 Exploits Zero-Days to Rapidly Deploy Medusa Ransomware",
       "link": "https://thehackernews.com/2026/04/china-linked-storm-1175-exploits-zero.html",
-      "summary": "China-Linked Storm-1175 Exploits Zero-Days to Rapidly Deploy Medusa Ransomware A China-based threat actor known for deploying Medusa ransomware has been linked to the weaponization of a combination...",
-      "source": "CVE Newsroom",
+      "summary": "A China-based threat actor known for deploying Medusa ransomware has been linked to the weaponization of a combination of zero-day and N-day vulnerabilities to orchestrate \"high-velocity\" attacks and...",
+      "source": "The Hacker News",
       "published": "2026-04-07T06:35:00+00:00"
     },
     {
@@ -508,8 +543,8 @@
     {
       "title": "Flowise AI Agent Builder Under Active CVSS 10.0 RCE Exploitation; 12,000+ Instances Exposed",
       "link": "https://thehackernews.com/2026/04/flowise-ai-agent-builder-under-active.html",
-      "summary": "Flowise AI Agent Builder Under Active CVSS 10.0 RCE Exploitation; 12,000+ Instances Exposed Threat actors are exploiting a maximum-severity security flaw in Flowise, an open-source artificial...",
-      "source": "CVE Newsroom",
+      "summary": "Threat actors are exploiting a maximum-severity security flaw in Flowise, an open-source artificial intelligence (AI) platform, according to new findings from VulnCheck. The vulnerability in question...",
+      "source": "The Hacker News",
       "published": "2026-04-07T05:56:00+00:00"
     },
     {
@@ -555,7 +590,7 @@
       "published": "2026-04-06T21:38:53+00:00"
     },
     {
-      "title": "Axios Attack Shows Social Complex Engineering Is Industrialized",
+      "title": "Axios Attack Shows Complex Social Engineering Is Industrialized",
       "link": "https://www.darkreading.com/threat-intelligence/axios-attack-complex-social-engineering-industrialized",
       "summary": "The attack on the popular NPM package Axios is just one of many targeting maintainers and has shone a light on how threat actors can scale sophisticated social engineering campaigns.",
       "source": "Dark Reading",
@@ -611,32 +646,11 @@
       "published": "2026-04-06T16:56:01+00:00"
     },
     {
-      "title": "CISA Warns of Fortinet 0-Day Vulnerability Actively Exploited in Attacks",
-      "link": "https://cybersecuritynews.com/cisa-warns-fortinet-vulnerability/",
-      "summary": "CISA Warns of Fortinet 0-Day Vulnerability Actively Exploited in Attacks The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added CVE-2026-35616, a critical improper access control...",
-      "source": "CVE Newsroom",
-      "published": "2026-04-06T16:37:57+00:00"
-    },
-    {
-      "title": "The 24-Hour Blitz: Storm-1175 Weaponizes Zero-Days for High-Velocity Ransomware",
-      "link": "https://securityonline.info/storm-1175-medusa-ransomware-high-velocity-attacks/",
-      "summary": "The 24-Hour Blitz: Storm-1175 Weaponizes Zero-Days for High-Velocity Ransomware Storm-1175 attack chain | Image: Microsoft A new report from Microsoft Threat Intelligence has exposured on Storm-1175...",
-      "source": "CVE Newsroom",
-      "published": "2026-04-06T16:36:08+00:00"
-    },
-    {
       "title": "Drift $280M crypto theft linked to 6-month in-person operation",
       "link": "https://www.bleepingcomputer.com/news/security/drift-280m-crypto-theft-linked-to-6-month-in-person-operation/",
       "summary": "The Drift Protocol says that the $280+ million hack it suffered last week was the result of a long-term, carefully planned operation that included building \"a functioning operational presence inside...",
       "source": "BleepingComputer",
       "published": "2026-04-06T16:35:03+00:00"
-    },
-    {
-      "title": "The Ninja’s Open Door: How a 9.8 CVSS Flaw Grants Hackers Full Control of 50,000 WordPress Sites",
-      "link": "https://securityonline.info/ninja-forms-file-upload-rce-vulnerability-cve-2026-0740/",
-      "summary": "The Ninja’s Open Door: How a 9.8 CVSS Flaw Grants Hackers Full Control of 50,000 WordPress Sites In a major alert for the WordPress community, a critical security flaw has been disclosed in the Ninja...",
-      "source": "CVE Newsroom",
-      "published": "2026-04-06T16:25:12+00:00"
     },
     {
       "title": "DPRK-Linked Hackers Use GitHub as C2 in Multi-Stage Attacks Targeting South Korea",
@@ -658,13 +672,6 @@
       "summary": "An emerging threat cluster tracked as UAT-10608 is exploiting vulnerable Web-exposed Next.js apps and using an automated tool to exfiltrate credentials, secrets, and other system data.",
       "source": "Dark Reading",
       "published": "2026-04-06T15:31:09+00:00"
-    },
-    {
-      "title": "Keycloak Under Siege: Patch Now to Stop Token Theft and Account Takeovers",
-      "link": "https://securityonline.info/keycloak-security-update-26-5-7-mfa-bypass-fix/",
-      "summary": "Keycloak Under Siege: Patch Now to Stop Token Theft and Account Takeovers The popular open-source identity and access management solution Keycloak has released a critical security update, version...",
-      "source": "CVE Newsroom",
-      "published": "2026-04-06T14:30:47+00:00"
     },
     {
       "title": "Shadow AI in Healthcare Is Here to Stay",
@@ -742,13 +749,6 @@
       "summary": "Scammers are sending fake \"Notice of Default\" traffic violation text messages impersonating state courts across the U.S., pressuring recipients to scan a QR code that leads to a phishing site...",
       "source": "BleepingComputer",
       "published": "2026-04-05T19:44:10+00:00"
-    },
-    {
-      "title": "New FortiClient EMS flaw exploited in attacks, emergency patch released",
-      "link": "https://www.bleepingcomputer.com/news/security/new-fortinet-forticlient-ems-flaw-cve-2026-35616-exploited-in-attacks/",
-      "summary": "Fortinet has released an emergency weekend security update for a new critical FortiClient Enterprise Management Server (EMS) vulnerability that is actively exploited in attacks. [...]",
-      "source": "BleepingComputer",
-      "published": "2026-04-05T18:45:17+00:00"
     },
     {
       "title": "$285 Million Drift Hack Traced to Six-Month DPRK Social Engineering Operation",
@@ -1325,13 +1325,6 @@
       "published": "2026-03-26T14:44:16+00:00"
     },
     {
-      "title": "Intermediaries Driving Global Spyware Market Expansion",
-      "link": "https://www.darkreading.com/cyber-risk/intermediaries-driving-global-spyware-market-expansion",
-      "summary": "Third-party resellers and brokers foil transparency efforts and allow spyware to spread despite government restrictions, a study finds.",
-      "source": "Dark Reading",
-      "published": "2026-03-26T12:04:31+00:00"
-    },
-    {
       "title": "OpenCode Systems OC Messaging and USSD Gateway",
       "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-085-02",
       "summary": "View CSAF Summary Successful exploitation of this vulnerability could allow an authenticated low-privileged user to gain access to SMS messages outside of their authorized tenant scope via a crafted...",
@@ -1400,6 +1393,13 @@
       "summary": "A financially motivated data theft and extortion group is attempting to inject itself into the Iran war, unleashing a worm that spreads through poorly secured cloud services and wipes data on...",
       "source": "Krebs on Security",
       "published": "2026-03-23T15:43:04+00:00"
+    },
+    {
+      "title": "Russian Intelligence Services Target Commercial Messaging Application Accounts",
+      "link": "https://www.cisa.gov/resources-tools/resources/russian-intelligence-services-target-commercial-messaging-application-accounts",
+      "summary": "CISA and the Federal Bureau of Investigation released a Public Service Announcement (PSA) warning about ongoing phishing campaigns by cyber actors associated with the Russian Intelligence Services...",
+      "source": "CISA Alerts",
+      "published": "2026-03-20T12:00:00+00:00"
     }
   ]
 }
