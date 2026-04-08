@@ -1,12 +1,89 @@
 {
-  "last_updated": "2026-04-07T22:11:22.703974+00:00",
+  "last_updated": "2026-04-08T00:18:12.209586+00:00",
   "articles": [
+    {
+      "title": "CVE-2026-39937 - Global vanishing does not completely remove user email",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-39937",
+      "summary": "CVE ID :CVE-2026-39937 Published : April 7, 2026, 10:16 p.m. | 33 minutes ago Description :Improper removal of sensitive information before storage or transfer vulnerability in The Wikimedia...",
+      "source": "CVE Feed",
+      "published": "2026-04-07T22:16:24+00:00"
+    },
+    {
+      "title": "CVE-2026-39933 - Multiple XSS vulnerabilities in GlobalWatchlist",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-39933",
+      "summary": "CVE ID :CVE-2026-39933 Published : April 7, 2026, 10:16 p.m. | 33 minutes ago Description :Improper neutralization of input during web page generation ('cross-site scripting') vulnerability in The...",
+      "source": "CVE Feed",
+      "published": "2026-04-07T22:16:23+00:00"
+    },
+    {
+      "title": "CVE-2026-39847 - Emmett has a path traversal in internal assets handler",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-39847",
+      "summary": "CVE ID :CVE-2026-39847 Published : April 7, 2026, 10:16 p.m. | 33 minutes ago Description :Emmett is a full-stack Python web framework designed with simplicity. From 2.5.0 to before 2.8.1, the RSGI...",
+      "source": "CVE Feed",
+      "published": "2026-04-07T22:16:23+00:00"
+    },
+    {
+      "title": "CVE-2026-39846 - SiYuan affected by Remote Code Execution in the Electron desktop client via stored XSS in synced table captions",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-39846",
+      "summary": "CVE ID :CVE-2026-39846 Published : April 7, 2026, 10:16 p.m. | 33 minutes ago Description :SiYuan is a personal knowledge management system. Prior to 3.6.4, a malicious note synced to another user...",
+      "source": "CVE Feed",
+      "published": "2026-04-07T22:16:23+00:00"
+    },
+    {
+      "title": "CVE-2026-34582 - Botan has a TLS 1.3 certificate authentication bypass",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-34582",
+      "summary": "CVE ID :CVE-2026-34582 Published : April 7, 2026, 10:16 p.m. | 33 minutes ago Description :Botan is a C++ cryptography library. Prior to version 3.11.1, the TLS 1.3 implementation allowed...",
+      "source": "CVE Feed",
+      "published": "2026-04-07T22:16:22+00:00"
+    },
+    {
+      "title": "CVE-2026-34580 - Botan has a certificate authentication bypass due to trust anchor confusion",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-34580",
+      "summary": "CVE ID :CVE-2026-34580 Published : April 7, 2026, 10:16 p.m. | 33 minutes ago Description :Botan is a C++ cryptography library. In 3.11.0, the function Certificate_Store::certificate_known had a...",
+      "source": "CVE Feed",
+      "published": "2026-04-07T22:16:22+00:00"
+    },
+    {
+      "title": "CVE-2026-34079 - Flatpak affected by arbitrary file deletion on the host filesystem",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-34079",
+      "summary": "CVE ID :CVE-2026-34079 Published : April 7, 2026, 10:16 p.m. | 33 minutes ago Description :Flatpak is a Linux application sandboxing and distribution framework. Prior to 1.16.4, the caching for ld.so...",
+      "source": "CVE Feed",
+      "published": "2026-04-07T22:16:22+00:00"
+    },
+    {
+      "title": "CVE-2026-34078 - Flatpak has a complete sandbox escape leading to host file access and code execution in the host context",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-34078",
+      "summary": "CVE ID :CVE-2026-34078 Published : April 7, 2026, 10:16 p.m. | 33 minutes ago Description :Flatpak is a Linux application sandboxing and distribution framework. Prior to 1.16.4, the Flatpak portal...",
+      "source": "CVE Feed",
+      "published": "2026-04-07T22:16:21+00:00"
+    },
     {
       "title": "Hackers exploit critical flaw in Ninja Forms WordPress plugin",
       "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-flaw-in-ninja-forms-wordpress-plugin/",
       "summary": "A critical vulnerability in the Ninja Forms File Uploads premium add-on for WordPress allows uploading arbitrary files without authentication, which can lead to remote code execution. [...]",
       "source": "BleepingComputer",
       "published": "2026-04-07T22:03:01+00:00"
+    },
+    {
+      "title": "CVE-2026-39397 - @delmaredigital/payload-puc is missing authorization on /api/puck/* CRUD endpoints allows unauthenticated access to Puck-registered collections",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-39397",
+      "summary": "CVE ID :CVE-2026-39397 Published : April 7, 2026, 9:17 p.m. | 1 hour, 32 minutes ago Description :@delmaredigital/payload-puck is a PayloadCMS plugin for integrating Puck visual page builder. Prior...",
+      "source": "CVE Feed",
+      "published": "2026-04-07T21:17:18+00:00"
+    },
+    {
+      "title": "CVE-2026-34045 - Podman Desktop WebView Server Exposed",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-34045",
+      "summary": "CVE ID :CVE-2026-34045 Published : April 7, 2026, 9:17 p.m. | 1 hour, 32 minutes ago Description :Podman Desktop is a graphical tool for developing on containers and Kubernetes. Prior to 1.26.2, an...",
+      "source": "CVE Feed",
+      "published": "2026-04-07T21:17:17+00:00"
+    },
+    {
+      "title": "CVE-2026-33439 - Pre-Authentication Remote Code Execution via `jato.clientSession` Deserialization in OpenAM",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-33439",
+      "summary": "CVE ID :CVE-2026-33439 Published : April 7, 2026, 9:17 p.m. | 1 hour, 32 minutes ago Description :Open Access Management (OpenAM) is an access management solution. Prior to 16.0.6...",
+      "source": "CVE Feed",
+      "published": "2026-04-07T21:17:17+00:00"
     },
     {
       "title": "FBI: Americans lost a record $21 billion to cybercrime last year",
@@ -21,6 +98,76 @@
       "summary": "The advisory said Iranian actors are targeting local municipal governments, water and wastewater systems and the energy sector.",
       "source": "The Record",
       "published": "2026-04-07T20:26:00+00:00"
+    },
+    {
+      "title": "CVE-2026-39382 - dbt has a Command Injection in Reusable Workflow via Unsanitized comment-body Output",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-39382",
+      "summary": "CVE ID :CVE-2026-39382 Published : April 7, 2026, 8:16 p.m. | 2 hours, 33 minutes ago Description :dbt enables data analysts and engineers to transform their data using the same practices that...",
+      "source": "CVE Feed",
+      "published": "2026-04-07T20:16:32+00:00"
+    },
+    {
+      "title": "CVE-2026-39371 - RedwoodSDK has a CSRF vulnerability in server function dispatch via GET requests",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-39371",
+      "summary": "CVE ID :CVE-2026-39371 Published : April 7, 2026, 8:16 p.m. | 2 hours, 33 minutes ago Description :RedwoodSDK is a server-first React framework. From 1.0.0-beta.50 to 1.0.5, erver functions exported...",
+      "source": "CVE Feed",
+      "published": "2026-04-07T20:16:31+00:00"
+    },
+    {
+      "title": "CVE-2026-39364 - Vite has a `server.fs.deny` bypass with queries",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-39364",
+      "summary": "CVE ID :CVE-2026-39364 Published : April 7, 2026, 8:16 p.m. | 2 hours, 33 minutes ago Description :Vite is a frontend tooling framework for JavaScript. From 7.1.0 to before 7.3.2 and 8.0.5, on the...",
+      "source": "CVE Feed",
+      "published": "2026-04-07T20:16:30+00:00"
+    },
+    {
+      "title": "CVE-2026-39363 - Vite Affected by Arbitrary File Read via Vite Dev Server WebSocket",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-39363",
+      "summary": "CVE ID :CVE-2026-39363 Published : April 7, 2026, 8:16 p.m. | 2 hours, 33 minutes ago Description :Vite is a frontend tooling framework for JavaScript. From 6.0.0 to before 6.4.2, 7.3.2, and 8.0.5...",
+      "source": "CVE Feed",
+      "published": "2026-04-07T20:16:30+00:00"
+    },
+    {
+      "title": "CVE-2026-39322 - PolarLearn: Any password authenticates banned accounts and grants API access",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-39322",
+      "summary": "CVE ID :CVE-2026-39322 Published : April 7, 2026, 8:16 p.m. | 2 hours, 33 minutes ago Description :PolarLearn is a free and open-source learning program. In 0-PRERELEASE-15 and earlier, POST...",
+      "source": "CVE Feed",
+      "published": "2026-04-07T20:16:28+00:00"
+    },
+    {
+      "title": "CVE-2026-32864 - Out-of-Bounds Read in mgcore_SH_25_3!aligned_free()",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-32864",
+      "summary": "CVE ID :CVE-2026-32864 Published : April 7, 2026, 8:16 p.m. | 2 hours, 33 minutes ago Description :There is a memory corruption vulnerability due to an out-of-bounds read in...",
+      "source": "CVE Feed",
+      "published": "2026-04-07T20:16:26+00:00"
+    },
+    {
+      "title": "CVE-2026-32863 - Out-of-Bounds Read in sentry_transaction_context_set_operation()",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-32863",
+      "summary": "CVE ID :CVE-2026-32863 Published : April 7, 2026, 8:16 p.m. | 2 hours, 33 minutes ago Description :There is a memory corruption vulnerability due to an out-of-bounds read in...",
+      "source": "CVE Feed",
+      "published": "2026-04-07T20:16:26+00:00"
+    },
+    {
+      "title": "CVE-2026-32862 - Out-of-Bounds Write in ResFileFactory::InitResourceMgr()",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-32862",
+      "summary": "CVE ID :CVE-2026-32862 Published : April 7, 2026, 8:16 p.m. | 2 hours, 33 minutes ago Description :There is a memory corruption vulnerability due to an out-of-bounds write in...",
+      "source": "CVE Feed",
+      "published": "2026-04-07T20:16:24+00:00"
+    },
+    {
+      "title": "CVE-2026-32861 - Out-of-Bounds Write Vulnerability in NI LabVIEW when loading lvclass file",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-32861",
+      "summary": "CVE ID :CVE-2026-32861 Published : April 7, 2026, 8:16 p.m. | 2 hours, 33 minutes ago Description :There is a memory corruption vulnerability due to an out-of-bounds write when loading a corrupted...",
+      "source": "CVE Feed",
+      "published": "2026-04-07T20:16:24+00:00"
+    },
+    {
+      "title": "CVE-2026-32860 - Out-of-Bounds Write Vulnerability in NI LabVIEW when loading lvlib file",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-32860",
+      "summary": "CVE ID :CVE-2026-32860 Published : April 7, 2026, 8:16 p.m. | 2 hours, 33 minutes ago Description :There is a memory corruption vulnerability due to an out-of-bounds write when loading a corrupted...",
+      "source": "CVE Feed",
+      "published": "2026-04-07T20:16:24+00:00"
     },
     {
       "title": "Storm-1175 Deploys Medusa Ransomware at 'High Velocity'",
@@ -53,7 +200,7 @@
     {
       "title": "CVE-2026-39355 - Genealogy is Missing Authorization in `TeamController::transferOwnership()` Allows Any Authenticated User to Hijack Any Team (Broken Access Control)",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-39355",
-      "summary": "CVE ID :CVE-2026-39355 Published : April 7, 2026, 7:16 p.m. | 55 minutes ago Description :Genealogy is a family tree PHP application. Prior to 5.9.1, a critical broken access control vulnerability in...",
+      "summary": "CVE ID :CVE-2026-39355 Published : April 7, 2026, 7:16 p.m. | 3 hours, 33 minutes ago Description :Genealogy is a family tree PHP application. Prior to 5.9.1, a critical broken access control...",
       "source": "CVE Feed",
       "published": "2026-04-07T19:16:46+00:00"
     },
@@ -74,170 +221,23 @@
     {
       "title": "CVE-2026-39344 - Reflected XSS the login page through the 'username' parameter",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-39344",
-      "summary": "CVE ID :CVE-2026-39344 Published : April 7, 2026, 6:16 p.m. | 1 hour, 55 minutes ago Description :ChurchCRM is an open-source church management system. Prior to 7.1.0, there is a Reflected Cross-Site...",
+      "summary": "CVE ID :CVE-2026-39344 Published : April 7, 2026, 6:16 p.m. | 4 hours, 33 minutes ago Description :ChurchCRM is an open-source church management system. Prior to 7.1.0, there is a Reflected...",
       "source": "CVE Feed",
       "published": "2026-04-07T18:16:46+00:00"
     },
     {
       "title": "CVE-2026-39342 - ChurchCRM has a SQL injection searchwhat parameter via QueryView.php",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-39342",
-      "summary": "CVE ID :CVE-2026-39342 Published : April 7, 2026, 6:16 p.m. | 1 hour, 55 minutes ago Description :ChurchCRM is an open-source church management system. Prior to 7.1.0, the searchwhat parameter via...",
+      "summary": "CVE ID :CVE-2026-39342 Published : April 7, 2026, 6:16 p.m. | 4 hours, 33 minutes ago Description :ChurchCRM is an open-source church management system. Prior to 7.1.0, the searchwhat parameter via...",
       "source": "CVE Feed",
       "published": "2026-04-07T18:16:46+00:00"
     },
     {
       "title": "CVE-2026-39341 - SQL injection in ChurchCRM.0",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-39341",
-      "summary": "CVE ID :CVE-2026-39341 Published : April 7, 2026, 6:16 p.m. | 1 hour, 55 minutes ago Description :ChurchCRM is an open-source church management system. Prior to 7.1.0, The application is vulnerable...",
+      "summary": "CVE ID :CVE-2026-39341 Published : April 7, 2026, 6:16 p.m. | 4 hours, 33 minutes ago Description :ChurchCRM is an open-source church management system. Prior to 7.1.0, The application is vulnerable...",
       "source": "CVE Feed",
       "published": "2026-04-07T18:16:46+00:00"
-    },
-    {
-      "title": "CVE-2026-39340 - ChurchCRM has a SQL Injection in PropertyTypeEditor.php via Incorrect Sanitizer Substitution",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-39340",
-      "summary": "CVE ID :CVE-2026-39340 Published : April 7, 2026, 6:16 p.m. | 1 hour, 55 minutes ago Description :ChurchCRM is an open-source church management system. Prior to 7.1.0, a SQL injection vulnerability...",
-      "source": "CVE Feed",
-      "published": "2026-04-07T18:16:46+00:00"
-    },
-    {
-      "title": "CVE-2026-39339 - ChurchCRM has an API Authentication Bypass",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-39339",
-      "summary": "CVE ID :CVE-2026-39339 Published : April 7, 2026, 6:16 p.m. | 1 hour, 55 minutes ago Description :ChurchCRM is an open-source church management system. Prior to 7.1.0, a critical authentication...",
-      "source": "CVE Feed",
-      "published": "2026-04-07T18:16:45+00:00"
-    },
-    {
-      "title": "CVE-2026-39338 - ChurchCRM has Blind XSS via Global Search – Administrative Cookie Session Exfiltration",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-39338",
-      "summary": "CVE ID :CVE-2026-39338 Published : April 7, 2026, 6:16 p.m. | 1 hour, 55 minutes ago Description :ChurchCRM is an open-source church management system. Prior to 7.1.0, a Blind Reflected Cross-Site...",
-      "source": "CVE Feed",
-      "published": "2026-04-07T18:16:45+00:00"
-    },
-    {
-      "title": "CVE-2026-39337 - ChurchCRM Affected by Unauthenticated RCE in Install Wizard",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-39337",
-      "summary": "CVE ID :CVE-2026-39337 Published : April 7, 2026, 6:16 p.m. | 1 hour, 55 minutes ago Description :ChurchCRM is an open-source church management system. Prior to 7.1.0, critical pre-authentication...",
-      "source": "CVE Feed",
-      "published": "2026-04-07T18:16:45+00:00"
-    },
-    {
-      "title": "CVE-2026-39334 - ChurchCRM has a Blind SQL injection in SettingsIndividual.php",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-39334",
-      "summary": "CVE ID :CVE-2026-39334 Published : April 7, 2026, 6:16 p.m. | 1 hour, 55 minutes ago Description :ChurchCRM is an open-source church management system. Prior to 7.1.0, an SQL injection vulnerability...",
-      "source": "CVE Feed",
-      "published": "2026-04-07T18:16:45+00:00"
-    },
-    {
-      "title": "CVE-2026-39333 - ChurchCRM has Reflected XSS in DateStart/DateEnd parameters in FindFundRaiser.php",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-39333",
-      "summary": "CVE ID :CVE-2026-39333 Published : April 7, 2026, 6:16 p.m. | 1 hour, 55 minutes ago Description :ChurchCRM is an open-source church management system. Prior to 7.1.0, he FindFundRaiser.php endpoint...",
-      "source": "CVE Feed",
-      "published": "2026-04-07T18:16:44+00:00"
-    },
-    {
-      "title": "CVE-2026-39332 - ChurchCRM has Reflected Cross-Site Scripting (XSS) in GeoPage.php",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-39332",
-      "summary": "CVE ID :CVE-2026-39332 Published : April 7, 2026, 6:16 p.m. | 1 hour, 55 minutes ago Description :ChurchCRM is an open-source church management system. Prior to 7.1.0, a reflected Cross-Site...",
-      "source": "CVE Feed",
-      "published": "2026-04-07T18:16:44+00:00"
-    },
-    {
-      "title": "CVE-2026-39331 - ChurchCRM has an API Authorization Bypass Allows Authenticated User to Deactivate, Modify, and Spam Arbitrary Families",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-39331",
-      "summary": "CVE ID :CVE-2026-39331 Published : April 7, 2026, 6:16 p.m. | 1 hour, 55 minutes ago Description :ChurchCRM is an open-source church management system. Prior to 7.1.0, an authenticated API user can...",
-      "source": "CVE Feed",
-      "published": "2026-04-07T18:16:44+00:00"
-    },
-    {
-      "title": "CVE-2026-39330 - ChurchCRM has a Blind SQL injection in PropertyAssign.php",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-39330",
-      "summary": "CVE ID :CVE-2026-39330 Published : April 7, 2026, 6:16 p.m. | 1 hour, 55 minutes ago Description :ChurchCRM is an open-source church management system. Prior to 7.1.0, an SQL injection vulnerability...",
-      "source": "CVE Feed",
-      "published": "2026-04-07T18:16:44+00:00"
-    },
-    {
-      "title": "CVE-2026-39329 - ChurchCRM has a Blind SQL injection in EventNames.php",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-39329",
-      "summary": "CVE ID :CVE-2026-39329 Published : April 7, 2026, 6:16 p.m. | 1 hour, 55 minutes ago Description :ChurchCRM is an open-source church management system. Prior to 7.1.0, an SQL injection vulnerability...",
-      "source": "CVE Feed",
-      "published": "2026-04-07T18:16:44+00:00"
-    },
-    {
-      "title": "CVE-2026-39328 - ChurchCRM has Stored XSS in Social Profile Fields",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-39328",
-      "summary": "CVE ID :CVE-2026-39328 Published : April 7, 2026, 6:16 p.m. | 1 hour, 55 minutes ago Description :ChurchCRM is an open-source church management system. Prior to 7.1.0, a stored cross-site scripting...",
-      "source": "CVE Feed",
-      "published": "2026-04-07T18:16:44+00:00"
-    },
-    {
-      "title": "CVE-2026-39327 - ChurchCRM has a SQL injection in MemberRoleChange.php",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-39327",
-      "summary": "CVE ID :CVE-2026-39327 Published : April 7, 2026, 6:16 p.m. | 1 hour, 55 minutes ago Description :ChurchCRM is an open-source church management system. Prior to 7.1.0, an SQL injection vulnerability...",
-      "source": "CVE Feed",
-      "published": "2026-04-07T18:16:43+00:00"
-    },
-    {
-      "title": "CVE-2026-39326 - ChurchCRM has a Blind SQL injection in PropertyTypeEditor.php",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-39326",
-      "summary": "CVE ID :CVE-2026-39326 Published : April 7, 2026, 6:16 p.m. | 1 hour, 55 minutes ago Description :ChurchCRM is an open-source church management system. Prior to 7.1.0, an SQL injection vulnerability...",
-      "source": "CVE Feed",
-      "published": "2026-04-07T18:16:43+00:00"
-    },
-    {
-      "title": "CVE-2026-39324 - Rack::Session::Cookie secrets: decrypt failure fallback enables secretless session forgery and Marshal deserialization",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-39324",
-      "summary": "CVE ID :CVE-2026-39324 Published : April 7, 2026, 6:16 p.m. | 1 hour, 55 minutes ago Description :Rack::Session is a session management implementation for Rack. From 2.0.0 to before 2.1.2...",
-      "source": "CVE Feed",
-      "published": "2026-04-07T18:16:43+00:00"
-    },
-    {
-      "title": "CVE-2026-39323 - ChurchCRM has a SQL Injection in PropertyTypeEditor.php with Cross-Page Data Exposure",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-39323",
-      "summary": "CVE ID :CVE-2026-39323 Published : April 7, 2026, 6:16 p.m. | 1 hour, 55 minutes ago Description :ChurchCRM is an open-source church management system. Prior to 7.1.0, a critical SQL injection...",
-      "source": "CVE Feed",
-      "published": "2026-04-07T18:16:43+00:00"
-    },
-    {
-      "title": "CVE-2026-39319 - ChurchCRM has a Second Order SQLI via FundRaiserEditor.php",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-39319",
-      "summary": "CVE ID :CVE-2026-39319 Published : April 7, 2026, 6:16 p.m. | 1 hour, 55 minutes ago Description :ChurchCRM is an open-source church management system. Prior to 7.1.0, a second order SQL injection...",
-      "source": "CVE Feed",
-      "published": "2026-04-07T18:16:42+00:00"
-    },
-    {
-      "title": "CVE-2026-39318 - ChurchCRM has a DDL SQL Injection in GroupPropsFormRowOps.php",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-39318",
-      "summary": "CVE ID :CVE-2026-39318 Published : April 7, 2026, 6:16 p.m. | 1 hour, 55 minutes ago Description :ChurchCRM is an open-source church management system. Prior to 7.1.0, the GroupPropsFormRowOps.php...",
-      "source": "CVE Feed",
-      "published": "2026-04-07T18:16:42+00:00"
-    },
-    {
-      "title": "CVE-2026-39317 - ChurchCRM has a SQL Injection via Unsanitized Array Keys in SettingsIndividual.php",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-39317",
-      "summary": "CVE ID :CVE-2026-39317 Published : April 7, 2026, 6:16 p.m. | 1 hour, 55 minutes ago Description :ChurchCRM is an open-source church management system. Prior to 7.1.0, a SQL injection vulnerability...",
-      "source": "CVE Feed",
-      "published": "2026-04-07T18:16:42+00:00"
-    },
-    {
-      "title": "CVE-2026-35576 - ChurchCRM has Stored Cross-Site Scripting (XSS) in Person Properties via PrintView.php",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-35576",
-      "summary": "CVE ID :CVE-2026-35576 Published : April 7, 2026, 6:16 p.m. | 1 hour, 55 minutes ago Description :ChurchCRM is an open-source church management system. Prior to 7.0.0, a stored cross-site scripting...",
-      "source": "CVE Feed",
-      "published": "2026-04-07T18:16:42+00:00"
-    },
-    {
-      "title": "CVE-2026-35575 - ChurchCRM has Stored XSS in Group Name",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-35575",
-      "summary": "CVE ID :CVE-2026-35575 Published : April 7, 2026, 6:16 p.m. | 1 hour, 55 minutes ago Description :ChurchCRM is an open-source church management system. Prior to 6.5.3, a Stored Cross-Site Scripting...",
-      "source": "CVE Feed",
-      "published": "2026-04-07T18:16:42+00:00"
-    },
-    {
-      "title": "CVE-2026-35573 - ChurchCRM has a Path traversal leads to RCE",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-35573",
-      "summary": "CVE ID :CVE-2026-35573 Published : April 7, 2026, 6:16 p.m. | 1 hour, 55 minutes ago Description :ChurchCRM is an open-source church management system. Prior to 6.5.3, a path traversal vulnerability...",
-      "source": "CVE Feed",
-      "published": "2026-04-07T18:16:41+00:00"
     },
     {
       "title": "US warns of Iranian hackers targeting critical infrastructure",
