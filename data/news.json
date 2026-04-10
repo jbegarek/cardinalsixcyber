@@ -1,173 +1,187 @@
 {
-  "last_updated": "2026-04-10T03:02:06.170213+00:00",
+  "last_updated": "2026-04-10T04:56:22.436233+00:00",
   "articles": [
+    {
+      "title": "CVE-2026-5501 - Improper Certificate Signature Verification in X.509 Chain Validation Allows Forged Leaf Certificates",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-5501",
+      "summary": "CVE ID :CVE-2026-5501 Published : April 10, 2026, 4:17 a.m. | 30 minutes ago Description :wolfSSL_X509_verify_cert in the OpenSSL compatibility layer accepts a certificate chain in which the leaf's...",
+      "source": "CVE Feed",
+      "published": "2026-04-10T04:17:17+00:00"
+    },
+    {
+      "title": "CVE-2026-5500 - Improper Validation of AES-GCM Authentication Tag Length in PKCS#7 Envelope Allows Authentication Bypass",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-5500",
+      "summary": "CVE ID :CVE-2026-5500 Published : April 10, 2026, 4:17 a.m. | 30 minutes ago Description :wolfSSL's wc_PKCS7_DecodeAuthEnvelopedData() does not properly sanitize the AES-GCM authentication tag length...",
+      "source": "CVE Feed",
+      "published": "2026-04-10T04:17:17+00:00"
+    },
+    {
+      "title": "CVE-2026-5997 - Totolink A7100RU CGI cstecgi.cgi setLoginPasswordCfg os command injection",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-5997",
+      "summary": "CVE ID :CVE-2026-5997 Published : April 10, 2026, 2:16 a.m. | 2 hours, 31 minutes ago Description :A vulnerability was detected in Totolink A7100RU 7.4cu.2313_b20191024. The impacted element is the...",
+      "source": "CVE Feed",
+      "published": "2026-04-10T02:16:04+00:00"
+    },
+    {
+      "title": "CVE-2026-5996 - Totolink A7100RU CGI cstecgi.cgi setAdvancedInfoShow os command injection",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-5996",
+      "summary": "CVE ID :CVE-2026-5996 Published : April 10, 2026, 2:16 a.m. | 2 hours, 31 minutes ago Description :A security vulnerability has been detected in Totolink A7100RU 7.4cu.2313_b20191024. The affected...",
+      "source": "CVE Feed",
+      "published": "2026-04-10T02:16:04+00:00"
+    },
+    {
+      "title": "CVE-2026-4351 - Perfmatters <= 2.5.9 - Authenticated (Subscriber+) Arbitrary File Overwrite via 'snippets' Parameter",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-4351",
+      "summary": "CVE ID :CVE-2026-4351 Published : April 10, 2026, 2:16 a.m. | 2 hours, 31 minutes ago Description :The Perfmatters plugin for WordPress is vulnerable to arbitrary file overwrite via path traversal in...",
+      "source": "CVE Feed",
+      "published": "2026-04-10T02:16:03+00:00"
+    },
+    {
+      "title": "TP-Link Archer AX53 Hit by Multiple High-Severity Vulnerabilities",
+      "link": "https://securityonline.info/tp-link-archer-ax53-vulnerability-os-command-injection-patch/",
+      "summary": "TP-Link Archer AX53 Hit by Multiple High-Severity Vulnerabilities TP-Link has issued an urgent security advisory regarding its Archer AX53 v1.0 router, detailing five distinct vulnerabilities that...",
+      "source": "CVE Newsroom",
+      "published": "2026-04-10T01:45:21+00:00"
+    },
     {
       "title": "CVE-2026-5995 - Totolink A7100RU CGI cstecgi.cgi setMiniuiHomeInfoShow os command injection",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-5995",
-      "summary": "CVE ID :CVE-2026-5995 Published : April 10, 2026, 1:16 a.m. | 37 minutes ago Description :A weakness has been identified in Totolink A7100RU 7.4cu.2313_b20191024. Impacted is the function...",
+      "summary": "CVE ID :CVE-2026-5995 Published : April 10, 2026, 1:16 a.m. | 3 hours, 31 minutes ago Description :A weakness has been identified in Totolink A7100RU 7.4cu.2313_b20191024. Impacted is the function...",
       "source": "CVE Feed",
       "published": "2026-04-10T01:16:42+00:00"
     },
     {
       "title": "CVE-2026-5994 - Totolink A7100RU CGI cstecgi.cgi setTelnetCfg os command injection",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-5994",
-      "summary": "CVE ID :CVE-2026-5994 Published : April 10, 2026, 1:16 a.m. | 37 minutes ago Description :A security flaw has been discovered in Totolink A7100RU 7.4cu.2313_b20191024. This issue affects the function...",
+      "summary": "CVE ID :CVE-2026-5994 Published : April 10, 2026, 1:16 a.m. | 3 hours, 31 minutes ago Description :A security flaw has been discovered in Totolink A7100RU 7.4cu.2313_b20191024. This issue affects the...",
       "source": "CVE Feed",
       "published": "2026-04-10T01:16:42+00:00"
     },
     {
       "title": "CVE-2026-5993 - Totolink A7100RU CGI cstecgi.cgi setWiFiGuestCfg os command injection",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-5993",
-      "summary": "CVE ID :CVE-2026-5993 Published : April 10, 2026, 1:16 a.m. | 37 minutes ago Description :A vulnerability was identified in Totolink A7100RU 7.4cu.2313_b20191024. This vulnerability affects the...",
+      "summary": "CVE ID :CVE-2026-5993 Published : April 10, 2026, 1:16 a.m. | 3 hours, 31 minutes ago Description :A vulnerability was identified in Totolink A7100RU 7.4cu.2313_b20191024. This vulnerability affects...",
       "source": "CVE Feed",
       "published": "2026-04-10T01:16:41+00:00"
     },
     {
       "title": "CVE-2026-5992 - Tenda F451 P2pListFilter fromP2pListFilter stack-based overflow",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-5992",
-      "summary": "CVE ID :CVE-2026-5992 Published : April 10, 2026, 12:16 a.m. | 1 hour, 37 minutes ago Description :A vulnerability was determined in Tenda F451 1.0.0.7. This affects the function fromP2pListFilter of...",
+      "summary": "CVE ID :CVE-2026-5992 Published : April 10, 2026, 12:16 a.m. | 4 hours, 31 minutes ago Description :A vulnerability was determined in Tenda F451 1.0.0.7. This affects the function fromP2pListFilter...",
       "source": "CVE Feed",
       "published": "2026-04-10T00:16:36+00:00"
     },
     {
       "title": "CVE-2026-5991 - Tenda F451 WrlExtraSet formWrlExtraSet stack-based overflow",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-5991",
-      "summary": "CVE ID :CVE-2026-5991 Published : April 10, 2026, 12:16 a.m. | 1 hour, 37 minutes ago Description :A vulnerability was found in Tenda F451 1.0.0.7. Affected by this issue is the function...",
+      "summary": "CVE ID :CVE-2026-5991 Published : April 10, 2026, 12:16 a.m. | 4 hours, 31 minutes ago Description :A vulnerability was found in Tenda F451 1.0.0.7. Affected by this issue is the function...",
       "source": "CVE Feed",
       "published": "2026-04-10T00:16:36+00:00"
     },
     {
       "title": "CVE-2026-5990 - Tenda F451 SafeEmailFilter fromSafeEmailFilter stack-based overflow",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-5990",
-      "summary": "CVE ID :CVE-2026-5990 Published : April 10, 2026, 12:16 a.m. | 1 hour, 37 minutes ago Description :A vulnerability has been found in Tenda F451 1.0.0.7. Affected by this vulnerability is the function...",
+      "summary": "CVE ID :CVE-2026-5990 Published : April 10, 2026, 12:16 a.m. | 4 hours, 31 minutes ago Description :A vulnerability has been found in Tenda F451 1.0.0.7. Affected by this vulnerability is the...",
       "source": "CVE Feed",
       "published": "2026-04-10T00:16:36+00:00"
     },
     {
       "title": "CVE-2026-5989 - Tenda F451 RouteStatic fromRouteStatic stack-based overflow",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-5989",
-      "summary": "CVE ID :CVE-2026-5989 Published : April 10, 2026, 12:16 a.m. | 1 hour, 37 minutes ago Description :A flaw has been found in Tenda F451 1.0.0.7. Affected is the function fromRouteStatic of the file...",
+      "summary": "CVE ID :CVE-2026-5989 Published : April 10, 2026, 12:16 a.m. | 4 hours, 31 minutes ago Description :A flaw has been found in Tenda F451 1.0.0.7. Affected is the function fromRouteStatic of the file...",
       "source": "CVE Feed",
       "published": "2026-04-10T00:16:36+00:00"
     },
     {
       "title": "CVE-2026-5988 - Tenda F451 AdvSetWrlsafeset formWrlsafeset stack-based overflow",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-5988",
-      "summary": "CVE ID :CVE-2026-5988 Published : April 9, 2026, 11:17 p.m. | 2 hours, 36 minutes ago Description :A vulnerability was detected in Tenda F451 1.0.0.7. This impacts the function formWrlsafeset of the...",
+      "summary": "CVE ID :CVE-2026-5988 Published : April 9, 2026, 11:17 p.m. | 5 hours, 30 minutes ago Description :A vulnerability was detected in Tenda F451 1.0.0.7. This impacts the function formWrlsafeset of the...",
       "source": "CVE Feed",
       "published": "2026-04-09T23:17:02+00:00"
     },
     {
       "title": "CVE-2026-34424 - Smart Slider 3 Pro 3.5.1.35 Supply Chain Attack Remote Access Toolkit",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-34424",
-      "summary": "CVE ID :CVE-2026-34424 Published : April 9, 2026, 11:17 p.m. | 2 hours, 36 minutes ago Description :Smart Slider 3 Pro version 3.5.1.35 for WordPress and Joomla contains a multi-stage remote access...",
+      "summary": "CVE ID :CVE-2026-34424 Published : April 9, 2026, 11:17 p.m. | 5 hours, 30 minutes ago Description :Smart Slider 3 Pro version 3.5.1.35 for WordPress and Joomla contains a multi-stage remote access...",
       "source": "CVE Feed",
       "published": "2026-04-09T23:17:00+00:00"
     },
     {
       "title": "CVE-2026-5984 - D-Link DIR-605L POST Request formSetLog buffer overflow",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-5984",
-      "summary": "CVE ID :CVE-2026-5984 Published : April 9, 2026, 10:16 p.m. | 3 hours, 37 minutes ago Description :A vulnerability was identified in D-Link DIR-605L 2.13B01. Impacted is the function formSetLog of...",
+      "summary": "CVE ID :CVE-2026-5984 Published : April 9, 2026, 10:16 p.m. | 6 hours, 31 minutes ago Description :A vulnerability was identified in D-Link DIR-605L 2.13B01. Impacted is the function formSetLog of...",
       "source": "CVE Feed",
       "published": "2026-04-09T22:16:37+00:00"
     },
     {
       "title": "CVE-2026-5983 - D-Link DIR-605L POST Request formSetDDNS buffer overflow",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-5983",
-      "summary": "CVE ID :CVE-2026-5983 Published : April 9, 2026, 10:16 p.m. | 3 hours, 37 minutes ago Description :A vulnerability was determined in D-Link DIR-605L 2.13B01. This issue affects the function...",
+      "summary": "CVE ID :CVE-2026-5983 Published : April 9, 2026, 10:16 p.m. | 6 hours, 31 minutes ago Description :A vulnerability was determined in D-Link DIR-605L 2.13B01. This issue affects the function...",
       "source": "CVE Feed",
       "published": "2026-04-09T22:16:37+00:00"
     },
     {
       "title": "CVE-2026-5982 - D-Link DIR-605L POST Request formAdvNetwork buffer overflow",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-5982",
-      "summary": "CVE ID :CVE-2026-5982 Published : April 9, 2026, 10:16 p.m. | 3 hours, 37 minutes ago Description :A vulnerability was found in D-Link DIR-605L 2.13B01. This vulnerability affects the function...",
+      "summary": "CVE ID :CVE-2026-5982 Published : April 9, 2026, 10:16 p.m. | 6 hours, 31 minutes ago Description :A vulnerability was found in D-Link DIR-605L 2.13B01. This vulnerability affects the function...",
       "source": "CVE Feed",
       "published": "2026-04-09T22:16:37+00:00"
     },
     {
       "title": "CVE-2026-5981 - D-Link DIR-605L POST Request formAdvFirewall buffer overflow",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-5981",
-      "summary": "CVE ID :CVE-2026-5981 Published : April 9, 2026, 10:16 p.m. | 3 hours, 37 minutes ago Description :A vulnerability has been found in D-Link DIR-605L 2.13B01. This affects the function formAdvFirewall...",
+      "summary": "CVE ID :CVE-2026-5981 Published : April 9, 2026, 10:16 p.m. | 6 hours, 31 minutes ago Description :A vulnerability has been found in D-Link DIR-605L 2.13B01. This affects the function formAdvFirewall...",
       "source": "CVE Feed",
       "published": "2026-04-09T22:16:37+00:00"
     },
     {
       "title": "CVE-2026-5264 - DTLS 1.3 ACK heap buffer overflow",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-5264",
-      "summary": "CVE ID :CVE-2026-5264 Published : April 9, 2026, 10:16 p.m. | 3 hours, 37 minutes ago Description :Heap buffer overflow in DTLS 1.3 ACK message processing. A remote attacker can send a crafted DTLS...",
+      "summary": "CVE ID :CVE-2026-5264 Published : April 9, 2026, 10:16 p.m. | 6 hours, 31 minutes ago Description :Heap buffer overflow in DTLS 1.3 ACK message processing. A remote attacker can send a crafted DTLS...",
       "source": "CVE Feed",
       "published": "2026-04-09T22:16:36+00:00"
     },
     {
       "title": "CVE-2026-40154 - PraisonAI Affected by Untrusted Remote Template Code Execution",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-40154",
-      "summary": "CVE ID :CVE-2026-40154 Published : April 9, 2026, 10:16 p.m. | 3 hours, 37 minutes ago Description :PraisonAI is a multi-agent teams system. Prior to 4.5.128, PraisonAI treats remotely fetched...",
+      "summary": "CVE ID :CVE-2026-40154 Published : April 9, 2026, 10:16 p.m. | 6 hours, 31 minutes ago Description :PraisonAI is a multi-agent teams system. Prior to 4.5.128, PraisonAI treats remotely fetched...",
       "source": "CVE Feed",
       "published": "2026-04-09T22:16:36+00:00"
     },
     {
       "title": "CVE-2026-40113 - PraisonAI has an Argument Injection into Cloud Run Environment Variables via Unsanitized Comma in gcloud --set-env-vars",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-40113",
-      "summary": "CVE ID :CVE-2026-40113 Published : April 9, 2026, 10:16 p.m. | 3 hours, 37 minutes ago Description :PraisonAI is a multi-agent teams system. Prior to 4.5.128, deploy.py constructs a single...",
+      "summary": "CVE ID :CVE-2026-40113 Published : April 9, 2026, 10:16 p.m. | 6 hours, 31 minutes ago Description :PraisonAI is a multi-agent teams system. Prior to 4.5.128, deploy.py constructs a single...",
       "source": "CVE Feed",
       "published": "2026-04-09T22:16:34+00:00"
     },
     {
       "title": "CVE-2026-40111 - PraisonAIAgents has an OS Command Injection via shell=True in Memory Hooks Executor (memory/hooks.py)",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-40111",
-      "summary": "CVE ID :CVE-2026-40111 Published : April 9, 2026, 10:16 p.m. | 3 hours, 37 minutes ago Description :PraisonAIAgents is a multi-agent teams system. Prior to 1.5.128, he memory hooks executor in...",
+      "summary": "CVE ID :CVE-2026-40111 Published : April 9, 2026, 10:16 p.m. | 6 hours, 31 minutes ago Description :PraisonAIAgents is a multi-agent teams system. Prior to 1.5.128, he memory hooks executor in...",
       "source": "CVE Feed",
       "published": "2026-04-09T22:16:34+00:00"
     },
     {
       "title": "CVE-2026-35645 - OpenClaw < 2026.3.25 - Privilege Escalation via Synthetic operator.admin in deleteSession",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-35645",
-      "summary": "CVE ID :CVE-2026-35645 Published : April 9, 2026, 10:16 p.m. | 3 hours, 37 minutes ago Description :OpenClaw before 2026.3.25 contains a privilege escalation vulnerability in the gateway plugin...",
+      "summary": "CVE ID :CVE-2026-35645 Published : April 9, 2026, 10:16 p.m. | 6 hours, 31 minutes ago Description :OpenClaw before 2026.3.25 contains a privilege escalation vulnerability in the gateway plugin...",
       "source": "CVE Feed",
       "published": "2026-04-09T22:16:34+00:00"
     },
     {
       "title": "CVE-2026-35639 - OpenClaw < 2026.3.22 - Privilege Escalation via device.pair.approve Scope Validation",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-35639",
-      "summary": "CVE ID :CVE-2026-35639 Published : April 9, 2026, 10:16 p.m. | 3 hours, 37 minutes ago Description :OpenClaw before 2026.3.22 contains a privilege escalation vulnerability in the device.pair.approve...",
+      "summary": "CVE ID :CVE-2026-35639 Published : April 9, 2026, 10:16 p.m. | 6 hours, 31 minutes ago Description :OpenClaw before 2026.3.22 contains a privilege escalation vulnerability in the device.pair.approve...",
       "source": "CVE Feed",
       "published": "2026-04-09T22:16:33+00:00"
     },
     {
       "title": "CVE-2026-35638 - OpenClaw < 2026.3.22 - Privilege Escalation via Self-Declared Scopes in Trusted-Proxy Control UI",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-35638",
-      "summary": "CVE ID :CVE-2026-35638 Published : April 9, 2026, 10:16 p.m. | 3 hours, 37 minutes ago Description :OpenClaw before 2026.3.22 contains a privilege escalation vulnerability in the Control UI that...",
+      "summary": "CVE ID :CVE-2026-35638 Published : April 9, 2026, 10:16 p.m. | 6 hours, 31 minutes ago Description :OpenClaw before 2026.3.22 contains a privilege escalation vulnerability in the Control UI that...",
       "source": "CVE Feed",
       "published": "2026-04-09T22:16:33+00:00"
-    },
-    {
-      "title": "CVE-2026-34512 - OpenClaw < 2026.3.25 - Improper Access Control in /sessions/:sessionKey/kill Endpoint",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-34512",
-      "summary": "CVE ID :CVE-2026-34512 Published : April 9, 2026, 10:16 p.m. | 3 hours, 37 minutes ago Description :OpenClaw before 2026.3.25 contains an improper access control vulnerability in the HTTP...",
-      "source": "CVE Feed",
-      "published": "2026-04-09T22:16:29+00:00"
-    },
-    {
-      "title": "CVE-2026-33785 - Junos OS: MX Series: Missing Authorization for specific 'request' CLI commands in a JDM/CSDS scenario",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-33785",
-      "summary": "CVE ID :CVE-2026-33785 Published : April 9, 2026, 10:16 p.m. | 3 hours, 37 minutes ago Description :A Missing Authorization vulnerability in the CLI of Juniper Networks Junos OS on MX Series allows a...",
-      "source": "CVE Feed",
-      "published": "2026-04-09T22:16:27+00:00"
-    },
-    {
-      "title": "CVE-2026-33784 - JSI Virtual Lightweight Collector: Default password is not required to be changed which allows unauthorized high-privileged access",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-33784",
-      "summary": "CVE ID :CVE-2026-33784 Published : April 9, 2026, 10:16 p.m. | 3 hours, 37 minutes ago Description :A Use of Default Password vulnerability in the Juniper Networks Support Insights (JSI) Virtual...",
-      "source": "CVE Feed",
-      "published": "2026-04-09T22:16:27+00:00"
-    },
-    {
-      "title": "CVE-2025-13914 - Apstra: SSH host key validation vulnerability for managed devices",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2025-13914",
-      "summary": "CVE ID :CVE-2025-13914 Published : April 9, 2026, 10:16 p.m. | 3 hours, 37 minutes ago Description :A Key Exchange without Entity Authentication vulnerability in the SSH implementation of Juniper...",
-      "source": "CVE Feed",
-      "published": "2026-04-09T22:16:22+00:00"
     },
     {
       "title": "New ‘LucidRook’ malware used in targeted attacks on NGOs, universities",
@@ -182,13 +196,6 @@
       "summary": "Threat actors using a previously undocumented phishing-as-a-service (PhaaS) platform called \"VENOM\" are targeting credentials of C-suite executives across multiple industries. [...]",
       "source": "BleepingComputer",
       "published": "2026-04-09T21:37:04+00:00"
-    },
-    {
-      "title": "CVE-2026-5980 - D-Link DIR-605L POST Request formSetMACFilter buffer overflow",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-5980",
-      "summary": "CVE ID :CVE-2026-5980 Published : April 9, 2026, 9:16 p.m. | 4 hours, 37 minutes ago Description :A flaw has been found in D-Link DIR-605L 2.13B01. Affected by this issue is the function...",
-      "source": "CVE Feed",
-      "published": "2026-04-09T21:16:14+00:00"
     },
     {
       "title": "Russia's 'Fancy Bear' APT Continues Its Global Onslaught",
@@ -303,7 +310,7 @@
       "published": "2026-04-09T13:43:07+00:00"
     },
     {
-      "title": "Can we Trust AI? No – But Eventually We Must",
+      "title": "Can We Trust AI? No – But Eventually We Must",
       "link": "https://www.securityweek.com/can-we-trust-ai-no-but-eventually-we-must/",
       "summary": "From hallucinations and bias to model collapse and adversarial abuse, today’s AI is built on probability rather than truth, yet enterprises are deploying it at speed without fully understanding the...",
       "source": "SecurityWeek",
@@ -326,8 +333,8 @@
     {
       "title": "ThreatsDay Bulletin: Hybrid P2P Botnet, 13-Year-Old Apache RCE and 18 More Stories",
       "link": "https://thehackernews.com/2026/04/threatsday-bulletin-hybrid-p2p-botnet.html",
-      "summary": "Thursday. Another week, another batch of things that probably should've been caught sooner but weren't. This one's got some range — old vulnerabilities getting new life, a few \"why was that even...",
-      "source": "The Hacker News",
+      "summary": "ThreatsDay Bulletin: Hybrid P2P Botnet, 13-Year-Old Apache RCE and 18 More Stories Thursday. Another week, another batch of things that probably should've been caught sooner but weren't.This one's...",
+      "source": "CVE Newsroom",
       "published": "2026-04-09T12:57:00+00:00"
     },
     {
@@ -665,13 +672,6 @@
       "summary": "IBM Identity and Verify Access Vulnerabilities Allow Remote Attacker to Access Sensitive Data A critical security bulletin highlights multiple vulnerabilities in Verify Identity Access and Security...",
       "source": "CVE Newsroom",
       "published": "2026-04-08T14:54:44+00:00"
-    },
-    {
-      "title": "High-Severity Patches: NVIDIA Secures DALI and Triton Inference Server",
-      "link": "https://securityonline.info/nvidia-dali-triton-security-update-cve-2026-24156/",
-      "summary": "High-Severity Patches: NVIDIA Secures DALI and Triton Inference Server NVIDIA has released two significant security updates addressing high-severity vulnerabilities across its DALI and Triton...",
-      "source": "CVE Newsroom",
-      "published": "2026-04-08T14:49:51+00:00"
     },
     {
       "title": "Full Sail University to Open IBM Cyber Defense Range Powered by AWS and Cloud Range on Campus",
