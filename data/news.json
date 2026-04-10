@@ -1,6 +1,181 @@
 {
-  "last_updated": "2026-04-09T22:13:23.285097+00:00",
+  "last_updated": "2026-04-10T00:17:05.547954+00:00",
   "articles": [
+    {
+      "title": "CVE-2026-5984 - D-Link DIR-605L POST Request formSetLog buffer overflow",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-5984",
+      "summary": "CVE ID :CVE-2026-5984 Published : April 9, 2026, 10:16 p.m. | 22 minutes ago Description :A vulnerability was identified in D-Link DIR-605L 2.13B01. Impacted is the function formSetLog of the file...",
+      "source": "CVE Feed",
+      "published": "2026-04-09T22:16:37+00:00"
+    },
+    {
+      "title": "CVE-2026-5983 - D-Link DIR-605L POST Request formSetDDNS buffer overflow",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-5983",
+      "summary": "CVE ID :CVE-2026-5983 Published : April 9, 2026, 10:16 p.m. | 22 minutes ago Description :A vulnerability was determined in D-Link DIR-605L 2.13B01. This issue affects the function formSetDDNS of the...",
+      "source": "CVE Feed",
+      "published": "2026-04-09T22:16:37+00:00"
+    },
+    {
+      "title": "CVE-2026-5982 - D-Link DIR-605L POST Request formAdvNetwork buffer overflow",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-5982",
+      "summary": "CVE ID :CVE-2026-5982 Published : April 9, 2026, 10:16 p.m. | 22 minutes ago Description :A vulnerability was found in D-Link DIR-605L 2.13B01. This vulnerability affects the function formAdvNetwork...",
+      "source": "CVE Feed",
+      "published": "2026-04-09T22:16:37+00:00"
+    },
+    {
+      "title": "CVE-2026-5981 - D-Link DIR-605L POST Request formAdvFirewall buffer overflow",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-5981",
+      "summary": "CVE ID :CVE-2026-5981 Published : April 9, 2026, 10:16 p.m. | 22 minutes ago Description :A vulnerability has been found in D-Link DIR-605L 2.13B01. This affects the function formAdvFirewall of the...",
+      "source": "CVE Feed",
+      "published": "2026-04-09T22:16:37+00:00"
+    },
+    {
+      "title": "CVE-2026-5264 - DTLS 1.3 ACK heap buffer overflow",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-5264",
+      "summary": "CVE ID :CVE-2026-5264 Published : April 9, 2026, 10:16 p.m. | 22 minutes ago Description :Heap buffer overflow in DTLS 1.3 ACK message processing. A remote attacker can send a crafted DTLS 1.3 ACK...",
+      "source": "CVE Feed",
+      "published": "2026-04-09T22:16:36+00:00"
+    },
+    {
+      "title": "CVE-2026-40154 - PraisonAI Affected by Untrusted Remote Template Code Execution",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-40154",
+      "summary": "CVE ID :CVE-2026-40154 Published : April 9, 2026, 10:16 p.m. | 22 minutes ago Description :PraisonAI is a multi-agent teams system. Prior to 4.5.128, PraisonAI treats remotely fetched template files...",
+      "source": "CVE Feed",
+      "published": "2026-04-09T22:16:36+00:00"
+    },
+    {
+      "title": "CVE-2026-40113 - PraisonAI has an Argument Injection into Cloud Run Environment Variables via Unsanitized Comma in gcloud --set-env-vars",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-40113",
+      "summary": "CVE ID :CVE-2026-40113 Published : April 9, 2026, 10:16 p.m. | 22 minutes ago Description :PraisonAI is a multi-agent teams system. Prior to 4.5.128, deploy.py constructs a single comma-delimited...",
+      "source": "CVE Feed",
+      "published": "2026-04-09T22:16:34+00:00"
+    },
+    {
+      "title": "CVE-2026-40111 - PraisonAIAgents has an OS Command Injection via shell=True in Memory Hooks Executor (memory/hooks.py)",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-40111",
+      "summary": "CVE ID :CVE-2026-40111 Published : April 9, 2026, 10:16 p.m. | 22 minutes ago Description :PraisonAIAgents is a multi-agent teams system. Prior to 1.5.128, he memory hooks executor in praisonaiagents...",
+      "source": "CVE Feed",
+      "published": "2026-04-09T22:16:34+00:00"
+    },
+    {
+      "title": "CVE-2026-35645 - OpenClaw < 2026.3.25 - Privilege Escalation via Synthetic operator.admin in deleteSession",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-35645",
+      "summary": "CVE ID :CVE-2026-35645 Published : April 9, 2026, 10:16 p.m. | 22 minutes ago Description :OpenClaw before 2026.3.25 contains a privilege escalation vulnerability in the gateway plugin subagent...",
+      "source": "CVE Feed",
+      "published": "2026-04-09T22:16:34+00:00"
+    },
+    {
+      "title": "CVE-2026-35639 - OpenClaw < 2026.3.22 - Privilege Escalation via device.pair.approve Scope Validation",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-35639",
+      "summary": "CVE ID :CVE-2026-35639 Published : April 9, 2026, 10:16 p.m. | 22 minutes ago Description :OpenClaw before 2026.3.22 contains a privilege escalation vulnerability in the device.pair.approve method...",
+      "source": "CVE Feed",
+      "published": "2026-04-09T22:16:33+00:00"
+    },
+    {
+      "title": "CVE-2026-35638 - OpenClaw < 2026.3.22 - Privilege Escalation via Self-Declared Scopes in Trusted-Proxy Control UI",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-35638",
+      "summary": "CVE ID :CVE-2026-35638 Published : April 9, 2026, 10:16 p.m. | 22 minutes ago Description :OpenClaw before 2026.3.22 contains a privilege escalation vulnerability in the Control UI that allows...",
+      "source": "CVE Feed",
+      "published": "2026-04-09T22:16:33+00:00"
+    },
+    {
+      "title": "CVE-2026-35625 - OpenClaw < 2026.3.25 - Privilege Escalation via Silent Local Shared-Auth Reconnect",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-35625",
+      "summary": "CVE ID :CVE-2026-35625 Published : April 9, 2026, 10:16 p.m. | 22 minutes ago Description :OpenClaw before 2026.3.25 contains a privilege escalation vulnerability where silent local shared-auth...",
+      "source": "CVE Feed",
+      "published": "2026-04-09T22:16:30+00:00"
+    },
+    {
+      "title": "CVE-2026-35618 - OpenClaw < 2026.3.23 - Replay Identity Drift via Query-Only Variants in Plivo V2 Verification",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-35618",
+      "summary": "CVE ID :CVE-2026-35618 Published : April 9, 2026, 10:16 p.m. | 22 minutes ago Description :OpenClaw before 2026.3.23 contains a replay identity vulnerability in Plivo V2 signature verification that...",
+      "source": "CVE Feed",
+      "published": "2026-04-09T22:16:30+00:00"
+    },
+    {
+      "title": "CVE-2026-34512 - OpenClaw < 2026.3.25 - Improper Access Control in /sessions/:sessionKey/kill Endpoint",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-34512",
+      "summary": "CVE ID :CVE-2026-34512 Published : April 9, 2026, 10:16 p.m. | 22 minutes ago Description :OpenClaw before 2026.3.25 contains an improper access control vulnerability in the HTTP...",
+      "source": "CVE Feed",
+      "published": "2026-04-09T22:16:29+00:00"
+    },
+    {
+      "title": "CVE-2026-33793 - Junos OS and Junos OS Evolved: When an unsigned Python op script configuration is present, a local low privileged user can compromise the system",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-33793",
+      "summary": "CVE ID :CVE-2026-33793 Published : April 9, 2026, 10:16 p.m. | 22 minutes ago Description :An Execution with Unnecessary Privileges vulnerability in the User Interface (UI) of Juniper Networks Junos...",
+      "source": "CVE Feed",
+      "published": "2026-04-09T22:16:29+00:00"
+    },
+    {
+      "title": "CVE-2026-33791 - Junos OS and Junos OS Evolved: Execution of crafted CLI commands allows for arbitrary shell injection as root",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-33791",
+      "summary": "CVE ID :CVE-2026-33791 Published : April 9, 2026, 10:16 p.m. | 22 minutes ago Description :An OS Command Injection vulnerability in the CLI processing of Juniper Networks Junos OS and Junos OS...",
+      "source": "CVE Feed",
+      "published": "2026-04-09T22:16:29+00:00"
+    },
+    {
+      "title": "CVE-2026-33790 - Junos OS: SRX Series: In a NAT64 configuration, receipt of a specific, malformed ICMPv6 packet will cause the srxpfe process to crash and restart.",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-33790",
+      "summary": "CVE ID :CVE-2026-33790 Published : April 9, 2026, 10:16 p.m. | 22 minutes ago Description :An Improper Check for Unusual or Exceptional Conditions vulnerability in the flow daemon (flowd) of Juniper...",
+      "source": "CVE Feed",
+      "published": "2026-04-09T22:16:28+00:00"
+    },
+    {
+      "title": "CVE-2026-33788 - Junos OS Evolved: Local, authenticated attacker can gain privileged access to FPCs",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-33788",
+      "summary": "CVE ID :CVE-2026-33788 Published : April 9, 2026, 10:16 p.m. | 22 minutes ago Description :A Missing Authentication for Critical Function vulnerability in the Flexible PIC Concentrators (FPCs) of...",
+      "source": "CVE Feed",
+      "published": "2026-04-09T22:16:28+00:00"
+    },
+    {
+      "title": "CVE-2026-33785 - Junos OS: MX Series: Missing Authorization for specific 'request' CLI commands in a JDM/CSDS scenario",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-33785",
+      "summary": "CVE ID :CVE-2026-33785 Published : April 9, 2026, 10:16 p.m. | 22 minutes ago Description :A Missing Authorization vulnerability in the CLI of Juniper Networks Junos OS on MX Series allows a local...",
+      "source": "CVE Feed",
+      "published": "2026-04-09T22:16:27+00:00"
+    },
+    {
+      "title": "CVE-2026-33784 - JSI Virtual Lightweight Collector: Default password is not required to be changed which allows unauthorized high-privileged access",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-33784",
+      "summary": "CVE ID :CVE-2026-33784 Published : April 9, 2026, 10:16 p.m. | 22 minutes ago Description :A Use of Default Password vulnerability in the Juniper Networks Support Insights (JSI) Virtual Lightweight...",
+      "source": "CVE Feed",
+      "published": "2026-04-09T22:16:27+00:00"
+    },
+    {
+      "title": "CVE-2026-33782 - Junos OS: MX Series: In specific DHCPv6 scenarios jdhcpd memory increases continuously with subscriber logouts",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-33782",
+      "summary": "CVE ID :CVE-2026-33782 Published : April 9, 2026, 10:16 p.m. | 22 minutes ago Description :A Missing Release of Memory after Effective Lifetime vulnerability in the DHCP daemon (jdhcpd) of Juniper...",
+      "source": "CVE Feed",
+      "published": "2026-04-09T22:16:27+00:00"
+    },
+    {
+      "title": "CVE-2026-33779 - Junos OS: SRX Series: Insufficient certificate verification for device to SD cloud communication",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-33779",
+      "summary": "CVE ID :CVE-2026-33779 Published : April 9, 2026, 10:16 p.m. | 22 minutes ago Description :An Improper Following of a Certificate's Chain of Trust vulnerability in J-Web of Juniper Networks Junos OS...",
+      "source": "CVE Feed",
+      "published": "2026-04-09T22:16:26+00:00"
+    },
+    {
+      "title": "CVE-2026-33778 - Junos OS: SRX Series, MX Series: When a specifically malformed first ISAKMP packet is received kmd/iked crashes",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-33778",
+      "summary": "CVE ID :CVE-2026-33778 Published : April 9, 2026, 10:16 p.m. | 22 minutes ago Description :An Improper Validation of Syntactic Correctness of Input vulnerability in the IPsec library used by kmd and...",
+      "source": "CVE Feed",
+      "published": "2026-04-09T22:16:26+00:00"
+    },
+    {
+      "title": "CVE-2026-33771 - CTP OS: Configuring password requirements does not work which permits the use of weak passwords",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-33771",
+      "summary": "CVE ID :CVE-2026-33771 Published : April 9, 2026, 10:16 p.m. | 22 minutes ago Description :A Weak Password Requirements vulnerability in the password management function of Juniper Networks CTP OS...",
+      "source": "CVE Feed",
+      "published": "2026-04-09T22:16:25+00:00"
+    },
+    {
+      "title": "CVE-2026-21915 - JSI Virtual Lightweight Collector: Shell escape allows privilege escalation to root",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-21915",
+      "summary": "CVE ID :CVE-2026-21915 Published : April 9, 2026, 10:16 p.m. | 22 minutes ago Description :A Permissive List of Allowed Input vulnerability in the CLI of Juniper Networks Support Insights (JSI)...",
+      "source": "CVE Feed",
+      "published": "2026-04-09T22:16:24+00:00"
+    },
     {
       "title": "New ‘LucidRook’ malware used in targeted attacks on NGOs, universities",
       "link": "https://www.bleepingcomputer.com/news/security/new-lucidrook-malware-used-in-targeted-attacks-on-ngos-universities/",
@@ -21,62 +196,6 @@
       "summary": "Victims don't need to match the cybercrime group's technical sophistication, experts say. But patching and some form of zero trust are now non-negotiable.",
       "source": "Dark Reading",
       "published": "2026-04-09T20:50:37+00:00"
-    },
-    {
-      "title": "CVE-2026-5976 - Totolink A7100RU CGI cstecgi.cgi setStorageCfg os command injection",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-5976",
-      "summary": "CVE ID :CVE-2026-5976 Published : April 9, 2026, 8:16 p.m. | 36 minutes ago Description :A security flaw has been discovered in Totolink A7100RU 7.4cu.2313_b20191024. This affects the function...",
-      "source": "CVE Feed",
-      "published": "2026-04-09T20:16:29+00:00"
-    },
-    {
-      "title": "CVE-2026-5975 - Totolink A7100RU CGI cstecgi.cgi setDmzCfg os command injection",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-5975",
-      "summary": "CVE ID :CVE-2026-5975 Published : April 9, 2026, 8:16 p.m. | 36 minutes ago Description :A vulnerability was identified in Totolink A7100RU 7.4cu.2313_b20191024. The impacted element is the function...",
-      "source": "CVE Feed",
-      "published": "2026-04-09T20:16:29+00:00"
-    },
-    {
-      "title": "CVE-2026-5194 - wolfSSL ECDSA Certificate Verification",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-5194",
-      "summary": "CVE ID :CVE-2026-5194 Published : April 9, 2026, 8:16 p.m. | 36 minutes ago Description :Missing hash/digest size and OID checks allow digests smaller than allowed when verifying ECDSA certificates...",
-      "source": "CVE Feed",
-      "published": "2026-04-09T20:16:28+00:00"
-    },
-    {
-      "title": "CVE-2026-4436 - GPL Odorizers GPL750 Missing Authentication for Critical Function",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-4436",
-      "summary": "CVE ID :CVE-2026-4436 Published : April 9, 2026, 8:16 p.m. | 36 minutes ago Description :A low-privileged remote attacker can send Modbus packets to manipulate register values that are inputs to the...",
-      "source": "CVE Feed",
-      "published": "2026-04-09T20:16:27+00:00"
-    },
-    {
-      "title": "CVE-2026-40089 - Sonicverse has Server-Side Request Forgery via user-controlled URLs in dashboard API client",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-40089",
-      "summary": "CVE ID :CVE-2026-40089 Published : April 9, 2026, 8:16 p.m. | 36 minutes ago Description :Sonicverse is a Self-hosted Docker Compose stack for live radio streaming. The Sonicverse Radio Audio...",
-      "source": "CVE Feed",
-      "published": "2026-04-09T20:16:27+00:00"
-    },
-    {
-      "title": "CVE-2026-40088 - Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') in praisonai",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-40088",
-      "summary": "CVE ID :CVE-2026-40088 Published : April 9, 2026, 8:16 p.m. | 36 minutes ago Description :PraisonAI is a multi-agent teams system. Prior to 4.5.121, the execute_command function and workflow shell...",
-      "source": "CVE Feed",
-      "published": "2026-04-09T20:16:27+00:00"
-    },
-    {
-      "title": "CVE-2026-35063 - Missing Authorization in OpenPLC_V3",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-35063",
-      "summary": "CVE ID :CVE-2026-35063 Published : April 9, 2026, 8:16 p.m. | 36 minutes ago Description :OpenPLC_V3 REST API endpoint checks for JWT presence but never verifies the caller's role. Any authenticated...",
-      "source": "CVE Feed",
-      "published": "2026-04-09T20:16:25+00:00"
-    },
-    {
-      "title": "CVE-2025-13926 - Contemporary Controls BASC 20T Reliance on Untrusted Inputs in a Security Decision",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2025-13926",
-      "summary": "CVE ID :CVE-2025-13926 Published : April 9, 2026, 8:16 p.m. | 36 minutes ago Description :An attacker could use data obtained by sniffing the network traffic to forge packets in order to make...",
-      "source": "CVE Feed",
-      "published": "2026-04-09T20:16:23+00:00"
     },
     {
       "title": "'BlueHammer' Windows Zero-Day Exploit Signals Microsoft Bug Disclosure Issues",
@@ -100,95 +219,11 @@
       "published": "2026-04-09T19:46:44+00:00"
     },
     {
-      "title": "CVE-2026-39912 - v2board / Xboard Authentication Token Exposure via loginWithMailLink",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-39912",
-      "summary": "CVE ID :CVE-2026-39912 Published : April 9, 2026, 7:16 p.m. | 1 hour, 36 minutes ago Description :V2Board 1.6.1 through 1.7.4 and Xboard through 0.1.9 expose authentication tokens in HTTP response...",
-      "source": "CVE Feed",
-      "published": "2026-04-09T19:16:25+00:00"
-    },
-    {
-      "title": "CVE-2026-35556 - Plaintext storage of a password in OpenPLC_V3",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-35556",
-      "summary": "CVE ID :CVE-2026-35556 Published : April 9, 2026, 7:16 p.m. | 1 hour, 36 minutes ago Description :OpenPLC_V3 is vulnerable to a Plaintext Storage of a Password vulnerability that could allow an...",
-      "source": "CVE Feed",
-      "published": "2026-04-09T19:16:25+00:00"
-    },
-    {
-      "title": "CVE-2026-34987 - Wasmtime with Winch compiler backend on aarch64 may allow a sandbox-escaping memory access",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-34987",
-      "summary": "CVE ID :CVE-2026-34987 Published : April 9, 2026, 7:16 p.m. | 1 hour, 36 minutes ago Description :Wasmtime is a runtime for WebAssembly. From 25.0.0 to before 36.0.7, 42.0.2, and 43.0.1, Wasmtime...",
-      "source": "CVE Feed",
-      "published": "2026-04-09T19:16:25+00:00"
-    },
-    {
-      "title": "CVE-2026-34971 - Wasmtime miscompiled guest heap access enables sandbox escape on aarch64 Cranelift",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-34971",
-      "summary": "CVE ID :CVE-2026-34971 Published : April 9, 2026, 7:16 p.m. | 1 hour, 36 minutes ago Description :Wasmtime is a runtime for WebAssembly. From 32.0.0 to before 36.0.7, 42.0.2, and 43.0.1, Wasmtime's...",
-      "source": "CVE Feed",
-      "published": "2026-04-09T19:16:24+00:00"
-    },
-    {
-      "title": "CVE-2026-28205 - Initialization of a resource with an insecure default in OpenPLC_V3",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-28205",
-      "summary": "CVE ID :CVE-2026-28205 Published : April 9, 2026, 7:16 p.m. | 1 hour, 36 minutes ago Description :OpenPLC_V3 is vulnerable to an Initialization of a Resource with an Insecure Default vulnerability...",
-      "source": "CVE Feed",
-      "published": "2026-04-09T19:16:23+00:00"
-    },
-    {
       "title": "Google Chrome adds infostealer protection against session cookie theft",
       "link": "https://www.bleepingcomputer.com/news/security/google-chrome-adds-infostealer-protection-against-session-cookie-theft/",
       "summary": "Google has rolled out Device Bound Session Credentials (DBSC) protection in Chrome 146 for Windows, designed to block info-stealing malware from harvesting session cookies. [...]",
       "source": "BleepingComputer",
       "published": "2026-04-09T18:33:29+00:00"
-    },
-    {
-      "title": "CVE-2026-5329 - Rapid7 Velociraptor Improper Input Validation in Client Message Handler",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-5329",
-      "summary": "CVE ID :CVE-2026-5329 Published : April 9, 2026, 6:17 p.m. | 2 hours, 35 minutes ago Description :Rapid7 Velociraptor versions prior to 0.76.2 contain an improper input validation vulnerability in...",
-      "source": "CVE Feed",
-      "published": "2026-04-09T18:17:04+00:00"
-    },
-    {
-      "title": "CVE-2026-40070 - bsv-sdk and bsv-wallet persist unverified certifier signatures in acquire_certificate (direct and issuance paths)",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-40070",
-      "summary": "CVE ID :CVE-2026-40070 Published : April 9, 2026, 6:17 p.m. | 2 hours, 35 minutes ago Description :BSV Ruby SDK is the Ruby SDK for the BSV blockchain. From 0.3.1 to before 0.8.2...",
-      "source": "CVE Feed",
-      "published": "2026-04-09T18:17:03+00:00"
-    },
-    {
-      "title": "CVE-2026-39987 - marimo Affected by Pre-Auth Remote Code Execution via Terminal WebSocket Authentication Bypass",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-39987",
-      "summary": "CVE ID :CVE-2026-39987 Published : April 9, 2026, 6:17 p.m. | 2 hours, 35 minutes ago Description :marimo is a reactive Python notebook. Prior to 0.23.0, Marimo has a Pre-Auth RCE vulnerability. The...",
-      "source": "CVE Feed",
-      "published": "2026-04-09T18:17:02+00:00"
-    },
-    {
-      "title": "CVE-2026-39983 - FTP Command Injection via CRLF in basic-ftp",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-39983",
-      "summary": "CVE ID :CVE-2026-39983 Published : April 9, 2026, 6:17 p.m. | 2 hours, 35 minutes ago Description :basic-ftp is an FTP client for Node.js. Prior to 5.2.1, basic-ftp allows FTP command injection via...",
-      "source": "CVE Feed",
-      "published": "2026-04-09T18:17:02+00:00"
-    },
-    {
-      "title": "CVE-2026-39981 - AGiXT has a Path Traversal in safe_join()",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-39981",
-      "summary": "CVE ID :CVE-2026-39981 Published : April 9, 2026, 6:17 p.m. | 2 hours, 35 minutes ago Description :AGiXT is a dynamic AI Agent Automation Platform. Prior to 1.9.2, the safe_join() function in the...",
-      "source": "CVE Feed",
-      "published": "2026-04-09T18:17:02+00:00"
-    },
-    {
-      "title": "CVE-2026-39980 - OpenCTI affected by RCE via notifier template",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-39980",
-      "summary": "CVE ID :CVE-2026-39980 Published : April 9, 2026, 6:17 p.m. | 2 hours, 35 minutes ago Description :OpenCTI is an open source platform for managing cyber threat intelligence knowledge and observables...",
-      "source": "CVE Feed",
-      "published": "2026-04-09T18:17:02+00:00"
-    },
-    {
-      "title": "CVE-2026-39911 - Hashgraph Guardian 3.5.0 Unsandboxed JavaScript Execution RCE",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-39911",
-      "summary": "CVE ID :CVE-2026-39911 Published : April 9, 2026, 6:17 p.m. | 2 hours, 35 minutes ago Description :Hashgraph Guardian through version 3.5.0 contains an unsandboxed JavaScript execution vulnerability...",
-      "source": "CVE Feed",
-      "published": "2026-04-09T18:17:01+00:00"
     },
     {
       "title": "Do Ceasefires Slow Cyberattacks? History Suggests Not",
@@ -212,46 +247,11 @@
       "published": "2026-04-09T17:25:00+00:00"
     },
     {
-      "title": "CVE-2026-39974 - n8n-MCP has an Authenticated SSRF via instance-URL header in multi-tenant HTTP mode",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-39974",
-      "summary": "CVE ID :CVE-2026-39974 Published : April 9, 2026, 5:16 p.m. | 3 hours, 36 minutes ago Description :n8n-MCP is a Model Context Protocol (MCP) server that provides AI assistants with comprehensive...",
-      "source": "CVE Feed",
-      "published": "2026-04-09T17:16:30+00:00"
-    },
-    {
-      "title": "CVE-2026-39962 - LDAP injection in MISP ApacheAuthenticate when using a user-controlled Apache environment variable",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-39962",
-      "summary": "CVE ID :CVE-2026-39962 Published : April 9, 2026, 5:16 p.m. | 3 hours, 36 minutes ago Description :MISP is an open source threat intelligence and sharing platform. Prior to 2.5.36, improper...",
-      "source": "CVE Feed",
-      "published": "2026-04-09T17:16:30+00:00"
-    },
-    {
-      "title": "CVE-2026-39942 - Directus has a Path Traversal and Broken Access Control in File Management API",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-39942",
-      "summary": "CVE ID :CVE-2026-39942 Published : April 9, 2026, 5:16 p.m. | 3 hours, 36 minutes ago Description :Directus is a real-time API and App dashboard for managing SQL database content. Prior to 11.17.0...",
-      "source": "CVE Feed",
-      "published": "2026-04-09T17:16:29+00:00"
-    },
-    {
       "title": "UAT-10362 Targets Taiwanese NGOs with LucidRook Malware in Spear-Phishing Campaigns",
       "link": "https://thehackernews.com/2026/04/uat-10362-targets-taiwanese-ngos-with.html",
       "summary": "A previously undocumented threat cluster dubbed UAT-10362 has been attributed to spear-phishing campaigns targeting Taiwanese non-governmental organizations (NGOs) and suspected universities to...",
       "source": "The Hacker News",
       "published": "2026-04-09T16:23:00+00:00"
-    },
-    {
-      "title": "CVE-2026-35205 - Helm's plugin verification fails open when .prov is missing, allowing unsigned plugin install",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-35205",
-      "summary": "CVE ID :CVE-2026-35205 Published : April 9, 2026, 4:16 p.m. | 4 hours, 36 minutes ago Description :Helm is a package manager for Charts for Kubernetes. From 4.0.0 to 4.1.3, Helm will install plugins...",
-      "source": "CVE Feed",
-      "published": "2026-04-09T16:16:27+00:00"
-    },
-    {
-      "title": "CVE-2026-35204 - Helm has a path traversal in plugin metadata version enables arbitrary file write outside Helm plugin directory",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-35204",
-      "summary": "CVE ID :CVE-2026-35204 Published : April 9, 2026, 4:16 p.m. | 4 hours, 36 minutes ago Description :Helm is a package manager for Charts for Kubernetes. From 4.0.0 to 4.1.3, a specially crafted Helm...",
-      "source": "CVE Feed",
-      "published": "2026-04-09T16:16:27+00:00"
     },
     {
       "title": "Smart Slider updates hijacked to push malicious WordPress, Joomla versions",
@@ -326,8 +326,8 @@
     {
       "title": "ThreatsDay Bulletin: Hybrid P2P Botnet, 13-Year-Old Apache RCE and 18 More Stories",
       "link": "https://thehackernews.com/2026/04/threatsday-bulletin-hybrid-p2p-botnet.html",
-      "summary": "Thursday. Another week, another batch of things that probably should've been caught sooner but weren't. This one's got some range — old vulnerabilities getting new life, a few \"why was that even...",
-      "source": "The Hacker News",
+      "summary": "ThreatsDay Bulletin: Hybrid P2P Botnet, 13-Year-Old Apache RCE and 18 More Stories Thursday. Another week, another batch of things that probably should've been caught sooner but weren't.This one's...",
+      "source": "CVE Newsroom",
       "published": "2026-04-09T12:57:00+00:00"
     },
     {
