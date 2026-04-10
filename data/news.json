@@ -1,6 +1,41 @@
 {
-  "last_updated": "2026-04-10T20:09:27.575583+00:00",
+  "last_updated": "2026-04-10T22:09:55.061594+00:00",
   "articles": [
+    {
+      "title": "CVE-2026-40189 - goshs has a file-based ACL authorization bypass in goshs state-changing routes",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-40189",
+      "summary": "CVE ID :CVE-2026-40189 Published : April 10, 2026, 8:16 p.m. | 1 hour, 38 minutes ago Description :goshs is a SimpleHTTPServer written in Go. Prior to 2.0.0-beta.4, goshs enforces the documented...",
+      "source": "CVE Feed",
+      "published": "2026-04-10T20:16:23+00:00"
+    },
+    {
+      "title": "CVE-2026-40177 - Password bypass when 2FA is activated",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-40177",
+      "summary": "CVE ID :CVE-2026-40177 Published : April 10, 2026, 8:16 p.m. | 1 hour, 38 minutes ago Description :ajenti.plugin.core defines all necessary core elements to allow Ajenti to run properly. Prior to...",
+      "source": "CVE Feed",
+      "published": "2026-04-10T20:16:22+00:00"
+    },
+    {
+      "title": "CVE-2026-40175 - Axios has Unrestricted Cloud Metadata Exfiltration via Header Injection Chain",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-40175",
+      "summary": "CVE ID :CVE-2026-40175 Published : April 10, 2026, 8:16 p.m. | 1 hour, 38 minutes ago Description :Axios is a promise based HTTP client for the browser and Node.js. Prior to 1.15.0, the Axios library...",
+      "source": "CVE Feed",
+      "published": "2026-04-10T20:16:22+00:00"
+    },
+    {
+      "title": "CVE-2026-40168 - Postiz has Server-Side Request Forgery via Redirect Bypass in /api/public/stream",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-40168",
+      "summary": "CVE ID :CVE-2026-40168 Published : April 10, 2026, 8:16 p.m. | 1 hour, 38 minutes ago Description :Postiz is an AI social media scheduling tool. Prior to 2.21.5, the /api/public/stream endpoint is...",
+      "source": "CVE Feed",
+      "published": "2026-04-10T20:16:22+00:00"
+    },
+    {
+      "title": "Hims Breach Exposes the Most Sensitive Kinds of PHI",
+      "link": "https://www.darkreading.com/cyberattacks-data-breaches/hims-breach-exposes-sensitive-phi",
+      "summary": "Threat actors breached the telehealth brand, and now they may know who's bald, overweight, and impotent. What could they do with that information?",
+      "source": "Dark Reading",
+      "published": "2026-04-10T20:02:30+00:00"
+    },
     {
       "title": "Your Next Breach Will Look Like Business as Usual",
       "link": "https://www.darkreading.com/identity-access-management-security/your-next-breach-business-as-usual",
@@ -9,30 +44,51 @@
       "published": "2026-04-10T19:21:55+00:00"
     },
     {
+      "title": "CVE-2026-33707 - Weak Password Recovery Mechanism for Forgotten Password in chamilo/chamilo-lms",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-33707",
+      "summary": "CVE ID :CVE-2026-33707 Published : April 10, 2026, 7:16 p.m. | 2 hours, 38 minutes ago Description :Chamilo LMS is a learning management system. Prior to 1.11.38 and 2.0.0-RC.3, the default password...",
+      "source": "CVE Feed",
+      "published": "2026-04-10T19:16:23+00:00"
+    },
+    {
+      "title": "CVE-2026-33698 - Chamilo LMS affected by unauthenticated RCE in main/install folder",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-33698",
+      "summary": "CVE ID :CVE-2026-33698 Published : April 10, 2026, 7:16 p.m. | 2 hours, 38 minutes ago Description :Chamilo LMS is a learning management system. Prior to 1.11.38, a chained attack can enable...",
+      "source": "CVE Feed",
+      "published": "2026-04-10T19:16:23+00:00"
+    },
+    {
+      "title": "CVE-2026-33618 - Chamilo LMS Affected by Remote Code Execution via eval() in Platform Settings",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-33618",
+      "summary": "CVE ID :CVE-2026-33618 Published : April 10, 2026, 7:16 p.m. | 2 hours, 38 minutes ago Description :Chamilo LMS is a learning management system. Prior to .0.0-RC.3, the...",
+      "source": "CVE Feed",
+      "published": "2026-04-10T19:16:22+00:00"
+    },
+    {
       "title": "CVE-2026-5483 - Odh-dashboard: odh dashboard kubernetes service account exposure",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-5483",
-      "summary": "CVE ID :CVE-2026-5483 Published : April 10, 2026, 6:16 p.m. | 1 hour, 2 minutes ago Description :A flaw was found in odh-dashboard in Red Hat Openshift AI. This vulnerability in the `odh-dashboard`...",
+      "summary": "CVE ID :CVE-2026-5483 Published : April 10, 2026, 6:16 p.m. | 3 hours, 37 minutes ago Description :A flaw was found in odh-dashboard in Red Hat Openshift AI. This vulnerability in the `odh-dashboard`...",
       "source": "CVE Feed",
       "published": "2026-04-10T18:16:46+00:00"
     },
     {
       "title": "CVE-2026-40163 - Saltcorn has an Unauthenticated Path Traversal in sync endpoints allows arbitrary file write and directory read",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-40163",
-      "summary": "CVE ID :CVE-2026-40163 Published : April 10, 2026, 6:16 p.m. | 1 hour, 2 minutes ago Description :Saltcorn is an extensible, open source, no-code database application builder. Prior to 1.4.5, 1.5.5...",
+      "summary": "CVE ID :CVE-2026-40163 Published : April 10, 2026, 6:16 p.m. | 3 hours, 37 minutes ago Description :Saltcorn is an extensible, open source, no-code database application builder. Prior to 1.4.5...",
       "source": "CVE Feed",
       "published": "2026-04-10T18:16:46+00:00"
     },
     {
       "title": "CVE-2026-32892 - OS Command Injection in Chamilo LMS 1.11.36",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-32892",
-      "summary": "CVE ID :CVE-2026-32892 Published : April 10, 2026, 6:16 p.m. | 1 hour, 2 minutes ago Description :Chamilo LMS is a learning management system. Prior to 1.11.38 and 2.0.0-RC.3, Chamilo LMS contains an...",
+      "summary": "CVE ID :CVE-2026-32892 Published : April 10, 2026, 6:16 p.m. | 3 hours, 37 minutes ago Description :Chamilo LMS is a learning management system. Prior to 1.11.38 and 2.0.0-RC.3, Chamilo LMS contains...",
       "source": "CVE Feed",
       "published": "2026-04-10T18:16:41+00:00"
     },
     {
       "title": "CVE-2026-31939 - Path Traversal (Arbitrary File Delete) in Chamilo LMS",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-31939",
-      "summary": "CVE ID :CVE-2026-31939 Published : April 10, 2026, 6:16 p.m. | 1 hour, 2 minutes ago Description :Chamilo LMS is a learning management system. Prior to 1.11.38, there is a path traversal in...",
+      "summary": "CVE ID :CVE-2026-31939 Published : April 10, 2026, 6:16 p.m. | 3 hours, 37 minutes ago Description :Chamilo LMS is a learning management system. Prior to 1.11.38, there is a path traversal in...",
       "source": "CVE Feed",
       "published": "2026-04-10T18:16:41+00:00"
     },
@@ -67,84 +123,84 @@
     {
       "title": "CVE-2026-40200 - Musl Libc Stack-Based Memory Corruption in qsort",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-40200",
-      "summary": "CVE ID :CVE-2026-40200 Published : April 10, 2026, 5:17 p.m. | 2 hours, 2 minutes ago Description :An issue was discovered in musl libc 0.7.10 through 1.2.6. Stack-based memory corruption can occur...",
+      "summary": "CVE ID :CVE-2026-40200 Published : April 10, 2026, 5:17 p.m. | 4 hours, 37 minutes ago Description :An issue was discovered in musl libc 0.7.10 through 1.2.6. Stack-based memory corruption can occur...",
       "source": "CVE Feed",
       "published": "2026-04-10T17:17:14+00:00"
     },
     {
       "title": "CVE-2026-40158 - PraisonAI has Improper Control of Generation of Code ('Code Injection') and Protection Mechanism Failure in praisonai",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-40158",
-      "summary": "CVE ID :CVE-2026-40158 Published : April 10, 2026, 5:17 p.m. | 2 hours, 2 minutes ago Description :PraisonAI is a multi-agent teams system. Prior to 4.5.128, PraisonAI's AST-based Python sandbox can...",
+      "summary": "CVE ID :CVE-2026-40158 Published : April 10, 2026, 5:17 p.m. | 4 hours, 37 minutes ago Description :PraisonAI is a multi-agent teams system. Prior to 4.5.128, PraisonAI's AST-based Python sandbox can...",
       "source": "CVE Feed",
       "published": "2026-04-10T17:17:13+00:00"
     },
     {
       "title": "CVE-2026-40157 - PraisonAI affected by arbitrary file write via path traversal in `praisonai recipe unpack`",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-40157",
-      "summary": "CVE ID :CVE-2026-40157 Published : April 10, 2026, 5:17 p.m. | 2 hours, 2 minutes ago Description :PraisonAI is a multi-agent teams system. Prior to 4.5.128, cmd_unpack in the recipe CLI extracts...",
+      "summary": "CVE ID :CVE-2026-40157 Published : April 10, 2026, 5:17 p.m. | 4 hours, 37 minutes ago Description :PraisonAI is a multi-agent teams system. Prior to 4.5.128, cmd_unpack in the recipe CLI extracts...",
       "source": "CVE Feed",
       "published": "2026-04-10T17:17:13+00:00"
     },
     {
       "title": "CVE-2026-40073 - SvelteKit has a BODY_SIZE_LIMIT bypass in @sveltejs/adapter-node",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-40073",
-      "summary": "CVE ID :CVE-2026-40073 Published : April 10, 2026, 5:17 p.m. | 2 hours, 2 minutes ago Description :SvelteKit is a framework for rapidly developing robust, performant web applications using Svelte...",
+      "summary": "CVE ID :CVE-2026-40073 Published : April 10, 2026, 5:17 p.m. | 4 hours, 37 minutes ago Description :SvelteKit is a framework for rapidly developing robust, performant web applications using Svelte...",
       "source": "CVE Feed",
       "published": "2026-04-10T17:17:12+00:00"
     },
     {
       "title": "CVE-2026-35669 - OpenClaw < 2026.3.25 - Privilege Escalation via Gateway Plugin HTTP Authentication Scope",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-35669",
-      "summary": "CVE ID :CVE-2026-35669 Published : April 10, 2026, 5:17 p.m. | 2 hours, 2 minutes ago Description :OpenClaw before 2026.3.25 contains a privilege escalation vulnerability in gateway-authenticated...",
+      "summary": "CVE ID :CVE-2026-35669 Published : April 10, 2026, 5:17 p.m. | 4 hours, 37 minutes ago Description :OpenClaw before 2026.3.25 contains a privilege escalation vulnerability in gateway-authenticated...",
       "source": "CVE Feed",
       "published": "2026-04-10T17:17:09+00:00"
     },
     {
       "title": "CVE-2026-35666 - OpenClaw < 2026.3.22 - Allowlist Bypass via Unregistered Time Dispatch Wrapper",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-35666",
-      "summary": "CVE ID :CVE-2026-35666 Published : April 10, 2026, 5:17 p.m. | 2 hours, 2 minutes ago Description :OpenClaw before 2026.3.22 contains an allowlist bypass vulnerability in system.run approvals that...",
+      "summary": "CVE ID :CVE-2026-35666 Published : April 10, 2026, 5:17 p.m. | 4 hours, 37 minutes ago Description :OpenClaw before 2026.3.22 contains an allowlist bypass vulnerability in system.run approvals that...",
       "source": "CVE Feed",
       "published": "2026-04-10T17:17:08+00:00"
     },
     {
       "title": "CVE-2026-35663 - OpenClaw < 2026.3.25 - Privilege Escalation via Backend Reconnect Scope Self-Claim",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-35663",
-      "summary": "CVE ID :CVE-2026-35663 Published : April 10, 2026, 5:17 p.m. | 2 hours, 2 minutes ago Description :OpenClaw before 2026.3.25 contains a privilege escalation vulnerability allowing non-admin operators...",
+      "summary": "CVE ID :CVE-2026-35663 Published : April 10, 2026, 5:17 p.m. | 4 hours, 37 minutes ago Description :OpenClaw before 2026.3.25 contains a privilege escalation vulnerability allowing non-admin...",
       "source": "CVE Feed",
       "published": "2026-04-10T17:17:08+00:00"
     },
     {
       "title": "CVE-2026-35660 - OpenClaw < 2026.3.23 - Insufficient Access Control in Gateway Agent Session Reset",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-35660",
-      "summary": "CVE ID :CVE-2026-35660 Published : April 10, 2026, 5:17 p.m. | 2 hours, 2 minutes ago Description :OpenClaw before 2026.3.23 contains an insufficient access control vulnerability in the Gateway agent...",
+      "summary": "CVE ID :CVE-2026-35660 Published : April 10, 2026, 5:17 p.m. | 4 hours, 37 minutes ago Description :OpenClaw before 2026.3.23 contains an insufficient access control vulnerability in the Gateway...",
       "source": "CVE Feed",
       "published": "2026-04-10T17:17:07+00:00"
     },
     {
       "title": "CVE-2026-35653 - OpenClaw < 2026.3.24 - Incorrect Authorization in POST /reset-profile via browser.request",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-35653",
-      "summary": "CVE ID :CVE-2026-35653 Published : April 10, 2026, 5:17 p.m. | 2 hours, 2 minutes ago Description :OpenClaw before 2026.3.24 contains an incorrect authorization vulnerability in the POST...",
+      "summary": "CVE ID :CVE-2026-35653 Published : April 10, 2026, 5:17 p.m. | 4 hours, 37 minutes ago Description :OpenClaw before 2026.3.24 contains an incorrect authorization vulnerability in the POST...",
       "source": "CVE Feed",
       "published": "2026-04-10T17:17:06+00:00"
     },
     {
       "title": "CVE-2026-35643 - OpenClaw < 2026.3.22 - Arbitrary Code Execution via Unvalidated WebView JavascriptInterface",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-35643",
-      "summary": "CVE ID :CVE-2026-35643 Published : April 10, 2026, 5:17 p.m. | 2 hours, 2 minutes ago Description :OpenClaw before 2026.3.22 contains an unvalidated WebView JavascriptInterface vulnerability allowing...",
+      "summary": "CVE ID :CVE-2026-35643 Published : April 10, 2026, 5:17 p.m. | 4 hours, 37 minutes ago Description :OpenClaw before 2026.3.22 contains an unvalidated WebView JavascriptInterface vulnerability...",
       "source": "CVE Feed",
       "published": "2026-04-10T17:17:04+00:00"
     },
     {
       "title": "CVE-2026-35641 - OpenClaw < 2026.3.24 - Arbitrary Code Execution via .npmrc in Local Plugin/Hook Installation",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-35641",
-      "summary": "CVE ID :CVE-2026-35641 Published : April 10, 2026, 5:17 p.m. | 2 hours, 2 minutes ago Description :OpenClaw before 2026.3.24 contains an arbitrary code execution vulnerability in local plugin and...",
+      "summary": "CVE ID :CVE-2026-35641 Published : April 10, 2026, 5:17 p.m. | 4 hours, 37 minutes ago Description :OpenClaw before 2026.3.24 contains an arbitrary code execution vulnerability in local plugin and...",
       "source": "CVE Feed",
       "published": "2026-04-10T17:17:04+00:00"
     },
     {
       "title": "CVE-2026-35595 - Vikunja Affected by Privilege Escalation via Project Reparenting",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-35595",
-      "summary": "CVE ID :CVE-2026-35595 Published : April 10, 2026, 5:17 p.m. | 2 hours, 2 minutes ago Description :Vikunja is an open-source self-hosted task management platform. Prior to 2.3.0, the CanUpdate check...",
+      "summary": "CVE ID :CVE-2026-35595 Published : April 10, 2026, 5:17 p.m. | 4 hours, 37 minutes ago Description :Vikunja is an open-source self-hosted task management platform. Prior to 2.3.0, the CanUpdate check...",
       "source": "CVE Feed",
       "published": "2026-04-10T17:17:02+00:00"
     },
@@ -163,6 +219,13 @@
       "published": "2026-04-10T15:52:28+00:00"
     },
     {
+      "title": "Bringing Rust to the Pixel Baseband",
+      "link": "http://security.googleblog.com/2026/04/bringing-rust-to-pixel-baseband.html",
+      "summary": "Bringing Rust to the Pixel Baseband Google is continuously advancing the security of Pixel devices. We have been focusing on hardening the cellular baseband modem against exploitation. Recognizing...",
+      "source": "CVE Newsroom",
+      "published": "2026-04-10T15:12:00+00:00"
+    },
+    {
       "title": "Orange Business Reimagines Enterprise Voice Communications With Trust and AI",
       "link": "https://www.darkreading.com/endpoint-security/orange-business-enterprise-voice-comms",
       "summary": "",
@@ -179,14 +242,14 @@
     {
       "title": "CVE-2026-40217 - LiteLLM Arbitrary Code Execution Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-40217",
-      "summary": "CVE ID :CVE-2026-40217 Published : April 10, 2026, 2:16 p.m. | 5 hours, 2 minutes ago Description :LiteLLM through 2026-04-08 allows remote attackers to execute arbitrary code via bytecode rewriting...",
+      "summary": "CVE ID :CVE-2026-40217 Published : April 10, 2026, 2:16 p.m. | 7 hours, 37 minutes ago Description :LiteLLM through 2026-04-08 allows remote attackers to execute arbitrary code via bytecode rewriting...",
       "source": "CVE Feed",
       "published": "2026-04-10T14:16:36+00:00"
     },
     {
       "title": "CVE-2025-58913 - WordPress VideoPro theme <= 2.3.8.1 - Local File Inclusion vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2025-58913",
-      "summary": "CVE ID :CVE-2025-58913 Published : April 10, 2026, 2:16 p.m. | 5 hours, 3 minutes ago Description :Improper Control of Filename for Include/Require Statement in PHP Program ('PHP Remote File...",
+      "summary": "CVE ID :CVE-2025-58913 Published : April 10, 2026, 2:16 p.m. | 7 hours, 38 minutes ago Description :Improper Control of Filename for Include/Require Statement in PHP Program ('PHP Remote File...",
       "source": "CVE Feed",
       "published": "2026-04-10T14:16:25+00:00"
     },
@@ -224,13 +287,6 @@
       "summary": "Cybersecurity researchers have flagged yet another evolution of the ongoing GlassWorm campaign, which employs a new Zig dropper that's designed to stealthily infect all integrated development...",
       "source": "The Hacker News",
       "published": "2026-04-10T13:23:00+00:00"
-    },
-    {
-      "title": "CVE-2026-5412 - Juju CloudSpec API could leak senstive information",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-5412",
-      "summary": "CVE ID :CVE-2026-5412 Published : April 10, 2026, 1:16 p.m. | 6 hours, 2 minutes ago Description :In Juju versions prior to 2.9.57 and 3.6.21, an authorization issue exists in the Controller facade...",
-      "source": "CVE Feed",
-      "published": "2026-04-10T13:16:45+00:00"
     },
     {
       "title": "CPUID hacked to deliver malware via CPU-Z, HWMonitor downloads",
@@ -282,13 +338,6 @@
       "published": "2026-04-10T12:41:08+00:00"
     },
     {
-      "title": "CVE-2026-5777 - Security Misconfiguration Vulnerability in Atom 3x Projector",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-5777",
-      "summary": "CVE ID :CVE-2026-5777 Published : April 10, 2026, 12:16 p.m. | 7 hours, 3 minutes ago Description :This vulnerability exists in the Atom 3x Projector due to improper exposure of the Android Debug...",
-      "source": "CVE Feed",
-      "published": "2026-04-10T12:16:04+00:00"
-    },
-    {
       "title": "Critical Privilege Escalation in Checkmk: Root Access at Risk",
       "link": "https://securityonline.info/checkmk-cve-2025-39666-omd-privilege-escalation/",
       "summary": "Critical Privilege Escalation in Checkmk: Root Access at Risk A critical-severity security vulnerability has been identified in the Checkmk monitoring platform, potentially allowing local users to...",
@@ -329,13 +378,6 @@
       "summary": "Google says Gmail end-to-end encryption (E2EE) is now available on all Android and iOS devices, allowing enterprise users to read and compose emails without additional tools. [...]",
       "source": "BleepingComputer",
       "published": "2026-04-10T10:44:08+00:00"
-    },
-    {
-      "title": "CVE-2021-47961 - Synology SSL VPN Client Plaintext Password Storage Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2021-47961",
-      "summary": "CVE ID :CVE-2021-47961 Published : April 10, 2026, 10:16 a.m. | 9 hours, 3 minutes ago Description :A plaintext storage of a password vulnerability in Synology SSL VPN Client before 1.4.5-0684 allows...",
-      "source": "CVE Feed",
-      "published": "2026-04-10T10:16:03+00:00"
     },
     {
       "title": "MITRE Releases Fight Fraud Framework",
@@ -406,34 +448,6 @@
       "summary": "April 2026 Patch Tuesday forecast: Spring-cleaning of a preview I just blinked and the first quarter of the year is GONE. Where does the time go? I looked back at my article from last month where I...",
       "source": "CVE Newsroom",
       "published": "2026-04-10T07:22:04+00:00"
-    },
-    {
-      "title": "CVE-2026-6029 - Totolink A7100RU CGI cstecgi.cgi setVpnAccountCfg os command injection",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-6029",
-      "summary": "CVE ID :CVE-2026-6029 Published : April 10, 2026, 7:16 a.m. | 12 hours, 3 minutes ago Description :A vulnerability was detected in Totolink A7100RU 7.4cu.2313_b20191024. The affected element is the...",
-      "source": "CVE Feed",
-      "published": "2026-04-10T07:16:22+00:00"
-    },
-    {
-      "title": "CVE-2026-6028 - Totolink A7100RU CGI cstecgi.cgi setPptpServerCfg os command injection",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-6028",
-      "summary": "CVE ID :CVE-2026-6028 Published : April 10, 2026, 7:16 a.m. | 12 hours, 3 minutes ago Description :A security vulnerability has been detected in Totolink A7100RU 7.4cu.2313_b20191024. Impacted is the...",
-      "source": "CVE Feed",
-      "published": "2026-04-10T07:16:21+00:00"
-    },
-    {
-      "title": "CVE-2026-6027 - Totolink A7100RU CGI cstecgi.cgi setUrlFilterRules os command injection",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-6027",
-      "summary": "CVE ID :CVE-2026-6027 Published : April 10, 2026, 7:16 a.m. | 12 hours, 3 minutes ago Description :A weakness has been identified in Totolink A7100RU 7.4cu.2313_b20191024. This issue affects the...",
-      "source": "CVE Feed",
-      "published": "2026-04-10T07:16:21+00:00"
-    },
-    {
-      "title": "CVE-2026-6026 - Totolink A7100RU CGI cstecgi.cgi setPortalConfWeChat os command injection",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-6026",
-      "summary": "CVE ID :CVE-2026-6026 Published : April 10, 2026, 7:16 a.m. | 12 hours, 3 minutes ago Description :A security flaw has been discovered in Totolink A7100RU 7.4cu.2313_b20191024. This vulnerability...",
-      "source": "CVE Feed",
-      "published": "2026-04-10T07:16:21+00:00"
     },
     {
       "title": "GitLab Security Update Fixes High-Severity CVE-2026-5173, 11 Other Flaws",
@@ -660,25 +674,11 @@
       "published": "2026-04-09T10:40:00+00:00"
     },
     {
-      "title": "GitLab Patches Multiple Vulnerabilities That Enables DoS and Code Injection Attacks",
-      "link": "https://cybersecuritynews.com/gitlab-patches-multiple-vulnerabilities-2/",
-      "summary": "GitLab Patches Multiple Vulnerabilities That Enables DoS and Code Injection Attacks GitLab has released urgent security updates (versions 18.10.3, 18.9.5, and 18.8.9) for its Community Edition (CE)...",
-      "source": "CVE Newsroom",
-      "published": "2026-04-09T10:33:15+00:00"
-    },
-    {
       "title": "Eurail says December data breach impacts 300,000 individuals",
       "link": "https://www.bleepingcomputer.com/news/security/eurail-says-december-data-breach-impacts-300-000-individuals/",
       "summary": "Eurail B.V., a European travel operator that provides digital passes covering 33 national railways, says attackers stole the personal information of over 300,000 individuals in a December 2025 data...",
       "source": "BleepingComputer",
       "published": "2026-04-09T10:31:54+00:00"
-    },
-    {
-      "title": "Multiple SonicWall Vulnerabilities Enable SQL Injection and Privilege Escalation Attacks",
-      "link": "https://cybersecuritynews.com/sonicwall-vulnerabilities-sql-injection/",
-      "summary": "Multiple SonicWall Vulnerabilities Enable SQL Injection and Privilege Escalation Attacks SonicWall has released a critical security advisory addressing four vulnerabilities affecting its Secure...",
-      "source": "CVE Newsroom",
-      "published": "2026-04-09T10:23:27+00:00"
     },
     {
       "title": "Hackers exploiting Acrobat Reader zero-day flaw since December",
@@ -1332,13 +1332,6 @@
       "published": "2026-03-31T20:02:28+00:00"
     },
     {
-      "title": "AI and Quantum Are Forcing a Rethink of Digital Trust",
-      "link": "https://www.darkreading.com/cybersecurity-operations/ai-and-quantum-are-forcing-a-rethink-of-digital-trust",
-      "summary": "In a conversation with Dark Reading’s Terry Sweeney, DigiCert CEO Amit Sinha explains how AI-driven identities and quantum threats are reshaping the foundations of digital trust.",
-      "source": "Dark Reading",
-      "published": "2026-03-31T15:29:11+00:00"
-    },
-    {
       "title": "Anritsu Remote Spectrum Monitor",
       "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-090-01",
       "summary": "View CSAF Summary Successful exploitation of this vulnerability could allow attackers with network access to alter operational settings, obtain sensitive signal data, or disrupt device availability...",
@@ -1400,6 +1393,13 @@
       "summary": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation. CVE-2026-33017 Langflow Code Injection Vulnerability This type of...",
       "source": "CISA Alerts",
       "published": "2026-03-25T12:00:00+00:00"
+    },
+    {
+      "title": "Schneider Electric EcoStruxure Foxboro DCS",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-083-02",
+      "summary": "View CSAF Summary Schneider Electric is aware of a vulnerability in its EcoStruxure Foxboro DCS Control Software on Foxboro DCS workstations and servers. Control Core Services and all runtime...",
+      "source": "CISA Alerts",
+      "published": "2026-03-24T12:00:00+00:00"
     }
   ]
 }
