@@ -1,6 +1,76 @@
 {
-  "last_updated": "2026-04-13T16:25:24.677785+00:00",
+  "last_updated": "2026-04-13T18:23:18.646158+00:00",
   "articles": [
+    {
+      "title": "OpenAI rotates macOS certs after Axios attack hit code-signing workflow",
+      "link": "https://www.bleepingcomputer.com/news/security/openai-rotates-macos-certs-after-axios-attack-hit-code-signing-workflow/",
+      "summary": "OpenAI is rotating potentially exposed macOS code-signing certificates after a GitHub Actions workflow executed a malicious Axios package during a recent supply chain attack. [...]",
+      "source": "BleepingComputer",
+      "published": "2026-04-13T17:39:10+00:00"
+    },
+    {
+      "title": "New Booking.com data breach forces reservation PIN resets",
+      "link": "https://www.bleepingcomputer.com/news/security/new-bookingcom-data-breach-forces-reservation-pin-resets/",
+      "summary": "Booking.com has confirmed via a statement to BleepingComputer that it has detected unauthorized access to its systems that has exposed sensitive reservation and user data. [...]",
+      "source": "BleepingComputer",
+      "published": "2026-04-13T17:30:10+00:00"
+    },
+    {
+      "title": "FBI, Indonesia take down W3LL phishing tool",
+      "link": "https://therecord.media/phishing-takedown-indonesia-fbi",
+      "summary": "A widely used phishing tool that allowed hackers to create fake websites that looked like legitimate login portals for just $500 was disrupted by the FBI and law enforcement agencies in Indonesia.",
+      "source": "The Record",
+      "published": "2026-04-13T16:45:00+00:00"
+    },
+    {
+      "title": "CVE-2026-6186 - UTT HiPER 1200GW formNatStaticMap strcpy buffer overflow",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-6186",
+      "summary": "CVE ID :CVE-2026-6186 Published : April 13, 2026, 4:16 p.m. | 48 minutes ago Description :A security vulnerability has been detected in UTT HiPER 1200GW up to 2.5.3-170306. This vulnerability affects...",
+      "source": "CVE Feed",
+      "published": "2026-04-13T16:16:35+00:00"
+    },
+    {
+      "title": "CVE-2026-34186 - SQL Injection in Custom Fields leads to Database Compromise",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-34186",
+      "summary": "CVE ID :CVE-2026-34186 Published : April 13, 2026, 4:16 p.m. | 48 minutes ago Description :Improper Neutralization of Special Elements used in an SQL Command vulnerability allows SQL Injection via...",
+      "source": "CVE Feed",
+      "published": "2026-04-13T16:16:27+00:00"
+    },
+    {
+      "title": "CVE-2026-30813 - SQL Injection in Module Search leads to Database Compromise",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-30813",
+      "summary": "CVE ID :CVE-2026-30813 Published : April 13, 2026, 4:16 p.m. | 48 minutes ago Description :Improper Neutralization of Special Elements used in an SQL Command vulnerability allows SQL Injection via...",
+      "source": "CVE Feed",
+      "published": "2026-04-13T16:16:26+00:00"
+    },
+    {
+      "title": "CVE-2026-30811 - Missing Authorization in Configuration Ajax Endpoint leads to Information Disclosure",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-30811",
+      "summary": "CVE ID :CVE-2026-30811 Published : April 13, 2026, 4:16 p.m. | 48 minutes ago Description :Missing Authorization vulnerability allows Exposure of Sensitive Information via configuration endpoint...",
+      "source": "CVE Feed",
+      "published": "2026-04-13T16:16:25+00:00"
+    },
+    {
+      "title": "CVE-2026-30809 - OS Command Injection in WebServerModuleDebug via Blacklist Bypass leads to Remote Code Execution",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-30809",
+      "summary": "CVE ID :CVE-2026-30809 Published : April 13, 2026, 4:16 p.m. | 48 minutes ago Description :Improper Neutralization of Special Elements used in an OS Command vulnerability allows OS Command Injection...",
+      "source": "CVE Feed",
+      "published": "2026-04-13T16:16:25+00:00"
+    },
+    {
+      "title": "CVE-2026-30806 - OS Command Injection in Network Report leads to Remote Code Execution",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-30806",
+      "summary": "CVE ID :CVE-2026-30806 Published : April 13, 2026, 4:16 p.m. | 48 minutes ago Description :Improper Neutralization of Special Elements used in an OS Command vulnerability allows OS Command Injection...",
+      "source": "CVE Feed",
+      "published": "2026-04-13T16:16:25+00:00"
+    },
+    {
+      "title": "CVE-2026-30804 - Unrestricted File Upload in Extension Uploader leads to Remote Code Execution",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-30804",
+      "summary": "CVE ID :CVE-2026-30804 Published : April 13, 2026, 4:16 p.m. | 48 minutes ago Description :Unrestricted Upload of File with Dangerous Type vulnerability allows Remote Code Execution via file upload...",
+      "source": "CVE Feed",
+      "published": "2026-04-13T16:16:25+00:00"
+    },
     {
       "title": "Adobe rolls out emergency fix for Acrobat, Reader zero-day flaw",
       "link": "https://www.bleepingcomputer.com/news/security/adobe-rolls-out-emergency-fix-for-acrobat-reader-zero-day-flaw/",
@@ -9,9 +79,16 @@
       "published": "2026-04-13T15:37:05+00:00"
     },
     {
+      "title": "CVE-2026-33858 - Apache Airflow: Unsafe Deserialization via Legacy Serialization Keys (__type/__var) Bypass in XCom API",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-33858",
+      "summary": "CVE ID :CVE-2026-33858 Published : April 13, 2026, 3:17 p.m. | 1 hour, 47 minutes ago Description :Dag Authors, who normally should not be able to execute code in the webserver context could craft...",
+      "source": "CVE Feed",
+      "published": "2026-04-13T15:17:33+00:00"
+    },
+    {
       "title": "CVE-2026-1462 - Safe Mode Bypass in keras-team/keras",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-1462",
-      "summary": "CVE ID :CVE-2026-1462 Published : April 13, 2026, 3:17 p.m. | 38 minutes ago Description :A vulnerability in the `TFSMLayer` class of the `keras` package, version 3.13.0, allows attacker-controlled...",
+      "summary": "CVE ID :CVE-2026-1462 Published : April 13, 2026, 3:17 p.m. | 1 hour, 47 minutes ago Description :A vulnerability in the `TFSMLayer` class of the `keras` package, version 3.13.0, allows...",
       "source": "CVE Feed",
       "published": "2026-04-13T15:17:18+00:00"
     },
@@ -70,6 +147,13 @@
       "summary": "New \"Storm\" infostealer skips local decryption, sending browser data to attacker servers. Varonis shows how server-side decryption enables session hijacking, bypassing passwords and MFA. [...]",
       "source": "BleepingComputer",
       "published": "2026-04-13T14:05:15+00:00"
+    },
+    {
+      "title": "Log4j’s “Silent” Security Gap: New Advisories Warn of Data Loss and TLS Bypasses",
+      "link": "https://securityonline.info/log4j-2-vulnerabilities-silent-security-bypass-patch-2026/",
+      "summary": "Log4j’s “Silent” Security Gap: New Advisories Warn of Data Loss and TLS Bypasses The Apache Log4j 2 ecosystem is facing a fresh wave of security concerns as four new vulnerabilities have been...",
+      "source": "CVE Newsroom",
+      "published": "2026-04-13T14:03:19+00:00"
     },
     {
       "title": "BrowserGate: Claims of LinkedIn ‘Spying’ Clash With Security Research Findings",
@@ -135,6 +219,13 @@
       "published": "2026-04-13T12:02:16+00:00"
     },
     {
+      "title": "CISA Adds Seven Known Exploited Vulnerabilities to Catalog",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/04/13/cisa-adds-seven-known-exploited-vulnerabilities-catalog",
+      "summary": "CISA has added seven new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation. CVE-2012-1854 Microsoft Visual Basic for Applications Insecure...",
+      "source": "CISA Alerts",
+      "published": "2026-04-13T12:00:00+00:00"
+    },
+    {
       "title": "Adobe finally patches PDF pest after months of abuse",
       "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/13/adobe_reader_zeroday/",
       "summary": "Adobe finally patches PDF pest after months of abuse Adobe has released a fix for an Acrobat and Reader zero-day that attackers had been exploiting for months. The patch, shipped on April 11...",
@@ -158,7 +249,7 @@
     {
       "title": "CVE-2026-6204 - LibreNMS Remote Code Execution Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-6204",
-      "summary": "CVE ID :CVE-2026-6204 Published : April 13, 2026, 11:16 a.m. | 4 hours, 39 minutes ago Description :LibreNMS versions before 26.3.0 are affected by an authenticated remote code execution...",
+      "summary": "CVE ID :CVE-2026-6204 Published : April 13, 2026, 11:16 a.m. | 5 hours, 48 minutes ago Description :LibreNMS versions before 26.3.0 are affected by an authenticated remote code execution...",
       "source": "CVE Feed",
       "published": "2026-04-13T11:16:06+00:00"
     },
@@ -172,7 +263,7 @@
     {
       "title": "CVE-2026-35337 - Apache Storm Client: RCE through Unsafe Deserialization via Kerberos TGT Credential Handling",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-35337",
-      "summary": "CVE ID :CVE-2026-35337 Published : April 13, 2026, 10:16 a.m. | 5 hours, 39 minutes ago Description :Deserialization of Untrusted Data vulnerability in Apache Storm. Versions Affected: before 2.8.6...",
+      "summary": "CVE ID :CVE-2026-35337 Published : April 13, 2026, 10:16 a.m. | 6 hours, 48 minutes ago Description :Deserialization of Untrusted Data vulnerability in Apache Storm. Versions Affected: before 2.8.6...",
       "source": "CVE Feed",
       "published": "2026-04-13T10:16:11+00:00"
     },
@@ -193,7 +284,7 @@
     {
       "title": "CVE-2026-4810 - Remote Code Execution in Google Agent Development Kit (ADK)",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-4810",
-      "summary": "CVE ID :CVE-2026-4810 Published : April 13, 2026, 9:16 a.m. | 6 hours, 39 minutes ago Description :A Code Injection and Missing Authentication vulnerability in Google Agent Development Kit (ADK)...",
+      "summary": "CVE ID :CVE-2026-4810 Published : April 13, 2026, 9:16 a.m. | 7 hours, 48 minutes ago Description :A Code Injection and Missing Authentication vulnerability in Google Agent Development Kit (ADK)...",
       "source": "CVE Feed",
       "published": "2026-04-13T09:16:08+00:00"
     },
@@ -249,35 +340,35 @@
     {
       "title": "CVE-2026-6168 - TOTOLINK A7000R cstecgi.cgi setWiFiEasyGuestCfg stack-based overflow",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-6168",
-      "summary": "CVE ID :CVE-2026-6168 Published : April 13, 2026, 7:16 a.m. | 8 hours, 39 minutes ago Description :A flaw has been found in TOTOLINK A7000R up to 9.1.0u.6115. The affected element is the function...",
+      "summary": "CVE ID :CVE-2026-6168 Published : April 13, 2026, 7:16 a.m. | 9 hours, 47 minutes ago Description :A flaw has been found in TOTOLINK A7000R up to 9.1.0u.6115. The affected element is the function...",
       "source": "CVE Feed",
       "published": "2026-04-13T07:16:51+00:00"
     },
     {
       "title": "CVE-2026-5936 - Server-Side Request Forgery (SSRF) via URL Parameter in Foxit PDF Services API",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-5936",
-      "summary": "CVE ID :CVE-2026-5936 Published : April 13, 2026, 7:16 a.m. | 8 hours, 39 minutes ago Description :An attacker can control a server-side HTTP request by supplying a crafted URL, causing the server to...",
+      "summary": "CVE ID :CVE-2026-5936 Published : April 13, 2026, 7:16 a.m. | 9 hours, 47 minutes ago Description :An attacker can control a server-side HTTP request by supplying a crafted URL, causing the server to...",
       "source": "CVE Feed",
       "published": "2026-04-13T07:16:50+00:00"
     },
     {
       "title": "CVE-2026-5085 - Solstice::Session versions through 1440 for Perl generates session ids insecurely",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-5085",
-      "summary": "CVE ID :CVE-2026-5085 Published : April 13, 2026, 7:16 a.m. | 8 hours, 39 minutes ago Description :Solstice::Session versions through 1440 for Perl generates session ids insecurely. The...",
+      "summary": "CVE ID :CVE-2026-5085 Published : April 13, 2026, 7:16 a.m. | 9 hours, 47 minutes ago Description :Solstice::Session versions through 1440 for Perl generates session ids insecurely. The...",
       "source": "CVE Feed",
       "published": "2026-04-13T07:16:50+00:00"
     },
     {
       "title": "CVE-2026-3830 - Product Filter for WooCommerce by WBW < 3.1.3 - Unauthenticated SQLi",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-3830",
-      "summary": "CVE ID :CVE-2026-3830 Published : April 13, 2026, 7:16 a.m. | 8 hours, 39 minutes ago Description :The Product Filter for WooCommerce by WBW WordPress plugin before 3.1.3 does not sanitize and escape...",
+      "summary": "CVE ID :CVE-2026-3830 Published : April 13, 2026, 7:16 a.m. | 9 hours, 47 minutes ago Description :The Product Filter for WooCommerce by WBW WordPress plugin before 3.1.3 does not sanitize and escape...",
       "source": "CVE Feed",
       "published": "2026-04-13T07:16:50+00:00"
     },
     {
       "title": "CVE-2026-34865 - Apache Web Out-of-Bounds Write Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-34865",
-      "summary": "CVE ID :CVE-2026-34865 Published : April 13, 2026, 7:16 a.m. | 8 hours, 39 minutes ago Description :Out-of-bounds write vulnerability in the WEB module.Impact: Successful exploitation of this...",
+      "summary": "CVE ID :CVE-2026-34865 Published : April 13, 2026, 7:16 a.m. | 9 hours, 47 minutes ago Description :Out-of-bounds write vulnerability in the WEB module.Impact: Successful exploitation of this...",
       "source": "CVE Feed",
       "published": "2026-04-13T07:16:49+00:00"
     },
@@ -298,49 +389,49 @@
     {
       "title": "CVE-2026-35553 - Dynabook Inc. Bluetooth ACPI Driver Stack-Based Buffer Overflow Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-35553",
-      "summary": "CVE ID :CVE-2026-35553 Published : April 13, 2026, 5:16 a.m. | 10 hours, 39 minutes ago Description :Bluetooth ACPI Drivers provided by Dynabook Inc. contain a stack-based buffer overflow...",
+      "summary": "CVE ID :CVE-2026-35553 Published : April 13, 2026, 5:16 a.m. | 11 hours, 48 minutes ago Description :Bluetooth ACPI Drivers provided by Dynabook Inc. contain a stack-based buffer overflow...",
       "source": "CVE Feed",
       "published": "2026-04-13T05:16:04+00:00"
     },
     {
       "title": "CVE-2026-25208 - Samsung Open Source Escargot Integer Overflow Buffer Overflow",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-25208",
-      "summary": "CVE ID :CVE-2026-25208 Published : April 13, 2026, 5:16 a.m. | 10 hours, 39 minutes ago Description :Integer overflow vulnerability in Samsung Open Source Escargot allows Overflow Buffers.This issue...",
+      "summary": "CVE ID :CVE-2026-25208 Published : April 13, 2026, 5:16 a.m. | 11 hours, 48 minutes ago Description :Integer overflow vulnerability in Samsung Open Source Escargot allows Overflow Buffers.This issue...",
       "source": "CVE Feed",
       "published": "2026-04-13T05:16:02+00:00"
     },
     {
       "title": "CVE-2026-25205 - Samsung Open Source Escargot Heap-based Buffer Overflow",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-25205",
-      "summary": "CVE ID :CVE-2026-25205 Published : April 13, 2026, 5:16 a.m. | 10 hours, 39 minutes ago Description :Heap-based buffer overflow vulnerability in Samsung Open Source Escargot allows out-of-bounds...",
+      "summary": "CVE ID :CVE-2026-25205 Published : April 13, 2026, 5:16 a.m. | 11 hours, 48 minutes ago Description :Heap-based buffer overflow vulnerability in Samsung Open Source Escargot allows out-of-bounds...",
       "source": "CVE Feed",
       "published": "2026-04-13T05:16:02+00:00"
     },
     {
       "title": "CVE-2026-6157 - Totolink A800R app.so setAppEasyWizardConfig buffer overflow",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-6157",
-      "summary": "CVE ID :CVE-2026-6157 Published : April 13, 2026, 4:16 a.m. | 11 hours, 39 minutes ago Description :A vulnerability was detected in Totolink A800R 4.1.2cu.5137_B20200730. This impacts the function...",
+      "summary": "CVE ID :CVE-2026-6157 Published : April 13, 2026, 4:16 a.m. | 12 hours, 48 minutes ago Description :A vulnerability was detected in Totolink A800R 4.1.2cu.5137_B20200730. This impacts the function...",
       "source": "CVE Feed",
       "published": "2026-04-13T04:16:16+00:00"
     },
     {
       "title": "CVE-2026-6156 - Totolink A7100RU CGI cstecgi.cgi setIpQosRules os command injection",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-6156",
-      "summary": "CVE ID :CVE-2026-6156 Published : April 13, 2026, 4:16 a.m. | 11 hours, 39 minutes ago Description :A security vulnerability has been detected in Totolink A7100RU 7.4cu.2313_b20191024. This affects...",
+      "summary": "CVE ID :CVE-2026-6156 Published : April 13, 2026, 4:16 a.m. | 12 hours, 48 minutes ago Description :A security vulnerability has been detected in Totolink A7100RU 7.4cu.2313_b20191024. This affects...",
       "source": "CVE Feed",
       "published": "2026-04-13T04:16:15+00:00"
     },
     {
       "title": "CVE-2026-6155 - Totolink A7100RU CGI cstecgi.cgi setWanCfg os command injection",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-6155",
-      "summary": "CVE ID :CVE-2026-6155 Published : April 13, 2026, 4:16 a.m. | 11 hours, 39 minutes ago Description :A weakness has been identified in Totolink A7100RU 7.4cu.2313. The impacted element is the function...",
+      "summary": "CVE ID :CVE-2026-6155 Published : April 13, 2026, 4:16 a.m. | 12 hours, 48 minutes ago Description :A weakness has been identified in Totolink A7100RU 7.4cu.2313. The impacted element is the function...",
       "source": "CVE Feed",
       "published": "2026-04-13T04:16:15+00:00"
     },
     {
       "title": "CVE-2026-6154 - Totolink A7100RU CGI cstecgi.cgi setWizardCfg os command injection",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-6154",
-      "summary": "CVE ID :CVE-2026-6154 Published : April 13, 2026, 4:16 a.m. | 11 hours, 39 minutes ago Description :A security flaw has been discovered in Totolink A7100RU 7.4cu.2313_b20191024. The affected element...",
+      "summary": "CVE ID :CVE-2026-6154 Published : April 13, 2026, 4:16 a.m. | 12 hours, 48 minutes ago Description :A security flaw has been discovered in Totolink A7100RU 7.4cu.2313_b20191024. The affected element...",
       "source": "CVE Feed",
       "published": "2026-04-13T04:16:14+00:00"
     },
@@ -368,14 +459,7 @@
     {
       "title": "CVE-2026-6140 - Totolink A7100RU CGI cstecgi.cgi UploadFirmwareFile os command injection",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-6140",
-      "summary": "CVE ID :CVE-2026-6140 Published : April 13, 2026, 1:16 a.m. | 14 hours, 39 minutes ago Description :A vulnerability was found in Totolink A7100RU 7.4cu.2313_b20191024. This impacts the function...",
-      "source": "CVE Feed",
-      "published": "2026-04-13T01:16:35+00:00"
-    },
-    {
-      "title": "CVE-2026-6139 - Totolink A7100RU CGI cstecgi.cgi UploadOpenVpnCert os command injection",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-6139",
-      "summary": "CVE ID :CVE-2026-6139 Published : April 13, 2026, 1:16 a.m. | 14 hours, 39 minutes ago Description :A vulnerability has been found in Totolink A7100RU 7.4cu.2313_b20191024. This affects the function...",
+      "summary": "CVE ID :CVE-2026-6140 Published : April 13, 2026, 1:16 a.m. | 15 hours, 48 minutes ago Description :A vulnerability was found in Totolink A7100RU 7.4cu.2313_b20191024. This impacts the function...",
       "source": "CVE Feed",
       "published": "2026-04-13T01:16:35+00:00"
     },
@@ -385,55 +469,6 @@
       "summary": "Encryption Bypasses and Kubernetes Token Leaks Hit Apache Tomcat Apache Tomcat, the open-source backbone for millions of Java-based web applications, has been hit by a wave of security disclosures. A...",
       "source": "CVE Newsroom",
       "published": "2026-04-13T01:00:46+00:00"
-    },
-    {
-      "title": "CVE-2026-6138 - Totolink A7100RU CGI cstecgi.cgi setAccessDeviceCfg os command injection",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-6138",
-      "summary": "CVE ID :CVE-2026-6138 Published : April 13, 2026, 12:16 a.m. | 15 hours, 39 minutes ago Description :A flaw has been found in Totolink A7100RU 7.4cu.2313_b20191024. The impacted element is the...",
-      "source": "CVE Feed",
-      "published": "2026-04-13T00:16:21+00:00"
-    },
-    {
-      "title": "CVE-2026-6137 - Tenda F451 AdvSetWan fromAdvSetWan stack-based overflow",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-6137",
-      "summary": "CVE ID :CVE-2026-6137 Published : April 13, 2026, 12:16 a.m. | 15 hours, 39 minutes ago Description :A vulnerability was detected in Tenda F451 1.0.0.7_cn_svn7958. The affected element is the...",
-      "source": "CVE Feed",
-      "published": "2026-04-13T00:16:21+00:00"
-    },
-    {
-      "title": "CVE-2026-6136 - Tenda F451 L7Im frmL7ImForm stack-based overflow",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-6136",
-      "summary": "CVE ID :CVE-2026-6136 Published : April 13, 2026, 12:16 a.m. | 15 hours, 39 minutes ago Description :A security vulnerability has been detected in Tenda F451 1.0.0.7_cn_svn7958. Impacted is the...",
-      "source": "CVE Feed",
-      "published": "2026-04-13T00:16:21+00:00"
-    },
-    {
-      "title": "CVE-2026-6135 - Tenda F451 SetIpBind fromSetIpBind stack-based overflow",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-6135",
-      "summary": "CVE ID :CVE-2026-6135 Published : April 13, 2026, 12:16 a.m. | 15 hours, 39 minutes ago Description :A weakness has been identified in Tenda F451 1.0.0.7_cn_svn7958. This issue affects the function...",
-      "source": "CVE Feed",
-      "published": "2026-04-13T00:16:20+00:00"
-    },
-    {
-      "title": "CVE-2026-6134 - Tenda F451 qossetting fromqossetting stack-based overflow",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-6134",
-      "summary": "CVE ID :CVE-2026-6134 Published : April 12, 2026, 11:16 p.m. | 16 hours, 39 minutes ago Description :A security flaw has been discovered in Tenda F451 1.0.0.7_cn_svn7958. This vulnerability affects...",
-      "source": "CVE Feed",
-      "published": "2026-04-12T23:16:26+00:00"
-    },
-    {
-      "title": "CVE-2026-6133 - Tenda F451 SafeUrlFilter fromSafeUrlFilter stack-based overflow",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-6133",
-      "summary": "CVE ID :CVE-2026-6133 Published : April 12, 2026, 11:16 p.m. | 16 hours, 39 minutes ago Description :A vulnerability was identified in Tenda F451 1.0.0.7_cn_svn7958. This affects the function...",
-      "source": "CVE Feed",
-      "published": "2026-04-12T23:16:26+00:00"
-    },
-    {
-      "title": "CVE-2026-6132 - Totolink A7100RU CGI cstecgi.cgi setLedCfg os command injection",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-6132",
-      "summary": "CVE ID :CVE-2026-6132 Published : April 12, 2026, 11:16 p.m. | 16 hours, 39 minutes ago Description :A vulnerability was determined in Totolink A7100RU 7.4cu.2313_b20191024. Affected by this issue is...",
-      "source": "CVE Feed",
-      "published": "2026-04-12T23:16:25+00:00"
     },
     {
       "title": "Hack at Dutch gym chain Basic-Fit exposes customer data in several EU countries",
@@ -455,13 +490,6 @@
       "summary": "A critical pre-authentication remote code execution (RCE) vulnerability in Marimo is now under active exploitation, leveraged for credential theft. [...]",
       "source": "BleepingComputer",
       "published": "2026-04-12T14:20:31+00:00"
-    },
-    {
-      "title": "Week in review: Windows zero-day exploit leaked, Patch Tuesday forecast",
-      "link": "https://www.helpnetsecurity.com/2026/04/12/week-in-review-windows-zero-day-exploit-leaked-patch-tuesday-forecast/",
-      "summary": "Week in review: Windows zero-day exploit leaked, Patch Tuesday forecast Here’s an overview of some of last week’s most interesting news, articles, interviews and videos: Cloudflare moves up its...",
-      "source": "CVE Newsroom",
-      "published": "2026-04-12T08:00:55+00:00"
     },
     {
       "title": "Adobe Patches Reader Zero-Day Exploited for Months",
@@ -532,13 +560,6 @@
       "summary": "A U.K. communications regulator, Ofcom, has said it will be cracking down on the spread of the images in the aftermath of the Grok scandal, which led to millions of “nudified” images of women and...",
       "source": "The Record",
       "published": "2026-04-10T17:35:00+00:00"
-    },
-    {
-      "title": "‘It reads like a spy novel’: $280 million theft from Drift involved North Korean fake companies, cutouts",
-      "link": "https://therecord.media/drift-crypto-theft-post-mortem-north-korea",
-      "summary": "Drift officials said the operation began six months ago, when they were approached at a cryptocurrency conference by members of a company claiming to focus on quantitative trading.",
-      "source": "The Record",
-      "published": "2026-04-10T17:33:00+00:00"
     },
     {
       "title": "Nearly 4,000 US industrial devices exposed to Iranian cyberattacks",
@@ -688,13 +709,6 @@
       "published": "2026-04-09T19:46:44+00:00"
     },
     {
-      "title": "Google Chrome adds infostealer protection against session cookie theft",
-      "link": "https://www.bleepingcomputer.com/news/security/google-chrome-adds-infostealer-protection-against-session-cookie-theft/",
-      "summary": "Google has rolled out Device Bound Session Credentials (DBSC) protection in Chrome 146 for Windows, designed to block info-stealing malware from harvesting session cookies. [...]",
-      "source": "BleepingComputer",
-      "published": "2026-04-09T18:33:29+00:00"
-    },
-    {
       "title": "Do Ceasefires Slow Cyberattacks? History Suggests Not",
       "link": "https://www.darkreading.com/cybersecurity-analytics/ceasefires-slow-cyberattacks-history",
       "summary": "The cybersecurity community is waiting with bated breath to see if Iranian hackers will honor a ceasefire that doesn't actually name or directly involve them.",
@@ -714,13 +728,6 @@
       "summary": "A previously undocumented threat cluster dubbed UAT-10362 has been attributed to spear-phishing campaigns targeting Taiwanese non-governmental organizations (NGOs) and suspected universities to...",
       "source": "The Hacker News",
       "published": "2026-04-09T16:23:00+00:00"
-    },
-    {
-      "title": "Smart Slider updates hijacked to push malicious WordPress, Joomla versions",
-      "link": "https://www.bleepingcomputer.com/news/security/smart-slider-updates-hijacked-to-push-malicious-wordpress-joomla-versions/",
-      "summary": "Hackers hijacked the update system for the Smart Slider 3 Pro plugin for WordPress and Joomla, and pushed a malicious version with multiple backdoors. [...]",
-      "source": "BleepingComputer",
-      "published": "2026-04-09T16:15:26+00:00"
     },
     {
       "title": "ThreatsDay Bulletin: Hybrid P2P Botnet, 13-Year-Old Apache RCE and 18 More Stories",
@@ -1339,16 +1346,16 @@
       "published": "2026-03-31T20:26:33+00:00"
     },
     {
-      "title": "Anritsu Remote Spectrum Monitor",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-090-01",
-      "summary": "View CSAF Summary Successful exploitation of this vulnerability could allow attackers with network access to alter operational settings, obtain sensitive signal data, or disrupt device availability...",
+      "title": "PX4 Autopilot",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-090-02",
+      "summary": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker with access to the MAVLink interface to execute arbitrary shell commands without cryptographic authentication...",
       "source": "CISA Alerts",
       "published": "2026-03-31T12:00:00+00:00"
     },
     {
-      "title": "PX4 Autopilot",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-090-02",
-      "summary": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker with access to the MAVLink interface to execute arbitrary shell commands without cryptographic authentication...",
+      "title": "Anritsu Remote Spectrum Monitor",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-090-01",
+      "summary": "View CSAF Summary Successful exploitation of this vulnerability could allow attackers with network access to alter operational settings, obtain sensitive signal data, or disrupt device availability...",
       "source": "CISA Alerts",
       "published": "2026-03-31T12:00:00+00:00"
     },
@@ -1365,13 +1372,6 @@
       "summary": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation. CVE-2025-53521 F5 BIG-IP Remote Code Execution Vulnerability This...",
       "source": "CISA Alerts",
       "published": "2026-03-27T12:00:00+00:00"
-    },
-    {
-      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-      "link": "https://www.cisa.gov/news-events/alerts/2026/03/26/cisa-adds-one-known-exploited-vulnerability-catalog",
-      "summary": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation. CVE-2026-33634 Aqua Security Trivy Embedded Malicious Code...",
-      "source": "CISA Alerts",
-      "published": "2026-03-26T12:00:00+00:00"
     },
     {
       "title": "PTC Windchill Product Lifecycle Management",
@@ -1396,10 +1396,10 @@
     },
     {
       "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-      "link": "https://www.cisa.gov/news-events/alerts/2026/03/25/cisa-adds-one-known-exploited-vulnerability-catalog",
-      "summary": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation. CVE-2026-33017 Langflow Code Injection Vulnerability This type of...",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/03/26/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "summary": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation. CVE-2026-33634 Aqua Security Trivy Embedded Malicious Code...",
       "source": "CISA Alerts",
-      "published": "2026-03-25T12:00:00+00:00"
+      "published": "2026-03-26T12:00:00+00:00"
     }
   ]
 }
