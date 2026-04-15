@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-15T10:27:03.940814+00:00",
+  "last_updated": "2026-04-15T12:17:39.126762+00:00",
   "articles": [
     {
       "title": "Big tech fails to opt-out users requesting not to be tracked much of the time, new research says",
@@ -9,9 +9,44 @@
       "published": "2026-04-16T00:44:00+00:00"
     },
     {
+      "title": "Mirax RAT Targeting Android Users in Europe",
+      "link": "https://www.securityweek.com/mirax-rat-targeting-android-users-in-europe/",
+      "summary": "Offered as a MaaS to a small number of affiliates, mainly Russian speakers, the RAT can turn devices into residential proxy nodes. The post Mirax RAT Targeting Android Users in Europe appeared first...",
+      "source": "SecurityWeek",
+      "published": "2026-04-15T12:10:08+00:00"
+    },
+    {
+      "title": "Microsoft, Salesforce Patch AI Agent Data Leak Flaws",
+      "link": "https://www.darkreading.com/cloud-security/microsoft-salesforce-patch-ai-agent-data-leak-flaws",
+      "summary": "Two recently fixed prompt injections in Salesforce Agentforce and Microsoft Copilot would have enabled an external attacker to leak sensitive data.",
+      "source": "Dark Reading",
+      "published": "2026-04-15T12:00:00+00:00"
+    },
+    {
+      "title": "Microsoft: April updates trigger BitLocker key prompts on some servers",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-some-windows-servers-ask-for-bitlocker-key-after-april-updates/",
+      "summary": "Microsoft confirmed on Tuesday that some Windows Server 2025 devices will boot into BitLocker recovery after installing the April 2026 KB5082063 Windows security update. [...]",
+      "source": "BleepingComputer",
+      "published": "2026-04-15T11:41:35+00:00"
+    },
+    {
+      "title": "Two Vulnerabilities Patched in Ivanti Neurons for ITSM",
+      "link": "https://www.securityweek.com/two-vulnerabilities-patched-in-ivanti-neurons-for-itsm/",
+      "summary": "The flaws could allow a remote attacker to maintain access after their account has been disabled and to access information from other user sessions. The post Two Vulnerabilities Patched in Ivanti...",
+      "source": "SecurityWeek",
+      "published": "2026-04-15T11:38:21+00:00"
+    },
+    {
+      "title": "$10 Domain Could Have Handed Hackers 25k Endpoints, Including in OT and Gov Networks",
+      "link": "https://www.securityweek.com/10-domain-could-have-handed-hackers-25k-endpoints-including-in-ot-and-gov-networks/",
+      "summary": "Researchers found adware capable of killing cybersecurity products and pushing more dangerous payloads to infected systems. The post $10 Domain Could Have Handed Hackers 25k Endpoints, Including in...",
+      "source": "SecurityWeek",
+      "published": "2026-04-15T10:58:12+00:00"
+    },
+    {
       "title": "Trump Urges Extending Foreign Surveillance Program as Some Lawmakers Push for US Privacy Protections",
       "link": "https://www.securityweek.com/trump-urges-extending-foreign-surveillance-program-as-some-lawmakers-push-for-us-privacy-protections/",
-      "summary": "Congress is set to take up the reauthorization of a divisive program that lets U.S. spy agencies pore over foreigners’ calls, texts and emails, with supporters like President Donald Trump saying it...",
+      "summary": "Congress is set to take up the reauthorization of a divisive program that lets U.S. spy agencies pore over foreigners’ calls, texts and emails. The post Trump Urges Extending Foreign Surveillance...",
       "source": "SecurityWeek",
       "published": "2026-04-15T10:25:56+00:00"
     },
@@ -23,11 +58,74 @@
       "published": "2026-04-15T10:24:53+00:00"
     },
     {
+      "title": "CVE-2026-33807 - @fastify/express vulnerable to middleware path doubling causing authentication bypass in child plugin scopes",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-33807",
+      "summary": "CVE ID :CVE-2026-33807 Published : April 15, 2026, 9:52 a.m. | 43 minutes ago Description :@fastify/express v4.0.4 and earlier contains a path handling bug in the onRegister function that causes...",
+      "source": "CVE Feed",
+      "published": "2026-04-15T09:52:26+00:00"
+    },
+    {
       "title": "Fortinet Patches Critical FortiSandbox Vulnerabilities",
       "link": "https://www.securityweek.com/fortinet-patches-critical-fortisandbox-vulnerabilities/",
       "summary": "The flaws could allow attackers to bypass authentication or execute arbitrary code or commands via HTTP requests. The post Fortinet Patches Critical FortiSandbox Vulnerabilities appeared first on...",
       "source": "SecurityWeek",
       "published": "2026-04-15T09:37:24+00:00"
+    },
+    {
+      "title": "CVE-2026-33808 - @fastify/express vulnerable to middleware authentication bypass via URL normalization gaps (duplicate slashes and semicolons)",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-33808",
+      "summary": "CVE ID :CVE-2026-33808 Published : April 15, 2026, 9:29 a.m. | 1 hour, 5 minutes ago Description :Impact@fastify/express v4.0.4 and earlier fails to normalize URLs before passing them to Express...",
+      "source": "CVE Feed",
+      "published": "2026-04-15T09:29:46+00:00"
+    },
+    {
+      "title": "CVE-2026-3505 - Unbounded PGP AEAD chunk size leads to pre-auth resource exhaustion.",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-3505",
+      "summary": "CVE ID :CVE-2026-3505 Published : April 15, 2026, 9:06 a.m. | 1 hour, 28 minutes ago Description :Allocation of resources without limits or throttling vulnerability in Legion of the Bouncy Castle...",
+      "source": "CVE Feed",
+      "published": "2026-04-15T09:06:37+00:00"
+    },
+    {
+      "title": "CVE-2026-5588 - PKIX draft CompositeVerifier accepts empty signature sequence as valid.",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-5588",
+      "summary": "CVE ID :CVE-2026-5588 Published : April 15, 2026, 9:06 a.m. | 1 hour, 29 minutes ago Description :: Use of a Broken or Risky Cryptographic Algorithm vulnerability in Legion of the Bouncy Castle Inc...",
+      "source": "CVE Feed",
+      "published": "2026-04-15T09:06:15+00:00"
+    },
+    {
+      "title": "Windows BitLocker Vulnerability Allows Attacker to Bypass Security Feature",
+      "link": "https://cybersecuritynews.com/windows-bitlocker-security-vulnerability/",
+      "summary": "Windows BitLocker Vulnerability Allows Attacker to Bypass Security Feature Microsoft officially released security updates to address a significant vulnerability in Windows BitLocker. Tracked as...",
+      "source": "CVE Newsroom",
+      "published": "2026-04-15T09:06:01+00:00"
+    },
+    {
+      "title": "CVE-2026-5598 - Non-constant time comparisons risk private key leakage in FrodoKEM.",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-5598",
+      "summary": "CVE ID :CVE-2026-5598 Published : April 15, 2026, 9:05 a.m. | 1 hour, 29 minutes ago Description :Covert timing channel vulnerability in Legion of the Bouncy Castle Inc. BC-JAVA core on all (core...",
+      "source": "CVE Feed",
+      "published": "2026-04-15T09:05:56+00:00"
+    },
+    {
+      "title": "CVE-2026-0636 - LDAP Injection Vulnerability in LDAPStoreHelper.java",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-0636",
+      "summary": "CVE ID :CVE-2026-0636 Published : April 15, 2026, 8:59 a.m. | 1 hour, 36 minutes ago Description :Improper neutralization of special elements used in an LDAP query ('LDAP injection') vulnerability in...",
+      "source": "CVE Feed",
+      "published": "2026-04-15T08:59:12+00:00"
+    },
+    {
+      "title": "Microsoft dicht actief aangevallen spoofinglek in SharePoint Server",
+      "link": "https://www.security.nl/posting/932764/Microsoft+dicht+actief+aangevallen+spoofinglek+in+SharePoint+Server?channel=rss",
+      "summary": "Microsoft dicht actief aangevallen spoofinglek in SharePoint Server Tijdens de patchdinsdag van april heeft Microsoft een actief aangevallen spoofinglek in SharePoint Server gedicht. De kwetsbaarheid...",
+      "source": "CVE Newsroom",
+      "published": "2026-04-15T08:56:41+00:00"
+    },
+    {
+      "title": "CVE-2025-14813 - GOSTCTR implementation unable to process more than 255 blocks correctly",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2025-14813",
+      "summary": "CVE ID :CVE-2025-14813 Published : April 15, 2026, 8:56 a.m. | 1 hour, 39 minutes ago Description :Use of a Broken or Risky Cryptographic Algorithm vulnerability in Legion of the Bouncy Castle Inc...",
+      "source": "CVE Feed",
+      "published": "2026-04-15T08:56:34+00:00"
     },
     {
       "title": "Microsoft Issues Patches for SharePoint Zero-Day and 168 Other New Vulnerabilities",
@@ -37,16 +135,23 @@
       "published": "2026-04-15T08:40:00+00:00"
     },
     {
+      "title": "Ivanti Neurons ITSM Vulnerabilities Could Allow Session Persistence",
+      "link": "https://thecyberexpress.com/itsm-vulnerabilities-ivanti/",
+      "summary": "Ivanti Neurons ITSM Vulnerabilities Could Allow Session Persistence A newly disclosed set of ITSM vulnerabilities in Ivanti Neurons has been reported. The flaws could allow attackers to retain access...",
+      "source": "CVE Newsroom",
+      "published": "2026-04-15T08:38:40+00:00"
+    },
+    {
       "title": "CVE-2025-40899 - Stored Cross-Site Scripting (XSS) in Assets and Nodes in Guardian/CMC before 26.0.0",
       "link": "https://cvefeed.io/vuln/detail/CVE-2025-40899",
-      "summary": "CVE ID :CVE-2025-40899 Published : April 15, 2026, 8:18 a.m. | 49 minutes ago Description :A Stored Cross-Site Scripting vulnerability was discovered in the Assets and Nodes functionality due to...",
+      "summary": "CVE ID :CVE-2025-40899 Published : April 15, 2026, 8:18 a.m. | 2 hours, 16 minutes ago Description :A Stored Cross-Site Scripting vulnerability was discovered in the Assets and Nodes functionality...",
       "source": "CVE Feed",
       "published": "2026-04-15T08:18:36+00:00"
     },
     {
       "title": "CVE-2025-40897 - Incorrect authorization for Threat Intelligence in Guardian/CMC before 26.0.0",
       "link": "https://cvefeed.io/vuln/detail/CVE-2025-40897",
-      "summary": "CVE ID :CVE-2025-40897 Published : April 15, 2026, 8:18 a.m. | 50 minutes ago Description :An access control vulnerability was discovered in the Threat Intelligence functionality due to a specific...",
+      "summary": "CVE ID :CVE-2025-40897 Published : April 15, 2026, 8:18 a.m. | 2 hours, 17 minutes ago Description :An access control vulnerability was discovered in the Threat Intelligence functionality due to a...",
       "source": "CVE Feed",
       "published": "2026-04-15T08:18:05+00:00"
     },
@@ -88,7 +193,7 @@
     {
       "title": "CVE-2026-1555 - WebStack <= 1.2024 - Unauthenticated Arbitrary File Upload",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-1555",
-      "summary": "CVE ID :CVE-2026-1555 Published : April 15, 2026, 3:37 a.m. | 5 hours, 31 minutes ago Description :The WebStack theme for WordPress is vulnerable to arbitrary file uploads due to missing file type...",
+      "summary": "CVE ID :CVE-2026-1555 Published : April 15, 2026, 3:37 a.m. | 6 hours, 58 minutes ago Description :The WebStack theme for WordPress is vulnerable to arbitrary file uploads due to missing file type...",
       "source": "CVE Feed",
       "published": "2026-04-15T03:37:20+00:00"
     },
@@ -102,7 +207,7 @@
     {
       "title": "CVE-2026-6328 - XQUIC Improper STREAM Frame Validation in Initial/Handshake Packets",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-6328",
-      "summary": "CVE ID :CVE-2026-6328 Published : April 15, 2026, 3:18 a.m. | 5 hours, 50 minutes ago Description :Improper input validation, Improper verification of cryptographic signature vulnerability in XQUIC...",
+      "summary": "CVE ID :CVE-2026-6328 Published : April 15, 2026, 3:18 a.m. | 7 hours, 17 minutes ago Description :Improper input validation, Improper verification of cryptographic signature vulnerability in XQUIC...",
       "source": "CVE Feed",
       "published": "2026-04-15T03:18:10+00:00"
     },
@@ -137,7 +242,7 @@
     {
       "title": "CVE-2026-40499 - radare2 < 6.1.4 Command Injection via PDB Parser print_gvars()",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-40499",
-      "summary": "CVE ID :CVE-2026-40499 Published : April 15, 2026, 2:05 a.m. | 7 hours, 3 minutes ago Description :radare2 prior to version 6.1.4 contains a command injection vulnerability in the PDB parser's...",
+      "summary": "CVE ID :CVE-2026-40499 Published : April 15, 2026, 2:05 a.m. | 8 hours, 30 minutes ago Description :radare2 prior to version 6.1.4 contains a command injection vulnerability in the PDB parser's...",
       "source": "CVE Feed",
       "published": "2026-04-15T02:05:20+00:00"
     },
@@ -172,63 +277,63 @@
     {
       "title": "CVE-2026-39884 - MCP Server Kubernetes has Argument Injection in its port_forward tool via space-splitting",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-39884",
-      "summary": "CVE ID :CVE-2026-39884 Published : April 14, 2026, 11:25 p.m. | 9 hours, 42 minutes ago Description :mcp-server-kubernetes is a Model Context Protocol server for Kubernetes cluster management...",
+      "summary": "CVE ID :CVE-2026-39884 Published : April 14, 2026, 11:25 p.m. | 11 hours, 9 minutes ago Description :mcp-server-kubernetes is a Model Context Protocol server for Kubernetes cluster management...",
       "source": "CVE Feed",
       "published": "2026-04-14T23:25:59+00:00"
     },
     {
       "title": "CVE-2026-39842 - OpenRemote is Vulnerable to Expression Injection",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-39842",
-      "summary": "CVE ID :CVE-2026-39842 Published : April 14, 2026, 11:21 p.m. | 9 hours, 47 minutes ago Description :OpenRemote is an open-source IoT platform. Versions 1.21.0 and below contain two interrelated...",
+      "summary": "CVE ID :CVE-2026-39842 Published : April 14, 2026, 11:21 p.m. | 11 hours, 14 minutes ago Description :OpenRemote is an open-source IoT platform. Versions 1.21.0 and below contain two interrelated...",
       "source": "CVE Feed",
       "published": "2026-04-14T23:21:22+00:00"
     },
     {
       "title": "CVE-2026-39399 - NuGet Gallery: Arbitrary Blob Overwrite via Nuspec Confusion and URI Fragment Truncation",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-39399",
-      "summary": "CVE ID :CVE-2026-39399 Published : April 14, 2026, 11:16 p.m. | 9 hours, 52 minutes ago Description :NuGet Gallery is a package repository that powers nuget.org. A security vulnerability exists in...",
+      "summary": "CVE ID :CVE-2026-39399 Published : April 14, 2026, 11:16 p.m. | 11 hours, 19 minutes ago Description :NuGet Gallery is a package repository that powers nuget.org. A security vulnerability exists in...",
       "source": "CVE Feed",
       "published": "2026-04-14T23:16:29+00:00"
     },
     {
       "title": "CVE-2026-35589 - nanobot: Cross-Site WebSocket Hijacking in WhatsApp Bridge (CVE-2026-2577 Fix Update)",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-35589",
-      "summary": "CVE ID :CVE-2026-35589 Published : April 14, 2026, 11:16 p.m. | 9 hours, 52 minutes ago Description :nanobot is a personal AI assistant. Versions prior to 0.1.5 contain a Cross-Site WebSocket...",
+      "summary": "CVE ID :CVE-2026-35589 Published : April 14, 2026, 11:16 p.m. | 11 hours, 19 minutes ago Description :nanobot is a personal AI assistant. Versions prior to 0.1.5 contain a Cross-Site WebSocket...",
       "source": "CVE Feed",
       "published": "2026-04-14T23:16:29+00:00"
     },
     {
       "title": "CVE-2026-35033 - Jellyfin: Potential SSRF + Arbitrary file read via stream argument injection",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-35033",
-      "summary": "CVE ID :CVE-2026-35033 Published : April 14, 2026, 11:16 p.m. | 9 hours, 52 minutes ago Description :Jellyfin is an open source self hosted media server. Versions prior to 10.11.7 contain an...",
+      "summary": "CVE ID :CVE-2026-35033 Published : April 14, 2026, 11:16 p.m. | 11 hours, 19 minutes ago Description :Jellyfin is an open source self hosted media server. Versions prior to 10.11.7 contain an...",
       "source": "CVE Feed",
       "published": "2026-04-14T23:16:28+00:00"
     },
     {
       "title": "CVE-2026-35032 - Jellyfin: Potential SSRF + Arbitrary file read via LiveTV M3U tuner",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-35032",
-      "summary": "CVE ID :CVE-2026-35032 Published : April 14, 2026, 11:16 p.m. | 9 hours, 52 minutes ago Description :Jellyfin is an open source self hosted media server. Versions prior to 10.11.7 contain a...",
+      "summary": "CVE ID :CVE-2026-35032 Published : April 14, 2026, 11:16 p.m. | 11 hours, 19 minutes ago Description :Jellyfin is an open source self hosted media server. Versions prior to 10.11.7 contain a...",
       "source": "CVE Feed",
       "published": "2026-04-14T23:16:28+00:00"
     },
     {
       "title": "CVE-2026-35031 - Jellyfin: Potential RCE via subtitle upload path traversal + .strm chain",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-35031",
-      "summary": "CVE ID :CVE-2026-35031 Published : April 14, 2026, 11:16 p.m. | 9 hours, 52 minutes ago Description :Jellyfin is an open source self hosted media server. Versions prior to 10.11.7 contain a...",
+      "summary": "CVE ID :CVE-2026-35031 Published : April 14, 2026, 11:16 p.m. | 11 hours, 19 minutes ago Description :Jellyfin is an open source self hosted media server. Versions prior to 10.11.7 contain a...",
       "source": "CVE Feed",
       "published": "2026-04-14T23:16:28+00:00"
     },
     {
       "title": "CVE-2026-34457 - OAuth2 Proxy: Health Check User-Agent Matching Bypasses Authentication in auth_request Mode",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-34457",
-      "summary": "CVE ID :CVE-2026-34457 Published : April 14, 2026, 11:16 p.m. | 9 hours, 52 minutes ago Description :OAuth2 Proxy is a reverse proxy that provides authentication using OAuth2 providers. Versions...",
+      "summary": "CVE ID :CVE-2026-34457 Published : April 14, 2026, 11:16 p.m. | 11 hours, 19 minutes ago Description :OAuth2 Proxy is a reverse proxy that provides authentication using OAuth2 providers. Versions...",
       "source": "CVE Feed",
       "published": "2026-04-14T23:16:28+00:00"
     },
     {
       "title": "CVE-2026-27290 - Adobe Framemaker | Untrusted Search Path (CWE-426)",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-27290",
-      "summary": "CVE ID :CVE-2026-27290 Published : April 14, 2026, 11:16 p.m. | 9 hours, 52 minutes ago Description :Adobe Framemaker versions 2022.8 and earlier are affected by an Untrusted Search Path...",
+      "summary": "CVE ID :CVE-2026-27290 Published : April 14, 2026, 11:16 p.m. | 11 hours, 19 minutes ago Description :Adobe Framemaker versions 2022.8 and earlier are affected by an Untrusted Search Path...",
       "source": "CVE Feed",
       "published": "2026-04-14T23:16:25+00:00"
     },
@@ -242,35 +347,28 @@
     {
       "title": "CVE-2026-40291 - Chamilo LMS has Privilege Escalation via API User Role Modification",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-40291",
-      "summary": "CVE ID :CVE-2026-40291 Published : April 14, 2026, 10:16 p.m. | 10 hours, 51 minutes ago Description :Chamilo LMS is an open-source learning management system. In versions prior to 2.0.0-RC.3, an...",
+      "summary": "CVE ID :CVE-2026-40291 Published : April 14, 2026, 10:16 p.m. | 12 hours, 19 minutes ago Description :Chamilo LMS is an open-source learning management system. In versions prior to 2.0.0-RC.3, an...",
       "source": "CVE Feed",
       "published": "2026-04-14T22:16:32+00:00"
     },
     {
       "title": "CVE-2026-35196 - Chamilo LMS has OS Command Injection via export_all_certificates action",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-35196",
-      "summary": "CVE ID :CVE-2026-35196 Published : April 14, 2026, 10:16 p.m. | 10 hours, 51 minutes ago Description :Chamilo LMS is an open-source learning management system. In versions prior to 2.0.0-RC.3, an OS...",
+      "summary": "CVE ID :CVE-2026-35196 Published : April 14, 2026, 10:16 p.m. | 12 hours, 19 minutes ago Description :Chamilo LMS is an open-source learning management system. In versions prior to 2.0.0-RC.3, an OS...",
       "source": "CVE Feed",
       "published": "2026-04-14T22:16:31+00:00"
     },
     {
       "title": "CVE-2026-27306 - ColdFusion | Improper Input Validation (CWE-20)",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-27306",
-      "summary": "CVE ID :CVE-2026-27306 Published : April 14, 2026, 10:16 p.m. | 10 hours, 51 minutes ago Description :ColdFusion versions 2023.18, 2025.6 and earlier are affected by an Improper Input Validation...",
+      "summary": "CVE ID :CVE-2026-27306 Published : April 14, 2026, 10:16 p.m. | 12 hours, 19 minutes ago Description :ColdFusion versions 2023.18, 2025.6 and earlier are affected by an Improper Input Validation...",
       "source": "CVE Feed",
       "published": "2026-04-14T22:16:29+00:00"
     },
     {
       "title": "CVE-2026-27305 - ColdFusion | Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') (CWE-22)",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-27305",
-      "summary": "CVE ID :CVE-2026-27305 Published : April 14, 2026, 10:16 p.m. | 10 hours, 51 minutes ago Description :ColdFusion versions 2023.18, 2025.6 and earlier are affected by an Improper Limitation of a...",
-      "source": "CVE Feed",
-      "published": "2026-04-14T22:16:29+00:00"
-    },
-    {
-      "title": "CVE-2026-27304 - ColdFusion | Improper Input Validation (CWE-20)",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-27304",
-      "summary": "CVE ID :CVE-2026-27304 Published : April 14, 2026, 10:16 p.m. | 10 hours, 52 minutes ago Description :ColdFusion versions 2023.18, 2025.6 and earlier are affected by an Improper Input Validation...",
+      "summary": "CVE ID :CVE-2026-27305 Published : April 14, 2026, 10:16 p.m. | 12 hours, 19 minutes ago Description :ColdFusion versions 2023.18, 2025.6 and earlier are affected by an Improper Limitation of a...",
       "source": "CVE Feed",
       "published": "2026-04-14T22:16:29+00:00"
     },
@@ -294,20 +392,6 @@
       "summary": "Elevation-of-privilege bugs accounted for more than half of the 165 vulnerabilities patched, with two zero-days in that mix.",
       "source": "Dark Reading",
       "published": "2026-04-14T21:22:07+00:00"
-    },
-    {
-      "title": "CVE-2026-34160 - Chamilo LMS: Unauthenticated SSRF via PENS Plugin allows attacker to probe internal network and reach cloud metadata services",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-34160",
-      "summary": "CVE ID :CVE-2026-34160 Published : April 14, 2026, 9:16 p.m. | 11 hours, 52 minutes ago Description :Chamilo LMS is an open-source learning management system. In versions prior to 2.0.0-RC.3, the...",
-      "source": "CVE Feed",
-      "published": "2026-04-14T21:16:26+00:00"
-    },
-    {
-      "title": "CVE-2026-24893 - openITCOCKPIT has Authenticated Command Injection Leading to Remote Code Execution via Host Address Macro Expansion",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-24893",
-      "summary": "CVE ID :CVE-2026-24893 Published : April 14, 2026, 9:16 p.m. | 11 hours, 52 minutes ago Description :openITCOCKPIT is an open source monitoring tool built for different monitoring engines...",
-      "source": "CVE Feed",
-      "published": "2026-04-14T21:16:24+00:00"
     },
     {
       "title": "Microsoft's massive Patch Tuesday: It's raining bugs",
@@ -336,34 +420,6 @@
       "summary": "The researchers said the ransomware operation has been ongoing since 2020 and is associated with a strain of malware that enforces execution constraints based on system locale and external IP...",
       "source": "The Record",
       "published": "2026-04-14T19:35:00+00:00"
-    },
-    {
-      "title": "CVE-2026-5752 - CVE-2026-5752",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-5752",
-      "summary": "CVE ID :CVE-2026-5752 Published : April 14, 2026, 6:17 p.m. | 14 hours, 50 minutes ago Description :Sandbox Escape Vulnerability in Terrarium allows arbitrary code execution with root privileges on a...",
-      "source": "CVE Feed",
-      "published": "2026-04-14T18:17:39+00:00"
-    },
-    {
-      "title": "CVE-2026-34617 - Adobe Connect | Cross-site Scripting (XSS) (CWE-79)",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-34617",
-      "summary": "CVE ID :CVE-2026-34617 Published : April 14, 2026, 6:17 p.m. | 14 hours, 50 minutes ago Description :Adobe Connect versions 2025.3, 12.10 and earlier are affected by a Cross-Site Scripting (XSS)...",
-      "source": "CVE Feed",
-      "published": "2026-04-14T18:17:36+00:00"
-    },
-    {
-      "title": "CVE-2026-34615 - Adobe Connect | Deserialization of Untrusted Data (CWE-502)",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-34615",
-      "summary": "CVE ID :CVE-2026-34615 Published : April 14, 2026, 6:17 p.m. | 14 hours, 50 minutes ago Description :Adobe Connect versions 2025.3, 12.10 and earlier are affected by a Deserialization of Untrusted...",
-      "source": "CVE Feed",
-      "published": "2026-04-14T18:17:36+00:00"
-    },
-    {
-      "title": "CVE-2026-33827 - Windows TCP/IP Remote Code Execution Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-33827",
-      "summary": "CVE ID :CVE-2026-33827 Published : April 14, 2026, 6:17 p.m. | 14 hours, 50 minutes ago Description :Concurrent execution using shared resource with improper synchronization ('race condition') in...",
-      "source": "CVE Feed",
-      "published": "2026-04-14T18:17:35+00:00"
     },
     {
       "title": "Microsoft Patches Exploited SharePoint Zero-Day and 160 Other Vulnerabilities",
@@ -513,13 +569,6 @@
       "published": "2026-04-14T14:30:00+00:00"
     },
     {
-      "title": "Critical—9 Vulnerabilities in Orthanc DICOM Servers Threaten Medical Data Integrity",
-      "link": "https://securityonline.info/orthanc-dicom-server-vulnerabilities-medical-imaging-patch/",
-      "summary": "Critical—9 Vulnerabilities in Orthanc DICOM Servers Threaten Medical Data Integrity A series of critical security flaws has been uncovered in Orthanc, the popular open-source “lightweight Digital...",
-      "source": "CVE Newsroom",
-      "published": "2026-04-14T14:10:18+00:00"
-    },
-    {
       "title": "5 Ways Zero Trust Maximizes Identity Security",
       "link": "https://www.bleepingcomputer.com/news/security/5-ways-zero-trust-maximizes-identity-security/",
       "summary": "Stolen credentials remain a top breach vector, often leading to unchecked privilege escalation. Specops explains how identity-first Zero Trust limits access, enforces device trust, and blocks lateral...",
@@ -532,13 +581,6 @@
       "summary": "Russian digital rights organization RKS Global told Recorded Future News that Bluesky had been added to the registry of banned websites maintained by Russia’s communications watchdog Roskomnadzor.",
       "source": "The Record",
       "published": "2026-04-14T13:51:00+00:00"
-    },
-    {
-      "title": "Juju’s CVSS 10 Flaw Hands Over Master Cloud Credentials",
-      "link": "https://securityonline.info/juju-cvss-10-vulnerability-cloud-credential-exfiltration-cve-2026-5412/",
-      "summary": "Juju’s CVSS 10 Flaw Hands Over Master Cloud Credentials Juju, the popular open-source application orchestration engine, is facing a critical security emergency. A newly discovered vulnerability...",
-      "source": "CVE Newsroom",
-      "published": "2026-04-14T13:05:41+00:00"
     },
     {
       "title": "‘Mythos-Ready’ Security: CSA Urges CISOs to Prepare for Accelerated AI Threats",
@@ -555,39 +597,11 @@
       "published": "2026-04-14T12:43:30+00:00"
     },
     {
-      "title": "CVE-2026-4810: Critical 9.3 RCE Flaw Hits Google’s AI Agent Development Kit",
-      "link": "https://securityonline.info/google-adk-vulnerability-cve-2026-4810-rce-fix/",
-      "summary": "CVE-2026-4810: Critical 9.3 RCE Flaw Hits Google’s AI Agent Development Kit A recently disclosed vulnerability in Google’s Agent Development Kit (ADK) serves as a stark reminder that even the most...",
-      "source": "CVE Newsroom",
-      "published": "2026-04-14T12:40:19+00:00"
-    },
-    {
       "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
       "link": "https://www.cisa.gov/news-events/alerts/2026/04/14/cisa-adds-two-known-exploited-vulnerabilities-catalog",
       "summary": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation. CVE-2009-0238 Microsoft Office Remote Code Execution...",
       "source": "CISA Alerts",
       "published": "2026-04-14T12:00:00+00:00"
-    },
-    {
-      "title": "SAP Patches Critical ABAP Vulnerability",
-      "link": "https://www.securityweek.com/sap-patches-critical-abap-vulnerability/",
-      "summary": "The company has released 19 new security notes addressing flaws in over a dozen enterprise products. The post SAP Patches Critical ABAP Vulnerability appeared first on SecurityWeek.",
-      "source": "SecurityWeek",
-      "published": "2026-04-14T11:21:12+00:00"
-    },
-    {
-      "title": "Triad Nexus Evades Sanctions to Fuel Cybercrime",
-      "link": "https://www.securityweek.com/triad-nexus-evades-sanctions-to-fuel-cybercrime/",
-      "summary": "The sprawling cybercrime operation abuses major providers to prevent takedowns and distance itself from sanctions. The post Triad Nexus Evades Sanctions to Fuel Cybercrime appeared first on...",
-      "source": "SecurityWeek",
-      "published": "2026-04-14T10:53:32+00:00"
-    },
-    {
-      "title": "Google Adds Rust DNS Parser to Pixel Phones for Better Security",
-      "link": "https://www.securityweek.com/google-adds-rust-dns-parser-to-pixel-phones-for-better-security/",
-      "summary": "The parser is meant to mitigate the entire class of memory safety bugs in the low-level environment. The post Google Adds Rust DNS Parser to Pixel Phones for Better Security appeared first on...",
-      "source": "SecurityWeek",
-      "published": "2026-04-14T10:21:33+00:00"
     },
     {
       "title": "Mirax Android RAT Turns Devices into SOCKS5 Proxies, Reaching 220,000 via Meta Ads",
@@ -679,13 +693,6 @@
       "summary": "OT asset owners are being asked by regulators to attest to their post-quantum cryptographic readiness without the appropriate tooling, resulting in paperwork dressed up to look like genuine security.",
       "source": "Dark Reading",
       "published": "2026-04-13T19:10:55+00:00"
-    },
-    {
-      "title": "FBI takedown of W3LL phishing service leads to developer arrest",
-      "link": "https://www.bleepingcomputer.com/news/security/fbi-takedown-of-w3ll-phishing-service-leads-to-developer-arrest/",
-      "summary": "The FBI Atlanta Field Office and Indonesian authorities have dismantled the \"W3LL\" global phishing platform, seizing infrastructure and arresting the alleged developer in what is described as the...",
-      "source": "BleepingComputer",
-      "published": "2026-04-13T18:55:50+00:00"
     },
     {
       "title": "JanelaRAT Malware Targets Latin American Banks with 14,739 Attacks in Brazil in 2025",
@@ -1316,13 +1323,6 @@
       "summary": "As AI took center stage at this year's conference, experts debated automation, oversight and the evolving role of human intelligence in cybersecurity — despite the US government's notable absence.",
       "source": "Dark Reading",
       "published": "2026-04-02T15:56:32+00:00"
-    },
-    {
-      "title": "Bank Trojan 'Casbaneiro' Worms Through Latin America",
-      "link": "https://www.darkreading.com/cyberattacks-data-breaches/bank-trojan-casbaneiro-worms-latin-america",
-      "summary": "Augmented Marauder's multipronged banking-Trojan cyber campaigns are targeting Spanish speakers, evading detection, and replicating rapidly.",
-      "source": "Dark Reading",
-      "published": "2026-04-02T13:00:00+00:00"
     },
     {
       "title": "Yokogawa CENTUM VP",
