@@ -1,0 +1,401 @@
+---
+import BaseLayout from './BaseLayout.astro';
+import BlogLaneBadge from '../components/blog/BlogLaneBadge.astro';
+import BlogSoftCTA from '../components/blog/BlogSoftCTA.astro';
+
+interface Props {
+  title: string;
+  description: string;
+  canonical: string;
+  lane: 'practical' | 'research';
+  publishDate: Date;
+  updatedDate?: Date;
+  author: string;
+  featured?: boolean;
+  topics?: string[];
+  citations?: boolean;
+  diagrams?: boolean;
+  heroStyle?: string;
+  heroImage?: string;
+  ogDescription?: string;
+  noindex?: boolean;
+  backHref?: string;
+  backLabel?: string;
+  ctaHref?: string;
+  ctaTitle?: string;
+  ctaDescription?: string;
+  ctaLabel?: string;
+}
+
+const {
+  title,
+  description,
+  canonical,
+  lane,
+  publishDate,
+  updatedDate,
+  author,
+  featured = false,
+  topics = [],
+  citations = false,
+  diagrams = false,
+  heroStyle,
+  heroImage,
+  ogDescription,
+  noindex = false,
+  backHref = '/resources',
+  backLabel = 'Back to Resources',
+  ctaHref = '/resources',
+  ctaTitle,
+  ctaDescription,
+  ctaLabel,
+} = Astro.props as Props;
+
+function formatDate(value: Date) {
+  return new Intl.DateTimeFormat('en-US', {
+    month: 'long',
+    day: 'numeric',
+    year: 'numeric',
+    timeZone: 'UTC',
+  }).format(value);
+}
+
+const publishedLabel = formatDate(publishDate);
+const publishedDatetime = publishDate.toISOString();
+const updatedLabel = updatedDate ? formatDate(updatedDate) : '';
+const updatedDatetime = updatedDate?.toISOString();
+const articleClass = [heroStyle && `is-${heroStyle}`, heroImage && 'has-hero-image'].filter(Boolean);
+const resolvedCtaTitle = ctaTitle ?? (lane === 'practical'
+  ? 'Need help putting this into practice?'
+  : 'Want help turning research into next steps?');
+const resolvedCtaDescription = ctaDescription ?? (lane === 'practical'
+  ? 'We can help you turn the idea into an action plan, implementation checklist, or review of the controls that matter most.'
+  : 'We can help interpret findings, map them to real-world decisions, and identify a practical path forward.');
+---
+
+<BaseLayout
+  title={title}
+  description={description}
+  canonical={canonical}
+  ogType="article"
+  ogDescription={ogDescription ?? description}
+  noindex={noindex}
+  navFixed={false}
+  activePage="resources"
+>
+  <Fragment slot="head">
+    <script type="application/ld+json" set:html={JSON.stringify({
+      '@context': 'https://schema.org',
+      '@type': 'BlogPosting',
+      headline: title,
+      description,
+      author: { '@type': 'Person', name: author },
+      datePublished: publishedDatetime,
+      ...(updatedDatetime ? { dateModified: updatedDatetime } : {}),
+      mainEntityOfPage: canonical,
+      url: canonical,
+      publisher: {
+        '@type': 'Organization',
+        name: 'Cardinal Six Cyber',
+        url: 'https://cardinalsixcyber.com',
+      },
+      articleSection: lane,
+      keywords: topics,
+      image: heroImage ? [heroImage] : undefined,
+    })} />
+  </Fragment>
+
+  <article class:list={['blog-post', ...articleClass]}>
+    <header class="blog-post-hero">
+      <div class="container blog-post-hero-inner">
+        <a class="blog-post-back" href={backHref}>{backLabel}</a>
+        <div class="blog-post-meta">
+          <BlogLaneBadge lane={lane} />
+          {featured ? <span class="blog-post-featured">Featured</span> : null}
+          <span class="blog-post-meta-item">By {author}</span>
+          <time class="blog-post-meta-item" datetime={publishedDatetime}>Published {publishedLabel}</time>
+          {updatedDatetime ? <time class="blog-post-meta-item" datetime={updatedDatetime}>Updated {updatedLabel}</time> : null}
+        </div>
+        <h1 class="blog-post-title">{title}</h1>
+        <p class="blog-post-description">{description}</p>
+        <div class="blog-post-topic-row" aria-label="Topics">
+          {topics.map((topic) => <span class="blog-post-topic">{topic}</span>)}
+        </div>
+        {citations || diagrams ? (
+          <div class="blog-post-flags" aria-label="Article features">
+            {citations ? <span>Citations included</span> : null}
+            {diagrams ? <span>Diagrams included</span> : null}
+          </div>
+        ) : null}
+      </div>
+    </header>
+
+    <section class="blog-post-body">
+      <div class="container blog-post-grid">
+        <div class="blog-post-content">
+          <slot />
+        </div>
+
+        <aside class="blog-post-aside" aria-label="Article summary">
+          <div class="blog-post-card">
+            <p class="blog-post-card-kicker">Article details</p>
+            <dl>
+              <div>
+                <dt>Lane</dt>
+                <dd>{lane}</dd>
+              </div>
+              <div>
+                <dt>Published</dt>
+                <dd>{publishedLabel}</dd>
+              </div>
+              {updatedDatetime ? (
+                <div>
+                  <dt>Updated</dt>
+                  <dd>{updatedLabel}</dd>
+                </div>
+              ) : null}
+              <div>
+                <dt>Author</dt>
+                <dd>{author}</dd>
+              </div>
+            </dl>
+          </div>
+        </aside>
+      </div>
+
+      <div class="container blog-post-cta-wrap">
+        <BlogSoftCTA lane={lane} href={ctaHref} title={resolvedCtaTitle} description={resolvedCtaDescription} ctaLabel={ctaLabel} />
+      </div>
+    </section>
+  </article>
+</BaseLayout>
+
+<style>
+  .blog-post-hero {
+    padding: calc(var(--space-32) + var(--space-8)) 0 var(--space-10);
+    background: var(--c6-gradient-hero);
+    border-bottom: 1px solid var(--c6-border);
+  }
+
+  .blog-post-hero-inner {
+    display: grid;
+    gap: var(--space-4);
+  }
+
+  .blog-post-back {
+    width: fit-content;
+    color: var(--c6-text-dim);
+    font-family: var(--font-mono);
+    font-size: 0.72rem;
+    letter-spacing: 0.08em;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+
+  .blog-post-back:hover {
+    color: var(--c6-text-primary);
+  }
+
+  .blog-post-meta {
+    display: flex;
+    align-items: center;
+    gap: var(--space-3);
+    flex-wrap: wrap;
+  }
+
+  .blog-post-meta-item,
+  .blog-post-featured {
+    font-family: var(--font-mono);
+    font-size: 0.72rem;
+    letter-spacing: 0.04em;
+    color: var(--c6-text-dim);
+    text-transform: uppercase;
+  }
+
+  .blog-post-title {
+    margin: 0;
+    max-width: 14ch;
+    font-family: var(--font-display);
+    font-size: clamp(2.4rem, 6vw, 4.8rem);
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    line-height: 0.98;
+    text-transform: uppercase;
+  }
+
+  .blog-post-description {
+    max-width: 70ch;
+    margin: 0;
+    color: var(--c6-text-muted);
+    font-size: 1.05rem;
+    line-height: 1.75;
+  }
+
+  .blog-post-topic-row,
+  .blog-post-flags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-2);
+  }
+
+  .blog-post-topic,
+  .blog-post-flags span {
+    padding: 0.2rem 0.55rem;
+    border: 1px solid var(--c6-border);
+    border-radius: var(--radius-sm);
+    color: var(--c6-text-secondary);
+    font-family: var(--font-mono);
+    font-size: 0.68rem;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+  }
+
+  .blog-post-body {
+    padding: var(--space-10) 0 var(--space-16);
+    background: var(--c6-gradient-section);
+  }
+
+  .blog-post-grid {
+    display: grid;
+    gap: var(--space-8);
+    grid-template-columns: minmax(0, 1fr) 300px;
+    align-items: start;
+  }
+
+  .blog-post-content {
+    min-width: 0;
+    background: var(--c6-black-elevated);
+    border: 1px solid var(--c6-border);
+    padding: clamp(var(--space-6), 4vw, var(--space-10));
+  }
+
+  .blog-post-content :global(h2),
+  .blog-post-content :global(h3),
+  .blog-post-content :global(h4) {
+    font-family: var(--font-display);
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    line-height: 1.2;
+    color: var(--c6-text-primary);
+  }
+
+  .blog-post-content :global(h2) {
+    margin: 0 0 var(--space-4);
+    font-size: 1.35rem;
+  }
+
+  .blog-post-content :global(h3) {
+    margin: var(--space-8) 0 var(--space-3);
+    font-size: 1.05rem;
+  }
+
+  .blog-post-content :global(p),
+  .blog-post-content :global(li) {
+    color: var(--c6-text-muted);
+    line-height: 1.75;
+  }
+
+  .blog-post-content :global(p) {
+    margin: 0 0 var(--space-4);
+  }
+
+  .blog-post-content :global(ul),
+  .blog-post-content :global(ol) {
+    margin: 0 0 var(--space-4);
+    padding-left: 1.2rem;
+  }
+
+  .blog-post-content :global(li) {
+    margin-bottom: var(--space-2);
+  }
+
+  .blog-post-content :global(a) {
+    color: var(--c6-red-text);
+    text-decoration: none;
+    border-bottom: 1px solid color-mix(in srgb, var(--c6-red-text) 35%, transparent);
+  }
+
+  .blog-post-content :global(a:hover) {
+    color: var(--c6-text-primary);
+    border-bottom-color: var(--c6-red-bright);
+  }
+
+  .blog-post-content :global(blockquote) {
+    margin: var(--space-6) 0;
+    padding: var(--space-4) var(--space-5);
+    border-left: 3px solid var(--c6-red-text);
+    background: rgba(255, 255, 255, 0.03);
+    color: var(--c6-text-secondary);
+  }
+
+  .blog-post-content :global(img) {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+
+  .blog-post-aside {
+    position: sticky;
+    top: 96px;
+  }
+
+  .blog-post-card {
+    border: 1px solid var(--c6-border);
+    background: var(--c6-black-elevated);
+    padding: var(--space-5);
+  }
+
+  .blog-post-card-kicker {
+    margin: 0 0 var(--space-4);
+    font-family: var(--font-mono);
+    font-size: 0.72rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--c6-text-dim);
+  }
+
+  .blog-post-card dl {
+    display: grid;
+    gap: var(--space-4);
+    margin: 0;
+  }
+
+  .blog-post-card dt {
+    margin-bottom: 0.2rem;
+    font-family: var(--font-mono);
+    font-size: 0.68rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--c6-text-dim);
+  }
+
+  .blog-post-card dd {
+    margin: 0;
+    color: var(--c6-text-secondary);
+    line-height: 1.6;
+  }
+
+  .blog-post-cta-wrap {
+    margin-top: var(--space-8);
+  }
+
+  @media (max-width: 980px) {
+    .blog-post-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .blog-post-aside {
+      position: static;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .blog-post-hero {
+      padding-top: calc(var(--space-24) + var(--space-8));
+    }
+
+    .blog-post-title {
+      max-width: none;
+    }
+  }
+</style>
