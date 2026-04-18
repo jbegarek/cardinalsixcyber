@@ -1,0 +1,45 @@
+---
+import { getCollection, getEntry, render } from 'astro:content';
+import BlogPostLayout from '../../layouts/BlogPostLayout.astro';
+
+export async function getStaticPaths() {
+  const posts = await getCollection('blog', ({ data }) => !data.draft);
+
+  return posts.map((entry) => ({
+    params: { slug: entry.id },
+  }));
+}
+
+const resolvedEntry = await getEntry('blog', Astro.params.slug);
+
+if (!resolvedEntry) {
+  throw new Error(`Missing blog entry for slug: ${Astro.params.slug}`);
+}
+
+const entry = {
+  ...resolvedEntry,
+  render: () => render(resolvedEntry),
+};
+const { Content } = await entry.render();
+
+const canonical = entry.data.canonicalUrl ?? `https://cardinalsixcyber.com/blog/${entry.id}`;
+---
+
+<BlogPostLayout
+  title={entry.data.title}
+  seoTitle={`${entry.data.title} | Cardinal Six Cyber`}
+  description={entry.data.description}
+  canonical={canonical}
+  lane={entry.data.lane}
+  publishDate={entry.data.publishDate}
+  updatedDate={entry.data.updatedDate}
+  author={entry.data.author}
+  featured={entry.data.featured}
+  topics={entry.data.topics}
+  citations={entry.data.citations}
+  diagrams={entry.data.diagrams}
+  heroStyle={entry.data.heroStyle}
+  heroImage={entry.data.heroImage}
+>
+  <Content />
+</BlogPostLayout>

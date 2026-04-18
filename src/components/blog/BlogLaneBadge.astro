@@ -1,0 +1,57 @@
+---
+interface Props {
+  lane?: string;
+  class?: string;
+}
+
+const { lane, class: className = '' } = Astro.props as Props;
+
+function toReadableLabel(value?: string) {
+  if (!value) return 'Blog';
+
+  const normalized = value.trim().toLowerCase();
+  if (normalized === 'practical') return 'Practical';
+  if (normalized === 'research') return 'Research';
+
+  return value
+    .replace(/[_-]+/g, ' ')
+    .replace(/\s+/g, ' ')
+    .trim()
+    .replace(/\b\w/g, (char) => char.toUpperCase());
+}
+
+const normalizedLane = lane?.trim().toLowerCase() || 'blog';
+const label = toReadableLabel(lane);
+---
+
+<span class:list={['blog-lane-badge', `is-${normalizedLane}`, className].filter(Boolean)}>{label}</span>
+
+<style>
+  .blog-lane-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.25rem;
+    padding: 0.25rem 0.7rem;
+    border: 1px solid var(--c6-border);
+    border-radius: var(--radius-sm);
+    background: color-mix(in srgb, var(--c6-black-elevated) 88%, transparent);
+    color: var(--c6-text-secondary);
+    font-family: var(--font-display);
+    font-size: 0.72rem;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    line-height: 1;
+    text-transform: uppercase;
+    white-space: nowrap;
+  }
+
+  .blog-lane-badge.is-practical {
+    border-color: color-mix(in srgb, var(--c6-red-text) 28%, var(--c6-border));
+    color: var(--c6-text-primary);
+  }
+
+  .blog-lane-badge.is-research {
+    border-color: color-mix(in srgb, var(--c6-gold) 28%, var(--c6-border));
+    color: var(--c6-text-primary);
+  }
+</style>

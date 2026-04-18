@@ -1,0 +1,107 @@
+---
+interface Props {
+  lane?: string;
+  href: string;
+  title?: string;
+  description?: string;
+  ctaLabel?: string;
+  headingLevel?: 2 | 3 | 4 | 5 | 6;
+  class?: string;
+}
+
+const {
+  lane,
+  href,
+  title,
+  description,
+  ctaLabel,
+  headingLevel = 3,
+  class: className = '',
+} = Astro.props as Props;
+
+const normalizedLane = lane?.trim().toLowerCase();
+
+const copy = {
+  practical: {
+    title: 'Need help putting this into practice?',
+    description:
+      'We can help you turn the idea into an action plan, implementation checklist, or review of the controls that matter most.',
+    ctaLabel: 'Talk to Us',
+  },
+  research: {
+    title: 'Want help turning research into next steps?',
+    description:
+      'We can help interpret findings, map them to real-world decisions, and identify a practical path forward.',
+    ctaLabel: 'Get Support',
+  },
+  default: {
+    title: 'Need a second set of eyes?',
+    description:
+      'If you want a grounded conversation about what comes next, we can help without the sales pressure.',
+    ctaLabel: 'Contact Us',
+  },
+}[normalizedLane === 'practical' || normalizedLane === 'research' ? normalizedLane : 'default'];
+
+const resolvedTitle = title ?? copy.title;
+const resolvedDescription = description ?? copy.description;
+const resolvedCtaLabel = ctaLabel ?? copy.ctaLabel;
+const HeadingTag = `h${headingLevel}` as keyof AstroHTML.JSX.IntrinsicElements;
+---
+
+<section class:list={['blog-soft-cta', normalizedLane && `is-${normalizedLane}`, className].filter(Boolean)}>
+  <div class="blog-soft-cta-copy">
+    <p class="blog-soft-cta-kicker">Soft CTA</p>
+    <HeadingTag class="blog-soft-cta-title">{resolvedTitle}</HeadingTag>
+    <p>{resolvedDescription}</p>
+  </div>
+
+  <a href={href} class="btn-secondary">{resolvedCtaLabel}</a>
+</section>
+
+<style>
+  .blog-soft-cta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: var(--space-6);
+    padding: var(--space-6);
+    border: 1px solid var(--c6-border);
+    background: var(--c6-black-elevated);
+  }
+
+  .blog-soft-cta-copy {
+    min-width: 0;
+  }
+
+  .blog-soft-cta-kicker {
+    margin: 0 0 var(--space-2);
+    font-family: var(--font-mono);
+    font-size: 0.72rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--c6-text-dim);
+  }
+
+  .blog-soft-cta-title {
+    margin: 0 0 var(--space-2);
+    font-family: var(--font-display);
+    font-size: 1.2rem;
+    font-weight: 600;
+    line-height: 1.3;
+    color: var(--c6-text-primary);
+  }
+
+  .blog-soft-cta p:last-child {
+    margin: 0;
+    color: var(--c6-text-muted);
+    line-height: 1.6;
+    max-width: 60ch;
+  }
+
+  @media (max-width: 720px) {
+    .blog-soft-cta {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  }
+</style>
