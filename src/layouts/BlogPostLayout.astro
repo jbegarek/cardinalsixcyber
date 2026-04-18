@@ -65,6 +65,11 @@ const publishedDatetime = publishDate.toISOString();
 const updatedLabel = updatedDate ? formatDate(updatedDate) : '';
 const updatedDatetime = updatedDate?.toISOString();
 const articleClass = [heroStyle && `is-${heroStyle}`, heroImage && 'has-hero-image'].filter(Boolean);
+const resolvedHeroImage = heroImage
+  ? (heroImage.startsWith('http://') || heroImage.startsWith('https://')
+    ? heroImage
+    : `https://cardinalsixcyber.com${heroImage.startsWith('/') ? heroImage : `/${heroImage}`}`)
+  : undefined;
 const resolvedCtaTitle = ctaTitle ?? (lane === 'practical'
   ? 'Need help putting this into practice?'
   : 'Want help turning research into next steps?');
@@ -79,6 +84,8 @@ const resolvedCtaDescription = ctaDescription ?? (lane === 'practical'
   canonical={canonical}
   ogType="article"
   ogDescription={ogDescription ?? description}
+  ogImage={resolvedHeroImage}
+  twitterImage={resolvedHeroImage}
   noindex={noindex}
   navFixed={false}
   activePage="resources"
@@ -101,7 +108,7 @@ const resolvedCtaDescription = ctaDescription ?? (lane === 'practical'
       },
       articleSection: lane,
       keywords: topics,
-      image: heroImage ? [heroImage] : undefined,
+      image: resolvedHeroImage ? [resolvedHeroImage] : undefined,
     })} />
   </Fragment>
 

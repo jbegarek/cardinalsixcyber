@@ -22,7 +22,7 @@ const entry = {
 };
 const { Content } = await entry.render();
 
-const canonical = `https://cardinalsixcyber.com/blog/${entry.id}`;
+const canonical = entry.data.canonicalUrl ?? `https://cardinalsixcyber.com/blog/${entry.id}`;
 ---
 
 <BlogPostLayout
