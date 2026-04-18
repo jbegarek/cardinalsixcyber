@@ -5,6 +5,7 @@ import BlogSoftCTA from '../components/blog/BlogSoftCTA.astro';
 
 interface Props {
   title: string;
+  seoTitle?: string;
   description: string;
   canonical: string;
   lane: 'practical' | 'research';
@@ -29,6 +30,7 @@ interface Props {
 
 const {
   title,
+  seoTitle,
   description,
   canonical,
   lane,
@@ -43,8 +45,8 @@ const {
   heroImage,
   ogDescription,
   noindex = false,
-  backHref = '/resources',
-  backLabel = 'Back to Resources',
+  backHref = '/blog',
+  backLabel = 'Back to Blog',
   ctaHref = '/resources',
   ctaTitle,
   ctaDescription,
@@ -79,7 +81,7 @@ const resolvedCtaDescription = ctaDescription ?? (lane === 'practical'
 ---
 
 <BaseLayout
-  title={title}
+  title={seoTitle ?? title}
   description={description}
   canonical={canonical}
   ogType="article"

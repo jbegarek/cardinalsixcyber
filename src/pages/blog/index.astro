@@ -137,7 +137,7 @@ const laneLabel = {
 
         <div class="blog-index-grid" id="feedGrid">
           {initialFeed.map((post) => (
-            <article
+            <div
               class="blog-index-card-wrap"
               data-blog-post
               data-lane={post.data.lane}
@@ -154,7 +154,7 @@ const laneLabel = {
                 featured={post.data.featured}
                 class="blog-index-card"
               />
-            </article>
+            </div>
           ))}
         </div>
       </section>

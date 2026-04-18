@@ -26,7 +26,8 @@ const canonical = entry.data.canonicalUrl ?? `https://cardinalsixcyber.com/blog/
 ---
 
 <BlogPostLayout
-  title={`${entry.data.title} | Cardinal Six Cyber`}
+  title={entry.data.title}
+  seoTitle={`${entry.data.title} | Cardinal Six Cyber`}
   description={entry.data.description}
   canonical={canonical}
   lane={entry.data.lane}
