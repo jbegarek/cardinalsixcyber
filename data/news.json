@@ -1,145 +1,180 @@
 {
-  "last_updated": "2026-04-18T00:18:23.155438+00:00",
+  "last_updated": "2026-04-18T03:01:18.439675+00:00",
   "articles": [
+    {
+      "title": "CVE-2026-40489 - editorconfig-core-c has incomplete fix for CVE-2023-0341",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-40489",
+      "summary": "CVE ID :CVE-2026-40489 Published : April 18, 2026, 2:16 a.m. | 23 minutes ago Description :editorconfig-core-c is an EditorConfig core library for use by plugins supporting EditorConfig parsing...",
+      "source": "CVE Feed",
+      "published": "2026-04-18T02:16:11+00:00"
+    },
+    {
+      "title": "CVE-2026-40487 - Postiz Has Unrestricted File Upload via MIME Type Spoofing that Leads to Stored XSS",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-40487",
+      "summary": "CVE ID :CVE-2026-40487 Published : April 18, 2026, 2:16 a.m. | 23 minutes ago Description :Postiz is an AI social media scheduling tool. Prior to version 2.21.6, a file upload validation bypass...",
+      "source": "CVE Feed",
+      "published": "2026-04-18T02:16:11+00:00"
+    },
+    {
+      "title": "CVE-2026-35582 - Emissary has an OS Command Injection via Unvalidated IN_FILE_ENDING / OUT_FILE_ENDING in Executrix",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-35582",
+      "summary": "CVE ID :CVE-2026-35582 Published : April 18, 2026, 2:16 a.m. | 23 minutes ago Description :Emissary is a P2P based data-driven workflow engine. In versions 8.42.0 and below, Executrix.getCommand() is...",
+      "source": "CVE Feed",
+      "published": "2026-04-18T02:16:11+00:00"
+    },
+    {
+      "title": "CVE-2026-40572 - NovumOS has Arbitrary Memory Mapping via Syscall 15 (MemoryMapRange)",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-40572",
+      "summary": "CVE ID :CVE-2026-40572 Published : April 18, 2026, 1:16 a.m. | 1 hour, 23 minutes ago Description :NovumOS is a custom 32-bit operating system written in Zig and x86 Assembly. In versions prior to...",
+      "source": "CVE Feed",
+      "published": "2026-04-18T01:16:19+00:00"
+    },
+    {
+      "title": "CVE-2026-40350 - Movary User Management (/settings/users) has Authorization Bypass that Allows Low-Privileged Users to Enumerate All Users and Create Administrator Accounts",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-40350",
+      "summary": "CVE ID :CVE-2026-40350 Published : April 18, 2026, 1:16 a.m. | 1 hour, 23 minutes ago Description :Movary is a self hosted web app to track and rate a user's watched movies. Prior to version 0.71.1...",
+      "source": "CVE Feed",
+      "published": "2026-04-18T01:16:19+00:00"
+    },
+    {
+      "title": "CVE-2026-40317 - NovumOS has Privilege Escalation in the Syscall Interface",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-40317",
+      "summary": "CVE ID :CVE-2026-40317 Published : April 18, 2026, 1:16 a.m. | 1 hour, 23 minutes ago Description :NovumOS is a custom 32-bit operating system written in Zig and x86 Assembly. In versions prior to...",
+      "source": "CVE Feed",
+      "published": "2026-04-18T01:16:19+00:00"
+    },
+    {
+      "title": "CVE-2026-40582 - ChurchCRM: Authentication Bypass in `/api/public/user/login` Allows Bypass of 2FA and Account Lockout",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-40582",
+      "summary": "CVE ID :CVE-2026-40582 Published : April 18, 2026, 12:16 a.m. | 2 hours, 23 minutes ago Description :ChurchCRM is an open-source church management system. In versions prior to 7.2.0, the...",
+      "source": "CVE Feed",
+      "published": "2026-04-18T00:16:39+00:00"
+    },
+    {
+      "title": "CVE-2026-40581 - ChurchCRM: Cross-Site Request Forgery (CSRF) in SelectDelete.php Leading to Permanent Data Deletion",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-40581",
+      "summary": "CVE ID :CVE-2026-40581 Published : April 18, 2026, 12:16 a.m. | 2 hours, 23 minutes ago Description :ChurchCRM is an open-source church management system. In versions prior to 7.2.0, the family...",
+      "source": "CVE Feed",
+      "published": "2026-04-18T00:16:39+00:00"
+    },
+    {
+      "title": "CVE-2026-40484 - ChurchCRM: Authenticated Remote Code Execution via Unrestricted PHP File Write in Database Restore Function",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-40484",
+      "summary": "CVE ID :CVE-2026-40484 Published : April 18, 2026, 12:16 a.m. | 2 hours, 23 minutes ago Description :ChurchCRM is an open-source church management system. In versions prior to 7.2.0, the database...",
+      "source": "CVE Feed",
+      "published": "2026-04-18T00:16:39+00:00"
+    },
+    {
+      "title": "CVE-2026-40349 - Authenticated Movary User Can Self-Escalate to Administrator via PUT /settings/users/{userId} by Setting isAdmin=true",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-40349",
+      "summary": "CVE ID :CVE-2026-40349 Published : April 18, 2026, 12:16 a.m. | 2 hours, 23 minutes ago Description :Movary is a self hosted web app to track and rate a user's watched movies. Prior to version...",
+      "source": "CVE Feed",
+      "published": "2026-04-18T00:16:38+00:00"
+    },
+    {
+      "title": "CVE-2026-40324 - Hot Chocolate's Utf8GraphQLParser has Stack Overflow via Deeply Nested GraphQL Documents",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-40324",
+      "summary": "CVE ID :CVE-2026-40324 Published : April 18, 2026, 12:16 a.m. | 2 hours, 23 minutes ago Description :Hot Chocolate is an open-source GraphQL server. Prior to versions 12.22.7, 13.9.16, 14.3.1, and...",
+      "source": "CVE Feed",
+      "published": "2026-04-18T00:16:36+00:00"
+    },
+    {
+      "title": "CVE-2026-40323 - SP1 V6 Recursion Circuit Row-Count Binding Gap",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-40323",
+      "summary": "CVE ID :CVE-2026-40323 Published : April 18, 2026, 12:16 a.m. | 2 hours, 23 minutes ago Description :SP1 is a zero‑knowledge virtual machine that proves the correct execution of programs compiled for...",
+      "source": "CVE Feed",
+      "published": "2026-04-18T00:16:36+00:00"
+    },
+    {
+      "title": "CVE-2026-40481 - monetr: Unauthenticated Stripe webhook reads attacker-sized request bodies before signature validation",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-40481",
+      "summary": "CVE ID :CVE-2026-40481 Published : April 17, 2026, 11:16 p.m. | 3 hours, 23 minutes ago Description :monetr is a budgeting application for recurring expenses. In versions 1.12.3 and below, the public...",
+      "source": "CVE Feed",
+      "published": "2026-04-17T23:16:12+00:00"
+    },
     {
       "title": "CVE-2026-40478 - Improper neutralization of specific syntax patterns for unauthorized expressions in Thymeleaf",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-40478",
-      "summary": "CVE ID :CVE-2026-40478 Published : April 17, 2026, 10:16 p.m. | 41 minutes ago Description :Thymeleaf is a server-side Java template engine for web and standalone environments. Versions 3.1.3.RELEASE...",
+      "summary": "CVE ID :CVE-2026-40478 Published : April 17, 2026, 10:16 p.m. | 4 hours, 23 minutes ago Description :Thymeleaf is a server-side Java template engine for web and standalone environments. Versions...",
       "source": "CVE Feed",
       "published": "2026-04-17T22:16:33+00:00"
     },
     {
       "title": "CVE-2026-40477 - Improper restriction of the scope of accessible objects in Thymeleaf expressions",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-40477",
-      "summary": "CVE ID :CVE-2026-40477 Published : April 17, 2026, 10:16 p.m. | 41 minutes ago Description :Thymeleaf is a server-side Java template engine for web and standalone environments. Versions 3.1.3.RELEASE...",
+      "summary": "CVE ID :CVE-2026-40477 Published : April 17, 2026, 10:16 p.m. | 4 hours, 23 minutes ago Description :Thymeleaf is a server-side Java template engine for web and standalone environments. Versions...",
       "source": "CVE Feed",
       "published": "2026-04-17T22:16:33+00:00"
     },
     {
       "title": "CVE-2026-40352 - FastGPT: NoSQL Injection in updatePasswordByOld Leads to Account Takeover",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-40352",
-      "summary": "CVE ID :CVE-2026-40352 Published : April 17, 2026, 10:16 p.m. | 41 minutes ago Description :FastGPT is an AI Agent building platform. In versions prior to 4.14.9.5, the password change endpoint is...",
+      "summary": "CVE ID :CVE-2026-40352 Published : April 17, 2026, 10:16 p.m. | 4 hours, 23 minutes ago Description :FastGPT is an AI Agent building platform. In versions prior to 4.14.9.5, the password change...",
       "source": "CVE Feed",
       "published": "2026-04-17T22:16:32+00:00"
     },
     {
       "title": "CVE-2026-40351 - FastGPT: NoSQL Injection in loginByPassword leads to Authentication Bypass",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-40351",
-      "summary": "CVE ID :CVE-2026-40351 Published : April 17, 2026, 10:16 p.m. | 41 minutes ago Description :FastGPT is an AI Agent building platform. In versions prior to 4.14.9.5, the password-based login endpoint...",
+      "summary": "CVE ID :CVE-2026-40351 Published : April 17, 2026, 10:16 p.m. | 4 hours, 23 minutes ago Description :FastGPT is an AI Agent building platform. In versions prior to 4.14.9.5, the password-based login...",
       "source": "CVE Feed",
       "published": "2026-04-17T22:16:32+00:00"
     },
     {
       "title": "CVE-2026-40321 - DotNetNuke.Core has stored cross-site-scripting (XSS) via SVG upload",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-40321",
-      "summary": "CVE ID :CVE-2026-40321 Published : April 17, 2026, 10:16 p.m. | 41 minutes ago Description :DNN (formerly DotNetNuke) is an open-source web content management platform (CMS) in the Microsoft...",
+      "summary": "CVE ID :CVE-2026-40321 Published : April 17, 2026, 10:16 p.m. | 4 hours, 23 minutes ago Description :DNN (formerly DotNetNuke) is an open-source web content management platform (CMS) in the Microsoft...",
       "source": "CVE Feed",
       "published": "2026-04-17T22:16:32+00:00"
     },
     {
       "title": "CVE-2026-40258 - Gramps Web API has Zip Slip Path Traversal in Media Archive Import",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-40258",
-      "summary": "CVE ID :CVE-2026-40258 Published : April 17, 2026, 10:16 p.m. | 41 minutes ago Description :The Gramps Web API is a Python REST API for the genealogical research software Gramps. Versions 1.6.0...",
+      "summary": "CVE ID :CVE-2026-40258 Published : April 17, 2026, 10:16 p.m. | 4 hours, 23 minutes ago Description :The Gramps Web API is a Python REST API for the genealogical research software Gramps. Versions...",
       "source": "CVE Feed",
       "published": "2026-04-17T22:16:32+00:00"
     },
     {
       "title": "CVE-2026-29013 - libcoap Out-of-Bounds Read in OSCORE CBOR Unwrap Handling",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-29013",
-      "summary": "CVE ID :CVE-2026-29013 Published : April 17, 2026, 10:16 p.m. | 41 minutes ago Description :libcoap contains out-of-bounds read vulnerabilities in OSCORE Appendix B.2 CBOR unwrap handling where...",
+      "summary": "CVE ID :CVE-2026-29013 Published : April 17, 2026, 10:16 p.m. | 4 hours, 23 minutes ago Description :libcoap contains out-of-bounds read vulnerabilities in OSCORE Appendix B.2 CBOR unwrap handling...",
       "source": "CVE Feed",
       "published": "2026-04-17T22:16:31+00:00"
     },
     {
       "title": "CVE-2026-40527 - radare2 Command Injection via DWARF Parameter Names",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-40527",
-      "summary": "CVE ID :CVE-2026-40527 Published : April 17, 2026, 9:16 p.m. | 1 hour, 41 minutes ago Description :radare2 prior to commit bc5a890 contains a command injection vulnerability in the afsv/afsvj command...",
+      "summary": "CVE ID :CVE-2026-40527 Published : April 17, 2026, 9:16 p.m. | 5 hours, 23 minutes ago Description :radare2 prior to commit bc5a890 contains a command injection vulnerability in the afsv/afsvj...",
       "source": "CVE Feed",
       "published": "2026-04-17T21:16:35+00:00"
     },
     {
       "title": "CVE-2026-40285 - WeGIA has SQL Injection via Session Variable Override in DespachoControle.php",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-40285",
-      "summary": "CVE ID :CVE-2026-40285 Published : April 17, 2026, 9:16 p.m. | 1 hour, 41 minutes ago Description :WeGIA is a web manager for charitable institutions. Versions prior to 3.6.10 contain a SQL injection...",
+      "summary": "CVE ID :CVE-2026-40285 Published : April 17, 2026, 9:16 p.m. | 5 hours, 23 minutes ago Description :WeGIA is a web manager for charitable institutions. Versions prior to 3.6.10 contain a SQL...",
       "source": "CVE Feed",
       "published": "2026-04-17T21:16:34+00:00"
     },
     {
       "title": "CVE-2026-40196 - HomeBox has Unauthorized API Access via Retained defaultGroup ID After Group Access Revocation",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-40196",
-      "summary": "CVE ID :CVE-2026-40196 Published : April 17, 2026, 9:16 p.m. | 1 hour, 41 minutes ago Description :HomeBox is a home inventory and organization system. Versions prior to 0.25.0 contain a...",
+      "summary": "CVE ID :CVE-2026-40196 Published : April 17, 2026, 9:16 p.m. | 5 hours, 23 minutes ago Description :HomeBox is a home inventory and organization system. Versions prior to 0.25.0 contain a...",
       "source": "CVE Feed",
       "published": "2026-04-17T21:16:33+00:00"
     },
     {
       "title": "CVE-2026-35512 - xrdp: Heap buffer overflow in EGFX channel",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-35512",
-      "summary": "CVE ID :CVE-2026-35512 Published : April 17, 2026, 9:16 p.m. | 1 hour, 41 minutes ago Description :xrdp is an open source RDP server. Versions through 0.10.5 have a heap-based buffer overflow in the...",
+      "summary": "CVE ID :CVE-2026-35512 Published : April 17, 2026, 9:16 p.m. | 5 hours, 23 minutes ago Description :xrdp is an open source RDP server. Versions through 0.10.5 have a heap-based buffer overflow in the...",
       "source": "CVE Feed",
       "published": "2026-04-17T21:16:33+00:00"
     },
     {
       "title": "CVE-2026-33689 - xrdp: Pre-authentication out-of-bounds reads in channel parsers",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-33689",
-      "summary": "CVE ID :CVE-2026-33689 Published : April 17, 2026, 9:16 p.m. | 1 hour, 41 minutes ago Description :xrdp is an open source RDP server. Versions through 0.10.5 have an out-of-bounds read vulnerability...",
+      "summary": "CVE ID :CVE-2026-33689 Published : April 17, 2026, 9:16 p.m. | 5 hours, 23 minutes ago Description :xrdp is an open source RDP server. Versions through 0.10.5 have an out-of-bounds read vulnerability...",
       "source": "CVE Feed",
       "published": "2026-04-17T21:16:32+00:00"
-    },
-    {
-      "title": "CVE-2026-23500 - Dolibarr: OS Command Injection (RCE) via MAIN_ODT_AS_PDF configuration",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-23500",
-      "summary": "CVE ID :CVE-2026-23500 Published : April 17, 2026, 9:16 p.m. | 1 hour, 41 minutes ago Description :Dolibarr is an enterprise resource planning (ERP) and customer relationship management (CRM)...",
-      "source": "CVE Feed",
-      "published": "2026-04-17T21:16:31+00:00"
-    },
-    {
-      "title": "CVE-2026-40434 - Anviz CrossChex Standard Improper Verification of Source of a Communication Channel",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-40434",
-      "summary": "CVE ID :CVE-2026-40434 Published : April 17, 2026, 8:16 p.m. | 2 hours, 41 minutes ago Description :Anviz CrossChex Standard lacks source verification in the client/server channel, enabling TCP...",
-      "source": "CVE Feed",
-      "published": "2026-04-17T20:16:36+00:00"
-    },
-    {
-      "title": "CVE-2026-40342 - Firebird: Path Traversal + Arbitrary File Write Leads to Remote Code Execution",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-40342",
-      "summary": "CVE ID :CVE-2026-40342 Published : April 17, 2026, 8:16 p.m. | 2 hours, 41 minutes ago Description :Firebird is an open-source relational database management system. In versions prior to 5.0.4, 4.0.7...",
-      "source": "CVE Feed",
-      "published": "2026-04-17T20:16:35+00:00"
-    },
-    {
-      "title": "CVE-2026-40066 - Anviz Products Download of Code Without Integrity Check",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-40066",
-      "summary": "CVE ID :CVE-2026-40066 Published : April 17, 2026, 8:16 p.m. | 2 hours, 41 minutes ago Description :Anviz CX2 Lite and CX7 are vulnerable to unverified update packages that can be uploaded. The...",
-      "source": "CVE Feed",
-      "published": "2026-04-17T20:16:35+00:00"
-    },
-    {
-      "title": "CVE-2026-35682 - Anviz CX2 Lite Command Injection",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-35682",
-      "summary": "CVE ID :CVE-2026-35682 Published : April 17, 2026, 8:16 p.m. | 2 hours, 41 minutes ago Description :Anviz CX2 Lite is vulnerable to an authenticated command injection via a filename parameter that...",
-      "source": "CVE Feed",
-      "published": "2026-04-17T20:16:35+00:00"
-    },
-    {
-      "title": "CVE-2026-35546 - Anviz Products Missing Authentication for Critical Function",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-35546",
-      "summary": "CVE ID :CVE-2026-35546 Published : April 17, 2026, 8:16 p.m. | 2 hours, 41 minutes ago Description :Anviz CX2 Lite and CX7 are vulnerable to unauthenticated firmware uploads. This causes crafted...",
-      "source": "CVE Feed",
-      "published": "2026-04-17T20:16:35+00:00"
-    },
-    {
-      "title": "CVE-2026-32107 - xrdp: Fail-open privilege drop in sesexec — child processes may execute as root if setuid fails",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-32107",
-      "summary": "CVE ID :CVE-2026-32107 Published : April 17, 2026, 8:16 p.m. | 2 hours, 41 minutes ago Description :xrdp is an open source RDP server. In versions through 0.10.5, the session execution component did...",
-      "source": "CVE Feed",
-      "published": "2026-04-17T20:16:33+00:00"
-    },
-    {
-      "title": "CVE-2026-32105 - xrdp: RDP MAC signature (dataSignature) never verified on receive — integrity bypass in non-TLS mode",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-32105",
-      "summary": "CVE ID :CVE-2026-32105 Published : April 17, 2026, 8:16 p.m. | 2 hours, 41 minutes ago Description :xrdp is an open source RDP server. In versions through 0.10.5, xrdp does not implement verification...",
-      "source": "CVE Feed",
-      "published": "2026-04-17T20:16:33+00:00"
     },
     {
       "title": "How NIST's Cutback of CVE Handling Impacts Cyber Teams",
@@ -147,27 +182,6 @@
       "summary": "Industry and ad hoc coalitions appear poised to help fill the gap created by NIST's decision to cut back on CVE data enrichment.",
       "source": "Dark Reading",
       "published": "2026-04-17T19:51:57+00:00"
-    },
-    {
-      "title": "CVE-2026-40525 - OpenViking Authentication Bypass via VikingBot OpenAPI",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-40525",
-      "summary": "CVE ID :CVE-2026-40525 Published : April 17, 2026, 7:16 p.m. | 3 hours, 41 minutes ago Description :OpenViking prior to commit c7bb167 contains an authentication bypass vulnerability in the VikingBot...",
-      "source": "CVE Feed",
-      "published": "2026-04-17T19:16:39+00:00"
-    },
-    {
-      "title": "CVE-2026-28224 - Firebird Null Pointer Dereference via CryptCallback causes DOS",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-28224",
-      "summary": "CVE ID :CVE-2026-28224 Published : April 17, 2026, 7:16 p.m. | 3 hours, 41 minutes ago Description :Firebird is an open-source relational database management system. In versions prior to 5.0.4, 4.0.7...",
-      "source": "CVE Feed",
-      "published": "2026-04-17T19:16:35+00:00"
-    },
-    {
-      "title": "CVE-2026-27890 - Firebird has Pre-Auth DOS when Processing Out of Order CNCT_specific_data Segments",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-27890",
-      "summary": "CVE ID :CVE-2026-27890 Published : April 17, 2026, 7:16 p.m. | 3 hours, 41 minutes ago Description :Firebird is an open-source relational database management system. In versions prior to 5.0.4, 4.0.7...",
-      "source": "CVE Feed",
-      "published": "2026-04-17T19:16:34+00:00"
     },
     {
       "title": "Payouts King ransomware uses QEMU VMs to bypass endpoint security",
@@ -205,25 +219,11 @@
       "published": "2026-04-17T18:30:00+00:00"
     },
     {
-      "title": "CVE-2026-5718 - Drag and Drop Multiple File Upload for Contact Form 7 <= 1.3.9.6 - Unauthenticated Arbitrary File Upload via Non-ASCII Filename Blacklist Bypass",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-5718",
-      "summary": "CVE ID :CVE-2026-5718 Published : April 17, 2026, 6:16 p.m. | 4 hours, 41 minutes ago Description :The Drag and Drop Multiple File Upload for Contact Form 7 plugin for WordPress is vulnerable to...",
-      "source": "CVE Feed",
-      "published": "2026-04-17T18:16:32+00:00"
-    },
-    {
       "title": "Hackers Target TP-Link Routers With Mirai Malware in CVE-2023-33538 Exploitation Attempts",
       "link": "https://cybersecuritynews.com/hackers-target-tp-link-routers/",
       "summary": "Hackers Target TP-Link Routers With Mirai Malware in CVE-2023-33538 Exploitation Attempts A known security flaw in several end-of-life TP-Link Wi-Fi routers is being actively targeted by hackers...",
       "source": "CVE Newsroom",
       "published": "2026-04-17T17:53:50+00:00"
-    },
-    {
-      "title": "CVE-2026-40516 - OpenHarness SSRF via web_fetch and web_search",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-40516",
-      "summary": "CVE ID :CVE-2026-40516 Published : April 17, 2026, 5:17 p.m. | 5 hours, 40 minutes ago Description :OpenHarness before commit bd4df81 contains a server-side request forgery vulnerability in the...",
-      "source": "CVE Feed",
-      "published": "2026-04-17T17:17:09+00:00"
     },
     {
       "title": "CISA tells feds to patch 13-year-old Apache ActiveMQ bug under active attack",
@@ -308,6 +308,13 @@
       "summary": "The House passed stopgap legislation to extend a warrantless government surveillance power for 10 days, following a failed lobbying campaign by the Trump administration.",
       "source": "The Record",
       "published": "2026-04-17T13:15:00+00:00"
+    },
+    {
+      "title": "The Good, the Bad and the Ugly in Cybersecurity – Week 16",
+      "link": "https://www.sentinelone.com/blog/the-good-the-bad-and-the-ugly-in-cybersecurity-week-16-7/",
+      "summary": "The Good, the Bad and the Ugly in Cybersecurity – Week 16 The Good | U.S. Authorities Seize W3LL Phishing Ring & Jail DPRK IT Worker Scheme Facilitators The FBI has dismantled the “W3LL” phishing...",
+      "source": "CVE Newsroom",
+      "published": "2026-04-17T13:00:33+00:00"
     },
     {
       "title": "Coast Guard's New Cybersecurity Rules Offers Lessons for CISOs",
@@ -546,13 +553,6 @@
       "summary": "High-Severity SSRF Flaw Uncovered in Angular’s Server-Side Rendering Angular stands as a titan, powering everything from sleek mobile apps to massive enterprise desktop platforms. However, a...",
       "source": "CVE Newsroom",
       "published": "2026-04-17T02:32:21+00:00"
-    },
-    {
-      "title": "CISA Adds Critical Apache ActiveMQ RCE Flaw to KEV Catalog",
-      "link": "https://securityonline.info/apache-activemq-rce-jolokia-cve-2026-34197/",
-      "summary": "CISA Adds Critical Apache ActiveMQ RCE Flaw to KEV Catalog The Cybersecurity and Infrastructure Security Agency (CISA) has issued an urgent directive after adding a high-severity vulnerability in...",
-      "source": "CVE Newsroom",
-      "published": "2026-04-17T01:53:39+00:00"
     },
     {
       "title": "Operation PowerOFF identifies 75k DDoS users, takes down 53 domains",
