@@ -1,5 +1,6 @@
 ---
 import ComplianceCTA from './ComplianceCTA.astro';
+import nist171Data from '../../data/nist-800-171.json';
 
 interface Props {
     framework: 'cmmc' | 'nist-800-171';
@@ -48,6 +49,51 @@ const eyebrowParts = [
     `LEVEL ${level}`,
     groupName.toUpperCase(),
 ];
+
+const nist171Ids = new Set(
+    (nist171Data as { requirements: { id: string }[] }).requirements.map((r) => r.id)
+);
+
+function displayIdToRouteId(displayId: string): string {
+    const normalized = displayId
+        .split('.')
+        .map((part) => String(parseInt(part, 10)))
+        .join('.');
+    return normalized.replaceAll('.', '-');
+}
+
+function controlDisplayIdToRouteId(controlDisplayId: string): string {
+    return controlDisplayId
+        .trim()
+        .toLowerCase()
+        .replace(/[^a-z0-9]+/g, '-')
+        .replace(/-+/g, '-')
+        .replace(/^-|-$/g, '');
+}
+
+function sanitizeInlineArtifacts(text: string): string {
+    return text.replace(/\{\{\s*insert:\s*param,\s*[^}]+\}\}/g, 'organization-defined parameter');
+}
+
+function normalizeCprtRefs(html: string): string {
+    const cprtRef =
+        /\[([^\]]*)\]\(#\/cprt\/framework\/version\/SP_800_171_3_0_0\/home\?element=([0-9]{2}\.[0-9]{2}\.[0-9]{2})\)\s*([0-9]{2}\.[0-9]{2}\.[0-9]{2})?/g;
+
+    const cprtNormalized = html.replace(cprtRef, (_match, linkText, element, trailingRef) => {
+        const label = (trailingRef || linkText || element).trim();
+        const targetId = displayIdToRouteId(element);
+        if (nist171Ids.has(targetId)) {
+            return `<a href="/nist-800-171/${targetId}">${label}</a>`;
+        }
+        return label;
+    });
+
+    return sanitizeInlineArtifacts(cprtNormalized);
+}
+
+const normalizedDescription = normalizeCprtRefs(description);
+const normalizedAssessmentObjectives = assessmentObjectives.map(normalizeCprtRefs);
+const normalizedNotes = notes ? normalizeCprtRefs(notes) : null;
 ---
 
 <article class="detail-page">
@@ -69,7 +115,7 @@ const eyebrowParts = [
         <p class="eyebrow">{eyebrowParts.join(' \u2022 ')}</p>
         <h1 class="detail-title">{displayId}<span class="title-sep"> &mdash; </span>{title}</h1>
         <div class="divider"></div>
-        <p class="detail-description">{description}</p>
+        <p class="detail-description" set:html={normalizedDescription} />
     </header>
 
     <!-- Section 3: Cross-reference cards -->
@@ -94,7 +140,7 @@ const eyebrowParts = [
                     <h3 class="crossref-label">NIST 800-53 Controls</h3>
                     <div class="badge-list">
                         {nist80053.map((ctrl) => (
-                            <span class="badge">{ctrl}</span>
+                            <a href={`/nist-800-53/${controlDisplayIdToRouteId(ctrl)}`} class="badge badge-link">{ctrl}</a>
                         ))}
                     </div>
                 </div>
@@ -108,13 +154,13 @@ const eyebrowParts = [
             <h2 class="objectives-label">Assessment Objectives</h2>
             {assessmentObjectives.length > 0 ? (
                 <ul class="objectives-list">
-                    {assessmentObjectives.map((obj) => (
+                    {normalizedAssessmentObjectives.map((obj) => (
                         <li class="objective-item">
                             <svg class="objective-check" viewBox="0 0 20 20" fill="none" aria-hidden="true" width="20" height="20">
                                 <rect x="1" y="1" width="18" height="18" rx="3" stroke="currentColor" stroke-width="1.5" />
                                 <path d="M6 10.5l2.5 2.5 5.5-5.5" stroke="var(--c6-gold)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
                             </svg>
-                            <span class="objective-text">{obj}</span>
+                            <span class="objective-text" set:html={obj} />
                         </li>
                     ))}
                 </ul>
@@ -126,10 +172,10 @@ const eyebrowParts = [
 
     <!-- Section 5: Practitioner Notes -->
     <section class="notes-section" aria-label="Practitioner Notes">
-        {notes ? (
+        {normalizedNotes ? (
             <div class="notes-card">
                 <h2 class="notes-label">Practitioner Notes</h2>
-                <div class="notes-content" set:html={notes} />
+                <div class="notes-content" set:html={normalizedNotes} />
             </div>
         ) : (
             <div class="notes-card notes-card--empty">
@@ -356,6 +402,18 @@ const eyebrowParts = [
         border-radius: var(--radius-sm);
         white-space: nowrap;
     }
+    .badge-link {
+        text-decoration: none;
+        transition: border-color 0.2s ease, color 0.2s ease;
+    }
+    .badge-link:hover {
+        color: var(--c6-red-text);
+        border-color: var(--c6-border-accent);
+    }
+    .badge-link:focus-visible {
+        outline: 2px solid var(--c6-red-text);
+        outline-offset: 2px;
+    }
 
     /* === Section 4: Assessment Objectives === */
     .objectives-section {
@@ -550,6 +608,32 @@ const eyebrowParts = [
         font-size: 0.88rem;
         line-height: 1.5;
         color: var(--c6-text-body);
+    }
+
+    /* === STIG/CMMC constraint badges === */
+    :global(.stig-note) {
+        display: inline-flex;
+        align-items: center;
+        font-family: var(--font-mono);
+        font-size: 0.72rem;
+        font-weight: 600;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        color: var(--c6-black);
+        background: var(--c6-gold);
+        border-radius: var(--radius-sm);
+        padding: 0.1em 0.45em 0.15em;
+        margin-left: 0.3em;
+        vertical-align: middle;
+        white-space: nowrap;
+        cursor: help;
+        box-shadow: var(--shadow-gold);
+        transition: opacity 200ms;
+        text-decoration: none;
+    }
+
+    :global(.stig-note:hover) {
+        opacity: 0.85;
     }
 
     /* === Responsive === */

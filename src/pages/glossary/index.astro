@@ -1,0 +1,575 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import glossary from '../../../data/glossary.json';
+import InfoOnlyNotice from '../../components/InfoOnlyNotice.astro';
+
+/* ── Types ── */
+interface Term {
+    id: string;
+    term: string;
+    definition: string;
+    whyItMatters: string;
+    relatedResources: { label: string; url: string }[];
+}
+
+/* ── Strip HTML tags and extract first ~100 chars as summary ── */
+function summarize(html: string): string {
+    const plain = html.replace(/<[^>]*>/g, '').trim();
+    if (plain.length <= 100) return plain;
+    const cut = plain.slice(0, 100);
+    const lastSpace = cut.lastIndexOf(' ');
+    return (lastSpace > 60 ? cut.slice(0, lastSpace) : cut) + '…';
+}
+
+/* ── Group terms by first letter at build time ── */
+const alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('');
+const terms = (glossary as { terms: Term[] }).terms;
+
+interface LetterGroup {
+    letter: string;
+    terms: Term[];
+}
+
+const letterMap = new Map<string, LetterGroup>();
+for (const t of terms) {
+    const letter = t.term[0].toUpperCase();
+    let group = letterMap.get(letter);
+    if (!group) {
+        group = { letter, terms: [] };
+        letterMap.set(letter, group);
+    }
+    group.terms.push(t);
+}
+
+/* Sort terms within each group alphabetically */
+for (const group of letterMap.values()) {
+    group.terms.sort((a, b) => a.term.localeCompare(b.term));
+}
+
+const activeLetters = new Set(letterMap.keys());
+const groups: LetterGroup[] = alphabet
+    .filter(l => letterMap.has(l))
+    .map(l => letterMap.get(l)!);
+
+const totalCount = terms.length;
+---
+
+<BaseLayout
+    title="Cybersecurity Glossary | Cardinal Six Cyber"
+    description="Plain-language definitions for cybersecurity terms used across regulated industries. CMMC, NIST, RMF, and more explained clearly."
+    canonical="https://cardinalsixcyber.com/glossary"
+    ogDescription="Plain-language cybersecurity glossary covering CMMC, NIST, RMF, and compliance terminology across regulated industries."
+    navFixed={false}
+    activePage="resources"
+>
+    <Fragment slot="head">
+        <script type="application/ld+json" set:html={JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://cardinalsixcyber.com/" },
+                { "@type": "ListItem", "position": 2, "name": "Glossary", "item": "https://cardinalsixcyber.com/glossary" }
+            ]
+        })} />
+        <script type="application/ld+json" set:html={JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "CollectionPage",
+            "name": "Cybersecurity Glossary",
+            "description": "Plain-language definitions for cybersecurity terms used across regulated industries. CMMC, NIST, RMF, and more explained clearly.",
+            "url": "https://cardinalsixcyber.com/glossary",
+            "isPartOf": { "@type": "WebSite", "name": "Cardinal Six Cyber", "url": "https://cardinalsixcyber.com" }
+        })} />
+    </Fragment>
+
+    <!-- ═══ Hero Header ═══ -->
+    <section class="glossary-header" aria-label="Page header">
+        <div class="container">
+            <span class="eyebrow reveal">Compliance Reference</span>
+            <h1 class="glossary-title reveal reveal-delay-1">Cybersecurity <span class="accent">Glossary</span></h1>
+            <div class="divider reveal reveal-delay-2"></div>
+            <p class="section-sub reveal reveal-delay-2">Plain-language definitions for cybersecurity terms used across regulated industries and security assessments — {totalCount} terms and growing.</p>
+        </div>
+    </section>
+
+    <div class="container">
+        <InfoOnlyNotice />
+    </div>
+
+    <!-- ═══ Sticky A-Z Letter Bar + Search ═══ -->
+    <div class="letter-bar" id="letterBar">
+        <div class="container">
+            <div class="letter-bar-row">
+                <!-- A-Z navigation -->
+                <nav class="letter-nav" role="navigation" aria-label="Alphabetical navigation">
+                    {alphabet.map(letter => (
+                        activeLetters.has(letter)
+                            ? <a href={`#letter-${letter}`} class="letter-link" data-letter={letter}>{letter}</a>
+                            : <span class="letter-link letter-disabled" aria-disabled="true">{letter}</span>
+                    ))}
+                </nav>
+
+                <!-- Search -->
+                <div class="search-wrap">
+                    <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg>
+                    <input type="search" id="glossarySearch" class="search-input" placeholder="Search terms..." aria-label="Search glossary terms" autocomplete="off" />
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ═══ Glossary Listing ═══ -->
+    <section class="glossary-listing" aria-label="Glossary terms">
+        <div class="container">
+            <div id="glossaryResults" aria-live="polite">
+                {groups.map(g => (
+                    <div class="letter-group" id={`letter-${g.letter}`} data-letter-group={g.letter}>
+                        <div class="letter-heading">
+                            <h2 class="letter-title">{g.letter}</h2>
+                            <span class="letter-count" data-letter-count={g.letter}>{g.terms.length}</span>
+                        </div>
+                        <div class="term-list">
+                            {g.terms.map(t => (
+                                <a
+                                    href={`/glossary/${t.id}`}
+                                    class="term-row"
+                                    data-search={t.term.toLowerCase()}
+                                >
+                                    <span class="term-name">{t.term}</span>
+                                    <span class="term-summary">{summarize(t.definition)}</span>
+                                    <svg class="term-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="M12 5l7 7-7 7"/></svg>
+                                </a>
+                            ))}
+                        </div>
+                    </div>
+                ))}
+            </div>
+
+            <!-- Empty state -->
+            <div class="glossary-empty" id="emptyState" style="display:none;">
+                <svg class="glossary-empty-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/><path d="M8 11h6"/></svg>
+                <h3>No Matching Terms</h3>
+                <p>No glossary terms match your search. Try a different keyword.</p>
+            </div>
+        </div>
+    </section>
+</BaseLayout>
+
+<style is:global>
+    /* ── Hero ── */
+    .glossary-header {
+        padding: calc(var(--space-32) + var(--space-8)) 0 var(--space-12);
+        text-align: center;
+        background: var(--c6-gradient-hero);
+        position: relative;
+        overflow: hidden;
+    }
+    .glossary-header::before {
+        content: '';
+        position: absolute;
+        top: 20%;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 800px;
+        height: 600px;
+        background: radial-gradient(ellipse at center, rgba(192, 57, 43, 0.06) 0%, transparent 70%);
+        pointer-events: none;
+    }
+    .glossary-header .container { position: relative; z-index: 2; }
+    .glossary-title {
+        font-family: var(--font-display);
+        font-size: clamp(2.5rem, 5vw, 4.5rem);
+        font-weight: 700;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        line-height: 1.1;
+        color: var(--c6-text-primary);
+        margin-top: var(--space-4);
+    }
+    .glossary-title .accent { color: var(--c6-red-bright); }
+
+    /* ── Sticky Letter Bar ── */
+    .letter-bar {
+        position: sticky;
+        top: 64px;
+        z-index: 100;
+        background: rgba(17, 17, 17, 0.92);
+        backdrop-filter: blur(12px);
+        -webkit-backdrop-filter: blur(12px);
+        border-bottom: 1px solid var(--c6-border);
+        padding: var(--space-4) 0;
+    }
+    .letter-bar-row {
+        display: flex;
+        flex-direction: column;
+        gap: var(--space-4);
+    }
+    .letter-nav {
+        display: flex;
+        gap: var(--space-1);
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .letter-link {
+        font-family: var(--font-display);
+        font-size: 0.85rem;
+        font-weight: 600;
+        letter-spacing: 0.04em;
+        width: 32px;
+        height: 32px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: var(--radius-sm);
+        color: var(--c6-text-secondary);
+        text-decoration: none;
+        transition: transform 0.2s ease, background 0.2s ease, color 0.2s ease;
+        cursor: pointer;
+        border: 1px solid transparent;
+    }
+    .letter-link:hover:not(.letter-disabled) {
+        background: rgba(192, 57, 43, 0.12);
+        color: var(--c6-text-primary);
+        border-color: var(--c6-border-accent);
+    }
+    .letter-link:focus-visible {
+        outline: 2px solid var(--c6-red);
+        outline-offset: 2px;
+    }
+    .letter-link.letter-active {
+        background: var(--c6-red);
+        color: var(--c6-text-primary);
+        border-color: var(--c6-red);
+    }
+    .letter-disabled {
+        color: var(--c6-text-dim);
+        cursor: default;
+        opacity: 0.4;
+    }
+
+    /* ── Search Input ── */
+    .letter-bar .search-wrap {
+        position: relative;
+        max-width: 400px;
+        margin: 0 auto;
+        width: 100%;
+    }
+    .letter-bar .search-icon {
+        position: absolute;
+        left: var(--space-3);
+        top: 50%;
+        transform: translateY(-50%);
+        width: 16px;
+        height: 16px;
+        color: var(--c6-text-dim);
+        pointer-events: none;
+    }
+    .letter-bar .search-input {
+        font-family: var(--font-body);
+        font-size: 0.85rem;
+        color: var(--c6-text-secondary);
+        background: rgba(255, 255, 255, 0.04);
+        border: 1px solid var(--c6-border);
+        border-radius: var(--radius-full);
+        padding: var(--space-2) var(--space-4) var(--space-2) calc(var(--space-3) + 22px);
+        width: 100%;
+        transition: border-color 0.2s ease, box-shadow 0.2s ease;
+        outline: none;
+    }
+    .letter-bar .search-input::placeholder { color: var(--c6-text-dim); }
+    .letter-bar .search-input:focus {
+        border-color: var(--c6-red);
+        box-shadow: 0 0 12px var(--c6-red-glow);
+    }
+
+    /* ── Glossary Listing ── */
+    .glossary-listing {
+        background: var(--c6-gradient-section);
+        padding: var(--space-12) 0 var(--space-16);
+        min-height: 400px;
+        position: relative;
+    }
+    .glossary-listing::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 1000px;
+        height: 600px;
+        background: radial-gradient(ellipse at center, rgba(192, 57, 43, 0.04) 0%, transparent 70%);
+        pointer-events: none;
+    }
+
+    /* ── Letter Group ── */
+    .letter-group {
+        margin-bottom: var(--space-10);
+        scroll-margin-top: 180px;
+    }
+    .letter-group:last-child {
+        margin-bottom: 0;
+    }
+    .letter-heading {
+        display: flex;
+        align-items: center;
+        gap: var(--space-4);
+        margin-bottom: var(--space-4);
+        border-bottom: 1px solid var(--c6-border);
+        padding-bottom: var(--space-3);
+    }
+    .letter-title {
+        font-family: var(--font-display);
+        font-size: clamp(1.6rem, 3vw, 2.2rem);
+        font-weight: 700;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        line-height: 1;
+        color: var(--c6-red-bright);
+    }
+    .letter-count {
+        font-family: var(--font-mono);
+        font-size: 0.72rem;
+        color: var(--c6-text-dim);
+        margin-left: auto;
+        letter-spacing: 0.02em;
+    }
+
+    /* ── Term Row ── */
+    .term-list {
+        display: flex;
+        flex-direction: column;
+        gap: 1px;
+        background: var(--c6-border);
+    }
+    .term-row {
+        display: flex;
+        align-items: center;
+        gap: var(--space-4);
+        padding: var(--space-4) var(--space-6);
+        background: var(--c6-black);
+        border-left: 3px solid transparent;
+        cursor: pointer;
+        transition: transform 0.2s ease, background 0.2s ease, border-color 0.2s ease;
+        text-decoration: none;
+        color: inherit;
+    }
+    .term-row:hover {
+        background: var(--c6-black-elevated);
+        border-left-color: var(--c6-red);
+        color: inherit;
+    }
+    .term-row:focus-visible {
+        outline: 2px solid var(--c6-red);
+        outline-offset: -2px;
+        border-radius: 0;
+    }
+    .term-name {
+        font-family: var(--font-display);
+        font-size: 0.95rem;
+        font-weight: 600;
+        letter-spacing: 0.02em;
+        color: var(--c6-text-primary);
+        white-space: nowrap;
+        flex-shrink: 0;
+        min-width: 180px;
+    }
+    .term-summary {
+        font-family: var(--font-body);
+        font-size: 0.85rem;
+        color: var(--c6-text-muted);
+        flex: 1;
+        min-width: 0;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+    .term-arrow {
+        flex-shrink: 0;
+        width: 18px;
+        height: 18px;
+        color: var(--c6-text-dim);
+        transition: transform 0.2s ease, color 0.2s ease;
+    }
+    .term-row:hover .term-arrow {
+        color: var(--c6-red);
+        transform: translateX(4px);
+    }
+
+    /* ── Empty State ── */
+    .glossary-empty {
+        text-align: center;
+        padding: var(--space-20) var(--space-8);
+    }
+    .glossary-empty-icon {
+        width: 64px;
+        height: 64px;
+        margin: 0 auto var(--space-6);
+        color: var(--c6-text-dim);
+    }
+    .glossary-empty h3 {
+        font-family: var(--font-display);
+        font-size: 1.3rem;
+        font-weight: 600;
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+        color: var(--c6-text-secondary);
+        margin-bottom: var(--space-3);
+    }
+    .glossary-empty p {
+        font-size: 0.9rem;
+        color: var(--c6-text-muted);
+        max-width: 400px;
+        margin: 0 auto;
+    }
+
+    /* ── Responsive ── */
+    @media (max-width: 768px) {
+        .glossary-header {
+            padding-top: calc(var(--space-24) + var(--space-8));
+            padding-bottom: var(--space-8);
+        }
+        .letter-nav {
+            gap: 2px;
+        }
+        .letter-link {
+            width: 28px;
+            height: 28px;
+            font-size: 0.75rem;
+        }
+        .term-row {
+            padding: var(--space-3) var(--space-4);
+            gap: var(--space-3);
+            flex-wrap: wrap;
+        }
+        .term-name {
+            min-width: auto;
+            font-size: 0.88rem;
+        }
+        .term-summary {
+            width: 100%;
+            order: 3;
+            white-space: normal;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+        }
+        .term-arrow {
+            display: none;
+        }
+    }
+    @media (max-width: 480px) {
+        .letter-bar { top: 56px; }
+        .letter-group { scroll-margin-top: 200px; }
+        .letter-link {
+            width: 26px;
+            height: 26px;
+            font-size: 0.7rem;
+        }
+    }
+</style>
+
+<script>
+    (function() {
+        /* ── Reveal animations ── */
+        var reveals = document.querySelectorAll('.reveal');
+        document.querySelectorAll('.glossary-header .reveal').forEach(function(el) { el.classList.add('visible'); });
+        if ('IntersectionObserver' in window) {
+            var observer = new IntersectionObserver(function(entries) {
+                entries.forEach(function(entry) { if (entry.isIntersecting) { entry.target.classList.add('visible'); observer.unobserve(entry.target); } });
+            }, { threshold: 0.01, rootMargin: '0px 0px 50px 0px' });
+            reveals.forEach(function(el) { if (!el.closest('.glossary-header')) observer.observe(el); });
+        } else { reveals.forEach(function(el) { el.classList.add('visible'); }); }
+        setTimeout(function() { reveals.forEach(function(el) { el.classList.add('visible'); }); }, 3000);
+
+        /* ── Search + letter bar state ── */
+        var searchInput = document.getElementById('glossarySearch');
+        var groups = document.querySelectorAll('.letter-group');
+        var rows = document.querySelectorAll('.term-row');
+        var emptyState = document.getElementById('emptyState');
+        var resultsEl = document.getElementById('glossaryResults');
+        var letterLinks = document.querySelectorAll('.letter-link:not(.letter-disabled)');
+
+        /* ── Highlight active letter on scroll ── */
+        if ('IntersectionObserver' in window) {
+            var letterObserver = new IntersectionObserver(function(entries) {
+                entries.forEach(function(entry) {
+                    if (entry.isIntersecting) {
+                        var letter = entry.target.getAttribute('data-letter-group');
+                        letterLinks.forEach(function(link) {
+                            if (link.getAttribute('data-letter') === letter) {
+                                link.classList.add('letter-active');
+                            } else {
+                                link.classList.remove('letter-active');
+                            }
+                        });
+                    }
+                });
+            }, { threshold: 0, rootMargin: '-180px 0px -70% 0px' });
+            groups.forEach(function(g) { letterObserver.observe(g); });
+        }
+
+        /* ── Search filtering ── */
+        if (searchInput) {
+            var debounceTimer;
+            searchInput.addEventListener('input', function() {
+                clearTimeout(debounceTimer);
+                debounceTimer = setTimeout(function() {
+                    var query = searchInput.value.trim().toLowerCase();
+                    applySearch(query);
+                }, 150);
+            });
+        }
+
+        function applySearch(query) {
+            var visibleCount = 0;
+            var groupVisibleCounts = {};
+
+            rows.forEach(function(row) {
+                var searchText = row.getAttribute('data-search') || '';
+                var visible = !query || searchText.indexOf(query) !== -1;
+                row.style.display = visible ? '' : 'none';
+                if (visible) {
+                    visibleCount++;
+                    var group = row.closest('.letter-group');
+                    if (group) {
+                        var letter = group.getAttribute('data-letter-group') || '';
+                        groupVisibleCounts[letter] = (groupVisibleCounts[letter] || 0) + 1;
+                    }
+                }
+            });
+
+            /* Show/hide letter groups */
+            groups.forEach(function(group) {
+                var letter = group.getAttribute('data-letter-group') || '';
+                var count = groupVisibleCounts[letter] || 0;
+                group.style.display = count > 0 ? '' : 'none';
+                var countEl = group.querySelector('[data-letter-count]');
+                if (countEl) countEl.textContent = String(count);
+            });
+
+            /* Dim/restore letter links */
+            letterLinks.forEach(function(link) {
+                var letter = link.getAttribute('data-letter');
+                if (groupVisibleCounts[letter]) {
+                    link.style.opacity = '';
+                    link.style.pointerEvents = '';
+                } else if (query) {
+                    link.style.opacity = '0.3';
+                    link.style.pointerEvents = 'none';
+                } else {
+                    link.style.opacity = '';
+                    link.style.pointerEvents = '';
+                }
+            });
+
+            /* Empty state */
+            if (emptyState) {
+                emptyState.style.display = visibleCount === 0 ? '' : 'none';
+            }
+            if (resultsEl) {
+                resultsEl.style.display = visibleCount === 0 ? 'none' : '';
+            }
+        }
+    })();
+</script>
+
+

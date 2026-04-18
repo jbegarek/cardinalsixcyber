@@ -5,378 +5,87 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cardinal Six Cyber | Command Your Defense</title>
     <meta name="description" content="Cardinal Six Cyber — CMMC readiness, RMF/NIST compliance, STIG hardening, and vulnerability management for defense contractors and federal agencies.">
-    <link rel="icon" type="image/png" href="brand/icon.png">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="canonical" href="https://cardinalsixcyber.com/">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://cardinalsixcyber.com/">
+    <meta property="og:title" content="Cardinal Six Cyber | Command Your Defense">
+    <meta property="og:description" content="Practitioner-led cybersecurity consulting — CMMC readiness, RMF/NIST compliance, STIG hardening, and vulnerability management for defense contractors and federal agencies.">
+    <meta property="og:image" content="https://cardinalsixcyber.com/brand/og-share.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:site_name" content="Cardinal Six Cyber">
+    <meta property="og:locale" content="en_US">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Cardinal Six Cyber | Command Your Defense">
+    <meta name="twitter:description" content="Practitioner-led cybersecurity consulting — CMMC readiness, RMF/NIST compliance, STIG hardening, and vulnerability management for defense contractors and federal agencies.">
+    <meta name="twitter:image" content="https://cardinalsixcyber.com/brand/og-share.png">
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Cardinal Six Cyber LLC",
+        "alternateName": "C6 Cyber",
+        "url": "https://cardinalsixcyber.com",
+        "logo": "https://cardinalsixcyber.com/brand/logo.png",
+        "description": "Practitioner-led cybersecurity consulting for defense contractors, federal agencies, and critical infrastructure. Specializing in CMMC readiness, RMF authorization, STIG compliance, and vulnerability management.",
+        "foundingDate": "2025",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Chesapeake",
+            "addressRegion": "VA",
+            "addressCountry": "US"
+        },
+        "contactPoint": {
+            "@type": "ContactPoint",
+            "email": "info@cardinalsixcyber.com",
+            "contactType": "customer service"
+        },
+        "parentOrganization": {
+            "@type": "Organization",
+            "name": "Begarek Enterprises LLC"
+        },
+        "areaServed": "US",
+        "knowsAbout": ["CMMC", "RMF", "NIST 800-53", "NIST 800-171", "STIG Compliance", "Vulnerability Management", "CORA", "ACAS", "FISMA", "Zero Trust Architecture"],
+        "serviceType": ["Cybersecurity Consulting", "CMMC Readiness", "RMF Authorization", "STIG Compliance", "Vulnerability Management", "Risk Management", "Advisory & Training"]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "ProfessionalService",
+        "name": "Cardinal Six Cyber LLC",
+        "alternateName": "C6 Cyber",
+        "url": "https://cardinalsixcyber.com",
+        "logo": "https://cardinalsixcyber.com/brand/logo.png",
+        "description": "Practitioner-led cybersecurity consulting specializing in CMMC readiness, RMF authorization, STIG compliance, and vulnerability management.",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Chesapeake",
+            "addressRegion": "VA",
+            "addressCountry": "US"
+        },
+        "email": "info@cardinalsixcyber.com",
+        "priceRange": "$$",
+        "areaServed": {
+            "@type": "Country",
+            "name": "United States"
+        }
+    }
+    </script>
+
+    <link rel="icon" type="image/png" sizes="32x32" href="brand/favicon-32.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="brand/icon-180.png">
+    <meta name="theme-color" content="#0a0a0a">
+    <link rel="stylesheet" href="fonts/fonts.css">
+    <link rel="stylesheet" href="styles.css">
     <style>
-        /* ===== DESIGN TOKENS ===== */
-        :root {
-            /* Core Colors */
-            --c6-black:           #0a0a0a;
-            --c6-black-elevated:  #111111;
-            --c6-black-surface:   #1a1a1a;
-            --c6-charcoal:        #1A1A2E;
-
-            /* Cardinal Red System */
-            --c6-red:             #c0392b;
-            --c6-red-bright:      #C41E3A;
-            --c6-red-dark:        #8B1A1A;
-            --c6-red-glow:        rgba(192, 57, 43, 0.15);
-            --c6-red-gradient:    linear-gradient(135deg, #C41E3A 0%, #c0392b 50%, #8B1A1A 100%);
-
-            /* Gold Accent System */
-            --c6-gold:            #C9A84C;
-            --c6-gold-light:      #D4B96A;
-            --c6-gold-dark:       #A8893A;
-            --c6-gold-glow:       rgba(201, 168, 76, 0.12);
-
-            /* Text Hierarchy */
-            --c6-text-primary:    #ffffff;
-            --c6-text-secondary:  #cccccc;
-            --c6-text-body:       #888888;
-            --c6-text-muted:      #666666;
-            --c6-text-dim:        #444444;
-
-            /* Functional */
-            --c6-border:          rgba(255, 255, 255, 0.06);
-            --c6-border-accent:   rgba(192, 57, 43, 0.3);
-            --c6-overlay:         rgba(10, 10, 10, 0.85);
-
-            /* Gradients */
-            --c6-gradient-hero:       linear-gradient(180deg, #0a0a0a 0%, #111111 40%, #0a0a0a 100%);
-            --c6-gradient-section:    linear-gradient(180deg, #0a0a0a 0%, #0f0f0f 50%, #0a0a0a 100%);
-            --c6-gradient-accent:     linear-gradient(90deg, #C41E3A 0%, #c0392b 100%);
-            --c6-gradient-gold:       linear-gradient(90deg, #A8893A 0%, #C9A84C 50%, #D4B96A 100%);
-            --c6-glow-red:            radial-gradient(ellipse at center, rgba(192, 57, 43, 0.08) 0%, transparent 70%);
-            --c6-glow-gold:           radial-gradient(ellipse at center, rgba(201, 168, 76, 0.06) 0%, transparent 70%);
-            --c6-gradient-card-hover: linear-gradient(135deg, rgba(192, 57, 43, 0.05) 0%, rgba(26, 26, 46, 0.8) 100%);
-
-            /* Shadows */
-            --shadow-card:        0 1px 3px rgba(0, 0, 0, 0.4), 0 4px 12px rgba(0, 0, 0, 0.3);
-            --shadow-card-hover:  0 2px 8px rgba(0, 0, 0, 0.5), 0 8px 24px rgba(0, 0, 0, 0.4), 0 0 40px rgba(192, 57, 43, 0.15);
-            --shadow-cta:         0 2px 8px rgba(192, 57, 43, 0.3), 0 4px 16px rgba(192, 57, 43, 0.15);
-            --shadow-gold:        0 2px 8px rgba(201, 168, 76, 0.2), 0 4px 16px rgba(201, 168, 76, 0.1);
-            --shadow-nav:         0 1px 0 rgba(255, 255, 255, 0.06), 0 4px 12px rgba(0, 0, 0, 0.5);
-
-            /* Typography */
-            --font-display: 'Rajdhani', 'Exo 2', 'Segoe UI', sans-serif;
-            --font-body: 'Inter', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            --font-mono: 'JetBrains Mono', 'Fira Code', 'Consolas', monospace;
-
-            /* Spacing */
-            --space-1:  0.25rem;
-            --space-2:  0.5rem;
-            --space-3:  0.75rem;
-            --space-4:  1rem;
-            --space-6:  1.5rem;
-            --space-8:  2rem;
-            --space-10: 2.5rem;
-            --space-12: 3rem;
-            --space-16: 4rem;
-            --space-20: 5rem;
-            --space-24: 6rem;
-            --space-32: 8rem;
-
-            /* Radius */
-            --radius-sm:  4px;
-            --radius-md:  8px;
-            --radius-lg:  12px;
-            --radius-xl:  16px;
-            --radius-full: 9999px;
-        }
-
-        /* ===== RESET & BASE ===== */
-        *, *::before, *::after {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        html {
-            scroll-behavior: smooth;
-            -webkit-font-smoothing: antialiased;
-            -moz-osx-font-smoothing: grayscale;
-        }
-
-        body {
-            background: var(--c6-black);
-            color: var(--c6-text-body);
-            font-family: var(--font-body);
-            font-size: 1rem;
-            line-height: 1.7;
-            letter-spacing: 0.01em;
-            overflow-x: hidden;
-        }
-
-        img { max-width: 100%; height: auto; display: block; }
-        a { color: var(--c6-red); text-decoration: none; }
-        a:hover { color: var(--c6-red-bright); }
-
-        /* ===== UTILITY CLASSES ===== */
-        .container {
-            width: 100%;
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 0 var(--space-6);
-        }
-
-        .eyebrow {
-            font-family: var(--font-display);
-            font-size: 1rem;
-            font-weight: 300;
-            letter-spacing: 0.3em;
-            text-transform: uppercase;
-            color: var(--c6-text-secondary);
-            display: inline-block;
-        }
-
-        .divider {
-            width: 80px;
-            height: 2px;
-            background: var(--c6-red);
-            margin: var(--space-6) auto;
-        }
-
-        .divider-wide {
-            width: 120px;
-            height: 2px;
-            background: var(--c6-gradient-accent);
-            margin: var(--space-8) auto;
-        }
-
-        .divider-gold {
-            width: 80px;
-            height: 2px;
-            background: var(--c6-gradient-gold);
-            margin: var(--space-6) auto;
-        }
-
-        .section-heading {
-            font-family: var(--font-display);
-            font-size: clamp(1.8rem, 3vw, 3rem);
-            font-weight: 600;
-            letter-spacing: 0.04em;
-            text-transform: uppercase;
-            line-height: 1.2;
-            color: var(--c6-text-primary);
-            text-align: center;
-        }
-
-        .section-sub {
-            font-family: var(--font-body);
-            font-size: 1.05rem;
-            color: var(--c6-text-body);
-            text-align: center;
-            max-width: 600px;
-            margin: 0 auto;
-            line-height: 1.7;
-        }
-
-        /* ===== SCAN LINES OVERLAY ===== */
-        .scanlines {
-            position: fixed;
-            top: 0; left: 0; right: 0; bottom: 0;
-            pointer-events: none;
-            z-index: 9999;
-            background: repeating-linear-gradient(
-                0deg,
-                transparent,
-                transparent 2px,
-                rgba(255, 255, 255, 0.015) 2px,
-                rgba(255, 255, 255, 0.015) 4px
-            );
-        }
-
-        /* ===== NAVIGATION ===== */
-        .nav {
-            position: fixed;
-            top: 0;
-            left: 0;
-            right: 0;
-            z-index: 1000;
-            padding: var(--space-4) 0;
-            transition: background 0.3s ease, box-shadow 0.3s ease;
-        }
-
-        .nav.scrolled {
-            background: rgba(17, 17, 17, 0.95);
-            backdrop-filter: blur(12px);
-            -webkit-backdrop-filter: blur(12px);
-            box-shadow: var(--shadow-nav);
-        }
-
-        .nav-inner {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-        }
-
-        .nav-logo {
-            height: 56px;
-            width: auto;
-            filter: drop-shadow(0 0 8px rgba(192, 57, 43, 0.12));
-        }
-
-        .nav-links {
-            display: flex;
-            align-items: center;
-            gap: var(--space-8);
-            list-style: none;
-        }
-
-        .nav-links a {
-            font-family: var(--font-display);
-            font-size: 0.95rem;
-            font-weight: 500;
-            letter-spacing: 0.08em;
-            text-transform: uppercase;
-            color: var(--c6-text-secondary);
-            transition: color 0.2s ease;
-            position: relative;
-        }
-
-        .nav-links a::after {
-            content: '';
-            position: absolute;
-            bottom: -4px;
-            left: 0;
-            width: 0;
-            height: 2px;
-            background: var(--c6-red);
-            transition: width 0.3s ease;
-        }
-
-        .nav-links a:hover {
-            color: var(--c6-text-primary);
-        }
-
-        .nav-links a:hover::after {
-            width: 100%;
-        }
-
-        .nav-links a:focus-visible {
-            outline: 2px solid var(--c6-red);
-            outline-offset: 4px;
-            border-radius: var(--radius-sm);
-        }
-
-        .nav-cta {
-            font-family: var(--font-display);
-            font-size: 0.9rem;
-            font-weight: 600;
-            letter-spacing: 0.08em;
-            text-transform: uppercase;
-            color: var(--c6-text-primary) !important;
-            background: var(--c6-red-gradient);
-            padding: var(--space-2) var(--space-6);
-            border-radius: var(--radius-sm);
-            box-shadow: var(--shadow-cta);
-            transition: transform 0.2s ease, opacity 0.2s ease;
-            display: inline-block;
-        }
-
-        .nav-cta:hover {
-            transform: translateY(-1px);
-            opacity: 0.92;
-            color: var(--c6-text-primary) !important;
-        }
-
-        .nav-cta:active {
-            transform: translateY(0);
-        }
-
-        .nav-cta:focus-visible {
-            outline: 2px solid var(--c6-gold);
-            outline-offset: 3px;
-        }
-
-        .nav-cta::after { display: none; }
-
-        .nav-cta-overwatch {
-            background: transparent !important;
-            border: 1px solid var(--c6-gold);
-            color: var(--c6-gold) !important;
-            box-shadow: none;
-        }
-
-        .nav-cta-overwatch:hover {
-            background: rgba(201, 168, 76, 0.1) !important;
-            color: var(--c6-gold-light) !important;
-            border-color: var(--c6-gold-light);
-        }
-
-        .nav-cta-overwatch:active {
-            background: rgba(201, 168, 76, 0.15) !important;
-        }
-
-        /* Mobile menu button */
-        .nav-toggle {
-            display: none;
-            background: none;
-            border: none;
-            cursor: pointer;
-            padding: var(--space-2);
-            z-index: 1001;
-        }
-
-        .nav-toggle span {
-            display: block;
-            width: 24px;
-            height: 2px;
-            background: var(--c6-text-secondary);
-            margin: 6px 0;
-            transition: transform 0.3s ease, opacity 0.3s ease;
-        }
-
-        .nav-toggle.active span:nth-child(1) {
-            transform: rotate(45deg) translate(5px, 6px);
-        }
-        .nav-toggle.active span:nth-child(2) {
-            opacity: 0;
-        }
-        .nav-toggle.active span:nth-child(3) {
-            transform: rotate(-45deg) translate(5px, -6px);
-        }
-
-        /* Mobile overlay */
-        .nav-overlay {
-            display: none;
-            position: fixed;
-            inset: 0;
-            background: var(--c6-overlay);
-            z-index: 999;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            gap: var(--space-8);
-        }
-
-        .nav-overlay.open {
-            display: flex;
-        }
-
-        .nav-overlay a {
-            font-family: var(--font-display);
-            font-size: 1.5rem;
-            font-weight: 600;
-            letter-spacing: 0.1em;
-            text-transform: uppercase;
-            color: var(--c6-text-secondary);
-            transition: color 0.2s ease;
-        }
-
-        .nav-overlay a:hover {
-            color: var(--c6-red);
-        }
-
-        .mobile-link-overwatch {
-            color: var(--c6-gold) !important;
-        }
-
-        .mobile-link-overwatch:hover {
-            color: var(--c6-gold-light) !important;
-        }
+        /* ===== INDEX PAGE STYLES ===== */
 
         /* ===== HERO SECTION ===== */
         .hero {
@@ -447,7 +156,7 @@
             font-weight: 400;
             letter-spacing: 0.3em;
             text-transform: uppercase;
-            color: var(--c6-red);
+            color: var(--c6-red-text);
             margin-bottom: var(--space-6);
             display: flex;
             align-items: center;
@@ -458,7 +167,7 @@
             content: '';
             width: 32px;
             height: 2px;
-            background: var(--c6-red);
+            background: var(--c6-red-text);
             display: inline-block;
         }
 
@@ -498,71 +207,6 @@
             align-items: center;
             gap: var(--space-6);
             flex-wrap: wrap;
-        }
-
-        .btn-primary {
-            font-family: var(--font-display);
-            font-size: 1rem;
-            font-weight: 600;
-            letter-spacing: 0.08em;
-            text-transform: uppercase;
-            color: var(--c6-text-primary);
-            background: var(--c6-red-gradient);
-            padding: var(--space-3) var(--space-8);
-            border: none;
-            border-radius: var(--radius-sm);
-            box-shadow: var(--shadow-cta);
-            cursor: pointer;
-            transition: transform 0.2s ease, opacity 0.2s ease;
-            text-decoration: none;
-            display: inline-block;
-        }
-
-        .btn-primary:hover {
-            transform: translateY(-2px);
-            opacity: 0.92;
-            color: var(--c6-text-primary);
-        }
-
-        .btn-primary:active {
-            transform: translateY(0);
-        }
-
-        .btn-primary:focus-visible {
-            outline: 2px solid var(--c6-gold);
-            outline-offset: 3px;
-        }
-
-        .btn-secondary {
-            font-family: var(--font-display);
-            font-size: 1rem;
-            font-weight: 500;
-            letter-spacing: 0.06em;
-            text-transform: uppercase;
-            color: var(--c6-text-secondary);
-            background: transparent;
-            padding: var(--space-3) var(--space-8);
-            border: 1px solid var(--c6-border-accent);
-            border-radius: var(--radius-sm);
-            cursor: pointer;
-            transition: transform 0.2s ease, border-color 0.2s ease, color 0.2s ease;
-            text-decoration: none;
-            display: inline-block;
-        }
-
-        .btn-secondary:hover {
-            border-color: var(--c6-red);
-            color: var(--c6-text-primary);
-            transform: translateY(-1px);
-        }
-
-        .btn-secondary:active {
-            transform: translateY(0);
-        }
-
-        .btn-secondary:focus-visible {
-            outline: 2px solid var(--c6-red);
-            outline-offset: 3px;
         }
 
         /* Hero visual — floating shield/status card */
@@ -727,7 +371,7 @@
             letter-spacing: 0.02em;
         }
 
-        .stat-number .red { color: var(--c6-red); }
+        .stat-number .red { color: var(--c6-red-text); }
 
         .stat-label {
             font-family: var(--font-body);
@@ -839,8 +483,8 @@
             font-size: 0.7rem;
             letter-spacing: 0.05em;
             text-transform: uppercase;
-            color: var(--c6-red);
-            border: 1px solid var(--c6-border-accent);
+            color: var(--c6-red-text);
+            border: 1px solid var(--c6-border-btn);
             padding: var(--space-1) var(--space-3);
             border-radius: var(--radius-sm);
         }
@@ -964,7 +608,7 @@
             fill: none;
         }
 
-        .cred-card h4 {
+        .cred-card h3 {
             font-family: var(--font-display);
             font-size: 1.1rem;
             font-weight: 600;
@@ -1102,12 +746,12 @@
         }
 
         .cta-contact a {
-            color: var(--c6-red);
+            color: var(--c6-red-text);
             transition: color 0.2s ease;
         }
 
         .cta-contact a:hover {
-            color: var(--c6-red-bright);
+            color: #E8655A;
         }
 
         .cta-contact a:focus-visible {
@@ -1116,156 +760,7 @@
             border-radius: 2px;
         }
 
-        /* ===== FOOTER ===== */
-        .footer {
-            background: var(--c6-black);
-            border-top: 1px solid var(--c6-border);
-            padding: var(--space-16) 0 var(--space-8);
-        }
-
-        .footer-top-divider {
-            width: 120px;
-            height: 2px;
-            background: var(--c6-gradient-accent);
-            margin: 0 auto var(--space-12);
-        }
-
-        .footer-grid {
-            display: grid;
-            grid-template-columns: 2fr 1fr 1fr 1.5fr;
-            gap: var(--space-12);
-            margin-bottom: var(--space-12);
-        }
-
-        .footer-brand {
-            max-width: 300px;
-        }
-
-        .footer-logo {
-            height: 70px;
-            width: auto;
-            margin-bottom: var(--space-6);
-            filter: drop-shadow(0 0 12px rgba(192, 57, 43, 0.15));
-        }
-
-        .footer-brand p {
-            font-size: 0.85rem;
-            color: var(--c6-text-muted);
-            line-height: 1.6;
-        }
-
-        .footer-col h5 {
-            font-family: var(--font-display);
-            font-size: 0.9rem;
-            font-weight: 600;
-            letter-spacing: 0.1em;
-            text-transform: uppercase;
-            color: var(--c6-text-secondary);
-            margin-bottom: var(--space-6);
-        }
-
-        .footer-col ul {
-            list-style: none;
-            display: flex;
-            flex-direction: column;
-            gap: var(--space-3);
-        }
-
-        .footer-col a {
-            font-size: 0.85rem;
-            color: var(--c6-text-muted);
-            transition: color 0.2s ease;
-        }
-
-        .footer-col a:hover {
-            color: var(--c6-red);
-        }
-
-        .footer-col a:focus-visible {
-            outline: 2px solid var(--c6-red);
-            outline-offset: 2px;
-            border-radius: 2px;
-        }
-
-        .footer-contact-item {
-            display: flex;
-            align-items: flex-start;
-            gap: var(--space-3);
-            margin-bottom: var(--space-3);
-            font-size: 0.85rem;
-            color: var(--c6-text-muted);
-        }
-
-        .footer-contact-item svg {
-            width: 16px;
-            height: 16px;
-            stroke: var(--c6-red);
-            stroke-width: 1.5;
-            fill: none;
-            flex-shrink: 0;
-            margin-top: 2px;
-        }
-
-        .footer-bottom {
-            border-top: 1px solid var(--c6-border);
-            padding-top: var(--space-8);
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-
-        .footer-copy {
-            font-size: 0.8rem;
-            color: var(--c6-text-dim);
-            font-family: var(--font-body);
-        }
-
-        .footer-legal {
-            display: flex;
-            gap: var(--space-6);
-        }
-
-        .footer-legal a {
-            font-size: 0.8rem;
-            color: var(--c6-text-dim);
-            transition: color 0.2s ease;
-        }
-
-        .footer-legal a:hover { color: var(--c6-text-muted); }
-
-        /* ===== ANIMATIONS ===== */
-        @keyframes fade-up {
-            from { opacity: 0; transform: translateY(24px); }
-            to   { opacity: 1; transform: translateY(0); }
-        }
-
-        .reveal {
-            opacity: 0;
-            transform: translateY(24px);
-        }
-
-        .reveal.visible {
-            animation: fade-up 0.6s ease forwards;
-        }
-
-        .reveal-delay-1.visible { animation-delay: 0.1s; }
-        .reveal-delay-2.visible { animation-delay: 0.2s; }
-        .reveal-delay-3.visible { animation-delay: 0.3s; }
-        .reveal-delay-4.visible { animation-delay: 0.4s; }
-        .reveal-delay-5.visible { animation-delay: 0.5s; }
-
-        /* Fallback: if JS fails or observer doesn't fire, show everything after 1.5s */
-        @keyframes fallback-show {
-            to { opacity: 1; transform: translateY(0); }
-        }
-        .reveal {
-            animation: fallback-show 0s ease 1.5s forwards;
-        }
-        .reveal.visible {
-            animation: fade-up 0.6s ease forwards;
-        }
-
-        /* ===== RESPONSIVE ===== */
+        /* ===== INDEX RESPONSIVE ===== */
         @media (max-width: 1024px) {
             .hero-content {
                 grid-template-columns: 1fr;
@@ -1326,17 +821,9 @@
             .framework-grid {
                 grid-template-columns: repeat(2, 1fr);
             }
-
-            .footer-grid {
-                grid-template-columns: 1fr 1fr;
-                gap: var(--space-8);
-            }
         }
 
         @media (max-width: 768px) {
-            .nav-links { display: none; }
-            .nav-toggle { display: block; }
-
             .hero {
                 min-height: auto;
                 padding-top: 100px;
@@ -1371,22 +858,9 @@
             .framework-grid {
                 grid-template-columns: 1fr 1fr;
             }
-
-            .footer-grid {
-                grid-template-columns: 1fr;
-                gap: var(--space-8);
-            }
-
-            .footer-bottom {
-                flex-direction: column;
-                gap: var(--space-4);
-                text-align: center;
-            }
         }
 
         @media (max-width: 480px) {
-            .container { padding: 0 var(--space-4); }
-
             .stats-grid {
                 grid-template-columns: 1fr 1fr;
             }
@@ -1412,45 +886,62 @@
                 text-align: center;
             }
         }
+
+        @media (prefers-reduced-motion: reduce) {
+            .hero-shield::before,
+            .hero-shield::after {
+                animation: none;
+            }
+            .status-dot {
+                animation: none;
+            }
+        }
     </style>
 </head>
 <body>
+
+    <a href="#main-content" class="skip-link">Skip to main content</a>
 
     <!-- Scan lines overlay -->
     <div class="scanlines" aria-hidden="true"></div>
 
     <!-- Navigation -->
-    <nav class="nav" role="navigation" aria-label="Primary navigation">
+    <nav class="nav" aria-label="Primary navigation">
         <div class="container nav-inner">
-            <a href="#" aria-label="Cardinal Six Cyber — Home">
-                <img src="brand/logo.png" alt="Cardinal Six Cyber" class="nav-logo">
+            <a href="/" aria-label="Cardinal Six Cyber — Home">
+                <picture>
+                    <source srcset="brand/logo.webp" type="image/webp">
+                    <img src="brand/logo.png" alt="Cardinal Six Cyber" class="nav-logo" width="640" height="640">
+                </picture>
             </a>
             <ul class="nav-links">
                 <li><a href="#services">Services</a></li>
                 <li><a href="#why-c6">Why C6</a></li>
                 <li><a href="#frameworks">Frameworks</a></li>
                 <li><a href="news.html">Cyber News</a></li>
-                <li><a href="https://overwatch.cardinalsixcyber.com" target="_blank" rel="noopener noreferrer" class="nav-cta nav-cta-overwatch">C6 Overwatch</a></li>
+                <li><a href="https://overwatch.cardinalsixcyber.com" target="_blank" rel="noopener noreferrer" class="nav-cta nav-cta-overwatch">C6 Overwatch<span class="sr-only"> (opens in new tab)</span></a></li>
                 <li><a href="#contact" class="nav-cta">Get in Touch</a></li>
             </ul>
-            <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+            <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="navOverlay">
                 <span></span><span></span><span></span>
             </button>
         </div>
     </nav>
 
     <!-- Mobile overlay -->
-    <div class="nav-overlay" id="navOverlay" role="dialog" aria-label="Mobile navigation">
+    <nav class="nav-overlay" id="navOverlay" aria-label="Mobile navigation">
         <a href="#services" class="mobile-link">Services</a>
         <a href="#why-c6" class="mobile-link">Why C6</a>
         <a href="#frameworks" class="mobile-link">Frameworks</a>
         <a href="news.html" class="mobile-link">Cyber News</a>
-        <a href="https://overwatch.cardinalsixcyber.com" target="_blank" rel="noopener noreferrer" class="mobile-link mobile-link-overwatch">C6 Overwatch</a>
+        <a href="https://overwatch.cardinalsixcyber.com" target="_blank" rel="noopener noreferrer" class="mobile-link mobile-link-overwatch">C6 Overwatch<span class="sr-only"> (opens in new tab)</span></a>
         <a href="#contact" class="mobile-link">Get in Touch</a>
-    </div>
+    </nav>
+
+    <main id="main-content">
 
     <!-- Hero Section -->
-    <section class="hero" id="hero">
+    <section class="hero" id="hero" aria-label="Hero">
         <div class="hero-grid" aria-hidden="true"></div>
         <div class="container hero-content">
             <div class="hero-text">
@@ -1469,7 +960,10 @@
             </div>
             <div class="hero-visual reveal reveal-delay-2">
                 <div class="hero-shield">
-                    <img src="brand/logo.png" alt="" class="hero-logo-img" aria-hidden="true">
+                    <picture>
+                        <source srcset="brand/logo.webp" type="image/webp">
+                        <img src="brand/logo.png" alt="" class="hero-logo-img" aria-hidden="true" width="640" height="640" fetchpriority="high">
+                    </picture>
                     <div class="status-card">
                         <div class="status-card-header">
                             <div class="status-dot"></div>
@@ -1516,11 +1010,11 @@
     </section>
 
     <!-- Services Section -->
-    <section class="services" id="services">
+    <section class="services" id="services" aria-labelledby="services-heading">
         <div class="container">
             <div class="services-header">
                 <span class="eyebrow reveal">What We Do</span>
-                <h2 class="section-heading reveal reveal-delay-1">Mission-Ready Services</h2>
+                <h2 id="services-heading" class="section-heading reveal reveal-delay-1">Mission-Ready Services</h2>
                 <div class="divider-wide reveal reveal-delay-2"></div>
                 <p class="section-sub reveal reveal-delay-2">
                     Hands-on expertise across the full spectrum of DoD and federal cybersecurity requirements.
@@ -1609,12 +1103,12 @@
     </section>
 
     <!-- Why C6 Section -->
-    <section class="why-c6" id="why-c6">
+    <section class="why-c6" id="why-c6" aria-labelledby="why-c6-heading">
         <div class="container">
             <div class="why-grid">
                 <div class="why-text">
                     <span class="eyebrow reveal">Why Cardinal Six</span>
-                    <h2 class="reveal reveal-delay-1">
+                    <h2 id="why-c6-heading" class="reveal reveal-delay-1">
                         Practitioner-Led.<br><span class="gold">Mission-Proven.</span>
                     </h2>
                     <div class="divider reveal reveal-delay-2"></div>
@@ -1637,7 +1131,7 @@
                             </svg>
                         </div>
                         <div>
-                            <h4>Federal Practitioner</h4>
+                            <h3>Federal Practitioner</h3>
                             <p>Hands-on cybersecurity operations within the Department of Defense.</p>
                         </div>
                     </div>
@@ -1649,7 +1143,7 @@
                             </svg>
                         </div>
                         <div>
-                            <h4>Cleared Personnel</h4>
+                            <h3>Cleared Personnel</h3>
                             <p>TS/SCI clearance — we understand the constraints and sensitivities of classified work.</p>
                         </div>
                     </div>
@@ -1661,7 +1155,7 @@
                             </svg>
                         </div>
                         <div>
-                            <h4>Academic Rigor</h4>
+                            <h3>Academic Rigor</h3>
                             <p>PhD candidate in Cybersecurity — research-informed approach to real-world problems.</p>
                         </div>
                     </div>
@@ -1673,7 +1167,7 @@
                             </svg>
                         </div>
                         <div>
-                            <h4>Personal Mission</h4>
+                            <h3>Personal Mission</h3>
                             <p>"Cardinal" honors family legacy. "Six" is the commanding officer. This is personal.</p>
                         </div>
                     </div>
@@ -1683,11 +1177,11 @@
     </section>
 
     <!-- Frameworks Section -->
-    <section class="frameworks" id="frameworks">
+    <section class="frameworks" id="frameworks" aria-labelledby="frameworks-heading">
         <div class="container">
             <div class="frameworks-header">
                 <span class="eyebrow reveal">Compliance Expertise</span>
-                <h2 class="section-heading reveal reveal-delay-1">Frameworks We Work</h2>
+                <h2 id="frameworks-heading" class="section-heading reveal reveal-delay-1">Frameworks We Work</h2>
                 <div class="divider-gold reveal reveal-delay-2"></div>
                 <p class="section-sub reveal reveal-delay-2">
                     Deep operational experience across the frameworks that matter for defense and federal compliance.
@@ -1731,7 +1225,7 @@
     </section>
 
     <!-- CTA Section -->
-    <section class="cta-section" id="contact">
+    <section class="cta-section" id="contact" aria-label="Contact">
         <div class="container">
             <div class="cta-inner">
                 <span class="eyebrow reveal">Ready to Start</span>
@@ -1753,17 +1247,22 @@
         </div>
     </section>
 
+    </main>
+
     <!-- Footer -->
-    <footer class="footer" role="contentinfo">
+    <footer class="footer">
         <div class="container">
             <div class="footer-top-divider" aria-hidden="true"></div>
             <div class="footer-grid">
                 <div class="footer-brand">
-                    <img src="brand/logo.png" alt="Cardinal Six Cyber" class="footer-logo">
+                    <picture>
+                        <source srcset="brand/logo.webp" type="image/webp">
+                        <img src="brand/logo.png" alt="Cardinal Six Cyber" class="footer-logo" width="640" height="640" loading="lazy">
+                    </picture>
                     <p>Practitioner-led cybersecurity consulting for defense contractors, federal agencies, and critical infrastructure. Built on mission experience.</p>
                 </div>
                 <div class="footer-col">
-                    <h5>Services</h5>
+                    <p class="footer-heading">Services</p>
                     <ul>
                         <li><a href="#services">CMMC Readiness</a></li>
                         <li><a href="#services">RMF Authorization</a></li>
@@ -1773,7 +1272,7 @@
                     </ul>
                 </div>
                 <div class="footer-col">
-                    <h5>Company</h5>
+                    <p class="footer-heading">Company</p>
                     <ul>
                         <li><a href="#why-c6">About C6</a></li>
                         <li><a href="#frameworks">Frameworks</a></li>
@@ -1781,14 +1280,14 @@
                     </ul>
                 </div>
                 <div class="footer-col">
-                    <h5>Contact</h5>
+                    <p class="footer-heading">Contact</p>
                     <div class="footer-contact-item">
                         <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M22 4L12 13 2 4"/></svg>
                         <a href="mailto:info@cardinalsixcyber.com">info@cardinalsixcyber.com</a>
                     </div>
                     <div class="footer-contact-item">
                         <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
-                        <span>Virginia Beach, VA</span>
+                        <span>Chesapeake, VA</span>
                     </div>
                 </div>
             </div>
@@ -1798,8 +1297,8 @@
                     <span style="font-size: 0.7rem; color: var(--c6-text-dim);">A Begarek Enterprises LLC company.</span>
                 </div>
                 <div class="footer-legal">
-                    <a href="#">Privacy Policy</a>
-                    <a href="#">Terms of Service</a>
+                    <a href="privacy.html">Privacy Policy</a>
+                    <a href="terms.html">Terms of Service</a>
                 </div>
             </div>
         </div>
@@ -1828,20 +1327,46 @@
             const overlay = document.getElementById('navOverlay');
             const links = overlay.querySelectorAll('a');
 
+            function closeMenu() {
+                overlay.classList.remove('open');
+                toggle.classList.remove('active');
+                toggle.setAttribute('aria-expanded', 'false');
+                document.body.style.overflow = '';
+                toggle.focus();
+            }
+
             toggle.addEventListener('click', function() {
                 const isOpen = overlay.classList.toggle('open');
                 toggle.classList.toggle('active');
                 toggle.setAttribute('aria-expanded', isOpen);
                 document.body.style.overflow = isOpen ? 'hidden' : '';
+                if (isOpen && links.length) links[0].focus();
             });
 
             links.forEach(function(link) {
-                link.addEventListener('click', function() {
-                    overlay.classList.remove('open');
-                    toggle.classList.remove('active');
-                    toggle.setAttribute('aria-expanded', 'false');
-                    document.body.style.overflow = '';
-                });
+                link.addEventListener('click', closeMenu);
+            });
+
+            /* Escape key closes overlay */
+            document.addEventListener('keydown', function(e) {
+                if (e.key === 'Escape' && overlay.classList.contains('open')) {
+                    closeMenu();
+                }
+            });
+
+            /* Trap focus within overlay when open */
+            overlay.addEventListener('keydown', function(e) {
+                if (e.key !== 'Tab' || !overlay.classList.contains('open')) return;
+                var focusable = overlay.querySelectorAll('a[href]');
+                var first = focusable[0];
+                var last = focusable[focusable.length - 1];
+                if (e.shiftKey && document.activeElement === first) {
+                    e.preventDefault();
+                    last.focus();
+                } else if (!e.shiftKey && document.activeElement === last) {
+                    e.preventDefault();
+                    first.focus();
+                }
             });
         })();
 

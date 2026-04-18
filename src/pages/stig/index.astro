@@ -1,0 +1,411 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import stigIndex from '../../../data/stig-index.json';
+import InfoOnlyNotice from '../../components/InfoOnlyNotice.astro';
+
+const benchmarks = stigIndex.benchmarks;
+
+const byCategory: Record<string, typeof benchmarks> = {};
+for (const b of benchmarks) {
+    if (!byCategory[b.category]) byCategory[b.category] = [];
+    byCategory[b.category].push(b);
+}
+const categories = Object.keys(byCategory).sort();
+
+const totalRules = benchmarks.reduce((s, b) => s + b.totalRules, 0);
+const totalCatI  = benchmarks.reduce((s, b) => s + b.catI, 0);
+---
+
+<BaseLayout
+    title="DISA STIG Reference | Cardinal Six Cyber"
+    description="Browse DISA Security Technical Implementation Guide (STIG) checklists. CAT I, II, and III findings with check procedures and fix actions for system hardening and security compliance."
+    canonical="https://cardinalsixcyber.com/stig"
+    activePage="stig"
+>
+    <main class="stig-index">
+
+        <!-- Hero -->
+        <section class="hero">
+            <div class="hero-glow" aria-hidden="true"></div>
+            <p class="eyebrow">DISA Security Technical Implementation Guides</p>
+            <h1 class="hero-title">STIG Reference</h1>
+            <div class="divider"></div>
+            <p class="hero-sub">
+                Official DISA STIG checklists for system hardening and security compliance.
+                Browse CAT I, II, and III findings with check procedures and remediation guidance.
+            </p>
+            <div class="hero-stats">
+                <div class="stat">
+                    <span class="stat-value">{benchmarks.length}</span>
+                    <span class="stat-label">Benchmarks</span>
+                </div>
+                <div class="stat-sep" aria-hidden="true"></div>
+                <div class="stat">
+                    <span class="stat-value">{totalRules.toLocaleString()}</span>
+                    <span class="stat-label">Total Rules</span>
+                </div>
+                <div class="stat-sep" aria-hidden="true"></div>
+                <div class="stat">
+                    <span class="stat-value cat-i">{totalCatI}</span>
+                    <span class="stat-label">CAT I Findings</span>
+                </div>
+            </div>
+        </section>
+        <InfoOnlyNotice />
+
+        <!-- Benchmark grid by category -->
+        {categories.map((cat) => (
+            <section class="category-section">
+                <h2 class="category-heading">{cat}</h2>
+                <div class="benchmark-grid">
+                    {byCategory[cat].map((b) => (
+                        <a href={`/stig/${b.slug}`} class="benchmark-card">
+                            <div class="card-top">
+                                <span class="card-label">{b.label}</span>
+                                {b.releaseInfo && (
+                                    <span class="card-release">{b.releaseInfo}</span>
+                                )}
+                            </div>
+                            <p class="card-title">{b.benchmarkTitle}</p>
+                            <div class="card-counts">
+                                <span class="count count--i" title="CAT I — High Severity">
+                                    <span class="count-num">{b.catI}</span>
+                                    <span class="count-cat">CAT I</span>
+                                </span>
+                                <span class="count count--ii" title="CAT II — Medium Severity">
+                                    <span class="count-num">{b.catII}</span>
+                                    <span class="count-cat">CAT II</span>
+                                </span>
+                                <span class="count count--iii" title="CAT III — Low Severity">
+                                    <span class="count-num">{b.catIII}</span>
+                                    <span class="count-cat">CAT III</span>
+                                </span>
+                                <span class="count-total">{b.totalRules} rules</span>
+                            </div>
+                        </a>
+                    ))}
+                </div>
+            </section>
+        ))}
+
+        <!-- CAT severity legend -->
+        <section class="legend-section">
+            <h2 class="legend-heading">Severity Categories</h2>
+            <div class="divider divider--centered"></div>
+            <div class="legend-grid">
+                <div class="legend-card legend-card--i">
+                    <span class="legend-cat">CAT I</span>
+                    <span class="legend-sev">High Severity</span>
+                    <p class="legend-desc">Any vulnerability that could directly and immediately result in loss of Confidentiality, Integrity, or Availability. These are open findings — remediate immediately.</p>
+                </div>
+                <div class="legend-card legend-card--ii">
+                    <span class="legend-cat">CAT II</span>
+                    <span class="legend-sev">Medium Severity</span>
+                    <p class="legend-desc">Any vulnerability that could potentially result in loss of CIA. The majority of STIG findings fall in this category and must be addressed within 30 days.</p>
+                </div>
+                <div class="legend-card legend-card--iii">
+                    <span class="legend-cat">CAT III</span>
+                    <span class="legend-sev">Low Severity</span>
+                    <p class="legend-desc">Any vulnerability that could degrade measures protecting CIA. These are best-practice hardening items addressed within 90 days or during scheduled maintenance.</p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+</BaseLayout>
+
+<style>
+.stig-index {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: var(--space-8) var(--space-6);
+}
+
+/* Hero */
+.hero {
+    position: relative;
+    text-align: center;
+    padding: var(--space-16) 0 var(--space-12);
+    margin-bottom: var(--space-16);
+}
+
+.hero-glow {
+    position: absolute;
+    inset: 0;
+    background: var(--c6-glow-red);
+    pointer-events: none;
+}
+
+.eyebrow {
+    font-family: var(--font-display);
+    font-size: 0.85rem;
+    font-weight: 300;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: var(--c6-text-secondary);
+    margin: 0 0 var(--space-4) 0;
+}
+
+.hero-title {
+    font-family: var(--font-display);
+    font-size: clamp(2.5rem, 5vw, 4rem);
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: var(--c6-text-primary);
+    margin: 0 0 var(--space-6) 0;
+    line-height: 1.1;
+}
+
+.divider {
+    width: 80px;
+    height: 2px;
+    background: var(--c6-red);
+    margin: 0 auto var(--space-6);
+}
+
+.hero-sub {
+    font-family: var(--font-body);
+    font-size: 1.05rem;
+    line-height: 1.75;
+    color: var(--c6-text-body);
+    max-width: 600px;
+    margin: 0 auto var(--space-10) auto;
+}
+
+.hero-stats {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-6);
+    background: var(--c6-black-elevated);
+    border: 1px solid var(--c6-border);
+    border-radius: var(--radius-md);
+    padding: var(--space-4) var(--space-8);
+}
+
+.stat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--space-1);
+}
+
+.stat-value {
+    font-family: var(--font-display);
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: var(--c6-text-primary);
+    line-height: 1;
+}
+
+.stat-value.cat-i { color: var(--c6-red-bright); }
+
+.stat-label {
+    font-family: var(--font-body);
+    font-size: 0.75rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--c6-text-muted);
+}
+
+.stat-sep {
+    width: 1px;
+    height: 32px;
+    background: var(--c6-border);
+}
+
+/* Category sections */
+.category-section {
+    margin-bottom: var(--space-12);
+}
+
+.category-heading {
+    font-family: var(--font-display);
+    font-size: 0.8rem;
+    font-weight: 600;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--c6-gold);
+    margin: 0 0 var(--space-4) 0;
+    padding-bottom: var(--space-3);
+    border-bottom: 1px solid var(--c6-border);
+}
+
+.benchmark-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: var(--space-4);
+}
+
+.benchmark-card {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-3);
+    background: var(--c6-black-elevated);
+    border: 1px solid var(--c6-border);
+    border-radius: var(--radius-md);
+    padding: var(--space-6);
+    text-decoration: none;
+    box-shadow: var(--shadow-card);
+    transition: border-color 250ms, transform 250ms, box-shadow 250ms;
+}
+
+.benchmark-card:hover {
+    border-color: var(--c6-border-accent);
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-card-hover);
+}
+
+.benchmark-card:focus-visible {
+    outline: 2px solid var(--c6-red);
+    outline-offset: 2px;
+}
+
+.card-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--space-2);
+}
+
+.card-label {
+    font-family: var(--font-mono);
+    font-size: 0.78rem;
+    color: var(--c6-gold);
+    letter-spacing: 0.04em;
+}
+
+.card-release {
+    font-family: var(--font-mono);
+    font-size: 0.7rem;
+    color: var(--c6-text-dim);
+}
+
+.card-title {
+    font-family: var(--font-body);
+    font-size: 0.88rem;
+    line-height: 1.45;
+    color: var(--c6-text-secondary);
+    margin: 0;
+    flex: 1;
+}
+
+.card-counts {
+    display: flex;
+    align-items: center;
+    gap: var(--space-2);
+    flex-wrap: wrap;
+    margin-top: auto;
+    padding-top: var(--space-3);
+    border-top: 1px solid var(--c6-border);
+}
+
+.count {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    padding: 2px var(--space-2);
+    border-radius: var(--radius-sm);
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
+}
+
+.count-num { font-weight: 700; }
+.count-cat { font-weight: 400; opacity: 0.8; }
+
+.count--i   { background: rgba(192, 57, 43, 0.15); color: #e05a4a; border: 1px solid rgba(192,57,43,0.3); }
+.count--ii  { background: rgba(243, 156, 18, 0.12); color: #d4a017; border: 1px solid rgba(243,156,18,0.25); }
+.count--iii { background: rgba(255,255,255,0.04); color: var(--c6-text-muted); border: 1px solid var(--c6-border); }
+
+.count-total {
+    margin-left: auto;
+    font-family: var(--font-mono);
+    font-size: 0.72rem;
+    color: var(--c6-text-dim);
+}
+
+/* Legend */
+.legend-section {
+    margin-top: var(--space-16);
+    text-align: center;
+}
+
+.legend-heading {
+    font-family: var(--font-display);
+    font-size: clamp(1.2rem, 2vw, 1.8rem);
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--c6-text-primary);
+    margin: 0 0 var(--space-4) 0;
+}
+
+.divider--centered {
+    width: 80px;
+    height: 2px;
+    background: var(--c6-red);
+    margin: 0 auto var(--space-8);
+}
+
+.legend-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--space-4);
+    text-align: left;
+}
+
+.legend-card {
+    background: var(--c6-black-elevated);
+    border: 1px solid var(--c6-border);
+    border-radius: var(--radius-md);
+    padding: var(--space-6);
+    border-top-width: 3px;
+}
+
+.legend-card--i   { border-top-color: var(--c6-red-bright); }
+.legend-card--ii  { border-top-color: #d4a017; }
+.legend-card--iii { border-top-color: var(--c6-text-muted); }
+
+.legend-cat {
+    display: block;
+    font-family: var(--font-mono);
+    font-size: 0.85rem;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    margin-bottom: var(--space-1);
+}
+
+.legend-card--i   .legend-cat { color: #e05a4a; }
+.legend-card--ii  .legend-cat { color: #d4a017; }
+.legend-card--iii .legend-cat { color: var(--c6-text-muted); }
+
+.legend-sev {
+    display: block;
+    font-family: var(--font-display);
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--c6-text-primary);
+    margin-bottom: var(--space-3);
+    letter-spacing: 0.02em;
+}
+
+.legend-desc {
+    font-family: var(--font-body);
+    font-size: 0.875rem;
+    line-height: 1.65;
+    color: var(--c6-text-body);
+    margin: 0;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .legend-grid { grid-template-columns: 1fr; }
+    .hero-stats { flex-direction: column; gap: var(--space-4); }
+    .stat-sep { width: 40px; height: 1px; }
+}
+
+@media (max-width: 480px) {
+    .stig-index { padding: var(--space-6) var(--space-4); }
+    .benchmark-grid { grid-template-columns: 1fr; }
+}
+</style>

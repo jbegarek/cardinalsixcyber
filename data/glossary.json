@@ -578,15 +578,15 @@
     {
       "id": "cmmc-level-1",
       "term": "CMMC Level 1",
-      "definition": "<p>CMMC Level 1 is the foundational tier of the Cybersecurity Maturity Model Certification. It requires implementing 15 basic cybersecurity practices drawn from FAR 52.204-21, covering fundamental protections like using passwords, installing antivirus software, and limiting physical access to systems.</p><p>Level 1 applies to contractors who handle Federal Contract Information (FCI) but not Controlled Unclassified Information (CUI). It can be satisfied through an annual self-assessment — no third-party assessor is required. The practices are basic security hygiene that most businesses should already follow.</p>",
-      "whyItMatters": "<p>If your contracts only involve FCI, Level 1 is your target. The self-assessment path keeps costs low, but you must still document compliance and submit your results to SPRS annually.</p>",
+      "definition": "<p>CMMC Level 1 is the foundational tier of the Cybersecurity Maturity Model Certification. It requires implementing 15 basic cybersecurity practices drawn from FAR 52.204-21, covering fundamental protections like using passwords, installing antivirus software, and limiting physical access to systems.</p><p>Level 1 applies to environments handling Federal Contract Information (FCI) but not Controlled Unclassified Information (CUI). It is typically supported through annual self-assessment and documented evidence of implemented practices.</p>",
+      "whyItMatters": "<p>Level 1 provides a baseline control set for protecting FCI through core security hygiene practices and repeatable documentation.</p>",
       "relatedResources": []
     },
     {
       "id": "cmmc-level-2",
       "term": "CMMC Level 2",
-      "definition": "<p>CMMC Level 2 is the middle tier and the most common target for defense contractors. It requires implementing all 110 security requirements from NIST SP 800-171, covering areas like access control, incident response, system protection, and audit logging.</p><p>Level 2 applies to contractors who handle Controlled Unclassified Information (CUI). Depending on the contract, you may need either a self-assessment or a third-party assessment by a C3PAO. The third-party assessment path is more rigorous and results in a formal certification valid for three years.</p>",
-      "whyItMatters": "<p>Level 2 is where most defense contractors will land. Achieving certification requires significant investment in security controls, documentation, and organizational change — starting early gives you the best chance of passing your assessment on the first attempt.</p>",
+      "definition": "<p>CMMC Level 2 is the middle tier of the Cybersecurity Maturity Model Certification and aligns to all 110 security requirements in NIST SP 800-171, including access control, incident response, system protection, and audit logging.</p><p>Level 2 applies to environments handling Controlled Unclassified Information (CUI). Depending on contract requirements, assessment may be performed through self-assessment or third-party assessment by a C3PAO.</p>",
+      "whyItMatters": "<p>Level 2 represents a substantial control implementation and documentation effort for organizations protecting CUI and other sensitive operational data.</p>",
       "relatedResources": []
     },
     {
@@ -995,8 +995,8 @@
     {
       "id": "dcsa",
       "term": "DCSA",
-      "definition": "<p>The Defense Counterintelligence and Security Agency (DCSA) is the DoD agency responsible for personnel security investigations (background checks for security clearances), industrial security oversight (ensuring contractor facilities protect classified information), and counterintelligence support. DCSA administers the National Industrial Security Program (NISPOM).</p><p>If your company has or seeks a facility clearance, DCSA is the agency that conducts security inspections of your facility, processes clearance investigations for your employees, and ensures you meet the requirements for handling classified information.</p>",
-      "whyItMatters": "<p>DCSA is a key agency for defense contractors involved in classified work. If your business growth strategy includes classified programs, understanding DCSA's role and building a relationship with your assigned DCSA representative is important for facility clearance and personnel clearance processes.</p>",
+      "definition": "<p>The Defense Counterintelligence and Security Agency (DCSA) is the DoD agency responsible for personnel security investigations (background checks for security clearances), industrial security oversight (ensuring contractor facilities protect classified information), and counterintelligence support. DCSA administers the National Industrial Security Program (NISPOM).</p><p>For organizations with a facility clearance, DCSA conducts security inspections, processes clearance investigations, and validates requirements for handling classified information.</p>",
+      "whyItMatters": "<p>DCSA is an important agency for organizations involved in classified work. Understanding DCSA's role helps teams align industrial security operations, facility requirements, and personnel clearance processes.</p>",
       "relatedResources": []
     },
     {
@@ -1014,8 +1014,8 @@
     {
       "id": "defense-industrial-base-dib",
       "term": "Defense Industrial Base (DIB)",
-      "definition": "<p>The Defense Industrial Base (DIB) is the worldwide industrial complex that enables research and development, design, production, delivery, and maintenance of military weapons systems, subsystems, and components. It includes over 300,000 companies — from major defense primes to small machine shops — that contribute to the DoD's supply chain.</p><p>As a defense contractor, you are part of the DIB. The sector is a high-value target for nation-state cyber actors because it holds critical technology, military intelligence, and sensitive information that adversaries want to steal. CMMC exists specifically to raise the cybersecurity baseline across the entire DIB.</p>",
-      "whyItMatters": "<p>Being part of the DIB means you're a target for sophisticated nation-state cyber attacks. Understanding that CMMC requirements exist to protect the entire defense supply chain — not just your individual company — provides context for why the requirements are comprehensive.</p>",
+      "definition": "<p>The Defense Industrial Base (DIB) is the worldwide industrial complex that enables research and development, design, production, delivery, and maintenance of military weapons systems, subsystems, and components. It includes over 300,000 companies ? from major defense primes to small machine shops ? that contribute to the DoD's supply chain.</p><p>The DIB is a high-value target for nation-state cyber actors because it holds critical technology, military intelligence, and sensitive information. CMMC was established to raise the cybersecurity baseline across this ecosystem.</p>",
+      "whyItMatters": "<p>Organizations in the DIB face persistent targeting from sophisticated threat actors. Understanding this threat landscape provides context for why comprehensive security controls are emphasized across the defense supply chain.</p>",
       "relatedResources": []
     },
     {
@@ -1059,21 +1059,21 @@
       "id": "dfars-252204-7012",
       "term": "DFARS 252.204-7012",
       "definition": "<p>DFARS 252.204-7012 is the Defense Federal Acquisition Regulation Supplement clause titled 'Safeguarding Covered Defense Information and Cyber Incident Reporting.' This contract clause is the legal mechanism that requires defense contractors to implement NIST SP 800-171 security requirements and report cyber incidents to the DoD within 72 hours.</p><p>This clause has been included in DoD contracts since 2017 and is the contractual basis for the cybersecurity requirements that CMMC formalizes. It applies when contractors process, store, or transmit Covered Defense Information (CDI) — which is essentially CUI in the defense context.</p>",
-      "whyItMatters": "<p>DFARS 7012 is the contractual requirement that makes CUI protection legally binding for defense contractors. If this clause is in your contract, you're already required to implement NIST SP 800-171 — CMMC adds verification. Non-compliance carries False Claims Act risk.</p>",
+      "whyItMatters": "<p>DFARS 7012 establishes binding cybersecurity obligations for covered defense information, including NIST SP 800-171 implementation and 72-hour incident reporting. Understanding the clause helps organizations map contractual obligations to operational security controls and incident response processes.</p>",
       "relatedResources": []
     },
     {
       "id": "dfars-252204-7021",
       "term": "DFARS 252.204-7021",
       "definition": "<p>DFARS 252.204-7021 is the contract clause titled 'Cybersecurity Maturity Model Certification Requirements.' This clause specifies the CMMC level required for a particular contract and requires contractors to maintain the specified certification level as a condition of contract award and performance.</p><p>This clause works alongside DFARS 7012 — while 7012 establishes the security requirements, 7021 establishes the certification verification requirement. Together, they create the contractual framework for CMMC compliance.</p>",
-      "whyItMatters": "<p>When DFARS 7021 appears in a solicitation, it means CMMC certification at the specified level is a go/no-go requirement for contract award. You cannot win the contract without the required certification, making CMMC preparation a business-critical activity.</p>",
+      "whyItMatters": "<p>DFARS 7021 defines required CMMC verification levels in applicable solicitations and contracts. Understanding where this clause appears helps organizations scope assessment expectations and maintain required cybersecurity control maturity.</p>",
       "relatedResources": []
     },
     {
       "id": "dibcac",
       "term": "DIBCAC",
       "definition": "<p>DIBCAC stands for the Defense Industrial Base Cybersecurity Assessment Center. It's the DoD organization within DCMA (Defense Contract Management Agency) responsible for conducting high-level CMMC assessments — specifically, CMMC Level 3 (expert) assessments and oversight of the overall CMMC assessment process.</p><p>While C3PAOs handle Level 2 assessments, DIBCAC conducts the Level 3 assessments directly. DIBCAC also performs DCMA DIBCAC High assessments of contractors' cybersecurity programs and has the authority to verify that contractors are meeting their cybersecurity obligations.</p>",
-      "whyItMatters": "<p>If your contracts require CMMC Level 3 or if you're subject to DCMA oversight, DIBCAC will be directly involved in your assessment. Understanding their role helps you prepare for the highest tier of DoD cybersecurity scrutiny.</p>",
+      "whyItMatters": "<p>For organizations subject to advanced DoD cybersecurity oversight, DIBCAC may be directly involved in assessment activity. Understanding DIBCAC's role clarifies expectations for higher-tier cybersecurity scrutiny.</p>",
       "relatedResources": []
     },
     {
@@ -1325,14 +1325,14 @@
       "id": "federal-contract-information-fci",
       "term": "Federal Contract Information (FCI)",
       "definition": "<p>Federal Contract Information (FCI) is information provided by or generated for the government under a contract that is not intended for public release. It's a step below CUI in sensitivity — think of routine contract correspondence, delivery schedules, and basic project management data that the government doesn't want published but that isn't formally designated as CUI.</p><p>FCI requires a baseline level of protection under CMMC Level 1, which involves 15 fundamental cybersecurity practices like using passwords, limiting physical access, and keeping antivirus software current. These are basic hygiene measures that most businesses should already have in place.</p>",
-      "whyItMatters": "<p>If your contracts involve only FCI (no CUI), you qualify for the simpler CMMC Level 1 self-assessment path. Correctly determining whether you handle FCI versus CUI is critical for scoping your compliance effort and budget.</p>",
+      "whyItMatters": "<p>Correctly distinguishing FCI from CUI helps organizations scope controls, documentation depth, and assessment approach based on data sensitivity and risk profile.</p>",
       "relatedResources": []
     },
     {
       "id": "fedramp",
       "term": "FedRAMP",
-      "definition": "<p>FedRAMP (Federal Risk and Authorization Management Program) is the government-wide program that provides a standardized approach for security assessment, authorization, and continuous monitoring of cloud products and services. If a cloud service provider wants to sell to the federal government, their offering must be FedRAMP authorized.</p><p>FedRAMP authorization involves rigorous security assessment against a baseline of NIST SP 800-53 controls. Once authorized, the cloud service can be reused by any federal agency without duplicating the assessment — saving time and money across government. FedRAMP authorization levels (Low, Moderate, High) correspond to the sensitivity of data the service can handle.</p>",
-      "whyItMatters": "<p>If you use cloud services to process, store, or transmit CUI, those services should be FedRAMP authorized at the Moderate level or higher. Using non-FedRAMP cloud services for CUI is a compliance risk that CMMC assessors will flag.</p>",
+      "definition": "<p>FedRAMP (Federal Risk and Authorization Management Program) is a U.S. government program that provides a standardized approach for security assessment, authorization, and continuous monitoring of cloud products and services.</p><p>FedRAMP authorization uses baselines aligned to NIST SP 800-53 controls. Authorization levels (Low, Moderate, High) correspond to the sensitivity of data and impact levels the service can support.</p>",
+      "whyItMatters": "<p>FedRAMP is an important reference model for cloud security assurance and continuous monitoring. Organizations using cloud services for sensitive workloads can use FedRAMP status and control alignment as part of vendor risk evaluation.</p>",
       "relatedResources": []
     },
     {

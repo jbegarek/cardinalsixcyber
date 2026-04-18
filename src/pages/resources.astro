@@ -1,0 +1,194 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import InfoOnlyNotice from '../components/InfoOnlyNotice.astro';
+---
+
+<BaseLayout
+    title="Cybersecurity Resources | Cardinal Six Cyber"
+    description="Browse cybersecurity reference resources including CMMC controls, NIST 800-171, NIST 800-53, NIST CSF 2.0, CIS Controls v8, FedRAMP, STIG checklists, and glossary terms."
+    canonical="https://cardinalsixcyber.com/resources"
+    ogDescription="Central resource hub for cybersecurity control libraries, hardening references, and glossary terms."
+    navFixed={false}
+    activePage="resources"
+>
+    <Fragment slot="head">
+        <script type="application/ld+json" set:html={JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "CollectionPage",
+            "name": "Cybersecurity Resources",
+            "description": "Central resource hub for cybersecurity frameworks, control libraries, hardening references, and glossary terms.",
+            "url": "https://cardinalsixcyber.com/resources",
+            "isPartOf": { "@type": "WebSite", "name": "Cardinal Six Cyber", "url": "https://cardinalsixcyber.com" }
+        })} />
+    </Fragment>
+
+    <section class="resources-header" aria-label="Page header">
+        <div class="container">
+            <span class="eyebrow reveal">Reference Hub</span>
+            <h1 class="resources-title reveal reveal-delay-1">Cybersecurity <span class="accent">Resources</span></h1>
+            <div class="divider reveal reveal-delay-2"></div>
+            <p class="section-sub reveal reveal-delay-2">Choose a resource library below. Each section links to dedicated reference content.</p>
+        </div>
+    </section>
+
+    <div class="container">
+        <InfoOnlyNotice />
+    </div>
+
+    <section class="resource-links" aria-label="Resource links">
+        <div class="container">
+            <div class="resource-grid">
+                <a href="/cmmc" class="resource-card">
+                    <span class="resource-kicker">Control Library</span>
+                    <h2>CMMC 2.0 Controls</h2>
+                    <p>Browse mapped CMMC practices with requirement details and cross-references.</p>
+                </a>
+                <a href="/nist-800-171" class="resource-card">
+                    <span class="resource-kicker">Control Library</span>
+                    <h2>NIST SP 800-171</h2>
+                    <p>Review all NIST 800-171 Rev. 3 requirements by family.</p>
+                </a>
+                <a href="/nist-800-53" class="resource-card">
+                    <span class="resource-kicker">Control Library</span>
+                    <h2>NIST SP 800-53</h2>
+                    <p>Explore the full NIST 800-53 catalog and enhancement mappings.</p>
+                </a>
+                <a href="/nist-csf-2" class="resource-card">
+                    <span class="resource-kicker">Framework</span>
+                    <h2>NIST CSF 2.0</h2>
+                    <p>Review the CSF 2.0 functions and implementation model for cybersecurity risk management.</p>
+                </a>
+                <a href="/cis-controls-v8" class="resource-card">
+                    <span class="resource-kicker">Framework</span>
+                    <h2>CIS Controls v8</h2>
+                    <p>Reference prioritized safeguards and implementation groups for practical security programs.</p>
+                </a>
+                <a href="/fedramp" class="resource-card">
+                    <span class="resource-kicker">Framework</span>
+                    <h2>FedRAMP</h2>
+                    <p>Reference baseline, authorization, and continuous monitoring concepts for cloud security.</p>
+                </a>
+                <a href="/stig" class="resource-card">
+                    <span class="resource-kicker">Hardening</span>
+                    <h2>STIG Checklists</h2>
+                    <p>Search platform STIG findings with check and fix guidance.</p>
+                </a>
+                <a href="/glossary" class="resource-card">
+                    <span class="resource-kicker">Reference</span>
+                    <h2>Cyber Glossary</h2>
+                    <p>Find clear definitions across CMMC, NIST, and security operations.</p>
+                </a>
+            </div>
+        </div>
+    </section>
+</BaseLayout>
+
+<style is:global>
+    .resources-header {
+        padding: calc(var(--space-32) + var(--space-8)) 0 var(--space-12);
+        text-align: center;
+        background: var(--c6-gradient-hero);
+        position: relative;
+        overflow: hidden;
+    }
+    .resources-header::before {
+        content: '';
+        position: absolute;
+        top: 20%;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 800px;
+        height: 600px;
+        background: radial-gradient(ellipse at center, rgba(192, 57, 43, 0.06) 0%, transparent 70%);
+        pointer-events: none;
+    }
+    .resources-header .container { position: relative; z-index: 2; }
+    .resources-title {
+        font-family: var(--font-display);
+        font-size: clamp(2.5rem, 5vw, 4.2rem);
+        font-weight: 700;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        line-height: 1.1;
+        color: var(--c6-text-primary);
+        margin-top: var(--space-4);
+    }
+    .resources-title .accent { color: var(--c6-red-bright); }
+
+    .resource-links {
+        background: var(--c6-gradient-section);
+        padding: var(--space-10) 0 var(--space-16);
+    }
+    .resource-grid {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: var(--space-4);
+    }
+    .resource-card {
+        display: block;
+        text-decoration: none;
+        background: var(--c6-black-elevated);
+        border: 1px solid var(--c6-border);
+        border-radius: var(--radius-md);
+        padding: var(--space-6);
+        transition: border-color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
+    }
+    .resource-card:hover {
+        border-color: var(--c6-border-accent);
+        transform: translateY(-2px);
+        box-shadow: var(--shadow-card-hover);
+    }
+    .resource-kicker {
+        display: block;
+        font-family: var(--font-display);
+        font-size: 0.72rem;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        color: var(--c6-red-text);
+        margin-bottom: var(--space-2);
+    }
+    .resource-card h2 {
+        font-family: var(--font-display);
+        font-size: 1.1rem;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: var(--c6-text-primary);
+        margin: 0 0 var(--space-2);
+    }
+    .resource-card p {
+        margin: 0;
+        font-size: 0.9rem;
+        line-height: 1.6;
+        color: var(--c6-text-muted);
+    }
+
+    @media (max-width: 768px) {
+        .resources-header {
+            padding-top: calc(var(--space-24) + var(--space-8));
+            padding-bottom: var(--space-8);
+        }
+        .resource-grid {
+            grid-template-columns: 1fr;
+        }
+    }
+</style>
+
+<script>
+    (function() {
+        var reveals = document.querySelectorAll('.reveal');
+        document.querySelectorAll('.resources-header .reveal').forEach(function(el) { el.classList.add('visible'); });
+        if ('IntersectionObserver' in window) {
+            var observer = new IntersectionObserver(function(entries) {
+                entries.forEach(function(entry) {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('visible');
+                        observer.unobserve(entry.target);
+                    }
+                });
+            }, { threshold: 0.01, rootMargin: '0px 0px 50px 0px' });
+            reveals.forEach(function(el) { if (!el.closest('.resources-header')) observer.observe(el); });
+        } else {
+            reveals.forEach(function(el) { el.classList.add('visible'); });
+        }
+    })();
+</script>

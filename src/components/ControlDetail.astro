@@ -33,6 +33,40 @@ const {
 
 const groupIndexUrl = `/nist-800-53#${familyCode.toLowerCase()}`;
 const familyUrl = `/nist-800-53#${familyCode.toLowerCase()}`;
+
+function sanitizeInlineArtifacts(text: string): string {
+    return text.replace(/\{\{\s*insert:\s*param,\s*[^}]+\}\}/g, 'organization-defined parameter');
+}
+
+function controlAnchorToRouteId(anchor: string): string | null {
+    const raw = anchor.trim().toLowerCase();
+    const normalized = raw.startsWith('#') ? raw.slice(1) : raw;
+    if (!/^[a-z]{2}-\d+(?:\.\d+)*$/.test(normalized)) {
+        return null;
+    }
+    return normalized.replaceAll('.', '-');
+}
+
+function normalizeControlMarkdownRefs(text: string): string {
+    const markdownControlRef = /\[([^\]]+)\]\(#([a-z0-9_.-]+)\)/gi;
+    return text.replace(markdownControlRef, (_match, label, anchor) => {
+        const routeId = controlAnchorToRouteId(anchor);
+        if (!routeId) return label;
+        return `<a href="/nist-800-53/${routeId}">${label}</a>`;
+    });
+}
+
+function normalizeRichText(text: string): string {
+    return sanitizeInlineArtifacts(normalizeControlMarkdownRefs(text));
+}
+
+const normalizedDescription = sanitizeInlineArtifacts(description);
+const normalizedSupplementalGuidance = supplementalGuidance
+    ? normalizeRichText(supplementalGuidance)
+    : null;
+const normalizedNotes = notes
+    ? normalizeRichText(notes)
+    : null;
 ---
 
 <article class="detail-page">
@@ -54,7 +88,7 @@ const familyUrl = `/nist-800-53#${familyCode.toLowerCase()}`;
         <p class="eyebrow">NIST 800-53 REV 5 &bull; {family.toUpperCase()}</p>
         <h1 class="detail-title">{displayId}<span class="title-sep"> &mdash; </span>{title}</h1>
         <div class="divider"></div>
-        <p class="detail-description">{description}</p>
+        <p class="detail-description">{normalizedDescription}</p>
     </header>
 
     <!-- Section 3: Cross-reference cards (3-column grid) -->
@@ -106,21 +140,21 @@ const familyUrl = `/nist-800-53#${familyCode.toLowerCase()}`;
     </section>
 
     <!-- Section 4: Supplemental Guidance (hidden when null/empty) -->
-    {supplementalGuidance && (
+    {normalizedSupplementalGuidance && (
         <section class="guidance-section" aria-label="Supplemental Guidance">
             <div class="guidance-card">
                 <h2 class="guidance-label">Supplemental Guidance</h2>
-                <p class="guidance-text">{supplementalGuidance}</p>
+                <p class="guidance-text" set:html={normalizedSupplementalGuidance} />
             </div>
         </section>
     )}
 
     <!-- Section 5: Practitioner Notes -->
     <section class="notes-section" aria-label="Practitioner Notes">
-        {notes ? (
+        {normalizedNotes ? (
             <div class="notes-card">
                 <h2 class="notes-label">Practitioner Notes</h2>
-                <div class="notes-content" set:html={notes} />
+                <div class="notes-content" set:html={normalizedNotes} />
             </div>
         ) : (
             <div class="notes-card notes-card--empty">

@@ -7,7 +7,7 @@
       "domain": "Access Control",
       "domainCode": "AC",
       "level": 1,
-      "description": "Define the types of system accounts allowed and prohibited. Create, enable, modify, disable, and remove system accounts in accordance with policy, procedures, prerequisites, and criteria. Specify: Authorized users of the system, Group and role membership, and Access authorizations (i.e., privileges) for each account. Authorize access to the system based on: A valid access authorization and Intended system usage. Monitor the use of system accounts. Disable system accounts when: The accounts have expired, The accounts have been inactive for {{ insert: param, A.03.01.01.ODP.01 }}, The accounts are no longer associated with a user or individual, The accounts are in violation of organizational policy, or Significant risks associated with individuals are discovered. Notify account managers and designated personnel or roles within: {{ insert: param, A.03.01.01.ODP.02 }} when accounts are no longer required. {{ insert: param, A.03.01.01.ODP.03 }} when users are terminated or transferred. {{ insert: param, A.03.01.01.ODP.04 }} when system usage or the need-to-know changes for an individual. Require that users log out of the system after {{ insert: param, A.03.01.01.ODP.05 }} of expected inactivity or when {{ insert: param, A.03.01.01.ODP.06 }}.",
+      "description": "Define the types of system accounts allowed and prohibited. Create, enable, modify, disable, and remove system accounts in accordance with policy, procedures, prerequisites, and criteria. Specify: Authorized users of the system, Group and role membership, and Access authorizations (i.e., privileges) for each account. Authorize access to the system based on: A valid access authorization and Intended system usage. Monitor the use of system accounts. Disable system accounts when: The accounts have expired, The accounts have been inactive for 35 days<mark class=\"stig-note\" title=\"DISA STIG upper limit: accounts inactive >35 days must be disabled (V-220740)\">CMMC/STIG</mark>, The accounts are no longer associated with a user or individual, The accounts are in violation of organizational policy, or Significant risks associated with individuals are discovered. Notify account managers and designated personnel or roles within: within 24 hours<mark class=\"stig-note\" title=\"DoD practice standard: same business day notification required\">CMMC/STIG</mark> when accounts are no longer required. within 8 business hours (same day)<mark class=\"stig-note\" title=\"CMMC CAG: notification upon termination; immediate action is expected by assessors\">CMMC/STIG</mark> when users are terminated or transferred. within 24 hours<mark class=\"stig-note\" title=\"CMMC CAG: timely notification required; 24 hours is the accepted DoD practitioner standard\">CMMC/STIG</mark> when system usage or the need-to-know changes for an individual. Require that users log out of the system after 15 minutes<mark class=\"stig-note\" title=\"DISA STIG upper limit: session must lock after no more than 15 minutes of inactivity (V-220726)\">CMMC/STIG</mark> of expected inactivity or when the user leaves the workstation unattended or the session ends<mark class=\"stig-note\" title=\"Organization-defined condition; common values include end of work session or transitioning to a different security domain\">CMMC/STIG</mark>.",
       "assessmentObjectives": [
         "system accounts are created in accordance with organizational policy, procedures, prerequisites, and criteria.",
         "system accounts are enabled in accordance with organizational policy, procedures, prerequisites, and criteria.",
@@ -23,14 +23,14 @@
         "access to the system is authorized based on intended system usage.",
         "the use of system accounts is monitored.",
         "system accounts are disabled when the accounts have expired.",
-        "system accounts are disabled when the accounts have been inactive for {{ insert: param, A.03.01.01.ODP.01 }}.",
+        "system accounts are disabled when the accounts have been inactive for 35 days<mark class=\"stig-note\" title=\"DISA STIG upper limit: accounts inactive >35 days must be disabled (V-220740)\">CMMC/STIG</mark>.",
         "system accounts are disabled when the accounts are no longer associated with a user or individual.",
         "system accounts are disabled when the accounts violate organizational policy.",
-        "account managers and designated personnel or roles are notified within {{ insert: param, A.03.01.01.ODP.02 }} when accounts are no longer required.",
-        "account managers and designated personnel or roles are notified within {{ insert: param, A.03.01.01.ODP.03 }} when users are terminated or transferred.",
-        "account managers and designated personnel or roles are notified within {{ insert: param, A.03.01.01.ODP.04 }} when system usage or the need-to-know changes for an individual.",
+        "account managers and designated personnel or roles are notified within within 24 hours<mark class=\"stig-note\" title=\"DoD practice standard: same business day notification required\">CMMC/STIG</mark> when accounts are no longer required.",
+        "account managers and designated personnel or roles are notified within within 8 business hours (same day)<mark class=\"stig-note\" title=\"CMMC CAG: notification upon termination; immediate action is expected by assessors\">CMMC/STIG</mark> when users are terminated or transferred.",
+        "account managers and designated personnel or roles are notified within within 24 hours<mark class=\"stig-note\" title=\"CMMC CAG: timely notification required; 24 hours is the accepted DoD practitioner standard\">CMMC/STIG</mark> when system usage or the need-to-know changes for an individual.",
         "system accounts are disabled when significant risks associated with individuals are discovered.",
-        "users are required to log out of the system after {{ insert: param, A.03.01.01.ODP.05 }} of expected inactivity or when the following circumstances occur: {{ insert: param, A.03.01.01.ODP.06 }}."
+        "users are required to log out of the system after 15 minutes<mark class=\"stig-note\" title=\"DISA STIG upper limit: session must lock after no more than 15 minutes of inactivity (V-220726)\">CMMC/STIG</mark> of expected inactivity or when the following circumstances occur: the user leaves the workstation unattended or the session ends<mark class=\"stig-note\" title=\"Organization-defined condition; common values include end of work session or transitioning to a different security domain\">CMMC/STIG</mark>."
       ],
       "nist800171": [
         "3-1-1"
@@ -111,12 +111,12 @@
       "domain": "Access Control",
       "domainCode": "AC",
       "level": 2,
-      "description": "Allow only authorized system access for users (or processes acting on behalf of users) that is necessary to accomplish assigned organizational tasks. Authorize access to {{ insert: param, A.03.01.05.ODP.01 }} and {{ insert: param, A.03.01.05.ODP.02 }}. Review the privileges assigned to roles or classes of users {{ insert: param, A.03.01.05.ODP.03 }} to validate the need for such privileges. Reassign or remove privileges, as necessary.",
+      "description": "Allow only authorized system access for users (or processes acting on behalf of users) that is necessary to accomplish assigned organizational tasks. Authorize access to quarterly (every 90 days)<mark class=\"stig-note\" title=\"CMMC CAG: regular review required; quarterly is the widely-accepted assessor expectation\">CMMC/STIG</mark> and the System Owner or Information System Security Manager (ISSM)<mark class=\"stig-note\" title=\"Organization-defined role; must be documented in the SSP\">CMMC/STIG</mark>. Review the privileges assigned to roles or classes of users system administration, security administration, audit log access, account management, and configuration management functions<mark class=\"stig-note\" title=\"Organization-defined list; must align with what privileged accounts can do in your environment\">CMMC/STIG</mark> to validate the need for such privileges. Reassign or remove privileges, as necessary.",
       "assessmentObjectives": [
         "system access for users (or processes acting on behalf of users) is authorized only when necessary to accomplish assigned organizational tasks.",
-        "access to {{ insert: param, A.03.01.05.ODP.01 }} is authorized.",
-        "access to {{ insert: param, A.03.01.05.ODP.02 }} is authorized.",
-        "the privileges assigned to roles or classes of users are reviewed {{ insert: param, A.03.01.05.ODP.03 }} to validate the need for such privileges.",
+        "access to quarterly (every 90 days)<mark class=\"stig-note\" title=\"CMMC CAG: regular review required; quarterly is the widely-accepted assessor expectation\">CMMC/STIG</mark> is authorized.",
+        "access to the System Owner or Information System Security Manager (ISSM)<mark class=\"stig-note\" title=\"Organization-defined role; must be documented in the SSP\">CMMC/STIG</mark> is authorized.",
+        "the privileges assigned to roles or classes of users are reviewed system administration, security administration, audit log access, account management, and configuration management functions<mark class=\"stig-note\" title=\"Organization-defined list; must align with what privileged accounts can do in your environment\">CMMC/STIG</mark> to validate the need for such privileges.",
         "privileges are reassigned or removed, as necessary."
       ],
       "nist800171": [
@@ -136,9 +136,9 @@
       "domain": "Access Control",
       "domainCode": "AC",
       "level": 2,
-      "description": "Restrict privileged accounts on the system to {{ insert: param, A.03.01.06.ODP.01 }}.. Require that users (or roles) with privileged accounts use non-privileged accounts when accessing non-security functions or non-security information.",
+      "description": "Restrict privileged accounts on the system to all administrative functions including system configuration changes, user account management, audit log access, software installation, and security tool management<mark class=\"stig-note\" title=\"DISA STIG: administrative accounts must not be used for non-administrative functions (V-220729)\">CMMC/STIG</mark>.. Require that users (or roles) with privileged accounts use non-privileged accounts when accessing non-security functions or non-security information.",
       "assessmentObjectives": [
-        "privileged accounts on the system are restricted to {{ insert: param, A.03.01.06.ODP.01 }}.",
+        "privileged accounts on the system are restricted to all administrative functions including system configuration changes, user account management, audit log access, software installation, and security tool management<mark class=\"stig-note\" title=\"DISA STIG: administrative accounts must not be used for non-administrative functions (V-220729)\">CMMC/STIG</mark>.",
         "users (or roles) with privileged accounts are required to use non-privileged accounts when accessing non-security functions or non-security information."
       ],
       "nist800171": [
@@ -177,10 +177,10 @@
       "domain": "Access Control",
       "domainCode": "AC",
       "level": 2,
-      "description": "Enforce a limit of {{ insert: param, A.03.01.08.ODP.01 }} consecutive invalid logon attempts by a user during a {{ insert: param, A.03.01.08.ODP.02 }}. Automatically {{ insert: param, A.03.01.08.ODP.03 }} when the maximum number of unsuccessful attempts is exceeded.",
+      "description": "Enforce a limit of 3 consecutive invalid attempts<mark class=\"stig-note\" title=\"DISA STIG hard upper limit: lockout threshold must be 3 or fewer invalid attempts (V-220741)\">CMMC/STIG</mark> consecutive invalid logon attempts by a user during a 15 minutes<mark class=\"stig-note\" title=\"DISA STIG: reset account lockout counter after 15 minutes (V-220742)\">CMMC/STIG</mark>. Automatically 15 minutes (or until unlocked by an administrator)<mark class=\"stig-note\" title=\"DISA STIG hard lower limit: lockout duration must be at least 15 minutes or require administrator unlock (V-220741)\">CMMC/STIG</mark> when the maximum number of unsuccessful attempts is exceeded.",
       "assessmentObjectives": [
-        "a limit of {{ insert: param, A.03.01.08.ODP.01 }} consecutive invalid logon attempts by a user during {{ insert: param, A.03.01.08.ODP.02 }} is enforced.",
-        "{{ insert: param, A.03.01.08.ODP.03 }} when the maximum number of unsuccessful attempts is exceeded."
+        "a limit of 3 consecutive invalid attempts<mark class=\"stig-note\" title=\"DISA STIG hard upper limit: lockout threshold must be 3 or fewer invalid attempts (V-220741)\">CMMC/STIG</mark> consecutive invalid logon attempts by a user during 15 minutes<mark class=\"stig-note\" title=\"DISA STIG: reset account lockout counter after 15 minutes (V-220742)\">CMMC/STIG</mark> is enforced.",
+        "15 minutes (or until unlocked by an administrator)<mark class=\"stig-note\" title=\"DISA STIG hard lower limit: lockout duration must be at least 15 minutes or require administrator unlock (V-220741)\">CMMC/STIG</mark> when the maximum number of unsuccessful attempts is exceeded."
       ],
       "nist800171": [
         "3-1-8"
@@ -216,9 +216,9 @@
       "domain": "Access Control",
       "domainCode": "AC",
       "level": 2,
-      "description": "Prevent access to the system by {{ insert: param, A.03.01.10.ODP.01 }}. Retain the device lock until the user reestablishes access using established identification and authentication procedures. Conceal, via the device lock, information previously visible on the display with a publicly viewable image.",
+      "description": "Prevent access to the system by 15 minutes<mark class=\"stig-note\" title=\"DISA STIG hard upper limit: screen saver/session lock must activate after no more than 15 minutes of inactivity (V-220726)\">CMMC/STIG</mark>. Retain the device lock until the user reestablishes access using established identification and authentication procedures. Conceal, via the device lock, information previously visible on the display with a publicly viewable image.",
       "assessmentObjectives": [
-        "access to the system is prevented by {{ insert: param, A.03.01.10.ODP.01 }}.",
+        "access to the system is prevented by 15 minutes<mark class=\"stig-note\" title=\"DISA STIG hard upper limit: screen saver/session lock must activate after no more than 15 minutes of inactivity (V-220726)\">CMMC/STIG</mark>.",
         "information previously visible on the display is concealed via device lock with a publicly viewable image.",
         "the device lock is retained until the user reestablishes access using established identification and authentication procedures."
       ],
@@ -240,7 +240,7 @@
       "level": 2,
       "description": "This requirement addresses the termination of user-initiated logical sessions in contrast to the termination of network connections that are associated with communications sessions (i.e., disconnecting from the network) in [](#/cprt/framework/version/SP_800_171_3_0_0/home?element=03.13.09)03.13.09. A logical session is initiated whenever a user (or processes acting on behalf of a user) accesses a system. Logical sessions can be terminated (and thus terminate user access) without terminating network sessions. Session termination ends all system processes associated with a user’s logical session except those processes that are created by the user (i.e., session owner) to continue after the session is terminated. Conditions or trigger events that require automatic session termination can include organization-defined periods of user inactivity, time-of-day restrictions on system use, and targeted responses to certain types of incidents.",
       "assessmentObjectives": [
-        "a user session is terminated automatically after {{ insert: param, A.03.01.11.ODP.01 }}."
+        "a user session is terminated automatically after session time limit expiration, detection of anomalous activity, explicit user logoff, or end of a defined work period<mark class=\"stig-note\" title=\"Organization-defined conditions; must be enumerated in the SSP\">CMMC/STIG</mark>."
       ],
       "nist800171": [
         "3-1-11"
@@ -419,9 +419,9 @@
       "domain": "Access Control",
       "domainCode": "AC",
       "level": 1,
-      "description": "Prohibit the use of external systems unless the systems are specifically authorized. Establish the following security requirements to be satisfied on external systems prior to allowing use of or access to those systems by authorized individuals: {{ insert: param, A.03.01.20.ODP.01 }}. Permit authorized individuals to use external systems to access the organizational system or to process, store, or transmit CUI only after: Verifying that the security requirements on the external systems as specified in the organization’s system security plans have been satisfied and Retaining approved system connection or processing agreements with the organizational entities hosting the external systems. Restrict the use of organization-controlled portable storage devices by authorized individuals on external systems.",
+      "description": "Prohibit the use of external systems unless the systems are specifically authorized. Establish the following security requirements to be satisfied on external systems prior to allowing use of or access to those systems by authorized individuals: all systems that store, process, or transmit CUI and all remote access connections used to access CUI<mark class=\"stig-note\" title=\"Organization-defined scope; DFARS 252.204-7012 defines the broader CUI boundary\">CMMC/STIG</mark>. Permit authorized individuals to use external systems to access the organizational system or to process, store, or transmit CUI only after: Verifying that the security requirements on the external systems as specified in the organization’s system security plans have been satisfied and Retaining approved system connection or processing agreements with the organizational entities hosting the external systems. Restrict the use of organization-controlled portable storage devices by authorized individuals on external systems.",
       "assessmentObjectives": [
-        "the following security requirements to be satisfied on external systems prior to allowing the use of or access to those systems by authorized individuals are established: {{ insert: param, A.03.01.20.ODP.01 }}.",
+        "the following security requirements to be satisfied on external systems prior to allowing the use of or access to those systems by authorized individuals are established: all systems that store, process, or transmit CUI and all remote access connections used to access CUI<mark class=\"stig-note\" title=\"Organization-defined scope; DFARS 252.204-7012 defines the broader CUI boundary\">CMMC/STIG</mark>.",
         "the use of external systems is prohibited unless the systems are specifically authorized.",
         "authorized individuals are permitted to use external systems to access the organizational system or to process, store, or transmit CUI only after verifying that the security requirements on the external systems as specified in the organization’s system security plans have been satisfied.",
         "the use of organization-controlled portable storage devices by authorized individuals on external systems is restricted.",
@@ -481,19 +481,19 @@
       "domain": "Awareness & Training",
       "domainCode": "AT",
       "level": 2,
-      "description": "Provide security literacy training to system users: As part of initial training for new users and {{ insert: param, A.03.02.01.ODP.01 }} thereafter, When required by system changes or following {{ insert: param, A.03.02.01.ODP.02 }}, and On recognizing and reporting indicators of insider threat, social engineering, and social mining. Update security literacy training content {{ insert: param, A.03.02.01.ODP.03 }} and following {{ insert: param, A.03.02.01.ODP.04 }}.",
+      "description": "Provide security literacy training to system users: As part of initial training for new users and annually (every 12 months) or following significant changes<mark class=\"stig-note\" title=\"CMMC CAG: policies reviewed at least annually; 'or following significant changes' is standard DoD language\">CMMC/STIG</mark> thereafter, When required by system changes or following annually (every 12 months) or following significant changes<mark class=\"stig-note\" title=\"CMMC CAG: procedures reviewed at least annually\">CMMC/STIG</mark>, and On recognizing and reporting indicators of insider threat, social engineering, and social mining. Update security literacy training content the Authorizing Official (AO) or Information System Security Manager (ISSM)<mark class=\"stig-note\" title=\"Organization-defined role; must be named in the SSP\">CMMC/STIG</mark> and following the Information System Security Officer (ISSO) or designated System Administrator under ISSM oversight<mark class=\"stig-note\" title=\"Organization-defined role; must be named in the SSP\">CMMC/STIG</mark>.",
       "assessmentObjectives": [
         "security literacy training is provided to system users as part of initial training for new users.",
-        "security literacy training is provided to system users {{ insert: param, A.03.02.01.ODP.01 }} after initial training.",
-        "security literacy training is provided to system users when required by system changes or following {{ insert: param, A.03.02.01.ODP.02 }}.",
+        "security literacy training is provided to system users annually (every 12 months) or following significant changes<mark class=\"stig-note\" title=\"CMMC CAG: policies reviewed at least annually; 'or following significant changes' is standard DoD language\">CMMC/STIG</mark> after initial training.",
+        "security literacy training is provided to system users when required by system changes or following annually (every 12 months) or following significant changes<mark class=\"stig-note\" title=\"CMMC CAG: procedures reviewed at least annually\">CMMC/STIG</mark>.",
         "security literacy training is provided to system users on recognizing indicators of insider threat.",
         "security literacy training is provided to system users on reporting indicators of insider threat.",
         "security literacy training is provided to system users on recognizing indicators of social engineering.",
         "security literacy training is provided to system users on reporting indicators of social engineering.",
         "security literacy training is provided to system users on recognizing indicators of social mining.",
         "security literacy training is provided to system users on reporting indicators of social mining.",
-        "security literacy training content is updated {{ insert: param, A.03.02.01.ODP.03 }}.",
-        "security literacy training content is updated following {{ insert: param, A.03.02.01.ODP.04 }}."
+        "security literacy training content is updated the Authorizing Official (AO) or Information System Security Manager (ISSM)<mark class=\"stig-note\" title=\"Organization-defined role; must be named in the SSP\">CMMC/STIG</mark>.",
+        "security literacy training content is updated following the Information System Security Officer (ISSO) or designated System Administrator under ISSM oversight<mark class=\"stig-note\" title=\"Organization-defined role; must be named in the SSP\">CMMC/STIG</mark>."
       ],
       "nist800171": [
         "3-2-1"
@@ -510,14 +510,14 @@
       "domain": "Awareness & Training",
       "domainCode": "AT",
       "level": 2,
-      "description": "Provide role-based security training to organizational personnel: Before authorizing access to the system or CUI, before performing assigned duties, and {{ insert: param, A.03.02.02.ODP.01 }} thereafter When required by system changes or following {{ insert: param, A.03.02.02.ODP.02 }}. Update role-based training content {{ insert: param, A.03.02.02.ODP.03 }} and following {{ insert: param, A.03.02.02.ODP.04 }}.",
+      "description": "Provide role-based security training to organizational personnel: Before authorizing access to the system or CUI, before performing assigned duties, and the DoD-approved system use notification banner<mark class=\"stig-note\" title=\"DISA STIG hard requirement: exact DoD warning banner text must be displayed verbatim (required on all platforms)\">CMMC/STIG</mark> thereafter When required by system changes or following before authentication is completed (at every login prompt)<mark class=\"stig-note\" title=\"DISA STIG hard requirement: banner must appear before access is granted; pre-logon display is mandatory\">CMMC/STIG</mark>. Update role-based training content each login session<mark class=\"stig-note\" title=\"DISA STIG hard requirement: user must acknowledge the banner before every session\">CMMC/STIG</mark> and following all users accessing systems that store, process, or transmit CUI<mark class=\"stig-note\" title=\"CMMC CAG: no exceptions — all users must acknowledge\">CMMC/STIG</mark>.",
       "assessmentObjectives": [
         "role-based security training is provided to organizational personnel before authorizing access to the system or CUI.",
         "role-based security training is provided to organizational personnel before performing assigned duties.",
-        "role-based security training is provided to organizational personnel {{ insert: param, A.03.02.02.ODP.01 }} after initial training.",
-        "role-based security training is provided to organizational personnel when required by system changes or following {{ insert: param, A.03.02.02.ODP.02 }}.",
-        "role-based security training content is updated {{ insert: param, A.03.02.02.ODP.03 }}.",
-        "role-based security training content is updated following {{ insert: param, A.03.02.02.ODP.04 }}."
+        "role-based security training is provided to organizational personnel the DoD-approved system use notification banner<mark class=\"stig-note\" title=\"DISA STIG hard requirement: exact DoD warning banner text must be displayed verbatim (required on all platforms)\">CMMC/STIG</mark> after initial training.",
+        "role-based security training is provided to organizational personnel when required by system changes or following before authentication is completed (at every login prompt)<mark class=\"stig-note\" title=\"DISA STIG hard requirement: banner must appear before access is granted; pre-logon display is mandatory\">CMMC/STIG</mark>.",
+        "role-based security training content is updated each login session<mark class=\"stig-note\" title=\"DISA STIG hard requirement: user must acknowledge the banner before every session\">CMMC/STIG</mark>.",
+        "role-based security training content is updated following all users accessing systems that store, process, or transmit CUI<mark class=\"stig-note\" title=\"CMMC CAG: no exceptions — all users must acknowledge\">CMMC/STIG</mark>."
       ],
       "nist800171": [
         "3-2-2"
@@ -551,11 +551,11 @@
       "domain": "Audit & Accountability",
       "domainCode": "AU",
       "level": 2,
-      "description": "Specify the following event types selected for logging within the system: {{ insert: param, A.03.03.01.ODP.01 }}. Review and update the event types selected for logging {{ insert: param, A.03.03.01.ODP.02 }}.",
+      "description": "Specify the following event types selected for logging within the system: account logon/logoff, account management, object access to CUI, policy changes, privilege use, process tracking, system events, failed access attempts, and use of privileged functions<mark class=\"stig-note\" title=\"CMMC CAG AU.L2-3.3.1 and DISA Audit Policy STIG: these 9 categories are the minimum baseline; all must be enabled\">CMMC/STIG</mark>. Review and update the event types selected for logging date/time, event type, user/process identity, source (IP or device), outcome (success/failure), and affected object<mark class=\"stig-note\" title=\"CMMC CAG AU.L2-3.3.1 and NIST SP 800-171 Rev 3: these fields are required in every audit record\">CMMC/STIG</mark>.",
       "assessmentObjectives": [
-        "the following event types are specified for logging within the system: {{ insert: param, A.03.03.01.ODP.01 }}.",
-        "the event types selected for logging are reviewed {{ insert: param, A.03.03.01.ODP.02 }}.",
-        "the event types selected for logging are updated {{ insert: param, A.03.03.01.ODP.02 }}."
+        "the following event types are specified for logging within the system: account logon/logoff, account management, object access to CUI, policy changes, privilege use, process tracking, system events, failed access attempts, and use of privileged functions<mark class=\"stig-note\" title=\"CMMC CAG AU.L2-3.3.1 and DISA Audit Policy STIG: these 9 categories are the minimum baseline; all must be enabled\">CMMC/STIG</mark>.",
+        "the event types selected for logging are reviewed date/time, event type, user/process identity, source (IP or device), outcome (success/failure), and affected object<mark class=\"stig-note\" title=\"CMMC CAG AU.L2-3.3.1 and NIST SP 800-171 Rev 3: these fields are required in every audit record\">CMMC/STIG</mark>.",
+        "the event types selected for logging are updated date/time, event type, user/process identity, source (IP or device), outcome (success/failure), and affected object<mark class=\"stig-note\" title=\"CMMC CAG AU.L2-3.3.1 and NIST SP 800-171 Rev 3: these fields are required in every audit record\">CMMC/STIG</mark>."
       ],
       "nist800171": [
         "3-3-1"
@@ -620,10 +620,10 @@
       "domain": "Audit & Accountability",
       "domainCode": "AU",
       "level": 2,
-      "description": "Alert organizational personnel or roles within {{ insert: param, A.03.03.04.ODP.01 }} in the event of an audit logging process failure. Take the following additional actions: {{ insert: param, A.03.03.04.ODP.02 }}.",
+      "description": "Alert organizational personnel or roles within weekly for routine review, with automated daily alerting for security-relevant events<mark class=\"stig-note\" title=\"CMMC CAG: 'regularly' required; weekly manual review plus automated alerting is the safe DoD standard\">CMMC/STIG</mark> in the event of an audit logging process failure. Take the following additional actions: the ISSO or designated Security Operations Center (SOC) personnel<mark class=\"stig-note\" title=\"Organization-defined role; must be documented in the SSP\">CMMC/STIG</mark>.",
       "assessmentObjectives": [
-        "organizational personnel or roles are alerted in the event of an audit logging process failure within {{ insert: param, A.03.03.04.ODP.01 }}.",
-        "the following additional actions are taken: {{ insert: param, A.03.03.04.ODP.02 }}."
+        "organizational personnel or roles are alerted in the event of an audit logging process failure within weekly for routine review, with automated daily alerting for security-relevant events<mark class=\"stig-note\" title=\"CMMC CAG: 'regularly' required; weekly manual review plus automated alerting is the safe DoD standard\">CMMC/STIG</mark>.",
+        "the following additional actions are taken: the ISSO or designated Security Operations Center (SOC) personnel<mark class=\"stig-note\" title=\"Organization-defined role; must be documented in the SSP\">CMMC/STIG</mark>."
       ],
       "nist800171": [
         "3-3-4"
@@ -640,9 +640,9 @@
       "domain": "Audit & Accountability",
       "domainCode": "AU",
       "level": 1,
-      "description": "Review and analyze system audit records {{ insert: param, A.03.03.05.ODP.01 }} for indications and the potential impact of inappropriate or unusual activity. Report findings to organizational personnel or roles. Analyze and correlate audit records across different repositories to gain organization-wide situational awareness.",
+      "description": "Review and analyze system audit records minimum 1 year total, with at least 90 days immediately accessible online<mark class=\"stig-note\" title=\"DoD policy (DoDI 8500.01) and CMMC CAG: 1 year total retention; 90-day hot storage is the DoD practitioner standard\">CMMC/STIG</mark> for indications and the potential impact of inappropriate or unusual activity. Report findings to organizational personnel or roles. Analyze and correlate audit records across different repositories to gain organization-wide situational awareness.",
       "assessmentObjectives": [
-        "system audit records are reviewed and analyzed {{ insert: param, A.03.03.05.ODP.01 }} for indications and the potential impact of inappropriate or unusual activity.",
+        "system audit records are reviewed and analyzed minimum 1 year total, with at least 90 days immediately accessible online<mark class=\"stig-note\" title=\"DoD policy (DoDI 8500.01) and CMMC CAG: 1 year total retention; 90-day hot storage is the DoD practitioner standard\">CMMC/STIG</mark> for indications and the potential impact of inappropriate or unusual activity.",
         "findings are reported to organizational personnel or roles.",
         "audit records across different repositories are analyzed to gain organization-wide situational awareness.",
         "audit records across different repositories are correlated to gain organization-wide situational awareness."
@@ -686,11 +686,11 @@
       "domain": "Audit & Accountability",
       "domainCode": "AU",
       "level": 2,
-      "description": "Use internal system clocks to generate time stamps for audit records. Record time stamps for audit records that meet {{ insert: param, A.03.03.07.ODP.01 }} and that use Coordinated Universal Time (UTC), have a fixed local time offset from UTC, or include the local time offset as part of the time stamp.",
+      "description": "Use internal system clocks to generate time stamps for audit records. Record time stamps for audit records that meet 1-second granularity, synchronized to an authoritative time source (NTP from a DoD-approved Stratum 2 server)<mark class=\"stig-note\" title=\"DISA STIG hard requirement: systems must sync to an authoritative time source (V-220772); 1-second granularity is the minimum for forensic utility\">CMMC/STIG</mark> and that use Coordinated Universal Time (UTC), have a fixed local time offset from UTC, or include the local time offset as part of the time stamp.",
       "assessmentObjectives": [
         "internal system clocks are used to generate time stamps for audit records.",
         "time stamps are recorded for audit records that use Coordinated Universal Time (UTC), have a fixed local time offset from UTC, or include the local time offset as part of the time stamp.",
-        "time stamps are recorded for audit records that meet {{ insert: param, A.03.03.07.ODP.01 }}."
+        "time stamps are recorded for audit records that meet 1-second granularity, synchronized to an authoritative time source (NTP from a DoD-approved Stratum 2 server)<mark class=\"stig-note\" title=\"DISA STIG hard requirement: systems must sync to an authoritative time source (V-220772); 1-second granularity is the minimum for forensic utility\">CMMC/STIG</mark>."
       ],
       "nist800171": [
         "3-3-7"
@@ -745,14 +745,14 @@
       "domain": "Configuration Management",
       "domainCode": "CM",
       "level": 1,
-      "description": "Develop and maintain under configuration control, a current baseline configuration of the system. Review and update the baseline configuration of the system {{ insert: param, A.03.04.01.ODP.01 }} and when system components are installed or modified.",
+      "description": "Develop and maintain under configuration control, a current baseline configuration of the system. Review and update the baseline configuration of the system annually or following significant system changes, security incidents, or new vulnerability disclosures<mark class=\"stig-note\" title=\"CMMC CAG CM.L2: baselines reviewed regularly; annual plus event-driven is the safe standard\">CMMC/STIG</mark> and when system components are installed or modified.",
       "assessmentObjectives": [
         "a current baseline configuration of the system is developed.",
         "a current baseline configuration of the system is maintained under configuration control.",
-        "the baseline configuration of the system is updated {{ insert: param, A.03.04.01.ODP.01 }}.",
+        "the baseline configuration of the system is updated annually or following significant system changes, security incidents, or new vulnerability disclosures<mark class=\"stig-note\" title=\"CMMC CAG CM.L2: baselines reviewed regularly; annual plus event-driven is the safe standard\">CMMC/STIG</mark>.",
         "the baseline configuration of the system is reviewed when system components are installed or modified.",
         "the baseline configuration of the system is updated when system components are installed or modified.",
-        "the baseline configuration of the system is reviewed {{ insert: param, A.03.04.01.ODP.01 }}."
+        "the baseline configuration of the system is reviewed annually or following significant system changes, security incidents, or new vulnerability disclosures<mark class=\"stig-note\" title=\"CMMC CAG CM.L2: baselines reviewed regularly; annual plus event-driven is the safe standard\">CMMC/STIG</mark>."
       ],
       "nist800171": [
         "3-4-1"
@@ -772,12 +772,12 @@
       "domain": "Configuration Management",
       "domainCode": "CM",
       "level": 1,
-      "description": "Establish, document, and implement the following configuration settings for the system that reflect the most restrictive mode consistent with operational requirements: {{ insert: param, A.03.04.02.ODP.01 }} . Identify, document, and approve any deviations from established configuration settings.",
+      "description": "Establish, document, and implement the following configuration settings for the system that reflect the most restrictive mode consistent with operational requirements: the Change Control Board (CCB) or designated Configuration Manager with ISSM concurrence<mark class=\"stig-note\" title=\"CMMC CAG CM.L2: designated personnel required; DoD RMF standard is CCB with security review role in the approval chain\">CMMC/STIG</mark> . Identify, document, and approve any deviations from established configuration settings.",
       "assessmentObjectives": [
-        "the following configuration settings for the system that reflect the most restrictive mode consistent with operational requirements are established and documented: {{ insert: param, A.03.04.02.ODP.01 }}.",
+        "the following configuration settings for the system that reflect the most restrictive mode consistent with operational requirements are established and documented: the Change Control Board (CCB) or designated Configuration Manager with ISSM concurrence<mark class=\"stig-note\" title=\"CMMC CAG CM.L2: designated personnel required; DoD RMF standard is CCB with security review role in the approval chain\">CMMC/STIG</mark>.",
         "any deviations from established configuration settings are identified and documented.",
         "any deviations from established configuration settings are approved.",
-        "the following configuration settings for the system are implemented: {{ insert: param, A.03.04.02.ODP.01 }}."
+        "the following configuration settings for the system are implemented: the Change Control Board (CCB) or designated Configuration Manager with ISSM concurrence<mark class=\"stig-note\" title=\"CMMC CAG CM.L2: designated personnel required; DoD RMF standard is CCB with security review role in the approval chain\">CMMC/STIG</mark>."
       ],
       "nist800171": [
         "3-4-2"
@@ -866,14 +866,14 @@
       "domain": "Configuration Management",
       "domainCode": "CM",
       "level": 2,
-      "description": "Configure the system to provide only mission-essential capabilities. Prohibit or restrict use of the following functions, ports, protocols, connections, and services: {{ insert: param, A.03.04.06.ODP.01 }} . Review the system {{ insert: param, A.03.04.06.ODP.06 }} to identify unnecessary or nonsecure functions, ports, protocols, connections, and services. Disable or remove functions, ports, protocols, connections, and services that are unnecessary or nonsecure.",
+      "description": "Configure the system to provide only mission-essential capabilities. Prohibit or restrict use of the following functions, ports, protocols, connections, and services: peer-to-peer file sharing, unauthorized remote access tools, cryptocurrency mining software, unapproved cloud sync clients<mark class=\"stig-note\" title=\"Organization-defined prohibited software list; must be documented in the SSP and enforced technically\">CMMC/STIG</mark> . Review the system annually or following significant system changes<mark class=\"stig-note\" title=\"CMMC CAG: least functionality posture reviewed regularly; annual plus event-driven is the standard\">CMMC/STIG</mark> to identify unnecessary or nonsecure functions, ports, protocols, connections, and services. Disable or remove functions, ports, protocols, connections, and services that are unnecessary or nonsecure.",
       "assessmentObjectives": [
-        "the use of the following functions is prohibited or restricted: {{ insert: param, A.03.04.06.ODP.01 }}.",
-        "the use of the following ports is prohibited or restricted: {{ insert: param, A.03.04.06.ODP.02 }}.",
-        "the use of the following protocols is prohibited or restricted: {{ insert: param, A.03.04.06.ODP.03 }}.",
-        "the use of the following connections is prohibited or restricted: {{ insert: param, A.03.04.06.ODP.04 }}.",
-        "the use of the following services is prohibited or restricted: {{ insert: param, A.03.04.06.ODP.05 }}.",
-        "the system is reviewed {{ insert: param, A.03.04.06.ODP.06 }} to identify unnecessary or nonsecure functions, ports, protocols, connections, and services.",
+        "the use of the following functions is prohibited or restricted: peer-to-peer file sharing, unauthorized remote access tools, cryptocurrency mining software, unapproved cloud sync clients<mark class=\"stig-note\" title=\"Organization-defined prohibited software list; must be documented in the SSP and enforced technically\">CMMC/STIG</mark>.",
+        "the use of the following ports is prohibited or restricted: Telnet, FTP (plaintext), SNMPv1/v2, rsh/rlogin, and TFTP (unless operationally required)<mark class=\"stig-note\" title=\"DISA STIG: insecure protocols must be disabled; only explicitly required and documented services are permitted\">CMMC/STIG</mark>.",
+        "the use of the following protocols is prohibited or restricted: all ports and protocols not explicitly required and documented in the SSP (default-deny with allow-list)<mark class=\"stig-note\" title=\"Organization-defined; default-deny posture is required for CMMC compliance\">CMMC/STIG</mark>.",
+        "the use of the following connections is prohibited or restricted: USB storage auto-run, Bluetooth (if not required for operations), and direct memory access from external interfaces<mark class=\"stig-note\" title=\"Organization-defined restricted capabilities; must be technically enforced and documented\">CMMC/STIG</mark>.",
+        "the use of the following services is prohibited or restricted: personal email clients, social media applications, and other applications not required for mission functions<mark class=\"stig-note\" title=\"Organization-defined based on mission; must be documented in the SSP\">CMMC/STIG</mark>.",
+        "the system is reviewed annually or following significant system changes<mark class=\"stig-note\" title=\"CMMC CAG: least functionality posture reviewed regularly; annual plus event-driven is the standard\">CMMC/STIG</mark> to identify unnecessary or nonsecure functions, ports, protocols, connections, and services.",
         "unnecessary or nonsecure functions, ports, protocols, connections, and services are disabled or removed.",
         "the system is configured to provide only mission-essential capabilities."
       ],
@@ -910,11 +910,11 @@
       "domain": "Configuration Management",
       "domainCode": "CM",
       "level": 2,
-      "description": "Identify software programs authorized to execute on the system. Implement a deny-all, allow-by-exception policy for the execution of authorized software programs on the system. Review and update the list of authorized software programs {{ insert: param, A.03.04.08.ODP.01 }}.",
+      "description": "Identify software programs authorized to execute on the system. Implement a deny-all, allow-by-exception policy for the execution of authorized software programs on the system. Review and update the list of authorized software programs organization-approved applications defined in the application allowlist<mark class=\"stig-note\" title=\"CMMC CAG CM.L2: org-defined allowlist required; implemented via Windows Defender Application Control (WDAC) or AppLocker per DISA STIG\">CMMC/STIG</mark>.",
       "assessmentObjectives": [
         "software programs authorized to execute on the system are identified.",
         "a deny-all, allow-by-exception policy for the execution of authorized software programs on the system is implemented.",
-        "the list of authorized software programs is reviewed and updated {{ insert: param, A.03.04.08.ODP.01 }}."
+        "the list of authorized software programs is reviewed and updated organization-approved applications defined in the application allowlist<mark class=\"stig-note\" title=\"CMMC CAG CM.L2: org-defined allowlist required; implemented via Windows Defender Application Control (WDAC) or AppLocker per DISA STIG\">CMMC/STIG</mark>."
       ],
       "nist800171": [
         "3-4-8"
@@ -949,12 +949,12 @@
       "domain": "Identification & Authentication",
       "domainCode": "IA",
       "level": 1,
-      "description": "Uniquely identify and authenticate system users, and associate that unique identification with processes acting on behalf of those users. Re-authenticate users when {{ insert: param, A.03.05.01.ODP.01 }} .",
+      "description": "Uniquely identify and authenticate system users, and associate that unique identification with processes acting on behalf of those users. Re-authenticate users when unique username per individual user; device identifiers (hostname, MAC address, or certificate); service accounts identified by function with no shared credentials<mark class=\"stig-note\" title=\"CMMC CAG IA.L1 and DISA STIG: shared accounts are prohibited for CUI access\">CMMC/STIG</mark> .",
       "assessmentObjectives": [
         "system users are uniquely identified.",
         "system users are authenticated.",
         "processes acting on behalf of users are associated with uniquely identified and authenticated system users.",
-        "users are reauthenticated when {{ insert: param, A.03.05.01.ODP.01 }} ."
+        "users are reauthenticated when unique username per individual user; device identifiers (hostname, MAC address, or certificate); service accounts identified by function with no shared credentials<mark class=\"stig-note\" title=\"CMMC CAG IA.L1 and DISA STIG: shared accounts are prohibited for CUI access\">CMMC/STIG</mark> ."
       ],
       "nist800171": [
         "3-5-1"
@@ -974,8 +974,8 @@
       "level": 1,
       "description": "Devices that require unique device-to-device identification and authentication are defined by type, device, or a combination of type and device. Organization-defined device types include devices that are not owned by the organization. Systems use shared known information (e.g., Media Access Control .MAC, Transmission Control Protocol/Internet Protocol .TCP/IP addresses) for device identification or organizational authentication solutions (e.g., Institute of Electrical and Electronics Engineers .IEEE 802.1x and Extensible Authentication Protocol .EAP, RADIUS server with EAP-Transport Layer Security .TLS authentication, Kerberos) to identify and authenticate devices on local and wide area networks. Public Key Infrastructure (PKI) and certificate revocation checking for the certificates exchanged can be included as part of device authentication.",
       "assessmentObjectives": [
-        "{{ insert: param, A.03.05.02.ODP.01 }} are authenticated before establishing a system connection.",
-        "{{ insert: param, A.03.05.02.ODP.01 }} are uniquely identified before establishing a system connection."
+        "multi-factor authentication (MFA) for all users; PIV/CAC preferred; MFA mandatory for privileged users and all remote access<mark class=\"stig-note\" title=\"CMMC CAG IA.L2-3.5.3 hard requirement: MFA required for network access and privileged accounts; DISA STIG mandates MFA for all privileged access\">CMMC/STIG</mark> are authenticated before establishing a system connection.",
+        "multi-factor authentication (MFA) for all users; PIV/CAC preferred; MFA mandatory for privileged users and all remote access<mark class=\"stig-note\" title=\"CMMC CAG IA.L2-3.5.3 hard requirement: MFA required for network access and privileged accounts; DISA STIG mandates MFA for all privileged access\">CMMC/STIG</mark> are uniquely identified before establishing a system connection."
       ],
       "nist800171": [
         "3-5-2"
@@ -1035,13 +1035,13 @@
       "domain": "Identification & Authentication",
       "domainCode": "IA",
       "level": 2,
-      "description": "Receive authorization from organizational personnel or roles to assign an individual, group, role, service, or device identifier. Select and assign an identifier that identifies an individual, group, role, service, or device. Prevent the reuse of identifiers for {{ insert: param, A.03.05.05.ODP.01 }}. Manage individual identifiers by uniquely identifying each individual as {{ insert: param, A.03.05.05.ODP.02 }}.",
+      "description": "Receive authorization from organizational personnel or roles to assign an individual, group, role, service, or device identifier. Select and assign an identifier that identifies an individual, group, role, service, or device. Prevent the reuse of identifiers for temporary passwords must meet complexity requirements, be unique per user, expire on first use, and never be transmitted in cleartext<mark class=\"stig-note\" title=\"DISA STIG: default/shared initial passwords must be changed immediately at first login\">CMMC/STIG</mark>. Manage individual identifiers by uniquely identifying each individual as 1 day minimum password age<mark class=\"stig-note\" title=\"DISA STIG hard lower limit: minimum password age must be at least 1 day to prevent cycling through password history (V-220748)\">CMMC/STIG</mark>.",
       "assessmentObjectives": [
         "authorization is received from organizational personnel or roles to assign an individual, group, role, service, or device identifier.",
         "an identifier that identifies an individual, group, role, service, or device is selected.",
         "an identifier that identifies an individual, group, role, service, or device is assigned.",
-        "the reuse of identifiers for {{ insert: param, A.03.05.05.ODP.01 }} is prevented.",
-        "individual identifiers are managed by uniquely identifying each individual as {{ insert: param, A.03.05.05.ODP.02 }}."
+        "the reuse of identifiers for temporary passwords must meet complexity requirements, be unique per user, expire on first use, and never be transmitted in cleartext<mark class=\"stig-note\" title=\"DISA STIG: default/shared initial passwords must be changed immediately at first login\">CMMC/STIG</mark> is prevented.",
+        "individual identifiers are managed by uniquely identifying each individual as 1 day minimum password age<mark class=\"stig-note\" title=\"DISA STIG hard lower limit: minimum password age must be at least 1 day to prevent cycling through password history (V-220748)\">CMMC/STIG</mark>."
       ],
       "nist800171": [
         "3-5-5"
@@ -1075,16 +1075,16 @@
       "domain": "Identification & Authentication",
       "domainCode": "IA",
       "level": 1,
-      "description": "Maintain a list of commonly-used, expected, or compromised passwords, and update the list {{ insert: param, A.03.05.07.ODP.01 }} and when organizational passwords are suspected to have been compromised. Verify that passwords are not found on the list of commonly used, expected, or compromised passwords when users create or update passwords. Transmit passwords only over cryptographically protected channels. Store passwords in a cryptographically protected form. Select a new password upon first use after account recovery. Enforce the following composition and complexity rules for passwords: {{ insert: param, A.03.05.07.ODP.02 }}.",
+      "description": "Maintain a list of commonly-used, expected, or compromised passwords, and update the list 15 characters minimum<mark class=\"stig-note\" title=\"DISA STIG hard lower limit: minimum 14 characters (V-220749); DoD practice standard is 15 characters per current NSA/OMB M-22-09 guidance\">CMMC/STIG</mark> and when organizational passwords are suspected to have been compromised. Verify that passwords are not found on the list of commonly used, expected, or compromised passwords when users create or update passwords. Transmit passwords only over cryptographically protected channels. Store passwords in a cryptographically protected form. Select a new password upon first use after account recovery. Enforce the following composition and complexity rules for passwords: characters from at least 3 of 4 categories (uppercase, lowercase, numbers, special characters); no dictionary words; 24-password history enforced; maximum 60-day password age<mark class=\"stig-note\" title=\"DISA STIG hard values: complexity enabled (V-220750), history of 24 (V-220752), max age 60 days (V-220751)\">CMMC/STIG</mark>.",
       "assessmentObjectives": [
         "a list of commonly used, expected, or compromised passwords is maintained.",
-        "a list of commonly used, expected, or compromised passwords is updated {{ insert: param, A.03.05.07.ODP.01 }}.",
+        "a list of commonly used, expected, or compromised passwords is updated 15 characters minimum<mark class=\"stig-note\" title=\"DISA STIG hard lower limit: minimum 14 characters (V-220749); DoD practice standard is 15 characters per current NSA/OMB M-22-09 guidance\">CMMC/STIG</mark>.",
         "a list of commonly used, expected, or compromised passwords is updated when organizational passwords are suspected to have been compromised.",
         "passwords are verified not to be found on the list of commonly used, expected, or compromised passwords when they are created or updated by users.",
         "passwords are only transmitted over cryptographically protected channels.",
         "passwords are stored in a cryptographically protected form.",
         "a new password is selected upon first use after account recovery.",
-        "the following composition and complexity rules for passwords are enforced: {{ insert: param, A.03.05.07.ODP.02 }}."
+        "the following composition and complexity rules for passwords are enforced: characters from at least 3 of 4 categories (uppercase, lowercase, numbers, special characters); no dictionary words; 24-password history enforced; maximum 60-day password age<mark class=\"stig-note\" title=\"DISA STIG hard values: complexity enabled (V-220750), history of 24 (V-220752), max age 60 days (V-220751)\">CMMC/STIG</mark>."
       ],
       "nist800171": [
         "3-5-7"
@@ -1199,12 +1199,12 @@
       "domain": "Incident Response",
       "domainCode": "IR",
       "level": 2,
-      "description": "Track and document system security incidents. Report suspected incidents to the organizational incident response capability within {{ insert: param, A.03.06.02.ODP.01 }}. Report incident information to {{ insert: param, A.03.06.02.ODP.02 }}. Provide an incident response support resource that offers advice and assistance to system users on handling and reporting incidents.",
+      "description": "Track and document system security incidents. Report suspected incidents to the organizational incident response capability within annually (tabletop exercise minimum; full operational test where feasible)<mark class=\"stig-note\" title=\"CMMC CAG: annual testing is the expected floor; FedRAMP and DoD RMF both reference annual CP testing\">CMMC/STIG</mark>. Report incident information to the ISSO/ISSM and designated IT recovery personnel (roles named in the Contingency Plan)<mark class=\"stig-note\" title=\"Organization-defined; roles must be named in both the SSP and the Contingency Plan document\">CMMC/STIG</mark>. Provide an incident response support resource that offers advice and assistance to system users on handling and reporting incidents.",
       "assessmentObjectives": [
         "system security incidents are tracked.",
         "system security incidents are documented.",
-        "suspected incidents are reported to the organizational incident response capability within {{ insert: param, A.03.06.02.ODP.01 }}.",
-        "incident information is reported to {{ insert: param, A.03.06.02.ODP.02 }}.",
+        "suspected incidents are reported to the organizational incident response capability within annually (tabletop exercise minimum; full operational test where feasible)<mark class=\"stig-note\" title=\"CMMC CAG: annual testing is the expected floor; FedRAMP and DoD RMF both reference annual CP testing\">CMMC/STIG</mark>.",
+        "incident information is reported to the ISSO/ISSM and designated IT recovery personnel (roles named in the Contingency Plan)<mark class=\"stig-note\" title=\"Organization-defined; roles must be named in both the SSP and the Contingency Plan document\">CMMC/STIG</mark>.",
         "an incident response support resource that offers advice and assistance to system users on handling and reporting incidents is provided."
       ],
       "nist800171": [
@@ -1224,7 +1224,7 @@
       "level": 2,
       "description": "Organizations test incident response capabilities to determine their effectiveness and identify potential weaknesses or deficiencies. Incident response testing includes the use of checklists, walk-through or tabletop exercises, and simulations. Incident response testing can include a determination of the effects of incident response on organizational operations, organizational assets, and individuals. Qualitative and quantitative data can help determine the effectiveness of incident response processes.",
       "assessmentObjectives": [
-        "the effectiveness of the incident response capability is tested {{ insert: param, A.03.06.03.ODP.01 }}."
+        "the effectiveness of the incident response capability is tested annually or following significant system changes, personnel changes, or actual activation of the plan<mark class=\"stig-note\" title=\"CMMC CAG: 'regularly' required; annual plus event-driven is the standard\">CMMC/STIG</mark>."
       ],
       "nist800171": [
         "3-6-3"
@@ -1484,9 +1484,9 @@
       "domain": "Media Protection",
       "domainCode": "MP",
       "level": 2,
-      "description": "Restrict or prohibit the use of {{ insert: param, A.03.08.07.ODP.01 }}. Prohibit the use of removable system media without an identifiable owner.",
+      "description": "Restrict or prohibit the use of organization-approved and asset-tagged encrypted USB storage devices only; all personal or unapproved portable storage is prohibited<mark class=\"stig-note\" title=\"CMMC CAG MP.L2 and DISA STIG: removable media must be controlled and approved; unapproved devices should be technically blocked via USB port control\">CMMC/STIG</mark>. Prohibit the use of removable system media without an identifiable owner.",
       "assessmentObjectives": [
-        "the use of the following types of system media is restricted or prohibited: {{ insert: param, A.03.08.07.ODP.01 }}.",
+        "the use of the following types of system media is restricted or prohibited: organization-approved and asset-tagged encrypted USB storage devices only; all personal or unapproved portable storage is prohibited<mark class=\"stig-note\" title=\"CMMC CAG MP.L2 and DISA STIG: removable media must be controlled and approved; unapproved devices should be technically blocked via USB port control\">CMMC/STIG</mark>.",
         "the use of removable system media without an identifiable owner is prohibited."
       ],
       "nist800171": [
@@ -1541,10 +1541,10 @@
       "domain": "Personnel Security",
       "domainCode": "PS",
       "level": 2,
-      "description": "Screen individuals prior to authorizing access to the system. Rescreen individuals in accordance with {{ insert: param, A.03.09.01.ODP.01 }}.",
+      "description": "Screen individuals prior to authorizing access to the system. Rescreen individuals in accordance with every 5 years for all personnel with CUI access, and immediately upon: credible derogatory information, significant change in duties, arrest or criminal charge, or adverse financial change indicating insider threat risk<mark class=\"stig-note\" title=\"DoD personnel security standard (DoDM 5200.02): 5-year reinvestigation cycle; event-driven triggers are required\">CMMC/STIG</mark>.",
       "assessmentObjectives": [
         "individuals are screened prior to authorizing access to the system.",
-        "individuals are rescreened in accordance with the following conditions: {{ insert: param, A.03.09.01.ODP.01 }}."
+        "individuals are rescreened in accordance with the following conditions: every 5 years for all personnel with CUI access, and immediately upon: credible derogatory information, significant change in duties, arrest or criminal charge, or adverse financial change indicating insider threat risk<mark class=\"stig-note\" title=\"DoD personnel security standard (DoDM 5200.02): 5-year reinvestigation cycle; event-driven triggers are required\">CMMC/STIG</mark>."
       ],
       "nist800171": [
         "3-9-1"
@@ -1563,9 +1563,9 @@
       "domain": "Personnel Security",
       "domainCode": "PS",
       "level": 2,
-      "description": "When individual employment is terminated: Disable system access within {{ insert: param, A.03.09.02.ODP.01 }}, Terminate or revoke authenticators and credentials associated with the individual, and Retrieve security-related system property. When individuals are reassigned or transferred to other positions in the organization: Review and confirm the ongoing operational need for current logical and physical access authorizations to the system and facility, and Modify access authorization to correspond with any changes in operational need.",
+      "description": "When individual employment is terminated: Disable system access within exit interview covering CUI obligations and NDA; retrieval of all credentials and property at separation; acknowledgment that CUI confidentiality obligations survive employment (minimum 2 years post-employment)<mark class=\"stig-note\" title=\"CMMC CAG PS.L2 and DFARS 252.204-7012: continuing CUI obligations apply post-employment; 2 years is the safe legal/contractual standard\">CMMC/STIG</mark>, Terminate or revoke authenticators and credentials associated with the individual, and Retrieve security-related system property. When individuals are reassigned or transferred to other positions in the organization: Review and confirm the ongoing operational need for current logical and physical access authorizations to the system and facility, and Modify access authorization to correspond with any changes in operational need.",
       "assessmentObjectives": [
-        "upon termination of individual employment, system access is disabled within {{ insert: param, A.03.09.02.ODP.01 }}.",
+        "upon termination of individual employment, system access is disabled within exit interview covering CUI obligations and NDA; retrieval of all credentials and property at separation; acknowledgment that CUI confidentiality obligations survive employment (minimum 2 years post-employment)<mark class=\"stig-note\" title=\"CMMC CAG PS.L2 and DFARS 252.204-7012: continuing CUI obligations apply post-employment; 2 years is the safe legal/contractual standard\">CMMC/STIG</mark>.",
         "upon termination of individual employment, authenticators associated with the individual are terminated or revoked.",
         "upon termination of individual employment, credentials associated with the individual are terminated or revoked.",
         "upon termination of individual employment, security-related system property is retrieved.",
@@ -1589,12 +1589,12 @@
       "domain": "Physical Protection",
       "domainCode": "PE",
       "level": 1,
-      "description": "Develop, approve, and maintain a list of individuals with authorized access to the facility where the system resides. Issue authorization credentials for facility access. Review the facility access list {{ insert: param, A.03.10.01.ODP.01 }}. Remove individuals from the facility access list when access is no longer required.",
+      "description": "Develop, approve, and maintain a list of individuals with authorized access to the facility where the system resides. Issue authorization credentials for facility access. Review the facility access list monthly at minimum, and immediately following any security incident or anomaly<mark class=\"stig-note\" title=\"CMMC CAG PE.L2: 'regularly' required; monthly is the accepted floor\">CMMC/STIG</mark>. Remove individuals from the facility access list when access is no longer required.",
       "assessmentObjectives": [
         "a list of individuals with authorized access to the facility where the system resides is developed.",
         "a list of individuals with authorized access to the facility where the system resides is approved.",
         "a list of individuals with authorized access to the facility where the system resides is maintained.",
-        "the facility access list is reviewed {{ insert: param, A.03.10.01.ODP.01 }}.",
+        "the facility access list is reviewed monthly at minimum, and immediately following any security incident or anomaly<mark class=\"stig-note\" title=\"CMMC CAG PE.L2: 'regularly' required; monthly is the accepted floor\">CMMC/STIG</mark>.",
         "individuals from the facility access list are removed when access is no longer required.",
         "authorization credentials for facility access are issued."
       ],
@@ -1614,12 +1614,12 @@
       "domain": "Physical Protection",
       "domainCode": "PE",
       "level": 2,
-      "description": "Monitor physical access to the facility where the system resides to detect and respond to physical security incidents. Review physical access logs {{ insert: param, A.03.10.02.ODP.01 }} and upon occurrence of {{ insert: param, A.03.10.02.ODP.02 }}.",
+      "description": "Monitor physical access to the facility where the system resides to detect and respond to physical security incidents. Review physical access logs minimum 3 years<mark class=\"stig-note\" title=\"NARA federal contractor records retention guidance; CMMC CAG PE.L2: org-defined; 3 years aligns with federal records requirements\">CMMC/STIG</mark> and upon occurrence of visitor logs, access badge issuance/termination records, PACS logs, maintenance and delivery personnel records, and key/combination issuance records<mark class=\"stig-note\" title=\"CMMC CAG PE.L2: types of records must be enumerated in the SSP and Physical Security Policy\">CMMC/STIG</mark>.",
       "assessmentObjectives": [
         "physical access to the facility where the system resides is monitored to detect physical security incidents.",
         "physical security incidents are responded to.",
-        "physical access logs are reviewed {{ insert: param, A.03.10.02.ODP.01 }} .",
-        "physical access logs are reviewed upon occurrence of {{ insert: param, A.03.10.02.ODP.02 }}."
+        "physical access logs are reviewed minimum 3 years<mark class=\"stig-note\" title=\"NARA federal contractor records retention guidance; CMMC CAG PE.L2: org-defined; 3 years aligns with federal records requirements\">CMMC/STIG</mark> .",
+        "physical access logs are reviewed upon occurrence of visitor logs, access badge issuance/termination records, PACS logs, maintenance and delivery personnel records, and key/combination issuance records<mark class=\"stig-note\" title=\"CMMC CAG PE.L2: types of records must be enumerated in the SSP and Physical Security Policy\">CMMC/STIG</mark>."
       ],
       "nist800171": [
         "3-10-2"
@@ -1687,10 +1687,10 @@
       "domain": "Physical Protection",
       "domainCode": "PE",
       "level": 2,
-      "description": "Determine alternate work sites allowed for use by employees. Employ the following security requirements at alternate work sites: {{ insert: param, A.03.10.06.ODP.01 }}.",
+      "description": "Determine alternate work sites allowed for use by employees. Employ the following security requirements at alternate work sites: VPN with MFA for all CUI access; encrypted storage for CUI at rest; approved/government-furnished device only; physical privacy measures; no CUI printing at home; and incident reporting capability<mark class=\"stig-note\" title=\"CMMC CAG PE.L2-3.10.6 and DISA telework guidance: controls must be documented in a Telework/Remote Work Policy in the SSP\">CMMC/STIG</mark>.",
       "assessmentObjectives": [
         "alternate work sites allowed for use by employees are determined.",
-        "the following security requirements are employed at alternate work sites: {{ insert: param, A.03.10.06.ODP.01 }}."
+        "the following security requirements are employed at alternate work sites: VPN with MFA for all CUI access; encrypted storage for CUI at rest; approved/government-furnished device only; physical privacy measures; no CUI printing at home; and incident reporting capability<mark class=\"stig-note\" title=\"CMMC CAG PE.L2-3.10.6 and DISA telework guidance: controls must be documented in a Telework/Remote Work Policy in the SSP\">CMMC/STIG</mark>."
       ],
       "nist800171": [
         "3-10-6"
@@ -1707,10 +1707,10 @@
       "domain": "Risk Assessment",
       "domainCode": "RA",
       "level": 2,
-      "description": "Assess the risk (including supply chain risk) of unauthorized disclosure resulting from the processing, storage, or transmission of CUI. Update risk assessments {{ insert: param, A.03.11.01.ODP.01 }}.",
+      "description": "Assess the risk (including supply chain risk) of unauthorized disclosure resulting from the processing, storage, or transmission of CUI. Update risk assessments annually or following significant changes to the system, threat environment, or organizational mission<mark class=\"stig-note\" title=\"CMMC CAG RA.L2-3.11.1: annual assessment is the DoD RMF standard; event-driven reassessment is also required\">CMMC/STIG</mark>.",
       "assessmentObjectives": [
         "the risk (including supply chain risk) of unauthorized disclosure resulting from the processing, storage, or transmission of CUI is assessed.",
-        "risk assessments are updated {{ insert: param, A.03.11.01.ODP.01 }}."
+        "risk assessments are updated annually or following significant changes to the system, threat environment, or organizational mission<mark class=\"stig-note\" title=\"CMMC CAG RA.L2-3.11.1: annual assessment is the DoD RMF standard; event-driven reassessment is also required\">CMMC/STIG</mark>."
       ],
       "nist800171": [
         "3-11-1"
@@ -1727,14 +1727,14 @@
       "domain": "Risk Assessment",
       "domainCode": "RA",
       "level": 2,
-      "description": "Monitor and scan the system for vulnerabilities {{ insert: param, A.03.11.02.ODP.01 }} and when new vulnerabilities affecting the system are identified. Remediate system vulnerabilities within {{ insert: param, A.03.11.02.ODP.03 }}. Update system vulnerabilities to be scanned {{ insert: param, A.03.11.02.ODP.04 }} and when new vulnerabilities are identified and reported.",
+      "description": "Monitor and scan the system for vulnerabilities at least monthly (weekly where tooling permits)<mark class=\"stig-note\" title=\"CISA BOD 19-02 and DoD ACAS policy hard lower limit: network-accessible systems must be scanned at least monthly\">CMMC/STIG</mark> and when new vulnerabilities affecting the system are identified. Remediate system vulnerabilities within within 15 days of discovery for critical vulnerabilities (CVSS 9.0–10.0)<mark class=\"stig-note\" title=\"CISA BOD 19-02 hard upper limit: critical vulnerabilities on internet-facing systems must be remediated within 15 calendar days\">CMMC/STIG</mark>. Update system vulnerabilities to be scanned within 30 days of discovery for high vulnerabilities (CVSS 7.0–8.9)<mark class=\"stig-note\" title=\"CISA BOD 19-02 hard upper limit: high vulnerabilities must be remediated within 30 calendar days\">CMMC/STIG</mark> and when new vulnerabilities are identified and reported.",
       "assessmentObjectives": [
-        "the system is monitored for vulnerabilities {{ insert: param, A.03.11.02.ODP.01 }}.",
-        "the system is scanned for vulnerabilities {{ insert: param, A.03.11.02.ODP.02 }}.",
-        "system vulnerabilities are remediated within {{ insert: param, A.03.11.02.ODP.03 }}.",
+        "the system is monitored for vulnerabilities at least monthly (weekly where tooling permits)<mark class=\"stig-note\" title=\"CISA BOD 19-02 and DoD ACAS policy hard lower limit: network-accessible systems must be scanned at least monthly\">CMMC/STIG</mark>.",
+        "the system is scanned for vulnerabilities within 72 hours of a new critical CVE being publicly disclosed or when directed by CISA/USCYBERCOM<mark class=\"stig-note\" title=\"CISA BOD 19-02 and DoD ACAS policy: 72-hour response to new critical disclosures is the DoD practitioner standard\">CMMC/STIG</mark>.",
+        "system vulnerabilities are remediated within within 15 days of discovery for critical vulnerabilities (CVSS 9.0–10.0)<mark class=\"stig-note\" title=\"CISA BOD 19-02 hard upper limit: critical vulnerabilities on internet-facing systems must be remediated within 15 calendar days\">CMMC/STIG</mark>.",
         "the system is monitored for vulnerabilities when new vulnerabilities that affect the system are identified.",
         "the system is scanned for vulnerabilities when new vulnerabilities that affect the system are identified.",
-        "system vulnerabilities to be scanned are updated {{ insert: param, A.03.11.02.ODP.04 }}.",
+        "system vulnerabilities to be scanned are updated within 30 days of discovery for high vulnerabilities (CVSS 7.0–8.9)<mark class=\"stig-note\" title=\"CISA BOD 19-02 hard upper limit: high vulnerabilities must be remediated within 30 calendar days\">CMMC/STIG</mark>.",
         "system vulnerabilities to be scanned are updated when new vulnerabilities are identified and reported."
       ],
       "nist800171": [
@@ -1772,7 +1772,7 @@
       "level": 2,
       "description": "By assessing the security requirements, organizations determine whether the necessary safeguards and countermeasures are implemented correctly, operating as intended, and producing the desired outcome. Security assessments identify weaknesses in the system and provide the essential information needed to make risk-based decisions. Security assessment reports document assessment results in sufficient detail as deemed necessary by the organization to determine the accuracy and completeness of the reports. Security assessment results are provided to the individuals or roles appropriate for the types of assessments being conducted.",
       "assessmentObjectives": [
-        "the security requirements for the system and its environment of operation are assessed {{ insert: param, A.03.12.01.ODP.01 }} to determine if the requirements have been satisfied."
+        "the security requirements for the system and its environment of operation are assessed annually for internal assessments; every 3 years for formal C3PAO assessment (CMMC Level 2 certification cycle)<mark class=\"stig-note\" title=\"CMMC model: C3PAO assessment every 3 years; annual internal reviews satisfy ongoing assessment requirements per CMMC CAG CA.L2-3.12.1\">CMMC/STIG</mark> to determine if the requirements have been satisfied."
       ],
       "nist800171": [
         "3-12-1"
@@ -2010,7 +2010,7 @@
       "level": 2,
       "description": "This requirement applies to internal and external networks. Terminating network connections associated with communications sessions includes deallocating TCP/IP addresses or port pairs at the operating system level or deallocating networking assignments at the application level if multiple application sessions are using a single network connection. Time periods of inactivity may be established by organizations and include time periods by type of network access or for specific network accesses.",
       "assessmentObjectives": [
-        "the network connection associated with a communications session is terminated at the end of the session or after {{ insert: param, A.03.13.09.ODP.01 }} of inactivity."
+        "the network connection associated with a communications session is terminated at the end of the session or after NSA/CNSSI 7003-compliant Protected Distribution Systems (PDS) or dedicated physically secured conduit with access controls equivalent to the data classification<mark class=\"stig-note\" title=\"CMMC CAG SC.L2-3.13.8: cryptography (TLS 1.2+ or FIPS 140-2/3 validated) is strongly preferred; physical alternative is rare and expensive — document why crypto is not feasible\">CMMC/STIG</mark> of inactivity."
       ],
       "nist800171": [
         "3-13-9"
@@ -2029,8 +2029,8 @@
       "level": 2,
       "description": "Cryptographic keys can be established and managed using either manual procedures or automated mechanisms supported by manual procedures. Organizations satisfy key establishment and management requirements in accordance with applicable federal laws, Executive Orders, policies, directives, regulations, and standards that specify appropriate options, levels, and parameters. This requirement is related to [](#/cprt/framework/version/SP_800_171_3_0_0/home?element=03.13.11) 03.13.11.",
       "assessmentObjectives": [
-        "cryptographic keys are established in the system in accordance with the following key management requirements: {{ insert: param, A.03.13.10.ODP.01 }}.",
-        "cryptographic keys are managed in the system in accordance with the following key management requirements: {{ insert: param, A.03.13.10.ODP.01 }}."
+        "cryptographic keys are established in the system in accordance with the following key management requirements: 15 minutes<mark class=\"stig-note\" title=\"DISA Network Infrastructure and Application STIG: network sessions must terminate after 15 minutes of inactivity; consistent with session lock requirement\">CMMC/STIG</mark>.",
+        "cryptographic keys are managed in the system in accordance with the following key management requirements: 15 minutes<mark class=\"stig-note\" title=\"DISA Network Infrastructure and Application STIG: network sessions must terminate after 15 minutes of inactivity; consistent with session lock requirement\">CMMC/STIG</mark>."
       ],
       "nist800171": [
         "3-13-10"
@@ -2049,7 +2049,7 @@
       "level": 2,
       "description": "Cryptography is implemented in accordance with applicable laws, Executive Orders, directives, regulations, policies, standards, and guidelines. FIPS-validated cryptography is recommended for the protection of CUI.",
       "assessmentObjectives": [
-        "the following types of cryptography are implemented to protect the confidentiality of CUI: {{ insert: param, A.03.13.11.ODP.01 }}."
+        "the following types of cryptography are implemented to protect the confidentiality of CUI: FIPS 140-2 or 140-3 validated cryptographic modules; RSA 2048-bit minimum; AES-128 minimum (AES-256 preferred); key lifecycle managed per NIST SP 800-57 Part 1; documented key custodian roles required<mark class=\"stig-note\" title=\"CMMC CAG SC.L2-3.13.10 hard requirement: FIPS 140-2/3 validation is mandatory for CMMC; non-FIPS cryptography is a finding\">CMMC/STIG</mark>."
       ],
       "nist800171": [
         "3-13-11"
@@ -2066,9 +2066,9 @@
       "domain": "System & Communications Protection",
       "domainCode": "SC",
       "level": 2,
-      "description": "Prohibit the remote activation of collaborative computing devices and applications with the following exceptions: {{ insert: param, A.03.13.12.ODP.01 }}. Provide an explicit indication of use to users physically present at the devices.",
+      "description": "Prohibit the remote activation of collaborative computing devices and applications with the following exceptions: all systems in CUI environments including video conferencing endpoints, webcams, microphones, smartboard systems, and screen sharing tools<mark class=\"stig-note\" title=\"CMMC CAG SC.L2-3.13.12: physical indicator (hardware privacy light or cover) plus software controls required; document all in-scope systems in the SSP\">CMMC/STIG</mark>. Provide an explicit indication of use to users physically present at the devices.",
       "assessmentObjectives": [
-        "the remote activation of collaborative computing devices and applications is prohibited with the following exceptions: {{ insert: param, A.03.13.12.ODP.01 }}.",
+        "the remote activation of collaborative computing devices and applications is prohibited with the following exceptions: all systems in CUI environments including video conferencing endpoints, webcams, microphones, smartboard systems, and screen sharing tools<mark class=\"stig-note\" title=\"CMMC CAG SC.L2-3.13.12: physical indicator (hardware privacy light or cover) plus software controls required; document all in-scope systems in the SSP\">CMMC/STIG</mark>.",
         "an explicit indication of use is provided to users who are physically present at the devices."
       ],
       "nist800171": [
@@ -2162,13 +2162,13 @@
       "domain": "System & Information Integrity",
       "domainCode": "SI",
       "level": 1,
-      "description": "Identify, report, and correct system flaws. Install security-relevant software and firmware updates within {{ insert: param, A.03.14.01.ODP.01 }} of the release of the updates.",
+      "description": "Identify, report, and correct system flaws. Install security-relevant software and firmware updates within within 72 hours of discovery or vendor notification<mark class=\"stig-note\" title=\"CISA BOD 19-02 and CMMC CAG SI.L1-3.14.1: 72 hours is the DoD practitioner standard for initial identification and reporting\">CMMC/STIG</mark> of the release of the updates.",
       "assessmentObjectives": [
         "system flaws are identified.",
         "system flaws are reported.",
         "system flaws are corrected.",
-        "security-relevant software updates are installed within {{ insert: param, A.03.14.01.ODP.01 }} of the release of the updates.",
-        "security-relevant firmware updates are installed within {{ insert: param, A.03.14.01.ODP.02 }} of the release of the updates."
+        "security-relevant software updates are installed within within 72 hours of discovery or vendor notification<mark class=\"stig-note\" title=\"CISA BOD 19-02 and CMMC CAG SI.L1-3.14.1: 72 hours is the DoD practitioner standard for initial identification and reporting\">CMMC/STIG</mark> of the release of the updates.",
+        "security-relevant firmware updates are installed within critical (CVSS 9.0–10.0): 15 days; high (CVSS 7.0–8.9): 30 days; moderate (CVSS 4.0–6.9): 60 days; low: 90 days<mark class=\"stig-note\" title=\"CISA BOD 19-02 hard upper limits: these tiered timelines satisfy both CMMC CAG SI.L1-3.14.1 and DISA STIG requirements\">CMMC/STIG</mark> of the release of the updates."
       ],
       "nist800171": [
         "3-14-1"
@@ -2187,12 +2187,12 @@
       "domain": "System & Information Integrity",
       "domainCode": "SI",
       "level": 2,
-      "description": "Implement malicious code protection mechanisms at system entry and exit points to detect and eradicate malicious code. Update malicious code protection mechanisms as new releases are available in accordance with configuration management policies and procedures. Configure malicious code protection mechanisms to: Perform scans of the system {{ insert: param, A.03.14.02.ODP.01 }} and real-time scans of files from external sources at endpoints or system entry and exit points as the files are downloaded, opened, or executed; and Block malicious code, quarantine malicious code, or take other mitigation actions in response to malicious code detection.",
+      "description": "Implement malicious code protection mechanisms at system entry and exit points to detect and eradicate malicious code. Update malicious code protection mechanisms as new releases are available in accordance with configuration management policies and procedures. Configure malicious code protection mechanisms to: Perform scans of the system real-time/on-access scanning: continuous; scheduled full scans: weekly; signature/definition updates: daily (automatic, no older than 7 days)<mark class=\"stig-note\" title=\"DISA Antivirus STIG hard requirement: real-time scanning must be enabled and definitions must be no more than 7 days old\">CMMC/STIG</mark> and real-time scans of files from external sources at endpoints or system entry and exit points as the files are downloaded, opened, or executed; and Block malicious code, quarantine malicious code, or take other mitigation actions in response to malicious code detection.",
       "assessmentObjectives": [
         "malicious code protection mechanisms are implemented at system entry and exit points to detect malicious code.",
         "malicious code protection mechanisms are implemented at system entry and exit points to eradicate malicious code.",
         "malicious code protection mechanisms are updated as new releases are available in accordance with configuration management policy and procedures.",
-        "malicious code protection mechanisms are configured to perform scans of the system {{ insert: param, A.03.14.02.ODP.01 }}.",
+        "malicious code protection mechanisms are configured to perform scans of the system real-time/on-access scanning: continuous; scheduled full scans: weekly; signature/definition updates: daily (automatic, no older than 7 days)<mark class=\"stig-note\" title=\"DISA Antivirus STIG hard requirement: real-time scanning must be enabled and definitions must be no more than 7 days old\">CMMC/STIG</mark>.",
         "malicious code protection mechanisms are configured to block malicious code, quarantine malicious code, or take other actions in response to malicious code detection.",
         "malicious code protection mechanisms are configured to perform real-time scans of files from external sources at endpoints or system entry and exit points as the files are downloaded, opened, or executed."
       ],

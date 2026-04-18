@@ -1,0 +1,46 @@
+---
+interface Props {
+    text?: string;
+}
+
+const {
+    text = 'For Information Only -- This page is an educational reference resource. It does not constitute consulting services, legal advice, or guidance on federal contract qualification.',
+} = Astro.props;
+---
+
+<aside class="info-only-notice" role="note" aria-label="For Information Only">
+    <p>
+        <strong>For Information Only</strong>
+        <span class="notice-sep"> -- </span>
+        <span>{text.replace(/^For Information Only\s*--\s*/i, '')}</span>
+    </p>
+</aside>
+
+<style>
+    .info-only-notice {
+        margin: 0 auto var(--space-8);
+        padding: var(--space-3) var(--space-5);
+        max-width: 1100px;
+        border: 1px solid var(--c6-border-accent);
+        border-radius: var(--radius-sm);
+        background: rgba(22, 22, 22, 0.85);
+        box-shadow: var(--shadow-card);
+    }
+
+    .info-only-notice p {
+        margin: 0;
+        font-family: var(--font-body);
+        font-size: 0.9rem;
+        line-height: 1.6;
+        color: var(--c6-text-secondary);
+    }
+
+    .info-only-notice strong {
+        color: var(--c6-gold);
+        letter-spacing: 0.02em;
+    }
+
+    .notice-sep {
+        color: var(--c6-text-muted);
+    }
+ </style>

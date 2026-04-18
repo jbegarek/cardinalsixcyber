@@ -39,7 +39,7 @@
       "cmmcPractices": [
         "ac-l1-3-1-1"
       ],
-      "notes": null
+      "notes": "<p>This is the foundation of everything else in access control. You need to know exactly who has accounts on your systems, what those accounts can do, and have a reliable process for turning them off when someone leaves or changes roles.</p><p><strong>Example 1:</strong> In Active Directory, set up a scheduled PowerShell script that queries <em>Get-ADUser -Filter {Enabled -eq $true} -Properties LastLogonDate</em> and flags any account inactive for 30+ days. Pipe the output to your IT manager's inbox weekly. For the disable policy, configure the GPO at <em>Computer Configuration → Policies → Windows Settings → Security Settings → Local Policies → Security Options → \"Interactive logon: Machine inactivity limit\"</em> to auto-lock after 15 minutes.</p><p><strong>Example 2:</strong> In Microsoft 365 Admin Center, go to <em>Azure AD → Identity → Users → Per-user MFA</em> and cross-reference your active user list quarterly. Set up an Access Review under <em>Azure AD → Identity Governance → Access Reviews</em> that automatically asks managers to confirm whether each team member still needs access every 90 days. Denied accounts are auto-disabled.</p>"
     },
     {
       "id": "3-1-2",
@@ -60,7 +60,7 @@
       "cmmcPractices": [
         "ac-l1-3-1-2"
       ],
-      "notes": null
+      "notes": "<p>Think of this as making sure only the right people can walk through your front door — and once inside, they can only open the doors they're supposed to. You need a list of who's allowed in and a way to enforce it technically, not just on paper.</p><p><strong>Example 1:</strong> In Active Directory, create security groups for each department and assign NTFS permissions on file shares based on group membership. Set the GPO at <em>Computer Configuration → Windows Settings → Security Settings → Local Policies → User Rights Assignment → \"Allow log on locally\"</em> to only include the groups that need access to that specific machine.</p><p><strong>Example 2:</strong> In Microsoft 365 Admin Center, go to <em>Azure AD → Security → Conditional Access</em> and create a policy that blocks sign-in from any account not in your approved user group. Add a second condition that requires a compliant device. This catches former employees and unauthorized personal devices in one policy.</p>"
     },
     {
       "id": "3-1-3",
@@ -79,7 +79,7 @@
       "cmmcPractices": [
         "ac-l2-3-1-3"
       ],
-      "notes": null
+      "notes": "<p>This is about controlling where your CUI can travel, not just who can see it. Even if someone is authorized to view a file, you still need rules that prevent that file from being emailed to a personal Gmail or uploaded to a random cloud service.</p><p><strong>Example 1:</strong> On your firewall (e.g., Palo Alto or Fortinet), create an outbound rule that blocks traffic to known consumer cloud storage domains (Dropbox, Google Drive personal, iCloud) from the CUI network segment. Use URL filtering categories like <em>Policies → Security → URL Filtering Profile → Block \"Personal Storage\"</em>.</p><p><strong>Example 2:</strong> In Microsoft Purview (formerly Compliance Center), go to <em>Data Loss Prevention → Policies → Create Policy</em> and build a rule that detects CUI markings or sensitive content patterns in outbound email. Set the action to block and notify the sender. Apply the policy to your Exchange Online and SharePoint tenants.</p>"
     },
     {
       "id": "3-1-4",
@@ -98,7 +98,7 @@
       "cmmcPractices": [
         "ac-l2-3-1-4"
       ],
-      "notes": null
+      "notes": "<p>Separation of duties means no single person should be able to both approve and execute a critical action. The person who writes the check shouldn't be the same person who signs it. In IT terms, the person who creates accounts shouldn't also be the one auditing them.</p><p><strong>Example 1:</strong> In Active Directory, create separate admin tiers. Put your domain admins in one group and your help desk staff (who handle password resets and basic account modifications) in another. Use <em>Active Directory Delegation of Control Wizard</em> to give the help desk group only \"Reset User Passwords\" and \"Read All User Information\" — nothing else.</p><p><strong>Example 2:</strong> In your change management policy, require that any firewall rule change must be requested by one person, reviewed by a second, and implemented by a third. Document this in a Separation of Duties matrix — a simple spreadsheet showing which roles are incompatible. Your CMMC assessor will want to see this document.</p>"
     },
     {
       "id": "3-1-5",
@@ -122,7 +122,7 @@
       "cmmcPractices": [
         "ac-l2-3-1-5"
       ],
-      "notes": null
+      "notes": "<p>Least privilege means giving people only the access they need to do their job — nothing more. If an accountant doesn't need access to engineering drawings, they shouldn't have it, even if giving everyone access seems easier.</p><p><strong>Example 1:</strong> In Active Directory, remove all users from the local Administrators group on their workstations. Configure the GPO at <em>Computer Configuration → Preferences → Control Panel Settings → Local Users and Groups</em> to enforce this across the domain. Users who truly need elevated privileges should be given a separate admin account.</p><p><strong>Example 2:</strong> In SharePoint Online, go to <em>Site Settings → Site Permissions</em> and audit who has \"Full Control\" vs. \"Edit\" vs. \"Read.\" Most users only need Edit or Read access to the sites relevant to their projects. Review these permissions quarterly with each site owner to remove stale access.</p>"
     },
     {
       "id": "3-1-6",
@@ -141,7 +141,7 @@
       "cmmcPractices": [
         "ac-l2-3-1-6"
       ],
-      "notes": null
+      "notes": "<p>This practice takes least privilege a step further — it says that people who <em>do</em> have admin accounts must use a regular account for everyday work like email and web browsing. The admin account only comes out when they need to do admin things.</p><p><strong>Example 1:</strong> In Active Directory, create a naming convention for admin accounts (e.g., <em>a-jsmith</em> for admin, <em>jsmith</em> for daily use). Set the GPO at <em>Computer Configuration → Windows Settings → Security Settings → Local Policies → User Rights Assignment → \"Deny log on locally\"</em> to prevent admin accounts from logging into regular workstations. Admins use their privileged account only via Remote Desktop to servers or through a Privileged Access Workstation.</p><p><strong>Example 2:</strong> In Microsoft 365, go to <em>Azure AD → Roles and Administrators</em> and ensure that Global Admin accounts are separate cloud-only identities that are not synced from on-prem AD. Enable Privileged Identity Management (PIM) so admins must \"activate\" their role for a limited time window, rather than having standing admin access 24/7.</p>"
     },
     {
       "id": "3-1-7",
@@ -161,7 +161,7 @@
       "cmmcPractices": [
         "ac-l2-3-1-7"
       ],
-      "notes": null
+      "notes": "<p>Standard users should never be able to install software, change security settings, or modify system configurations. And when someone <em>does</em> use admin privileges, those actions need to be logged so you can spot misuse.</p><p><strong>Example 1:</strong> Configure Windows User Account Control (UAC) via GPO at <em>Computer Configuration → Windows Settings → Security Settings → Local Policies → Security Options → \"User Account Control: Run all administrators in Admin Approval Mode\"</em> set to Enabled. This forces even admin users to confirm elevation, and blocks standard users from elevating entirely.</p><p><strong>Example 2:</strong> Enable <em>Advanced Audit Policy Configuration</em> via GPO at <em>Computer Configuration → Windows Settings → Security Settings → Advanced Audit Policy → Privilege Use → \"Audit Sensitive Privilege Use\"</em> set to Success/Failure. This logs every time someone uses privileges like Debug Programs, Take Ownership, or Act As Part of the Operating System. Forward these logs to your SIEM (e.g., Splunk, Microsoft Sentinel) for review.</p>"
     },
     {
       "id": "3-1-8",
@@ -180,7 +180,7 @@
       "cmmcPractices": [
         "ac-l2-3-1-8"
       ],
-      "notes": null
+      "notes": "<p>This one protects you from brute-force password attacks. If someone (or a bot) keeps guessing passwords, the account should lock out before they get in.</p><p><strong>Example 1:</strong> In Group Policy, go to <em>Computer Configuration → Windows Settings → Security Settings → Account Policies → Account Lockout Policy</em>. Set \"Account lockout threshold\" to 5 invalid logon attempts, \"Account lockout duration\" to 30 minutes, and \"Reset account lockout counter after\" to 30 minutes. This is the DoD-recommended configuration.</p><p><strong>Example 2:</strong> In Azure AD, go to <em>Security → Authentication methods → Password protection</em> and enable Smart Lockout. Set the lockout threshold to 5 attempts and the lockout duration to 60 seconds (Azure AD automatically increases duration for repeated lockouts). Also enable <em>Azure AD → Security → Identity Protection</em> to flag risky sign-ins and block accounts under active attack.</p>"
     },
     {
       "id": "3-1-9",
@@ -198,7 +198,7 @@
       "cmmcPractices": [
         "ac-l2-3-1-9"
       ],
-      "notes": null
+      "notes": "<p>Before anyone logs into your systems, they need to see a warning banner. This isn't just a formality — it's a legal requirement that establishes the system is for authorized use only and that activity may be monitored. Without it, you may have trouble taking action against misuse.</p><p><strong>Example 1:</strong> Configure the Windows logon banner via GPO at <em>Computer Configuration → Windows Settings → Security Settings → Local Policies → Security Options</em>. Set <em>\"Interactive logon: Message title for users attempting to log on\"</em> to \"WARNING\" and <em>\"Interactive logon: Message text for users attempting to log on\"</em> to your DoD-compliant warning text. The user must click OK before reaching the login screen.</p><p><strong>Example 2:</strong> For web applications and Microsoft 365, create a Conditional Access policy in <em>Azure AD → Security → Conditional Access → Terms of Use</em>. Upload your use notification as a PDF. Users will be required to accept the terms before accessing any cloud resources. Set it to re-prompt annually or whenever the terms are updated.</p>"
     },
     {
       "id": "3-1-10",
@@ -219,7 +219,7 @@
       "cmmcPractices": [
         "ac-l2-3-1-10"
       ],
-      "notes": null
+      "notes": "<p>If someone walks away from their computer, the screen needs to lock automatically so nobody else can sit down and access CUI. The lock screen should hide whatever was on the display — not just dim it.</p><p><strong>Example 1:</strong> Configure the screen lock via GPO at <em>User Configuration → Administrative Templates → Control Panel → Personalization → \"Enable screen saver\"</em> = Enabled, <em>\"Screen saver timeout\"</em> = 900 seconds (15 minutes), and <em>\"Password protect the screen saver\"</em> = Enabled. For a more reliable lock, also set <em>Computer Configuration → Windows Settings → Security Settings → Local Policies → Security Options → \"Interactive logon: Machine inactivity limit\"</em> to 900 seconds.</p><p><strong>Example 2:</strong> For macOS devices managed through Jamf Pro, create a Configuration Profile under <em>Computers → Configuration Profiles → Security & Privacy</em>. Set \"Require password after sleep or screen saver begins\" to \"Immediately\" and configure the screen saver to activate after 15 minutes of inactivity. Push the profile to all managed Macs.</p>"
     },
     {
       "id": "3-1-11",
@@ -237,7 +237,7 @@
       "cmmcPractices": [
         "ac-l2-3-1-11"
       ],
-      "notes": null
+      "notes": "<p>Sessions need to end automatically after a period of inactivity. This is different from screen lock — session termination actually logs the user out, closing their applications and connections, not just hiding the screen.</p><p><strong>Example 1:</strong> For Remote Desktop sessions, configure the GPO at <em>Computer Configuration → Administrative Templates → Windows Components → Remote Desktop Services → Remote Desktop Session Host → Session Time Limits → \"Set time limit for disconnected sessions\"</em> to 30 minutes and <em>\"Set time limit for active but idle RDP sessions\"</em> to 30 minutes. Disconnected sessions should be terminated, not left hanging.</p><p><strong>Example 2:</strong> In Microsoft 365, go to <em>Azure AD → Enterprise Applications → Office 365 → Conditional Access → Session Controls</em> and set \"Sign-in frequency\" to 8 hours. This forces users to re-authenticate at least once per workday, even if they've been active. For sensitive CUI applications, set it to 1 hour.</p>"
     },
     {
       "id": "3-1-12",
@@ -264,7 +264,7 @@
       "cmmcPractices": [
         "ac-l2-3-1-12"
       ],
-      "notes": null
+      "notes": "<p>If your employees work from home or travel, they're using remote access. You need clear rules about how they connect, what they can access remotely, and ensure all remote connections go through a managed gateway — no direct connections to internal systems.</p><p><strong>Example 1:</strong> Deploy a VPN solution (e.g., Cisco AnyConnect, Palo Alto GlobalProtect) and configure it to require both a user certificate and MFA before granting access. On the VPN concentrator, create an access policy that limits remote users to only the network segments they need. Block split-tunneling so all traffic flows through your monitored network.</p><p><strong>Example 2:</strong> Write a Remote Access Policy document that defines: who is authorized for remote access, what devices are allowed (company-managed only), what MFA method is required, and what data can be accessed remotely. In Azure AD, enforce this with a Conditional Access policy under <em>Security → Conditional Access</em> that requires a compliant/Intune-managed device and MFA for any sign-in from outside your corporate IP ranges.</p>"
     },
     {
       "id": "3-1-13",
@@ -280,7 +280,7 @@
       "cmmcPractices": [
         "ac-l2-3-1-13"
       ],
-      "notes": null
+      "notes": "<p>Any remote session must be encrypted end to end. If someone is working from home and connecting to your network, that connection needs to be wrapped in strong encryption so nobody eavesdropping on the Wi-Fi can see CUI in transit.</p><p><strong>Example 1:</strong> On your VPN appliance (e.g., Palo Alto GlobalProtect), go to <em>Network → IPSec Tunnels → Crypto Profile</em> and ensure you are using AES-256 encryption with SHA-256 integrity and DH Group 14 or higher. Disable any legacy protocols like 3DES or MD5. Document these settings in your SSP.</p><p><strong>Example 2:</strong> For remote desktop access, configure RDP to use TLS 1.2 or higher via GPO at <em>Computer Configuration → Administrative Templates → Windows Components → Remote Desktop Services → Remote Desktop Session Host → Security → \"Require use of specific security layer for remote (RDP) connections\"</em> set to SSL (TLS 1.2). Also set <em>\"Set client connection encryption level\"</em> to High.</p>"
     },
     {
       "id": "3-1-14",
@@ -296,7 +296,7 @@
       "cmmcPractices": [
         "ac-l2-3-1-14"
       ],
-      "notes": null
+      "notes": "<p>All remote access must go through managed, monitored chokepoints — no one should be able to connect directly to an internal server from the internet. Think of it like having a guarded front gate instead of an open field.</p><p><strong>Example 1:</strong> On your perimeter firewall, create rules that block all inbound connections except those destined for your VPN gateway. In Palo Alto, configure <em>Policies → Security → Inbound Rules</em> with an explicit deny-all rule at the bottom and allow rules only for the VPN concentrator's public IP on the specific VPN port (e.g., UDP 4501 for IKEv2).</p><p><strong>Example 2:</strong> If using Azure, deploy Azure Bastion as the single access point for RDP/SSH to VMs. In the Azure Portal, go to <em>Virtual Network → Bastion → Create</em> and remove all public IPs from individual VMs. This forces all administrative remote access through a managed, logged, and encrypted browser-based session.</p>"
     },
     {
       "id": "3-1-15",
@@ -312,7 +312,7 @@
       "cmmcPractices": [
         "ac-l2-3-1-15"
       ],
-      "notes": null
+      "notes": "<p>Running admin commands or viewing security configurations remotely is a high-risk activity. You need to explicitly authorize who can do this and make sure it's logged. Not everyone who can VPN in should be able to run PowerShell as admin on a server.</p><p><strong>Example 1:</strong> In Active Directory, create a dedicated \"Remote Admins\" security group. Configure the GPO at <em>Computer Configuration → Windows Settings → Security Settings → Local Policies → User Rights Assignment → \"Access this computer from the network\"</em> to include only this group on servers. Document the list of authorized remote administrators and the commands they are permitted to execute in your SSP.</p><p><strong>Example 2:</strong> Deploy a Privileged Access Management (PAM) tool like CyberArk or BeyondTrust. Configure it to require just-in-time access requests for any remote administrative session. The admin requests access, a supervisor approves, and the session is time-limited and fully recorded. This gives you both authorization control and an audit trail.</p>"
     },
     {
       "id": "3-1-16",
@@ -337,7 +337,7 @@
       "cmmcPractices": [
         "ac-l2-3-1-16"
       ],
-      "notes": null
+      "notes": "<p>Wi-Fi is convenient but also a major attack surface. You need to control who connects, how they authenticate, and make sure the wireless signal itself is encrypted. And if a device has Wi-Fi but doesn't need it, turn it off before you hand it to the user.</p><p><strong>Example 1:</strong> On your wireless access points (e.g., Cisco Meraki, Aruba), configure WPA3-Enterprise with RADIUS authentication tied to Active Directory. In the Meraki dashboard, go to <em>Wireless → Configure → Access Control</em>, set Security to \"WPA3 Enterprise\" and RADIUS server to your NPS server. Create a separate SSID for guests with no access to internal resources.</p><p><strong>Example 2:</strong> For devices issued to users who don't need Wi-Fi (e.g., desktop workstations on a wired network), disable the wireless adapter via GPO at <em>Computer Configuration → Administrative Templates → Network → Network Connections → \"Prohibit connection to non-domain networks when connected to domain authenticated network\"</em> = Enabled. For laptops, document in your Wireless Access Policy which SSIDs are authorized and the encryption requirements.</p>"
     },
     {
       "id": "3-1-17",
@@ -353,7 +353,7 @@
       "cmmcPractices": [
         "ac-l2-3-1-17"
       ],
-      "notes": null
+      "notes": "<p>Your wireless network must use real authentication (not just a shared password) and strong encryption. A simple pre-shared key posted on a whiteboard in the break room is not going to cut it for a CUI environment.</p><p><strong>Example 1:</strong> Configure your wireless infrastructure for WPA3-Enterprise or, at minimum, WPA2-Enterprise using 802.1X. On your RADIUS server (e.g., Windows NPS), go to <em>NPS → RADIUS Clients and Servers → RADIUS Clients</em> to add your access points, then create a Connection Request Policy that requires PEAP-MSCHAPv2 with machine certificates.</p><p><strong>Example 2:</strong> On the wireless controller, disable all legacy protocols. In Aruba Central, go to <em>Configuration → WLANs → Security</em> and ensure TKIP is disabled, only AES-CCMP (or AES-GCMP for WPA3) is enabled. Also disable the WPS (Wi-Fi Protected Setup) feature, which is a known vulnerability.</p>"
     },
     {
       "id": "3-1-18",
@@ -375,7 +375,7 @@
       "cmmcPractices": [
         "ac-l2-3-1-18"
       ],
-      "notes": null
+      "notes": "<p>Phones, tablets, and laptops that move around are easy to lose or steal. If those devices touch CUI, they need to be managed, encrypted, and controlled. You can't just let employees use their personal phones to check work email without guardrails.</p><p><strong>Example 1:</strong> Enroll all company mobile devices in Microsoft Intune (Endpoint Manager). In the <em>Intune Admin Center → Devices → Compliance Policies → Create Policy</em>, require device encryption, a minimum OS version, and a device PIN of at least 6 digits. Non-compliant devices are blocked from accessing company email and SharePoint.</p><p><strong>Example 2:</strong> Write a Mobile Device Policy that prohibits the use of personal (BYOD) devices for CUI. For company-issued devices, configure Intune App Protection Policies under <em>Apps → App Protection Policies → Create Policy</em> to prevent copy/paste of data from managed apps (like Outlook) to unmanaged apps (like personal WhatsApp). Enable remote wipe capability for all enrolled devices.</p>"
     },
     {
       "id": "3-1-19",
@@ -391,7 +391,7 @@
       "cmmcPractices": [
         "ac-l2-3-1-19"
       ],
-      "notes": null
+      "notes": "<p>Any mobile device that stores or accesses CUI must have full-disk encryption turned on. If someone leaves a laptop in an airport or a phone in a taxi, the data should be unreadable without the credentials.</p><p><strong>Example 1:</strong> For Windows laptops, enable BitLocker via GPO at <em>Computer Configuration → Administrative Templates → Windows Components → BitLocker Drive Encryption → Operating System Drives → \"Require additional authentication at startup\"</em>. Set it to require TPM + PIN. Store BitLocker recovery keys in Active Directory by enabling <em>\"Store BitLocker recovery information in AD DS\"</em>.</p><p><strong>Example 2:</strong> For iOS and Android devices managed through Intune, create a Device Configuration Profile under <em>Devices → Configuration Profiles → Create Profile → Device Restrictions</em>. For iOS, encryption is on by default when a passcode is set — enforce a 6-digit passcode. For Android, enable <em>\"Require encryption on device\"</em> in the compliance policy. Devices that fail the encryption check are blocked from accessing company resources.</p>"
     },
     {
       "id": "3-1-20",
@@ -414,7 +414,7 @@
       "cmmcPractices": [
         "ac-l1-3-1-20"
       ],
-      "notes": null
+      "notes": "<p>External systems — like a contractor's laptop, a partner's cloud environment, or a personal home computer — are not under your control. You need to formally decide which external systems are allowed to touch your data and put restrictions on them.</p><p><strong>Example 1:</strong> In Azure AD Conditional Access, create a policy under <em>Security → Conditional Access → New Policy</em> that blocks sign-in from devices not marked as compliant in Intune. Set the condition to <em>Device state → Exclude → Device marked as compliant</em>. This means only company-managed machines can access your Microsoft 365 environment, blocking personal devices and contractor laptops that haven't been enrolled.</p><p><strong>Example 2:</strong> Write an External Systems Use Policy that lists every external system or service authorized to interact with your CUI. For each one, document the security requirements it must meet (e.g., encryption, MFA, logging). Maintain a signed Interconnection Security Agreement (ISA) or a memorandum of understanding with each external party. Your assessor will want to see these agreements.</p>"
     },
     {
       "id": "3-1-21",
@@ -430,7 +430,7 @@
       "cmmcPractices": [
         "ac-l2-3-1-21"
       ],
-      "notes": null
+      "notes": "<p>USB drives and portable hard drives are a classic way data walks out the door. This practice says you need to control whether your organization's USB drives can be plugged into outside computers.</p><p><strong>Example 1:</strong> Via GPO, go to <em>Computer Configuration → Administrative Templates → System → Removable Storage Access</em> and set <em>\"All Removable Storage classes: Deny all access\"</em> to Enabled on workstations where USB storage is not needed. For workstations where it is needed, create a separate policy that allows only approved encrypted USB devices by device ID.</p><p><strong>Example 2:</strong> In Microsoft Defender for Endpoint, go to <em>Settings → Endpoints → Device Control → Removable storage access control</em> and create a policy that only allows specific approved USB vendor IDs (e.g., IronKey or Apricorn encrypted drives). All other USB mass storage devices are blocked. Also configure an alert so your security team is notified whenever someone attempts to use an unauthorized drive.</p>"
     },
     {
       "id": "3-1-22",
@@ -450,7 +450,7 @@
       "cmmcPractices": [
         "ac-l1-3-1-22"
       ],
-      "notes": null
+      "notes": "<p>If your company has a website, a public SharePoint page, or posts documents publicly, you need to make sure none of that public content accidentally contains CUI. This happens more often than you'd think — someone uploads a briefing deck to the website without redacting controlled information.</p><p><strong>Example 1:</strong> Establish a content review process where at least two people review any document before it goes on a public-facing system. Create a checklist that reviewers use to verify the content does not contain CUI markings, controlled technical data, contract numbers, or export-controlled information. Document the review in a log with reviewer names and dates.</p><p><strong>Example 2:</strong> In Microsoft Purview, set up a Data Loss Prevention policy under <em>Compliance Center → Data Loss Prevention → Policies → Create Policy</em> that scans SharePoint sites designated as public-facing. Configure the rule to detect CUI markings (\"CUI\", \"CONTROLLED\", \"FOUO\") and block publishing of matching documents. Send an alert to the compliance officer when a match is found.</p>"
     },
     {
       "id": "3-2-1",
@@ -478,7 +478,7 @@
       "cmmcPractices": [
         "at-l2-3-2-1"
       ],
-      "notes": null
+      "notes": "<p>Every person who touches your systems needs basic security awareness training. This isn't optional or nice-to-have — it's a requirement. New hires get trained before they get access, and everyone refreshes annually at minimum.</p><p><strong>Example 1:</strong> Subscribe to a security awareness training platform like KnowBe4 or Proofpoint Security Awareness. Set up an annual training campaign under <em>KnowBe4 → Training → Create Campaign</em> that includes modules on phishing, social engineering, insider threats, password hygiene, and CUI handling. Configure the platform to auto-enroll new users and send reminders until training is completed. Export completion reports for your compliance records.</p><p><strong>Example 2:</strong> Supplement formal training with monthly phishing simulations. In KnowBe4, go to <em>Phishing → Create Campaign</em> and schedule simulated phishing emails. Users who click the link get an immediate training moment. Track click rates over time to measure improvement. Keep records of all simulations and results — assessors will ask for these.</p>"
     },
     {
       "id": "3-2-2",
@@ -501,7 +501,7 @@
       "cmmcPractices": [
         "at-l2-3-2-2"
       ],
-      "notes": null
+      "notes": "<p>Role-based training goes beyond the basics. Your system admins need different training than your accountants. The people who manage your firewalls need to understand firewall-specific risks, while HR staff need training on protecting PII.</p><p><strong>Example 1:</strong> For IT administrators, require completion of vendor-specific training on the tools they manage. For example, if you use Palo Alto firewalls, enroll admins in the Palo Alto Networks Digital Learning portal for the <em>Firewall Essentials (EDU-210)</em> course. Document the completion certificate and file it with your training records. Update this annually or when the product version changes.</p><p><strong>Example 2:</strong> For users who handle CUI, create a targeted training module (can be as simple as a recorded briefing and quiz) that covers: what CUI is, how to identify CUI markings, where CUI may and may not be stored, and what to do if CUI is found in an unauthorized location. Track completion in a training matrix spreadsheet that maps each user's role to their required training and completion dates.</p>"
     },
     {
       "id": "3-2-3",
@@ -517,7 +517,7 @@
       "cmmcPractices": [
         "at-l2-3-2-3"
       ],
-      "notes": null
+      "notes": "<p>Your people are your best sensors for catching insider threats. But they need to know what to look for and have a clear way to report it without fear of retaliation.</p><p><strong>Example 1:</strong> Include a dedicated insider threat module in your security awareness training. In KnowBe4 or your training platform, assign the \"Insider Threat\" module that covers warning signs: unusual after-hours access, copying large amounts of data to USB, expressed disgruntlement, or unexplained wealth. Require an annual refresher and quiz with a passing score of 80% or higher.</p><p><strong>Example 2:</strong> Establish a reporting mechanism — this can be as simple as a dedicated email address (e.g., insider-report@yourcompany.com) or a tip line referenced in your Insider Threat Policy. Post reminders in common areas and include the reporting procedure in new-hire onboarding packets. Document that the reporting mechanism exists and that employees were informed about it — your assessor will check for evidence of both.</p>"
     },
     {
       "id": "3-3-1",
@@ -540,7 +540,7 @@
       "cmmcPractices": [
         "au-l2-3-3-1"
       ],
-      "notes": null
+      "notes": "<p>You need to decide what events are important enough to log and then actually turn on logging for those events. At a minimum, you should be logging logins, failed logins, privilege escalation, file access to CUI, and changes to security settings.</p><p><strong>Example 1:</strong> Configure Windows audit policies via GPO at <em>Computer Configuration → Windows Settings → Security Settings → Advanced Audit Policy Configuration</em>. Enable: <em>Logon/Logoff → Audit Logon</em> (Success/Failure), <em>Account Management → Audit User Account Management</em> (Success/Failure), <em>Object Access → Audit File System</em> (Success/Failure), and <em>Policy Change → Audit Policy Change</em> (Success). Document this list of auditable events in your SSP.</p><p><strong>Example 2:</strong> In Microsoft 365, go to <em>Compliance Center → Audit → Audit Retention Policies</em> and ensure Unified Audit Log is enabled. Then go to <em>Purview → Audit → Search</em> and verify you can see events like file access, sharing changes, and admin actions. Create a custom audit retention policy that keeps logs for at least one year (the default is 90 days on E3, one year on E5).</p>"
     },
     {
       "id": "3-3-2",
@@ -564,7 +564,7 @@
       "cmmcPractices": [
         "au-l2-3-3-2"
       ],
-      "notes": null
+      "notes": "<p>It's not enough to just log that something happened — each log entry needs to answer the questions: who did it, what did they do, when did they do it, where did it happen, and did it succeed or fail?</p><p><strong>Example 1:</strong> In Windows Event Viewer, a properly configured audit log entry (e.g., Event ID 4624 for successful logon) already captures the user account name, the workstation, the timestamp, the logon type, and the source IP address. Verify this is working by running <em>wevtutil qe Security /c:5 /rd:true /f:text</em> on a domain workstation and confirming the log entries contain all required fields.</p><p><strong>Example 2:</strong> If you use a SIEM like Splunk or Microsoft Sentinel, create a saved search or workbook that validates log completeness. In Sentinel, go to <em>Workbooks → Create → Add Query</em> and query: <code>SecurityEvent | where TimeGenerated > ago(1h) | project TimeGenerated, Account, Computer, Activity, IpAddress, LogonType</code>. If any field is blank, you have a logging configuration gap to fix.</p>"
     },
     {
       "id": "3-3-3",
@@ -583,7 +583,7 @@
       "cmmcPractices": [
         "au-l2-3-3-3"
       ],
-      "notes": null
+      "notes": "<p>Once you've defined what to log and what details to capture, you need to make sure the system is actually generating those records and that you're keeping them long enough. If your logs only go back a week, they won't help you investigate an incident that started three months ago.</p><p><strong>Example 1:</strong> In Windows, configure the Security Event Log size and retention via GPO at <em>Computer Configuration → Windows Settings → Security Settings → Event Log → Security Log → \"Maximum security log size\"</em> to at least 1 GB, and set <em>\"Retention method for security log\"</em> to \"Overwrite events as needed\" — but only if you are forwarding logs to a centralized SIEM first. Without a SIEM, set it to \"Do not overwrite events\" and manage log rotation manually.</p><p><strong>Example 2:</strong> Deploy a centralized log collector like Splunk, Graylog, or Microsoft Sentinel that aggregates logs from all systems. In Splunk, go to <em>Settings → Indexes → Create Index</em> and set the retention period to at least 365 days. Configure Windows Event Forwarding (WEF) or install Splunk Universal Forwarder on all endpoints to push logs to the central collector in near real-time.</p>"
     },
     {
       "id": "3-3-4",
@@ -602,7 +602,7 @@
       "cmmcPractices": [
         "au-l2-3-3-4"
       ],
-      "notes": null
+      "notes": "<p>If your logging stops working and nobody notices, you could be blind to an active attack. This practice requires you to detect when logging fails and alert the right people immediately so they can fix it.</p><p><strong>Example 1:</strong> In your SIEM (e.g., Microsoft Sentinel), create an alert rule under <em>Analytics → Create → Scheduled Query Rule</em> that detects when a monitored endpoint stops sending logs. Use a query like: <code>Heartbeat | summarize LastHeartbeat = max(TimeGenerated) by Computer | where LastHeartbeat < ago(30m)</code>. Set the alert to email your SOC or IT admin when a machine goes silent for more than 30 minutes.</p><p><strong>Example 2:</strong> On your Windows servers, configure the <em>Windows Event Log</em> service to alert on failure. In Group Policy, go to <em>Computer Configuration → Windows Settings → Security Settings → System Services → \"Windows Event Log\"</em> and set the startup type to Automatic. Then create a scheduled task via <em>Task Scheduler → Create Task → Trigger on Event → System log, Source: EventLog, Event ID 6008</em> (unexpected shutdown) that sends an email alert to your IT team.</p>"
     },
     {
       "id": "3-3-5",
@@ -623,7 +623,7 @@
       "cmmcPractices": [
         "au-l1-3-3-5"
       ],
-      "notes": null
+      "notes": "<p>Collecting logs is useless if nobody looks at them. You need a regular schedule for reviewing audit logs and someone assigned to flag anything unusual — unexpected admin logins, after-hours activity, or repeated failed access attempts.</p><p><strong>Example 1:</strong> In Microsoft Sentinel, create a Workbook under <em>Threat Management → Workbooks → Create</em> that summarizes key security events: failed logons, account lockouts, privilege escalations, and file access to CUI shares. Assign a team member to review this dashboard weekly and document their findings in a log review checklist with their name, date, and any anomalies found.</p><p><strong>Example 2:</strong> If you don't have a SIEM, you can still meet this requirement. Export Windows Security Event Logs weekly using <em>Event Viewer → Security → Save All Events As</em> (or use PowerShell: <code>Get-WinEvent -LogName Security -MaxEvents 1000 | Export-Csv</code>). Have your IT lead review the export for Event IDs like 4625 (failed logon), 4720 (account created), and 4732 (user added to admin group). Document the review and any actions taken.</p>"
     },
     {
       "id": "3-3-6",
@@ -646,7 +646,7 @@
       "cmmcPractices": [
         "au-l2-3-3-6"
       ],
-      "notes": null
+      "notes": "<p>When you have thousands of log entries, you need the ability to filter, sort, and generate reports from them. You can't meet this requirement by manually scrolling through raw text files — you need a tool that can reduce the noise and surface what matters.</p><p><strong>Example 1:</strong> In Splunk, create saved searches and dashboards under <em>Search & Reporting → Save As → Dashboard Panel</em> that filter audit data by category: authentication events, file access events, configuration changes, and privileged actions. Set these to run daily and email a summary PDF to your security team. The original raw logs must remain untouched in the index — you're analyzing copies, not editing originals.</p><p><strong>Example 2:</strong> In Microsoft Sentinel, use <em>Hunting → Queries</em> and build KQL queries that reduce large datasets to actionable summaries. For example: <code>SecurityEvent | where EventID == 4625 | summarize FailedAttempts=count() by TargetAccount, bin(TimeGenerated, 1h) | where FailedAttempts > 10</code>. Save these as Analytical Rules so they run automatically and generate incidents when thresholds are exceeded.</p>"
     },
     {
       "id": "3-3-7",
@@ -666,7 +666,7 @@
       "cmmcPractices": [
         "au-l2-3-3-7"
       ],
-      "notes": null
+      "notes": "<p>If the clocks on your systems aren't synced, your logs will have inconsistent timestamps and you won't be able to piece together what happened in what order during an investigation. Every system needs to agree on the time.</p><p><strong>Example 1:</strong> Configure your domain controller as the authoritative time source by running <code>w32tm /config /manualpeerlist:\"time.nist.gov\" /syncfromflags:manual /reliable:yes /update</code> on your PDC Emulator. All domain-joined machines will automatically sync from the DC. Verify sync status with <code>w32tm /query /status</code>.</p><p><strong>Example 2:</strong> For non-domain devices (Linux servers, network appliances, firewalls), configure NTP to point to your internal domain controller or directly to a trusted external source like <em>time.nist.gov</em>. On a Linux system, edit <em>/etc/chrony/chrony.conf</em> and set <code>server time.nist.gov iburst</code>. On your Palo Alto firewall, go to <em>Device → Setup → Services → NTP</em> and enter your NTP server address. Verify all devices are within 1 second of each other.</p>"
     },
     {
       "id": "3-3-8",
@@ -686,7 +686,7 @@
       "cmmcPractices": [
         "au-l2-3-3-8"
       ],
-      "notes": null
+      "notes": "<p>Your audit logs are evidence — if someone can tamper with them, they can cover their tracks. Logs need to be protected from deletion or modification, and only a very small group should have admin access to the logging system.</p><p><strong>Example 1:</strong> On your Windows servers, set NTFS permissions on the <em>C:\\Windows\\System32\\winevt\\Logs</em> folder so that only the SYSTEM account and your dedicated log admin group have access. Remove the \"Everyone\" and \"Users\" groups. Via GPO at <em>Computer Configuration → Windows Settings → Security Settings → Event Log → Security Log</em>, set <em>\"Restrict guest access to Security log\"</em> to Enabled.</p><p><strong>Example 2:</strong> In your SIEM, restrict admin access to the logging platform itself. In Splunk, go to <em>Settings → Access Controls → Roles</em> and create a read-only \"auditor\" role for reviewers and reserve the \"admin\" role for only 1-2 designated logging administrators. Enable Splunk's audit trail under <em>Settings → System → Audit</em> so any changes to the SIEM configuration are themselves logged and tamper-evident.</p>"
     },
     {
       "id": "3-3-9",
@@ -702,7 +702,7 @@
       "cmmcPractices": [
         "au-l2-3-3-9"
       ],
-      "notes": null
+      "notes": "<p>This builds on the timestamps requirement — your systems need a way to actively compare their clocks to an authoritative source and correct any drift. Without this, clocks drift over time and your logs become unreliable for investigations.</p><p><strong>Example 1:</strong> On your Windows domain, verify that the PDC Emulator is syncing to an authoritative external source. Run <code>w32tm /query /configuration</code> and confirm the NTPServer is set to a trusted source (e.g., <em>time.nist.gov</em>). Then run <code>w32tm /monitor</code> on several domain workstations to verify they are all within 1 second of the PDC. Document the results and check quarterly.</p><p><strong>Example 2:</strong> For network devices like switches and firewalls, configure two NTP sources for redundancy. On a Cisco switch, enter: <code>ntp server 10.0.0.1 prefer</code> and <code>ntp server time.nist.gov</code>. Verify with <code>show ntp status</code> and confirm the clock is synchronized. On a Palo Alto firewall, go to <em>Device → Setup → Services → NTP</em>, add a primary and secondary server, and verify sync under <em>Dashboard → General Information → NTP status</em>.</p>"
     },
     {
       "id": "3-4-1",
@@ -728,7 +728,7 @@
       "cmmcPractices": [
         "cm-l1-3-4-1"
       ],
-      "notes": null
+      "notes": "<p>A baseline configuration is basically a snapshot of how your systems are set up right now — what software is installed, what settings are active, what hardware is in place. Think of it as your \"known good\" starting point. If something goes wrong or changes unexpectedly, you compare back to the baseline to figure out what moved.</p><p>You need to keep this documented and update it whenever you make changes — new software installs, patches, hardware swaps, or configuration tweaks.</p><p><strong>Example 1:</strong> Use Microsoft Endpoint Configuration Manager (MECM/SCCM) to run a hardware and software inventory scan across all endpoints. Export the baseline report from <em>Assets and Compliance &gt; Overview &gt; Device Collections</em> and store it in your configuration management repository. Re-run and compare after each change window.</p><p><strong>Example 2:</strong> In a smaller environment, maintain a baseline spreadsheet or use a tool like Nessus to run a credentialed scan. Under <em>Scans &gt; New Scan &gt; Advanced Scan &gt; Discovery</em>, enable host enumeration and software inventory plugins. Save the scan results as your documented baseline and schedule quarterly re-scans.</p>"
     },
     {
       "id": "3-4-2",
@@ -752,7 +752,7 @@
       "cmmcPractices": [
         "cm-l1-3-4-2"
       ],
-      "notes": null
+      "notes": "<p>This practice is about making sure your systems are locked down to their most restrictive settings that still let people do their jobs. You document those settings, and if anyone needs an exception — say, opening an extra port or enabling a service — that deviation gets formally approved and written down.</p><p>The key idea: start tight, loosen only where justified, and document every exception.</p><p><strong>Example 1:</strong> Apply DISA STIGs through Group Policy. In the Group Policy Management Console, navigate to <em>Computer Configuration &gt; Policies &gt; Administrative Templates &gt; Windows Components</em> and import the relevant STIG GPO backup. For any settings your operations require you to deviate from, document the finding ID, justification, and approving authority in a Plan of Action and Milestones (POA&M).</p><p><strong>Example 2:</strong> In the M365 Admin Center, go to <em>Settings &gt; Org Settings &gt; Security &amp; Privacy</em> and disable external sharing in SharePoint unless explicitly approved. Document the restrictive default and any tenant-level exceptions in your System Security Plan (SSP).</p>"
     },
     {
       "id": "3-4-3",
@@ -776,7 +776,7 @@
       "cmmcPractices": [
         "cm-l2-3-4-3"
       ],
-      "notes": null
+      "notes": "<p>Configuration change control means you have a process for proposing, reviewing, approving, and documenting any change to your systems. Nobody should be making changes on the fly without someone checking whether that change could open a security hole.</p><p>This applies to software updates, firewall rule changes, new user permissions — anything that alters how the system works.</p><p><strong>Example 1:</strong> Use a change management board (even a simple one) and track requests in a ticketing system like Jira or ServiceNow. Create a workflow where each change request includes a security impact field. Route tickets through <em>Change Management &gt; Change Advisory Board (CAB)</em> for review before any production changes are made.</p><p><strong>Example 2:</strong> For firewall changes, use Palo Alto Panorama or a similar management platform to stage rule changes in a <em>candidate configuration</em> before committing. Enable the audit log under <em>Device &gt; Setup &gt; Operations &gt; Audit Logging</em> so every proposed and committed change is tracked with the user who made it and a timestamp.</p>"
     },
     {
       "id": "3-4-4",
@@ -795,7 +795,7 @@
       "cmmcPractices": [
         "cm-l2-3-4-4"
       ],
-      "notes": null
+      "notes": "<p>Before you make any change to a system, you need to think through how it could affect security. Will this patch break an existing security control? Will opening this port expose something sensitive? After the change goes in, you verify that your security posture is still intact.</p><p>This is about looking before you leap — and checking after you land.</p><p><strong>Example 1:</strong> Before applying a Windows update or configuration change, run a vulnerability scan with Tenable Nessus or Tenable.sc. After the change, re-scan the same targets and compare results using the <em>Scan Comparison</em> report under <em>Reports &gt; Report Templates</em> to confirm no new vulnerabilities were introduced.</p><p><strong>Example 2:</strong> In your change request ticket, include a mandatory \"Security Impact Analysis\" field that requires the requester to assess whether the change affects access controls, encryption, logging, or network segmentation. Use a checklist template tied to NIST 800-53 control families (AC, AU, SC, etc.) so nothing gets overlooked.</p>"
     },
     {
       "id": "3-4-5",
@@ -818,7 +818,7 @@
       "cmmcPractices": [
         "cm-l2-3-4-5"
       ],
-      "notes": null
+      "notes": "<p>Only authorized people should be able to make changes to your systems. This means both physical restrictions (who can walk up to a server and plug something in) and logical restrictions (who has admin credentials to modify configurations).</p><p>If everyone can make changes, nobody is accountable — and you cannot trace what went wrong when something breaks.</p><p><strong>Example 1:</strong> In Active Directory, restrict membership in privileged groups (Domain Admins, Enterprise Admins, Schema Admins) to only the personnel who genuinely need that access. Navigate to <em>Active Directory Users and Computers &gt; Builtin / Users</em> and audit group membership quarterly. Use a GPO to enforce <em>Restricted Groups</em> under <em>Computer Configuration &gt; Windows Settings &gt; Security Settings &gt; Restricted Groups</em>.</p><p><strong>Example 2:</strong> For network infrastructure changes, configure role-based access control (RBAC) on your switches and routers. On Cisco IOS devices, use <code>privilege exec level 7</code> to create a custom privilege level that allows monitoring but not configuration changes. Reserve level 15 for approved network administrators only and log all access via a TACACS+ server.</p>"
     },
     {
       "id": "3-4-6",
@@ -843,7 +843,7 @@
       "cmmcPractices": [
         "cm-l2-3-4-6"
       ],
-      "notes": null
+      "notes": "<p>Your systems should only be running the software, services, and functions they actually need to do their job. Everything else is attack surface — unnecessary services, open ports, and unused protocols give attackers more ways in.</p><p>Review regularly and turn off anything that is not mission-essential.</p><p><strong>Example 1:</strong> On Windows servers, open <em>Server Manager &gt; Manage &gt; Remove Roles and Features</em> and strip out any roles not required for the server's function. A domain controller does not need the Print Server role, for instance. Also review <em>Services.msc</em> and disable services like <em>Xbox Live Auth Manager</em> or <em>Fax</em> that have no business on a server.</p><p><strong>Example 2:</strong> On your perimeter firewall, run a port audit. In Palo Alto, go to <em>Policies &gt; Security</em> and review each allow rule. Use the <em>Rule Usage</em> statistics (visible in Panorama under <em>Policies &gt; Rule Usage</em>) to identify rules with zero hits over the past 90 days. Disable or remove unused rules and document the cleanup.</p>"
     },
     {
       "id": "3-4-7",
@@ -860,7 +860,7 @@
       "cmmcPractices": [
         "cm-l2-3-4-7"
       ],
-      "notes": null
+      "notes": "<p>This practice reinforces the \"least functionality\" concept: actively restrict, disable, or prevent anything nonessential from running on your systems. Think of it as the enforcement arm of CM.L2-3.4.6 — you identified what is unnecessary, now you block it.</p><p><strong>Example 1:</strong> Use Windows Defender Application Control (WDAC) or AppLocker to block unauthorized executables. In Group Policy, navigate to <em>Computer Configuration &gt; Windows Settings &gt; Security Settings &gt; Application Control Policies &gt; AppLocker</em>. Create default rules that allow Windows and Program Files paths, then add explicit deny rules for user-writable directories like <code>%TEMP%</code> and <code>%APPDATA%</code>.</p><p><strong>Example 2:</strong> On Linux systems, use <code>systemctl list-unit-files --type=service</code> to identify all enabled services. Disable nonessential ones with <code>systemctl disable --now [service]</code>. For ports, configure <code>firewalld</code> or <code>iptables</code> to drop all inbound traffic except explicitly allowed ports, and run <code>ss -tlnp</code> periodically to verify no unexpected listeners appear.</p>"
     },
     {
       "id": "3-4-8",
@@ -881,7 +881,7 @@
       "cmmcPractices": [
         "cm-l2-3-4-8"
       ],
-      "notes": null
+      "notes": "<p>This is application whitelisting — you keep a list of approved software, and everything else is blocked by default. Instead of trying to identify every bad program (which is impossible), you define what is allowed and deny everything else.</p><p>This is one of the most effective controls you can implement against malware and unauthorized software.</p><p><strong>Example 1:</strong> Deploy Windows Defender Application Control (WDAC) using Microsoft Intune. In the <em>Intune Admin Center &gt; Endpoint Security &gt; Application Control</em>, create a policy that allows only Microsoft-signed and your organization-signed applications. Start in audit mode to identify gaps, then switch to enforce mode once your authorized software list is finalized.</p><p><strong>Example 2:</strong> Use a third-party tool like Carbon Black App Control (formerly Cb Protection). Define your approved software list in the management console under <em>Rules &gt; Software Rules</em>. Set the enforcement level to \"High\" so only approved publishers and file hashes can execute. Review the \"Unapproved Files\" report monthly to update the list as legitimate new software is deployed.</p>"
     },
     {
       "id": "3-4-9",
@@ -897,7 +897,7 @@
       "cmmcPractices": [
         "cm-l2-3-4-9"
       ],
-      "notes": null
+      "notes": "<p>Users should not be able to install whatever they want on company systems. Uncontrolled software installs bring in security risks — unlicensed tools, vulnerable applications, even malware disguised as legitimate programs.</p><p>You need a policy that governs what users can install, plus technical controls to enforce it.</p><p><strong>Example 1:</strong> In Microsoft Intune, go to <em>Devices &gt; Configuration Profiles</em> and create a Device Restrictions profile. Under <em>General &gt; Block the installation of apps from unknown sources</em>, set it to block. For Windows, also configure <em>SmartScreen</em> to warn or block unrecognized apps via <em>Endpoint Security &gt; Attack Surface Reduction</em>.</p><p><strong>Example 2:</strong> Remove local administrator rights from standard user accounts via Group Policy. Navigate to <em>Computer Configuration &gt; Windows Settings &gt; Security Settings &gt; Restricted Groups</em> and ensure only IT-approved accounts are members of the local Administrators group. Without admin rights, users cannot install most software on their own, and any legitimate requests route through your IT helpdesk with proper approval.</p>"
     },
     {
       "id": "3-5-1",
@@ -919,7 +919,7 @@
       "cmmcPractices": [
         "ia-l1-3-5-1"
       ],
-      "notes": null
+      "notes": "<p>Every person who uses your systems needs their own unique account — no shared logins, no generic \"admin\" accounts that three people use. When someone does something on the system, you need to be able to trace it back to exactly who did it.</p><p>This is foundational. Without unique identification, your audit logs are meaningless.</p><p><strong>Example 1:</strong> In Active Directory, ensure every employee has a uniquely named account (e.g., <code>jsmith</code> or <code>jane.smith</code>). Disable or rename default accounts: go to <em>Computer Configuration &gt; Windows Settings &gt; Security Settings &gt; Local Policies &gt; Security Options</em> and set \"Accounts: Rename administrator account\" and \"Accounts: Rename guest account\" to non-obvious names.</p><p><strong>Example 2:</strong> In M365 Admin Center, navigate to <em>Users &gt; Active Users</em> and verify each user has a unique UPN (User Principal Name). Disable shared mailbox sign-in by selecting the shared mailbox, clicking <em>Mail &gt; Block sign-in</em>. If service accounts are needed, create dedicated accounts with descriptive names like <code>svc-backup@contoso.com</code> rather than reusing a person's credentials.</p>"
     },
     {
       "id": "3-5-2",
@@ -939,7 +939,7 @@
       "cmmcPractices": [
         "ia-l1-3-5-2"
       ],
-      "notes": null
+      "notes": "<p>This is about identifying and authenticating devices — not just people — before they connect to your network. You need to know what machines are on your network and verify they are authorized to be there.</p><p>Rogue devices plugged into your network are a serious risk, especially in environments handling CUI.</p><p><strong>Example 1:</strong> Implement 802.1X port-based authentication on your network switches. On Cisco switches, configure <code>dot1x system-auth-control</code> globally, then on each access port enable <code>authentication port-control auto</code>. Pair this with a RADIUS server (like Microsoft NPS or Cisco ISE) that checks machine certificates before granting network access.</p><p><strong>Example 2:</strong> In Microsoft Entra ID (Azure AD), use Conditional Access policies to require device compliance. Go to <em>Entra Admin Center &gt; Protection &gt; Conditional Access &gt; New Policy</em>. Set the condition to require the device be marked as compliant in Intune before accessing company resources. This ensures only enrolled, managed devices can authenticate to your cloud services.</p>"
     },
     {
       "id": "3-5-3",
@@ -959,7 +959,7 @@
       "cmmcPractices": [
         "ia-l2-3-5-3"
       ],
-      "notes": null
+      "notes": "<p>Multi-factor authentication (MFA) means you need two different types of proof to log in — typically your password (something you know) plus a code from your phone or a hardware key (something you have). A password alone is not enough anymore.</p><p>This applies to both privileged accounts (admins) and regular user accounts.</p><p><strong>Example 1:</strong> In the M365 Admin Center, go to <em>Users &gt; Active Users &gt; Multi-factor authentication</em> (or use the Entra Admin Center under <em>Protection &gt; Authentication Methods</em>). Enable MFA for all users via a Conditional Access policy that requires MFA for all cloud apps. For stronger assurance, configure the policy to require phishing-resistant methods (FIDO2 keys or Windows Hello) for admin accounts.</p><p><strong>Example 2:</strong> For on-premises systems, deploy Duo Security or RSA SecurID as an MFA solution. Install the Duo Authentication Proxy and configure it to integrate with your Active Directory. Apply Duo to VPN logins and RDP sessions by configuring the Duo RDP application on each server under <em>Applications &gt; Protect an Application &gt; Microsoft RDP</em>.</p>"
     },
     {
       "id": "3-5-4",
@@ -979,7 +979,7 @@
       "cmmcPractices": [
         "ia-l2-3-5-4"
       ],
-      "notes": null
+      "notes": "<p>Replay-resistant authentication means an attacker cannot capture your login credentials in transit and reuse them later to break in. Old protocols like NTLM are vulnerable to this. Modern protocols like Kerberos and time-based one-time passwords (TOTP) generate unique tokens for each session, so a captured token is useless.</p><p><strong>Example 1:</strong> Enforce Kerberos authentication over NTLM in your domain. In Group Policy, navigate to <em>Computer Configuration &gt; Windows Settings &gt; Security Settings &gt; Local Policies &gt; Security Options</em>. Set \"Network security: LAN Manager authentication level\" to <strong>Send NTLMv2 response only. Refuse LM &amp; NTLM</strong>. This forces clients and servers to use Kerberos or at minimum NTLMv2, which includes challenge-response to resist replay.</p><p><strong>Example 2:</strong> When configuring MFA, choose time-based one-time passwords (TOTP) via authenticator apps like Microsoft Authenticator or hardware tokens like YubiKeys. In the Entra Admin Center under <em>Protection &gt; Authentication Methods &gt; FIDO2 Security Key</em>, enable FIDO2 key registration. FIDO2 uses challenge-response cryptography, making replay attacks effectively impossible.</p>"
     },
     {
       "id": "3-5-5",
@@ -1001,7 +1001,7 @@
       "cmmcPractices": [
         "ia-l2-3-5-5"
       ],
-      "notes": null
+      "notes": "<p>Identifier management is about how you create, assign, and retire usernames and account IDs. Someone with authority needs to approve each new account. You should never reuse an old employee's username for a new person — that creates confusion in audit logs and potential access bleed.</p><p><strong>Example 1:</strong> Create a formal account provisioning process in your IT ticketing system. Each new account request requires a ticket with supervisor approval before IT creates the account. In Active Directory, enforce a naming convention (e.g., <code>first.last</code>) and use the <em>Description</em> field to note the approving manager and ticket number. When employees depart, disable (do not delete) accounts and move them to a \"Disabled Users\" OU.</p><p><strong>Example 2:</strong> In the Entra Admin Center, configure the <em>Identity Governance &gt; Access Reviews</em> feature to automatically prompt managers to review their team members' access quarterly. For service accounts, use <em>Managed Identities</em> where possible (under <em>Entra ID &gt; Managed Identities</em>) so credentials are automatically rotated and the identity lifecycle is handled by the platform.</p>"
     },
     {
       "id": "3-5-6",
@@ -1017,7 +1017,7 @@
       "cmmcPractices": [
         "ia-l2-3-5-6"
       ],
-      "notes": null
+      "notes": "<p>If an account sits unused for a long time, it becomes a risk — a former employee's credentials could be compromised, or a forgotten service account could be exploited. This practice says: set a timer, and if an account is inactive past that threshold, disable it automatically.</p><p><strong>Example 1:</strong> In Active Directory, use a PowerShell script with <code>Search-ADAccount -AccountInactive -TimeSpan 90.00:00:00</code> to find accounts inactive for 90 days. Schedule this as a weekly task via Task Scheduler that automatically disables matching accounts and logs the action. Review the output with your security team monthly.</p><p><strong>Example 2:</strong> In the Entra Admin Center, go to <em>Identity Governance &gt; Access Reviews</em> and create a review for all users. Set the review to auto-apply results and remove access for users who have not signed in within your defined inactivity period. You can also check sign-in activity under <em>Users &gt; Sign-in Logs</em> and filter by \"Last sign-in\" to identify stale accounts.</p>"
     },
     {
       "id": "3-5-7",
@@ -1042,7 +1042,7 @@
       "cmmcPractices": [
         "ia-l1-3-5-7"
       ],
-      "notes": null
+      "notes": "<p>Password management is more than just \"make it 14 characters.\" You need to check passwords against known-compromised lists, transmit them only over encrypted channels, store them hashed (never in plain text), and force users to change temporary passwords immediately.</p><p>The days of requiring password changes every 60 days are over — modern guidance says use strong, unique passwords and check them against breach databases instead.</p><p><strong>Example 1:</strong> In Entra ID, enable <em>Password Protection</em> under <em>Protection &gt; Authentication Methods &gt; Password Protection</em>. Turn on \"Enforce custom banned password list\" and add company-specific terms. Also enable \"Enable password protection on Windows Server Active Directory\" to extend this to on-prem AD. This checks passwords against Microsoft's global banned list plus your custom list at every password change.</p><p><strong>Example 2:</strong> Configure a Group Policy for password complexity under <em>Computer Configuration &gt; Windows Settings &gt; Security Settings &gt; Account Policies &gt; Password Policy</em>. Set minimum password length to 14 characters, enable \"Password must meet complexity requirements,\" and set \"Minimum password age\" to 1 day (to prevent rapid cycling). Pair this with a tool like Specops Password Policy that checks new passwords against the Have I Been Pwned breach database in real time.</p>"
     },
     {
       "id": "3-5-8",
@@ -1058,7 +1058,7 @@
       "cmmcPractices": [
         "ia-l2-3-5-8"
       ],
-      "notes": null
+      "notes": "<p>This extends replay-resistant authentication specifically to non-privileged (regular user) accounts accessing the network. Even standard users need protections against attackers capturing and replaying their login sessions.</p><p>If you have already implemented strong MFA and disabled legacy protocols for all accounts (not just admins), you are well on your way.</p><p><strong>Example 1:</strong> In the Entra Admin Center, create a Conditional Access policy under <em>Protection &gt; Conditional Access</em> that targets all users (not just admins). Set the grant control to require MFA with an authentication strength of \"Phishing-resistant MFA.\" This ensures even standard user accounts use tokens that cannot be replayed.</p><p><strong>Example 2:</strong> On your VPN appliance (e.g., Cisco AnyConnect), configure certificate-based authentication combined with TOTP. In the ASA configuration, set <code>tunnel-group DefaultWEBVPNGroup webvpn-attributes</code> and configure <code>authentication certificate</code> along with a secondary authentication source pointed to your RADIUS/MFA server. This provides two layers of replay-resistant authentication for every remote user session.</p>"
     },
     {
       "id": "3-5-9",
@@ -1074,7 +1074,7 @@
       "cmmcPractices": [
         "ia-l2-3-5-9"
       ],
-      "notes": null
+      "notes": "<p>When you give someone a temporary password — for a new account or after a password reset — the system should force them to change it on their first login. A temporary password is a known shared secret between IT and the user, so it should not persist any longer than absolutely necessary.</p><p><strong>Example 1:</strong> In Active Directory Users and Computers, when resetting a user's password, check the box <em>\"User must change password at next logon.\"</em> This is a checkbox directly on the password reset dialog. Make it a standard operating procedure that your helpdesk always checks this box — never skip it.</p><p><strong>Example 2:</strong> In the M365 Admin Center under <em>Users &gt; Active Users</em>, select the user and click <em>Reset Password</em>. Ensure the toggle \"Require this user to change their password when they first sign in\" is set to <strong>On</strong>. For bulk operations via PowerShell, use <code>Set-MsolUserPassword -UserPrincipalName user@contoso.com -ForceChangePassword $true</code>.</p>"
     },
     {
       "id": "3-5-10",
@@ -1090,7 +1090,7 @@
       "cmmcPractices": [
         "ia-l2-3-5-10"
       ],
-      "notes": null
+      "notes": "<p>Passwords should never travel across the network in plain text, and they should never be stored in plain text on any system. If an attacker intercepts network traffic or gains access to a password database, they should find only encrypted or hashed values — not usable credentials.</p><p><strong>Example 1:</strong> Enforce TLS encryption on all authentication traffic. In Active Directory, enable LDAPS by installing a certificate on your domain controllers (via <em>Active Directory Certificate Services</em> or a third-party CA). Verify it is working by running <code>ldp.exe</code>, connecting to your DC on port 636 with SSL. Then disable plain LDAP (port 389) binds by configuring the registry key <code>HKLM\\System\\CurrentControlSet\\Services\\NTDS\\Parameters\\LDAPServerIntegrity</code> to require signing.</p><p><strong>Example 2:</strong> Ensure your web applications and portals use HTTPS exclusively. In IIS Manager, select your site and go to <em>SSL Settings</em>, then check \"Require SSL.\" For internal tools that might still use HTTP login pages, configure an HTTP-to-HTTPS redirect rule under <em>URL Rewrite</em>. On the storage side, verify that your application databases store passwords using bcrypt, scrypt, or PBKDF2 — never MD5 or SHA-1 alone.</p>"
     },
     {
       "id": "3-5-11",
@@ -1108,7 +1108,7 @@
       "cmmcPractices": [
         "ia-l2-3-5-11"
       ],
-      "notes": null
+      "notes": "<p>When someone types their password, the system should not display it on screen in plain text. This prevents \"shoulder surfing\" — someone nearby reading the password off your monitor. The standard approach is to show dots or asterisks instead of the actual characters.</p><p>This applies to workstations, mobile devices, web apps, and any login prompt.</p><p><strong>Example 1:</strong> On Windows workstations, ensure the \"reveal password\" button on the login screen is controlled. Via Group Policy, navigate to <em>Computer Configuration &gt; Administrative Templates &gt; Windows Components &gt; Credential User Interface</em> and set \"Do not display the password reveal button\" to <strong>Enabled</strong>. This removes the eye icon that lets users temporarily unmask their password on the Windows login screen.</p><p><strong>Example 2:</strong> For custom web applications, ensure all password input fields use <code>&lt;input type=\"password\"&gt;</code> rather than <code>&lt;input type=\"text\"&gt;</code>. If your application includes a \"show password\" toggle, make sure it defaults to masked and auto-re-masks after a short timeout (e.g., 3 seconds). Conduct a quick review of all login and account management pages to verify this is consistently implemented.</p>"
     },
     {
       "id": "3-6-1",
@@ -1135,7 +1135,7 @@
       "cmmcPractices": [
         "ir-l2-3-6-1"
       ],
-      "notes": null
+      "notes": "<p>You need a real plan for what happens when something goes wrong — a malware infection, a phishing compromise, a data breach. This is not a plan that sits in a drawer. It is a living capability that covers preparation, detection, containment, eradication, and recovery. Everyone involved needs to know their role before an incident happens.</p><p><strong>Example 1:</strong> Create an Incident Response Plan (IRP) document that defines roles (Incident Commander, technical lead, communications lead), contact lists, escalation procedures, and playbooks for common scenarios (ransomware, phishing, insider threat). Store it in a shared location like SharePoint under a dedicated \"Security\" site. Include a section that maps to NIST SP 800-61 phases: Preparation, Detection & Analysis, Containment, Eradication & Recovery, and Post-Incident Activity.</p><p><strong>Example 2:</strong> Configure automated detection in Microsoft Defender for Endpoint. In the <em>Microsoft 365 Defender portal &gt; Settings &gt; Endpoints &gt; Advanced Features</em>, enable automated investigation and response. Set up alert notifications under <em>Settings &gt; Email Notifications</em> so your incident response team gets immediate alerts for high-severity detections. This gives you the \"detection and analysis\" leg of your incident handling capability running 24/7.</p>"
     },
     {
       "id": "3-6-2",
@@ -1157,7 +1157,7 @@
       "cmmcPractices": [
         "ir-l2-3-6-2"
       ],
-      "notes": null
+      "notes": "<p>When a security incident happens, you need to track it from start to finish — what happened, when, what systems were affected, who responded, and what was the outcome. You also need to report incidents up the chain promptly, both internally and to external parties if required (for CMMC, that includes DIBCAC).</p><p><strong>Example 1:</strong> Use a ticketing system (Jira, ServiceNow, or even a dedicated tool like TheHive) to log every security incident. Create an \"Incident\" ticket type with required fields: date/time detected, affected systems, severity level, current status, and assigned responder. For CMMC compliance, document that cyber incidents involving CUI must be reported to DIBCAC at <code>https://dibnet.dod.mil</code> within 72 hours of discovery.</p><p><strong>Example 2:</strong> Stand up an internal reporting channel — a dedicated email alias like <code>security@yourcompany.com</code> and a page on your intranet with simple instructions for employees: \"If you see something suspicious, email security@ or call ext. 5555.\" In M365, you can create a shared mailbox under <em>Admin Center &gt; Teams & Groups &gt; Shared Mailboxes</em> and grant access to your IR team. This provides the \"incident response support resource\" the practice requires.</p>"
     },
     {
       "id": "3-6-3",
@@ -1175,7 +1175,7 @@
       "cmmcPractices": [
         "ir-l2-3-6-3"
       ],
-      "notes": null
+      "notes": "<p>Having an incident response plan is not enough — you have to test it. Run exercises to find out if your team actually knows what to do when things go sideways. A tabletop exercise where you walk through a scenario together is far better than finding out your plan does not work during a real breach.</p><p><strong>Example 1:</strong> Conduct a tabletop exercise at least annually. Pick a realistic scenario — say, a ransomware attack that encrypts file shares containing CUI. Gather your IR team, IT staff, management, and legal. Walk through the scenario step by step: Who detects it? Who does the Incident Commander call first? How do you isolate affected systems? Where are your backups? Document the exercise, including gaps identified, and update your IRP based on lessons learned.</p><p><strong>Example 2:</strong> Use an adversary simulation tool like Atomic Red Team (free, open-source) to test your detection capabilities. Run specific MITRE ATT&CK technique tests — for example, test T1059.001 (PowerShell execution) by running <code>Invoke-AtomicTest T1059.001</code> on a test workstation. Verify that your EDR (Defender for Endpoint, CrowdStrike, etc.) detects and alerts on the activity. If it does not, you have found a gap to fix before a real attacker exploits it.</p>"
     },
     {
       "id": "3-7-1",
@@ -1191,7 +1191,7 @@
       "cmmcPractices": [
         "ma-l2-3-7-1"
       ],
-      "notes": null
+      "notes": "<p>This one sounds simple, but it trips people up because it is really about <em>documenting</em> your maintenance, not just doing it. An assessor wants to see that you have a schedule, you follow it, and you keep records of what was done, when, and by whom.</p><p><strong>Example 1:</strong> Use a ticketing system like Jira, ConnectWise, or even a shared spreadsheet to log every maintenance action — Windows updates applied via WSUS or Intune, firmware updates on firewalls, drive replacements, etc. Each entry should capture the date, the technician, and what was done.</p><p><strong>Example 2:</strong> Set up a recurring maintenance calendar in your IT department. For example, configure Microsoft Endpoint Configuration Manager (MECM/SCCM) to deploy patches on a defined monthly cycle, and retain the deployment reports as your maintenance records.</p>"
     },
     {
       "id": "3-7-2",
@@ -1209,7 +1209,7 @@
       "cmmcPractices": [
         "ma-l2-3-7-2"
       ],
-      "notes": null
+      "notes": "<p>This practice asks you to keep a handle on <em>who</em> does maintenance and <em>what tools</em> they use. You cannot just let a vendor walk in with their own laptop and plug into your network without any oversight.</p><p><strong>Example 1:</strong> Maintain an approved tools list — document that your team uses specific versions of tools like PuTTY, WinSCP, or manufacturer diagnostic software. Store approved copies on a controlled network share and prohibit technicians from using personal thumb drives or unapproved utilities.</p><p><strong>Example 2:</strong> Require vendor technicians to use a company-provided jump box or a supervised remote session (e.g., BeyondTrust Privileged Remote Access) rather than their own equipment. Log every session and review the recordings periodically.</p>"
     },
     {
       "id": "3-7-3",
@@ -1225,7 +1225,7 @@
       "cmmcPractices": [
         "ma-l2-3-7-3"
       ],
-      "notes": null
+      "notes": "<p>Before any piece of equipment leaves your building for repair — a laptop sent to the manufacturer, a hard drive going to a disposal service — you need to make sure there is no CUI left on it. If you cannot sanitize it, the equipment should not leave.</p><p><strong>Example 1:</strong> Before shipping a laptop for warranty repair, use a NIST 800-88 compliant tool like DBAN (Darik's Boot and Nuke) or Blancco Drive Eraser to wipe the drive. Document the sanitization with a certificate or log entry that includes the serial number and date wiped.</p><p><strong>Example 2:</strong> For equipment with drives that cannot be removed or wiped (like a multifunction printer with an internal drive), enable the built-in disk encryption or secure erase feature in the device’s admin console before sending it out. Many enterprise printers from HP and Xerox have a \"Secure Storage Erase\" option in their management interface.</p>"
     },
     {
       "id": "3-7-4",
@@ -1247,7 +1247,7 @@
       "cmmcPractices": [
         "ma-l2-3-7-4"
       ],
-      "notes": null
+      "notes": "<p>This practice goes a step further than 3.7.2 — you need to actively approve, control, and monitor maintenance tools, and scan any media used for diagnostics before plugging it in.</p><p><strong>Example 1:</strong> Before using a vendor-supplied diagnostic USB drive, scan it with your endpoint protection tool (e.g., Microsoft Defender for Endpoint, CrowdStrike Falcon, or Trellix ENS) on a standalone, non-production workstation. Document the scan results before allowing the media onto any production system.</p><p><strong>Example 2:</strong> Create a Group Policy Object (GPO) under <em>Computer Configuration > Administrative Templates > System > Removable Storage Access</em> to deny all removable storage by default. Only grant exceptions to specific maintenance workstations where approved diagnostic tools are used under supervision.</p>"
     },
     {
       "id": "3-7-5",
@@ -1270,7 +1270,7 @@
       "cmmcPractices": [
         "ma-l2-3-7-5"
       ],
-      "notes": null
+      "notes": "<p>Nonlocal maintenance means remote maintenance — someone fixing your systems from outside your facility over a network connection. This is common with managed service providers and vendor support, and it needs strong controls.</p><p><strong>Example 1:</strong> Require all remote maintenance sessions to authenticate through your VPN with MFA enabled (e.g., Cisco AnyConnect or Palo Alto GlobalProtect with Duo or Microsoft Authenticator as the second factor). When the maintenance session is over, terminate the VPN connection and verify the session ended in your VPN logs.</p><p><strong>Example 2:</strong> Use a Privileged Access Management (PAM) tool like CyberArk or BeyondTrust that provides session recording, just-in-time access, and automatic credential rotation after each remote maintenance session. The session recording gives you an audit trail and the credential rotation prevents reuse.</p>"
     },
     {
       "id": "3-7-6",
@@ -1292,7 +1292,7 @@
       "cmmcPractices": [
         "ma-l2-3-7-6"
       ],
-      "notes": null
+      "notes": "<p>You need to know exactly who is authorized to perform maintenance on your systems, and anyone who is not on that list needs to be escorted and supervised by someone who is.</p><p><strong>Example 1:</strong> Maintain an authorized maintenance personnel list in your security documentation — this can be a simple roster with names, organizations, clearance levels (if applicable), and the specific systems they are authorized to maintain. Review and update it quarterly or whenever personnel change.</p><p><strong>Example 2:</strong> For third-party maintenance technicians who do not have the required access authorization, assign a cleared and technically competent employee to escort them at all times. Log the escort activity in your visitor/maintenance log, including arrival time, departure time, escort name, and a summary of work performed.</p>"
     },
     {
       "id": "3-8-1",
@@ -1313,7 +1313,7 @@
       "cmmcPractices": [
         "mp-l2-3-8-1"
       ],
-      "notes": null
+      "notes": "<p>This is about where you keep media that contains CUI — USB drives, backup tapes, external hard drives, printed documents. If it has CUI on it, it needs to be stored securely with controlled access.</p><p><strong>Example 1:</strong> Store removable media containing CUI (USB drives, external SSDs, backup tapes) in a locked safe or locking cabinet within a controlled-access room. Maintain a check-out/check-in log so you know who has what media at all times — a simple sign-out sheet next to the cabinet works.</p><p><strong>Example 2:</strong> For digital media stored on network shares, restrict access using NTFS permissions and Active Directory security groups. Only members of a specific \"CUI Media Handlers\" group should have read/write access to the share where CUI backups or archives are stored.</p>"
     },
     {
       "id": "3-8-2",
@@ -1331,7 +1331,7 @@
       "cmmcPractices": [
         "mp-l2-3-8-2"
       ],
-      "notes": null
+      "notes": "<p>This practice focuses on limiting <em>who</em> can access media containing CUI. Think of it as the access control layer on top of the secure storage from 3.8.1.</p><p><strong>Example 1:</strong> Use a Group Policy Object to restrict removable storage device access. Under <em>Computer Configuration > Administrative Templates > System > Removable Storage Access</em>, set \"All Removable Storage classes: Deny all access\" for standard users, and only allow access for accounts in a specific security group that handle CUI media.</p><p><strong>Example 2:</strong> For physical (non-digital) media like printed CUI documents, keep them in a locked file cabinet inside a room with badge-reader access control. Limit badge access to personnel whose roles require handling CUI documents, and review the access list at least quarterly.</p>"
     },
     {
       "id": "3-8-3",
@@ -1349,7 +1349,7 @@
       "cmmcPractices": [
         "mp-l1-3-8-3"
       ],
-      "notes": null
+      "notes": "<p>When you are done with media — or reusing it for a different purpose — you need to sanitize it so the CUI cannot be recovered. This applies to everything from hard drives to printed paper to the internal drives in your copiers.</p><p><strong>Example 1:</strong> For hard drives and SSDs being decommissioned, use a NIST 800-88 compliant method. For magnetic drives, use a tool like Blancco or DBAN to perform a full overwrite. For SSDs, use the manufacturer’s secure erase command (e.g., Samsung Magician’s \"Secure Erase\" or Intel SSD Toolbox). Document each sanitization with the media serial number, method used, date, and technician name.</p><p><strong>Example 2:</strong> For paper documents containing CUI, use a cross-cut shredder that meets DIN 66399 Level P-4 or higher. If you use a shredding service, get a Certificate of Destruction for each pickup and keep it on file. Do not just toss CUI paper into a standard recycling bin.</p>"
     },
     {
       "id": "3-8-4",
@@ -1369,7 +1369,7 @@
       "cmmcPractices": [
         "mp-l2-3-8-4"
       ],
-      "notes": null
+      "notes": "<p>CUI media needs to be clearly marked so anyone handling it knows what they are dealing with. This applies to both digital media (labels on USB drives, backup tapes) and non-digital media (cover sheets, headers and footers on printed documents).</p><p><strong>Example 1:</strong> Apply physical labels to all removable media containing CUI. Use pre-printed labels or a label maker to print \"CUI\" along with the CUI category and any dissemination markings (e.g., \"CUI//SP-CTI\" for Controlled Technical Information). Stick the label directly on the USB drive, tape cartridge, or external drive.</p><p><strong>Example 2:</strong> For printed CUI documents, include CUI markings in the header and footer of every page using your document template. In Microsoft Word, go to <em>Insert > Header & Footer</em> and add \"CUI\" or the appropriate category marking. You can also create a company Word template (.dotx) with CUI markings pre-configured so employees do not forget.</p>"
     },
     {
       "id": "3-8-5",
@@ -1390,7 +1390,7 @@
       "cmmcPractices": [
         "mp-l2-3-8-5"
       ],
-      "notes": null
+      "notes": "<p>When CUI media leaves your controlled area — whether you are mailing a backup drive or carrying a laptop to a client site — you need to protect it, track it, and document the transport.</p><p><strong>Example 1:</strong> Ship removable media containing CUI via a trackable service like FedEx or UPS with signature-required delivery. Use tamper-evident bags or containers, and log the shipment details (tracking number, sender, recipient, date, contents) in a media transport log.</p><p><strong>Example 2:</strong> When employees travel with laptops containing CUI, require BitLocker full-disk encryption (verify via <em>Control Panel > BitLocker Drive Encryption</em> or <code>manage-bde -status</code> in an admin command prompt). Also require employees to keep the laptop in their physical possession at all times — no leaving it in a car trunk or hotel room unattended.</p>"
     },
     {
       "id": "3-8-6",
@@ -1406,7 +1406,7 @@
       "cmmcPractices": [
         "mp-l2-3-8-6"
       ],
-      "notes": null
+      "notes": "<p>This is the encryption-specific requirement for CUI on digital media during transport. If you are moving a USB drive, external hard drive, or laptop with CUI outside your controlled area, the data needs to be encrypted.</p><p><strong>Example 1:</strong> Enable BitLocker To Go on all USB drives used to transport CUI. You can enforce this via Group Policy at <em>Computer Configuration > Administrative Templates > Windows Components > BitLocker Drive Encryption > Removable Data Drives</em> — set \"Deny write access to removable drives not protected by BitLocker.\" This forces encryption before any data can be written to the drive.</p><p><strong>Example 2:</strong> For file-level encryption during transport, use 7-Zip with AES-256 encryption to create encrypted archives of CUI files before copying them to removable media. Transmit the decryption password through a separate channel (e.g., phone call or separate email). This provides a FIPS-validated encryption layer on top of the transport.</p>"
     },
     {
       "id": "3-8-7",
@@ -1425,7 +1425,7 @@
       "cmmcPractices": [
         "mp-l2-3-8-7"
       ],
-      "notes": null
+      "notes": "<p>This practice is about restricting or outright prohibiting certain types of media on your systems. You get to decide what is allowed and what is not, but you need to document and enforce it.</p><p><strong>Example 1:</strong> Use a GPO to block all removable media by default across your domain. Under <em>Computer Configuration > Administrative Templates > System > Removable Storage Access</em>, enable \"All Removable Storage classes: Deny all access.\" Then create exception GPOs linked to specific OUs for workstations that have a legitimate business need for removable media.</p><p><strong>Example 2:</strong> Deploy an endpoint management tool like Microsoft Intune and create a device control policy that blocks unauthorized USB devices by hardware ID. You can whitelist specific approved USB drives (by vendor ID and product ID) and block everything else. This lets you allow company-issued encrypted drives while blocking personal thumb drives.</p>"
     },
     {
       "id": "3-8-8",
@@ -1441,7 +1441,7 @@
       "cmmcPractices": [
         "mp-l2-3-8-8"
       ],
-      "notes": null
+      "notes": "<p>If someone finds a random USB drive in the parking lot or a conference room, it should never end up plugged into one of your systems. This practice says that any portable storage device without a known, identifiable owner is prohibited from use.</p><p><strong>Example 1:</strong> Establish a company policy that all USB drives must be issued and tracked by IT. Maintain an asset inventory of approved USB drives with serial numbers linked to specific employees. Any USB drive not in the inventory is confiscated and turned over to IT for analysis — never plugged into a production system.</p><p><strong>Example 2:</strong> Include this requirement in your annual security awareness training. Use a real-world example like the 2008 Agent.btz attack (a USB-based worm that compromised DoD networks) to drive home why unknown USB devices are a serious threat. Track training completion in your LMS as evidence of policy communication.</p>"
     },
     {
       "id": "3-8-9",
@@ -1460,7 +1460,7 @@
       "cmmcPractices": [
         "mp-l2-3-8-9"
       ],
-      "notes": null
+      "notes": "<p>Your backups contain CUI, which means they need the same confidentiality protection as the original data. This practice requires encryption of backup data at the storage location.</p><p><strong>Example 1:</strong> If you use Windows Server Backup or Veeam, enable encryption on backup jobs. In Veeam, go to <em>Backup Job Settings > Storage > Advanced > Enable backup file encryption</em> and select AES-256. Store the encryption password in a secure password manager like KeePass or your PAM tool — not in a sticky note on the server.</p><p><strong>Example 2:</strong> For cloud backups (e.g., Azure Backup or AWS Backup), ensure encryption at rest is enabled. In Azure, backups are encrypted at rest with Microsoft-managed keys by default, but for CUI you should use customer-managed keys stored in Azure Key Vault. This gives you full control over the encryption keys and meets the FIPS 140 validation requirements.</p>"
     },
     {
       "id": "3-9-1",
@@ -1481,7 +1481,7 @@
       "cmmcPractices": [
         "ps-l2-3-9-1"
       ],
-      "notes": null
+      "notes": "<p>Before anyone gets access to systems that handle CUI, you need to screen them. This is not just about government clearances — it applies to any personnel, including contractors and employees at a small business.</p><p><strong>Example 1:</strong> Require a background check through a third-party service like Sterling, GoodHire, or HireRight before granting system access to new employees or contractors. At minimum, run a criminal history check and verify employment history. Document the screening results in the employee’s HR file and do not provision their account until the check clears.</p><p><strong>Example 2:</strong> Define a rescreening schedule in your personnel security policy — for example, rescreen all employees with CUI access every five years, or trigger a rescreening when someone transfers to a more sensitive role. Use your HRIS system (e.g., BambooHR, ADP, or Workday) to set reminder notifications when rescreening is due.</p>"
     },
     {
       "id": "3-9-2",
@@ -1506,7 +1506,7 @@
       "cmmcPractices": [
         "ps-l2-3-9-2"
       ],
-      "notes": null
+      "notes": "<p>When someone leaves the company or moves to a different role, you need to cut or adjust their access quickly. A former employee with active credentials is one of the most common and dangerous security gaps.</p><p><strong>Example 1:</strong> Create a termination checklist that IT and HR execute together. Within the defined timeframe (e.g., same business day), disable the Active Directory account, revoke MFA tokens in Azure AD / Entra ID, remove the user from VPN access groups, and disable their email. In the Microsoft 365 Admin Center, go to <em>Users > Active Users</em>, select the departed employee, and click \"Block sign-in\" followed by revoking all sessions.</p><p><strong>Example 2:</strong> For transfers within the company, review and adjust access rights using the principle of least privilege. In Active Directory, remove the user from security groups associated with their old role and add them to groups for their new role. Do not just add new permissions on top of old ones — that leads to privilege creep. Document the access review in a ticket and have the new supervisor approve the updated access rights.</p><p>Also, collect all physical items: badges, keys, laptops, mobile devices, and any removable media. Log the return of each item in your asset management system.</p>"
     },
     {
       "id": "3-10-1",
@@ -1530,7 +1530,7 @@
       "cmmcPractices": [
         "pe-l1-3-10-1"
       ],
-      "notes": null
+      "notes": "<p>You need to know who is allowed into the spaces where your systems live, and you need to keep that list current. This is not just about server rooms — it includes any area where CUI is processed or stored.</p><p><strong>Example 1:</strong> Maintain a facility access list — a document or spreadsheet listing every person authorized to enter your server room, data center, or CUI processing areas. Include their name, role, and date authorized. Review and update this list at least quarterly. When someone leaves the company or changes roles, remove them immediately.</p><p><strong>Example 2:</strong> Use a badge access control system (e.g., Honeywell Pro-Watch, LenelS2, or Verkada Access Control) to issue credentials tied to individual employees. Program the system so that only people on the authorized access list can badge into sensitive areas. When you revoke authorization, deactivate their badge in the system the same day.</p>"
     },
     {
       "id": "3-10-2",
@@ -1551,7 +1551,7 @@
       "cmmcPractices": [
         "pe-l2-3-10-2"
       ],
-      "notes": null
+      "notes": "<p>It is not enough to control who can enter — you also need to watch what is happening. This means monitoring entry points and reviewing the logs for anything unusual.</p><p><strong>Example 1:</strong> Install security cameras at all entry and exit points to your server room and CUI processing areas. Use a system like Verkada, Axis, or Milestone XProtect that provides motion-triggered recording and at least 30 days of retention. Position cameras so they capture faces at door-height, not just the tops of heads.</p><p><strong>Example 2:</strong> Configure your badge access system to generate alerts for anomalous events — such as access attempts outside business hours, repeated failed badge reads, or tailgating detection (door held open too long). Review physical access logs weekly or after any security incident. Most access control platforms (LenelS2, Genetec, etc.) can email alerts automatically to your security team.</p>"
     },
     {
       "id": "3-10-3",
@@ -1567,7 +1567,7 @@
       "cmmcPractices": [
         "pe-l1-3-10-3"
       ],
-      "notes": null
+      "notes": "<p>Every visitor who enters an area where CUI is present must be escorted by an authorized employee and monitored during their entire visit. No exceptions — this includes vendor technicians, delivery personnel, and auditors.</p><p><strong>Example 1:</strong> Implement a visitor sign-in process at your front desk or building entry. Use a visitor management system like Envoy, SwipedOn, or even a simple paper log. Record the visitor’s name, company, purpose of visit, escort name, and time in/time out. Issue a temporary visitor badge that is visually distinct from employee badges (e.g., a bright red \"VISITOR\" lanyard).</p><p><strong>Example 2:</strong> Ensure your escort policy is included in employee training. Employees should know that visitors are never to be left unattended in areas where CUI is accessible. This includes not propping open secure doors for a vendor \"just for a minute.\" Post signage near secure areas reminding staff of the escort requirement.</p>"
     },
     {
       "id": "3-10-4",
@@ -1583,7 +1583,7 @@
       "cmmcPractices": [
         "pe-l1-3-10-4"
       ],
-      "notes": null
+      "notes": "<p>You need a record of who entered and exited your facility and when. This audit log is critical for investigating incidents and proving compliance to an assessor.</p><p><strong>Example 1:</strong> Configure your badge access system to retain access logs for at least one year. Most systems (Honeywell, LenelS2, Genetec) store logs in a database that you can export to CSV or PDF for assessor review. Make sure the logs capture the badge holder’s name, the door accessed, the date and time, and whether access was granted or denied.</p><p><strong>Example 2:</strong> If you do not have an electronic badge system, maintain a paper sign-in/sign-out log at each controlled entry point. Each entry should include the person’s name, date, time in, time out, and purpose. Store completed log sheets in a secure location (locked file cabinet) and retain them for your defined retention period. Scan and back up the logs digitally as well.</p>"
     },
     {
       "id": "3-10-5",
@@ -1599,7 +1599,7 @@
       "cmmcPractices": [
         "pe-l1-3-10-5"
       ],
-      "notes": null
+      "notes": "<p>Physical access devices — keys, badges, key cards, PINs, combination codes — need to be controlled and managed. If you do not know where your keys are, you do not really have physical security.</p><p><strong>Example 1:</strong> Maintain a key and badge inventory. Track every physical key and badge issued: who has it, when it was issued, and what areas it grants access to. Use a spreadsheet or your access control system’s built-in asset tracking. When a key or badge is lost, rekey the lock or deactivate the badge immediately and issue a replacement.</p><p><strong>Example 2:</strong> Change default access codes and combinations on cipher locks and keypad entries on a regular schedule (e.g., every 90 days) and whenever someone with knowledge of the code leaves the organization. Document each code change with the date, the lock location, and the person who made the change. Avoid obvious codes like 1234 or the company’s street address.</p>"
     },
     {
       "id": "3-10-6",
@@ -1618,7 +1618,7 @@
       "cmmcPractices": [
         "pe-l2-3-10-6"
       ],
-      "notes": null
+      "notes": "<p>If your employees work from home or other locations outside your main office, those alternate work sites need security controls too. CUI does not stop being sensitive just because someone is working from their kitchen table.</p><p><strong>Example 1:</strong> Create a telework or remote work policy that defines minimum security requirements for home offices: the work area must be in a private space (not a coffee shop), the laptop must have BitLocker enabled, the home Wi-Fi must use WPA3 or WPA2 with a strong passphrase, and the employee must connect to company resources only through the VPN. Have employees sign an acknowledgment form agreeing to these requirements.</p><p><strong>Example 2:</strong> Use Microsoft Intune compliance policies to enforce security requirements on devices used at alternate work sites. Create a compliance policy that checks for BitLocker encryption, up-to-date antivirus definitions, OS patch level, and active firewall. Mark non-compliant devices as \"not compliant\" in Conditional Access so they cannot access CUI in SharePoint, Teams, or other M365 services until they meet the baseline.</p>"
     },
     {
       "id": "3-11-1",
@@ -1637,7 +1637,7 @@
       "cmmcPractices": [
         "ra-l2-3-11-1"
       ],
-      "notes": null
+      "notes": "<p>A risk assessment is really just a structured way of asking: &quot;What could go wrong with how we handle CUI, and how bad would it be?&quot; You are looking at your systems, your processes, and even your vendors to figure out where the weak spots are.</p><p><strong>Example 1:</strong> Use NIST's CSET (Cyber Security Evaluation Tool) to walk through a guided assessment of your network. CSET asks plain-English questions about your environment and generates a risk report with prioritized findings you can hand to leadership.</p><p><strong>Example 2:</strong> In Microsoft 365, go to the <em>Compliance Center &gt; Compliance Manager</em>. It automatically scores your tenant against NIST 800-171 controls and shows you exactly which settings are increasing your risk -- like whether MFA is enforced or if DLP policies are missing.</p><p>Update this assessment at least annually, or any time you make a major change to your environment -- new systems, new vendors, new data flows.</p>"
     },
     {
       "id": "3-11-2",
@@ -1662,7 +1662,7 @@
       "cmmcPractices": [
         "ra-l2-3-11-2"
       ],
-      "notes": null
+      "notes": "<p>Vulnerability scanning means regularly checking your systems for known weaknesses -- missing patches, misconfigurations, outdated software -- before an attacker finds them first.</p><p><strong>Example 1:</strong> Run authenticated Nessus (or ACAS if you are in a DoD environment) scans against all your endpoints and servers at least monthly. Use credentialed scans so the scanner can log into each machine and check installed software versions, not just probe from the outside. Review the results filtered by CVSS score 7.0 and above for priority remediation.</p><p><strong>Example 2:</strong> Enable <em>Microsoft Defender Vulnerability Management</em> in the Microsoft 365 Defender portal. It continuously monitors your enrolled devices for vulnerabilities and misconfigurations, assigns severity scores, and even recommends specific remediation steps -- all without running a separate scan tool.</p><p>The key here is consistency. Scanning once a year will not cut it. Set up recurring scans and make sure someone is actually reviewing the results and tracking remediation.</p>"
     },
     {
       "id": "3-11-3",
@@ -1678,7 +1678,7 @@
       "cmmcPractices": [
         "ra-l2-3-11-3"
       ],
-      "notes": null
+      "notes": "<p>Finding vulnerabilities is only half the job -- you have to actually fix them, and you should fix the most dangerous ones first. This practice says your remediation priority should be driven by your risk assessment, not just by whatever showed up most recently.</p><p><strong>Example 1:</strong> After a Nessus scan, sort findings by CVSS score and cross-reference them with your risk assessment. A critical vulnerability on a system that processes CUI gets patched immediately. The same vulnerability on an isolated test machine with no CUI access can wait for the next maintenance window. Use your WSUS or SCCM console to push the patches and verify installation.</p><p><strong>Example 2:</strong> In <em>Microsoft Defender for Endpoint &gt; Threat &amp; Vulnerability Management &gt; Remediation</em>, create remediation requests tied to specific CVEs. Assign them to your IT team with deadlines based on severity -- 72 hours for critical, 30 days for medium. The portal tracks completion so you have evidence for your assessor.</p><p>Document your remediation decisions. If you accept a risk instead of fixing it, write down why and get leadership to sign off.</p>"
     },
     {
       "id": "3-12-1",
@@ -1698,7 +1698,7 @@
       "cmmcPractices": [
         "ca-l2-3-12-1"
       ],
-      "notes": null
+      "notes": "<p>A security assessment is a formal check to see if your security controls are actually working the way they are supposed to. Think of it as a health checkup for your cybersecurity program -- you are testing whether the protections you put in place are doing their job.</p><p><strong>Example 1:</strong> Hire a C3PAO or an independent assessor to run a NIST 800-171 assessment against your environment. They will interview staff, review documentation, and test controls -- for instance, verifying that your GPO for password complexity (minimum 14 characters, complexity enabled) is actually applied to all workstations by running <code>gpresult /r</code> on a sample of machines.</p><p><strong>Example 2:</strong> Use <em>Microsoft Secure Score</em> in the M365 admin center as a self-assessment tool. It evaluates your tenant configuration against security best practices and gives you a numerical score with specific recommendations -- like enabling Safe Attachments in Exchange Online or blocking legacy authentication protocols.</p><p>The assessment should result in a written report documenting what was tested, what passed, and what needs attention.</p>"
     },
     {
       "id": "3-12-2",
@@ -1720,7 +1720,7 @@
       "cmmcPractices": [
         "ca-l2-3-12-2"
       ],
-      "notes": null
+      "notes": "<p>A Plan of Action and Milestones (POA&amp;M) is your to-do list for security gaps. When an assessment finds something that is not right, you document it here along with what you are going to do about it and when you will have it done.</p><p><strong>Example 1:</strong> Your Nessus scan found that SMBv1 is still enabled on three file servers. Your POA&amp;M entry would say: &quot;Disable SMBv1 on SRV-FILE01, SRV-FILE02, SRV-FILE03 via GPO (<code>Computer Configuration &gt; Administrative Templates &gt; Network &gt; Lanman Server &gt; SMB Minimum version</code>). Responsible: IT Admin. Due: 30 days. Milestone: GPO tested in dev by day 14.&quot;</p><p><strong>Example 2:</strong> Your assessment found that endpoint detection logs are not being forwarded to a central location. The POA&amp;M entry: &quot;Configure Microsoft Defender for Endpoint to stream alerts to the SIEM via the <em>Settings &gt; APIs &gt; SIEM</em> connector in the M365 Defender portal. Responsible: Security team. Due: 45 days.&quot;</p><p>Keep this document alive. Review it monthly, update completion percentages, and close items as they are resolved. Your assessor will want to see this.</p>"
     },
     {
       "id": "3-12-3",
@@ -1741,7 +1741,7 @@
       "cmmcPractices": [
         "ca-l2-3-12-3"
       ],
-      "notes": null
+      "notes": "<p>Continuous monitoring means you do not just check your security posture once a year and forget about it. You have tools and processes running all the time to watch for changes that could introduce risk.</p><p><strong>Example 1:</strong> Deploy a SIEM solution (like Microsoft Sentinel or Splunk) that ingests logs from your firewall, Active Directory, endpoints, and cloud services. Set up detection rules for high-risk events -- failed login brute-force attempts, new admin accounts created, or firewall rules changed. Review alerts daily.</p><p><strong>Example 2:</strong> Enable <em>Microsoft Defender for Cloud Apps</em> to continuously monitor your cloud environment. It flags risky behaviors like mass file downloads, sign-ins from impossible travel locations, or OAuth app consent grants. Alerts are generated automatically and assigned to your security team for triage.</p><p>The point is not to drown in dashboards -- it is to make sure someone is watching for meaningful changes to your security posture between formal assessments.</p>"
     },
     {
       "id": "3-12-4",
@@ -1758,7 +1758,62 @@
       "cmmcPractices": [
         "ca-l2-3-12-4"
       ],
-      "notes": null
+      "notes": "<p>A System Security Plan (SSP) is the single document that describes your entire security program for a given system. It explains what the system does, where CUI lives, how you protect it, and how your controls map to NIST 800-171 requirements.</p><p><strong>Example 1:</strong> Document your network boundary by including a current network diagram (from a tool like Visio or draw.io) that shows your firewall, VLANs, DMZ, VPN concentrator, and where CUI is stored. For each boundary device, note the specific rules -- for instance, your SonicWall firewall's default deny rule on the WAN interface with explicit allow rules only for HTTPS (443) and IPSec VPN (UDP 500/4500).</p><p><strong>Example 2:</strong> In the SSP, describe how each NIST 800-171 control is implemented. For example, under Access Control, document that you enforce account lockout via GPO: <code>Computer Configuration &gt; Windows Settings &gt; Security Settings &gt; Account Lockout Policy</code> -- threshold set to 3 invalid attempts, lockout duration 15 minutes, reset counter after 15 minutes.</p><p>Update the SSP whenever your environment changes -- new systems, new connections, new security tools. Treat it as a living document, not a one-time deliverable.</p>"
+    },
+    {
+      "id": "3-12-5",
+      "displayId": "3.12.5",
+      "title": "Information Exchange",
+      "family": "Security Assessment and Monitoring",
+      "familyCode": "3.12",
+      "description": "Specify, document, and control the security requirements for information exchange between systems and between organizations. Information exchange agreements define the permitted data flows, applicable protections, and responsibilities for safeguarding Controlled Unclassified Information (CUI) during transfer and shared processing.",
+      "assessmentObjectives": [
+        "security requirements for information exchange between systems are specified and documented.",
+        "security requirements for information exchange between organizations are specified and documented.",
+        "information exchange security requirements are controlled and enforced through documented agreements and technical controls."
+      ],
+      "nist80053": [
+        "CA-3"
+      ],
+      "cmmcPractices": [],
+      "notes": "<p>Information exchange requirements define how data is allowed to move between systems and organizations, including who is responsible for protection at each boundary.</p><p><strong>Example 1:</strong> Include encryption requirements, approved transfer methods, and incident notification timelines in a vendor data exchange agreement before sharing CUI.</p><p><strong>Example 2:</strong> Document allowed integration paths between internal and partner systems, then enforce them with firewall rules, API allowlists, and logging at the boundary.</p>"
+    },
+    {
+      "id": "3-15-1",
+      "displayId": "3.15.1",
+      "title": "Policy and Procedures",
+      "family": "Planning",
+      "familyCode": "3.15",
+      "description": "Establish, document, disseminate, and maintain security policy and procedures that address the management, operational, and technical controls required to protect Controlled Unclassified Information (CUI).",
+      "assessmentObjectives": [
+        "security policy for protecting CUI is established, documented, and disseminated.",
+        "procedures to implement security policy are established, documented, and maintained.",
+        "security policy and procedures are reviewed and updated periodically and when significant changes occur."
+      ],
+      "nist80053": [
+        "PL-1"
+      ],
+      "cmmcPractices": [],
+      "notes": "<p>Policy sets expectations; procedures explain execution. Both are required for consistent implementation and auditability.</p><p><strong>Example 1:</strong> Publish a security policy that defines roles, responsibilities, and control requirements for protecting CUI.</p><p><strong>Example 2:</strong> Maintain corresponding procedures for account management, logging, vulnerability remediation, and incident response, with assigned owners and review cadence.</p>"
+    },
+    {
+      "id": "3-15-3",
+      "displayId": "3.15.3",
+      "title": "Rules of Behavior",
+      "family": "Planning",
+      "familyCode": "3.15",
+      "description": "Establish, document, and communicate rules of behavior for individuals with access to systems processing, storing, or transmitting Controlled Unclassified Information (CUI). Ensure individuals acknowledge those rules before receiving access.",
+      "assessmentObjectives": [
+        "rules of behavior for system use are established and documented.",
+        "rules of behavior are communicated to authorized users.",
+        "authorized users acknowledge rules of behavior prior to receiving or retaining access."
+      ],
+      "nist80053": [
+        "PL-4",
+        "AC-8"
+      ],
+      "cmmcPractices": [],
+      "notes": "<p>Rules of behavior define acceptable use and user responsibilities. They support legal notice and accountability for misuse.</p><p><strong>Example 1:</strong> Include prohibited actions (e.g., credential sharing, unauthorized software, unapproved data transfer) in an acceptable use standard.</p><p><strong>Example 2:</strong> Require annual user acknowledgment through onboarding and recurring security awareness workflows.</p>"
     },
     {
       "id": "3-13-1",
@@ -1781,7 +1836,7 @@
       "cmmcPractices": [
         "sc-l1-3-13-1"
       ],
-      "notes": null
+      "notes": "<p>Boundary protection is about controlling what traffic flows in and out of your network -- and monitoring the key choke points inside it. Your firewall is the most obvious example, but it also includes internal segmentation between sensitive and non-sensitive zones.</p><p><strong>Example 1:</strong> Configure your perimeter firewall (Palo Alto, SonicWall, pfSense, etc.) with a default-deny outbound rule, then add explicit allow rules only for required traffic: HTTPS (443), DNS (53 to your approved DNS servers only), and your VPN ports. Log all denied traffic and review weekly.</p><p><strong>Example 2:</strong> Enable <em>Windows Defender Firewall with Advanced Security</em> via GPO (<code>Computer Configuration &gt; Windows Settings &gt; Security Settings &gt; Windows Defender Firewall</code>) on all endpoints. Set the domain, private, and public profiles to block inbound connections by default. Create inbound rules only for approved management traffic like RDP from your admin VLAN.</p><p>Think of boundary protection as layers -- your perimeter firewall is the outer wall, host-based firewalls are the inner doors, and network segmentation creates separate rooms.</p>"
     },
     {
       "id": "3-13-2",
@@ -1797,7 +1852,7 @@
       "cmmcPractices": [
         "sc-l2-3-13-2"
       ],
-      "notes": null
+      "notes": "<p>This practice is about building security into your systems from the ground up, not bolting it on after the fact. Your network architecture, your applications, and your infrastructure should all be designed with security as a core principle.</p><p><strong>Example 1:</strong> Implement a zero-trust network architecture by segmenting your network into VLANs with inter-VLAN routing controlled by ACLs on your managed switch or firewall. For example, put CUI systems on VLAN 10, general workstations on VLAN 20, and printers/IoT on VLAN 30 -- with firewall rules that prevent VLAN 20 and 30 from reaching VLAN 10 directly.</p><p><strong>Example 2:</strong> In Azure or M365, use <em>Conditional Access Policies</em> in Entra ID to enforce security at the identity layer. Create a policy that requires MFA and a compliant device for any access to SharePoint sites containing CUI. This is security baked into the architecture, not an afterthought.</p><p>The assessor wants to see that security decisions were intentional and documented, not accidental.</p>"
     },
     {
       "id": "3-13-3",
@@ -1814,7 +1869,7 @@
       "cmmcPractices": [
         "sc-l2-3-13-3"
       ],
-      "notes": null
+      "notes": "<p>Regular users should not be using the same accounts or interfaces they use for day-to-day work to manage servers, domain controllers, or security tools. Keeping these separate reduces the blast radius if a user account gets compromised.</p><p><strong>Example 1:</strong> Create separate admin accounts in Active Directory (e.g., <code>j.smith-admin</code>) for IT staff and place them in a dedicated Admin OU with a stricter GPO. Use the <em>Deny log on locally</em> setting for these admin accounts on regular workstations, and use <em>Deny log on through Remote Desktop Services</em> for regular user accounts on servers.</p><p><strong>Example 2:</strong> In M365, assign the Global Administrator role only to dedicated admin accounts in the <em>Microsoft Entra admin center &gt; Roles and administrators</em>. These accounts should not have mailboxes or be used for daily email. Enable Privileged Identity Management (PIM) so admin roles are activated just-in-time rather than permanently assigned.</p>"
     },
     {
       "id": "3-13-4",
@@ -1833,7 +1888,7 @@
       "cmmcPractices": [
         "sc-l2-3-13-4"
       ],
-      "notes": null
+      "notes": "<p>When users or processes share system resources -- like memory, disk space, or temp directories -- there is a risk that leftover data from one user could be accessible to the next. This practice says you need to prevent that kind of data leakage.</p><p><strong>Example 1:</strong> Enable the GPO setting <code>Computer Configuration &gt; Windows Settings &gt; Security Settings &gt; Local Policies &gt; Security Options &gt; Shutdown: Clear virtual memory pagefile</code> to ensure the pagefile is wiped at shutdown. This prevents sensitive data fragments from persisting in virtual memory between sessions.</p><p><strong>Example 2:</strong> On shared workstations or terminal servers, configure <em>Disk Cleanup</em> policies or use the GPO <code>Delete user profiles older than a specified number of days on system restart</code> (under Computer Configuration &gt; Administrative Templates &gt; System &gt; User Profiles). This ensures temp files and cached data from previous user sessions are removed.</p>"
     },
     {
       "id": "3-13-5",
@@ -1849,7 +1904,7 @@
       "cmmcPractices": [
         "sc-l2-3-13-5"
       ],
-      "notes": null
+      "notes": "<p>If you have anything publicly accessible -- a web server, a customer portal, an email gateway -- it needs to live in a separate network segment (a DMZ) so that if it gets compromised, the attacker cannot walk straight into your internal network where CUI lives.</p><p><strong>Example 1:</strong> Configure a DMZ on your firewall with three zones: WAN (untrusted), DMZ (semi-trusted), and LAN (trusted). Place your public-facing web server in the DMZ. Create firewall rules that allow inbound HTTPS from WAN to DMZ, but block all direct traffic from DMZ to LAN. If the web server needs to query an internal database, allow only that specific port from the DMZ server's IP to the database server's IP.</p><p><strong>Example 2:</strong> If you are using cloud services, leverage <em>Azure Network Security Groups (NSGs)</em> to isolate public-facing resources. Place your web app in a public subnet with an NSG that allows only port 443 inbound, and your backend services in a private subnet with an NSG that allows traffic only from the web app's subnet.</p>"
     },
     {
       "id": "3-13-6",
@@ -1868,7 +1923,7 @@
       "cmmcPractices": [
         "sc-l2-3-13-6"
       ],
-      "notes": null
+      "notes": "<p>Your network should block everything by default and only allow the traffic you have explicitly approved. This is the opposite of the common (and dangerous) approach where everything is open and you try to block known-bad traffic.</p><p><strong>Example 1:</strong> On your perimeter firewall, set the default rule for both inbound and outbound traffic to <strong>Deny All</strong>. Then add specific allow rules above it: allow outbound HTTPS (443), allow outbound DNS (53) only to your designated DNS servers, allow inbound VPN (UDP 500/4500 or WireGuard port) to your VPN concentrator. Every rule should have a documented business justification.</p><p><strong>Example 2:</strong> On Windows endpoints via GPO, configure <em>Windows Defender Firewall</em> to block all inbound connections by default for all profiles. Under <code>Inbound Rules</code>, create exceptions only for approved services. Log blocked connections by enabling <code>Logging &gt; Log dropped packets: Yes</code> in the firewall profile properties.</p>"
     },
     {
       "id": "3-13-7",
@@ -1884,7 +1939,7 @@
       "cmmcPractices": [
         "sc-l2-3-13-7"
       ],
-      "notes": null
+      "notes": "<p>Split tunneling means a VPN user can access your corporate network and the open internet at the same time through different network paths. That is a problem because malware or an attacker on the internet side could potentially pivot into your corporate network through that user's machine.</p><p><strong>Example 1:</strong> In your VPN solution (Cisco AnyConnect, GlobalProtect, Windows Always On VPN), configure <em>full tunnel</em> mode so that all traffic -- including internet traffic -- routes through the corporate VPN gateway. In Cisco AnyConnect, this is set in the AnyConnect profile XML: <code>&lt;SplitTunneling&gt;Disabled&lt;/SplitTunneling&gt;</code>.</p><p><strong>Example 2:</strong> If using Windows Always On VPN with a GPO or Intune profile, set the VPN connection to <em>Force Tunnel</em> in the VPN profile configuration. In Intune, go to <em>Devices &gt; Configuration profiles &gt; VPN</em> and set the split tunneling option to <strong>Disabled</strong>. This forces all traffic through the VPN tunnel when connected.</p>"
     },
     {
       "id": "3-13-8",
@@ -1904,7 +1959,7 @@
       "cmmcPractices": [
         "sc-l2-3-13-8"
       ],
-      "notes": null
+      "notes": "<p>CUI needs to be encrypted whenever it is moving across a network and whenever it is sitting on a disk. If someone intercepts the traffic or steals the drive, they should not be able to read the data.</p><p><strong>Example 1:</strong> For data in transit, enforce TLS 1.2 or higher on all web services and email. In the M365 admin center, go to <em>Exchange admin center &gt; Mail flow &gt; Connectors</em> and configure your mail flow connectors to require TLS. On IIS or your web server, disable TLS 1.0 and 1.1 via registry settings or the IIS Crypto tool.</p><p><strong>Example 2:</strong> For data at rest, enable <em>BitLocker Drive Encryption</em> on all endpoints via GPO: <code>Computer Configuration &gt; Administrative Templates &gt; Windows Components &gt; BitLocker Drive Encryption</code>. Require TPM + PIN for OS drives. Store recovery keys in Active Directory. Verify encryption status across your fleet using <code>manage-bde -status</code> or the BitLocker Recovery report in MBAM/Intune.</p>"
     },
     {
       "id": "3-13-9",
@@ -1922,7 +1977,7 @@
       "cmmcPractices": [
         "sc-l2-3-13-9"
       ],
-      "notes": null
+      "notes": "<p>Network sessions should not stay open forever. If a user walks away from their desk or a connection sits idle, it should be terminated after a defined period to prevent unauthorized access on an unattended session.</p><p><strong>Example 1:</strong> Configure session timeouts for Remote Desktop connections via GPO: <code>Computer Configuration &gt; Administrative Templates &gt; Windows Components &gt; Remote Desktop Services &gt; Session Time Limits</code>. Set <em>Set time limit for disconnected sessions</em> to 15 minutes and <em>Set time limit for active but idle sessions</em> to 30 minutes.</p><p><strong>Example 2:</strong> On your firewall or VPN concentrator, configure idle session timeouts. For example, on a Palo Alto firewall, set the TCP session timeout under <em>Device &gt; Setup &gt; Session &gt; Session Timeouts</em> to 30 minutes for general traffic. For VPN sessions, configure the idle timeout in the GlobalProtect gateway settings to disconnect users after 30 minutes of inactivity.</p>"
     },
     {
       "id": "3-13-10",
@@ -1941,7 +1996,7 @@
       "cmmcPractices": [
         "sc-l2-3-13-10"
       ],
-      "notes": null
+      "notes": "<p>If you are using encryption (and you should be), you need a solid process for creating, distributing, storing, rotating, and destroying the cryptographic keys. The encryption is only as strong as how you manage the keys.</p><p><strong>Example 1:</strong> For BitLocker, store recovery keys in Active Directory Domain Services (AD DS). Configure this via GPO: <code>Computer Configuration &gt; Administrative Templates &gt; Windows Components &gt; BitLocker &gt; Store BitLocker recovery information in AD DS</code>. This ensures keys are centrally managed and recoverable, not written on sticky notes.</p><p><strong>Example 2:</strong> For TLS certificates on your web servers, use a certificate management tool or process. Track certificate expiration dates in a spreadsheet or tool like Venafi or Let's Encrypt with auto-renewal. Ensure you are using keys of at least 2048-bit RSA or 256-bit ECC, and rotate certificates annually. If using Azure, leverage <em>Azure Key Vault</em> to store and manage certificates and secrets with access policies and audit logging.</p>"
     },
     {
       "id": "3-13-11",
@@ -1959,7 +2014,7 @@
       "cmmcPractices": [
         "sc-l2-3-13-11"
       ],
-      "notes": null
+      "notes": "<p>This practice requires that when you use cryptography to protect CUI, you use FIPS-validated cryptographic modules. In practical terms, this means making sure your encryption tools and algorithms meet federal standards -- not rolling your own crypto.</p><p><strong>Example 1:</strong> Enable FIPS-compliant mode on Windows endpoints via GPO: <code>Computer Configuration &gt; Windows Settings &gt; Security Settings &gt; Local Policies &gt; Security Options &gt; System cryptography: Use FIPS compliant algorithms for encryption, hashing, and signing</code> -- set to <strong>Enabled</strong>. This forces Windows to use only FIPS 140-validated cryptographic modules.</p><p><strong>Example 2:</strong> Verify that your VPN solution uses FIPS-validated encryption. For example, Cisco AnyConnect supports FIPS mode -- enable it in the AnyConnect Local Policy profile by setting <code>&lt;FIPSMode&gt;true&lt;/FIPSMode&gt;</code>. This ensures the VPN tunnel uses only approved algorithms (AES-256, SHA-256, etc.).</p><p>Check NIST's Cryptographic Module Validation Program (CMVP) list at csrc.nist.gov to confirm your products have valid FIPS 140 certificates.</p>"
     },
     {
       "id": "3-13-12",
@@ -1978,7 +2033,7 @@
       "cmmcPractices": [
         "sc-l2-3-13-12"
       ],
-      "notes": null
+      "notes": "<p>Collaborative computing devices include things like webcams, microphones, and smart displays in conference rooms. The concern is that these could be remotely activated to eavesdrop. You need to prevent remote activation and make it obvious to people in the room when these devices are active.</p><p><strong>Example 1:</strong> Use a GPO to disable the camera and microphone on workstations by default. Under <code>Computer Configuration &gt; Administrative Templates &gt; Windows Components &gt; Camera</code>, set <em>Allow Use of Camera</em> to <strong>Disabled</strong>. For microphone access, manage it through <em>Settings &gt; Privacy &gt; Microphone</em> or deploy an Intune device restriction profile that blocks microphone access for all apps except approved conferencing tools like Teams.</p><p><strong>Example 2:</strong> For conference room systems (like Microsoft Teams Rooms devices or Zoom Rooms), ensure the device has a physical indicator light that activates when the camera or microphone is in use. Configure the device to require a physical button press to start a meeting -- do not allow remote meeting joins to automatically activate A/V hardware. Disable remote management features that could allow external activation.</p>"
     },
     {
       "id": "3-13-13",
@@ -2000,7 +2055,7 @@
       "cmmcPractices": [
         "sc-l2-3-13-13"
       ],
-      "notes": null
+      "notes": "<p>Mobile code refers to software that is downloaded and executed automatically -- things like JavaScript, Java applets, ActiveX controls, PowerShell scripts, or macros. You need to control what types of mobile code can run in your environment.</p><p><strong>Example 1:</strong> Restrict Office macro execution via GPO: <code>User Configuration &gt; Administrative Templates &gt; Microsoft Office &gt; Security Settings &gt; VBA Macro Notification Settings</code> -- set to <em>Disable all except digitally signed macros</em>. This prevents untrusted macros (a common malware delivery method) from running while still allowing business-critical signed macros.</p><p><strong>Example 2:</strong> Configure Windows Defender Application Control (WDAC) or AppLocker to restrict which scripts and executables can run. Create an AppLocker policy via GPO (<code>Computer Configuration &gt; Windows Settings &gt; Security Settings &gt; Application Control Policies &gt; AppLocker</code>) that allows only scripts signed by your organization or from trusted paths (e.g., <code>C:\\Program Files\\*</code>) and blocks everything else.</p>"
     },
     {
       "id": "3-13-14",
@@ -2016,7 +2071,7 @@
       "cmmcPractices": [
         "sc-l2-3-13-14"
       ],
-      "notes": null
+      "notes": "<p>VoIP systems -- like Microsoft Teams calling, Cisco phone systems, or SIP-based solutions -- carry voice traffic over your data network. That means they are subject to the same threats as any other network service: eavesdropping, denial of service, and unauthorized access.</p><p><strong>Example 1:</strong> Segment your VoIP traffic onto a dedicated VLAN (e.g., VLAN 50) with QoS policies that prioritize voice traffic. On your managed switch, configure the voice VLAN and apply ACLs that prevent data VLAN devices from accessing the voice VLAN directly. This limits the attack surface and prevents casual network sniffing of voice traffic.</p><p><strong>Example 2:</strong> If using Microsoft Teams for voice, enable end-to-end encryption for 1:1 Teams calls in the <em>Teams admin center &gt; Enhanced encryption policies</em>. Also review and restrict who can make PSTN calls by configuring calling policies under <em>Voice &gt; Calling policies</em> -- assign policies that limit external dialing to only the users who need it.</p>"
     },
     {
       "id": "3-13-15",
@@ -2034,7 +2089,7 @@
       "cmmcPractices": [
         "sc-l2-3-13-15"
       ],
-      "notes": null
+      "notes": "<p>Session authenticity means both sides of a network conversation can trust that they are talking to who they think they are talking to, and that the data has not been tampered with in transit. This protects against man-in-the-middle attacks and session hijacking.</p><p><strong>Example 1:</strong> Enforce TLS 1.2+ on all internal web applications and services. On IIS, disable older protocols using the IIS Crypto tool or by editing the registry under <code>HKLM\\SYSTEM\\CurrentControlSet\\Control\\SecurityProviders\\SCHANNEL\\Protocols</code>. Disable TLS 1.0, TLS 1.1, SSL 2.0, and SSL 3.0 by setting their <code>Enabled</code> DWORD to <code>0</code>.</p><p><strong>Example 2:</strong> Enable SMB signing on all domain-joined systems via GPO: <code>Computer Configuration &gt; Windows Settings &gt; Security Settings &gt; Local Policies &gt; Security Options</code> -- set <em>Microsoft network client: Digitally sign communications (always)</em> and <em>Microsoft network server: Digitally sign communications (always)</em> to <strong>Enabled</strong>. This prevents SMB relay and man-in-the-middle attacks on file shares.</p>"
     },
     {
       "id": "3-13-16",
@@ -2050,7 +2105,7 @@
       "cmmcPractices": [
         "sc-l2-3-13-16"
       ],
-      "notes": null
+      "notes": "<p>CUI sitting on a hard drive, USB drive, or in a database needs to be encrypted so that if someone physically steals the device or gains unauthorized access to storage, they cannot read the data.</p><p><strong>Example 1:</strong> Enable <em>BitLocker</em> on all laptops and workstations that process or store CUI. Deploy via GPO: <code>Computer Configuration &gt; Administrative Templates &gt; Windows Components &gt; BitLocker Drive Encryption &gt; Operating System Drives</code> -- require TPM + startup PIN. For removable drives, enable BitLocker To Go under the Removable Data Drives section and set it to deny write access to drives that are not BitLocker-encrypted.</p><p><strong>Example 2:</strong> For CUI stored in SharePoint Online or OneDrive, Microsoft applies encryption at rest by default using service-level encryption with AES-256. Go further by applying <em>Microsoft Purview sensitivity labels</em> to CUI files -- these labels apply persistent encryption and access controls that travel with the file, even if it is downloaded or forwarded. Configure labels in the <em>Microsoft Purview compliance portal &gt; Information protection &gt; Labels</em>.</p>"
     },
     {
       "id": "3-14-1",
@@ -2074,7 +2129,7 @@
       "cmmcPractices": [
         "si-l1-3-14-1"
       ],
-      "notes": null
+      "notes": "<p>Flaw remediation is a fancy way of saying &quot;patch your systems.&quot; When vendors release security updates, you need to install them promptly. The longer you wait, the more time attackers have to exploit known vulnerabilities.</p><p><strong>Example 1:</strong> Use <em>Windows Server Update Services (WSUS)</em> or <em>Microsoft Endpoint Configuration Manager (MECM/SCCM)</em> to centrally manage and deploy patches. Configure automatic approval rules for critical and security updates, and set a deployment deadline of 14 days after release. Run the WSUS console report monthly to verify compliance across your fleet.</p><p><strong>Example 2:</strong> For cloud-managed endpoints, use <em>Microsoft Intune &gt; Devices &gt; Windows updates &gt; Update rings</em> to define patching policies. Create an update ring that defers feature updates by 30 days but installs quality (security) updates within 7 days. Set the compliance deadline so devices that miss the window are automatically forced to restart and apply updates.</p><p>Do not forget non-Windows systems. Firmware updates for firewalls, switches, and printers count too -- track these in your asset inventory.</p>"
     },
     {
       "id": "3-14-2",
@@ -2097,7 +2152,7 @@
       "cmmcPractices": [
         "si-l2-3-14-2"
       ],
-      "notes": null
+      "notes": "<p>You need antivirus/anti-malware protection on every system that can host malicious code, and it needs to be active at the points where data enters and leaves your network -- email gateways, web proxies, and endpoints.</p><p><strong>Example 1:</strong> Deploy <em>Microsoft Defender for Endpoint</em> across all workstations and servers. In the <em>Microsoft 365 Defender portal &gt; Settings &gt; Endpoints &gt; Advanced features</em>, enable real-time protection, cloud-delivered protection, and automatic sample submission. Configure the scan schedule under <em>Endpoint security &gt; Antivirus &gt; Microsoft Defender Antivirus policy</em> to run a weekly full scan and continuous real-time monitoring.</p><p><strong>Example 2:</strong> For email-based threats, enable <em>Microsoft Defender for Office 365</em> in the M365 security center. Configure <em>Safe Attachments</em> policies to detonate attachments in a sandbox before delivery, and <em>Safe Links</em> policies to rewrite and check URLs at time of click. These catch malware at the email gateway before it reaches user endpoints.</p>"
     },
     {
       "id": "3-14-3",
@@ -2117,7 +2172,7 @@
       "cmmcPractices": [
         "si-l2-3-14-3"
       ],
-      "notes": null
+      "notes": "<p>You need a way to stay informed about new vulnerabilities and threats that could affect your systems. This means subscribing to official sources and having a process to review and act on what you learn.</p><p><strong>Example 1:</strong> Subscribe to CISA's Known Exploited Vulnerabilities (KEV) catalog alerts at cisa.gov and US-CERT's National Cyber Awareness System mailing list. When a new advisory drops that affects software in your environment -- say, a critical Exchange Server vulnerability -- triage it within 48 hours and initiate patching per your POA&amp;M process.</p><p><strong>Example 2:</strong> Enable <em>Microsoft 365 Message Center</em> notifications in the M365 admin center (<em>Health &gt; Message center</em>) and set up email notifications for security-related posts. Also subscribe to vendor-specific security bulletins -- for example, Cisco's Security Advisories or Palo Alto's Security Advisory page -- for any network hardware in your environment.</p><p>The key is having a named person or team responsible for reviewing these alerts weekly and deciding what action to take.</p>"
     },
     {
       "id": "3-14-4",
@@ -2133,7 +2188,7 @@
       "cmmcPractices": [
         "si-l2-3-14-4"
       ],
-      "notes": null
+      "notes": "<p>Your antivirus and anti-malware tools are only as good as their latest definitions. If your signature files are weeks old, you are essentially blind to new threats. Keep protection mechanisms current.</p><p><strong>Example 1:</strong> In <em>Microsoft Defender Antivirus</em>, verify that automatic definition updates are enabled. Check via GPO: <code>Computer Configuration &gt; Administrative Templates &gt; Windows Components &gt; Microsoft Defender Antivirus &gt; Security Intelligence Updates</code> -- ensure <em>Define the number of days before security intelligence is considered out of date</em> is set to 1 day. You can verify definitions are current on any machine by running <code>Get-MpComputerStatus | Select AntivirusSignatureLastUpdated</code> in PowerShell.</p><p><strong>Example 2:</strong> For environments using a third-party AV like CrowdStrike Falcon or Trellix (formerly McAfee), check the management console to confirm sensor/agent versions are current across all endpoints. In CrowdStrike, go to <em>Host Management &gt; Sensor Update Policy</em> and ensure auto-update is set to the N-1 or Latest channel. Set alerts for any endpoints that have not checked in within 48 hours.</p>"
     },
     {
       "id": "3-14-5",
@@ -2149,7 +2204,7 @@
       "cmmcPractices": [
         "si-l2-3-14-5"
       ],
-      "notes": null
+      "notes": "<p>This is the companion to malicious code protection -- you need to be scanning your systems on a regular schedule and also scanning files in real time as they arrive from external sources (email attachments, downloads, USB drives).</p><p><strong>Example 1:</strong> Configure <em>Microsoft Defender Antivirus</em> scheduled scans via GPO or Intune. Set a weekly full scan (all files and running programs) for off-hours -- say, Saturday at 2 AM -- and ensure real-time protection is always on. In Intune, this is under <em>Endpoint security &gt; Antivirus &gt; Microsoft Defender Antivirus &gt; Scan schedule</em>.</p><p><strong>Example 2:</strong> Run authenticated ACAS/Nessus vulnerability scans against your entire CUI enclave at least monthly. Schedule recurring scans in the Nessus console using a credentialed scan policy that checks for missing patches, misconfigurations, and malware indicators. Review the results within 5 business days and feed critical findings into your POA&amp;M.</p>"
     },
     {
       "id": "3-14-6",
@@ -2172,7 +2227,7 @@
       "cmmcPractices": [
         "si-l2-3-14-6"
       ],
-      "notes": null
+      "notes": "<p>System monitoring means actively watching your systems for signs of attacks, unauthorized access, and suspicious behavior. You need tools collecting logs, generating alerts, and someone reviewing them regularly.</p><p><strong>Example 1:</strong> Deploy <em>Microsoft Sentinel</em> (cloud SIEM) or a similar SIEM solution. Connect it to your Active Directory, M365 audit logs, firewall logs, and endpoint telemetry from Defender for Endpoint. Create analytics rules for high-priority events: multiple failed logins followed by a success (credential stuffing), new service installations, or PowerShell execution with encoded commands. Assign these alerts to a security analyst for daily review.</p><p><strong>Example 2:</strong> Enable Windows Security Event logging via GPO: <code>Computer Configuration &gt; Windows Settings &gt; Security Settings &gt; Advanced Audit Policy Configuration</code>. At minimum, enable auditing for Logon/Logoff (success and failure), Account Management (success and failure), Object Access (failure), and Policy Change (success). Forward these events to a central log collector using Windows Event Forwarding (WEF) or a log shipping agent.</p><p>Monitoring without review is just storage. Make sure someone is looking at alerts daily.</p>"
     },
     {
       "id": "3-14-7",
@@ -2188,7 +2243,7 @@
       "cmmcPractices": [
         "si-l2-3-14-7"
       ],
-      "notes": null
+      "notes": "<p>This practice is about detecting when someone or something is using your systems in a way that was not authorized -- whether that is an employee accessing data they should not, a compromised account, or shadow IT popping up on your network.</p><p><strong>Example 1:</strong> Use <em>Microsoft Defender for Identity</em> (formerly Azure ATP) to monitor Active Directory for suspicious behaviors: pass-the-hash attacks, lateral movement, privilege escalation, or reconnaissance activity. It installs sensors on your domain controllers and flags anomalies like a user account suddenly querying all AD objects or authenticating from an unusual location.</p><p><strong>Example 2:</strong> Implement network access control (NAC) using 802.1X authentication on your switches. Configure a RADIUS server (like Windows NPS) so that only domain-joined, authorized devices can connect to your network. Unrecognized devices get placed in a quarantine VLAN with no access to CUI systems. Review NAC logs weekly for unauthorized connection attempts.</p><p>Combine these with the audit logs from SI.L2-3.14.6 to build a complete picture of who is doing what on your network.</p>"
     }
   ]
 }

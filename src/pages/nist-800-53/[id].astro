@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import ControlDetail from '../../components/ControlDetail.astro';
+import InfoOnlyNotice from '../../components/InfoOnlyNotice.astro';
 import controlsData from '../../../data/nist-800-53.json';
 import cmmcData from '../../../data/cmmc-practices.json';
 import nistData from '../../../data/nist-800-171.json';
@@ -13,6 +14,10 @@ export function getStaticPaths() {
 }
 
 const { control } = Astro.props;
+
+function sanitizeInlineArtifacts(text: string): string {
+    return text.replace(/\{\{\s*insert:\s*param,\s*[^}]+\}\}/g, 'organization-defined parameter');
+}
 
 // Build cross-references: CMMC practices
 const cmmcRefs = (control.cmmcPractices || []).map(refId => {
@@ -38,11 +43,12 @@ const sameFamilyControls = controlsData.controls
     .slice(0, 4)
     .map(c => ({ id: c.id, displayId: c.displayId, title: c.title, url: `/nist-800-53/${c.id}` }));
 
-const pageTitle = `${control.displayId} — ${control.title} | NIST 800-53 | Cardinal Six Cyber`;
-const metaDesc = control.description.length > 155
-    ? control.description.slice(0, 152) + '...'
-    : control.description;
-const ogTitle = `${control.displayId} — ${control.title}`;
+const cleanDescription = sanitizeInlineArtifacts(control.description);
+const pageTitle = `${control.displayId} - ${control.title} | NIST 800-53 | Cardinal Six Cyber`;
+const metaDesc = cleanDescription.length > 155
+    ? cleanDescription.slice(0, 152) + '...'
+    : cleanDescription;
+const ogTitle = `${control.displayId} - ${control.title}`;
 ---
 
 <BaseLayout
@@ -59,7 +65,7 @@ const ogTitle = `${control.displayId} — ${control.title}`;
             "@context": "https://schema.org",
             "@type": "TechArticle",
             "name": ogTitle,
-            "description": control.description,
+            "description": cleanDescription,
             "datePublished": "2026-04-01",
             "author": { "@type": "Organization", "name": "Cardinal Six Cyber LLC" },
             "publisher": { "@type": "Organization", "name": "Cardinal Six Cyber LLC" },
@@ -77,6 +83,10 @@ const ogTitle = `${control.displayId} — ${control.title}`;
         })} />
     </Fragment>
 
+    <div class="container">
+        <InfoOnlyNotice />
+    </div>
+
     <ControlDetail
         id={control.id}
         displayId={control.displayId}
@@ -92,3 +102,4 @@ const ogTitle = `${control.displayId} — ${control.title}`;
         sameFamilyControls={sameFamilyControls}
     />
 </BaseLayout>
+

@@ -1,0 +1,73 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import InfoOnlyNotice from '../../components/InfoOnlyNotice.astro';
+import { cisControls } from '../../data/cis-controls-v8';
+---
+
+<BaseLayout
+  title="CIS Controls v8 Implementation Guidance | Cardinal Six Cyber"
+  description="Detailed CIS Controls v8 reference with dedicated pages for all 18 controls, including implementation actions, evidence examples, and metrics."
+  canonical="https://cardinalsixcyber.com/cis-controls-v8"
+  ogDescription="Full CIS Controls v8 guidance with per-control drill-down pages."
+  navFixed={false}
+  activePage="resources"
+>
+  <section class="ref-header">
+    <div class="container">
+      <span class="eyebrow reveal">Framework Reference</span>
+      <h1 class="ref-title reveal reveal-delay-1">CIS Controls <span class="accent">v8 Guidance</span></h1>
+      <div class="divider reveal reveal-delay-2"></div>
+      <p class="section-sub reveal reveal-delay-2">Every CIS Control below links to its own implementation page with concrete actions, evidence examples, and measurable outcomes.</p>
+    </div>
+  </section>
+
+  <div class="container">
+    <InfoOnlyNotice />
+  </div>
+
+  <section class="ref-content">
+    <div class="container stack-lg">
+      <article class="ref-card">
+        <h2>All 18 CIS Controls</h2>
+        <div class="controls-grid">
+          {cisControls.map((control) => (
+            <a href={`/cis-controls-v8/${control.slug}`} class="item-link">
+              <h3>{control.code}</h3>
+              <p>{control.title}</p>
+              <span>Starts in {control.startsIn}</span>
+            </a>
+          ))}
+        </div>
+      </article>
+      <article class="ref-card">
+        <h2>Related References</h2>
+        <div class="link-grid">
+          <a href="/nist-csf-2" class="ref-link">NIST CSF 2.0 Guidance</a>
+          <a href="/fedramp" class="ref-link">FedRAMP Guidance</a>
+          <a href="/nist-800-171" class="ref-link">NIST SP 800-171 Requirements</a>
+          <a href="/nist-800-53" class="ref-link">NIST SP 800-53 Controls</a>
+          <a href="/glossary" class="ref-link">Cybersecurity Glossary</a>
+        </div>
+      </article>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .ref-header { padding: calc(var(--space-32) + var(--space-8)) 0 var(--space-12); text-align: center; background: var(--c6-gradient-hero); }
+  .ref-title { font-family: var(--font-display); font-size: clamp(2.3rem, 5vw, 4rem); letter-spacing: 0.05em; text-transform: uppercase; line-height: 1.1; margin-top: var(--space-4); }
+  .ref-title .accent { color: var(--c6-red-bright); }
+  .ref-content { background: var(--c6-gradient-section); padding: var(--space-8) 0 var(--space-16); }
+  .stack-lg { display: grid; gap: var(--space-4); }
+  .ref-card { background: var(--c6-black-elevated); border: 1px solid var(--c6-border); border-radius: var(--radius-md); padding: var(--space-6); }
+  .ref-card h2 { margin: 0 0 var(--space-3); font-family: var(--font-display); font-size: 1.08rem; text-transform: uppercase; letter-spacing: 0.03em; }
+  .controls-grid { display: grid; gap: var(--space-3); grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .link-grid { display: grid; gap: var(--space-3); grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .item-link, .ref-link { display: block; background: rgba(255, 255, 255, 0.02); border: 1px solid var(--c6-border-soft); border-radius: var(--radius-sm); padding: var(--space-4); color: var(--c6-text-secondary); text-decoration: none; transition: border-color 0.2s ease, transform 0.2s ease, color 0.2s ease; }
+  .item-link h3 { margin: 0 0 var(--space-1); color: var(--c6-red-bright); font-family: var(--font-display); font-size: 0.95rem; }
+  .item-link p { margin: 0 0 var(--space-2); color: var(--c6-text-primary); line-height: 1.4; }
+  .item-link span { font-size: 0.82rem; color: var(--c6-text-muted); }
+  .item-link:hover, .ref-link:hover { border-color: var(--c6-border-accent); color: var(--c6-text-primary); transform: translateY(-1px); }
+  @media (max-width: 1100px) { .controls-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+  @media (max-width: 900px) { .controls-grid, .link-grid { grid-template-columns: 1fr; } }
+</style>

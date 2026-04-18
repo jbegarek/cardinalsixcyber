@@ -1,0 +1,85 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import InfoOnlyNotice from '../../components/InfoOnlyNotice.astro';
+import { csfCategories } from '../../data/nist-csf-2';
+
+const grouped = new Map<string, typeof csfCategories>();
+for (const item of csfCategories) {
+  const key = `${item.functionCode}:${item.functionName}`;
+  if (!grouped.has(key)) grouped.set(key, []);
+  grouped.get(key)!.push(item);
+}
+---
+
+<BaseLayout
+  title="NIST CSF 2.0 Implementation Guidance | Cardinal Six Cyber"
+  description="Detailed NIST CSF 2.0 reference with links for every Function category, implementation actions, evidence examples, and measurable outcomes."
+  canonical="https://cardinalsixcyber.com/nist-csf-2"
+  ogDescription="Full NIST CSF 2.0 guidance with category-level drill-down pages."
+  navFixed={false}
+  activePage="resources"
+>
+  <section class="ref-header">
+    <div class="container">
+      <span class="eyebrow reveal">Framework Reference</span>
+      <h1 class="ref-title reveal reveal-delay-1">NIST CSF <span class="accent">2.0 Guidance</span></h1>
+      <div class="divider reveal reveal-delay-2"></div>
+      <p class="section-sub reveal reveal-delay-2">Each Function and category below links to a dedicated implementation page with concrete actions, evidence, and metrics.</p>
+    </div>
+  </section>
+
+  <div class="container">
+    <InfoOnlyNotice />
+  </div>
+
+  <section class="ref-content">
+    <div class="container stack-lg">
+      {Array.from(grouped.entries()).map(([key, items]) => {
+        const [functionCode, functionName] = key.split(':');
+        return (
+          <article class="ref-card">
+            <h2><span class="code">{functionCode}</span> {functionName}</h2>
+            <div class="category-grid">
+              {items.map((item) => (
+                <a href={`/nist-csf-2/${item.slug}`} class="item-link">
+                  <h3>{item.code}</h3>
+                  <p>{item.title}</p>
+                  <span>Open category guidance</span>
+                </a>
+              ))}
+            </div>
+          </article>
+        );
+      })}
+
+      <article class="ref-card">
+        <h2>Related References</h2>
+        <div class="link-grid">
+          <a href="/cis-controls-v8" class="ref-link">CIS Controls v8 Guidance</a>
+          <a href="/fedramp" class="ref-link">FedRAMP Guidance</a>
+          <a href="/nist-800-171" class="ref-link">NIST SP 800-171 Requirements</a>
+          <a href="/nist-800-53" class="ref-link">NIST SP 800-53 Controls</a>
+          <a href="/glossary" class="ref-link">Cybersecurity Glossary</a>
+        </div>
+      </article>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .ref-header { padding: calc(var(--space-32) + var(--space-8)) 0 var(--space-12); text-align: center; background: var(--c6-gradient-hero); }
+  .ref-title { font-family: var(--font-display); font-size: clamp(2.3rem, 5vw, 4rem); letter-spacing: 0.05em; text-transform: uppercase; line-height: 1.1; margin-top: var(--space-4); }
+  .ref-title .accent { color: var(--c6-red-bright); }
+  .ref-content { background: var(--c6-gradient-section); padding: var(--space-8) 0 var(--space-16); }
+  .stack-lg { display: grid; gap: var(--space-4); }
+  .ref-card { background: var(--c6-black-elevated); border: 1px solid var(--c6-border); border-radius: var(--radius-md); padding: var(--space-6); }
+  .ref-card h2 { margin: 0 0 var(--space-3); font-family: var(--font-display); font-size: 1.08rem; text-transform: uppercase; letter-spacing: 0.03em; }
+  .code { color: var(--c6-red-bright); margin-right: 0.35rem; }
+  .category-grid, .link-grid { display: grid; gap: var(--space-3); grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .item-link, .ref-link { display: block; background: rgba(255, 255, 255, 0.02); border: 1px solid var(--c6-border-soft); border-radius: var(--radius-sm); padding: var(--space-4); color: var(--c6-text-secondary); text-decoration: none; transition: border-color 0.2s ease, transform 0.2s ease, color 0.2s ease; }
+  .item-link h3 { margin: 0 0 var(--space-1); color: var(--c6-red-bright); font-family: var(--font-display); font-size: 0.95rem; }
+  .item-link p { margin: 0 0 var(--space-2); color: var(--c6-text-primary); line-height: 1.4; }
+  .item-link span { font-size: 0.82rem; color: var(--c6-text-muted); }
+  .item-link:hover, .ref-link:hover { border-color: var(--c6-border-accent); color: var(--c6-text-primary); transform: translateY(-1px); }
+  @media (max-width: 900px) { .category-grid, .link-grid { grid-template-columns: 1fr; } }
+</style>

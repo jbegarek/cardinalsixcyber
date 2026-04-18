@@ -1,0 +1,583 @@
+"""
+Practitioner notes for CMMC practices — Batch 1: Access Control (AC),
+Awareness & Training (AT), and Audit & Accountability (AU).
+
+Keys match the practice `id` field from cmmc-practices.json.
+Values are HTML strings rendered on the practice detail pages.
+"""
+
+NOTES = {
+    # ── Access Control (AC) ─────────────────────────────────────────────
+
+    "ac-l1-3-1-1": (
+        "<p>This is the foundation of everything else in access control. You need to know exactly "
+        "who has accounts on your systems, what those accounts can do, and have a reliable process "
+        "for turning them off when someone leaves or changes roles.</p>"
+        "<p><strong>Example 1:</strong> In Active Directory, set up a scheduled PowerShell script "
+        "that queries <em>Get-ADUser -Filter {Enabled -eq $true} -Properties LastLogonDate</em> and "
+        "flags any account inactive for 30+ days. Pipe the output to your IT manager's inbox weekly. "
+        "For the disable policy, configure the GPO at <em>Computer Configuration → Policies → "
+        "Windows Settings → Security Settings → Local Policies → Security Options → "
+        "\"Interactive logon: Machine inactivity limit\"</em> to auto-lock after 15 minutes.</p>"
+        "<p><strong>Example 2:</strong> In Microsoft 365 Admin Center, go to <em>Azure AD → "
+        "Identity → Users → Per-user MFA</em> and cross-reference your active user list quarterly. "
+        "Set up an Access Review under <em>Azure AD → Identity Governance → Access Reviews</em> "
+        "that automatically asks managers to confirm whether each team member still needs access "
+        "every 90 days. Denied accounts are auto-disabled.</p>"
+    ),
+
+    "ac-l1-3-1-2": (
+        "<p>Think of this as making sure only the right people can walk through your front door — "
+        "and once inside, they can only open the doors they're supposed to. You need a list of "
+        "who's allowed in and a way to enforce it technically, not just on paper.</p>"
+        "<p><strong>Example 1:</strong> In Active Directory, create security groups for each "
+        "department and assign NTFS permissions on file shares based on group membership. Set the "
+        "GPO at <em>Computer Configuration → Windows Settings → Security Settings → Local "
+        "Policies → User Rights Assignment → \"Allow log on locally\"</em> to only include the "
+        "groups that need access to that specific machine.</p>"
+        "<p><strong>Example 2:</strong> In Microsoft 365 Admin Center, go to <em>Azure AD → "
+        "Security → Conditional Access</em> and create a policy that blocks sign-in from any "
+        "account not in your approved user group. Add a second condition that requires a compliant "
+        "device. This catches former employees and unauthorized personal devices in one policy.</p>"
+    ),
+
+    "ac-l2-3-1-3": (
+        "<p>This is about controlling where your CUI can travel, not just who can see it. Even if "
+        "someone is authorized to view a file, you still need rules that prevent that file from "
+        "being emailed to a personal Gmail or uploaded to a random cloud service.</p>"
+        "<p><strong>Example 1:</strong> On your firewall (e.g., Palo Alto or Fortinet), create an "
+        "outbound rule that blocks traffic to known consumer cloud storage domains (Dropbox, "
+        "Google Drive personal, iCloud) from the CUI network segment. Use URL filtering categories "
+        "like <em>Policies → Security → URL Filtering Profile → Block \"Personal Storage\"</em>.</p>"
+        "<p><strong>Example 2:</strong> In Microsoft Purview (formerly Compliance Center), go to "
+        "<em>Data Loss Prevention → Policies → Create Policy</em> and build a rule that detects "
+        "CUI markings or sensitive content patterns in outbound email. Set the action to block "
+        "and notify the sender. Apply the policy to your Exchange Online and SharePoint tenants.</p>"
+    ),
+
+    "ac-l2-3-1-4": (
+        "<p>Separation of duties means no single person should be able to both approve and execute "
+        "a critical action. The person who writes the check shouldn't be the same person who signs "
+        "it. In IT terms, the person who creates accounts shouldn't also be the one auditing them.</p>"
+        "<p><strong>Example 1:</strong> In Active Directory, create separate admin tiers. Put your "
+        "domain admins in one group and your help desk staff (who handle password resets and basic "
+        "account modifications) in another. Use <em>Active Directory Delegation of Control Wizard</em> "
+        "to give the help desk group only \"Reset User Passwords\" and \"Read All User Information\" — "
+        "nothing else.</p>"
+        "<p><strong>Example 2:</strong> In your change management policy, require that any "
+        "firewall rule change must be requested by one person, reviewed by a second, and "
+        "implemented by a third. Document this in a Separation of Duties matrix — a simple "
+        "spreadsheet showing which roles are incompatible. Your CMMC assessor will want to see "
+        "this document.</p>"
+    ),
+
+    "ac-l2-3-1-5": (
+        "<p>Least privilege means giving people only the access they need to do their job — nothing "
+        "more. If an accountant doesn't need access to engineering drawings, they shouldn't have "
+        "it, even if giving everyone access seems easier.</p>"
+        "<p><strong>Example 1:</strong> In Active Directory, remove all users from the local "
+        "Administrators group on their workstations. Configure the GPO at <em>Computer "
+        "Configuration → Preferences → Control Panel Settings → Local Users and Groups</em> to "
+        "enforce this across the domain. Users who truly need elevated privileges should be given "
+        "a separate admin account.</p>"
+        "<p><strong>Example 2:</strong> In SharePoint Online, go to <em>Site Settings → Site "
+        "Permissions</em> and audit who has \"Full Control\" vs. \"Edit\" vs. \"Read.\" Most users "
+        "only need Edit or Read access to the sites relevant to their projects. Review these "
+        "permissions quarterly with each site owner to remove stale access.</p>"
+    ),
+
+    "ac-l2-3-1-6": (
+        "<p>This practice takes least privilege a step further — it says that people who <em>do</em> "
+        "have admin accounts must use a regular account for everyday work like email and web "
+        "browsing. The admin account only comes out when they need to do admin things.</p>"
+        "<p><strong>Example 1:</strong> In Active Directory, create a naming convention for admin "
+        "accounts (e.g., <em>a-jsmith</em> for admin, <em>jsmith</em> for daily use). Set the "
+        "GPO at <em>Computer Configuration → Windows Settings → Security Settings → Local "
+        "Policies → User Rights Assignment → \"Deny log on locally\"</em> to prevent admin "
+        "accounts from logging into regular workstations. Admins use their privileged account "
+        "only via Remote Desktop to servers or through a Privileged Access Workstation.</p>"
+        "<p><strong>Example 2:</strong> In Microsoft 365, go to <em>Azure AD → Roles and "
+        "Administrators</em> and ensure that Global Admin accounts are separate cloud-only "
+        "identities that are not synced from on-prem AD. Enable Privileged Identity Management "
+        "(PIM) so admins must \"activate\" their role for a limited time window, rather than "
+        "having standing admin access 24/7.</p>"
+    ),
+
+    "ac-l2-3-1-7": (
+        "<p>Standard users should never be able to install software, change security settings, or "
+        "modify system configurations. And when someone <em>does</em> use admin privileges, "
+        "those actions need to be logged so you can spot misuse.</p>"
+        "<p><strong>Example 1:</strong> Configure Windows User Account Control (UAC) via GPO at "
+        "<em>Computer Configuration → Windows Settings → Security Settings → Local Policies → "
+        "Security Options → \"User Account Control: Run all administrators in Admin Approval "
+        "Mode\"</em> set to Enabled. This forces even admin users to confirm elevation, and "
+        "blocks standard users from elevating entirely.</p>"
+        "<p><strong>Example 2:</strong> Enable <em>Advanced Audit Policy Configuration</em> via "
+        "GPO at <em>Computer Configuration → Windows Settings → Security Settings → Advanced "
+        "Audit Policy → Privilege Use → \"Audit Sensitive Privilege Use\"</em> set to "
+        "Success/Failure. This logs every time someone uses privileges like Debug Programs, "
+        "Take Ownership, or Act As Part of the Operating System. Forward these logs to your "
+        "SIEM (e.g., Splunk, Microsoft Sentinel) for review.</p>"
+    ),
+
+    "ac-l2-3-1-8": (
+        "<p>This one protects you from brute-force password attacks. If someone (or a bot) keeps "
+        "guessing passwords, the account should lock out before they get in.</p>"
+        "<p><strong>Example 1:</strong> In Group Policy, go to <em>Computer Configuration → "
+        "Windows Settings → Security Settings → Account Policies → Account Lockout Policy</em>. "
+        "Set \"Account lockout threshold\" to 5 invalid logon attempts, \"Account lockout "
+        "duration\" to 30 minutes, and \"Reset account lockout counter after\" to 30 minutes. "
+        "This is the DoD-recommended configuration.</p>"
+        "<p><strong>Example 2:</strong> In Azure AD, go to <em>Security → Authentication "
+        "methods → Password protection</em> and enable Smart Lockout. Set the lockout threshold "
+        "to 5 attempts and the lockout duration to 60 seconds (Azure AD automatically increases "
+        "duration for repeated lockouts). Also enable <em>Azure AD → Security → Identity "
+        "Protection</em> to flag risky sign-ins and block accounts under active attack.</p>"
+    ),
+
+    "ac-l2-3-1-9": (
+        "<p>Before anyone logs into your systems, they need to see a warning banner. This isn't "
+        "just a formality — it's a legal requirement that establishes the system is for authorized "
+        "use only and that activity may be monitored. Without it, you may have trouble taking "
+        "action against misuse.</p>"
+        "<p><strong>Example 1:</strong> Configure the Windows logon banner via GPO at <em>Computer "
+        "Configuration → Windows Settings → Security Settings → Local Policies → Security "
+        "Options</em>. Set <em>\"Interactive logon: Message title for users attempting to log "
+        "on\"</em> to \"WARNING\" and <em>\"Interactive logon: Message text for users attempting "
+        "to log on\"</em> to your DoD-compliant warning text. The user must click OK before "
+        "reaching the login screen.</p>"
+        "<p><strong>Example 2:</strong> For web applications and Microsoft 365, create a "
+        "Conditional Access policy in <em>Azure AD → Security → Conditional Access → Terms of "
+        "Use</em>. Upload your use notification as a PDF. Users will be required to accept the "
+        "terms before accessing any cloud resources. Set it to re-prompt annually or whenever "
+        "the terms are updated.</p>"
+    ),
+
+    "ac-l2-3-1-10": (
+        "<p>If someone walks away from their computer, the screen needs to lock automatically so "
+        "nobody else can sit down and access CUI. The lock screen should hide whatever was on "
+        "the display — not just dim it.</p>"
+        "<p><strong>Example 1:</strong> Configure the screen lock via GPO at <em>User "
+        "Configuration → Administrative Templates → Control Panel → Personalization → "
+        "\"Enable screen saver\"</em> = Enabled, <em>\"Screen saver timeout\"</em> = 900 "
+        "seconds (15 minutes), and <em>\"Password protect the screen saver\"</em> = Enabled. "
+        "For a more reliable lock, also set <em>Computer Configuration → Windows Settings → "
+        "Security Settings → Local Policies → Security Options → \"Interactive logon: Machine "
+        "inactivity limit\"</em> to 900 seconds.</p>"
+        "<p><strong>Example 2:</strong> For macOS devices managed through Jamf Pro, create a "
+        "Configuration Profile under <em>Computers → Configuration Profiles → Security & "
+        "Privacy</em>. Set \"Require password after sleep or screen saver begins\" to "
+        "\"Immediately\" and configure the screen saver to activate after 15 minutes of "
+        "inactivity. Push the profile to all managed Macs.</p>"
+    ),
+
+    "ac-l2-3-1-11": (
+        "<p>Sessions need to end automatically after a period of inactivity. This is different "
+        "from screen lock — session termination actually logs the user out, closing their "
+        "applications and connections, not just hiding the screen.</p>"
+        "<p><strong>Example 1:</strong> For Remote Desktop sessions, configure the GPO at "
+        "<em>Computer Configuration → Administrative Templates → Windows Components → Remote "
+        "Desktop Services → Remote Desktop Session Host → Session Time Limits → \"Set time "
+        "limit for disconnected sessions\"</em> to 30 minutes and <em>\"Set time limit for "
+        "active but idle RDP sessions\"</em> to 30 minutes. Disconnected sessions should be "
+        "terminated, not left hanging.</p>"
+        "<p><strong>Example 2:</strong> In Microsoft 365, go to <em>Azure AD → Enterprise "
+        "Applications → Office 365 → Conditional Access → Session Controls</em> and set "
+        "\"Sign-in frequency\" to 8 hours. This forces users to re-authenticate at least once "
+        "per workday, even if they've been active. For sensitive CUI applications, set it to "
+        "1 hour.</p>"
+    ),
+
+    "ac-l2-3-1-12": (
+        "<p>If your employees work from home or travel, they're using remote access. You need "
+        "clear rules about how they connect, what they can access remotely, and ensure all "
+        "remote connections go through a managed gateway — no direct connections to internal "
+        "systems.</p>"
+        "<p><strong>Example 1:</strong> Deploy a VPN solution (e.g., Cisco AnyConnect, Palo "
+        "Alto GlobalProtect) and configure it to require both a user certificate and MFA before "
+        "granting access. On the VPN concentrator, create an access policy that limits remote "
+        "users to only the network segments they need. Block split-tunneling so all traffic "
+        "flows through your monitored network.</p>"
+        "<p><strong>Example 2:</strong> Write a Remote Access Policy document that defines: "
+        "who is authorized for remote access, what devices are allowed (company-managed only), "
+        "what MFA method is required, and what data can be accessed remotely. In Azure AD, "
+        "enforce this with a Conditional Access policy under <em>Security → Conditional Access</em> "
+        "that requires a compliant/Intune-managed device and MFA for any sign-in from outside "
+        "your corporate IP ranges.</p>"
+    ),
+
+    "ac-l2-3-1-13": (
+        "<p>Any remote session must be encrypted end to end. If someone is working from home and "
+        "connecting to your network, that connection needs to be wrapped in strong encryption so "
+        "nobody eavesdropping on the Wi-Fi can see CUI in transit.</p>"
+        "<p><strong>Example 1:</strong> On your VPN appliance (e.g., Palo Alto GlobalProtect), "
+        "go to <em>Network → IPSec Tunnels → Crypto Profile</em> and ensure you are using "
+        "AES-256 encryption with SHA-256 integrity and DH Group 14 or higher. Disable any "
+        "legacy protocols like 3DES or MD5. Document these settings in your SSP.</p>"
+        "<p><strong>Example 2:</strong> For remote desktop access, configure RDP to use TLS 1.2 "
+        "or higher via GPO at <em>Computer Configuration → Administrative Templates → Windows "
+        "Components → Remote Desktop Services → Remote Desktop Session Host → Security → "
+        "\"Require use of specific security layer for remote (RDP) connections\"</em> set to "
+        "SSL (TLS 1.2). Also set <em>\"Set client connection encryption level\"</em> to High.</p>"
+    ),
+
+    "ac-l2-3-1-14": (
+        "<p>All remote access must go through managed, monitored chokepoints — no one should be "
+        "able to connect directly to an internal server from the internet. Think of it like "
+        "having a guarded front gate instead of an open field.</p>"
+        "<p><strong>Example 1:</strong> On your perimeter firewall, create rules that block all "
+        "inbound connections except those destined for your VPN gateway. In Palo Alto, configure "
+        "<em>Policies → Security → Inbound Rules</em> with an explicit deny-all rule at the "
+        "bottom and allow rules only for the VPN concentrator's public IP on the specific VPN "
+        "port (e.g., UDP 4501 for IKEv2).</p>"
+        "<p><strong>Example 2:</strong> If using Azure, deploy Azure Bastion as the single "
+        "access point for RDP/SSH to VMs. In the Azure Portal, go to <em>Virtual Network → "
+        "Bastion → Create</em> and remove all public IPs from individual VMs. This forces all "
+        "administrative remote access through a managed, logged, and encrypted browser-based "
+        "session.</p>"
+    ),
+
+    "ac-l2-3-1-15": (
+        "<p>Running admin commands or viewing security configurations remotely is a high-risk "
+        "activity. You need to explicitly authorize who can do this and make sure it's logged. "
+        "Not everyone who can VPN in should be able to run PowerShell as admin on a server.</p>"
+        "<p><strong>Example 1:</strong> In Active Directory, create a dedicated \"Remote Admins\" "
+        "security group. Configure the GPO at <em>Computer Configuration → Windows Settings → "
+        "Security Settings → Local Policies → User Rights Assignment → \"Access this computer "
+        "from the network\"</em> to include only this group on servers. Document the list of "
+        "authorized remote administrators and the commands they are permitted to execute in "
+        "your SSP.</p>"
+        "<p><strong>Example 2:</strong> Deploy a Privileged Access Management (PAM) tool like "
+        "CyberArk or BeyondTrust. Configure it to require just-in-time access requests for any "
+        "remote administrative session. The admin requests access, a supervisor approves, and "
+        "the session is time-limited and fully recorded. This gives you both authorization "
+        "control and an audit trail.</p>"
+    ),
+
+    "ac-l2-3-1-16": (
+        "<p>Wi-Fi is convenient but also a major attack surface. You need to control who connects, "
+        "how they authenticate, and make sure the wireless signal itself is encrypted. And if a "
+        "device has Wi-Fi but doesn't need it, turn it off before you hand it to the user.</p>"
+        "<p><strong>Example 1:</strong> On your wireless access points (e.g., Cisco Meraki, "
+        "Aruba), configure WPA3-Enterprise with RADIUS authentication tied to Active Directory. "
+        "In the Meraki dashboard, go to <em>Wireless → Configure → Access Control</em>, set "
+        "Security to \"WPA3 Enterprise\" and RADIUS server to your NPS server. Create a separate "
+        "SSID for guests with no access to internal resources.</p>"
+        "<p><strong>Example 2:</strong> For devices issued to users who don't need Wi-Fi (e.g., "
+        "desktop workstations on a wired network), disable the wireless adapter via GPO at "
+        "<em>Computer Configuration → Administrative Templates → Network → Network Connections → "
+        "\"Prohibit connection to non-domain networks when connected to domain authenticated "
+        "network\"</em> = Enabled. For laptops, document in your Wireless Access Policy which "
+        "SSIDs are authorized and the encryption requirements.</p>"
+    ),
+
+    "ac-l2-3-1-17": (
+        "<p>Your wireless network must use real authentication (not just a shared password) and "
+        "strong encryption. A simple pre-shared key posted on a whiteboard in the break room "
+        "is not going to cut it for a CUI environment.</p>"
+        "<p><strong>Example 1:</strong> Configure your wireless infrastructure for WPA3-Enterprise "
+        "or, at minimum, WPA2-Enterprise using 802.1X. On your RADIUS server (e.g., Windows NPS), "
+        "go to <em>NPS → RADIUS Clients and Servers → RADIUS Clients</em> to add your access "
+        "points, then create a Connection Request Policy that requires PEAP-MSCHAPv2 with "
+        "machine certificates.</p>"
+        "<p><strong>Example 2:</strong> On the wireless controller, disable all legacy protocols. "
+        "In Aruba Central, go to <em>Configuration → WLANs → Security</em> and ensure TKIP is "
+        "disabled, only AES-CCMP (or AES-GCMP for WPA3) is enabled. Also disable the WPS (Wi-Fi "
+        "Protected Setup) feature, which is a known vulnerability.</p>"
+    ),
+
+    "ac-l2-3-1-18": (
+        "<p>Phones, tablets, and laptops that move around are easy to lose or steal. If those "
+        "devices touch CUI, they need to be managed, encrypted, and controlled. You can't just "
+        "let employees use their personal phones to check work email without guardrails.</p>"
+        "<p><strong>Example 1:</strong> Enroll all company mobile devices in Microsoft Intune "
+        "(Endpoint Manager). In the <em>Intune Admin Center → Devices → Compliance Policies → "
+        "Create Policy</em>, require device encryption, a minimum OS version, and a device PIN "
+        "of at least 6 digits. Non-compliant devices are blocked from accessing company email "
+        "and SharePoint.</p>"
+        "<p><strong>Example 2:</strong> Write a Mobile Device Policy that prohibits the use of "
+        "personal (BYOD) devices for CUI. For company-issued devices, configure Intune App "
+        "Protection Policies under <em>Apps → App Protection Policies → Create Policy</em> to "
+        "prevent copy/paste of data from managed apps (like Outlook) to unmanaged apps (like "
+        "personal WhatsApp). Enable remote wipe capability for all enrolled devices.</p>"
+    ),
+
+    "ac-l2-3-1-19": (
+        "<p>Any mobile device that stores or accesses CUI must have full-disk encryption turned "
+        "on. If someone leaves a laptop in an airport or a phone in a taxi, the data should be "
+        "unreadable without the credentials.</p>"
+        "<p><strong>Example 1:</strong> For Windows laptops, enable BitLocker via GPO at "
+        "<em>Computer Configuration → Administrative Templates → Windows Components → BitLocker "
+        "Drive Encryption → Operating System Drives → \"Require additional authentication at "
+        "startup\"</em>. Set it to require TPM + PIN. Store BitLocker recovery keys in Active "
+        "Directory by enabling <em>\"Store BitLocker recovery information in AD DS\"</em>.</p>"
+        "<p><strong>Example 2:</strong> For iOS and Android devices managed through Intune, "
+        "create a Device Configuration Profile under <em>Devices → Configuration Profiles → "
+        "Create Profile → Device Restrictions</em>. For iOS, encryption is on by default when "
+        "a passcode is set — enforce a 6-digit passcode. For Android, enable <em>\"Require "
+        "encryption on device\"</em> in the compliance policy. Devices that fail the encryption "
+        "check are blocked from accessing company resources.</p>"
+    ),
+
+    "ac-l1-3-1-20": (
+        "<p>External systems — like a contractor's laptop, a partner's cloud environment, or a "
+        "personal home computer — are not under your control. You need to formally decide which "
+        "external systems are allowed to touch your data and put restrictions on them.</p>"
+        "<p><strong>Example 1:</strong> In Azure AD Conditional Access, create a policy under "
+        "<em>Security → Conditional Access → New Policy</em> that blocks sign-in from devices "
+        "not marked as compliant in Intune. Set the condition to <em>Device state → Exclude → "
+        "Device marked as compliant</em>. This means only company-managed machines can access "
+        "your Microsoft 365 environment, blocking personal devices and contractor laptops that "
+        "haven't been enrolled.</p>"
+        "<p><strong>Example 2:</strong> Write an External Systems Use Policy that lists every "
+        "external system or service authorized to interact with your CUI. For each one, document "
+        "the security requirements it must meet (e.g., encryption, MFA, logging). Maintain a "
+        "signed Interconnection Security Agreement (ISA) or a memorandum of understanding with "
+        "each external party. Your assessor will want to see these agreements.</p>"
+    ),
+
+    "ac-l2-3-1-21": (
+        "<p>USB drives and portable hard drives are a classic way data walks out the door. This "
+        "practice says you need to control whether your organization's USB drives can be plugged "
+        "into outside computers.</p>"
+        "<p><strong>Example 1:</strong> Via GPO, go to <em>Computer Configuration → Administrative "
+        "Templates → System → Removable Storage Access</em> and set <em>\"All Removable Storage "
+        "classes: Deny all access\"</em> to Enabled on workstations where USB storage is not "
+        "needed. For workstations where it is needed, create a separate policy that allows only "
+        "approved encrypted USB devices by device ID.</p>"
+        "<p><strong>Example 2:</strong> In Microsoft Defender for Endpoint, go to <em>Settings → "
+        "Endpoints → Device Control → Removable storage access control</em> and create a policy "
+        "that only allows specific approved USB vendor IDs (e.g., IronKey or Apricorn encrypted "
+        "drives). All other USB mass storage devices are blocked. Also configure an alert so "
+        "your security team is notified whenever someone attempts to use an unauthorized drive.</p>"
+    ),
+
+    "ac-l1-3-1-22": (
+        "<p>If your company has a website, a public SharePoint page, or posts documents publicly, "
+        "you need to make sure none of that public content accidentally contains CUI. This happens "
+        "more often than you'd think — someone uploads a briefing deck to the website without "
+        "redacting controlled information.</p>"
+        "<p><strong>Example 1:</strong> Establish a content review process where at least two "
+        "people review any document before it goes on a public-facing system. Create a checklist "
+        "that reviewers use to verify the content does not contain CUI markings, controlled "
+        "technical data, contract numbers, or export-controlled information. Document the "
+        "review in a log with reviewer names and dates.</p>"
+        "<p><strong>Example 2:</strong> In Microsoft Purview, set up a Data Loss Prevention "
+        "policy under <em>Compliance Center → Data Loss Prevention → Policies → Create Policy</em> "
+        "that scans SharePoint sites designated as public-facing. Configure the rule to detect "
+        "CUI markings (\"CUI\", \"CONTROLLED\", \"FOUO\") and block publishing of matching "
+        "documents. Send an alert to the compliance officer when a match is found.</p>"
+    ),
+
+    # ── Awareness & Training (AT) ───────────────────────────────────────
+
+    "at-l2-3-2-1": (
+        "<p>Every person who touches your systems needs basic security awareness training. This "
+        "isn't optional or nice-to-have — it's a requirement. New hires get trained before they "
+        "get access, and everyone refreshes annually at minimum.</p>"
+        "<p><strong>Example 1:</strong> Subscribe to a security awareness training platform like "
+        "KnowBe4 or Proofpoint Security Awareness. Set up an annual training campaign under "
+        "<em>KnowBe4 → Training → Create Campaign</em> that includes modules on phishing, "
+        "social engineering, insider threats, password hygiene, and CUI handling. Configure the "
+        "platform to auto-enroll new users and send reminders until training is completed. "
+        "Export completion reports for your compliance records.</p>"
+        "<p><strong>Example 2:</strong> Supplement formal training with monthly phishing "
+        "simulations. In KnowBe4, go to <em>Phishing → Create Campaign</em> and schedule "
+        "simulated phishing emails. Users who click the link get an immediate training moment. "
+        "Track click rates over time to measure improvement. Keep records of all simulations "
+        "and results — assessors will ask for these.</p>"
+    ),
+
+    "at-l2-3-2-2": (
+        "<p>Role-based training goes beyond the basics. Your system admins need different training "
+        "than your accountants. The people who manage your firewalls need to understand firewall-"
+        "specific risks, while HR staff need training on protecting PII.</p>"
+        "<p><strong>Example 1:</strong> For IT administrators, require completion of vendor-specific "
+        "training on the tools they manage. For example, if you use Palo Alto firewalls, enroll "
+        "admins in the Palo Alto Networks Digital Learning portal for the <em>Firewall Essentials "
+        "(EDU-210)</em> course. Document the completion certificate and file it with your "
+        "training records. Update this annually or when the product version changes.</p>"
+        "<p><strong>Example 2:</strong> For users who handle CUI, create a targeted training "
+        "module (can be as simple as a recorded briefing and quiz) that covers: what CUI is, "
+        "how to identify CUI markings, where CUI may and may not be stored, and what to do if "
+        "CUI is found in an unauthorized location. Track completion in a training matrix "
+        "spreadsheet that maps each user's role to their required training and completion dates.</p>"
+    ),
+
+    "at-l2-3-2-3": (
+        "<p>Your people are your best sensors for catching insider threats. But they need to know "
+        "what to look for and have a clear way to report it without fear of retaliation.</p>"
+        "<p><strong>Example 1:</strong> Include a dedicated insider threat module in your security "
+        "awareness training. In KnowBe4 or your training platform, assign the \"Insider Threat\" "
+        "module that covers warning signs: unusual after-hours access, copying large amounts of "
+        "data to USB, expressed disgruntlement, or unexplained wealth. Require an annual refresher "
+        "and quiz with a passing score of 80% or higher.</p>"
+        "<p><strong>Example 2:</strong> Establish a reporting mechanism — this can be as simple "
+        "as a dedicated email address (e.g., insider-report@yourcompany.com) or a tip line "
+        "referenced in your Insider Threat Policy. Post reminders in common areas and include "
+        "the reporting procedure in new-hire onboarding packets. Document that the reporting "
+        "mechanism exists and that employees were informed about it — your assessor will check "
+        "for evidence of both.</p>"
+    ),
+
+    # ── Audit & Accountability (AU) ─────────────────────────────────────
+
+    "au-l2-3-3-1": (
+        "<p>You need to decide what events are important enough to log and then actually turn "
+        "on logging for those events. At a minimum, you should be logging logins, failed logins, "
+        "privilege escalation, file access to CUI, and changes to security settings.</p>"
+        "<p><strong>Example 1:</strong> Configure Windows audit policies via GPO at <em>Computer "
+        "Configuration → Windows Settings → Security Settings → Advanced Audit Policy "
+        "Configuration</em>. Enable: <em>Logon/Logoff → Audit Logon</em> (Success/Failure), "
+        "<em>Account Management → Audit User Account Management</em> (Success/Failure), "
+        "<em>Object Access → Audit File System</em> (Success/Failure), and <em>Policy Change → "
+        "Audit Policy Change</em> (Success). Document this list of auditable events in your SSP.</p>"
+        "<p><strong>Example 2:</strong> In Microsoft 365, go to <em>Compliance Center → Audit → "
+        "Audit Retention Policies</em> and ensure Unified Audit Log is enabled. Then go to "
+        "<em>Purview → Audit → Search</em> and verify you can see events like file access, "
+        "sharing changes, and admin actions. Create a custom audit retention policy that keeps "
+        "logs for at least one year (the default is 90 days on E3, one year on E5).</p>"
+    ),
+
+    "au-l2-3-3-2": (
+        "<p>It's not enough to just log that something happened — each log entry needs to answer "
+        "the questions: who did it, what did they do, when did they do it, where did it happen, "
+        "and did it succeed or fail?</p>"
+        "<p><strong>Example 1:</strong> In Windows Event Viewer, a properly configured audit log "
+        "entry (e.g., Event ID 4624 for successful logon) already captures the user account name, "
+        "the workstation, the timestamp, the logon type, and the source IP address. Verify this "
+        "is working by running <em>wevtutil qe Security /c:5 /rd:true /f:text</em> on a domain "
+        "workstation and confirming the log entries contain all required fields.</p>"
+        "<p><strong>Example 2:</strong> If you use a SIEM like Splunk or Microsoft Sentinel, "
+        "create a saved search or workbook that validates log completeness. In Sentinel, go to "
+        "<em>Workbooks → Create → Add Query</em> and query: "
+        "<code>SecurityEvent | where TimeGenerated > ago(1h) | project TimeGenerated, Account, "
+        "Computer, Activity, IpAddress, LogonType</code>. If any field is blank, you have a "
+        "logging configuration gap to fix.</p>"
+    ),
+
+    "au-l2-3-3-3": (
+        "<p>Once you've defined what to log and what details to capture, you need to make sure "
+        "the system is actually generating those records and that you're keeping them long enough. "
+        "If your logs only go back a week, they won't help you investigate an incident that "
+        "started three months ago.</p>"
+        "<p><strong>Example 1:</strong> In Windows, configure the Security Event Log size and "
+        "retention via GPO at <em>Computer Configuration → Windows Settings → Security Settings → "
+        "Event Log → Security Log → \"Maximum security log size\"</em> to at least 1 GB, and "
+        "set <em>\"Retention method for security log\"</em> to \"Overwrite events as needed\" — "
+        "but only if you are forwarding logs to a centralized SIEM first. Without a SIEM, set "
+        "it to \"Do not overwrite events\" and manage log rotation manually.</p>"
+        "<p><strong>Example 2:</strong> Deploy a centralized log collector like Splunk, Graylog, "
+        "or Microsoft Sentinel that aggregates logs from all systems. In Splunk, go to <em>Settings → "
+        "Indexes → Create Index</em> and set the retention period to at least 365 days. Configure "
+        "Windows Event Forwarding (WEF) or install Splunk Universal Forwarder on all endpoints "
+        "to push logs to the central collector in near real-time.</p>"
+    ),
+
+    "au-l2-3-3-4": (
+        "<p>If your logging stops working and nobody notices, you could be blind to an active "
+        "attack. This practice requires you to detect when logging fails and alert the right "
+        "people immediately so they can fix it.</p>"
+        "<p><strong>Example 1:</strong> In your SIEM (e.g., Microsoft Sentinel), create an alert "
+        "rule under <em>Analytics → Create → Scheduled Query Rule</em> that detects when a "
+        "monitored endpoint stops sending logs. Use a query like: <code>Heartbeat | summarize "
+        "LastHeartbeat = max(TimeGenerated) by Computer | where LastHeartbeat < ago(30m)</code>. "
+        "Set the alert to email your SOC or IT admin when a machine goes silent for more than "
+        "30 minutes.</p>"
+        "<p><strong>Example 2:</strong> On your Windows servers, configure the <em>Windows Event "
+        "Log</em> service to alert on failure. In Group Policy, go to <em>Computer Configuration → "
+        "Windows Settings → Security Settings → System Services → \"Windows Event Log\"</em> and "
+        "set the startup type to Automatic. Then create a scheduled task via <em>Task Scheduler → "
+        "Create Task → Trigger on Event → System log, Source: EventLog, Event ID 6008</em> "
+        "(unexpected shutdown) that sends an email alert to your IT team.</p>"
+    ),
+
+    "au-l1-3-3-5": (
+        "<p>Collecting logs is useless if nobody looks at them. You need a regular schedule for "
+        "reviewing audit logs and someone assigned to flag anything unusual — unexpected admin "
+        "logins, after-hours activity, or repeated failed access attempts.</p>"
+        "<p><strong>Example 1:</strong> In Microsoft Sentinel, create a Workbook under <em>Threat "
+        "Management → Workbooks → Create</em> that summarizes key security events: failed logons, "
+        "account lockouts, privilege escalations, and file access to CUI shares. Assign a team "
+        "member to review this dashboard weekly and document their findings in a log review "
+        "checklist with their name, date, and any anomalies found.</p>"
+        "<p><strong>Example 2:</strong> If you don't have a SIEM, you can still meet this "
+        "requirement. Export Windows Security Event Logs weekly using <em>Event Viewer → "
+        "Security → Save All Events As</em> (or use PowerShell: <code>Get-WinEvent -LogName "
+        "Security -MaxEvents 1000 | Export-Csv</code>). Have your IT lead review the export "
+        "for Event IDs like 4625 (failed logon), 4720 (account created), and 4732 (user added "
+        "to admin group). Document the review and any actions taken.</p>"
+    ),
+
+    "au-l2-3-3-6": (
+        "<p>When you have thousands of log entries, you need the ability to filter, sort, and "
+        "generate reports from them. You can't meet this requirement by manually scrolling "
+        "through raw text files — you need a tool that can reduce the noise and surface what "
+        "matters.</p>"
+        "<p><strong>Example 1:</strong> In Splunk, create saved searches and dashboards under "
+        "<em>Search & Reporting → Save As → Dashboard Panel</em> that filter audit data by "
+        "category: authentication events, file access events, configuration changes, and "
+        "privileged actions. Set these to run daily and email a summary PDF to your security "
+        "team. The original raw logs must remain untouched in the index — you're analyzing "
+        "copies, not editing originals.</p>"
+        "<p><strong>Example 2:</strong> In Microsoft Sentinel, use <em>Hunting → Queries</em> "
+        "and build KQL queries that reduce large datasets to actionable summaries. For example: "
+        "<code>SecurityEvent | where EventID == 4625 | summarize FailedAttempts=count() by "
+        "TargetAccount, bin(TimeGenerated, 1h) | where FailedAttempts > 10</code>. Save these "
+        "as Analytical Rules so they run automatically and generate incidents when thresholds "
+        "are exceeded.</p>"
+    ),
+
+    "au-l2-3-3-7": (
+        "<p>If the clocks on your systems aren't synced, your logs will have inconsistent "
+        "timestamps and you won't be able to piece together what happened in what order during "
+        "an investigation. Every system needs to agree on the time.</p>"
+        "<p><strong>Example 1:</strong> Configure your domain controller as the authoritative "
+        "time source by running <code>w32tm /config /manualpeerlist:\"time.nist.gov\" "
+        "/syncfromflags:manual /reliable:yes /update</code> on your PDC Emulator. All "
+        "domain-joined machines will automatically sync from the DC. Verify sync status with "
+        "<code>w32tm /query /status</code>.</p>"
+        "<p><strong>Example 2:</strong> For non-domain devices (Linux servers, network appliances, "
+        "firewalls), configure NTP to point to your internal domain controller or directly to "
+        "a trusted external source like <em>time.nist.gov</em>. On a Linux system, edit "
+        "<em>/etc/chrony/chrony.conf</em> and set <code>server time.nist.gov iburst</code>. "
+        "On your Palo Alto firewall, go to <em>Device → Setup → Services → NTP</em> and enter "
+        "your NTP server address. Verify all devices are within 1 second of each other.</p>"
+    ),
+
+    "au-l2-3-3-8": (
+        "<p>Your audit logs are evidence — if someone can tamper with them, they can cover their "
+        "tracks. Logs need to be protected from deletion or modification, and only a very small "
+        "group should have admin access to the logging system.</p>"
+        "<p><strong>Example 1:</strong> On your Windows servers, set NTFS permissions on the "
+        "<em>C:\\Windows\\System32\\winevt\\Logs</em> folder so that only the SYSTEM account "
+        "and your dedicated log admin group have access. Remove the \"Everyone\" and \"Users\" "
+        "groups. Via GPO at <em>Computer Configuration → Windows Settings → Security Settings → "
+        "Event Log → Security Log</em>, set <em>\"Restrict guest access to Security log\"</em> "
+        "to Enabled.</p>"
+        "<p><strong>Example 2:</strong> In your SIEM, restrict admin access to the logging "
+        "platform itself. In Splunk, go to <em>Settings → Access Controls → Roles</em> and "
+        "create a read-only \"auditor\" role for reviewers and reserve the \"admin\" role for "
+        "only 1-2 designated logging administrators. Enable Splunk's audit trail under "
+        "<em>Settings → System → Audit</em> so any changes to the SIEM configuration are "
+        "themselves logged and tamper-evident.</p>"
+    ),
+
+    "au-l2-3-3-9": (
+        "<p>This builds on the timestamps requirement — your systems need a way to actively "
+        "compare their clocks to an authoritative source and correct any drift. Without this, "
+        "clocks drift over time and your logs become unreliable for investigations.</p>"
+        "<p><strong>Example 1:</strong> On your Windows domain, verify that the PDC Emulator is "
+        "syncing to an authoritative external source. Run <code>w32tm /query /configuration</code> "
+        "and confirm the NTPServer is set to a trusted source (e.g., <em>time.nist.gov</em>). "
+        "Then run <code>w32tm /monitor</code> on several domain workstations to verify they are "
+        "all within 1 second of the PDC. Document the results and check quarterly.</p>"
+        "<p><strong>Example 2:</strong> For network devices like switches and firewalls, "
+        "configure two NTP sources for redundancy. On a Cisco switch, enter: "
+        "<code>ntp server 10.0.0.1 prefer</code> and <code>ntp server time.nist.gov</code>. "
+        "Verify with <code>show ntp status</code> and confirm the clock is synchronized. "
+        "On a Palo Alto firewall, go to <em>Device → Setup → Services → NTP</em>, add a "
+        "primary and secondary server, and verify sync under <em>Dashboard → General "
+        "Information → NTP status</em>.</p>"
+    ),
+}

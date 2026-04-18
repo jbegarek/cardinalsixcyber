@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import controls from '../../../data/nist-800-53.json';
+import InfoOnlyNotice from '../../components/InfoOnlyNotice.astro';
 
 /* ── Group controls by family at build time ── */
 interface Control {
@@ -69,6 +70,10 @@ const totalCount = (controls as { controls: Control[] }).controls.length;
             <p class="section-sub reveal reveal-delay-2">The comprehensive federal security and privacy control catalog — all {totalCount.toLocaleString()} controls organized across 20 families.</p>
         </div>
     </section>
+
+    <div class="container">
+        <InfoOnlyNotice />
+    </div>
 
     <!-- ═══ Sticky Filter Bar ═══ -->
     <div class="filter-bar" id="filterBar">
@@ -578,3 +583,5 @@ const totalCount = (controls as { controls: Control[] }).controls.length;
         }
     })();
 </script>
+
+

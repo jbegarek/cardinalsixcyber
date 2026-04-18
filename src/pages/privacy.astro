@@ -1,0 +1,79 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout
+    title="Privacy Policy | Cardinal Six Cyber"
+    description="Cardinal Six Cyber privacy policy — how we collect, use, and protect your information."
+    canonical="https://cardinalsixcyber.com/privacy"
+    twitterCard="summary"
+    navFixed={false}
+>
+    <section class="legal-header" aria-label="Page header">
+        <div class="container">
+            <span class="eyebrow">Legal</span>
+            <h1 class="legal-title">Privacy Policy</h1>
+            <div class="divider"></div>
+        </div>
+    </section>
+
+    <section class="legal-content" aria-label="Privacy policy content">
+        <div class="container">
+            <h2>Information We Collect</h2>
+            <p>Cardinal Six Cyber LLC ("we," "us," or "our") collects minimal information necessary to provide our cybersecurity consulting services. When you contact us via email, we collect:</p>
+            <ul>
+                <li>Your name and email address</li>
+                <li>Your organization name, if provided</li>
+                <li>The content of your message</li>
+            </ul>
+            <p>We do not use cookies for tracking. Our website does not include third-party analytics, advertising scripts, or social media tracking pixels. Cloudflare provides basic traffic analytics as part of our hosting infrastructure.</p>
+
+            <h2>How We Use Your Information</h2>
+            <p>Information collected through contact forms or direct email is used solely to:</p>
+            <ul>
+                <li>Respond to your inquiry</li>
+                <li>Provide the consulting services you request</li>
+                <li>Maintain records of our business relationship</li>
+            </ul>
+            <p>We do not sell, rent, or share your personal information with third parties for marketing purposes.</p>
+
+            <h2>Data Security</h2>
+            <p>As a cybersecurity firm, we take data protection seriously. Your information is protected through encryption in transit (TLS/SSL), access controls, and secure handling practices consistent with the same standards we advise our clients to implement.</p>
+
+            <h2>Data Retention</h2>
+            <p>We retain contact information and correspondence for the duration of our business relationship plus a reasonable period thereafter for legal and operational purposes. You may request deletion of your personal information at any time by contacting us.</p>
+
+            <h2>Third-Party Services</h2>
+            <p>Our website is served through Cloudflare, which may collect basic access logs (IP address, browser type, pages visited) as part of its content delivery and security services. Cloudflare's privacy policy governs their handling of this data.</p>
+
+            <h2>Your Rights</h2>
+            <p>You have the right to:</p>
+            <ul>
+                <li>Request access to personal information we hold about you</li>
+                <li>Request correction or deletion of your personal information</li>
+                <li>Opt out of any future communications from us</li>
+            </ul>
+
+            <h2>Contact</h2>
+            <p>For questions about this privacy policy or to exercise your rights, contact us at <a href="mailto:info@cardinalsixcyber.com">info@cardinalsixcyber.com</a>.</p>
+
+            <div class="legal-updated">Last updated: March 31, 2026</div>
+        </div>
+    </section>
+</BaseLayout>
+
+<style>
+    .legal-header { padding: calc(var(--space-32) + var(--space-8)) 0 var(--space-12); text-align: center; background: var(--c6-gradient-hero); position: relative; }
+    .legal-header::before { content: ''; position: absolute; top: 20%; left: 50%; transform: translateX(-50%); width: 600px; height: 400px; background: radial-gradient(ellipse at center, rgba(192, 57, 43, 0.05) 0%, transparent 70%); pointer-events: none; }
+    .legal-header .container { position: relative; z-index: 2; }
+    .legal-title { font-family: var(--font-display); font-size: clamp(2rem, 4vw, 3.5rem); font-weight: 700; letter-spacing: 0.05em; text-transform: uppercase; line-height: 1.1; color: var(--c6-text-primary); margin-top: var(--space-4); }
+    .legal-content { background: var(--c6-gradient-section); padding: var(--space-16) 0 var(--space-32); }
+    .legal-content .container { max-width: 800px; }
+    .legal-content h2 { font-family: var(--font-display); font-size: 1.3rem; font-weight: 600; letter-spacing: 0.04em; text-transform: uppercase; color: var(--c6-text-primary); margin-top: var(--space-12); margin-bottom: var(--space-4); }
+    .legal-content h2:first-child { margin-top: 0; }
+    .legal-content p { font-family: var(--font-body); font-size: 0.95rem; color: var(--c6-text-body); line-height: 1.8; margin-bottom: var(--space-4); }
+    .legal-content ul { list-style: none; margin-bottom: var(--space-4); padding-left: var(--space-4); }
+    .legal-content li { font-family: var(--font-body); font-size: 0.95rem; color: var(--c6-text-body); line-height: 1.8; padding-left: var(--space-4); position: relative; margin-bottom: var(--space-2); }
+    .legal-content li::before { content: ''; position: absolute; left: 0; top: 0.7em; width: 5px; height: 5px; background: var(--c6-red); transform: rotate(45deg); }
+    .legal-updated { font-family: var(--font-mono); font-size: 0.75rem; color: var(--c6-text-dim); letter-spacing: 0.04em; margin-top: var(--space-12); padding-top: var(--space-8); border-top: 1px solid var(--c6-border); }
+</style>

@@ -1,0 +1,189 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout
+    title="Cyber News | Cardinal Six Cyber"
+    description="Latest cybersecurity news curated by Cardinal Six Cyber — stay informed on threats, vulnerabilities, and industry developments."
+    canonical="https://cardinalsixcyber.com/news"
+    ogDescription="Curated cybersecurity intelligence from trusted sources — threats, vulnerabilities, and developments that matter."
+    navFixed={false}
+    activePage="news"
+>
+    <Fragment slot="head">
+        <script type="application/ld+json" set:html={JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://cardinalsixcyber.com/" },
+                { "@type": "ListItem", "position": 2, "name": "Cyber News", "item": "https://cardinalsixcyber.com/news" }
+            ]
+        })} />
+        <script type="application/ld+json" set:html={JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "CollectionPage",
+            "name": "Cyber News",
+            "description": "Curated cybersecurity intelligence from trusted sources — threats, vulnerabilities, and developments that matter.",
+            "url": "https://cardinalsixcyber.com/news",
+            "isPartOf": { "@type": "WebSite", "name": "Cardinal Six Cyber", "url": "https://cardinalsixcyber.com" }
+        })} />
+    </Fragment>
+
+    <section class="news-header" aria-label="Page header">
+        <div class="container">
+            <span class="eyebrow reveal">Intelligence Feed</span>
+            <h1 class="news-title reveal reveal-delay-1">Cyber <span class="accent">News</span></h1>
+            <div class="divider reveal reveal-delay-2"></div>
+            <p class="section-sub reveal reveal-delay-2">Curated cybersecurity intelligence from trusted sources — threats, vulnerabilities, and developments that matter.</p>
+        </div>
+    </section>
+
+    <div class="filter-bar">
+        <div class="container">
+            <div class="filter-pills" id="filterPills" role="group" aria-label="Filter by source"></div>
+        </div>
+    </div>
+
+    <section class="news-feed" aria-label="News articles">
+        <div class="container">
+            <div id="newsFeed" aria-live="polite" aria-busy="true">
+                <div class="skeleton skeleton-featured"></div>
+                <div class="skeleton skeleton-row"></div>
+                <div class="skeleton skeleton-row"></div>
+                <div class="skeleton skeleton-row"></div>
+                <div class="skeleton skeleton-row"></div>
+                <div class="skeleton skeleton-row"></div>
+            </div>
+            <noscript>
+                <div class="news-empty">
+                    <h2 style="font-family: var(--font-display); font-size: 1.3rem; font-weight: 600; letter-spacing: 0.04em; text-transform: uppercase; color: var(--c6-text-secondary); margin-bottom: var(--space-6);">Cybersecurity News Sources</h2>
+                    <p style="font-size: 0.9rem; color: var(--c6-text-muted); max-width: 500px; margin: 0 auto; line-height: 1.7;">This page requires JavaScript to load the live news feed. Visit these trusted sources directly:</p>
+                    <ul style="list-style: none; margin-top: var(--space-6); display: flex; flex-direction: column; gap: var(--space-3);">
+                        <li><a href="https://www.bleepingcomputer.com/" rel="noopener noreferrer">BleepingComputer</a></li>
+                        <li><a href="https://www.darkreading.com/" rel="noopener noreferrer">Dark Reading</a></li>
+                        <li><a href="https://thehackernews.com/" rel="noopener noreferrer">The Hacker News</a></li>
+                        <li><a href="https://therecord.media/" rel="noopener noreferrer">The Record</a></li>
+                        <li><a href="https://www.securityweek.com/" rel="noopener noreferrer">SecurityWeek</a></li>
+                        <li><a href="https://krebsonsecurity.com/" rel="noopener noreferrer">Krebs on Security</a></li>
+                        <li><a href="https://www.cisa.gov/news-events/alerts" rel="noopener noreferrer">CISA Alerts</a></li>
+                    </ul>
+                </div>
+            </noscript>
+            <div class="news-updated" id="newsUpdated"></div>
+        </div>
+    </section>
+</BaseLayout>
+
+<style is:global>
+    .news-header { padding: calc(var(--space-32) + var(--space-8)) 0 var(--space-12); text-align: center; background: var(--c6-gradient-hero); position: relative; overflow: hidden; }
+    .news-header::before { content: ''; position: absolute; top: 20%; left: 50%; transform: translateX(-50%); width: 800px; height: 600px; background: radial-gradient(ellipse at center, rgba(192, 57, 43, 0.06) 0%, transparent 70%); pointer-events: none; }
+    .news-header .container { position: relative; z-index: 2; }
+    .news-title { font-family: var(--font-display); font-size: clamp(2.5rem, 5vw, 4.5rem); font-weight: 700; letter-spacing: 0.05em; text-transform: uppercase; line-height: 1.1; color: var(--c6-text-primary); margin-top: var(--space-4); }
+    .news-title .accent { color: var(--c6-red-bright); }
+    .filter-bar { position: sticky; top: 64px; z-index: 100; background: rgba(17, 17, 17, 0.92); backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); border-bottom: 1px solid var(--c6-border); padding: var(--space-4) 0; }
+    .filter-pills { display: flex; gap: var(--space-2); overflow-x: auto; scrollbar-width: none; -ms-overflow-style: none; padding-bottom: var(--space-1); }
+    .filter-pills::-webkit-scrollbar { display: none; }
+    .filter-pill { font-family: var(--font-display); font-size: 0.82rem; font-weight: 500; letter-spacing: 0.06em; text-transform: uppercase; color: var(--c6-text-muted); background: transparent; border: 1px solid var(--c6-border); padding: var(--space-2) var(--space-4); border-radius: var(--radius-full); cursor: pointer; white-space: nowrap; transition: transform 0.2s ease, border-color 0.2s ease, color 0.2s ease, background 0.2s ease; flex-shrink: 0; }
+    .filter-pill:hover { border-color: var(--c6-border-accent); color: var(--c6-text-secondary); }
+    .filter-pill:focus-visible { outline: 2px solid var(--c6-red); outline-offset: 2px; }
+    .filter-pill.active { background: var(--c6-red); border-color: var(--c6-red); color: var(--c6-text-primary); }
+    .filter-pill .pill-count { font-family: var(--font-mono); font-size: 0.7rem; margin-left: var(--space-1); opacity: 0.7; }
+    .news-feed { background: var(--c6-gradient-section); padding: var(--space-12) 0 var(--space-16); min-height: 400px; position: relative; }
+    .news-feed::before { content: ''; position: absolute; top: 0; left: 50%; transform: translateX(-50%); width: 1000px; height: 600px; background: radial-gradient(ellipse at center, rgba(192, 57, 43, 0.04) 0%, transparent 70%); pointer-events: none; }
+    .featured-article { background: var(--c6-black-elevated); border: 1px solid var(--c6-border); border-top: 2px solid transparent; border-image: var(--c6-gradient-accent) 1; border-image-slice: 1 0 0 0; border-radius: 0; padding: var(--space-8); margin-bottom: var(--space-10); position: relative; transition: transform 0.2s ease, box-shadow 0.2s ease; }
+    .featured-article:hover { transform: translateY(-3px); box-shadow: var(--shadow-card-hover); }
+    .featured-meta { display: flex; align-items: center; gap: var(--space-3); margin-bottom: var(--space-4); flex-wrap: wrap; }
+    .badge-latest { font-family: var(--font-display); font-size: 0.7rem; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: var(--c6-black); background: var(--c6-gradient-gold); padding: var(--space-1) var(--space-3); border-radius: var(--radius-sm); box-shadow: var(--shadow-gold); }
+    .badge-source { font-family: var(--font-mono); font-size: 0.72rem; font-weight: 500; color: var(--c6-red-text); background: rgba(192, 57, 43, 0.1); border: 1px solid rgba(192, 57, 43, 0.2); padding: var(--space-1) var(--space-3); border-radius: var(--radius-sm); letter-spacing: 0.02em; }
+    .badge-time { font-family: var(--font-mono); font-size: 0.72rem; color: var(--c6-text-dim); letter-spacing: 0.02em; }
+    .featured-title { font-family: var(--font-display); font-size: clamp(1.3rem, 2.5vw, 1.8rem); font-weight: 600; letter-spacing: 0.03em; line-height: 1.3; color: var(--c6-text-primary); margin-bottom: var(--space-4); }
+    .featured-summary { font-family: var(--font-body); font-size: 0.95rem; color: var(--c6-text-body); line-height: 1.7; margin-bottom: var(--space-6); max-width: 800px; }
+    .featured-link { font-family: var(--font-display); font-size: 0.9rem; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; color: var(--c6-red-text) !important; display: inline-flex; align-items: center; gap: var(--space-2); transition: transform 0.2s ease, color 0.2s ease; }
+    .featured-link:hover { color: #E8655A !important; transform: translateX(4px); }
+    .featured-link:focus-visible { outline: 2px solid var(--c6-red); outline-offset: 4px; border-radius: var(--radius-sm); }
+    .article-list { display: flex; flex-direction: column; gap: 1px; background: var(--c6-border); }
+    .article-row { display: flex; align-items: center; gap: var(--space-6); padding: var(--space-6); background: var(--c6-black); border-left: 3px solid transparent; cursor: pointer; transition: transform 0.2s ease, background 0.2s ease, border-color 0.2s ease; text-decoration: none; }
+    .article-row:hover { background: var(--c6-black-elevated); border-left-color: var(--c6-red); color: var(--c6-text-body); }
+    .article-row:focus-visible { outline: 2px solid var(--c6-red); outline-offset: -2px; border-radius: 0; }
+    .article-body { flex: 1; min-width: 0; }
+    .article-meta { display: flex; align-items: center; gap: var(--space-3); margin-bottom: var(--space-2); flex-wrap: wrap; }
+    .article-title { font-family: var(--font-display); font-size: 1.05rem; font-weight: 600; letter-spacing: 0.02em; line-height: 1.3; color: var(--c6-text-primary); margin-bottom: var(--space-1); }
+    .article-summary { font-family: var(--font-body); font-size: 0.85rem; color: var(--c6-text-muted); line-height: 1.5; display: -webkit-box; -webkit-line-clamp: 1; -webkit-box-orient: vertical; overflow: hidden; }
+    .article-arrow { flex-shrink: 0; width: 20px; height: 20px; color: var(--c6-text-dim); transition: transform 0.2s ease, color 0.2s ease; }
+    .article-row:hover .article-arrow { color: var(--c6-red); transform: translateX(4px); }
+    .skeleton { background: linear-gradient(90deg, var(--c6-black-elevated) 25%, var(--c6-black-surface) 50%, var(--c6-black-elevated) 75%); background-size: 200% 100%; animation: shimmer 1.5s infinite; border-radius: var(--radius-sm); }
+    @keyframes shimmer { 0% { background-position: 200% 0; } 100% { background-position: -200% 0; } }
+    .skeleton-featured { height: 200px; margin-bottom: var(--space-10); }
+    .skeleton-row { height: 80px; margin-bottom: 1px; }
+    .news-empty { text-align: center; padding: var(--space-20) var(--space-8); }
+    .news-empty-icon { width: 64px; height: 64px; margin: 0 auto var(--space-6); color: var(--c6-text-dim); }
+    .news-empty h3 { font-family: var(--font-display); font-size: 1.3rem; font-weight: 600; letter-spacing: 0.04em; text-transform: uppercase; color: var(--c6-text-secondary); margin-bottom: var(--space-3); }
+    .news-empty p { font-size: 0.9rem; color: var(--c6-text-muted); max-width: 400px; margin: 0 auto; }
+    .news-updated { text-align: center; padding: var(--space-8) 0 0; font-family: var(--font-mono); font-size: 0.72rem; color: var(--c6-text-dim); letter-spacing: 0.04em; }
+    @media (max-width: 768px) { .news-header { padding-top: calc(var(--space-24) + var(--space-8)); padding-bottom: var(--space-8); } .featured-article { padding: var(--space-6); } .article-row { padding: var(--space-4); gap: var(--space-4); } .article-summary { display: none; } }
+    @media (max-width: 480px) { .featured-article { padding: var(--space-4); } .featured-title { font-size: 1.15rem; } .article-title { font-size: 0.95rem; } .article-arrow { display: none; } .filter-bar { top: 56px; } }
+    @media (prefers-reduced-motion: reduce) { .skeleton { animation: none; } }
+</style>
+
+<script>
+    /* Reveal on scroll */
+    (function() {
+        var reveals = document.querySelectorAll('.reveal');
+        document.querySelectorAll('.news-header .reveal').forEach(function(el) { el.classList.add('visible'); });
+        if ('IntersectionObserver' in window) {
+            var observer = new IntersectionObserver(function(entries) {
+                entries.forEach(function(entry) { if (entry.isIntersecting) { entry.target.classList.add('visible'); observer.unobserve(entry.target); } });
+            }, { threshold: 0.01, rootMargin: '0px 0px 50px 0px' });
+            reveals.forEach(function(el) { if (!el.closest('.news-header')) observer.observe(el); });
+        } else { reveals.forEach(function(el) { el.classList.add('visible'); }); }
+        setTimeout(function() { reveals.forEach(function(el) { el.classList.add('visible'); }); }, 3000);
+    })();
+
+    /* News feed loader */
+    (function() {
+        var SOURCES = ['BleepingComputer', 'Dark Reading', 'The Hacker News', 'The Record', 'SecurityWeek', 'Krebs on Security', 'CISA Alerts', 'NVD', 'CVE Feed', 'CVE Newsroom'];
+        var feedEl = document.getElementById('newsFeed');
+        var pillsEl = document.getElementById('filterPills');
+        var updatedEl = document.getElementById('newsUpdated');
+        var allArticles = [];
+        var activeSource = null;
+
+        function escapeHtml(str) { if (!str) return ''; var div = document.createElement('div'); div.appendChild(document.createTextNode(str)); return div.innerHTML; }
+        function relativeTime(dateStr) { var now = new Date(); var then = new Date(dateStr); var diffMs = now - then; var diffSec = Math.floor(diffMs / 1000); var diffMin = Math.floor(diffSec / 60); var diffHr = Math.floor(diffMin / 60); var diffDay = Math.floor(diffHr / 24); if (diffSec < 60) return 'just now'; if (diffMin < 60) return diffMin + 'm ago'; if (diffHr < 24) return diffHr + 'h ago'; if (diffDay === 1) return 'yesterday'; if (diffDay < 7) return diffDay + 'd ago'; if (diffDay < 30) return Math.floor(diffDay / 7) + 'w ago'; return then.toLocaleDateString('en-US', { month: 'short', day: 'numeric' }); }
+        var arrowSvg = '<svg class="article-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="M12 5l7 7-7 7"/></svg>';
+
+        function renderPills(articles) {
+            var counts = {}; articles.forEach(function(a) { counts[a.source] = (counts[a.source] || 0) + 1; });
+            var html = '<button class="filter-pill active" data-source="" aria-pressed="true">All <span class="pill-count">' + articles.length + '</span></button>';
+            SOURCES.forEach(function(src) { if (counts[src]) html += '<button class="filter-pill" data-source="' + escapeHtml(src) + '" aria-pressed="false">' + escapeHtml(src) + ' <span class="pill-count">' + counts[src] + '</span></button>'; });
+            pillsEl.innerHTML = html;
+            pillsEl.querySelectorAll('.filter-pill').forEach(function(pill) {
+                pill.addEventListener('click', function() {
+                    pillsEl.querySelectorAll('.filter-pill').forEach(function(p) { p.classList.remove('active'); p.setAttribute('aria-pressed', 'false'); });
+                    pill.classList.add('active'); pill.setAttribute('aria-pressed', 'true');
+                    activeSource = pill.getAttribute('data-source') || null; renderFeed(filterArticles());
+                });
+            });
+        }
+        function filterArticles() { if (!activeSource) return allArticles; return allArticles.filter(function(a) { return a.source === activeSource; }); }
+        function renderFeatured(article) { return '<article class="featured-article reveal"><div class="featured-meta"><span class="badge-latest">Latest</span><span class="badge-source">' + escapeHtml(article.source) + '</span><span class="badge-time">' + escapeHtml(relativeTime(article.published)) + '</span></div><h2 class="featured-title">' + escapeHtml(article.title) + '</h2><p class="featured-summary">' + escapeHtml(article.summary) + '</p><a href="' + escapeHtml(article.link) + '" class="featured-link" target="_blank" rel="noopener noreferrer">Read Article <span aria-hidden="true">&rarr;</span></a></article>'; }
+        function renderRow(article) { return '<a href="' + escapeHtml(article.link) + '" class="article-row" target="_blank" rel="noopener noreferrer"><div class="article-body"><div class="article-meta"><span class="badge-source">' + escapeHtml(article.source) + '</span><span class="badge-time">' + escapeHtml(relativeTime(article.published)) + '</span></div><h3 class="article-title">' + escapeHtml(article.title) + '</h3><p class="article-summary">' + escapeHtml(article.summary) + '</p></div>' + arrowSvg + '</a>'; }
+        function renderFeed(articles) {
+            if (!articles || articles.length === 0) { feedEl.innerHTML = '<div class="news-empty"><svg class="news-empty-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 8v4"/><circle cx="12" cy="16" r="0.5" fill="currentColor"/></svg><h3>No Articles Found</h3><p>No articles match the selected filter. Try selecting a different source or check back later.</p></div>'; return; }
+            var html = renderFeatured(articles[0]);
+            if (articles.length > 1) { html += '<div class="article-list">'; for (var i = 1; i < articles.length; i++) html += renderRow(articles[i]); html += '</div>'; }
+            feedEl.innerHTML = html;
+            feedEl.querySelectorAll('.reveal').forEach(function(el) { el.classList.add('visible'); });
+        }
+        function renderError() { feedEl.innerHTML = '<div class="news-empty"><svg class="news-empty-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M15 9l-6 6M9 9l6 6"/></svg><h3>Feed Unavailable</h3><p>Unable to load the news feed at this time. Please try again later.</p></div>'; }
+
+        fetch('https://raw.githubusercontent.com/jbegarek/cardinalsixcyber/main/data/news.json')
+            .then(function(res) { if (!res.ok) throw new Error('HTTP ' + res.status); return res.json(); })
+            .then(function(data) {
+                allArticles = data.articles || []; feedEl.setAttribute('aria-busy', 'false');
+                renderPills(allArticles); renderFeed(allArticles);
+                if (data.last_updated) { var d = new Date(data.last_updated); updatedEl.textContent = 'Last updated: ' + d.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' }) + ' at ' + d.toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit' }); }
+            })
+            .catch(function(err) { console.error('News feed error:', err); feedEl.setAttribute('aria-busy', 'false'); renderError(); });
+    })();
+</script>

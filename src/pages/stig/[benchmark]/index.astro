@@ -1,0 +1,344 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import stigIndex from '../../../../data/stig-index.json';
+import InfoOnlyNotice from '../../../components/InfoOnlyNotice.astro';
+import fs from 'node:fs';
+import path from 'node:path';
+
+export async function getStaticPaths() {
+    return stigIndex.benchmarks.map((b) => ({
+        params: { benchmark: b.slug },
+    }));
+}
+
+const { benchmark } = Astro.params;
+const meta = stigIndex.benchmarks.find((b) => b.slug === benchmark)!;
+
+const dataPath = path.resolve('data', 'stigs', `${benchmark}.json`);
+const raw = fs.readFileSync(dataPath, 'utf-8');
+const data = JSON.parse(raw) as {
+    slug: string;
+    label: string;
+    benchmarkTitle: string;
+    version: string;
+    releaseInfo: string;
+    category: string;
+    totalRules: number;
+    catI: number;
+    catII: number;
+    catIII: number;
+    rules: {
+        vulnId: string;
+        ruleId: string;
+        stigId: string;
+        severity: string;
+        cat: string;
+        title: string;
+        discussion: string;
+        checkText: string;
+        fixText: string;
+        cciRefs: string[];
+        responsibility: string;
+    }[];
+};
+
+const CAT_ORDER: Record<string, number> = { high: 1, medium: 2, low: 3 };
+---
+
+<BaseLayout
+    title={`${data.label} STIG | Cardinal Six Cyber`}
+    description={`Browse all ${data.totalRules} rules in the ${data.benchmarkTitle}. Filter by CAT I, II, and III findings with check and fix procedures.`}
+    canonical={`https://cardinalsixcyber.com/stig/${benchmark}`}
+    activePage="stig"
+>
+    <main class="benchmark-page">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb-bar" aria-label="Breadcrumb">
+            <ol class="breadcrumb-list">
+                <li><a href="/" class="breadcrumb-link">Home</a></li>
+                <li class="breadcrumb-sep" aria-hidden="true">&rsaquo;</li>
+                <li><a href="/stig" class="breadcrumb-link">STIGs</a></li>
+                <li class="breadcrumb-sep" aria-hidden="true">&rsaquo;</li>
+                <li class="breadcrumb-current" aria-current="page">{data.label}</li>
+            </ol>
+        </nav>
+
+        <!-- Header -->
+        <header class="bench-header">
+            <p class="eyebrow">DISA STIG &bull; {data.category}</p>
+            <h1 class="bench-title">{data.benchmarkTitle}</h1>
+            <div class="divider"></div>
+            <div class="bench-meta">
+                {data.releaseInfo && <span class="meta-chip">{data.releaseInfo}</span>}
+                <span class="meta-chip">{data.totalRules} Rules</span>
+                <span class="meta-chip cat-i-chip">{data.catI} CAT I</span>
+                <span class="meta-chip cat-ii-chip">{data.catII} CAT II</span>
+                <span class="meta-chip cat-iii-chip">{data.catIII} CAT III</span>
+            </div>
+        </header>
+        <InfoOnlyNotice />
+
+        <!-- Filter bar -->
+        <div class="filter-bar" role="group" aria-label="Filter by severity">
+            <button class="filter-btn active" data-filter="all">All ({data.totalRules})</button>
+            <button class="filter-btn filter-btn--i" data-filter="high">CAT I ({data.catI})</button>
+            <button class="filter-btn filter-btn--ii" data-filter="medium">CAT II ({data.catII})</button>
+            <button class="filter-btn filter-btn--iii" data-filter="low">CAT III ({data.catIII})</button>
+            <div class="filter-search-wrap">
+                <input
+                    type="search"
+                    id="stig-search"
+                    class="filter-search"
+                    placeholder="Search rules, Vuln IDs, STIG IDs…"
+                    aria-label="Search rules"
+                />
+            </div>
+        </div>
+
+        <!-- Rules table -->
+        <div class="rules-container">
+            <table class="rules-table" id="rules-table" aria-label="STIG rules">
+                <thead>
+                    <tr>
+                        <th class="col-vuln">Vuln ID</th>
+                        <th class="col-stig">STIG ID</th>
+                        <th class="col-cat">CAT</th>
+                        <th class="col-title">Finding</th>
+                        <th class="col-resp">Responsibility</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {data.rules.map((r) => (
+                        <tr
+                            class={`rule-row sev-${r.severity}`}
+                            data-severity={r.severity}
+                            data-search={`${r.vulnId} ${r.stigId} ${r.title} ${r.responsibility}`.toLowerCase()}
+                        >
+                            <td class="col-vuln">
+                                <a href={`/stig/${benchmark}/${r.vulnId.toLowerCase()}`} class="vuln-link">
+                                    {r.vulnId}
+                                </a>
+                            </td>
+                            <td class="col-stig">
+                                <span class="stig-id">{r.stigId}</span>
+                            </td>
+                            <td class="col-cat">
+                                <span class={`cat-badge cat-badge--${r.severity}`}>{r.cat}</span>
+                            </td>
+                            <td class="col-title">{r.title}</td>
+                            <td class="col-resp">{r.responsibility || '—'}</td>
+                        </tr>
+                    ))}
+                </tbody>
+            </table>
+            <p class="no-results" id="no-results" hidden>No rules match your search.</p>
+        </div>
+
+    </main>
+</BaseLayout>
+
+<script>
+const filterBtns = document.querySelectorAll<HTMLButtonElement>('.filter-btn');
+const searchInput = document.getElementById('stig-search') as HTMLInputElement;
+const rows = document.querySelectorAll<HTMLTableRowElement>('.rule-row');
+const noResults = document.getElementById('no-results')!;
+
+let activeSeverity = 'all';
+
+function applyFilters() {
+    const q = searchInput.value.toLowerCase().trim();
+    let visible = 0;
+    for (const row of rows) {
+        const sev = row.dataset.severity!;
+        const searchText = row.dataset.search!;
+        const sevMatch = activeSeverity === 'all' || sev === activeSeverity;
+        const textMatch = !q || searchText.includes(q);
+        const show = sevMatch && textMatch;
+        row.hidden = !show;
+        if (show) visible++;
+    }
+    noResults.hidden = visible > 0;
+}
+
+for (const btn of filterBtns) {
+    btn.addEventListener('click', () => {
+        filterBtns.forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        activeSeverity = btn.dataset.filter!;
+        applyFilters();
+    });
+}
+
+searchInput.addEventListener('input', applyFilters);
+</script>
+
+<style>
+.benchmark-page {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: var(--space-8) var(--space-6);
+}
+
+/* Breadcrumb */
+.breadcrumb-bar {
+    margin-bottom: var(--space-10);
+    padding: var(--space-3) var(--space-4);
+    background: var(--c6-black-elevated);
+    border: 1px solid var(--c6-border);
+    border-radius: var(--radius-sm);
+}
+.breadcrumb-list {
+    display: flex; flex-wrap: wrap; align-items: center;
+    gap: var(--space-2); list-style: none; margin: 0; padding: 0;
+    font-family: var(--font-body); font-size: 0.875rem; line-height: 1.5;
+}
+.breadcrumb-link { color: var(--c6-text-muted); text-decoration: none; transition: color 250ms; }
+.breadcrumb-link:hover, .breadcrumb-link:focus-visible { color: var(--c6-red); }
+.breadcrumb-link:focus-visible { outline: 2px solid var(--c6-red); outline-offset: 2px; border-radius: 2px; }
+.breadcrumb-sep { color: var(--c6-text-dim); user-select: none; }
+.breadcrumb-current { color: var(--c6-text-secondary); font-weight: 500; }
+
+/* Header */
+.bench-header { margin-bottom: var(--space-8); }
+
+.eyebrow {
+    font-family: var(--font-display);
+    font-size: 0.85rem; font-weight: 300; letter-spacing: 0.25em;
+    text-transform: uppercase; color: var(--c6-text-secondary);
+    margin: 0 0 var(--space-3) 0;
+}
+
+.bench-title {
+    font-family: var(--font-display);
+    font-size: clamp(1.4rem, 3vw, 2.2rem);
+    font-weight: 700; letter-spacing: 0.03em;
+    color: var(--c6-text-primary);
+    margin: 0 0 var(--space-4) 0; line-height: 1.2;
+}
+
+.divider {
+    width: 80px; height: 2px; background: var(--c6-red);
+    margin: 0 0 var(--space-4) 0;
+}
+
+.bench-meta {
+    display: flex; flex-wrap: wrap; gap: var(--space-2);
+}
+
+.meta-chip {
+    font-family: var(--font-mono); font-size: 0.78rem;
+    padding: 3px var(--space-3);
+    background: var(--c6-black-surface); border: 1px solid var(--c6-border);
+    border-radius: var(--radius-sm); color: var(--c6-text-muted);
+}
+.cat-i-chip   { color: #e05a4a; border-color: rgba(192,57,43,0.3); background: rgba(192,57,43,0.08); }
+.cat-ii-chip  { color: #d4a017; border-color: rgba(243,156,18,0.25); background: rgba(243,156,18,0.08); }
+.cat-iii-chip { color: var(--c6-text-muted); }
+
+/* Filter bar */
+.filter-bar {
+    display: flex; flex-wrap: wrap; gap: var(--space-2);
+    align-items: center; margin-bottom: var(--space-6);
+    padding: var(--space-3) var(--space-4);
+    background: var(--c6-black-elevated);
+    border: 1px solid var(--c6-border);
+    border-radius: var(--radius-md);
+}
+
+.filter-btn {
+    font-family: var(--font-mono); font-size: 0.78rem;
+    padding: var(--space-2) var(--space-4);
+    background: transparent; border: 1px solid var(--c6-border);
+    border-radius: var(--radius-sm);
+    color: var(--c6-text-muted); cursor: pointer;
+    transition: color 200ms, border-color 200ms, background 200ms;
+}
+.filter-btn:hover { color: var(--c6-text-secondary); border-color: rgba(255,255,255,0.15); }
+.filter-btn.active { color: var(--c6-text-primary); border-color: var(--c6-border-accent); background: rgba(192,57,43,0.08); }
+.filter-btn--i.active  { color: #e05a4a; border-color: rgba(192,57,43,0.5); background: rgba(192,57,43,0.1); }
+.filter-btn--ii.active { color: #d4a017; border-color: rgba(243,156,18,0.4); background: rgba(243,156,18,0.08); }
+.filter-btn:focus-visible { outline: 2px solid var(--c6-red); outline-offset: 2px; }
+
+.filter-search-wrap { margin-left: auto; }
+.filter-search {
+    font-family: var(--font-body); font-size: 0.875rem;
+    padding: var(--space-2) var(--space-4);
+    background: var(--c6-black-surface); border: 1px solid var(--c6-border);
+    border-radius: var(--radius-sm); color: var(--c6-text-primary);
+    width: 260px; transition: border-color 200ms;
+}
+.filter-search::placeholder { color: var(--c6-text-dim); }
+.filter-search:focus { outline: none; border-color: var(--c6-border-accent); box-shadow: var(--shadow-input-focus); }
+
+/* Rules table */
+.rules-container {
+    overflow-x: auto;
+    border: 1px solid var(--c6-border);
+    border-radius: var(--radius-md);
+    background: var(--c6-black-elevated);
+}
+
+.rules-table {
+    width: 100%; border-collapse: collapse;
+}
+
+.rules-table th {
+    font-family: var(--font-display); font-size: 0.75rem;
+    font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase;
+    color: var(--c6-gold); padding: var(--space-3) var(--space-4);
+    text-align: left; background: var(--c6-black-surface);
+    border-bottom: 1px solid var(--c6-border);
+    white-space: nowrap;
+}
+
+.rule-row { border-bottom: 1px solid var(--c6-border); transition: background 150ms; }
+.rule-row:last-child { border-bottom: none; }
+.rule-row:hover { background: rgba(255,255,255,0.02); }
+.rule-row[hidden] { display: none; }
+
+.rule-row td {
+    font-family: var(--font-body); font-size: 0.875rem;
+    color: var(--c6-text-body); padding: var(--space-3) var(--space-4);
+    vertical-align: top; line-height: 1.5;
+}
+
+.col-vuln { white-space: nowrap; width: 100px; }
+.col-stig { white-space: nowrap; width: 130px; }
+.col-cat  { width: 80px; }
+.col-resp { white-space: nowrap; width: 160px; color: var(--c6-text-muted); font-size: 0.8rem; }
+
+.vuln-link {
+    font-family: var(--font-mono); font-size: 0.82rem;
+    color: var(--c6-text-secondary); text-decoration: none; font-weight: 600;
+    transition: color 200ms;
+}
+.vuln-link:hover, .vuln-link:focus-visible { color: var(--c6-red); }
+.vuln-link:focus-visible { outline: 2px solid var(--c6-red); outline-offset: 2px; }
+
+.stig-id {
+    font-family: var(--font-mono); font-size: 0.78rem; color: var(--c6-text-muted);
+}
+
+.cat-badge {
+    display: inline-block; font-family: var(--font-mono); font-size: 0.72rem;
+    font-weight: 700; padding: 2px 8px; border-radius: var(--radius-sm);
+    white-space: nowrap;
+}
+.cat-badge--high   { background: rgba(192,57,43,0.18); color: #e05a4a; border: 1px solid rgba(192,57,43,0.3); }
+.cat-badge--medium { background: rgba(243,156,18,0.12); color: #d4a017; border: 1px solid rgba(243,156,18,0.25); }
+.cat-badge--low    { background: rgba(255,255,255,0.04); color: var(--c6-text-muted); border: 1px solid var(--c6-border); }
+
+.no-results {
+    text-align: center; padding: var(--space-12);
+    font-family: var(--font-body); font-size: 0.95rem;
+    color: var(--c6-text-muted); font-style: italic;
+}
+
+@media (max-width: 640px) {
+    .benchmark-page { padding: var(--space-6) var(--space-4); }
+    .filter-search-wrap { width: 100%; }
+    .filter-search { width: 100%; }
+    .col-resp { display: none; }
+}
+</style>

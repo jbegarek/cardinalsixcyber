@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import ComplianceDetail from '../../components/ComplianceDetail.astro';
+import InfoOnlyNotice from '../../components/InfoOnlyNotice.astro';
 import cmmcData from '../../../data/cmmc-practices.json';
 import nistData from '../../../data/nist-800-171.json';
 
@@ -25,11 +26,42 @@ const related = cmmcData.practices
     .slice(0, 4)
     .map(p => ({ id: p.id, displayId: p.displayId, title: p.title, url: `/cmmc/${p.id}` }));
 
-const pageTitle = `${practice.displayId} — ${practice.title} | CMMC 2.0 | Cardinal Six Cyber`;
-const metaDesc = practice.description.length > 155
-    ? practice.description.slice(0, 152) + '...'
-    : practice.description;
-const ogTitle = `${practice.displayId} — ${practice.title}`;
+const nist171Ids = new Set(
+    nistData.requirements.map((r) => r.id)
+);
+
+function displayIdToRouteId(displayId: string): string {
+    const normalized = displayId
+        .split('.')
+        .map((part) => String(parseInt(part, 10)))
+        .join('.');
+    return normalized.replaceAll('.', '-');
+}
+
+function sanitizeInlineArtifacts(text: string): string {
+    return text.replace(/\{\{\s*insert:\s*param,\s*[^}]+\}\}/g, 'organization-defined parameter');
+}
+
+function normalizeCprtRefs(text: string): string {
+    const cprtRef =
+        /\[([^\]]*)\]\(#\/cprt\/framework\/version\/SP_800_171_3_0_0\/home\?element=([0-9]{2}\.[0-9]{2}\.[0-9]{2})\)\s*([0-9]{2}\.[0-9]{2}\.[0-9]{2})?/g;
+
+    const normalized = text.replace(cprtRef, (_match, linkText, element, trailingRef) => {
+        const label = (trailingRef || linkText || element).trim();
+        const targetId = displayIdToRouteId(element);
+        if (nist171Ids.has(targetId)) return label;
+        return label;
+    });
+
+    return sanitizeInlineArtifacts(normalized);
+}
+
+const normalizedDescription = normalizeCprtRefs(practice.description);
+const pageTitle = `${practice.displayId} - ${practice.title} | CMMC 2.0 | Cardinal Six Cyber`;
+const metaDesc = normalizedDescription.length > 155
+    ? normalizedDescription.slice(0, 152) + '...'
+    : normalizedDescription;
+const ogTitle = `${practice.displayId} - ${practice.title}`;
 ---
 
 <BaseLayout
@@ -46,7 +78,7 @@ const ogTitle = `${practice.displayId} — ${practice.title}`;
             "@context": "https://schema.org",
             "@type": "TechArticle",
             "name": ogTitle,
-            "description": practice.description,
+            "description": normalizedDescription,
             "datePublished": "2026-03-31",
             "author": { "@type": "Organization", "name": "Cardinal Six Cyber LLC" },
             "publisher": { "@type": "Organization", "name": "Cardinal Six Cyber LLC" },
@@ -64,6 +96,10 @@ const ogTitle = `${practice.displayId} — ${practice.title}`;
         })} />
     </Fragment>
 
+    <div class="container">
+        <InfoOnlyNotice />
+    </div>
+
     <ComplianceDetail
         framework="cmmc"
         id={practice.id}
@@ -80,3 +116,5 @@ const ogTitle = `${practice.displayId} — ${practice.title}`;
         relatedItems={related}
     />
 </BaseLayout>
+
+

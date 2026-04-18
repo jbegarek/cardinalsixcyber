@@ -1,10 +1,17 @@
-FROM nginx:1.29.6-alpine
+FROM node:22-alpine AS build
+WORKDIR /app
+COPY package.json package-lock.json ./
+RUN npm ci
+COPY astro.config.mjs tsconfig.json ./
+COPY src/ src/
+COPY public/ public/
+COPY data/ data/
+RUN npm run build
 
+FROM nginx:1.29.6-alpine
 COPY nginx/default.conf /etc/nginx/conf.d/default.conf
-COPY index.html /usr/share/nginx/html/index.html
-COPY brand/ /usr/share/nginx/html/brand/
-COPY news.html /usr/share/nginx/html/news.html
-COPY data/ /usr/share/nginx/html/data/
+COPY nginx/security-headers.conf /etc/nginx/security-headers.conf
+COPY --from=build /app/dist/ /usr/share/nginx/html/
 
 EXPOSE 80
 

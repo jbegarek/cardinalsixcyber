@@ -1,0 +1,77 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout
+    title="Terms of Service | Cardinal Six Cyber"
+    description="Cardinal Six Cyber terms of service — conditions governing use of our website and services."
+    canonical="https://cardinalsixcyber.com/terms"
+    twitterCard="summary"
+    navFixed={false}
+>
+    <section class="legal-header" aria-label="Page header">
+        <div class="container">
+            <span class="eyebrow">Legal</span>
+            <h1 class="legal-title">Terms of Service</h1>
+            <div class="divider"></div>
+        </div>
+    </section>
+
+    <section class="legal-content" aria-label="Terms of service content">
+        <div class="container">
+            <h2>Acceptance of Terms</h2>
+            <p>By accessing and using the Cardinal Six Cyber LLC ("Cardinal Six Cyber," "C6 Cyber," "we," "us," or "our") website at cardinalsixcyber.com, you agree to be bound by these Terms of Service. If you do not agree to these terms, do not use this website.</p>
+
+            <h2>Services</h2>
+            <p>Cardinal Six Cyber provides cybersecurity consulting services including cybersecurity program implementation, security policy and procedure development, STIG alignment, vulnerability management, risk management, and advisory services. The information on this website is for general informational purposes and does not constitute professional advice. Specific consulting engagements are governed by separate agreements.</p>
+
+            <h2>Intellectual Property</h2>
+            <p>All content on this website — including text, graphics, logos, the Cardinal Six Cyber brand, design elements, and code — is the property of Cardinal Six Cyber LLC or its parent company, Begarek Enterprises LLC, and is protected by applicable intellectual property laws. You may not reproduce, distribute, or create derivative works from this content without written permission.</p>
+
+            <h2>Use of Website</h2>
+            <p>You agree to use this website only for lawful purposes. You may not:</p>
+            <ul>
+                <li>Attempt to gain unauthorized access to any part of this website or its infrastructure</li>
+                <li>Use automated tools to scrape, crawl, or extract data beyond what is permitted by robots.txt</li>
+                <li>Transmit malicious code, conduct vulnerability scanning, or perform any security testing against this website without explicit written authorization</li>
+                <li>Misrepresent your identity or affiliation when contacting us</li>
+            </ul>
+
+            <h2>News Feed</h2>
+            <p>Our Cyber News page aggregates publicly available cybersecurity news from third-party sources. We do not claim ownership of third-party content. Links to external sites are provided for informational purposes. We are not responsible for the content, accuracy, or availability of external sites.</p>
+
+            <h2>Disclaimer</h2>
+            <p>This website and its content are provided "as is" without warranties of any kind, express or implied. Cardinal Six Cyber does not warrant that the website will be uninterrupted, error-free, or free of harmful components. Cybersecurity information on this site is general in nature and should not be relied upon as a substitute for professional assessment of your specific environment.</p>
+
+            <h2>Limitation of Liability</h2>
+            <p>To the fullest extent permitted by law, Cardinal Six Cyber LLC and Begarek Enterprises LLC shall not be liable for any indirect, incidental, consequential, or punitive damages arising from your use of or inability to use this website.</p>
+
+            <h2>Governing Law</h2>
+            <p>These terms are governed by the laws of the Commonwealth of Virginia, United States, without regard to conflict of law principles. Any disputes shall be resolved in the courts located in Chesapeake, Virginia.</p>
+
+            <h2>Changes to Terms</h2>
+            <p>We may update these terms at any time. Continued use of the website after changes constitutes acceptance of the revised terms. The date of the last update is noted below.</p>
+
+            <h2>Contact</h2>
+            <p>For questions about these terms, contact us at <a href="mailto:info@cardinalsixcyber.com">info@cardinalsixcyber.com</a>.</p>
+
+            <div class="legal-updated">Last updated: March 31, 2026</div>
+        </div>
+    </section>
+</BaseLayout>
+
+<style>
+    .legal-header { padding: calc(var(--space-32) + var(--space-8)) 0 var(--space-12); text-align: center; background: var(--c6-gradient-hero); position: relative; }
+    .legal-header::before { content: ''; position: absolute; top: 20%; left: 50%; transform: translateX(-50%); width: 600px; height: 400px; background: radial-gradient(ellipse at center, rgba(192, 57, 43, 0.05) 0%, transparent 70%); pointer-events: none; }
+    .legal-header .container { position: relative; z-index: 2; }
+    .legal-title { font-family: var(--font-display); font-size: clamp(2rem, 4vw, 3.5rem); font-weight: 700; letter-spacing: 0.05em; text-transform: uppercase; line-height: 1.1; color: var(--c6-text-primary); margin-top: var(--space-4); }
+    .legal-content { background: var(--c6-gradient-section); padding: var(--space-16) 0 var(--space-32); }
+    .legal-content .container { max-width: 800px; }
+    .legal-content h2 { font-family: var(--font-display); font-size: 1.3rem; font-weight: 600; letter-spacing: 0.04em; text-transform: uppercase; color: var(--c6-text-primary); margin-top: var(--space-12); margin-bottom: var(--space-4); }
+    .legal-content h2:first-child { margin-top: 0; }
+    .legal-content p { font-family: var(--font-body); font-size: 0.95rem; color: var(--c6-text-body); line-height: 1.8; margin-bottom: var(--space-4); }
+    .legal-content ul { list-style: none; margin-bottom: var(--space-4); padding-left: var(--space-4); }
+    .legal-content li { font-family: var(--font-body); font-size: 0.95rem; color: var(--c6-text-body); line-height: 1.8; padding-left: var(--space-4); position: relative; margin-bottom: var(--space-2); }
+    .legal-content li::before { content: ''; position: absolute; left: 0; top: 0.7em; width: 5px; height: 5px; background: var(--c6-red); transform: rotate(45deg); }
+    .legal-updated { font-family: var(--font-mono); font-size: 0.75rem; color: var(--c6-text-dim); letter-spacing: 0.04em; margin-top: var(--space-12); padding-top: var(--space-8); border-top: 1px solid var(--c6-border); }
+</style>

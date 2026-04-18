@@ -10,12 +10,12 @@ const { level, groupName, groupIndexUrl } = Astro.props;
 const isLevel1 = level === 1;
 
 const heading = isLevel1
-    ? "Track Your Level 1 Progress"
-    : "Level 2 Requires Assessment";
+    ? "Track Your Security Control Progress"
+    : "Level 2 Controls Require Expert Guidance";
 
 const bodyText = isLevel1
-    ? "Use C6 Overwatch to track your CMMC Level 1 self-assessment progress, manage your POA&Ms, and maintain continuous compliance readiness."
-    : "CMMC Level 2 requires a practitioner-led readiness engagement and third-party assessment. Cardinal Six Cyber provides expert guidance through every phase of preparation.";
+    ? "Use C6 Overwatch to track your NIST SP 800-171 security control implementation, manage POA&Ms, and maintain ongoing security documentation."
+    : "NIST 800-171 Level 2 implementation requires thorough gap analysis and control implementation. Cardinal Six Cyber provides expert guidance through every phase.";
 
 const primaryHref = isLevel1
     ? "https://overwatch.cardinalsixcyber.com"

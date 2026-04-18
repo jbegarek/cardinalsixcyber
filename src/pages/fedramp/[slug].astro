@@ -1,0 +1,81 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import InfoOnlyNotice from '../../components/InfoOnlyNotice.astro';
+import { fedrampTopics } from '../../data/fedramp-guidance';
+
+export function getStaticPaths() {
+  return fedrampTopics.map((item) => ({ params: { slug: item.slug }, props: { item } }));
+}
+
+const { item } = Astro.props;
+---
+
+<BaseLayout
+  title={`${item.title} | FedRAMP | Cardinal Six Cyber`}
+  description={`${item.title} implementation guidance with practical actions, evidence examples, and operational metrics.`}
+  canonical={`https://cardinalsixcyber.com/fedramp/${item.slug}`}
+  ogDescription={`${item.title} FedRAMP topic guidance.`}
+  navFixed={false}
+  activePage="resources"
+>
+  <section class="ref-header">
+    <div class="container">
+      <span class="eyebrow reveal">FedRAMP Topic</span>
+      <h1 class="ref-title reveal reveal-delay-1">{item.code} <span class="accent">{item.title}</span></h1>
+      <div class="divider reveal reveal-delay-2"></div>
+      <p class="section-sub reveal reveal-delay-2">{item.summary}</p>
+    </div>
+  </section>
+
+  <div class="container">
+    <InfoOnlyNotice />
+  </div>
+
+  <section class="ref-content">
+    <div class="container stack-lg">
+      <article class="ref-card">
+        <h2>Implementation Actions</h2>
+        <ul>
+          {item.implementation.map((line) => <li>{line}</li>)}
+        </ul>
+      </article>
+      <article class="ref-card">
+        <h2>Evidence Examples</h2>
+        <ul>
+          {item.evidence.map((line) => <li>{line}</li>)}
+        </ul>
+      </article>
+      <article class="ref-card">
+        <h2>Suggested Metrics</h2>
+        <ul>
+          {item.metrics.map((line) => <li>{line}</li>)}
+        </ul>
+      </article>
+      <article class="ref-card">
+        <h2>Navigation</h2>
+        <div class="link-grid">
+          <a href="/fedramp" class="ref-link">Back to FedRAMP Topics</a>
+          <a href="/nist-800-53" class="ref-link">NIST SP 800-53 Controls</a>
+          <a href="/nist-csf-2" class="ref-link">NIST CSF 2.0 Guidance</a>
+          <a href="/glossary/fedramp" class="ref-link">FedRAMP Glossary Entry</a>
+        </div>
+      </article>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .ref-header { padding: calc(var(--space-32) + var(--space-8)) 0 var(--space-12); text-align: center; background: var(--c6-gradient-hero); }
+  .ref-title { font-family: var(--font-display); font-size: clamp(2rem, 4.5vw, 3.3rem); letter-spacing: 0.03em; text-transform: uppercase; line-height: 1.15; margin-top: var(--space-4); }
+  .ref-title .accent { color: var(--c6-red-bright); }
+  .ref-content { background: var(--c6-gradient-section); padding: var(--space-8) 0 var(--space-16); }
+  .stack-lg { display: grid; gap: var(--space-4); }
+  .ref-card { background: var(--c6-black-elevated); border: 1px solid var(--c6-border); border-radius: var(--radius-md); padding: var(--space-6); }
+  .ref-card h2 { margin: 0 0 var(--space-3); font-family: var(--font-display); font-size: 1.08rem; text-transform: uppercase; letter-spacing: 0.03em; }
+  .ref-card ul { margin: 0; padding-left: 1.1rem; color: var(--c6-text-muted); line-height: 1.7; }
+  .ref-card li { margin-bottom: var(--space-2); }
+  .link-grid { display: grid; gap: var(--space-3); grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .ref-link { display: block; background: rgba(255, 255, 255, 0.02); border: 1px solid var(--c6-border-soft); border-radius: var(--radius-sm); padding: var(--space-3) var(--space-4); color: var(--c6-text-secondary); text-decoration: none; transition: border-color 0.2s ease, transform 0.2s ease, color 0.2s ease; }
+  .ref-link:hover { border-color: var(--c6-border-accent); color: var(--c6-text-primary); transform: translateY(-1px); }
+  @media (max-width: 900px) { .link-grid { grid-template-columns: 1fr; } }
+</style>

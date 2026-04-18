@@ -1,0 +1,451 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import stigIndex from '../../../../data/stig-index.json';
+import ComplianceCTA from '../../../components/ComplianceCTA.astro';
+import InfoOnlyNotice from '../../../components/InfoOnlyNotice.astro';
+import fs from 'node:fs';
+import path from 'node:path';
+
+interface Rule {
+    vulnId: string;
+    ruleId: string;
+    stigId: string;
+    severity: string;
+    cat: string;
+    title: string;
+    discussion: string;
+    checkText: string;
+    fixText: string;
+    cciRefs: string[];
+    documentable: boolean;
+    responsibility: string;
+    mitigations: string;
+    falsePositives: string;
+    falseNegatives: string;
+}
+
+interface BenchmarkData {
+    slug: string;
+    label: string;
+    benchmarkTitle: string;
+    version: string;
+    releaseInfo: string;
+    category: string;
+    totalRules: number;
+    catI: number;
+    catII: number;
+    catIII: number;
+    rules: Rule[];
+}
+
+export async function getStaticPaths() {
+    const paths = [];
+    for (const b of stigIndex.benchmarks) {
+        const dataPath = path.resolve('data', 'stigs', `${b.slug}.json`);
+        const data: BenchmarkData = JSON.parse(fs.readFileSync(dataPath, 'utf-8'));
+        for (const rule of data.rules) {
+            paths.push({
+                params: { benchmark: b.slug, id: rule.vulnId.toLowerCase() },
+                props: { rule, benchmark: data },
+            });
+        }
+    }
+    return paths;
+}
+
+const { rule, benchmark } = Astro.props as { rule: Rule; benchmark: BenchmarkData };
+
+// Adjacent rules for prev/next
+const ruleIndex = benchmark.rules.findIndex(r => r.vulnId === rule.vulnId);
+const prevRule = ruleIndex > 0 ? benchmark.rules[ruleIndex - 1] : null;
+const nextRule = ruleIndex < benchmark.rules.length - 1 ? benchmark.rules[ruleIndex + 1] : null;
+
+// CCI → rough NIST 800-53 label (display only)
+const SEV_COLOR: Record<string, string> = { high: 'sev-high', medium: 'sev-medium', low: 'sev-low' };
+const sevClass = SEV_COLOR[rule.severity] || 'sev-medium';
+---
+
+<BaseLayout
+    title={`${rule.vulnId} — ${rule.title.slice(0, 60)} | ${benchmark.label} STIG`}
+    description={rule.discussion.slice(0, 160)}
+    canonical={`https://cardinalsixcyber.com/stig/${benchmark.slug}/${rule.vulnId.toLowerCase()}`}
+    activePage="stig"
+    ogType="article"
+>
+    <article class="rule-page">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb-bar" aria-label="Breadcrumb">
+            <ol class="breadcrumb-list">
+                <li><a href="/" class="breadcrumb-link">Home</a></li>
+                <li class="breadcrumb-sep">&rsaquo;</li>
+                <li><a href="/stig" class="breadcrumb-link">STIGs</a></li>
+                <li class="breadcrumb-sep">&rsaquo;</li>
+                <li><a href={`/stig/${benchmark.slug}`} class="breadcrumb-link">{benchmark.label}</a></li>
+                <li class="breadcrumb-sep">&rsaquo;</li>
+                <li class="breadcrumb-current" aria-current="page">{rule.vulnId}</li>
+            </ol>
+        </nav>
+
+        <!-- Header -->
+        <header class="rule-header">
+            <p class="eyebrow">
+                {benchmark.label} &bull; {benchmark.releaseInfo}
+            </p>
+            <div class="title-row">
+                <div class="title-ids">
+                    <span class={`cat-badge cat-badge--${rule.severity}`}>{rule.cat}</span>
+                    <span class="vuln-id">{rule.vulnId}</span>
+                    <span class="stig-id">{rule.stigId}</span>
+                </div>
+            </div>
+            <h1 class="rule-title">{rule.title}</h1>
+            <div class="divider"></div>
+        </header>
+        <InfoOnlyNotice />
+
+        <!-- Meta strip -->
+        <div class="meta-strip">
+            {rule.responsibility && (
+                <div class="meta-item">
+                    <span class="meta-key">Responsibility</span>
+                    <span class="meta-val">{rule.responsibility}</span>
+                </div>
+            )}
+            <div class="meta-item">
+                <span class="meta-key">Documentable</span>
+                <span class="meta-val">{rule.documentable ? 'Yes' : 'No'}</span>
+            </div>
+            <div class="meta-item">
+                <span class="meta-key">Rule ID</span>
+                <span class="meta-val mono">{rule.ruleId}</span>
+            </div>
+            {rule.cciRefs.length > 0 && (
+                <div class="meta-item meta-item--cci">
+                    <span class="meta-key">CCI References</span>
+                    <div class="cci-list">
+                        {rule.cciRefs.map(cci => (
+                            <span class="cci-badge">{cci}</span>
+                        ))}
+                    </div>
+                </div>
+            )}
+        </div>
+
+        <!-- Discussion -->
+        {rule.discussion && (
+            <section class="content-section" aria-label="Discussion">
+                <h2 class="section-label">Discussion</h2>
+                <div class="prose-block">
+                    <p>{rule.discussion}</p>
+                </div>
+            </section>
+        )}
+
+        <!-- Check / Fix two-column -->
+        <div class="check-fix-grid">
+            <!-- Check procedure -->
+            <section class="check-card" aria-label="Check procedure">
+                <div class="card-header card-header--check">
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+                        <circle cx="8" cy="8" r="7" stroke="currentColor" stroke-width="1.5"/>
+                        <path d="M8 4v4l2.5 2.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                    </svg>
+                    <h2 class="card-title">Check Procedure</h2>
+                </div>
+                <pre class="code-block">{rule.checkText || 'Not specified.'}</pre>
+            </section>
+
+            <!-- Fix action -->
+            <section class="fix-card" aria-label="Fix action">
+                <div class="card-header card-header--fix">
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+                        <path d="M2 8h12M8 2l6 6-6 6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    <h2 class="card-title">Fix Action</h2>
+                </div>
+                <pre class="code-block">{rule.fixText || 'Not specified.'}</pre>
+            </section>
+        </div>
+
+        <!-- Additional info: mitigations, false positives/negatives -->
+        {(rule.mitigations || rule.falsePositives || rule.falseNegatives) && (
+            <section class="extras-section">
+                {rule.mitigations && (
+                    <div class="extra-block">
+                        <h3 class="extra-label">Mitigations</h3>
+                        <p class="extra-text">{rule.mitigations}</p>
+                    </div>
+                )}
+                {rule.falsePositives && (
+                    <div class="extra-block">
+                        <h3 class="extra-label">False Positives</h3>
+                        <p class="extra-text">{rule.falsePositives}</p>
+                    </div>
+                )}
+                {rule.falseNegatives && (
+                    <div class="extra-block">
+                        <h3 class="extra-label">False Negatives</h3>
+                        <p class="extra-text">{rule.falseNegatives}</p>
+                    </div>
+                )}
+            </section>
+        )}
+
+        <!-- CTA -->
+        <section class="cta-section">
+            <ComplianceCTA level={2} groupName={benchmark.label} groupIndexUrl={`/stig/${benchmark.slug}`} />
+        </section>
+
+        <!-- Prev / Next navigation -->
+        <nav class="rule-nav" aria-label="Adjacent rules">
+            <div class="rule-nav-inner">
+                {prevRule ? (
+                    <a href={`/stig/${benchmark.slug}/${prevRule.vulnId.toLowerCase()}`} class="rule-nav-link rule-nav-link--prev">
+                        <span class="nav-dir">← Previous</span>
+                        <span class="nav-id">{prevRule.vulnId}</span>
+                        <span class="nav-title">{prevRule.title.slice(0, 60)}{prevRule.title.length > 60 ? '…' : ''}</span>
+                    </a>
+                ) : <div />}
+                {nextRule ? (
+                    <a href={`/stig/${benchmark.slug}/${nextRule.vulnId.toLowerCase()}`} class="rule-nav-link rule-nav-link--next">
+                        <span class="nav-dir">Next →</span>
+                        <span class="nav-id">{nextRule.vulnId}</span>
+                        <span class="nav-title">{nextRule.title.slice(0, 60)}{nextRule.title.length > 60 ? '…' : ''}</span>
+                    </a>
+                ) : <div />}
+            </div>
+        </nav>
+
+    </article>
+</BaseLayout>
+
+<style>
+.rule-page {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: var(--space-8) var(--space-6);
+}
+
+/* Breadcrumb */
+.breadcrumb-bar {
+    margin-bottom: var(--space-10);
+    padding: var(--space-3) var(--space-4);
+    background: var(--c6-black-elevated);
+    border: 1px solid var(--c6-border);
+    border-radius: var(--radius-sm);
+}
+.breadcrumb-list {
+    display: flex; flex-wrap: wrap; align-items: center;
+    gap: var(--space-2); list-style: none; margin: 0; padding: 0;
+    font-family: var(--font-body); font-size: 0.875rem;
+}
+.breadcrumb-link { color: var(--c6-text-muted); text-decoration: none; transition: color 250ms; }
+.breadcrumb-link:hover { color: var(--c6-red); }
+.breadcrumb-link:focus-visible { outline: 2px solid var(--c6-red); outline-offset: 2px; }
+.breadcrumb-sep { color: var(--c6-text-dim); }
+.breadcrumb-current { color: var(--c6-text-secondary); font-weight: 500; }
+
+/* Header */
+.rule-header { margin-bottom: var(--space-6); }
+
+.eyebrow {
+    font-family: var(--font-display); font-size: 0.8rem; font-weight: 300;
+    letter-spacing: 0.25em; text-transform: uppercase;
+    color: var(--c6-text-secondary); margin: 0 0 var(--space-4) 0;
+}
+
+.title-row { margin-bottom: var(--space-4); }
+.title-ids { display: flex; align-items: center; gap: var(--space-3); flex-wrap: wrap; }
+
+.cat-badge {
+    font-family: var(--font-mono); font-size: 0.75rem; font-weight: 700;
+    padding: 3px 10px; border-radius: var(--radius-sm);
+}
+.cat-badge--high   { background: rgba(192,57,43,0.18); color: #e05a4a; border: 1px solid rgba(192,57,43,0.35); }
+.cat-badge--medium { background: rgba(243,156,18,0.12); color: #d4a017; border: 1px solid rgba(243,156,18,0.3); }
+.cat-badge--low    { background: rgba(255,255,255,0.04); color: var(--c6-text-muted); border: 1px solid var(--c6-border); }
+
+.vuln-id {
+    font-family: var(--font-mono); font-size: 1.1rem; font-weight: 700;
+    color: var(--c6-text-primary); letter-spacing: 0.04em;
+}
+
+.stig-id {
+    font-family: var(--font-mono); font-size: 0.85rem;
+    color: var(--c6-text-muted);
+}
+
+.rule-title {
+    font-family: var(--font-display); font-size: clamp(1.3rem, 3vw, 2rem);
+    font-weight: 700; letter-spacing: 0.02em; color: var(--c6-text-primary);
+    margin: 0 0 var(--space-4) 0; line-height: 1.25;
+}
+
+.divider {
+    width: 80px; height: 2px; background: var(--c6-red); margin: 0 0 var(--space-6) 0;
+}
+
+/* Meta strip */
+.meta-strip {
+    display: flex; flex-wrap: wrap; gap: var(--space-4);
+    padding: var(--space-4) var(--space-6);
+    background: var(--c6-black-elevated);
+    border: 1px solid var(--c6-border);
+    border-radius: var(--radius-md);
+    margin-bottom: var(--space-8);
+}
+
+.meta-item {
+    display: flex; flex-direction: column; gap: var(--space-1);
+}
+
+.meta-item--cci { flex-direction: row; align-items: center; gap: var(--space-3); flex-wrap: wrap; }
+
+.meta-key {
+    font-family: var(--font-display); font-size: 0.72rem; font-weight: 600;
+    letter-spacing: 0.12em; text-transform: uppercase; color: var(--c6-gold);
+}
+
+.meta-val {
+    font-family: var(--font-body); font-size: 0.875rem; color: var(--c6-text-secondary);
+}
+
+.meta-val.mono { font-family: var(--font-mono); font-size: 0.78rem; color: var(--c6-text-muted); }
+
+.cci-list { display: flex; flex-wrap: wrap; gap: var(--space-2); }
+.cci-badge {
+    font-family: var(--font-mono); font-size: 0.75rem;
+    padding: 2px var(--space-3); border-radius: var(--radius-sm);
+    background: var(--c6-black-surface); border: 1px solid var(--c6-border);
+    color: var(--c6-text-muted);
+}
+
+/* Discussion */
+.content-section { margin-bottom: var(--space-8); }
+
+.section-label {
+    font-family: var(--font-display); font-size: 0.8rem; font-weight: 600;
+    letter-spacing: 0.15em; text-transform: uppercase; color: var(--c6-gold);
+    margin: 0 0 var(--space-4) 0;
+}
+
+.prose-block {
+    background: var(--c6-black-elevated); border: 1px solid var(--c6-border);
+    border-radius: var(--radius-md); padding: var(--space-6);
+}
+
+.prose-block p {
+    font-family: var(--font-body); font-size: 0.95rem; line-height: 1.75;
+    color: var(--c6-text-body); margin: 0;
+}
+
+/* Check / Fix grid */
+.check-fix-grid {
+    display: grid; grid-template-columns: 1fr 1fr;
+    gap: var(--space-4); margin-bottom: var(--space-8);
+}
+
+.check-card, .fix-card {
+    background: var(--c6-black-elevated); border: 1px solid var(--c6-border);
+    border-radius: var(--radius-md); overflow: hidden;
+}
+
+.card-header {
+    display: flex; align-items: center; gap: var(--space-3);
+    padding: var(--space-4) var(--space-6);
+    border-bottom: 1px solid var(--c6-border);
+}
+
+.card-header--check { background: rgba(201,168,76,0.05); color: var(--c6-gold); }
+.card-header--fix   { background: rgba(192,57,43,0.05); color: var(--c6-red); }
+
+.card-title {
+    font-family: var(--font-display); font-size: 0.8rem; font-weight: 600;
+    letter-spacing: 0.12em; text-transform: uppercase; margin: 0;
+}
+
+.card-header--check .card-title { color: var(--c6-gold); }
+.card-header--fix   .card-title { color: #e05a4a; }
+
+.code-block {
+    font-family: var(--font-mono); font-size: 0.82rem; line-height: 1.65;
+    color: var(--c6-text-body); padding: var(--space-6);
+    white-space: pre-wrap; word-break: break-word; margin: 0;
+    overflow-y: auto; max-height: 400px;
+}
+
+/* Extras */
+.extras-section {
+    display: flex; flex-direction: column; gap: var(--space-4);
+    margin-bottom: var(--space-8);
+}
+
+.extra-block {
+    background: var(--c6-black-elevated); border: 1px solid var(--c6-border);
+    border-radius: var(--radius-md); padding: var(--space-5) var(--space-6);
+}
+
+.extra-label {
+    font-family: var(--font-display); font-size: 0.78rem; font-weight: 600;
+    letter-spacing: 0.12em; text-transform: uppercase; color: var(--c6-text-muted);
+    margin: 0 0 var(--space-2) 0;
+}
+
+.extra-text {
+    font-family: var(--font-body); font-size: 0.875rem; line-height: 1.65;
+    color: var(--c6-text-body); margin: 0;
+}
+
+/* CTA */
+.cta-section { margin-bottom: var(--space-10); }
+
+/* Prev/Next nav */
+.rule-nav { margin-top: var(--space-8); }
+
+.rule-nav-inner {
+    display: grid; grid-template-columns: 1fr 1fr;
+    gap: var(--space-4);
+}
+
+.rule-nav-link {
+    display: flex; flex-direction: column; gap: var(--space-1);
+    padding: var(--space-4) var(--space-6);
+    background: var(--c6-black-elevated);
+    border: 1px solid var(--c6-border);
+    border-radius: var(--radius-md); text-decoration: none;
+    transition: border-color 250ms, background 250ms;
+}
+
+.rule-nav-link--next { text-align: right; }
+
+.rule-nav-link:hover {
+    border-color: var(--c6-border-accent);
+    background: rgba(192,57,43,0.04);
+}
+
+.rule-nav-link:focus-visible { outline: 2px solid var(--c6-red); outline-offset: 2px; }
+
+.nav-dir {
+    font-family: var(--font-display); font-size: 0.72rem; font-weight: 500;
+    letter-spacing: 0.12em; text-transform: uppercase; color: var(--c6-text-muted);
+}
+
+.nav-id {
+    font-family: var(--font-mono); font-size: 0.9rem; font-weight: 700;
+    color: var(--c6-text-secondary);
+}
+
+.nav-title {
+    font-family: var(--font-body); font-size: 0.8rem; line-height: 1.45;
+    color: var(--c6-text-body);
+}
+
+@media (max-width: 640px) {
+    .rule-page { padding: var(--space-6) var(--space-4); }
+    .check-fix-grid { grid-template-columns: 1fr; }
+    .rule-nav-inner { grid-template-columns: 1fr; }
+    .rule-nav-link--next { text-align: left; }
+    .meta-strip { flex-direction: column; }
+}
+</style>

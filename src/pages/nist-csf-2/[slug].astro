@@ -1,0 +1,134 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import InfoOnlyNotice from '../../components/InfoOnlyNotice.astro';
+import { csfCategories } from '../../data/nist-csf-2';
+import { cisControls } from '../../data/cis-controls-v8';
+import { csfCrosswalk } from '../../data/csf-crosswalk';
+
+export function getStaticPaths() {
+  return csfCategories.map((item) => ({ params: { slug: item.slug }, props: { item } }));
+}
+
+const { item } = Astro.props;
+const objective =
+  item.objective ??
+  `Establish repeatable ${String(item.title).toLowerCase()} outcomes with defined ownership, evidence collection, and measurable performance.`;
+
+const crosswalk = csfCrosswalk[item.slug] ?? { nistFamilies: [], cisCodes: [] };
+const nistFamilyLinks = crosswalk.nistFamilies.map((family) => ({
+  ...family,
+  url: `/nist-800-171#${family.code.toLowerCase().replace('.', '-')}`
+}));
+const cisLinks = crosswalk.cisCodes
+  .map((code) => {
+    const match = cisControls.find((control) => control.code === code);
+    return match ? { code: match.code, title: match.title, url: `/cis-controls-v8/${match.slug}` } : null;
+  })
+  .filter(Boolean);
+---
+
+<BaseLayout
+  title={`${item.code} ${item.title} | NIST CSF 2.0 | Cardinal Six Cyber`}
+  description={`${item.code} ${item.title} implementation guidance with objective, evidence examples, and performance metrics.`}
+  canonical={`https://cardinalsixcyber.com/nist-csf-2/${item.slug}`}
+  ogDescription={`${item.code} category reference for NIST CSF 2.0.`}
+  navFixed={false}
+  activePage="resources"
+>
+  <section class="ref-header">
+    <div class="container">
+      <span class="eyebrow reveal">NIST CSF 2.0 Category</span>
+      <h1 class="ref-title reveal reveal-delay-1">{item.code} <span class="accent">{item.title}</span></h1>
+      <div class="divider reveal reveal-delay-2"></div>
+      <p class="section-sub reveal reveal-delay-2"><strong>{item.functionCode} {item.functionName}</strong> | {item.summary}</p>
+    </div>
+  </section>
+
+  <div class="container">
+    <InfoOnlyNotice />
+  </div>
+
+  <section class="ref-content">
+    <div class="container stack-lg">
+      <article class="ref-card">
+        <h2>Implementation Objective</h2>
+        <p>{objective}</p>
+      </article>
+      <article class="ref-card">
+        <h2>Implementation Actions</h2>
+        <ul>
+          {item.implementation.map((line) => <li>{line}</li>)}
+        </ul>
+      </article>
+      <article class="ref-card">
+        <h2>Evidence Examples</h2>
+        <ul>
+          {item.evidence.map((line) => <li>{line}</li>)}
+        </ul>
+      </article>
+      <article class="ref-card">
+        <h2>Suggested Metrics</h2>
+        <ul>
+          {item.metrics.map((line) => <li>{line}</li>)}
+        </ul>
+      </article>
+      <article class="ref-card">
+        <h2>Framework Crosswalk</h2>
+        <p class="crosswalk-copy">Direct mappings for this CSF category into NIST SP 800-171 family sections and CIS Controls v8 implementation domains.</p>
+        <div class="crosswalk-grid">
+          <div class="crosswalk-group">
+            <h3>NIST SP 800-171 Families</h3>
+            <ul>
+              {nistFamilyLinks.map((family) => (
+                <li><a href={family.url}>{family.code} {family.title}</a></li>
+              ))}
+            </ul>
+          </div>
+          <div class="crosswalk-group">
+            <h3>CIS Controls v8</h3>
+            <ul>
+              {cisLinks.map((control) => (
+                <li><a href={control.url}>{control.code} {control.title}</a></li>
+              ))}
+            </ul>
+          </div>
+        </div>
+      </article>
+      <article class="ref-card">
+        <h2>Navigation</h2>
+        <div class="link-grid">
+          <a href="/nist-csf-2" class="ref-link">Back to NIST CSF 2.0 Categories</a>
+          <a href="/cis-controls-v8" class="ref-link">CIS Controls v8 Guidance</a>
+          <a href="/fedramp" class="ref-link">FedRAMP Guidance</a>
+          <a href="/glossary" class="ref-link">Cybersecurity Glossary</a>
+        </div>
+      </article>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .ref-header { padding: calc(var(--space-32) + var(--space-8)) 0 var(--space-12); text-align: center; background: var(--c6-gradient-hero); }
+  .ref-title { font-family: var(--font-display); font-size: clamp(2rem, 4.5vw, 3.4rem); letter-spacing: 0.03em; text-transform: uppercase; line-height: 1.15; margin-top: var(--space-4); }
+  .ref-title .accent { color: var(--c6-red-bright); }
+  .ref-content { background: var(--c6-gradient-section); padding: var(--space-8) 0 var(--space-16); }
+  .stack-lg { display: grid; gap: var(--space-4); }
+  .ref-card { background: var(--c6-black-elevated); border: 1px solid var(--c6-border); border-radius: var(--radius-md); padding: var(--space-6); }
+  .ref-card h2 { margin: 0 0 var(--space-3); font-family: var(--font-display); font-size: 1.08rem; text-transform: uppercase; letter-spacing: 0.03em; }
+  .ref-card p { margin: 0; color: var(--c6-text-muted); line-height: 1.7; }
+  .ref-card ul { margin: 0; padding-left: 1.1rem; color: var(--c6-text-muted); line-height: 1.7; }
+  .ref-card li { margin-bottom: var(--space-2); }
+  .crosswalk-copy { margin-bottom: var(--space-4); }
+  .crosswalk-grid { display: grid; gap: var(--space-4); grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .crosswalk-group { background: rgba(255, 255, 255, 0.02); border: 1px solid var(--c6-border-soft); border-radius: var(--radius-sm); padding: var(--space-4); }
+  .crosswalk-group h3 { margin: 0 0 var(--space-3); font-size: 0.92rem; letter-spacing: 0.02em; text-transform: uppercase; color: var(--c6-text-secondary); }
+  .crosswalk-group a { color: var(--c6-text-secondary); text-decoration: none; border-bottom: 1px dashed transparent; }
+  .crosswalk-group a:hover { color: var(--c6-text-primary); border-bottom-color: var(--c6-red-bright); }
+  .link-grid { display: grid; gap: var(--space-3); grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .ref-link { display: block; background: rgba(255, 255, 255, 0.02); border: 1px solid var(--c6-border-soft); border-radius: var(--radius-sm); padding: var(--space-3) var(--space-4); color: var(--c6-text-secondary); text-decoration: none; transition: border-color 0.2s ease, transform 0.2s ease, color 0.2s ease; }
+  .ref-link:hover { border-color: var(--c6-border-accent); color: var(--c6-text-primary); transform: translateY(-1px); }
+  @media (max-width: 900px) {
+    .crosswalk-grid { grid-template-columns: 1fr; }
+    .link-grid { grid-template-columns: 1fr; }
+  }
+</style>

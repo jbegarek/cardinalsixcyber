@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import practices from '../../../data/cmmc-practices.json';
+import InfoOnlyNotice from '../../components/InfoOnlyNotice.astro';
 
 /* ── Group practices by domain at build time ── */
 interface Practice {
@@ -35,8 +36,8 @@ const totalCount = (practices as { practices: Practice[] }).practices.length;
 ---
 
 <BaseLayout
-    title="CMMC 2.0 Practices | Cardinal Six Cyber"
-    description="All 110 CMMC 2.0 practices organized by domain. Level 1 practices support self-assessment via C6 Overwatch."
+    title="CMMC 2.0 / NIST SP 800-171 Security Control Practices | Cardinal Six Cyber"
+    description="All 110 CMMC 2.0 and mapped NIST SP 800-171 security control practices organized by domain. Includes implementation guidance and evidence examples for internal security assessments."
     canonical="https://cardinalsixcyber.com/cmmc"
     ogDescription="Complete reference for all 110 CMMC 2.0 practices grouped by domain with filtering by level and search."
     navFixed={false}
@@ -48,14 +49,14 @@ const totalCount = (practices as { practices: Practice[] }).practices.length;
             "@type": "BreadcrumbList",
             "itemListElement": [
                 { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://cardinalsixcyber.com/" },
-                { "@type": "ListItem", "position": 2, "name": "CMMC 2.0 Practices", "item": "https://cardinalsixcyber.com/cmmc" }
+                { "@type": "ListItem", "position": 2, "name": "CMMC 2.0 / NIST SP 800-171 Security Control Practices", "item": "https://cardinalsixcyber.com/cmmc" }
             ]
         })} />
         <script type="application/ld+json" set:html={JSON.stringify({
             "@context": "https://schema.org",
             "@type": "CollectionPage",
-            "name": "CMMC 2.0 Practices",
-            "description": "All 110 CMMC 2.0 practices organized by domain. Level 1 practices support self-assessment via C6 Overwatch.",
+            "name": "CMMC 2.0 / NIST SP 800-171 Security Control Practices",
+            "description": "All 110 CMMC 2.0 and mapped NIST SP 800-171 security control practices organized by domain. Includes implementation guidance and evidence examples for internal security assessments.",
             "url": "https://cardinalsixcyber.com/cmmc",
             "isPartOf": { "@type": "WebSite", "name": "Cardinal Six Cyber", "url": "https://cardinalsixcyber.com" }
         })} />
@@ -65,11 +66,14 @@ const totalCount = (practices as { practices: Practice[] }).practices.length;
     <section class="cmmc-header" aria-label="Page header">
         <div class="container">
             <span class="eyebrow reveal">Compliance Reference</span>
-            <h1 class="cmmc-title reveal reveal-delay-1">CMMC 2.0 <span class="accent">Practices</span></h1>
+            <h1 class="cmmc-title reveal reveal-delay-1">CMMC 2.0 / NIST SP 800-171 <span class="accent">Security Control Practices</span></h1>
             <div class="divider reveal reveal-delay-2"></div>
-            <p class="section-sub reveal reveal-delay-2">All 110 CMMC 2.0 practices organized by domain. Level 1 practices support self-assessment via C6 Overwatch.</p>
+            <p class="section-sub reveal reveal-delay-2">All 110 CMMC 2.0 and mapped NIST SP 800-171 security control practices organized by domain. Includes implementation guidance and evidence examples for internal security assessments.</p>
         </div>
     </section>
+    <div class="container">
+        <InfoOnlyNotice />
+    </div>
 
     <!-- ═══ Sticky Filter Bar ═══ -->
     <div class="filter-bar" id="filterBar">

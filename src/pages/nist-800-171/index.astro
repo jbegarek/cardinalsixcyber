@@ -2,6 +2,7 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import nistData from '../../../data/nist-800-171.json';
 import cmmcData from '../../../data/cmmc-practices.json';
+import InfoOnlyNotice from '../../components/InfoOnlyNotice.astro';
 
 /* ── Build CMMC practice lookup by id ── */
 interface CmmcPractice {
@@ -91,6 +92,9 @@ function getCmmcDisplayIds(cmmcRefs: string[] | null): string[] {
             <p class="section-sub reveal reveal-delay-2">All 110 security requirements for protecting Controlled Unclassified Information (CUI) in nonfederal systems, organized by family with CMMC practice mappings.</p>
         </div>
     </section>
+    <div class="container">
+        <InfoOnlyNotice />
+    </div>
 
     <!-- ═══ Sticky Filter Bar ═══ -->
     <div class="filter-bar" id="filterBar">
