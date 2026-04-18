@@ -12,6 +12,7 @@ function toReadableLabel(value?: string) {
   const normalized = value.trim().toLowerCase();
   if (normalized === 'practical') return 'Practical';
   if (normalized === 'research') return 'Research';
+  if (normalized === 'journey') return 'CMMC Journey';
 
   return value
     .replace(/[_-]+/g, ' ')
@@ -53,5 +54,10 @@ const label = toReadableLabel(lane);
   .blog-lane-badge.is-research {
     border-color: color-mix(in srgb, var(--c6-gold) 28%, var(--c6-border));
     color: var(--c6-text-primary);
+  }
+
+  .blog-lane-badge.is-journey {
+    border-color: color-mix(in srgb, #4a9eff 28%, var(--c6-border));
+    color: #6ab4ff;
   }
 </style>

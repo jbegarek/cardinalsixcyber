@@ -23,6 +23,31 @@ const entry = {
 const { Content } = await entry.render();
 
 const canonical = entry.data.canonicalUrl ?? `https://cardinalsixcyber.com/blog/${entry.id}`;
+
+// Compute related posts by topic overlap, excluding the current post
+const allPosts = await getCollection('blog', ({ data }) => !data.draft);
+const currentTopics = new Set((entry.data.topics ?? []).map((t) => t.toLowerCase()));
+
+const scored = allPosts
+  .filter((p) => p.id !== entry.id)
+  .map((p) => {
+    const overlap = (p.data.topics ?? []).filter((t) =>
+      currentTopics.has(t.toLowerCase()),
+    ).length;
+    return { post: p, overlap };
+  })
+  .filter(({ overlap }) => overlap > 0)
+  .sort((a, b) => b.overlap - a.overlap || b.post.data.publishDate.getTime() - a.post.data.publishDate.getTime())
+  .slice(0, 3)
+  .map(({ post }) => ({
+    id: post.id,
+    title: post.data.title,
+    description: post.data.description,
+    lane: post.data.lane,
+    publishDate: post.data.publishDate,
+    topics: post.data.topics,
+    featured: post.data.featured,
+  }));
 ---
 
 <BlogPostLayout
@@ -40,6 +65,7 @@ const canonical = entry.data.canonicalUrl ?? `https://cardinalsixcyber.com/blog/
   diagrams={entry.data.diagrams}
   heroStyle={entry.data.heroStyle}
   heroImage={entry.data.heroImage}
+  relatedPosts={scored}
 >
   <Content />
 </BlogPostLayout>

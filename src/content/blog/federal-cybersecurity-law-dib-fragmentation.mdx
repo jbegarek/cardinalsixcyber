@@ -1,0 +1,150 @@
+---
+title: "Federal Cybersecurity Law and the Defense Industrial Base: Fragmentation, Implementation Lag, and the Case for Reform"
+description: "A practitioner analysis of how FISMA, DFARS, CMMC, CIRCIA, and sector-specific statutes interact — and where the current framework still breaks down."
+publishDate: 2026-04-19
+author: "Justin T. Begarek"
+lane: research
+topics:
+  - CMMC
+  - DFARS
+  - FISMA
+  - Policy
+  - Supply Chain
+featured: true
+draft: false
+citations: true
+diagrams: false
+---
+
+The United States does not have a single federal cybersecurity statute. What it has is a layered accumulation of laws, regulations, executive orders, technical standards, and acquisition clauses that do not neatly align across the federal government, the defense industrial base, or critical infrastructure sectors. For DoD contractors, that patchwork is not an academic inconvenience. It shapes incident reporting windows, contract award eligibility, control implementation timelines, and the cost structure of doing business with the government.
+
+This post draws from a doctoral analysis of federal cybersecurity law across three domains — DoD, CISA, and the energy sector — and four DoD supply chain risk management focus areas. The goal is to give practitioners a clear map of what the framework actually requires, where it consistently underperforms, and what reforms could address the structural gaps.
+
+*See how this framework applies in practice: [CMMC 2.0 Levels, Assessment Paths, and What Certification Costs](/blog/cmmc-2-levels-assessment-cost) and [The DFARS Clause Stack: 7012, 7019, 7020, and 7021 Explained](/blog/dfars-clause-stack-7012-7019-7020-7021).*
+
+---
+
+## The Statutory Foundation: FISMA
+
+The Federal Information Security Modernization Act of 2014 (44 U.S.C. §§ 3551–3558) is the foundational cybersecurity statute for all federal agencies, including DoD. FISMA requires each agency head to provide information security protections commensurate with the risk and potential harm resulting from unauthorized access, use, disclosure, or disruption of agency systems. OMB provides oversight policy. DHS (through CISA) issues Binding Operational Directives for federal civilian executive branch agencies.
+
+DoD is partially inside and partially outside that civilian model. Its unclassified systems operate under the FISMA framework operationalized through [NIST SP 800-53 Revision 5](/nist-800-53/) and DoD Instruction 8510.01. Its national security systems run under a parallel authority tied to the NSA Director's National Manager role and NSM-8.
+
+Here is the first gap the framework has not fully closed: a May 2024 DoD Inspector General advisory (DODIG-2024-084) found that DoD did not consistently comply with NIST and DoD guidance and would not complete full implementation of SP 800-53 Rev. 5 until 2026 — six years after the revision was published. The legal mandate arrived in 2020. The organizational capacity to carry it out is still catching up.
+
+---
+
+## How DoD Reaches Contractors: The DFARS Mechanism
+
+FISMA does not apply directly to private contractors. DoD instead pushes equivalent cybersecurity obligations through the Defense Federal Acquisition Regulation Supplement. The four foundational clauses are:
+
+- **DFARS 252.204-7012** — Requires adequate security (implemented through [NIST SP 800-171](/nist-800-171/)) for covered defense information, 72-hour cyber incident reporting to DoD, and 90-day preservation of affected system images.
+- **DFARS 252.204-7019** — Requires a current NIST SP 800-171 Basic Assessment score posted in the Supplier Performance Risk System before contract award.
+- **DFARS 252.204-7020** — Authorizes DoD to conduct Medium or High assessments of contractor compliance and prohibits prime contractors from awarding subcontracts to firms without a current assessment score in SPRS.
+- **DFARS 252.204-7021** — Requires CMMC certification at the level specified in the solicitation as a condition of award.
+
+Read together, these four clauses convert a general federal cybersecurity statute into concrete contractor conditions for award, assessment, and incident reporting. They are the mechanism by which FISMA-equivalent duties reach the 100,000-plus firms in the defense industrial base.
+
+*For a clause-by-clause breakdown of what each one requires, see [The DFARS Clause Stack Explained](/blog/dfars-clause-stack-7012-7019-7020-7021).*
+
+---
+
+## CMMC 2.0: The Certification Layer on Top of DFARS
+
+CMMC 2.0 places a three-tier certification structure on top of the DFARS clause stack. Codified at 32 C.F.R. Part 170 and effective December 2024, the program creates three levels keyed to information sensitivity:
+
+**Level 1 (Foundational)** covers Federal Contract Information through annual self-assessment against the FAR basic safeguarding baseline (17 requirements).
+
+**Level 2 (Advanced)** covers Controlled Unclassified Information through all 110 requirements in NIST SP 800-171. Most CUI-handling contractors will require third-party assessment by a CMMC Third-Party Assessment Organization every three years.
+
+**Level 3 (Expert)** covers contractors on the DoD's highest-priority programs. It requires prior Level 2 certification plus a government-led assessment by DCMA's Defense Industrial Base Cybersecurity Assessment Center against a subset of NIST SP 800-172.
+
+DoD estimated roughly $4 billion in ten-year industry costs, with per-contractor costs running from approximately $6,000 per Level 1 cycle to $220,000 per Level 3 DIBCAC cycle — before accounting for the underlying cost of implementing the controls.
+
+*For the full breakdown of levels, assessment paths, POA&M rules, and the phase-in timeline, see [CMMC 2.0 Levels and Assessment Paths](/blog/cmmc-2-levels-assessment-cost).*
+
+One doctrinal problem: CMMC still binds contractors to NIST SP 800-171 Revision 2, even though NIST published Revision 3 in May 2024 with substantially restructured requirements aligned to 800-53 Rev. 5. Contractors face a mismatch between the current NIST publication and the binding contractual obligation. DoD has signaled a future rule update, but timing is uncertain.
+
+---
+
+## CISA: A Different Enforcement Model
+
+CISA occupies a different position than DoD in the federal system. It is DHS's operational cyber agency, the federal civilian government's lead cyber risk advisor, and it enforces cybersecurity obligations differently than DoD does.
+
+DoD pushes cyber duties outward through contract clauses. CISA relies more heavily on Binding Operational Directives for federal agencies and advisory products for the private sector. BOD 22-01 created the Known Exploited Vulnerabilities catalog with remediation timelines. BOD 23-01 required stronger asset inventory practices. Emergency Directive 21-04 mandated immediate response to Microsoft Exchange Server compromises.
+
+EO 14028 expanded CISA's role by requiring agencies to give CISA access to CDM data and tying endpoint detection and response deployments to CISA threat-hunting activity.
+
+The Cyber Incident Reporting for Critical Infrastructure Act of 2022 (CIRCIA) represents Congress's most recent expansion of CISA's private-sector authority. It requires covered entities to report substantial cyber incidents within 72 hours and ransomware payments within 24 hours. DHS published the proposed implementing rule in April 2024. When final, CIRCIA will create a cross-sector reporting floor that captures the defense industrial base and the energy sector beneath their existing sector-specific regimes.
+
+One important distinction: much of CISA's influence over private entities is advisory rather than binding. Its guidance on essential critical infrastructure workers is explicit about this — it is "advisory in nature" and "not, nor should it be considered, a federal directive or standard." That advisory/binding distinction recurs throughout federal critical infrastructure law and matters when contractors assess their actual legal exposure.
+
+---
+
+## The Energy Sector: The Deepest Sector-Specific Regime
+
+The energy sector has the most developed sector-specific cybersecurity law outside finance and healthcare. The Department of Energy is the sector risk management agency. FERC and NERC provide the mandatory compliance structure.
+
+The Energy Policy Act of 2005 gave FERC authority to certify an Electric Reliability Organization and approve mandatory reliability standards. FERC certified NERC in 2006. NERC's Critical Infrastructure Protection standards — CIP-002 through CIP-014 — establish baseline cybersecurity controls for the bulk electric system. They are codified at 18 C.F.R. Part 40 and enforceable through FERC against owners, operators, and users of the bulk-power system.
+
+CIP-013 is particularly relevant to supply chain risk: it is the most direct mandatory supply-chain cybersecurity standard applied to any critical infrastructure operator population at scale.
+
+The DOE/DHS/DoD Pathfinder Initiative formalized inter-agency coordination on energy cybersecurity. DOE's National Cyber-Informed Engineering Strategy shifts the sector's posture from network defense atop existing operational technology toward building systems so that the consequences of compromise are bounded by physical design — an approach increasingly cited as a model for DoD's own facility control systems.
+
+One gap remains: Section 215 of the Federal Power Act reaches only the bulk-power system. Distribution utilities serving military installations are outside FERC-NERC mandatory standards. Privately owned utilities that supply power to defense-critical facilities remain a national security gap that current law reaches only indirectly.
+
+---
+
+## Four DoD Supply Chain Risk Management Focus Areas
+
+DoD's 2023 Cyber Strategy places supply chain risk management within its fourth strategic pillar, but the legal tools and implementation maturity differ substantially across the four main focus areas.
+
+**DIB Cyber Compliance** is the most integrated regime. Contract clauses, assessment authority, and award eligibility operate together. The DFARS/CMMC stack is legally articulated but operationally uneven: assessor capacity lags contractor demand, and doctrinal incoherence between 800-171 Rev. 2 (incorporated) and Rev. 3 (current) has not been resolved.
+
+**ICT and Software Supply Chain Integrity** is legally well-instrumented through NIST SP 800-161 Rev. 1, the Federal Acquisition Supply Chain Security Act, EO 14028's software supply chain provisions, and Section 889 of the FY2019 NDAA. The GAO found in 2020 that none of the 23 agencies surveyed had fully implemented foundational ICT supply chain risk management practices. DoD OIG's 2024 review found the same pattern persisting inside DoD.
+
+**Strategic and Critical Materials Resilience** relies more heavily on industrial policy than on binding law. DoD has less than 1% of global semiconductor market share and depends on Asia-Pacific production. Rare earth processing remains concentrated in the People's Republic of China even when raw extraction occurs domestically. COVID-19 exposed the strategic consequences of that dependence, and the Defense Critical Supply Chain Task Force's six legislative recommendations — adopted into the FY2022 NDAA — are a step toward supply-chain mapping and mitigation, but funding and execution gaps remain.
+
+**Foreign-Adversarial Influence and Counterintelligence** uses exclusion authorities: Section 1654 of the FY2018 NDAA (supply-chain exclusion for national security systems), Section 889 of the FY2019 NDAA (equipment bans), FIRRMA (CFIUS review), FASCSA (Federal Acquisition Security Council), and the ICTS Rule at 15 C.F.R. Part 7. These tools are legally available but episodically used relative to the documented threat scope.
+
+---
+
+## Three Structural Problems the Framework Has Not Solved
+
+**Fragmentation.** No single statute governs the field. FISMA covers federal systems, sector statutes cover industries, and executive orders fill gaps. The result is that a contractor may face one set of duties under DFARS, another under sector-specific reporting rules, and still another under guidance that becomes binding only when a regulation or contract adopts it. The Cyberspace Solarium Commission's recommendations, many of which were enacted, made the system additive rather than integrated.
+
+**Implementation lag.** Legal authority consistently precedes the institutions needed to execute it. DoD will not complete SP 800-53 Rev. 5 deployment until 2026 — six years after publication. C3PAO capacity lags CMMC rollout. None of the surveyed agencies had fully implemented foundational SCRM practices when GAO reviewed them in 2020. Legal mandate and operational maturity operate on different timelines, and no mechanism currently forces alignment.
+
+**Static incorporation by reference.** NIST updates guidance dynamically. DFARS and CFR text locks in specific revisions. Contractors remain bound to SP 800-171 Rev. 2 even after Rev. 3 was published. The same lag affects other cybersecurity instruments tied to older technical baselines. The result is regulatory stasis inside a fast-moving threat environment.
+
+---
+
+## Recommendations Worth Watching
+
+The analysis points to five reforms that target the structural problems rather than offering generic exhortation.
+
+**Rolling NIST incorporation.** Amend FISMA and DFARS Part 204 to permit dynamic incorporation of NIST publications with documented notice, transition periods, and contractor safe harbors. Each revision triggers a compliance window rather than perpetual adherence to an aging baseline.
+
+**A funded assessor cooperative.** CMMC needs a federally chartered assessor cooperative — funded by a surcharge on prime-contractor assessments — to convert the C3PAO market failure into a regulated cross-subsidy that reaches small DIB contractors.
+
+**Distribution-level energy standards.** Extend FERC-NERC-style mandatory standards to distribution utilities serving defense-critical facilities through a new Federal Power Act Section 215B.
+
+**A stronger FASC.** Reorganize the Federal Acquisition Security Council as an independent entity with a full-time chair and dedicated appropriation. Exclusion and removal orders remain infrequent relative to documented threat scope.
+
+**Statutory DoD implementation reporting.** Require an annual public DoD CIO report on SP 800-53 implementation across components, subject to GAO verification. Current OIG reviews are episodic. Statutory codification would give the oversight structure more durable legal footing.
+
+---
+
+## Applying This in Practice
+
+The legal framework described here shapes real decisions: whether a contract requires CMMC Level 2, what a 72-hour incident report actually has to contain, when a subcontractor's SPRS score creates prime-contractor risk, and which NIST revision governs the assessment that determines award eligibility.
+
+For the specific mechanics of CMMC levels and assessment costs, see [CMMC 2.0 Levels, Assessment Paths, and What Certification Costs](/blog/cmmc-2-levels-assessment-cost).
+
+For a clause-by-clause breakdown of the DFARS requirements every contractor in the defense industrial base should understand, see [The DFARS Clause Stack: 7012, 7019, 7020, and 7021 Explained](/blog/dfars-clause-stack-7012-7019-7020-7021).
+
+For the control-level details behind CMMC Level 2, the [CMMC practices index](/cmmc/) and [NIST SP 800-171 requirements index](/nist-800-171/) cover all 110 requirements with practitioner notes.
+
+---
+
+*Justin T. Begarek is a GS-13 IT Cybersecurity Specialist (INFOSEC) at Military Sealift Command and a PhD candidate in Cybersecurity. This analysis reflects the author's independent research and academic work.*

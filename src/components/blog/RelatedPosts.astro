@@ -1,0 +1,81 @@
+---
+import BlogPostCard from './BlogPostCard.astro';
+
+interface RelatedPost {
+  id: string;
+  title: string;
+  description?: string;
+  lane: string;
+  publishDate: Date;
+  topics?: string[];
+  featured?: boolean;
+}
+
+interface Props {
+  posts: RelatedPost[];
+}
+
+const { posts } = Astro.props as Props;
+
+if (!posts.length) return;
+---
+
+<section class="related-posts" aria-labelledby="related-posts-heading">
+  <div class="related-posts-header">
+    <h2 id="related-posts-heading" class="related-posts-title">Related Articles</h2>
+    <div class="related-posts-divider" aria-hidden="true"></div>
+  </div>
+
+  <ul class="related-posts-grid" role="list">
+    {posts.map((post) => (
+      <li>
+        <BlogPostCard
+          href={`/blog/${post.id}`}
+          title={post.title}
+          description={post.description}
+          lane={post.lane}
+          publishDate={post.publishDate}
+          topics={post.topics}
+          featured={post.featured}
+        />
+      </li>
+    ))}
+  </ul>
+</section>
+
+<style>
+  .related-posts {
+    margin-top: var(--space-10);
+    padding-top: var(--space-10);
+    border-top: 1px solid var(--c6-border);
+  }
+
+  .related-posts-header {
+    margin-bottom: var(--space-6);
+  }
+
+  .related-posts-title {
+    margin: 0 0 var(--space-3);
+    font-family: var(--font-display);
+    font-size: 0.8rem;
+    font-weight: 600;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    color: var(--c6-text-dim);
+  }
+
+  .related-posts-divider {
+    width: 40px;
+    height: 2px;
+    background: var(--c6-red);
+  }
+
+  .related-posts-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: var(--space-4);
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+</style>

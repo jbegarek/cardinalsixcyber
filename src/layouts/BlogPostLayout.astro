@@ -2,13 +2,14 @@
 import BaseLayout from './BaseLayout.astro';
 import BlogLaneBadge from '../components/blog/BlogLaneBadge.astro';
 import BlogSoftCTA from '../components/blog/BlogSoftCTA.astro';
+import RelatedPosts from '../components/blog/RelatedPosts.astro';
 
 interface Props {
   title: string;
   seoTitle?: string;
   description: string;
   canonical: string;
-  lane: 'practical' | 'research';
+  lane: 'practical' | 'research' | 'journey';
   publishDate: Date;
   updatedDate?: Date;
   author: string;
@@ -26,6 +27,15 @@ interface Props {
   ctaTitle?: string;
   ctaDescription?: string;
   ctaLabel?: string;
+  relatedPosts?: Array<{
+    id: string;
+    title: string;
+    description?: string;
+    lane: string;
+    publishDate: Date;
+    topics?: string[];
+    featured?: boolean;
+  }>;
 }
 
 const {
@@ -51,6 +61,7 @@ const {
   ctaTitle,
   ctaDescription,
   ctaLabel,
+  relatedPosts = [],
 } = Astro.props as Props;
 
 function formatDate(value: Date) {
@@ -72,12 +83,16 @@ const resolvedHeroImage = heroImage
     ? heroImage
     : `https://cardinalsixcyber.com${heroImage.startsWith('/') ? heroImage : `/${heroImage}`}`)
   : undefined;
-const resolvedCtaTitle = ctaTitle ?? (lane === 'practical'
-  ? 'Need help putting this into practice?'
-  : 'Want help turning research into next steps?');
-const resolvedCtaDescription = ctaDescription ?? (lane === 'practical'
-  ? 'We can help you turn the idea into an action plan, implementation checklist, or review of the controls that matter most.'
-  : 'We can help interpret findings, map them to real-world decisions, and identify a practical path forward.');
+const resolvedCtaTitle = ctaTitle ?? (
+  lane === 'practical' ? 'Need help putting this into practice?' :
+  lane === 'journey' ? 'Going through CMMC yourself?' :
+  'Want help turning research into next steps?'
+);
+const resolvedCtaDescription = ctaDescription ?? (
+  lane === 'practical' ? 'We can help you turn the idea into an action plan, implementation checklist, or review of the controls that matter most.' :
+  lane === 'journey' ? 'We are working through CMMC Level 2 ourselves and sharing every step. If you have questions along the way, reach out.' :
+  'We can help interpret findings, map them to real-world decisions, and identify a practical path forward.'
+);
 ---
 
 <BaseLayout
@@ -175,6 +190,12 @@ const resolvedCtaDescription = ctaDescription ?? (lane === 'practical'
       <div class="container blog-post-cta-wrap">
         <BlogSoftCTA lane={lane} href={ctaHref} title={resolvedCtaTitle} description={resolvedCtaDescription} ctaLabel={ctaLabel} />
       </div>
+
+      {relatedPosts.length > 0 && (
+        <div class="container blog-post-related-wrap">
+          <RelatedPosts posts={relatedPosts} />
+        </div>
+      )}
     </section>
   </article>
 </BaseLayout>
@@ -386,6 +407,11 @@ const resolvedCtaDescription = ctaDescription ?? (lane === 'practical'
 
   .blog-post-cta-wrap {
     margin-top: var(--space-8);
+  }
+
+  .blog-post-related-wrap {
+    margin-top: var(--space-10);
+    padding-bottom: var(--space-6);
   }
 
   @media (max-width: 980px) {
