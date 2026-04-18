@@ -42,7 +42,7 @@ The 80% threshold is calculated against the SPRS scoring methodology — not a s
 **Requirement 2: No 5-point or 3-point controls unimplemented.**
 The SPRS methodology assigns 5 points to a small set of high-weight controls and 3 points to another group. A contractor with any 5-point or 3-point control unimplemented does not qualify for conditional certification regardless of their overall score. These controls represent requirements DoD considers foundational — leaving them open is not a timing issue, it is a program-disqualifying gap.
 
-The specific 5-point and 3-point controls are identified in the DoD assessment scoring tables in NIST SP 800-171A (Assessment Guide). Contractors preparing for CMMC assessment should identify these controls early and prioritize their implementation above all others.
+The specific 5-point and 3-point controls are identified in the DoD assessment scoring tables in [NIST SP 800-171A](https://csrc.nist.gov/pubs/sp/800/171/a/final) (Assessment Guide). Contractors preparing for CMMC assessment should identify these controls early and prioritize their implementation above all others.
 
 **Requirement 3: A documented POA&M for each remaining gap.**
 Every unimplemented control must have a corresponding POA&M entry with: the control identifier, description of the gap, planned remediation activity, responsible party, and target completion date. The target date must fall within the 180-day conditional window.

@@ -55,7 +55,7 @@ For the control-level detail — what each of the 110 requirements actually dema
 
 Level 3 applies to a small number of contractors supporting DoD's most sensitive programs, where advanced persistent threats are an explicit concern.
 
-You cannot go directly to Level 3. It requires prior Level 2 C3PAO certification, then adds a government-led assessment by DCMA's Defense Industrial Base Cybersecurity Assessment Center against 24 controls drawn from NIST SP 800-172. Only DIBCAC conducts Level 3 assessments. There is no private-sector equivalent.
+You cannot go directly to Level 3. It requires prior Level 2 C3PAO certification, then adds a government-led assessment by DCMA's Defense Industrial Base Cybersecurity Assessment Center against 24 controls drawn from [NIST SP 800-172](https://csrc.nist.gov/pubs/sp/800/172/final). Only DIBCAC conducts Level 3 assessments. There is no private-sector equivalent.
 
 ---
 
@@ -113,7 +113,7 @@ DoD estimated aggregate ten-year industry cost at approximately $4 billion.
 
 ## The Rev. 2 / Rev. 3 Problem
 
-CMMC 2.0 incorporates NIST SP 800-171 Revision 2 by reference. NIST published Revision 3 in May 2024 with a substantially restructured control set aligned to SP 800-53 Rev. 5.
+CMMC 2.0 incorporates [NIST SP 800-171](/nist-800-171/) Revision 2 by reference. NIST published Revision 3 in May 2024 with a substantially restructured control set aligned to [SP 800-53 Rev. 5](/nist-800-53/).
 
 The binding contractual obligation is Revision 2. The current NIST publication is Revision 3. DoD has indicated it will issue a rule update to migrate to Rev. 3, but timing is uncertain.
 
@@ -127,7 +127,7 @@ This is an example of a broader structural problem in federal cybersecurity law 
 
 If you handle CUI on DoD contracts and have not started:
 
-1. **Conduct a gap assessment against SP 800-171 Rev. 2.** All 110 requirements, documented honestly. Your SPRS score should reflect actual implementation, not aspiration.
+1. **Conduct a gap assessment against [SP 800-171](/nist-800-171/) Rev. 2.** All 110 requirements, documented honestly. Your SPRS score should reflect actual implementation, not aspiration.
 
 2. **Post an accurate score to SPRS.** The DoJ's Civil Cyber-Fraud Initiative has used the False Claims Act against contractors who misrepresented their SP 800-171 compliance. Self-attestation has legal teeth.
 

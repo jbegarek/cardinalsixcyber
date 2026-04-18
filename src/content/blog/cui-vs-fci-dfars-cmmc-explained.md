@@ -64,7 +64,7 @@ You will encounter "Covered Defense Information" (CDI) in older DFARS documentat
 
 **Other information described in a DoD contract:** The contract itself may designate specific information as CDI requiring protection.
 
-For practical purposes: if you see CDI in a clause, think CUI with a DoD-specific scope. The NIST SP 800-171 requirements that apply to CDI are the same ones that apply to CUI broadly.
+For practical purposes: if you see CDI in a clause, think CUI with a DoD-specific scope. The [NIST SP 800-171](/nist-800-171/) requirements that apply to CDI are the same ones that apply to CUI broadly.
 
 ---
 
@@ -73,12 +73,12 @@ For practical purposes: if you see CDI in a clause, think CUI with a DoD-specifi
 | | **FCI Only** | **CUI (and CDI)** |
 |---|---|---|
 | CMMC Level | Level 1 | Level 2 (most cases) |
-| Required controls | 17 (FAR 52.204-21) | 110 (NIST SP 800-171) |
+| Required controls | 17 (FAR 52.204-21) | 110 ([NIST SP 800-171](/nist-800-171/)) |
 | Assessment method | Annual self-assessment | Triennial C3PAO (usually) |
 | SPRS requirement | Basic Assessment score | Basic Assessment score |
 | Incident reporting | Not required by DFARS 7012 | 72-hour report to DoD |
 | Image preservation | Not required by DFARS 7012 | 90-day requirement |
-| Cloud safeguards | Not specified in FAR 52.204-21 | FedRAMP Moderate or equivalent |
+| Cloud safeguards | Not specified in FAR 52.204-21 | [FedRAMP](/fedramp/) Moderate or equivalent |
 
 If you handle both FCI and CUI — which most Level 2 contractors do — the more demanding CUI requirements govern your entire program. You do not maintain two separate compliance tracks for two information types.
 
