@@ -923,12 +923,24 @@ a:focus-visible {
     line-height: 1.75;
 }
 
-.blog-post-card-topics,
-.blog-post-content ul,
-.blog-post-content ol {
+.blog-post-card-topics {
     list-style: none;
     padding: 0;
     margin: 0;
+}
+
+.blog-post-content ul,
+.blog-post-content ol {
+    margin: 0 0 var(--space-6);
+    padding-left: 1.5rem;
+}
+
+.blog-post-content ul {
+    list-style: disc;
+}
+
+.blog-post-content ol {
+    list-style: decimal;
 }
 
 .blog-post-topic,
