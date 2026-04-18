@@ -62,7 +62,7 @@ const datetimeValue = getDateTimeValue(publishDate);
   class:list={['blog-post-card', featured && 'is-featured', className].filter(Boolean)}
   data-lane={lane?.trim().toLowerCase() || ''}
   data-featured={featured ? 'true' : 'false'}
-  data-topics={topics.map((topic) => topic.trim().toLowerCase()).filter(Boolean).join(' ')}
+  data-topics={topics.map((topic) => topic.trim().toLowerCase()).filter(Boolean).join('|')}
 >
   <a class="blog-post-card-link" href={href}>
     <div class="blog-post-card-meta">
