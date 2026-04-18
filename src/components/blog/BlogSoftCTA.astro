@@ -51,7 +51,7 @@ const HeadingTag = `h${headingLevel}` as keyof AstroHTML.JSX.IntrinsicElements;
 <section class:list={['blog-soft-cta', normalizedLane && `is-${normalizedLane}`, className].filter(Boolean)}>
   <div class="blog-soft-cta-copy">
     <p class="blog-soft-cta-kicker">Soft CTA</p>
-    <HeadingTag>{resolvedTitle}</HeadingTag>
+    <HeadingTag class="blog-soft-cta-title">{resolvedTitle}</HeadingTag>
     <p>{resolvedDescription}</p>
   </div>
 
@@ -82,7 +82,7 @@ const HeadingTag = `h${headingLevel}` as keyof AstroHTML.JSX.IntrinsicElements;
     color: var(--c6-text-dim);
   }
 
-  .blog-soft-cta h3 {
+  .blog-soft-cta-title {
     margin: 0 0 var(--space-2);
     font-family: var(--font-display);
     font-size: 1.2rem;

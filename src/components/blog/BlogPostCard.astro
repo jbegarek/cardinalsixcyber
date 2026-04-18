@@ -6,7 +6,7 @@ interface Props {
   title: string;
   description?: string;
   lane?: string;
-  publishDate?: string;
+  publishDate?: string | Date;
   topics?: string[];
   featured?: boolean;
   class?: string;
@@ -23,22 +23,39 @@ const {
   class: className = '',
 } = Astro.props as Props;
 
-function formatDate(value?: string) {
+function formatDate(value?: string | Date) {
   if (!value) return '';
 
-  const isDateOnly = /^\d{4}-\d{2}-\d{2}$/.test(value);
-  const date = new Date(value);
-  if (Number.isNaN(date.getTime())) return value;
+  const date = value instanceof Date ? value : new Date(value);
+  if (Number.isNaN(date.getTime())) return typeof value === 'string' ? value : '';
 
   return new Intl.DateTimeFormat('en-US', {
     month: 'short',
     day: 'numeric',
     year: 'numeric',
-    timeZone: isDateOnly ? 'UTC' : undefined,
+    timeZone: 'UTC',
   }).format(date);
 }
 
+function getDateTimeValue(value?: string | Date) {
+  if (!value) return undefined;
+
+  if (value instanceof Date) {
+    return value.toISOString();
+  }
+
+  if (/^\d{4}-\d{2}-\d{2}$/.test(value)) {
+    return value;
+  }
+
+  const date = new Date(value);
+  if (Number.isNaN(date.getTime())) return value;
+
+  return date.toISOString();
+}
+
 const formattedDate = formatDate(publishDate);
+const datetimeValue = getDateTimeValue(publishDate);
 ---
 
 <article
@@ -50,7 +67,7 @@ const formattedDate = formatDate(publishDate);
   <a class="blog-post-card-link" href={href}>
     <div class="blog-post-card-meta">
       <BlogLaneBadge lane={lane} />
-      {formattedDate ? <time class="blog-post-card-date" datetime={publishDate}>{formattedDate}</time> : null}
+      {formattedDate ? <time class="blog-post-card-date" datetime={datetimeValue}>{formattedDate}</time> : null}
       {featured ? <span class="blog-post-card-featured">Featured</span> : null}
     </div>
 
