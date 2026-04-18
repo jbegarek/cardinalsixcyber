@@ -360,3 +360,11 @@ When you need the company logo for the web page, use `@"C:\working\cardinalsixcy
 - All fonts loaded via Google Fonts with `display=swap` for performance
 - Lazy load images, optimize all assets
 - SSL/HTTPS required (handled by Cloudflare)
+
+## Deployment Notes
+
+- The Docker server lives at `justin@192.168.0.240:/home/justin/deploy/cardinalsixcyber`
+- Deployable site changes are not live on the server until the Docker image is rebuilt there
+- Any commit, push, or pull that changes deployable inputs (`src/`, `public/`, `data/`, `nginx/`, `package*.json`, `astro.config.mjs`, `tsconfig.json`, `Dockerfile`, `compose.yaml`, `.dockerignore`) requires a Docker rebuild and container recreate on the server
+- Preferred deploy path: run `scripts/deploy-docker-server.ps1` instead of ad hoc `scp`/`docker compose build` commands
+- Use `-SourceDir` when deploying from a worktree so the server is rebuilt from the correct tree
