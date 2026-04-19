@@ -1,6 +1,6 @@
 ---
 title: "NIST SP 800-171 Revision 3 Is Published. Your CMMC Assessment Still Uses Revision 2."
-description: "CMMC 2.0 and DFARS 252.204-7012 still point to Revision 2. NIST published Revision 3 in May 2024. Here is what the version gap means for contractors currently building their SSP, preparing for C3PAO assessment, or planning a multi-year compliance roadmap."
+description: "CMMC 2.0 still references NIST SP 800-171 Rev 2, but NIST published Rev 3 in May 2024. Here is what the version gap means for your SSP, C3PAO assessment, and compliance roadmap."
 publishDate: 2026-04-19
 author: "Justin T. Begarek"
 lane: practical

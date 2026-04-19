@@ -1,6 +1,6 @@
 ---
 title: "AI-Enabled Threats Against Defense Contractors: How ADSAI Is Changing the Attack Surface"
-description: "Artificial Intelligence and Data Science Analytics for Intelligence (ADSAI) tools are reshaping how adversaries target defense contractors and critical infrastructure. This post identifies the five primary threat vectors, explains the dual-use problem, and outlines a layered defensive framework grounded in mission continuity."
+description: "How ADSAI tools are changing the attack surface for defense contractors: five threat vectors, the dual-use paradox, and a layered defense framework built on mission continuity."
 publishDate: 2026-04-19
 author: "Justin T. Begarek"
 lane: research
