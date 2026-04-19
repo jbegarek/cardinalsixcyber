@@ -6,7 +6,7 @@
 
 ---
 
-## Published (7 posts live)
+## Published (9 posts live)
 
 | Date | Slug | Lane | Title |
 |---|---|---|---|
@@ -17,6 +17,8 @@
 | 2026-04-19 | `cui-vs-fci-dfars-cmmc-explained` | Practical | CUI vs FCI: What the Difference Means for Your DFARS and CMMC Obligations |
 | 2026-04-19 | `cmmc-poam-rules-80-percent-180-days` | Practical | CMMC POA&M Rules: The 80 Percent Threshold, 5/3-Point Restriction, and 180-Day Window |
 | 2026-04-19 | `dfars-7012-72-hour-incident-report-what-to-include` | Practical | DFARS 7012 Incident Reporting: What to Include in a 72-Hour Cyber Incident Report |
+| 2026-04-19 | `nist-800-171-revision-2-vs-revision-3-cmmc-gap` | Practical | NIST SP 800-171 Revision 3 Is Published. Your CMMC Assessment Still Uses Revision 2. |
+| 2026-04-19 | `ai-enabled-threats-defense-contractors-adsai` | Research | AI-Enabled Threats Against Defense Contractors: How ADSAI Is Changing the Attack Surface |
 
 ---
 
@@ -72,7 +74,7 @@ Target: 1–2 per week, starting with highest-traffic domains.
 
 | Target | Slug | Lane | Title | Primary Query |
 |---|---|---|---|---|
-| 2026-05-03 | `nist-800-171-rev-2-vs-rev-3-cmmc` | Practical | NIST SP 800-171 Rev 2 vs Rev 3: What Changed and What It Means for CMMC | nist 800-171 revision 3 changes |
+| ~~2026-05-03~~ | ~~`nist-800-171-rev-2-vs-rev-3-cmmc`~~ | Practical | ~~NIST SP 800-171 Rev 2 vs Rev 3~~ — **Published early as `nist-800-171-revision-2-vs-revision-3-cmmc-gap`** | — |
 | 2026-05-17 | `false-claims-act-cmmc-self-attestation` | Practical | The False Claims Act and CMMC: What Self-Attestation Actually Puts at Risk | false claims act cmmc contractors |
 | 2026-06-07 | `circia-reporting-defense-contractors` | Practical | CIRCIA Reporting Requirements: What Defense Contractors Need to Know | CIRCIA reporting requirements 2025 |
 | 2026-06-21 | `cmmc-subcontractor-flow-down-guide` | Practical | CMMC Flow-Down Requirements: What Primes Must Do Before Awarding Subcontracts | cmmc subcontractor requirements |
@@ -100,3 +102,29 @@ Target: 1–2 per week, starting with highest-traffic domains.
 **Evergreen standalones:** The Rev 2/Rev 3 post and the False Claims Act post have high urgency because the questions are live now and there's very little authoritative practitioner content on either.
 
 **Cross-linking rule:** Every new post should link to at least one existing post and one internal reference page (`/cmmc/`, `/nist-800-171/`, `/nist-800-53/`, or `/glossary/`). The related posts widget handles some of this automatically via topic matching.
+
+---
+
+## PhD Research Source Content — Backlog
+
+Posts derived from Justin's PhD coursework. Each maps to a specific source file.
+**Cadence rule:** Space these out — no more than 1 PhD-sourced post per week, and never two in the same day. Mix with journey posts and domain deep-dives.
+
+| Target | Slug | Lane | Proposed Title | Source File(s) |
+|---|---|---|---|---|
+| 2026-05-10 | `quantifying-cybersecurity-risk-moving-past-high-medium-low` | Research | Quantifying Cybersecurity Risk: How to Put a Dollar Figure on Threats | `TIM-8330/Week6/Week6_Begarek_Quantitative_Risk_Management_Framework_FINAL.docx` |
+| 2026-05-24 | `ny-dfs-part-500-2023-amendments-what-changed` | Practical | NY DFS Part 500 After the 2023 Amendments: What Financial Firms and Healthcare Orgs Must Do Now | `TIM-8720/week1/BegarekJustinTIM8720_1.docx` |
+| 2026-06-07 | `hipaa-risk-assessment-what-it-actually-covers` | Practical | A HIPAA Risk Assessment Is Not a Checkbox: What the Analysis Actually Has to Include | `TIM-8330/Week1/BegarekJustinTIM8330-1.docx` + `TIM-8330/Week2/BegarekJustinTIM8330-2.docx` |
+| 2026-06-21 | `siem-cmmc-what-logs-actually-matter` | Practical | What SIEM Does (and Doesn't) Do for CMMC Compliance — and Which Logs Actually Matter | `TIM-8315v2/Week1/BegarekJustinTIM8315-1.docx` |
+| 2026-07-05 | `federal-cybersecurity-laws-beyond-dfars` | Research | Federal Cybersecurity Laws Beyond DFARS: FISMA, FedRAMP, and the Authorities Most DIB Contractors Ignore | `TIM-8710/Week1/BegarekJustinTIM8710-1.docx` + `TIM-8710/Week2/BegarekJustinTIM8710-2.docx` |
+| 2026-07-19 | `multi-state-cybersecurity-compliance-guide` | Practical | Operating Across State Lines: What Multi-State Cybersecurity Compliance Actually Requires | `TIM-8710/Week2/BegarekJustinTIM8710-2.docx` (also: `Multi_State_Cybersecurity_Compliance_Begarek_REVISED.docx`) |
+| 2026-08-02 | `advanced-risk-assessment-techniques-beyond-nist` | Research | Beyond the NIST Risk Matrix: Advanced Techniques for Quantitative Cybersecurity Risk Assessment | `TIM-8330/Week5/BegarekJustinTIM8330-5.docx` |
+| 2026-08-16 | `federal-cybersecurity-workforce-pipeline-nice-framework` | Research | Why Federal Agencies Can't Hire Enough Cybersecurity Talent — and What NICE and DoD 8140 Say to Do About It | `Cybersecurity_Workforce_Pipeline_Proposal.pdf` |
+| 2026-08-30 | `data-science-threat-detection-defense-contractors` | Research | How Data Science Is Changing Threat Detection for Defense Contractors | `TIM-8315v2/Week2/BegarekJustinTIM8315-2.docx` |
+| 2026-09-13 | `privacy-law-federal-contractors-hipaa-ccpa-gdpr` | Practical | Federal Contractors and Privacy Law: What HIPAA, CCPA, and GDPR Obligations Can Overlap | `TIM-8710/Week3/BegarekJustinTIM8710-3.docx` + `TIM-8710/Week4/BegarekJustinTIM8710-4.docx` |
+
+### Notes on PhD sources
+
+- **Source file naming convention:** Files named `BegarekJustin[COURSE]-[N].docx` are the final submitted assignments. Any other `.docx` in the same folder (drafts, workspace files, etc.) can be used as supplementary reference to ensure content is consistent, but the named file is authoritative.
+- **MSC restriction:** Any content derived from TIM-8315v2 must not reference Military Sealift Command specifically. Abstract to "defense contractor," "critical infrastructure operator," or "organizations with hybrid IT/OT environments."
+- **Author attribution:** Use *"Justin T. Begarek is an IT Cybersecurity Specialist and PhD candidate in Cybersecurity. This analysis reflects the author's independent research and academic work."* — do not include grade (GS-13) or employer (Military Sealift Command).
