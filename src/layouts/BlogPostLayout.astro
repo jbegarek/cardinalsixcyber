@@ -27,6 +27,7 @@ interface Props {
   ctaTitle?: string;
   ctaDescription?: string;
   ctaLabel?: string;
+  readingTime?: number;
   relatedPosts?: Array<{
     id: string;
     title: string;
@@ -61,6 +62,7 @@ const {
   ctaTitle,
   ctaDescription,
   ctaLabel,
+  readingTime,
   relatedPosts = [],
 } = Astro.props as Props;
 
@@ -139,6 +141,7 @@ const resolvedCtaDescription = ctaDescription ?? (
           <span class="blog-post-meta-item">By {author}</span>
           <time class="blog-post-meta-item" datetime={publishedDatetime}>Published {publishedLabel}</time>
           {updatedDatetime ? <time class="blog-post-meta-item" datetime={updatedDatetime}>Updated {updatedLabel}</time> : null}
+          {readingTime ? <span class="blog-post-meta-item">{readingTime} min read</span> : null}
         </div>
         <h1 class="blog-post-title">{title}</h1>
         <p class="blog-post-description">{description}</p>
@@ -245,10 +248,10 @@ const resolvedCtaDescription = ctaDescription ?? (
   .blog-post-title {
     margin: 0;
     font-family: var(--font-display);
-    font-size: clamp(1.5rem, 2.8vw, 2.2rem);
+    font-size: clamp(1.5rem, 2.5vw, 2.2rem);
     font-weight: 700;
     letter-spacing: 0.04em;
-    line-height: 1.15;
+    line-height: 1.2;
     text-transform: uppercase;
   }
 

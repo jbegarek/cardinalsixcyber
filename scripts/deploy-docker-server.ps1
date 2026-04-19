@@ -74,6 +74,7 @@ function Get-RemoteRebuildCommand {
 set -euo pipefail
 cd $RemoteDir
 docker buildx build --load --no-cache -t $ImageName .
+docker push $ImageName
 docker compose up -d --force-recreate --no-build
 docker ps --filter name=$ContainerName --format 'table {{.Names}}\t{{.Status}}\t{{.Image}}'
 "@
@@ -219,6 +220,15 @@ function Invoke-DockerServerDeploy {
     }
 
     if ($PSCmdlet.ShouldProcess($HostName, 'Sync deployable files')) {
+        # Delete managed directories on the remote before copying so removed local files don't persist.
+        $dirItems = $deployableItems | Where-Object {
+            (Get-Item (Join-Path $resolvedSourceDir $_)) -is [System.IO.DirectoryInfo]
+        }
+        $rmTargets = ($dirItems | ForEach-Object { "$RemoteDir/$_" }) -join ' '
+        $rmResult = Invoke-NativeCommand -FilePath 'ssh' -ArgumentList @($HostName, "rm -rf $rmTargets")
+        Assert-CommandSucceeded -Result $rmResult -Label 'Remote directory wipe'
+
+        # Fresh copy of all deployable paths.
         $scpArgs = @('-r') + $sourcePaths + @("${HostName}:${RemoteDir}/")
         $scpResult = Invoke-NativeCommand -FilePath 'scp' -ArgumentList $scpArgs
         Assert-CommandSucceeded -Result $scpResult -Label 'File sync'
