@@ -138,40 +138,7 @@ const CAT_ORDER: Record<string, number> = { high: 1, medium: 2, low: 3 };
     </main>
 </BaseLayout>
 
-<script>
-const filterBtns = document.querySelectorAll<HTMLButtonElement>('.filter-btn');
-const searchInput = document.getElementById('stig-search') as HTMLInputElement;
-const rows = document.querySelectorAll<HTMLTableRowElement>('.rule-row');
-const noResults = document.getElementById('no-results')!;
-
-let activeSeverity = 'all';
-
-function applyFilters() {
-    const q = searchInput.value.toLowerCase().trim();
-    let visible = 0;
-    for (const row of rows) {
-        const sev = row.dataset.severity!;
-        const searchText = row.dataset.search!;
-        const sevMatch = activeSeverity === 'all' || sev === activeSeverity;
-        const textMatch = !q || searchText.includes(q);
-        const show = sevMatch && textMatch;
-        row.hidden = !show;
-        if (show) visible++;
-    }
-    noResults.hidden = visible > 0;
-}
-
-for (const btn of filterBtns) {
-    btn.addEventListener('click', () => {
-        filterBtns.forEach(b => b.classList.remove('active'));
-        btn.classList.add('active');
-        activeSeverity = btn.dataset.filter!;
-        applyFilters();
-    });
-}
-
-searchInput.addEventListener('input', applyFilters);
-</script>
+<script src="/js/stig-filter.js" defer></script>
 
 <style>
 .benchmark-page {

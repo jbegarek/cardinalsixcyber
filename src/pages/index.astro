@@ -158,8 +158,8 @@ import BaseLayout from '../layouts/BaseLayout.astro';
                     <span class="service-tag">vCISO</span>
                 </div>
             </div>
-            <div class="services-explore reveal reveal-delay-3" style="text-align:center; margin-top:var(--space-10);">
-                <a href="/cmmc" class="btn-secondary" style="margin-right:var(--space-4);">Security Control Practices (NIST SP 800-171)</a>
+            <div class="services-explore u-services-explore reveal reveal-delay-3">
+                <a href="/cmmc" class="btn-secondary u-btn-right-gap">Security Control Practices (NIST SP 800-171)</a>
                 <a href="/nist-800-171" class="btn-secondary">NIST 800-171</a>
             </div>
         </div>
@@ -383,50 +383,6 @@ import BaseLayout from '../layouts/BaseLayout.astro';
     }
 </style>
 
-<script>
-    /* Nav scroll effect */
-    (function() {
-        const nav = document.querySelector('.nav');
-        if (!nav) return;
-        let ticking = false;
-        window.addEventListener('scroll', function() {
-            if (!ticking) {
-                window.requestAnimationFrame(function() {
-                    nav.classList.toggle('scrolled', window.scrollY > 40);
-                    ticking = false;
-                });
-                ticking = true;
-            }
-        });
-    })();
-
-    /* Reveal on scroll + immediate reveal for above-fold content */
-    (function() {
-        var reveals = document.querySelectorAll('.reveal');
-        document.querySelectorAll('.hero .reveal, .stats-strip .reveal').forEach(function(el) {
-            el.classList.add('visible');
-        });
-        if ('IntersectionObserver' in window) {
-            var observer = new IntersectionObserver(function(entries) {
-                entries.forEach(function(entry) {
-                    if (entry.isIntersecting) {
-                        entry.target.classList.add('visible');
-                        observer.unobserve(entry.target);
-                    }
-                });
-            }, { threshold: 0.1, rootMargin: '0px 0px 100px 0px' });
-            reveals.forEach(function(el) {
-                if (!el.closest('.hero') && !el.closest('.stats-strip')) {
-                    observer.observe(el);
-                }
-            });
-        } else {
-            reveals.forEach(function(el) { el.classList.add('visible'); });
-        }
-        setTimeout(function() {
-            reveals.forEach(function(el) { el.classList.add('visible'); });
-        }, 3000);
-    })();
-</script>
+<!-- Nav scroll and reveal animations loaded via BaseLayout.astro -->
 
 

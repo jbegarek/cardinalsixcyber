@@ -106,6 +106,18 @@ body {
 
 img { max-width: 100%; height: auto; display: block; }
 
+/* ===== UTILITY CLASSES (replace inline styles for CSP compliance) ===== */
+.is-hidden { display: none; }
+.divider-mb-8 { margin-bottom: var(--space-8); }
+.u-text-small-dim { font-size: 0.7rem; color: var(--c6-text-dim); }
+.u-section-heading { font-family: var(--font-display); font-size: 1.3rem; font-weight: 600; letter-spacing: 0.04em; text-transform: uppercase; color: var(--c6-text-secondary); margin-bottom: var(--space-6); }
+.u-section-lead { font-size: 0.9rem; color: var(--c6-text-muted); max-width: 500px; margin: 0 auto; line-height: 1.7; }
+.u-source-list { list-style: none; margin-top: var(--space-6); display: flex; flex-direction: column; gap: var(--space-3); }
+.u-services-explore { text-align: center; margin-top: var(--space-10); }
+.u-btn-right-gap { margin-right: var(--space-4); }
+.letter-dimmed { opacity: 0.3; pointer-events: none; }
+body.nav-locked { overflow: hidden; }
+
 a {
     color: var(--c6-red-text);
     text-decoration: none;

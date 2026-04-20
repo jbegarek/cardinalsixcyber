@@ -181,22 +181,4 @@ import InfoOnlyNotice from '../components/InfoOnlyNotice.astro';
     }
 </style>
 
-<script>
-    (function() {
-        var reveals = document.querySelectorAll('.reveal');
-        document.querySelectorAll('.resources-header .reveal').forEach(function(el) { el.classList.add('visible'); });
-        if ('IntersectionObserver' in window) {
-            var observer = new IntersectionObserver(function(entries) {
-                entries.forEach(function(entry) {
-                    if (entry.isIntersecting) {
-                        entry.target.classList.add('visible');
-                        observer.unobserve(entry.target);
-                    }
-                });
-            }, { threshold: 0.01, rootMargin: '0px 0px 50px 0px' });
-            reveals.forEach(function(el) { if (!el.closest('.resources-header')) observer.observe(el); });
-        } else {
-            reveals.forEach(function(el) { el.classList.add('visible'); });
-        }
-    })();
-</script>
+
