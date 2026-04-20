@@ -1,12 +1,75 @@
 {
-  "last_updated": "2026-04-20T20:14:01.090982+00:00",
+  "last_updated": "2026-04-20T22:14:15.609289+00:00",
   "articles": [
+    {
+      "title": "China's Apple App Store infiltrated by crypto-stealing wallet apps",
+      "link": "https://www.bleepingcomputer.com/news/security/chinas-apple-app-store-infiltrated-by-crypto-stealing-wallet-apps/",
+      "summary": "A set of 26 malicious apps on Apple App Store impersonate popular wallets, such as Metamask, Coinbase, Trust Wallet, and OneKey, to steal recovery or seed phrases and drain them of cryptocurrency...",
+      "source": "BleepingComputer",
+      "published": "2026-04-20T21:52:54+00:00"
+    },
+    {
+      "title": "CVE-2026-33031 - Nginx-UI: Disabled users retain full API access through previously issued bearer tokens",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-33031",
+      "summary": "CVE ID :CVE-2026-33031 Published : April 20, 2026, 9:16 p.m. | 49 minutes ago Description :Nginx UI is a web user interface for the Nginx web server. Prior to version 2.3.4, a user who was disabled...",
+      "source": "CVE Feed",
+      "published": "2026-04-20T21:16:32+00:00"
+    },
+    {
+      "title": "CVE-2026-32613 - Spinnaker vulnerable to RCE via expression parsing due to unrestricted context handling",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-32613",
+      "summary": "CVE ID :CVE-2026-32613 Published : April 20, 2026, 9:16 p.m. | 49 minutes ago Description :Spinnaker is an open source, multi-cloud continuous delivery platform. Echo like some other services, uses...",
+      "source": "CVE Feed",
+      "published": "2026-04-20T21:16:32+00:00"
+    },
+    {
+      "title": "CVE-2026-32604 - Spinnaker vulnerable to RCE when using gitrepo artifact types due to improper sanitization of user input on branch and paths",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-32604",
+      "summary": "CVE ID :CVE-2026-32604 Published : April 20, 2026, 9:16 p.m. | 49 minutes ago Description :Spinnaker is an open source, multi-cloud continuous delivery platform. In versions prior to 2026.1.0...",
+      "source": "CVE Feed",
+      "published": "2026-04-20T21:16:32+00:00"
+    },
+    {
+      "title": "Vercel Employee's AI Tool Access Led to Data Breach",
+      "link": "https://www.darkreading.com/application-security/vercel-employees-ai-tool-access-data-breach",
+      "summary": "Stolen OAuth tokens, which are at the root of these breaches, \"are the new attack surface, the new lateral movement,\" a researcher noted.",
+      "source": "Dark Reading",
+      "published": "2026-04-20T21:01:31+00:00"
+    },
     {
       "title": "Serial-to-IP Devices Hide Thousands of Old and New Bugs",
       "link": "https://www.darkreading.com/ics-ot-security/serial-ip-devices-thousands-of-bugs",
       "summary": "The OT devices that translate machine talk into Internet-speak are riddled with vulnerabilities and more frequently targeted for attacks, researchers say.",
       "source": "Dark Reading",
       "published": "2026-04-20T21:00:00+00:00"
+    },
+    {
+      "title": "CVE-2026-6257 - Vvveb CMS v1.0.8 Remote Code Execution via Media Management",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-6257",
+      "summary": "CVE ID :CVE-2026-6257 Published : April 20, 2026, 8:16 p.m. | 1 hour, 49 minutes ago Description :Vvveb CMS v1.0.8 contains a remote code execution vulnerability in its media management functionality...",
+      "source": "CVE Feed",
+      "published": "2026-04-20T20:16:49+00:00"
+    },
+    {
+      "title": "CVE-2026-6249 - Vvveb CMS 1.0.8 Remote Code Execution via Media Upload",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-6249",
+      "summary": "CVE ID :CVE-2026-6249 Published : April 20, 2026, 8:16 p.m. | 1 hour, 49 minutes ago Description :Vvveb CMS 1.0.8 contains a remote code execution vulnerability in its media upload handler that...",
+      "source": "CVE Feed",
+      "published": "2026-04-20T20:16:48+00:00"
+    },
+    {
+      "title": "CVE-2026-5478 - Everest Forms <= 3.4.4 - Unauthenticated Arbitrary File Read and Deletion via Upload Field 'old_files' Parameter",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-5478",
+      "summary": "CVE ID :CVE-2026-5478 Published : April 20, 2026, 8:16 p.m. | 1 hour, 49 minutes ago Description :The Everest Forms plugin for WordPress is vulnerable to Arbitrary File Read and Deletion in all...",
+      "source": "CVE Feed",
+      "published": "2026-04-20T20:16:48+00:00"
+    },
+    {
+      "title": "CVE-2026-32311 - Command Injection and Docker container escape allows root on host machine",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-32311",
+      "summary": "CVE ID :CVE-2026-32311 Published : April 20, 2026, 8:16 p.m. | 1 hour, 49 minutes ago Description :Flowsint is an open-source OSINT graph exploration tool designed for cybersecurity investigation...",
+      "source": "CVE Feed",
+      "published": "2026-04-20T20:16:48+00:00"
     },
     {
       "title": "The Gentlemen ransomware now uses SystemBC for bot-powered attacks",
@@ -16,25 +79,11 @@
       "published": "2026-04-20T20:02:37+00:00"
     },
     {
-      "title": "CVE-2026-6249 - Vvveb CMS 1.0.8 Remote Code Execution via Media Upload",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-6249",
-      "summary": "CVE ID :CVE-2026-6249 Published : April 20, 2026, 7:57 p.m. | 7 minutes ago Description :Vvveb CMS 1.0.8 contains a remote code execution vulnerability in its media upload handler that allows...",
-      "source": "CVE Feed",
-      "published": "2026-04-20T19:57:37+00:00"
-    },
-    {
       "title": "CVE-2026-6248 - wpForo Forum <= 3.0.5 - Authenticated (Subscriber+) Arbitrary File Deletion via Custom Profile Field File Path",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-6248",
-      "summary": "CVE ID :CVE-2026-6248 Published : April 20, 2026, 7:16 p.m. | 48 minutes ago Description :The wpForo Forum plugin for WordPress is vulnerable to Arbitrary File Deletion in versions up to and...",
+      "summary": "CVE ID :CVE-2026-6248 Published : April 20, 2026, 7:16 p.m. | 2 hours, 50 minutes ago Description :The wpForo Forum plugin for WordPress is vulnerable to Arbitrary File Deletion in versions up to and...",
       "source": "CVE Feed",
       "published": "2026-04-20T19:16:11+00:00"
-    },
-    {
-      "title": "CVE-2026-6257 - Vvveb CMS v1.0.8 Remote Code Execution via Media Management",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-6257",
-      "summary": "CVE ID :CVE-2026-6257 Published : April 20, 2026, 7:09 p.m. | 55 minutes ago Description :Vvveb CMS v1.0.8 contains a remote code execution vulnerability in its media management functionality where a...",
-      "source": "CVE Feed",
-      "published": "2026-04-20T19:09:45+00:00"
     },
     {
       "title": "Seiko USA website defaced as hacker claims customer data theft",
@@ -46,42 +95,42 @@
     {
       "title": "CVE-2026-39110 - Apache Openvisit SQL Injection Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-39110",
-      "summary": "CVE ID :CVE-2026-39110 Published : April 20, 2026, 6:16 p.m. | 1 hour, 48 minutes ago Description :SQL Injection vulnerability in Apartment Visitors Management System Apartment Visitors Management...",
+      "summary": "CVE ID :CVE-2026-39110 Published : April 20, 2026, 6:16 p.m. | 3 hours, 49 minutes ago Description :SQL Injection vulnerability in Apartment Visitors Management System Apartment Visitors Management...",
       "source": "CVE Feed",
       "published": "2026-04-20T18:16:27+00:00"
     },
     {
       "title": "CVE-2026-39109 - Apartment Visitors Management System SQL Injection",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-39109",
-      "summary": "CVE ID :CVE-2026-39109 Published : April 20, 2026, 6:16 p.m. | 1 hour, 48 minutes ago Description :SQL Injection vulnerability in Apartment Visitors Management System Apartment Visitors Management...",
+      "summary": "CVE ID :CVE-2026-39109 Published : April 20, 2026, 6:16 p.m. | 3 hours, 49 minutes ago Description :SQL Injection vulnerability in Apartment Visitors Management System Apartment Visitors Management...",
       "source": "CVE Feed",
       "published": "2026-04-20T18:16:27+00:00"
     },
     {
       "title": "CVE-2026-41445 - KissFFT Integer Overflow Heap Buffer Overflow via kiss_fftndr_alloc()",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-41445",
-      "summary": "CVE ID :CVE-2026-41445 Published : April 20, 2026, 5:16 p.m. | 2 hours, 48 minutes ago Description :KissFFT before commit 8a8e66e contains an integer overflow vulnerability in the kiss_fftndr_alloc()...",
+      "summary": "CVE ID :CVE-2026-41445 Published : April 20, 2026, 5:16 p.m. | 4 hours, 49 minutes ago Description :KissFFT before commit 8a8e66e contains an integer overflow vulnerability in the kiss_fftndr_alloc()...",
       "source": "CVE Feed",
       "published": "2026-04-20T17:16:37+00:00"
     },
     {
       "title": "CVE-2026-40488 - OpenMage LTS has Customer File Upload Extension Blocklist Bypass that Leads to Remote Code Execution",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-40488",
-      "summary": "CVE ID :CVE-2026-40488 Published : April 20, 2026, 5:16 p.m. | 2 hours, 48 minutes ago Description :Magento Long Term Support (LTS) is an unofficial, community-driven project provides an alternative...",
+      "summary": "CVE ID :CVE-2026-40488 Published : April 20, 2026, 5:16 p.m. | 4 hours, 49 minutes ago Description :Magento Long Term Support (LTS) is an unofficial, community-driven project provides an alternative...",
       "source": "CVE Feed",
       "published": "2026-04-20T17:16:36+00:00"
     },
     {
       "title": "CVE-2026-30269 - Doorman Privilege Escalation Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-30269",
-      "summary": "CVE ID :CVE-2026-30269 Published : April 20, 2026, 5:16 p.m. | 2 hours, 48 minutes ago Description :Improper access control in Doorman v0.1.0 and v1.0.2 allows any authenticated user to update their...",
+      "summary": "CVE ID :CVE-2026-30269 Published : April 20, 2026, 5:16 p.m. | 4 hours, 49 minutes ago Description :Improper access control in Doorman v0.1.0 and v1.0.2 allows any authenticated user to update their...",
       "source": "CVE Feed",
       "published": "2026-04-20T17:16:33+00:00"
     },
     {
       "title": "CVE-2026-25524 - OpenMage LTS's Phar Deserialization leads to Remote Code Execution",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-25524",
-      "summary": "CVE ID :CVE-2026-25524 Published : April 20, 2026, 5:16 p.m. | 2 hours, 48 minutes ago Description :Magento Long Term Support (LTS) is an unofficial, community-driven project provides an alternative...",
+      "summary": "CVE ID :CVE-2026-25524 Published : April 20, 2026, 5:16 p.m. | 4 hours, 49 minutes ago Description :Magento Long Term Support (LTS) is an unofficial, community-driven project provides an alternative...",
       "source": "CVE Feed",
       "published": "2026-04-20T17:16:32+00:00"
     },
@@ -109,35 +158,35 @@
     {
       "title": "CVE-2026-39918 - Vvveb < 1.0.8.1 Code Injection via Installation Endpoint",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-39918",
-      "summary": "CVE ID :CVE-2026-39918 Published : April 20, 2026, 4:16 p.m. | 3 hours, 48 minutes ago Description :Vvveb prior to 1.0.8.1 contains a code injection vulnerability in the installation endpoint where...",
+      "summary": "CVE ID :CVE-2026-39918 Published : April 20, 2026, 4:16 p.m. | 5 hours, 49 minutes ago Description :Vvveb prior to 1.0.8.1 contains a code injection vulnerability in the installation endpoint where...",
       "source": "CVE Feed",
       "published": "2026-04-20T16:16:45+00:00"
     },
     {
       "title": "CVE-2026-34428 - Vvveb < 1.0.8.1 SSRF via oEmbedProxy",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-34428",
-      "summary": "CVE ID :CVE-2026-34428 Published : April 20, 2026, 4:16 p.m. | 3 hours, 48 minutes ago Description :Vvveb prior to 1.0.8.1 contains a server-side request forgery vulnerability in the oEmbedProxy...",
+      "summary": "CVE ID :CVE-2026-34428 Published : April 20, 2026, 4:16 p.m. | 5 hours, 49 minutes ago Description :Vvveb prior to 1.0.8.1 contains a server-side request forgery vulnerability in the oEmbedProxy...",
       "source": "CVE Feed",
       "published": "2026-04-20T16:16:44+00:00"
     },
     {
       "title": "CVE-2026-34427 - Vvveb < 1.0.8.1 Privilege Escalation via admin/user/save",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-34427",
-      "summary": "CVE ID :CVE-2026-34427 Published : April 20, 2026, 4:16 p.m. | 3 hours, 48 minutes ago Description :Vvveb prior to 1.0.8.1 contains a privilege escalation vulnerability in the admin user profile save...",
+      "summary": "CVE ID :CVE-2026-34427 Published : April 20, 2026, 4:16 p.m. | 5 hours, 49 minutes ago Description :Vvveb prior to 1.0.8.1 contains a privilege escalation vulnerability in the admin user profile save...",
       "source": "CVE Feed",
       "published": "2026-04-20T16:16:44+00:00"
     },
     {
       "title": "CVE-2026-26944 - Dell PowerProtect Data Domain Remote Root Command Execution Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-26944",
-      "summary": "CVE ID :CVE-2026-26944 Published : April 20, 2026, 4:16 p.m. | 3 hours, 48 minutes ago Description :Dell PowerProtect Data Domain, versions 7.7.1.0 through 8.6, LTS2025 release version 8.3.1.0...",
+      "summary": "CVE ID :CVE-2026-26944 Published : April 20, 2026, 4:16 p.m. | 5 hours, 49 minutes ago Description :Dell PowerProtect Data Domain, versions 7.7.1.0 through 8.6, LTS2025 release version 8.3.1.0...",
       "source": "CVE Feed",
       "published": "2026-04-20T16:16:42+00:00"
     },
     {
       "title": "CVE-2026-24467 - OpenAEV's Improper Password Reset Token Management Leads to Unauthenticated Account Takeover and Platform Compromise",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-24467",
-      "summary": "CVE ID :CVE-2026-24467 Published : April 20, 2026, 4:16 p.m. | 3 hours, 48 minutes ago Description :OpenAEV is an open source platform allowing organizations to plan, schedule and conduct cyber...",
+      "summary": "CVE ID :CVE-2026-24467 Published : April 20, 2026, 4:16 p.m. | 5 hours, 49 minutes ago Description :OpenAEV is an open source platform allowing organizations to plan, schedule and conduct cyber...",
       "source": "CVE Feed",
       "published": "2026-04-20T16:16:41+00:00"
     },
@@ -179,42 +228,42 @@
     {
       "title": "CVE-2026-5760 - CVE-2026-5760",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-5760",
-      "summary": "CVE ID :CVE-2026-5760 Published : April 20, 2026, 2:16 p.m. | 5 hours, 48 minutes ago Description :SGLang's reranking endpoint (/v1/rerank) achieves Remote Code Execution (RCE) when a model file...",
+      "summary": "CVE ID :CVE-2026-5760 Published : April 20, 2026, 2:16 p.m. | 7 hours, 49 minutes ago Description :SGLang's reranking endpoint (/v1/rerank) achieves Remote Code Execution (RCE) when a model file...",
       "source": "CVE Feed",
       "published": "2026-04-20T14:16:21+00:00"
     },
     {
       "title": "CVE-2026-4048 - OS Command Injection Remote Code Execution Vulnerability in Progress LoadMaster, ECS Connection Manager, Object Scale Connection Manager & MOVEit WAF",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-4048",
-      "summary": "CVE ID :CVE-2026-4048 Published : April 20, 2026, 2:16 p.m. | 5 hours, 48 minutes ago Description :OS Command Injection Remote Code Execution Vulnerability in UI in Progress ADC Products allows an...",
+      "summary": "CVE ID :CVE-2026-4048 Published : April 20, 2026, 2:16 p.m. | 7 hours, 49 minutes ago Description :OS Command Injection Remote Code Execution Vulnerability in UI in Progress ADC Products allows an...",
       "source": "CVE Feed",
       "published": "2026-04-20T14:16:20+00:00"
     },
     {
       "title": "CVE-2026-3519 - OS Command Injection Remote Code Execution Vulnerability in Progress LoadMaster, ECS Connection Manager, Object Scale Connection Manager & MOVEit WAF",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-3519",
-      "summary": "CVE ID :CVE-2026-3519 Published : April 20, 2026, 2:16 p.m. | 5 hours, 48 minutes ago Description :OS Command Injection Remote Code Execution Vulnerability in API in Progress ADC Products allows an...",
+      "summary": "CVE ID :CVE-2026-3519 Published : April 20, 2026, 2:16 p.m. | 7 hours, 49 minutes ago Description :OS Command Injection Remote Code Execution Vulnerability in API in Progress ADC Products allows an...",
       "source": "CVE Feed",
       "published": "2026-04-20T14:16:19+00:00"
     },
     {
       "title": "CVE-2026-3518 - OS Command Injection Remote Code Execution Vulnerability in Progress LoadMaster, ECS Connection Manager, Object Scale Connection Manager & MOVEit WAF",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-3518",
-      "summary": "CVE ID :CVE-2026-3518 Published : April 20, 2026, 2:16 p.m. | 5 hours, 48 minutes ago Description :OS Command Injection Remote Code Execution Vulnerability in API in Progress ADC Products allows an...",
+      "summary": "CVE ID :CVE-2026-3518 Published : April 20, 2026, 2:16 p.m. | 7 hours, 49 minutes ago Description :OS Command Injection Remote Code Execution Vulnerability in API in Progress ADC Products allows an...",
       "source": "CVE Feed",
       "published": "2026-04-20T14:16:19+00:00"
     },
     {
       "title": "CVE-2026-3517 - OS Command Injection Remote Code Execution Vulnerability in Progress LoadMaster, ECS Connection Manager, Object Scale Connection Manager & MOVEit WAF",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-3517",
-      "summary": "CVE ID :CVE-2026-3517 Published : April 20, 2026, 2:16 p.m. | 5 hours, 48 minutes ago Description :OS Command Injection Remote Code Execution Vulnerability in API in Progress ADC Products allows an...",
+      "summary": "CVE ID :CVE-2026-3517 Published : April 20, 2026, 2:16 p.m. | 7 hours, 49 minutes ago Description :OS Command Injection Remote Code Execution Vulnerability in API in Progress ADC Products allows an...",
       "source": "CVE Feed",
       "published": "2026-04-20T14:16:19+00:00"
     },
     {
       "title": "CVE-2026-33557 - Apache Kafka: Missing JWT token validation in OAUTHBEARER authentication",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-33557",
-      "summary": "CVE ID :CVE-2026-33557 Published : April 20, 2026, 2:16 p.m. | 5 hours, 48 minutes ago Description :A possible security vulnerability has been identified in Apache Kafka. By default, the broker...",
+      "summary": "CVE ID :CVE-2026-33557 Published : April 20, 2026, 2:16 p.m. | 7 hours, 49 minutes ago Description :A possible security vulnerability has been identified in Apache Kafka. By default, the broker...",
       "source": "CVE Feed",
       "published": "2026-04-20T14:16:18+00:00"
     },
@@ -310,27 +359,6 @@
       "published": "2026-04-20T11:30:00+00:00"
     },
     {
-      "title": "CVE-2026-6632 - Tenda F451 httpd SafeClientFilter fromSafeClientFilter buffer overflow",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-6632",
-      "summary": "CVE ID :CVE-2026-6632 Published : April 20, 2026, 11:16 a.m. | 8 hours, 48 minutes ago Description :A vulnerability was identified in Tenda F451 1.0.0.7_cn_svn7958. The affected element is the...",
-      "source": "CVE Feed",
-      "published": "2026-04-20T11:16:19+00:00"
-    },
-    {
-      "title": "CVE-2026-6631 - Tenda F451 httpd webExcptypemanFilter fromwebExcptypemanFilter buffer overflow",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-6631",
-      "summary": "CVE ID :CVE-2026-6631 Published : April 20, 2026, 11:16 a.m. | 8 hours, 48 minutes ago Description :A vulnerability was determined in Tenda F451 1.0.0.7_cn_svn7958. Impacted is the function...",
-      "source": "CVE Feed",
-      "published": "2026-04-20T11:16:19+00:00"
-    },
-    {
-      "title": "CVE-2026-6630 - Tenda F451 httpd GstDhcpSetSer fromGstDhcpSetSer buffer overflow",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-6630",
-      "summary": "CVE ID :CVE-2026-6630 Published : April 20, 2026, 11:16 a.m. | 8 hours, 48 minutes ago Description :A vulnerability was found in Tenda F451 1.0.0.7_cn_svn7958. This issue affects the function...",
-      "source": "CVE Feed",
-      "published": "2026-04-20T11:16:19+00:00"
-    },
-    {
       "title": "Bluesky Disrupted by Sophisticated DDoS Attack",
       "link": "https://www.securityweek.com/bluesky-disrupted-by-sophisticated-ddos-attack/",
       "summary": "A pro-Iran hacker group has taken credit for the attack on Bluesky, which appears to have lasted 24 hours. The post Bluesky Disrupted by Sophisticated DDoS Attack appeared first on SecurityWeek.",
@@ -385,20 +413,6 @@
       "summary": "Microsoft has reverted a recent service update that was preventing some customers from launching the Microsoft Teams desktop client. [...]",
       "source": "BleepingComputer",
       "published": "2026-04-20T09:40:20+00:00"
-    },
-    {
-      "title": "CVE-2026-5967 - TeamT5｜ThreatSonar Anti-Ransomware - Privilege Escalation",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-5967",
-      "summary": "CVE ID :CVE-2026-5967 Published : April 20, 2026, 9:16 a.m. | 10 hours, 48 minutes ago Description :ThreatSonar Anti-Ransomware developed by TeamT5 has an Privilege Escalation vulnerability...",
-      "source": "CVE Feed",
-      "published": "2026-04-20T09:16:09+00:00"
-    },
-    {
-      "title": "CVE-2026-39454 - Sky Co.,LTD. SKYSEA Client View and SKYMEC IT Manager File Permission Bypass Privilege Escalation Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-39454",
-      "summary": "CVE ID :CVE-2026-39454 Published : April 20, 2026, 9:16 a.m. | 10 hours, 48 minutes ago Description :SKYSEA Client View and SKYMEC IT Manager provided by Sky Co.,LTD. configure the installation...",
-      "source": "CVE Feed",
-      "published": "2026-04-20T09:16:08+00:00"
     },
     {
       "title": "Microsoft releases emergency updates to fix Windows Server issues",
@@ -604,13 +618,6 @@
       "published": "2026-04-17T19:51:57+00:00"
     },
     {
-      "title": "Payouts King ransomware uses QEMU VMs to bypass endpoint security",
-      "link": "https://www.bleepingcomputer.com/news/security/payouts-king-ransomware-uses-qemu-vms-to-bypass-endpoint-security/",
-      "summary": "The Payouts King ransomware is using the QEMU emulator as a reverse SSH backdoor to run hidden virtual machines on compromised systems and bypass endpoint security. [...]",
-      "source": "BleepingComputer",
-      "published": "2026-04-17T19:10:19+00:00"
-    },
-    {
       "title": "Tycoon 2FA Phishers Scatter, Adopt Device Code Phishing",
       "link": "https://www.darkreading.com/threat-intelligence/tycoon-2fa-hackers-device-code-phishing",
       "summary": "In embracing device code phishing, attackers trick victims into handing over account access by using a service's legitimate new-device login flow.",
@@ -690,7 +697,7 @@
     {
       "title": "NIST Revamps CVE Framework to Focus on High-Impact Vulnerabilities",
       "link": "https://www.darkreading.com/vulnerabilities-threats/nist-revamps-cve-framework-to-focus-on-high-impact-vulnerabilities",
-      "summary": "The National Institute of Standards and Technology carved a new path for vulnerability remediation by changing the way it prioritizes software flaws.",
+      "summary": "The National Institute of Standards and Technology is carving a new path for vulnerability remediation by changing the way it prioritizes software flaws.",
       "source": "Dark Reading",
       "published": "2026-04-16T21:47:31+00:00"
     },
@@ -716,7 +723,7 @@
       "published": "2026-04-16T17:52:00+00:00"
     },
     {
-      "title": "Two-Factor Authentication Breaks Free from the Desktop",
+      "title": "Two-Factor Authentication Breaks Free From the Desktop",
       "link": "https://www.darkreading.com/endpoint-security/two-factor-authentication-breaks-free-from-the-desktop",
       "summary": "Threat actors know how to bypass security systems outside of traditional IT environments. Implementing 2FA could provide a needed extra security barrier in the physical world.",
       "source": "Dark Reading",
@@ -725,7 +732,7 @@
     {
       "title": "Microsoft's Original Windows Secure Boot Certificate Is Expiring",
       "link": "https://www.darkreading.com/endpoint-security/microsoftoriginal-windows-secure-boot-certificates-expire",
-      "summary": "The Secure Boot refresh is one of the largest coordinated security maintenance efforts across the Windows ecosystem, Microsoft said. Update those PCs soon.",
+      "summary": "The Secure Boot refresh is one of the largest coordinated security maintenance efforts across the Windows ecosystem, Microsoft said. In other words, update those PCs soon.",
       "source": "Dark Reading",
       "published": "2026-04-16T15:16:30+00:00"
     },
@@ -1337,13 +1344,6 @@
       "summary": "View CSAF Summary Successful exploitation of these vulnerabilities could allow a local attacker to disclose SQL Server credentials used by the affected products and use them to disclose, tamper with...",
       "source": "CISA Alerts",
       "published": "2026-04-07T12:00:00+00:00"
-    },
-    {
-      "title": "AI-Assisted Supply Chain Attack Targets GitHub",
-      "link": "https://www.darkreading.com/application-security/ai-assisted-supply-chain-attack-targets-github",
-      "summary": "PRT-scan is the second campaign in recent months where a threat actor appears to have leveraged AI for automated targeting of a widespread GitHub misconfiguration.",
-      "source": "Dark Reading",
-      "published": "2026-04-06T21:38:53+00:00"
     },
     {
       "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
