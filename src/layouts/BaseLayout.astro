@@ -25,7 +25,7 @@ const {
     ogTitle,
     ogDescription,
     ogType = 'website',
-    ogImage = 'https://cardinalsixcyber.com/brand/og-share.png',
+    ogImage = 'https://cardinalsixcyber.com/brand/og-share.jpg',
     twitterCard = 'summary_large_image',
     twitterImage = ogImage,
     noindex = false,
@@ -71,6 +71,11 @@ const resolvedOgDescription = ogDescription || description;
     <link rel="apple-touch-icon" sizes="180x180" href="/brand/icon-180.png">
     <meta name="theme-color" content="#0a0a0a">
     <link rel="alternate" type="application/rss+xml" title="Cardinal Six Cyber Blog" href="/rss.xml">
+
+    <!-- Preload critical font subsets for LCP -->
+    <link rel="preload" href="/fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="/fonts/rajdhani-700-latin.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="/fonts/rajdhani-600-latin.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="stylesheet" href="/fonts/fonts.css">
 </head>
 <body>
