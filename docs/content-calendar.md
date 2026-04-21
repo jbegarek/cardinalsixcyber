@@ -128,3 +128,36 @@ Posts derived from Justin's PhD coursework. Each maps to a specific source file.
 - **Source file naming convention:** Files named `BegarekJustin[COURSE]-[N].docx` are the final submitted assignments. Any other `.docx` in the same folder (drafts, workspace files, etc.) can be used as supplementary reference to ensure content is consistent, but the named file is authoritative.
 - **MSC restriction:** Any content derived from TIM-8315v2 must not reference Military Sealift Command specifically. Abstract to "defense contractor," "critical infrastructure operator," or "organizations with hybrid IT/OT environments."
 - **Author attribution:** Use *"Justin T. Begarek is an IT Cybersecurity Specialist and PhD candidate in Cybersecurity. This analysis reflects the author's independent research and academic work."* — do not include grade (GS-13) or employer (Military Sealift Command).
+
+---
+
+## TIM-8720 Week 4 — CMMC Case Study Derived Content
+
+The Week 4 paper is an 8–11 page case study on CMMC Level 2 readiness for a fictional mid-tier DIB contractor ("ForgeWorks Systems"). Paper is outlined but not yet written. These posts are queued behind the paper's completion. One exception: the CIS × NIST crosswalk is pre-paper safe and doesn't cannibalize the case study.
+
+**Source files:**
+- `TIM-8720/week4/Week4_Paper_Outline.md` (outline, 246 lines)
+- `TIM-8720/week4/Week4_Compendium_v2.md` (source compendium, 174KB)
+- `TIM-8720/week4/BegarekJustinTIM8720_4.docx` (once written — authoritative)
+- `TIM-8720/week4/sources/` (~55 PDFs: NIST 800-53r5, 800-171r3, 800-207, 800-82r3, CMMC L2 Assessment + Scoping Guides, CIS v8, CSF 2.0, IEC 62443)
+
+**Status:** Paper in outline phase as of 2026-04-21. Target draft completion end of April 2026. Blog derivatives scheduled starting September 2026 to avoid overlap with existing backlog.
+
+| Target | Slug | Lane | Proposed Title | Angle / Notes |
+|---|---|---|---|---|
+| 2026-09-27 | `cis-controls-v8-ig1-nist-800-171-crosswalk` | Practical | The CIS Controls v8 IG1 → NIST SP 800-171 Rev 3 Crosswalk for DIB Contractors | **Pre-paper safe.** 56 IG1 Safeguards cover most of 110 practices — reference table for contractors starting from an IG1 baseline. |
+| 2026-10-11 | `cmmc-level-2-mid-tier-dib-case-study` | Research | Inside a CMMC Level 2 Journey: A Mid-Tier DIB Contractor Case Study | **Flagship paper adaptation.** Full ForgeWorks case study — scope, threats, controls, trajectory. |
+| 2026-10-25 | `cui-enclave-architecture-cmmc-scope-reduction` | Practical | The CUI Enclave: How to Reduce CMMC Level 2 Assessment Scope by 70% | The highest-leverage architectural move for mid-tier contractors. Derived from paper §3.1. |
+| 2026-11-08 | `cmmc-twelve-controls-that-actually-matter` | Practical | The 12 CMMC Controls That Actually Matter: Access Control, SC, and IR | Defensible subset from 110 practices. Three domains, four controls each, with assessment objectives. Paper §5.2. |
+| 2026-11-22 | `sprs-score-plus-85-to-110-roadmap` | Practical | Getting Your SPRS Score From +85 to +110: A 12-Month CMMC Level 2 Roadmap | Quantified trajectory with control-family sequencing. Paper §1 + conclusion. |
+| 2026-12-06 | `zero-trust-dib-contractors-nist-800-207-cmmc` | Research | Zero Trust for Defense Contractors: Where NIST SP 800-207 Meets CMMC Level 2 | Ties Abdelmagid & Diaz (2025) SMB ZTA to CMMC L2 enclave. Paper §3.1. |
+| 2026-12-20 | `subcontractor-flow-down-dfars-7021-c-scrm` | Practical | DFARS 7021 Flow-Down: What Primes Owe Subcontractors and Vice Versa | Tiered C-SCRM per NIST SP 800-161r1 + CA.L2-3.12.4. Paper §3.2. |
+| 2027-01-03 | `ot-ics-security-dib-manufacturing-800-82r3` | Research | OT/ICS Security on the Manufacturing Floor: Why CMMC L2 Alone Isn't Enough | NIST SP 800-82r3 overlay for DIB manufacturers. Paper §3.4. |
+| 2027-01-17 | `cmmc-l2-is-not-the-endpoint-maturity-overlay` | Research | CMMC Level 2 Is Not the Endpoint: The Post-Certification Maturity Overlay | Bernardo et al. (2025) maturity framework. Initial → Documented → Measured → Managed → Optimized. Paper §5.3. |
+| 2027-01-31 | `what-c3pao-actually-assesses-nist-171a-r3` | Practical | What a C3PAO Actually Assesses: Decoding NIST SP 800-171A Rev 3 Objectives | Assessment objective decode for contractors preparing SSP evidence. Paper §5.2 footnotes + CMMC L2 Assessment Guide. |
+
+### Week 4 notes
+
+- **Fictional case study disclosure:** If using ForgeWorks Systems in any blog post, disclose it as a "composite/fictional case study" in the opening paragraph. Do not present it as a real engagement.
+- **CMMC Assessment + Scoping Guides are authoritative:** `dod_2024_cmmc-l2-assessment-guide.pdf` and `dod_2024_cmmc-l2-scoping-guide.pdf` (both v2.13) are the C3PAO-facing documents. Cite objectives directly when discussing what assessors look for.
+- **Rev 3 vs Rev 2:** Some paper content references NIST SP 800-171 Rev 3 (Ross et al., 2024). Any blog post should be clear that DFARS/CMMC still bind contractors to Rev 2 — consistent with the existing [NIST SP 800-171 Revision 3 gap post](/blog/nist-800-171-revision-2-vs-revision-3-cmmc-gap).
