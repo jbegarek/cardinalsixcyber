@@ -1,61 +1,124 @@
 {
-  "last_updated": "2026-04-22T00:17:58.449988+00:00",
+  "last_updated": "2026-04-22T03:01:59.326197+00:00",
   "articles": [
+    {
+      "title": "CVE-2026-41304 - WWBN AVideo vulnerable to RCE caused by clonesite plugin",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-41304",
+      "summary": "CVE ID :CVE-2026-41304 Published : April 22, 2026, 12:16 a.m. | 55 minutes ago Description :WWBN AVideo is an open source video platform. In versions 29.0 and below, the `cloneServer.json.php`...",
+      "source": "CVE Feed",
+      "published": "2026-04-22T00:16:29+00:00"
+    },
+    {
+      "title": "CVE-2026-41133 - pyLoad has Stale Session Privilege After Role/Permission Change (Privilege Revocation Bypass)",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-41133",
+      "summary": "CVE ID :CVE-2026-41133 Published : April 22, 2026, 12:16 a.m. | 55 minutes ago Description :pyLoad is a free and open-source download manager written in Python. Versions up to and including...",
+      "source": "CVE Feed",
+      "published": "2026-04-22T00:16:29+00:00"
+    },
+    {
+      "title": "CVE-2026-41064 - AVideo has an incomplete fix for CVE-2026-33502 (Command Injection)",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-41064",
+      "summary": "CVE ID :CVE-2026-41064 Published : April 22, 2026, 12:16 a.m. | 55 minutes ago Description :WWBN AVideo is an open source video platform. In versions up to and including 29.0, an incomplete fix for...",
+      "source": "CVE Feed",
+      "published": "2026-04-22T00:16:28+00:00"
+    },
+    {
+      "title": "CVE-2026-41059 - OAuth2 Proxy has an Authentication Bypass via Fragment Confusion in skip_auth_routes and skip_auth_regex",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-41059",
+      "summary": "CVE ID :CVE-2026-41059 Published : April 22, 2026, 12:16 a.m. | 55 minutes ago Description :OAuth2 Proxy is a reverse proxy that provides authentication using OAuth2 providers. Versions 7.5.0 through...",
+      "source": "CVE Feed",
+      "published": "2026-04-22T00:16:27+00:00"
+    },
+    {
+      "title": "CVE-2026-40575 - OAuth2 Proxy has an Authentication Bypass via X-Forwarded-Uri Header Spoofing",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-40575",
+      "summary": "CVE ID :CVE-2026-40575 Published : April 22, 2026, 12:16 a.m. | 55 minutes ago Description :OAuth2 Proxy is a reverse proxy that provides authentication using OAuth2 providers. Versions 7.5.0 through...",
+      "source": "CVE Feed",
+      "published": "2026-04-22T00:16:27+00:00"
+    },
+    {
+      "title": "CVE-2026-5921 - Server-Side Request Forgery in GitHub Enterprise Server allowed extraction of sensitive environment variables via timing side-channel attack",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-5921",
+      "summary": "CVE ID :CVE-2026-5921 Published : April 21, 2026, 11:16 p.m. | 1 hour, 55 minutes ago Description :A server-side request forgery (SSRF) vulnerability was identified in GitHub Enterprise Server that...",
+      "source": "CVE Feed",
+      "published": "2026-04-21T23:16:22+00:00"
+    },
+    {
+      "title": "CVE-2026-4821 - Proxy configuration command injection vulnerability found in GitHub Enterprise Server Management Console configuration API",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-4821",
+      "summary": "CVE ID :CVE-2026-4821 Published : April 21, 2026, 11:16 p.m. | 1 hour, 55 minutes ago Description :An improper neutralization of special elements vulnerability was identified in GitHub Enterprise...",
+      "source": "CVE Feed",
+      "published": "2026-04-21T23:16:22+00:00"
+    },
+    {
+      "title": "CVE-2026-41058 - AVideo has an incomplete fix for CVE-2026-33293 (Path Traversal) in AVideo",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-41058",
+      "summary": "CVE ID :CVE-2026-41058 Published : April 21, 2026, 11:16 p.m. | 1 hour, 55 minutes ago Description :WWBN AVideo is an open source video platform. In versions 29.0 and below, the incomplete fix for...",
+      "source": "CVE Feed",
+      "published": "2026-04-21T23:16:21+00:00"
+    },
+    {
+      "title": "CVE-2026-41056 - AVideos has CORS Origin Reflection with Credentials on Sensitive API Endpoints that Enables Cross-Origin Account Takeover",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-41056",
+      "summary": "CVE ID :CVE-2026-41056 Published : April 21, 2026, 11:16 p.m. | 1 hour, 55 minutes ago Description :WWBN AVideo is an open source video platform. In versions 29.0 and below, the...",
+      "source": "CVE Feed",
+      "published": "2026-04-21T23:16:20+00:00"
+    },
+    {
+      "title": "CVE-2026-41055 - AVideo has an incomplete fix for CVE-2026-33039 (SSRF)",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-41055",
+      "summary": "CVE ID :CVE-2026-41055 Published : April 21, 2026, 11:16 p.m. | 1 hour, 55 minutes ago Description :WWBN AVideo is an open source video platform. In versions 29.0 and below, an incomplete SSRF fix in...",
+      "source": "CVE Feed",
+      "published": "2026-04-21T23:16:20+00:00"
+    },
     {
       "title": "CVE-2026-6832 - Nesquena Hermes WebUI Arbitrary File Deletion via Unvalidated session_id",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-6832",
-      "summary": "CVE ID :CVE-2026-6832 Published : April 21, 2026, 10:16 p.m. | 55 minutes ago Description :Hermes WebUI contains an arbitrary file deletion vulnerability in the /api/session/delete endpoint that...",
+      "summary": "CVE ID :CVE-2026-6832 Published : April 21, 2026, 10:16 p.m. | 2 hours, 55 minutes ago Description :Hermes WebUI contains an arbitrary file deletion vulnerability in the /api/session/delete endpoint...",
       "source": "CVE Feed",
       "published": "2026-04-21T22:16:21+00:00"
     },
     {
       "title": "CVE-2026-40946 - Oxia: OIDC token audience validation bypass via SkipClientIDCheck",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-40946",
-      "summary": "CVE ID :CVE-2026-40946 Published : April 21, 2026, 10:16 p.m. | 55 minutes ago Description :Oxia is a metadata store and coordination system. Prior to 0.16.2, the OIDC authentication provider...",
+      "summary": "CVE ID :CVE-2026-40946 Published : April 21, 2026, 10:16 p.m. | 2 hours, 55 minutes ago Description :Oxia is a metadata store and coordination system. Prior to 0.16.2, the OIDC authentication...",
       "source": "CVE Feed",
       "published": "2026-04-21T22:16:20+00:00"
     },
     {
       "title": "CVE-2026-40945 - Oxia: Bearer token exposed in debug log messages on authentication failure",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-40945",
-      "summary": "CVE ID :CVE-2026-40945 Published : April 21, 2026, 10:16 p.m. | 55 minutes ago Description :Oxia is a metadata store and coordination system. Prior to 0.16.2, when OIDC authentication fails, the full...",
+      "summary": "CVE ID :CVE-2026-40945 Published : April 21, 2026, 10:16 p.m. | 2 hours, 55 minutes ago Description :Oxia is a metadata store and coordination system. Prior to 0.16.2, when OIDC authentication fails...",
       "source": "CVE Feed",
       "published": "2026-04-21T22:16:20+00:00"
     },
     {
       "title": "CVE-2026-40943 - Oxia: Server crash via race condition in session heartbeat handling",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-40943",
-      "summary": "CVE ID :CVE-2026-40943 Published : April 21, 2026, 10:16 p.m. | 55 minutes ago Description :Oxia is a metadata store and coordination system. Prior to 0.16.2, a race condition between session...",
+      "summary": "CVE ID :CVE-2026-40943 Published : April 21, 2026, 10:16 p.m. | 2 hours, 55 minutes ago Description :Oxia is a metadata store and coordination system. Prior to 0.16.2, a race condition between...",
       "source": "CVE Feed",
       "published": "2026-04-21T22:16:19+00:00"
     },
     {
       "title": "CVE-2026-40933 - Flowise: Authenticated RCE Via MCP Adapters",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-40933",
-      "summary": "CVE ID :CVE-2026-40933 Published : April 21, 2026, 10:16 p.m. | 55 minutes ago Description :Flowise is a drag & drop user interface to build a customized large language model flow. Prior to 3.1.0...",
+      "summary": "CVE ID :CVE-2026-40933 Published : April 21, 2026, 10:16 p.m. | 2 hours, 55 minutes ago Description :Flowise is a drag & drop user interface to build a customized large language model flow. Prior to...",
       "source": "CVE Feed",
       "published": "2026-04-21T22:16:19+00:00"
     },
     {
       "title": "CVE-2026-40931 - Complete Bypass of CVE-2026-24884 Patch via Git-Delivered Symlink Poisoning in compressing",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-40931",
-      "summary": "CVE ID :CVE-2026-40931 Published : April 21, 2026, 10:16 p.m. | 55 minutes ago Description :Compressing is a compressing and uncompressing lib for node. Prior to 2.1.1 and 1.10.5, the patch for...",
+      "summary": "CVE ID :CVE-2026-40931 Published : April 21, 2026, 10:16 p.m. | 2 hours, 55 minutes ago Description :Compressing is a compressing and uncompressing lib for node. Prior to 2.1.1 and 1.10.5, the patch...",
       "source": "CVE Feed",
       "published": "2026-04-21T22:16:19+00:00"
     },
     {
       "title": "CVE-2026-40706 - NTFS-3G Heap Buffer Overflow Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-40706",
-      "summary": "CVE ID :CVE-2026-40706 Published : April 21, 2026, 10:16 p.m. | 55 minutes ago Description :In NTFS-3G 2022.10.3 before 2026.2.25, a heap buffer overflow exists in ntfs_build_permissions_posix() in...",
+      "summary": "CVE ID :CVE-2026-40706 Published : April 21, 2026, 10:16 p.m. | 2 hours, 55 minutes ago Description :In NTFS-3G 2022.10.3 before 2026.2.25, a heap buffer overflow exists in...",
       "source": "CVE Feed",
       "published": "2026-04-21T22:16:19+00:00"
-    },
-    {
-      "title": "CVE-2026-4821 - Proxy configuration command injection vulnerability found in GitHub Enterprise Server Management Console configuration API",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-4821",
-      "summary": "CVE ID :CVE-2026-4821 Published : April 21, 2026, 10:12 p.m. | 59 minutes ago Description :An improper neutralization of special elements vulnerability was identified in GitHub Enterprise Server that...",
-      "source": "CVE Feed",
-      "published": "2026-04-21T22:12:26+00:00"
     },
     {
       "title": "French govt agency confirms breach as hacker offers to sell data",
@@ -67,114 +130,58 @@
     {
       "title": "CVE-2026-6823 - HKUDS OpenHarness Insecure Default Remote Channel Allowlist",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-6823",
-      "summary": "CVE ID :CVE-2026-6823 Published : April 21, 2026, 9:16 p.m. | 1 hour, 55 minutes ago Description :HKUDS OpenHarness prior to PR #147 remediation contains an insecure default configuration...",
+      "summary": "CVE ID :CVE-2026-6823 Published : April 21, 2026, 9:16 p.m. | 3 hours, 55 minutes ago Description :HKUDS OpenHarness prior to PR #147 remediation contains an insecure default configuration...",
       "source": "CVE Feed",
       "published": "2026-04-21T21:16:48+00:00"
     },
     {
       "title": "CVE-2026-40925 - WWBN AVideo has CSRF in configurationUpdate.json.php Enables Full Site Configuration Takeover Including Encoder URL and SMTP Credentials",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-40925",
-      "summary": "CVE ID :CVE-2026-40925 Published : April 21, 2026, 9:16 p.m. | 1 hour, 55 minutes ago Description :WWBN AVideo is an open source video platform. In versions 29.0 and prior...",
+      "summary": "CVE ID :CVE-2026-40925 Published : April 21, 2026, 9:16 p.m. | 3 hours, 55 minutes ago Description :WWBN AVideo is an open source video platform. In versions 29.0 and prior...",
       "source": "CVE Feed",
       "published": "2026-04-21T21:16:45+00:00"
     },
     {
       "title": "CVE-2026-40911 - WWBN AVideo YPTSocket WebSocket Broadcast Relay Leads to Unauthenticated Cross-User JavaScript Execution via Client-Side eval() Sinks",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-40911",
-      "summary": "CVE ID :CVE-2026-40911 Published : April 21, 2026, 9:16 p.m. | 1 hour, 55 minutes ago Description :WWBN AVideo is an open source video platform. In versions 29.0 and prior, the YPTSocket plugin's...",
+      "summary": "CVE ID :CVE-2026-40911 Published : April 21, 2026, 9:16 p.m. | 3 hours, 55 minutes ago Description :WWBN AVideo is an open source video platform. In versions 29.0 and prior, the YPTSocket plugin's...",
       "source": "CVE Feed",
       "published": "2026-04-21T21:16:45+00:00"
     },
     {
       "title": "CVE-2026-40906 - Electric: SQL Injection via ORDER BY Parameter in Shape API",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-40906",
-      "summary": "CVE ID :CVE-2026-40906 Published : April 21, 2026, 9:16 p.m. | 1 hour, 55 minutes ago Description :Electric is a Postgres sync engine. From 1.1.12 to before 1.5.0, the order_by parameter in the...",
+      "summary": "CVE ID :CVE-2026-40906 Published : April 21, 2026, 9:16 p.m. | 3 hours, 55 minutes ago Description :Electric is a Postgres sync engine. From 1.1.12 to before 1.5.0, the order_by parameter in the...",
       "source": "CVE Feed",
       "published": "2026-04-21T21:16:44+00:00"
     },
     {
       "title": "CVE-2026-40905 - LinkAce: Password Reset Poisoning via X-Forwarded-Host Header Injection Leading to Account Takeover",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-40905",
-      "summary": "CVE ID :CVE-2026-40905 Published : April 21, 2026, 9:16 p.m. | 1 hour, 55 minutes ago Description :LinkAce is a self-hosted archive to collect website links. Prior to 2.5.4, a password reset...",
+      "summary": "CVE ID :CVE-2026-40905 Published : April 21, 2026, 9:16 p.m. | 3 hours, 55 minutes ago Description :LinkAce is a self-hosted archive to collect website links. Prior to 2.5.4, a password reset...",
       "source": "CVE Feed",
       "published": "2026-04-21T21:16:44+00:00"
     },
     {
       "title": "CVE-2026-40892 - PJSIP: Stack buffer overflow in pjsip_auth_create_digest2()",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-40892",
-      "summary": "CVE ID :CVE-2026-40892 Published : April 21, 2026, 9:16 p.m. | 1 hour, 55 minutes ago Description :PJSIP is a free and open source multimedia communication library written in C. In 2.16 and earlier...",
+      "summary": "CVE ID :CVE-2026-40892 Published : April 21, 2026, 9:16 p.m. | 3 hours, 55 minutes ago Description :PJSIP is a free and open source multimedia communication library written in C. In 2.16 and earlier...",
       "source": "CVE Feed",
       "published": "2026-04-21T21:16:44+00:00"
     },
     {
       "title": "CVE-2026-34309 - Vulnerability in the PeopleSoft Enterprise PeopleT",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-34309",
-      "summary": "CVE ID :CVE-2026-34309 Published : April 21, 2026, 9:16 p.m. | 1 hour, 55 minutes ago Description :Vulnerability in the PeopleSoft Enterprise PeopleTools product of Oracle PeopleSoft (component...",
+      "summary": "CVE ID :CVE-2026-34309 Published : April 21, 2026, 9:16 p.m. | 3 hours, 55 minutes ago Description :Vulnerability in the PeopleSoft Enterprise PeopleTools product of Oracle PeopleSoft (component...",
       "source": "CVE Feed",
       "published": "2026-04-21T21:16:36+00:00"
     },
     {
       "title": "CVE-2026-34291 - Vulnerability in the Oracle HTTP Server product of",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-34291",
-      "summary": "CVE ID :CVE-2026-34291 Published : April 21, 2026, 9:16 p.m. | 1 hour, 55 minutes ago Description :Vulnerability in the Oracle HTTP Server product of Oracle Fusion Middleware (component: Core)...",
+      "summary": "CVE ID :CVE-2026-34291 Published : April 21, 2026, 9:16 p.m. | 3 hours, 55 minutes ago Description :Vulnerability in the Oracle HTTP Server product of Oracle Fusion Middleware (component: Core)...",
       "source": "CVE Feed",
       "published": "2026-04-21T21:16:33+00:00"
-    },
-    {
-      "title": "CVE-2026-34287 - Vulnerability in the Oracle Identity Manager Conne",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-34287",
-      "summary": "CVE ID :CVE-2026-34287 Published : April 21, 2026, 9:16 p.m. | 1 hour, 55 minutes ago Description :Vulnerability in the Oracle Identity Manager Connector product of Oracle Fusion Middleware...",
-      "source": "CVE Feed",
-      "published": "2026-04-21T21:16:33+00:00"
-    },
-    {
-      "title": "CVE-2026-34286 - Vulnerability in the Oracle Identity Manager Conne",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-34286",
-      "summary": "CVE ID :CVE-2026-34286 Published : April 21, 2026, 9:16 p.m. | 1 hour, 55 minutes ago Description :Vulnerability in the Oracle Identity Manager Connector product of Oracle Fusion Middleware...",
-      "source": "CVE Feed",
-      "published": "2026-04-21T21:16:33+00:00"
-    },
-    {
-      "title": "CVE-2026-34285 - Vulnerability in the Oracle Identity Manager Conne",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-34285",
-      "summary": "CVE ID :CVE-2026-34285 Published : April 21, 2026, 9:16 p.m. | 1 hour, 55 minutes ago Description :Vulnerability in the Oracle Identity Manager Connector product of Oracle Fusion Middleware...",
-      "source": "CVE Feed",
-      "published": "2026-04-21T21:16:33+00:00"
-    },
-    {
-      "title": "CVE-2026-34279 - Vulnerability in the Oracle Enterprise Manager Bas",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-34279",
-      "summary": "CVE ID :CVE-2026-34279 Published : April 21, 2026, 9:16 p.m. | 1 hour, 55 minutes ago Description :Vulnerability in the Oracle Enterprise Manager Base Platform product of Oracle Enterprise Manager...",
-      "source": "CVE Feed",
-      "published": "2026-04-21T21:16:32+00:00"
-    },
-    {
-      "title": "CVE-2026-34275 - Vulnerability in the Oracle Advanced Inbound Telep",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-34275",
-      "summary": "CVE ID :CVE-2026-34275 Published : April 21, 2026, 9:16 p.m. | 1 hour, 55 minutes ago Description :Vulnerability in the Oracle Advanced Inbound Telephony product of Oracle E-Business Suite...",
-      "source": "CVE Feed",
-      "published": "2026-04-21T21:16:31+00:00"
-    },
-    {
-      "title": "CVE-2026-33519 - Incorrect privilege assignment in Portal for ArcGIS",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-33519",
-      "summary": "CVE ID :CVE-2026-33519 Published : April 21, 2026, 9:16 p.m. | 1 hour, 55 minutes ago Description :An incorrect authorization vulnerability exists in Esri Portal for ArcGIS 11.4, 11.5 and 12.0 on...",
-      "source": "CVE Feed",
-      "published": "2026-04-21T21:16:29+00:00"
-    },
-    {
-      "title": "CVE-2026-33518 - Incorrect privilege assignment in Portal for ArcGIS",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-33518",
-      "summary": "CVE ID :CVE-2026-33518 Published : April 21, 2026, 9:16 p.m. | 1 hour, 55 minutes ago Description :An incorrect privilege assignment vulnerability exists in Esri Portal for ArcGIS 11.5 in Windows and...",
-      "source": "CVE Feed",
-      "published": "2026-04-21T21:16:29+00:00"
-    },
-    {
-      "title": "CVE-2026-21997 - Vulnerability in the Oracle Life Sciences Empirica",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-21997",
-      "summary": "CVE ID :CVE-2026-21997 Published : April 21, 2026, 9:16 p.m. | 1 hour, 55 minutes ago Description :Vulnerability in the Oracle Life Sciences Empirica Signal product of Oracle Life Science...",
-      "source": "CVE Feed",
-      "published": "2026-04-21T21:16:24+00:00"
     },
     {
       "title": "Ransomware Negotiator Pleads Guilty to BlackCat Scheme",
@@ -182,13 +189,6 @@
       "summary": "A cautionary tale illustrates why the person negotiating should never be involved with any part of the ransom payment process, experts noted.",
       "source": "Dark Reading",
       "published": "2026-04-21T21:12:43+00:00"
-    },
-    {
-      "title": "CVE-2026-6819 - HKUDS OpenHarness Plugin Management Command Exposure",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-6819",
-      "summary": "CVE ID :CVE-2026-6819 Published : April 21, 2026, 8:17 p.m. | 2 hours, 54 minutes ago Description :HKUDS OpenHarness prior to PR #156 remediation exposes plugin lifecycle commands including /plugin...",
-      "source": "CVE Feed",
-      "published": "2026-04-21T20:17:05+00:00"
     },
     {
       "title": "Exploits Turn Windows Defender into Attacker Tool",
@@ -233,10 +233,10 @@
       "published": "2026-04-21T16:29:38+00:00"
     },
     {
-      "title": "22 BRIDGE:BREAK Flaws Expose Thousands of Lantronix and Silex Serial-to-IP Converters",
+      "title": "22 BRIDGE:BREAK Flaws Expose 20,000 Lantronix and Silex Serial-to-IP Converters",
       "link": "https://thehackernews.com/2026/04/22-bridgebreak-flaws-expose-20000.html",
-      "summary": "Cybersecurity researchers have identified 22 new vulnerabilities in popular models of serial-to-IP converters from Lantronix and Silex that could be exploited to hijack susceptible devices and tamper...",
-      "source": "The Hacker News",
+      "summary": "22 BRIDGE:BREAK Flaws Expose 20,000 Lantronix and Silex Serial-to-IP Converters Cybersecurity researchers have identified 22 new vulnerabilities in popular models of serial-to-IP converters from...",
+      "source": "CVE Newsroom",
       "published": "2026-04-21T15:46:00+00:00"
     },
     {
@@ -529,8 +529,8 @@
     {
       "title": "Google Patches Antigravity IDE Flaw Enabling Prompt Injection Code Execution",
       "link": "https://thehackernews.com/2026/04/google-patches-antigravity-ide-flaw.html",
-      "summary": "Cybersecurity researchers have discovered a vulnerability in Google's agentic integrated development environment (IDE), Antigravity, that could be exploited to achieve code execution. The flaw, since...",
-      "source": "The Hacker News",
+      "summary": "Google Patches Antigravity IDE Flaw Enabling Prompt Injection Code Execution Cybersecurity researchers have discovered a vulnerability in Google's agentic integrated development environment (IDE)...",
+      "source": "CVE Newsroom",
       "published": "2026-04-21T10:22:00+00:00"
     },
     {
@@ -578,8 +578,8 @@
     {
       "title": "CISA Adds 8 Exploited Flaws to KEV, Sets April-May 2026 Federal Deadlines",
       "link": "https://thehackernews.com/2026/04/cisa-adds-8-exploited-flaws-to-kev-sets.html",
-      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added eight new vulnerabilities to its Known Exploited Vulnerabilities (KEV) catalog, including three flaws impacting Cisco...",
-      "source": "The Hacker News",
+      "summary": "CISA Adds 8 Exploited Flaws to KEV, Sets April-May 2026 Federal Deadlines The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added eight new vulnerabilities to its Known...",
+      "source": "CVE Newsroom",
       "published": "2026-04-21T06:23:00+00:00"
     },
     {
