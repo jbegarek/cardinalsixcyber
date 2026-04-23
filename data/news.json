@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-23T20:18:45.785413+00:00",
+  "last_updated": "2026-04-23T22:13:59.733400+00:00",
   "articles": [
     {
       "title": "Chinese APT Abuses Multiple Cloud Tools to Spy on Mongolia",
@@ -7,6 +7,111 @@
       "summary": "The threat actor gave itself plenty of options to support command and control, tapping Microsoft Outlook, Slack, Discord, and file.io for online espionage.",
       "source": "Dark Reading",
       "published": "2026-04-24T01:00:00+00:00"
+    },
+    {
+      "title": "Hackers exploit file upload bug in Breeze Cache WordPress plugin",
+      "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-file-upload-bug-in-breeze-cache-wordpress-plugin/",
+      "summary": "Hackers are actively exploiting a critical vulnerability in the Breeze Cache plugin for WordPress that allows uploading arbitrary files on the server without authentication. [...]",
+      "source": "BleepingComputer",
+      "published": "2026-04-23T21:33:45+00:00"
+    },
+    {
+      "title": "CVE-2026-26210 - KTransformers Unsafe Deserialization RCE via balance_serve",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-26210",
+      "summary": "CVE ID :CVE-2026-26210 Published : April 23, 2026, 9:24 p.m. | 23 minutes ago Description :KTransformers through 0.5.3 contains an unsafe deserialization vulnerability in the balance_serve backend...",
+      "source": "CVE Feed",
+      "published": "2026-04-23T21:24:48+00:00"
+    },
+    {
+      "title": "CVE-2026-6942 - radare2-mcp <=1.6.0 OS Command Injection via Shell Metacharacter Bypass",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-6942",
+      "summary": "CVE ID :CVE-2026-6942 Published : April 23, 2026, 9:16 p.m. | 32 minutes ago Description :radare2-mcp version 1.6.0 and earlier contains an os command injection vulnerability that allows remote...",
+      "source": "CVE Feed",
+      "published": "2026-04-23T21:16:06+00:00"
+    },
+    {
+      "title": "CVE-2026-6376 - Missing authentication for critical function in SpiceJet Online Booking System",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-6376",
+      "summary": "CVE ID :CVE-2026-6376 Published : April 23, 2026, 9:16 p.m. | 32 minutes ago Description :A weakness in SpiceJet’s public booking retrieval page permits full passenger booking details to be accessed...",
+      "source": "CVE Feed",
+      "published": "2026-04-23T21:16:06+00:00"
+    },
+    {
+      "title": "CVE-2026-6375 - Authorization bypass through User-Controlled key in SpiceJet Online Booking System",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-6375",
+      "summary": "CVE ID :CVE-2026-6375 Published : April 23, 2026, 9:16 p.m. | 32 minutes ago Description :A vulnerability in SpiceJet’s booking API allows unauthenticated users to query passenger name records (PNRs)...",
+      "source": "CVE Feed",
+      "published": "2026-04-23T21:16:06+00:00"
+    },
+    {
+      "title": "CVE-2026-28525 - SWUpdate Integer Underflow in Multipart Upload Parser",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-28525",
+      "summary": "CVE ID :CVE-2026-28525 Published : April 23, 2026, 9:16 p.m. | 32 minutes ago Description :SWUpdate contains an integer underflow vulnerability in the multipart upload parser in mongoose_multipart.c...",
+      "source": "CVE Feed",
+      "published": "2026-04-23T21:16:05+00:00"
+    },
+    {
+      "title": "CVE-2026-41279 - Flowise: Unauthenticated TTS endpoint accepts arbitrary credential IDs — enables API credit abuse via stored credentials",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-41279",
+      "summary": "CVE ID :CVE-2026-41279 Published : April 23, 2026, 8:16 p.m. | 1 hour, 32 minutes ago Description :Flowise is a drag & drop user interface to build a customized large language model flow. Prior to...",
+      "source": "CVE Feed",
+      "published": "2026-04-23T20:16:16+00:00"
+    },
+    {
+      "title": "CVE-2026-41278 - Flowise: Public chatflow endpoints return unsanitized flowData including plaintext API keys, passwords, and credential IDs",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-41278",
+      "summary": "CVE ID :CVE-2026-41278 Published : April 23, 2026, 8:16 p.m. | 1 hour, 32 minutes ago Description :Flowise is a drag & drop user interface to build a customized large language model flow. Prior to...",
+      "source": "CVE Feed",
+      "published": "2026-04-23T20:16:16+00:00"
+    },
+    {
+      "title": "CVE-2026-41267 - Flowise: Improper Mass Assignment in Account Registration Enables Unauthorized Organization Association",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-41267",
+      "summary": "CVE ID :CVE-2026-41267 Published : April 23, 2026, 8:16 p.m. | 1 hour, 32 minutes ago Description :Flowise is a drag & drop user interface to build a customized large language model flow. Prior to...",
+      "source": "CVE Feed",
+      "published": "2026-04-23T20:16:15+00:00"
+    },
+    {
+      "title": "CVE-2026-41265 - Flowise: Airtable_Agent Code Injection Remote Code Execution Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-41265",
+      "summary": "CVE ID :CVE-2026-41265 Published : April 23, 2026, 8:16 p.m. | 1 hour, 32 minutes ago Description :Flowise is a drag & drop user interface to build a customized large language model flow. Prior to...",
+      "source": "CVE Feed",
+      "published": "2026-04-23T20:16:14+00:00"
+    },
+    {
+      "title": "CVE-2026-41264 - Flowise: CSV Agent Prompt Injection Remote Code Execution Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-41264",
+      "summary": "CVE ID :CVE-2026-41264 Published : April 23, 2026, 8:16 p.m. | 1 hour, 32 minutes ago Description :Flowise is a drag & drop user interface to build a customized large language model flow. Prior to...",
+      "source": "CVE Feed",
+      "published": "2026-04-23T20:16:14+00:00"
+    },
+    {
+      "title": "CVE-2026-41138 - Flowise: Remote code execution vulnerability in AirtableAgent.ts caused by lack of input verification when using Pandas.",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-41138",
+      "summary": "CVE ID :CVE-2026-41138 Published : April 23, 2026, 8:16 p.m. | 1 hour, 32 minutes ago Description :Flowise is a drag & drop user interface to build a customized large language model flow. Prior to...",
+      "source": "CVE Feed",
+      "published": "2026-04-23T20:16:14+00:00"
+    },
+    {
+      "title": "CVE-2026-41137 - Flowise: Code Injection in CSVAgent leads to Authenticated RCE",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-41137",
+      "summary": "CVE ID :CVE-2026-41137 Published : April 23, 2026, 8:16 p.m. | 1 hour, 32 minutes ago Description :Flowise is a drag & drop user interface to build a customized large language model flow. Prior to...",
+      "source": "CVE Feed",
+      "published": "2026-04-23T20:16:14+00:00"
+    },
+    {
+      "title": "CVE-2026-25874 - LeRobot Unsafe Deserialization Remote Code Execution via gRPC",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-25874",
+      "summary": "CVE ID :CVE-2026-25874 Published : April 23, 2026, 8:16 p.m. | 1 hour, 32 minutes ago Description :LeRobot contains an unsafe deserialization vulnerability in the async inference pipeline where...",
+      "source": "CVE Feed",
+      "published": "2026-04-23T20:16:13+00:00"
+    },
+    {
+      "title": "US sanctions Cambodian senator for millions earned through scam compounds",
+      "link": "https://therecord.media/us-sanctions-cambodian-senator-scam-compounds",
+      "summary": "The Treasury Department said Cambodian senator Kok An was being sanctioned alongside 28 others involved in his scam center operation.",
+      "source": "The Record",
+      "published": "2026-04-23T20:07:00+00:00"
     },
     {
       "title": "Bitwarden CLI npm package compromised to steal developer credentials",
@@ -18,35 +123,35 @@
     {
       "title": "CVE-2026-6074 - Path traversal: '.../...//' in Intrado 911 Emergency Gateway (EGW)",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-6074",
-      "summary": "CVE ID :CVE-2026-6074 Published : April 23, 2026, 7:17 p.m. | 30 minutes ago Description :A path traversal condition in Intrado 911 Emergency Gateway could allow an attacker with existing network...",
+      "summary": "CVE ID :CVE-2026-6074 Published : April 23, 2026, 7:17 p.m. | 2 hours, 31 minutes ago Description :A path traversal condition in Intrado 911 Emergency Gateway could allow an attacker with existing...",
       "source": "CVE Feed",
       "published": "2026-04-23T19:17:30+00:00"
     },
     {
       "title": "CVE-2026-41259 - Mastodon: Insufficient verification of email addresses",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-41259",
-      "summary": "CVE ID :CVE-2026-41259 Published : April 23, 2026, 7:17 p.m. | 30 minutes ago Description :Mastodon is a free, open-source social network server based on ActivityPub. Prior to v4.5.9, v4.4.16, and...",
+      "summary": "CVE ID :CVE-2026-41259 Published : April 23, 2026, 7:17 p.m. | 2 hours, 31 minutes ago Description :Mastodon is a free, open-source social network server based on ActivityPub. Prior to v4.5.9...",
       "source": "CVE Feed",
       "published": "2026-04-23T19:17:30+00:00"
     },
     {
       "title": "CVE-2026-41247 - elFinder: Command injection in resize background color parameter when using ImageMagick CLI",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-41247",
-      "summary": "CVE ID :CVE-2026-41247 Published : April 23, 2026, 7:17 p.m. | 30 minutes ago Description :elFinder is an open-source file manager for web, written in JavaScript using jQuery UI. Prior to 2.1.67...",
+      "summary": "CVE ID :CVE-2026-41247 Published : April 23, 2026, 7:17 p.m. | 2 hours, 31 minutes ago Description :elFinder is an open-source file manager for web, written in JavaScript using jQuery UI. Prior to...",
       "source": "CVE Feed",
       "published": "2026-04-23T19:17:29+00:00"
     },
     {
       "title": "CVE-2026-41246 - Contour: Lua code injection via Cookie Path Rewrite Policy",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-41246",
-      "summary": "CVE ID :CVE-2026-41246 Published : April 23, 2026, 7:17 p.m. | 30 minutes ago Description :Contour is a Kubernetes ingress controller using Envoy proxy. From v1.19.0 to before v1.33.4, v1.32.5, and...",
+      "summary": "CVE ID :CVE-2026-41246 Published : April 23, 2026, 7:17 p.m. | 2 hours, 31 minutes ago Description :Contour is a Kubernetes ingress controller using Envoy proxy. From v1.19.0 to before v1.33.4...",
       "source": "CVE Feed",
       "published": "2026-04-23T19:17:29+00:00"
     },
     {
       "title": "CVE-2026-41241 - pretalx: Stored cross-site scripting in organiser search typeahead",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-41241",
-      "summary": "CVE ID :CVE-2026-41241 Published : April 23, 2026, 7:17 p.m. | 30 minutes ago Description :pretalx is a conference planning tool. Prior to 2026.1.0, The organiser search in the pretalx backend...",
+      "summary": "CVE ID :CVE-2026-41241 Published : April 23, 2026, 7:17 p.m. | 2 hours, 31 minutes ago Description :pretalx is a conference planning tool. Prior to 2026.1.0, The organiser search in the pretalx...",
       "source": "CVE Feed",
       "published": "2026-04-23T19:17:29+00:00"
     },
@@ -74,42 +179,42 @@
     {
       "title": "CVE-2026-6921 - Google Chrome GPU Race Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-6921",
-      "summary": "CVE ID :CVE-2026-6921 Published : April 23, 2026, 6:16 p.m. | 1 hour, 31 minutes ago Description :Race in GPU in Google Chrome on Windows prior to 147.0.7727.117 allowed a remote attacker to...",
+      "summary": "CVE ID :CVE-2026-6921 Published : April 23, 2026, 6:16 p.m. | 3 hours, 32 minutes ago Description :Race in GPU in Google Chrome on Windows prior to 147.0.7727.117 allowed a remote attacker to...",
       "source": "CVE Feed",
       "published": "2026-04-23T18:16:30+00:00"
     },
     {
       "title": "CVE-2026-6920 - Google Chrome Android GPU Out-of-Bounds Read Sandbox Escape",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-6920",
-      "summary": "CVE ID :CVE-2026-6920 Published : April 23, 2026, 6:16 p.m. | 1 hour, 31 minutes ago Description :Out of bounds read in GPU in Google Chrome on Android prior to 147.0.7727.117 allowed a remote...",
+      "summary": "CVE ID :CVE-2026-6920 Published : April 23, 2026, 6:16 p.m. | 3 hours, 32 minutes ago Description :Out of bounds read in GPU in Google Chrome on Android prior to 147.0.7727.117 allowed a remote...",
       "source": "CVE Feed",
       "published": "2026-04-23T18:16:30+00:00"
     },
     {
       "title": "CVE-2026-31181 - Totolink A3300R Command Injection Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-31181",
-      "summary": "CVE ID :CVE-2026-31181 Published : April 23, 2026, 6:16 p.m. | 1 hour, 31 minutes ago Description :An issue was discovered in ToToLink A3300R firmware v17.0.0cu.557_B20221024 allowing attackers to...",
+      "summary": "CVE ID :CVE-2026-31181 Published : April 23, 2026, 6:16 p.m. | 3 hours, 32 minutes ago Description :An issue was discovered in ToToLink A3300R firmware v17.0.0cu.557_B20221024 allowing attackers to...",
       "source": "CVE Feed",
       "published": "2026-04-23T18:16:25+00:00"
     },
     {
       "title": "CVE-2026-31178 - ToToLink A3300R Command Injection Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-31178",
-      "summary": "CVE ID :CVE-2026-31178 Published : April 23, 2026, 6:16 p.m. | 1 hour, 31 minutes ago Description :An issue was discovered in ToToLink A3300R firmware v17.0.0cu.557_B20221024 allowing attackers to...",
+      "summary": "CVE ID :CVE-2026-31178 Published : April 23, 2026, 6:16 p.m. | 3 hours, 32 minutes ago Description :An issue was discovered in ToToLink A3300R firmware v17.0.0cu.557_B20221024 allowing attackers to...",
       "source": "CVE Feed",
       "published": "2026-04-23T18:16:25+00:00"
     },
     {
       "title": "CVE-2026-31177 - ToToLink A3300R Command Injection Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-31177",
-      "summary": "CVE ID :CVE-2026-31177 Published : April 23, 2026, 6:16 p.m. | 1 hour, 31 minutes ago Description :An issue was discovered in ToToLink A3300R firmware v17.0.0cu.557_B20221024 allowing attackers to...",
+      "summary": "CVE ID :CVE-2026-31177 Published : April 23, 2026, 6:16 p.m. | 3 hours, 32 minutes ago Description :An issue was discovered in ToToLink A3300R firmware v17.0.0cu.557_B20221024 allowing attackers to...",
       "source": "CVE Feed",
       "published": "2026-04-23T18:16:24+00:00"
     },
     {
       "title": "CVE-2026-31175 - ToToLink A3300R Command Injection Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-31175",
-      "summary": "CVE ID :CVE-2026-31175 Published : April 23, 2026, 6:16 p.m. | 1 hour, 31 minutes ago Description :An issue was discovered in ToToLink A3300R firmware v17.0.0cu.557_B20221024 allowing attackers to...",
+      "summary": "CVE ID :CVE-2026-31175 Published : April 23, 2026, 6:16 p.m. | 3 hours, 32 minutes ago Description :An issue was discovered in ToToLink A3300R firmware v17.0.0cu.557_B20221024 allowing attackers to...",
       "source": "CVE Feed",
       "published": "2026-04-23T18:16:24+00:00"
     },
@@ -123,44 +228,9 @@
     {
       "title": "CVE-2026-40472 - Hackage package metadata stored XSS vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-40472",
-      "summary": "CVE ID :CVE-2026-40472 Published : April 23, 2026, 4:16 p.m. | 3 hours, 31 minutes ago Description :In hackage-server, user-controlled metadata from .cabal files are rendered into HTML href...",
+      "summary": "CVE ID :CVE-2026-40472 Published : April 23, 2026, 4:16 p.m. | 5 hours, 32 minutes ago Description :In hackage-server, user-controlled metadata from .cabal files are rendered into HTML href...",
       "source": "CVE Feed",
       "published": "2026-04-23T16:16:25+00:00"
-    },
-    {
-      "title": "CVE-2026-40471 - Hackage CSRF vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-40471",
-      "summary": "CVE ID :CVE-2026-40471 Published : April 23, 2026, 4:16 p.m. | 3 hours, 31 minutes ago Description :hackage-server lacked Cross-Site Request Forgery (CSRF) protection across its endpoints. Scripts on...",
-      "source": "CVE Feed",
-      "published": "2026-04-23T16:16:25+00:00"
-    },
-    {
-      "title": "CVE-2026-40470 - Hackage package and doc upload stored XSS vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-40470",
-      "summary": "CVE ID :CVE-2026-40470 Published : April 23, 2026, 4:16 p.m. | 3 hours, 31 minutes ago Description :A critical XSS vulnerability affected hackage-server and hackage.haskell.org. HTML and JavaScript...",
-      "source": "CVE Feed",
-      "published": "2026-04-23T16:16:25+00:00"
-    },
-    {
-      "title": "CVE-2026-39087 - Ntfy Arbitrary Code Execution Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-39087",
-      "summary": "CVE ID :CVE-2026-39087 Published : April 23, 2026, 4:16 p.m. | 3 hours, 31 minutes ago Description :An issue in Ntfy ntfy.sh before v.2.21 allows a remote attacker to execute arbitrary code via the...",
-      "source": "CVE Feed",
-      "published": "2026-04-23T16:16:25+00:00"
-    },
-    {
-      "title": "CVE-2026-23751 - Kofax Capture 6.0.0.0 Unauthenticated File Read/Write & SMB Coercion via .NET Remoting",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-23751",
-      "summary": "CVE ID :CVE-2026-23751 Published : April 23, 2026, 4:16 p.m. | 3 hours, 31 minutes ago Description :Kofax Capture, now referred to as Tungsten Capture, version 6.0.0.0 (other versions may be...",
-      "source": "CVE Feed",
-      "published": "2026-04-23T16:16:24+00:00"
-    },
-    {
-      "title": "CVE-2025-62373 - Pipecat vulnerable to Remote Code Execution by Pickle Deserialization via LivekitFrameSerializer",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2025-62373",
-      "summary": "CVE ID :CVE-2025-62373 Published : April 23, 2026, 4:16 p.m. | 3 hours, 31 minutes ago Description :Pipecat is an open-source Python framework for building real-time voice and multimodal...",
-      "source": "CVE Feed",
-      "published": "2026-04-23T16:16:24+00:00"
     },
     {
       "title": "New Checkmarx supply-chain breach affects KICS analysis tool",
@@ -182,27 +252,6 @@
       "summary": "CVE-2026-33824: Remote Code Execution in Windows IKEv2 __int64 IkeReinjectReassembledPacket{ void *pFragList, __int64 pMMSA, __int64 *pFragContext, __int64 pMMSACtx} { IKE_RECV_CONTEXT recvCtx...",
       "source": "CVE Newsroom",
       "published": "2026-04-23T15:42:11+00:00"
-    },
-    {
-      "title": "CVE-2026-41461 - SocialEngine <= 7.8.0 Blind SSRF via /core/link/preview",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-41461",
-      "summary": "CVE ID :CVE-2026-41461 Published : April 23, 2026, 3:37 p.m. | 4 hours, 10 minutes ago Description :SocialEngine versions 7.8.0 and prior contain a blind server-side request forgery vulnerability in...",
-      "source": "CVE Feed",
-      "published": "2026-04-23T15:37:24+00:00"
-    },
-    {
-      "title": "CVE-2026-41460 - SocialEngine <= 7.8.0 SQL Injection via activity/index/get-memberall",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-41460",
-      "summary": "CVE ID :CVE-2026-41460 Published : April 23, 2026, 3:37 p.m. | 4 hours, 10 minutes ago Description :SocialEngine versions 7.8.0 and prior contain a SQL injection vulnerability in the...",
-      "source": "CVE Feed",
-      "published": "2026-04-23T15:37:24+00:00"
-    },
-    {
-      "title": "CVE-2026-35225 - Improper timeout handling in CODESYS EtherNetIP",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-35225",
-      "summary": "CVE ID :CVE-2026-35225 Published : April 23, 2026, 3:37 p.m. | 4 hours, 10 minutes ago Description :An unauthenticated remote attacker is able to exhaust all available TCP connections in the CODESYS...",
-      "source": "CVE Feed",
-      "published": "2026-04-23T15:37:23+00:00"
     },
     {
       "title": "Cloudsmith Raises $72 Million in Series C Funding",
@@ -261,13 +310,6 @@
       "published": "2026-04-23T13:35:00+00:00"
     },
     {
-      "title": "House Republicans unveil data privacy law that would override state protections",
-      "link": "https://therecord.media/house-republicans-unveil-data-privacy-law-override-state-measures",
-      "summary": "The bill, known as the SECURE Data Act, is backed by top Republicans on the House Energy and Commerce and Financial Services committees.",
-      "source": "The Record",
-      "published": "2026-04-23T13:30:00+00:00"
-    },
-    {
       "title": "Microsoft: Some Teams users can’t join meetings after Edge update",
       "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-some-teams-users-cant-join-meetings-after-edge-update/",
       "summary": "Microsoft confirmed that a recent Microsoft Edge browser update introduced a bug that prevents Windows users from joining Teams meetings. [...]",
@@ -280,13 +322,6 @@
       "summary": "You scroll past one incident and see another that feels familiar, like it should have been fixed years ago, but it still works with small changes. Same bugs. Same mistakes. The supply chain is messy...",
       "source": "The Hacker News",
       "published": "2026-04-23T13:17:00+00:00"
-    },
-    {
-      "title": "CVE-2026-39440 - WordPress FunnelFormsPro plugin <= 3.8.1 - Remote Code Execution (RCE) vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-39440",
-      "summary": "CVE ID :CVE-2026-39440 Published : April 23, 2026, 1:16 p.m. | 6 hours, 32 minutes ago Description :Improper Control of Generation of Code ('Code Injection') vulnerability in Funnelforms LLC...",
-      "source": "CVE Feed",
-      "published": "2026-04-23T13:16:11+00:00"
     },
     {
       "title": "Unpatch Ollama Flaw: Malicious Model Uploads Can Leak Server Heap Memory",
@@ -443,27 +478,6 @@
       "published": "2026-04-23T11:04:51+00:00"
     },
     {
-      "title": "CVE-2026-6887 - BorG Technology Corporation｜Borg SPM 2007 - SQL Injection",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-6887",
-      "summary": "CVE ID :CVE-2026-6887 Published : April 23, 2026, 10:16 a.m. | 9 hours, 32 minutes ago Description :Borg SPM 2007 (Sales Ended in 2008) developed by BorG Technology Corporation has a SQL Injection...",
-      "source": "CVE Feed",
-      "published": "2026-04-23T10:16:18+00:00"
-    },
-    {
-      "title": "CVE-2026-6886 - BorG Technology Corporation｜Borg SPM 2007 - Authentication Bypass",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-6886",
-      "summary": "CVE ID :CVE-2026-6886 Published : April 23, 2026, 10:16 a.m. | 9 hours, 32 minutes ago Description :Borg SPM 2007 (Sales Ended in 2008) developed by BorG Technology Corporation has a Authentication...",
-      "source": "CVE Feed",
-      "published": "2026-04-23T10:16:18+00:00"
-    },
-    {
-      "title": "CVE-2026-6885 - BorG Technology Corporation｜Borg SPM 2007 - Arbitrary File Upload",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-6885",
-      "summary": "CVE ID :CVE-2026-6885 Published : April 23, 2026, 10:16 a.m. | 9 hours, 32 minutes ago Description :Borg SPM 2007 (Sales Ended in 2008) developed by BorG Technology Corporation has an Arbitrary File...",
-      "source": "CVE Feed",
-      "published": "2026-04-23T10:16:18+00:00"
-    },
-    {
       "title": "AI Can Autonomously Hack Cloud Systems With Minimal Oversight: Researchers",
       "link": "https://www.securityweek.com/ai-can-autonomously-hack-cloud-systems-with-minimal-oversight-researchers/",
       "summary": "Palo Alto Networks has developed Zealot, a multi-agent penetration testing PoC capable of reconnaissance, exploitation, and exfiltration. The post AI Can Autonomously Hack Cloud Systems With Minimal...",
@@ -518,13 +532,6 @@
       "summary": "In the Wild: Information Disclosure (CVE-2026-20133) Exploited in Cisco SD-WAN Manager The networking giant Cisco has issued an urgent warning to enterprise administrators. In April 2026, the Cisco...",
       "source": "CVE Newsroom",
       "published": "2026-04-23T07:58:25+00:00"
-    },
-    {
-      "title": "CVE-2026-41040 - GROWI ReDoS Denial of Service",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-41040",
-      "summary": "CVE ID :CVE-2026-41040 Published : April 23, 2026, 7:16 a.m. | 12 hours, 31 minutes ago Description :GROWI provided by GROWI, Inc. is vulnerable to a regular expression denial of service (ReDoS) via...",
-      "source": "CVE Feed",
-      "published": "2026-04-23T07:16:41+00:00"
     },
     {
       "title": "Africa Relinquishes Cyberattack Lead to Latin America — For Now",
@@ -700,13 +707,6 @@
       "summary": "NVIDIA Fixes High-Severity Flaws in KAI Scheduler and CUDA-Q NVIDIA has released a series of software updates to address high-severity vulnerabilities in its KAI Scheduler and CUDA-Q platforms. The...",
       "source": "CVE Newsroom",
       "published": "2026-04-22T13:06:53+00:00"
-    },
-    {
-      "title": "New npm supply-chain attack self-spreads to steal auth tokens",
-      "link": "https://www.bleepingcomputer.com/news/security/new-npm-supply-chain-attack-self-spreads-to-steal-auth-tokens/",
-      "summary": "A new supply chain attack targeting the Node Package Manager (npm) ecosystem is stealing developer credentials and attempting to spread through packages published from compromised accounts. [...]",
-      "source": "BleepingComputer",
-      "published": "2026-04-22T12:57:42+00:00"
     },
     {
       "title": "Most Serious Cyberattacks Against the UK Now From Russia, Iran and China, Cyber Chief Says",
