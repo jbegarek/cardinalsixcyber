@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-23T14:43:35.231032+00:00",
+  "last_updated": "2026-04-23T16:32:22.960043+00:00",
   "articles": [
     {
       "title": "Chinese APT Abuses Multiple Cloud Tools to Spy on Mongolia",
@@ -7,6 +7,76 @@
       "summary": "The threat actor gave itself plenty of options to support command and control, tapping Microsoft Outlook, Slack, Discord, and file.io for online espionage.",
       "source": "Dark Reading",
       "published": "2026-04-24T01:00:00+00:00"
+    },
+    {
+      "title": "CVE-2026-40472 - Hackage package metadata stored XSS vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-40472",
+      "summary": "CVE ID :CVE-2026-40472 Published : April 23, 2026, 4:16 p.m. | 14 minutes ago Description :In hackage-server, user-controlled metadata from .cabal files are rendered into HTML href attributes without...",
+      "source": "CVE Feed",
+      "published": "2026-04-23T16:16:25+00:00"
+    },
+    {
+      "title": "CVE-2026-40471 - Hackage CSRF vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-40471",
+      "summary": "CVE ID :CVE-2026-40471 Published : April 23, 2026, 4:16 p.m. | 14 minutes ago Description :hackage-server lacked Cross-Site Request Forgery (CSRF) protection across its endpoints. Scripts on foreign...",
+      "source": "CVE Feed",
+      "published": "2026-04-23T16:16:25+00:00"
+    },
+    {
+      "title": "CVE-2026-40470 - Hackage package and doc upload stored XSS vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-40470",
+      "summary": "CVE ID :CVE-2026-40470 Published : April 23, 2026, 4:16 p.m. | 14 minutes ago Description :A critical XSS vulnerability affected hackage-server and hackage.haskell.org. HTML and JavaScript files...",
+      "source": "CVE Feed",
+      "published": "2026-04-23T16:16:25+00:00"
+    },
+    {
+      "title": "CVE-2026-23751 - Kofax Capture 6.0.0.0 Unauthenticated File Read/Write & SMB Coercion via .NET Remoting",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-23751",
+      "summary": "CVE ID :CVE-2026-23751 Published : April 23, 2026, 4:16 p.m. | 14 minutes ago Description :Kofax Capture, now referred to as Tungsten Capture, version 6.0.0.0 (other versions may be affected) exposes...",
+      "source": "CVE Feed",
+      "published": "2026-04-23T16:16:24+00:00"
+    },
+    {
+      "title": "CVE-2025-62373 - Pipecat vulnerable to Remote Code Execution by Pickle Deserialization via LivekitFrameSerializer",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2025-62373",
+      "summary": "CVE ID :CVE-2025-62373 Published : April 23, 2026, 4:16 p.m. | 14 minutes ago Description :Pipecat is an open-source Python framework for building real-time voice and multimodal conversational...",
+      "source": "CVE Feed",
+      "published": "2026-04-23T16:16:24+00:00"
+    },
+    {
+      "title": "New Checkmarx supply-chain breach affects KICS analysis tool",
+      "link": "https://www.bleepingcomputer.com/news/security/new-checkmarx-supply-chain-breach-affects-kics-analysis-tool/",
+      "summary": "Hackers have compromised Docker images, VSCode and Open VSX extensions for the Checkmarx KICS analysis tool to harvest sensitive data from developer environments. [...]",
+      "source": "BleepingComputer",
+      "published": "2026-04-23T16:05:12+00:00"
+    },
+    {
+      "title": "China-linked hackers targeted Mongolian government using Slack, Discord for covert communications",
+      "link": "https://therecord.media/china-linked-hackers-target-mongolian-gov-slack-discord",
+      "summary": "The group, which researchers at cybersecurity firm ESET named GopherWhisper, has been active since at least November 2023 and was discovered in January 2025 after investigators found a previously...",
+      "source": "The Record",
+      "published": "2026-04-23T16:03:00+00:00"
+    },
+    {
+      "title": "CVE-2026-41460 - SocialEngine <= 7.8.0 SQL Injection via activity/index/get-memberall",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-41460",
+      "summary": "CVE ID :CVE-2026-41460 Published : April 23, 2026, 3:37 p.m. | 53 minutes ago Description :SocialEngine versions 7.8.0 and prior contain a SQL injection vulnerability in the...",
+      "source": "CVE Feed",
+      "published": "2026-04-23T15:37:24+00:00"
+    },
+    {
+      "title": "CVE-2026-35225 - Improper timeout handling in CODESYS EtherNetIP",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-35225",
+      "summary": "CVE ID :CVE-2026-35225 Published : April 23, 2026, 3:37 p.m. | 53 minutes ago Description :An unauthenticated remote attacker is able to exhaust all available TCP connections in the CODESYS...",
+      "source": "CVE Feed",
+      "published": "2026-04-23T15:37:23+00:00"
+    },
+    {
+      "title": "Cloudsmith Raises $72 Million in Series C Funding",
+      "link": "https://www.securityweek.com/cloudsmith-raises-72-million-in-series-c-funding/",
+      "summary": "The company will use the investment to accelerate product development and grow go-to-market efforts. The post Cloudsmith Raises $72 Million in Series C Funding appeared first on SecurityWeek.",
+      "source": "SecurityWeek",
+      "published": "2026-04-23T15:03:59+00:00"
     },
     {
       "title": "Bad Memories Still Haunt AI Agents",
@@ -30,9 +100,16 @@
       "published": "2026-04-23T14:10:20+00:00"
     },
     {
+      "title": "Mailcow Critical Alert: Unauthenticated XSS Threatens Admin Takeover",
+      "link": "https://securityonline.info/mailcow-stored-xss-autodiscover-vulnerability-cve-2026-40872/",
+      "summary": "Mailcow Critical Alert: Unauthenticated XSS Threatens Admin Takeover The popular open-source groupware suite mailcow: dockerized is facing a high-stakes security challenge. A critical Stored...",
+      "source": "CVE Newsroom",
+      "published": "2026-04-23T13:55:46+00:00"
+    },
+    {
       "title": "Bitwarden CLI Compromised in Ongoing Checkmarx Supply Chain Campaign",
       "link": "https://thehackernews.com/2026/04/bitwarden-cli-compromised-in-ongoing.html",
-      "summary": "Bitwarden CLI has been compromised as part of the newly discovered and ongoing Checkmarx supply chain campaign, according to new findings from Socket. \"The affected package version appears to be...",
+      "summary": "Bitwarden CLI has been compromised as part of the newly discovered and ongoing Checkmarx supply chain campaign, according to new findings from JFrog and Socket. \"The affected package version appears...",
       "source": "The Hacker News",
       "published": "2026-04-23T13:42:00+00:00"
     },
@@ -67,9 +144,16 @@
     {
       "title": "CVE-2026-39440 - WordPress FunnelFormsPro plugin <= 3.8.1 - Remote Code Execution (RCE) vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-39440",
-      "summary": "CVE ID :CVE-2026-39440 Published : April 23, 2026, 1:16 p.m. | 50 minutes ago Description :Improper Control of Generation of Code ('Code Injection') vulnerability in Funnelforms LLC FunnelFormsPro...",
+      "summary": "CVE ID :CVE-2026-39440 Published : April 23, 2026, 1:16 p.m. | 3 hours, 14 minutes ago Description :Improper Control of Generation of Code ('Code Injection') vulnerability in Funnelforms LLC...",
       "source": "CVE Feed",
       "published": "2026-04-23T13:16:11+00:00"
+    },
+    {
+      "title": "Unpatch Ollama Flaw: Malicious Model Uploads Can Leak Server Heap Memory",
+      "link": "https://securityonline.info/ollama-heap-memory-leak-cve-2026-5757-zero-day/",
+      "summary": "Unpatch Ollama Flaw: Malicious Model Uploads Can Leak Server Heap Memory A critical unauthenticated remote information disclosure vulnerability has been uncovered in Ollama, the popular open-source...",
+      "source": "CVE Newsroom",
+      "published": "2026-04-23T13:05:24+00:00"
     },
     {
       "title": "Medical data of 500,000 Britons put up for sale on Chinese website",
@@ -77,6 +161,13 @@
       "summary": "The data is held by the UK Biobank charity and includes genetic sequences, blood samples, medical scans and lifestyle information.",
       "source": "The Record",
       "published": "2026-04-23T13:02:00+00:00"
+    },
+    {
+      "title": "Critical Authentication Bypass in Apache HttpClient 5.6",
+      "link": "https://securityonline.info/apache-httpclient-auth-bypass-cve-2026-40542-scram-sha-256/",
+      "summary": "Critical Authentication Bypass in Apache HttpClient 5.6 The Apache Software Foundation has issued an urgent advisory for a vulnerability in its widely used HttpClient library, a cornerstone for...",
+      "source": "CVE Newsroom",
+      "published": "2026-04-23T12:45:20+00:00"
     },
     {
       "title": "Chinese Cybersecurity Firm’s AI Hacking Claims Draw Comparisons to Claude Mythos",
@@ -114,9 +205,58 @@
       "published": "2026-04-23T12:02:03+00:00"
     },
     {
+      "title": "Carlson Software VASCO-B GNSS Receiver",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-113-02",
+      "summary": "View CSAF Summary Successful exploitation of this vulnerability could enable a remote attacker to alter critical system functions or disrupt device operation. The following versions of Carlson...",
+      "source": "CISA Alerts",
+      "published": "2026-04-23T12:00:00+00:00"
+    },
+    {
+      "title": "Hangzhou Xiongmai Technology Co., Ltd XM530 IP Camera",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-113-05",
+      "summary": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to bypass authentication and have remote access to sensitive information on the device. The following versions...",
+      "source": "CISA Alerts",
+      "published": "2026-04-23T12:00:00+00:00"
+    },
+    {
+      "title": "FIRESTARTER Backdoor",
+      "link": "https://www.cisa.gov/news-events/analysis-reports/ar26-113a",
+      "summary": "Malware Analysis Report at a Glance Malware Name FIRESTARTER Original Publication April 23, 2026 Executive Summary The Cybersecurity and Infrastructure Security Agency (CISA) analyzed a sample of...",
+      "source": "CISA Alerts",
+      "published": "2026-04-23T12:00:00+00:00"
+    },
+    {
+      "title": "Yadea T5 Electric Bicycle",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-113-01",
+      "summary": "View CSAF Summary Successful exploitation of this vulnerability could result in an attacker being able to unlock and start the bicycle, leading to vehicle theft. The following versions of Yadea T5...",
+      "source": "CISA Alerts",
+      "published": "2026-04-23T12:00:00+00:00"
+    },
+    {
       "title": "Defending Against China-Nexus Covert Networks of Compromised Devices",
       "link": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-113a",
       "summary": "Defending against china-nexus covert networks of compromised devices executive summary Defending against China-nexus covert networks of compromised devices Explaining the widespread shift in tactics...",
+      "source": "CISA Alerts",
+      "published": "2026-04-23T12:00:00+00:00"
+    },
+    {
+      "title": "Milesight Cameras",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-113-03",
+      "summary": "View CSAF Summary Successful exploitation of these vulnerabilities could crash the device being accessed or allow remote code execution. The following versions of Milesight Cameras are affected...",
+      "source": "CISA Alerts",
+      "published": "2026-04-23T12:00:00+00:00"
+    },
+    {
+      "title": "Intrado 911 Emergency Gateway (EGW)",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-113-06",
+      "summary": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to read, modify, or delete files. The following versions of Intrado 911 Emergency Gateway (EGW) are affected...",
+      "source": "CISA Alerts",
+      "published": "2026-04-23T12:00:00+00:00"
+    },
+    {
+      "title": "SpiceJet Online Booking System",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-113-04",
+      "summary": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to disclose sensitive information. The following versions of SpiceJet Online Booking System are affected...",
       "source": "CISA Alerts",
       "published": "2026-04-23T12:00:00+00:00"
     },
@@ -158,21 +298,21 @@
     {
       "title": "CVE-2026-6887 - BorG Technology Corporation｜Borg SPM 2007 - SQL Injection",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-6887",
-      "summary": "CVE ID :CVE-2026-6887 Published : April 23, 2026, 10:16 a.m. | 3 hours, 50 minutes ago Description :Borg SPM 2007 (Sales Ended in 2008) developed by BorG Technology Corporation has a SQL Injection...",
+      "summary": "CVE ID :CVE-2026-6887 Published : April 23, 2026, 10:16 a.m. | 6 hours, 14 minutes ago Description :Borg SPM 2007 (Sales Ended in 2008) developed by BorG Technology Corporation has a SQL Injection...",
       "source": "CVE Feed",
       "published": "2026-04-23T10:16:18+00:00"
     },
     {
       "title": "CVE-2026-6886 - BorG Technology Corporation｜Borg SPM 2007 - Authentication Bypass",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-6886",
-      "summary": "CVE ID :CVE-2026-6886 Published : April 23, 2026, 10:16 a.m. | 3 hours, 50 minutes ago Description :Borg SPM 2007 (Sales Ended in 2008) developed by BorG Technology Corporation has a Authentication...",
+      "summary": "CVE ID :CVE-2026-6886 Published : April 23, 2026, 10:16 a.m. | 6 hours, 14 minutes ago Description :Borg SPM 2007 (Sales Ended in 2008) developed by BorG Technology Corporation has a Authentication...",
       "source": "CVE Feed",
       "published": "2026-04-23T10:16:18+00:00"
     },
     {
       "title": "CVE-2026-6885 - BorG Technology Corporation｜Borg SPM 2007 - Arbitrary File Upload",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-6885",
-      "summary": "CVE ID :CVE-2026-6885 Published : April 23, 2026, 10:16 a.m. | 3 hours, 50 minutes ago Description :Borg SPM 2007 (Sales Ended in 2008) developed by BorG Technology Corporation has an Arbitrary File...",
+      "summary": "CVE ID :CVE-2026-6885 Published : April 23, 2026, 10:16 a.m. | 6 hours, 14 minutes ago Description :Borg SPM 2007 (Sales Ended in 2008) developed by BorG Technology Corporation has an Arbitrary File...",
       "source": "CVE Feed",
       "published": "2026-04-23T10:16:18+00:00"
     },
@@ -235,7 +375,7 @@
     {
       "title": "CVE-2026-41040 - GROWI ReDoS Denial of Service",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-41040",
-      "summary": "CVE ID :CVE-2026-41040 Published : April 23, 2026, 7:16 a.m. | 6 hours, 50 minutes ago Description :GROWI provided by GROWI, Inc. is vulnerable to a regular expression denial of service (ReDoS) via a...",
+      "summary": "CVE ID :CVE-2026-41040 Published : April 23, 2026, 7:16 a.m. | 9 hours, 14 minutes ago Description :GROWI provided by GROWI, Inc. is vulnerable to a regular expression denial of service (ReDoS) via a...",
       "source": "CVE Feed",
       "published": "2026-04-23T07:16:41+00:00"
     },
@@ -263,21 +403,21 @@
     {
       "title": "CVE-2026-41230 - Froxlor has a BIND Zone File Injection via Unsanitized DNS Record Content in DomainZones::add()",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-41230",
-      "summary": "CVE ID :CVE-2026-41230 Published : April 23, 2026, 4:16 a.m. | 9 hours, 50 minutes ago Description :Froxlor is open source server administration software. Prior to version 2.3.6, `DomainZones::add()`...",
+      "summary": "CVE ID :CVE-2026-41230 Published : April 23, 2026, 4:16 a.m. | 12 hours, 14 minutes ago Description :Froxlor is open source server administration software. Prior to version 2.3.6...",
       "source": "CVE Feed",
       "published": "2026-04-23T04:16:19+00:00"
     },
     {
       "title": "CVE-2026-41229 - Froxlor has a PHP Code Injection via Unescaped Single Quotes in userdata.inc.php Generation (MysqlServer API)",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-41229",
-      "summary": "CVE ID :CVE-2026-41229 Published : April 23, 2026, 4:16 a.m. | 9 hours, 50 minutes ago Description :Froxlor is open source server administration software. Prior to version 2.3.6...",
+      "summary": "CVE ID :CVE-2026-41229 Published : April 23, 2026, 4:16 a.m. | 12 hours, 14 minutes ago Description :Froxlor is open source server administration software. Prior to version 2.3.6...",
       "source": "CVE Feed",
       "published": "2026-04-23T04:16:19+00:00"
     },
     {
       "title": "CVE-2026-41228 - Froxlor has Local File Inclusion via path traversal in API `def_language` parameter that leads to Remote Code Execution",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-41228",
-      "summary": "CVE ID :CVE-2026-41228 Published : April 23, 2026, 4:16 a.m. | 9 hours, 50 minutes ago Description :Froxlor is open source server administration software. Prior to version 2.3.6, the Froxlor API...",
+      "summary": "CVE ID :CVE-2026-41228 Published : April 23, 2026, 4:16 a.m. | 12 hours, 14 minutes ago Description :Froxlor is open source server administration software. Prior to version 2.3.6, the Froxlor API...",
       "source": "CVE Feed",
       "published": "2026-04-23T04:16:19+00:00"
     },
@@ -291,7 +431,7 @@
     {
       "title": "CVE-2026-3844 - Breeze Cache <= 2.4.4 - Unauthenticated Arbitrary File Upload via fetch_gravatar_from_remote",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-3844",
-      "summary": "CVE ID :CVE-2026-3844 Published : April 23, 2026, 3:16 a.m. | 10 hours, 50 minutes ago Description :The Breeze Cache plugin for WordPress is vulnerable to arbitrary file uploads due to missing file...",
+      "summary": "CVE ID :CVE-2026-3844 Published : April 23, 2026, 3:16 a.m. | 13 hours, 14 minutes ago Description :The Breeze Cache plugin for WordPress is vulnerable to arbitrary file uploads due to missing file...",
       "source": "CVE Feed",
       "published": "2026-04-23T03:16:17+00:00"
     },
@@ -312,42 +452,42 @@
     {
       "title": "CVE-2026-41679 - Paperclip Vulnerable to Unauthenticated Remote Code Execution via Import Authorization Bypass",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-41679",
-      "summary": "CVE ID :CVE-2026-41679 Published : April 23, 2026, 2:16 a.m. | 11 hours, 50 minutes ago Description :Paperclip is a Node.js server and React UI that orchestrates a team of AI agents to run a...",
+      "summary": "CVE ID :CVE-2026-41679 Published : April 23, 2026, 2:16 a.m. | 14 hours, 14 minutes ago Description :Paperclip is a Node.js server and React UI that orchestrates a team of AI agents to run a...",
       "source": "CVE Feed",
       "published": "2026-04-23T02:16:19+00:00"
     },
     {
       "title": "CVE-2026-41211 - `vite-plus/binding` has path traversal `downloadPackageManager()` that leads to writes outside of `VP_HOME`",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-41211",
-      "summary": "CVE ID :CVE-2026-41211 Published : April 23, 2026, 2:16 a.m. | 11 hours, 50 minutes ago Description :Vite+ is a unified toolchain and entry point for web development. Prior to version 0.1.17...",
+      "summary": "CVE ID :CVE-2026-41211 Published : April 23, 2026, 2:16 a.m. | 14 hours, 14 minutes ago Description :Vite+ is a unified toolchain and entry point for web development. Prior to version 0.1.17...",
       "source": "CVE Feed",
       "published": "2026-04-23T02:16:18+00:00"
     },
     {
       "title": "CVE-2026-41208 - Paperclip: Privilege Escalation via Agent-Controlled workspaceStrategy.provisionCommand Leading to OS Command Execution",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-41208",
-      "summary": "CVE ID :CVE-2026-41208 Published : April 23, 2026, 2:16 a.m. | 11 hours, 50 minutes ago Description :Paperclip is a Node.js server and React UI that orchestrates a team of AI agents to run a...",
+      "summary": "CVE ID :CVE-2026-41208 Published : April 23, 2026, 2:16 a.m. | 14 hours, 14 minutes ago Description :Paperclip is a Node.js server and React UI that orchestrates a team of AI agents to run a...",
       "source": "CVE Feed",
       "published": "2026-04-23T02:16:18+00:00"
     },
     {
       "title": "CVE-2026-41200 - STIG Manager has reflected XSS vulnerability in the Web App",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-41200",
-      "summary": "CVE ID :CVE-2026-41200 Published : April 23, 2026, 2:16 a.m. | 11 hours, 50 minutes ago Description :STIG Manager is an API and web client for managing Security Technical Implementation Guides (STIG)...",
+      "summary": "CVE ID :CVE-2026-41200 Published : April 23, 2026, 2:16 a.m. | 14 hours, 14 minutes ago Description :STIG Manager is an API and web client for managing Security Technical Implementation Guides (STIG)...",
       "source": "CVE Feed",
       "published": "2026-04-23T02:16:18+00:00"
     },
     {
       "title": "CVE-2026-41197 - Brillig: Heap corruption in foreign call results with nested tuple arrays",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-41197",
-      "summary": "CVE ID :CVE-2026-41197 Published : April 23, 2026, 2:16 a.m. | 11 hours, 50 minutes ago Description :Noir is a Domain Specific Language for SNARK proving systems that is designed to use any ACIR...",
+      "summary": "CVE ID :CVE-2026-41197 Published : April 23, 2026, 2:16 a.m. | 14 hours, 14 minutes ago Description :Noir is a Domain Specific Language for SNARK proving systems that is designed to use any ACIR...",
       "source": "CVE Feed",
       "published": "2026-04-23T02:16:18+00:00"
     },
     {
       "title": "CVE-2026-41196 - Luanti has a mod security sandbox escape",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-41196",
-      "summary": "CVE ID :CVE-2026-41196 Published : April 23, 2026, 2:16 a.m. | 11 hours, 50 minutes ago Description :Luanti (formerly Minetest) is an open source voxel game-creation platform. Starting in version...",
+      "summary": "CVE ID :CVE-2026-41196 Published : April 23, 2026, 2:16 a.m. | 14 hours, 14 minutes ago Description :Luanti (formerly Minetest) is an open source voxel game-creation platform. Starting in version...",
       "source": "CVE Feed",
       "published": "2026-04-23T02:16:17+00:00"
     },
@@ -361,72 +501,23 @@
     {
       "title": "CVE-2026-41179 - RClone: Unauthenticated operations/fsinfo allows attacker-controlled backend instantiation and local command execution",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-41179",
-      "summary": "CVE ID :CVE-2026-41179 Published : April 23, 2026, 12:16 a.m. | 13 hours, 50 minutes ago Description :Rclone is a command-line program to sync files and directories to and from different cloud...",
+      "summary": "CVE ID :CVE-2026-41179 Published : April 23, 2026, 12:16 a.m. | 16 hours, 14 minutes ago Description :Rclone is a command-line program to sync files and directories to and from different cloud...",
       "source": "CVE Feed",
       "published": "2026-04-23T00:16:45+00:00"
     },
     {
       "title": "CVE-2026-41176 - Rclone: Unauthenticated options/set allows runtime auth bypass, leading to sensitive operations and command execution",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-41176",
-      "summary": "CVE ID :CVE-2026-41176 Published : April 23, 2026, 12:16 a.m. | 13 hours, 50 minutes ago Description :Rclone is a command-line program to sync files and directories to and from different cloud...",
+      "summary": "CVE ID :CVE-2026-41176 Published : April 23, 2026, 12:16 a.m. | 16 hours, 14 minutes ago Description :Rclone is a command-line program to sync files and directories to and from different cloud...",
       "source": "CVE Feed",
       "published": "2026-04-23T00:16:45+00:00"
     },
     {
       "title": "CVE-2026-40062 - Ziostation2 Path Traversal Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-40062",
-      "summary": "CVE ID :CVE-2026-40062 Published : April 23, 2026, 12:16 a.m. | 13 hours, 50 minutes ago Description :A path Traversal vulnerability exists in Ziostation2 v2.9.8.7 and earlier. A remote...",
+      "summary": "CVE ID :CVE-2026-40062 Published : April 23, 2026, 12:16 a.m. | 16 hours, 14 minutes ago Description :A path Traversal vulnerability exists in Ziostation2 v2.9.8.7 and earlier. A remote...",
       "source": "CVE Feed",
       "published": "2026-04-23T00:16:45+00:00"
-    },
-    {
-      "title": "CVE-2026-32679 - Canon Network Camera Plugin DLL Loading Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-32679",
-      "summary": "CVE ID :CVE-2026-32679 Published : April 23, 2026, 12:16 a.m. | 13 hours, 50 minutes ago Description :The installers of LiveOn Meet Client for Windows (Downloader5Installer.exe and...",
-      "source": "CVE Feed",
-      "published": "2026-04-23T00:16:45+00:00"
-    },
-    {
-      "title": "CVE-2026-41455 - WeKan < 8.35 SSRF via Webhook URL",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-41455",
-      "summary": "CVE ID :CVE-2026-41455 Published : April 22, 2026, 10:16 p.m. | 15 hours, 50 minutes ago Description :WeKan before 8.35 contains a server-side request forgery vulnerability in webhook integration URL...",
-      "source": "CVE Feed",
-      "published": "2026-04-22T22:16:32+00:00"
-    },
-    {
-      "title": "CVE-2026-41454 - WeKan < 8.35 Missing Authorization via Integration REST API",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-41454",
-      "summary": "CVE ID :CVE-2026-41454 Published : April 22, 2026, 10:16 p.m. | 15 hours, 50 minutes ago Description :WeKan before 8.35 contains a missing authorization vulnerability in the Integration REST API...",
-      "source": "CVE Feed",
-      "published": "2026-04-22T22:16:32+00:00"
-    },
-    {
-      "title": "CVE-2026-41175 - Statamic: Unsafe method invocation via query value resolution allows data destruction",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-41175",
-      "summary": "CVE ID :CVE-2026-41175 Published : April 22, 2026, 10:16 p.m. | 15 hours, 50 minutes ago Description :Statamic is a Laravel and Git powered content management system (CMS). Prior to versions 5.73.20...",
-      "source": "CVE Feed",
-      "published": "2026-04-22T22:16:31+00:00"
-    },
-    {
-      "title": "CVE-2026-41167 - Jellystat has SQL Injection that leads to to Remote Code Execution",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-41167",
-      "summary": "CVE ID :CVE-2026-41167 Published : April 22, 2026, 9:17 p.m. | 16 hours, 49 minutes ago Description :Jellystat is a free and open source Statistics App for Jellyfin. Prior to version 1.1.10, multiple...",
-      "source": "CVE Feed",
-      "published": "2026-04-22T21:17:09+00:00"
-    },
-    {
-      "title": "CVE-2026-40937 - RustFS missing admin authorization on notification target endpoints, which allows unauthenticated configuration of event webhooks",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-40937",
-      "summary": "CVE ID :CVE-2026-40937 Published : April 22, 2026, 9:17 p.m. | 16 hours, 49 minutes ago Description :RustFS is a distributed object storage system built in Rust. Prior to 1.0.0-alpha.94, all four...",
-      "source": "CVE Feed",
-      "published": "2026-04-22T21:17:08+00:00"
-    },
-    {
-      "title": "CVE-2026-33656 - EspoCRM vulnerable to authenticated RCE via Formula with path traversal in attachment `sourceId`, exploitable by admin user",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-33656",
-      "summary": "CVE ID :CVE-2026-33656 Published : April 22, 2026, 9:17 p.m. | 16 hours, 49 minutes ago Description :EspoCRM is an open source customer relationship management application. Prior to version 9.3.4...",
-      "source": "CVE Feed",
-      "published": "2026-04-22T21:17:05+00:00"
     },
     {
       "title": "Apple fixes bug that let the FBI recover deleted Signal messages",
@@ -462,13 +553,6 @@
       "summary": "Microsoft issues emergency update for macOS and Linux ASP.NET threat Microsoft released an emergency patch for its ASP.NET Core to fix a high-severity vulnerability that allows unauthenticated...",
       "source": "CVE Newsroom",
       "published": "2026-04-22T19:32:56+00:00"
-    },
-    {
-      "title": "Hackers deployed wiper malware in destructive attacks on Venezuela’s energy sector",
-      "link": "https://therecord.media/hackers-venezuela-wiper-malware-oil",
-      "summary": "Hackers deployed a previously unknown wiper malware against Venezuela’s energy and utilities sector in an attack that appears to have been designed to destroy systems.",
-      "source": "The Record",
-      "published": "2026-04-22T19:00:00+00:00"
     },
     {
       "title": "Kyber ransomware gang toys with post-quantum encryption on Windows",
@@ -604,13 +688,6 @@
       "published": "2026-04-22T12:24:38+00:00"
     },
     {
-      "title": "New Wiper Malware Targeted Venezuelan Energy Sector Prior to US Intervention",
-      "link": "https://www.securityweek.com/new-wiper-malware-targeted-venezuelan-energy-sector-prior-to-us-intervention/",
-      "summary": "Dubbed Lotus Wiper, the malware targets recovery mechanisms, overwrites drives, and systematically deletes files. The post New Wiper Malware Targeted Venezuelan Energy Sector Prior to US Intervention...",
-      "source": "SecurityWeek",
-      "published": "2026-04-22T12:10:28+00:00"
-    },
-    {
       "title": "CVE-2026-40342: CVSS 10.0 Path Traversal to RCE in Firebird Database",
       "link": "https://securityonline.info/firebird-database-rce-cve-2026-40342-path-traversal/",
       "summary": "CVE-2026-40342: CVSS 10.0 Path Traversal to RCE in Firebird Database Researchers have disclosed a critical-severity vulnerability in Firebird, the long-standing relational database with roots dating...",
@@ -660,13 +737,6 @@
       "published": "2026-04-22T10:15:09+00:00"
     },
     {
-      "title": "New GoGra malware for Linux uses Microsoft Graph API for comms",
-      "link": "https://www.bleepingcomputer.com/news/security/new-gogra-malware-for-linux-uses-microsoft-graph-api-for-comms/",
-      "summary": "A Linux variant of the GoGra backdoor uses legitimate Microsoft infrastructure, relying on an Outlook inbox for stealthy payload delivery. [...]",
-      "source": "BleepingComputer",
-      "published": "2026-04-22T10:00:00+00:00"
-    },
-    {
       "title": "Critical Atlassian Bamboo Data Center and Server Flaw Enables Command Injection Attacks",
       "link": "https://cybersecuritynews.com/bamboo-data-center-and-server-vulnerability-2/",
       "summary": "Critical Atlassian Bamboo Data Center and Server Flaw Enables Command Injection Attacks Atlassian has disclosed two significant security vulnerabilities affecting its Bamboo Data Center and Server...",
@@ -679,27 +749,6 @@
       "summary": "Microsoft Patches Critical ASP.NET Core CVE-2026-40372 Privilege Escalation Bug Microsoft has released out-of-band updates to address a security vulnerability in ASP.NET Core that could allow an...",
       "source": "CVE Newsroom",
       "published": "2026-04-22T09:29:00+00:00"
-    },
-    {
-      "title": "1,370+ Microsoft SharePoint Servers Vulnerable to Spoofing Attacks Exposed Online",
-      "link": "https://cybersecuritynews.com/1370-sharepoint-servers-vulnerable/",
-      "summary": "1,370+ Microsoft SharePoint Servers Vulnerable to Spoofing Attacks Exposed Online A critical spoofing vulnerability in Microsoft SharePoint Server, tracked as CVE-2026-32201, remains unpatched on...",
-      "source": "CVE Newsroom",
-      "published": "2026-04-22T09:02:55+00:00"
-    },
-    {
-      "title": "Command Injection Vulnerability (CVE-2025-29635) Exploited in the Wild",
-      "link": "https://securityonline.info/mirai-botnet-dlink-command-injection-cve-2025-29635/",
-      "summary": "Command Injection Vulnerability (CVE-2025-29635) Exploited in the Wild The Akamai Security Intelligence and Response Team (SIRT) has issued a warning regarding a surge in malicious activity targeting...",
-      "source": "CVE Newsroom",
-      "published": "2026-04-22T08:57:34+00:00"
-    },
-    {
-      "title": "March 2026 Cyber Threat Landscape Fueled by Ransomware, Breaches, and Access Markets",
-      "link": "https://thecyberexpress.com/march-2026-threat-landscape/",
-      "summary": "March 2026 Cyber Threat Landscape Fueled by Ransomware, Breaches, and Access Markets The 2026 threat landscape continued to intensify in March, with ransomware attacks, expanding data breach...",
-      "source": "CVE Newsroom",
-      "published": "2026-04-22T08:54:00+00:00"
     },
     {
       "title": "Mustang Panda’s New LOTUSLITE Variant Targets India Banks, South Korea Policy Circles",
@@ -786,16 +835,9 @@
       "published": "2026-04-21T12:45:00+00:00"
     },
     {
-      "title": "Silex Technology SD-330AC and AMC Manager",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-111-10",
-      "summary": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to execute arbitrary code, cause a denial-of-service, or configuration information may be altered without...",
-      "source": "CISA Alerts",
-      "published": "2026-04-21T12:00:00+00:00"
-    },
-    {
-      "title": "Siemens RUGGEDCOM CROSSBOW Secure Access Manager Primary",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-111-02",
-      "summary": "View CSAF Summary RUGGEDCOM CROSSBOW Secure Access Manager Primary (SAM-P) contains a vulnerability that could allow an attacker to escalate their own privileges. Siemens has released a new version...",
+      "title": "Siemens SINEC NMS",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-111-09",
+      "summary": "View CSAF Summary SINEC NMS before V4.0 SP3 contains an Authorization Bypass vulnerability that could allow an attacker to bypass authorization checks, leading to the ability to reset the password of...",
       "source": "CISA Alerts",
       "published": "2026-04-21T12:00:00+00:00"
     },
@@ -807,44 +849,9 @@
       "published": "2026-04-21T12:00:00+00:00"
     },
     {
-      "title": "SenseLive X3050",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-111-12",
-      "summary": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to take complete control of the device. The following versions of SenseLive X3050 are affected: X3050 V1.523...",
-      "source": "CISA Alerts",
-      "published": "2026-04-21T12:00:00+00:00"
-    },
-    {
-      "title": "Siemens Analytics Toolkit",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-111-04",
-      "summary": "View CSAF Summary Multiple Siemens applications are affected by improper certificate validation in Siemens Analytics Toolkit. This could allow an unauthenticated remote attacker to perform man in the...",
-      "source": "CISA Alerts",
-      "published": "2026-04-21T12:00:00+00:00"
-    },
-    {
-      "title": "Siemens SCALANCE",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-111-07",
-      "summary": "View CSAF Summary SCALANCE W-700 IEEE 802.11n family before V6.6.0 are affected by multiple vulnerabilities. Siemens has released a new version for SCALANCE W-700 IEEE 802.11n family and recommends...",
-      "source": "CISA Alerts",
-      "published": "2026-04-21T12:00:00+00:00"
-    },
-    {
-      "title": "Hardy Barth Salia EV Charge Controller",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-111-05",
-      "summary": "View CSAF Summary Successful exploitation of these vulnerabilities could crash the device being accessed; a buffer overflow condition may allow remote code execution. The following versions of Hardy...",
-      "source": "CISA Alerts",
-      "published": "2026-04-21T12:00:00+00:00"
-    },
-    {
       "title": "Siemens Industrial Edge Management",
       "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-111-11",
       "summary": "View CSAF Summary Industrial Edge Management contains an authorization bypass vulnerability that could be exploited by an unauthenticated remote attacker to circumvent authentication and to access...",
-      "source": "CISA Alerts",
-      "published": "2026-04-21T12:00:00+00:00"
-    },
-    {
-      "title": "Zero Motorcycles Firmware",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-111-06",
-      "summary": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to pair via Bluetooth with a motorcycle, gaining unauthorized access to all Bluetooth functions, including...",
       "source": "CISA Alerts",
       "published": "2026-04-21T12:00:00+00:00"
     },
@@ -856,16 +863,58 @@
       "published": "2026-04-21T12:00:00+00:00"
     },
     {
-      "title": "Siemens RUGGEDCOM CROSSBOW Station Access Controller (SAC)",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-111-08",
-      "summary": "View CSAF Summary RUGGEDCOM CROSSBOW Station Access Controller (SAC) contains a vulnerability that could allow an attacker to achieve arbitrary code execution and to create a denial of service...",
+      "title": "SenseLive X3050",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-111-12",
+      "summary": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to take complete control of the device. The following versions of SenseLive X3050 are affected: X3050 V1.523...",
       "source": "CISA Alerts",
       "published": "2026-04-21T12:00:00+00:00"
     },
     {
-      "title": "Siemens SINEC NMS",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-111-09",
-      "summary": "View CSAF Summary SINEC NMS before V4.0 SP3 contains an Authorization Bypass vulnerability that could allow an attacker to bypass authorization checks, leading to the ability to reset the password of...",
+      "title": "Siemens SCALANCE",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-111-07",
+      "summary": "View CSAF Summary SCALANCE W-700 IEEE 802.11n family before V6.6.0 are affected by multiple vulnerabilities. Siemens has released a new version for SCALANCE W-700 IEEE 802.11n family and recommends...",
+      "source": "CISA Alerts",
+      "published": "2026-04-21T12:00:00+00:00"
+    },
+    {
+      "title": "Zero Motorcycles Firmware",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-111-06",
+      "summary": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to pair via Bluetooth with a motorcycle, gaining unauthorized access to all Bluetooth functions, including...",
+      "source": "CISA Alerts",
+      "published": "2026-04-21T12:00:00+00:00"
+    },
+    {
+      "title": "Siemens Analytics Toolkit",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-111-04",
+      "summary": "View CSAF Summary Multiple Siemens applications are affected by improper certificate validation in Siemens Analytics Toolkit. This could allow an unauthenticated remote attacker to perform man in the...",
+      "source": "CISA Alerts",
+      "published": "2026-04-21T12:00:00+00:00"
+    },
+    {
+      "title": "Siemens RUGGEDCOM CROSSBOW Secure Access Manager Primary",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-111-02",
+      "summary": "View CSAF Summary RUGGEDCOM CROSSBOW Secure Access Manager Primary (SAM-P) contains a vulnerability that could allow an attacker to escalate their own privileges. Siemens has released a new version...",
+      "source": "CISA Alerts",
+      "published": "2026-04-21T12:00:00+00:00"
+    },
+    {
+      "title": "Silex Technology SD-330AC and AMC Manager",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-111-10",
+      "summary": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to execute arbitrary code, cause a denial-of-service, or configuration information may be altered without...",
+      "source": "CISA Alerts",
+      "published": "2026-04-21T12:00:00+00:00"
+    },
+    {
+      "title": "Hardy Barth Salia EV Charge Controller",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-111-05",
+      "summary": "View CSAF Summary Successful exploitation of these vulnerabilities could crash the device being accessed; a buffer overflow condition may allow remote code execution. The following versions of Hardy...",
+      "source": "CISA Alerts",
+      "published": "2026-04-21T12:00:00+00:00"
+    },
+    {
+      "title": "Siemens RUGGEDCOM CROSSBOW Station Access Controller (SAC)",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-111-08",
+      "summary": "View CSAF Summary RUGGEDCOM CROSSBOW Station Access Controller (SAC) contains a vulnerability that could allow an attacker to achieve arbitrary code execution and to create a denial of service...",
       "source": "CISA Alerts",
       "published": "2026-04-21T12:00:00+00:00"
     },
@@ -933,16 +982,16 @@
       "published": "2026-04-20T13:41:00+00:00"
     },
     {
-      "title": "CISA Adds Eight Known Exploited Vulnerabilities to Catalog",
-      "link": "https://www.cisa.gov/news-events/alerts/2026/04/20/cisa-adds-eight-known-exploited-vulnerabilities-catalog",
-      "summary": "CISA has added eight new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation. CVE-2023-27351 PaperCut NG/MF Improper Authentication...",
+      "title": "​​Supply Chain Compromise Impacts Axios Node Package Manager​",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/04/20/supply-chain-compromise-impacts-axios-node-package-manager",
+      "summary": "The Cybersecurity and Infrastructure Security Agency (CISA) is releasing this alert to provide guidance in response to the software supply chain compromise of the Axios node package manager (npm).1...",
       "source": "CISA Alerts",
       "published": "2026-04-20T12:00:00+00:00"
     },
     {
-      "title": "​​Supply Chain Compromise Impacts Axios Node Package Manager​",
-      "link": "https://www.cisa.gov/news-events/alerts/2026/04/20/supply-chain-compromise-impacts-axios-node-package-manager",
-      "summary": "The Cybersecurity and Infrastructure Security Agency (CISA) is releasing this alert to provide guidance in response to the software supply chain compromise of the Axios node package manager (npm).1...",
+      "title": "CISA Adds Eight Known Exploited Vulnerabilities to Catalog",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/04/20/cisa-adds-eight-known-exploited-vulnerabilities-catalog",
+      "summary": "CISA has added eight new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation. CVE-2023-27351 PaperCut NG/MF Improper Authentication...",
       "source": "CISA Alerts",
       "published": "2026-04-20T12:00:00+00:00"
     },
@@ -1351,55 +1400,6 @@
       "summary": "Threat actors breached the telehealth brand, and now they may know patients' personal health details. What could they do with that information?",
       "source": "Dark Reading",
       "published": "2026-04-10T20:02:30+00:00"
-    },
-    {
-      "title": "Your Next Breach Will Look Like Business as Usual",
-      "link": "https://www.darkreading.com/identity-access-management-security/your-next-breach-business-as-usual",
-      "summary": "These are the fundamental detection model shifts cybersecurity teams need to make to keep up with the rising number of credential-based attacks.",
-      "source": "Dark Reading",
-      "published": "2026-04-10T19:21:55+00:00"
-    },
-    {
-      "title": "FINRA Launches Financial Intelligence Fusion Center to Combat Cybersecurity and Fraud Threats",
-      "link": "https://www.darkreading.com/threat-intelligence/finra-launches-financial-intelligence-fusion-center",
-      "summary": "",
-      "source": "Dark Reading",
-      "published": "2026-04-10T15:52:28+00:00"
-    },
-    {
-      "title": "Orange Business Reimagines Enterprise Voice Communications With Trust and AI",
-      "link": "https://www.darkreading.com/endpoint-security/orange-business-enterprise-voice-comms",
-      "summary": "",
-      "source": "Dark Reading",
-      "published": "2026-04-10T15:05:14+00:00"
-    },
-    {
-      "title": "Industrial Controllers Still Vulnerable As Conflicts Move to Cyber",
-      "link": "https://www.darkreading.com/ics-ot-security/industrial-controllers-vulnerable-conflicts-cyber",
-      "summary": "The US government warns programmable logic controllers are being targeted, and research turns up 179 vulnerable operational technology (OT) devices.",
-      "source": "Dark Reading",
-      "published": "2026-04-10T13:30:00+00:00"
-    },
-    {
-      "title": "Can Anthropic Keep Its Exploit-Writing AI Out of the Wrong Hands?",
-      "link": "https://www.darkreading.com/application-security/anthropic-exploit-writing-mythos-ai-safe",
-      "summary": "Its Mythos Preview model, which can allegedly find and exploit critical zero-days, also comes with certain controls, the vendor said.",
-      "source": "Dark Reading",
-      "published": "2026-04-10T13:00:00+00:00"
-    },
-    {
-      "title": "Russia's 'Fancy Bear' APT Continues Its Global Onslaught",
-      "link": "https://www.darkreading.com/threat-intelligence/russias-fancy-bear-apt-continues-global-onslaught",
-      "summary": "Victims don't need to match the cyber espionage group's technical sophistication, experts say. But patching and some form of zero trust are now non-negotiable.",
-      "source": "Dark Reading",
-      "published": "2026-04-09T20:50:37+00:00"
-    },
-    {
-      "title": "'BlueHammer' Windows Zero-Day Exploit Signals Microsoft Bug Disclosure Issues",
-      "link": "https://www.darkreading.com/vulnerabilities-threats/bluehammer-windows-exploit-microsoft-bug-disclosure-issues",
-      "summary": "Under the alias 'Chaotic Eclipse,' a researcher released a PoC exploit for a zero-day flaw that allows for system takeover by a local user, citing an undisclosed beef with Microsoft.",
-      "source": "Dark Reading",
-      "published": "2026-04-09T20:13:34+00:00"
     }
   ]
 }
