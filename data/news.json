@@ -1,24 +1,59 @@
 {
-  "last_updated": "2026-04-23T06:35:38.469210+00:00",
+  "last_updated": "2026-04-23T08:33:54.099652+00:00",
   "articles": [
+    {
+      "title": "Apple Patches iOS Flaw That Stored Deleted Signal Notifications in FBI Forensic Case",
+      "link": "https://thehackernews.com/2026/04/apple-patches-ios-flaw-that-stored.html",
+      "summary": "Apple has rolled out a software fix for iOS and iPadOS to address a Notification Services flaw that stored notifications marked for deletion on the device. The vulnerability, tracked as...",
+      "source": "The Hacker News",
+      "published": "2026-04-23T08:06:00+00:00"
+    },
+    {
+      "title": "Recent Microsoft Defender Vulnerability Exploited as Zero-Day",
+      "link": "https://www.securityweek.com/recent-microsoft-defender-vulnerability-exploited-as-zero-day/",
+      "summary": "The flaw allows attackers to access the SAM database, extract NTLM hashes, and gain System privileges. The post Recent Microsoft Defender Vulnerability Exploited as Zero-Day appeared first on...",
+      "source": "SecurityWeek",
+      "published": "2026-04-23T08:00:36+00:00"
+    },
+    {
+      "title": "CVE-2026-41040 - GROWI ReDoS Denial of Service",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-41040",
+      "summary": "CVE ID :CVE-2026-41040 Published : April 23, 2026, 7:16 a.m. | 40 minutes ago Description :GROWI provided by GROWI, Inc. is vulnerable to a regular expression denial of service (ReDoS) via a crafted...",
+      "source": "CVE Feed",
+      "published": "2026-04-23T07:16:41+00:00"
+    },
+    {
+      "title": "Critical Pack2TheRoot Vulnerability Let Attackers Gain Root Access or Compromise the System",
+      "link": "https://cybersecuritynews.com/pack2theroot-vulnerability/",
+      "summary": "Critical Pack2TheRoot Vulnerability Let Attackers Gain Root Access or Compromise the System A high-severity privilege escalation vulnerability, dubbed Pack2TheRoot (CVE-2026-41651, CVSS 3.1: 8.8)...",
+      "source": "CVE Newsroom",
+      "published": "2026-04-23T06:51:09+00:00"
+    },
+    {
+      "title": "Apple Fixes Notification Privacy Flaw That Allowed FBI to Access Deleted Signal Messages",
+      "link": "https://cybersecuritynews.com/apple-fixes-notification-privacy-flaw/",
+      "summary": "Apple Fixes Notification Privacy Flaw That Allowed FBI to Access Deleted Signal Messages Apple released iOS 26.4.2 and iPadOS 26.4.2 on April 22, 2026, to patch a critical notification privacy...",
+      "source": "CVE Newsroom",
+      "published": "2026-04-23T05:56:59+00:00"
+    },
     {
       "title": "CVE-2026-41230 - Froxlor has a BIND Zone File Injection via Unsanitized DNS Record Content in DomainZones::add()",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-41230",
-      "summary": "CVE ID :CVE-2026-41230 Published : April 23, 2026, 4:16 a.m. | 2 hours, 14 minutes ago Description :Froxlor is open source server administration software. Prior to version 2.3.6, `DomainZones::add()`...",
+      "summary": "CVE ID :CVE-2026-41230 Published : April 23, 2026, 4:16 a.m. | 3 hours, 40 minutes ago Description :Froxlor is open source server administration software. Prior to version 2.3.6, `DomainZones::add()`...",
       "source": "CVE Feed",
       "published": "2026-04-23T04:16:19+00:00"
     },
     {
       "title": "CVE-2026-41229 - Froxlor has a PHP Code Injection via Unescaped Single Quotes in userdata.inc.php Generation (MysqlServer API)",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-41229",
-      "summary": "CVE ID :CVE-2026-41229 Published : April 23, 2026, 4:16 a.m. | 2 hours, 14 minutes ago Description :Froxlor is open source server administration software. Prior to version 2.3.6...",
+      "summary": "CVE ID :CVE-2026-41229 Published : April 23, 2026, 4:16 a.m. | 3 hours, 40 minutes ago Description :Froxlor is open source server administration software. Prior to version 2.3.6...",
       "source": "CVE Feed",
       "published": "2026-04-23T04:16:19+00:00"
     },
     {
       "title": "CVE-2026-41228 - Froxlor has Local File Inclusion via path traversal in API `def_language` parameter that leads to Remote Code Execution",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-41228",
-      "summary": "CVE ID :CVE-2026-41228 Published : April 23, 2026, 4:16 a.m. | 2 hours, 14 minutes ago Description :Froxlor is open source server administration software. Prior to version 2.3.6, the Froxlor API...",
+      "summary": "CVE ID :CVE-2026-41228 Published : April 23, 2026, 4:16 a.m. | 3 hours, 40 minutes ago Description :Froxlor is open source server administration software. Prior to version 2.3.6, the Froxlor API...",
       "source": "CVE Feed",
       "published": "2026-04-23T04:16:19+00:00"
     },
@@ -32,7 +67,7 @@
     {
       "title": "CVE-2026-3844 - Breeze Cache <= 2.4.4 - Unauthenticated Arbitrary File Upload via fetch_gravatar_from_remote",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-3844",
-      "summary": "CVE ID :CVE-2026-3844 Published : April 23, 2026, 3:16 a.m. | 3 hours, 14 minutes ago Description :The Breeze Cache plugin for WordPress is vulnerable to arbitrary file uploads due to missing file...",
+      "summary": "CVE ID :CVE-2026-3844 Published : April 23, 2026, 3:16 a.m. | 4 hours, 40 minutes ago Description :The Breeze Cache plugin for WordPress is vulnerable to arbitrary file uploads due to missing file...",
       "source": "CVE Feed",
       "published": "2026-04-23T03:16:17+00:00"
     },
@@ -53,42 +88,42 @@
     {
       "title": "CVE-2026-41679 - Paperclip Vulnerable to Unauthenticated Remote Code Execution via Import Authorization Bypass",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-41679",
-      "summary": "CVE ID :CVE-2026-41679 Published : April 23, 2026, 2:16 a.m. | 4 hours, 14 minutes ago Description :Paperclip is a Node.js server and React UI that orchestrates a team of AI agents to run a business...",
+      "summary": "CVE ID :CVE-2026-41679 Published : April 23, 2026, 2:16 a.m. | 5 hours, 40 minutes ago Description :Paperclip is a Node.js server and React UI that orchestrates a team of AI agents to run a business...",
       "source": "CVE Feed",
       "published": "2026-04-23T02:16:19+00:00"
     },
     {
       "title": "CVE-2026-41211 - `vite-plus/binding` has path traversal `downloadPackageManager()` that leads to writes outside of `VP_HOME`",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-41211",
-      "summary": "CVE ID :CVE-2026-41211 Published : April 23, 2026, 2:16 a.m. | 4 hours, 14 minutes ago Description :Vite+ is a unified toolchain and entry point for web development. Prior to version 0.1.17...",
+      "summary": "CVE ID :CVE-2026-41211 Published : April 23, 2026, 2:16 a.m. | 5 hours, 40 minutes ago Description :Vite+ is a unified toolchain and entry point for web development. Prior to version 0.1.17...",
       "source": "CVE Feed",
       "published": "2026-04-23T02:16:18+00:00"
     },
     {
       "title": "CVE-2026-41208 - Paperclip: Privilege Escalation via Agent-Controlled workspaceStrategy.provisionCommand Leading to OS Command Execution",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-41208",
-      "summary": "CVE ID :CVE-2026-41208 Published : April 23, 2026, 2:16 a.m. | 4 hours, 14 minutes ago Description :Paperclip is a Node.js server and React UI that orchestrates a team of AI agents to run a business...",
+      "summary": "CVE ID :CVE-2026-41208 Published : April 23, 2026, 2:16 a.m. | 5 hours, 40 minutes ago Description :Paperclip is a Node.js server and React UI that orchestrates a team of AI agents to run a business...",
       "source": "CVE Feed",
       "published": "2026-04-23T02:16:18+00:00"
     },
     {
       "title": "CVE-2026-41200 - STIG Manager has reflected XSS vulnerability in the Web App",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-41200",
-      "summary": "CVE ID :CVE-2026-41200 Published : April 23, 2026, 2:16 a.m. | 4 hours, 14 minutes ago Description :STIG Manager is an API and web client for managing Security Technical Implementation Guides (STIG)...",
+      "summary": "CVE ID :CVE-2026-41200 Published : April 23, 2026, 2:16 a.m. | 5 hours, 40 minutes ago Description :STIG Manager is an API and web client for managing Security Technical Implementation Guides (STIG)...",
       "source": "CVE Feed",
       "published": "2026-04-23T02:16:18+00:00"
     },
     {
       "title": "CVE-2026-41197 - Brillig: Heap corruption in foreign call results with nested tuple arrays",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-41197",
-      "summary": "CVE ID :CVE-2026-41197 Published : April 23, 2026, 2:16 a.m. | 4 hours, 14 minutes ago Description :Noir is a Domain Specific Language for SNARK proving systems that is designed to use any ACIR...",
+      "summary": "CVE ID :CVE-2026-41197 Published : April 23, 2026, 2:16 a.m. | 5 hours, 40 minutes ago Description :Noir is a Domain Specific Language for SNARK proving systems that is designed to use any ACIR...",
       "source": "CVE Feed",
       "published": "2026-04-23T02:16:18+00:00"
     },
     {
       "title": "CVE-2026-41196 - Luanti has a mod security sandbox escape",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-41196",
-      "summary": "CVE ID :CVE-2026-41196 Published : April 23, 2026, 2:16 a.m. | 4 hours, 14 minutes ago Description :Luanti (formerly Minetest) is an open source voxel game-creation platform. Starting in version...",
+      "summary": "CVE ID :CVE-2026-41196 Published : April 23, 2026, 2:16 a.m. | 5 hours, 40 minutes ago Description :Luanti (formerly Minetest) is an open source voxel game-creation platform. Starting in version...",
       "source": "CVE Feed",
       "published": "2026-04-23T02:16:17+00:00"
     },
@@ -102,70 +137,70 @@
     {
       "title": "CVE-2026-41179 - RClone: Unauthenticated operations/fsinfo allows attacker-controlled backend instantiation and local command execution",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-41179",
-      "summary": "CVE ID :CVE-2026-41179 Published : April 23, 2026, 12:16 a.m. | 6 hours, 13 minutes ago Description :Rclone is a command-line program to sync files and directories to and from different cloud storage...",
+      "summary": "CVE ID :CVE-2026-41179 Published : April 23, 2026, 12:16 a.m. | 7 hours, 40 minutes ago Description :Rclone is a command-line program to sync files and directories to and from different cloud storage...",
       "source": "CVE Feed",
       "published": "2026-04-23T00:16:45+00:00"
     },
     {
       "title": "CVE-2026-41176 - Rclone: Unauthenticated options/set allows runtime auth bypass, leading to sensitive operations and command execution",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-41176",
-      "summary": "CVE ID :CVE-2026-41176 Published : April 23, 2026, 12:16 a.m. | 6 hours, 13 minutes ago Description :Rclone is a command-line program to sync files and directories to and from different cloud storage...",
+      "summary": "CVE ID :CVE-2026-41176 Published : April 23, 2026, 12:16 a.m. | 7 hours, 40 minutes ago Description :Rclone is a command-line program to sync files and directories to and from different cloud storage...",
       "source": "CVE Feed",
       "published": "2026-04-23T00:16:45+00:00"
     },
     {
       "title": "CVE-2026-40062 - Ziostation2 Path Traversal Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-40062",
-      "summary": "CVE ID :CVE-2026-40062 Published : April 23, 2026, 12:16 a.m. | 6 hours, 13 minutes ago Description :A path Traversal vulnerability exists in Ziostation2 v2.9.8.7 and earlier. A remote...",
+      "summary": "CVE ID :CVE-2026-40062 Published : April 23, 2026, 12:16 a.m. | 7 hours, 40 minutes ago Description :A path Traversal vulnerability exists in Ziostation2 v2.9.8.7 and earlier. A remote...",
       "source": "CVE Feed",
       "published": "2026-04-23T00:16:45+00:00"
     },
     {
       "title": "CVE-2026-32679 - Canon Network Camera Plugin DLL Loading Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-32679",
-      "summary": "CVE ID :CVE-2026-32679 Published : April 23, 2026, 12:16 a.m. | 6 hours, 13 minutes ago Description :The installers of LiveOn Meet Client for Windows (Downloader5Installer.exe and...",
+      "summary": "CVE ID :CVE-2026-32679 Published : April 23, 2026, 12:16 a.m. | 7 hours, 40 minutes ago Description :The installers of LiveOn Meet Client for Windows (Downloader5Installer.exe and...",
       "source": "CVE Feed",
       "published": "2026-04-23T00:16:45+00:00"
     },
     {
       "title": "CVE-2026-41455 - WeKan < 8.35 SSRF via Webhook URL",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-41455",
-      "summary": "CVE ID :CVE-2026-41455 Published : April 22, 2026, 10:16 p.m. | 8 hours, 14 minutes ago Description :WeKan before 8.35 contains a server-side request forgery vulnerability in webhook integration URL...",
+      "summary": "CVE ID :CVE-2026-41455 Published : April 22, 2026, 10:16 p.m. | 9 hours, 40 minutes ago Description :WeKan before 8.35 contains a server-side request forgery vulnerability in webhook integration URL...",
       "source": "CVE Feed",
       "published": "2026-04-22T22:16:32+00:00"
     },
     {
       "title": "CVE-2026-41454 - WeKan < 8.35 Missing Authorization via Integration REST API",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-41454",
-      "summary": "CVE ID :CVE-2026-41454 Published : April 22, 2026, 10:16 p.m. | 8 hours, 14 minutes ago Description :WeKan before 8.35 contains a missing authorization vulnerability in the Integration REST API...",
+      "summary": "CVE ID :CVE-2026-41454 Published : April 22, 2026, 10:16 p.m. | 9 hours, 40 minutes ago Description :WeKan before 8.35 contains a missing authorization vulnerability in the Integration REST API...",
       "source": "CVE Feed",
       "published": "2026-04-22T22:16:32+00:00"
     },
     {
       "title": "CVE-2026-41175 - Statamic: Unsafe method invocation via query value resolution allows data destruction",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-41175",
-      "summary": "CVE ID :CVE-2026-41175 Published : April 22, 2026, 10:16 p.m. | 8 hours, 14 minutes ago Description :Statamic is a Laravel and Git powered content management system (CMS). Prior to versions 5.73.20...",
+      "summary": "CVE ID :CVE-2026-41175 Published : April 22, 2026, 10:16 p.m. | 9 hours, 40 minutes ago Description :Statamic is a Laravel and Git powered content management system (CMS). Prior to versions 5.73.20...",
       "source": "CVE Feed",
       "published": "2026-04-22T22:16:31+00:00"
     },
     {
       "title": "CVE-2026-41167 - Jellystat has SQL Injection that leads to to Remote Code Execution",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-41167",
-      "summary": "CVE ID :CVE-2026-41167 Published : April 22, 2026, 9:17 p.m. | 9 hours, 13 minutes ago Description :Jellystat is a free and open source Statistics App for Jellyfin. Prior to version 1.1.10, multiple...",
+      "summary": "CVE ID :CVE-2026-41167 Published : April 22, 2026, 9:17 p.m. | 10 hours, 40 minutes ago Description :Jellystat is a free and open source Statistics App for Jellyfin. Prior to version 1.1.10, multiple...",
       "source": "CVE Feed",
       "published": "2026-04-22T21:17:09+00:00"
     },
     {
       "title": "CVE-2026-40937 - RustFS missing admin authorization on notification target endpoints, which allows unauthenticated configuration of event webhooks",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-40937",
-      "summary": "CVE ID :CVE-2026-40937 Published : April 22, 2026, 9:17 p.m. | 9 hours, 13 minutes ago Description :RustFS is a distributed object storage system built in Rust. Prior to 1.0.0-alpha.94, all four...",
+      "summary": "CVE ID :CVE-2026-40937 Published : April 22, 2026, 9:17 p.m. | 10 hours, 40 minutes ago Description :RustFS is a distributed object storage system built in Rust. Prior to 1.0.0-alpha.94, all four...",
       "source": "CVE Feed",
       "published": "2026-04-22T21:17:08+00:00"
     },
     {
       "title": "CVE-2026-33656 - EspoCRM vulnerable to authenticated RCE via Formula with path traversal in attachment `sourceId`, exploitable by admin user",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-33656",
-      "summary": "CVE ID :CVE-2026-33656 Published : April 22, 2026, 9:17 p.m. | 9 hours, 13 minutes ago Description :EspoCRM is an open source customer relationship management application. Prior to version 9.3.4...",
+      "summary": "CVE ID :CVE-2026-33656 Published : April 22, 2026, 9:17 p.m. | 10 hours, 40 minutes ago Description :EspoCRM is an open source customer relationship management application. Prior to version 9.3.4...",
       "source": "CVE Feed",
       "published": "2026-04-22T21:17:05+00:00"
     },
@@ -193,7 +228,7 @@
     {
       "title": "CVE-2026-33471 - nimiq-block has skip block quorum bypass via out-of-range BitSet indices & u16 truncation",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-33471",
-      "summary": "CVE ID :CVE-2026-33471 Published : April 22, 2026, 8:16 p.m. | 10 hours, 14 minutes ago Description :nimiq-block contains block primitives to be used in Nimiq's Rust implementation...",
+      "summary": "CVE ID :CVE-2026-33471 Published : April 22, 2026, 8:16 p.m. | 11 hours, 40 minutes ago Description :nimiq-block contains block primitives to be used in Nimiq's Rust implementation...",
       "source": "CVE Feed",
       "published": "2026-04-22T20:16:40+00:00"
     },
@@ -214,30 +249,23 @@
     {
       "title": "CVE-2026-41468 - Beghelli Sicuro24 SicuroWeb AngularJS Sandbox Escape via Template Injection",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-41468",
-      "summary": "CVE ID :CVE-2026-41468 Published : April 22, 2026, 7:17 p.m. | 11 hours, 13 minutes ago Description :Beghelli Sicuro24 SicuroWeb embeds AngularJS 1.5.2, an end-of-life component containing known...",
+      "summary": "CVE ID :CVE-2026-41468 Published : April 22, 2026, 7:17 p.m. | 12 hours, 40 minutes ago Description :Beghelli Sicuro24 SicuroWeb embeds AngularJS 1.5.2, an end-of-life component containing known...",
       "source": "CVE Feed",
       "published": "2026-04-22T19:17:08+00:00"
     },
     {
       "title": "CVE-2026-34415 - Xerte Online Toolkits File Upload RCE via elfinder Connector",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-34415",
-      "summary": "CVE ID :CVE-2026-34415 Published : April 22, 2026, 7:17 p.m. | 11 hours, 13 minutes ago Description :Xerte Online Toolkits versions 3.15 and earlier contain an incomplete input validation...",
+      "summary": "CVE ID :CVE-2026-34415 Published : April 22, 2026, 7:17 p.m. | 12 hours, 40 minutes ago Description :Xerte Online Toolkits versions 3.15 and earlier contain an incomplete input validation...",
       "source": "CVE Feed",
       "published": "2026-04-22T19:17:04+00:00"
     },
     {
       "title": "CVE-2026-34413 - Xerte Online Toolkits Missing Authentication via connector.php",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-34413",
-      "summary": "CVE ID :CVE-2026-34413 Published : April 22, 2026, 7:17 p.m. | 11 hours, 13 minutes ago Description :Xerte Online Toolkits versions 3.15 and earlier contain a missing authentication vulnerability in...",
+      "summary": "CVE ID :CVE-2026-34413 Published : April 22, 2026, 7:17 p.m. | 12 hours, 40 minutes ago Description :Xerte Online Toolkits versions 3.15 and earlier contain a missing authentication vulnerability in...",
       "source": "CVE Feed",
       "published": "2026-04-22T19:17:02+00:00"
-    },
-    {
-      "title": "CVE-2026-26354 - \"Dell PowerProtect Data Domain DD OS Stack-Based Buffer Overflow\"",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-26354",
-      "summary": "CVE ID :CVE-2026-26354 Published : April 22, 2026, 7:17 p.m. | 11 hours, 13 minutes ago Description :Dell PowerProtect Data Domain with Domain Operating System (DD OS) of Feature Release versions...",
-      "source": "CVE Feed",
-      "published": "2026-04-22T19:17:00+00:00"
     },
     {
       "title": "Hackers deployed wiper malware in destructive attacks on Venezuela’s energy sector",
@@ -501,8 +529,8 @@
     {
       "title": "Microsoft Patches Critical ASP.NET Core CVE-2026-40372 Privilege Escalation Bug",
       "link": "https://thehackernews.com/2026/04/microsoft-patches-critical-aspnet-core.html",
-      "summary": "Microsoft has released out-of-band updates to address a security vulnerability in ASP.NET Core that could allow an attacker to escalate privileges. The vulnerability, tracked as CVE-2026-40372...",
-      "source": "The Hacker News",
+      "summary": "Microsoft Patches Critical ASP.NET Core CVE-2026-40372 Privilege Escalation Bug Microsoft has released out-of-band updates to address a security vulnerability in ASP.NET Core that could allow an...",
+      "source": "CVE Newsroom",
       "published": "2026-04-22T09:29:00+00:00"
     },
     {
@@ -557,8 +585,8 @@
     {
       "title": "Cohere AI Terrarium Sandbox Flaw Enables Root Code Execution, Container Escape",
       "link": "https://thehackernews.com/2026/04/cohere-ai-terrarium-sandbox-flaw.html",
-      "summary": "A critical security vulnerability has been disclosed in a Python-based sandbox called Terrarium that could result in arbitrary code execution. The vulnerability, tracked as CVE-2026-5752, is rated...",
-      "source": "The Hacker News",
+      "summary": "Cohere AI Terrarium Sandbox Flaw Enables Root Code Execution, Container Escape A critical security vulnerability has been disclosed in a Python-based sandbox called Terrarium that could result in...",
+      "source": "CVE Newsroom",
       "published": "2026-04-22T07:16:00+00:00"
     },
     {
@@ -574,20 +602,6 @@
       "summary": "Microsoft Emergency .NET 10.0.7 Update to Patch Elevation of Privilege Vulnerability Microsoft has issued an emergency out-of-band (OOB) security update for .NET 10, releasing version 10.0.7 on April...",
       "source": "CVE Newsroom",
       "published": "2026-04-22T04:29:04+00:00"
-    },
-    {
-      "title": "Critical RCE Alert: Bamboo Data Center Vulnerable to OS Command Injection",
-      "link": "https://securityonline.info/atlassian-bamboo-rce-cve-2026-21571-critical-update/",
-      "summary": "Critical RCE Alert: Bamboo Data Center Vulnerable to OS Command Injection Atlassian has issued a high-priority advisory for its Bamboo Data Center users, detailing a critical-severity security flaw...",
-      "source": "CVE Newsroom",
-      "published": "2026-04-22T02:51:01+00:00"
-    },
-    {
-      "title": "Emergency .NET Update: Critical Data Protection Flaw Allows Authentication Forgery",
-      "link": "https://securityonline.info/dotnet-10-authentication-bypass-cve-2026-40372-remediation/",
-      "summary": "Emergency .NET Update: Critical Data Protection Flaw Allows Authentication Forgery Microsoft has issued an urgent out-of-band (OOB) security update for .NET 10 to address a critical vulnerability...",
-      "source": "CVE Newsroom",
-      "published": "2026-04-22T02:21:21+00:00"
     },
     {
       "title": "French govt agency confirms breach as hacker offers to sell data",
@@ -651,13 +665,6 @@
       "summary": "A 24-year-old British national and senior member of the cybercrime group \"Scattered Spider\" has pleaded guilty to wire fraud conspiracy and aggravated identity theft. Tyler Robert Buchanan admitted...",
       "source": "Krebs on Security",
       "published": "2026-04-21T14:53:59+00:00"
-    },
-    {
-      "title": "Third US Security Expert Admits Helping Ransomware Gang",
-      "link": "https://www.securityweek.com/third-us-security-expert-admits-helping-ransomware-gang/",
-      "summary": "Angelo Martino of Florida has pleaded guilty to collaborating with the BlackCat cybercrime group while working as a ransomware negotiator. The post Third US Security Expert Admits Helping Ransomware...",
-      "source": "SecurityWeek",
-      "published": "2026-04-21T14:44:24+00:00"
     },
     {
       "title": "Ransomware Negotiator Pleads Guilty to Aiding BlackCat Attacks in 2023",
@@ -1281,13 +1288,6 @@
       "summary": "OT asset owners are being asked by regulators to attest to their post-quantum cryptographic readiness without the appropriate tooling, resulting in paperwork dressed up to look like genuine security.",
       "source": "Dark Reading",
       "published": "2026-04-13T19:10:55+00:00"
-    },
-    {
-      "title": "JanelaRAT Malware Targets Latin American Banks with 14,739 Attacks in Brazil in 2025",
-      "link": "https://thehackernews.com/2026/04/janelarat-malware-targets-latin.html",
-      "summary": "Banks and financial institutions in Latin American countries like Brazil and Mexico have continued to be the target of a malware family called JanelaRAT. A modified version of BX RAT, JanelaRAT is...",
-      "source": "The Hacker News",
-      "published": "2026-04-13T17:15:00+00:00"
     },
     {
       "title": "APT41 Delivers 'Zero-Detection' Backdoor to Harvest Cloud Credentials",
