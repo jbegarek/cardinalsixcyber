@@ -1,15 +1,17 @@
 # Cardinal Six Cyber — Blog Content Calendar
 
-**Last updated:** 2026-04-19  
+**Last updated:** 2026-04-26  
 **Owner:** Justin T. Begarek  
 **Publishing cadence target:** 1–2 posts/week
 
 ---
 
-## Published (9 posts live)
+## Published (11 posts live)
 
 | Date | Slug | Lane | Title |
 |---|---|---|---|
+| 2026-04-26 | `cmmc-level-2-mid-tier-dib-case-study` | Research | Inside a CMMC Level 2 Journey: A Mid-Tier DIB Contractor Case Study |
+| 2026-04-26 | `cis-controls-v8-ig1-nist-800-171-crosswalk` | Practical | The CIS Controls v8 IG1 → NIST SP 800-171 Crosswalk for DIB Contractors |
 | 2026-04-19 | `federal-cybersecurity-law-dib-fragmentation` | Research | Federal Cybersecurity Law and the Defense Industrial Base: Fragmentation, Implementation Lag, and the Case for Reform |
 | 2026-04-19 | `cmmc-2-levels-assessment-cost` | Practical | CMMC 2.0 Levels, Assessment Paths, and What Certification Actually Costs |
 | 2026-04-19 | `dfars-clause-stack-7012-7019-7020-7021` | Practical | The DFARS Clause Stack: What 7012, 7019, 7020, and 7021 Actually Require |
@@ -141,12 +143,12 @@ The Week 4 paper is an 8–11 page case study on CMMC Level 2 readiness for a fi
 - `TIM-8720/week4/BegarekJustinTIM8720_4.docx` (once written — authoritative)
 - `TIM-8720/week4/sources/` (~55 PDFs: NIST 800-53r5, 800-171r3, 800-207, 800-82r3, CMMC L2 Assessment + Scoping Guides, CIS v8, CSF 2.0, IEC 62443)
 
-**Status:** Paper in outline phase as of 2026-04-21. Target draft completion end of April 2026. Blog derivatives scheduled starting September 2026 to avoid overlap with existing backlog.
+**Status:** Paper submitted 2026-04-26 (`BegarekJustinTIM8720_4.docx`). Blog derivatives scheduled starting September 2026 to avoid overlap with existing backlog.
 
 | Target | Slug | Lane | Proposed Title | Angle / Notes |
 |---|---|---|---|---|
-| 2026-09-27 | `cis-controls-v8-ig1-nist-800-171-crosswalk` | Practical | The CIS Controls v8 IG1 → NIST SP 800-171 Rev 3 Crosswalk for DIB Contractors | **Pre-paper safe.** 56 IG1 Safeguards cover most of 110 practices — reference table for contractors starting from an IG1 baseline. |
-| 2026-10-11 | `cmmc-level-2-mid-tier-dib-case-study` | Research | Inside a CMMC Level 2 Journey: A Mid-Tier DIB Contractor Case Study | **Flagship paper adaptation.** Full ForgeWorks case study — scope, threats, controls, trajectory. |
+| ~~2026-09-27~~ | ~~`cis-controls-v8-ig1-nist-800-171-crosswalk`~~ | Practical | ~~The CIS Controls v8 IG1 → NIST SP 800-171 Rev 3 Crosswalk for DIB Contractors~~ — **Published 2026-04-26.** |  |
+| ~~2026-10-11~~ | ~~`cmmc-level-2-mid-tier-dib-case-study`~~ | Research | ~~Inside a CMMC Level 2 Journey: A Mid-Tier DIB Contractor Case Study~~ — **Published 2026-04-26.** |  |
 | 2026-10-25 | `cui-enclave-architecture-cmmc-scope-reduction` | Practical | The CUI Enclave: How to Reduce CMMC Level 2 Assessment Scope by 70% | The highest-leverage architectural move for mid-tier contractors. Derived from paper §3.1. |
 | 2026-11-08 | `cmmc-twelve-controls-that-actually-matter` | Practical | The 12 CMMC Controls That Actually Matter: Access Control, SC, and IR | Defensible subset from 110 practices. Three domains, four controls each, with assessment objectives. Paper §5.2. |
 | 2026-11-22 | `sprs-score-plus-85-to-110-roadmap` | Practical | Getting Your SPRS Score From +85 to +110: A 12-Month CMMC Level 2 Roadmap | Quantified trajectory with control-family sequencing. Paper §1 + conclusion. |
