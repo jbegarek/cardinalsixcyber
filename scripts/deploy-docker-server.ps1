@@ -70,7 +70,8 @@ function Get-RemoteRebuildCommand {
         [string] $ContainerName
     )
 
-@"
+    # Normalize to LF so bash on the remote does not see pipefail\r as an unknown option.
+    $script = @"
 set -euo pipefail
 cd $RemoteDir
 docker buildx build --load --no-cache -t $ImageName .
@@ -78,6 +79,7 @@ docker push $ImageName
 docker compose up -d --force-recreate --no-build
 docker ps --filter name=$ContainerName --format 'table {{.Names}}\t{{.Status}}\t{{.Image}}'
 "@
+    $script -replace "`r`n", "`n"
 }
 
 function Invoke-NativeCommand {
