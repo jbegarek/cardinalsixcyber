@@ -1,6 +1,174 @@
 {
-  "last_updated": "2026-04-28T20:27:48.553389+00:00",
+  "last_updated": "2026-04-28T22:18:35.909260+00:00",
   "articles": [
+    {
+      "title": "BlueNoroff Uses Fake Zoom Calls to Turn Victims Into Attack Lures",
+      "link": "https://www.darkreading.com/cyberattacks-data-breaches/bluenoroff-turns-victims-into-new-attack-lures",
+      "summary": "The North Korean group is using stolen victim videos, AI-generated avatars, and fake Zoom calls to scale malware attacks against cryptocurrency executives.",
+      "source": "Dark Reading",
+      "published": "2026-04-28T21:38:39+00:00"
+    },
+    {
+      "title": "Broken VECT 2.0 ransomware acts as a data wiper for large files",
+      "link": "https://www.bleepingcomputer.com/news/security/broken-vect-20-ransomware-acts-as-a-data-wiper-for-large-files/",
+      "summary": "Researchers are warning that the VECT 2.0 ransomware has a problem in the way it handles encryption nonces that leads to permanently destroying larger files rather than encrypt them. [...]",
+      "source": "BleepingComputer",
+      "published": "2026-04-28T21:25:57+00:00"
+    },
+    {
+      "title": "Hackers are exploiting a critical LiteLLM pre-auth SQLi flaw",
+      "link": "https://www.bleepingcomputer.com/news/security/hackers-are-exploiting-a-critical-litellm-pre-auth-sqli-flaw/",
+      "summary": "Hackers are targeting sensitive information stored in the LiteLLM open-source large-language model (LLM) gateway by exploiting a critical vulnerability tracked as CVE-2026-42208. [...]",
+      "source": "BleepingComputer",
+      "published": "2026-04-28T21:07:23+00:00"
+    },
+    {
+      "title": "NSA Chief During Snowden Affair Shares Regrets, Reflections 13 Years Later",
+      "link": "https://www.darkreading.com/cyber-risk/nsa-chief-during-snowden-affair-13-years-later",
+      "summary": "Chris Inglis was the head civilian in charge at the NSA when the Snowden leak exploded. He gets candid about mistakes the organization made, and what CISOs need to know about spotting potential...",
+      "source": "Dark Reading",
+      "published": "2026-04-28T20:38:59+00:00"
+    },
+    {
+      "title": "Feuding Ransomware Groups Leak Each Other's Data",
+      "link": "https://www.darkreading.com/threat-intelligence/feuding-ransomware-groups-leak-data",
+      "summary": "When 0APT and KryBit attacked each other, they exposed infrastructure and operational data, giving defenders rare insight into ransomware operations.",
+      "source": "Dark Reading",
+      "published": "2026-04-28T20:13:30+00:00"
+    },
+    {
+      "title": "CVE-2026-42431 - OpenClaw < 2026.4.8 - Persistent Profile Mutation via node.invoke(browser.proxy) Bypass",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-42431",
+      "summary": "CVE ID :CVE-2026-42431 Published : April 28, 2026, 7:37 p.m. | 49 minutes ago Description :OpenClaw before 2026.4.8 contains a security bypass vulnerability in node.invoke(browser.proxy) that allows...",
+      "source": "CVE Feed",
+      "published": "2026-04-28T19:37:47+00:00"
+    },
+    {
+      "title": "CVE-2026-42426 - OpenClaw < 2026.4.8 - Improper Authorization in node.pair.approve via operator.write Scope",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-42426",
+      "summary": "CVE ID :CVE-2026-42426 Published : April 28, 2026, 7:37 p.m. | 49 minutes ago Description :OpenClaw before 2026.4.8 contains an improper authorization vulnerability where the node.pair.approve method...",
+      "source": "CVE Feed",
+      "published": "2026-04-28T19:37:46+00:00"
+    },
+    {
+      "title": "CVE-2026-42422 - OpenClaw < 2026.4.8 - Role Bypass in device.token.rotate Function",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-42422",
+      "summary": "CVE ID :CVE-2026-42422 Published : April 28, 2026, 7:37 p.m. | 49 minutes ago Description :OpenClaw before 2026.4.8 contains a role bypass vulnerability in the device.token.rotate function that...",
+      "source": "CVE Feed",
+      "published": "2026-04-28T19:37:45+00:00"
+    },
+    {
+      "title": "CVE-2026-41914 - OpenClaw < 2026.4.8 - Server-Side Request Forgery in QQ Bot Media Fetch Paths",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-41914",
+      "summary": "CVE ID :CVE-2026-41914 Published : April 28, 2026, 7:37 p.m. | 49 minutes ago Description :OpenClaw before 2026.4.8 contains a server-side request forgery vulnerability in QQ Bot media download paths...",
+      "source": "CVE Feed",
+      "published": "2026-04-28T19:37:45+00:00"
+    },
+    {
+      "title": "CVE-2026-41405 - OpenClaw < 2026.3.31 - Resource Exhaustion via Unauthenticated MS Teams Webhook Body Parsing",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-41405",
+      "summary": "CVE ID :CVE-2026-41405 Published : April 28, 2026, 7:37 p.m. | 49 minutes ago Description :OpenClaw before 2026.3.31 parses MS Teams webhook request bodies before performing JWT validation, allowing...",
+      "source": "CVE Feed",
+      "published": "2026-04-28T19:37:44+00:00"
+    },
+    {
+      "title": "CVE-2026-41404 - OpenClaw < 2026.3.31 - Operator Admin Privilege Escalation via Trusted-Proxy Authentication",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-41404",
+      "summary": "CVE ID :CVE-2026-41404 Published : April 28, 2026, 7:37 p.m. | 49 minutes ago Description :OpenClaw before 2026.3.31 contains an incomplete scope-clearing vulnerability in trusted-proxy...",
+      "source": "CVE Feed",
+      "published": "2026-04-28T19:37:43+00:00"
+    },
+    {
+      "title": "CVE-2026-41399 - OpenClaw < 2026.3.28 - Denial of Service via Unbounded Pre-auth WebSocket Upgrades",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-41399",
+      "summary": "CVE ID :CVE-2026-41399 Published : April 28, 2026, 7:37 p.m. | 49 minutes ago Description :OpenClaw before 2026.3.28 accepts unbounded concurrent unauthenticated WebSocket upgrades without...",
+      "source": "CVE Feed",
+      "published": "2026-04-28T19:37:43+00:00"
+    },
+    {
+      "title": "CVE-2026-41396 - OpenClaw < 2026.3.31 - Environment Variable Override of Plugin Trust Root",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-41396",
+      "summary": "CVE ID :CVE-2026-41396 Published : April 28, 2026, 7:37 p.m. | 49 minutes ago Description :OpenClaw before 2026.3.31 allows workspace .env files to override the OPENCLAW_BUNDLED_PLUGINS_DIR...",
+      "source": "CVE Feed",
+      "published": "2026-04-28T19:37:43+00:00"
+    },
+    {
+      "title": "CVE-2026-41395 - OpenClaw < 2026.3.28 - Webhook Replay via Query Parameter Reordering in Plivo V3",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-41395",
+      "summary": "CVE ID :CVE-2026-41395 Published : April 28, 2026, 7:37 p.m. | 49 minutes ago Description :OpenClaw before 2026.3.28 contains a webhook replay vulnerability in Plivo V3 signature verification that...",
+      "source": "CVE Feed",
+      "published": "2026-04-28T19:37:42+00:00"
+    },
+    {
+      "title": "CVE-2026-41394 - OpenClaw < 2026.3.31 - Unauthorized Operator Scope Access in Unauthenticated Plugin-Auth Routes",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-41394",
+      "summary": "CVE ID :CVE-2026-41394 Published : April 28, 2026, 7:37 p.m. | 49 minutes ago Description :OpenClaw before 2026.3.31 contains an authentication bypass vulnerability where unauthenticated plugin-auth...",
+      "source": "CVE Feed",
+      "published": "2026-04-28T19:37:42+00:00"
+    },
+    {
+      "title": "CVE-2026-41387 - OpenClaw < 2026.3.22 - Supply Chain Redirection via Incomplete Host Environment Sanitization",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-41387",
+      "summary": "CVE ID :CVE-2026-41387 Published : April 28, 2026, 7:37 p.m. | 49 minutes ago Description :OpenClaw before 2026.3.22 contains an incomplete host environment variable sanitization vulnerability in...",
+      "source": "CVE Feed",
+      "published": "2026-04-28T19:37:41+00:00"
+    },
+    {
+      "title": "CVE-2026-41386 - OpenClaw < 2026.3.22 - Privilege Escalation via Unbound Bootstrap Setup Codes",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-41386",
+      "summary": "CVE ID :CVE-2026-41386 Published : April 28, 2026, 7:37 p.m. | 49 minutes ago Description :OpenClaw before 2026.3.22 contains a privilege escalation vulnerability where bootstrap setup codes are not...",
+      "source": "CVE Feed",
+      "published": "2026-04-28T19:37:41+00:00"
+    },
+    {
+      "title": "CVE-2026-41384 - OpenClaw < 2026.3.24 - Environment Variable Injection via Workspace Config in CLI Backend",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-41384",
+      "summary": "CVE ID :CVE-2026-41384 Published : April 28, 2026, 7:37 p.m. | 49 minutes ago Description :OpenClaw before 2026.3.24 contains an environment variable injection vulnerability in the CLI backend runner...",
+      "source": "CVE Feed",
+      "published": "2026-04-28T19:37:41+00:00"
+    },
+    {
+      "title": "CVE-2026-41383 - OpenClaw < 2026.4.2 - Arbitrary Remote Directory Deletion via Mis-scoped Mirror Mode Paths",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-41383",
+      "summary": "CVE ID :CVE-2026-41383 Published : April 28, 2026, 7:37 p.m. | 49 minutes ago Description :OpenClaw before 2026.4.2 contains an arbitrary directory deletion vulnerability in mirror mode that allows...",
+      "source": "CVE Feed",
+      "published": "2026-04-28T19:37:41+00:00"
+    },
+    {
+      "title": "CVE-2026-41378 - OpenClaw < 2026.3.31 - Privilege Escalation to Remote Code Execution via Unrestricted node.event Agent Dispatch",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-41378",
+      "summary": "CVE ID :CVE-2026-41378 Published : April 28, 2026, 7:37 p.m. | 49 minutes ago Description :OpenClaw before 2026.3.31 contains a privilege escalation vulnerability allowing paired nodes with role=node...",
+      "source": "CVE Feed",
+      "published": "2026-04-28T19:37:40+00:00"
+    },
+    {
+      "title": "CVE-2026-3893 - Carlson Software VASCO-B GNSS Receiver Missing Authentication for Critical Function",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-3893",
+      "summary": "CVE ID :CVE-2026-3893 Published : April 28, 2026, 7:37 p.m. | 49 minutes ago Description :The Carlson VASCO-B GNSS Receiver lacks an authentication mechanism, allowing an attacker with network access...",
+      "source": "CVE Feed",
+      "published": "2026-04-28T19:37:39+00:00"
+    },
+    {
+      "title": "CVE-2026-24222 - NVIDIA NeMoClaw Information Disclosure Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-24222",
+      "summary": "CVE ID :CVE-2026-24222 Published : April 28, 2026, 7:36 p.m. | 50 minutes ago Description :NVIDIA NeMoClaw contains a vulnerability in the sandbox environment initialization component, where a remote...",
+      "source": "CVE Feed",
+      "published": "2026-04-28T19:36:45+00:00"
+    },
+    {
+      "title": "CVE-2026-24186 - NVIDIA FLARE SDK Deserialization Code Execution Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-24186",
+      "summary": "CVE ID :CVE-2026-24186 Published : April 28, 2026, 7:36 p.m. | 50 minutes ago Description :NVIDIA FLARE SDK contains a vulnerability in FOBS, where an attacker may cause deserialization of untrusted...",
+      "source": "CVE Feed",
+      "published": "2026-04-28T19:36:45+00:00"
+    },
+    {
+      "title": "CVE-2026-24178 - NVIDIA NVFlare Dashboard Unauthorized Access Bypass",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-24178",
+      "summary": "CVE ID :CVE-2026-24178 Published : April 28, 2026, 7:36 p.m. | 50 minutes ago Description :NVIDIA NVFlare Dashboard contains a vulnerability in the user management and authentication system where an...",
+      "source": "CVE Feed",
+      "published": "2026-04-28T19:36:45+00:00"
+    },
     {
       "title": "Vidar Rises to Top of Chaotic Infostealer Market",
       "link": "https://www.darkreading.com/vulnerabilities-threats/vidar-top-chaotic-infostealer-market",
@@ -25,8 +193,8 @@
     {
       "title": "Researchers Discover Critical GitHub CVE-2026-3854 RCE Flaw Exploitable via Single Git Push",
       "link": "https://thehackernews.com/2026/04/researchers-discover-critical-github.html",
-      "summary": "Cybersecurity researchers have disclosed details of a critical security vulnerability impacting GitHub.com and GitHub Enterprise Server that could allow an authenticated user to obtain remote code...",
-      "source": "The Hacker News",
+      "summary": "Researchers Discover Critical GitHub CVE-2026-3854 RCE Flaw Exploitable via Single Git Push Cybersecurity researchers have disclosed details of a critical security vulnerability impacting GitHub.com...",
+      "source": "CVE Newsroom",
       "published": "2026-04-28T18:19:00+00:00"
     },
     {
@@ -74,7 +242,14 @@
     {
       "title": "CVE-2026-41873 - Pony Mail: Admin account takeover via request smuggling",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-41873",
-      "summary": "CVE ID :CVE-2026-41873 Published : April 28, 2026, 4:16 p.m. | 2 hours, 40 minutes ago Description :** UNSUPPORTED WHEN ASSIGNED ** Inconsistent Interpretation of HTTP Requests ('HTTP...",
+      "summary": "CVE ID :CVE-2026-41873 Published : April 28, 2026, 4:16 p.m. | 4 hours, 11 minutes ago Description :** UNSUPPORTED WHEN ASSIGNED ** Inconsistent Interpretation of HTTP Requests ('HTTP...",
+      "source": "CVE Feed",
+      "published": "2026-04-28T16:16:13+00:00"
+    },
+    {
+      "title": "CVE-2026-38651 - Netmaker JWT Authentication Bypass Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-38651",
+      "summary": "CVE ID :CVE-2026-38651 Published : April 28, 2026, 4:16 p.m. | 4 hours, 11 minutes ago Description :Authentication Bypass vulnerability exists in Netmaker versions prior to 1.5.0. The VerifyHostToken...",
       "source": "CVE Feed",
       "published": "2026-04-28T16:16:13+00:00"
     },
@@ -109,28 +284,28 @@
     {
       "title": "CVE-2026-7321 - Sandbox escape due to incorrect boundary conditions in the WebRTC: Networking component",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-7321",
-      "summary": "CVE ID :CVE-2026-7321 Published : April 28, 2026, 3:16 p.m. | 3 hours, 40 minutes ago Description :Sandbox escape due to incorrect boundary conditions in the WebRTC: Networking component. This...",
+      "summary": "CVE ID :CVE-2026-7321 Published : April 28, 2026, 3:16 p.m. | 5 hours, 10 minutes ago Description :Sandbox escape due to incorrect boundary conditions in the WebRTC: Networking component. This...",
       "source": "CVE Feed",
       "published": "2026-04-28T15:16:37+00:00"
     },
     {
       "title": "CVE-2026-7289 - D-Link DIR-825M formWanConfigSetup sub_414BA8 buffer overflow",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-7289",
-      "summary": "CVE ID :CVE-2026-7289 Published : April 28, 2026, 3:16 p.m. | 3 hours, 40 minutes ago Description :A vulnerability was found in D-Link DIR-825M 1.1.12. This issue affects the function sub_414BA8 of...",
+      "summary": "CVE ID :CVE-2026-7289 Published : April 28, 2026, 3:16 p.m. | 5 hours, 10 minutes ago Description :A vulnerability was found in D-Link DIR-825M 1.1.12. This issue affects the function sub_414BA8 of...",
       "source": "CVE Feed",
       "published": "2026-04-28T15:16:37+00:00"
     },
     {
       "title": "CVE-2026-7288 - D-Link DIR-825M formVpnConfigSetup sub_4151FC buffer overflow",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-7288",
-      "summary": "CVE ID :CVE-2026-7288 Published : April 28, 2026, 3:16 p.m. | 3 hours, 40 minutes ago Description :A vulnerability has been found in D-Link DIR-825M 1.1.12. This vulnerability affects the function...",
+      "summary": "CVE ID :CVE-2026-7288 Published : April 28, 2026, 3:16 p.m. | 5 hours, 10 minutes ago Description :A vulnerability has been found in D-Link DIR-825M 1.1.12. This vulnerability affects the function...",
       "source": "CVE Feed",
       "published": "2026-04-28T15:16:37+00:00"
     },
     {
       "title": "CVE-2026-27760 - OpenCATS PHP Code Injection via installer AJAX endpoint",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-27760",
-      "summary": "CVE ID :CVE-2026-27760 Published : April 28, 2026, 3:16 p.m. | 3 hours, 40 minutes ago Description :OpenCATS prior to commit 3002a29 contains a PHP code injection vulnerability in the installer AJAX...",
+      "summary": "CVE ID :CVE-2026-27760 Published : April 28, 2026, 3:16 p.m. | 5 hours, 11 minutes ago Description :OpenCATS prior to commit 3002a29 contains a PHP code injection vulnerability in the installer AJAX...",
       "source": "CVE Feed",
       "published": "2026-04-28T15:16:26+00:00"
     },
@@ -163,20 +338,6 @@
       "published": "2026-04-28T14:49:51+00:00"
     },
     {
-      "title": "CVE-2026-5944 - Cisco Intersight Device Connector for Nutanix Prism Central Unauthenticated API Access",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-5944",
-      "summary": "CVE ID :CVE-2026-5944 Published : April 28, 2026, 2:16 p.m. | 4 hours, 40 minutes ago Description :An improper access control vulnerability exists in the Cisco Intersight Device Connector for Nutanix...",
-      "source": "CVE Feed",
-      "published": "2026-04-28T14:16:13+00:00"
-    },
-    {
-      "title": "CVE-2026-40551 - Use of Client-Side Authentication in mpGabinet",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-40551",
-      "summary": "CVE ID :CVE-2026-40551 Published : April 28, 2026, 2:16 p.m. | 4 hours, 40 minutes ago Description :mpGabinet performs client-side authentication. An attacker with access to any application instance...",
-      "source": "CVE Feed",
-      "published": "2026-04-28T14:16:13+00:00"
-    },
-    {
       "title": "VECT 2.0 Ransomware Irreversibly Destroys Files Over 131KB on Windows, Linux, ESXi",
       "link": "https://thehackernews.com/2026/04/vect-20-ransomware-irreversibly.html",
       "summary": "Threat hunters are warning that the cybercriminal operation known as VECT 2.0 acts more like a wiper than a ransomware due to a critical flaw in its encryption implementation across Windows, Linux...",
@@ -196,27 +357,6 @@
       "summary": "Vulnerability in GNU nano software Vulnerability in GNU nano software CVE ID CVE-2026-40556 Publication date 28 April 2026 Vendor GNU Product nano Vulnerable versions From 2.9.1 below 9.0...",
       "source": "CVE Newsroom",
       "published": "2026-04-28T13:20:00+00:00"
-    },
-    {
-      "title": "CVE-2026-5781 - Multiple vulnerabilities in MphRx's Minerva",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-5781",
-      "summary": "CVE ID :CVE-2026-5781 Published : April 28, 2026, 1:19 p.m. | 5 hours, 37 minutes ago Description :An authorization vulnerability in MphRx's Minerva V3.6.0, specifically in the...",
-      "source": "CVE Feed",
-      "published": "2026-04-28T13:19:22+00:00"
-    },
-    {
-      "title": "CVE-2026-5780 - Multiple vulnerabilities in MphRx's Minerva",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-5780",
-      "summary": "CVE ID :CVE-2026-5780 Published : April 28, 2026, 1:19 p.m. | 5 hours, 37 minutes ago Description :An insecure direct object reference (IDOR) vulnerability in MphRx's Minerva V3.6.0, specifically in...",
-      "source": "CVE Feed",
-      "published": "2026-04-28T13:19:22+00:00"
-    },
-    {
-      "title": "CVE-2026-5779 - Multiple vulnerabilities in MphRx's Minerva",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-5779",
-      "summary": "CVE ID :CVE-2026-5779 Published : April 28, 2026, 1:19 p.m. | 5 hours, 37 minutes ago Description :An insecure direct object reference (IDOR) vulnerability in MphRx's Minerva V3.6.0, specifically in...",
-      "source": "CVE Feed",
-      "published": "2026-04-28T13:19:22+00:00"
     },
     {
       "title": "Microsoft to deprecate legacy TLS in Exchange Online starting July",
@@ -254,6 +394,13 @@
       "published": "2026-04-28T12:03:00+00:00"
     },
     {
+      "title": "Sevii Launches Cyber Swarm Defense to Make Agentic AI Security Costs Predictable",
+      "link": "https://www.securityweek.com/sevii-launches-cyber-swarm-defense-to-make-agentic-ai-security-costs-predictable/",
+      "summary": "Agentic AI can be expensive to use, causing further and unpredictable pressure on tight budgets. The post Sevii Launches Cyber Swarm Defense to Make Agentic AI Security Costs Predictable appeared...",
+      "source": "SecurityWeek",
+      "published": "2026-04-28T12:00:00+00:00"
+    },
+    {
       "title": "NSA GRASSMARLIN",
       "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-118-01",
       "summary": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to disclose sensitive information. The following versions of NSA GRASSMARLIN are affected: GRASSMARLIN...",
@@ -265,13 +412,6 @@
       "link": "https://www.cisa.gov/news-events/alerts/2026/04/28/cisa-adds-two-known-exploited-vulnerabilities-catalog",
       "summary": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation. CVE-2024-1708 ConnectWise ScreenConnect Path Traversal...",
       "source": "CISA Alerts",
-      "published": "2026-04-28T12:00:00+00:00"
-    },
-    {
-      "title": "Sevii Launches Cyber Swarm Defense to Make Agentic AI Security Costs Predictable",
-      "link": "https://www.securityweek.com/sevii-launches-cyber-swarm-defense-to-make-agentic-ai-security-costs-predictable/",
-      "summary": "Agentic AI can be expensive to use, causing further and unpredictable pressure on tight budgets. The post Sevii Launches Cyber Swarm Defense to Make Agentic AI Security Costs Predictable appeared...",
-      "source": "SecurityWeek",
       "published": "2026-04-28T12:00:00+00:00"
     },
     {
@@ -305,8 +445,8 @@
     {
       "title": "Critical Unpatched Flaw Leaves Hugging Face LeRobot Open to Unauthenticated RCE",
       "link": "https://thehackernews.com/2026/04/critical-cve-2026-25874-leaves-hugging.html",
-      "summary": "Cybersecurity researchers have disclosed details of a critical security flaw impacting LeRobot, Hugging Face's open-source robotics platform with nearly 24,000 GitHub stars, that could be exploited...",
-      "source": "The Hacker News",
+      "summary": "Critical Unpatched Flaw Leaves Hugging Face LeRobot Open to Unauthenticated RCE Cybersecurity researchers have disclosed details of a critical security flaw impacting LeRobot, Hugging Face's...",
+      "source": "CVE Newsroom",
       "published": "2026-04-28T11:18:00+00:00"
     },
     {
@@ -345,20 +485,6 @@
       "published": "2026-04-28T10:20:13+00:00"
     },
     {
-      "title": "CVE-2026-41636 - Apache Thrift: Node.js skip() recursion",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-41636",
-      "summary": "CVE ID :CVE-2026-41636 Published : April 28, 2026, 10:16 a.m. | 8 hours, 40 minutes ago Description :Uncontrolled Recursion vulnerability in Apache Thrift Node.js bindings This issue affects Apache...",
-      "source": "CVE Feed",
-      "published": "2026-04-28T10:16:03+00:00"
-    },
-    {
-      "title": "CVE-2026-41604 - Apache Thrift: Swift Range crash in skip()",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-41604",
-      "summary": "CVE ID :CVE-2026-41604 Published : April 28, 2026, 10:16 a.m. | 8 hours, 40 minutes ago Description :Out-of-bounds Read vulnerability in Apache Thrift. This issue affects Apache Thrift: before...",
-      "source": "CVE Feed",
-      "published": "2026-04-28T10:16:03+00:00"
-    },
-    {
       "title": "Microsoft: New Remote Desktop warnings may display incorrectly",
       "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-new-remote-desktop-warnings-may-display-incorrectly/",
       "summary": "Microsoft has confirmed a new issue causing newly introduced Windows security warnings to display incorrectly when opening Remote Desktop (.rdp) files. [...]",
@@ -373,55 +499,6 @@
       "published": "2026-04-28T09:29:45+00:00"
     },
     {
-      "title": "CVE-2026-7248 - D-Link DI-8100 CGI Endpoint tgfile.htm tgfile_htm buffer overflow",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-7248",
-      "summary": "CVE ID :CVE-2026-7248 Published : April 28, 2026, 9:16 a.m. | 9 hours, 40 minutes ago Description :A vulnerability was found in D-Link DI-8100 16.07.26A1. This affects the function tgfile_htm of the...",
-      "source": "CVE Feed",
-      "published": "2026-04-28T09:16:18+00:00"
-    },
-    {
-      "title": "CVE-2026-7247 - D-Link DI-8100 File Extension file_exten.asp file_exten_asp buffer overflow",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-7247",
-      "summary": "CVE ID :CVE-2026-7247 Published : April 28, 2026, 9:16 a.m. | 9 hours, 40 minutes ago Description :A vulnerability has been found in D-Link DI-8100 16.07.26A1. Affected by this issue is the function...",
-      "source": "CVE Feed",
-      "published": "2026-04-28T09:16:18+00:00"
-    },
-    {
-      "title": "CVE-2026-7244 - Totolink A8000RU CGI cstecgi.cgi setWiFiEasyGuestCfg os command injection",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-7244",
-      "summary": "CVE ID :CVE-2026-7244 Published : April 28, 2026, 9:16 a.m. | 9 hours, 40 minutes ago Description :A security flaw has been discovered in Totolink A8000RU 7.1cu.643_b20200521. The impacted element is...",
-      "source": "CVE Feed",
-      "published": "2026-04-28T09:16:17+00:00"
-    },
-    {
-      "title": "CVE-2026-7243 - Totolink A8000RU CGI cstecgi.cgi setRadvdCfg os command injection",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-7243",
-      "summary": "CVE ID :CVE-2026-7243 Published : April 28, 2026, 9:16 a.m. | 9 hours, 40 minutes ago Description :A vulnerability was identified in Totolink A8000RU 7.1cu.643_b20200521. The affected element is the...",
-      "source": "CVE Feed",
-      "published": "2026-04-28T09:16:17+00:00"
-    },
-    {
-      "title": "CVE-2026-7242 - Totolink A8000RU CGI cstecgi.cgi setOpenVpnClientCfg os command injection",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-7242",
-      "summary": "CVE ID :CVE-2026-7242 Published : April 28, 2026, 9:16 a.m. | 9 hours, 40 minutes ago Description :A vulnerability was determined in Totolink A8000RU 7.1cu.643_b20200521. Impacted is the function...",
-      "source": "CVE Feed",
-      "published": "2026-04-28T09:16:17+00:00"
-    },
-    {
-      "title": "CVE-2026-7241 - Totolink A8000RU CGI cstecgi.cgi setWiFiBasicCfg os command injection",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-7241",
-      "summary": "CVE ID :CVE-2026-7241 Published : April 28, 2026, 9:16 a.m. | 9 hours, 40 minutes ago Description :A vulnerability was found in Totolink A8000RU 7.1cu.643_b20200521. This issue affects the function...",
-      "source": "CVE Feed",
-      "published": "2026-04-28T09:16:17+00:00"
-    },
-    {
-      "title": "CVE-2026-40978 - Spring AI CosmosDBVectorStore SQL Injection",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-40978",
-      "summary": "CVE ID :CVE-2026-40978 Published : April 28, 2026, 9:16 a.m. | 9 hours, 40 minutes ago Description :SQL injection vulnerability in Spring AI's `CosmosDBVectorStore` allows attackers to execute...",
-      "source": "CVE Feed",
-      "published": "2026-04-28T09:16:16+00:00"
-    },
-    {
       "title": "Microsoft asks iPhone users to reauthenticate after Outlook outage",
       "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-asks-iphone-users-to-re-enter-credentials-after-outlook-outage/",
       "summary": "After addressing a widespread outage that affected Outlook.com users worldwide on Monday, Microsoft has asked iPhone users to re-enter their credentials to regain access to their Outlook and Hotmail...",
@@ -429,39 +506,11 @@
       "published": "2026-04-28T08:37:12+00:00"
     },
     {
-      "title": "CVE-2026-7240 - Totolink A8000RU CGI cstecgi.cgi setVpnAccountCfg os command injection",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-7240",
-      "summary": "CVE ID :CVE-2026-7240 Published : April 28, 2026, 8:16 a.m. | 10 hours, 40 minutes ago Description :A vulnerability has been found in Totolink A8000RU 7.1cu.643_b20200521. This vulnerability affects...",
-      "source": "CVE Feed",
-      "published": "2026-04-28T08:16:02+00:00"
-    },
-    {
-      "title": "CVE-2024-54013 - Authentication Bypass",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2024-54013",
-      "summary": "CVE ID :CVE-2024-54013 Published : April 28, 2026, 8:16 a.m. | 10 hours, 40 minutes ago Description :Penetration Testing engineers at Amazon have identified a security flaw related to request...",
-      "source": "CVE Feed",
-      "published": "2026-04-28T08:16:01+00:00"
-    },
-    {
-      "title": "CVE-2024-54012 - Command Injection",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2024-54012",
-      "summary": "CVE ID :CVE-2024-54012 Published : April 28, 2026, 8:16 a.m. | 10 hours, 40 minutes ago Description :Penetration Testing engineers at Amazon discovered a vulnerability where the camera system failed...",
-      "source": "CVE Feed",
-      "published": "2026-04-28T08:16:01+00:00"
-    },
-    {
       "title": "Chinese Silk Typhoon Hacker Extradited to U.S. Over COVID Research Cyberattacks",
       "link": "https://thehackernews.com/2026/04/chinese-silk-typhoon-hacker-extradited.html",
       "summary": "A Chinese national accused of being a member of the Silk Typhoon hacking group has been extradited to the U.S. from Italy. Xu Zewei, 34, was arrested in July 2025 by Italian authorities for his...",
       "source": "The Hacker News",
       "published": "2026-04-28T07:57:00+00:00"
-    },
-    {
-      "title": "CVE-2026-40967 - Spring AI Unvalidated Filter Expression Converter Vulnerability (Code Injection)",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-40967",
-      "summary": "CVE ID :CVE-2026-40967 Published : April 28, 2026, 7:16 a.m. | 11 hours, 40 minutes ago Description :In Spring AI, various FilterExpressionConverter implementations accept a filter expression object...",
-      "source": "CVE Feed",
-      "published": "2026-04-28T07:16:03+00:00"
     },
     {
       "title": "Microsoft Patches Entra ID Role Flaw That Enabled Service Principal Takeover",
@@ -473,16 +522,9 @@
     {
       "title": "Microsoft Confirms Active Exploitation of Windows Shell CVE-2026-32202",
       "link": "https://thehackernews.com/2026/04/microsoft-confirms-active-exploitation.html",
-      "summary": "Microsoft on Monday revised its advisory for a now-patched, high-severity security flaw impacting Windows Shell to acknowledge that it has been actively exploited in the wild. The vulnerability in...",
-      "source": "The Hacker News",
+      "summary": "Microsoft Confirms Active Exploitation of Windows Shell CVE-2026-32202 Microsoft on Monday revised its advisory for a now-patched, high-severity security flaw impacting Windows Shell to acknowledge...",
+      "source": "CVE Newsroom",
       "published": "2026-04-28T05:50:00+00:00"
-    },
-    {
-      "title": "CVE-2026-7219 - Totolink N300RT formIpQoS buffer overflow",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-7219",
-      "summary": "CVE ID :CVE-2026-7219 Published : April 28, 2026, 4:16 a.m. | 14 hours, 40 minutes ago Description :A flaw has been found in Totolink N300RT 3.4.0-B20250430. This affects an unknown function of the...",
-      "source": "CVE Feed",
-      "published": "2026-04-28T04:16:23+00:00"
     },
     {
       "title": "China-linked hackers led phishing campaigns targeting journalists and activists, researchers say",
@@ -490,13 +532,6 @@
       "summary": "The aim of the campaigns was to steal credentials and likely enable “follow-on operations in the interest of the Chinese government,” the report said.",
       "source": "The Record",
       "published": "2026-04-28T04:00:00+00:00"
-    },
-    {
-      "title": "CVE-2026-7218 - Totolink N300RT libapmib.so formWsc is_cmd_string_valid buffer overflow",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-7218",
-      "summary": "CVE ID :CVE-2026-7218 Published : April 28, 2026, 3:16 a.m. | 15 hours, 40 minutes ago Description :A vulnerability was detected in Totolink N300RT 3.4.0-B20250430. The impacted element is the...",
-      "source": "CVE Feed",
-      "published": "2026-04-28T03:16:04+00:00"
     },
     {
       "title": "Injection Flaws (CVE-2026-40967 & 40978) Hit Spring AI Vector Stores",
@@ -604,25 +639,11 @@
       "published": "2026-04-27T14:54:39+00:00"
     },
     {
-      "title": "Home security giant ADT data breach affects 5.5 million people",
-      "link": "https://www.bleepingcomputer.com/news/security/home-security-giant-adt-data-breach-affects-55-million-people/",
-      "summary": "The ShinyHunters extortion group stole the personal information of 5.5 million individuals after breaching the systems of home security giant ADT earlier this month, according to data breach...",
-      "source": "BleepingComputer",
-      "published": "2026-04-27T14:43:11+00:00"
-    },
-    {
       "title": "The CVE Watchtower: Weekly Threat Intelligence Briefing (April 20 – April 26, 2026)",
       "link": "https://securityonline.info/weekly-vulnerability-digest-april-2026-ai-infrastructure-security/",
       "summary": "The CVE Watchtower: Weekly Threat Intelligence Briefing (April 20 – April 26, 2026) Welcome to your Monday morning vulnerability digest. As we close out the final full week of April, the global...",
       "source": "CVE Newsroom",
       "published": "2026-04-27T14:37:51+00:00"
-    },
-    {
-      "title": "Webinar: Spotting cyberattacks before they begin",
-      "link": "https://www.bleepingcomputer.com/news/security/webinar-spotting-cyberattacks-before-they-begin/",
-      "summary": "On Thursday, April 30 at 2:00 PM ET, BleepingComputer will host a live webinar with threat intelligence company Flare and threat intelligence researcher Tammy Harper, exploring how security teams can...",
-      "source": "BleepingComputer",
-      "published": "2026-04-27T14:25:35+00:00"
     },
     {
       "title": "Checkmarx Confirms GitHub Repository Data Posted on Dark Web After March 23 Attack",
@@ -634,8 +655,8 @@
     {
       "title": "⚡ Weekly Recap: Fast16 Malware, XChat Launch, Federal Backdoor, AI Employee Tracking & More",
       "link": "https://thehackernews.com/2026/04/weekly-recap-fast16-malware-xchat.html",
-      "summary": "Everything is dumb again. This week feels broken in a very familiar way. Old tricks are back. New tools are doing shady crap. Supply chains got hit. Fake help desks worked. Weird research showed how...",
-      "source": "The Hacker News",
+      "summary": "⚡ Weekly Recap: Fast16 Malware, XChat Launch, Federal Backdoor, AI Employee Tracking & More Everything is dumb again. This week feels broken in a very familiar way. Old tricks are back. New tools are...",
+      "source": "CVE Newsroom",
       "published": "2026-04-27T13:30:00+00:00"
     },
     {
@@ -1379,27 +1400,6 @@
       "summary": "Regulatory differences, interconnected digital ecosystems, and the rise of AI have created a complex supply chain Asian organizations must wrangle.",
       "source": "Dark Reading",
       "published": "2026-04-15T19:30:47+00:00"
-    },
-    {
-      "title": "Prepping for 'Q-Day': Why Quantum Risk Management Should Start Now",
-      "link": "https://www.darkreading.com/cyber-risk/preparing-q-day-quantum-risk-management",
-      "summary": "Quantum computers are coming and may impact systems in unexpected ways, and it will \"take years to be fully quantum-safe, if ever,\" cryptography expert warns.",
-      "source": "Dark Reading",
-      "published": "2026-04-15T15:12:01+00:00"
-    },
-    {
-      "title": "Audit: Big Tech Often Ignores CA Privacy Law Opt-Out Requests",
-      "link": "https://www.darkreading.com/cyber-risk/audit-big-tech-ignores-data-collection-requests",
-      "summary": "Google, Meta, and Microsoft about half the time don't comply with requests to opt out of online tracking per a California law mandate, privacy watchdog finds.",
-      "source": "Dark Reading",
-      "published": "2026-04-15T14:38:53+00:00"
-    },
-    {
-      "title": "Microsoft, Salesforce Patch AI Agent Data Leak Flaws",
-      "link": "https://www.darkreading.com/cloud-security/microsoft-salesforce-patch-ai-agent-data-leak-flaws",
-      "summary": "Two recently fixed prompt injections in Salesforce Agentforce and Microsoft Copilot would have enabled an external attacker to leak sensitive data.",
-      "source": "Dark Reading",
-      "published": "2026-04-15T12:00:00+00:00"
     }
   ]
 }
