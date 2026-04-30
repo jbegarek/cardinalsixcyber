@@ -1,6 +1,34 @@
 {
-  "last_updated": "2026-04-30T08:44:34.123543+00:00",
+  "last_updated": "2026-04-30T10:33:41.502743+00:00",
   "articles": [
+    {
+      "title": "‘Copy Fail’ Logic Flaw in Linux Kernel Enables System Takeover",
+      "link": "https://www.securityweek.com/copy-fail-logic-flaw-in-linux-kernel-enables-system-takeover/",
+      "summary": "Affecting the kernel’s authencesn cryptographic template, the vulnerability was introduced in 2017 and impacts all distributions. The post ‘Copy Fail’ Logic Flaw in Linux Kernel Enables System...",
+      "source": "SecurityWeek",
+      "published": "2026-04-30T10:06:00+00:00"
+    },
+    {
+      "title": "New Linux 'Copy Fail' Vulnerability Enables Root Access on Major Distributions",
+      "link": "https://thehackernews.com/2026/04/new-linux-copy-fail-vulnerability.html",
+      "summary": "Cybersecurity researchers have disclosed details of a Linux local privilege escalation (LPE) flaw that could allow an unprivileged local user to obtain root. The high-severity vulnerability tracked...",
+      "source": "The Hacker News",
+      "published": "2026-04-30T09:24:00+00:00"
+    },
+    {
+      "title": "NVIDIA Patches High-Severity “Prompt Injection” Flaw in NemoClaw",
+      "link": "https://securityonline.info/nvidia-nemoclaw-prompt-injection-ssrf-patch-v0-0-18/",
+      "summary": "NVIDIA Patches High-Severity “Prompt Injection” Flaw in NemoClaw NVIDIA has released a critical software update for NVIDIA NemoClaw, addressing a high-severity vulnerability that could allow remote...",
+      "source": "CVE Newsroom",
+      "published": "2026-04-30T09:01:01+00:00"
+    },
+    {
+      "title": "Kritiek beveiligingslek in cPanel en WHM actief misbruikt bij aanvallen",
+      "link": "https://www.security.nl/posting/934689/Kritiek+beveiligingslek+in+cPanel+en+WHM+actief+misbruikt+bij+aanvallen?channel=rss",
+      "summary": "Kritiek beveiligingslek in cPanel en WHM actief misbruikt bij aanvallen Een kritiek beveiligingslek in cPanel en WHM waardoor ongeauthenticeerde aanvallers admin-toegang tot systemen kunnen krijgen...",
+      "source": "CVE Newsroom",
+      "published": "2026-04-30T08:51:00+00:00"
+    },
     {
       "title": "Sandhills Medical Says Ransomware Breach Affects 170,000",
       "link": "https://www.securityweek.com/sandhills-medical-says-ransomware-breach-affects-170000/",
@@ -9,17 +37,45 @@
       "published": "2026-04-30T08:35:59+00:00"
     },
     {
+      "title": "Qinglong Task Scheduler RCE Vulnerabilities Exploited in the Wild",
+      "link": "https://cybersecuritynews.com/qinglong-task-scheduler-rce-vulnerabilities/",
+      "summary": "Qinglong Task Scheduler RCE Vulnerabilities Exploited in the Wild In early 2026, two critical authentication bypass vulnerabilities in the popular open-source Qinglong task scheduler were actively...",
+      "source": "CVE Newsroom",
+      "published": "2026-04-30T08:18:54+00:00"
+    },
+    {
+      "title": "CISA Warns of ConnectWise ScreenConnect Vulnerability Exploited in Attacks",
+      "link": "https://cybersecuritynews.com/connectwise-screenconnect-vulnerability/",
+      "summary": "CISA Warns of ConnectWise ScreenConnect Vulnerability Exploited in Attacks The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has issued an urgent warning regarding a severe...",
+      "source": "CVE Newsroom",
+      "published": "2026-04-30T08:05:47+00:00"
+    },
+    {
+      "title": "ProFTPD’s SQL Injection Vulnerability Enables Remote Code Execution Attacks",
+      "link": "https://cybersecuritynews.com/proftpds-sql-injection-vulnerability/",
+      "summary": "ProFTPD’s SQL Injection Vulnerability Enables Remote Code Execution Attacks A critical SQL injection vulnerability in ProFTPD, one of the Internet’s most widely deployed FTP servers. Tracked as...",
+      "source": "CVE Newsroom",
+      "published": "2026-04-30T07:54:54+00:00"
+    },
+    {
+      "title": "CVE-2026-5402 - Heap-based Buffer Overflow in Wireshark",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-5402",
+      "summary": "CVE ID :CVE-2026-5402 Published : April 30, 2026, 7:16 a.m. | 1 hour, 42 minutes ago Description :TLS protocol dissector heap overflow in Wireshark 4.6.0 to 4.6.4 allows denial of service and...",
+      "source": "CVE Feed",
+      "published": "2026-04-30T07:16:37+00:00"
+    },
+    {
       "title": "CVE-2024-39847 - Arbitrary File Read and Server Side Request Forgery via XML External Entities in 4D Server SOAP",
       "link": "https://cvefeed.io/vuln/detail/CVE-2024-39847",
-      "summary": "CVE ID :CVE-2024-39847 Published : April 30, 2026, 7:10 a.m. | 12 minutes ago Description :Unauthenticated attackers can exploit a weakness in the XML parser functionality of the SOAP endpoints in 4D...",
+      "summary": "CVE ID :CVE-2024-39847 Published : April 30, 2026, 7:16 a.m. | 1 hour, 42 minutes ago Description :Unauthenticated attackers can exploit a weakness in the XML parser functionality of the SOAP...",
       "source": "CVE Feed",
-      "published": "2026-04-30T07:10:17+00:00"
+      "published": "2026-04-30T07:16:36+00:00"
     },
     {
       "title": "Google Fixes CVSS 10 Gemini CLI CI RCE and Cursor Flaws Enable Code Execution",
       "link": "https://thehackernews.com/2026/04/google-fixes-cvss-10-gemini-cli-ci-rce.html",
-      "summary": "Google has addressed a maximum severity security flaw in Gemini CLI -- the \"@google/gemini-cli\" npm package and the \"google-github-actions/run-gemini-cli\" GitHub Actions workflow -- that could have...",
-      "source": "The Hacker News",
+      "summary": "Google Fixes CVSS 10 Gemini CLI CI RCE and Cursor Flaws Enable Code Execution Google has addressed a maximum severity security flaw in Gemini CLI -- the \"@google/gemini-cli\" npm package and the...",
+      "source": "CVE Newsroom",
       "published": "2026-04-30T07:07:00+00:00"
     },
     {
@@ -44,16 +100,9 @@
       "published": "2026-04-30T06:06:56+00:00"
     },
     {
-      "title": "CVE-2026-5402 - Heap-based Buffer Overflow in Wireshark",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-5402",
-      "summary": "CVE ID :CVE-2026-5402 Published : April 30, 2026, 5:39 a.m. | 1 hour, 43 minutes ago Description :TLS protocol dissector heap overflow in Wireshark 4.6.0 to 4.6.4 allows denial of service and...",
-      "source": "CVE Feed",
-      "published": "2026-04-30T05:39:14+00:00"
-    },
-    {
       "title": "CVE-2026-7470 - Tenda 4G300 SafeMacFilter sub_427C3C stack-based overflow",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-7470",
-      "summary": "CVE ID :CVE-2026-7470 Published : April 30, 2026, 3:16 a.m. | 4 hours, 6 minutes ago Description :A flaw has been found in Tenda 4G300 US_4G300V1.0Mt_V1.01.42_CN_TDC01. Affected is the function...",
+      "summary": "CVE ID :CVE-2026-7470 Published : April 30, 2026, 3:16 a.m. | 5 hours, 43 minutes ago Description :A flaw has been found in Tenda 4G300 US_4G300V1.0Mt_V1.01.42_CN_TDC01. Affected is the function...",
       "source": "CVE Feed",
       "published": "2026-04-30T03:16:01+00:00"
     },
@@ -109,14 +158,14 @@
     {
       "title": "CVE-2026-7420 - UTT HiPER 1250GW ConfigAdvideo strcpy buffer overflow",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-7420",
-      "summary": "CVE ID :CVE-2026-7420 Published : April 29, 2026, 11:16 p.m. | 8 hours, 6 minutes ago Description :A security flaw has been discovered in UTT HiPER 1250GW up to 3.2.7-210907-180535. Impacted is the...",
+      "summary": "CVE ID :CVE-2026-7420 Published : April 29, 2026, 11:16 p.m. | 9 hours, 43 minutes ago Description :A security flaw has been discovered in UTT HiPER 1250GW up to 3.2.7-210907-180535. Impacted is the...",
       "source": "CVE Feed",
       "published": "2026-04-29T23:16:20+00:00"
     },
     {
       "title": "CVE-2026-7419 - UTT HiPER 1250GW formTaskEdit_ap strcpy buffer overflow",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-7419",
-      "summary": "CVE ID :CVE-2026-7419 Published : April 29, 2026, 11:16 p.m. | 8 hours, 6 minutes ago Description :A vulnerability was identified in UTT HiPER 1250GW up to 3.2.7-210907-180535. This issue affects the...",
+      "summary": "CVE ID :CVE-2026-7419 Published : April 29, 2026, 11:16 p.m. | 9 hours, 43 minutes ago Description :A vulnerability was identified in UTT HiPER 1250GW up to 3.2.7-210907-180535. This issue affects...",
       "source": "CVE Feed",
       "published": "2026-04-29T23:16:20+00:00"
     },
@@ -137,7 +186,7 @@
     {
       "title": "CVE-2026-7418 - UTT HiPER 1250GW NTP strcpy buffer overflow",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-7418",
-      "summary": "CVE ID :CVE-2026-7418 Published : April 29, 2026, 10:16 p.m. | 9 hours, 6 minutes ago Description :A vulnerability was determined in UTT HiPER 1250GW up to 3.2.7-210907-180535. This vulnerability...",
+      "summary": "CVE ID :CVE-2026-7418 Published : April 29, 2026, 10:16 p.m. | 10 hours, 43 minutes ago Description :A vulnerability was determined in UTT HiPER 1250GW up to 3.2.7-210907-180535. This vulnerability...",
       "source": "CVE Feed",
       "published": "2026-04-29T22:16:22+00:00"
     },
@@ -165,105 +214,105 @@
     {
       "title": "CVE-2026-7426 - Out-of-Bounds Write via Unsanitized Prefix Length in Router Advertisement Processing in FreeRTOS-Plus-TCP",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-7426",
-      "summary": "CVE ID :CVE-2026-7426 Published : April 29, 2026, 8:16 p.m. | 11 hours, 6 minutes ago Description :Insufficient validation of the prefix length field in IPv6 Router Advertisement processing in...",
+      "summary": "CVE ID :CVE-2026-7426 Published : April 29, 2026, 8:16 p.m. | 12 hours, 42 minutes ago Description :Insufficient validation of the prefix length field in IPv6 Router Advertisement processing in...",
       "source": "CVE Feed",
       "published": "2026-04-29T20:16:32+00:00"
     },
     {
       "title": "CVE-2026-34965 - Cockpit CMS Authenticated Remote Code Execution via Collections",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-34965",
-      "summary": "CVE ID :CVE-2026-34965 Published : April 29, 2026, 8:16 p.m. | 11 hours, 6 minutes ago Description :Cockpit CMS contains an authenticated remote code execution vulnerability in the...",
+      "summary": "CVE ID :CVE-2026-34965 Published : April 29, 2026, 8:16 p.m. | 12 hours, 42 minutes ago Description :Cockpit CMS contains an authenticated remote code execution vulnerability in the...",
       "source": "CVE Feed",
       "published": "2026-04-29T20:16:29+00:00"
     },
     {
       "title": "CVE-2018-25318 - Tenda FH303/A300 V5.07.68_EN Cookie Session Weakness DNS Change",
       "link": "https://cvefeed.io/vuln/detail/CVE-2018-25318",
-      "summary": "CVE ID :CVE-2018-25318 Published : April 29, 2026, 8:16 p.m. | 11 hours, 6 minutes ago Description :Tenda FH303/A300 firmware V5.07.68_EN contains a session weakness vulnerability that allows...",
+      "summary": "CVE ID :CVE-2018-25318 Published : April 29, 2026, 8:16 p.m. | 12 hours, 42 minutes ago Description :Tenda FH303/A300 firmware V5.07.68_EN contains a session weakness vulnerability that allows...",
       "source": "CVE Feed",
       "published": "2026-04-29T20:16:27+00:00"
     },
     {
       "title": "CVE-2018-25317 - Tenda W3002R/A302/W309R V5.07.64_en Cookie Session Weakness DNS Change",
       "link": "https://cvefeed.io/vuln/detail/CVE-2018-25317",
-      "summary": "CVE ID :CVE-2018-25317 Published : April 29, 2026, 8:16 p.m. | 11 hours, 6 minutes ago Description :Tenda W3002R/A302/W309R wireless routers version V5.07.64_en contain a cookie session weakness...",
+      "summary": "CVE ID :CVE-2018-25317 Published : April 29, 2026, 8:16 p.m. | 12 hours, 42 minutes ago Description :Tenda W3002R/A302/W309R wireless routers version V5.07.64_en contain a cookie session weakness...",
       "source": "CVE Feed",
       "published": "2026-04-29T20:16:27+00:00"
     },
     {
       "title": "CVE-2018-25316 - Tenda W308R v2 V5.07.48 Cookie Session Weakness DNS Change",
       "link": "https://cvefeed.io/vuln/detail/CVE-2018-25316",
-      "summary": "CVE ID :CVE-2018-25316 Published : April 29, 2026, 8:16 p.m. | 11 hours, 6 minutes ago Description :Tenda W308R v2 V5.07.48 contains a cookie session weakness vulnerability that allows...",
+      "summary": "CVE ID :CVE-2018-25316 Published : April 29, 2026, 8:16 p.m. | 12 hours, 42 minutes ago Description :Tenda W308R v2 V5.07.48 contains a cookie session weakness vulnerability that allows...",
       "source": "CVE Feed",
       "published": "2026-04-29T20:16:27+00:00"
     },
     {
       "title": "CVE-2018-25315 - Alloksoft Video joiner 4.6.1217 Buffer Overflow via License Name",
       "link": "https://cvefeed.io/vuln/detail/CVE-2018-25315",
-      "summary": "CVE ID :CVE-2018-25315 Published : April 29, 2026, 8:16 p.m. | 11 hours, 6 minutes ago Description :Alloksoft Video joiner 4.6.1217 contains a buffer overflow vulnerability that allows local...",
+      "summary": "CVE ID :CVE-2018-25315 Published : April 29, 2026, 8:16 p.m. | 12 hours, 42 minutes ago Description :Alloksoft Video joiner 4.6.1217 contains a buffer overflow vulnerability that allows local...",
       "source": "CVE Feed",
       "published": "2026-04-29T20:16:27+00:00"
     },
     {
       "title": "CVE-2018-25314 - Allok soft WMV to AVI MPEG DVD WMV Converter 4.6.1217 Buffer Overflow",
       "link": "https://cvefeed.io/vuln/detail/CVE-2018-25314",
-      "summary": "CVE ID :CVE-2018-25314 Published : April 29, 2026, 8:16 p.m. | 11 hours, 6 minutes ago Description :Allok soft WMV to AVI MPEG DVD WMV Converter 4.6.1217 contains a buffer overflow vulnerability that...",
+      "summary": "CVE ID :CVE-2018-25314 Published : April 29, 2026, 8:16 p.m. | 12 hours, 42 minutes ago Description :Allok soft WMV to AVI MPEG DVD WMV Converter 4.6.1217 contains a buffer overflow vulnerability...",
       "source": "CVE Feed",
       "published": "2026-04-29T20:16:27+00:00"
     },
     {
       "title": "CVE-2018-25308 - BuddyPress Xprofile Custom Fields Type 2.6.3 Remote Code Execution",
       "link": "https://cvefeed.io/vuln/detail/CVE-2018-25308",
-      "summary": "CVE ID :CVE-2018-25308 Published : April 29, 2026, 8:16 p.m. | 11 hours, 6 minutes ago Description :BuddyPress Xprofile Custom Fields Type 2.6.3 contains a remote code execution vulnerability that...",
+      "summary": "CVE ID :CVE-2018-25308 Published : April 29, 2026, 8:16 p.m. | 12 hours, 43 minutes ago Description :BuddyPress Xprofile Custom Fields Type 2.6.3 contains a remote code execution vulnerability that...",
       "source": "CVE Feed",
       "published": "2026-04-29T20:16:26+00:00"
     },
     {
       "title": "CVE-2018-25307 - SysGauge Pro 4.6.12 Local Buffer Overflow SEH",
       "link": "https://cvefeed.io/vuln/detail/CVE-2018-25307",
-      "summary": "CVE ID :CVE-2018-25307 Published : April 29, 2026, 8:16 p.m. | 11 hours, 6 minutes ago Description :SysGauge Pro 4.6.12 contains a local buffer overflow vulnerability in the Register function that...",
+      "summary": "CVE ID :CVE-2018-25307 Published : April 29, 2026, 8:16 p.m. | 12 hours, 43 minutes ago Description :SysGauge Pro 4.6.12 contains a local buffer overflow vulnerability in the Register function that...",
       "source": "CVE Feed",
       "published": "2026-04-29T20:16:26+00:00"
     },
     {
       "title": "CVE-2018-25304 - Free Download Manager 2.0 Built 417 Local Buffer Overflow SEH",
       "link": "https://cvefeed.io/vuln/detail/CVE-2018-25304",
-      "summary": "CVE ID :CVE-2018-25304 Published : April 29, 2026, 8:16 p.m. | 11 hours, 6 minutes ago Description :Free Download Manager 2.0 Built 417 contains a local buffer overflow vulnerability in the URL...",
+      "summary": "CVE ID :CVE-2018-25304 Published : April 29, 2026, 8:16 p.m. | 12 hours, 43 minutes ago Description :Free Download Manager 2.0 Built 417 contains a local buffer overflow vulnerability in the URL...",
       "source": "CVE Feed",
       "published": "2026-04-29T20:16:25+00:00"
     },
     {
       "title": "CVE-2018-25303 - Allok Video to DVD Burner 2.6.1217 Buffer Overflow SEH",
       "link": "https://cvefeed.io/vuln/detail/CVE-2018-25303",
-      "summary": "CVE ID :CVE-2018-25303 Published : April 29, 2026, 8:16 p.m. | 11 hours, 6 minutes ago Description :Allok Video to DVD Burner 2.6.1217 contains a stack-based buffer overflow vulnerability in the...",
+      "summary": "CVE ID :CVE-2018-25303 Published : April 29, 2026, 8:16 p.m. | 12 hours, 43 minutes ago Description :Allok Video to DVD Burner 2.6.1217 contains a stack-based buffer overflow vulnerability in the...",
       "source": "CVE Feed",
       "published": "2026-04-29T20:16:25+00:00"
     },
     {
       "title": "CVE-2018-25302 - Allok AVI to DVD SVCD VCD Converter 4.0.1217 Buffer Overflow SEH",
       "link": "https://cvefeed.io/vuln/detail/CVE-2018-25302",
-      "summary": "CVE ID :CVE-2018-25302 Published : April 29, 2026, 8:16 p.m. | 11 hours, 6 minutes ago Description :Allok AVI to DVD SVCD VCD Converter 4.0.1217 contains a structured exception handling (SEH) based...",
+      "summary": "CVE ID :CVE-2018-25302 Published : April 29, 2026, 8:16 p.m. | 12 hours, 43 minutes ago Description :Allok AVI to DVD SVCD VCD Converter 4.0.1217 contains a structured exception handling (SEH) based...",
       "source": "CVE Feed",
       "published": "2026-04-29T20:16:25+00:00"
     },
     {
       "title": "CVE-2018-25301 - Easy MPEG to DVD Burner 1.7.11 SEH Local Buffer Overflow",
       "link": "https://cvefeed.io/vuln/detail/CVE-2018-25301",
-      "summary": "CVE ID :CVE-2018-25301 Published : April 29, 2026, 8:16 p.m. | 11 hours, 6 minutes ago Description :Easy MPEG to DVD Burner 1.7.11 contains a structured exception handling (SEH) local buffer overflow...",
+      "summary": "CVE ID :CVE-2018-25301 Published : April 29, 2026, 8:16 p.m. | 12 hours, 43 minutes ago Description :Easy MPEG to DVD Burner 1.7.11 contains a structured exception handling (SEH) local buffer...",
       "source": "CVE Feed",
       "published": "2026-04-29T20:16:25+00:00"
     },
     {
       "title": "CVE-2018-25300 - XATABoost CMS 1.0.0 SQL Injection via news.php",
       "link": "https://cvefeed.io/vuln/detail/CVE-2018-25300",
-      "summary": "CVE ID :CVE-2018-25300 Published : April 29, 2026, 8:16 p.m. | 11 hours, 6 minutes ago Description :XATABoost CMS 1.0.0 contains a union-based SQL injection vulnerability that allows unauthenticated...",
+      "summary": "CVE ID :CVE-2018-25300 Published : April 29, 2026, 8:16 p.m. | 12 hours, 43 minutes ago Description :XATABoost CMS 1.0.0 contains a union-based SQL injection vulnerability that allows unauthenticated...",
       "source": "CVE Feed",
       "published": "2026-04-29T20:16:25+00:00"
     },
     {
       "title": "CVE-2018-25299 - Prime95 29.4b8 Local Buffer Overflow via SEH",
       "link": "https://cvefeed.io/vuln/detail/CVE-2018-25299",
-      "summary": "CVE ID :CVE-2018-25299 Published : April 29, 2026, 8:16 p.m. | 11 hours, 6 minutes ago Description :Prime95 29.4b8 contains a local buffer overflow vulnerability that allows attackers to execute...",
+      "summary": "CVE ID :CVE-2018-25299 Published : April 29, 2026, 8:16 p.m. | 12 hours, 43 minutes ago Description :Prime95 29.4b8 contains a local buffer overflow vulnerability that allows attackers to execute...",
       "source": "CVE Feed",
       "published": "2026-04-29T20:16:25+00:00"
     },
@@ -284,21 +333,21 @@
     {
       "title": "CVE-2026-7466 - AgentFlow Arbitrary Python Pipeline Execution via pipeline_path",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-7466",
-      "summary": "CVE ID :CVE-2026-7466 Published : April 29, 2026, 7:16 p.m. | 12 hours, 6 minutes ago Description :AgentFlow contains an arbitrary code execution vulnerability that allows attackers to execute local...",
+      "summary": "CVE ID :CVE-2026-7466 Published : April 29, 2026, 7:16 p.m. | 13 hours, 42 minutes ago Description :AgentFlow contains an arbitrary code execution vulnerability that allows attackers to execute local...",
       "source": "CVE Feed",
       "published": "2026-04-29T19:16:27+00:00"
     },
     {
       "title": "CVE-2026-7424 - Integer Underflow in DHCPv6 Sub-Option Parser in FreeRTOS-Plus-TCP",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-7424",
-      "summary": "CVE ID :CVE-2026-7424 Published : April 29, 2026, 7:16 p.m. | 12 hours, 6 minutes ago Description :Integer underflow in the DHCPv6 sub-option parser in FreeRTOS-Plus-TCP before V4.4.1 and V4.2.6...",
+      "summary": "CVE ID :CVE-2026-7424 Published : April 29, 2026, 7:16 p.m. | 13 hours, 43 minutes ago Description :Integer underflow in the DHCPv6 sub-option parser in FreeRTOS-Plus-TCP before V4.4.1 and V4.2.6...",
       "source": "CVE Feed",
       "published": "2026-04-29T19:16:26+00:00"
     },
     {
       "title": "CVE-2026-30893 - Wazuh cluster sync path traversal in decompress_files() enables arbitrary file write and code execution from authenticated cluster peer",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-30893",
-      "summary": "CVE ID :CVE-2026-30893 Published : April 29, 2026, 7:16 p.m. | 12 hours, 6 minutes ago Description :Wazuh is a free and open source platform used for threat prevention, detection, and response. From...",
+      "summary": "CVE ID :CVE-2026-30893 Published : April 29, 2026, 7:16 p.m. | 13 hours, 43 minutes ago Description :Wazuh is a free and open source platform used for threat prevention, detection, and response. From...",
       "source": "CVE Feed",
       "published": "2026-04-29T19:16:23+00:00"
     },
@@ -319,7 +368,7 @@
     {
       "title": "CVE-2026-5712 - IdentityIQ Role Editor Incorrect Authorization Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-5712",
-      "summary": "CVE ID :CVE-2026-5712 Published : April 29, 2026, 6:16 p.m. | 13 hours, 6 minutes ago Description :This vulnerability impacts all versions of IdentityIQ and allows an authenticated identity that is...",
+      "summary": "CVE ID :CVE-2026-5712 Published : April 29, 2026, 6:16 p.m. | 14 hours, 43 minutes ago Description :This vulnerability impacts all versions of IdentityIQ and allows an authenticated identity that is...",
       "source": "CVE Feed",
       "published": "2026-04-29T18:16:05+00:00"
     },
@@ -492,25 +541,11 @@
       "published": "2026-04-29T11:30:00+00:00"
     },
     {
-      "title": "Critical Chrome Vulnerabilities Enables Remote Code Execution Attacks",
-      "link": "https://cybersecuritynews.com/chrome-vulnerabilities-2/",
-      "summary": "Critical Chrome Vulnerabilities Enables Remote Code Execution Attacks Google has released a critical security update for its Chrome desktop browser to address 30 security vulnerabilities, including...",
-      "source": "CVE Newsroom",
-      "published": "2026-04-29T11:21:52+00:00"
-    },
-    {
       "title": "Checkmarx Confirms Data Stolen in Supply Chain Attack",
       "link": "https://www.securityweek.com/checkmarx-confirms-data-stolen-in-supply-chain-attack/",
       "summary": "The hackers exfiltrated the data from Checkmarx’s GitHub environment on March 30, a week after publishing malicious code. The post Checkmarx Confirms Data Stolen in Supply Chain Attack appeared first...",
       "source": "SecurityWeek",
       "published": "2026-04-29T11:03:03+00:00"
-    },
-    {
-      "title": "Vulnerabilities in Ollama software",
-      "link": "https://cert.pl/en/posts/2026/04/CVE-2026-42248/",
-      "summary": "Vulnerabilities in Ollama software Vulnerabilities in Ollama software CVE ID CVE-2026-42248 Publication date 29 April 2026 Vendor Ollama Product Ollama Vulnerable versions From 0.12.10 through 0.17.5...",
-      "source": "CVE Newsroom",
-      "published": "2026-04-29T10:55:00+00:00"
     },
     {
       "title": "Iranian Cyber Group Handala Targets US Troops in Bahrain",
@@ -534,13 +569,6 @@
       "published": "2026-04-29T09:54:17+00:00"
     },
     {
-      "title": "GitHub Fixes Critical RCE Bug CVE-2026-3854 Within Hours of Discovery",
-      "link": "https://thecyberexpress.com/cve-2026-3854-rce-github-enterprise-server/",
-      "summary": "GitHub Fixes Critical RCE Bug CVE-2026-3854 Within Hours of Discovery Cybersecurity researchers have revealed critical details about a newly identified RCE vulnerability, tracked as CVE-2026-3854...",
-      "source": "CVE Newsroom",
-      "published": "2026-04-29T09:51:54+00:00"
-    },
-    {
       "title": "Critical cPanel Authentication Vulnerability Identified — Update Your Server Immediately",
       "link": "https://thehackernews.com/2026/04/critical-cpanel-authentication.html",
       "summary": "cPanel has released security updates to address a security issue impacting various authentication paths that could allow an attacker to obtain access to the control panel software. The problem...",
@@ -557,8 +585,8 @@
     {
       "title": "CISA Adds Actively Exploited ConnectWise and Windows Flaws to KEV",
       "link": "https://thehackernews.com/2026/04/cisa-adds-actively-exploited.html",
-      "summary": "CISA Adds Actively Exploited ConnectWise and Windows Flaws to KEV The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added two security flaws impacting ConnectWise...",
-      "source": "CVE Newsroom",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added two security flaws impacting ConnectWise ScreenConnect and Microsoft Windows to its Known Exploited Vulnerabilities...",
+      "source": "The Hacker News",
       "published": "2026-04-29T08:46:00+00:00"
     },
     {
@@ -578,16 +606,9 @@
     {
       "title": "LiteLLM CVE-2026-42208 SQL Injection Exploited within 36 Hours of Disclosure",
       "link": "https://thehackernews.com/2026/04/litellm-cve-2026-42208-sql-injection.html",
-      "summary": "LiteLLM CVE-2026-42208 SQL Injection Exploited within 36 Hours of Disclosure In yet another instance of threat actors quickly jumping on the exploitation bandwagon, a newly disclosed critical...",
-      "source": "CVE Newsroom",
+      "summary": "In yet another instance of threat actors quickly jumping on the exploitation bandwagon, a newly disclosed critical security flaw in BerriAI's LiteLLM Python package has come under active exploitation...",
+      "source": "The Hacker News",
       "published": "2026-04-29T05:34:00+00:00"
-    },
-    {
-      "title": "CISA adds Two vulnerabilities to KEV catalog",
-      "link": "https://thecyberthrone.in/2026/04/29/cisa-adds-two-vulnerabilities-to-kev-catalog-2/",
-      "summary": "CISA adds Two vulnerabilities to KEV catalog April 29, 2026CISA has added two vulnerabilities to its Known Exploited Vulnerabilities catalog based on evidence of active exploitation — CVE-2024-1708...",
-      "source": "CVE Newsroom",
-      "published": "2026-04-29T02:55:02+00:00"
     },
     {
       "title": "BlueNoroff Uses Fake Zoom Calls to Turn Victims Into Attack Lures",
@@ -665,13 +686,6 @@
       "summary": "Army Gen. Joshua Rudd told lawmakers “we are postured and ready to support as required or tasked, making sure that we safeguard our elections.”",
       "source": "The Record",
       "published": "2026-04-28T17:26:00+00:00"
-    },
-    {
-      "title": "Vimeo Confirms User and Customer Data Breach",
-      "link": "https://www.securityweek.com/vimeo-confirms-user-and-customer-data-breach/",
-      "summary": "The ShinyHunters group is threatening to leak stolen files unless Vimeo agrees to pay a ransom. The post Vimeo Confirms User and Customer Data Breach appeared first on SecurityWeek.",
-      "source": "SecurityWeek",
-      "published": "2026-04-28T17:11:55+00:00"
     },
     {
       "title": "US reportedly charges Scattered Spider hacker arrested in Finland",
@@ -1220,13 +1234,6 @@
       "published": "2026-04-21T14:53:59+00:00"
     },
     {
-      "title": "Ransomware Negotiator Pleads Guilty to Aiding BlackCat Attacks in 2023",
-      "link": "https://thehackernews.com/2026/04/ransomware-negotiator-pleads-guilty-to.html",
-      "summary": "A third individual who was employed as a ransomware negotiator has pleaded guilty to conducting ransomware attacks against U.S. companies in 2023. Angelo Martino, 41, of Land O'Lakes, Florida, teamed...",
-      "source": "The Hacker News",
-      "published": "2026-04-21T14:31:00+00:00"
-    },
-    {
       "title": "Siemens SINEC NMS",
       "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-111-03",
       "summary": "View CSAF Summary Siemens SINEC NMS when used with User Management Component (UMC) contains an authentication bypass vulnerability due to insufficient validation of user identity. This could allow an...",
@@ -1393,13 +1400,6 @@
       "summary": "Sapphire Sleet uses fake job offers and phony Zoom updates to deliver ClickFix attacks that steal credentials and sensitive data from Macs.",
       "source": "Dark Reading",
       "published": "2026-04-16T19:42:45+00:00"
-    },
-    {
-      "title": "'Harmless' Global Adware Transforms Into an AV Killer",
-      "link": "https://www.darkreading.com/cyberattacks-data-breaches/harmless-global-adware-av-killer",
-      "summary": "A benign looking update Dragon Boss pushed out in March 2025 established persistence via scheduled tasks and arranged for future payloads to be excluded from Windows Defender.",
-      "source": "Dark Reading",
-      "published": "2026-04-16T19:07:26+00:00"
     }
   ]
 }
