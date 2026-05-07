@@ -1,24 +1,59 @@
 {
-  "last_updated": "2026-05-07T20:26:44.846932+00:00",
+  "last_updated": "2026-05-07T22:21:36.966739+00:00",
   "articles": [
+    {
+      "title": "New TCLBanker malware self-spreads over WhatsApp and Outlook",
+      "link": "https://www.bleepingcomputer.com/news/security/new-tclbanker-malware-self-spreads-over-whatsapp-and-outlook/",
+      "summary": "A new trojan named TCLBanker, which targets 59 banking, fintech, and cryptocurrency platforms, uses a trojanized MSI installer for Logitech AI Prompt Builder to infect systems. [...]",
+      "source": "BleepingComputer",
+      "published": "2026-05-07T22:06:52+00:00"
+    },
+    {
+      "title": "Iranian government hackers using Chaos ransomware as cover, researchers say",
+      "link": "https://therecord.media/iran-government-hackers-use-chaos-ransomware-as-cover",
+      "summary": "Incident responders from cybersecurity firm Rapid7 published a report about a recent intrusion that initially appeared to be a Chaos ransomware attack but was later discovered to be an attack...",
+      "source": "The Record",
+      "published": "2026-05-07T21:30:00+00:00"
+    },
+    {
+      "title": "After Replacing TeamPCP Malware, 'PCPJack' Steals Cloud Secrets",
+      "link": "https://www.darkreading.com/cloud-security/teampcp-malware-pcpjack-steals-cloud-secrets",
+      "summary": "PCPJack makes innovative use of parquet files for stealthy, pre-validated target discovery as it canvasses multiple cloud environments.",
+      "source": "Dark Reading",
+      "published": "2026-05-07T20:43:30+00:00"
+    },
+    {
+      "title": "CVE-2026-42239 - Budibase auth session cookies are set with httpOnly:false — any XSS can lead to full account takeover",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-42239",
+      "summary": "CVE ID :CVE-2026-42239 Published : May 7, 2026, 8:16 p.m. | 22 minutes ago Description :Budibase is an open-source low-code platform. Prior to version 3.35.10, the budibase:auth cookie containing the...",
+      "source": "CVE Feed",
+      "published": "2026-05-07T20:16:44+00:00"
+    },
+    {
+      "title": "CVE-2026-42225 - GnuTLS backend silently skips certificate chain verification when verify_peer is false",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-42225",
+      "summary": "CVE ID :CVE-2026-42225 Published : May 7, 2026, 8:16 p.m. | 22 minutes ago Description :PJSIP is a free and open source multimedia communication library written in C. Prior to version 2.17, on GnuTLS...",
+      "source": "CVE Feed",
+      "published": "2026-05-07T20:16:43+00:00"
+    },
     {
       "title": "CVE-2026-42284 - GitPython: Unsafe option check validates multi_options before shlex.split transforms it",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-42284",
-      "summary": "CVE ID :CVE-2026-42284 Published : May 7, 2026, 7:16 p.m. | 31 minutes ago Description :GitPython is a python library used to interact with Git repositories. Prior to version 3.1.47, _clone()...",
+      "summary": "CVE ID :CVE-2026-42284 Published : May 7, 2026, 7:16 p.m. | 1 hour, 22 minutes ago Description :GitPython is a python library used to interact with Git repositories. Prior to version 3.1.47, _clone()...",
       "source": "CVE Feed",
       "published": "2026-05-07T19:16:01+00:00"
     },
     {
       "title": "CVE-2026-42215 - GitPython: Command injection via Git options bypass",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-42215",
-      "summary": "CVE ID :CVE-2026-42215 Published : May 7, 2026, 7:16 p.m. | 31 minutes ago Description :GitPython is a python library used to interact with Git repositories. From version 3.1.30 to before version...",
+      "summary": "CVE ID :CVE-2026-42215 Published : May 7, 2026, 7:16 p.m. | 1 hour, 22 minutes ago Description :GitPython is a python library used to interact with Git repositories. From version 3.1.30 to before...",
       "source": "CVE Feed",
       "published": "2026-05-07T19:16:01+00:00"
     },
     {
       "title": "CVE-2026-41902 - FreeScout's user invitation hash never expires: permanent unauthenticated account takeover if invite link leaks",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-41902",
-      "summary": "CVE ID :CVE-2026-41902 Published : May 7, 2026, 7:16 p.m. | 31 minutes ago Description :FreeScout is a free help desk and shared inbox built with PHP's Laravel framework. Prior to version 1.8.217...",
+      "summary": "CVE ID :CVE-2026-41902 Published : May 7, 2026, 7:16 p.m. | 1 hour, 22 minutes ago Description :FreeScout is a free help desk and shared inbox built with PHP's Laravel framework. Prior to version...",
       "source": "CVE Feed",
       "published": "2026-05-07T19:16:00+00:00"
     },
@@ -46,7 +81,7 @@
     {
       "title": "CVE-2026-37709 - Snipe-IT Insecure Permissions Code Execution Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-37709",
-      "summary": "CVE ID :CVE-2026-37709 Published : May 7, 2026, 6:16 p.m. | 1 hour, 31 minutes ago Description :Insecure Permissions vulnerability in grokability snipe-it v.8.4.0 and before and fixed after...",
+      "summary": "CVE ID :CVE-2026-37709 Published : May 7, 2026, 6:16 p.m. | 2 hours, 22 minutes ago Description :Insecure Permissions vulnerability in grokability snipe-it v.8.4.0 and before and fixed after...",
       "source": "CVE Feed",
       "published": "2026-05-07T18:16:19+00:00"
     },
@@ -60,28 +95,28 @@
     {
       "title": "Ivanti EPMM CVE-2026-6973 RCE Under Active Exploitation Grants Admin-Level Access",
       "link": "https://thehackernews.com/2026/05/ivanti-epmm-cve-2026-6973-rce-under.html",
-      "summary": "Ivanti EPMM CVE-2026-6973 RCE Under Active Exploitation Grants Admin-Level Access Ivanti is warning that a new security flaw impacting Endpoint Manager Mobile (EPMM) has been explored in limited...",
-      "source": "CVE Newsroom",
+      "summary": "Ivanti is warning that a new security flaw impacting Endpoint Manager Mobile (EPMM) has been explored in limited attacks in the wild. The high-severity vulnerability, CVE-2026-6973 (CVSS score: 7.2)...",
+      "source": "The Hacker News",
       "published": "2026-05-07T17:55:00+00:00"
     },
     {
       "title": "PCPJack Credential Stealer Exploits 5 CVEs to Spread Worm-Like Across Cloud Systems",
       "link": "https://thehackernews.com/2026/05/pcpjack-credential-stealer-exploits-5.html",
-      "summary": "PCPJack Credential Stealer Exploits 5 CVEs to Spread Worm-Like Across Cloud Systems Cybersecurity researchers have disclosed details of a new credential theft framework dubbed PCPJack that targets...",
-      "source": "CVE Newsroom",
+      "summary": "Cybersecurity researchers have disclosed details of a new credential theft framework dubbed PCPJack that targets exposed cloud infrastructure and ousts any artifacts linked to TeamPCP from the...",
+      "source": "The Hacker News",
       "published": "2026-05-07T17:45:00+00:00"
     },
     {
       "title": "CVE-2026-7415 - Open MQTT orchestration without read/write ACLs in Yarbo robot firmware",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-7415",
-      "summary": "CVE ID :CVE-2026-7415 Published : May 7, 2026, 5:15 p.m. | 2 hours, 31 minutes ago Description :The MQTT broker embedded in Yarbo firmware v2.3.9 is configured to allow anonymous connections with no...",
+      "summary": "CVE ID :CVE-2026-7415 Published : May 7, 2026, 5:15 p.m. | 3 hours, 22 minutes ago Description :The MQTT broker embedded in Yarbo firmware v2.3.9 is configured to allow anonymous connections with no...",
       "source": "CVE Feed",
       "published": "2026-05-07T17:15:59+00:00"
     },
     {
       "title": "CVE-2026-7414 - Hardcoded credentials in Yarbo robot firmware",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-7414",
-      "summary": "CVE ID :CVE-2026-7414 Published : May 7, 2026, 5:15 p.m. | 2 hours, 31 minutes ago Description :Yarbo firmware v2.3.9 contains hardcoded administrative credentials embedded in the firmware image...",
+      "summary": "CVE ID :CVE-2026-7414 Published : May 7, 2026, 5:15 p.m. | 3 hours, 22 minutes ago Description :Yarbo firmware v2.3.9 contains hardcoded administrative credentials embedded in the firmware image...",
       "source": "CVE Feed",
       "published": "2026-05-07T17:15:59+00:00"
     },
@@ -93,16 +128,30 @@
       "published": "2026-05-07T16:29:53+00:00"
     },
     {
+      "title": "CVE-2026-7821 - Ivanti EPMM Certificate Validation Vulnerability (Information Disclosure)",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-7821",
+      "summary": "CVE ID :CVE-2026-7821 Published : May 7, 2026, 4:16 p.m. | 4 hours, 22 minutes ago Description :Improper certificate validation in Ivanti EPMM before versions 12.6.1.1, 12.7.0.1, and 12.8.0.1 allows...",
+      "source": "CVE Feed",
+      "published": "2026-05-07T16:16:23+00:00"
+    },
+    {
+      "title": "CVE-2026-5788 - Ivanti EPMM Improper Access Control Remote Code Execution",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-5788",
+      "summary": "CVE ID :CVE-2026-5788 Published : May 7, 2026, 4:16 p.m. | 4 hours, 22 minutes ago Description :An Improper Access Control in Ivanti EPMM before versions 12.6.1.1, 12.7.0.1, and 12.8.0.1 allows a...",
+      "source": "CVE Feed",
+      "published": "2026-05-07T16:16:22+00:00"
+    },
+    {
       "title": "CVE-2026-5787 - Ivanti EPMM Certificate Validation Vulnerability (Certificate Impersonation)",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-5787",
-      "summary": "CVE ID :CVE-2026-5787 Published : May 7, 2026, 4:16 p.m. | 3 hours, 31 minutes ago Description :An Improper Certificate Validation in Ivanti EPMM before versions 12.6.1.1, 12.7.0.1, and 12.8.0.1...",
+      "summary": "CVE ID :CVE-2026-5787 Published : May 7, 2026, 4:16 p.m. | 4 hours, 22 minutes ago Description :An Improper Certificate Validation in Ivanti EPMM before versions 12.6.1.1, 12.7.0.1, and 12.8.0.1...",
       "source": "CVE Feed",
       "published": "2026-05-07T16:16:22+00:00"
     },
     {
       "title": "CVE-2026-5786 - Ivanti EPMM Improper Access Control Remote Authentication Bypass",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-5786",
-      "summary": "CVE ID :CVE-2026-5786 Published : May 7, 2026, 4:16 p.m. | 3 hours, 31 minutes ago Description :An Improper Access Control vulnerability in Ivanti EPMM before versions 12.6.1.1, 12.7.0.1, and...",
+      "summary": "CVE ID :CVE-2026-5786 Published : May 7, 2026, 4:16 p.m. | 4 hours, 22 minutes ago Description :An Improper Access Control vulnerability in Ivanti EPMM before versions 12.6.1.1, 12.7.0.1, and...",
       "source": "CVE Feed",
       "published": "2026-05-07T16:16:22+00:00"
     },
@@ -151,14 +200,14 @@
     {
       "title": "CVE-2026-41505 - RELATE: Predictable Token Generation in auth.py and exam.py",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-41505",
-      "summary": "CVE ID :CVE-2026-41505 Published : May 7, 2026, 3:16 p.m. | 4 hours, 31 minutes ago Description :RELATE is a web-based courseware package. Prior to commit 2f68e16, RELATE is vulnerable to predictable...",
+      "summary": "CVE ID :CVE-2026-41505 Published : May 7, 2026, 3:16 p.m. | 5 hours, 22 minutes ago Description :RELATE is a web-based courseware package. Prior to commit 2f68e16, RELATE is vulnerable to predictable...",
       "source": "CVE Feed",
       "published": "2026-05-07T15:16:07+00:00"
     },
     {
       "title": "CVE-2026-41422 - Daptin vulnerable to SQL injection via unvalidated goqu.L() calls in aggregate API",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-41422",
-      "summary": "CVE ID :CVE-2026-41422 Published : May 7, 2026, 3:16 p.m. | 4 hours, 31 minutes ago Description :Daptin is a GraphQL/JSON-API headless CMS. Prior to version 0.11.4, the /aggregate/:typename endpoint...",
+      "summary": "CVE ID :CVE-2026-41422 Published : May 7, 2026, 3:16 p.m. | 5 hours, 22 minutes ago Description :Daptin is a GraphQL/JSON-API headless CMS. Prior to version 0.11.4, the /aggregate/:typename endpoint...",
       "source": "CVE Feed",
       "published": "2026-05-07T15:16:06+00:00"
     },
@@ -193,28 +242,28 @@
     {
       "title": "CVE-2026-6795 - Open Redirect in DivvyDrive Information Technologies' DivvyDrive",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-6795",
-      "summary": "CVE ID :CVE-2026-6795 Published : May 7, 2026, 2:16 p.m. | 5 hours, 31 minutes ago Description :URL redirection to untrusted site ('open redirect') vulnerability in DivvyDrive Information...",
+      "summary": "CVE ID :CVE-2026-6795 Published : May 7, 2026, 2:16 p.m. | 6 hours, 22 minutes ago Description :URL redirection to untrusted site ('open redirect') vulnerability in DivvyDrive Information...",
       "source": "CVE Feed",
       "published": "2026-05-07T14:16:04+00:00"
     },
     {
       "title": "CVE-2026-41589 - Wish has SCP Path Traversal that allows arbitrary file read/write",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-41589",
-      "summary": "CVE ID :CVE-2026-41589 Published : May 7, 2026, 2:16 p.m. | 5 hours, 31 minutes ago Description :Wish is an SSH server with defaults and a collection of middlewares. From version 2.0.0 to before...",
+      "summary": "CVE ID :CVE-2026-41589 Published : May 7, 2026, 2:16 p.m. | 6 hours, 22 minutes ago Description :Wish is an SSH server with defaults and a collection of middlewares. From version 2.0.0 to before...",
       "source": "CVE Feed",
       "published": "2026-05-07T14:16:02+00:00"
     },
     {
       "title": "CVE-2026-41490 - Dagster Vulnerable to SQL Injection via Dynamic Partition Keys in Database I/O Manager Integrations",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-41490",
-      "summary": "CVE ID :CVE-2026-41490 Published : May 7, 2026, 2:16 p.m. | 5 hours, 31 minutes ago Description :Dagster is an orchestration platform for the development, production, and observation of data assets...",
+      "summary": "CVE ID :CVE-2026-41490 Published : May 7, 2026, 2:16 p.m. | 6 hours, 22 minutes ago Description :Dagster is an orchestration platform for the development, production, and observation of data assets...",
       "source": "CVE Feed",
       "published": "2026-05-07T14:16:02+00:00"
     },
     {
       "title": "CVE-2025-14341 - Input Data Manipulation in DivvyDrive Information Technologies' DivvyDrive",
       "link": "https://cvefeed.io/vuln/detail/CVE-2025-14341",
-      "summary": "CVE ID :CVE-2025-14341 Published : May 7, 2026, 2:16 p.m. | 5 hours, 31 minutes ago Description :Improperly controlled modification of Dynamically-Determined object attributes, Allocation of...",
+      "summary": "CVE ID :CVE-2025-14341 Published : May 7, 2026, 2:16 p.m. | 6 hours, 22 minutes ago Description :Improperly controlled modification of Dynamically-Determined object attributes, Allocation of...",
       "source": "CVE Feed",
       "published": "2026-05-07T14:16:00+00:00"
     },
@@ -256,8 +305,8 @@
     {
       "title": "PAN-OS RCE Exploit Under Active Use Enabling Root Access and Espionage",
       "link": "https://thehackernews.com/2026/05/pan-os-rce-exploit-under-active-use.html",
-      "summary": "PAN-OS RCE Exploit Under Active Use Enabling Root Access and Espionage Palo Alto Networks has disclosed that threat actors may have attempted to unsuccessfully exploit a recently disclosed critical...",
-      "source": "CVE Newsroom",
+      "summary": "Palo Alto Networks has disclosed that threat actors may have attempted to unsuccessfully exploit a recently disclosed critical security flaw as early as April 9, 2026. The vulnerability in question...",
+      "source": "The Hacker News",
       "published": "2026-05-07T13:34:00+00:00"
     },
     {
@@ -270,36 +319,36 @@
     {
       "title": "CVE-2026-6002 - HTML Injection in DivvyDrive Information Technologies' DivvyDrive",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-6002",
-      "summary": "CVE ID :CVE-2026-6002 Published : May 7, 2026, 1:16 p.m. | 6 hours, 31 minutes ago Description :Improper neutralization of Script-Related HTML tags in a web page (basic XSS) vulnerability in...",
+      "summary": "CVE ID :CVE-2026-6002 Published : May 7, 2026, 1:16 p.m. | 7 hours, 22 minutes ago Description :Improper neutralization of Script-Related HTML tags in a web page (basic XSS) vulnerability in...",
       "source": "CVE Feed",
       "published": "2026-05-07T13:16:13+00:00"
     },
     {
       "title": "CVE-2026-5791 - CSRF in DivvyDrive Information Technologies' DivvyDrive",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-5791",
-      "summary": "CVE ID :CVE-2026-5791 Published : May 7, 2026, 1:16 p.m. | 6 hours, 31 minutes ago Description :Cross-Site request forgery (CSRF) vulnerability in DivvyDrive Information Technologies Inc. DivvyDrive...",
+      "summary": "CVE ID :CVE-2026-5791 Published : May 7, 2026, 1:16 p.m. | 7 hours, 22 minutes ago Description :Cross-Site request forgery (CSRF) vulnerability in DivvyDrive Information Technologies Inc. DivvyDrive...",
       "source": "CVE Feed",
       "published": "2026-05-07T13:16:13+00:00"
     },
     {
       "title": "CVE-2026-5784 - Stored XSS in DivvyDrive Information Technologies' DivvyDrive",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-5784",
-      "summary": "CVE ID :CVE-2026-5784 Published : May 7, 2026, 1:16 p.m. | 6 hours, 31 minutes ago Description :Improper neutralization of input during web page generation ('cross-site scripting') vulnerability in...",
+      "summary": "CVE ID :CVE-2026-5784 Published : May 7, 2026, 1:16 p.m. | 7 hours, 22 minutes ago Description :Improper neutralization of input during web page generation ('cross-site scripting') vulnerability in...",
       "source": "CVE Feed",
       "published": "2026-05-07T13:16:13+00:00"
-    },
-    {
-      "title": "How Cloudflare responded to the “Copy Fail” Linux vulnerability",
-      "link": "https://blog.cloudflare.com/copy-fail-linux-vulnerability-mitigation/",
-      "summary": "How Cloudflare responded to the “Copy Fail” Linux vulnerability How Cloudflare responded to the “Copy Fail” Linux vulnerability2026-05-078 min readOn April 29, 2026, a Linux kernel local privilege...",
-      "source": "CVE Newsroom",
-      "published": "2026-05-07T13:00:00+00:00"
     },
     {
       "title": "AI Coding Agents Could Fuel Next Supply Chain Crisis",
       "link": "https://www.securityweek.com/ai-coding-agents-could-fuel-next-supply-chain-crisis/",
       "summary": "“TrustFall” attack shows how AI coding agents can be manipulated into launching stealthy supply chain compromises. The post AI Coding Agents Could Fuel Next Supply Chain Crisis appeared first on...",
       "source": "SecurityWeek",
+      "published": "2026-05-07T13:00:00+00:00"
+    },
+    {
+      "title": "How Cloudflare responded to the “Copy Fail” Linux vulnerability",
+      "link": "https://blog.cloudflare.com/copy-fail-linux-vulnerability-mitigation/",
+      "summary": "How Cloudflare responded to the “Copy Fail” Linux vulnerability How Cloudflare responded to the “Copy Fail” Linux vulnerability2026-05-078 min readOn April 29, 2026, a Linux kernel local privilege...",
+      "source": "CVE Newsroom",
       "published": "2026-05-07T13:00:00+00:00"
     },
     {
@@ -326,21 +375,21 @@
     {
       "title": "CVE-2026-6508 - RCE in TUBITAK BILGEM's Liderahenk",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-6508",
-      "summary": "CVE ID :CVE-2026-6508 Published : May 7, 2026, 12:16 p.m. | 7 hours, 31 minutes ago Description :Origin Validation Error vulnerability in TUBITAK BILGEM Software Technologies Research Institute...",
+      "summary": "CVE ID :CVE-2026-6508 Published : May 7, 2026, 12:16 p.m. | 8 hours, 22 minutes ago Description :Origin Validation Error vulnerability in TUBITAK BILGEM Software Technologies Research Institute...",
       "source": "CVE Feed",
       "published": "2026-05-07T12:16:18+00:00"
     },
     {
       "title": "CVE-2026-41644 - monetr is vulnerable to server-side request forgery in Lunch Flow link creation and refresh",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-41644",
-      "summary": "CVE ID :CVE-2026-41644 Published : May 7, 2026, 12:16 p.m. | 7 hours, 31 minutes ago Description :monetr is a budgeting application for recurring expenses. Prior to version 1.12.5, a server-side...",
+      "summary": "CVE ID :CVE-2026-41644 Published : May 7, 2026, 12:16 p.m. | 8 hours, 22 minutes ago Description :monetr is a budgeting application for recurring expenses. Prior to version 1.12.5, a server-side...",
       "source": "CVE Feed",
       "published": "2026-05-07T12:16:17+00:00"
     },
     {
       "title": "CVE-2026-3953 - Reflected XSS in Gosoft Software's Proticaret E-Commerce",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-3953",
-      "summary": "CVE ID :CVE-2026-3953 Published : May 7, 2026, 12:16 p.m. | 7 hours, 31 minutes ago Description :Improper neutralization of input during web page generation ('cross-site scripting') vulnerability in...",
+      "summary": "CVE ID :CVE-2026-3953 Published : May 7, 2026, 12:16 p.m. | 8 hours, 22 minutes ago Description :Improper neutralization of input during web page generation ('cross-site scripting') vulnerability in...",
       "source": "CVE Feed",
       "published": "2026-05-07T12:16:16+00:00"
     },
@@ -366,6 +415,13 @@
       "published": "2026-05-07T12:00:08+00:00"
     },
     {
+      "title": "Webinar Today: Securing Identity Across Humans, Machines and AI",
+      "link": "https://www.securityweek.com/webinar-today-securing-identity-across-humans-machines-and-ai/",
+      "summary": "From service accounts to AI-driven processes, identity is evolving faster than most security programs can adapt. Discover strategies for reducing risk and regaining control. The post Webinar Today...",
+      "source": "SecurityWeek",
+      "published": "2026-05-07T12:00:00+00:00"
+    },
+    {
       "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
       "link": "https://www.cisa.gov/news-events/alerts/2026/05/07/cisa-adds-one-known-exploited-vulnerability-catalog",
       "summary": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation. CVE-2026-6973 Ivanti Endpoint Manager Mobile (EPMM) Improper Input...",
@@ -377,13 +433,6 @@
       "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-127-01",
       "summary": "View CSAF Summary Successful exploitation of this vulnerability may enable an attacker to access tenant email addresses and associated information in cleartext or cause a denial-of-service condition...",
       "source": "CISA Alerts",
-      "published": "2026-05-07T12:00:00+00:00"
-    },
-    {
-      "title": "Webinar Today: Securing Identity Across Humans, Machines and AI",
-      "link": "https://www.securityweek.com/webinar-today-securing-identity-across-humans-machines-and-ai/",
-      "summary": "From service accounts to AI-driven processes, identity is evolving faster than most security programs can adapt. Discover strategies for reducing risk and regaining control. The post Webinar Today...",
-      "source": "SecurityWeek",
       "published": "2026-05-07T12:00:00+00:00"
     },
     {
@@ -417,8 +466,8 @@
     {
       "title": "ThreatsDay Bulletin: Edge Plaintext Passwords, ICS 0-Days, Patch-or-Die Alerts and 25+ New Stories",
       "link": "https://thehackernews.com/2026/05/threatsday-bulletin-edge-plaintext.html",
-      "summary": "ThreatsDay Bulletin: Edge Plaintext Passwords, ICS 0-Days, Patch-or-Die Alerts and 25+ New Stories Bad week.Turns out the easiest way to get hacked in 2026 is still the same old garbage: shady...",
-      "source": "CVE Newsroom",
+      "summary": "Bad week. Turns out the easiest way to get hacked in 2026 is still the same old garbage: shady packages, fake apps, forgotten DNS junk, scam ads, and stolen logins getting dumped into Discord...",
+      "source": "The Hacker News",
       "published": "2026-05-07T11:33:00+00:00"
     },
     {
@@ -431,23 +480,9 @@
     {
       "title": "CVE-2026-33589 - Arbitrary File Read via Local File Inclusion (LFI)",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-33589",
-      "summary": "CVE ID :CVE-2026-33589 Published : May 7, 2026, 11:16 a.m. | 8 hours, 31 minutes ago Description :Lack of user input validation in the file upload functionality of Open Notebook v1.8.3 allows the...",
+      "summary": "CVE ID :CVE-2026-33589 Published : May 7, 2026, 11:16 a.m. | 9 hours, 22 minutes ago Description :Lack of user input validation in the file upload functionality of Open Notebook v1.8.3 allows the...",
       "source": "CVE Feed",
       "published": "2026-05-07T11:16:01+00:00"
-    },
-    {
-      "title": "CVE-2026-33587 - Remote Code Execution (RCE) via Server-Side Template Injection (SSTI)",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-33587",
-      "summary": "CVE ID :CVE-2026-33587 Published : May 7, 2026, 11:16 a.m. | 8 hours, 31 minutes ago Description :Lack of user input sanitisation in Open Notebook v1.8.3 allows the application user to execute Python...",
-      "source": "CVE Feed",
-      "published": "2026-05-07T11:16:00+00:00"
-    },
-    {
-      "title": "CVE-2026-28201 - SurrealDB Injection on Open Notebook",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-28201",
-      "summary": "CVE ID :CVE-2026-28201 Published : May 7, 2026, 11:16 a.m. | 8 hours, 31 minutes ago Description :An improper input validation, together with an overly permissive default CORS configuration in Open...",
-      "source": "CVE Feed",
-      "published": "2026-05-07T11:16:00+00:00"
     },
     {
       "title": "Palo Alto Networks firewall zero-day exploited for nearly a month",
@@ -485,20 +520,6 @@
       "published": "2026-05-07T09:20:00+00:00"
     },
     {
-      "title": "CVE-2025-1978 - Remote Code Execution Vulnerability in Hitachi Storage Navigator and the maintenance console",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2025-1978",
-      "summary": "CVE ID :CVE-2025-1978 Published : May 7, 2026, 9:16 a.m. | 10 hours, 31 minutes ago Description :Remote Code Execution Vulnerability in Hitachi Storage Navigator and the maintenance console in...",
-      "source": "CVE Feed",
-      "published": "2026-05-07T09:16:26+00:00"
-    },
-    {
-      "title": "CVE-2024-43384 - Phoenix Contact: Improper removal of sensitive information in MGUARD products",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2024-43384",
-      "summary": "CVE ID :CVE-2024-43384 Published : May 7, 2026, 9:16 a.m. | 10 hours, 31 minutes ago Description :A low privileged remote attacker can gain the root password due to improper removal of sensitive...",
-      "source": "CVE Feed",
-      "published": "2026-05-07T09:16:24+00:00"
-    },
-    {
       "title": "OceanLotus Hijacks PyPI to Deploy “ZiChatBot” via Enterprise Chat APIs",
       "link": "https://securityonline.info/oceanlotus-pypi-supply-chain-attack-zichatbot-zulip-c2/",
       "summary": "OceanLotus Hijacks PyPI to Deploy “ZiChatBot” via Enterprise Chat APIs In a calculated move that signals the expansion of state-sponsored threats into open-source repositories, researchers at...",
@@ -529,8 +550,8 @@
     {
       "title": "vm2 Node.js Library Vulnerabilities Enable Sandbox Escape and Arbitrary Code Execution",
       "link": "https://thehackernews.com/2026/05/vm2-nodejs-library-vulnerabilities.html",
-      "summary": "vm2 Node.js Library Vulnerabilities Enable Sandbox Escape and Arbitrary Code Execution Ravie LakshmananMay 07, 2026Vulnerability / Software Security A dozen critical security vulnerabilities have...",
-      "source": "CVE Newsroom",
+      "summary": "A dozen critical security vulnerabilities have been disclosed in the vm2 Node.js library that could be exploited by bad actors to break out of the sandbox and execute arbitrary code on susceptible...",
+      "source": "The Hacker News",
       "published": "2026-05-07T04:15:00+00:00"
     },
     {
@@ -590,13 +611,6 @@
       "published": "2026-05-06T21:02:57+00:00"
     },
     {
-      "title": "Palo Alto warns of critical software bug used in firewall attacks",
-      "link": "https://therecord.media/palo-alto-warns-of-critical-software-bug-firewalls",
-      "summary": "A patch for the bug, tracked as CVE-2026-0300, has not been published yet and Palo Alto Networks said it will be included in releases over the next two weeks.",
-      "source": "The Record",
-      "published": "2026-05-06T20:33:00+00:00"
-    },
-    {
       "title": "Mirai-Based xlabs_v1 Botnet Exploits ADB to Hijack IoT Devices for DDoS Attacks",
       "link": "https://thehackernews.com/2026/05/mirai-based-xlabsv1-botnet-exploits-adb.html",
       "summary": "Cybersecurity researchers have exposed a new Mirai-derived botnet that self-identifies as xlabs_v1 and targets internet-exposed devices running Android Debug Bridge (ADB) to enlist them in a network...",
@@ -630,13 +644,6 @@
       "summary": "Backups don't fail because they're missing, they fail because attackers destroy them first. Acronis explains how ransomware targets backup systems before encryption, leaving no path to recovery. [...]",
       "source": "BleepingComputer",
       "published": "2026-05-06T14:04:14+00:00"
-    },
-    {
-      "title": "MuddyWater hackers use Chaos ransomware as a decoy in attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/muddywater-hackers-use-chaos-ransomware-as-a-decoy-in-attacks/",
-      "summary": "The MuddyWater Iranian hackers disguised their operations as a Chaos ransomware attack, relying on Microsoft Teams social engineering to gain access and establish persistence. [...]",
-      "source": "BleepingComputer",
-      "published": "2026-05-06T13:02:52+00:00"
     },
     {
       "title": "MuddyWater Uses Microsoft Teams to Steal Credentials in False Flag Ransomware Attack",
@@ -1391,13 +1398,6 @@
       "title": "Yadea T5 Electric Bicycle",
       "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-113-01",
       "summary": "View CSAF Summary Successful exploitation of this vulnerability could result in an attacker being able to unlock and start the bicycle, leading to vehicle theft. The following versions of Yadea T5...",
-      "source": "CISA Alerts",
-      "published": "2026-04-23T12:00:00+00:00"
-    },
-    {
-      "title": "SpiceJet Online Booking System",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-113-04",
-      "summary": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to disclose sensitive information. The following versions of SpiceJet Online Booking System are affected...",
       "source": "CISA Alerts",
       "published": "2026-04-23T12:00:00+00:00"
     }
