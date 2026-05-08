@@ -1,6 +1,27 @@
 {
-  "last_updated": "2026-05-08T20:20:28.507518+00:00",
+  "last_updated": "2026-05-08T22:18:59.162300+00:00",
   "articles": [
+    {
+      "title": "CVE-2026-7807 - SmarterTools SmarterMail < Build 9560 Server Local File Inclusion via the /api/v1/report/summary/{type} API",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-7807",
+      "summary": "CVE ID :CVE-2026-7807 Published : May 8, 2026, 8:16 p.m. | 22 minutes ago Description :SmarterTools SmarterMail builds prior to 9560 contain a local file inclusion vulnerability in the...",
+      "source": "CVE Feed",
+      "published": "2026-05-08T20:16:32+00:00"
+    },
+    {
+      "title": "CVE-2026-42160 - Data Space Portal: Incorrect Authorization and Client-Side Enforcement of Server-Side Security in ghcr.io/sovity/ds-portal-ce-backend",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-42160",
+      "summary": "CVE ID :CVE-2026-42160 Published : May 8, 2026, 8:16 p.m. | 22 minutes ago Description :Data Space Portal is an open-source Software as a Service (SaaS) solution designed to streamline Dataspace...",
+      "source": "CVE Feed",
+      "published": "2026-05-08T20:16:30+00:00"
+    },
+    {
+      "title": "ShinyHunters Claims Second Attack Against Instructure",
+      "link": "https://www.darkreading.com/cyberattacks-data-breaches/shinyhunters-second-attack-instructure",
+      "summary": "The edtech company is struggling to wrest control from its hackers. PII belonging to hundreds of millions of people is on the line.",
+      "source": "Dark Reading",
+      "published": "2026-05-08T20:08:06+00:00"
+    },
     {
       "title": "GM to pay over $12 million in California privacy settlement involving driver data",
       "link": "https://therecord.media/gm-to-pay-12-million-california-privacy-settlement",
@@ -11,9 +32,23 @@
     {
       "title": "CVE-2026-8178 - Remote Code Execution via Unsafe Class Loading in Amazon Redshift JDBC Driver",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-8178",
-      "summary": "CVE ID :CVE-2026-8178 Published : May 8, 2026, 7:16 p.m. | 25 minutes ago Description :An issue exists in Amazon Redshift JDBC Driver versions prior to 2.2.2. Under certain conditions, the driver...",
+      "summary": "CVE ID :CVE-2026-8178 Published : May 8, 2026, 7:16 p.m. | 1 hour, 22 minutes ago Description :An issue exists in Amazon Redshift JDBC Driver versions prior to 2.2.2. Under certain conditions, the...",
       "source": "CVE Feed",
       "published": "2026-05-08T19:16:31+00:00"
+    },
+    {
+      "title": "CVE-2026-29203 - cPanel Nova Symlink Privilege Escalation",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-29203",
+      "summary": "CVE ID :CVE-2026-29203 Published : May 8, 2026, 7:16 p.m. | 1 hour, 22 minutes ago Description :A chmod call in the cPanel Nova plugin's Cpanel::Nova::Connector follows symlinks, allowing setting...",
+      "source": "CVE Feed",
+      "published": "2026-05-08T19:16:30+00:00"
+    },
+    {
+      "title": "CVE-2026-29202 - Apache Struts Perl Code Execution Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-29202",
+      "summary": "CVE ID :CVE-2026-29202 Published : May 8, 2026, 7:16 p.m. | 1 hour, 22 minutes ago Description :Insufficient input validation of the `plugin` parameter of the `create_user` plugin allows arbitrary...",
+      "source": "CVE Feed",
+      "published": "2026-05-08T19:16:30+00:00"
     },
     {
       "title": "Kingdom Market administrator given 16-year sentence",
@@ -39,14 +74,14 @@
     {
       "title": "CVE-2026-42072 - Nornicdb: Improper Network Binding in NornicDB Bolt Server allows unauthorized remote access",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-42072",
-      "summary": "CVE ID :CVE-2026-42072 Published : May 8, 2026, 5:16 p.m. | 2 hours, 25 minutes ago Description :Nornicdb is a distributed low-latency, Graph+Vector, Temporal MVCC with all sub-ms HNSW search, graph...",
+      "summary": "CVE ID :CVE-2026-42072 Published : May 8, 2026, 5:16 p.m. | 3 hours, 22 minutes ago Description :Nornicdb is a distributed low-latency, Graph+Vector, Temporal MVCC with all sub-ms HNSW search, graph...",
       "source": "CVE Feed",
       "published": "2026-05-08T17:16:31+00:00"
     },
     {
       "title": "CVE-2026-38360 - Fohrloop Dash-Uploader Directory Traversal RCE",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-38360",
-      "summary": "CVE ID :CVE-2026-38360 Published : May 8, 2026, 5:16 p.m. | 2 hours, 25 minutes ago Description :Directory Traversal vulnerability in fohrloop dash-uploader v.0.1.0 through v.0.7.0a2 allows a remote...",
+      "summary": "CVE ID :CVE-2026-38360 Published : May 8, 2026, 5:16 p.m. | 3 hours, 22 minutes ago Description :Directory Traversal vulnerability in fohrloop dash-uploader v.0.1.0 through v.0.7.0a2 allows a remote...",
       "source": "CVE Feed",
       "published": "2026-05-08T17:16:30+00:00"
     },
@@ -60,70 +95,70 @@
     {
       "title": "CVE-2026-44499 - ZEBRA: Permanent Block Discovery Halt via Gossip Queue Saturation and Syncer Poisoning",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-44499",
-      "summary": "CVE ID :CVE-2026-44499 Published : May 8, 2026, 4:16 p.m. | 3 hours, 25 minutes ago Description :ZEBRA is a Zcash node written entirely in Rust. Prior to version 4.4.0, a composite denial-of-service...",
+      "summary": "CVE ID :CVE-2026-44499 Published : May 8, 2026, 4:16 p.m. | 4 hours, 23 minutes ago Description :ZEBRA is a Zcash node written entirely in Rust. Prior to version 4.4.0, a composite denial-of-service...",
       "source": "CVE Feed",
       "published": "2026-05-08T16:16:13+00:00"
     },
     {
       "title": "CVE-2026-43967 - Quadratic fragment-name uniqueness check causes denial of service in absinthe",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-43967",
-      "summary": "CVE ID :CVE-2026-43967 Published : May 8, 2026, 4:16 p.m. | 3 hours, 25 minutes ago Description :Inefficient Algorithmic Complexity vulnerability in absinthe-graphql absinthe allows unauthenticated...",
+      "summary": "CVE ID :CVE-2026-43967 Published : May 8, 2026, 4:16 p.m. | 4 hours, 23 minutes ago Description :Inefficient Algorithmic Complexity vulnerability in absinthe-graphql absinthe allows unauthenticated...",
       "source": "CVE Feed",
       "published": "2026-05-08T16:16:12+00:00"
     },
     {
       "title": "CVE-2026-42793 - Atom table exhaustion via attacker-controlled GraphQL SDL names in absinthe",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-42793",
-      "summary": "CVE ID :CVE-2026-42793 Published : May 8, 2026, 4:16 p.m. | 3 hours, 25 minutes ago Description :Allocation of Resources Without Limits or Throttling vulnerability in absinthe-graphql absinthe allows...",
+      "summary": "CVE ID :CVE-2026-42793 Published : May 8, 2026, 4:16 p.m. | 4 hours, 23 minutes ago Description :Allocation of Resources Without Limits or Throttling vulnerability in absinthe-graphql absinthe allows...",
       "source": "CVE Feed",
       "published": "2026-05-08T16:16:12+00:00"
     },
     {
       "title": "CVE-2026-42353 - Path traversal / SSRF in i18next-http-middleware via user-controlled language and namespace parameters",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-42353",
-      "summary": "CVE ID :CVE-2026-42353 Published : May 8, 2026, 4:16 p.m. | 3 hours, 25 minutes ago Description :i18next-http-middleware is a middleware to be used with Node.js web frameworks like express or Fastify...",
+      "summary": "CVE ID :CVE-2026-42353 Published : May 8, 2026, 4:16 p.m. | 4 hours, 23 minutes ago Description :i18next-http-middleware is a middleware to be used with Node.js web frameworks like express or Fastify...",
       "source": "CVE Feed",
       "published": "2026-05-08T16:16:12+00:00"
     },
     {
       "title": "CVE-2026-41883 - OmniFaces: EL injection via crafted resource name in wildcard CDN mapping",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-41883",
-      "summary": "CVE ID :CVE-2026-41883 Published : May 8, 2026, 4:16 p.m. | 3 hours, 25 minutes ago Description :OmniFaces is a utility library for Faces. Prior to versions 1.14.2, 2.7.32, 3.14.16, 4.7.5, and 5.2.3...",
+      "summary": "CVE ID :CVE-2026-41883 Published : May 8, 2026, 4:16 p.m. | 4 hours, 23 minutes ago Description :OmniFaces is a utility library for Faces. Prior to versions 1.14.2, 2.7.32, 3.14.16, 4.7.5, and 5.2.3...",
       "source": "CVE Feed",
       "published": "2026-05-08T16:16:11+00:00"
     },
     {
       "title": "CVE-2026-41693 - i18next-fs-backend: Path traversal via unsanitised lng/ns allows arbitrary file read/overwrite",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-41693",
-      "summary": "CVE ID :CVE-2026-41693 Published : May 8, 2026, 4:16 p.m. | 3 hours, 25 minutes ago Description :i18next-fs-backend is a backend layer for i18next using in Node.js and for Deno to load translations...",
+      "summary": "CVE ID :CVE-2026-41693 Published : May 8, 2026, 4:16 p.m. | 4 hours, 23 minutes ago Description :i18next-fs-backend is a backend layer for i18next using in Node.js and for Deno to load translations...",
       "source": "CVE Feed",
       "published": "2026-05-08T16:16:11+00:00"
     },
     {
       "title": "CVE-2026-41690 - Prototype pollution and path traversal in i18next-http-middleware via user-controlled language and namespace parameters",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-41690",
-      "summary": "CVE ID :CVE-2026-41690 Published : May 8, 2026, 4:16 p.m. | 3 hours, 25 minutes ago Description :18next-http-middleware is a middleware to be used with Node.js web frameworks like express or Fastify...",
+      "summary": "CVE ID :CVE-2026-41690 Published : May 8, 2026, 4:16 p.m. | 4 hours, 23 minutes ago Description :18next-http-middleware is a middleware to be used with Node.js web frameworks like express or Fastify...",
       "source": "CVE Feed",
       "published": "2026-05-08T16:16:11+00:00"
     },
     {
       "title": "CVE-2026-41683 - HTTP response splitting and DoS in i18next-http-middleware via unsanitised Content-Language header",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-41683",
-      "summary": "CVE ID :CVE-2026-41683 Published : May 8, 2026, 4:16 p.m. | 3 hours, 25 minutes ago Description :i18next-http-middleware is a middleware to be used with Node.js web frameworks like express or Fastify...",
+      "summary": "CVE ID :CVE-2026-41683 Published : May 8, 2026, 4:16 p.m. | 4 hours, 23 minutes ago Description :i18next-http-middleware is a middleware to be used with Node.js web frameworks like express or Fastify...",
       "source": "CVE Feed",
       "published": "2026-05-08T16:16:11+00:00"
     },
     {
       "title": "CVE-2026-41070 - openvpn-auth-oauth2 returns FUNC_SUCCESS on client-deny, allowing unauthenticated VPN access",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-41070",
-      "summary": "CVE ID :CVE-2026-41070 Published : May 8, 2026, 4:16 p.m. | 3 hours, 25 minutes ago Description :openvpn-auth-oauth2 is a plugin/management interface client for OpenVPN server to handle an OIDC based...",
+      "summary": "CVE ID :CVE-2026-41070 Published : May 8, 2026, 4:16 p.m. | 4 hours, 23 minutes ago Description :openvpn-auth-oauth2 is a plugin/management interface client for OpenVPN server to handle an OIDC based...",
       "source": "CVE Feed",
       "published": "2026-05-08T16:16:11+00:00"
     },
     {
       "title": "CVE-2026-29972 - NanoMODBUS Modbus TCP Server Stack Buffer Overflow Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-29972",
-      "summary": "CVE ID :CVE-2026-29972 Published : May 8, 2026, 4:16 p.m. | 3 hours, 25 minutes ago Description :nanoMODBUS through v1.22.0 has a stack-based buffer overflow in recv_read_registers_res() in...",
+      "summary": "CVE ID :CVE-2026-29972 Published : May 8, 2026, 4:16 p.m. | 4 hours, 23 minutes ago Description :nanoMODBUS through v1.22.0 has a stack-based buffer overflow in recv_read_registers_res() in...",
       "source": "CVE Feed",
       "published": "2026-05-08T16:16:09+00:00"
     },
@@ -137,65 +172,58 @@
     {
       "title": "CVE-2026-44498 - ZEBRA: Block Validator Undercounts Coinbase and P2SH Sigops",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-44498",
-      "summary": "CVE ID :CVE-2026-44498 Published : May 8, 2026, 3:17 p.m. | 4 hours, 24 minutes ago Description :ZEBRA is a Zcash node written entirely in Rust. Prior to version 4.4.0, Zebra's block validator...",
+      "summary": "CVE ID :CVE-2026-44498 Published : May 8, 2026, 3:17 p.m. | 5 hours, 22 minutes ago Description :ZEBRA is a Zcash node written entirely in Rust. Prior to version 4.4.0, Zebra's block validator...",
       "source": "CVE Feed",
       "published": "2026-05-08T15:17:01+00:00"
     },
     {
       "title": "CVE-2026-44497 - ZEBRA: Consensus Divergence in Transparent Sighash Hash-Type Handling due to Stale Buffer",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-44497",
-      "summary": "CVE ID :CVE-2026-44497 Published : May 8, 2026, 3:17 p.m. | 4 hours, 24 minutes ago Description :ZEBRA is a Zcash node written entirely in Rust. Prior to zebrad version 4.4.0 and prior to...",
+      "summary": "CVE ID :CVE-2026-44497 Published : May 8, 2026, 3:17 p.m. | 5 hours, 22 minutes ago Description :ZEBRA is a Zcash node written entirely in Rust. Prior to zebrad version 4.4.0 and prior to...",
       "source": "CVE Feed",
       "published": "2026-05-08T15:17:01+00:00"
     },
     {
       "title": "CVE-2026-41588 - RELATE: Timing Attack Vulnerability in course/auth.py — check_sign_in_key()",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-41588",
-      "summary": "CVE ID :CVE-2026-41588 Published : May 8, 2026, 3:16 p.m. | 4 hours, 24 minutes ago Description :RELATE is a web-based courseware package. Prior to commit 2f68e16, there is a timing attack...",
+      "summary": "CVE ID :CVE-2026-41588 Published : May 8, 2026, 3:16 p.m. | 5 hours, 22 minutes ago Description :RELATE is a web-based courseware package. Prior to commit 2f68e16, there is a timing attack...",
       "source": "CVE Feed",
       "published": "2026-05-08T15:16:43+00:00"
     },
     {
       "title": "CVE-2026-41584 - ZEBRA: rk Identity Point Panic in Transaction Verification",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-41584",
-      "summary": "CVE ID :CVE-2026-41584 Published : May 8, 2026, 3:16 p.m. | 4 hours, 24 minutes ago Description :ZEBRA is a Zcash node written entirely in Rust. Prior to zebrad version 4.3.1 and prior to zebra-chain...",
+      "summary": "CVE ID :CVE-2026-41584 Published : May 8, 2026, 3:16 p.m. | 5 hours, 22 minutes ago Description :ZEBRA is a Zcash node written entirely in Rust. Prior to zebrad version 4.3.1 and prior to zebra-chain...",
       "source": "CVE Feed",
       "published": "2026-05-08T15:16:41+00:00"
     },
     {
       "title": "CVE-2026-41583 - ZEBRA: Consensus Divergence in Transparent Sighash Hash-Type Handling",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-41583",
-      "summary": "CVE ID :CVE-2026-41583 Published : May 8, 2026, 3:16 p.m. | 4 hours, 24 minutes ago Description :ZEBRA is a Zcash node written entirely in Rust. Prior to zebrad version 4.3.1 and prior to...",
+      "summary": "CVE ID :CVE-2026-41583 Published : May 8, 2026, 3:16 p.m. | 5 hours, 22 minutes ago Description :ZEBRA is a Zcash node written entirely in Rust. Prior to zebrad version 4.3.1 and prior to...",
       "source": "CVE Feed",
       "published": "2026-05-08T15:16:41+00:00"
     },
     {
       "title": "CVE-2026-41574 - Nhost Vulnerable to Account Takeover via OAuth Email Verification Bypass",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-41574",
-      "summary": "CVE ID :CVE-2026-41574 Published : May 8, 2026, 3:16 p.m. | 4 hours, 24 minutes ago Description :Nhost is an open source Firebase alternative with GraphQL. Prior to version 0.49.1, Nhost...",
+      "summary": "CVE ID :CVE-2026-41574 Published : May 8, 2026, 3:16 p.m. | 5 hours, 22 minutes ago Description :Nhost is an open source Firebase alternative with GraphQL. Prior to version 0.49.1, Nhost...",
       "source": "CVE Feed",
       "published": "2026-05-08T15:16:40+00:00"
     },
     {
       "title": "CVE-2026-41524 - Ajax30/BraveCMS-2.0: Stored XSS in Page / Article Content",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-41524",
-      "summary": "CVE ID :CVE-2026-41524 Published : May 8, 2026, 3:16 p.m. | 4 hours, 24 minutes ago Description :Brave CMS is an open-source CMS. Prior to commit 6c56603, page and article body content entered...",
+      "summary": "CVE ID :CVE-2026-41524 Published : May 8, 2026, 3:16 p.m. | 5 hours, 22 minutes ago Description :Brave CMS is an open-source CMS. Prior to commit 6c56603, page and article body content entered...",
       "source": "CVE Feed",
       "published": "2026-05-08T15:16:40+00:00"
     },
     {
       "title": "CVE-2026-37431 - Beauty Parlour Management System SQL Injection",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-37431",
-      "summary": "CVE ID :CVE-2026-37431 Published : May 8, 2026, 3:16 p.m. | 4 hours, 24 minutes ago Description :Beauty Parlour Management System v1.1 was discovered to contain a SQL injection vulnerability via the...",
+      "summary": "CVE ID :CVE-2026-37431 Published : May 8, 2026, 3:16 p.m. | 5 hours, 22 minutes ago Description :Beauty Parlour Management System v1.1 was discovered to contain a SQL injection vulnerability via the...",
       "source": "CVE Feed",
       "published": "2026-05-08T15:16:37+00:00"
-    },
-    {
-      "title": "CVE-2025-67486 - Dolibarr has an Authenticated Remote Code Execution via eval() injection in user extrafields",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2025-67486",
-      "summary": "CVE ID :CVE-2025-67486 Published : May 8, 2026, 3:16 p.m. | 4 hours, 25 minutes ago Description :Dolibarr is an enterprise resource planning (ERP) and customer relationship management (CRM) software...",
-      "source": "CVE Feed",
-      "published": "2026-05-08T15:16:35+00:00"
     },
     {
       "title": "Fake Call History Apps Stole Payments From Users After 7.3 Million Play Store Downloads",
@@ -210,27 +238,6 @@
       "summary": "Other noteworthy stories that might have slipped under the radar: US gov targets 72-hour patch cycles, malware uses Windows Phone Link to steal OTPs, spy operation targets Eurasian drone industry...",
       "source": "SecurityWeek",
       "published": "2026-05-08T14:30:00+00:00"
-    },
-    {
-      "title": "CVE-2026-44340 - PraisonAI: Symlink-extraction bypass of `_safe_extractall` writes outside `dest_dir`",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-44340",
-      "summary": "CVE ID :CVE-2026-44340 Published : May 8, 2026, 2:16 p.m. | 5 hours, 24 minutes ago Description :PraisonAI is a multi-agent teams system. Prior to version 4.6.37, the _safe_extractall helper that all...",
-      "source": "CVE Feed",
-      "published": "2026-05-08T14:16:47+00:00"
-    },
-    {
-      "title": "CVE-2026-44339 - PraisonAI has unsafe tool resolution in `ToolExecutionMixin.execute_tool`: undeclared `__main__` callables execute",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-44339",
-      "summary": "CVE ID :CVE-2026-44339 Published : May 8, 2026, 2:16 p.m. | 5 hours, 24 minutes ago Description :PraisonAI is a multi-agent teams system. Prior to praisonai version 4.6.37 and praisonaiagents version...",
-      "source": "CVE Feed",
-      "published": "2026-05-08T14:16:46+00:00"
-    },
-    {
-      "title": "CVE-2026-44336 - PraisonAI MCP `tools/call` path-traversal and RCE via Python `.pth` injection",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-44336",
-      "summary": "CVE ID :CVE-2026-44336 Published : May 8, 2026, 2:16 p.m. | 5 hours, 24 minutes ago Description :PraisonAI is a multi-agent teams system. Prior to version 4.6.34, PraisonAI's MCP (Model Context...",
-      "source": "CVE Feed",
-      "published": "2026-05-08T14:16:46+00:00"
     },
     {
       "title": "Why More Analysts Won’t Solve Your SOC’s Alert Problem",
@@ -618,16 +625,16 @@
       "published": "2026-05-07T13:00:00+00:00"
     },
     {
-      "title": "AI-Driven Cyberattack on Mexico Couldn't Breach OT Systems",
-      "link": "https://www.darkreading.com/ics-ot-security/worlds-first-ai-driven-cyberattack-couldnt-breach-ot-systems",
-      "summary": "The most sophisticated AI-integrated campaign to date hit a brick wall in the form of a SCADA login screen.",
+      "title": "'TrustFall' Convention Exposes Claude Code Execution Risk",
+      "link": "https://www.darkreading.com/application-security/trustfall-exposes-claude-code-execution-risk",
+      "summary": "Malicious repositories can trigger code execution in Claude Code, Cursor CLI, Gemini CLI, and CoPilot CLI with minimal or no user interaction, thanks to skimpy warning dialogs.",
       "source": "Dark Reading",
       "published": "2026-05-07T13:00:00+00:00"
     },
     {
-      "title": "'TrustFall' Convention Exposes Claude Code Execution Risk",
-      "link": "https://www.darkreading.com/application-security/trustfall-exposes-claude-code-execution-risk",
-      "summary": "Malicious repositories can trigger code execution in Claude Code, Cursor CLI, Gemini CLI, and CoPilot CLI with minimal or no user interaction, thanks to skimpy warning dialogs.",
+      "title": "AI-Driven Cyberattack on Mexico Couldn't Breach OT Systems",
+      "link": "https://www.darkreading.com/ics-ot-security/worlds-first-ai-driven-cyberattack-couldnt-breach-ot-systems",
+      "summary": "The most sophisticated AI-integrated campaign to date hit a brick wall in the form of a SCADA login screen.",
       "source": "Dark Reading",
       "published": "2026-05-07T13:00:00+00:00"
     },
@@ -1386,13 +1393,6 @@
       "summary": "China's state-backed groups are now using covert networks of compromised devices to execute attacks in a low-cost, low-risk, and deniable way.",
       "source": "Dark Reading",
       "published": "2026-04-23T20:52:24+00:00"
-    },
-    {
-      "title": "Bad Memories Still Haunt AI Agents",
-      "link": "https://www.darkreading.com/vulnerabilities-threats/bad-memories-haunt-ai-agents",
-      "summary": "Cisco found and fixed a significant vulnerability in the way Anthropic handles memories, but experts warn that mishandled memory files will continue to threaten AI systems.",
-      "source": "Dark Reading",
-      "published": "2026-04-23T14:30:31+00:00"
     },
     {
       "title": "Intrado 911 Emergency Gateway (EGW) (Update A)",
