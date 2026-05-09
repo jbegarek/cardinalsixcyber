@@ -1,145 +1,194 @@
 {
-  "last_updated": "2026-05-09T03:02:44.874580+00:00",
+  "last_updated": "2026-05-09T05:03:08.488734+00:00",
   "articles": [
+    {
+      "title": "CVE-2026-8208 - Gibbon Local File Inclusion Remote Command Execution",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-8208",
+      "summary": "CVE ID :CVE-2026-8208 Published : May 9, 2026, 4:16 a.m. | 23 minutes ago Description :Gibbon versions before v30.0.01 are affected by a local file inclusion vulnerability resulting in RCE by...",
+      "source": "CVE Feed",
+      "published": "2026-05-09T04:16:27+00:00"
+    },
+    {
+      "title": "CVE-2026-42461 - Arcane Vulnerable to Unauthenticated Disclosure of Custom Compose Template Content (incl. `.env` secrets)",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-42461",
+      "summary": "CVE ID :CVE-2026-42461 Published : May 9, 2026, 4:16 a.m. | 23 minutes ago Description :Arcane is an interface for managing Docker containers, images, networks, and volumes. Prior to version 1.18.0...",
+      "source": "CVE Feed",
+      "published": "2026-05-09T04:16:26+00:00"
+    },
+    {
+      "title": "CVE-2026-42297 - Argo Workflows Is Missing Authorization in Sync ConfigMap Provider",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-42297",
+      "summary": "CVE ID :CVE-2026-42297 Published : May 9, 2026, 4:16 a.m. | 23 minutes ago Description :Argo Workflows is an open source container-native workflow engine for orchestrating parallel jobs on...",
+      "source": "CVE Feed",
+      "published": "2026-05-09T04:16:25+00:00"
+    },
+    {
+      "title": "CVE-2026-42296 - Argo Workflows has incomplete fix for CVE-2026-31892: hostNetwork, securityContext, serviceAccountName bypass templateReferencing Strict/Secure",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-42296",
+      "summary": "CVE ID :CVE-2026-42296 Published : May 9, 2026, 4:16 a.m. | 23 minutes ago Description :Argo Workflows is an open source container-native workflow engine for orchestrating parallel jobs on...",
+      "source": "CVE Feed",
+      "published": "2026-05-09T04:16:25+00:00"
+    },
+    {
+      "title": "CVE-2026-42295 - Argo Workflows: Exposure of artifact repository credentials",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-42295",
+      "summary": "CVE ID :CVE-2026-42295 Published : May 9, 2026, 4:16 a.m. | 23 minutes ago Description :Argo Workflows is an open source container-native workflow engine for orchestrating parallel jobs on...",
+      "source": "CVE Feed",
+      "published": "2026-05-09T04:16:25+00:00"
+    },
+    {
+      "title": "CVE-2026-42294 - Argo Workflows: Unauthenticated Memory Exhaustion (DoS) in Webhook Interceptor",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-42294",
+      "summary": "CVE ID :CVE-2026-42294 Published : May 9, 2026, 4:16 a.m. | 23 minutes ago Description :Argo Workflows is an open source container-native workflow engine for orchestrating parallel jobs on...",
+      "source": "CVE Feed",
+      "published": "2026-05-09T04:16:24+00:00"
+    },
+    {
+      "title": "CVE-2026-41163 - bubblewrap vulnerable to privilege escalation in setuid mode via ptrace",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-41163",
+      "summary": "CVE ID :CVE-2026-41163 Published : May 9, 2026, 4:16 a.m. | 23 minutes ago Description :bubblewrap is a low-level unprivileged sandboxing tool. From version 0.11.0 to before version 0.11.2, if...",
+      "source": "CVE Feed",
+      "published": "2026-05-09T04:16:21+00:00"
+    },
+    {
+      "title": "Critical Microsoft 365 Copilot Vulnerabilities Expose sensitive Information",
+      "link": "https://cybersecuritynews.com/microsoft-365-copilot-vulnerabilities-data/",
+      "summary": "Critical Microsoft 365 Copilot Vulnerabilities Expose sensitive Information Microsoft has disclosed and fully remediated three critical information disclosure vulnerabilities affecting Microsoft 365...",
+      "source": "CVE Newsroom",
+      "published": "2026-05-09T02:34:14+00:00"
+    },
+    {
+      "title": "Exploited in the Wild: “Dirty Frag” Linux Vulnerability Grants Instant Root Access",
+      "link": "https://securityonline.info/dirty-frag-linux-vulnerability-exploited-in-the-wild-root-access/",
+      "summary": "Exploited in the Wild: “Dirty Frag” Linux Vulnerability Grants Instant Root Access The Linux ecosystem is facing a severe new security challenge that demands immediate attention from everyone...",
+      "source": "CVE Newsroom",
+      "published": "2026-05-09T01:45:32+00:00"
+    },
     {
       "title": "CVE-2026-6665 - PgBouncer buffer overflow in SCRAM",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-6665",
-      "summary": "CVE ID :CVE-2026-6665 Published : May 9, 2026, 1:16 a.m. | 59 minutes ago Description :The SCRAM code in PgBouncer before 1.25.2 did not check the return value of strlcat() correctly when building...",
+      "summary": "CVE ID :CVE-2026-6665 Published : May 9, 2026, 1:16 a.m. | 3 hours, 23 minutes ago Description :The SCRAM code in PgBouncer before 1.25.2 did not check the return value of strlcat() correctly when...",
       "source": "CVE Feed",
       "published": "2026-05-09T01:16:09+00:00"
     },
     {
       "title": "CVE-2026-41705 - Spring AI MilvusVectorStore Filter Expression Injection",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-41705",
-      "summary": "CVE ID :CVE-2026-41705 Published : May 9, 2026, 1:16 a.m. | 59 minutes ago Description :Spring AI's MilvusVectorStore#doDelete(List) implementation is vulnerable to filter-expression injection via...",
+      "summary": "CVE ID :CVE-2026-41705 Published : May 9, 2026, 1:16 a.m. | 3 hours, 23 minutes ago Description :Spring AI's MilvusVectorStore#doDelete(List) implementation is vulnerable to filter-expression...",
       "source": "CVE Feed",
       "published": "2026-05-09T01:16:08+00:00"
     },
     {
       "title": "CVE-2026-44313 - LinkWarden: Server-Side Request Forgery (SSRF) in Link Creation via fetchTitleAndHeaders Function",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-44313",
-      "summary": "CVE ID :CVE-2026-44313 Published : May 9, 2026, 12:16 a.m. | 1 hour, 59 minutes ago Description :Linkwarden is a self-hosted, open-source collaborative bookmark manager to collect, organize and...",
+      "summary": "CVE ID :CVE-2026-44313 Published : May 9, 2026, 12:16 a.m. | 4 hours, 23 minutes ago Description :Linkwarden is a self-hosted, open-source collaborative bookmark manager to collect, organize and...",
       "source": "CVE Feed",
       "published": "2026-05-09T00:16:29+00:00"
     },
     {
       "title": "CVE-2026-42455 - LinkWarden: Stored XSS via Client-Side Archive Upload (Unsanitized HTML served from same origin)",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-42455",
-      "summary": "CVE ID :CVE-2026-42455 Published : May 9, 2026, 12:16 a.m. | 1 hour, 59 minutes ago Description :Linkwarden is a self-hosted, open-source collaborative bookmark manager to collect, organize and...",
+      "summary": "CVE ID :CVE-2026-42455 Published : May 9, 2026, 12:16 a.m. | 4 hours, 23 minutes ago Description :Linkwarden is a self-hosted, open-source collaborative bookmark manager to collect, organize and...",
       "source": "CVE Feed",
       "published": "2026-05-09T00:16:29+00:00"
     },
     {
       "title": "CVE-2026-42556 - Postiz stored XSS in public preview page",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-42556",
-      "summary": "CVE ID :CVE-2026-42556 Published : May 8, 2026, 11:16 p.m. | 2 hours, 59 minutes ago Description :Postiz is an AI social media scheduling tool. From version 2.21.6 to before version 2.21.7, any...",
+      "summary": "CVE ID :CVE-2026-42556 Published : May 8, 2026, 11:16 p.m. | 5 hours, 22 minutes ago Description :Postiz is an AI social media scheduling tool. From version 2.21.6 to before version 2.21.7, any...",
       "source": "CVE Feed",
       "published": "2026-05-08T23:16:39+00:00"
     },
     {
       "title": "CVE-2026-42454 - Termix: OS Command Injection in Docker Container Management Endpoints",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-42454",
-      "summary": "CVE ID :CVE-2026-42454 Published : May 8, 2026, 11:16 p.m. | 2 hours, 59 minutes ago Description :Termix is a web-based server management platform with SSH terminal, tunneling, and file editing...",
+      "summary": "CVE ID :CVE-2026-42454 Published : May 8, 2026, 11:16 p.m. | 5 hours, 22 minutes ago Description :Termix is a web-based server management platform with SSH terminal, tunneling, and file editing...",
       "source": "CVE Feed",
       "published": "2026-05-08T23:16:39+00:00"
     },
     {
       "title": "CVE-2026-42453 - Termix: Command injection in extractArchive/compressFiles via double-quote escaping bypass",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-42453",
-      "summary": "CVE ID :CVE-2026-42453 Published : May 8, 2026, 11:16 p.m. | 2 hours, 59 minutes ago Description :Termix is a web-based server management platform with SSH terminal, tunneling, and file editing...",
+      "summary": "CVE ID :CVE-2026-42453 Published : May 8, 2026, 11:16 p.m. | 5 hours, 22 minutes ago Description :Termix is a web-based server management platform with SSH terminal, tunneling, and file editing...",
       "source": "CVE Feed",
       "published": "2026-05-08T23:16:38+00:00"
     },
     {
       "title": "CVE-2026-42452 - Termix: Pending-TOTP temporary token can regenerate backup codes and neutralize TOTP",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-42452",
-      "summary": "CVE ID :CVE-2026-42452 Published : May 8, 2026, 11:16 p.m. | 2 hours, 59 minutes ago Description :Termix is a web-based server management platform with SSH terminal, tunneling, and file editing...",
+      "summary": "CVE ID :CVE-2026-42452 Published : May 8, 2026, 11:16 p.m. | 5 hours, 22 minutes ago Description :Termix is a web-based server management platform with SSH terminal, tunneling, and file editing...",
       "source": "CVE Feed",
       "published": "2026-05-08T23:16:38+00:00"
     },
     {
       "title": "CVE-2026-42354 - Sentry: Improper authentication on SAML SSO process allows user identity linking",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-42354",
-      "summary": "CVE ID :CVE-2026-42354 Published : May 8, 2026, 11:16 p.m. | 2 hours, 59 minutes ago Description :Sentry is an error tracking and performance monitoring tool. From version 21.12.0 to before version...",
+      "summary": "CVE ID :CVE-2026-42354 Published : May 8, 2026, 11:16 p.m. | 5 hours, 22 minutes ago Description :Sentry is an error tracking and performance monitoring tool. From version 21.12.0 to before version...",
       "source": "CVE Feed",
       "published": "2026-05-08T23:16:38+00:00"
     },
     {
       "title": "CVE-2026-42352 - pygeoapi 0.23.x: Unauthenticated SSRF via OGC API - Processes Subscriber",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-42352",
-      "summary": "CVE ID :CVE-2026-42352 Published : May 8, 2026, 11:16 p.m. | 2 hours, 59 minutes ago Description :pygeoapi is a Python server implementation of the OGC API suite of standards. From version 0.23.0 to...",
+      "summary": "CVE ID :CVE-2026-42352 Published : May 8, 2026, 11:16 p.m. | 5 hours, 22 minutes ago Description :pygeoapi is a Python server implementation of the OGC API suite of standards. From version 0.23.0 to...",
       "source": "CVE Feed",
       "published": "2026-05-08T23:16:38+00:00"
     },
     {
       "title": "CVE-2026-42302 - FastGPT: Unauthenticated Remote Code Execution (RCE) via code-server Misconfiguration in agent-sandbox",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-42302",
-      "summary": "CVE ID :CVE-2026-42302 Published : May 8, 2026, 11:16 p.m. | 2 hours, 59 minutes ago Description :FastGPT is an AI Agent building platform. From version 4.14.10 to before version 4.14.13, the...",
+      "summary": "CVE ID :CVE-2026-42302 Published : May 8, 2026, 11:16 p.m. | 5 hours, 22 minutes ago Description :FastGPT is an AI Agent building platform. From version 4.14.10 to before version 4.14.13, the...",
       "source": "CVE Feed",
       "published": "2026-05-08T23:16:36+00:00"
     },
     {
       "title": "CVE-2026-42298 - Postiz: Arbitrary Code Execution and Token Exfiltration in pr-docker-build.yml via untrusted Dockerfile.dev",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-42298",
-      "summary": "CVE ID :CVE-2026-42298 Published : May 8, 2026, 11:16 p.m. | 2 hours, 59 minutes ago Description :Postiz is an AI social media scheduling tool. Prior to commit da44801, a \"Pwn Request\" vulnerability...",
+      "summary": "CVE ID :CVE-2026-42298 Published : May 8, 2026, 11:16 p.m. | 5 hours, 23 minutes ago Description :Postiz is an AI social media scheduling tool. Prior to commit da44801, a \"Pwn Request\" vulnerability...",
       "source": "CVE Feed",
       "published": "2026-05-08T23:16:36+00:00"
     },
     {
       "title": "CVE-2026-42287 - Emlog: SQL Injection Vulnerability in log_model.php within addLog() and updateLog() Functions",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-42287",
-      "summary": "CVE ID :CVE-2026-42287 Published : May 8, 2026, 10:16 p.m. | 3 hours, 59 minutes ago Description :Emlog is an open source website building system. Prior to version 2.6.11, direct SQL injection in...",
+      "summary": "CVE ID :CVE-2026-42287 Published : May 8, 2026, 10:16 p.m. | 6 hours, 23 minutes ago Description :Emlog is an open source website building system. Prior to version 2.6.11, direct SQL injection in...",
       "source": "CVE Feed",
       "published": "2026-05-08T22:16:33+00:00"
     },
     {
       "title": "CVE-2026-42286 - Emlog: Cross-Site Request Forgery in Admin Functions",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-42286",
-      "summary": "CVE ID :CVE-2026-42286 Published : May 8, 2026, 10:16 p.m. | 3 hours, 59 minutes ago Description :Emlog is an open source website building system. Prior to version 2.6.11, missing CSRF protection in...",
+      "summary": "CVE ID :CVE-2026-42286 Published : May 8, 2026, 10:16 p.m. | 6 hours, 23 minutes ago Description :Emlog is an open source website building system. Prior to version 2.6.11, missing CSRF protection in...",
       "source": "CVE Feed",
       "published": "2026-05-08T22:16:32+00:00"
     },
     {
       "title": "CVE-2026-42205 - Avo: Broken Access Control: Unauthorized Execution of Arbitrary Action Classes Across Resources",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-42205",
-      "summary": "CVE ID :CVE-2026-42205 Published : May 8, 2026, 10:16 p.m. | 3 hours, 59 minutes ago Description :Avo is a framework to create admin panels for Ruby on Rails apps. Prior to version 3.31.2, a broken...",
+      "summary": "CVE ID :CVE-2026-42205 Published : May 8, 2026, 10:16 p.m. | 6 hours, 23 minutes ago Description :Avo is a framework to create admin panels for Ruby on Rails apps. Prior to version 3.31.2, a broken...",
       "source": "CVE Feed",
       "published": "2026-05-08T22:16:31+00:00"
     },
     {
       "title": "CVE-2026-42193 - Plunk: SNS webhook forgery",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-42193",
-      "summary": "CVE ID :CVE-2026-42193 Published : May 8, 2026, 10:16 p.m. | 3 hours, 59 minutes ago Description :Plunk is an open-source email platform built on top of AWS SES. Prior to version 0.9.0, the...",
+      "summary": "CVE ID :CVE-2026-42193 Published : May 8, 2026, 10:16 p.m. | 6 hours, 23 minutes ago Description :Plunk is an open-source email platform built on top of AWS SES. Prior to version 0.9.0, the...",
       "source": "CVE Feed",
       "published": "2026-05-08T22:16:31+00:00"
     },
     {
       "title": "CVE-2026-41486 - Ray: Remote Code Execution via Parquet Arrow Extension Type Deserialization",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-41486",
-      "summary": "CVE ID :CVE-2026-41486 Published : May 8, 2026, 10:16 p.m. | 3 hours, 59 minutes ago Description :Ray is an AI compute engine. From version 2.54.0 to before version 2.55.0, Ray Data registers custom...",
+      "summary": "CVE ID :CVE-2026-41486 Published : May 8, 2026, 10:16 p.m. | 6 hours, 23 minutes ago Description :Ray is an AI compute engine. From version 2.54.0 to before version 2.55.0, Ray Data registers custom...",
       "source": "CVE Feed",
       "published": "2026-05-08T22:16:29+00:00"
     },
     {
       "title": "CVE-2026-44400 - MailEnable Enterprise Premium < 10.55 Authorization Bypass via WebAdmin",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-44400",
-      "summary": "CVE ID :CVE-2026-44400 Published : May 8, 2026, 9:16 p.m. | 4 hours, 59 minutes ago Description :MailEnable Enterprise Premium 10.55 and earlier contains an improper authorization vulnerability in...",
+      "summary": "CVE ID :CVE-2026-44400 Published : May 8, 2026, 9:16 p.m. | 7 hours, 23 minutes ago Description :MailEnable Enterprise Premium 10.55 and earlier contains an improper authorization vulnerability in...",
       "source": "CVE Feed",
       "published": "2026-05-08T21:16:28+00:00"
-    },
-    {
-      "title": "CVE-2026-7807 - SmarterTools SmarterMail < Build 9560 Server Local File Inclusion via the /api/v1/report/summary/{type} API",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-7807",
-      "summary": "CVE ID :CVE-2026-7807 Published : May 8, 2026, 8:16 p.m. | 5 hours, 59 minutes ago Description :SmarterTools SmarterMail builds prior to 9560 contain a local file inclusion vulnerability in the...",
-      "source": "CVE Feed",
-      "published": "2026-05-08T20:16:32+00:00"
-    },
-    {
-      "title": "CVE-2026-42160 - Data Space Portal: Incorrect Authorization and Client-Side Enforcement of Server-Side Security in ghcr.io/sovity/ds-portal-ce-backend",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-42160",
-      "summary": "CVE ID :CVE-2026-42160 Published : May 8, 2026, 8:16 p.m. | 5 hours, 59 minutes ago Description :Data Space Portal is an open-source Software as a Service (SaaS) solution designed to streamline...",
-      "source": "CVE Feed",
-      "published": "2026-05-08T20:16:30+00:00"
     },
     {
       "title": "ShinyHunters Claims Second Attack Against Instructure",
@@ -154,27 +203,6 @@
       "summary": "The settlement, announced by California officials Friday, is the largest fine issued under the California Consumer Privacy Act (CCPA) in its more than five-year history.",
       "source": "The Record",
       "published": "2026-05-08T19:35:00+00:00"
-    },
-    {
-      "title": "CVE-2026-8178 - Remote Code Execution via Unsafe Class Loading in Amazon Redshift JDBC Driver",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-8178",
-      "summary": "CVE ID :CVE-2026-8178 Published : May 8, 2026, 7:16 p.m. | 6 hours, 59 minutes ago Description :An issue exists in Amazon Redshift JDBC Driver versions prior to 2.2.2. Under certain conditions, the...",
-      "source": "CVE Feed",
-      "published": "2026-05-08T19:16:31+00:00"
-    },
-    {
-      "title": "CVE-2026-29203 - cPanel Nova Symlink Privilege Escalation",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-29203",
-      "summary": "CVE ID :CVE-2026-29203 Published : May 8, 2026, 7:16 p.m. | 6 hours, 59 minutes ago Description :A chmod call in the cPanel Nova plugin's Cpanel::Nova::Connector follows symlinks, allowing setting...",
-      "source": "CVE Feed",
-      "published": "2026-05-08T19:16:30+00:00"
-    },
-    {
-      "title": "CVE-2026-29202 - Apache Struts Perl Code Execution Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-29202",
-      "summary": "CVE ID :CVE-2026-29202 Published : May 8, 2026, 7:16 p.m. | 6 hours, 59 minutes ago Description :Insufficient input validation of the `plugin` parameter of the `create_user` plugin allows arbitrary...",
-      "source": "CVE Feed",
-      "published": "2026-05-08T19:16:30+00:00"
     },
     {
       "title": "Kingdom Market administrator given 16-year sentence",
@@ -196,20 +224,6 @@
       "summary": "Threat hunters have flagged a previously undocumented Brazilian banking trojan dubbed TCLBANKER that's capable of targeting 59 banking, fintech, and cryptocurrency platforms. The activity is being...",
       "source": "The Hacker News",
       "published": "2026-05-08T18:12:00+00:00"
-    },
-    {
-      "title": "CVE-2026-42072 - Nornicdb: Improper Network Binding in NornicDB Bolt Server allows unauthorized remote access",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-42072",
-      "summary": "CVE ID :CVE-2026-42072 Published : May 8, 2026, 5:16 p.m. | 8 hours, 59 minutes ago Description :Nornicdb is a distributed low-latency, Graph+Vector, Temporal MVCC with all sub-ms HNSW search, graph...",
-      "source": "CVE Feed",
-      "published": "2026-05-08T17:16:31+00:00"
-    },
-    {
-      "title": "CVE-2026-38360 - Fohrloop Dash-Uploader Directory Traversal RCE",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-38360",
-      "summary": "CVE ID :CVE-2026-38360 Published : May 8, 2026, 5:16 p.m. | 8 hours, 59 minutes ago Description :Directory Traversal vulnerability in fohrloop dash-uploader v.0.1.0 through v.0.7.0a2 allows a remote...",
-      "source": "CVE Feed",
-      "published": "2026-05-08T17:16:30+00:00"
     },
     {
       "title": "NVIDIA confirms GeForce NOW data breach affecting Armenian users",
@@ -613,16 +627,9 @@
     {
       "title": "PAN-OS RCE Exploit Under Active Use Enabling Root Access and Espionage",
       "link": "https://thehackernews.com/2026/05/pan-os-rce-exploit-under-active-use.html",
-      "summary": "PAN-OS RCE Exploit Under Active Use Enabling Root Access and Espionage Palo Alto Networks has disclosed that threat actors may have attempted to unsuccessfully exploit a recently disclosed critical...",
-      "source": "CVE Newsroom",
+      "summary": "Palo Alto Networks has disclosed that threat actors may have attempted to unsuccessfully exploit a recently disclosed critical security flaw as early as April 9, 2026. The vulnerability in question...",
+      "source": "The Hacker News",
       "published": "2026-05-07T13:34:00+00:00"
-    },
-    {
-      "title": "How Cloudflare responded to the “Copy Fail” Linux vulnerability",
-      "link": "https://blog.cloudflare.com/copy-fail-linux-vulnerability-mitigation/",
-      "summary": "How Cloudflare responded to the “Copy Fail” Linux vulnerability How Cloudflare responded to the “Copy Fail” Linux vulnerability2026-05-078 min readOn April 29, 2026, a Linux kernel local privilege...",
-      "source": "CVE Newsroom",
-      "published": "2026-05-07T13:00:00+00:00"
     },
     {
       "title": "'TrustFall' Convention Exposes Claude Code Execution Risk",
@@ -1393,13 +1400,6 @@
       "summary": "China's state-backed groups are now using covert networks of compromised devices to execute attacks in a low-cost, low-risk, and deniable way.",
       "source": "Dark Reading",
       "published": "2026-04-23T20:52:24+00:00"
-    },
-    {
-      "title": "Intrado 911 Emergency Gateway (EGW) (Update A)",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-113-06",
-      "summary": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to read, modify, or delete files. The following versions of Intrado 911 Emergency Gateway (EGW) are affected...",
-      "source": "CISA Alerts",
-      "published": "2026-04-23T12:00:00+00:00"
     }
   ]
 }
