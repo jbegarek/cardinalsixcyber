@@ -1,15 +1,31 @@
 # Cardinal Six Cyber — Blog Content Calendar
 
-**Last updated:** 2026-04-26  
+**Last updated:** 2026-05-10  
 **Owner:** Justin T. Begarek  
 **Publishing cadence target:** 1–2 posts/week
 
 ---
 
-## Published (11 posts live)
+## Published (27 posts live)
 
 | Date | Slug | Lane | Title |
 |---|---|---|---|
+| 2026-05-10 | `hipaa-security-rule-nprm-control-roadmap` | Practical | The HIPAA Security Rule NPRM: A Control Roadmap Before the Final Rule Lands |
+| 2026-05-10 | `post-quantum-cryptography-healthcare-hndl-roadmap` | Practical | Post-Quantum Cryptography for Healthcare: Why Harvest-Now-Decrypt-Later Means You Start the Inventory Now |
+| 2026-05-10 | `circia-72-hour-reporting-healthcare` | Practical | CIRCIA 72-Hour Reporting for Healthcare: How It Layers on HIPAA, FTC HBNR, and State Breach Law |
+| 2026-05-10 | `cross-jurisdiction-ai-compliance-healthcare-stack` | Research | The Cross-Jurisdiction AI Compliance Stack for Healthcare Vendors |
+| 2026-05-10 | `single-artifact-multi-authority-evidence-engineering` | Research | Single-Artifact, Multi-Authority Evidence Engineering for Healthcare Compliance |
+| 2026-05-10 | `compliance-status-legend-final-proposed-vacated` | Practical | Reading the Compliance Status Legend: Why "Emerging" Is a Useless Tag |
+| 2026-05-10 | `hipaa-reproductive-health-rule-vacated-purl` | Practical | The 2024 HIPAA Reproductive Health Privacy Rule Was Mostly Vacated. What That Means for Your Program. |
+| 2026-05-10 | `ocr-risk-analysis-initiative-cascade-eye` | Practical | OCR's Risk Analysis Initiative and the $250,000 Cascade Eye Settlement: What It Tells You About Current Enforcement |
+| 2026-05-10 | `fda-pccp-ai-enabled-medical-devices` | Practical | FDA Predetermined Change Control Plans for AI-Enabled Medical Devices: What a PCCP Actually Is |
+| 2026-05-10 | `washington-my-health-my-data-act-non-hipaa` | Practical | Washington's My Health My Data Act and the Gap HIPAA Does Not Cover |
+| 2026-05-10 | `hicp-recognized-security-practices-ocr-safe-harbor` | Practical | HICP and the Recognized Security Practices Safe Harbor: The OCR Enforcement Mitigation Most Programs Miss |
+| 2026-05-04 | `prioritized-controls-compliance-healthcare-case-study-unitedhealth` | Research | Prioritized Controls for Compliance: A Healthcare Case Study of UnitedHealth Group |
+| 2026-05-04 | `hipaa-nist-control-roadmap-change-healthcare` | Practical | Why HIPAA Compliance Is Not Enough: A NIST Control Roadmap After Change Healthcare |
+| 2026-05-04 | `nist-vs-hitrust-iso-cobit-cis-healthcare` | Practical | NIST vs HITRUST, ISO 27001, COBIT, and CIS: Which Framework Fits Healthcare Compliance? |
+| 2026-05-04 | `change-healthcare-supply-chain-risk-business-associates` | Practical | Change Healthcare and Business Associate Risk: What Healthcare Supply Chains Need to Prove |
+| 2026-05-04 | `healthcare-ransomware-control-priorities-nist-800-53` | Practical | Healthcare Ransomware Control Priorities: The NIST 800-53 Families To Move First |
 | 2026-04-26 | `cmmc-level-2-mid-tier-dib-case-study` | Research | Inside a CMMC Level 2 Journey: A Mid-Tier DIB Contractor Case Study |
 | 2026-04-26 | `cis-controls-v8-ig1-nist-800-171-crosswalk` | Practical | The CIS Controls v8 IG1 → NIST SP 800-171 Crosswalk for DIB Contractors |
 | 2026-04-19 | `federal-cybersecurity-law-dib-fragmentation` | Research | Federal Cybersecurity Law and the Defense Industrial Base: Fragmentation, Implementation Lag, and the Case for Reform |
