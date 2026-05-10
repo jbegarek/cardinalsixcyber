@@ -1,7 +1,7 @@
 ---
 title: "The HIPAA Security Rule NPRM: A Control Roadmap Before the Final Rule Lands"
 description: "HHS proposed the most consequential HIPAA Security Rule rewrite in 20 years. Here is what to map to your controls now, before the final rule sets the clock."
-publishDate: 2026-05-10
+publishDate: 2026-05-11
 author: "Justin T. Begarek"
 lane: practical
 topics:

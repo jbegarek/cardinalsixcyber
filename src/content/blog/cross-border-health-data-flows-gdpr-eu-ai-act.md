@@ -1,7 +1,7 @@
 ---
 title: "Cross-Border Health Data Flows: When HIPAA Is Not Enough Because the Data Crossed a Border"
 description: "EU GDPR, UK GDPR, China's PIPL, and the EU AI Act all have extraterritorial reach. A U.S. healthcare vendor with international users or vendors is in three regulatory regimes simultaneously."
-publishDate: 2026-05-10
+publishDate: 2026-05-24
 author: "Justin T. Begarek"
 lane: practical
 topics:

@@ -1,7 +1,7 @@
 ---
 title: "CIRCIA 72-Hour Reporting for Healthcare: How It Layers on HIPAA, FTC HBNR, and State Breach Law"
 description: "CIRCIA is not finalized, but healthcare incident response programs that wait until it is will not be ready. Here is how it stacks against HIPAA, state, and FTC notification."
-publishDate: 2026-05-10
+publishDate: 2026-05-18
 author: "Justin T. Begarek"
 lane: practical
 topics:

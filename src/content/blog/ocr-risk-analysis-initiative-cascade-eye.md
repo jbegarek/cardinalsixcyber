@@ -1,7 +1,7 @@
 ---
 title: "OCR's Risk Analysis Initiative and the $250,000 Cascade Eye Settlement: What It Tells You About Current Enforcement"
 description: "On September 26, 2024, OCR settled a ransomware case for $250,000 with a two-year corrective action plan. The findings tell you exactly what to fix in your program."
-publishDate: 2026-05-10
+publishDate: 2026-05-15
 author: "Justin T. Begarek"
 lane: practical
 topics:

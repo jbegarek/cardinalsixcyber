@@ -1,7 +1,7 @@
 ---
 title: "Reading the Compliance Status Legend: Why 'Emerging' Is a Useless Tag"
 description: "Final, final guidance, voluntary, contractually binding, proposed, enacted-not-yet-effective, vacated. The legal weight of a rule changes everything about how you should treat it."
-publishDate: 2026-05-10
+publishDate: 2026-05-21
 author: "Justin T. Begarek"
 lane: practical
 topics:

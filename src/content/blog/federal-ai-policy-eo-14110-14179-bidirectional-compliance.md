@@ -1,7 +1,7 @@
 ---
 title: "EO 14110 to EO 14179: Why Federal AI Policy Is an Unstable Compliance Anchor"
 description: "On October 30, 2023, EO 14110 set federal AI policy. On January 23, 2025, EO 14179 revoked it. Compliance programs that anchored to the wrong document spent 15 months building toward a moving target."
-publishDate: 2026-05-10
+publishDate: 2026-05-25
 author: "Justin T. Begarek"
 lane: practical
 topics:

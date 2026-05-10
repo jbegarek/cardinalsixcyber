@@ -3,7 +3,8 @@ import { getCollection, getEntry, render } from 'astro:content';
 import BlogPostLayout from '../../layouts/BlogPostLayout.astro';
 
 export async function getStaticPaths() {
-  const posts = await getCollection('blog', ({ data }) => !data.draft);
+  const now = Date.now();
+  const posts = await getCollection('blog', ({ data }) => !data.draft && data.publishDate.getTime() <= now);
 
   return posts.map((entry) => ({
     params: { slug: entry.id },
@@ -28,7 +29,8 @@ const wordCount = entry.body?.split(/\s+/).filter(Boolean).length ?? 0;
 const readingTime = Math.max(1, Math.ceil(wordCount / 200));
 
 // Compute related posts by topic overlap, excluding the current post
-const allPosts = await getCollection('blog', ({ data }) => !data.draft);
+const nowForRelated = Date.now();
+const allPosts = await getCollection('blog', ({ data }) => !data.draft && data.publishDate.getTime() <= nowForRelated);
 const currentTopics = new Set((entry.data.topics ?? []).map((t) => t.toLowerCase()));
 
 const scored = allPosts

@@ -1,7 +1,7 @@
 ---
 title: "IoMT Segmentation: Why FDA's 2026 Cybersecurity Guidance and NIST SP 800-82 Now Converge"
 description: "Connected medical devices live on hospital networks where they were never meant to be. FDA's 2026 cybersecurity guidance, section 524B, and NIST SP 800-82 Rev. 3 give you the segmentation roadmap."
-publishDate: 2026-05-10
+publishDate: 2026-05-20
 author: "Justin T. Begarek"
 lane: practical
 topics:

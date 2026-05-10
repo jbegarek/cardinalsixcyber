@@ -1,7 +1,7 @@
 ---
 title: "Post-Quantum Cryptography for Healthcare: Why Harvest-Now-Decrypt-Later Means You Start the Inventory Now"
 description: "Quantum computing is a decade away. Long-lived health records are not. Here is why FIPS 203, 204, and 205 already shape healthcare procurement, and what to inventory first."
-publishDate: 2026-05-10
+publishDate: 2026-05-12
 author: "Justin T. Begarek"
 lane: practical
 topics:

@@ -1,7 +1,7 @@
 ---
 title: "HICP and the Recognized Security Practices Safe Harbor: The OCR Enforcement Mitigation Most Programs Miss"
 description: "A 2021 amendment to HITECH lets OCR consider 12 months of recognized security practices when assessing fines. HHS named HICP as one of those recognized practices. Most healthcare programs do not use it."
-publishDate: 2026-05-10
+publishDate: 2026-05-16
 author: "Justin T. Begarek"
 lane: practical
 topics:

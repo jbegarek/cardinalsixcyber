@@ -1,7 +1,7 @@
 ---
 title: "Washington's My Health My Data Act and the Gap HIPAA Does Not Cover"
 description: "HIPAA does not cover wellness apps, marketing analytics, or most consumer health data. Washington's MHMD Act does. With a private right of action."
-publishDate: 2026-05-10
+publishDate: 2026-05-23
 author: "Justin T. Begarek"
 lane: practical
 topics:

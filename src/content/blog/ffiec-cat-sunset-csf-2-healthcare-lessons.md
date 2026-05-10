@@ -1,7 +1,7 @@
 ---
 title: "The FFIEC CAT Sunset: What Healthcare Can Learn from a Parallel-Sector Compliance Change"
 description: "On August 31, 2025, FFIEC sunsetted the Cybersecurity Assessment Tool. The transition to NIST CSF 2.0 and CISA CPGs is the cleanest recent template for what dynamic compliance change actually looks like."
-publishDate: 2026-05-10
+publishDate: 2026-05-26
 author: "Justin T. Begarek"
 lane: practical
 topics:

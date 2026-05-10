@@ -6,27 +6,29 @@
 
 ---
 
-## Published (33 posts live)
+## Scheduled / Published (33 posts; staggered May 10–26, 2026)
+
+Posts with future `publishDate` values are hidden from the site until the daily rebuild on or after their date — see [docs/scheduled-publishing.md](./scheduled-publishing.md).
 
 | Date | Slug | Lane | Title |
 |---|---|---|---|
+| 2026-05-26 | `ffiec-cat-sunset-csf-2-healthcare-lessons` | Practical | The FFIEC CAT Sunset: What Healthcare Can Learn from a Parallel-Sector Compliance Change |
+| 2026-05-25 | `federal-ai-policy-eo-14110-14179-bidirectional-compliance` | Practical | EO 14110 to EO 14179: Why Federal AI Policy Is an Unstable Compliance Anchor |
+| 2026-05-24 | `cross-border-health-data-flows-gdpr-eu-ai-act` | Practical | Cross-Border Health Data Flows: When HIPAA Is Not Enough Because the Data Crossed a Border |
+| 2026-05-23 | `washington-my-health-my-data-act-non-hipaa` | Practical | Washington's My Health My Data Act and the Gap HIPAA Does Not Cover |
+| 2026-05-22 | `hipaa-reproductive-health-rule-vacated-purl` | Practical | The 2024 HIPAA Reproductive Health Privacy Rule Was Mostly Vacated. What That Means for Your Program. |
+| 2026-05-21 | `compliance-status-legend-final-proposed-vacated` | Practical | Reading the Compliance Status Legend: Why "Emerging" Is a Useless Tag |
+| 2026-05-20 | `iomt-segmentation-fda-cybersecurity-medical-devices` | Practical | IoMT Segmentation: Why FDA's 2026 Cybersecurity Guidance and NIST SP 800-82 Now Converge |
+| 2026-05-19 | `fda-pccp-ai-enabled-medical-devices` | Practical | FDA Predetermined Change Control Plans for AI-Enabled Medical Devices: What a PCCP Actually Is |
+| 2026-05-18 | `circia-72-hour-reporting-healthcare` | Practical | CIRCIA 72-Hour Reporting for Healthcare: How It Layers on HIPAA, FTC HBNR, and State Breach Law |
+| 2026-05-17 | `nist-csf-2-govern-function-healthcare-boards` | Practical | NIST CSF 2.0's Govern Function and What Healthcare Boards Now Have to Own |
+| 2026-05-16 | `hicp-recognized-security-practices-ocr-safe-harbor` | Practical | HICP and the Recognized Security Practices Safe Harbor: The OCR Enforcement Mitigation Most Programs Miss |
+| 2026-05-15 | `ocr-risk-analysis-initiative-cascade-eye` | Practical | OCR's Risk Analysis Initiative and the $250,000 Cascade Eye Settlement: What It Tells You About Current Enforcement |
+| 2026-05-14 | `single-artifact-multi-authority-evidence-engineering` | Research | Single-Artifact, Multi-Authority Evidence Engineering for Healthcare Compliance |
+| 2026-05-13 | `cross-jurisdiction-ai-compliance-healthcare-stack` | Research | The Cross-Jurisdiction AI Compliance Stack for Healthcare Vendors |
+| 2026-05-12 | `post-quantum-cryptography-healthcare-hndl-roadmap` | Practical | Post-Quantum Cryptography for Healthcare: Why Harvest-Now-Decrypt-Later Means You Start the Inventory Now |
+| 2026-05-11 | `hipaa-security-rule-nprm-control-roadmap` | Practical | The HIPAA Security Rule NPRM: A Control Roadmap Before the Final Rule Lands |
 | 2026-05-10 | `dynamic-cybersecurity-compliance-healthcare-startup` | Research | Current and Expected Adjustments to Cybersecurity Compliance for a Healthcare-Sector Cybersecurity Startup (full research paper) |
-| 2026-05-10 | `ffiec-cat-sunset-csf-2-healthcare-lessons` | Practical | The FFIEC CAT Sunset: What Healthcare Can Learn from a Parallel-Sector Compliance Change |
-| 2026-05-10 | `iomt-segmentation-fda-cybersecurity-medical-devices` | Practical | IoMT Segmentation: Why FDA's 2026 Cybersecurity Guidance and NIST SP 800-82 Now Converge |
-| 2026-05-10 | `cross-border-health-data-flows-gdpr-eu-ai-act` | Practical | Cross-Border Health Data Flows: When HIPAA Is Not Enough Because the Data Crossed a Border |
-| 2026-05-10 | `federal-ai-policy-eo-14110-14179-bidirectional-compliance` | Practical | EO 14110 to EO 14179: Why Federal AI Policy Is an Unstable Compliance Anchor |
-| 2026-05-10 | `nist-csf-2-govern-function-healthcare-boards` | Practical | NIST CSF 2.0's Govern Function and What Healthcare Boards Now Have to Own |
-| 2026-05-10 | `hipaa-security-rule-nprm-control-roadmap` | Practical | The HIPAA Security Rule NPRM: A Control Roadmap Before the Final Rule Lands |
-| 2026-05-10 | `post-quantum-cryptography-healthcare-hndl-roadmap` | Practical | Post-Quantum Cryptography for Healthcare: Why Harvest-Now-Decrypt-Later Means You Start the Inventory Now |
-| 2026-05-10 | `circia-72-hour-reporting-healthcare` | Practical | CIRCIA 72-Hour Reporting for Healthcare: How It Layers on HIPAA, FTC HBNR, and State Breach Law |
-| 2026-05-10 | `cross-jurisdiction-ai-compliance-healthcare-stack` | Research | The Cross-Jurisdiction AI Compliance Stack for Healthcare Vendors |
-| 2026-05-10 | `single-artifact-multi-authority-evidence-engineering` | Research | Single-Artifact, Multi-Authority Evidence Engineering for Healthcare Compliance |
-| 2026-05-10 | `compliance-status-legend-final-proposed-vacated` | Practical | Reading the Compliance Status Legend: Why "Emerging" Is a Useless Tag |
-| 2026-05-10 | `hipaa-reproductive-health-rule-vacated-purl` | Practical | The 2024 HIPAA Reproductive Health Privacy Rule Was Mostly Vacated. What That Means for Your Program. |
-| 2026-05-10 | `ocr-risk-analysis-initiative-cascade-eye` | Practical | OCR's Risk Analysis Initiative and the $250,000 Cascade Eye Settlement: What It Tells You About Current Enforcement |
-| 2026-05-10 | `fda-pccp-ai-enabled-medical-devices` | Practical | FDA Predetermined Change Control Plans for AI-Enabled Medical Devices: What a PCCP Actually Is |
-| 2026-05-10 | `washington-my-health-my-data-act-non-hipaa` | Practical | Washington's My Health My Data Act and the Gap HIPAA Does Not Cover |
-| 2026-05-10 | `hicp-recognized-security-practices-ocr-safe-harbor` | Practical | HICP and the Recognized Security Practices Safe Harbor: The OCR Enforcement Mitigation Most Programs Miss |
 | 2026-05-04 | `prioritized-controls-compliance-healthcare-case-study-unitedhealth` | Research | Prioritized Controls for Compliance: A Healthcare Case Study of UnitedHealth Group |
 | 2026-05-04 | `hipaa-nist-control-roadmap-change-healthcare` | Practical | Why HIPAA Compliance Is Not Enough: A NIST Control Roadmap After Change Healthcare |
 | 2026-05-04 | `nist-vs-hitrust-iso-cobit-cis-healthcare` | Practical | NIST vs HITRUST, ISO 27001, COBIT, and CIS: Which Framework Fits Healthcare Compliance? |

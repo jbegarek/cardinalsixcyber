@@ -1,7 +1,7 @@
 ---
 title: "The Cross-Jurisdiction AI Compliance Stack for Healthcare Vendors"
 description: "Six AI compliance instruments now apply to healthcare vendors. They overlap but do not harmonize. Here is how to build one AI dossier that satisfies all six."
-publishDate: 2026-05-10
+publishDate: 2026-05-13
 author: "Justin T. Begarek"
 lane: research
 topics:

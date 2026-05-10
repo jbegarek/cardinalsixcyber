@@ -1,7 +1,7 @@
 ---
 title: "Single-Artifact, Multi-Authority Evidence Engineering for Healthcare Compliance"
 description: "Healthcare compliance has become a layered audit problem. The only way a small team survives it is to design four anchor artifacts that each satisfy multiple authorities."
-publishDate: 2026-05-10
+publishDate: 2026-05-14
 author: "Justin T. Begarek"
 lane: research
 topics:
