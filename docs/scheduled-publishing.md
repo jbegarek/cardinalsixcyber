@@ -11,43 +11,41 @@ This means the publishing schedule is a function of two things:
 
 To publish one post per day, the site needs to rebuild at least once per day.
 
-## Daily rebuild via server-side cron (recommended)
+## What is installed on the server
 
-The Docker server lives at `justin@192.168.0.240` on the LAN. The simplest scheduler is a server-side cron entry.
+A daily cron on the Docker server (`justin@192.168.0.240`) drives the rebuild. Three pieces are in place:
 
-SSH to the server and add this line to your crontab (`crontab -e`):
+**Source mirror at `/home/justin/src/cardinalsixcyber`.** A shallow clone of the GitHub repo. The publish script pulls from `origin/main` here.
 
-```
-0 9 * * * cd /home/justin/deploy/cardinalsixcyber && git pull --quiet && docker compose build --quiet && docker compose up -d >/dev/null 2>&1
-```
+**Publish script at `/home/justin/bin/cardinalsixcyber-publish.sh`.** Pulls the source clone, exits as a no-op if nothing changed, otherwise syncs `src/`, `public/`, `data/`, `nginx/` and the top-level config files into `/home/justin/deploy/cardinalsixcyber`, runs `docker buildx build --load --no-cache`, and recreates the container with `docker compose up -d --force-recreate --no-build`.
 
-This runs every day at 09:00 server time:
-
-- `git pull` — fetches new commits (including any new scheduled posts).
-- `docker compose build` — rebuilds the image so the new post is baked into the static site.
-- `docker compose up -d` — recreates the container so the new build serves traffic.
-
-To check it is set up:
+**Cron entry running daily at 09:00 server time.** Logs append to `/home/justin/logs/cardinalsixcyber-publish.log`.
 
 ```
-crontab -l
+0 9 * * * /home/justin/bin/cardinalsixcyber-publish.sh
 ```
 
-To watch it run:
+The script is idempotent. If no new commits exist on `origin/main`, it exits without rebuilding.
+
+## Operational checks
+
+Verify the cron is installed:
 
 ```
-journalctl -u cron --since "today"
+ssh justin@192.168.0.240 'crontab -l | grep cardinal'
 ```
 
-## Alternative: GitHub Actions
+Tail the publish log:
 
-A GitHub Actions workflow cannot reach `192.168.0.240` directly because that is a LAN address. If you want GitHub Actions to drive the rebuild, you would need either:
+```
+ssh justin@192.168.0.240 'tail -40 ~/logs/cardinalsixcyber-publish.log'
+```
 
-- A self-hosted GitHub runner on the LAN.
-- A VPN/Tailscale path from GitHub-hosted runners to the server.
-- The server exposed via a public ingress with SSH.
+Trigger a publish on demand (e.g., to push a scheduled post live early):
 
-None of these is recommended unless you have an independent reason to use them. Server-side cron is simpler and avoids credentials in GitHub secrets.
+```
+ssh justin@192.168.0.240 '~/bin/cardinalsixcyber-publish.sh'
+```
 
 ## Changing a post's publish date
 
@@ -57,9 +55,9 @@ Edit the post's frontmatter:
 publishDate: 2026-05-15
 ```
 
-Commit. The post will become visible after the next rebuild that occurs on or after that date.
+Commit and push. The post will become visible after the next cron run on or after that date, or after a manual publish-script run.
 
-## Checking what is scheduled
+## Checking the schedule
 
 ```
 grep -h "^publishDate:" src/content/blog/*.md | sort
@@ -67,12 +65,16 @@ grep -h "^publishDate:" src/content/blog/*.md | sort
 
 This lists every post's publishDate so you can see the schedule at a glance.
 
-## Manually publishing a scheduled post early
+## Workstation deploy script still works
 
-Run the deploy script from your workstation:
+The original `scripts/deploy-docker-server.ps1` SCP-and-rebuild flow remains valid for ad-hoc deploys from the workstation. It and the cron do not conflict — they touch the same `/home/justin/deploy/cardinalsixcyber` working directory and run the same docker build steps, just from different sources (workstation SCP vs. server git clone).
+
+## Changing the rebuild time
+
+Edit the cron entry on the server:
 
 ```
-pwsh scripts/deploy-docker-server.ps1
+ssh justin@192.168.0.240 'crontab -e'
 ```
 
-Any post whose `publishDate` is on or before the day you run the script will be built. The next scheduled cron run on the server is harmless — it will pull, build, and recreate again with the same content.
+The default is 09:00 server time. Adjust the `0 9` fields to suit (e.g., `0 6` for 06:00, or `0 14` for 14:00).
