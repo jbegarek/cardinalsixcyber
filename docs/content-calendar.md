@@ -6,10 +6,16 @@
 
 ---
 
-## Published (27 posts live)
+## Published (33 posts live)
 
 | Date | Slug | Lane | Title |
 |---|---|---|---|
+| 2026-05-10 | `dynamic-cybersecurity-compliance-healthcare-startup` | Research | Current and Expected Adjustments to Cybersecurity Compliance for a Healthcare-Sector Cybersecurity Startup (full research paper) |
+| 2026-05-10 | `ffiec-cat-sunset-csf-2-healthcare-lessons` | Practical | The FFIEC CAT Sunset: What Healthcare Can Learn from a Parallel-Sector Compliance Change |
+| 2026-05-10 | `iomt-segmentation-fda-cybersecurity-medical-devices` | Practical | IoMT Segmentation: Why FDA's 2026 Cybersecurity Guidance and NIST SP 800-82 Now Converge |
+| 2026-05-10 | `cross-border-health-data-flows-gdpr-eu-ai-act` | Practical | Cross-Border Health Data Flows: When HIPAA Is Not Enough Because the Data Crossed a Border |
+| 2026-05-10 | `federal-ai-policy-eo-14110-14179-bidirectional-compliance` | Practical | EO 14110 to EO 14179: Why Federal AI Policy Is an Unstable Compliance Anchor |
+| 2026-05-10 | `nist-csf-2-govern-function-healthcare-boards` | Practical | NIST CSF 2.0's Govern Function and What Healthcare Boards Now Have to Own |
 | 2026-05-10 | `hipaa-security-rule-nprm-control-roadmap` | Practical | The HIPAA Security Rule NPRM: A Control Roadmap Before the Final Rule Lands |
 | 2026-05-10 | `post-quantum-cryptography-healthcare-hndl-roadmap` | Practical | Post-Quantum Cryptography for Healthcare: Why Harvest-Now-Decrypt-Later Means You Start the Inventory Now |
 | 2026-05-10 | `circia-72-hour-reporting-healthcare` | Practical | CIRCIA 72-Hour Reporting for Healthcare: How It Layers on HIPAA, FTC HBNR, and State Breach Law |
