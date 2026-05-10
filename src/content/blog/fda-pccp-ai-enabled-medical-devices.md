@@ -1,6 +1,6 @@
 ---
 title: "FDA Predetermined Change Control Plans for AI-Enabled Medical Devices: What a PCCP Actually Is"
-description: "FDA's August 2025 PCCP guidance lets AI-enabled medical devices iterate without resubmission. Here is what a PCCP must contain, when it makes sense, and how it interacts with HIPAA and the AI RMF."
+description: "FDA's August 2025 PCCP guidance lets AI-enabled medical devices iterate without resubmission. What a PCCP must contain, when it makes sense, and how it interacts with HIPAA."
 publishDate: 2026-05-19
 author: "Justin T. Begarek"
 lane: practical

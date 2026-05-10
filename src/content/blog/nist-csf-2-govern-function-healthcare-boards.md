@@ -1,6 +1,6 @@
 ---
 title: "NIST CSF 2.0's Govern Function and What Healthcare Boards Now Have to Own"
-description: "CSF 2.0 added a sixth function in February 2024. Govern moves cybersecurity from an IT topic to a board-level enterprise risk responsibility, and healthcare boards are still catching up."
+description: "CSF 2.0 added Govern in February 2024. It moves cybersecurity from an IT topic to a board-level enterprise risk responsibility. Healthcare boards are still catching up."
 publishDate: 2026-05-17
 author: "Justin T. Begarek"
 lane: practical

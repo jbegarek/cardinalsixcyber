@@ -1,6 +1,6 @@
 ---
 title: "The 2024 HIPAA Reproductive Health Privacy Rule Was Mostly Vacated. What That Means for Your Program."
-description: "On June 18, 2025, a federal court vacated most of the 2024 HIPAA reproductive-health privacy rule. Many policies, training decks, and notices still reference it as live. They should not."
+description: "On June 18, 2025, a federal court vacated most of the 2024 HIPAA reproductive-health privacy rule. Many policies and notices still reference it as live. They should not."
 publishDate: 2026-05-22
 author: "Justin T. Begarek"
 lane: practical
