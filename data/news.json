@@ -1,82 +1,166 @@
 {
-  "last_updated": "2026-05-11T16:51:56.102462+00:00",
+  "last_updated": "2026-05-11T18:34:57.236590+00:00",
   "articles": [
     {
-      "title": "CVE-2026-7819 - \"pgAdmin 4 Symbolic Link Path Traversal Vulnerability\"",
+      "title": "cPanel CVE-2026-41940 Under Active Exploitation to Deploy Filemanager Backdoor",
+      "link": "https://thehackernews.com/2026/05/cpanel-cve-2026-41940-under-active.html",
+      "summary": "A threat actor named Mr_Rot13 has been attributed to the exploitation of a recently disclosed critical cPanel flaw to deploy a backdoor codenamed Filemanager on compromised environments. The attack...",
+      "source": "The Hacker News",
+      "published": "2026-05-11T17:54:00+00:00"
+    },
+    {
+      "title": "CVE-2026-44413 - JetBrains TeamCity Authentication Bypass Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-44413",
+      "summary": "CVE ID :CVE-2026-44413 Published : May 11, 2026, 5:42 p.m. | 34 minutes ago Description :In JetBrains TeamCity before 2026.1 2025.11.5 authenticated users could expose server API to unauthorised...",
+      "source": "CVE Feed",
+      "published": "2026-05-11T17:42:06+00:00"
+    },
+    {
+      "title": "Frame Security Emerges From Stealth With $50M for Awareness and Training Platform",
+      "link": "https://www.securityweek.com/frame-security-emerges-from-stealth-with-50m-for-awareness-and-training-platform/",
+      "summary": "Team8, Index Ventures, Picture Capital, Elad Gil, Cerca Partners, and Tesonet invested in Frame Security. The post Frame Security Emerges From Stealth With $50M for Awareness and Training Platform...",
+      "source": "SecurityWeek",
+      "published": "2026-05-11T17:17:37+00:00"
+    },
+    {
+      "title": "CVE-2026-42843 - grav-plugin-api: Grav API Privilege Escalation to Super Admin",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-42843",
+      "summary": "CVE ID :CVE-2026-42843 Published : May 11, 2026, 5:16 p.m. | 1 hour ago Description :Grav API Plugin is a RESTful API for Grav CMS that provides full headless access to your site's content, media...",
+      "source": "CVE Feed",
+      "published": "2026-05-11T17:16:34+00:00"
+    },
+    {
+      "title": "CVE-2026-42603 - OWASP BLT: pre-commit-fix.yaml executes untrusted fork code via pull_request_target",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-42603",
+      "summary": "CVE ID :CVE-2026-42603 Published : May 11, 2026, 5:16 p.m. | 1 hour ago Description :OWASP BLT is a QA testing and vulnerability disclosure platform that encompasses websites, apps, git repositories...",
+      "source": "CVE Feed",
+      "published": "2026-05-11T17:16:33+00:00"
+    },
+    {
+      "title": "CVE-2026-33362 - Meari SDK hardcoded cryptographic keys",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-33362",
+      "summary": "CVE ID :CVE-2026-33362 Published : May 11, 2026, 5:16 p.m. | 1 hour ago Description :In Meari IoT SDK builds embedded in CloudEdge 5.5.0 (build 220), Arenti 1.8.1 (build 220), and white-label Android...",
+      "source": "CVE Feed",
+      "published": "2026-05-11T17:16:31+00:00"
+    },
+    {
+      "title": "CVE-2026-43640 - Bitwarden Server < 2026.4.1 Authentication Bypass via SCIM API Key",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-43640",
+      "summary": "CVE ID :CVE-2026-43640 Published : May 11, 2026, 5:14 p.m. | 1 hour, 2 minutes ago Description :Bitwarden Server prior to v2026.4.1 does not require master-password re-authentication when retrieving...",
+      "source": "CVE Feed",
+      "published": "2026-05-11T17:14:37+00:00"
+    },
+    {
+      "title": "CVE-2026-43639 - Bitwarden Server < 2026.4.0 Missing Authorization via Provider Clients",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-43639",
+      "summary": "CVE ID :CVE-2026-43639 Published : May 11, 2026, 5:14 p.m. | 1 hour, 2 minutes ago Description :Bitwarden Server prior to v2026.4.0 contains a missing authorization vulnerability that allows a...",
+      "source": "CVE Feed",
+      "published": "2026-05-11T17:14:04+00:00"
+    },
+    {
+      "title": "FCC pushes ban on security updates for foreign-made routers, drones to 2029",
+      "link": "https://therecord.media/fcc-pushes-ban-on-updates-to-foreign-routers-drones-2029",
+      "summary": "The router deadline, originally slated for March 1, 2027, has been pushed back to at least January 1, 2029, according to the announcement from the FCC’s Office of Engineering and Technology (OET).",
+      "source": "The Record",
+      "published": "2026-05-11T16:50:00+00:00"
+    },
+    {
+      "title": "CVE-2026-45006 - OpenClaw < 2026.4.23 - Unsafe Config Mutation via Gateway Tool Denylist Bypass",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-45006",
+      "summary": "CVE ID :CVE-2026-45006 Published : May 11, 2026, 4:46 p.m. | 1 hour, 30 minutes ago Description :OpenClaw before 2026.4.23 contains an improper access control vulnerability in the gateway tool's...",
+      "source": "CVE Feed",
+      "published": "2026-05-11T16:46:43+00:00"
+    },
+    {
+      "title": "CVE-2026-45004 - OpenClaw < 2026.4.23 - Arbitrary Code Execution via setup-api.js in Current Working Directory",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-45004",
+      "summary": "CVE ID :CVE-2026-45004 Published : May 11, 2026, 4:46 p.m. | 1 hour, 30 minutes ago Description :OpenClaw before 2026.4.23 contains an arbitrary code execution vulnerability in the bundled plugin...",
+      "source": "CVE Feed",
+      "published": "2026-05-11T16:46:42+00:00"
+    },
+    {
+      "title": "CVE-2026-7819 - pgAdmin 4: Symbolic-link path traversal in File Manager allows arbitrary file write",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-7819",
-      "summary": "CVE ID :CVE-2026-7819 Published : May 11, 2026, 4:17 p.m. | 17 minutes ago Description :Symbolic-link path traversal (CWE-61, CWE-22) in pgAdmin 4 File Manager. check_access_permission used...",
+      "summary": "CVE ID :CVE-2026-7819 Published : May 11, 2026, 4:17 p.m. | 1 hour, 59 minutes ago Description :Symbolic-link path traversal (CWE-61, CWE-22) in pgAdmin 4 File Manager. check_access_permission used...",
       "source": "CVE Feed",
       "published": "2026-05-11T16:17:39+00:00"
     },
     {
-      "title": "CVE-2026-7816 - \"pgAdmin 4 Command Injection Vulnerability\"",
+      "title": "CVE-2026-7816 - pgAdmin 4: OS command injection in Import/Export query export via psql metacommand breakout",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-7816",
-      "summary": "CVE ID :CVE-2026-7816 Published : May 11, 2026, 4:17 p.m. | 17 minutes ago Description :OS command injection (CWE-78) vulnerability in pgAdmin 4 Import/Export query export. User-supplied input was...",
+      "summary": "CVE ID :CVE-2026-7816 Published : May 11, 2026, 4:17 p.m. | 1 hour, 59 minutes ago Description :OS command injection (CWE-78) vulnerability in pgAdmin 4 Import/Export query export. User-supplied...",
       "source": "CVE Feed",
       "published": "2026-05-11T16:17:38+00:00"
     },
     {
-      "title": "CVE-2026-7815 - \"pgAdmin 4: PostgreSQL Server SQL Injection Vulnerability\"",
+      "title": "CVE-2026-7815 - pgAdmin 4: SQL injection in Maintenance tool option values leading to remote code execution",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-7815",
-      "summary": "CVE ID :CVE-2026-7815 Published : May 11, 2026, 4:17 p.m. | 17 minutes ago Description :SQL injection vulnerability in pgAdmin 4 Maintenance Tool. Four user-supplied JSON fields (buffer_usage_limit...",
+      "summary": "CVE ID :CVE-2026-7815 Published : May 11, 2026, 4:17 p.m. | 1 hour, 59 minutes ago Description :SQL injection vulnerability in pgAdmin 4 Maintenance Tool. Four user-supplied JSON fields...",
       "source": "CVE Feed",
       "published": "2026-05-11T16:17:37+00:00"
     },
     {
-      "title": "CVE-2026-7813 - \"pgAdmin 4: Authorization Bypass and Data Exposure\"",
+      "title": "CVE-2026-7813 - pgAdmin 4: Cross-user data access and shared-server privilege escalation in server mode",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-7813",
-      "summary": "CVE ID :CVE-2026-7813 Published : May 11, 2026, 4:17 p.m. | 17 minutes ago Description :Authorization vulnerability in pgAdmin 4 server mode affecting Server Groups, Servers, Shared Servers...",
+      "summary": "CVE ID :CVE-2026-7813 Published : May 11, 2026, 4:17 p.m. | 1 hour, 59 minutes ago Description :Authorization vulnerability in pgAdmin 4 server mode affecting Server Groups, Servers, Shared Servers...",
       "source": "CVE Feed",
       "published": "2026-05-11T16:17:37+00:00"
     },
     {
-      "title": "CVE-2026-44643 - Angular Expressions Sandbox Escape Vulnerability",
+      "title": "CVE-2026-44643 - Angular Expressions - Remote Code Execution using filters",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-44643",
-      "summary": "CVE ID :CVE-2026-44643 Published : May 11, 2026, 4:17 p.m. | 17 minutes ago Description :Angular Expressions provides expressions for the Angular.JS web framework as a standalone module. Prior to...",
+      "summary": "CVE ID :CVE-2026-44643 Published : May 11, 2026, 4:17 p.m. | 1 hour, 59 minutes ago Description :Angular Expressions provides expressions for the Angular.JS web framework as a standalone module...",
       "source": "CVE Feed",
       "published": "2026-05-11T16:17:36+00:00"
     },
     {
-      "title": "CVE-2026-42613 - Grav Un authenticated Privilege Escalation Vulnerability",
+      "title": "CVE-2026-42613 - Grav: Privilege Escalation via Missing Server-Side Validation of groups/access",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-42613",
-      "summary": "CVE ID :CVE-2026-42613 Published : May 11, 2026, 4:17 p.m. | 17 minutes ago Description :Grav is a file-based Web platform. Prior to 2.0.0-beta.2, the Login::register() method in the Login plugin...",
+      "summary": "CVE ID :CVE-2026-42613 Published : May 11, 2026, 4:17 p.m. | 1 hour, 59 minutes ago Description :Grav is a file-based Web platform. Prior to 2.0.0-beta.2, the Login::register() method in the Login...",
       "source": "CVE Feed",
       "published": "2026-05-11T16:17:34+00:00"
     },
     {
-      "title": "CVE-2026-42612 - Grav Stored Cross-Site Scripting Vulnerability",
+      "title": "CVE-2026-42612 - Grav: Publisher-Level Stored XSS via Unquoted Event Attributes",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-42612",
-      "summary": "CVE ID :CVE-2026-42612 Published : May 11, 2026, 4:17 p.m. | 17 minutes ago Description :Grav is a file-based Web platform. Prior to 2.0.0-beta.2, a stored Cross-Site Scripting (XSS) vulnerability in...",
+      "summary": "CVE ID :CVE-2026-42612 Published : May 11, 2026, 4:17 p.m. | 1 hour, 59 minutes ago Description :Grav is a file-based Web platform. Prior to 2.0.0-beta.2, a stored Cross-Site Scripting (XSS)...",
       "source": "CVE Feed",
       "published": "2026-05-11T16:17:34+00:00"
     },
     {
-      "title": "CVE-2026-42611 - Grav SVG Element Injection XSS (RCE)",
+      "title": "CVE-2026-42611 - Grav: Stored XSS via Tag Injection",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-42611",
-      "summary": "CVE ID :CVE-2026-42611 Published : May 11, 2026, 4:17 p.m. | 17 minutes ago Description :Grav is a file-based Web platform. Prior to 2.0.0-beta.2, a low-privileged (with the ability to create a page)...",
+      "summary": "CVE ID :CVE-2026-42611 Published : May 11, 2026, 4:17 p.m. | 1 hour, 59 minutes ago Description :Grav is a file-based Web platform. Prior to 2.0.0-beta.2, a low-privileged (with the ability to create...",
       "source": "CVE Feed",
       "published": "2026-05-11T16:17:34+00:00"
     },
     {
-      "title": "CVE-2026-42609 - Grav Business Logic Vulnerability - Privilege De-escalation and DoS",
+      "title": "CVE-2026-42609 - Grav: Administrative Account Disruption and Privilege De-escalation via User Overwrite Logic",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-42609",
-      "summary": "CVE ID :CVE-2026-42609 Published : May 11, 2026, 4:17 p.m. | 17 minutes ago Description :Grav is a file-based Web platform. Prior to 2.0.0-beta.2, a business logic vulnerability in the Grav Admin...",
+      "summary": "CVE ID :CVE-2026-42609 Published : May 11, 2026, 4:17 p.m. | 1 hour, 59 minutes ago Description :Grav is a file-based Web platform. Prior to 2.0.0-beta.2, a business logic vulnerability in the Grav...",
       "source": "CVE Feed",
       "published": "2026-05-11T16:17:33+00:00"
     },
     {
-      "title": "CVE-2026-42608 - Grav FormFlash Path Traversal Vulnerability",
+      "title": "CVE-2026-42608 - Grav: Unauthenticated Path Traversal & Arbitrary File Write in FormFlash component.",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-42608",
-      "summary": "CVE ID :CVE-2026-42608 Published : May 11, 2026, 4:17 p.m. | 17 minutes ago Description :Grav is a file-based Web platform. Prior to 2.0.0-beta.2, there is a Path Traversal vulnerability within the...",
+      "summary": "CVE ID :CVE-2026-42608 Published : May 11, 2026, 4:17 p.m. | 1 hour, 59 minutes ago Description :Grav is a file-based Web platform. Prior to 2.0.0-beta.2, there is a Path Traversal vulnerability...",
       "source": "CVE Feed",
       "published": "2026-05-11T16:17:33+00:00"
     },
     {
-      "title": "CVE-2026-42607 - Grav Remote Code Execution (RCE) via ZIP File Upload",
+      "title": "CVE-2026-42607 - Grav: Remote Code Execution (RCE) via Malicious Plugin ZIP Upload in Direct Install Feature",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-42607",
-      "summary": "CVE ID :CVE-2026-42607 Published : May 11, 2026, 4:17 p.m. | 17 minutes ago Description :Grav is a file-based Web platform. Prior to 2.0.0-beta.2, an authenticated user with administrative privileges...",
+      "summary": "CVE ID :CVE-2026-42607 Published : May 11, 2026, 4:17 p.m. | 1 hour, 59 minutes ago Description :Grav is a file-based Web platform. Prior to 2.0.0-beta.2, an authenticated user with administrative...",
       "source": "CVE Feed",
       "published": "2026-05-11T16:17:32+00:00"
+    },
+    {
+      "title": "Hackers Used AI to Develop First Known Zero-Day 2FA Bypass for Mass Exploitation",
+      "link": "https://thehackernews.com/2026/05/hackers-used-ai-to-develop-first-known.html",
+      "summary": "Google on Monday disclosed that it identified an unknown threat actor using a zero-day exploit that it said was likely developed with an artificial intelligence (AI) system, marking the first time...",
+      "source": "The Hacker News",
+      "published": "2026-05-11T15:45:00+00:00"
     },
     {
       "title": "Instructure confirms hackers used Canvas flaw to deface portals",
@@ -84,6 +168,13 @@
       "summary": "Education technology giant Instructure has confirmed that a security vulnerability allowed hackers to modify Canvas login portals and leave an extortion message. [...]",
       "source": "BleepingComputer",
       "published": "2026-05-11T15:26:26+00:00"
+    },
+    {
+      "title": "Brits drinkwaterbedrijf krijgt 1,1 miljoen euro boete wegens groot datalek",
+      "link": "https://www.security.nl/posting/936140/Brits+drinkwaterbedrijf+krijgt+1%2C1+miljoen+euro+boete+wegens+groot+datalek?channel=rss",
+      "summary": "Brits drinkwaterbedrijf krijgt 1,1 miljoen euro boete wegens groot datalek Een Brits drinkwaterbedrijf heeft een boete van omgerekend 1,1 miljoen euro gekregen wegens een groot datalek veroorzaakt...",
+      "source": "CVE Newsroom",
+      "published": "2026-05-11T15:13:09+00:00"
     },
     {
       "title": "'Dirty Frag' Exploit Poised to Blow Up on Enterprise Linux Distros",
@@ -95,7 +186,7 @@
     {
       "title": "CVE-2026-4802 - Cockpit: cockpit: arbitrary command execution via crafted links in system logs ui",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-4802",
-      "summary": "CVE ID :CVE-2026-4802 Published : May 11, 2026, 2:16 p.m. | 2 hours, 18 minutes ago Description :A flaw was found in Cockpit. This vulnerability allows a remote attacker to achieve arbitrary command...",
+      "summary": "CVE ID :CVE-2026-4802 Published : May 11, 2026, 2:16 p.m. | 4 hours ago Description :A flaw was found in Cockpit. This vulnerability allows a remote attacker to achieve arbitrary command execution on...",
       "source": "CVE Feed",
       "published": "2026-05-11T14:16:31+00:00"
     },
@@ -151,8 +242,8 @@
     {
       "title": "⚡ Weekly Recap: Linux Rootkit, macOS Crypto Stealer, WebSocket Skimmers and More",
       "link": "https://thehackernews.com/2026/05/weekly-recap-linux-rootkit-macos-crypto.html",
-      "summary": "Rough Monday. Somebody poisoned a trusted download again, somebody else turned cloud servers into public housing, and a few crews are still getting into boxes with bugs that should’ve died years ago...",
-      "source": "The Hacker News",
+      "summary": "⚡ Weekly Recap: Linux Rootkit, macOS Crypto Stealer, WebSocket Skimmers and More Rough Monday. Somebody poisoned a trusted download again, somebody else turned cloud servers into public housing, and...",
+      "source": "CVE Newsroom",
       "published": "2026-05-11T12:36:00+00:00"
     },
     {
@@ -179,7 +270,7 @@
     {
       "title": "CVE-2025-10470 - Denial-of-Service via Magic Link Authentication in WSO2 Identity Server Allows Service Unavailability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2025-10470",
-      "summary": "CVE ID :CVE-2025-10470 Published : May 11, 2026, 12:16 p.m. | 4 hours, 18 minutes ago Description :The Magic Link authentication flow accepts multiple invalid authentication requests without adequate...",
+      "summary": "CVE ID :CVE-2025-10470 Published : May 11, 2026, 12:16 p.m. | 6 hours ago Description :The Magic Link authentication flow accepts multiple invalid authentication requests without adequate rate...",
       "source": "CVE Feed",
       "published": "2026-05-11T12:16:10+00:00"
     },
@@ -228,14 +319,14 @@
     {
       "title": "CVE-2026-40636 - Dell ECS Hard-Coded Credentials Disclosure",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-40636",
-      "summary": "CVE ID :CVE-2026-40636 Published : May 11, 2026, 10:16 a.m. | 6 hours, 18 minutes ago Description :Dell ECS versions 3.8.1.0 through 3.8.1.7 and Dell ObjectScale versions prior to 4.3.0.0, contains a...",
+      "summary": "CVE ID :CVE-2026-40636 Published : May 11, 2026, 10:16 a.m. | 8 hours ago Description :Dell ECS versions 3.8.1.0 through 3.8.1.7 and Dell ObjectScale versions prior to 4.3.0.0, contains a use of...",
       "source": "CVE Feed",
       "published": "2026-05-11T10:16:13+00:00"
     },
     {
       "title": "CVE-2026-32658 - \"Dell Automation Platform Elevation of Privileges Missing Authorization Vulnerability\"",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-32658",
-      "summary": "CVE ID :CVE-2026-32658 Published : May 11, 2026, 10:16 a.m. | 6 hours, 18 minutes ago Description :Dell Automation Platform versions prior to 2.0.0.0, contains a missing authorization vulnerability...",
+      "summary": "CVE ID :CVE-2026-32658 Published : May 11, 2026, 10:16 a.m. | 8 hours ago Description :Dell Automation Platform versions prior to 2.0.0.0, contains a missing authorization vulnerability. A low...",
       "source": "CVE Feed",
       "published": "2026-05-11T10:16:13+00:00"
     },
@@ -296,6 +387,13 @@
       "published": "2026-05-11T07:05:00+00:00"
     },
     {
+      "title": "CVE-2026-8264 - Tenda AC6 httpd WifiApScan formWifiApScan os command injection",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-8264",
+      "summary": "CVE ID :CVE-2026-8264 Published : May 11, 2026, 4:16 a.m. | 14 hours ago Description :A weakness has been identified in Tenda AC6 15.03.06.23. Affected by this vulnerability is the function...",
+      "source": "CVE Feed",
+      "published": "2026-05-11T04:16:17+00:00"
+    },
+    {
       "title": "The CVE Watchtower: Weekly Threat Intelligence Briefing (May 4 – May 10, 2026)",
       "link": "https://securityonline.info/the-cve-watchtower-weekly-threat-intelligence-briefing-may-4-may-10-2026/",
       "summary": "The CVE Watchtower: Weekly Threat Intelligence Briefing (May 4 – May 10, 2026) Welcome to your weekly vulnerability digest. If you thought the threat landscape was plateauing as we entered May, think...",
@@ -303,16 +401,9 @@
       "published": "2026-05-11T03:50:50+00:00"
     },
     {
-      "title": "Over 500 Organizations Hit in Years-Long Phishing Campaign",
-      "link": "https://www.securityweek.com/over-500-organizations-hit-in-years-long-phishing-campaign/",
-      "summary": "Victims span across the aviation, critical infrastructure, energy, logistics, public administration, and technology sectors. The post Over 500 Organizations Hit in Years-Long Phishing Campaign...",
-      "source": "SecurityWeek",
-      "published": "2026-05-11T03:49:18+00:00"
-    },
-    {
       "title": "CVE-2026-8260 - D-Link DCS-935L HNAP Service hnap_service SetDeviceSettings buffer overflow",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-8260",
-      "summary": "CVE ID :CVE-2026-8260 Published : May 11, 2026, 2:16 a.m. | 14 hours, 18 minutes ago Description :A vulnerability was found in D-Link DCS-935L up to 1.10.01. The impacted element is the function...",
+      "summary": "CVE ID :CVE-2026-8260 Published : May 11, 2026, 2:16 a.m. | 16 hours ago Description :A vulnerability was found in D-Link DCS-935L up to 1.10.01. The impacted element is the function...",
       "source": "CVE Feed",
       "published": "2026-05-11T02:16:27+00:00"
     },
@@ -373,73 +464,10 @@
       "published": "2026-05-10T14:16:47+00:00"
     },
     {
-      "title": "CVE-2022-50944 - Aero CMS 0.0.1 PHP Code Injection via posts.php",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2022-50944",
-      "summary": "CVE ID :CVE-2022-50944 Published : May 10, 2026, 1:16 p.m. | 1 day, 3 hours ago Description :Aero CMS 0.0.1 contains a PHP code injection vulnerability that allows authenticated attackers to execute...",
-      "source": "CVE Feed",
-      "published": "2026-05-10T13:16:32+00:00"
-    },
-    {
-      "title": "CVE-2021-47949 - CyberPanel 2.1 Authenticated Remote Code Execution via Symlink Attack",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2021-47949",
-      "summary": "CVE ID :CVE-2021-47949 Published : May 10, 2026, 1:16 p.m. | 1 day, 3 hours ago Description :CyberPanel 2.1 contains a command execution vulnerability that allows authenticated attackers to read...",
-      "source": "CVE Feed",
-      "published": "2026-05-10T13:16:31+00:00"
-    },
-    {
-      "title": "CVE-2021-47945 - Argus Surveillance DVR 4.0 Unquoted Service Path Privilege Escalation",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2021-47945",
-      "summary": "CVE ID :CVE-2021-47945 Published : May 10, 2026, 1:16 p.m. | 1 day, 3 hours ago Description :Argus Surveillance DVR 4.0 contains an unquoted service path vulnerability in the DVRWatchdog service that...",
-      "source": "CVE Feed",
-      "published": "2026-05-10T13:16:30+00:00"
-    },
-    {
-      "title": "CVE-2021-47944 - memono Notepad 4.2 Denial of Service via Buffer Overflow",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2021-47944",
-      "summary": "CVE ID :CVE-2021-47944 Published : May 10, 2026, 1:16 p.m. | 1 day, 3 hours ago Description :memono Notepad 4.2 contains a denial of service vulnerability that allows attackers to crash the...",
-      "source": "CVE Feed",
-      "published": "2026-05-10T13:16:30+00:00"
-    },
-    {
-      "title": "CVE-2021-47943 - TextPattern CMS 4.8.7 Remote Code Execution via File Upload",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2021-47943",
-      "summary": "CVE ID :CVE-2021-47943 Published : May 10, 2026, 1:16 p.m. | 1 day, 3 hours ago Description :TextPattern CMS 4.8.7 contains a remote code execution vulnerability that allows authenticated attackers...",
-      "source": "CVE Feed",
-      "published": "2026-05-10T13:16:30+00:00"
-    },
-    {
-      "title": "CVE-2021-47941 - WordPress Plugin Survey & Poll 1.5.7.3 SQL Injection via sss_params",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2021-47941",
-      "summary": "CVE ID :CVE-2021-47941 Published : May 10, 2026, 1:16 p.m. | 1 day, 3 hours ago Description :WordPress Plugin Survey & Poll 1.5.7.3 contains an SQL injection vulnerability that allows unauthenticated...",
-      "source": "CVE Feed",
-      "published": "2026-05-10T13:16:30+00:00"
-    },
-    {
-      "title": "CVE-2021-47940 - WordPress Download From Files 1.48 Arbitrary File Upload",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2021-47940",
-      "summary": "CVE ID :CVE-2021-47940 Published : May 10, 2026, 1:16 p.m. | 1 day, 3 hours ago Description :WordPress Plugin Download From Files version 1.48 and earlier contains an arbitrary file upload...",
-      "source": "CVE Feed",
-      "published": "2026-05-10T13:16:30+00:00"
-    },
-    {
-      "title": "CVE-2021-47939 - Evolution CMS 3.1.6 Authenticated Remote Code Execution via Module Creation",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2021-47939",
-      "summary": "CVE ID :CVE-2021-47939 Published : May 10, 2026, 1:16 p.m. | 1 day, 3 hours ago Description :Evolution CMS 3.1.6 contains a remote code execution vulnerability that allows authenticated users with...",
-      "source": "CVE Feed",
-      "published": "2026-05-10T13:16:30+00:00"
-    },
-    {
-      "title": "CVE-2021-47938 - ImpressCMS 1.4.2 Remote Code Execution via Autotasks",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2021-47938",
-      "summary": "CVE ID :CVE-2021-47938 Published : May 10, 2026, 1:16 p.m. | 1 day, 3 hours ago Description :ImpressCMS 1.4.2 contains a remote code execution vulnerability in the autotasks administrative interface...",
-      "source": "CVE Feed",
-      "published": "2026-05-10T13:16:30+00:00"
-    },
-    {
       "title": "Ollama Out-of-Bounds Read Vulnerability Allows Remote Process Memory Leak",
       "link": "https://thehackernews.com/2026/05/ollama-out-of-bounds-read-vulnerability.html",
-      "summary": "Cybersecurity researchers have disclosed a critical security vulnerability in Ollama that, if successfully exploited, could allow a remote, unauthenticated attacker to leak its entire process memory...",
-      "source": "The Hacker News",
+      "summary": "Ollama Out-of-Bounds Read Vulnerability Allows Remote Process Memory Leak Cybersecurity researchers have disclosed a critical security vulnerability in Ollama that, if successfully exploited, could...",
+      "source": "CVE Newsroom",
       "published": "2026-05-10T12:41:00+00:00"
     },
     {
@@ -480,8 +508,8 @@
     {
       "title": "cPanel, WHM Release Fixes for Three New Vulnerabilities — Patch Now",
       "link": "https://thehackernews.com/2026/05/cpanel-whm-patch-3-new-vulnerabilities.html",
-      "summary": "cPanel has released updates to address three vulnerabilities in cPanel and Web Host Manager (WHM) that could be exploited to achieve privilege escalation, code execution, and denial-of-service. The...",
-      "source": "The Hacker News",
+      "summary": "cPanel, WHM Release Fixes for Three New Vulnerabilities — Patch Now Ravie LakshmananMay 09, 2026Vulnerability / Web Hosting cPanel has released updates to address three vulnerabilities in cPanel...",
+      "source": "CVE Newsroom",
       "published": "2026-05-09T07:16:00+00:00"
     },
     {
@@ -518,13 +546,6 @@
       "summary": "Slovakian national Alan Bill, 33, pleaded guilty in January to a conspiracy to distribute controlled substances charge after admitting to his role in running Kingdom Market — a platform used by drug...",
       "source": "The Record",
       "published": "2026-05-08T19:16:00+00:00"
-    },
-    {
-      "title": "Virginia man found guilty of deleting 96 government databases",
-      "link": "https://therecord.media/virginia-man-found-guilty-deleting-96-gov-databases",
-      "summary": "A Virginia man was convicted on federal charges Thursday after a jury found him guilty of deleting 96 government databases and stealing an individual’s password, leading their email account to be...",
-      "source": "The Record",
-      "published": "2026-05-08T18:14:00+00:00"
     },
     {
       "title": "TCLBANKER Banking Trojan Targets Financial Platforms via WhatsApp and Outlook Worms",
@@ -588,13 +609,6 @@
       "summary": "Critical Sandboxie Escape Flaws Grant Total SYSTEM Takeover For years, security professionals and everyday tech users alike have relied on Sandboxie as a bulletproof glass enclosure—a secure...",
       "source": "CVE Newsroom",
       "published": "2026-05-08T12:42:37+00:00"
-    },
-    {
-      "title": "The Cyber Express Weekly Roundup: EU AI Act Updates, Malware Expansion, Critical Vulnerabilities, and Rising Cybercrime Trends",
-      "link": "https://thecyberexpress.com/tce-weekly-roundup-ai-malware-fbi-cyber-alerts/",
-      "summary": "The Cyber Express Weekly Roundup: EU AI Act Updates, Malware Expansion, Critical Vulnerabilities, and Rising Cybercrime Trends In this weekly roundup from The Cyber Express, the global cybersecurity...",
-      "source": "CVE Newsroom",
-      "published": "2026-05-08T12:17:42+00:00"
     },
     {
       "title": "CISA gives feds four days to patch Ivanti flaw exploited as zero-day",
@@ -1141,20 +1155,6 @@
       "summary": "The managed security services market is projected to grow from $38.31 billion in 2025 to $69.16 billion by 2030[1], with cybersecurity being the fastest-growing sector[2]. Despite this opportunity...",
       "source": "The Hacker News",
       "published": "2026-05-01T10:30:00+00:00"
-    },
-    {
-      "title": "Two Cybersecurity Professionals Get 4-Year Sentences in BlackCat Ransomware Attacks",
-      "link": "https://thehackernews.com/2026/05/two-cybersecurity-professionals-get-4.html",
-      "summary": "The U.S. Department of Justice (DoJ) on Thursday announced the sentencing of two cybersecurity professionals to four years each in prison for their role in facilitating BlackCat ransomware attacks in...",
-      "source": "The Hacker News",
-      "published": "2026-05-01T09:56:00+00:00"
-    },
-    {
-      "title": "Poisoned Ruby Gems and Go Modules Exploit CI Pipelines for Credential Theft",
-      "link": "https://thehackernews.com/2026/05/poisoned-ruby-gems-and-go-modules.html",
-      "summary": "A new software supply chain attack campaign has been observed using sleeper packages as a conduit to subsequently push malicious payloads that enabled credential theft, GitHub Actions tampering, and...",
-      "source": "The Hacker News",
-      "published": "2026-05-01T09:43:00+00:00"
     },
     {
       "title": "TeamPCP Hits SAP Packages With 'Mini Shai-Hulud' Attack",
