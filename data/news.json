@@ -1,6 +1,48 @@
 {
-  "last_updated": "2026-05-12T00:26:56.549569+00:00",
+  "last_updated": "2026-05-12T03:03:05.038340+00:00",
   "articles": [
+    {
+      "title": "CVE-2026-45321 - Malware in 42 @tanstack/* packages exfiltrates cloud credentials, GitHub tokens, and SSH keys",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-45321",
+      "summary": "CVE ID :CVE-2026-45321 Published : May 12, 2026, 1:16 a.m. | 28 minutes ago Description :On 2026-05-11, between approximately 19:20 and 19:26 UTC, 84 malicious versions across 42 @tanstack/* packages...",
+      "source": "CVE Feed",
+      "published": "2026-05-12T01:16:46+00:00"
+    },
+    {
+      "title": "CVE-2026-43913 - Vaultwarden: Unconfirmed Owner Can Purge Entire Organization Vault",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-43913",
+      "summary": "CVE ID :CVE-2026-43913 Published : May 11, 2026, 11:20 p.m. | 2 hours, 24 minutes ago Description :Vaultwarden is a Bitwarden-compatible server written in Rust. Prior to 1.35.5, Vaultwarden allows an...",
+      "source": "CVE Feed",
+      "published": "2026-05-11T23:20:22+00:00"
+    },
+    {
+      "title": "CVE-2026-43912 - Vaultwarden: Cross-Org Group Binding Enables Unauthorized Read And Write Access Into Another Organization",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-43912",
+      "summary": "CVE ID :CVE-2026-43912 Published : May 11, 2026, 11:20 p.m. | 2 hours, 24 minutes ago Description :Vaultwarden is a Bitwarden-compatible server written in Rust. Prior to 1.35.5, Vaultwarden does not...",
+      "source": "CVE Feed",
+      "published": "2026-05-11T23:20:21+00:00"
+    },
+    {
+      "title": "CVE-2026-43900 - DeepChat: Persistent DOM XSS via HTML Entity Encoding in `` SVG Rendering (Bypass of `svgSanitizer.ts`)",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-43900",
+      "summary": "CVE ID :CVE-2026-43900 Published : May 11, 2026, 11:20 p.m. | 2 hours, 24 minutes ago Description :DeepChat is an open-source artificial intelligence agent platform that unifies models, tools, and...",
+      "source": "CVE Feed",
+      "published": "2026-05-11T23:20:21+00:00"
+    },
+    {
+      "title": "CVE-2026-43899 - DeepChat: Incomplete Fix for CVE-2025-55733 leads to Remote Code Execution via Markdown Links bypassing `isValidExternalUrl`",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-43899",
+      "summary": "CVE ID :CVE-2026-43899 Published : May 11, 2026, 11:20 p.m. | 2 hours, 24 minutes ago Description :DeepChat is an open-source artificial intelligence agent platform that unifies models, tools, and...",
+      "source": "CVE Feed",
+      "published": "2026-05-11T23:20:21+00:00"
+    },
+    {
+      "title": "CVE-2026-34963 - barebox EFI PE Loader Memory Safety Vulnerabilities",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-34963",
+      "summary": "CVE ID :CVE-2026-34963 Published : May 11, 2026, 11:19 p.m. | 2 hours, 25 minutes ago Description :barebox version prior to 2026.04.0 contains multiple memory-safety vulnerabilities in the EFI PE...",
+      "source": "CVE Feed",
+      "published": "2026-05-11T23:19:47+00:00"
+    },
     {
       "title": "GM agrees to $12.75M California settlement over sale of drivers’ data",
       "link": "https://www.bleepingcomputer.com/news/legal/gm-agrees-to-1275m-california-settlement-over-sale-of-drivers-data/",
@@ -9,37 +51,44 @@
       "published": "2026-05-11T22:40:34+00:00"
     },
     {
+      "title": "Linux bitten by second severe vulnerability in as many weeks",
+      "link": "https://arstechnica.com/security/2026/05/linux-bitten-by-second-severe-vulnerability-in-as-many-weeks/",
+      "summary": "Linux bitten by second severe vulnerability in as many weeks Both privilege escalation vulnerabilities stem from bugs in the kernel’s handling of page caches stored in memory, allowing untrusted...",
+      "source": "CVE Newsroom",
+      "published": "2026-05-11T22:28:19+00:00"
+    },
+    {
       "title": "CVE-2026-43897 - Link Preview JS: vunerable to IPv6 and internal loopback attacks",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-43897",
-      "summary": "CVE ID :CVE-2026-43897 Published : May 11, 2026, 10:22 p.m. | 15 minutes ago Description :Link Preview JS extracts web links information. Prior to 4.0.1, the library did not check for IPv6 loopback...",
+      "summary": "CVE ID :CVE-2026-43897 Published : May 11, 2026, 10:22 p.m. | 3 hours, 22 minutes ago Description :Link Preview JS extracts web links information. Prior to 4.0.1, the library did not check for IPv6...",
       "source": "CVE Feed",
       "published": "2026-05-11T22:22:14+00:00"
     },
     {
       "title": "CVE-2026-43893 - exiftool-vendored: Argument injection via newline characters in tag names",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-43893",
-      "summary": "CVE ID :CVE-2026-43893 Published : May 11, 2026, 10:22 p.m. | 15 minutes ago Description :exiftool-vendored provides cross-platform Node.js access to ExifTool. Prior to 35.19.0, exiftool-vendored...",
+      "summary": "CVE ID :CVE-2026-43893 Published : May 11, 2026, 10:22 p.m. | 3 hours, 22 minutes ago Description :exiftool-vendored provides cross-platform Node.js access to ExifTool. Prior to 35.19.0...",
       "source": "CVE Feed",
       "published": "2026-05-11T22:22:14+00:00"
     },
     {
       "title": "CVE-2026-43888 - Outline: Zip Extraction Path Escape via PATH_MAX Truncation in Collection Import",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-43888",
-      "summary": "CVE ID :CVE-2026-43888 Published : May 11, 2026, 10:22 p.m. | 15 minutes ago Description :Outline is a service that allows for collaborative documentation. Prior to 1.7.0, ZipHelper.extract computes...",
+      "summary": "CVE ID :CVE-2026-43888 Published : May 11, 2026, 10:22 p.m. | 3 hours, 22 minutes ago Description :Outline is a service that allows for collaborative documentation. Prior to 1.7.0, ZipHelper.extract...",
       "source": "CVE Feed",
       "published": "2026-05-11T22:22:13+00:00"
     },
     {
       "title": "CVE-2026-43886 - Outline: OAuth Scope Validation Logic Error Allows Privilege Escalation to Wildcard API Access",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-43886",
-      "summary": "CVE ID :CVE-2026-43886 Published : May 11, 2026, 10:22 p.m. | 15 minutes ago Description :Outline is a service that allows for collaborative documentation. From 0.84.0 to 1.6.1, a logic error in...",
+      "summary": "CVE ID :CVE-2026-43886 Published : May 11, 2026, 10:22 p.m. | 3 hours, 22 minutes ago Description :Outline is a service that allows for collaborative documentation. From 0.84.0 to 1.6.1, a logic...",
       "source": "CVE Feed",
       "published": "2026-05-11T22:22:13+00:00"
     },
     {
       "title": "CVE-2026-42564 - jotty·page: Unauthenticated Path Traversal leads to sensitive file disclosure and session-token reuse impact",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-42564",
-      "summary": "CVE ID :CVE-2026-42564 Published : May 11, 2026, 10:22 p.m. | 15 minutes ago Description :jotty·page is a self-hosted app for your checklists and notes. Prior to 1.22.0, an unauthenticated path...",
+      "summary": "CVE ID :CVE-2026-42564 Published : May 11, 2026, 10:22 p.m. | 3 hours, 22 minutes ago Description :jotty·page is a self-hosted app for your checklists and notes. Prior to 1.22.0, an unauthenticated...",
       "source": "CVE Feed",
       "published": "2026-05-11T22:22:11+00:00"
     },
@@ -60,7 +109,7 @@
     {
       "title": "CVE-2026-41489 - Pi-hole: Local privilege escalation via config-controlled path in root-executed service hooks",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-41489",
-      "summary": "CVE ID :CVE-2026-41489 Published : May 11, 2026, 9:19 p.m. | 1 hour, 18 minutes ago Description :Pi-hole is a DNS sinkhole that protects devices from unwanted content without installing any...",
+      "summary": "CVE ID :CVE-2026-41489 Published : May 11, 2026, 9:19 p.m. | 4 hours, 26 minutes ago Description :Pi-hole is a DNS sinkhole that protects devices from unwanted content without installing any...",
       "source": "CVE Feed",
       "published": "2026-05-11T21:19:00+00:00"
     },
@@ -74,14 +123,14 @@
     {
       "title": "CVE-2026-42882 - oxyno-zeta/s3-proxy: Security Issues in Resource Path Matching",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-42882",
-      "summary": "CVE ID :CVE-2026-42882 Published : May 11, 2026, 8:25 p.m. | 2 hours, 12 minutes ago Description :oxyno-zeta/s3-proxy is an aws s3 proxy written in go. Prior to 5.0.0, s3-proxy contains an...",
+      "summary": "CVE ID :CVE-2026-42882 Published : May 11, 2026, 8:25 p.m. | 5 hours, 19 minutes ago Description :oxyno-zeta/s3-proxy is an aws s3 proxy written in go. Prior to 5.0.0, s3-proxy contains an...",
       "source": "CVE Feed",
       "published": "2026-05-11T20:25:44+00:00"
     },
     {
       "title": "CVE-2026-42869 - SOCFortress CoPilot: Hardcoded JWT secret allows unauthenticated full admin compromise and lateral movement into all integrated SOC tools",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-42869",
-      "summary": "CVE ID :CVE-2026-42869 Published : May 11, 2026, 8:25 p.m. | 2 hours, 12 minutes ago Description :SOCFortress CoPilot focuses on providing a single pane of glass for all your security operations...",
+      "summary": "CVE ID :CVE-2026-42869 Published : May 11, 2026, 8:25 p.m. | 5 hours, 19 minutes ago Description :SOCFortress CoPilot focuses on providing a single pane of glass for all your security operations...",
       "source": "CVE Feed",
       "published": "2026-05-11T20:25:43+00:00"
     },
@@ -102,21 +151,21 @@
     {
       "title": "CVE-2026-7790 - Unbounded chunk-size hex digits in cowlib cause quadratic CPU and memory DoS",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-7790",
-      "summary": "CVE ID :CVE-2026-7790 Published : May 11, 2026, 7:16 p.m. | 3 hours, 21 minutes ago Description :Uncontrolled Resource Consumption vulnerability in ninenines cowlib (cow_http_te module) allows...",
+      "summary": "CVE ID :CVE-2026-7790 Published : May 11, 2026, 7:16 p.m. | 6 hours, 28 minutes ago Description :Uncontrolled Resource Consumption vulnerability in ninenines cowlib (cow_http_te module) allows...",
       "source": "CVE Feed",
       "published": "2026-05-11T19:16:29+00:00"
     },
     {
       "title": "CVE-2026-45223 - Crabbox < 0.9.0 Authentication Bypass via Admin Claim Injection",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-45223",
-      "summary": "CVE ID :CVE-2026-45223 Published : May 11, 2026, 7:16 p.m. | 3 hours, 21 minutes ago Description :Crabbox before 0.9.0 contains an authentication bypass vulnerability in the coordinator user-token...",
+      "summary": "CVE ID :CVE-2026-45223 Published : May 11, 2026, 7:16 p.m. | 6 hours, 28 minutes ago Description :Crabbox before 0.9.0 contains an authentication bypass vulnerability in the coordinator user-token...",
       "source": "CVE Feed",
       "published": "2026-05-11T19:16:28+00:00"
     },
     {
       "title": "CVE-2026-42864 - FireFighter: Unauthenticated SSRF in Raid jira_bot endpoint allows IAM credential theft",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-42864",
-      "summary": "CVE ID :CVE-2026-42864 Published : May 11, 2026, 7:16 p.m. | 3 hours, 21 minutes ago Description :FireFighter is an incident management application. Prior to 0.0.54, the POST...",
+      "summary": "CVE ID :CVE-2026-42864 Published : May 11, 2026, 7:16 p.m. | 6 hours, 28 minutes ago Description :FireFighter is an incident management application. Prior to 0.0.54, the POST...",
       "source": "CVE Feed",
       "published": "2026-05-11T19:16:24+00:00"
     },
@@ -130,99 +179,64 @@
     {
       "title": "CVE-2026-4892 - CVE-2026-4892",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-4892",
-      "summary": "CVE ID :CVE-2026-4892 Published : May 11, 2026, 6:16 p.m. | 4 hours, 21 minutes ago Description :A heap-based out-of-bounds write vulnerability in the DHCPv6 implementation of dnsmasq allows local...",
+      "summary": "CVE ID :CVE-2026-4892 Published : May 11, 2026, 6:16 p.m. | 7 hours, 28 minutes ago Description :A heap-based out-of-bounds write vulnerability in the DHCPv6 implementation of dnsmasq allows local...",
       "source": "CVE Feed",
       "published": "2026-05-11T18:16:41+00:00"
     },
     {
       "title": "CVE-2026-45006 - OpenClaw < 2026.4.23 - Unsafe Config Mutation via Gateway Tool Denylist Bypass",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-45006",
-      "summary": "CVE ID :CVE-2026-45006 Published : May 11, 2026, 6:16 p.m. | 4 hours, 21 minutes ago Description :OpenClaw before 2026.4.23 contains an improper access control vulnerability in the gateway tool's...",
+      "summary": "CVE ID :CVE-2026-45006 Published : May 11, 2026, 6:16 p.m. | 7 hours, 28 minutes ago Description :OpenClaw before 2026.4.23 contains an improper access control vulnerability in the gateway tool's...",
       "source": "CVE Feed",
       "published": "2026-05-11T18:16:40+00:00"
     },
     {
       "title": "CVE-2026-44413 - JetBrains TeamCity Authentication Bypass Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-44413",
-      "summary": "CVE ID :CVE-2026-44413 Published : May 11, 2026, 6:16 p.m. | 4 hours, 21 minutes ago Description :In JetBrains TeamCity before 2026.1 2025.11.5 authenticated users could expose server API to...",
+      "summary": "CVE ID :CVE-2026-44413 Published : May 11, 2026, 6:16 p.m. | 7 hours, 28 minutes ago Description :In JetBrains TeamCity before 2026.1 2025.11.5 authenticated users could expose server API to...",
       "source": "CVE Feed",
       "published": "2026-05-11T18:16:38+00:00"
     },
     {
       "title": "CVE-2026-43640 - Bitwarden Server < 2026.4.1 Authentication Bypass via SCIM API Key",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-43640",
-      "summary": "CVE ID :CVE-2026-43640 Published : May 11, 2026, 6:16 p.m. | 4 hours, 21 minutes ago Description :Bitwarden Server prior to v2026.4.1 does not require master-password re-authentication when...",
+      "summary": "CVE ID :CVE-2026-43640 Published : May 11, 2026, 6:16 p.m. | 7 hours, 28 minutes ago Description :Bitwarden Server prior to v2026.4.1 does not require master-password re-authentication when...",
       "source": "CVE Feed",
       "published": "2026-05-11T18:16:37+00:00"
     },
     {
       "title": "CVE-2026-43639 - Bitwarden Server < 2026.4.0 Missing Authorization via Provider Clients",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-43639",
-      "summary": "CVE ID :CVE-2026-43639 Published : May 11, 2026, 6:16 p.m. | 4 hours, 21 minutes ago Description :Bitwarden Server prior to v2026.4.0 contains a missing authorization vulnerability that allows a...",
+      "summary": "CVE ID :CVE-2026-43639 Published : May 11, 2026, 6:16 p.m. | 7 hours, 28 minutes ago Description :Bitwarden Server prior to v2026.4.0 contains a missing authorization vulnerability that allows a...",
       "source": "CVE Feed",
       "published": "2026-05-11T18:16:36+00:00"
     },
     {
       "title": "CVE-2026-42860 - Open edx Enterprise Service: SSRF via SAML metadata URL in sync_provider_data endpoint",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-42860",
-      "summary": "CVE ID :CVE-2026-42860 Published : May 11, 2026, 6:16 p.m. | 4 hours, 21 minutes ago Description :The Open edx Enterprise Service app provides enterprise features to the Open edX platform. From 7.0.2...",
+      "summary": "CVE ID :CVE-2026-42860 Published : May 11, 2026, 6:16 p.m. | 7 hours, 28 minutes ago Description :The Open edx Enterprise Service app provides enterprise features to the Open edX platform. From 7.0.2...",
       "source": "CVE Feed",
       "published": "2026-05-11T18:16:36+00:00"
     },
     {
       "title": "CVE-2026-42859 - Neat VNC: Buffer overflow due to oversized RSA public keys",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-42859",
-      "summary": "CVE ID :CVE-2026-42859 Published : May 11, 2026, 6:16 p.m. | 4 hours, 21 minutes ago Description :Neat VNC is a VNC server library. Prior to 0.9.6, a pre-authentication stack buffer overflow exists...",
+      "summary": "CVE ID :CVE-2026-42859 Published : May 11, 2026, 6:16 p.m. | 7 hours, 28 minutes ago Description :Neat VNC is a VNC server library. Prior to 0.9.6, a pre-authentication stack buffer overflow exists...",
       "source": "CVE Feed",
       "published": "2026-05-11T18:16:36+00:00"
     },
     {
       "title": "CVE-2026-42858 - Open edX Platform: Server-Side Request Forgery (SSRF) in SAML Provider Data Sync Endpoint",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-42858",
-      "summary": "CVE ID :CVE-2026-42858 Published : May 11, 2026, 6:16 p.m. | 4 hours, 21 minutes ago Description :Open edX Platform enables the authoring and delivery of online learning at any scale. The...",
+      "summary": "CVE ID :CVE-2026-42858 Published : May 11, 2026, 6:16 p.m. | 7 hours, 28 minutes ago Description :Open edX Platform enables the authoring and delivery of online learning at any scale. The...",
       "source": "CVE Feed",
       "published": "2026-05-11T18:16:36+00:00"
     },
     {
-      "title": "CVE-2026-42856 - Network-AI: Missing authentication on MCP HTTP endpoint allows unauthenticated privileged tool calls",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-42856",
-      "summary": "CVE ID :CVE-2026-42856 Published : May 11, 2026, 6:16 p.m. | 4 hours, 21 minutes ago Description :Network-AI is a TypeScript/Node.js multi-agent orchestrator. Prior to 5.1.3, the MCP HTTP transport...",
-      "source": "CVE Feed",
-      "published": "2026-05-11T18:16:35+00:00"
-    },
-    {
-      "title": "CVE-2026-42315 - pyLoad: Path Traversal via Package Folder Name in set_package_data",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-42315",
-      "summary": "CVE ID :CVE-2026-42315 Published : May 11, 2026, 6:16 p.m. | 4 hours, 21 minutes ago Description :pyLoad is a free and open-source download manager written in Python. Prior to 0.5.0b3.dev100, when...",
-      "source": "CVE Feed",
-      "published": "2026-05-11T18:16:35+00:00"
-    },
-    {
-      "title": "CVE-2026-42313 - pyload-ng: non-admin SETTINGS users can redirect all outbound traffic through an attacker-controlled proxy",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-42313",
-      "summary": "CVE ID :CVE-2026-42313 Published : May 11, 2026, 6:16 p.m. | 4 hours, 21 minutes ago Description :pyLoad is a free and open-source download manager written in Python. Prior to 0.5.0b3.dev100, the...",
-      "source": "CVE Feed",
-      "published": "2026-05-11T18:16:34+00:00"
-    },
-    {
-      "title": "CVE-2026-41431 - Zen Browser MAR updater ships with signature verification removed — unsigned updates accepted",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-41431",
-      "summary": "CVE ID :CVE-2026-41431 Published : May 11, 2026, 6:16 p.m. | 4 hours, 21 minutes ago Description :Zen is a firefox-based browser. Prior to 1.19.9b, Zen Browser ships a Mozilla Application Resource...",
-      "source": "CVE Feed",
-      "published": "2026-05-11T18:16:34+00:00"
-    },
-    {
-      "title": "CVE-2026-38568 - HireFlow Improper Authorization Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-38568",
-      "summary": "CVE ID :CVE-2026-38568 Published : May 11, 2026, 6:16 p.m. | 4 hours, 21 minutes ago Description :HireFlow v1.2 is vulnerable to Incorrect Access Control. The application does not enforce...",
-      "source": "CVE Feed",
-      "published": "2026-05-11T18:16:32+00:00"
-    },
-    {
       "title": "cPanel CVE-2026-41940 Under Active Exploitation to Deploy Filemanager Backdoor",
       "link": "https://thehackernews.com/2026/05/cpanel-cve-2026-41940-under-active.html",
-      "summary": "cPanel CVE-2026-41940 Under Active Exploitation to Deploy Filemanager Backdoor A threat actor named Mr_Rot13 has been attributed to the exploitation of a recently disclosed critical cPanel flaw to...",
-      "source": "CVE Newsroom",
+      "summary": "A threat actor named Mr_Rot13 has been attributed to the exploitation of a recently disclosed critical cPanel flaw to deploy a backdoor codenamed Filemanager on compromised environments. The attack...",
+      "source": "The Hacker News",
       "published": "2026-05-11T17:54:00+00:00"
     },
     {
@@ -231,13 +245,6 @@
       "summary": "Team8, Index Ventures, Picture Capital, Elad Gil, Cerca Partners, and Tesonet invested in Frame Security. The post Frame Security Emerges From Stealth With $50M for Awareness and Training Platform...",
       "source": "SecurityWeek",
       "published": "2026-05-11T17:17:37+00:00"
-    },
-    {
-      "title": "CVE-2026-42843 - grav-plugin-api: Grav API Privilege Escalation to Super Admin",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-42843",
-      "summary": "CVE ID :CVE-2026-42843 Published : May 11, 2026, 5:16 p.m. | 5 hours, 21 minutes ago Description :Grav API Plugin is a RESTful API for Grav CMS that provides full headless access to your site's...",
-      "source": "CVE Feed",
-      "published": "2026-05-11T17:16:34+00:00"
     },
     {
       "title": "FCC pushes ban on security updates for foreign-made routers, drones to 2029",
@@ -326,8 +333,8 @@
     {
       "title": "⚡ Weekly Recap: Linux Rootkit, macOS Crypto Stealer, WebSocket Skimmers and More",
       "link": "https://thehackernews.com/2026/05/weekly-recap-linux-rootkit-macos-crypto.html",
-      "summary": "⚡ Weekly Recap: Linux Rootkit, macOS Crypto Stealer, WebSocket Skimmers and More Rough Monday. Somebody poisoned a trusted download again, somebody else turned cloud servers into public housing, and...",
-      "source": "CVE Newsroom",
+      "summary": "Rough Monday. Somebody poisoned a trusted download again, somebody else turned cloud servers into public housing, and a few crews are still getting into boxes with bugs that should’ve died years ago...",
+      "source": "The Hacker News",
       "published": "2026-05-11T12:36:00+00:00"
     },
     {
@@ -515,8 +522,8 @@
     {
       "title": "Ollama Out-of-Bounds Read Vulnerability Allows Remote Process Memory Leak",
       "link": "https://thehackernews.com/2026/05/ollama-out-of-bounds-read-vulnerability.html",
-      "summary": "Ollama Out-of-Bounds Read Vulnerability Allows Remote Process Memory Leak Cybersecurity researchers have disclosed a critical security vulnerability in Ollama that, if successfully exploited, could...",
-      "source": "CVE Newsroom",
+      "summary": "Cybersecurity researchers have disclosed a critical security vulnerability in Ollama that, if successfully exploited, could allow a remote, unauthenticated attacker to leak its entire process memory...",
+      "source": "The Hacker News",
       "published": "2026-05-10T12:41:00+00:00"
     },
     {
@@ -557,8 +564,8 @@
     {
       "title": "cPanel, WHM Release Fixes for Three New Vulnerabilities — Patch Now",
       "link": "https://thehackernews.com/2026/05/cpanel-whm-patch-3-new-vulnerabilities.html",
-      "summary": "cPanel, WHM Release Fixes for Three New Vulnerabilities — Patch Now Ravie LakshmananMay 09, 2026Vulnerability / Web Hosting cPanel has released updates to address three vulnerabilities in cPanel...",
-      "source": "CVE Newsroom",
+      "summary": "cPanel has released updates to address three vulnerabilities in cPanel and Web Host Manager (WHM) that could be exploited to achieve privilege escalation, code execution, and denial-of-service. The...",
+      "source": "The Hacker News",
       "published": "2026-05-09T07:16:00+00:00"
     },
     {
@@ -1393,13 +1400,6 @@
       "summary": "CISA has added four new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation. CVE-2024-7399 Samsung MagicINFO 9 Server Path Traversal...",
       "source": "CISA Alerts",
       "published": "2026-04-24T12:00:00+00:00"
-    },
-    {
-      "title": "Intrado 911 Emergency Gateway (EGW) (Update A)",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-113-06",
-      "summary": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to read, modify, or delete files. The following versions of Intrado 911 Emergency Gateway (EGW) are affected...",
-      "source": "CISA Alerts",
-      "published": "2026-04-23T12:00:00+00:00"
     }
   ]
 }
