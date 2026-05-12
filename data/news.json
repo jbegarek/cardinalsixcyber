@@ -1,12 +1,257 @@
 {
-  "last_updated": "2026-05-12T16:42:45.297950+00:00",
+  "last_updated": "2026-05-12T18:34:25.703177+00:00",
   "articles": [
     {
-      "title": "CVE-2026-30805 - Insecure Default Initialization in API Authentication leads to Authentication Bypass",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-30805",
-      "summary": "CVE ID :CVE-2026-30805 Published : May 12, 2026, 4:16 p.m. | 25 minutes ago Description :Insecure Default Initialization of Resource vulnerability allows Authentication Bypass via API access. This...",
+      "title": "Fortinet warns of critical RCE flaws in FortiSandbox and FortiAuthenticator",
+      "link": "https://www.bleepingcomputer.com/news/security/fortinet-warns-of-critical-rce-flaws-in-fortisandbox-and-fortiauthenticator/",
+      "summary": "Fortinet has released security patches for two critical vulnerabilities in FortiSandbox and FortiAuthenticator that could enable attackers to run commands or arbitrary code. [...]",
+      "source": "BleepingComputer",
+      "published": "2026-05-12T18:23:09+00:00"
+    },
+    {
+      "title": "Windows 11 KB5089549 & KB5087420 cumulative updates released",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5089549-and-kb5087420-cumulative-updates-released/",
+      "summary": "Microsoft has released Windows 11 KB5089549 and KB5087420 cumulative updates for versions 25H2/24H2 and 23H2 to fix security vulnerabilities, bugs, and add new features. [...]",
+      "source": "BleepingComputer",
+      "published": "2026-05-12T18:09:12+00:00"
+    },
+    {
+      "title": "Microsoft May 2026 Patch Tuesday fixes 120 flaws, no zero-days",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-may-2026-patch-tuesday-fixes-120-flaws-no-zero-days/",
+      "summary": "Today is Microsoft's May 2026 Patch Tuesday, with security updates for 120 flaws and no zero-days disclosed this month. [...]",
+      "source": "BleepingComputer",
+      "published": "2026-05-12T18:08:06+00:00"
+    },
+    {
+      "title": "Microsoft Patches 137 Vulnerabilities",
+      "link": "https://www.securityweek.com/microsoft-patches-137-vulnerabilities/",
+      "summary": "Fresh security updates resolve critical flaws in Azure, Windows, Dynamics 365, and the SSO Plugin for Jira & Confluence. The post Microsoft Patches 137 Vulnerabilities appeared first on SecurityWeek.",
+      "source": "SecurityWeek",
+      "published": "2026-05-12T18:07:39+00:00"
+    },
+    {
+      "title": "CVE-2026-20767 - Intel QAT Windows Escalation of Privilege Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-20767",
+      "summary": "CVE ID :CVE-2026-20767 Published : May 12, 2026, 5:33 p.m. | 44 minutes ago Description :Improper input validation for some Intel(R) QAT software drivers for Windows before version 1.13 within Ring...",
       "source": "CVE Feed",
-      "published": "2026-05-12T16:16:12+00:00"
+      "published": "2026-05-12T17:33:02+00:00"
+    },
+    {
+      "title": "CVE-2026-20714 - Intel QAT Windows Privilege Escalation Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-20714",
+      "summary": "CVE ID :CVE-2026-20714 Published : May 12, 2026, 5:31 p.m. | 45 minutes ago Description :Out-of-bounds write for some Intel(R) QAT software drivers for Windows before version 1.13 within Ring 3: User...",
+      "source": "CVE Feed",
+      "published": "2026-05-12T17:31:55+00:00"
+    },
+    {
+      "title": "Exaforce Raises $125 Million for Agentic SOC Platform",
+      "link": "https://www.securityweek.com/exaforce-raises-125-million-for-agentic-soc-platform/",
+      "summary": "Exaforce has raised a total of $200 million and plans on using the latest investment for product development and international expansion. The post Exaforce Raises $125 Million for Agentic SOC...",
+      "source": "SecurityWeek",
+      "published": "2026-05-12T17:23:00+00:00"
+    },
+    {
+      "title": "CVE-2026-43993 - JunoClaw: SSRF in WAVS computeDataVerify allows cloud-metadata and internal-service access",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-43993",
+      "summary": "CVE ID :CVE-2026-43993 Published : May 12, 2026, 5:16 p.m. | 1 hour ago Description :JunoClaw is an agentic AI platform built on Juno Network. Prior to 0.x.y-security-1, the WAVS bridge's...",
+      "source": "CVE Feed",
+      "published": "2026-05-12T17:16:21+00:00"
+    },
+    {
+      "title": "CVE-2026-43992 - JunoClaw: MCP write tools exposed raw BIP-39 mnemonic as a tool-call parameter",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-43992",
+      "summary": "CVE ID :CVE-2026-43992 Published : May 12, 2026, 5:16 p.m. | 1 hour ago Description :JunoClaw is an agentic AI platform built on Juno Network. Prior to 0.x.y-security-1, every MCP write tool...",
+      "source": "CVE Feed",
+      "published": "2026-05-12T17:16:21+00:00"
+    },
+    {
+      "title": "CVE-2026-43991 - JunoClaw: plugin-shell shell-injection bypass via substring blocklist",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-43991",
+      "summary": "CVE ID :CVE-2026-43991 Published : May 12, 2026, 5:16 p.m. | 1 hour ago Description :JunoClaw is an agentic AI platform built on Juno Network. Prior to 0.x.y-security-1, substring-based blocklist in...",
+      "source": "CVE Feed",
+      "published": "2026-05-12T17:16:21+00:00"
+    },
+    {
+      "title": "CVE-2026-43990 - JunoClaw: plugin-shell shell-metacharacter injection via shell wrapper",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-43990",
+      "summary": "CVE ID :CVE-2026-43990 Published : May 12, 2026, 5:16 p.m. | 1 hour ago Description :JunoClaw is an agentic AI platform built on Juno Network. Prior to 0.x.y-security-1, plugin-shell's run_command...",
+      "source": "CVE Feed",
+      "published": "2026-05-12T17:16:20+00:00"
+    },
+    {
+      "title": "CVE-2026-43989 - JunoClaw: upload_wasm accepted arbitrary filesystem paths without validation",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-43989",
+      "summary": "CVE ID :CVE-2026-43989 Published : May 12, 2026, 5:16 p.m. | 1 hour ago Description :JunoClaw is an agentic AI platform built on Juno Network. Prior to 0.x.y-security-1, the upload_wasm MCP tool...",
+      "source": "CVE Feed",
+      "published": "2026-05-12T17:16:20+00:00"
+    },
+    {
+      "title": "CVE-2026-20887 - \"Intel Vision Denial of Service and Remote Code Execution Vulnerability\"",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-20887",
+      "summary": "CVE ID :CVE-2026-20887 Published : May 12, 2026, 5:16 p.m. | 1 hour ago Description :Improper access control for some Intel Vision software for all versions within Ring 3: User Applications may allow...",
+      "source": "CVE Feed",
+      "published": "2026-05-12T17:16:19+00:00"
+    },
+    {
+      "title": "CVE-2026-20879 - Intel Data Center Graphics Driver for VMware ESXi Out-of-bounds Write Denial of Service and Data Corruption",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-20879",
+      "summary": "CVE ID :CVE-2026-20879 Published : May 12, 2026, 5:16 p.m. | 1 hour ago Description :Out-of-bounds write for the Intel(R) Data Center Graphics Driver for VMware ESXi software before version 2.0.2...",
+      "source": "CVE Feed",
+      "published": "2026-05-12T17:16:19+00:00"
+    },
+    {
+      "title": "CVE-2026-20794 - VMware ESXi Intel Data Center Graphics Driver Ring 1 Privilege Escalation Buffer Overflow Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-20794",
+      "summary": "CVE ID :CVE-2026-20794 Published : May 12, 2026, 5:16 p.m. | 1 hour ago Description :Buffer overflow for the Intel(R) Data Center Graphics Driver for VMware ESXi software before version 2.0.2 within...",
+      "source": "CVE Feed",
+      "published": "2026-05-12T17:16:19+00:00"
+    },
+    {
+      "title": "CVE-2026-20753 - \"Slim Bootloader UEFI Firmware Integer Overflow Privilege Escalation Vulnerability\"",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-20753",
+      "summary": "CVE ID :CVE-2026-20753 Published : May 12, 2026, 5:16 p.m. | 1 hour ago Description :Integer overflow in the UEFI firmware for the Slim Bootloader may allow an escalation of privilege. System...",
+      "source": "CVE Feed",
+      "published": "2026-05-12T17:16:17+00:00"
+    },
+    {
+      "title": "CVE-2026-20751 - VMware ESXi Intel Data Center Graphics Driver Out-of-Bounds Read Denial of Service",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-20751",
+      "summary": "CVE ID :CVE-2026-20751 Published : May 12, 2026, 5:16 p.m. | 1 hour ago Description :Out-of-bounds read for the Intel(R) Data Center Graphics Driver for VMware ESXi software before version 2.0.2...",
+      "source": "CVE Feed",
+      "published": "2026-05-12T17:16:17+00:00"
+    },
+    {
+      "title": "CVE-2026-20738 - Intel QuickAssist Adapter 8960 Untrusted Pointer Dereference Privilege Escalation Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-20738",
+      "summary": "CVE ID :CVE-2026-20738 Published : May 12, 2026, 5:16 p.m. | 1 hour ago Description :Untrusted pointer dereference for some Intel(R) QuickAssist Adapter 8960 software before version 1.13 within Ring...",
+      "source": "CVE Feed",
+      "published": "2026-05-12T17:16:16+00:00"
+    },
+    {
+      "title": "CVE-2025-35990 - Intel Endpoint Management Assistant (EMA) Privilege Escalation Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2025-35990",
+      "summary": "CVE ID :CVE-2025-35990 Published : May 12, 2026, 5:16 p.m. | 1 hour ago Description :Improper input validation for some Intel Endpoint Management Assistant (EMA) software before version 1.14.5 within...",
+      "source": "CVE Feed",
+      "published": "2026-05-12T17:16:13+00:00"
+    },
+    {
+      "title": "Škoda warns of customer data breach after online shop hack",
+      "link": "https://www.bleepingcomputer.com/news/security/skoda-warns-of-customer-data-breach-after-online-shop-hack/",
+      "summary": "Škoda Auto, a wholly owned subsidiary of the Volkswagen Group, has disclosed a data breach after attackers hacked its online shop and stole the personal information of an undisclosed number of...",
+      "source": "BleepingComputer",
+      "published": "2026-05-12T17:07:01+00:00"
+    },
+    {
+      "title": "Android 17 to expand banking scam call and privacy protections",
+      "link": "https://www.bleepingcomputer.com/news/security/android-17-to-expand-banking-scam-call-and-privacy-protections/",
+      "summary": "Android 17, expected to roll out next month, will introduce several security and privacy features focused on device theft, threat detection, and banking scam calls. [...]",
+      "source": "BleepingComputer",
+      "published": "2026-05-12T17:00:00+00:00"
+    },
+    {
+      "title": "CVE-2026-42833 - Microsoft Dynamics 365 On-Premises Remote Code Execution Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-42833",
+      "summary": "CVE ID :CVE-2026-42833 Published : May 12, 2026, 4:59 p.m. | 1 hour, 17 minutes ago Description :None Severity: 9.1 | CRITICAL Visit the link for more details, such as CVSS details, affected...",
+      "source": "CVE Feed",
+      "published": "2026-05-12T16:59:35+00:00"
+    },
+    {
+      "title": "CVE-2026-42823 - Azure Logic Apps Elevation of Privilege Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-42823",
+      "summary": "CVE ID :CVE-2026-42823 Published : May 12, 2026, 4:59 p.m. | 1 hour, 17 minutes ago Description :None Severity: 9.9 | CRITICAL Visit the link for more details, such as CVSS details, affected...",
+      "source": "CVE Feed",
+      "published": "2026-05-12T16:59:33+00:00"
+    },
+    {
+      "title": "CVE-2026-41613 - Visual Studio Code Elevation of Privilege Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-41613",
+      "summary": "CVE ID :CVE-2026-41613 Published : May 12, 2026, 4:59 p.m. | 1 hour, 17 minutes ago Description :None Severity: 8.8 | HIGH Visit the link for more details, such as CVSS details, affected products...",
+      "source": "CVE Feed",
+      "published": "2026-05-12T16:59:32+00:00"
+    },
+    {
+      "title": "CVE-2026-41103 - Microsoft SSO Plugin for Jira & Confluence Elevation of Privilege Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-41103",
+      "summary": "CVE ID :CVE-2026-41103 Published : May 12, 2026, 4:59 p.m. | 1 hour, 17 minutes ago Description :None Severity: 9.1 | CRITICAL Visit the link for more details, such as CVSS details, affected...",
+      "source": "CVE Feed",
+      "published": "2026-05-12T16:59:32+00:00"
+    },
+    {
+      "title": "CVE-2026-41086 - Windows Admin Center in Azure Portal Elevation of Privilege Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-41086",
+      "summary": "CVE ID :CVE-2026-41086 Published : May 12, 2026, 4:59 p.m. | 1 hour, 17 minutes ago Description :None Severity: 8.8 | HIGH Visit the link for more details, such as CVSS details, affected products...",
+      "source": "CVE Feed",
+      "published": "2026-05-12T16:59:30+00:00"
+    },
+    {
+      "title": "CVE-2026-40420 - Microsoft Office Click-To-Run Elevation of Privilege Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-40420",
+      "summary": "CVE ID :CVE-2026-40420 Published : May 12, 2026, 4:59 p.m. | 1 hour, 17 minutes ago Description :None Severity: 8.8 | HIGH Visit the link for more details, such as CVSS details, affected products...",
+      "source": "CVE Feed",
+      "published": "2026-05-12T16:59:29+00:00"
+    },
+    {
+      "title": "CVE-2026-35436 - Microsoft Office Click-To-Run Elevation of Privilege Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-35436",
+      "summary": "CVE ID :CVE-2026-35436 Published : May 12, 2026, 4:59 p.m. | 1 hour, 17 minutes ago Description :None Severity: 8.8 | HIGH Visit the link for more details, such as CVSS details, affected products...",
+      "source": "CVE Feed",
+      "published": "2026-05-12T16:59:28+00:00"
+    },
+    {
+      "title": "CVE-2026-40403 - Windows Graphics Component Remote Code Execution Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-40403",
+      "summary": "CVE ID :CVE-2026-40403 Published : May 12, 2026, 4:59 p.m. | 1 hour, 17 minutes ago Description :None Severity: 8.8 | HIGH Visit the link for more details, such as CVSS details, affected products...",
+      "source": "CVE Feed",
+      "published": "2026-05-12T16:59:26+00:00"
+    },
+    {
+      "title": "CVE-2026-40402 - Windows Hyper-V Elevation of Privilege Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-40402",
+      "summary": "CVE ID :CVE-2026-40402 Published : May 12, 2026, 4:59 p.m. | 1 hour, 17 minutes ago Description :None Severity: 9.3 | CRITICAL Visit the link for more details, such as CVSS details, affected...",
+      "source": "CVE Feed",
+      "published": "2026-05-12T16:59:25+00:00"
+    },
+    {
+      "title": "CVE-2026-40370 - SQL Server Remote Code Execution Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-40370",
+      "summary": "CVE ID :CVE-2026-40370 Published : May 12, 2026, 4:59 p.m. | 1 hour, 17 minutes ago Description :None Severity: 8.8 | HIGH Visit the link for more details, such as CVSS details, affected products...",
+      "source": "CVE Feed",
+      "published": "2026-05-12T16:59:21+00:00"
+    },
+    {
+      "title": "CVE-2026-40367 - Microsoft Word Remote Code Execution Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-40367",
+      "summary": "CVE ID :CVE-2026-40367 Published : May 12, 2026, 4:59 p.m. | 1 hour, 17 minutes ago Description :None Severity: 8.4 | HIGH Visit the link for more details, such as CVSS details, affected products...",
+      "source": "CVE Feed",
+      "published": "2026-05-12T16:59:20+00:00"
+    },
+    {
+      "title": "European countries are exporting surveillance tech to countries with poor human rights records, report says",
+      "link": "https://therecord.media/eu-countries-export-surveillance-tech-to-countries-with-human-rights-issues",
+      "summary": "The report, released by the advocacy group Human Rights Watch on Tuesday, alleges that the European Commission has failed to effectively police member states' surveillance tech sales despite the 2021...",
+      "source": "The Record",
+      "published": "2026-05-12T16:49:00+00:00"
+    },
+    {
+      "title": "Adobe Patches 52 Vulnerabilities in 10 Products",
+      "link": "https://www.securityweek.com/adobe-patches-52-vulnerabilities-in-10-products/",
+      "summary": "While none of the flaws have been exploited in the wild, many of them could lead to arbitrary code execution. The post Adobe Patches 52 Vulnerabilities in 10 Products appeared first on SecurityWeek.",
+      "source": "SecurityWeek",
+      "published": "2026-05-12T16:47:21+00:00"
+    },
+    {
+      "title": "New Exim BDAT Vulnerability Exposes GnuTLS Builds to Potential Code Execution",
+      "link": "https://thehackernews.com/2026/05/new-exim-bdat-vulnerability-exposes.html",
+      "summary": "Exim has released security updates to address a severe security issue affecting certain configurations that could enable memory corruption and potential code execution. Exim is an open-source Mail...",
+      "source": "The Hacker News",
+      "published": "2026-05-12T16:44:00+00:00"
+    },
+    {
+      "title": "Zoom Rooms and Workplace Vulnerabilities Allow Attackers to Escalate Privileges",
+      "link": "https://cybersecuritynews.com/zoom-rooms-and-workplace-vulnerabilities/",
+      "summary": "Zoom Rooms and Workplace Vulnerabilities Allow Attackers to Escalate Privileges A series of newly discovered vulnerabilities in Zoom’s software ecosystem could hand local attackers the keys to your...",
+      "source": "CVE Newsroom",
+      "published": "2026-05-12T15:43:32+00:00"
     },
     {
       "title": "White Circle Raises $11 Million for AI Control Platform",
@@ -16,53 +261,18 @@
       "published": "2026-05-12T15:40:21+00:00"
     },
     {
-      "title": "CVE-2026-8111 - Ivanti Endpoint Manager SQL Injection Remote Code Execution",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-8111",
-      "summary": "CVE ID :CVE-2026-8111 Published : May 12, 2026, 3:16 p.m. | 1 hour, 24 minutes ago Description :SQL injection in the web console of Ivanti Endpoint Manager before version 2024 SU6 allows a remote...",
-      "source": "CVE Feed",
-      "published": "2026-05-12T15:16:18+00:00"
+      "title": "SAP Patches Critical SQL injection Vulnerability in SAP S/4HANA",
+      "link": "https://cybersecuritynews.com/sap-s-4hana-vulnerability/",
+      "summary": "SAP Patches Critical SQL injection Vulnerability in SAP S/4HANA On May 12, 2026, SAP released its highly anticipated monthly Security Patch Day updates, addressing numerous severe security flaws...",
+      "source": "CVE Newsroom",
+      "published": "2026-05-12T15:35:59+00:00"
     },
     {
-      "title": "CVE-2026-8043 - Ivanti Xtraction File Name Manipulation Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-8043",
-      "summary": "CVE ID :CVE-2026-8043 Published : May 12, 2026, 3:16 p.m. | 1 hour, 24 minutes ago Description :External control of a file name in Ivanti Xtraction before version 2026.2 allows a remote authenticated...",
-      "source": "CVE Feed",
-      "published": "2026-05-12T15:16:17+00:00"
-    },
-    {
-      "title": "CVE-2026-6866 - Initialization of a Resource with an Insecure Default vulnerability on EcoStruxure™ Panel Server",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-6866",
-      "summary": "CVE ID :CVE-2026-6866 Published : May 12, 2026, 3:16 p.m. | 1 hour, 24 minutes ago Description :CWE-1188 Initialization of a Resource with an Insecure Default vulnerability exists that could cause...",
-      "source": "CVE Feed",
-      "published": "2026-05-12T15:16:16+00:00"
-    },
-    {
-      "title": "CVE-2026-43983 - Pocket ID: OIDC refresh token flow bypasses authorization revocation, account disabling, and group restrictions",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-43983",
-      "summary": "CVE ID :CVE-2026-43983 Published : May 12, 2026, 3:16 p.m. | 1 hour, 24 minutes ago Description :Pocket ID is an OIDC provider that allows users to authenticate with their passkeys to your services...",
-      "source": "CVE Feed",
-      "published": "2026-05-12T15:16:15+00:00"
-    },
-    {
-      "title": "CVE-2026-43938 - YAF.NET: Unauthenticated Stored Second-Order XSS in Admin Event Log via Reflected `User-Agent` Header",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-43938",
-      "summary": "CVE ID :CVE-2026-43938 Published : May 12, 2026, 3:16 p.m. | 1 hour, 24 minutes ago Description :YetAnotherForum.NET (YAF.NET) is a C# ASP.NET forum. Prior to 4.0.5 and 3.2.12, the application's...",
-      "source": "CVE Feed",
-      "published": "2026-05-12T15:16:15+00:00"
-    },
-    {
-      "title": "CVE-2026-43937 - YAF.NET: Pre-Handler Authorization Bypass on Admin Pages Enabling Blind SQL Execution via `/Admin/RunSql`",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-43937",
-      "summary": "CVE ID :CVE-2026-43937 Published : May 12, 2026, 3:16 p.m. | 1 hour, 24 minutes ago Description :YetAnotherForum.NET (YAF.NET) is a C# ASP.NET forum. Prior to 4.0.5, Any admin OnPost… handler...",
-      "source": "CVE Feed",
-      "published": "2026-05-12T15:16:15+00:00"
-    },
-    {
-      "title": "CVE-2026-42260 - Open-WebSearch: SSRF in `fetchWebContent` MCP tool: bracketed IPv6 literals and non-resolving hostname check bypass `isPrivateOrLocalHostname`",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-42260",
-      "summary": "CVE ID :CVE-2026-42260 Published : May 12, 2026, 3:16 p.m. | 1 hour, 24 minutes ago Description :Open-WebSearch is a multi-engine MCP server, CLI, and local daemon for agent web search and content...",
-      "source": "CVE Feed",
-      "published": "2026-05-12T15:16:15+00:00"
+      "title": "RubyGems Suspends New Signups After Hundreds of Malicious Packages Are Uploaded",
+      "link": "https://thehackernews.com/2026/05/rubygems-suspends-new-signups-after.html",
+      "summary": "RubyGems, the standard package manager for the Ruby programming language, has temporarily paused account sign ups following what has been described as a \"major malicious attack.\" \"We're dealing with...",
+      "source": "The Hacker News",
+      "published": "2026-05-12T14:47:00+00:00"
     },
     {
       "title": "BWH Hotels Says Hackers Had Access to Reservation Data for 6 Months",
@@ -70,27 +280,6 @@
       "summary": "Threat actors obtained names and contact information for an unspecified number of BWH Hotels guests. The post BWH Hotels Says Hackers Had Access to Reservation Data for 6 Months appeared first on...",
       "source": "SecurityWeek",
       "published": "2026-05-12T14:30:00+00:00"
-    },
-    {
-      "title": "CVE-2026-45091 - sealed-env: TOTP secret embedded in unseal token payload (enterprise mode)",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-45091",
-      "summary": "CVE ID :CVE-2026-45091 Published : May 12, 2026, 2:17 p.m. | 2 hours, 24 minutes ago Description :sealed-env is a cross-stack, zero-trust secret management library for Node.js and Java/Spring Boot...",
-      "source": "CVE Feed",
-      "published": "2026-05-12T14:17:08+00:00"
-    },
-    {
-      "title": "CVE-2026-43916 - pam_authnft: Heap buffer overflow in NETLINK_SOCK_DIAG reply walker",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-43916",
-      "summary": "CVE ID :CVE-2026-43916 Published : May 12, 2026, 2:17 p.m. | 2 hours, 24 minutes ago Description :pam_authnft is a PAM session module binding nftables firewall rules to authenticated sessions via...",
-      "source": "CVE Feed",
-      "published": "2026-05-12T14:17:08+00:00"
-    },
-    {
-      "title": "CVE-2026-35071 - Dell PowerScale InsightIQ OS Command Injection",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-35071",
-      "summary": "CVE ID :CVE-2026-35071 Published : May 12, 2026, 2:17 p.m. | 2 hours, 24 minutes ago Description :Dell PowerScale InsightIQ, versions 6.0.0 through 6.2.0, contains an improper neutralization of...",
-      "source": "CVE Feed",
-      "published": "2026-05-12T14:17:02+00:00"
     },
     {
       "title": "Hugging Face Packages Weaponized With a Single File Tweak",
@@ -112,13 +301,6 @@
       "summary": "The company that operates online learning system Canvas said it struck a deal with hackers to delete the data they pilfered in a cyberattack that created chaos for students, many of them in the...",
       "source": "SecurityWeek",
       "published": "2026-05-12T13:26:46+00:00"
-    },
-    {
-      "title": "CVE-2026-4827 - Insufficient Entropy vulnerability on Multiple Products",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-4827",
-      "summary": "CVE ID :CVE-2026-4827 Published : May 12, 2026, 1:17 p.m. | 3 hours, 23 minutes ago Description :CWE‑331 Insufficient Entropy vulnerability exists that could lead to unauthorized access when an...",
-      "source": "CVE Feed",
-      "published": "2026-05-12T13:17:35+00:00"
     },
     {
       "title": "Critical Siemens ROS# Flaw Enables Arbitrary File Access and Host Takeover",
@@ -254,53 +436,11 @@
       "published": "2026-05-12T11:29:36+00:00"
     },
     {
-      "title": "CVE-2026-45214 - WordPress Xpro Elementor Addons plugin <= 1.5.1 - SQL Injection vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-45214",
-      "summary": "CVE ID :CVE-2026-45214 Published : May 12, 2026, 11:16 a.m. | 5 hours, 24 minutes ago Description :Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability...",
-      "source": "CVE Feed",
-      "published": "2026-05-12T11:16:20+00:00"
-    },
-    {
-      "title": "CVE-2026-45211 - WordPress APIExperts Square for WooCommerce plugin <= 4.7.1 - SQL Injection vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-45211",
-      "summary": "CVE ID :CVE-2026-45211 Published : May 12, 2026, 11:16 a.m. | 5 hours, 24 minutes ago Description :Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability...",
-      "source": "CVE Feed",
-      "published": "2026-05-12T11:16:20+00:00"
-    },
-    {
-      "title": "CVE-2026-42742 - WordPress Views for WPForms plugin <= 3.4.6 - SQL Injection vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-42742",
-      "summary": "CVE ID :CVE-2026-42742 Published : May 12, 2026, 11:16 a.m. | 5 hours, 24 minutes ago Description :Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability...",
-      "source": "CVE Feed",
-      "published": "2026-05-12T11:16:20+00:00"
-    },
-    {
-      "title": "CVE-2026-42741 - WordPress Ninja Forms Views – Display & Edit Ninja Forms Submissions on your site frontend plugin <= 3.3.2 - SQL Injection vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-42741",
-      "summary": "CVE ID :CVE-2026-42741 Published : May 12, 2026, 11:16 a.m. | 5 hours, 24 minutes ago Description :Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability...",
-      "source": "CVE Feed",
-      "published": "2026-05-12T11:16:20+00:00"
-    },
-    {
-      "title": "CVE-2026-41713 - Prompt Injection via Memory Poisoning in PromptChatMemoryAdvisor",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-41713",
-      "summary": "CVE ID :CVE-2026-41713 Published : May 12, 2026, 11:16 a.m. | 5 hours, 24 minutes ago Description :A malicious user could craft input that is stored in conversation memory and later interpreted by...",
-      "source": "CVE Feed",
-      "published": "2026-05-12T11:16:19+00:00"
-    },
-    {
-      "title": "CVE-2026-2465 - Improper Authorization in E-Kalite's Turboard FOR-S",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-2465",
-      "summary": "CVE ID :CVE-2026-2465 Published : May 12, 2026, 11:16 a.m. | 5 hours, 24 minutes ago Description :Incorrect Authorization vulnerability in E-Kalite Software Hardware Engineering Design and Internet...",
-      "source": "CVE Feed",
-      "published": "2026-05-12T11:16:19+00:00"
-    },
-    {
-      "title": "Claude Mythos Finds Only One Curl Vulnerability; Experts Divided on What It Really Means",
-      "link": "https://www.securityweek.com/claude-mythos-finds-only-one-curl-vulnerability-experts-divided-on-what-it-really-means/",
-      "summary": "Curl’s lead developer says Mythos claims are marketing, but many in the industry believe the results stem from Curl’s robust security. The post Claude Mythos Finds Only One Curl Vulnerability...",
-      "source": "SecurityWeek",
-      "published": "2026-05-12T11:15:51+00:00"
+      "title": "Worm Redux: Fresh Mini Shai-Hulud Infections Bite Supply Chain",
+      "link": "https://www.darkreading.com/application-security/worm-redux-fresh-mini-shai-hulud-infections-bite-supply-chain",
+      "summary": "Hundreds of npm packages infected by the self-propagating, credential-stealing worm from TeamPCP are related to the open source TanStack ecosystem.",
+      "source": "Dark Reading",
+      "published": "2026-05-12T11:07:43+00:00"
     },
     {
       "title": "Copy.Fail Linux Vulnerability",
@@ -317,13 +457,6 @@
       "published": "2026-05-12T11:04:55+00:00"
     },
     {
-      "title": "Is the SOC Obsolete, and We Just Haven’t Admitted It Yet?",
-      "link": "https://www.securityweek.com/is-the-soc-obsolete-and-we-just-havent-admitted-it-yet/",
-      "summary": "Many AI-first enterprises have already embraced sovereign architectures for general AI initiatives; cybersecurity—and the SOC—should be next. The post Is the SOC Obsolete, and We Just Haven’t...",
-      "source": "SecurityWeek",
-      "published": "2026-05-12T11:00:00+00:00"
-    },
-    {
       "title": "Vulnerability in Code Runner MCP Server project",
       "link": "https://cert.pl/en/posts/2026/05/CVE-2026-5029/",
       "summary": "Vulnerability in Code Runner MCP Server project Vulnerability in Code Runner MCP Server project CVE ID CVE-2026-5029 Publication date 12 May 2026 Vendor Code Runner MCP Server Product Code Runner MCP...",
@@ -336,62 +469,6 @@
       "summary": "Agentic AI is already running in production environments across many organizations today. It is executing tasks, consuming data, and taking actions — most likely without meaningful involvement from...",
       "source": "The Hacker News",
       "published": "2026-05-12T10:30:00+00:00"
-    },
-    {
-      "title": "CVE-2026-8072 - Insecure generation of SAT access credentials in Ingecon EMS Board",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-8072",
-      "summary": "CVE ID :CVE-2026-8072 Published : May 12, 2026, 10:16 a.m. | 6 hours, 24 minutes ago Description :Insecure generation of credentials in the local SAT (Technical Support) access functionality of the...",
-      "source": "CVE Feed",
-      "published": "2026-05-12T10:16:48+00:00"
-    },
-    {
-      "title": "CVE-2026-7428 - Insecure default administrative credentials in AlloyDB for PostgreSQL",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-7428",
-      "summary": "CVE ID :CVE-2026-7428 Published : May 12, 2026, 10:16 a.m. | 6 hours, 24 minutes ago Description :Prior to 2025-11-03, well-intended users of Terraform or REST API for Google Cloud AlloyDB for...",
-      "source": "CVE Feed",
-      "published": "2026-05-12T10:16:48+00:00"
-    },
-    {
-      "title": "CVE-2026-6001 - IDOR in Abis Technology's BAPSİS",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-6001",
-      "summary": "CVE ID :CVE-2026-6001 Published : May 12, 2026, 10:16 a.m. | 6 hours, 24 minutes ago Description :Authorization bypass through User-Controlled key vulnerability in ABIS Technology Ltd. Co. BAPSİS...",
-      "source": "CVE Feed",
-      "published": "2026-05-12T10:16:48+00:00"
-    },
-    {
-      "title": "CVE-2026-5029 - RCE in Code Runner MCP Server",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-5029",
-      "summary": "CVE ID :CVE-2026-5029 Published : May 12, 2026, 10:16 a.m. | 6 hours, 24 minutes ago Description :A remote code execution vulnerability exists in Code Runner MCP Server when run with the --transport...",
-      "source": "CVE Feed",
-      "published": "2026-05-12T10:16:47+00:00"
-    },
-    {
-      "title": "CVE-2026-41551 - \"ROS# Path Traversal Vulnerability\"",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-41551",
-      "summary": "CVE ID :CVE-2026-41551 Published : May 12, 2026, 10:16 a.m. | 6 hours, 24 minutes ago Description :A vulnerability has been identified in ROS# (All versions Severity: 9.3 | CRITICAL Visit the link...",
-      "source": "CVE Feed",
-      "published": "2026-05-12T10:16:46+00:00"
-    },
-    {
-      "title": "CVE-2026-33893 - \"Teamcenter Hardcoded Key Disclosure\"",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-33893",
-      "summary": "CVE ID :CVE-2026-33893 Published : May 12, 2026, 10:16 a.m. | 6 hours, 24 minutes ago Description :A vulnerability has been identified in Teamcenter V2312 (All versions Severity: 8.7 | HIGH Visit the...",
-      "source": "CVE Feed",
-      "published": "2026-05-12T10:16:45+00:00"
-    },
-    {
-      "title": "CVE-2026-33862 - Teamcenter Cross-Site Scripting (XSS) Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-33862",
-      "summary": "CVE ID :CVE-2026-33862 Published : May 12, 2026, 10:16 a.m. | 6 hours, 24 minutes ago Description :A vulnerability has been identified in Teamcenter V2312 (All versions Severity: 8.5 | HIGH Visit the...",
-      "source": "CVE Feed",
-      "published": "2026-05-12T10:16:45+00:00"
-    },
-    {
-      "title": "TanStack, Mistral AI, UiPath Hit in Fresh Supply Chain Attack",
-      "link": "https://www.securityweek.com/tanstack-mistral-ai-uipath-hit-in-fresh-supply-chain-attack/",
-      "summary": "Over 400 malicious versions of 170 packages were published as part of the new Mini Shai-Hulud campaign. The post TanStack, Mistral AI, UiPath Hit in Fresh Supply Chain Attack appeared first on...",
-      "source": "SecurityWeek",
-      "published": "2026-05-12T10:10:33+00:00"
     },
     {
       "title": "Instructure reaches 'agreement' with ShinyHunters to stop data leak",
@@ -648,16 +725,9 @@
     {
       "title": "⚡ Weekly Recap: Linux Rootkit, macOS Crypto Stealer, WebSocket Skimmers and More",
       "link": "https://thehackernews.com/2026/05/weekly-recap-linux-rootkit-macos-crypto.html",
-      "summary": "⚡ Weekly Recap: Linux Rootkit, macOS Crypto Stealer, WebSocket Skimmers and More Rough Monday. Somebody poisoned a trusted download again, somebody else turned cloud servers into public housing, and...",
-      "source": "CVE Newsroom",
+      "summary": "Rough Monday. Somebody poisoned a trusted download again, somebody else turned cloud servers into public housing, and a few crews are still getting into boxes with bugs that should’ve died years ago...",
+      "source": "The Hacker News",
       "published": "2026-05-11T12:36:00+00:00"
-    },
-    {
-      "title": "Honderden Ivanti-servers missen patch voor actief aangevallen beveiligingslek",
-      "link": "https://www.security.nl/posting/936100/Honderden+Ivanti-servers+missen+patch+voor+actief+aangevallen+beveiligingslek?channel=rss",
-      "summary": "Honderden Ivanti-servers missen patch voor actief aangevallen beveiligingslek Honderden Ivanti-servers missen een beveiligingsupdate voor een kwetsbaarheid waar aanvallers actief misbruik van maken...",
-      "source": "CVE Newsroom",
-      "published": "2026-05-11T12:31:04+00:00"
     },
     {
       "title": "Webinar this week: Prevention alone is not enough against modern attacks",
@@ -665,13 +735,6 @@
       "summary": "This upcoming webinar explores how organizations need to combine security, backups, and recovery planning to reduce the impact of modern cyberattacks. [...]",
       "source": "BleepingComputer",
       "published": "2026-05-11T12:30:00+00:00"
-    },
-    {
-      "title": "Dirty Frag: Linux kernel hit by second major security flaw in two weeks",
-      "link": "https://therecord.media/dirty-frag-linux-kernel-hit-by-second-major-bug",
-      "summary": "The issue was found in the same area of the Linux kernel that produced last month’s Copy Fail bug, and also allows anyone with a basic account on an affected computer to seize full administrative...",
-      "source": "The Record",
-      "published": "2026-05-11T12:26:00+00:00"
     },
     {
       "title": "Cyber Espionage Group Targets Aviation Firms to Steal Map Data",
@@ -688,13 +751,6 @@
       "published": "2026-05-11T11:30:00+00:00"
     },
     {
-      "title": "TrickMo Android banker adopts TON blockchain for covert comms",
-      "link": "https://www.bleepingcomputer.com/news/security/trickmo-android-banker-adopts-ton-blockchain-for-covert-comms/",
-      "summary": "A new variant of the TrickMo Android banking malware, delivered in campaigns targeting users across Europe, introduces new commands and uses The Open Network (TON) for stealthy command-and-control...",
-      "source": "BleepingComputer",
-      "published": "2026-05-11T09:03:02+00:00"
-    },
-    {
       "title": "Fake OpenAI Privacy Filter Repo Hits #1 on Hugging Face, Draws 244K Downloads",
       "link": "https://thehackernews.com/2026/05/fake-openai-privacy-filter-repo-hits-1.html",
       "summary": "A malicious Hugging Face repository managed to take a spot in the platform's trending list by impersonating OpenAI's Privacy Filter open-weight model to deliver a Rust-based information stealer to...",
@@ -702,39 +758,11 @@
       "published": "2026-05-11T07:05:00+00:00"
     },
     {
-      "title": "Hackers abuse Google ads, Claude.ai chats to push Mac malware",
-      "link": "https://www.bleepingcomputer.com/news/security/hackers-abuse-google-ads-claudeai-chats-to-push-mac-malware/",
-      "summary": "Attackers are abusing Google Ads and legitimate Claude.ai shared chats in an active malvertising campaign. Users searching for \"Claude mac download\" may come across sponsored search results that list...",
-      "source": "BleepingComputer",
-      "published": "2026-05-10T17:52:15+00:00"
-    },
-    {
-      "title": "Police shut down reboot of Crimenetwork marketplace, arrest admin",
-      "link": "https://www.bleepingcomputer.com/news/security/police-shut-down-reboot-of-crimenetwork-marketplace-arrest-admin/",
-      "summary": "German authorities have shut down a relaunch version of the criminal marketplace 'Crimenetwork' that generated more than 3.6 million euros, and arrested its operator. [...]",
-      "source": "BleepingComputer",
-      "published": "2026-05-10T14:16:47+00:00"
-    },
-    {
       "title": "Ollama Out-of-Bounds Read Vulnerability Allows Remote Process Memory Leak",
       "link": "https://thehackernews.com/2026/05/ollama-out-of-bounds-read-vulnerability.html",
       "summary": "Cybersecurity researchers have disclosed a critical security vulnerability in Ollama that, if successfully exploited, could allow a remote, unauthenticated attacker to leak its entire process memory...",
       "source": "The Hacker News",
       "published": "2026-05-10T12:41:00+00:00"
-    },
-    {
-      "title": "JDownloader site hacked to replace installers with Python RAT malware",
-      "link": "https://www.bleepingcomputer.com/news/security/jdownloader-site-hacked-to-replace-installers-with-python-rat-malware/",
-      "summary": "The website for the popular JDownloader download manager was compromised earlier this week to distribute malicious Windows and Linux installers, with the Windows payload found deploying a...",
-      "source": "BleepingComputer",
-      "published": "2026-05-09T19:27:58+00:00"
-    },
-    {
-      "title": "Fake OpenAI repository on Hugging Face pushes infostealer malware",
-      "link": "https://www.bleepingcomputer.com/news/security/fake-openai-repository-on-hugging-face-pushes-infostealer-malware/",
-      "summary": "A malicious Hugging Face repository that reached the platform's trending list impersonated OpenAI's \"Privacy Filter\" project to deliver information-stealing malware to Windows users. [...]",
-      "source": "BleepingComputer",
-      "published": "2026-05-09T14:26:03+00:00"
     },
     {
       "title": "cPanel, WHM Release Fixes for Three New Vulnerabilities — Patch Now",
@@ -1178,20 +1206,6 @@
       "published": "2026-05-04T14:23:00+00:00"
     },
     {
-      "title": "2026: The Year of AI-Assisted Attacks",
-      "link": "https://thehackernews.com/2026/05/2026-year-of-ai-assisted-attacks.html",
-      "summary": "On December 4, 2025, a 17-year-old was arrested in Osaka under Japan’s Unauthorized Access Prohibition Act. The young man had run malicious code to extract the personal data of over 7 million users...",
-      "source": "The Hacker News",
-      "published": "2026-05-04T11:58:00+00:00"
-    },
-    {
-      "title": "Silver Fox Deploys ABCDoor Malware via Tax-Themed Phishing in India and Russia",
-      "link": "https://thehackernews.com/2026/05/silver-fox-deploys-abcdoor-malware-via.html",
-      "summary": "The China-based cybercrime group known as Silver Fox (aka Monarch, SwimSnake, The Great Thief of Valley, UTG-Q-1000, and Void Arachne) has been linked to a new campaign targeting organizations in...",
-      "source": "The Hacker News",
-      "published": "2026-05-04T11:57:00+00:00"
-    },
-    {
       "title": "How Dark Reading Lifted Off the Launchpad in 2006",
       "link": "https://www.darkreading.com/vulnerabilities-threats/how-dark-reading-lifted-off-launchpad-2006",
       "summary": "Twenty years ago, this media brand didn't have a print edition to attract eyeballs and sponsors. Top-notch content and editorial talent did the heavy lifting.",
@@ -1386,20 +1400,6 @@
       "summary": "When 0APT and KryBit attacked each other, they exposed infrastructure and operational data, giving defenders rare insight into ransomware operations.",
       "source": "Dark Reading",
       "published": "2026-04-28T20:13:30+00:00"
-    },
-    {
-      "title": "Vidar Rises to Top of Chaotic Infostealer Market",
-      "link": "https://www.darkreading.com/vulnerabilities-threats/vidar-top-chaotic-infostealer-market",
-      "summary": "The malware has filled the gap created by last year's law enforcement takedowns of Lumma and Rhadamanthys.",
-      "source": "Dark Reading",
-      "published": "2026-04-28T19:07:16+00:00"
-    },
-    {
-      "title": "Fresh Wave of GlassWorm VS Code Extensions Slices Through Supply Chain",
-      "link": "https://www.darkreading.com/application-security/fresh-glassworm-vs-code-extensions-supply-chain",
-      "summary": "Attackers continue to scale a campaign to seed Open VSX with seemingly benign VS Code extensions that spread self-propagating malware.",
-      "source": "Dark Reading",
-      "published": "2026-04-28T14:59:24+00:00"
     }
   ]
 }
