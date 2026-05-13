@@ -1,6 +1,153 @@
 {
-  "last_updated": "2026-05-12T22:25:16.038773+00:00",
+  "last_updated": "2026-05-13T00:28:58.974887+00:00",
   "articles": [
+    {
+      "title": "CVE-2026-44548 - ChurchCRM: CSRF via legacy GET-delete pages (FundRaiserDelete.php, PropertyTypeDelete.php, NoteDelete.php)",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-44548",
+      "summary": "CVE ID :CVE-2026-44548 Published : May 12, 2026, 11:16 p.m. | 30 minutes ago Description :ChurchCRM is an open-source church management system. Prior to 7.3.2, top-level cross-site GET navigation...",
+      "source": "CVE Feed",
+      "published": "2026-05-12T23:16:18+00:00"
+    },
+    {
+      "title": "CVE-2026-44547 - ChurchCRM: Incomplete fix for CVE-2026-40582: public API login still bypasses 2FA and account lockout in ChurchCRM 7.2.2",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-44547",
+      "summary": "CVE ID :CVE-2026-44547 Published : May 12, 2026, 11:16 p.m. | 30 minutes ago Description :ChurchCRM is an open-source church management system. From 7.2.0 to 7.2.2, The fix for CVE-2026-4058 is...",
+      "source": "CVE Feed",
+      "published": "2026-05-12T23:16:18+00:00"
+    },
+    {
+      "title": "CVE-2026-42289 - ChurchCRM: Cross-Site Request Forgery (CSRF) Leading to Admin Privilege Escalation",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-42289",
+      "summary": "CVE ID :CVE-2026-42289 Published : May 12, 2026, 11:16 p.m. | 30 minutes ago Description :ChurchCRM is an open-source church management system. Prior to 7.3.2, UserEditor.php processes user account...",
+      "source": "CVE Feed",
+      "published": "2026-05-12T23:16:17+00:00"
+    },
+    {
+      "title": "CVE-2026-42288 - ChurchCRM: Incomplete fix for CVE-2026-39337: Unauthenticated RCE in Setup Wizard via unsanitized DB_PASSWORD",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-42288",
+      "summary": "CVE ID :CVE-2026-42288 Published : May 12, 2026, 11:16 p.m. | 30 minutes ago Description :ChurchCRM is an open-source church management system. Prior to 7.3.2, The fix for CVE-2026-39337 is...",
+      "source": "CVE Feed",
+      "published": "2026-05-12T23:16:17+00:00"
+    },
+    {
+      "title": "CVE-2026-41901 - Thymeleaf: Improper recognition of unauthorized syntax patterns in sandboxed Thymeleaf expressions",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-41901",
+      "summary": "CVE ID :CVE-2026-41901 Published : May 12, 2026, 11:16 p.m. | 30 minutes ago Description :Thymeleaf is a server-side Java template engine for web and standalone environments. Prior to 3.1.5.RELEASE...",
+      "source": "CVE Feed",
+      "published": "2026-05-12T23:16:17+00:00"
+    },
+    {
+      "title": "US govt seeks Instructure testimony on massive Canvas cyberattack",
+      "link": "https://www.bleepingcomputer.com/news/security/us-govt-seeks-instructure-testimony-on-massive-canvas-cyberattack/",
+      "summary": "The U.S. House Committee on Homeland Security is calling on Instructure executives to testify about two cyberattacks by the ShinyHunters extortion group that targeted the company's Canvas platform...",
+      "source": "BleepingComputer",
+      "published": "2026-05-12T23:09:55+00:00"
+    },
+    {
+      "title": "CVE-2026-8449 - Linux ksmbd Remote Memory Corruption via ACL Inheritance",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-8449",
+      "summary": "CVE ID :CVE-2026-8449 Published : May 12, 2026, 10:16 p.m. | 1 hour, 29 minutes ago Description :Linux ksmbd contains a remote memory corruption vulnerability in the ACL inheritance path that allows...",
+      "source": "CVE Feed",
+      "published": "2026-05-12T22:16:38+00:00"
+    },
+    {
+      "title": "CVE-2026-45227 - Heym < 0.0.21 Sandbox Escape via Python Introspection",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-45227",
+      "summary": "CVE ID :CVE-2026-45227 Published : May 12, 2026, 10:16 p.m. | 1 hour, 29 minutes ago Description :Heym before 0.0.21 contains a sandbox escape vulnerability in the custom Python tool executor that...",
+      "source": "CVE Feed",
+      "published": "2026-05-12T22:16:38+00:00"
+    },
+    {
+      "title": "CVE-2026-44307 - Mako: Path traversal via backslash URI on Windows in TemplateLookup",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-44307",
+      "summary": "CVE ID :CVE-2026-44307 Published : May 12, 2026, 10:16 p.m. | 1 hour, 29 minutes ago Description :Mako is a template library written in Python. Prior to 1.3.12, on Windows, a URI using backslash...",
+      "source": "CVE Feed",
+      "published": "2026-05-12T22:16:37+00:00"
+    },
+    {
+      "title": "CVE-2026-44304 - Lemur: LDAP Filter Injection enables post-authentication privilege escalation",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-44304",
+      "summary": "CVE ID :CVE-2026-44304 Published : May 12, 2026, 10:16 p.m. | 1 hour, 29 minutes ago Description :Lemur manages TLS certificate creation. Prior to 1.9.0, Lemur's LDAP authentication module...",
+      "source": "CVE Feed",
+      "published": "2026-05-12T22:16:37+00:00"
+    },
+    {
+      "title": "CVE-2026-44262 - Scramble: Remote code execution via evaluation of user-controlled input in validation rules",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-44262",
+      "summary": "CVE ID :CVE-2026-44262 Published : May 12, 2026, 10:16 p.m. | 1 hour, 29 minutes ago Description :Scramble generates API documentation for Laravel project. From 0.13.2 to before 0.13.22, when...",
+      "source": "CVE Feed",
+      "published": "2026-05-12T22:16:36+00:00"
+    },
+    {
+      "title": "CVE-2026-44260 - efw4.X: readonly Flag Not Enforced Server-Side",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-44260",
+      "summary": "CVE ID :CVE-2026-44260 Published : May 12, 2026, 10:16 p.m. | 1 hour, 29 minutes ago Description :efw4.X is an Enterprise Framework for Web. Prior to 4.08.010, the readonly flag set on the JSP tag is...",
+      "source": "CVE Feed",
+      "published": "2026-05-12T22:16:36+00:00"
+    },
+    {
+      "title": "CVE-2026-44258 - efw4.X: Path Traversal via Unchecked dst Parameter leads to Remote Code Execution",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-44258",
+      "summary": "CVE ID :CVE-2026-44258 Published : May 12, 2026, 10:16 p.m. | 1 hour, 29 minutes ago Description :efw4.X is an Enterprise Framework for Web. Prior to 4.08.010, the elfinder_checkRisk function...",
+      "source": "CVE Feed",
+      "published": "2026-05-12T22:16:36+00:00"
+    },
+    {
+      "title": "CVE-2026-44257 - efw4.X: RCE via zipslip",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-44257",
+      "summary": "CVE ID :CVE-2026-44257 Published : May 12, 2026, 10:16 p.m. | 1 hour, 29 minutes ago Description :efw4.X is an Enterprise Framework for Web. Prior to 4.08.010, efw.file.FileManager.unZip writes zip...",
+      "source": "CVE Feed",
+      "published": "2026-05-12T22:16:35+00:00"
+    },
+    {
+      "title": "CVE-2026-44015 - Nginx UI: Server-Side Request Forgery (SSRF) via Cluster Proxy Middleware Allows Access to Internal Services",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-44015",
+      "summary": "CVE ID :CVE-2026-44015 Published : May 12, 2026, 10:16 p.m. | 1 hour, 29 minutes ago Description :Nginx UI is a web user interface for the Nginx web server. In 2.3.4 and earlier, an authenticated...",
+      "source": "CVE Feed",
+      "published": "2026-05-12T22:16:35+00:00"
+    },
+    {
+      "title": "CVE-2026-43948 - wger: cross-tenant password reset and plaintext disclosure via gym=None bypass",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-43948",
+      "summary": "CVE ID :CVE-2026-43948 Published : May 12, 2026, 10:16 p.m. | 1 hour, 29 minutes ago Description :wger is a free, open-source workout and fitness manager. Prior to 2.6, the reset_user_password and...",
+      "source": "CVE Feed",
+      "published": "2026-05-12T22:16:35+00:00"
+    },
+    {
+      "title": "CVE-2026-42854 - arduino-esp32: Stack buffer overflow in WebServer multipart boundary parsing leads to remote crash potential RCE",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-42854",
+      "summary": "CVE ID :CVE-2026-42854 Published : May 12, 2026, 10:16 p.m. | 1 hour, 29 minutes ago Description :arduino-esp32 is an Arduino core for the ESP32, ESP32-S2, ESP32-S3, ESP32-C3, ESP32-C6 and ESP32-H2...",
+      "source": "CVE Feed",
+      "published": "2026-05-12T22:16:34+00:00"
+    },
+    {
+      "title": "CVE-2026-42844 - Grav: Low-privileged API users can create super-admin accounts via blueprint-upload",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-42844",
+      "summary": "CVE ID :CVE-2026-42844 Published : May 12, 2026, 10:16 p.m. | 1 hour, 29 minutes ago Description :Grav is a file-based Web platform. In Grav 2.0.0-beta.2, a low-privileged authenticated API user with...",
+      "source": "CVE Feed",
+      "published": "2026-05-12T22:16:34+00:00"
+    },
+    {
+      "title": "CVE-2026-42268 - ModSecurity: Unsigned integer underflow in @verifySSN / @verifyCPF / @verifySVNR operators",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-42268",
+      "summary": "CVE ID :CVE-2026-42268 Published : May 12, 2026, 10:16 p.m. | 1 hour, 29 minutes ago Description :ModSecurity is an open source, cross platform web application firewall (WAF) engine for Apache, IIS...",
+      "source": "CVE Feed",
+      "published": "2026-05-12T22:16:34+00:00"
+    },
+    {
+      "title": "CVE-2026-42196 - django-s3file: Relative path traversal",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-42196",
+      "summary": "CVE ID :CVE-2026-42196 Published : May 12, 2026, 10:16 p.m. | 1 hour, 29 minutes ago Description :django-s3file is a lightweight file upload input for Django and Amazon S3. Prior to 7.0.2...",
+      "source": "CVE Feed",
+      "published": "2026-05-12T22:16:34+00:00"
+    },
+    {
+      "title": "CVE-2026-26289 - Subnet Solutions PowerSYSTEM Center Incorrect Authorization",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-26289",
+      "summary": "CVE ID :CVE-2026-26289 Published : May 12, 2026, 10:16 p.m. | 1 hour, 29 minutes ago Description :PowerSYSTEM Center REST API endpoint for device account export allows an authenticated user with...",
+      "source": "CVE Feed",
+      "published": "2026-05-12T22:16:32+00:00"
+    },
     {
       "title": "Patch Tuesday, May 2026 Edition",
       "link": "https://krebsonsecurity.com/2026/05/patch-tuesday-may-2026-edition/",
@@ -11,49 +158,35 @@
     {
       "title": "CVE-2026-44403 - Wing FTP Server 8.1.2 Authenticated Remote Code Execution via Session Serialization",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-44403",
-      "summary": "CVE ID :CVE-2026-44403 Published : May 12, 2026, 9:16 p.m. | 30 minutes ago Description :Wing FTP Server 8.1.2 contains an authenticated remote code execution vulnerability in the session...",
+      "summary": "CVE ID :CVE-2026-44403 Published : May 12, 2026, 9:16 p.m. | 2 hours, 30 minutes ago Description :Wing FTP Server 8.1.2 contains an authenticated remote code execution vulnerability in the session...",
       "source": "CVE Feed",
       "published": "2026-05-12T21:16:16+00:00"
     },
     {
       "title": "CVE-2026-44232 - dssrf: every IPv6 category bypasses is_url_safe",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-44232",
-      "summary": "CVE ID :CVE-2026-44232 Published : May 12, 2026, 9:16 p.m. | 30 minutes ago Description :DSSRF is a Node.js library that provides a wide range of utilities and advanced SSRF defense checks. Prior to...",
+      "summary": "CVE ID :CVE-2026-44232 Published : May 12, 2026, 9:16 p.m. | 2 hours, 30 minutes ago Description :DSSRF is a Node.js library that provides a wide range of utilities and advanced SSRF defense checks...",
       "source": "CVE Feed",
       "published": "2026-05-12T21:16:16+00:00"
     },
     {
       "title": "CVE-2026-44224 - Wiki.js: Privilege Escalation via Missing Group Validation in users.update",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-44224",
-      "summary": "CVE ID :CVE-2026-44224 Published : May 12, 2026, 9:16 p.m. | 30 minutes ago Description :Wiki.js is an open source wiki app built on Node.js. Prior to 2.5.313, the users.update GraphQL mutation...",
+      "summary": "CVE ID :CVE-2026-44224 Published : May 12, 2026, 9:16 p.m. | 2 hours, 30 minutes ago Description :Wiki.js is an open source wiki app built on Node.js. Prior to 2.5.313, the users.update GraphQL...",
       "source": "CVE Feed",
       "published": "2026-05-12T21:16:16+00:00"
     },
     {
       "title": "CVE-2026-44011 - Craft CMS: Potential authenticated Remote Code Execution via malicious attached Behavior",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-44011",
-      "summary": "CVE ID :CVE-2026-44011 Published : May 12, 2026, 9:16 p.m. | 30 minutes ago Description :Craft CMS is a content management system (CMS). From 4.0.0 to before 4.17.12 and 5.9.18, Craft CMS which...",
+      "summary": "CVE ID :CVE-2026-44011 Published : May 12, 2026, 9:16 p.m. | 2 hours, 30 minutes ago Description :Craft CMS is a content management system (CMS). From 4.0.0 to before 4.17.12 and 5.9.18, Craft CMS...",
       "source": "CVE Feed",
       "published": "2026-05-12T21:16:15+00:00"
     },
     {
       "title": "CVE-2025-65088 - Out-of-bounds read in Ashlar-Vellum Cobalt, Xenon, Argon, Lithium, Cobalt Share",
       "link": "https://cvefeed.io/vuln/detail/CVE-2025-65088",
-      "summary": "CVE ID :CVE-2025-65088 Published : May 12, 2026, 9:16 p.m. | 30 minutes ago Description :An Out-of-Bounds Read vulnerability is present in Ashlar-Vellum Cobalt, Xenon, Argon, Lithium, and Cobalt...",
-      "source": "CVE Feed",
-      "published": "2026-05-12T21:16:13+00:00"
-    },
-    {
-      "title": "CVE-2025-65087 - Out-of-bounds read in Ashlar-Vellum Cobalt, Xenon, Argon, Lithium, Cobalt Share",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2025-65087",
-      "summary": "CVE ID :CVE-2025-65087 Published : May 12, 2026, 9:16 p.m. | 30 minutes ago Description :An Out-of-Bounds Read vulnerability is present in Ashlar-Vellum Cobalt, Xenon, Argon, Lithium, and Cobalt...",
-      "source": "CVE Feed",
-      "published": "2026-05-12T21:16:13+00:00"
-    },
-    {
-      "title": "CVE-2025-65086 - Out-of-bounds write in Ashlar-Vellum Cobalt, Xenon, Argon, Lithium, Cobalt Share",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2025-65086",
-      "summary": "CVE ID :CVE-2025-65086 Published : May 12, 2026, 9:16 p.m. | 30 minutes ago Description :An Out-of-Bounds Write vulnerability is present in Ashlar-Vellum Cobalt, Xenon, Argon, Lithium, and Cobalt...",
+      "summary": "CVE ID :CVE-2025-65088 Published : May 12, 2026, 9:16 p.m. | 2 hours, 30 minutes ago Description :An Out-of-Bounds Read vulnerability is present in Ashlar-Vellum Cobalt, Xenon, Argon, Lithium, and...",
       "source": "CVE Feed",
       "published": "2026-05-12T21:16:13+00:00"
     },
@@ -65,67 +198,11 @@
       "published": "2026-05-12T21:03:04+00:00"
     },
     {
-      "title": "CVE-2026-26289 - Subnet Solutions PowerSYSTEM Center Incorrect Authorization",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-26289",
-      "summary": "CVE ID :CVE-2026-26289 Published : May 12, 2026, 9:02 p.m. | 43 minutes ago Description :PowerSYSTEM Center REST API endpoint for device account export allows an authenticated user with limited...",
-      "source": "CVE Feed",
-      "published": "2026-05-12T21:02:42+00:00"
-    },
-    {
       "title": "UK fines water supplier $1.3M for exposing data of 664k customers",
       "link": "https://www.bleepingcomputer.com/news/security/uk-fines-water-supplier-13m-for-exposing-data-of-664k-customers/",
       "summary": "The Information Commissioner's Office has fined South Staffordshire Water Plc and parent company South Staffordshire Plc £963,900 ($1.3 million) over a cyberattack that exposed the personal data of...",
       "source": "BleepingComputer",
       "published": "2026-05-12T20:17:19+00:00"
-    },
-    {
-      "title": "CVE-2026-7474 - Nomad vulnerable to path traversal in dynamic host volume which may lead to code execution",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-7474",
-      "summary": "CVE ID :CVE-2026-7474 Published : May 12, 2026, 8:16 p.m. | 1 hour, 29 minutes ago Description :HashiCorp Nomad and Nomad Enterprise prior to 2.0.1 are vulnerable to code execution on the client host...",
-      "source": "CVE Feed",
-      "published": "2026-05-12T20:16:46+00:00"
-    },
-    {
-      "title": "CVE-2026-45185 - Exim GnuTLS Use-After-Free Remote Code Execution Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-45185",
-      "summary": "CVE ID :CVE-2026-45185 Published : May 12, 2026, 8:16 p.m. | 1 hour, 29 minutes ago Description :Exim before 4.99.3, in certain GnuTLS configurations, has a remotely reachable use-after-free in the...",
-      "source": "CVE Feed",
-      "published": "2026-05-12T20:16:46+00:00"
-    },
-    {
-      "title": "CVE-2026-44225 - Pulpy: Incomplete filesystem sandbox in pulpy.fs bridge allows packaged web apps to read arbitrary user files",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-44225",
-      "summary": "CVE ID :CVE-2026-44225 Published : May 12, 2026, 8:16 p.m. | 1 hour, 29 minutes ago Description :Pulpy is a lightweight, cross-platform desktop application packager for web apps. Prior to 0.1.1...",
-      "source": "CVE Feed",
-      "published": "2026-05-12T20:16:43+00:00"
-    },
-    {
-      "title": "CVE-2026-44221 - ArcadeDB: Cross-database authorization bypass and unsecured newly-created databases",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-44221",
-      "summary": "CVE ID :CVE-2026-44221 Published : May 12, 2026, 8:16 p.m. | 1 hour, 29 minutes ago Description :ArcadeDB is a Multi-Model DBMS. Prior to 2.6.4, authenticated users and API tokens scoped to a...",
-      "source": "CVE Feed",
-      "published": "2026-05-12T20:16:43+00:00"
-    },
-    {
-      "title": "CVE-2026-42889 - Relay Server WebSocket authentication bypass when token is omitted",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-42889",
-      "summary": "CVE ID :CVE-2026-42889 Published : May 12, 2026, 8:16 p.m. | 1 hour, 29 minutes ago Description :Relay adds real-time collaboration to Obsidian. Relay Server versions 0.9.0 through 0.9.6 contain an...",
-      "source": "CVE Feed",
-      "published": "2026-05-12T20:16:42+00:00"
-    },
-    {
-      "title": "CVE-2026-34686 - Adobe Commerce | Cross-site Scripting (Stored XSS) (CWE-79)",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-34686",
-      "summary": "CVE ID :CVE-2026-34686 Published : May 12, 2026, 8:16 p.m. | 1 hour, 29 minutes ago Description :Adobe Commerce versions 2.4.9-beta1, 2.4.8-p4, 2.4.7-p9, 2.4.6-p14, 2.4.5-p16, 2.4.4-p17 and earlier...",
-      "source": "CVE Feed",
-      "published": "2026-05-12T20:16:38+00:00"
-    },
-    {
-      "title": "CVE-2026-34653 - Adobe Commerce | Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') (CWE-22)",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-34653",
-      "summary": "CVE ID :CVE-2026-34653 Published : May 12, 2026, 8:16 p.m. | 1 hour, 29 minutes ago Description :Adobe Commerce versions 2.4.9-beta1, 2.4.8-p4, 2.4.7-p9, 2.4.6-p14, 2.4.5-p16, 2.4.4-p17 and earlier...",
-      "source": "CVE Feed",
-      "published": "2026-05-12T20:16:36+00:00"
     },
     {
       "title": "Foxconn confirms cyberattack impacting North American factories",
@@ -154,48 +231,6 @@
       "summary": "Signal has introduced new in-app confirmations and warning messages as additional safeguards against phishing and social engineering attempts that could lead to various forms of fraud. [...]",
       "source": "BleepingComputer",
       "published": "2026-05-12T19:40:31+00:00"
-    },
-    {
-      "title": "CVE-2026-8431 - Ops Manager RCE via webhook body",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-8431",
-      "summary": "CVE ID :CVE-2026-8431 Published : May 12, 2026, 7:16 p.m. | 2 hours, 29 minutes ago Description :An administrative user with access to configure webhooks can execute arbitrary commands by configuring...",
-      "source": "CVE Feed",
-      "published": "2026-05-12T19:16:34+00:00"
-    },
-    {
-      "title": "CVE-2026-8430 - SPIP < 4.4.14 Remote Code Execution via nginx",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-8430",
-      "summary": "CVE ID :CVE-2026-8430 Published : May 12, 2026, 7:16 p.m. | 2 hours, 29 minutes ago Description :SPIP versions prior to 4.4.14 contain a remote code execution vulnerability in the public space that...",
-      "source": "CVE Feed",
-      "published": "2026-05-12T19:16:34+00:00"
-    },
-    {
-      "title": "CVE-2026-8429 - SPIP < 4.4.14 Remote Code Execution via Private Space",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-8429",
-      "summary": "CVE ID :CVE-2026-8429 Published : May 12, 2026, 7:16 p.m. | 2 hours, 29 minutes ago Description :SPIP versions prior to 4.4.14 contain a remote code execution vulnerability in the private space that...",
-      "source": "CVE Feed",
-      "published": "2026-05-12T19:16:34+00:00"
-    },
-    {
-      "title": "CVE-2026-34660 - Adobe Connect | Incorrect Authorization (CWE-863)",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-34660",
-      "summary": "CVE ID :CVE-2026-34660 Published : May 12, 2026, 7:16 p.m. | 2 hours, 29 minutes ago Description :Adobe Connect versions 2025.9.15, 2025.8.157 and earlier are affected by an Incorrect Authorization...",
-      "source": "CVE Feed",
-      "published": "2026-05-12T19:16:30+00:00"
-    },
-    {
-      "title": "CVE-2026-34659 - Adobe Connect | Deserialization of Untrusted Data (CWE-502)",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-34659",
-      "summary": "CVE ID :CVE-2026-34659 Published : May 12, 2026, 7:16 p.m. | 2 hours, 29 minutes ago Description :Adobe Connect versions 2025.9.15, 2025.8.157 and earlier are affected by a Deserialization of...",
-      "source": "CVE Feed",
-      "published": "2026-05-12T19:16:30+00:00"
-    },
-    {
-      "title": "CVE-2026-23819 - Error in SSID Processing allows Stored XSS in Web Management Interface",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-23819",
-      "summary": "CVE ID :CVE-2026-23819 Published : May 12, 2026, 7:16 p.m. | 2 hours, 29 minutes ago Description :A vulnerability in the web-based management interface of Access Points running AOS-10 and AOS-8...",
-      "source": "CVE Feed",
-      "published": "2026-05-12T19:16:28+00:00"
     },
     {
       "title": "West Pharmaceutical warns of ransomware attack impacting business operations",
@@ -231,34 +266,6 @@
       "summary": "Fortinet has released security patches for two critical vulnerabilities in FortiSandbox and FortiAuthenticator that could enable attackers to run commands or arbitrary code. [...]",
       "source": "BleepingComputer",
       "published": "2026-05-12T18:23:09+00:00"
-    },
-    {
-      "title": "CVE-2026-44343 - WGDashboard: Critical Vulnerability in 4.3.2",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-44343",
-      "summary": "CVE ID :CVE-2026-44343 Published : May 12, 2026, 6:17 p.m. | 3 hours, 28 minutes ago Description :WGDashboard is a dashboard for WireGuard VPN. Prior to 4.3.2, there are critical vulnerabilities...",
-      "source": "CVE Feed",
-      "published": "2026-05-12T18:17:30+00:00"
-    },
-    {
-      "title": "CVE-2026-44277 - Fortinet FortiAuthenticator Command Injection Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-44277",
-      "summary": "CVE ID :CVE-2026-44277 Published : May 12, 2026, 6:17 p.m. | 3 hours, 28 minutes ago Description :A improper access control vulnerability in Fortinet FortiAuthenticator 8.0.2, FortiAuthenticator...",
-      "source": "CVE Feed",
-      "published": "2026-05-12T18:17:30+00:00"
-    },
-    {
-      "title": "CVE-2026-44196 - Pingvin Share X: TOTP Authentication Bypass via Password-only Login",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-44196",
-      "summary": "CVE ID :CVE-2026-44196 Published : May 12, 2026, 6:17 p.m. | 3 hours, 28 minutes ago Description :Pingvin Share X is a secure and easy self-hosted file sharing platform. From 1.14.1 to 1.16.2, a...",
-      "source": "CVE Feed",
-      "published": "2026-05-12T18:17:29+00:00"
-    },
-    {
-      "title": "CVE-2026-44184 - Cleanuparr: Reflective CORS combined with trusted-network auth allows cross-origin admin API reads",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-44184",
-      "summary": "CVE ID :CVE-2026-44184 Published : May 12, 2026, 6:17 p.m. | 3 hours, 28 minutes ago Description :Cleanuparr is a tool for automating the cleanup of unwanted or blocked files in Sonarr, Radarr, and...",
-      "source": "CVE Feed",
-      "published": "2026-05-12T18:17:29+00:00"
     },
     {
       "title": "Windows 11 KB5089549 & KB5087420 cumulative updates released",
@@ -686,13 +693,6 @@
       "summary": "Checkmarx warned over the weekend that a rogue version of its Jenkins Application Security Testing (AST) plugin had been published on the Jenkins Marketplace. [...]",
       "source": "BleepingComputer",
       "published": "2026-05-11T22:03:06+00:00"
-    },
-    {
-      "title": "New GhostLock tool abuses Windows API to block file access",
-      "link": "https://www.bleepingcomputer.com/news/security/new-ghostlock-tool-abuses-windows-api-to-block-file-access/",
-      "summary": "A security researcher has released a proof-of-concept tool named GhostLock that demonstrates how a legitimate Windows file API can be abused in attacks to block access to files stored locally or on...",
-      "source": "BleepingComputer",
-      "published": "2026-05-11T22:02:00+00:00"
     },
     {
       "title": "FCC Softens Ban on Foreign-Made Routers",
