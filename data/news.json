@@ -1,12 +1,82 @@
 {
-  "last_updated": "2026-05-13T20:32:14.788385+00:00",
+  "last_updated": "2026-05-13T22:25:42.322875+00:00",
   "articles": [
+    {
+      "title": "West Pharmaceutical says hackers stole data, encrypted systems",
+      "link": "https://www.bleepingcomputer.com/news/security/west-pharmaceutical-says-hackers-stole-data-encrypted-systems/",
+      "summary": "West Pharmaceutical Services disclosed that it was the target of a cyberattack that resulted in data exfiltration and system encryption. [...]",
+      "source": "BleepingComputer",
+      "published": "2026-05-13T22:23:31+00:00"
+    },
+    {
+      "title": "Iranian hackers targeted major South Korean electronics maker",
+      "link": "https://www.bleepingcomputer.com/news/security/iranian-hackers-targeted-major-south-korean-electronics-maker/",
+      "summary": "The Iran-linked hacking group MuddyWater (a.k.a. Seedworm, Static Kitten) launched a broad cyber-espionage campaign targeting at least nine high-profile organizations across multiple sectors and...",
+      "source": "BleepingComputer",
+      "published": "2026-05-13T21:59:33+00:00"
+    },
+    {
+      "title": "Checkbox Assessments Aren't Fit to Measure to Risk",
+      "link": "https://www.darkreading.com/cyber-risk/checkbox-assessments-aren-t-fit-to-measure-to-risk",
+      "summary": "Security governance needs to be more than an annual compliance exercise. New companies are emerging to address risk-management gaps in current audit tools.",
+      "source": "Dark Reading",
+      "published": "2026-05-13T21:17:07+00:00"
+    },
+    {
+      "title": "Attackers Weaponize RubyGems for Data Dead Drops",
+      "link": "https://www.darkreading.com/application-security/attackers-weaponize-rubygems-data-dead-drops",
+      "summary": "Threat actors are publishing RubyGems packages that include scrapers targeting public-facing UK government servers, but with no clear objective.",
+      "source": "Dark Reading",
+      "published": "2026-05-13T21:09:20+00:00"
+    },
+    {
+      "title": "Tables Turn on 'The Gentlemen' RaaS Gang With Data Leak",
+      "link": "https://www.darkreading.com/threat-intelligence/gentlemen-raas-gang-data-leak",
+      "summary": "An OPSEC failure provides a window into what helped the ransomware group rise: a generous affiliate model, opportunistic TTPs, and an effective organizational structure.",
+      "source": "Dark Reading",
+      "published": "2026-05-13T20:47:46+00:00"
+    },
     {
       "title": "New critical Exim mailer flaw allows remote code execution",
       "link": "https://www.bleepingcomputer.com/news/security/new-critical-exim-mailer-flaw-allows-remote-code-execution/",
       "summary": "A critical vulnerability affecting certain configurations of the Exim open-source mail transfer agent could be exploited by an unauthenticated remote attacker to execute arbitrary code. [...]",
       "source": "BleepingComputer",
       "published": "2026-05-13T20:23:50+00:00"
+    },
+    {
+      "title": "CVE-2026-44364 - misp-modules website - Missing CSRF protection in the website home blueprint",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-44364",
+      "summary": "CVE ID :CVE-2026-44364 Published : May 13, 2026, 8:16 p.m. | 55 minutes ago Description :MISP modules are autonomous modules that can be used to extend MISP for new services. In 3.0.7 and earlier, a...",
+      "source": "CVE Feed",
+      "published": "2026-05-13T20:16:23+00:00"
+    },
+    {
+      "title": "CVE-2026-44351 - fast-jwt: Empty HMAC secret accepted via async key resolver - JWT auth bypass",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-44351",
+      "summary": "CVE ID :CVE-2026-44351 Published : May 13, 2026, 8:16 p.m. | 55 minutes ago Description :fast-jwt provides fast JSON Web Token (JWT) implementation. Prior to 6.2.4, a critical authentication-bypass...",
+      "source": "CVE Feed",
+      "published": "2026-05-13T20:16:22+00:00"
+    },
+    {
+      "title": "CVE-2026-42550 - Flight: SQL Injection via unvalidated identifiers in SimplePdo::insert / update / delete",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-42550",
+      "summary": "CVE ID :CVE-2026-42550 Published : May 13, 2026, 8:16 p.m. | 55 minutes ago Description :Flight is an extensible micro-framework for PHP. Prior to 3.18.1, SimplePdo::insert(), SimplePdo::update()...",
+      "source": "CVE Feed",
+      "published": "2026-05-13T20:16:22+00:00"
+    },
+    {
+      "title": "CVE-2026-42548 - Flight: Reflected XSS via unvalidated JSONP callback in Flight::jsonp()",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-42548",
+      "summary": "CVE ID :CVE-2026-42548 Published : May 13, 2026, 8:16 p.m. | 55 minutes ago Description :Flight is an extensible micro-framework for PHP. Prior to 3.18.1, Flight::jsonp() concatenates the ?jsonp=...",
+      "source": "CVE Feed",
+      "published": "2026-05-13T20:16:21+00:00"
+    },
+    {
+      "title": "CVE-2026-45229 - Quark Drive < 0.8.5 Mass Assignment via POST /update",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-45229",
+      "summary": "CVE ID :CVE-2026-45229 Published : May 13, 2026, 7:54 p.m. | 1 hour, 17 minutes ago Description :Quark Drive before 0.8.5 contains a mass assignment vulnerability in the POST /update endpoint that...",
+      "source": "CVE Feed",
+      "published": "2026-05-13T19:54:14+00:00"
     },
     {
       "title": "Alleged Dream Market admin arrested in Germany after US indictment",
@@ -16,30 +86,37 @@
       "published": "2026-05-13T19:54:00+00:00"
     },
     {
+      "title": "CVE-2026-21821 - HCL BigFix SCM Reporting is affected by vulnerabilities in jQuery",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-21821",
+      "summary": "CVE ID :CVE-2026-21821 Published : May 13, 2026, 7:50 p.m. | 1 hour, 21 minutes ago Description :The HCL BigFix SCM Reporting site contains an outdated and unsupported version of the jQuery 1.x...",
+      "source": "CVE Feed",
+      "published": "2026-05-13T19:50:03+00:00"
+    },
+    {
       "title": "CVE-2026-8466 - Unbounded buffer accumulation in multipart header parsing causes denial of service in cowboy",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-8466",
-      "summary": "CVE ID :CVE-2026-8466 Published : May 13, 2026, 7:17 p.m. | 29 minutes ago Description :Allocation of Resources Without Limits or Throttling vulnerability in ninenines cowboy allows denial of service...",
+      "summary": "CVE ID :CVE-2026-8466 Published : May 13, 2026, 7:17 p.m. | 1 hour, 54 minutes ago Description :Allocation of Resources Without Limits or Throttling vulnerability in ninenines cowboy allows denial of...",
       "source": "CVE Feed",
       "published": "2026-05-13T19:17:30+00:00"
     },
     {
       "title": "CVE-2026-43970 - Decompression Bomb in cow_spdy:inflate/2 Allows Memory Exhaustion via Crafted SPDY Frame",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-43970",
-      "summary": "CVE ID :CVE-2026-43970 Published : May 13, 2026, 7:17 p.m. | 29 minutes ago Description :Improper Handling of Highly Compressed Data (Data Amplification) vulnerability in ninenines cowlib allows...",
+      "summary": "CVE ID :CVE-2026-43970 Published : May 13, 2026, 7:17 p.m. | 1 hour, 54 minutes ago Description :Improper Handling of Highly Compressed Data (Data Amplification) vulnerability in ninenines cowlib...",
       "source": "CVE Feed",
       "published": "2026-05-13T19:17:25+00:00"
     },
     {
       "title": "CVE-2026-42031 - CKAN: Unauthenticated SQL Injection and Authorization Bypass in `datastore_search_sql`",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-42031",
-      "summary": "CVE ID :CVE-2026-42031 Published : May 13, 2026, 7:17 p.m. | 29 minutes ago Description :CKAN is an open-source DMS (data management system) for powering data hubs and data portals. Prior to 2.10.10...",
+      "summary": "CVE ID :CVE-2026-42031 Published : May 13, 2026, 7:17 p.m. | 1 hour, 54 minutes ago Description :CKAN is an open-source DMS (data management system) for powering data hubs and data portals. Prior to...",
       "source": "CVE Feed",
       "published": "2026-05-13T19:17:22+00:00"
     },
     {
       "title": "CVE-2026-33583 - Arqit SKA-Platform Vulnerable to Key Exposure",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-33583",
-      "summary": "CVE ID :CVE-2026-33583 Published : May 13, 2026, 7:17 p.m. | 29 minutes ago Description :Exposure of the QKEY (used as input into the ‘OTA-Quantum’ device registration process) and internal system...",
+      "summary": "CVE ID :CVE-2026-33583 Published : May 13, 2026, 7:17 p.m. | 1 hour, 54 minutes ago Description :Exposure of the QKEY (used as input into the ‘OTA-Quantum’ device registration process) and internal...",
       "source": "CVE Feed",
       "published": "2026-05-13T19:17:06+00:00"
     },
@@ -53,77 +130,77 @@
     {
       "title": "CVE-2026-45411 - vm2: Sandbox Breakout Using Async Generator",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-45411",
-      "summary": "CVE ID :CVE-2026-45411 Published : May 13, 2026, 6:16 p.m. | 1 hour, 30 minutes ago Description :vm2 is an open source vm/sandbox for Node.js. Prior to 3.11.3, it is possible to catch a host...",
+      "summary": "CVE ID :CVE-2026-45411 Published : May 13, 2026, 6:16 p.m. | 2 hours, 55 minutes ago Description :vm2 is an open source vm/sandbox for Node.js. Prior to 3.11.3, it is possible to catch a host...",
       "source": "CVE Feed",
       "published": "2026-05-13T18:16:19+00:00"
     },
     {
       "title": "CVE-2026-44578 - Next.js: Server-side request forgery in applications using WebSocket upgrades",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-44578",
-      "summary": "CVE ID :CVE-2026-44578 Published : May 13, 2026, 6:16 p.m. | 1 hour, 30 minutes ago Description :Next.js is a React framework for building full-stack web applications. From 13.4.13 to before 15.5.16...",
+      "summary": "CVE ID :CVE-2026-44578 Published : May 13, 2026, 6:16 p.m. | 2 hours, 55 minutes ago Description :Next.js is a React framework for building full-stack web applications. From 13.4.13 to before 15.5.16...",
       "source": "CVE Feed",
       "published": "2026-05-13T18:16:17+00:00"
     },
     {
       "title": "CVE-2026-44009 - vm2: Sandbox Breakout Through Null Proto Exception",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-44009",
-      "summary": "CVE ID :CVE-2026-44009 Published : May 13, 2026, 6:16 p.m. | 1 hour, 30 minutes ago Description :vm2 is an open source vm/sandbox for Node.js. Prior to 3.11.2, This vulnerability is fixed in 3.11.2...",
+      "summary": "CVE ID :CVE-2026-44009 Published : May 13, 2026, 6:16 p.m. | 2 hours, 55 minutes ago Description :vm2 is an open source vm/sandbox for Node.js. Prior to 3.11.2, This vulnerability is fixed in 3.11.2...",
       "source": "CVE Feed",
       "published": "2026-05-13T18:16:17+00:00"
     },
     {
       "title": "CVE-2026-44008 - vm2: Snabox breakout via `neutralizeArraySpeciesBatch`",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-44008",
-      "summary": "CVE ID :CVE-2026-44008 Published : May 13, 2026, 6:16 p.m. | 1 hour, 30 minutes ago Description :vm2 is an open source vm/sandbox for Node.js. Prior to 3.11.2, the new method...",
+      "summary": "CVE ID :CVE-2026-44008 Published : May 13, 2026, 6:16 p.m. | 2 hours, 55 minutes ago Description :vm2 is an open source vm/sandbox for Node.js. Prior to 3.11.2, the new method...",
       "source": "CVE Feed",
       "published": "2026-05-13T18:16:17+00:00"
     },
     {
       "title": "CVE-2026-44007 - vm2: nesting: true bypasses require: false, allowing sandbox escape to arbitrary OS command execution",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-44007",
-      "summary": "CVE ID :CVE-2026-44007 Published : May 13, 2026, 6:16 p.m. | 1 hour, 30 minutes ago Description :vm2 is an open source vm/sandbox for Node.js. Prior to 3.11.1, when a NodeVM is created with nesting...",
+      "summary": "CVE ID :CVE-2026-44007 Published : May 13, 2026, 6:16 p.m. | 2 hours, 55 minutes ago Description :vm2 is an open source vm/sandbox for Node.js. Prior to 3.11.1, when a NodeVM is created with nesting...",
       "source": "CVE Feed",
       "published": "2026-05-13T18:16:17+00:00"
     },
     {
       "title": "CVE-2026-44006 - vm2: Sandbox Escape",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-44006",
-      "summary": "CVE ID :CVE-2026-44006 Published : May 13, 2026, 6:16 p.m. | 1 hour, 30 minutes ago Description :vm2 is an open source vm/sandbox for Node.js. Prior to 3.11.0, It is possible to reach...",
+      "summary": "CVE ID :CVE-2026-44006 Published : May 13, 2026, 6:16 p.m. | 2 hours, 55 minutes ago Description :vm2 is an open source vm/sandbox for Node.js. Prior to 3.11.0, It is possible to reach...",
       "source": "CVE Feed",
       "published": "2026-05-13T18:16:17+00:00"
     },
     {
       "title": "CVE-2026-44005 - vm2: Sandbox escape",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-44005",
-      "summary": "CVE ID :CVE-2026-44005 Published : May 13, 2026, 6:16 p.m. | 1 hour, 30 minutes ago Description :vm2 is an open source vm/sandbox for Node.js. From 3.9.6 to 3.10.5, vm2's bridge exposes mutable...",
+      "summary": "CVE ID :CVE-2026-44005 Published : May 13, 2026, 6:16 p.m. | 2 hours, 55 minutes ago Description :vm2 is an open source vm/sandbox for Node.js. From 3.9.6 to 3.10.5, vm2's bridge exposes mutable...",
       "source": "CVE Feed",
       "published": "2026-05-13T18:16:17+00:00"
     },
     {
       "title": "CVE-2026-44001 - vm2: Sandbox Escape via Promise Constructor Unhandled Rejection (Process Crash DoS)",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-44001",
-      "summary": "CVE ID :CVE-2026-44001 Published : May 13, 2026, 6:16 p.m. | 1 hour, 30 minutes ago Description :vm2 is an open source vm/sandbox for Node.js. Prior to 3.11.0, a sandbox escape vulnerability in vm2...",
+      "summary": "CVE ID :CVE-2026-44001 Published : May 13, 2026, 6:16 p.m. | 2 hours, 55 minutes ago Description :vm2 is an open source vm/sandbox for Node.js. Prior to 3.11.0, a sandbox escape vulnerability in vm2...",
       "source": "CVE Feed",
       "published": "2026-05-13T18:16:16+00:00"
     },
     {
       "title": "CVE-2026-43999 - vm2: NodeVM builtin allowlist bypass via `module` builtin's `Module._load` allows sandbox escape",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-43999",
-      "summary": "CVE ID :CVE-2026-43999 Published : May 13, 2026, 6:16 p.m. | 1 hour, 30 minutes ago Description :vm2 is an open source vm/sandbox for Node.js. Prior to 3.11.0, NodeVM's builtin allowlist can be...",
+      "summary": "CVE ID :CVE-2026-43999 Published : May 13, 2026, 6:16 p.m. | 2 hours, 55 minutes ago Description :vm2 is an open source vm/sandbox for Node.js. Prior to 3.11.0, NodeVM's builtin allowlist can be...",
       "source": "CVE Feed",
       "published": "2026-05-13T18:16:16+00:00"
     },
     {
       "title": "CVE-2026-43998 - vm2: NodeVM require.root bypass via symlink traversal allows sandbox escape",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-43998",
-      "summary": "CVE ID :CVE-2026-43998 Published : May 13, 2026, 6:16 p.m. | 1 hour, 30 minutes ago Description :vm2 is an open source vm/sandbox for Node.js. In 3.10.5, NodeVM's require.root path restriction can be...",
+      "summary": "CVE ID :CVE-2026-43998 Published : May 13, 2026, 6:16 p.m. | 2 hours, 55 minutes ago Description :vm2 is an open source vm/sandbox for Node.js. In 3.10.5, NodeVM's require.root path restriction can...",
       "source": "CVE Feed",
       "published": "2026-05-13T18:16:16+00:00"
     },
     {
       "title": "CVE-2026-43997 - vm2: Sandbox Escape",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-43997",
-      "summary": "CVE ID :CVE-2026-43997 Published : May 13, 2026, 6:16 p.m. | 1 hour, 30 minutes ago Description :vm2 is an open source vm/sandbox for Node.js. Prior to 3.11.0, it is possible to obtain the host...",
+      "summary": "CVE ID :CVE-2026-43997 Published : May 13, 2026, 6:16 p.m. | 2 hours, 55 minutes ago Description :vm2 is an open source vm/sandbox for Node.js. Prior to 3.11.0, it is possible to obtain the host...",
       "source": "CVE Feed",
       "published": "2026-05-13T18:16:16+00:00"
     },
@@ -137,7 +214,7 @@
     {
       "title": "CVE-2026-44574 - Next.js: Middleware / Proxy bypass through dynamic route parameter injection",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-44574",
-      "summary": "CVE ID :CVE-2026-44574 Published : May 13, 2026, 5:16 p.m. | 2 hours, 30 minutes ago Description :Next.js is a React framework for building full-stack web applications. From 15.4.0 to before 15.5.16...",
+      "summary": "CVE ID :CVE-2026-44574 Published : May 13, 2026, 5:16 p.m. | 3 hours, 55 minutes ago Description :Next.js is a React framework for building full-stack web applications. From 15.4.0 to before 15.5.16...",
       "source": "CVE Feed",
       "published": "2026-05-13T17:16:22+00:00"
     },
@@ -158,65 +235,23 @@
     {
       "title": "CVE-2026-6282 - Lenovo Personal Cloud Storage Path Traversal Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-6282",
-      "summary": "CVE ID :CVE-2026-6282 Published : May 13, 2026, 4:17 p.m. | 3 hours, 29 minutes ago Description :A potential improper file path validation vulnerability was reported in some Lenovo Personal Cloud...",
+      "summary": "CVE ID :CVE-2026-6282 Published : May 13, 2026, 4:17 p.m. | 4 hours, 55 minutes ago Description :A potential improper file path validation vulnerability was reported in some Lenovo Personal Cloud...",
       "source": "CVE Feed",
       "published": "2026-05-13T16:17:01+00:00"
     },
     {
       "title": "CVE-2026-6281 - Lenovo Personal Cloud Storage Command Injection Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-6281",
-      "summary": "CVE ID :CVE-2026-6281 Published : May 13, 2026, 4:17 p.m. | 3 hours, 29 minutes ago Description :A potential vulnerability was reported in some Lenovo Personal Cloud Storage devices that could allow...",
+      "summary": "CVE ID :CVE-2026-6281 Published : May 13, 2026, 4:17 p.m. | 4 hours, 55 minutes ago Description :A potential vulnerability was reported in some Lenovo Personal Cloud Storage devices that could allow...",
       "source": "CVE Feed",
       "published": "2026-05-13T16:17:01+00:00"
     },
     {
       "title": "CVE-2026-45033 - GitHub Copilot CLI: Nested Bare Repository Can Execute Arbitrary Commands via core.fsmonitor",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-45033",
-      "summary": "CVE ID :CVE-2026-45033 Published : May 13, 2026, 4:17 p.m. | 3 hours, 29 minutes ago Description :GitHub Copilot CLI brings AI-powered coding assistance directly to your command line. Prior to...",
+      "summary": "CVE ID :CVE-2026-45033 Published : May 13, 2026, 4:17 p.m. | 4 hours, 55 minutes ago Description :GitHub Copilot CLI brings AI-powered coding assistance directly to your command line. Prior to...",
       "source": "CVE Feed",
       "published": "2026-05-13T16:17:00+00:00"
-    },
-    {
-      "title": "CVE-2026-44470 - Claude Desktop: Local Privilege Escalation via Directory Junction in CoworkVMService",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-44470",
-      "summary": "CVE ID :CVE-2026-44470 Published : May 13, 2026, 4:16 p.m. | 3 hours, 29 minutes ago Description :The Claude Desktop app gives you Claude Code with a graphical interface built for running multiple...",
-      "source": "CVE Feed",
-      "published": "2026-05-13T16:16:58+00:00"
-    },
-    {
-      "title": "CVE-2026-44432 - urllib3: Decompression-bomb safeguards bypassed in parts of the streaming API",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-44432",
-      "summary": "CVE ID :CVE-2026-44432 Published : May 13, 2026, 4:16 p.m. | 3 hours, 29 minutes ago Description :urllib3 is an HTTP client library for Python. From 2.6.0 to before 2.7.0, urllib3 could decompress...",
-      "source": "CVE Feed",
-      "published": "2026-05-13T16:16:57+00:00"
-    },
-    {
-      "title": "CVE-2026-44431 - urllib3: Sensitive headers forwarded across origins in proxied low-level redirects",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-44431",
-      "summary": "CVE ID :CVE-2026-44431 Published : May 13, 2026, 4:16 p.m. | 3 hours, 29 minutes ago Description :urllib3 is an HTTP client library for Python. From 1.23 to before 2.7.0, cross-origin redirects...",
-      "source": "CVE Feed",
-      "published": "2026-05-13T16:16:57+00:00"
-    },
-    {
-      "title": "CVE-2026-44295 - protobufjs-cli: Code injection in pbjs static output from crafted schema names",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-44295",
-      "summary": "CVE ID :CVE-2026-44295 Published : May 13, 2026, 4:16 p.m. | 3 hours, 29 minutes ago Description :protobufjs-cli is the command line add-on for protobuf.js. Prior to 1.2.1 and 2.0.2, pbjs static code...",
-      "source": "CVE Feed",
-      "published": "2026-05-13T16:16:56+00:00"
-    },
-    {
-      "title": "CVE-2026-44291 - protobufjs: Code generation gadget after prototype pollution",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-44291",
-      "summary": "CVE ID :CVE-2026-44291 Published : May 13, 2026, 4:16 p.m. | 3 hours, 29 minutes ago Description :protobufjs compiles protobuf definitions into JavaScript (JS) functions. Prior to 7.5.6 and 8.0.2...",
-      "source": "CVE Feed",
-      "published": "2026-05-13T16:16:55+00:00"
-    },
-    {
-      "title": "CVE-2026-42945 - NGINX ngx_http_rewrite_module vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-42945",
-      "summary": "CVE ID :CVE-2026-42945 Published : May 13, 2026, 4:16 p.m. | 3 hours, 30 minutes ago Description :NGINX Plus and NGINX Open Source have a vulnerability in the ngx_http_rewrite_module module. This...",
-      "source": "CVE Feed",
-      "published": "2026-05-13T16:16:50+00:00"
     },
     {
       "title": "Microsoft, Palo Alto Networks Find Many Vulnerabilities by Using AI on Their Own Code",
@@ -275,16 +310,16 @@
       "published": "2026-05-13T13:00:00+00:00"
     },
     {
-      "title": "LatAm Vibe Hackers Generate Custom Hacking Tools on the Fly",
-      "link": "https://www.darkreading.com/cloud-security/ai-agents-generate-custom-hacking-tools",
-      "summary": "In the latest evolution of automated cyberattacks, two threat campaigns heavily leveraged AI agents to support attacks against entities in Mexico and Brazil.",
+      "title": "China's 'FamousSparrow' APT Nests in South Caucasus Energy Firm",
+      "link": "https://www.darkreading.com/cyberattacks-data-breaches/china-famoussparrow-apt-south-caucasus-energy-firm",
+      "summary": "The cyberthreat group targets an Azerbaijani oil and gas firm with repeated attacks, as the China-linked actors extend targeting beyond hospitality, telecom, and government sectors.",
       "source": "Dark Reading",
       "published": "2026-05-13T13:00:00+00:00"
     },
     {
-      "title": "China's 'FamousSparrow' APT Nests in South Caucasus Energy Firm",
-      "link": "https://www.darkreading.com/cyberattacks-data-breaches/china-famoussparrow-apt-south-caucasus-energy-firm",
-      "summary": "The cyberthreat group targets an Azerbaijani oil and gas firm with repeated attacks, as the China-linked actors extend targeting beyond hospitality, telecom, and government sectors.",
+      "title": "LatAm Vibe Hackers Generate Custom Hacking Tools on the Fly",
+      "link": "https://www.darkreading.com/cloud-security/ai-agents-generate-custom-hacking-tools",
+      "summary": "In the latest evolution of automated cyberattacks, two threat campaigns heavily leveraged AI agents to support attacks against entities in Mexico and Brazil.",
       "source": "Dark Reading",
       "published": "2026-05-13T13:00:00+00:00"
     },
@@ -588,20 +623,6 @@
       "summary": "The May 2026 Security Update Review I’m currently in Berlin helping set up for Pwn2Own Berlin, but that doesn’t stop Patch Tuesday from coming, and it’s another big one. At least nothing is listed as...",
       "source": "CVE Newsroom",
       "published": "2026-05-12T18:38:43+00:00"
-    },
-    {
-      "title": "Fortinet warns of critical RCE flaws in FortiSandbox and FortiAuthenticator",
-      "link": "https://www.bleepingcomputer.com/news/security/fortinet-warns-of-critical-rce-flaws-in-fortisandbox-and-fortiauthenticator/",
-      "summary": "Fortinet has released security patches for two critical vulnerabilities in FortiSandbox and FortiAuthenticator that could enable attackers to run commands or arbitrary code. [...]",
-      "source": "BleepingComputer",
-      "published": "2026-05-12T18:23:09+00:00"
-    },
-    {
-      "title": "Windows 11 KB5089549 & KB5087420 cumulative updates released",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5089549-and-kb5087420-cumulative-updates-released/",
-      "summary": "Microsoft has released Windows 11 KB5089549 and KB5087420 cumulative updates for versions 25H2/24H2 and 23H2 to fix security vulnerabilities, bugs, and add new features. [...]",
-      "source": "BleepingComputer",
-      "published": "2026-05-12T18:09:12+00:00"
     },
     {
       "title": "Fortinet Patches Five Vulnerabilities Across FortiAP, FortiOS, and Enterprise Products",
@@ -954,16 +975,16 @@
       "published": "2026-05-07T13:34:00+00:00"
     },
     {
-      "title": "'TrustFall' Convention Exposes Claude Code Execution Risk",
-      "link": "https://www.darkreading.com/application-security/trustfall-exposes-claude-code-execution-risk",
-      "summary": "Malicious repositories can trigger code execution in Claude Code, Cursor CLI, Gemini CLI, and CoPilot CLI with minimal or no user interaction, thanks to skimpy warning dialogs.",
+      "title": "AI-Driven Cyberattack on Mexico Couldn't Breach OT Systems",
+      "link": "https://www.darkreading.com/ics-ot-security/worlds-first-ai-driven-cyberattack-couldnt-breach-ot-systems",
+      "summary": "The most sophisticated AI-integrated campaign to date hit a brick wall in the form of a SCADA login screen.",
       "source": "Dark Reading",
       "published": "2026-05-07T13:00:00+00:00"
     },
     {
-      "title": "AI-Driven Cyberattack on Mexico Couldn't Breach OT Systems",
-      "link": "https://www.darkreading.com/ics-ot-security/worlds-first-ai-driven-cyberattack-couldnt-breach-ot-systems",
-      "summary": "The most sophisticated AI-integrated campaign to date hit a brick wall in the form of a SCADA login screen.",
+      "title": "'TrustFall' Convention Exposes Claude Code Execution Risk",
+      "link": "https://www.darkreading.com/application-security/trustfall-exposes-claude-code-execution-risk",
+      "summary": "Malicious repositories can trigger code execution in Claude Code, Cursor CLI, Gemini CLI, and CoPilot CLI with minimal or no user interaction, thanks to skimpy warning dialogs.",
       "source": "Dark Reading",
       "published": "2026-05-07T13:00:00+00:00"
     },
@@ -1379,27 +1400,6 @@
       "summary": "Wiz used an AI reverse-engineering tool to pinpoint a vulnerability that previously would have been too costly and time-consuming to undertake.",
       "source": "Dark Reading",
       "published": "2026-04-29T20:08:17+00:00"
-    },
-    {
-      "title": "AI Finds 38 Security Flaws in Electronic Health Record Platform",
-      "link": "https://www.darkreading.com/vulnerabilities-threats/ai-finds-38-security-flaws-openemr",
-      "summary": "Flaws in OpenEMR's platform — used by more than 100,000 healthcare providers — enabled database compromise, remote code execution, and data theft.",
-      "source": "Dark Reading",
-      "published": "2026-04-29T19:32:42+00:00"
-    },
-    {
-      "title": "Vect 2.0 Ransomware Acts as Wiper, Thanks to Design Error",
-      "link": "https://www.darkreading.com/threat-intelligence/vect-ransomware-wiper-design-error",
-      "summary": "The emerging ransomware has been deployed against victims of the TeamPCP supply chain attacks, but organizations should think twice before paying for a decryptor.",
-      "source": "Dark Reading",
-      "published": "2026-04-29T15:23:53+00:00"
-    },
-    {
-      "title": "Lotus Wiper Attack Targets Venezuelan Energy Firms, Utilities",
-      "link": "https://www.darkreading.com/cyber-risk/lotus-wiper-attack-targeted-venezuelan-energy-firms-utilities",
-      "summary": "An analysis of the destructive malware reveals sophisticated living-off-the-land (LotL) techniques and detailed strategies for the widespread deletion of data.",
-      "source": "Dark Reading",
-      "published": "2026-04-29T13:00:00+00:00"
     }
   ]
 }
