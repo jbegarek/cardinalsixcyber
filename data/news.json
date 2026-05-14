@@ -1,12 +1,222 @@
 {
-  "last_updated": "2026-05-14T20:30:17.221851+00:00",
+  "last_updated": "2026-05-14T22:22:18.127365+00:00",
   "articles": [
+    {
+      "title": "CVE-2026-45369 - python-utcp: Command Injection via Unsanitized Argument Substitution in CLI Communication Protocol",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-45369",
+      "summary": "CVE ID :CVE-2026-45369 Published : May 14, 2026, 9:16 p.m. | 1 hour, 1 minute ago Description :python-utcp is the python implementation of UTCP. Prior to 1.1.3, the _substitute_utcp_args method in...",
+      "source": "CVE Feed",
+      "published": "2026-05-14T21:16:48+00:00"
+    },
+    {
+      "title": "CVE-2026-44700 - Elixir WebRTC: Missing DTLS peer fingerprint validation in ex_webrtc client-role handshake",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-44700",
+      "summary": "CVE ID :CVE-2026-44700 Published : May 14, 2026, 9:16 p.m. | 1 hour, 1 minute ago Description :Elixir WebRTC is an Elixir implementation of the W3C WebRTC API. Prior to 0.15.1 and 0.16.1, missing...",
+      "source": "CVE Feed",
+      "published": "2026-05-14T21:16:47+00:00"
+    },
+    {
+      "title": "CVE-2026-44666 - HRConvert2: Missing Sanitization enables Unauthenticated Remote Command Execution",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-44666",
+      "summary": "CVE ID :CVE-2026-44666 Published : May 14, 2026, 9:16 p.m. | 1 hour, 1 minute ago Description :HRConvert2 is a self-hosted, drag-and-drop & nosql file conversion server & share tool. Prior to 3.3.8...",
+      "source": "CVE Feed",
+      "published": "2026-05-14T21:16:47+00:00"
+    },
+    {
+      "title": "CVE-2026-44212 - PrestaShop: Stored XSS executable in customer service view",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-44212",
+      "summary": "CVE ID :CVE-2026-44212 Published : May 14, 2026, 9:16 p.m. | 1 hour, 1 minute ago Description :PrestaShop is an open source e-commerce web application. Prior to 8.2.6 and 9.1.1, there is a stored...",
+      "source": "CVE Feed",
+      "published": "2026-05-14T21:16:46+00:00"
+    },
+    {
+      "title": "CVE-2026-42327 - rust-openssl: undefined behavior in X509Ref::ocsp_responders for certificates with non-UTF-8 OCSP URLs",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-42327",
+      "summary": "CVE ID :CVE-2026-42327 Published : May 14, 2026, 9:16 p.m. | 1 hour, 1 minute ago Description :rust-openssl provides OpenSSL bindings for the Rust programming language. From 0.9.7 to before 0.10.79...",
+      "source": "CVE Feed",
+      "published": "2026-05-14T21:16:45+00:00"
+    },
+    {
+      "title": "Hackers exploit auth bypass flaw in Burst Statistics WordPress plugin",
+      "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-auth-bypass-flaw-in-burst-statistics-wordpress-plugin/",
+      "summary": "Hackers are leveraging a critical authentication bypass vulnerability in the WordPress plugin Burst Statistics to obtain admin-level access to websites. [...]",
+      "source": "BleepingComputer",
+      "published": "2026-05-14T21:07:17+00:00"
+    },
+    {
+      "title": "SecurityScorecard Snags Driftnet to Level Up Threat Intelligence",
+      "link": "https://www.darkreading.com/cyber-risk/securityscorecard-snags-driftnet-to-level-up-threat-intelligence",
+      "summary": "The acquisition looks to boost visibility into third-party ecosystems, which are becoming a bigger concern as vectors for supply chain attacks.",
+      "source": "Dark Reading",
+      "published": "2026-05-14T20:57:27+00:00"
+    },
+    {
+      "title": "OpenAI asks macOS users to update after TanStack npm supply chain attack",
+      "link": "https://therecord.media/openai-asks-macos-users-to-update-tanstack-npm",
+      "summary": "The actions are being taken in light of an expanding supply chain campaign impacting the popular open-source library TanStack and additional npm and PyPI packages tied to several AI companies.",
+      "source": "The Record",
+      "published": "2026-05-14T20:26:00+00:00"
+    },
+    {
+      "title": "Maximum Severity Cisco SD-WAN Bug Exploited in the Wild",
+      "link": "https://www.darkreading.com/vulnerabilities-threats/maximum-severity-cisco-sd-wan-bug-exploited",
+      "summary": "This is the second time this year a threat actor has leveraged a CVSS 10.0 vulnerability in Cisco's network control system.",
+      "source": "Dark Reading",
+      "published": "2026-05-14T20:25:31+00:00"
+    },
+    {
+      "title": "CVE-2026-8634 - Crabbox < v0.12.0 Environment Variable Information Disclosure",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-8634",
+      "summary": "CVE ID :CVE-2026-8634 Published : May 14, 2026, 8:17 p.m. | 2 hours ago Description :Crabbox prior to v0.12.0 contains an environment variable exposure vulnerability that allows attackers with access...",
+      "source": "CVE Feed",
+      "published": "2026-05-14T20:17:21+00:00"
+    },
+    {
+      "title": "CVE-2026-8629 - Crabbox < v0.12.0 Privilege Escalation via Agent Ticket Endpoints",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-8629",
+      "summary": "CVE ID :CVE-2026-8629 Published : May 14, 2026, 8:17 p.m. | 2 hours ago Description :Crabbox prior to v0.12.0 contains a privilege escalation vulnerability that allows users with shared...",
+      "source": "CVE Feed",
+      "published": "2026-05-14T20:17:21+00:00"
+    },
+    {
+      "title": "CVE-2026-8596 - Cleartext storage of HMAC signing key in Amazon SageMaker Python SDK ModelBuilder/Serve path",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-8596",
+      "summary": "CVE ID :CVE-2026-8596 Published : May 14, 2026, 8:17 p.m. | 2 hours ago Description :Cleartext storage of sensitive information in the ModelBuilder/Serve component in Amazon SageMaker Python SDK...",
+      "source": "CVE Feed",
+      "published": "2026-05-14T20:17:21+00:00"
+    },
+    {
+      "title": "CVE-2026-8587 - Google Chrome Extensions Use After Free Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-8587",
+      "summary": "CVE ID :CVE-2026-8587 Published : May 14, 2026, 8:17 p.m. | 2 hours ago Description :Use after free in Extensions in Google Chrome on Mac prior to 148.0.7778.168 allowed an attacker who convinced a...",
+      "source": "CVE Feed",
+      "published": "2026-05-14T20:17:21+00:00"
+    },
+    {
+      "title": "CVE-2026-8581 - Google Chrome GPU Use-After-Free Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-8581",
+      "summary": "CVE ID :CVE-2026-8581 Published : May 14, 2026, 8:17 p.m. | 2 hours ago Description :Use after free in GPU in Google Chrome prior to 148.0.7778.168 allowed a remote attacker to execute arbitrary code...",
+      "source": "CVE Feed",
+      "published": "2026-05-14T20:17:20+00:00"
+    },
+    {
+      "title": "CVE-2026-8580 - Google Chrome Mojo Use-After-Free Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-8580",
+      "summary": "CVE ID :CVE-2026-8580 Published : May 14, 2026, 8:17 p.m. | 2 hours ago Description :Use after free in Mojo in Google Chrome prior to 148.0.7778.168 allowed a remote attacker to potentially perform a...",
+      "source": "CVE Feed",
+      "published": "2026-05-14T20:17:20+00:00"
+    },
+    {
+      "title": "CVE-2026-8577 - Google Chrome Fonts Integer Overflow Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-8577",
+      "summary": "CVE ID :CVE-2026-8577 Published : May 14, 2026, 8:17 p.m. | 2 hours ago Description :Integer overflow in Fonts in Google Chrome prior to 148.0.7778.168 allowed a remote attacker to execute arbitrary...",
+      "source": "CVE Feed",
+      "published": "2026-05-14T20:17:20+00:00"
+    },
+    {
+      "title": "CVE-2026-8555 - Google Chrome GTK Use-After-Free Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-8555",
+      "summary": "CVE ID :CVE-2026-8555 Published : May 14, 2026, 8:17 p.m. | 2 hours ago Description :Use after free in GTK in Google Chrome on Windows prior to 148.0.7778.168 allowed a remote attacker to execute...",
+      "source": "CVE Feed",
+      "published": "2026-05-14T20:17:17+00:00"
+    },
+    {
+      "title": "CVE-2026-8551 - Google Chrome Use After Free in Downloads",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-8551",
+      "summary": "CVE ID :CVE-2026-8551 Published : May 14, 2026, 8:17 p.m. | 2 hours ago Description :Use after free in Downloads in Google Chrome prior to 148.0.7778.168 allowed a remote attacker who convinced a...",
+      "source": "CVE Feed",
+      "published": "2026-05-14T20:17:16+00:00"
+    },
+    {
+      "title": "CVE-2026-8549 - Google Chrome Media Use-After-Free Arbitrary Code Execution Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-8549",
+      "summary": "CVE ID :CVE-2026-8549 Published : May 14, 2026, 8:17 p.m. | 2 hours ago Description :Use after free in Media in Google Chrome prior to 148.0.7778.168 allowed a remote attacker to execute arbitrary...",
+      "source": "CVE Feed",
+      "published": "2026-05-14T20:17:15+00:00"
+    },
+    {
+      "title": "CVE-2026-8544 - Google Chrome Use After Free Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-8544",
+      "summary": "CVE ID :CVE-2026-8544 Published : May 14, 2026, 8:17 p.m. | 2 hours ago Description :Use after free in Media in Google Chrome prior to 148.0.7778.168 allowed a remote attacker to execute arbitrary...",
+      "source": "CVE Feed",
+      "published": "2026-05-14T20:17:15+00:00"
+    },
+    {
+      "title": "CVE-2026-8540 - Google Chrome V8 Type Confusion Arbitrary Code Execution Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-8540",
+      "summary": "CVE ID :CVE-2026-8540 Published : May 14, 2026, 8:17 p.m. | 2 hours ago Description :Type Confusion in V8 in Google Chrome prior to 148.0.7778.168 allowed a remote attacker to execute arbitrary code...",
+      "source": "CVE Feed",
+      "published": "2026-05-14T20:17:14+00:00"
+    },
+    {
+      "title": "CVE-2026-8532 - Google Chrome XML Integer Overflow Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-8532",
+      "summary": "CVE ID :CVE-2026-8532 Published : May 14, 2026, 8:17 p.m. | 2 hours ago Description :Integer overflow in XML in Google Chrome prior to 148.0.7778.168 allowed a remote attacker to execute arbitrary...",
+      "source": "CVE Feed",
+      "published": "2026-05-14T20:17:14+00:00"
+    },
+    {
+      "title": "CVE-2026-8529 - Google Chrome Heap Buffer Overflow Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-8529",
+      "summary": "CVE ID :CVE-2026-8529 Published : May 14, 2026, 8:17 p.m. | 2 hours ago Description :Heap buffer overflow in Codecs in Google Chrome prior to 148.0.7778.168 allowed a remote attacker to execute...",
+      "source": "CVE Feed",
+      "published": "2026-05-14T20:17:13+00:00"
+    },
+    {
+      "title": "CVE-2026-8522 - Google Chrome Use After Free Vulnerability in Downloads on Mac",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-8522",
+      "summary": "CVE ID :CVE-2026-8522 Published : May 14, 2026, 8:17 p.m. | 2 hours ago Description :Use after free in Downloads in Google Chrome on Mac prior to 148.0.7778.168 allowed a remote attacker to execute...",
+      "source": "CVE Feed",
+      "published": "2026-05-14T20:17:12+00:00"
+    },
+    {
+      "title": "CVE-2026-8518 - Google Chrome Blink Use-After-Free Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-8518",
+      "summary": "CVE ID :CVE-2026-8518 Published : May 14, 2026, 8:17 p.m. | 2 hours ago Description :Use after free in Blink in Google Chrome prior to 148.0.7778.168 allowed a remote attacker to execute arbitrary...",
+      "source": "CVE Feed",
+      "published": "2026-05-14T20:17:12+00:00"
+    },
+    {
+      "title": "CVE-2026-8517 - Google Chrome WebShare Object RCE",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-8517",
+      "summary": "CVE ID :CVE-2026-8517 Published : May 14, 2026, 8:17 p.m. | 2 hours ago Description :Object lifecycle issue in WebShare in Google Chrome on Mac prior to 148.0.7778.168 allowed a remote attacker who...",
+      "source": "CVE Feed",
+      "published": "2026-05-14T20:17:12+00:00"
+    },
+    {
+      "title": "CVE-2026-8511 - Google Chrome UI Use-After-Free Sandbox Escape",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-8511",
+      "summary": "CVE ID :CVE-2026-8511 Published : May 14, 2026, 8:17 p.m. | 2 hours ago Description :Use after free in UI in Google Chrome prior to 148.0.7778.168 allowed a remote attacker to potentially perform a...",
+      "source": "CVE Feed",
+      "published": "2026-05-14T20:17:11+00:00"
+    },
+    {
+      "title": "CVE-2026-8509 - Google Chrome Heap Buffer Overflow Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-8509",
+      "summary": "CVE ID :CVE-2026-8509 Published : May 14, 2026, 8:17 p.m. | 2 hours ago Description :Heap buffer overflow in WebML in Google Chrome prior to 148.0.7778.168 allowed a remote attacker to execute...",
+      "source": "CVE Feed",
+      "published": "2026-05-14T20:17:11+00:00"
+    },
+    {
+      "title": "CVE-2026-43909 - OpenImageIO: Signed integer overflow in SwapRGBABytes loop index leads to out-of-bounds read/write in DPX ABGR decoder",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-43909",
+      "summary": "CVE ID :CVE-2026-43909 Published : May 14, 2026, 8:17 p.m. | 2 hours ago Description :OpenImageIO is a toolset for reading, writing, and manipulating image files of any image file format relevant to...",
+      "source": "CVE Feed",
+      "published": "2026-05-14T20:17:07+00:00"
+    },
     {
       "title": "Cisco warns of new critical SD-WAN flaw exploited in zero-day attacks",
       "link": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-new-critical-sd-wan-flaw-exploited-in-zero-day-attacks/",
       "summary": "Cisco is warning that a critical Catalyst SD-WAN Controller authentication bypass flaw, tracked as CVE-2026-20182, was actively exploited in zero-day attacks that allowed attackers to gain...",
       "source": "BleepingComputer",
       "published": "2026-05-14T20:09:56+00:00"
+    },
+    {
+      "title": "Chinese APT Hackers Exploit Microsoft Exchange to Breach Energy Sector Network",
+      "link": "https://cybersecuritynews.com/chinese-apt-hackers-exploit-microsoft-exchange/",
+      "summary": "Chinese APT Hackers Exploit Microsoft Exchange to Breach Energy Sector Network A Chinese state-linked hacking group known as FamousSparrow has quietly infiltrated an Azerbaijani oil and gas company...",
+      "source": "CVE Newsroom",
+      "published": "2026-05-14T20:01:59+00:00"
     },
     {
       "title": "OpenAI confirms security breach in TanStack supply chain attack",
@@ -30,41 +240,6 @@
       "published": "2026-05-14T18:21:00+00:00"
     },
     {
-      "title": "CVE-2026-44542 - FileBrowser Quantum: Unauthenticated Path Traversal in Public Share Delete Allows Arbitrary File Deletion",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-44542",
-      "summary": "CVE ID :CVE-2026-44542 Published : May 14, 2026, 6:16 p.m. | 42 minutes ago Description :FileBrowser Quantum is a free, self-hosted, web-based file manager. Prior to 1.3.1-stable and 1.3.9-beta...",
-      "source": "CVE Feed",
-      "published": "2026-05-14T18:16:50+00:00"
-    },
-    {
-      "title": "CVE-2026-42897 - Microsoft Exchange Server Spoofing Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-42897",
-      "summary": "CVE ID :CVE-2026-42897 Published : May 14, 2026, 6:16 p.m. | 42 minutes ago Description :Improper neutralization of input during web page generation ('cross-site scripting') in Microsoft Exchange...",
-      "source": "CVE Feed",
-      "published": "2026-05-14T18:16:49+00:00"
-    },
-    {
-      "title": "CVE-2026-41615 - Microsoft Authenticator Information Disclosure Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-41615",
-      "summary": "CVE ID :CVE-2026-41615 Published : May 14, 2026, 6:16 p.m. | 42 minutes ago Description :Exposure of sensitive information to an unauthorized actor in Microsoft Authenticator allows an unauthorized...",
-      "source": "CVE Feed",
-      "published": "2026-05-14T18:16:47+00:00"
-    },
-    {
-      "title": "CVE-2025-15024 - RCE in Yordam Informatics' Library Automation System",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2025-15024",
-      "summary": "CVE ID :CVE-2025-15024 Published : May 14, 2026, 6:16 p.m. | 43 minutes ago Description :Improper Control of Generation of Code ('Code Injection') vulnerability in Yordam Information Technology...",
-      "source": "CVE Feed",
-      "published": "2026-05-14T18:16:35+00:00"
-    },
-    {
-      "title": "CVE-2025-15023 - Improper Access Control in Yordam Informatics' Library Automation System",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2025-15023",
-      "summary": "CVE ID :CVE-2025-15023 Published : May 14, 2026, 6:16 p.m. | 43 minutes ago Description :Incorrect Authorization vulnerability in Yordam Information Technology Consulting, Training and Electronic...",
-      "source": "CVE Feed",
-      "published": "2026-05-14T18:16:34+00:00"
-    },
-    {
       "title": "Cisco Catalyst SD-WAN Controller Auth Bypass Actively Exploited to Gain Admin Access",
       "link": "https://thehackernews.com/2026/05/cisco-catalyst-sd-wan-controller-auth.html",
       "summary": "Cisco Catalyst SD-WAN Controller Auth Bypass Actively Exploited to Gain Admin Access Cisco has released updates to address a maximum-severity authentication bypass flaw in Catalyst SD-WAN Controller...",
@@ -79,102 +254,11 @@
       "published": "2026-05-14T17:22:43+00:00"
     },
     {
-      "title": "CVE-2026-44827 - Diffusers: None.py Trust Remote Code Bypass",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-44827",
-      "summary": "CVE ID :CVE-2026-44827 Published : May 14, 2026, 5:16 p.m. | 1 hour, 43 minutes ago Description :Diffusers is the a library for pretrained diffusion models. Prior to 0.38.0, diffusers 0.37.0 allows...",
-      "source": "CVE Feed",
-      "published": "2026-05-14T17:16:23+00:00"
-    },
-    {
-      "title": "CVE-2026-44513 - Diffusers: `trust_remote_code` bypass via `custom_pipeline` and local custom components",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-44513",
-      "summary": "CVE ID :CVE-2026-44513 Published : May 14, 2026, 5:16 p.m. | 1 hour, 43 minutes ago Description :Diffusers is the a library for pretrained diffusion models. Prior to 0.38.0, a trust_remote_code...",
-      "source": "CVE Feed",
-      "published": "2026-05-14T17:16:22+00:00"
-    },
-    {
-      "title": "CVE-2026-42555 - Valtimo: SpEL injection via StandardEvaluationContext allows Remote Code Execution by admin users",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-42555",
-      "summary": "CVE ID :CVE-2026-42555 Published : May 14, 2026, 5:16 p.m. | 1 hour, 43 minutes ago Description :Valtimo is an open-source business process automation platform. com.ritense.valtimo:document from...",
-      "source": "CVE Feed",
-      "published": "2026-05-14T17:16:21+00:00"
-    },
-    {
-      "title": "CVE-2026-20224 - Cisco Catalyst SD-WAN Manager XML External Entity Injection Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-20224",
-      "summary": "CVE ID :CVE-2026-20224 Published : May 14, 2026, 5:16 p.m. | 1 hour, 43 minutes ago Description :A vulnerability in the web UI of Cisco Catalyst SD-WAN Manager, formerly SD-WAN vManage, could allow...",
-      "source": "CVE Feed",
-      "published": "2026-05-14T17:16:20+00:00"
-    },
-    {
-      "title": "CVE-2026-20182 - Cisco Catalyst SD-WAN Controller Authentication Bypass Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-20182",
-      "summary": "CVE ID :CVE-2026-20182 Published : May 14, 2026, 5:16 p.m. | 1 hour, 43 minutes ago Description :May 2026: This security advisory provides the details and fix information for a vulnerability that was...",
-      "source": "CVE Feed",
-      "published": "2026-05-14T17:16:19+00:00"
-    },
-    {
       "title": "'FrostyNeighbor' APT Carefully Targets Govt Orgs in Poland, Ukraine",
       "link": "https://www.darkreading.com/cyberattacks-data-breaches/frostyneighbor-apt-govt-orgs-poland-ukraine",
       "summary": "Attackers uniquely fingerprint victims before delivering spear-phishing payloads aimed at espionage, in the latest campaign from the Belarussian nation-state threat group.",
       "source": "Dark Reading",
       "published": "2026-05-14T16:59:25+00:00"
-    },
-    {
-      "title": "CVE-2026-44504 - Aegra: Cross-user run injection in /threads/{thread_id}/runs (IDOR)",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-44504",
-      "summary": "CVE ID :CVE-2026-44504 Published : May 14, 2026, 4:16 p.m. | 2 hours, 43 minutes ago Description :Aegra is a drop-in replacement for LangSmith Deployments. Prior to 0.9.7, with multiple authenticated...",
-      "source": "CVE Feed",
-      "published": "2026-05-14T16:16:24+00:00"
-    },
-    {
-      "title": "CVE-2026-42596 - Gotenberg: Unauthenticated SSRF via default deny-list bypass in downloadFrom and webhook",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-42596",
-      "summary": "CVE ID :CVE-2026-42596 Published : May 14, 2026, 4:16 p.m. | 2 hours, 43 minutes ago Description :Gotenberg is a Docker-powered stateless API for PDF files. Prior to 8.31.0, the default deny-lists...",
-      "source": "CVE Feed",
-      "published": "2026-05-14T16:16:22+00:00"
-    },
-    {
-      "title": "CVE-2026-42595 - Gotenberg: Server-Side Request Forgery via Chromium URL Endpoint with Redirect-Based Deny-List Bypass",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-42595",
-      "summary": "CVE ID :CVE-2026-42595 Published : May 14, 2026, 4:16 p.m. | 2 hours, 43 minutes ago Description :Gotenberg is a Docker-powered stateless API for PDF files. Prior to 8.32.0, Gotenberg's Chromium...",
-      "source": "CVE Feed",
-      "published": "2026-05-14T16:16:22+00:00"
-    },
-    {
-      "title": "CVE-2026-42591 - Gotenberg: Server-Side Request Forgery (SSRF) in github.com/gotenberg/gotenberg/v8",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-42591",
-      "summary": "CVE ID :CVE-2026-42591 Published : May 14, 2026, 4:16 p.m. | 2 hours, 43 minutes ago Description :Gotenberg is a Docker-powered stateless API for PDF files. Prior to 8.32.0, the LibreOffice...",
-      "source": "CVE Feed",
-      "published": "2026-05-14T16:16:22+00:00"
-    },
-    {
-      "title": "CVE-2026-42590 - Gotenberg: ExifTool group-prefix syntax bypasses dangerous-tag blocklist",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-42590",
-      "summary": "CVE ID :CVE-2026-42590 Published : May 14, 2026, 4:16 p.m. | 2 hours, 43 minutes ago Description :Gotenberg is a Docker-powered stateless API for PDF files. Prior to 8.30.0, The ExifTool metadata...",
-      "source": "CVE Feed",
-      "published": "2026-05-14T16:16:22+00:00"
-    },
-    {
-      "title": "CVE-2026-42589 - Gotenberg: Unauthenticated RCE via ExifTool Metadata Key Injection",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-42589",
-      "summary": "CVE ID :CVE-2026-42589 Published : May 14, 2026, 4:16 p.m. | 2 hours, 43 minutes ago Description :Gotenberg is a Docker-powered stateless API for PDF files. Prior to 8.31.0, Gotenberg's...",
-      "source": "CVE Feed",
-      "published": "2026-05-14T16:16:21+00:00"
-    },
-    {
-      "title": "CVE-2026-42281 - MagicMirror²: Unauthenticated SSRF via /cors endpoint",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-42281",
-      "summary": "CVE ID :CVE-2026-42281 Published : May 14, 2026, 4:16 p.m. | 2 hours, 43 minutes ago Description :MagicMirror² is an open source modular smart mirror platform. Prior to 2.36.0, an unauthenticated...",
-      "source": "CVE Feed",
-      "published": "2026-05-14T16:16:21+00:00"
-    },
-    {
-      "title": "CVE-2026-40893 - Gotenberg: ExifTool Dangerous Tag Blocklist Bypass via Group-Prefixed Tag Names Allows Arbitrary File Rename and Move",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-40893",
-      "summary": "CVE ID :CVE-2026-40893 Published : May 14, 2026, 4:16 p.m. | 2 hours, 43 minutes ago Description :Gotenberg is a Docker-powered stateless API for PDF files. Prior to 8.31.0, Gotenberg only checks if...",
-      "source": "CVE Feed",
-      "published": "2026-05-14T16:16:20+00:00"
     },
     {
       "title": "ThreatsDay Bulletin: PAN-OS RCE, Mythos cURL Bug, AI Tokenizer Attacks, and 10+ Stories",
@@ -205,55 +289,6 @@
       "published": "2026-05-14T15:21:32+00:00"
     },
     {
-      "title": "CVE-2026-44484 - Compromise of PyTorch Lightning PyPi Package Versions",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-44484",
-      "summary": "CVE ID :CVE-2026-44484 Published : May 14, 2026, 3:16 p.m. | 3 hours, 42 minutes ago Description :PyTorch Lightning is a deep learning framework to pretrain and finetune AI models. Versions 2.6.2 and...",
-      "source": "CVE Feed",
-      "published": "2026-05-14T15:16:48+00:00"
-    },
-    {
-      "title": "CVE-2026-44482 - soundcloud-rpc: Remote Code Execution via XSS in Track Title",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-44482",
-      "summary": "CVE ID :CVE-2026-44482 Published : May 14, 2026, 3:16 p.m. | 3 hours, 42 minutes ago Description :soundcloud-rpc is a SoundCloud Client with Discord Rich Presence, Dark Mode, Last.fm and AdBlock...",
-      "source": "CVE Feed",
-      "published": "2026-05-14T15:16:48+00:00"
-    },
-    {
-      "title": "CVE-2026-42881 - STIGQter: Arbitrary File Write leading to Local Code Execution via Export HTML",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-42881",
-      "summary": "CVE ID :CVE-2026-42881 Published : May 14, 2026, 3:16 p.m. | 3 hours, 42 minutes ago Description :STIGQter is an open-source reimplementation of DISA's STIG Viewer. From 0.1.2 to before 1.2.7, an...",
-      "source": "CVE Feed",
-      "published": "2026-05-14T15:16:46+00:00"
-    },
-    {
-      "title": "CVE-2026-42559 - RMCP: DNS rebinding vulnerability in rmcp Streamable HTTP server transport",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-42559",
-      "summary": "CVE ID :CVE-2026-42559 Published : May 14, 2026, 3:16 p.m. | 3 hours, 42 minutes ago Description :RMCP is an official Rust SDK for the Model Context Protocol. Prior to version 1.4.0, the rmcp crate's...",
-      "source": "CVE Feed",
-      "published": "2026-05-14T15:16:46+00:00"
-    },
-    {
-      "title": "CVE-2026-42457 - vCluster Platform: Stored XSS can lead to privilege escalation",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-42457",
-      "summary": "CVE ID :CVE-2026-42457 Published : May 14, 2026, 3:16 p.m. | 3 hours, 42 minutes ago Description :vCluster Platform provides a Kubernetes platform for managing virtual clusters, multi-tenancy, and...",
-      "source": "CVE Feed",
-      "published": "2026-05-14T15:16:46+00:00"
-    },
-    {
-      "title": "CVE-2026-41937 - Vvveb < 1.0.8.3 Unrestricted File Upload RCE via Plugin Upload",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-41937",
-      "summary": "CVE ID :CVE-2026-41937 Published : May 14, 2026, 3:16 p.m. | 3 hours, 42 minutes ago Description :Vvveb before 1.0.8.3 contains an unrestricted file upload vulnerability in the plugin upload endpoint...",
-      "source": "CVE Feed",
-      "published": "2026-05-14T15:16:46+00:00"
-    },
-    {
-      "title": "CVE-2026-6637 - PostgreSQL refint allows stack buffer overflow and SQL injection",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-6637",
-      "summary": "CVE ID :CVE-2026-6637 Published : May 14, 2026, 2:16 p.m. | 4 hours, 43 minutes ago Description :Stack buffer overflow in PostgreSQL module \"refint\" allows an unprivileged database user to execute...",
-      "source": "CVE Feed",
-      "published": "2026-05-14T14:16:25+00:00"
-    },
-    {
       "title": "Ghostwriter Targets Ukrainian Government With Geofenced PDF Phishing, Cobalt Strike",
       "link": "https://thehackernews.com/2026/05/ghostwriter-targets-ukrainian.html",
       "summary": "Ghostwriter Targets Ukrainian Government With Geofenced PDF Phishing, Cobalt Strike The Belarus-aligned threat group known as Ghostwriter has been attributed to a fresh set of attacks targeting...",
@@ -261,17 +296,17 @@
       "published": "2026-05-14T14:00:37+00:00"
     },
     {
-      "title": "Vulnerability in Verint Verba software",
-      "link": "https://cert.pl/en/posts/2026/05/CVE-2026-21730/",
-      "summary": "Vulnerability in Verint Verba software Vulnerability in Verint Verba software CVE ID CVE-2026-21730 Publication date 14 May 2026 Vendor Verint Product Verba Vulnerable versions All before 10.0.6...",
-      "source": "CVE Newsroom",
-      "published": "2026-05-14T14:00:00+00:00"
-    },
-    {
       "title": "Enhancing Data Center Security Without Sacrificing Performance",
       "link": "https://www.securityweek.com/enhancing-data-center-security-without-sacrificing-performance/",
       "summary": "For AI data centers, where the stakes are the highest and performance constraints are the tightest, security and performance are no longer a zero-sum game. The post Enhancing Data Center Security...",
       "source": "SecurityWeek",
+      "published": "2026-05-14T14:00:00+00:00"
+    },
+    {
+      "title": "Vulnerability in Verint Verba software",
+      "link": "https://cert.pl/en/posts/2026/05/CVE-2026-21730/",
+      "summary": "Vulnerability in Verint Verba software Vulnerability in Verint Verba software CVE ID CVE-2026-21730 Publication date 14 May 2026 Vendor Verint Product Verba Vulnerable versions All before 10.0.6...",
+      "source": "CVE Newsroom",
       "published": "2026-05-14T14:00:00+00:00"
     },
     {
@@ -289,17 +324,17 @@
       "published": "2026-05-14T13:44:46+00:00"
     },
     {
-      "title": "AI Drives Cybersecurity Investments, Widening 'Valley of Death'",
-      "link": "https://www.darkreading.com/cybersecurity-operations/ai-cybersecurity-investments-valley-death",
-      "summary": "In a role reversal, investment dollars in security startups exceeded the value of mergers and acquisitions in 1Q26 by more than $1 billion, a rare occurrence.",
-      "source": "Dark Reading",
-      "published": "2026-05-14T13:00:00+00:00"
-    },
-    {
       "title": "Mythos Proves Potent in Vulnerability Discovery, Less Convincing Elsewhere",
       "link": "https://www.securityweek.com/mythos-proves-potent-in-vulnerability-discovery-less-convincing-elsewhere/",
       "summary": "Independent benchmarking finds Mythos highly effective for source code audits, reverse engineering, and native-code analysis, though its exploit validation and reasoning capabilities remain...",
       "source": "SecurityWeek",
+      "published": "2026-05-14T13:00:00+00:00"
+    },
+    {
+      "title": "AI Drives Cybersecurity Investments, Widening 'Valley of Death'",
+      "link": "https://www.darkreading.com/cybersecurity-operations/ai-cybersecurity-investments-valley-death",
+      "summary": "In a role reversal, investment dollars in security startups exceeded the value of mergers and acquisitions in 1Q26 by more than $1 billion, a rare occurrence.",
+      "source": "Dark Reading",
       "published": "2026-05-14T13:00:00+00:00"
     },
     {
@@ -646,13 +681,6 @@
       "published": "2026-05-14T02:00:16+00:00"
     },
     {
-      "title": "GitLab Critical Patch: High-Severity XSS and Unauthenticated DoS Flaws Hit Self-Managed Instances",
-      "link": "https://securityonline.info/gitlab-security-update-xss-dos-vulnerabilities-may-2026/",
-      "summary": "GitLab Critical Patch: High-Severity XSS and Unauthenticated DoS Flaws Hit Self-Managed Instances In a major move to secure its DevOps platform, GitLab has released important security versions for...",
-      "source": "CVE Newsroom",
-      "published": "2026-05-14T01:39:34+00:00"
-    },
-    {
       "title": "West Pharmaceutical says hackers stole data, encrypted systems",
       "link": "https://www.bleepingcomputer.com/news/security/west-pharmaceutical-says-hackers-stole-data-encrypted-systems/",
       "summary": "West Pharmaceutical Services disclosed that it was the target of a cyberattack that resulted in data exfiltration and system encryption. [...]",
@@ -730,13 +758,6 @@
       "published": "2026-05-13T15:45:56+00:00"
     },
     {
-      "title": "Microsoft fixes BitLocker recovery issue only for Windows 11 users",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-bitlocker-recovery-issue-only-for-windows-11-users/",
-      "summary": "Microsoft has addressed a known issue causing some Windows 11 systems to boot into BitLocker recovery after installing the April 2026 Windows security updates. [...]",
-      "source": "BleepingComputer",
-      "published": "2026-05-13T15:42:46+00:00"
-    },
-    {
       "title": "Microsoft's MDASH AI System Finds 16 Windows Flaws Fixed in Patch Tuesday",
       "link": "https://thehackernews.com/2026/05/microsofts-mdash-ai-system-finds-16.html",
       "summary": "Microsoft has unveiled a new multi-model artificial intelligence (AI)-driven system called MDASH to facilitate vulnerability discovery and remediation at scale, adding that it's being tested by some...",
@@ -770,13 +791,6 @@
       "summary": "The proposed reforms, outlined in briefing documents published alongside the King’s Speech opening a new parliamentary session, would update the Computer Misuse Act 1990 as part of a broader national...",
       "source": "The Record",
       "published": "2026-05-13T12:58:00+00:00"
-    },
-    {
-      "title": "Microsoft on pace to break annual vulnerability record as AI-driven patch wave takes hold",
-      "link": "https://therecord.media/microsoft-on-pace-to-break-annual-vulnerability-record-ai",
-      "summary": "Five months into 2026, Microsoft has already patched more than 500 vulnerabilities — although the exact monthly count varies depending on whether analysts include Edge, Chromium and fixes shipped...",
-      "source": "The Record",
-      "published": "2026-05-13T12:54:00+00:00"
     },
     {
       "title": "[Webinar] How Modern Attack Paths Cross Code, Pipelines, and Cloud",
@@ -1386,20 +1400,6 @@
       "summary": "Several npm packages for SAP's cloud application development ecosystem have been compromised as TeamPCP's supply chain attacks broaden.",
       "source": "Dark Reading",
       "published": "2026-04-30T21:01:18+00:00"
-    },
-    {
-      "title": "Another AI-Assisted Software Scan Yields 9-Year-Old Linux Bug",
-      "link": "https://www.darkreading.com/vulnerabilities-threats/ai-assisted-software-scan-linux-bug",
-      "summary": "The proof-of-concept exploit code runs only 10 lines long, but luckily, a patch is already available.",
-      "source": "Dark Reading",
-      "published": "2026-04-30T20:41:18+00:00"
-    },
-    {
-      "title": "Anthropic's Mythos Has Landed: Here's What Comes Next for Cyber",
-      "link": "https://www.darkreading.com/cybersecurity-operations/anthropic-mythos-cyber-what-comes-next",
-      "summary": "In this latest installment of the Reporters' Notebook video series, we discuss how the new AI model threatens to completely upend cybersecurity, and what industry leaders are telling the press.",
-      "source": "Dark Reading",
-      "published": "2026-04-30T19:09:21+00:00"
     }
   ]
 }
