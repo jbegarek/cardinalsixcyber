@@ -1,12 +1,68 @@
 {
-  "last_updated": "2026-05-14T14:50:43.716101+00:00",
+  "last_updated": "2026-05-14T16:38:04.126256+00:00",
   "articles": [
+    {
+      "title": "18-year-old NGINX vulnerability allows DoS, potential RCE",
+      "link": "https://www.bleepingcomputer.com/news/security/18-year-old-nginx-vulnerability-allows-dos-potential-rce/",
+      "summary": "An 18-year-old flaw in the NGINX open-source web server, discovered using an autonomous scanning system, can be exploited for denial of service and, under certain conditions, remote code execution...",
+      "source": "BleepingComputer",
+      "published": "2026-05-14T15:43:41+00:00"
+    },
+    {
+      "title": "Cyber-Enabled Cargo Crime: How Cybercrime Tradecraft is Used to Steal Freight",
+      "link": "https://www.bleepingcomputer.com/news/security/cyber-enabled-cargo-crime-how-cybercrime-tradecraft-is-used-to-steal-freight/",
+      "summary": "Cargo theft now starts with phishing emails and stolen credentials, not hijackings, to reroute and steal freight from supply chains. NMFTA outlines how cyber-enabled cargo crime is changing...",
+      "source": "BleepingComputer",
+      "published": "2026-05-14T15:21:32+00:00"
+    },
+    {
+      "title": "CVE-2026-6637 - PostgreSQL refint allows stack buffer overflow and SQL injection",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-6637",
+      "summary": "CVE ID :CVE-2026-6637 Published : May 14, 2026, 2:16 p.m. | 43 minutes ago Description :Stack buffer overflow in PostgreSQL module \"refint\" allows an unprivileged database user to execute arbitrary...",
+      "source": "CVE Feed",
+      "published": "2026-05-14T14:16:25+00:00"
+    },
+    {
+      "title": "CVE-2026-6477 - PostgreSQL libpq lo_* functions let server superuser overwrite client stack memory",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-6477",
+      "summary": "CVE ID :CVE-2026-6477 Published : May 14, 2026, 2:16 p.m. | 43 minutes ago Description :Use of inherently dangerous function PQfn(..., result_is_int=0, ...) in PostgreSQL libpq lo_export()...",
+      "source": "CVE Feed",
+      "published": "2026-05-14T14:16:25+00:00"
+    },
+    {
+      "title": "CVE-2026-6475 - PostgreSQL pg_basebackup and pg_rewind can overwrite unrelated files of origin superuser choice",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-6475",
+      "summary": "CVE ID :CVE-2026-6475 Published : May 14, 2026, 2:16 p.m. | 43 minutes ago Description :Symlink following in PostgreSQL pg_basebackup plain format and in pg_rewind allows an origin superuser to...",
+      "source": "CVE Feed",
+      "published": "2026-05-14T14:16:25+00:00"
+    },
+    {
+      "title": "CVE-2026-6473 - PostgreSQL server undersizes allocations, via integer wraparound",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-6473",
+      "summary": "CVE ID :CVE-2026-6473 Published : May 14, 2026, 2:16 p.m. | 43 minutes ago Description :Integer wraparound in multiple PostgreSQL server features allows an unprivileged database user to cause the...",
+      "source": "CVE Feed",
+      "published": "2026-05-14T14:16:24+00:00"
+    },
+    {
+      "title": "CVE-2025-15025 - IDOR in Yordam Informatics' Library Automation System",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2025-15025",
+      "summary": "CVE ID :CVE-2025-15025 Published : May 14, 2026, 2:16 p.m. | 43 minutes ago Description :Authorization bypass through User-Controlled key vulnerability in Yordam Information Technology Consulting...",
+      "source": "CVE Feed",
+      "published": "2026-05-14T14:16:15+00:00"
+    },
     {
       "title": "Ghostwriter Targets Ukrainian Government With Geofenced PDF Phishing, Cobalt Strike",
       "link": "https://thehackernews.com/2026/05/ghostwriter-targets-ukrainian.html",
-      "summary": "The Belarus-aligned threat group known as Ghostwriter has been attributed to a fresh set of attacks targeting governmental organizations in Ukraine. Active since at least 2016, Ghostwriter has been...",
-      "source": "The Hacker News",
+      "summary": "Ghostwriter Targets Ukrainian Government With Geofenced PDF Phishing, Cobalt Strike The Belarus-aligned threat group known as Ghostwriter has been attributed to a fresh set of attacks targeting...",
+      "source": "CVE Newsroom",
       "published": "2026-05-14T14:00:37+00:00"
+    },
+    {
+      "title": "Vulnerability in Verint Verba software",
+      "link": "https://cert.pl/en/posts/2026/05/CVE-2026-21730/",
+      "summary": "Vulnerability in Verint Verba software Vulnerability in Verint Verba software CVE ID CVE-2026-21730 Publication date 14 May 2026 Vendor Verint Product Verba Vulnerable versions All before 10.0.6...",
+      "source": "CVE Newsroom",
+      "published": "2026-05-14T14:00:00+00:00"
     },
     {
       "title": "Enhancing Data Center Security Without Sacrificing Performance",
@@ -14,6 +70,13 @@
       "summary": "For AI data centers, where the stakes are the highest and performance constraints are the tightest, security and performance are no longer a zero-sum game. The post Enhancing Data Center Security...",
       "source": "SecurityWeek",
       "published": "2026-05-14T14:00:00+00:00"
+    },
+    {
+      "title": "Vulnerability in WEBCON BPS software",
+      "link": "https://cert.pl/en/posts/2026/05/CVE-2026-1630/",
+      "summary": "Vulnerability in WEBCON BPS software Vulnerability in WEBCON BPS software CVE ID CVE-2026-1630 Publication date 14 May 2026 Vendor WEBCON Product WEBCON BPS Vulnerable versions From 2026.1.1.45 below...",
+      "source": "CVE Newsroom",
+      "published": "2026-05-14T13:55:00+00:00"
     },
     {
       "title": "New Linux Kernel Vulnerability Fragnesia Allows Root Privilege Escalation",
@@ -25,44 +88,16 @@
     {
       "title": "CVE-2026-4030 - Database Backup for WordPress <= 2.5.2 - Missing Authorization to Unauthenticated Arbitrary File Read and Deletion",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-4030",
-      "summary": "CVE ID :CVE-2026-4030 Published : May 14, 2026, 1:16 p.m. | 1 hour, 1 minute ago Description :The Database Backup for WordPress plugin for WordPress is vulnerable to unauthorized arbitrary file read...",
+      "summary": "CVE ID :CVE-2026-4030 Published : May 14, 2026, 1:16 p.m. | 1 hour, 43 minutes ago Description :The Database Backup for WordPress plugin for WordPress is vulnerable to unauthorized arbitrary file...",
       "source": "CVE Feed",
       "published": "2026-05-14T13:16:20+00:00"
     },
     {
       "title": "CVE-2025-12008 - IDOR in APPYAP's Yaay Social Media App",
       "link": "https://cvefeed.io/vuln/detail/CVE-2025-12008",
-      "summary": "CVE ID :CVE-2025-12008 Published : May 14, 2026, 1:16 p.m. | 1 hour, 1 minute ago Description :Authorization bypass through User-Controlled key vulnerability in APPYAP Technology and Information Inc...",
+      "summary": "CVE ID :CVE-2025-12008 Published : May 14, 2026, 1:16 p.m. | 1 hour, 43 minutes ago Description :Authorization bypass through User-Controlled key vulnerability in APPYAP Technology and Information...",
       "source": "CVE Feed",
       "published": "2026-05-14T13:16:16+00:00"
-    },
-    {
-      "title": "CVE-2026-6637 - PostgreSQL refint allows stack buffer overflow and SQL injection",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-6637",
-      "summary": "CVE ID :CVE-2026-6637 Published : May 14, 2026, 1 p.m. | 1 hour, 17 minutes ago Description :Stack buffer overflow in PostgreSQL module \"refint\" allows an unprivileged database user to execute...",
-      "source": "CVE Feed",
-      "published": "2026-05-14T13:00:15+00:00"
-    },
-    {
-      "title": "CVE-2026-6477 - PostgreSQL libpq lo_* functions let server superuser overwrite client stack memory",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-6477",
-      "summary": "CVE ID :CVE-2026-6477 Published : May 14, 2026, 1 p.m. | 1 hour, 17 minutes ago Description :Use of inherently dangerous function PQfn(..., result_is_int=0, ...) in PostgreSQL libpq lo_export()...",
-      "source": "CVE Feed",
-      "published": "2026-05-14T13:00:12+00:00"
-    },
-    {
-      "title": "CVE-2026-6475 - PostgreSQL pg_basebackup and pg_rewind can overwrite unrelated files of origin superuser choice",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-6475",
-      "summary": "CVE ID :CVE-2026-6475 Published : May 14, 2026, 1 p.m. | 1 hour, 17 minutes ago Description :Symlink following in PostgreSQL pg_basebackup plain format and in pg_rewind allows an origin superuser to...",
-      "source": "CVE Feed",
-      "published": "2026-05-14T13:00:11+00:00"
-    },
-    {
-      "title": "CVE-2026-6473 - PostgreSQL server undersizes allocations, via integer wraparound",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-6473",
-      "summary": "CVE ID :CVE-2026-6473 Published : May 14, 2026, 1 p.m. | 1 hour, 17 minutes ago Description :Integer wraparound in multiple PostgreSQL server features allows an unprivileged database user to cause...",
-      "source": "CVE Feed",
-      "published": "2026-05-14T13:00:09+00:00"
     },
     {
       "title": "Mythos Proves Potent in Vulnerability Discovery, Less Convincing Elsewhere",
@@ -79,13 +114,6 @@
       "published": "2026-05-14T13:00:00+00:00"
     },
     {
-      "title": "CVE-2025-15025 - IDOR in Yordam Informatics' Library Automation System",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2025-15025",
-      "summary": "CVE ID :CVE-2025-15025 Published : May 14, 2026, 12:59 p.m. | 1 hour, 18 minutes ago Description :Authorization bypass through User-Controlled key vulnerability in Yordam Information Technology...",
-      "source": "CVE Feed",
-      "published": "2026-05-14T12:59:51+00:00"
-    },
-    {
       "title": "Akamai to Acquire AI and Browser Security Firm LayerX for $205 Million",
       "link": "https://www.securityweek.com/akamai-to-acquire-ai-and-browser-security-firm-layerx-for-205-million/",
       "summary": "The acquisition enables Akamai to expand its Zero Trust portfolio to add protection directly into the browser. The post Akamai to Acquire AI and Browser Security Firm LayerX for $205 Million appeared...",
@@ -98,6 +126,13 @@
       "summary": "Vulnerabilities in Comarch ERP Optima software Vulnerabilities in Comarch ERP Optima software CVE ID CVE-2025-68420 Publication date 14 May 2026 Vendor Comarch Product ERP Optima Vulnerable versions...",
       "source": "CVE Newsroom",
       "published": "2026-05-14T12:55:00+00:00"
+    },
+    {
+      "title": "Critical GitLab Vulnerabilities Enables XSS and Unauthenticated DoS Attacks",
+      "link": "https://cybersecuritynews.com/gitlab-vulnerabilities-xss-and-dos/",
+      "summary": "Critical GitLab Vulnerabilities Enables XSS and Unauthenticated DoS Attacks Threat actors are constantly hunting for infrastructure weaknesses, and a newly discovered batch of vulnerabilities in...",
+      "source": "CVE Newsroom",
+      "published": "2026-05-14T12:26:27+00:00"
     },
     {
       "title": "KongTuke hackers now use Microsoft Teams for corporate breaches",
@@ -263,14 +298,14 @@
     {
       "title": "CVE-2026-8468 - Unbounded buffer accumulation in multipart header parsing causes denial of service in plug",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-8468",
-      "summary": "CVE ID :CVE-2026-8468 Published : May 14, 2026, 11:16 a.m. | 3 hours, 1 minute ago Description :Allocation of Resources Without Limits or Throttling vulnerability in plug_project plug allows denial...",
+      "summary": "CVE ID :CVE-2026-8468 Published : May 14, 2026, 11:16 a.m. | 3 hours, 43 minutes ago Description :Allocation of Resources Without Limits or Throttling vulnerability in plug_project plug allows denial...",
       "source": "CVE Feed",
       "published": "2026-05-14T11:16:18+00:00"
     },
     {
       "title": "CVE-2025-68421 - Hardcoded credentials in Comarch ERP Optima",
       "link": "https://cvefeed.io/vuln/detail/CVE-2025-68421",
-      "summary": "CVE ID :CVE-2025-68421 Published : May 14, 2026, 11:16 a.m. | 3 hours, 1 minute ago Description :Comarch ERP Optima client makes use of a hard-coded password for a database user. These credentials...",
+      "summary": "CVE ID :CVE-2025-68421 Published : May 14, 2026, 11:16 a.m. | 3 hours, 43 minutes ago Description :Comarch ERP Optima client makes use of a hard-coded password for a database user. These credentials...",
       "source": "CVE Feed",
       "published": "2026-05-14T11:16:17+00:00"
     },
@@ -298,14 +333,14 @@
     {
       "title": "CVE-2026-2347 - IDOR in Akıllı Ticaret's E-Commerce Pack",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-2347",
-      "summary": "CVE ID :CVE-2026-2347 Published : May 14, 2026, 10:16 a.m. | 4 hours, 1 minute ago Description :Authorization bypass through User-Controlled key vulnerability in Akilli Commerce Software Technologies...",
+      "summary": "CVE ID :CVE-2026-2347 Published : May 14, 2026, 10:16 a.m. | 4 hours, 43 minutes ago Description :Authorization bypass through User-Controlled key vulnerability in Akilli Commerce Software...",
       "source": "CVE Feed",
       "published": "2026-05-14T10:16:19+00:00"
     },
     {
       "title": "CVE-2025-11024 - SQLi in Akıllı Ticaret's E-Commerce Pack",
       "link": "https://cvefeed.io/vuln/detail/CVE-2025-11024",
-      "summary": "CVE ID :CVE-2025-11024 Published : May 14, 2026, 10:16 a.m. | 4 hours, 1 minute ago Description :Improper neutralization of special elements used in an SQL command ('SQL injection') vulnerability in...",
+      "summary": "CVE ID :CVE-2025-11024 Published : May 14, 2026, 10:16 a.m. | 4 hours, 43 minutes ago Description :Improper neutralization of special elements used in an SQL command ('SQL injection') vulnerability...",
       "source": "CVE Feed",
       "published": "2026-05-14T10:16:17+00:00"
     },
@@ -347,7 +382,7 @@
     {
       "title": "CVE-2026-6512 - InfusedWoo Pro <= 5.1.2 - Unauthenticated Missing Authorization to Arbitrary Post Deletion via Multiple Parameters",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-6512",
-      "summary": "CVE ID :CVE-2026-6512 Published : May 14, 2026, 9:16 a.m. | 5 hours, 1 minute ago Description :The InfusedWoo Pro plugin for WordPress is vulnerable to authorization bypass in all versions up to, and...",
+      "summary": "CVE ID :CVE-2026-6512 Published : May 14, 2026, 9:16 a.m. | 5 hours, 43 minutes ago Description :The InfusedWoo Pro plugin for WordPress is vulnerable to authorization bypass in all versions up to...",
       "source": "CVE Feed",
       "published": "2026-05-14T09:16:27+00:00"
     },
@@ -403,35 +438,35 @@
     {
       "title": "CVE-2026-6510 - InfusedWoo Pro <= 5.1.2 - Unauthenticated Missing Authorization to Privilege Escalation via 'iwar_save_recipe'",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-6510",
-      "summary": "CVE ID :CVE-2026-6510 Published : May 14, 2026, 7:16 a.m. | 7 hours, 1 minute ago Description :The InfusedWoo Pro plugin for WordPress is vulnerable to privilege escalation via missing authorization...",
+      "summary": "CVE ID :CVE-2026-6510 Published : May 14, 2026, 7:16 a.m. | 7 hours, 43 minutes ago Description :The InfusedWoo Pro plugin for WordPress is vulnerable to privilege escalation via missing...",
       "source": "CVE Feed",
       "published": "2026-05-14T07:16:21+00:00"
     },
     {
       "title": "CVE-2026-6506 - InfusedWoo Pro <= 5.1.2 - Authenticated (Subscriber+) Missing Authorization to Privilege Escalation via Arbitrary User Meta Update",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-6506",
-      "summary": "CVE ID :CVE-2026-6506 Published : May 14, 2026, 7:16 a.m. | 7 hours, 1 minute ago Description :The InfusedWoo Pro plugin for WordPress is vulnerable to privilege escalation in all versions up to, and...",
+      "summary": "CVE ID :CVE-2026-6506 Published : May 14, 2026, 7:16 a.m. | 7 hours, 43 minutes ago Description :The InfusedWoo Pro plugin for WordPress is vulnerable to privilege escalation in all versions up to...",
       "source": "CVE Feed",
       "published": "2026-05-14T07:16:20+00:00"
     },
     {
       "title": "CVE-2026-6271 - Career Section <= 1.7 - Unauthenticated Arbitrary File Upload",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-6271",
-      "summary": "CVE ID :CVE-2026-6271 Published : May 14, 2026, 7:16 a.m. | 7 hours, 1 minute ago Description :The Career Section plugin for WordPress is vulnerable to Arbitrary File Upload in all versions up to...",
+      "summary": "CVE ID :CVE-2026-6271 Published : May 14, 2026, 7:16 a.m. | 7 hours, 43 minutes ago Description :The Career Section plugin for WordPress is vulnerable to Arbitrary File Upload in all versions up to...",
       "source": "CVE Feed",
       "published": "2026-05-14T07:16:20+00:00"
     },
     {
       "title": "CVE-2026-5395 - Fluent Forms <= 6.2.0 - Authenticated (Subscriber+) Authorization Bypass via 'table' Parameter",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-5395",
-      "summary": "CVE ID :CVE-2026-5395 Published : May 14, 2026, 7:16 a.m. | 7 hours, 1 minute ago Description :The Fluent Forms – Customizable Contact Forms, Survey, Quiz, & Conversational Form Builder plugin for...",
+      "summary": "CVE ID :CVE-2026-5395 Published : May 14, 2026, 7:16 a.m. | 7 hours, 43 minutes ago Description :The Fluent Forms – Customizable Contact Forms, Survey, Quiz, & Conversational Form Builder plugin for...",
       "source": "CVE Feed",
       "published": "2026-05-14T07:16:20+00:00"
     },
     {
       "title": "CVE-2026-3892 - Motors – Car Dealer, Classifieds & Listing <= 1.4.107 - Authenticated (Subscriber+) Arbitrary File Deletion via 'stm_dealer_logo_path' Parameter",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-3892",
-      "summary": "CVE ID :CVE-2026-3892 Published : May 14, 2026, 7:16 a.m. | 7 hours, 1 minute ago Description :The Motors – Car Dealership & Classified Listings Plugin plugin for WordPress is vulnerable to arbitrary...",
+      "summary": "CVE ID :CVE-2026-3892 Published : May 14, 2026, 7:16 a.m. | 7 hours, 43 minutes ago Description :The Motors – Car Dealership & Classified Listings Plugin plugin for WordPress is vulnerable to...",
       "source": "CVE Feed",
       "published": "2026-05-14T07:16:19+00:00"
     },
@@ -452,35 +487,35 @@
     {
       "title": "CVE-2026-8181 - Burst Statistics 3.4.0 - 3.4.1.1 - Authentication Bypass to Admin Account Takeover",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-8181",
-      "summary": "CVE ID :CVE-2026-8181 Published : May 14, 2026, 6:16 a.m. | 8 hours, 1 minute ago Description :The Burst Statistics – Privacy-Friendly WordPress Analytics (Google Analytics Alternative) plugin for...",
+      "summary": "CVE ID :CVE-2026-8181 Published : May 14, 2026, 6:16 a.m. | 8 hours, 43 minutes ago Description :The Burst Statistics – Privacy-Friendly WordPress Analytics (Google Analytics Alternative) plugin for...",
       "source": "CVE Feed",
       "published": "2026-05-14T06:16:25+00:00"
     },
     {
       "title": "CVE-2026-7481 - Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') in GitLab",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-7481",
-      "summary": "CVE ID :CVE-2026-7481 Published : May 14, 2026, 6:16 a.m. | 8 hours, 1 minute ago Description :GitLab has remediated an issue in GitLab EE affecting all versions from 16.4 before 18.9.7, 18.10 before...",
+      "summary": "CVE ID :CVE-2026-7481 Published : May 14, 2026, 6:16 a.m. | 8 hours, 43 minutes ago Description :GitLab has remediated an issue in GitLab EE affecting all versions from 16.4 before 18.9.7, 18.10...",
       "source": "CVE Feed",
       "published": "2026-05-14T06:16:25+00:00"
     },
     {
       "title": "CVE-2026-7377 - Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') in GitLab",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-7377",
-      "summary": "CVE ID :CVE-2026-7377 Published : May 14, 2026, 6:16 a.m. | 8 hours, 1 minute ago Description :GitLab has remediated an issue in GitLab EE affecting all versions from 18.7 before 18.9.7, 18.10 before...",
+      "summary": "CVE ID :CVE-2026-7377 Published : May 14, 2026, 6:16 a.m. | 8 hours, 43 minutes ago Description :GitLab has remediated an issue in GitLab EE affecting all versions from 18.7 before 18.9.7, 18.10...",
       "source": "CVE Feed",
       "published": "2026-05-14T06:16:25+00:00"
     },
     {
       "title": "CVE-2026-6073 - Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') in GitLab",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-6073",
-      "summary": "CVE ID :CVE-2026-6073 Published : May 14, 2026, 6:16 a.m. | 8 hours, 1 minute ago Description :GitLab has remediated an issue in GitLab EE affecting all versions from 18.7 before 18.9.7, 18.10 before...",
+      "summary": "CVE ID :CVE-2026-6073 Published : May 14, 2026, 6:16 a.m. | 8 hours, 43 minutes ago Description :GitLab has remediated an issue in GitLab EE affecting all versions from 18.7 before 18.9.7, 18.10...",
       "source": "CVE Feed",
       "published": "2026-05-14T06:16:24+00:00"
     },
     {
       "title": "CVE-2026-5396 - Fluent Forms <= 6.1.21 - Authenticated (Subscriber+) Authorization Bypass via 'form_id' Parameter",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-5396",
-      "summary": "CVE ID :CVE-2026-5396 Published : May 14, 2026, 6:16 a.m. | 8 hours, 1 minute ago Description :The Fluent Forms plugin for WordPress is vulnerable to Authorization Bypass Through User-Controlled Key...",
+      "summary": "CVE ID :CVE-2026-5396 Published : May 14, 2026, 6:16 a.m. | 8 hours, 43 minutes ago Description :The Fluent Forms plugin for WordPress is vulnerable to Authorization Bypass Through User-Controlled...",
       "source": "CVE Feed",
       "published": "2026-05-14T06:16:24+00:00"
     },
@@ -548,30 +583,9 @@
       "published": "2026-05-14T00:54:58+00:00"
     },
     {
-      "title": "Microsoft MDASH: When the Machine Becomes the Red Team",
-      "link": "https://thecyberthrone.in/2026/05/14/microsoft-mdash-when-the-machine-becomes-the-red-team/",
-      "summary": "Microsoft MDASH: When the Machine Becomes the Red Team AI-native vulnerability discovery has crossed from research curiosity into production-grade defense — and the implications for how enterprises...",
-      "source": "CVE Newsroom",
-      "published": "2026-05-14T00:47:59+00:00"
-    },
-    {
-      "title": "Urgent Update: Composer Vulnerability Leaks GitHub Secrets in Plaintext Logs (CVE-2026-45793)",
-      "link": "https://securityonline.info/composer-github-token-leak-vulnerability-cve-2026-45793/",
-      "summary": "Urgent Update: Composer Vulnerability Leaks GitHub Secrets in Plaintext Logs (CVE-2026-45793) In a critical security alert for the PHP community, Nils Adermann, Co-Creator of Composer, has issued an...",
-      "source": "CVE Newsroom",
-      "published": "2026-05-14T00:34:18+00:00"
-    },
-    {
-      "title": "Critical 18-Year-Old NGINX RCE (CVE-2026-42945) and GitHub PoC Disclosed",
-      "link": "https://securityonline.info/nginx-rce-vulnerability-cve-2026-42945-poc-disclosure/",
-      "summary": "Critical 18-Year-Old NGINX RCE (CVE-2026-42945) and GitHub PoC Disclosed Security researcher Zhenpeng (Leo) Lin of depthfirst has unveiled a critical, 18-year-old vulnerability lurking within NGINX...",
-      "source": "CVE Newsroom",
-      "published": "2026-05-14T00:20:22+00:00"
-    },
-    {
       "title": "CVE-2026-29206 - Apache sqloptimizer SQL Injection Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-29206",
-      "summary": "CVE ID :CVE-2026-29206 Published : May 13, 2026, 11:16 p.m. | 15 hours, 1 minute ago Description :Insufficient sanitization of SQL queries in the `sqloptimizer` utility script allows SQL Injections...",
+      "summary": "CVE ID :CVE-2026-29206 Published : May 13, 2026, 11:16 p.m. | 15 hours, 42 minutes ago Description :Insufficient sanitization of SQL queries in the `sqloptimizer` utility script allows SQL Injections...",
       "source": "CVE Feed",
       "published": "2026-05-13T23:16:42+00:00"
     },
@@ -585,14 +599,14 @@
     {
       "title": "CVE-2026-45158 - OPNsense: Command Injection via Attacker-Controlled DHCP Config",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-45158",
-      "summary": "CVE ID :CVE-2026-45158 Published : May 13, 2026, 10:16 p.m. | 16 hours, 1 minute ago Description :OPNsense is a FreeBSD based firewall and routing platform. Prior to 26.1.8, unsanitized user input is...",
+      "summary": "CVE ID :CVE-2026-45158 Published : May 13, 2026, 10:16 p.m. | 16 hours, 42 minutes ago Description :OPNsense is a FreeBSD based firewall and routing platform. Prior to 26.1.8, unsanitized user input...",
       "source": "CVE Feed",
       "published": "2026-05-13T22:16:46+00:00"
     },
     {
       "title": "CVE-2026-44447 - ERPNext: Possibility of SQL Injection due to missing validation",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-44447",
-      "summary": "CVE ID :CVE-2026-44447 Published : May 13, 2026, 10:16 p.m. | 16 hours, 1 minute ago Description :ERPNext is a free and open source Enterprise Resource Planning tool. Prior to 16.9.0, some endpoints...",
+      "summary": "CVE ID :CVE-2026-44447 Published : May 13, 2026, 10:16 p.m. | 16 hours, 42 minutes ago Description :ERPNext is a free and open source Enterprise Resource Planning tool. Prior to 16.9.0, some...",
       "source": "CVE Feed",
       "published": "2026-05-13T22:16:45+00:00"
     },
@@ -683,8 +697,8 @@
     {
       "title": "Microsoft's MDASH AI System Finds 16 Windows Flaws Fixed in Patch Tuesday",
       "link": "https://thehackernews.com/2026/05/microsofts-mdash-ai-system-finds-16.html",
-      "summary": "Microsoft's MDASH AI System Finds 16 Windows Flaws Fixed in Patch Tuesday Microsoft has unveiled a new multi-model artificial intelligence (AI)-driven system called MDASH to facilitate vulnerability...",
-      "source": "CVE Newsroom",
+      "summary": "Microsoft has unveiled a new multi-model artificial intelligence (AI)-driven system called MDASH to facilitate vulnerability discovery and remediation at scale, adding that it's being tested by some...",
+      "source": "The Hacker News",
       "published": "2026-05-13T13:46:02+00:00"
     },
     {
@@ -737,13 +751,6 @@
       "published": "2026-05-13T12:30:38+00:00"
     },
     {
-      "title": "Microsoft says some users can't install Office on Windows 365 devices",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-some-users-cant-install-office-on-windows-365-devices/",
-      "summary": "Microsoft says some customers are experiencing issues downloading and installing Office on their Windows 365 devices. [...]",
-      "source": "BleepingComputer",
-      "published": "2026-05-13T11:53:54+00:00"
-    },
-    {
       "title": "[Webinar] How Modern Attack Paths Cross Code, Pipelines, and Cloud",
       "link": "https://thehackernews.com/2026/05/webinar-why-your-appsec-tools-miss.html",
       "summary": "TL;DR: Stop chasing thousands of \"toast\" alerts. Join experts from Wiz to learn how hackers connect tiny flaws to build a \"Lethal Chain\" to your data—and how to break it. Register for the Strategic...",
@@ -777,13 +784,6 @@
       "summary": "Google on Tuesday unveiled a new opt-in Android feature called Intrusion Logging for storing forensic logs to better analyze sophisticated spyware attacks. Intrusion Logging, available as part of...",
       "source": "The Hacker News",
       "published": "2026-05-13T06:55:42+00:00"
-    },
-    {
-      "title": "US govt seeks Instructure testimony on massive Canvas cyberattack",
-      "link": "https://www.bleepingcomputer.com/news/security/us-govt-seeks-instructure-testimony-on-massive-canvas-cyberattack/",
-      "summary": "The U.S. House Committee on Homeland Security is calling on Instructure executives to testify about two cyberattacks by the ShinyHunters extortion group that targeted the company's Canvas platform...",
-      "source": "BleepingComputer",
-      "published": "2026-05-12T23:09:55+00:00"
     },
     {
       "title": "Patch Tuesday, May 2026 Edition",
