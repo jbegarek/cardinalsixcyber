@@ -1,6 +1,69 @@
 {
-  "last_updated": "2026-05-15T20:25:23.872024+00:00",
+  "last_updated": "2026-05-15T22:18:35.142116+00:00",
   "articles": [
+    {
+      "title": "The Boring Stuff is Dangerous Now",
+      "link": "https://www.darkreading.com/cyber-risk/ai-code-and-agents-forces-defenders-adapt",
+      "summary": "AI agents capable of discovering and exploiting obscure vulnerabilities are emerging alongside developers producing vast amounts of potentially flawed AI-generated code, forcing defenders to adapt...",
+      "source": "Dark Reading",
+      "published": "2026-05-18T13:00:00+00:00"
+    },
+    {
+      "title": "CVE-2026-8696 - radare2 6.1.5 Use-After-Free via gdbr_pids_list()",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-8696",
+      "summary": "CVE ID :CVE-2026-8696 Published : May 15, 2026, 8:52 p.m. | 13 minutes ago Description :radare2 6.1.5 contains a use-after-free vulnerability in the gdbr_pids_list() function within the GDB client...",
+      "source": "CVE Feed",
+      "published": "2026-05-15T20:52:32+00:00"
+    },
+    {
+      "title": "CVE-2026-45675 - Open WebUI: LDAP and OAuth First-User Race Condition Allows Multiple Admin Accounts",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-45675",
+      "summary": "CVE ID :CVE-2026-45675 Published : May 15, 2026, 8:16 p.m. | 49 minutes ago Description :Open WebUI is a self-hosted artificial intelligence platform designed to operate entirely offline. Prior to...",
+      "source": "CVE Feed",
+      "published": "2026-05-15T20:16:49+00:00"
+    },
+    {
+      "title": "CVE-2026-45671 - Open WebUI: shared-chat branch ignores access_type, allowing unauthorized file deletion",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-45671",
+      "summary": "CVE ID :CVE-2026-45671 Published : May 15, 2026, 8:16 p.m. | 49 minutes ago Description :Open WebUI is a self-hosted artificial intelligence platform designed to operate entirely offline. Prior to...",
+      "source": "CVE Feed",
+      "published": "2026-05-15T20:16:49+00:00"
+    },
+    {
+      "title": "CVE-2026-45331 - Open WebUI: Full SSRF Vulnerability in the RAG Web Search Feature",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-45331",
+      "summary": "CVE ID :CVE-2026-45331 Published : May 15, 2026, 8:16 p.m. | 49 minutes ago Description :Open WebUI is a self-hosted artificial intelligence platform designed to operate entirely offline. Prior to...",
+      "source": "CVE Feed",
+      "published": "2026-05-15T20:16:48+00:00"
+    },
+    {
+      "title": "CVE-2026-44554 - Open WebUI: Knowledge Base Destruction and RAG Poisoning via Unauthorized Collection Overwrite",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-44554",
+      "summary": "CVE ID :CVE-2026-44554 Published : May 15, 2026, 8:16 p.m. | 49 minutes ago Description :Open WebUI is a self-hosted artificial intelligence platform designed to operate entirely offline. Prior to...",
+      "source": "CVE Feed",
+      "published": "2026-05-15T20:16:46+00:00"
+    },
+    {
+      "title": "CVE-2026-44553 - Open WebUI: Stale Admin Role in Socket.IO Session Pool Enables Post-Demotion Cross-User Note Access",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-44553",
+      "summary": "CVE ID :CVE-2026-44553 Published : May 15, 2026, 8:16 p.m. | 49 minutes ago Description :Open WebUI is a self-hosted artificial intelligence platform designed to operate entirely offline. Prior to...",
+      "source": "CVE Feed",
+      "published": "2026-05-15T20:16:46+00:00"
+    },
+    {
+      "title": "CVE-2026-44552 - Open WebUI: Redis Cache Keys tool_servers and terminal_servers Missing Instance Prefix Enable Cross-Instance Cache Poisoning",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-44552",
+      "summary": "CVE ID :CVE-2026-44552 Published : May 15, 2026, 8:16 p.m. | 49 minutes ago Description :Open WebUI is a self-hosted artificial intelligence platform designed to operate entirely offline. Prior to...",
+      "source": "CVE Feed",
+      "published": "2026-05-15T20:16:46+00:00"
+    },
+    {
+      "title": "CVE-2026-44551 - Open WebUI: LDAP Empty Password Authentication Bypass",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-44551",
+      "summary": "CVE ID :CVE-2026-44551 Published : May 15, 2026, 8:16 p.m. | 49 minutes ago Description :Open WebUI is a self-hosted artificial intelligence platform designed to operate entirely offline. Prior to...",
+      "source": "CVE Feed",
+      "published": "2026-05-15T20:16:46+00:00"
+    },
     {
       "title": "More than $10 million stolen from crypto platform THORChain",
       "link": "https://therecord.media/more-than-10-million-stolen-crypto-platform-thorchain",
@@ -18,63 +81,63 @@
     {
       "title": "CVE-2026-8686 - DoS from MQTT v5.0 Deserialization Fault in core MQTT",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-8686",
-      "summary": "CVE ID :CVE-2026-8686 Published : May 15, 2026, 7:17 p.m. | 25 minutes ago Description :Missing bounds validation in the MQTT v5.0 property parser in coreMQTT before 5.0.1 allows an MQTT broker to...",
+      "summary": "CVE ID :CVE-2026-8686 Published : May 15, 2026, 7:17 p.m. | 1 hour, 48 minutes ago Description :Missing bounds validation in the MQTT v5.0 property parser in coreMQTT before 5.0.1 allows an MQTT...",
       "source": "CVE Feed",
       "published": "2026-05-15T19:17:05+00:00"
     },
     {
       "title": "CVE-2026-46407 - Vvveb: admin/auth-token IDOR allows unauthorized disclosure of administrator REST API tokens",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-46407",
-      "summary": "CVE ID :CVE-2026-46407 Published : May 15, 2026, 7:17 p.m. | 25 minutes ago Description :Vvveb is a powerful and easy to use CMS with page builder to build websites, blogs or ecommerce stores. Prior...",
+      "summary": "CVE ID :CVE-2026-46407 Published : May 15, 2026, 7:17 p.m. | 1 hour, 48 minutes ago Description :Vvveb is a powerful and easy to use CMS with page builder to build websites, blogs or ecommerce...",
       "source": "CVE Feed",
       "published": "2026-05-15T19:17:04+00:00"
     },
     {
       "title": "CVE-2026-46364 - phpMyFAQ - SQL Injection via User-Agent Header in BuiltinCaptcha",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-46364",
-      "summary": "CVE ID :CVE-2026-46364 Published : May 15, 2026, 7:17 p.m. | 25 minutes ago Description :phpMyFAQ before 4.1.2 contains an unauthenticated SQL injection vulnerability in...",
+      "summary": "CVE ID :CVE-2026-46364 Published : May 15, 2026, 7:17 p.m. | 1 hour, 48 minutes ago Description :phpMyFAQ before 4.1.2 contains an unauthenticated SQL injection vulnerability in...",
       "source": "CVE Feed",
       "published": "2026-05-15T19:17:03+00:00"
     },
     {
       "title": "CVE-2026-45800 - Vvveb: Authenticated SQL injection in /user/orders via order_by and direction",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-45800",
-      "summary": "CVE ID :CVE-2026-45800 Published : May 15, 2026, 7:17 p.m. | 26 minutes ago Description :Vvveb is a powerful and easy to use CMS with page builder to build websites, blogs or ecommerce stores. Prior...",
+      "summary": "CVE ID :CVE-2026-45800 Published : May 15, 2026, 7:17 p.m. | 1 hour, 48 minutes ago Description :Vvveb is a powerful and easy to use CMS with page builder to build websites, blogs or ecommerce...",
       "source": "CVE Feed",
       "published": "2026-05-15T19:17:02+00:00"
     },
     {
       "title": "CVE-2026-45010 - phpMyFAQ - Unauthenticated Two-Factor Authentication Brute-Force via /admin/check Endpoint",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-45010",
-      "summary": "CVE ID :CVE-2026-45010 Published : May 15, 2026, 7:17 p.m. | 26 minutes ago Description :phpMyFAQ before 4.1.2 contains an improper restriction of excessive authentication attempts vulnerability in...",
+      "summary": "CVE ID :CVE-2026-45010 Published : May 15, 2026, 7:17 p.m. | 1 hour, 48 minutes ago Description :phpMyFAQ before 4.1.2 contains an improper restriction of excessive authentication attempts...",
       "source": "CVE Feed",
       "published": "2026-05-15T19:17:01+00:00"
     },
     {
       "title": "CVE-2021-47966 - PHP Timeclock 1.04 SQL Injection via login.php",
       "link": "https://cvefeed.io/vuln/detail/CVE-2021-47966",
-      "summary": "CVE ID :CVE-2021-47966 Published : May 15, 2026, 7:16 p.m. | 26 minutes ago Description :PHP Timeclock 1.04 contains time-based and boolean-based blind SQL injection vulnerabilities in the...",
+      "summary": "CVE ID :CVE-2021-47966 Published : May 15, 2026, 7:16 p.m. | 1 hour, 48 minutes ago Description :PHP Timeclock 1.04 contains time-based and boolean-based blind SQL injection vulnerabilities in the...",
       "source": "CVE Feed",
       "published": "2026-05-15T19:16:56+00:00"
     },
     {
       "title": "CVE-2021-47965 - WordPress Plugin WP Super Edit 2.5.4 Unrestricted File Upload",
       "link": "https://cvefeed.io/vuln/detail/CVE-2021-47965",
-      "summary": "CVE ID :CVE-2021-47965 Published : May 15, 2026, 7:16 p.m. | 26 minutes ago Description :WordPress Plugin WP Super Edit 2.5.4 and earlier contains an unrestricted file upload vulnerability in the...",
+      "summary": "CVE ID :CVE-2021-47965 Published : May 15, 2026, 7:16 p.m. | 1 hour, 48 minutes ago Description :WordPress Plugin WP Super Edit 2.5.4 and earlier contains an unrestricted file upload vulnerability in...",
       "source": "CVE Feed",
       "published": "2026-05-15T19:16:56+00:00"
     },
     {
       "title": "CVE-2021-47964 - Schlix CMS 2.2.6-6 Remote Code Execution via core.blockmanager",
       "link": "https://cvefeed.io/vuln/detail/CVE-2021-47964",
-      "summary": "CVE ID :CVE-2021-47964 Published : May 15, 2026, 7:16 p.m. | 26 minutes ago Description :Schlix CMS 2.2.6-6 contains a remote code execution vulnerability that allows authenticated attackers to...",
+      "summary": "CVE ID :CVE-2021-47964 Published : May 15, 2026, 7:16 p.m. | 1 hour, 48 minutes ago Description :Schlix CMS 2.2.6-6 contains a remote code execution vulnerability that allows authenticated attackers...",
       "source": "CVE Feed",
       "published": "2026-05-15T19:16:56+00:00"
     },
     {
       "title": "CVE-2021-47959 - WordPress Plugin WPGraphQL 1.3.5 Denial of Service",
       "link": "https://cvefeed.io/vuln/detail/CVE-2021-47959",
-      "summary": "CVE ID :CVE-2021-47959 Published : May 15, 2026, 7:16 p.m. | 26 minutes ago Description :WordPress Plugin WPGraphQL 1.3.5 contains a denial of service vulnerability that allows unauthenticated...",
+      "summary": "CVE ID :CVE-2021-47959 Published : May 15, 2026, 7:16 p.m. | 1 hour, 49 minutes ago Description :WordPress Plugin WPGraphQL 1.3.5 contains a denial of service vulnerability that allows...",
       "source": "CVE Feed",
       "published": "2026-05-15T19:16:55+00:00"
     },
@@ -86,51 +149,58 @@
       "published": "2026-05-15T17:47:25+00:00"
     },
     {
+      "title": "CVE-2026-42897 — Microsoft Exchange Server OWA XSS Vulnerability",
+      "link": "https://thecyberthrone.in/2026/05/15/cve-2026-42897-microsoft-exchange-server-owa-xss-vulnerability/",
+      "summary": "CVE-2026-42897 — Microsoft Exchange Server OWA XSS Vulnerability OverviewMicrosoft has confirmed active exploitation of CVE-2026-42897, a Cross-Site Scripting vulnerability in Microsoft Exchange...",
+      "source": "CVE Newsroom",
+      "published": "2026-05-15T17:31:37+00:00"
+    },
+    {
       "title": "CVE-2026-8695 - radare2 6.1.5 Use-After-Free via gdbr_threads_list()",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-8695",
-      "summary": "CVE ID :CVE-2026-8695 Published : May 15, 2026, 5:16 p.m. | 2 hours, 26 minutes ago Description :radare2 6.1.5 contains a use-after-free vulnerability in the gdbr_threads_list() function that allows...",
+      "summary": "CVE ID :CVE-2026-8695 Published : May 15, 2026, 5:16 p.m. | 3 hours, 49 minutes ago Description :radare2 6.1.5 contains a use-after-free vulnerability in the gdbr_threads_list() function that allows...",
       "source": "CVE Feed",
       "published": "2026-05-15T17:16:49+00:00"
     },
     {
       "title": "CVE-2026-45038 - Tabby: Dragging and Dropping a File into Tabby Can Lead to Code Execution",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-45038",
-      "summary": "CVE ID :CVE-2026-45038 Published : May 15, 2026, 5:16 p.m. | 2 hours, 26 minutes ago Description :Tabby (formerly Terminus) is a highly configurable terminal emulator. Prior to 1.0.233, since Tabby...",
+      "summary": "CVE ID :CVE-2026-45038 Published : May 15, 2026, 5:16 p.m. | 3 hours, 49 minutes ago Description :Tabby (formerly Terminus) is a highly configurable terminal emulator. Prior to 1.0.233, since Tabby...",
       "source": "CVE Feed",
       "published": "2026-05-15T17:16:48+00:00"
     },
     {
       "title": "CVE-2026-45035 - Tabby: RCE via `tabby://run` URL Scheme",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-45035",
-      "summary": "CVE ID :CVE-2026-45035 Published : May 15, 2026, 5:16 p.m. | 2 hours, 26 minutes ago Description :Tabby (formerly Terminus) is a highly configurable terminal emulator. Prior to 1.0.233, Tabby...",
+      "summary": "CVE ID :CVE-2026-45035 Published : May 15, 2026, 5:16 p.m. | 3 hours, 49 minutes ago Description :Tabby (formerly Terminus) is a highly configurable terminal emulator. Prior to 1.0.233, Tabby...",
       "source": "CVE Feed",
       "published": "2026-05-15T17:16:48+00:00"
     },
     {
       "title": "CVE-2026-44717 - MCP Calculate Server: Prompt Injection to RCE",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-44717",
-      "summary": "CVE ID :CVE-2026-44717 Published : May 15, 2026, 5:16 p.m. | 2 hours, 26 minutes ago Description :MCP Calculate Server is a mathematical calculation service based on MCP protocol and SymPy library...",
+      "summary": "CVE ID :CVE-2026-44717 Published : May 15, 2026, 5:16 p.m. | 3 hours, 49 minutes ago Description :MCP Calculate Server is a mathematical calculation service based on MCP protocol and SymPy library...",
       "source": "CVE Feed",
       "published": "2026-05-15T17:16:48+00:00"
     },
     {
       "title": "CVE-2026-44699 - LibJWT: Algorithm confusion allows JWT forgery with RSA JWK as empty-key HMAC",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-44699",
-      "summary": "CVE ID :CVE-2026-44699 Published : May 15, 2026, 5:16 p.m. | 2 hours, 26 minutes ago Description :LibJWT is a C JSON Web Token Library. From 3.0.0 to 3.3.2, libjwt accepts an RSA JWK that does not...",
+      "summary": "CVE ID :CVE-2026-44699 Published : May 15, 2026, 5:16 p.m. | 3 hours, 49 minutes ago Description :LibJWT is a C JSON Web Token Library. From 3.0.0 to 3.3.2, libjwt accepts an RSA JWK that does not...",
       "source": "CVE Feed",
       "published": "2026-05-15T17:16:47+00:00"
     },
     {
       "title": "CVE-2026-42155 - Magento LTS: Weak API Session ID — Predictable MD5 of Time-Derived Inputs",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-42155",
-      "summary": "CVE ID :CVE-2026-42155 Published : May 15, 2026, 5:16 p.m. | 2 hours, 26 minutes ago Description :Magento Long Term Support (LTS) is an unofficial, community-driven project provides an alternative to...",
+      "summary": "CVE ID :CVE-2026-42155 Published : May 15, 2026, 5:16 p.m. | 3 hours, 49 minutes ago Description :Magento Long Term Support (LTS) is an unofficial, community-driven project provides an alternative to...",
       "source": "CVE Feed",
       "published": "2026-05-15T17:16:46+00:00"
     },
     {
       "title": "CVE-2026-41258 - OpenMRS: Stored Velocity SSTI to RCE via ConceptReferenceRange",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-41258",
-      "summary": "CVE ID :CVE-2026-41258 Published : May 15, 2026, 5:16 p.m. | 2 hours, 26 minutes ago Description :OpenMRS is an open source electronic medical record system platform. From 2.7.0 to before 2.7.9 and...",
+      "summary": "CVE ID :CVE-2026-41258 Published : May 15, 2026, 5:16 p.m. | 3 hours, 49 minutes ago Description :OpenMRS is an open source electronic medical record system platform. From 2.7.0 to before 2.7.9 and...",
       "source": "CVE Feed",
       "published": "2026-05-15T17:16:46+00:00"
     },
@@ -151,23 +221,9 @@
     {
       "title": "CVE-2026-46508 - Turborepo: VSCode Extension command injection",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-46508",
-      "summary": "CVE ID :CVE-2026-46508 Published : May 15, 2026, 4:16 p.m. | 3 hours, 26 minutes ago Description :Turborepo is a high-performance build system for JavaScript and TypeScript codebases. Prior to...",
+      "summary": "CVE ID :CVE-2026-46508 Published : May 15, 2026, 4:16 p.m. | 4 hours, 49 minutes ago Description :Turborepo is a high-performance build system for JavaScript and TypeScript codebases. Prior to...",
       "source": "CVE Feed",
       "published": "2026-05-15T16:16:15+00:00"
-    },
-    {
-      "title": "CVE-2026-35194 - Apache Flink: Remote code execution via SQL injection in code generation",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-35194",
-      "summary": "CVE ID :CVE-2026-35194 Published : May 15, 2026, 4:16 p.m. | 3 hours, 26 minutes ago Description :Code injection in SQL code generation in Apache Flink 1.15.0 through 1.20.x and 2.0.0 through 2.x...",
-      "source": "CVE Feed",
-      "published": "2026-05-15T16:16:14+00:00"
-    },
-    {
-      "title": "CVE-2026-2031 - Google Cloud Application Integration: Exposed internal APIs allow Information Disclosure and Remote Code Execution.",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-2031",
-      "summary": "CVE ID :CVE-2026-2031 Published : May 15, 2026, 4:16 p.m. | 3 hours, 26 minutes ago Description :An Improper Access Control vulnerability in several internal API endpoints for Google Cloud...",
-      "source": "CVE Feed",
-      "published": "2026-05-15T16:16:14+00:00"
     },
     {
       "title": "Avada Builder WordPress plugin flaws allow site credential theft",
@@ -182,13 +238,6 @@
       "summary": "OpenClaw Chain Vulnerabilities Expose 245,000 Public AI Agent Servers to Attack A chain of four critical vulnerabilities discovered in OpenClaw, one of the fastest-growing open-source platforms for...",
       "source": "CVE Newsroom",
       "published": "2026-05-15T15:41:39+00:00"
-    },
-    {
-      "title": "CVE-2026-34253 - Vorbis-tools Ogg123 Buffer Underflow Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-34253",
-      "summary": "CVE ID :CVE-2026-34253 Published : May 15, 2026, 3:16 p.m. | 4 hours, 26 minutes ago Description :A buffer underflow vulnerability has been identified in the ogg123 utility from the vorbis-tools...",
-      "source": "CVE Feed",
-      "published": "2026-05-15T15:16:51+00:00"
     },
     {
       "title": "In Other News: Big Tech vs Canada Encryption Bill, Cisco’s Free AI Security Spec, Audi App Flaws",
@@ -226,32 +275,18 @@
       "published": "2026-05-15T13:35:04+00:00"
     },
     {
-      "title": "CVE-2026-7182 - Path Traversal in Diagram",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-7182",
-      "summary": "CVE ID :CVE-2026-7182 Published : May 15, 2026, 1:16 p.m. | 6 hours, 26 minutes ago Description :Diagram's export module is vulnerable to Path Traversal in src attribute due to lack of HTML...",
-      "source": "CVE Feed",
-      "published": "2026-05-15T13:16:19+00:00"
-    },
-    {
-      "title": "CVE-2026-41553 - Remote Code Execution in PDF Export Module",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-41553",
-      "summary": "CVE ID :CVE-2026-41553 Published : May 15, 2026, 1:16 p.m. | 6 hours, 26 minutes ago Description :PDF Export Module used in DHTMLX's products Gantt and Scheduler is vulnerable to Remote Code...",
-      "source": "CVE Feed",
-      "published": "2026-05-15T13:16:19+00:00"
-    },
-    {
-      "title": "CVE-2026-41552 - Path Traversal in PDF Export Module",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-41552",
-      "summary": "CVE ID :CVE-2026-41552 Published : May 15, 2026, 1:16 p.m. | 6 hours, 26 minutes ago Description :PDF Export Module used in DHTMLX's products Gantt and Scheduler is vulnerable to Path Traversal due...",
-      "source": "CVE Feed",
-      "published": "2026-05-15T13:16:18+00:00"
-    },
-    {
       "title": "CISA orders all federal agencies to patch exploited bug in Cisco SD-WAN systems by Sunday",
       "link": "https://therecord.media/cisa-orders-all-federal-agencies-to-patch-cisco-sd-wan-bug",
       "summary": "Cisco released a patch for the vulnerability on Thursday, writing in an advisory that it could “allow an unauthenticated, remote attacker to bypass authentication and obtain administrative privileges...",
       "source": "The Record",
       "published": "2026-05-15T13:16:00+00:00"
+    },
+    {
+      "title": "Living Off the Pipeline: Defending Against CI/CD Subversion",
+      "link": "https://www.sentinelone.com/blog/living-off-the-pipeline-defending-against-ci-cd-subversion/",
+      "summary": "Living Off the Pipeline: Defending Against CI/CD Subversion The software supply chain has become one of the most attractive targets for modern adversaries, but the attacks seen in 2025 did not focus...",
+      "source": "CVE Newsroom",
+      "published": "2026-05-15T13:00:53+00:00"
     },
     {
       "title": "Kritiek Exim-lek maakt remote code execution op mailserver mogelijk",
@@ -275,17 +310,17 @@
       "published": "2026-05-15T12:06:53+00:00"
     },
     {
-      "title": "Cyber Pioneers Ponder Past as Prologue",
-      "link": "https://www.darkreading.com/cyberattacks-data-breaches/cybersecurity-pioneers-ponder-past-prologue",
-      "summary": "Robert \"RSnake\" Hansen, Katie Moussouris, Rich Mogull, Richard Stiennon, and Bruce Schneier reflect on how their favorite columns penned for Dark Reading over the past 20 years have stood the test of...",
-      "source": "Dark Reading",
-      "published": "2026-05-15T12:00:00+00:00"
-    },
-    {
       "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
       "link": "https://www.cisa.gov/news-events/alerts/2026/05/15/cisa-adds-one-known-exploited-vulnerability-catalog",
       "summary": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation. CVE-2026-42897 Microsoft Exchange Server Cross-Site Scripting...",
       "source": "CISA Alerts",
+      "published": "2026-05-15T12:00:00+00:00"
+    },
+    {
+      "title": "Cyber Pioneers Ponder Past as Prologue",
+      "link": "https://www.darkreading.com/cyberattacks-data-breaches/cybersecurity-pioneers-ponder-past-prologue",
+      "summary": "Robert \"RSnake\" Hansen, Katie Moussouris, Rich Mogull, Richard Stiennon, and Bruce Schneier reflect on how their favorite columns penned for Dark Reading over the past 20 years have stood the test of...",
+      "source": "Dark Reading",
       "published": "2026-05-15T12:00:00+00:00"
     },
     {
@@ -359,13 +394,6 @@
       "published": "2026-05-15T10:17:51+00:00"
     },
     {
-      "title": "CVE-2026-41964 - Apache Web Server Authentication Bypass",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-41964",
-      "summary": "CVE ID :CVE-2026-41964 Published : May 15, 2026, 10:16 a.m. | 9 hours, 26 minutes ago Description :Permission control vulnerability in the web. Impact: Successful exploitation of this vulnerability...",
-      "source": "CVE Feed",
-      "published": "2026-05-15T10:16:35+00:00"
-    },
-    {
       "title": "TeamPCP Ups the Game, Releases Shai-Hulud Worm’s Source Code",
       "link": "https://www.securityweek.com/teampcp-ups-the-game-releases-shai-hulud-worms-source-code/",
       "summary": "The hacking group is encouraging miscreants to use the code in supply chain attacks, promising monetary rewards. The post TeamPCP Ups the Game, Releases Shai-Hulud Worm’s Source Code appeared first...",
@@ -385,13 +413,6 @@
       "summary": "On Thursday, Microsoft shared mitigations for a high-severity Exchange Server vulnerability exploited in attacks that allow threat actors to execute arbitrary code via cross-site scripting (XSS)...",
       "source": "BleepingComputer",
       "published": "2026-05-15T09:40:42+00:00"
-    },
-    {
-      "title": "CVE-2026-8398 - AVB Disc Soft DAEMON Tools Lite Supply Chain Trojanization",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-8398",
-      "summary": "CVE ID :CVE-2026-8398 Published : May 15, 2026, 9:16 a.m. | 10 hours, 26 minutes ago Description :A supply chain attack compromised the official installation packages of DAEMON Tools Lite (Windows...",
-      "source": "CVE Feed",
-      "published": "2026-05-15T09:16:17+00:00"
     },
     {
       "title": "Microsoft Exchange-servers aangevallen via kritiek cross-site scripting-lek",
@@ -483,27 +504,6 @@
       "summary": "cPanel & WHM Patch 5 High-Severity Flaws, Including 8.6 Severity File Read and SQLi Recently, cPanel & WHM and WP Squared have issued patches for five critical vulnerabilities. These flaws range from...",
       "source": "CVE Newsroom",
       "published": "2026-05-15T02:22:43+00:00"
-    },
-    {
-      "title": "No Password Required: 9.8 Severity ELECOM Router Flaws Allow Total Network Takeover",
-      "link": "https://securityonline.info/elecom-router-vulnerability-cve-2026-42062-auth-bypass/",
-      "summary": "No Password Required: 9.8 Severity ELECOM Router Flaws Allow Total Network Takeover In a major security disclosure, JPCERT/CC has issued an urgent advisory regarding multiple high-severity...",
-      "source": "CVE Newsroom",
-      "published": "2026-05-15T02:02:26+00:00"
-    },
-    {
-      "title": "Cisco SD-WAN Manager XXE Flaw Grants Unauthenticated Access to Private Files",
-      "link": "https://securityonline.info/cisco-catalyst-sd-wan-manager-vulnerability-cve-2026-20224-xxe/",
-      "summary": "Cisco SD-WAN Manager XXE Flaw Grants Unauthenticated Access to Private Files Cisco has detailed the curtain on a fresh set of vulnerabilities haunting its Catalyst SD-WAN Manager (formerly vManage)...",
-      "source": "CVE Newsroom",
-      "published": "2026-05-15T01:46:10+00:00"
-    },
-    {
-      "title": "Critical 9.2 CVSS RCE Found in Amazon Redshift JDBC Driver",
-      "link": "https://securityonline.info/amazon-redshift-jdbc-driver-rce-vulnerability-cve-2026-8178/",
-      "summary": "Critical 9.2 CVSS RCE Found in Amazon Redshift JDBC Driver Security teams are being urged to move quickly following the disclosure of a critical Remote Code Execution (RCE) vulnerability found within...",
-      "source": "CVE Newsroom",
-      "published": "2026-05-15T01:36:20+00:00"
     },
     {
       "title": "Taiwan Bullet Train Hack Highlights Cybersecurity Gaps in Rail Systems",
@@ -660,13 +660,6 @@
       "published": "2026-05-14T13:00:00+00:00"
     },
     {
-      "title": "Foxconn Attack Highlights Manufacturing's Cyber Crisis",
-      "link": "https://www.darkreading.com/cyberattacks-data-breaches/foxconn-attack-manufacturing-cyber-crisis",
-      "summary": "A Nitrogen ransomware attack on Foxconn's North American facilities is one of 600 hits on manufacturers this year, as gangs increasingly target the sector for its low tolerance for downtime.",
-      "source": "Dark Reading",
-      "published": "2026-05-14T12:00:00+00:00"
-    },
-    {
       "title": "Siemens Siemens ROS#",
       "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-134-08",
       "summary": "View CSAF Summary ROS# contains a ROS service file_server, that before version 2.2.2 contains a path traversal vulnerability which could allow an attacker to access, i.e. read and write, arbitrary...",
@@ -790,6 +783,13 @@
       "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-134-13",
       "summary": "View CSAF Summary The SIPROTEC 5 devices do not use sufficiently random numbers to generate session identifiers. This could facilitate a brute-force attack against a valid session identifier which...",
       "source": "CISA Alerts",
+      "published": "2026-05-14T12:00:00+00:00"
+    },
+    {
+      "title": "Foxconn Attack Highlights Manufacturing's Cyber Crisis",
+      "link": "https://www.darkreading.com/cyberattacks-data-breaches/foxconn-attack-manufacturing-cyber-crisis",
+      "summary": "A Nitrogen ransomware attack on Foxconn's North American facilities is one of 600 hits on manufacturers this year, as gangs increasingly target the sector for its low tolerance for downtime.",
+      "source": "Dark Reading",
       "published": "2026-05-14T12:00:00+00:00"
     },
     {
@@ -968,13 +968,6 @@
       "published": "2026-05-12T12:50:00+00:00"
     },
     {
-      "title": "20 Leaders Who Built the CISO Era: 2 Decades of Change",
-      "link": "https://www.darkreading.com/cybersecurity-operations/20-leaders-ciso-era-2-decades-change",
-      "summary": "As part of Dark Reading's 20th anniversary special coverage, we profile the CISOs, founders, researchers, criminals, and policymakers who rewrote the enterprise risk playbook.",
-      "source": "Dark Reading",
-      "published": "2026-05-12T12:00:00+00:00"
-    },
-    {
       "title": "Fuji Electric Tellus",
       "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-132-01",
       "summary": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to elevate privileges from user to system, which may then enable the attacker to cause a temporary denial of...",
@@ -1021,6 +1014,13 @@
       "link": "https://www.cisa.gov/resources-tools/resources/software-bill-materials-ai-minimum-elements",
       "summary": "CISA and the Group of Seven (G7) international partners—Germany, Canada, France, Italy, Japan, the United Kingdom, and the European Union—have released joint guidance, Software Bill of Materials for...",
       "source": "CISA Alerts",
+      "published": "2026-05-12T12:00:00+00:00"
+    },
+    {
+      "title": "20 Leaders Who Built the CISO Era: 2 Decades of Change",
+      "link": "https://www.darkreading.com/cybersecurity-operations/20-leaders-ciso-era-2-decades-change",
+      "summary": "As part of Dark Reading's 20th anniversary special coverage, we profile the CISOs, founders, researchers, criminals, and policymakers who rewrote the enterprise risk playbook.",
+      "source": "Dark Reading",
       "published": "2026-05-12T12:00:00+00:00"
     },
     {
@@ -1318,17 +1318,17 @@
       "published": "2026-05-06T21:02:57+00:00"
     },
     {
-      "title": "From Stuxnet to ChatGPT: 20 News Events That Shaped Cyber",
-      "link": "https://www.darkreading.com/threat-intelligence/stuxnet-chatgpt-20-news-events-cyber",
-      "summary": "As part of its 20th anniversary celebration, Dark Reading looks back on 20 of the biggest newsmaking events from the past two decades that influenced the risk landscape for today's cybersecurity...",
-      "source": "Dark Reading",
-      "published": "2026-05-06T12:00:00+00:00"
-    },
-    {
       "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
       "link": "https://www.cisa.gov/news-events/alerts/2026/05/06/cisa-adds-one-known-exploited-vulnerability-catalog",
       "summary": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation. CVE-2026-0300 Palo Alto Networks PAN-OS Out-of-bounds Write...",
       "source": "CISA Alerts",
+      "published": "2026-05-06T12:00:00+00:00"
+    },
+    {
+      "title": "From Stuxnet to ChatGPT: 20 News Events That Shaped Cyber",
+      "link": "https://www.darkreading.com/threat-intelligence/stuxnet-chatgpt-20-news-events-cyber",
+      "summary": "As part of its 20th anniversary celebration, Dark Reading looks back on 20 of the biggest newsmaking events from the past two decades that influenced the risk landscape for today's cybersecurity...",
+      "source": "Dark Reading",
       "published": "2026-05-06T12:00:00+00:00"
     },
     {
