@@ -1,6 +1,34 @@
 {
-  "last_updated": "2026-05-15T14:48:00.819255+00:00",
+  "last_updated": "2026-05-15T16:33:43.921925+00:00",
   "articles": [
+    {
+      "title": "Avada Builder WordPress plugin flaws allow site credential theft",
+      "link": "https://www.bleepingcomputer.com/news/security/avada-builder-wordpress-plugin-flaws-allow-site-credential-theft/",
+      "summary": "Two vulnerabilities in the Avada Builder plugin for WordPress, with an estimated one million active installations, allow hackers to read arbitrary files and extract sensitive information from the...",
+      "source": "BleepingComputer",
+      "published": "2026-05-15T15:56:56+00:00"
+    },
+    {
+      "title": "In Other News: Big Tech vs Canada Encryption Bill, Cisco’s Free AI Security Spec, Audi App Flaws",
+      "link": "https://www.securityweek.com/in-other-news-big-tech-vs-canada-encryption-bill-ciscos-free-ai-security-spec-audi-app-flaws/",
+      "summary": "Other noteworthy stories that might have slipped under the radar: Nvidia cloud gaming data breach, Android 17 security upgrades, FBI warning after ShinyHunters hacks Canvas. The post In Other News...",
+      "source": "SecurityWeek",
+      "published": "2026-05-15T14:52:16+00:00"
+    },
+    {
+      "title": "Microsoft backpedals: Edge to stop loading passwords into memory",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-edge-to-stop-loading-cleartext-passwords-in-memory-on-startup/",
+      "summary": "Microsoft is updating the Edge web browser to ensure it no longer loads saved passwords into process memory in clear text at startup after previously stating it was \"by design.\" [...]",
+      "source": "BleepingComputer",
+      "published": "2026-05-15T14:49:39+00:00"
+    },
+    {
+      "title": "CVE-2026-20182 – Cisco Catalyst SD-WAN Auth Bypass to KEV",
+      "link": "https://thecyberthrone.in/2026/05/15/cve-2026-20182-cisco-catalyst-sd-wan-auth-bypass-to-kev/",
+      "summary": "CVE-2026-20182 – Cisco Catalyst SD-WAN Auth Bypass to KEV OverviewCVE-2026-20182 carries a CVSSv3.1 score of 10.0 (Critical) and is classified under CWE-287: Improper Authentication. The flaw affects...",
+      "source": "CVE Newsroom",
+      "published": "2026-05-15T14:16:33+00:00"
+    },
     {
       "title": "Inside the REMUS Infostealer: Session Theft, MaaS, and Rapid Evolution",
       "link": "https://www.bleepingcomputer.com/news/security/inside-the-remus-infostealer-session-theft-maas-and-rapid-evolution/",
@@ -9,25 +37,46 @@
       "published": "2026-05-15T14:02:12+00:00"
     },
     {
+      "title": "Four OpenClaw Flaws Enable Data Theft, Privilege Escalation, and Persistence",
+      "link": "https://thehackernews.com/2026/05/four-openclaw-flaws-enable-data-theft.html",
+      "summary": "Cybersecurity researchers have disclosed a set of four security flaws in OpenClaw that could be chained to achieve data theft, privilege escalation, and persistence. The vulnerabilities, collectively...",
+      "source": "The Hacker News",
+      "published": "2026-05-15T13:35:04+00:00"
+    },
+    {
       "title": "CVE-2026-7182 - Path Traversal in Diagram",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-7182",
-      "summary": "CVE ID :CVE-2026-7182 Published : May 15, 2026, 1:16 p.m. | 26 minutes ago Description :Diagram's export module is vulnerable to Path Traversal in src attribute due to lack of HTML sanitization. An...",
+      "summary": "CVE ID :CVE-2026-7182 Published : May 15, 2026, 1:16 p.m. | 2 hours, 31 minutes ago Description :Diagram's export module is vulnerable to Path Traversal in src attribute due to lack of HTML...",
       "source": "CVE Feed",
       "published": "2026-05-15T13:16:19+00:00"
     },
     {
       "title": "CVE-2026-41553 - Remote Code Execution in PDF Export Module",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-41553",
-      "summary": "CVE ID :CVE-2026-41553 Published : May 15, 2026, 1:16 p.m. | 26 minutes ago Description :PDF Export Module used in DHTMLX's products Gantt and Scheduler is vulnerable to Remote Code Execution due to...",
+      "summary": "CVE ID :CVE-2026-41553 Published : May 15, 2026, 1:16 p.m. | 2 hours, 31 minutes ago Description :PDF Export Module used in DHTMLX's products Gantt and Scheduler is vulnerable to Remote Code...",
       "source": "CVE Feed",
       "published": "2026-05-15T13:16:19+00:00"
     },
     {
       "title": "CVE-2026-41552 - Path Traversal in PDF Export Module",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-41552",
-      "summary": "CVE ID :CVE-2026-41552 Published : May 15, 2026, 1:16 p.m. | 26 minutes ago Description :PDF Export Module used in DHTMLX's products Gantt and Scheduler is vulnerable to Path Traversal due to lack of...",
+      "summary": "CVE ID :CVE-2026-41552 Published : May 15, 2026, 1:16 p.m. | 2 hours, 31 minutes ago Description :PDF Export Module used in DHTMLX's products Gantt and Scheduler is vulnerable to Path Traversal due...",
       "source": "CVE Feed",
       "published": "2026-05-15T13:16:18+00:00"
+    },
+    {
+      "title": "CISA orders all federal agencies to patch exploited bug in Cisco SD-WAN systems by Sunday",
+      "link": "https://therecord.media/cisa-orders-all-federal-agencies-to-patch-cisco-sd-wan-bug",
+      "summary": "Cisco released a patch for the vulnerability on Thursday, writing in an advisory that it could “allow an unauthenticated, remote attacker to bypass authentication and obtain administrative privileges...",
+      "source": "The Record",
+      "published": "2026-05-15T13:16:00+00:00"
+    },
+    {
+      "title": "Kritiek Exim-lek maakt remote code execution op mailserver mogelijk",
+      "link": "https://www.security.nl/posting/936748/Kritiek+Exim-lek+maakt+remote+code+execution+op+mailserver+mogelijk?channel=rss",
+      "summary": "Kritiek Exim-lek maakt remote code execution op mailserver mogelijk Een kritieke kwetsbaarheid in Exim maakt op mailservers remote code execution door een ongeauthenticeerde aanvaller mogelijk. Er is...",
+      "source": "CVE Newsroom",
+      "published": "2026-05-15T12:38:31+00:00"
     },
     {
       "title": "Microsoft to automatically roll back faulty Windows drivers",
@@ -49,6 +98,13 @@
       "summary": "Robert \"RSnake\" Hansen, Katie Moussouris, Rich Mogull, Richard Stiennon, and Bruce Schneier reflect on how their favorite columns penned for Dark Reading over the past 20 years have stood the test of...",
       "source": "Dark Reading",
       "published": "2026-05-15T12:00:00+00:00"
+    },
+    {
+      "title": "Vulnerabilities in DHTMLX software",
+      "link": "https://cert.pl/en/posts/2026/05/CVE-2026-7182/",
+      "summary": "Vulnerabilities in DHTMLX software Vulnerabilities in DHTMLX software CVE ID CVE-2026-7182 Publication date 15 May 2026 Vendor DHTMLX Product Diagram Vulnerable versions From 1.0.0 to 1.1.1...",
+      "source": "CVE Newsroom",
+      "published": "2026-05-15T11:55:00+00:00"
     },
     {
       "title": "PraisonAI Vulnerability Exploited Within Hours of Public Disclosure",
@@ -116,7 +172,7 @@
     {
       "title": "CVE-2026-41964 - Apache Web Server Authentication Bypass",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-41964",
-      "summary": "CVE ID :CVE-2026-41964 Published : May 15, 2026, 10:16 a.m. | 3 hours, 26 minutes ago Description :Permission control vulnerability in the web. Impact: Successful exploitation of this vulnerability...",
+      "summary": "CVE ID :CVE-2026-41964 Published : May 15, 2026, 10:16 a.m. | 5 hours, 31 minutes ago Description :Permission control vulnerability in the web. Impact: Successful exploitation of this vulnerability...",
       "source": "CVE Feed",
       "published": "2026-05-15T10:16:35+00:00"
     },
@@ -144,28 +200,28 @@
     {
       "title": "CVE-2026-8398 - AVB Disc Soft DAEMON Tools Lite Supply Chain Trojanization",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-8398",
-      "summary": "CVE ID :CVE-2026-8398 Published : May 15, 2026, 9:16 a.m. | 4 hours, 26 minutes ago Description :A supply chain attack compromised the official installation packages of DAEMON Tools Lite (Windows...",
+      "summary": "CVE ID :CVE-2026-8398 Published : May 15, 2026, 9:16 a.m. | 6 hours, 31 minutes ago Description :A supply chain attack compromised the official installation packages of DAEMON Tools Lite (Windows...",
       "source": "CVE Feed",
       "published": "2026-05-15T09:16:17+00:00"
     },
     {
       "title": "CVE-2026-6228 - Frontend Admin by DynamiApps <= 3.28.36 - Unauthenticated Privilege Escalation via Edit User Form",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-6228",
-      "summary": "CVE ID :CVE-2026-6228 Published : May 15, 2026, 9:16 a.m. | 4 hours, 26 minutes ago Description :The Frontend Admin by DynamiApps plugin for WordPress is vulnerable to Privilege Escalation in...",
+      "summary": "CVE ID :CVE-2026-6228 Published : May 15, 2026, 9:16 a.m. | 6 hours, 31 minutes ago Description :The Frontend Admin by DynamiApps plugin for WordPress is vulnerable to Privilege Escalation in...",
       "source": "CVE Feed",
       "published": "2026-05-15T09:16:16+00:00"
     },
     {
       "title": "CVE-2026-5229 - Receive Notifications After Form Submitting – Form Notify for Any Forms <= 1.1.10 - Unauthenticated Authentication Bypass via LINE OAuth Callback",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-5229",
-      "summary": "CVE ID :CVE-2026-5229 Published : May 15, 2026, 9:16 a.m. | 4 hours, 26 minutes ago Description :The Form Notify plugin for WordPress is vulnerable to Authentication Bypass in versions up to and...",
+      "summary": "CVE ID :CVE-2026-5229 Published : May 15, 2026, 9:16 a.m. | 6 hours, 31 minutes ago Description :The Form Notify plugin for WordPress is vulnerable to Authentication Bypass in versions up to and...",
       "source": "CVE Feed",
       "published": "2026-05-15T09:16:16+00:00"
     },
     {
       "title": "CVE-2026-44088 - Remote Code Execution in SzafirHost",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-44088",
-      "summary": "CVE ID :CVE-2026-44088 Published : May 15, 2026, 9:16 a.m. | 4 hours, 26 minutes ago Description :SzafirHost verifies the signature of the downloaded JAR file using class JarInputStream (reading from...",
+      "summary": "CVE ID :CVE-2026-44088 Published : May 15, 2026, 9:16 a.m. | 6 hours, 31 minutes ago Description :SzafirHost verifies the signature of the downloaded JAR file using class JarInputStream (reading from...",
       "source": "CVE Feed",
       "published": "2026-05-15T09:16:16+00:00"
     },
@@ -221,14 +277,14 @@
     {
       "title": "CVE-2026-8654 - Delphix Command Injection Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-8654",
-      "summary": "CVE ID :CVE-2026-8654 Published : May 15, 2026, 7:16 a.m. | 6 hours, 26 minutes ago Description :Improper input validation in Delphix Continuous Data connectors allows an authenticated user to...",
+      "summary": "CVE ID :CVE-2026-8654 Published : May 15, 2026, 7:16 a.m. | 8 hours, 31 minutes ago Description :Improper input validation in Delphix Continuous Data connectors allows an authenticated user to...",
       "source": "CVE Feed",
       "published": "2026-05-15T07:16:20+00:00"
     },
     {
       "title": "CVE-2026-4094 - FOX – Currency Switcher Professional for WooCommerce <= 1.4.5 - Missing Authorization to Authenticated (Contributor+) Configuration Deletion",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-4094",
-      "summary": "CVE ID :CVE-2026-4094 Published : May 15, 2026, 7:16 a.m. | 6 hours, 26 minutes ago Description :The FOX – Currency Switcher Professional for WooCommerce plugin for WordPress is vulnerable to...",
+      "summary": "CVE ID :CVE-2026-4094 Published : May 15, 2026, 7:16 a.m. | 8 hours, 31 minutes ago Description :The FOX – Currency Switcher Professional for WooCommerce plugin for WordPress is vulnerable to...",
       "source": "CVE Feed",
       "published": "2026-05-15T07:16:20+00:00"
     },
@@ -249,91 +305,91 @@
     {
       "title": "On-Prem Microsoft Exchange Server CVE-2026-42897 Exploited via Crafted Email",
       "link": "https://thehackernews.com/2026/05/on-prem-microsoft-exchange-server-cve.html",
-      "summary": "On-Prem Microsoft Exchange Server CVE-2026-42897 Exploited via Crafted Email Microsoft has disclosed a new security vulnerability impacting on-premise versions of Exchange Server that it said has...",
-      "source": "CVE Newsroom",
+      "summary": "Microsoft has disclosed a new security vulnerability impacting on-premise versions of Exchange Server that it said has come under active exploitation in the wild. The vulnerability, tracked as...",
+      "source": "The Hacker News",
       "published": "2026-05-15T06:19:04+00:00"
     },
     {
       "title": "CVE-2026-28761 - Musetheque V4 Cross-Site Request Forgery (CSRF)",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-28761",
-      "summary": "CVE ID :CVE-2026-28761 Published : May 15, 2026, 6:16 a.m. | 7 hours, 26 minutes ago Description :Cross-site request forgery vulnerability exists in Musetheque V4 Information Disclosure for...",
+      "summary": "CVE ID :CVE-2026-28761 Published : May 15, 2026, 6:16 a.m. | 9 hours, 31 minutes ago Description :Cross-site request forgery vulnerability exists in Musetheque V4 Information Disclosure for...",
       "source": "CVE Feed",
       "published": "2026-05-15T06:16:20+00:00"
     },
     {
       "title": "CISA Adds Cisco SD-WAN CVE-2026-20182 to KEV After Admin Access Exploits",
       "link": "https://thehackernews.com/2026/05/cisa-adds-cisco-sd-wan-cve-2026-20182.html",
-      "summary": "CISA Adds Cisco SD-WAN CVE-2026-20182 to KEV After Admin Access Exploits The U.S.Cybersecurity and Infrastructure Security Agency (CISA) on Thursday added a newly disclosed vulnerability impacting...",
-      "source": "CVE Newsroom",
+      "summary": "The U.S.Cybersecurity and Infrastructure Security Agency (CISA) on Thursday added a newly disclosed vulnerability impacting Cisco Catalyst SD-WAN Controller to its Known Exploited Vulnerabilities...",
+      "source": "The Hacker News",
       "published": "2026-05-15T05:28:03+00:00"
     },
     {
       "title": "CVE-2026-0481 - AMD Device Metrics Exporter Unauthenticated Remote Configuration Manipulation Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-0481",
-      "summary": "CVE ID :CVE-2026-0481 Published : May 15, 2026, 5:16 a.m. | 8 hours, 26 minutes ago Description :Unrestricted IP address binding in the AMD Device Metrics Exporter (ROCm ecosystem) could allow a...",
+      "summary": "CVE ID :CVE-2026-0481 Published : May 15, 2026, 5:16 a.m. | 10 hours, 31 minutes ago Description :Unrestricted IP address binding in the AMD Device Metrics Exporter (ROCm ecosystem) could allow a...",
       "source": "CVE Feed",
       "published": "2026-05-15T05:16:33+00:00"
     },
     {
       "title": "CVE-2024-36323 - Apache JPEG HW Register Space Isolation Bypass",
       "link": "https://cvefeed.io/vuln/detail/CVE-2024-36323",
-      "summary": "CVE ID :CVE-2024-36323 Published : May 15, 2026, 5:16 a.m. | 8 hours, 26 minutes ago Description :Improper isolation of VCN-JPEG HW register space could allow a malicious Guest Virtual Machine (VM)...",
+      "summary": "CVE ID :CVE-2024-36323 Published : May 15, 2026, 5:16 a.m. | 10 hours, 31 minutes ago Description :Improper isolation of VCN-JPEG HW register space could allow a malicious Guest Virtual Machine (VM)...",
       "source": "CVE Feed",
       "published": "2026-05-15T05:16:32+00:00"
     },
     {
       "title": "CVE-2026-7373 - Metasploit Pro on Windows: Local Privilege Escalation via OpenSSL Configuration File Loading",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-7373",
-      "summary": "CVE ID :CVE-2026-7373 Published : May 15, 2026, 3:16 a.m. | 10 hours, 26 minutes ago Description :Rapid7 Metasploit Pro is vulnerable to a local privilege escalation attack that allows users to gain...",
+      "summary": "CVE ID :CVE-2026-7373 Published : May 15, 2026, 3:16 a.m. | 12 hours, 31 minutes ago Description :Rapid7 Metasploit Pro is vulnerable to a local privilege escalation attack that allows users to gain...",
       "source": "CVE Feed",
       "published": "2026-05-15T03:16:23+00:00"
     },
     {
       "title": "CVE-2026-2652 - Authentication Bypass in mlflow/mlflow",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-2652",
-      "summary": "CVE ID :CVE-2026-2652 Published : May 15, 2026, 3:16 a.m. | 10 hours, 26 minutes ago Description :A vulnerability in mlflow/mlflow versions 3.9.0 and earlier allows unauthenticated access to certain...",
+      "summary": "CVE ID :CVE-2026-2652 Published : May 15, 2026, 3:16 a.m. | 12 hours, 31 minutes ago Description :A vulnerability in mlflow/mlflow versions 3.9.0 and earlier allows unauthenticated access to certain...",
       "source": "CVE Feed",
       "published": "2026-05-15T03:16:23+00:00"
     },
     {
       "title": "CVE-2025-54517 - AMD AMDGPU Unbound Write Privilege Escalation Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2025-54517",
-      "summary": "CVE ID :CVE-2025-54517 Published : May 15, 2026, 3:16 a.m. | 10 hours, 26 minutes ago Description :Out of bounds write in AMD AMDGV_CMD_GET_DIAG_DATA ioctl handler could allow a local user to...",
+      "summary": "CVE ID :CVE-2025-54517 Published : May 15, 2026, 3:16 a.m. | 12 hours, 31 minutes ago Description :Out of bounds write in AMD AMDGV_CMD_GET_DIAG_DATA ioctl handler could allow a local user to...",
       "source": "CVE Feed",
       "published": "2026-05-15T03:16:22+00:00"
     },
     {
       "title": "CVE-2025-29936 - AMD Platform Management Framework Memory Corruption Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2025-29936",
-      "summary": "CVE ID :CVE-2025-29936 Published : May 15, 2026, 3:16 a.m. | 10 hours, 26 minutes ago Description :Improper input validation within the AMD Platform Management Framework (PMF) could allow an attacker...",
+      "summary": "CVE ID :CVE-2025-29936 Published : May 15, 2026, 3:16 a.m. | 12 hours, 31 minutes ago Description :Improper input validation within the AMD Platform Management Framework (PMF) could allow an attacker...",
       "source": "CVE Feed",
       "published": "2026-05-15T03:16:21+00:00"
     },
     {
       "title": "CVE-2025-29935 - AMD Platform Management Framework (PMF) Out-of-Bounds Write Privilege Escalation Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2025-29935",
-      "summary": "CVE ID :CVE-2025-29935 Published : May 15, 2026, 3:16 a.m. | 10 hours, 26 minutes ago Description :An out of bounds write within the AMD Platform Management Framework (PMF) could allow an attacker to...",
+      "summary": "CVE ID :CVE-2025-29935 Published : May 15, 2026, 3:16 a.m. | 12 hours, 31 minutes ago Description :An out of bounds write within the AMD Platform Management Framework (PMF) could allow an attacker to...",
       "source": "CVE Feed",
       "published": "2026-05-15T03:16:21+00:00"
     },
     {
       "title": "CVE-2025-0028 - AMD Platform Management Framework (PMF) Information Disclosure/Arbitrary Write Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2025-0028",
-      "summary": "CVE ID :CVE-2025-0028 Published : May 15, 2026, 3:16 a.m. | 10 hours, 26 minutes ago Description :An unchecked return value within the AMD Platform Management Framework (PMF) could allow an attacker...",
+      "summary": "CVE ID :CVE-2025-0028 Published : May 15, 2026, 3:16 a.m. | 12 hours, 31 minutes ago Description :An unchecked return value within the AMD Platform Management Framework (PMF) could allow an attacker...",
       "source": "CVE Feed",
       "published": "2026-05-15T03:16:21+00:00"
     },
     {
       "title": "CVE-2024-21962 - AMD RAID Driver Memory Corruption Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2024-21962",
-      "summary": "CVE ID :CVE-2024-21962 Published : May 15, 2026, 3:16 a.m. | 10 hours, 26 minutes ago Description :Improper Input Validation in the AMD RAID driver could allow an attacker to point to an arbitrary...",
+      "summary": "CVE ID :CVE-2024-21962 Published : May 15, 2026, 3:16 a.m. | 12 hours, 31 minutes ago Description :Improper Input Validation in the AMD RAID driver could allow an attacker to point to an arbitrary...",
       "source": "CVE Feed",
       "published": "2026-05-15T03:16:20+00:00"
     },
     {
       "title": "CVE-2023-31317 - AMD ASP Buffer Overflow Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2023-31317",
-      "summary": "CVE ID :CVE-2023-31317 Published : May 15, 2026, 3:16 a.m. | 10 hours, 26 minutes ago Description :Improper restriction of operations within the bounds of a memory buffer in the AMD secure processer...",
+      "summary": "CVE ID :CVE-2023-31317 Published : May 15, 2026, 3:16 a.m. | 12 hours, 31 minutes ago Description :Improper restriction of operations within the bounds of a memory buffer in the AMD secure processer...",
       "source": "CVE Feed",
       "published": "2026-05-15T03:16:20+00:00"
     },
@@ -354,21 +410,21 @@
     {
       "title": "CVE-2026-0432 - AMD Chipset Driver Privilege Escalation Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-0432",
-      "summary": "CVE ID :CVE-2026-0432 Published : May 15, 2026, 2:16 a.m. | 11 hours, 26 minutes ago Description :Incorrect default permissions in the installation directory for the AMD chipset driver could allow an...",
+      "summary": "CVE ID :CVE-2026-0432 Published : May 15, 2026, 2:16 a.m. | 13 hours, 31 minutes ago Description :Incorrect default permissions in the installation directory for the AMD chipset driver could allow an...",
       "source": "CVE Feed",
       "published": "2026-05-15T02:16:23+00:00"
     },
     {
       "title": "CVE-2025-52540 - AMD Platform Management Framework (PMF) Driver Out-of-Bounds Write Privilege Escalation",
       "link": "https://cvefeed.io/vuln/detail/CVE-2025-52540",
-      "summary": "CVE ID :CVE-2025-52540 Published : May 15, 2026, 2:16 a.m. | 11 hours, 26 minutes ago Description :An improper input validation vulnerability within the AMD Platform Management Framework (PMF) Driver...",
+      "summary": "CVE ID :CVE-2025-52540 Published : May 15, 2026, 2:16 a.m. | 13 hours, 31 minutes ago Description :An improper input validation vulnerability within the AMD Platform Management Framework (PMF) Driver...",
       "source": "CVE Feed",
       "published": "2026-05-15T02:16:23+00:00"
     },
     {
       "title": "CVE-2025-48519 - AMD Platform Management Framework Driver Out-of-Bounds Write/Read Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2025-48519",
-      "summary": "CVE ID :CVE-2025-48519 Published : May 15, 2026, 2:16 a.m. | 11 hours, 26 minutes ago Description :An improper input validation vulnerability within the AMD Platform Management Framework (PMF) driver...",
+      "summary": "CVE ID :CVE-2025-48519 Published : May 15, 2026, 2:16 a.m. | 13 hours, 31 minutes ago Description :An improper input validation vulnerability within the AMD Platform Management Framework (PMF) driver...",
       "source": "CVE Feed",
       "published": "2026-05-15T02:16:22+00:00"
     },
@@ -408,32 +464,11 @@
       "published": "2026-05-15T01:01:40+00:00"
     },
     {
-      "title": "Taiwan Incident Highlights Cybersecurity Gaps in Rail Systems",
+      "title": "Taiwan Bullet Train Hack Highlights Cybersecurity Gaps in Rail Systems",
       "link": "https://www.darkreading.com/ics-ot-security/taiwan-incident-highlights-cybersecurity-gaps",
       "summary": "A Taiwanese student experimenting with software-defined radio technology shut down three bullet trains for nearly an hour, leading to an anti-terrorism response.",
       "source": "Dark Reading",
       "published": "2026-05-15T01:00:00+00:00"
-    },
-    {
-      "title": "Exploited in the Wild: Critical OWA Spoofing Flaw (CVE-2026-42897) Hits On-Premises Exchange Servers",
-      "link": "https://securityonline.info/outlook-web-access-vulnerability-cve-2026-42897-exploited/",
-      "summary": "Exploited in the Wild: Critical OWA Spoofing Flaw (CVE-2026-42897) Hits On-Premises Exchange Servers Microsoft has issued an urgent warning for organizations running on-premises email infrastructure...",
-      "source": "CVE Newsroom",
-      "published": "2026-05-15T00:57:13+00:00"
-    },
-    {
-      "title": "79 Security Holes Sealed: Google Issues Urgent Chrome Update to Fix 14 “Critical” Vulnerabilities",
-      "link": "https://securityonline.info/google-chrome-security-update-79-fixes-critical-vulnerabilities/",
-      "summary": "79 Security Holes Sealed: Google Issues Urgent Chrome Update to Fix 14 “Critical” Vulnerabilities Google has unleashed a major security update for the Chrome Stable channel, addressing a staggering...",
-      "source": "CVE Newsroom",
-      "published": "2026-05-15T00:23:16+00:00"
-    },
-    {
-      "title": "Exploited in the Wild: Maximum CVSS 10 SD-WAN Flaw (CVE-2026-20182) Grants Admin Control",
-      "link": "https://securityonline.info/cisco-catalyst-sd-wan-vulnerability-cve-2026-20182-exploited-cvss-10/",
-      "summary": "Exploited in the Wild: Maximum CVSS 10 SD-WAN Flaw (CVE-2026-20182) Grants Admin Control Cisco Talos has issued a high-priority warning regarding the active, in-the-wild exploitation of several...",
-      "source": "CVE Newsroom",
-      "published": "2026-05-15T00:07:55+00:00"
     },
     {
       "title": "TeamPCP hackers advertise Mistral AI code repos for sale",
@@ -445,7 +480,7 @@
     {
       "title": "CVE-2026-45369 - python-utcp: Command Injection via Unsanitized Argument Substitution in CLI Communication Protocol",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-45369",
-      "summary": "CVE ID :CVE-2026-45369 Published : May 14, 2026, 9:16 p.m. | 16 hours, 26 minutes ago Description :python-utcp is the python implementation of UTCP. Prior to 1.1.3, the _substitute_utcp_args method...",
+      "summary": "CVE ID :CVE-2026-45369 Published : May 14, 2026, 9:16 p.m. | 18 hours, 31 minutes ago Description :python-utcp is the python implementation of UTCP. Prior to 1.1.3, the _substitute_utcp_args method...",
       "source": "CVE Feed",
       "published": "2026-05-14T21:16:48+00:00"
     },
@@ -464,11 +499,25 @@
       "published": "2026-05-14T20:57:27+00:00"
     },
     {
+      "title": "OpenAI asks macOS users to update after TanStack npm supply chain attack",
+      "link": "https://therecord.media/openai-asks-macos-users-to-update-tanstack-npm",
+      "summary": "The actions are being taken in light of an expanding supply chain campaign impacting the popular open-source library TanStack and additional npm and PyPI packages tied to several AI companies.",
+      "source": "The Record",
+      "published": "2026-05-14T20:26:00+00:00"
+    },
+    {
       "title": "Maximum Severity Cisco SD-WAN Bug Exploited in the Wild",
       "link": "https://www.darkreading.com/vulnerabilities-threats/maximum-severity-cisco-sd-wan-bug-exploited",
       "summary": "This is the second time this year a threat actor has leveraged a CVSS 10.0 vulnerability in Cisco's network control system.",
       "source": "Dark Reading",
       "published": "2026-05-14T20:25:31+00:00"
+    },
+    {
+      "title": "Congress Puts Heat on Instructure After Canvas Outage",
+      "link": "https://www.darkreading.com/cyberattacks-data-breaches/congress-instructure-shinyhunters-attacks",
+      "summary": "The House Committee on Homeland Security sent a letter about the Canvas cyberattack, the same day that the edtech company said it reached an \"agreement\" with the ShinyHunters cybercriminals.",
+      "source": "Dark Reading",
+      "published": "2026-05-14T20:19:20+00:00"
     },
     {
       "title": "Cisco warns of new critical SD-WAN flaw exploited in zero-day attacks",
@@ -490,6 +539,13 @@
       "summary": "On the first day of Pwn2Own Berlin 2026, security researchers collected $523,000 in cash awards after exploiting 24 unique zero-days. [...]",
       "source": "BleepingComputer",
       "published": "2026-05-14T18:53:50+00:00"
+    },
+    {
+      "title": "ODNI taps officials to coordinate response to foreign election threats",
+      "link": "https://therecord.media/odni-taps-officials-to-coordinate-response-to-election-threats",
+      "summary": "Director of National Intelligence Tulsi Gabbard has tapped two individuals to coordinate work across U.S. spy agencies to monitor threats to the 2026 elections, according to multiple sources familiar...",
+      "source": "The Record",
+      "published": "2026-05-14T18:21:00+00:00"
     },
     {
       "title": "Cisco Catalyst SD-WAN Controller Auth Bypass Actively Exploited to Gain Admin Access",
@@ -567,13 +623,6 @@
       "summary": "In a role reversal, investment dollars in security startups exceeded the value of mergers and acquisitions in 1Q26 by more than $1 billion, a rare occurrence.",
       "source": "Dark Reading",
       "published": "2026-05-14T13:00:00+00:00"
-    },
-    {
-      "title": "Akamai to Acquire AI and Browser Security Firm LayerX for $205 Million",
-      "link": "https://www.securityweek.com/akamai-to-acquire-ai-and-browser-security-firm-layerx-for-205-million/",
-      "summary": "The acquisition enables Akamai to expand its Zero Trust portfolio to add protection directly into the browser. The post Akamai to Acquire AI and Browser Security Firm LayerX for $205 Million appeared...",
-      "source": "SecurityWeek",
-      "published": "2026-05-14T12:55:38+00:00"
     },
     {
       "title": "KongTuke hackers now use Microsoft Teams for corporate breaches",
@@ -751,13 +800,6 @@
       "published": "2026-05-14T08:55:46+00:00"
     },
     {
-      "title": "New Fragnesia Linux flaw lets attackers gain root privileges",
-      "link": "https://www.bleepingcomputer.com/news/security/new-fragnesia-linux-flaw-lets-attackers-gain-root-privileges/",
-      "summary": "Linux distros are rolling out patches for a new high-severity kernel privilege escalation vulnerability (known as Fragnasia and tracked as CVE-2026-46300) that allows attackers to run malicious code...",
-      "source": "BleepingComputer",
-      "published": "2026-05-14T07:34:19+00:00"
-    },
-    {
       "title": "New Fragnesia Linux Kernel LPE Grants Root Access via Page Cache Corruption",
       "link": "https://thehackernews.com/2026/05/new-fragnesia-linux-kernel-lpe-grants.html",
       "summary": "Details have emerged about a new variant of the recent Dirty Frag Linux local privilege escalation (LPE) vulnerability that allows local attackers to gain root access, making it the third such bug to...",
@@ -770,13 +812,6 @@
       "summary": "Cybersecurity researchers have disclosed multiple security vulnerabilities impacting NGINX Plus and NGINX Open, including a critical flaw that remained undetected for 18 years. The vulnerability...",
       "source": "The Hacker News",
       "published": "2026-05-14T06:00:09+00:00"
-    },
-    {
-      "title": "West Pharmaceutical says hackers stole data, encrypted systems",
-      "link": "https://www.bleepingcomputer.com/news/security/west-pharmaceutical-says-hackers-stole-data-encrypted-systems/",
-      "summary": "West Pharmaceutical Services disclosed that it was the target of a cyberattack that resulted in data exfiltration and system encryption. [...]",
-      "source": "BleepingComputer",
-      "published": "2026-05-13T22:23:31+00:00"
     },
     {
       "title": "Checkbox Assessments Aren't Fit to Measure Risk",
@@ -800,11 +835,25 @@
       "published": "2026-05-13T20:47:46+00:00"
     },
     {
+      "title": "Alleged Dream Market admin arrested in Germany after US indictment",
+      "link": "https://therecord.media/dream-market-admin-arrested-in-germany",
+      "summary": "Court documents said Dream Market was launched in 2013 by Owe Martin Andresen and others before becoming one of the biggest criminal marketplaces online.",
+      "source": "The Record",
+      "published": "2026-05-13T19:54:00+00:00"
+    },
+    {
       "title": "Dark Reading Celebrates 20 Years as a Leading Authority on Cybersecurity, Highlighting the People, Events, Ideas, and Technologies Shaping the Modern Risk Landscape",
       "link": "https://www.darkreading.com/cybersecurity-operations/dark-reading-celebrates-20-years-as-a-leading-authority-on-cybersecurity-highlighting-the-people-events-ideas-and-technologies-shaping-the-modern-risk-landscape",
       "summary": "Informa TechTarget's flagship cybersecurity media brand launches a special content series to mark two decades as a trusted source for cybersecurity professionals.",
       "source": "Dark Reading",
       "published": "2026-05-13T18:52:50+00:00"
+    },
+    {
+      "title": "European Commission head pushes creation of new law delaying teens’ social media access",
+      "link": "https://therecord.media/european-commission-head-pushes-restriction-teen-social-media",
+      "summary": "The comments come as several European countries, including Spain, Greece, Norway, France, Denmark, Turkey and the Netherlands have said they are considering or are implementing age verification...",
+      "source": "The Record",
+      "published": "2026-05-13T17:38:00+00:00"
     },
     {
       "title": "Microsoft's MDASH AI System Finds 16 Windows Flaws Fixed in Patch Tuesday",
@@ -1255,13 +1304,6 @@
       "published": "2026-05-07T10:54:00+00:00"
     },
     {
-      "title": "PyPI Packages Deliver ZiChatBot Malware via Zulip APIs on Windows and Linux",
-      "link": "https://thehackernews.com/2026/05/pypi-packages-deliver-zichatbot-malware.html",
-      "summary": "Cybersecurity researchers have discovered three packages on the Python Package Index (PyPI) repository that are designed to stealthily deliver a previously unknown malware family called ZiChatBot on...",
-      "source": "The Hacker News",
-      "published": "2026-05-07T09:20:00+00:00"
-    },
-    {
       "title": "VoidStealer Malware Darts Past Google Chrome's Encryption",
       "link": "https://www.darkreading.com/endpoint-security/yet-another-way-bypass-google-chromes-encryption-protection",
       "summary": "Authors of the VoidStealer Trojan uncovered yet another way to get around Google's App-Bound Encryption (ABE), opening the door to infostealers.",
@@ -1358,48 +1400,6 @@
       "summary": "Attackers are abusing two remote monitoring and management (RMM) tools to evade detection in a campaign that has impacted over 80 organizations so far.",
       "source": "Dark Reading",
       "published": "2026-05-04T20:56:34+00:00"
-    },
-    {
-      "title": "Exploit Cyber-Frenzy Threatens Millions via Critical cPanel Vulnerability",
-      "link": "https://www.darkreading.com/threat-intelligence/exploit-cyber-frenzy-critical-cpanel-vulnerability",
-      "summary": "Shortly after the authentication-bypass flaw was disclosed multiple proof-of-concept exploits appeared, and one researcher claims there's been zero-day activity for at least a month.",
-      "source": "Dark Reading",
-      "published": "2026-05-04T19:14:14+00:00"
-    },
-    {
-      "title": "Silver Fox Springs Tax-Themed Attacks on Orgs in India, Russia",
-      "link": "https://www.darkreading.com/endpoint-security/silver-fox-tax-themed-attacks-india-russia",
-      "summary": "More than 1,600 socially engineered messages from the China-backed advanced persistent threat (APT) group target various sectors to deliver the previously undocumented ABCDoor backdoor, ValleyRAT...",
-      "source": "Dark Reading",
-      "published": "2026-05-04T14:39:26+00:00"
-    },
-    {
-      "title": "How Dark Reading Lifted Off the Launchpad in 2006",
-      "link": "https://www.darkreading.com/vulnerabilities-threats/how-dark-reading-lifted-off-launchpad-2006",
-      "summary": "Twenty years ago, this media brand didn't have a print edition to attract eyeballs and sponsors. Top-notch content and editorial talent did the heavy lifting.",
-      "source": "Dark Reading",
-      "published": "2026-05-04T11:15:08+00:00"
-    },
-    {
-      "title": "76% of All Crypto Stolen in 2026 Is Now in North Korea",
-      "link": "https://www.darkreading.com/cybersecurity-analytics/crypto-stolen-2026-north-korea",
-      "summary": "North Korean threat actors are pulling off historic cryptocurrency heists on a yearly, sometimes weekly basis now. AI might be helping them.",
-      "source": "Dark Reading",
-      "published": "2026-05-01T20:34:27+00:00"
-    },
-    {
-      "title": "If AI's So Smart, Why Does It Keep Deleting Production Databases?",
-      "link": "https://www.darkreading.com/cloud-security/ais-so-smart-keep-deleting-production-databases",
-      "summary": "The issue isn't artificial intelligence, but rather an industry adding AI agent integrations into production environments before proper security testing.",
-      "source": "Dark Reading",
-      "published": "2026-05-01T14:39:55+00:00"
-    },
-    {
-      "title": "Name That Toon: Mark of (Security) Progress",
-      "link": "https://www.darkreading.com/cybersecurity-operations/name-that-toon-mark-security-progress",
-      "summary": "Feeling creative? Have something to say about the last 20 years of cybersecurity? Our editors will award the best cybersecurity-related caption with a $20 gift card.",
-      "source": "Dark Reading",
-      "published": "2026-05-01T12:00:55+00:00"
     }
   ]
 }
