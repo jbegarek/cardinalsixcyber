@@ -1,54 +1,138 @@
 {
-  "last_updated": "2026-05-19T18:34:46.273838+00:00",
+  "last_updated": "2026-05-19T20:32:35.934581+00:00",
   "articles": [
+    {
+      "title": "CISA Exposes Secrets, Credentials in 'Private' Repo",
+      "link": "https://www.darkreading.com/cybersecurity-operations/cisa-exposes-secrets-credentials-private-repo",
+      "summary": "The agency's GitHub repository, publicly available since November 2025, was ironically named \"Private-CISA.\"",
+      "source": "Dark Reading",
+      "published": "2026-05-19T19:49:53+00:00"
+    },
+    {
+      "title": "Stealer Spoofs Google, Microsoft & Apple, Then Backdoors macOS",
+      "link": "https://www.darkreading.com/threat-intelligence/stealer-spoofs-google-microsoft-apple-backdoors-macos",
+      "summary": "The SHub Reaper stealer, which hides behind fake WeChat and Miro installers, marks a shift from ClickFix social engineering to Apple script-based execution.",
+      "source": "Dark Reading",
+      "published": "2026-05-19T19:49:40+00:00"
+    },
+    {
+      "title": "FBI: Americans lost over $388 million to scams using crypto ATMs in 2025",
+      "link": "https://www.bleepingcomputer.com/news/security/fbi-americans-lost-over-388-million-to-scams-using-crypto-atms-in-2025/",
+      "summary": "The FBI says Americans have lost over $388 million last year to scams using cryptocurrency kiosks, also known as crypto ATMs or Bitcoin ATMs. [...]",
+      "source": "BleepingComputer",
+      "published": "2026-05-19T19:45:39+00:00"
+    },
+    {
+      "title": "Microsoft Self-Service Password Reset abused in Azure data theft attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/microsoft-self-service-password-reset-abused-in-azure-data-theft-attacks/",
+      "summary": "A threat actor targeting Microsoft 365 and Azure production environments is stealing data in attacks that abuse legitimate applications and administration features. [...]",
+      "source": "BleepingComputer",
+      "published": "2026-05-19T19:35:32+00:00"
+    },
+    {
+      "title": "Huawei zero-day attack behind last year’s crash of Luxembourg's entire telecoms network",
+      "link": "https://therecord.media/huawei-zero-day-behind-last-year-luxembourg-telecom-outage",
+      "summary": "There is no evidence that the incident has recurred, but the flaw remains unexplained and has not been publicly acknowledged by the company.",
+      "source": "The Record",
+      "published": "2026-05-19T19:18:00+00:00"
+    },
+    {
+      "title": "CVE-2026-8370 - Automic Automation Agent Unix privilege escalation",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-8370",
+      "summary": "CVE ID :CVE-2026-8370 Published : May 19, 2026, 7:16 p.m. | 15 minutes ago Description :Execution with unnecessary privileges vulnerability in Broadcom Automic Automation Agent Unix on Linux x64...",
+      "source": "CVE Feed",
+      "published": "2026-05-19T19:16:51+00:00"
+    },
+    {
+      "title": "CVE-2026-41470 - LIVE555 < 2026.04.22 RTSP Server Authorization Bypass via Session Token",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-41470",
+      "summary": "CVE ID :CVE-2026-41470 Published : May 19, 2026, 7:16 p.m. | 15 minutes ago Description :LIVE555 before 2026.04.22 contains an authorization bypass vulnerability in RTSP session command handling that...",
+      "source": "CVE Feed",
+      "published": "2026-05-19T19:16:50+00:00"
+    },
+    {
+      "title": "CVE-2026-33642 - Kitty has a Heap Buffer Over-Read/Write via Integer Overflow in compose_rectangles Bounds Check",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-33642",
+      "summary": "CVE ID :CVE-2026-33642 Published : May 19, 2026, 7:16 p.m. | 15 minutes ago Description :Kitty is a cross-platform GPU based terminal. In versions 0.46.2 and below, the handle_compose_command()...",
+      "source": "CVE Feed",
+      "published": "2026-05-19T19:16:49+00:00"
+    },
+    {
+      "title": "CVE-2026-8604 - Cross-Site request forgery (CSRF) in ScadaBR",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-8604",
+      "summary": "CVE ID :CVE-2026-8604 Published : May 19, 2026, 6:16 p.m. | 1 hour, 15 minutes ago Description :In ScadaBR version 1.2.0, a CSRF vulnerability could allow an attacker to trigger any authenticated...",
+      "source": "CVE Feed",
+      "published": "2026-05-19T18:16:32+00:00"
+    },
+    {
+      "title": "CVE-2026-8603 - Improper neutralization of special elements used in an OS command ('OS command injection') in ScadaBR",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-8603",
+      "summary": "CVE ID :CVE-2026-8603 Published : May 19, 2026, 6:16 p.m. | 1 hour, 15 minutes ago Description :In ScadaBR version 1.2.0, an OS Command Injection vulnerability could allow an attacker to execute...",
+      "source": "CVE Feed",
+      "published": "2026-05-19T18:16:31+00:00"
+    },
+    {
+      "title": "CVE-2026-8602 - Missing authentication for critical function in ScadaBR",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-8602",
+      "summary": "CVE ID :CVE-2026-8602 Published : May 19, 2026, 6:16 p.m. | 1 hour, 15 minutes ago Description :In ScadaBR version 1.2.0, a Missing Authentication for Critical Function vulnerability could allow an...",
+      "source": "CVE Feed",
+      "published": "2026-05-19T18:16:31+00:00"
+    },
     {
       "title": "CVE-2026-6009 - Jaspersoft Library Deserialisation Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-6009",
-      "summary": "CVE ID :CVE-2026-6009 Published : May 19, 2026, 5:23 p.m. | 21 minutes ago Description :Java Deserialisation Vulnerability in Jaspersoft Reports Library leads to Remote Code Execution (RCE)...",
+      "summary": "CVE ID :CVE-2026-6009 Published : May 19, 2026, 6:16 p.m. | 1 hour, 15 minutes ago Description :Java Deserialisation Vulnerability in Jaspersoft Reports Library leads to Remote Code Execution (RCE)...",
       "source": "CVE Feed",
-      "published": "2026-05-19T17:23:40+00:00"
+      "published": "2026-05-19T18:16:29+00:00"
+    },
+    {
+      "title": "CVE-2026-47107 - Windmill < 1.703.2 Incorrect Default Permissions in nsjail Configuration",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-47107",
+      "summary": "CVE ID :CVE-2026-47107 Published : May 19, 2026, 6:16 p.m. | 1 hour, 15 minutes ago Description :Windmill prior to 1.703.2 contains an incorrect default permissions vulnerability in nsjail sandbox...",
+      "source": "CVE Feed",
+      "published": "2026-05-19T18:16:22+00:00"
+    },
+    {
+      "title": "DirtyDecrypt Linux Kernel Vulnerability PoC Exploit Code Released",
+      "link": "https://cybersecuritynews.com/dirtydecrypt-linux-kernel-vulnerability/",
+      "summary": "DirtyDecrypt Linux Kernel Vulnerability PoC Exploit Code Released A working proof-of-concept (PoC) exploit for a high-severity Linux kernel local privilege escalation vulnerability dubbed...",
+      "source": "CVE Newsroom",
+      "published": "2026-05-19T17:18:30+00:00"
     },
     {
       "title": "CVE-2026-47358 - Terrascan Server-Side Request Forgery (SSRF)",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-47358",
-      "summary": "CVE ID :CVE-2026-47358 Published : May 19, 2026, 5:16 p.m. | 28 minutes ago Description :Terrascan v1.18.3 and prior are vulnerable to Server-Side Request Forgery (SSRF) via external URL resolution...",
+      "summary": "CVE ID :CVE-2026-47358 Published : May 19, 2026, 5:16 p.m. | 2 hours, 15 minutes ago Description :Terrascan v1.18.3 and prior are vulnerable to Server-Side Request Forgery (SSRF) via external URL...",
       "source": "CVE Feed",
       "published": "2026-05-19T17:16:23+00:00"
     },
     {
       "title": "CVE-2026-47357 - Terrascan Server-Side Request Forgery (SSRF)",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-47357",
-      "summary": "CVE ID :CVE-2026-47357 Published : May 19, 2026, 5:16 p.m. | 28 minutes ago Description :Terrascan v1.18.3 and prior are vulnerable to Server-Side Request Forgery (SSRF) via the remote_url parameter...",
+      "summary": "CVE ID :CVE-2026-47357 Published : May 19, 2026, 5:16 p.m. | 2 hours, 15 minutes ago Description :Terrascan v1.18.3 and prior are vulnerable to Server-Side Request Forgery (SSRF) via the remote_url...",
       "source": "CVE Feed",
       "published": "2026-05-19T17:16:22+00:00"
     },
     {
       "title": "CVE-2026-47356 - Terrascan SSRF",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-47356",
-      "summary": "CVE ID :CVE-2026-47356 Published : May 19, 2026, 5:16 p.m. | 28 minutes ago Description :Terrascan v1.18.3 and prior are vulnerable to Server-Side Request Forgery (SSRF) via the webhook_url parameter...",
+      "summary": "CVE ID :CVE-2026-47356 Published : May 19, 2026, 5:16 p.m. | 2 hours, 15 minutes ago Description :Terrascan v1.18.3 and prior are vulnerable to Server-Side Request Forgery (SSRF) via the webhook_url...",
       "source": "CVE Feed",
       "published": "2026-05-19T17:16:22+00:00"
     },
     {
-      "title": "CVE-2026-8604 - Cross-Site request forgery (CSRF) in ScadaBR",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-8604",
-      "summary": "CVE ID :CVE-2026-8604 Published : May 19, 2026, 5:05 p.m. | 39 minutes ago Description :In ScadaBR version 1.2.0, a CSRF vulnerability could allow an attacker to trigger any authenticated action...",
+      "title": "CVE-2026-36829 - Panabit PAP-XM320 Authentication Bypass Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-36829",
+      "summary": "CVE ID :CVE-2026-36829 Published : May 19, 2026, 5:16 p.m. | 2 hours, 15 minutes ago Description :An authentication bypass vulnerability exists in the embedded HTTP server of Panabit PAP-XM320 up to...",
       "source": "CVE Feed",
-      "published": "2026-05-19T17:05:48+00:00"
+      "published": "2026-05-19T17:16:22+00:00"
     },
     {
-      "title": "CVE-2026-8603 - Improper neutralization of special elements used in an OS command ('OS command injection') in ScadaBR",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-8603",
-      "summary": "CVE ID :CVE-2026-8603 Published : May 19, 2026, 5:03 p.m. | 41 minutes ago Description :In ScadaBR version 1.2.0, an OS Command Injection vulnerability could allow an attacker to execute commands as...",
+      "title": "CVE-2026-36828 - Panabit PAP-XM320 Command Injection Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-36828",
+      "summary": "CVE ID :CVE-2026-36828 Published : May 19, 2026, 5:16 p.m. | 2 hours, 15 minutes ago Description :A command injection vulnerability exists in the /cgi-bin/tools/ajax_cmd endpoint of Panabit PAP-XM320...",
       "source": "CVE Feed",
-      "published": "2026-05-19T17:03:38+00:00"
-    },
-    {
-      "title": "CVE-2026-8602 - Missing authentication for critical function in ScadaBR",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-8602",
-      "summary": "CVE ID :CVE-2026-8602 Published : May 19, 2026, 5 p.m. | 44 minutes ago Description :In ScadaBR version 1.2.0, a Missing Authentication for Critical Function vulnerability could allow an...",
-      "source": "CVE Feed",
-      "published": "2026-05-19T17:00:38+00:00"
+      "published": "2026-05-19T17:16:22+00:00"
     },
     {
       "title": "UK regulator to require tech firms to tackle deepfakes, non-consensual intimate images",
@@ -56,13 +140,6 @@
       "summary": "The regulator’s announcement said the change is being made due to the “urgent need to better protect women and girls online.”",
       "source": "The Record",
       "published": "2026-05-19T16:57:00+00:00"
-    },
-    {
-      "title": "CVE-2026-47107 - Windmill < 1.703.2 Incorrect Default Permissions in nsjail Configuration",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-47107",
-      "summary": "CVE ID :CVE-2026-47107 Published : May 19, 2026, 4:42 p.m. | 1 hour, 2 minutes ago Description :Windmill prior to 1.703.2 contains an incorrect default permissions vulnerability in nsjail sandbox...",
-      "source": "CVE Feed",
-      "published": "2026-05-19T16:42:55+00:00"
     },
     {
       "title": "Trapdoor Android Ad Fraud Scheme Hit 659 Million Daily Bid Requests Using 455 Apps",
@@ -95,7 +172,7 @@
     {
       "title": "CVE-2026-5804 - Motorola Factory Test Auth Bypass",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-5804",
-      "summary": "CVE ID :CVE-2026-5804 Published : May 19, 2026, 4:16 p.m. | 1 hour, 28 minutes ago Description :An improper authentication vulnerability was discovered in the Motorola Factory Test component...",
+      "summary": "CVE ID :CVE-2026-5804 Published : May 19, 2026, 4:16 p.m. | 3 hours, 15 minutes ago Description :An improper authentication vulnerability was discovered in the Motorola Factory Test component...",
       "source": "CVE Feed",
       "published": "2026-05-19T16:16:22+00:00"
     },
@@ -123,42 +200,42 @@
     {
       "title": "CVE-2026-8711 - NGINX JavaScript vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-8711",
-      "summary": "CVE ID :CVE-2026-8711 Published : May 19, 2026, 3:16 p.m. | 2 hours, 28 minutes ago Description :NGINX JavaScript has a vulnerability when the js_fetch_proxy directive is configured with at least one...",
+      "summary": "CVE ID :CVE-2026-8711 Published : May 19, 2026, 3:16 p.m. | 4 hours, 15 minutes ago Description :NGINX JavaScript has a vulnerability when the js_fetch_proxy directive is configured with at least one...",
       "source": "CVE Feed",
       "published": "2026-05-19T15:16:33+00:00"
     },
     {
       "title": "CVE-2026-47100 - Funnel Builder for WooCommerce Checkout < 3.15.0.3 Missing Authorization via AJAX",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-47100",
-      "summary": "CVE ID :CVE-2026-47100 Published : May 19, 2026, 3:16 p.m. | 2 hours, 28 minutes ago Description :Funnel Builder for WooCommerce Checkout prior to 3.15.0.3 contains a missing authorization...",
+      "summary": "CVE ID :CVE-2026-47100 Published : May 19, 2026, 3:16 p.m. | 4 hours, 15 minutes ago Description :Funnel Builder for WooCommerce Checkout prior to 3.15.0.3 contains a missing authorization...",
       "source": "CVE Feed",
       "published": "2026-05-19T15:16:32+00:00"
     },
     {
       "title": "CVE-2026-44159 - Tyler Identity Local (TID-L) default administrative credentials",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-44159",
-      "summary": "CVE ID :CVE-2026-44159 Published : May 19, 2026, 3:16 p.m. | 2 hours, 28 minutes ago Description :Tyler Identity Local (TID-L) uses documented, default administrative credentials. Users are not...",
+      "summary": "CVE ID :CVE-2026-44159 Published : May 19, 2026, 3:16 p.m. | 4 hours, 15 minutes ago Description :Tyler Identity Local (TID-L) uses documented, default administrative credentials. Users are not...",
       "source": "CVE Feed",
       "published": "2026-05-19T15:16:31+00:00"
     },
     {
       "title": "CVE-2026-43634 - HestiaCP 1.2.0-1.9.4 IP Spoofing via CF-Connecting-IP Header",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-43634",
-      "summary": "CVE ID :CVE-2026-43634 Published : May 19, 2026, 3:16 p.m. | 2 hours, 28 minutes ago Description :HestiaCP versions 1.2.0 through 1.9.4 contain an IP spoofing vulnerability that allows...",
+      "summary": "CVE ID :CVE-2026-43634 Published : May 19, 2026, 3:16 p.m. | 4 hours, 15 minutes ago Description :HestiaCP versions 1.2.0 through 1.9.4 contain an IP spoofing vulnerability that allows...",
       "source": "CVE Feed",
       "published": "2026-05-19T15:16:31+00:00"
     },
     {
       "title": "CVE-2026-2587 - Glassfish Remote Code Execution Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-2587",
-      "summary": "CVE ID :CVE-2026-2587 Published : May 19, 2026, 3:16 p.m. | 2 hours, 28 minutes ago Description :A critical Remote Code Execution (RCE) vulnerability was identified in the server-side template...",
+      "summary": "CVE ID :CVE-2026-2587 Published : May 19, 2026, 3:16 p.m. | 4 hours, 15 minutes ago Description :A critical Remote Code Execution (RCE) vulnerability was identified in the server-side template...",
       "source": "CVE Feed",
       "published": "2026-05-19T15:16:28+00:00"
     },
     {
       "title": "CVE-2026-2586 - GlassFish Administration Console Remote Code Execution Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-2586",
-      "summary": "CVE ID :CVE-2026-2586 Published : May 19, 2026, 3:16 p.m. | 2 hours, 28 minutes ago Description :An authenticated Remote Code Execution (RCE) vulnerability was identified in GlassFish's...",
+      "summary": "CVE ID :CVE-2026-2586 Published : May 19, 2026, 3:16 p.m. | 4 hours, 15 minutes ago Description :An authenticated Remote Code Execution (RCE) vulnerability was identified in GlassFish's...",
       "source": "CVE Feed",
       "published": "2026-05-19T15:16:28+00:00"
     },
@@ -179,8 +256,8 @@
     {
       "title": "DirtyDecrypt PoC Released for Linux Kernel CVE-2026-31635 LPE Vulnerability",
       "link": "https://thehackernews.com/2026/05/dirtydecrypt-poc-released-for-linux.html",
-      "summary": "DirtyDecrypt PoC Released for Linux Kernel CVE-2026-31635 LPE Vulnerability Proof-of-concept (PoC) exploit code has now been released for a recently patched security flaw in the Linux kernel that...",
-      "source": "CVE Newsroom",
+      "summary": "Proof-of-concept (PoC) exploit code has now been released for a recently patched security flaw in the Linux kernel that could allow for local privilege escalation (LPE). Dubbed DirtyDecrypt (aka...",
+      "source": "The Hacker News",
       "published": "2026-05-19T14:56:26+00:00"
     },
     {
@@ -191,74 +268,39 @@
       "published": "2026-05-19T14:30:22+00:00"
     },
     {
-      "title": "CVE-2026-8975 - Memory safety bugs fixed in Firefox ESR 115.36, Firefox ESR 140.11 and Firefox 151",
+      "title": "CVE-2026-8975 - Memory safety bugs fixed in Thunderbird 140.11 and Thunderbird 151",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-8975",
-      "summary": "CVE ID :CVE-2026-8975 Published : May 19, 2026, 2:16 p.m. | 3 hours, 28 minutes ago Description :Memory safety bugs present in Firefox ESR 115.35, Firefox ESR 140.10 and Firefox 150. Some of these...",
+      "summary": "CVE ID :CVE-2026-8975 Published : May 19, 2026, 2:16 p.m. | 5 hours, 15 minutes ago Description :Memory safety bugs present in Thunderbird 140.10 and Thunderbird 150. Some of these bugs showed...",
       "source": "CVE Feed",
       "published": "2026-05-19T14:16:54+00:00"
     },
     {
-      "title": "CVE-2026-8974 - Memory safety bugs fixed in Firefox ESR 140.11 and Firefox 151",
+      "title": "CVE-2026-8974 - Memory safety bugs fixed in Thunderbird 140.11 and Thunderbird 151",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-8974",
-      "summary": "CVE ID :CVE-2026-8974 Published : May 19, 2026, 2:16 p.m. | 3 hours, 28 minutes ago Description :Memory safety bugs present in Firefox ESR 140.10 and Firefox 150. Some of these bugs showed evidence...",
+      "summary": "CVE ID :CVE-2026-8974 Published : May 19, 2026, 2:16 p.m. | 5 hours, 15 minutes ago Description :Memory safety bugs present in Thunderbird 140.10 and Thunderbird 150. Some of these bugs showed...",
       "source": "CVE Feed",
       "published": "2026-05-19T14:16:53+00:00"
     },
     {
-      "title": "CVE-2026-8973 - Memory safety bugs fixed in Firefox 151",
+      "title": "CVE-2026-8973 - Memory safety bugs fixed in Thunderbird 151",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-8973",
-      "summary": "CVE ID :CVE-2026-8973 Published : May 19, 2026, 2:16 p.m. | 3 hours, 28 minutes ago Description :Memory safety bugs present in Firefox 150. Some of these bugs showed evidence of memory corruption and...",
+      "summary": "CVE ID :CVE-2026-8973 Published : May 19, 2026, 2:16 p.m. | 5 hours, 15 minutes ago Description :Memory safety bugs present in Thunderbird 150. Some of these bugs showed evidence of memory corruption...",
       "source": "CVE Feed",
       "published": "2026-05-19T14:16:53+00:00"
     },
     {
       "title": "CVE-2026-8969 - Mitigation bypass in the DOM: Security component",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-8969",
-      "summary": "CVE ID :CVE-2026-8969 Published : May 19, 2026, 2:16 p.m. | 3 hours, 28 minutes ago Description :Mitigation bypass in the DOM: Security component. This vulnerability was fixed in Firefox 151...",
+      "summary": "CVE ID :CVE-2026-8969 Published : May 19, 2026, 2:16 p.m. | 5 hours, 15 minutes ago Description :Mitigation bypass in the DOM: Security component. This vulnerability was fixed in Firefox 151 and...",
       "source": "CVE Feed",
       "published": "2026-05-19T14:16:53+00:00"
     },
     {
       "title": "CVE-2026-8959 - Sandbox escape due to incorrect boundary conditions in the Widget: Win32 component",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-8959",
-      "summary": "CVE ID :CVE-2026-8959 Published : May 19, 2026, 2:16 p.m. | 3 hours, 28 minutes ago Description :Sandbox escape due to incorrect boundary conditions in the Widget: Win32 component. This vulnerability...",
+      "summary": "CVE ID :CVE-2026-8959 Published : May 19, 2026, 2:16 p.m. | 5 hours, 15 minutes ago Description :Sandbox escape due to incorrect boundary conditions in the Widget: Win32 component. This vulnerability...",
       "source": "CVE Feed",
       "published": "2026-05-19T14:16:52+00:00"
-    },
-    {
-      "title": "CVE-2026-8958 - Information disclosure, sandbox escape in the Security: Process Sandboxing component",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-8958",
-      "summary": "CVE ID :CVE-2026-8958 Published : May 19, 2026, 2:16 p.m. | 3 hours, 28 minutes ago Description :Information disclosure, sandbox escape in the Security: Process Sandboxing component. This...",
-      "source": "CVE Feed",
-      "published": "2026-05-19T14:16:52+00:00"
-    },
-    {
-      "title": "CVE-2026-8956 - Integer overflow in the Networking: JAR component",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-8956",
-      "summary": "CVE ID :CVE-2026-8956 Published : May 19, 2026, 2:16 p.m. | 3 hours, 28 minutes ago Description :Integer overflow in the Networking: JAR component. This vulnerability was fixed in Firefox 151 and...",
-      "source": "CVE Feed",
-      "published": "2026-05-19T14:16:51+00:00"
-    },
-    {
-      "title": "CVE-2026-8953 - Sandbox escape due to use-after-free in the Disability Access APIs component",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-8953",
-      "summary": "CVE ID :CVE-2026-8953 Published : May 19, 2026, 2:16 p.m. | 3 hours, 28 minutes ago Description :Sandbox escape due to use-after-free in the Disability Access APIs component. This vulnerability was...",
-      "source": "CVE Feed",
-      "published": "2026-05-19T14:16:51+00:00"
-    },
-    {
-      "title": "CVE-2026-8950 - Same-origin policy bypass in the Networking: HTTP component",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-8950",
-      "summary": "CVE ID :CVE-2026-8950 Published : May 19, 2026, 2:16 p.m. | 3 hours, 28 minutes ago Description :Same-origin policy bypass in the Networking: HTTP component. This vulnerability was fixed in Firefox...",
-      "source": "CVE Feed",
-      "published": "2026-05-19T14:16:51+00:00"
-    },
-    {
-      "title": "CVE-2026-8948 - Same-origin policy bypass in the DOM: Networking component",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-8948",
-      "summary": "CVE ID :CVE-2026-8948 Published : May 19, 2026, 2:16 p.m. | 3 hours, 28 minutes ago Description :Same-origin policy bypass in the DOM: Networking component. This vulnerability was fixed in Firefox...",
-      "source": "CVE Feed",
-      "published": "2026-05-19T14:16:51+00:00"
     },
     {
       "title": "7-Eleven confirms data breach claimed by the ShinyHunters gang",
@@ -417,8 +459,8 @@
     {
       "title": "SEPPMail Secure E-Mail Gateway Vulnerabilities Enable RCE and Mail Traffic Access",
       "link": "https://thehackernews.com/2026/05/seppmail-secure-e-mail-gateway.html",
-      "summary": "SEPPMail Secure E-Mail Gateway Vulnerabilities Enable RCE and Mail Traffic Access Critical security vulnerabilities have been disclosed in SEPPMail Secure E-Mail Gateway, an enterprise-grade email...",
-      "source": "CVE Newsroom",
+      "summary": "Critical security vulnerabilities have been disclosed in SEPPMail Secure E-Mail Gateway, an enterprise-grade email security solution, that could be exploited to achieve remote code execution and...",
+      "source": "The Hacker News",
       "published": "2026-05-19T09:23:15+00:00"
     },
     {
@@ -548,13 +590,6 @@
       "published": "2026-05-18T16:43:40+00:00"
     },
     {
-      "title": "Experts warn of privacy risks as AI firms looks to connect to financial accounts",
-      "link": "https://therecord.media/experts-warn-of-privacy-cyber-risks-ai-finance",
-      "summary": "OpenAI announced Friday that it is rolling out a new ChatGPT feature allowing users to connect all of their financial accounts to the chatbot for personal finance advice.",
-      "source": "The Record",
-      "published": "2026-05-18T16:10:00+00:00"
-    },
-    {
       "title": "Pwn2Own Berlin 2026 a Detailed Report",
       "link": "https://thecyberthrone.in/2026/05/18/pwn2own-berlin-2026-a-detailed-report/",
       "summary": "Pwn2Own Berlin 2026 a Detailed Report The curtain has fallen on Pwn2Own Berlin 2026. Three days. 47 unique zero-day vulnerabilities. $1,298,250 in total payouts. And a competition that, for the first...",
@@ -578,8 +613,8 @@
     {
       "title": "⚡ Weekly Recap: Exchange 0-Day, npm Worm, Fake AI Repo, Cisco Exploit and More",
       "link": "https://thehackernews.com/2026/05/weekly-recap-exchange-0-day-npm-worm.html",
-      "summary": "⚡ Weekly Recap: Exchange 0-Day, npm Worm, Fake AI Repo, Cisco Exploit and More Monday opens with a trust problem. A mail server flaw is under active use. A network control system was targeted...",
-      "source": "CVE Newsroom",
+      "summary": "Monday opens with a trust problem. A mail server flaw is under active use. A network control system was targeted. Trusted packages were poisoned. A fake model page pushed a stealer. Then came the...",
+      "source": "The Hacker News",
       "published": "2026-05-18T13:50:17+00:00"
     },
     {
@@ -634,9 +669,16 @@
     {
       "title": "Ivanti, Fortinet, SAP, VMware, n8n Patch RCE, SQL Injection, Privilege Escalation Flaws",
       "link": "https://thehackernews.com/2026/05/ivanti-fortinet-sap-vmware-n8n-patch.html",
-      "summary": "Ivanti, Fortinet, SAP, VMware, n8n Patch RCE, SQL Injection, Privilege Escalation Flaws Ivanti, Fortinet, n8n, SAP, and VMware have released security fixes for various vulnerabilities that could be...",
-      "source": "CVE Newsroom",
+      "summary": "Ivanti, Fortinet, n8n, SAP, and VMware have released security fixes for various vulnerabilities that could be exploited by bad actors to bypass authentication and execute arbitrary code. Topping the...",
+      "source": "The Hacker News",
       "published": "2026-05-18T10:54:05+00:00"
+    },
+    {
+      "title": "MiniPlasma Windows 0-Day Enables SYSTEM Privilege Escalation on Fully Patched Systems",
+      "link": "https://thehackernews.com/2026/05/miniplasma-windows-0-day-enables-system.html",
+      "summary": "Chaotic Eclipse, the security researcher behind the recently disclosed Windows flaws, YellowKey and GreenPlasma, has released a proof-of-concept (PoC) for a Windows privilege escalation zero-day flaw...",
+      "source": "The Hacker News",
+      "published": "2026-05-18T08:57:34+00:00"
     },
     {
       "title": "Four Malicious npm Packages Deliver Infostealers and Phantom Bot DDoS Malware",
@@ -653,13 +695,6 @@
       "published": "2026-05-18T08:54:08+00:00"
     },
     {
-      "title": "Microsoft confirms Windows 11 security update install issues",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-kb5089549-windows-11-security-update-install-issues/",
-      "summary": "Microsoft has confirmed that the May 2026 Windows 11 security update (KB5089549) fails to install on some systems and triggers 0x800f0922 errors. [...]",
-      "source": "BleepingComputer",
-      "published": "2026-05-18T08:33:14+00:00"
-    },
-    {
       "title": "CISA Warns of Microsoft Exchange Server Vulnerability Exploited in Attacks",
       "link": "https://cybersecuritynews.com/cisa-microsoft-exchange-server-vulnerability/",
       "summary": "CISA Warns of Microsoft Exchange Server Vulnerability Exploited in Attacks CISA has issued a fresh warning about a newly disclosed Microsoft Exchange Server vulnerability that is already being...",
@@ -674,13 +709,6 @@
       "published": "2026-05-18T08:30:10+00:00"
     },
     {
-      "title": "Exploit available for new DirtyDecrypt Linux root escalation flaw",
-      "link": "https://www.bleepingcomputer.com/news/security/exploit-available-for-new-dirtydecrypt-linux-root-escalation-flaw/",
-      "summary": "A recently patched local privilege escalation vulnerability in the Linux kernel's rxgk module now has a proof-of-concept exploit that allows attackers to gain root access on some Linux systems. [...]",
-      "source": "BleepingComputer",
-      "published": "2026-05-18T07:18:33+00:00"
-    },
-    {
       "title": "Pre-Stuxnet Fast16 Malware Tampered with Nuclear Weapons Simulations",
       "link": "https://thehackernews.com/2026/05/pre-stuxnet-fast16-malware-tampered.html",
       "summary": "A new analysis of the Lua-based fast16 malware has confirmed that it was a cyber sabotage tool designed to tamper with nuclear weapons testing simulations. According to Broadcom-owned Symantec and...",
@@ -693,13 +721,6 @@
       "summary": "New Windows ‘MiniPlasma’ Zero-Day Let Attackers Gain SYSTEM Access – PoC Released A critical Windows privilege escalation zero-day vulnerability dubbed “MiniPlasma” has emerged with a public...",
       "source": "CVE Newsroom",
       "published": "2026-05-18T06:00:49+00:00"
-    },
-    {
-      "title": "MiniPlasma Windows 0-Day Enables SYSTEM Privilege Escalation on Fully Patched Systems",
-      "link": "https://thehackernews.com/2026/05/miniplasma-windows-0-day-enables-system.html",
-      "summary": "MiniPlasma Windows 0-Day Enables SYSTEM Privilege Escalation on Fully Patched Systems Chaotic Eclipse, the security researcher behind the recently disclosed Windows flaws, YellowKey and GreenPlasma...",
-      "source": "CVE Newsroom",
-      "published": "2026-05-18T04:59:21+00:00"
     },
     {
       "title": "Critical WordPress Plugin Vulnerability Exposes Websites to Authentication Bypass Attacks",
@@ -725,8 +746,8 @@
     {
       "title": "NGINX CVE-2026-42945 Exploited in the Wild, Causing Worker Crashes and Possible RCE",
       "link": "https://thehackernews.com/2026/05/nginx-cve-2026-42945-exploited-in-wild.html",
-      "summary": "NGINX CVE-2026-42945 Exploited in the Wild, Causing Worker Crashes and Possible RCE A newly disclosed security flaw impacting NGINX Plus and NGINX Open has come under active exploitation in the wild...",
-      "source": "CVE Newsroom",
+      "summary": "A newly disclosed security flaw impacting NGINX Plus and NGINX Open has come under active exploitation in the wild, days after its public disclosure, according to VulnCheck. The vulnerability...",
+      "source": "The Hacker News",
       "published": "2026-05-17T11:57:53+00:00"
     },
     {
@@ -749,13 +770,6 @@
       "summary": "Malicious JPEG Images Could Trigger PHP Memory Safety Vulnerabilities Two critical memory-safety vulnerabilities in PHP’s image-processing functions could allow attackers to leak sensitive heap...",
       "source": "CVE Newsroom",
       "published": "2026-05-16T09:01:53+00:00"
-    },
-    {
-      "title": "Linux Kernel Vulnerability “ssh-keysign-pwn” Lets Attackers Read SSH Keys and Shadow Passwords",
-      "link": "https://cybersecuritynews.com/linux-kernel-vulnerability-ssh-keysign-pwn/",
-      "summary": "Linux Kernel Vulnerability “ssh-keysign-pwn” Lets Attackers Read SSH Keys and Shadow Passwords A newly disclosed Linux kernel vulnerability is raising serious concerns across the security community...",
-      "source": "CVE Newsroom",
-      "published": "2026-05-16T07:36:44+00:00"
     },
     {
       "title": "Congress Puts Heat on Instructure After Canvas Outage",
@@ -1386,20 +1400,6 @@
       "summary": "In hard-to-detect attacks, hackers are dropping the CloudZ RAT and a fresh plug-in, Pheno, to hijack the Windows-based bridge between PCs and smartphones.",
       "source": "Dark Reading",
       "published": "2026-05-06T10:30:27+00:00"
-    },
-    {
-      "title": "Middle East Cyber Battle Field Broadens — Especially in UAE",
-      "link": "https://www.darkreading.com/cyberattacks-data-breaches/middle-east-cyber-battle-field-broadens-uae",
-      "summary": "As the war with Iran continues, breach attempts targeting the United Arab Emirates tripled in a few weeks — many targeting critical infrastructure.",
-      "source": "Dark Reading",
-      "published": "2026-05-06T05:30:00+00:00"
-    },
-    {
-      "title": "Trellix Source Code Breach Highlights Growing Supply Chain Threats",
-      "link": "https://www.darkreading.com/cyberattacks-data-breaches/trellix-source-code-breach-supply-chain-threats",
-      "summary": "Info is scant, but such breaches can reveal where a security product's controls are located and how detections are designed, giving attackers a leg up.",
-      "source": "Dark Reading",
-      "published": "2026-05-05T20:40:11+00:00"
     }
   ]
 }
