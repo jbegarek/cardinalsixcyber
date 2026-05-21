@@ -1,6 +1,34 @@
 {
-  "last_updated": "2026-05-21T16:51:48.797089+00:00",
+  "last_updated": "2026-05-21T18:35:41.069232+00:00",
   "articles": [
+    {
+      "title": "Google accidentally exposed details of unfixed Chromium flaw",
+      "link": "https://www.bleepingcomputer.com/news/security/google-accidentally-exposed-details-of-unfixed-chromium-flaw/",
+      "summary": "Google has accidentally leaked details about an unfixed issue in Chromium that keeps JavaScript running in the background even when the browser is closed, allowing remote code execution on the...",
+      "source": "BleepingComputer",
+      "published": "2026-05-21T18:13:50+00:00"
+    },
+    {
+      "title": "Two Americans plead guilty to assisting India-based tech support scam centers",
+      "link": "https://therecord.media/two-americans-plead-guilty-india-call-center-scams",
+      "summary": "Adam Young, 42, and Harrison Gevirtz, 33, pleaded guilty to misprision of a felony after they were accused of offering phone numbers, call routing services, call tracking tools and call forwarding...",
+      "source": "The Record",
+      "published": "2026-05-21T18:02:00+00:00"
+    },
+    {
+      "title": "CVE-2026-9089 - ConnectWise Automate Agent Unvalidated Component Loading and Update Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-9089",
+      "summary": "CVE ID :CVE-2026-9089 Published : May 21, 2026, 4:16 p.m. | 1 hour, 7 minutes ago Description :The ConnectWise Automate™ Agent does not fully verify the authenticity of components obtained during...",
+      "source": "CVE Feed",
+      "published": "2026-05-21T16:16:23+00:00"
+    },
+    {
+      "title": "CVE-2026-39531 - WordPress WP Directory Kit plugin <= 1.5.0 - SQL Injection vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-39531",
+      "summary": "CVE ID :CVE-2026-39531 Published : May 21, 2026, 4:16 p.m. | 1 hour, 7 minutes ago Description :Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in...",
+      "source": "CVE Feed",
+      "published": "2026-05-21T16:16:23+00:00"
+    },
     {
       "title": "AI Agents Are Shifting Identity Security Budget Dynamics",
       "link": "https://www.darkreading.com/identity-access-management-security/shifting-budget-dynamics-identity-security-ai-agents",
@@ -32,21 +60,21 @@
     {
       "title": "CVE-2026-2740 - Remote Code Execution",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-2740",
-      "summary": "CVE ID :CVE-2026-2740 Published : May 21, 2026, 2:16 p.m. | 1 hour, 7 minutes ago Description :Zohocorp ManageEngine ADSelfService Plus version before 6525, DataSecurity Plus before 6264 and...",
+      "summary": "CVE ID :CVE-2026-2740 Published : May 21, 2026, 2:16 p.m. | 3 hours, 7 minutes ago Description :Zohocorp ManageEngine ADSelfService Plus version before 6525, DataSecurity Plus before 6264 and...",
       "source": "CVE Feed",
       "published": "2026-05-21T14:16:44+00:00"
     },
     {
       "title": "CVE-2025-71211 - Trend Micro Apex One Unauthenticated Remote Code Execution Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2025-71211",
-      "summary": "CVE ID :CVE-2025-71211 Published : May 21, 2026, 2:16 p.m. | 1 hour, 7 minutes ago Description :A vulnerability in the Trend Micro Apex One management console could allow a remote attacker to upload...",
+      "summary": "CVE ID :CVE-2025-71211 Published : May 21, 2026, 2:16 p.m. | 3 hours, 7 minutes ago Description :A vulnerability in the Trend Micro Apex One management console could allow a remote attacker to upload...",
       "source": "CVE Feed",
       "published": "2026-05-21T14:16:43+00:00"
     },
     {
       "title": "CVE-2025-71210 - Trend Micro Apex One Remote Code Execution Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2025-71210",
-      "summary": "CVE ID :CVE-2025-71210 Published : May 21, 2026, 2:16 p.m. | 1 hour, 7 minutes ago Description :A vulnerability in the Trend Micro Apex One management console could allow a remote attacker to upload...",
+      "summary": "CVE ID :CVE-2025-71210 Published : May 21, 2026, 2:16 p.m. | 3 hours, 7 minutes ago Description :A vulnerability in the Trend Micro Apex One management console could allow a remote attacker to upload...",
       "source": "CVE Feed",
       "published": "2026-05-21T14:16:43+00:00"
     },
@@ -81,7 +109,7 @@
     {
       "title": "CVE-2026-5118 - Divi Form Builder <= 5.1.2 - Unauthenticated Privilege Escalation via 'role'",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-5118",
-      "summary": "CVE ID :CVE-2026-5118 Published : May 21, 2026, 1:16 p.m. | 2 hours, 7 minutes ago Description :The Divi Form Builder plugin for WordPress is vulnerable to privilege escalation in versions up to, and...",
+      "summary": "CVE ID :CVE-2026-5118 Published : May 21, 2026, 1:16 p.m. | 4 hours, 7 minutes ago Description :The Divi Form Builder plugin for WordPress is vulnerable to privilege escalation in versions up to, and...",
       "source": "CVE Feed",
       "published": "2026-05-21T13:16:20+00:00"
     },
@@ -226,6 +254,20 @@
       "published": "2026-05-21T10:30:00+00:00"
     },
     {
+      "title": "CVE-2026-45253 - Missing validation in ptrace(PT_SC_REMOTE)",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-45253",
+      "summary": "CVE ID :CVE-2026-45253 Published : May 21, 2026, 10:16 a.m. | 7 hours, 7 minutes ago Description :ptrace(PT_SC_REMOTE) failed to properly validate parameters for the syscall(2) and __syscall(2)...",
+      "source": "CVE Feed",
+      "published": "2026-05-21T10:16:26+00:00"
+    },
+    {
+      "title": "CVE-2026-39461 - select(2) file descriptor set overflow causes stack overflow",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-39461",
+      "summary": "CVE ID :CVE-2026-39461 Published : May 21, 2026, 10:16 a.m. | 7 hours, 7 minutes ago Description :libcasper(3) communicates with helper processes via UNIX domain sockets, and uses the select(2)...",
+      "source": "CVE Feed",
+      "published": "2026-05-21T10:16:25+00:00"
+    },
+    {
       "title": "Nine-year-old Linux Kernel Vulnerability Let Attackers Exfiltrate SSH Private Keys",
       "link": "https://cybersecuritynews.com/nine-year-old-linux-kernel-vulnerability/",
       "summary": "Nine-year-old Linux Kernel Vulnerability Let Attackers Exfiltrate SSH Private Keys A newly disclosed Linux kernel vulnerability, tracked as CVE-2026-46333, exposes a serious local privilege...",
@@ -270,49 +312,49 @@
     {
       "title": "CVE-2026-9157 - Remote Code Execution in Gmission Web FAX",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-9157",
-      "summary": "CVE ID :CVE-2026-9157 Published : May 21, 2026, 9:16 a.m. | 6 hours, 7 minutes ago Description :Improper input validation, Unrestricted upload of file with dangerous type vulnerability in Gmission...",
+      "summary": "CVE ID :CVE-2026-9157 Published : May 21, 2026, 9:16 a.m. | 8 hours, 7 minutes ago Description :Improper input validation, Unrestricted upload of file with dangerous type vulnerability in Gmission...",
       "source": "CVE Feed",
       "published": "2026-05-21T09:16:30+00:00"
     },
     {
       "title": "CVE-2026-5433 - Improper Sanitization in CNM Web Interface",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-5433",
-      "summary": "CVE ID :CVE-2026-5433 Published : May 21, 2026, 9:16 a.m. | 6 hours, 7 minutes ago Description :Honeywell Control Network Module (CNM) contains command injection vulnerability in the web interface...",
+      "summary": "CVE ID :CVE-2026-5433 Published : May 21, 2026, 9:16 a.m. | 8 hours, 7 minutes ago Description :Honeywell Control Network Module (CNM) contains command injection vulnerability in the web interface...",
       "source": "CVE Feed",
       "published": "2026-05-21T09:16:30+00:00"
     },
     {
       "title": "CVE-2026-4858 - Path traversal in integration action URL leading to arbitrary API execution via system admin’s auth token.",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-4858",
-      "summary": "CVE ID :CVE-2026-4858 Published : May 21, 2026, 9:16 a.m. | 6 hours, 7 minutes ago Description :Mattermost versions 11.6.x Severity: 8.0 | HIGH Visit the link for more details, such as CVSS details...",
+      "summary": "CVE ID :CVE-2026-4858 Published : May 21, 2026, 9:16 a.m. | 8 hours, 7 minutes ago Description :Mattermost versions 11.6.x Severity: 8.0 | HIGH Visit the link for more details, such as CVSS details...",
       "source": "CVE Feed",
       "published": "2026-05-21T09:16:30+00:00"
     },
     {
       "title": "CVE-2026-44051 - Arbitrary file read via attacker-controlled symlink creation",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-44051",
-      "summary": "CVE ID :CVE-2026-44051 Published : May 21, 2026, 8:16 a.m. | 7 hours, 7 minutes ago Description :An improper link resolution vulnerability in Netatalk 3.0.2 through 4.4.2 allows a remote...",
+      "summary": "CVE ID :CVE-2026-44051 Published : May 21, 2026, 8:16 a.m. | 9 hours, 7 minutes ago Description :An improper link resolution vulnerability in Netatalk 3.0.2 through 4.4.2 allows a remote...",
       "source": "CVE Feed",
       "published": "2026-05-21T08:16:20+00:00"
     },
     {
       "title": "CVE-2026-44050 - Heap buffer overflow in CNID daemon comm_rcv()",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-44050",
-      "summary": "CVE ID :CVE-2026-44050 Published : May 21, 2026, 8:16 a.m. | 7 hours, 7 minutes ago Description :A heap-based buffer overflow in the CNID daemon comm_rcv() function in Netatalk 2.0.0 through 4.4.2...",
+      "summary": "CVE ID :CVE-2026-44050 Published : May 21, 2026, 8:16 a.m. | 9 hours, 7 minutes ago Description :A heap-based buffer overflow in the CNID daemon comm_rcv() function in Netatalk 2.0.0 through 4.4.2...",
       "source": "CVE Feed",
       "published": "2026-05-21T08:16:20+00:00"
     },
     {
       "title": "CVE-2026-44048 - Stack buffer overflow via UCS-2 type confusion in convert_charset()",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-44048",
-      "summary": "CVE ID :CVE-2026-44048 Published : May 21, 2026, 8:16 a.m. | 7 hours, 7 minutes ago Description :A stack-based buffer overflow via UCS-2 type confusion in convert_charset() in Netatalk 2.0.4 through...",
+      "summary": "CVE ID :CVE-2026-44048 Published : May 21, 2026, 8:16 a.m. | 9 hours, 7 minutes ago Description :A stack-based buffer overflow via UCS-2 type confusion in convert_charset() in Netatalk 2.0.4 through...",
       "source": "CVE Feed",
       "published": "2026-05-21T08:16:20+00:00"
     },
     {
       "title": "CVE-2026-44047 - SQL injection in MySQL CNID backend",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-44047",
-      "summary": "CVE ID :CVE-2026-44047 Published : May 21, 2026, 8:16 a.m. | 7 hours, 7 minutes ago Description :An SQL injection vulnerability in the MySQL CNID backend in Netatalk 3.1.0 through 4.4.2 allows a...",
+      "summary": "CVE ID :CVE-2026-44047 Published : May 21, 2026, 8:16 a.m. | 9 hours, 7 minutes ago Description :An SQL injection vulnerability in the MySQL CNID backend in Netatalk 3.1.0 through 4.4.2 allows a...",
       "source": "CVE Feed",
       "published": "2026-05-21T08:16:20+00:00"
     },
@@ -375,7 +417,7 @@
     {
       "title": "CVE-2026-6279 - Avada (Fusion) Builder <= 3.15.2 - Unauthenticated Remote Code Execution via PHP Function Injection via 'render_logics' Shortcode Attribute via Widget AJAX Handler",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-6279",
-      "summary": "CVE ID :CVE-2026-6279 Published : May 21, 2026, 5:16 a.m. | 10 hours, 7 minutes ago Description :The Avada Builder (fusion-builder) plugin for WordPress is vulnerable to Unauthenticated Remote Code...",
+      "summary": "CVE ID :CVE-2026-6279 Published : May 21, 2026, 5:16 a.m. | 12 hours, 7 minutes ago Description :The Avada Builder (fusion-builder) plugin for WordPress is vulnerable to Unauthenticated Remote Code...",
       "source": "CVE Feed",
       "published": "2026-05-21T05:16:23+00:00"
     },
@@ -403,21 +445,21 @@
     {
       "title": "CVE-2026-9152 - Unauthenticated SOAP Endpoint in Altium 365 SearchService Allows Cross-Tenant Data Exfiltration and Index Destruction",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-9152",
-      "summary": "CVE ID :CVE-2026-9152 Published : May 21, 2026, 2:16 a.m. | 13 hours, 7 minutes ago Description :A missing authentication vulnerability exists in the Altium 365 SearchService. A legacy SOAP endpoint...",
+      "summary": "CVE ID :CVE-2026-9152 Published : May 21, 2026, 2:16 a.m. | 15 hours, 7 minutes ago Description :A missing authentication vulnerability exists in the Altium 365 SearchService. A legacy SOAP endpoint...",
       "source": "CVE Feed",
       "published": "2026-05-21T02:16:33+00:00"
     },
     {
       "title": "CVE-2026-48172 - LiteSpeed cPanel Plugin Privilege Escalation",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-48172",
-      "summary": "CVE ID :CVE-2026-48172 Published : May 21, 2026, 2:16 a.m. | 13 hours, 7 minutes ago Description :LiteSpeed User-End cPanel Plugin before 2.4.5 allows privilege escalation (possibly to root), as...",
+      "summary": "CVE ID :CVE-2026-48172 Published : May 21, 2026, 2:16 a.m. | 15 hours, 7 minutes ago Description :LiteSpeed User-End cPanel Plugin before 2.4.5 allows privilege escalation (possibly to root), as...",
       "source": "CVE Feed",
       "published": "2026-05-21T02:16:33+00:00"
     },
     {
       "title": "CVE-2026-40165 - authentik: SAML NameID XML Comment Injection Enables Authentication Bypass via Identifier Truncation",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-40165",
-      "summary": "CVE ID :CVE-2026-40165 Published : May 21, 2026, 12:16 a.m. | 15 hours, 7 minutes ago Description :authentik is an open-source identity provider. Versions 2025.12.4 and prior, and versions...",
+      "summary": "CVE ID :CVE-2026-40165 Published : May 21, 2026, 12:16 a.m. | 17 hours, 7 minutes ago Description :authentik is an open-source identity provider. Versions 2025.12.4 and prior, and versions...",
       "source": "CVE Feed",
       "published": "2026-05-21T00:16:28+00:00"
     },
@@ -436,6 +478,13 @@
       "published": "2026-05-20T23:00:00+00:00"
     },
     {
+      "title": "CVE-2026-47372 - Crypt::SaltedHash versions through 0.09 for Perl generate insecure random values for salts",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-47372",
+      "summary": "CVE ID :CVE-2026-47372 Published : May 20, 2026, 10:16 p.m. | 19 hours, 7 minutes ago Description :Crypt::SaltedHash versions through 0.09 for Perl generate insecure random values for salts. These...",
+      "source": "CVE Feed",
+      "published": "2026-05-20T22:16:37+00:00"
+    },
+    {
       "title": "Ukraine identifies infostealer operator tied to 28,000 stolen accounts",
       "link": "https://www.bleepingcomputer.com/news/security/ukraine-identifies-infostealer-operator-tied-to-28-000-stolen-accounts/",
       "summary": "The Ukrainian cyberpolice, working in conjunction with U.S. law enforcement, has identified an 18-year-old man from Odesa suspected of running an infostealer malware operation targeting users of an...",
@@ -452,14 +501,14 @@
     {
       "title": "CVE-2026-8632 - HP Linux Imaging and Printing Software – Potential Escalation of Privilege and Arbitrary Code Execution",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-8632",
-      "summary": "CVE ID :CVE-2026-8632 Published : May 20, 2026, 9:16 p.m. | 18 hours, 7 minutes ago Description :A potential security vulnerability has been identified in the HP Linux Imaging and Printing Software...",
+      "summary": "CVE ID :CVE-2026-8632 Published : May 20, 2026, 9:16 p.m. | 20 hours, 7 minutes ago Description :A potential security vulnerability has been identified in the HP Linux Imaging and Printing Software...",
       "source": "CVE Feed",
       "published": "2026-05-20T21:16:18+00:00"
     },
     {
       "title": "CVE-2026-8631 - HP Linux Imaging and Printing Software – Potential Escalation of Privilege and Arbitrary Code Execution",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-8631",
-      "summary": "CVE ID :CVE-2026-8631 Published : May 20, 2026, 9:16 p.m. | 18 hours, 7 minutes ago Description :A potential security vulnerability has been identified in the HP Linux Imaging and Printing Software...",
+      "summary": "CVE ID :CVE-2026-8631 Published : May 20, 2026, 9:16 p.m. | 20 hours, 7 minutes ago Description :A potential security vulnerability has been identified in the HP Linux Imaging and Printing Software...",
       "source": "CVE Feed",
       "published": "2026-05-20T21:16:18+00:00"
     },
@@ -487,58 +536,23 @@
     {
       "title": "CVE-2026-9144 - Taiko AG1000-01A Rev 7.3/8 Stored XSS via Web Configuration Interface",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-9144",
-      "summary": "CVE ID :CVE-2026-9144 Published : May 20, 2026, 8:16 p.m. | 19 hours, 7 minutes ago Description :Taiko AG1000-01A SMS Alert Gateway Rev 7.3 and Rev 8 contains a stored cross-site scripting...",
+      "summary": "CVE ID :CVE-2026-9144 Published : May 20, 2026, 8:16 p.m. | 21 hours, 7 minutes ago Description :Taiko AG1000-01A SMS Alert Gateway Rev 7.3 and Rev 8 contains a stored cross-site scripting...",
       "source": "CVE Feed",
       "published": "2026-05-20T20:16:46+00:00"
     },
     {
       "title": "CVE-2026-9141 - Taiko AG1000-01A Rev 7.3/8 Authentication Bypass via Web Interface",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-9141",
-      "summary": "CVE ID :CVE-2026-9141 Published : May 20, 2026, 8:16 p.m. | 19 hours, 7 minutes ago Description :Taiko AG1000-01A SMS Alert Gateway Rev 7.3 and Rev 8 contains an authentication bypass vulnerability...",
+      "summary": "CVE ID :CVE-2026-9141 Published : May 20, 2026, 8:16 p.m. | 21 hours, 7 minutes ago Description :Taiko AG1000-01A SMS Alert Gateway Rev 7.3 and Rev 8 contains an authentication bypass vulnerability...",
       "source": "CVE Feed",
       "published": "2026-05-20T20:16:46+00:00"
     },
     {
       "title": "CVE-2026-9139 - Taiko AG1000-01A Rev 7.3/8 Hard-coded Credentials via login.zhtml",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-9139",
-      "summary": "CVE ID :CVE-2026-9139 Published : May 20, 2026, 8:16 p.m. | 19 hours, 7 minutes ago Description :Taiko AG1000-01A SMS Alert Gateway Rev 7.3 and Rev 8 contains a hard-coded credential vulnerability in...",
+      "summary": "CVE ID :CVE-2026-9139 Published : May 20, 2026, 8:16 p.m. | 21 hours, 7 minutes ago Description :Taiko AG1000-01A SMS Alert Gateway Rev 7.3 and Rev 8 contains a hard-coded credential vulnerability in...",
       "source": "CVE Feed",
       "published": "2026-05-20T20:16:46+00:00"
-    },
-    {
-      "title": "CVE-2026-9136 - Unauthorized ShadowAttribute modification in MISP via client-supplied identifier",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-9136",
-      "summary": "CVE ID :CVE-2026-9136 Published : May 20, 2026, 8:16 p.m. | 19 hours, 7 minutes ago Description :A vulnerability was identified in the ShadowAttribute proposal creation workflow. The add action...",
-      "source": "CVE Feed",
-      "published": "2026-05-20T20:16:46+00:00"
-    },
-    {
-      "title": "CVE-2026-9133 - Arbitrary file read in rabbitmq-aws plugin",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-9133",
-      "summary": "CVE ID :CVE-2026-9133 Published : May 20, 2026, 8:16 p.m. | 19 hours, 7 minutes ago Description :Active debug code exists in the ARN resolver of amazon-mq rabbitmq-aws before version 0.2.1. A debug...",
-      "source": "CVE Feed",
-      "published": "2026-05-20T20:16:45+00:00"
-    },
-    {
-      "title": "CVE-2026-9129 - Path Traversal in Altium Enterprise Server Viewer StorageController Allows Arbitrary File Read",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-9129",
-      "summary": "CVE ID :CVE-2026-9129 Published : May 20, 2026, 8:16 p.m. | 19 hours, 7 minutes ago Description :A path traversal vulnerability exists in the Altium Enterprise Server Viewer StorageController due to...",
-      "source": "CVE Feed",
-      "published": "2026-05-20T20:16:45+00:00"
-    },
-    {
-      "title": "CVE-2026-9126 - Google Chrome Use After Free in DOM Medium Severity Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-9126",
-      "summary": "CVE ID :CVE-2026-9126 Published : May 20, 2026, 8:16 p.m. | 19 hours, 7 minutes ago Description :Use after free in DOM in Google Chrome on prior to 148.0.7778.179 allowed a remote attacker to execute...",
-      "source": "CVE Feed",
-      "published": "2026-05-20T20:16:45+00:00"
-    },
-    {
-      "title": "CVE-2026-9121 - Google Chrome GPU Out-of-Bounds Read Heap Corruption",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-9121",
-      "summary": "CVE ID :CVE-2026-9121 Published : May 20, 2026, 8:16 p.m. | 19 hours, 7 minutes ago Description :Out of bounds read in GPU in Google Chrome on prior to 148.0.7778.179 allowed a remote attacker to...",
-      "source": "CVE Feed",
-      "published": "2026-05-20T20:16:44+00:00"
     },
     {
       "title": "Processes and Culture Top Reasons Behind Data Breaches",
@@ -567,13 +581,6 @@
       "summary": "Windows Zero-Days Trilogy: Chaotic Eclipse’s Unpatched Assault Background: Who Is Chaotic Eclipse?Security researcher Chaotic Eclipse, operating under the GitHub handle Nightmare-Eclipse, has...",
       "source": "CVE Newsroom",
       "published": "2026-05-20T16:39:38+00:00"
-    },
-    {
-      "title": "Ukraine probes teen suspect in cyber theft scheme targeting California online shoppers",
-      "link": "https://therecord.media/ukraine-probes-teen-suspect-cyber-theft-scheme",
-      "summary": "The investigation began after U.S. authorities informed their Ukrainian counterparts that hackers operating from Ukraine could be involved in attacks targeting users of American e-commerce platforms...",
-      "source": "The Record",
-      "published": "2026-05-20T16:33:00+00:00"
     },
     {
       "title": "Patch Now: Critical Flaw in OT Robot OS Gives Attackers Control",
@@ -707,13 +714,6 @@
       "summary": "Critical ChromaDB Flaw Exposes AI Vector Databases to Remote Code Execution The security issue tracked as CVE-2026-45829, often referred to in analysis as ChromaToast Served Pre-Auth, affects the...",
       "source": "CVE Newsroom",
       "published": "2026-05-20T08:25:34+00:00"
-    },
-    {
-      "title": "GitHub confirms breach of 3,800 repos via malicious VSCode extension",
-      "link": "https://www.bleepingcomputer.com/news/security/github-confirms-breach-of-3-800-repos-via-malicious-vscode-extension/",
-      "summary": "GitHub has confirmed that roughly 3,800 internal repositories were breached after one of its employees installed a malicious VS Code extension. [...]",
-      "source": "BleepingComputer",
-      "published": "2026-05-20T08:14:08+00:00"
     },
     {
       "title": "Microsoft waarschuwt voor YellowKey-lek dat BitLocker-encryptie omzeilt",
@@ -933,17 +933,17 @@
       "published": "2026-05-18T13:50:17+00:00"
     },
     {
-      "title": "The Boring Stuff Is Dangerous Now",
-      "link": "https://www.darkreading.com/cyber-risk/ai-code-and-agents-forces-defenders-adapt",
-      "summary": "AI agents capable of discovering and exploiting obscure vulnerabilities are emerging alongside developers producing vast amounts of potentially flawed AI-generated code, forcing defenders to adapt...",
-      "source": "Dark Reading",
-      "published": "2026-05-18T13:00:00+00:00"
-    },
-    {
       "title": "How to Reduce Phishing Exposure Before It Turns into Business Disruption",
       "link": "https://thehackernews.com/2026/05/how-to-reduce-phishing-exposure-before.html",
       "summary": "What happens when a phishing email looks clean enough to pass through security, but dangerous enough to expose the business after one click? That is the gap many SOCs still struggle with: the attacks...",
       "source": "The Hacker News",
+      "published": "2026-05-18T13:00:00+00:00"
+    },
+    {
+      "title": "The Boring Stuff Is Dangerous Now",
+      "link": "https://www.darkreading.com/cyber-risk/ai-code-and-agents-forces-defenders-adapt",
+      "summary": "AI agents capable of discovering and exploiting obscure vulnerabilities are emerging alongside developers producing vast amounts of potentially flawed AI-generated code, forcing defenders to adapt...",
+      "source": "Dark Reading",
       "published": "2026-05-18T13:00:00+00:00"
     },
     {
