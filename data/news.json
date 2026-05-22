@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-22T18:34:03.254866+00:00",
+  "last_updated": "2026-05-22T20:31:48.844875+00:00",
   "articles": [
     {
       "title": "CISA to allow researchers to report vulnerabilities to exploited bugs catalog",
@@ -7,6 +7,55 @@
       "summary": "The Cybersecurity and Infrastructure Security Agency (CISA) announced the creation of a nomination form on Thursday that they said enables “researchers, vendors, and industry partners” to report bugs...",
       "source": "The Record",
       "published": "2026-05-23T01:11:00+00:00"
+    },
+    {
+      "title": "FBI warns of Kali365 phishing-as-a-service after April Microsoft 365 attacks",
+      "link": "https://therecord.media/fbi-warns-of-kali365-phishing-attacks",
+      "summary": "The law enforcement agency published an advisory on Thursday about Kali365 — a Telegram-based service for cybercriminals that allows them to capture legitimate \"OAuth\" tokens enabling widespread...",
+      "source": "The Record",
+      "published": "2026-05-22T20:01:00+00:00"
+    },
+    {
+      "title": "Meta settles school district lawsuit claiming addictive design harmed students' mental health",
+      "link": "https://therecord.media/meta-settles-school-district-lawsuit-mental-health",
+      "summary": "The bellwether lawsuit was the first of at least 1,200 to be brought by a school district against Meta, Snap, YouTube and TikTok for similar alleged harms. The other cases have not yet been tried.",
+      "source": "The Record",
+      "published": "2026-05-22T19:53:00+00:00"
+    },
+    {
+      "title": "CVE-2026-5843 - Docker Model Runner container-to-host code execution via MLX-LM model_file importlib loading",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-5843",
+      "summary": "CVE ID :CVE-2026-5843 Published : May 22, 2026, 7:28 p.m. | 59 minutes ago Description :The MLX inference backend in Docker Model Runner on macOS uses the MLX-LM library, which unconditionally...",
+      "source": "CVE Feed",
+      "published": "2026-05-22T19:28:38+00:00"
+    },
+    {
+      "title": "CVE-2026-5817 - Docker Model Runner container-to-host code execution via unsandboxed trust_remote_code in Python inference backends",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-5817",
+      "summary": "CVE ID :CVE-2026-5817 Published : May 22, 2026, 7:24 p.m. | 1 hour, 3 minutes ago Description :The vllm-metal inference backend in Docker Model Runner on macOS unconditionally sets...",
+      "source": "CVE Feed",
+      "published": "2026-05-22T19:24:15+00:00"
+    },
+    {
+      "title": "CVE-2026-48700 - PCManFM-Qt File Path URI Execution",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48700",
+      "summary": "CVE ID :CVE-2026-48700 Published : May 22, 2026, 6:43 p.m. | 1 hour, 45 minutes ago Description :An issue was discovered in all versions of PCManFM-Qt starting from 1.1.0. When a regular file's path...",
+      "source": "CVE Feed",
+      "published": "2026-05-22T18:43:05+00:00"
+    },
+    {
+      "title": "CVE-2026-6406 - Docker Desktop Enhanced Container Isolation bypass via --use-api-socket CLI flag",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-6406",
+      "summary": "CVE ID :CVE-2026-6406 Published : May 22, 2026, 6:32 p.m. | 1 hour, 55 minutes ago Description :The Docker CLI --use-api-socket flag bypasses Enhanced Container Isolation (ECI) restrictions in Docker...",
+      "source": "CVE Feed",
+      "published": "2026-05-22T18:32:15+00:00"
+    },
+    {
+      "title": "Ubiquiti Patches Critical UniFi OS Vulnerabilities Allowing Remote Privilege Escalation",
+      "link": "https://cybersecuritynews.com/unifi-os-vulnerabilities-privilege-escalation/",
+      "summary": "Ubiquiti Patches Critical UniFi OS Vulnerabilities Allowing Remote Privilege Escalation Ubiquiti Networks has released urgent security updates to address a series of highly critical vulnerabilities...",
+      "source": "CVE Newsroom",
+      "published": "2026-05-22T17:58:17+00:00"
     },
     {
       "title": "First VPN Dismantled in Global Takedown Over Use by 25 Ransomware Groups",
@@ -23,6 +72,13 @@
       "published": "2026-05-22T17:24:52+00:00"
     },
     {
+      "title": "Breaking down the new Qualcomm chip vulnerability | Kaspersky official blog",
+      "link": "https://www.kaspersky.co.uk/blog/qualcomm-cve-2026-25262/30591/",
+      "summary": "Breaking down the new Qualcomm chip vulnerability | Kaspersky official blog Imagine handing your smartphone over for repair. A couple of days later, you pick it up — and great, it’s working again...",
+      "source": "CVE Newsroom",
+      "published": "2026-05-22T17:21:15+00:00"
+    },
+    {
       "title": "Drupal Vulnerability in Hacker Crosshairs Shortly After Disclosure",
       "link": "https://www.securityweek.com/drupal-vulnerability-in-hacker-crosshairs-shortly-after-disclosure/",
       "summary": "Drupal is warning users that it has already seen attempts to exploit CVE-2026-9082 and security firms are seeing attacks against thousands of websites. The post Drupal Vulnerability in Hacker...",
@@ -30,11 +86,18 @@
       "published": "2026-05-22T17:15:26+00:00"
     },
     {
-      "title": "CVE-2026-9255 - Tool Execution Without Authorization via Piped Stdin in Kiro CLI",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-9255",
-      "summary": "CVE ID :CVE-2026-9255 Published : May 22, 2026, 4:38 p.m. | 1 hour, 48 minutes ago Description :Missing input source validation in the tool authorization prompt in Kiro CLI before 1.28.0 allows a...",
+      "title": "CVE-2026-32253 - Sunshine: Authentication bypass via improper client certificate validation",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-32253",
+      "summary": "CVE ID :CVE-2026-32253 Published : May 22, 2026, 5:07 p.m. | 3 hours, 21 minutes ago Description :Sunshine is a self-hosted game stream host for Moonlight. In versions prior to 2026.516.143833, the...",
       "source": "CVE Feed",
-      "published": "2026-05-22T16:38:10+00:00"
+      "published": "2026-05-22T17:07:04+00:00"
+    },
+    {
+      "title": "CVE-2026-33712 - TypeBot: Unauthenticated SSRF via isolated-vm fetch in preview chat endpoint bypasses SSRF controls",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-33712",
+      "summary": "CVE ID :CVE-2026-33712 Published : May 22, 2026, 4:50 p.m. | 3 hours, 38 minutes ago Description :Typebot is a chatbot builder tool. In versions 3.15.2 and prior, the preview chat endpoint (POST...",
+      "source": "CVE Feed",
+      "published": "2026-05-22T16:50:04+00:00"
     },
     {
       "title": "CISA adds Langflow Origin Validation Flaw to Known Exploited Vulnerabilities Catalog",
@@ -56,6 +119,13 @@
       "summary": "The Belarus-aligned threat actor known as Ghostwriter (aka UAC-0057 and UNC1151Ukraine's National Security and Defense Council) has been observed using lures related to Prometheus, a Ukrainian online...",
       "source": "The Hacker News",
       "published": "2026-05-22T16:20:32+00:00"
+    },
+    {
+      "title": "CVE-2026-28445 - Typebot: Stored XSS via Rating Block Custom Icon Bypasses isUnsafe Sandbox in Builder Preview",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-28445",
+      "summary": "CVE ID :CVE-2026-28445 Published : May 22, 2026, 4:12 p.m. | 4 hours, 15 minutes ago Description :Typebot is a chatbot builder tool. In versions 3.15.2 and prior, the RatingButton component in the...",
+      "source": "CVE Feed",
+      "published": "2026-05-22T16:12:17+00:00"
     },
     {
       "title": "CISA Warns of Microsoft Defender 0-Day Vulnerabilities Exploited in Attacks",
@@ -109,14 +179,14 @@
     {
       "title": "CVE-2026-8992 - Ivanti Secure Access Client Certificate Validation Remote Code Execution",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-8992",
-      "summary": "CVE ID :CVE-2026-8992 Published : May 22, 2026, 2:24 p.m. | 4 hours, 2 minutes ago Description :An improper certificate validation vulnerability in Ivanti Secure Access Client before 22.8R6 allows a...",
+      "summary": "CVE ID :CVE-2026-8992 Published : May 22, 2026, 2:24 p.m. | 6 hours, 3 minutes ago Description :An improper certificate validation vulnerability in Ivanti Secure Access Client before 22.8R6 allows a...",
       "source": "CVE Feed",
       "published": "2026-05-22T14:24:53+00:00"
     },
     {
       "title": "CVE-2026-9256 - NGINX ngx_http_rewrite_module vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-9256",
-      "summary": "CVE ID :CVE-2026-9256 Published : May 22, 2026, 2:11 p.m. | 4 hours, 15 minutes ago Description :NGINX Plus and NGINX Open Source have a vulnerability in the ngx_http_rewrite_module module. This...",
+      "summary": "CVE ID :CVE-2026-9256 Published : May 22, 2026, 2:11 p.m. | 6 hours, 16 minutes ago Description :NGINX Plus and NGINX Open Source have a vulnerability in the ngx_http_rewrite_module module. This...",
       "source": "CVE Feed",
       "published": "2026-05-22T14:11:41+00:00"
     },
@@ -158,14 +228,14 @@
     {
       "title": "CVE-2026-9277 - shell-quote `quote()` does not validate object-token shapes, allowing command injection via line terminators in `.op`",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-9277",
-      "summary": "CVE ID :CVE-2026-9277 Published : May 22, 2026, 1:22 p.m. | 5 hours, 4 minutes ago Description :shell-quote's `quote()` function did not validate object-token inputs against the operator model used...",
+      "summary": "CVE ID :CVE-2026-9277 Published : May 22, 2026, 1:22 p.m. | 7 hours, 5 minutes ago Description :shell-quote's `quote()` function did not validate object-token inputs against the operator model used...",
       "source": "CVE Feed",
       "published": "2026-05-22T13:22:38+00:00"
     },
     {
       "title": "Verizon DBIR: Healthcare Fends Off Increased Social Engineering Attacks",
       "link": "https://www.darkreading.com/cyber-risk/verizon-dbir-healthcare-fends-off-increased-social-engineering-attacks",
-      "summary": "Ransomware and vendor breaches persist, but the 2026 Data Breach Investigations Report (DBIR) highlights how evolving social engineering tactics make the sector more vulnerable.",
+      "summary": "Ransomware and vendor breaches persist. The \"2026 Data Breach Investigations Report\" (DBIR) highlights how evolving social engineering tactics make the sector more vulnerable.",
       "source": "Dark Reading",
       "published": "2026-05-22T13:17:25+00:00"
     },
@@ -179,7 +249,7 @@
     {
       "title": "CVE-2026-8670 - Insecure session handling on metrics web server",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-8670",
-      "summary": "CVE ID :CVE-2026-8670 Published : May 22, 2026, 1:12 p.m. | 5 hours, 14 minutes ago Description :Insufficient session expiration vulnerability in syslink software AG Avantra on Linux, Windows allows...",
+      "summary": "CVE ID :CVE-2026-8670 Published : May 22, 2026, 1:12 p.m. | 7 hours, 15 minutes ago Description :Insufficient session expiration vulnerability in syslink software AG Avantra on Linux, Windows allows...",
       "source": "CVE Feed",
       "published": "2026-05-22T13:12:52+00:00"
     },
@@ -212,6 +282,13 @@
       "published": "2026-05-22T12:00:42+00:00"
     },
     {
+      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/05/22/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "summary": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation. CVE-2026-9082 Drupal Core SQL Injection Vulnerability This type of...",
+      "source": "CISA Alerts",
+      "published": "2026-05-22T12:00:00+00:00"
+    },
+    {
       "title": "Megalodon GitHub Attack Targets 5,561 Repos with Malicious CI/CD Workflows",
       "link": "https://thehackernews.com/2026/05/megalodon-github-attack-targets-5561.html",
       "summary": "Cybersecurity researchers have disclosed details of a new automated campaign called Megalodon that has pushed 5,718 malicious commits to 5,561 GitHub repositories within a six-hour window. \"Using...",
@@ -235,7 +312,7 @@
     {
       "title": "CVE-2026-25606 - SQL Injection in STER",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-25606",
-      "summary": "CVE ID :CVE-2026-25606 Published : May 22, 2026, 10:16 a.m. | 8 hours, 10 minutes ago Description :A SQL injection vulnerability has been identified in STER. Improper neutralization of input provided...",
+      "summary": "CVE ID :CVE-2026-25606 Published : May 22, 2026, 10:16 a.m. | 10 hours, 11 minutes ago Description :A SQL injection vulnerability has been identified in STER. Improper neutralization of input...",
       "source": "CVE Feed",
       "published": "2026-05-22T10:16:17+00:00"
     },
@@ -347,7 +424,7 @@
     {
       "title": "CVE-2026-9018 - Easy Elements for Elementor – Addons & Website Templates <= 1.4.5 - Unauthenticated Privilege Escalation via 'custom_meta' Parameter",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-9018",
-      "summary": "CVE ID :CVE-2026-9018 Published : May 22, 2026, 5:16 a.m. | 13 hours, 10 minutes ago Description :The Easy Elements for Elementor – Addons & Website Templates plugin for WordPress is vulnerable to...",
+      "summary": "CVE ID :CVE-2026-9018 Published : May 22, 2026, 5:16 a.m. | 15 hours, 11 minutes ago Description :The Easy Elements for Elementor – Addons & Website Templates plugin for WordPress is vulnerable to...",
       "source": "CVE Feed",
       "published": "2026-05-22T05:16:28+00:00"
     },
@@ -361,63 +438,49 @@
     {
       "title": "CVE-2026-9054 - Invalid IP packets cause a kernel panic",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-9054",
-      "summary": "CVE ID :CVE-2026-9054 Published : May 22, 2026, 4:16 a.m. | 14 hours, 10 minutes ago Description :An attacker sending tcp, il, rudp, rudp, or gre packets with a length less than the header size would...",
+      "summary": "CVE ID :CVE-2026-9054 Published : May 22, 2026, 4:16 a.m. | 16 hours, 11 minutes ago Description :An attacker sending tcp, il, rudp, rudp, or gre packets with a length less than the header size would...",
       "source": "CVE Feed",
       "published": "2026-05-22T04:16:28+00:00"
     },
     {
       "title": "CVE-2026-34910 - \"UniFi OS Command Injection Vulnerability\"",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-34910",
-      "summary": "CVE ID :CVE-2026-34910 Published : May 22, 2026, 2:16 a.m. | 16 hours, 10 minutes ago Description :A malicious actor with access to the network could exploit an Improper Input Validation...",
+      "summary": "CVE ID :CVE-2026-34910 Published : May 22, 2026, 2:16 a.m. | 18 hours, 11 minutes ago Description :A malicious actor with access to the network could exploit an Improper Input Validation...",
       "source": "CVE Feed",
       "published": "2026-05-22T02:16:34+00:00"
     },
     {
       "title": "CVE-2026-34909 - \"UniFi OS Path Traversal Vulnerability\"",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-34909",
-      "summary": "CVE ID :CVE-2026-34909 Published : May 22, 2026, 2:16 a.m. | 16 hours, 10 minutes ago Description :A malicious actor with access to the network could exploit a Path Traversal vulnerability found in...",
+      "summary": "CVE ID :CVE-2026-34909 Published : May 22, 2026, 2:16 a.m. | 18 hours, 11 minutes ago Description :A malicious actor with access to the network could exploit a Path Traversal vulnerability found in...",
       "source": "CVE Feed",
       "published": "2026-05-22T02:16:34+00:00"
     },
     {
       "title": "CVE-2026-34908 - \"UniFi OS Improper Access Control Vulnerability\"",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-34908",
-      "summary": "CVE ID :CVE-2026-34908 Published : May 22, 2026, 2:16 a.m. | 16 hours, 10 minutes ago Description :A malicious actor with access to the network could exploit an Improper Access Control vulnerability...",
+      "summary": "CVE ID :CVE-2026-34908 Published : May 22, 2026, 2:16 a.m. | 18 hours, 11 minutes ago Description :A malicious actor with access to the network could exploit an Improper Access Control vulnerability...",
       "source": "CVE Feed",
       "published": "2026-05-22T02:16:34+00:00"
     },
     {
       "title": "CVE-2026-33000 - \"UniFi OS Command Injection Vulnerability\"",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-33000",
-      "summary": "CVE ID :CVE-2026-33000 Published : May 22, 2026, 2:16 a.m. | 16 hours, 10 minutes ago Description :A malicious actor with access to the network and high privileges could exploit an Improper Input...",
+      "summary": "CVE ID :CVE-2026-33000 Published : May 22, 2026, 2:16 a.m. | 18 hours, 11 minutes ago Description :A malicious actor with access to the network and high privileges could exploit an Improper Input...",
       "source": "CVE Feed",
       "published": "2026-05-22T02:16:33+00:00"
     },
     {
       "title": "CVE-2026-46727 - Apache Ruby Use-After-Free Remote Crash and Corruption Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-46727",
-      "summary": "CVE ID :CVE-2026-46727 Published : May 22, 2026, midnight | 18 hours, 27 minutes ago Description :An issue was discovered in Ruby 4 before 4.0.5. A race condition leading to a use-after-free in the...",
+      "summary": "CVE ID :CVE-2026-46727 Published : May 22, 2026, midnight | 20 hours, 28 minutes ago Description :An issue was discovered in Ruby 4 before 4.0.5. A race condition leading to a use-after-free in the...",
       "source": "CVE Feed",
       "published": "2026-05-22T00:00:00+00:00"
     },
     {
-      "title": "Belarus-linked hackers use fake training certificates to target Ukrainian officials",
-      "link": "https://therecord.media/oysterfresh-belarus-linked-campaign-targets-ukraine",
-      "summary": "A Belarus-linked hacking group known as GhostWriter has launched a new espionage campaign against Ukrainian government officials using fake emails disguised as messages from a popular online learning...",
-      "source": "The Record",
-      "published": "2026-05-21T23:00:00+00:00"
-    },
-    {
-      "title": "Hackers steal patient and billing data from German hospitals via third-party provider",
-      "link": "https://therecord.media/hackers-steal-patient-billing-data-german-hospitals",
-      "summary": "The large-scale data breach reportedly hit Unimed, a company that handles billing services for privately insured and self-paying patients on behalf of numerous German hospitals.",
-      "source": "The Record",
-      "published": "2026-05-21T23:00:00+00:00"
-    },
-    {
       "title": "CVE-2026-6960 - BookingPress Pro <= 5.6 - Unauthenticated Arbitrary File Upload via Signature Custom Field",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-6960",
-      "summary": "CVE ID :CVE-2026-6960 Published : May 21, 2026, 10:16 p.m. | 20 hours, 10 minutes ago Description :The BookingPress Pro plugin for WordPress is vulnerable to arbitrary file uploads due to missing...",
+      "summary": "CVE ID :CVE-2026-6960 Published : May 21, 2026, 10:16 p.m. | 22 hours, 11 minutes ago Description :The BookingPress Pro plugin for WordPress is vulnerable to arbitrary file uploads due to missing...",
       "source": "CVE Feed",
       "published": "2026-05-21T22:16:48+00:00"
     },
@@ -431,35 +494,35 @@
     {
       "title": "CVE-2026-8135 - Concrete CMS 9.5.0 and below is vulnerable to RCE due to insecure deserialization occurring in the ExpressEntryList block controller.",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-8135",
-      "summary": "CVE ID :CVE-2026-8135 Published : May 21, 2026, 9:16 p.m. | 21 hours, 10 minutes ago Description :Concrete CMS 9.5.0 and below is vulnerable to Remote Code Execution due to insecure deserialization...",
+      "summary": "CVE ID :CVE-2026-8135 Published : May 21, 2026, 9:16 p.m. | 23 hours, 11 minutes ago Description :Concrete CMS 9.5.0 and below is vulnerable to Remote Code Execution due to insecure deserialization...",
       "source": "CVE Feed",
       "published": "2026-05-21T21:16:32+00:00"
     },
     {
       "title": "CVE-2026-8134 - Concrete CMS 9.5.0 and below is vulnerable to Authenticated RCE via Composer customTemplate Path Traversal leading to PHP File Inclusion",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-8134",
-      "summary": "CVE ID :CVE-2026-8134 Published : May 21, 2026, 9:16 p.m. | 21 hours, 10 minutes ago Description :Concrete CMS 9.5.0 and below fails to sanitize path traversal sequences in the...",
+      "summary": "CVE ID :CVE-2026-8134 Published : May 21, 2026, 9:16 p.m. | 23 hours, 11 minutes ago Description :Concrete CMS 9.5.0 and below fails to sanitize path traversal sequences in the...",
       "source": "CVE Feed",
       "published": "2026-05-21T21:16:32+00:00"
     },
     {
       "title": "CVE-2026-47102 - LiteLLM < 1.83.10 Privilege Escalation via User Update",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-47102",
-      "summary": "CVE ID :CVE-2026-47102 Published : May 21, 2026, 9:16 p.m. | 21 hours, 10 minutes ago Description :LiteLLM prior to 1.83.10 allows a user to modify their own user_role via the /user/update endpoint...",
+      "summary": "CVE ID :CVE-2026-47102 Published : May 21, 2026, 9:16 p.m. | 23 hours, 11 minutes ago Description :LiteLLM prior to 1.83.10 allows a user to modify their own user_role via the /user/update endpoint...",
       "source": "CVE Feed",
       "published": "2026-05-21T21:16:32+00:00"
     },
     {
       "title": "CVE-2026-47101 - LiteLLM < 1.83.14 Privilege Escalation via API Key Generation",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-47101",
-      "summary": "CVE ID :CVE-2026-47101 Published : May 21, 2026, 9:16 p.m. | 21 hours, 10 minutes ago Description :LiteLLM prior to 1.83.14 allows an authenticated internal_user to create API keys with access to...",
+      "summary": "CVE ID :CVE-2026-47101 Published : May 21, 2026, 9:16 p.m. | 23 hours, 11 minutes ago Description :LiteLLM prior to 1.83.14 allows an authenticated internal_user to create API keys with access to...",
       "source": "CVE Feed",
       "published": "2026-05-21T21:16:32+00:00"
     },
     {
       "title": "CVE-2026-47114 - IINA < 1.4.3 Command Execution via iina://open URL Scheme",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-47114",
-      "summary": "CVE ID :CVE-2026-47114 Published : May 21, 2026, 8:16 p.m. | 22 hours, 10 minutes ago Description :IINA before 1.4.3 contains a user-assisted command execution vulnerability that allows remote...",
+      "summary": "CVE ID :CVE-2026-47114 Published : May 21, 2026, 8:16 p.m. | 1 day ago Description :IINA before 1.4.3 contains a user-assisted command execution vulnerability that allows remote attackers to execute...",
       "source": "CVE Feed",
       "published": "2026-05-21T20:16:14+00:00"
     },
@@ -469,27 +532,6 @@
       "summary": "A security researcher discovered the API keys can still be used for up to 23 minutes after deletion, even though the cloud provider claims deletion is immediate.",
       "source": "Dark Reading",
       "published": "2026-05-21T20:07:47+00:00"
-    },
-    {
-      "title": "CVE-2026-48242 - Open ISES Tickets < 3.44.2 Hardcoded MySQL Database Credentials in import_mdb.php",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48242",
-      "summary": "CVE ID :CVE-2026-48242 Published : May 21, 2026, 6:16 p.m. | 1 day ago Description :Open ISES Tickets before 3.44.2 contains hardcoded MySQL database connection credentials (host, username, password...",
-      "source": "CVE Feed",
-      "published": "2026-05-21T18:16:21+00:00"
-    },
-    {
-      "title": "CVE-2026-48241 - Open ISES Tickets < 3.44.2 Hardcoded MySQL Database Credentials in loader.php",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48241",
-      "summary": "CVE ID :CVE-2026-48241 Published : May 21, 2026, 6:16 p.m. | 1 day ago Description :Open ISES Tickets before 3.44.2 contains hardcoded MySQL database credentials in loader.php (a public-facing...",
-      "source": "CVE Feed",
-      "published": "2026-05-21T18:16:21+00:00"
-    },
-    {
-      "title": "CVE-2026-48235 - Open ISES Tickets < 3.44.2 SQL Injection in incs/remotes.inc.php via External GPS Tracker Data",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48235",
-      "summary": "CVE ID :CVE-2026-48235 Published : May 21, 2026, 6:16 p.m. | 1 day ago Description :Open ISES Tickets before 3.44.2 contains a SQL injection vulnerability in incs/remotes.inc.php where latitude...",
-      "source": "CVE Feed",
-      "published": "2026-05-21T18:16:20+00:00"
     },
     {
       "title": "Google accidentally exposed details of unfixed Chromium flaw",
@@ -504,27 +546,6 @@
       "summary": "Critical Chrome Vulnerabilities Enable Remote Code Execution Attacks – Patch Now! Google has released an urgent security update for Chrome, addressing 16 vulnerabilities including two rated Critical...",
       "source": "CVE Newsroom",
       "published": "2026-05-21T17:16:45+00:00"
-    },
-    {
-      "title": "CVE-2026-48207 - Apache Fory: PyFory ReduceSerializer Incomplete Policy Enforcement",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48207",
-      "summary": "CVE ID :CVE-2026-48207 Published : May 21, 2026, 5:16 p.m. | 1 day, 1 hour ago Description :Deserialization of untrusted data in Apache Fory PyFory. PyFory's ReduceSerializer could bypass documented...",
-      "source": "CVE Feed",
-      "published": "2026-05-21T17:16:21+00:00"
-    },
-    {
-      "title": "CVE-2026-9089 - ConnectWise Automate Agent Unvalidated Component Loading and Update Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-9089",
-      "summary": "CVE ID :CVE-2026-9089 Published : May 21, 2026, 4:16 p.m. | 1 day, 2 hours ago Description :The ConnectWise Automate™ Agent does not fully verify the authenticity of components obtained during plugin...",
-      "source": "CVE Feed",
-      "published": "2026-05-21T16:16:23+00:00"
-    },
-    {
-      "title": "CVE-2026-39531 - WordPress WP Directory Kit plugin <= 1.5.0 - SQL Injection vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-39531",
-      "summary": "CVE ID :CVE-2026-39531 Published : May 21, 2026, 4:16 p.m. | 1 day, 2 hours ago Description :Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Wp...",
-      "source": "CVE Feed",
-      "published": "2026-05-21T16:16:23+00:00"
     },
     {
       "title": "AI Agents Are Shifting Identity Security Budget Dynamics",
@@ -604,39 +625,11 @@
       "published": "2026-05-21T12:47:16+00:00"
     },
     {
-      "title": "Autonomous fuzzing process under LLM supervision",
-      "link": "https://cert.pl/en/posts/2026/05/autonomous-fuzzing/",
-      "summary": "Autonomous fuzzing process under LLM supervision The CCN project is co-financed by the European Regional Development Fund and the State Budget under the European Funds for Digital Development...",
-      "source": "CVE Newsroom",
-      "published": "2026-05-21T12:37:00+00:00"
-    },
-    {
-      "title": "P2PInfect Botnet Compromises Kubernetes Clusters Through Exposed Redis Instances",
-      "link": "https://cybersecuritynews.com/p2pinfect-botnet-compromises-kubernetes-clusters-through-exposed-redis-instances/",
-      "summary": "P2PInfect Botnet Compromises Kubernetes Clusters Through Exposed Redis Instances A well-known botnet is now targeting cloud environments in a more calculated way than before. P2PInfect, a...",
-      "source": "CVE Newsroom",
-      "published": "2026-05-21T12:27:42+00:00"
-    },
-    {
       "title": "Cisco Patches Critical Vulnerability in Secure Workload",
       "link": "https://www.securityweek.com/cisco-patches-critical-vulnerability-in-secure-workload/",
       "summary": "Insufficient validation and authentication in the Secure Workload’s REST APIs provide remote attackers with Site Admin privileges. The post Cisco Patches Critical Vulnerability in Secure Workload...",
       "source": "SecurityWeek",
       "published": "2026-05-21T12:04:13+00:00"
-    },
-    {
-      "title": "ABB Terra AC Wallbox",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-141-05",
-      "summary": "View CSAF Summary ABB is aware of vulnerabilities in the product versions listed as affected in the advisory. An attacker who successfully exploited this vulnerability could cause the pollution of...",
-      "source": "CISA Alerts",
-      "published": "2026-05-21T12:00:00+00:00"
-    },
-    {
-      "title": "Hitachi Energy GMS600",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-141-01",
-      "summary": "View CSAF Summary Hitachi Energy is aware of the vulnerability, CVE-2022-4304 in the OSS component OpenSSL, that affects the GMS600 versions that are listed below. An attacker successfully exploiting...",
-      "source": "CISA Alerts",
-      "published": "2026-05-21T12:00:00+00:00"
     },
     {
       "title": "ABB B&R Automation Studio",
@@ -646,9 +639,9 @@
       "published": "2026-05-21T12:00:00+00:00"
     },
     {
-      "title": "ABB B&R Automation Runtime",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-141-04",
-      "summary": "View CSAF Summary An update is available that resolves a vulnerability identified by B&Rs internal security analysis in the product versions listed as affected in this advisory. An attacker who...",
+      "title": "ABB Terra AC Wallbox",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-141-05",
+      "summary": "View CSAF Summary ABB is aware of vulnerabilities in the product versions listed as affected in the advisory. An attacker who successfully exploited this vulnerability could cause the pollution of...",
       "source": "CISA Alerts",
       "published": "2026-05-21T12:00:00+00:00"
     },
@@ -663,6 +656,20 @@
       "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
       "link": "https://www.cisa.gov/news-events/alerts/2026/05/21/cisa-adds-two-known-exploited-vulnerabilities-catalog",
       "summary": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation. CVE-2025-34291 Langflow Origin Validation Error Vulnerability...",
+      "source": "CISA Alerts",
+      "published": "2026-05-21T12:00:00+00:00"
+    },
+    {
+      "title": "ABB B&R Automation Runtime",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-141-04",
+      "summary": "View CSAF Summary An update is available that resolves a vulnerability identified by B&Rs internal security analysis in the product versions listed as affected in this advisory. An attacker who...",
+      "source": "CISA Alerts",
+      "published": "2026-05-21T12:00:00+00:00"
+    },
+    {
+      "title": "Hitachi Energy GMS600",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-141-01",
+      "summary": "View CSAF Summary Hitachi Energy is aware of the vulnerability, CVE-2022-4304 in the OSS component OpenSSL, that affects the GMS600 versions that are listed below. An attacker successfully exploiting...",
       "source": "CISA Alerts",
       "published": "2026-05-21T12:00:00+00:00"
     },
@@ -1255,6 +1262,13 @@
       "published": "2026-05-14T13:00:00+00:00"
     },
     {
+      "title": "Siemens gWAP",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-134-01",
+      "summary": "View CSAF Summary Siemens gPROMS Web Applications Publisher (gWAP) is affected by a remote code execution vulnerability introduced through a third-party component, namely the Axios HTTP client...",
+      "source": "CISA Alerts",
+      "published": "2026-05-14T12:00:00+00:00"
+    },
+    {
       "title": "Siemens SIMATIC",
       "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-134-10",
       "summary": "View CSAF Summary SIMATIC CN 4100 contains multiple vulnerabilities which could potentially lead to a compromise in availability, integrity and confidentiality. Siemens has released a new version for...",
@@ -1276,13 +1290,6 @@
       "published": "2026-05-14T12:00:00+00:00"
     },
     {
-      "title": "Siemens gWAP",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-134-01",
-      "summary": "View CSAF Summary Siemens gPROMS Web Applications Publisher (gWAP) is affected by a remote code execution vulnerability introduced through a third-party component, namely the Axios HTTP client...",
-      "source": "CISA Alerts",
-      "published": "2026-05-14T12:00:00+00:00"
-    },
-    {
       "title": "Siemens Simcenter Femap",
       "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-134-05",
       "summary": "View CSAF Summary Simcenter Femap is affected by heap based buffer overflow vulnerability in Datakit library that could be triggered when the application reads files in IPT format. If a user is...",
@@ -1297,9 +1304,9 @@
       "published": "2026-05-14T12:00:00+00:00"
     },
     {
-      "title": "Siemens Opcenter RDnL",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-134-09",
-      "summary": "View CSAF Summary Opcenter RDnL is affected by missing authentication in critical function in ‘ActiveMQ Artemis’. An unauthenticated attacker within the adjacent network could use the Core protocol...",
+      "title": "Siemens Siemens ROS#",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-134-08",
+      "summary": "View CSAF Summary ROS# contains a ROS service file_server, that before version 2.2.2 contains a path traversal vulnerability which could allow an attacker to access, i.e. read and write, arbitrary...",
       "source": "CISA Alerts",
       "published": "2026-05-14T12:00:00+00:00"
     },
@@ -1363,13 +1370,6 @@
       "title": "Siemens SIMATIC",
       "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-134-07",
       "summary": "View CSAF Summary SIMATIC HMI Unified Comfort Panels before V21.0 are affected by a vulnerability that allows an unauthenticated attacker to access the web browser via the help link. This...",
-      "source": "CISA Alerts",
-      "published": "2026-05-14T12:00:00+00:00"
-    },
-    {
-      "title": "Siemens Siemens ROS#",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-134-08",
-      "summary": "View CSAF Summary ROS# contains a ROS service file_server, that before version 2.2.2 contains a path traversal vulnerability which could allow an attacker to access, i.e. read and write, arbitrary...",
       "source": "CISA Alerts",
       "published": "2026-05-14T12:00:00+00:00"
     },
