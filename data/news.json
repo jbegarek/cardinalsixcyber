@@ -1,6 +1,90 @@
 {
-  "last_updated": "2026-05-26T17:05:27.786975+00:00",
+  "last_updated": "2026-05-26T18:46:20.060238+00:00",
   "articles": [
+    {
+      "title": "CVE-2026-48904 - Joomla! Core - [20260514] - Privilege escalation through com_users webservice endpoints",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48904",
+      "summary": "CVE ID :CVE-2026-48904 Published : May 26, 2026, 5:16 p.m. | 37 minutes ago Description :An improper access check allows privelege escalation through the com_users group editing webservice endpoint...",
+      "source": "CVE Feed",
+      "published": "2026-05-26T17:16:55+00:00"
+    },
+    {
+      "title": "CVE-2026-48898 - Joomla! Core - [20260513] - Privilege escalation through com_users batch task",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48898",
+      "summary": "CVE ID :CVE-2026-48898 Published : May 26, 2026, 5:16 p.m. | 37 minutes ago Description :An improper access check allows privilege escalation through the com_users batch task. Severity: 8.2 | HIGH...",
+      "source": "CVE Feed",
+      "published": "2026-05-26T17:16:54+00:00"
+    },
+    {
+      "title": "CVE-2026-48897 - Joomla! Core - [20260512] - MFA Authentication Bypass",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48897",
+      "summary": "CVE ID :CVE-2026-48897 Published : May 26, 2026, 5:16 p.m. | 37 minutes ago Description :Insufficient state checks lead to a vector that allows to bypass 2FA checks. Severity: 8.2 | HIGH Visit the...",
+      "source": "CVE Feed",
+      "published": "2026-05-26T17:16:54+00:00"
+    },
+    {
+      "title": "CVE-2026-48896 - Joomla! Core - [20260511] - MFA Authentication Bypass",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48896",
+      "summary": "CVE ID :CVE-2026-48896 Published : May 26, 2026, 5:16 p.m. | 37 minutes ago Description :Insufficient state checks lead to a vector that allows to bypass 2FA checks. Severity: 8.2 | HIGH Visit the...",
+      "source": "CVE Feed",
+      "published": "2026-05-26T17:16:54+00:00"
+    },
+    {
+      "title": "CVE-2026-48126 - Algernon: Host header path traversal in --domain mode reads files and runs Lua from parent dir",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48126",
+      "summary": "CVE ID :CVE-2026-48126 Published : May 26, 2026, 5:16 p.m. | 37 minutes ago Description :Algernon is a small self-contained pure-Go web server. Prior to 1.17.8, when algernon is started with --domain...",
+      "source": "CVE Feed",
+      "published": "2026-05-26T17:16:53+00:00"
+    },
+    {
+      "title": "CVE-2026-45721 - Algernon: handler.lua discovery walks parent directories above the server root",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-45721",
+      "summary": "CVE ID :CVE-2026-45721 Published : May 26, 2026, 5:16 p.m. | 37 minutes ago Description :Algernon is a small self-contained pure-Go web server. Prior to 1.17.7, when Algernon is asked for any URL...",
+      "source": "CVE Feed",
+      "published": "2026-05-26T17:16:47+00:00"
+    },
+    {
+      "title": "CVE-2026-44729 - Twenty: Stored Cross-Site Scripting via Unsanitized File Serving (Missing Content-Type/Content-Disposition Headers)",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-44729",
+      "summary": "CVE ID :CVE-2026-44729 Published : May 26, 2026, 5:16 p.m. | 37 minutes ago Description :Twenty is an open source CRM. In 1.18.0 and earlier, the file serving endpoints in Twenty CRM at /files/* and...",
+      "source": "CVE Feed",
+      "published": "2026-05-26T17:16:46+00:00"
+    },
+    {
+      "title": "CVE-2026-43982 - Algernon: Path traversal file write via savein()",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-43982",
+      "summary": "CVE ID :CVE-2026-43982 Published : May 26, 2026, 5:16 p.m. | 37 minutes ago Description :Algernon is a small self-contained pure-Go web server. Prior to 1.17.6, uploadedFileSaveIn() in...",
+      "source": "CVE Feed",
+      "published": "2026-05-26T17:16:46+00:00"
+    },
+    {
+      "title": "CVE-2026-43981 - Algernon: Race Condition in handle() shared LState",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-43981",
+      "summary": "CVE ID :CVE-2026-43981 Published : May 26, 2026, 5:16 p.m. | 37 minutes ago Description :Algernon is a small self-contained pure-Go web server. Prior to 1.17.6, in engine/luahandler.go, the...",
+      "source": "CVE Feed",
+      "published": "2026-05-26T17:16:45+00:00"
+    },
+    {
+      "title": "CVE-2026-35223 - Joomla! Core - [20260508] - Improper access check in com_config webservice endpoints",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-35223",
+      "summary": "CVE ID :CVE-2026-35223 Published : May 26, 2026, 5:16 p.m. | 37 minutes ago Description :An improper access check allows unauthorized access to com_config webservice endpoints. Severity: 8.6 | HIGH...",
+      "source": "CVE Feed",
+      "published": "2026-05-26T17:16:36+00:00"
+    },
+    {
+      "title": "CVE-2026-2264 - Server-Side Request Forgery and Credential Exfiltration in Google Cloud Apigee via SetIntegrationRequest Policy.",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-2264",
+      "summary": "CVE ID :CVE-2026-2264 Published : May 26, 2026, 5:16 p.m. | 37 minutes ago Description :A vulnerability in the Google Cloud Apigee SetIntegrationRequest policy allowed remote attackers to perform...",
+      "source": "CVE Feed",
+      "published": "2026-05-26T17:16:30+00:00"
+    },
+    {
+      "title": "CVE-2026-43935 - e107: Host Header Injection in e107 password reset enables phishing",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-43935",
+      "summary": "CVE ID :CVE-2026-43935 Published : May 26, 2026, 4:16 p.m. | 1 hour, 37 minutes ago Description :e107 is a content management system (CMS). Prior to 2.3.4, a Host Header Injection vulnerability in...",
+      "source": "CVE Feed",
+      "published": "2026-05-26T16:16:25+00:00"
+    },
     {
       "title": "MuddyWater Uses DLL Side-Loading in Espionage Campaign Targeting 9 Countries",
       "link": "https://thehackernews.com/2026/05/muddywater-uses-dll-side-loading-in.html",
@@ -9,32 +93,88 @@
       "published": "2026-05-26T15:48:41+00:00"
     },
     {
+      "title": "CVE-2026-45659 — Microsoft SharePoint RCE",
+      "link": "https://thecyberthrone.in/2026/05/26/cve-2026-45659-microsoft-sharepoint-rce/",
+      "summary": "CVE-2026-45659 — Microsoft SharePoint RCE May 26, 2026OverviewDeserialization of untrusted data in Microsoft Office SharePoint allows an authenticated attacker to execute code remotely over a...",
+      "source": "CVE Newsroom",
+      "published": "2026-05-26T15:25:49+00:00"
+    },
+    {
+      "title": "CVE-2026-4480 - Samba: samba: remote code execution in printing subsystem via unescaped job description",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-4480",
+      "summary": "CVE ID :CVE-2026-4480 Published : May 26, 2026, 3:16 p.m. | 2 hours, 37 minutes ago Description :A flaw was found in the Samba printing subsystem. Samba passes the client-controlled job description...",
+      "source": "CVE Feed",
+      "published": "2026-05-26T15:16:40+00:00"
+    },
+    {
+      "title": "CVE-2026-46368 - luci-app-https-dns-proxy Authenticated Command Injection via setInitAction",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-46368",
+      "summary": "CVE ID :CVE-2026-46368 Published : May 26, 2026, 3:16 p.m. | 2 hours, 37 minutes ago Description :luci-app-https-dns-proxy through 2025.12.29-5 — an optional LuCI web UI add-on for the...",
+      "source": "CVE Feed",
+      "published": "2026-05-26T15:16:39+00:00"
+    },
+    {
+      "title": "CVE-2026-45247 - Mirasvit Cache Warmer for Magento < 1.11.12 PHP Object Injection",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-45247",
+      "summary": "CVE ID :CVE-2026-45247 Published : May 26, 2026, 3:16 p.m. | 2 hours, 37 minutes ago Description :Mirasvit Full Page Cache Warmer for Magento 2 before version 1.11.12 contains a PHP object injection...",
+      "source": "CVE Feed",
+      "published": "2026-05-26T15:16:39+00:00"
+    },
+    {
+      "title": "CVE-2026-42785 - OpenKM 6.3.12 Remote Code Execution via Administrative Scripting",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-42785",
+      "summary": "CVE ID :CVE-2026-42785 Published : May 26, 2026, 3:16 p.m. | 2 hours, 37 minutes ago Description :OpenKM 6.3.12 contains a remote code execution vulnerability that allows authenticated administrators...",
+      "source": "CVE Feed",
+      "published": "2026-05-26T15:16:38+00:00"
+    },
+    {
+      "title": "CVE-2026-42425 - OpenKM 6.3.12 Unrestricted SQL Execution via DatabaseQuery",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-42425",
+      "summary": "CVE ID :CVE-2026-42425 Published : May 26, 2026, 3:16 p.m. | 2 hours, 37 minutes ago Description :OpenKM 6.3.12 contains an unrestricted SQL execution vulnerability that allows authenticated...",
+      "source": "CVE Feed",
+      "published": "2026-05-26T15:16:37+00:00"
+    },
+    {
+      "title": "CVE-2026-40034 - gitoxide - Command Injection via Partial .gitmodules Override in gix-submodule",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-40034",
+      "summary": "CVE ID :CVE-2026-40034 Published : May 26, 2026, 3:16 p.m. | 2 hours, 37 minutes ago Description :gix-submodule before 0.82.0 incorrectly validates the update field in .gitmodules, allowing attackers...",
+      "source": "CVE Feed",
+      "published": "2026-05-26T15:16:35+00:00"
+    },
+    {
+      "title": "CVE-2026-40033 - FreeRDP - Heap-buffer-overflow in gdi_CacheToSurface via rectangle validation bypass",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-40033",
+      "summary": "CVE ID :CVE-2026-40033 Published : May 26, 2026, 3:16 p.m. | 2 hours, 37 minutes ago Description :FreeRDP before 3.26.0 contains a heap-buffer-overflow vulnerability in gdi_CacheToSurface that allows...",
+      "source": "CVE Feed",
+      "published": "2026-05-26T15:16:34+00:00"
+    },
+    {
+      "title": "Micropatches released for Windows Netlogon Remote Code Execution Vulnerability (CVE-2026-41089)",
+      "link": "https://blog.0patch.com/2026/05/micropatches-released-for-windows_0304568783.html",
+      "summary": "Micropatches released for Windows Netlogon Remote Code Execution Vulnerability (CVE-2026-41089) May 2026 Windows Updates brought a patch for CVE-2026-41089, a remotely exploitable issue on Windows...",
+      "source": "CVE Newsroom",
+      "published": "2026-05-26T14:55:04+00:00"
+    },
+    {
       "title": "CVE-2026-9543 - Totolink N300RH Web Management cstecgi.cgi setPasswordCfg os command injection",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-9543",
-      "summary": "CVE ID :CVE-2026-9543 Published : May 26, 2026, 2:16 p.m. | 59 minutes ago Description :A vulnerability has been found in Totolink N300RH 6.1c.1353_B20190305. Affected is the function setPasswordCfg...",
+      "summary": "CVE ID :CVE-2026-9543 Published : May 26, 2026, 2:16 p.m. | 3 hours, 37 minutes ago Description :A vulnerability has been found in Totolink N300RH 6.1c.1353_B20190305. Affected is the function...",
       "source": "CVE Feed",
       "published": "2026-05-26T14:16:46+00:00"
     },
     {
       "title": "CVE-2026-7374 - Kubevirt: kubevirt virt-handler: privilege escalation and node compromise via symlink following vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-7374",
-      "summary": "CVE ID :CVE-2026-7374 Published : May 26, 2026, 2:16 p.m. | 59 minutes ago Description :A flaw was found in KubeVirt's virt-handler component. This vulnerability allows an authenticated OpenShift...",
+      "summary": "CVE ID :CVE-2026-7374 Published : May 26, 2026, 2:16 p.m. | 3 hours, 37 minutes ago Description :A flaw was found in KubeVirt's virt-handler component. This vulnerability allows an authenticated...",
       "source": "CVE Feed",
       "published": "2026-05-26T14:16:40+00:00"
     },
     {
       "title": "CVE-2026-48131 - VPND IKE Fragment Reassembly - Heap Out-of-Bounds Write via Sequence Number Zero",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-48131",
-      "summary": "CVE ID :CVE-2026-48131 Published : May 26, 2026, 2:16 p.m. | 59 minutes ago Description :The VPN service may mishandle an unexpected IKE fragment value received on the IKE port 500/UDP during the...",
+      "summary": "CVE ID :CVE-2026-48131 Published : May 26, 2026, 2:16 p.m. | 3 hours, 37 minutes ago Description :The VPN service may mishandle an unexpected IKE fragment value received on the IKE port 500/UDP...",
       "source": "CVE Feed",
       "published": "2026-05-26T14:16:38+00:00"
-    },
-    {
-      "title": "CVE-2025-11482 - Allocation of Resources Without Limits or Throttling in the OPC-UA Server",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2025-11482",
-      "summary": "CVE ID :CVE-2025-11482 Published : May 26, 2026, 2:16 p.m. | 59 minutes ago Description :An Allocation of Resources Without Limits or Throttling vulnerability in the OPC-UA Server used in PPT30...",
-      "source": "CVE Feed",
-      "published": "2026-05-26T14:16:26+00:00"
     },
     {
       "title": "Lithuania investigates theft of 600,000 state registry records by foreign actor",
@@ -42,13 +182,6 @@
       "summary": "The Lithuanian Prosecutor General’s Office said Friday that attackers gained unauthorized access to more than 600,000 records managed by the Centre of Registers, the state agency responsible for...",
       "source": "The Record",
       "published": "2026-05-26T14:14:00+00:00"
-    },
-    {
-      "title": "CVE-2026-40033 - FreeRDP - Heap-buffer-overflow in gdi_CacheToSurface via rectangle validation bypass",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-40033",
-      "summary": "CVE ID :CVE-2026-40033 Published : May 26, 2026, 2:08 p.m. | 1 hour, 7 minutes ago Description :FreeRDP before 3.26.0 contains a heap-buffer-overflow vulnerability in gdi_CacheToSurface that allows...",
-      "source": "CVE Feed",
-      "published": "2026-05-26T14:08:47+00:00"
     },
     {
       "title": "'WhatsApp-accounts op oudere iPhones gehackt via zeroclick-aanval'",
@@ -107,16 +240,9 @@
       "published": "2026-05-26T12:16:24+00:00"
     },
     {
-      "title": "ABB Terra AC",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-146-01",
-      "summary": "View CSAF Summary ABB is aware of vulnerabilities in the product versions listed as affected in the advisory. An attacker who successfully exploited this vulnerability could cause the pollution of...",
-      "source": "CISA Alerts",
-      "published": "2026-05-26T12:00:00+00:00"
-    },
-    {
-      "title": "ABB LVS MConfig",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-146-06",
-      "summary": "View CSAF Summary ABB became aware of an internally discovered vulnerability in the MConfig product versions listed as affected in the advisory. An attacker with access to local networks who...",
+      "title": "Eppendorf BioFlo 320",
+      "link": "https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-146-01",
+      "summary": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to gain full access to functionality and data with the bioreactor. The following versions of Eppendorf BioFlo...",
       "source": "CISA Alerts",
       "published": "2026-05-26T12:00:00+00:00"
     },
@@ -128,16 +254,23 @@
       "published": "2026-05-26T12:00:00+00:00"
     },
     {
-      "title": "Eppendorf BioFlo 320",
-      "link": "https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-146-01",
-      "summary": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to gain full access to functionality and data with the bioreactor. The following versions of Eppendorf BioFlo...",
+      "title": "ABB B&R Automation Runtime DoS Vulnerability in System Diagnostics Manager (SDM)",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-146-04",
+      "summary": "View CSAF Summary An update is available that resolves a vulnerability identified by B&Rs internal security analysis in the product versions listed as affected in this advisory. An attacker who...",
       "source": "CISA Alerts",
       "published": "2026-05-26T12:00:00+00:00"
     },
     {
-      "title": "ABB AbilityTM Zenon Remote Transport Vulnerability",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-146-03",
-      "summary": "View CSAF Summary ABB is aware of vulnerabilities in the product versions listed as affected in the advisory. The vulnerability enables unauthorized access to the Reboot OS function within the Remote...",
+      "title": "ABB LVS MConfig",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-146-06",
+      "summary": "View CSAF Summary ABB became aware of an internally discovered vulnerability in the MConfig product versions listed as affected in the advisory. An attacker with access to local networks who...",
+      "source": "CISA Alerts",
+      "published": "2026-05-26T12:00:00+00:00"
+    },
+    {
+      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/05/26/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "summary": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation. CVE-2026-48172 LiteSpeed cPanel Plugin Privilege Escalation...",
       "source": "CISA Alerts",
       "published": "2026-05-26T12:00:00+00:00"
     },
@@ -149,9 +282,16 @@
       "published": "2026-05-26T12:00:00+00:00"
     },
     {
-      "title": "ABB B&R Automation Runtime DoS Vulnerability in System Diagnostics Manager (SDM)",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-146-04",
-      "summary": "View CSAF Summary An update is available that resolves a vulnerability identified by B&Rs internal security analysis in the product versions listed as affected in this advisory. An attacker who...",
+      "title": "ABB Terra AC",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-146-01",
+      "summary": "View CSAF Summary ABB is aware of vulnerabilities in the product versions listed as affected in the advisory. An attacker who successfully exploited this vulnerability could cause the pollution of...",
+      "source": "CISA Alerts",
+      "published": "2026-05-26T12:00:00+00:00"
+    },
+    {
+      "title": "ABB AbilityTM Zenon Remote Transport Vulnerability",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-146-03",
+      "summary": "View CSAF Summary ABB is aware of vulnerabilities in the product versions listed as affected in the advisory. The vulnerability enables unauthorized access to the Reboot OS function within the Remote...",
       "source": "CISA Alerts",
       "published": "2026-05-26T12:00:00+00:00"
     },
@@ -179,8 +319,8 @@
     {
       "title": "Microsoft Patches SharePoint RCE Flaw CVE-2026-45659 Across Server Versions",
       "link": "https://thehackernews.com/2026/05/microsoft-patches-sharepoint-rce-flaw.html",
-      "summary": "Microsoft Patches SharePoint RCE Flaw CVE-2026-45659 Across Server Versions Microsoft has rolled out updates to fix a remote code execution vulnerability impacting SharePoint that could be exploited...",
-      "source": "CVE Newsroom",
+      "summary": "Microsoft has rolled out updates to fix a remote code execution vulnerability impacting SharePoint that could be exploited by bad actors in attacks without requiring any specialized conditions to be...",
+      "source": "The Hacker News",
       "published": "2026-05-26T11:49:53+00:00"
     },
     {
@@ -270,30 +410,23 @@
     {
       "title": "CVE-2026-8047 - Out-of-bounds Write in CODESYS Control",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-8047",
-      "summary": "CVE ID :CVE-2026-8047 Published : May 26, 2026, 8:16 a.m. | 6 hours, 59 minutes ago Description :The affected products perform improper length checking when parsing incoming HTTP requests, resulting...",
+      "summary": "CVE ID :CVE-2026-8047 Published : May 26, 2026, 8:16 a.m. | 9 hours, 37 minutes ago Description :The affected products perform improper length checking when parsing incoming HTTP requests, resulting...",
       "source": "CVE Feed",
       "published": "2026-05-26T08:16:22+00:00"
     },
     {
       "title": "CVE-2026-8046 - Incorrect Authorization in CODESYS Control",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-8046",
-      "summary": "CVE ID :CVE-2026-8046 Published : May 26, 2026, 8:16 a.m. | 6 hours, 59 minutes ago Description :The affected products insufficiently verify authorization when deleting user accounts. An...",
+      "summary": "CVE ID :CVE-2026-8046 Published : May 26, 2026, 8:16 a.m. | 9 hours, 37 minutes ago Description :The affected products insufficiently verify authorization when deleting user accounts. An...",
       "source": "CVE Feed",
       "published": "2026-05-26T08:16:22+00:00"
     },
     {
       "title": "CVE-2026-44469 - Incorrect Default Permissions in CODESYS Development System",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-44469",
-      "summary": "CVE ID :CVE-2026-44469 Published : May 26, 2026, 8:16 a.m. | 6 hours, 59 minutes ago Description :The affected product extracts installation files to a temporary directory with incorrect default...",
+      "summary": "CVE ID :CVE-2026-44469 Published : May 26, 2026, 8:16 a.m. | 9 hours, 37 minutes ago Description :The affected product extracts installation files to a temporary directory with incorrect default...",
       "source": "CVE Feed",
       "published": "2026-05-26T08:16:22+00:00"
-    },
-    {
-      "title": "CVE-2026-44468 - Incorrect Default Permissions in CODESYS Development System",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-44468",
-      "summary": "CVE ID :CVE-2026-44468 Published : May 26, 2026, 8:16 a.m. | 6 hours, 59 minutes ago Description :The affected product creates a directory with insecure default permissions during administrative...",
-      "source": "CVE Feed",
-      "published": "2026-05-26T08:16:21+00:00"
     },
     {
       "title": "PuTTY 0.84 Released With Fix for SSH KEX Crashes and Telnet Prompt Spoofing Flaw",
@@ -333,8 +466,8 @@
     {
       "title": "KnowledgeDeliver LMS Flaw Exploited to Deploy Godzilla and Cobalt Strike",
       "link": "https://thehackernews.com/2026/05/knowledgedeliver-lms-flaw-exploited-to.html",
-      "summary": "KnowledgeDeliver LMS Flaw Exploited to Deploy Godzilla and Cobalt Strike A now-patched high-severity security flaw affecting Digital Knowledge KnowledgeDeliver, a Learning Management System (LMS)...",
-      "source": "CVE Newsroom",
+      "summary": "A now-patched high-severity security flaw affecting Digital Knowledge KnowledgeDeliver, a Learning Management System (LMS) popular in Japan, was exploited as a zero-day to deliver the Godzilla web...",
+      "source": "The Hacker News",
       "published": "2026-05-26T05:19:38+00:00"
     },
     {
@@ -343,34 +476,6 @@
       "summary": "New 7-Zip Vulnerabilities Let Attackers Execute Arbitrary Code and Compromise Systems A critical heap buffer overflow vulnerability has been disclosed in 7-Zip version 26.00, enabling attackers to...",
       "source": "CVE Newsroom",
       "published": "2026-05-26T04:05:03+00:00"
-    },
-    {
-      "title": "CVE-2026-48837 - WordPress Unlimited Elements For Elementor plugin <= 2.0.8 - SQL Injection vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48837",
-      "summary": "CVE ID :CVE-2026-48837 Published : May 25, 2026, 11:16 p.m. | 15 hours, 59 minutes ago Description :Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability...",
-      "source": "CVE Feed",
-      "published": "2026-05-25T23:16:33+00:00"
-    },
-    {
-      "title": "CVE-2026-45216 - WordPress Smart Manager plugin <= 8.85.0 - Privilege Escalation vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-45216",
-      "summary": "CVE ID :CVE-2026-45216 Published : May 25, 2026, 11:16 p.m. | 15 hours, 59 minutes ago Description :Incorrect Privilege Assignment vulnerability in StoreApps Smart Manager allows Privilege...",
-      "source": "CVE Feed",
-      "published": "2026-05-25T23:16:33+00:00"
-    },
-    {
-      "title": "CVE-2026-42774 - WordPress JetEngine plugin <= 3.8.8.1 - SQL Injection vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-42774",
-      "summary": "CVE ID :CVE-2026-42774 Published : May 25, 2026, 11:16 p.m. | 15 hours, 59 minutes ago Description :Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability...",
-      "source": "CVE Feed",
-      "published": "2026-05-25T23:16:33+00:00"
-    },
-    {
-      "title": "CVE-2026-42773 - WordPress eMagicOne Store Manager plugin <= 1.3.2 - SQL Injection vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-42773",
-      "summary": "CVE ID :CVE-2026-42773 Published : May 25, 2026, 11:16 p.m. | 15 hours, 59 minutes ago Description :Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability...",
-      "source": "CVE Feed",
-      "published": "2026-05-25T23:16:32+00:00"
     },
     {
       "title": "Dutch authorities arrest men suspected of providing infrastructure for Russian cyber operations",
@@ -387,69 +492,6 @@
       "published": "2026-05-25T23:00:00+00:00"
     },
     {
-      "title": "CVE-2026-48842 - Roundcube Webmail SQL Injection",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48842",
-      "summary": "CVE ID :CVE-2026-48842 Published : May 25, 2026, 8:16 p.m. | 18 hours, 59 minutes ago Description :Roundcube Webmail 1.6.x before 1.6.16 and 1.7.x before 1.7.1 has Pre-authentication SQL injection in...",
-      "source": "CVE Feed",
-      "published": "2026-05-25T20:16:36+00:00"
-    },
-    {
-      "title": "CVE-2026-9482 - Edimax EW-7438RPn formSDHCP stack-based overflow",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-9482",
-      "summary": "CVE ID :CVE-2026-9482 Published : May 25, 2026, 7:16 p.m. | 19 hours, 59 minutes ago Description :A vulnerability has been found in Edimax EW-7438RPn 1.31. This impacts the function formSDHCP of the...",
-      "source": "CVE Feed",
-      "published": "2026-05-25T19:16:37+00:00"
-    },
-    {
-      "title": "CVE-2026-9481 - Edimax EW-7438RPn formStats stack-based overflow",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-9481",
-      "summary": "CVE ID :CVE-2026-9481 Published : May 25, 2026, 7:16 p.m. | 19 hours, 59 minutes ago Description :A flaw has been found in Edimax EW-7438RPn 1.31. This affects the function formStats of the file...",
-      "source": "CVE Feed",
-      "published": "2026-05-25T19:16:37+00:00"
-    },
-    {
-      "title": "CVE-2026-9480 - Edimax EW-7438RPn formrefresh stack-based overflow",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-9480",
-      "summary": "CVE ID :CVE-2026-9480 Published : May 25, 2026, 7:16 p.m. | 19 hours, 59 minutes ago Description :A vulnerability was detected in Edimax EW-7438RPn 1.31. The impacted element is the function...",
-      "source": "CVE Feed",
-      "published": "2026-05-25T19:16:36+00:00"
-    },
-    {
-      "title": "CVE-2026-9479 - Edimax EW-7438RPn formLogout stack-based overflow",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-9479",
-      "summary": "CVE ID :CVE-2026-9479 Published : May 25, 2026, 6:16 p.m. | 20 hours, 59 minutes ago Description :A security vulnerability has been detected in Edimax EW-7438RPn 1.31. The affected element is the...",
-      "source": "CVE Feed",
-      "published": "2026-05-25T18:16:33+00:00"
-    },
-    {
-      "title": "CVE-2026-9478 - Totolink A8000RU Web Management cstecgi.cgi setParentalRules os command injection",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-9478",
-      "summary": "CVE ID :CVE-2026-9478 Published : May 25, 2026, 6:16 p.m. | 20 hours, 59 minutes ago Description :A weakness has been identified in Totolink A8000RU 7.1cu.643_b20200521. Impacted is the function...",
-      "source": "CVE Feed",
-      "published": "2026-05-25T18:16:32+00:00"
-    },
-    {
-      "title": "CVE-2026-9477 - Totolink A8000RU Web Management cstecgi.cgi setAccessDeviceCfg os command injection",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-9477",
-      "summary": "CVE ID :CVE-2026-9477 Published : May 25, 2026, 6:16 p.m. | 20 hours, 59 minutes ago Description :A security flaw has been discovered in Totolink A8000RU 7.1cu.643_b20200521. This issue affects the...",
-      "source": "CVE Feed",
-      "published": "2026-05-25T18:16:31+00:00"
-    },
-    {
-      "title": "CVE-2026-9476 - Totolink A8000RU Web Management cstecgi.cgi setPasswordCfg os command injection",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-9476",
-      "summary": "CVE ID :CVE-2026-9476 Published : May 25, 2026, 5:16 p.m. | 21 hours, 59 minutes ago Description :A vulnerability was identified in Totolink A8000RU 7.1cu.643_b20200521. This vulnerability affects...",
-      "source": "CVE Feed",
-      "published": "2026-05-25T17:16:47+00:00"
-    },
-    {
-      "title": "CVE-2026-9475 - Totolink A8000RU Web Management cstecgi.cgi setIpQosRules os command injection",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-9475",
-      "summary": "CVE ID :CVE-2026-9475 Published : May 25, 2026, 5:16 p.m. | 21 hours, 59 minutes ago Description :A vulnerability was determined in Totolink A8000RU 7.1cu.643_b20200521. This affects the function...",
-      "source": "CVE Feed",
-      "published": "2026-05-25T17:16:47+00:00"
-    },
-    {
       "title": "Anthropic’s restricted Claude Mythos model may be coming to Claude Code",
       "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropics-restricted-claude-mythos-model-may-be-coming-to-claude-code/",
       "summary": "Anthropic appears to be preparing for the public rollout of the Mythos model, which was announced in April as a restricted model that poses major security risks to private and public software. [...]",
@@ -464,27 +506,6 @@
       "published": "2026-05-25T15:30:48+00:00"
     },
     {
-      "title": "CVE-2026-9463 - Edimax EW-7438RPn formLicence stack-based overflow",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-9463",
-      "summary": "CVE ID :CVE-2026-9463 Published : May 25, 2026, 3:16 p.m. | 23 hours, 59 minutes ago Description :A flaw has been found in Edimax EW-7438RPn 1.31. Affected by this issue is the function formLicence...",
-      "source": "CVE Feed",
-      "published": "2026-05-25T15:16:23+00:00"
-    },
-    {
-      "title": "CVE-2026-9462 - Edimax EW-7438RPn formWpsProxyEnable stack-based overflow",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-9462",
-      "summary": "CVE ID :CVE-2026-9462 Published : May 25, 2026, 3:16 p.m. | 23 hours, 59 minutes ago Description :A vulnerability was detected in Edimax EW-7438RPn 1.31. Affected by this vulnerability is the...",
-      "source": "CVE Feed",
-      "published": "2026-05-25T15:16:23+00:00"
-    },
-    {
-      "title": "CVE-2026-47077 - Unbounded body accumulation in HTTP/3 response loop in hackney",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-47077",
-      "summary": "CVE ID :CVE-2026-47077 Published : May 25, 2026, 3:16 p.m. | 23 hours, 59 minutes ago Description :Allocation of Resources Without Limits or Throttling vulnerability in benoitc hackney allows...",
-      "source": "CVE Feed",
-      "published": "2026-05-25T15:16:22+00:00"
-    },
-    {
       "title": "Vulnerability in Szafir SDK software",
       "link": "https://cert.pl/en/posts/2026/05/CVE-2026-9058/",
       "summary": "Vulnerability in Szafir SDK software Vulnerability in Szafir SDK software CVE ID CVE-2026-9058 Publication date 25 May 2026 Vendor Krajowa Izba Rozliczeniowa Product Szafir SDK Vulnerable versions...",
@@ -494,8 +515,8 @@
     {
       "title": "⚡ Weekly Recap: Linux Flaws, Defender 0-Days, Router Botnets, and Supply Chain Chaos",
       "link": "https://thehackernews.com/2026/05/weekly-recap-linux-flaws-defender-0.html",
-      "summary": "⚡ Weekly Recap: Linux Flaws, Defender 0-Days, Router Botnets, and Supply Chain Chaos Monday recap. Same mess, new week. A sketchy dev tool got people pwned, old bugs came back from the dead, and...",
-      "source": "CVE Newsroom",
+      "summary": "Monday recap. Same mess, new week. A sketchy dev tool got people pwned, old bugs came back from the dead, and security products somehow needed protecting from themselves. A bunch of companies spent...",
+      "source": "The Hacker News",
       "published": "2026-05-25T14:13:27+00:00"
     },
     {
@@ -536,8 +557,8 @@
     {
       "title": "Ghost CMS CVE-2026-26980 Exploited to Hijack 700+ Sites for ClickFix Attacks",
       "link": "https://thehackernews.com/2026/05/ghost-cms-cve-2026-26980-exploited-to.html",
-      "summary": "Ghost CMS CVE-2026-26980 Exploited to Hijack 700+ Sites for ClickFix Attacks Threat actors are exploiting a recently disclosed critical security flaw in Ghost CMS to inject malicious JavaScript code...",
-      "source": "CVE Newsroom",
+      "summary": "Threat actors are exploiting a recently disclosed critical security flaw in Ghost CMS to inject malicious JavaScript code with an aim to fuel ClickFix attacks. According to QiAnXin XLab, the activity...",
+      "source": "The Hacker News",
       "published": "2026-05-25T12:02:46+00:00"
     },
     {
@@ -611,13 +632,6 @@
       "published": "2026-05-24T11:05:42+00:00"
     },
     {
-      "title": "CVE-2026-2005 | PostgreSQL pgcrypto — Heap Buffer Overflow",
-      "link": "https://thecyberthrone.in/2026/05/24/cve-2026-2005-postgresql-pgcrypto-heap-buffer-overflow/",
-      "summary": "CVE-2026-2005 | PostgreSQL pgcrypto — Heap Buffer Overflow May 24, 2026Vulnerability SummaryCVE-2026-2005 is a heap buffer overflow vulnerability in the PostgreSQL pgcrypto extension. A ciphertext...",
-      "source": "CVE Newsroom",
-      "published": "2026-05-24T06:00:37+00:00"
-    },
-    {
       "title": "Laravel Lang packages hijacked to deploy credential-stealing malware",
       "link": "https://www.bleepingcomputer.com/news/security/laravel-lang-packages-hijacked-to-deploy-credential-stealing-malware/",
       "summary": "A supply chain attack targeting the Laravel Lang localization packages has exposed developers to a sophisticated credential-stealing malware campaign after attackers abused GitHub version tags to...",
@@ -648,8 +662,8 @@
     {
       "title": "Claude Mythos AI Finds 10,000 High-Severity Flaws in Widely Used Software",
       "link": "https://thehackernews.com/2026/05/claude-mythos-ai-finds-10000-high.html",
-      "summary": "Claude Mythos AI Finds 10,000 High-Severity Flaws in Widely Used Software Anthropic on Friday disclosed that Project Glasswing has helped uncover more than 10,000 high- or critical-severity...",
-      "source": "CVE Newsroom",
+      "summary": "Anthropic on Friday disclosed that Project Glasswing has helped uncover more than 10,000 high- or critical-severity vulnerabilities across some of the most \"systemically\" important software across...",
+      "source": "The Hacker News",
       "published": "2026-05-23T11:55:35+00:00"
     },
     {
@@ -1108,9 +1122,16 @@
       "published": "2026-05-19T12:00:00+00:00"
     },
     {
-      "title": "ABB CoreSense HM and CoreSense M10",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-139-01",
-      "summary": "View CSAF Summary An update is available that resolves vulnerability in the product versions listed as affected in this advisory. A path traversal vulnerability in these products can allow...",
+      "title": "Kieback & Peter DDC Building Controllers",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-139-05",
+      "summary": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to take control of the victim's browser. The following versions of Kieback & Peter DDC Building Controllers are...",
+      "source": "CISA Alerts",
+      "published": "2026-05-19T12:00:00+00:00"
+    },
+    {
+      "title": "ZKTeco CCTV Cameras",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-139-04",
+      "summary": "View CSAF Summary Successful exploitation of this vulnerability could result in information disclosure, including capture of camera account credentials. The following versions of ZKTeco CCTV Cameras...",
       "source": "CISA Alerts",
       "published": "2026-05-19T12:00:00+00:00"
     },
@@ -1122,16 +1143,9 @@
       "published": "2026-05-19T12:00:00+00:00"
     },
     {
-      "title": "Kieback & Peter DDC Building Controllers",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-139-05",
-      "summary": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to take control of the victim's browser. The following versions of Kieback & Peter DDC Building Controllers are...",
-      "source": "CISA Alerts",
-      "published": "2026-05-19T12:00:00+00:00"
-    },
-    {
-      "title": "ZKTeco CCTV Cameras",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-139-04",
-      "summary": "View CSAF Summary Successful exploitation of this vulnerability could result in information disclosure, including capture of camera account credentials. The following versions of ZKTeco CCTV Cameras...",
+      "title": "ABB CoreSense HM and CoreSense M10",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-139-01",
+      "summary": "View CSAF Summary An update is available that resolves vulnerability in the product versions listed as affected in this advisory. A path traversal vulnerability in these products can allow...",
       "source": "CISA Alerts",
       "published": "2026-05-19T12:00:00+00:00"
     },
@@ -1318,20 +1332,6 @@
       "published": "2026-05-14T12:00:00+00:00"
     },
     {
-      "title": "Siemens Simcenter Femap",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-134-05",
-      "summary": "View CSAF Summary Simcenter Femap is affected by heap based buffer overflow vulnerability in Datakit library that could be triggered when the application reads files in IPT format. If a user is...",
-      "source": "CISA Alerts",
-      "published": "2026-05-14T12:00:00+00:00"
-    },
-    {
-      "title": "Siemens Teamcenter",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-134-04",
-      "summary": "View CSAF Summary Siemens Teamcenter is affected by multiple vulnerabilities which could potentially lead to a compromise in availability, integrity and confidentiality. Siemens has released new...",
-      "source": "CISA Alerts",
-      "published": "2026-05-14T12:00:00+00:00"
-    },
-    {
       "title": "Siemens Solid Edge",
       "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-134-03",
       "summary": "View CSAF Summary Solid Edge SE2026 before Update 5 is affected by two file parsing vulnerabilities that could be triggered when the application reads specially crafted files in PAR format. This...",
@@ -1339,23 +1339,16 @@
       "published": "2026-05-14T12:00:00+00:00"
     },
     {
-      "title": "Siemens Ruggedcom Rox",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-134-12",
-      "summary": "View CSAF Summary Ruggedcom Rox contains an input validation vulnerability in the Scheduler functionality that could allow an authenticated remote attacker to execute arbitrary commands with root...",
-      "source": "CISA Alerts",
-      "published": "2026-05-14T12:00:00+00:00"
-    },
-    {
-      "title": "Siemens SIMATIC",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-134-10",
-      "summary": "View CSAF Summary SIMATIC CN 4100 contains multiple vulnerabilities which could potentially lead to a compromise in availability, integrity and confidentiality. Siemens has released a new version for...",
-      "source": "CISA Alerts",
-      "published": "2026-05-14T12:00:00+00:00"
-    },
-    {
       "title": "Siemens SENTRON 7KT PAC1261 Data Manager",
       "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-134-14",
       "summary": "View CSAF Summary The web server in SENTRON 7KT PAC1261 Data Manager Before V2.1.0 contains a request smuggling vulnerability in the Go Project's net/http package that could allow an attacker to...",
+      "source": "CISA Alerts",
+      "published": "2026-05-14T12:00:00+00:00"
+    },
+    {
+      "title": "Siemens Simcenter Femap",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-134-05",
+      "summary": "View CSAF Summary Simcenter Femap is affected by heap based buffer overflow vulnerability in Datakit library that could be triggered when the application reads files in IPT format. If a user is...",
       "source": "CISA Alerts",
       "published": "2026-05-14T12:00:00+00:00"
     },
@@ -1370,6 +1363,20 @@
       "title": "Siemens SIPROTEC 5",
       "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-134-13",
       "summary": "View CSAF Summary The SIPROTEC 5 devices do not use sufficiently random numbers to generate session identifiers. This could facilitate a brute-force attack against a valid session identifier which...",
+      "source": "CISA Alerts",
+      "published": "2026-05-14T12:00:00+00:00"
+    },
+    {
+      "title": "Siemens Ruggedcom Rox",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-134-12",
+      "summary": "View CSAF Summary Ruggedcom Rox contains an input validation vulnerability in the Scheduler functionality that could allow an authenticated remote attacker to execute arbitrary commands with root...",
+      "source": "CISA Alerts",
+      "published": "2026-05-14T12:00:00+00:00"
+    },
+    {
+      "title": "Siemens SIMATIC",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-134-10",
+      "summary": "View CSAF Summary SIMATIC CN 4100 contains multiple vulnerabilities which could potentially lead to a compromise in availability, integrity and confidentiality. Siemens has released a new version for...",
       "source": "CISA Alerts",
       "published": "2026-05-14T12:00:00+00:00"
     },
@@ -1393,13 +1400,6 @@
       "summary": "Threat actors are publishing RubyGems packages that include scrapers targeting public-facing UK government servers, but with no clear objective.",
       "source": "Dark Reading",
       "published": "2026-05-13T21:09:20+00:00"
-    },
-    {
-      "title": "Tables Turn on 'The Gentlemen' RaaS Gang With Data Leak",
-      "link": "https://www.darkreading.com/threat-intelligence/gentlemen-raas-gang-data-leak",
-      "summary": "An OPSEC failure provides a window into what helped the ransomware group rise: a generous affiliate model, opportunistic TTPs, and an effective organizational structure.",
-      "source": "Dark Reading",
-      "published": "2026-05-13T20:47:46+00:00"
     }
   ]
 }
