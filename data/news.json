@@ -1,73 +1,115 @@
 {
-  "last_updated": "2026-05-26T22:28:23.868070+00:00",
+  "last_updated": "2026-05-27T00:31:57.008657+00:00",
   "articles": [
-    {
-      "title": "CVE-2026-42013 - Gnutls: gnutls: certificate validation bypass due to oversized subject alternative name",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-42013",
-      "summary": "CVE ID :CVE-2026-42013 Published : May 26, 2026, 9:29 p.m. | 24 minutes ago Description :A flaw was found in gnutls. When validating certificates, an oversized Subject Alternative Name (SAN) could...",
-      "source": "CVE Feed",
-      "published": "2026-05-26T21:29:32+00:00"
-    },
     {
       "title": "CVE-2026-5260 - Gnutls: gnutls: information disclosure via heap overread in rsa key exchange",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-5260",
-      "summary": "CVE ID :CVE-2026-5260 Published : May 26, 2026, 9:29 p.m. | 24 minutes ago Description :A flaw was found in libgnutls. A remote attacker, by sending an extremely short premaster secret during an RSA...",
+      "summary": "CVE ID :CVE-2026-5260 Published : May 26, 2026, 10:16 p.m. | 1 hour, 3 minutes ago Description :A flaw was found in libgnutls. A remote attacker, by sending an extremely short premaster secret during...",
       "source": "CVE Feed",
-      "published": "2026-05-26T21:29:20+00:00"
+      "published": "2026-05-26T22:16:44+00:00"
+    },
+    {
+      "title": "CVE-2026-45574 - epa4all-client: TLS Certificate Validation Disabled in Production",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-45574",
+      "summary": "CVE ID :CVE-2026-45574 Published : May 26, 2026, 10:16 p.m. | 1 hour, 3 minutes ago Description :epa4all-client is the Java Client for epa4all / ePA 3.0 in the Telematik Infrastruktur. Prior to...",
+      "source": "CVE Feed",
+      "published": "2026-05-26T22:16:43+00:00"
+    },
+    {
+      "title": "CVE-2026-45298 - Dozzle: Pre-auth SSRF with response-body reflection via POST /api/notifications/test-webhook (default no-auth deploy)",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-45298",
+      "summary": "CVE ID :CVE-2026-45298 Published : May 26, 2026, 10:16 p.m. | 1 hour, 3 minutes ago Description :Dozzle is a realtime log viewer for docker containers. Prior to 10.5.2, in a default dozzle deploy...",
+      "source": "CVE Feed",
+      "published": "2026-05-26T22:16:43+00:00"
+    },
+    {
+      "title": "CVE-2026-44985 - Dozzle: Cross-Site WebSocket Hijacking (CSWSH) on exec/attach endpoints bypasses authentication",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-44985",
+      "summary": "CVE ID :CVE-2026-44985 Published : May 26, 2026, 10:16 p.m. | 1 hour, 3 minutes ago Description :Dozzle is a realtime log viewer for docker containers. Prior to 10.5.2, he WebSocket upgrader for the...",
+      "source": "CVE Feed",
+      "published": "2026-05-26T22:16:43+00:00"
+    },
+    {
+      "title": "CVE-2026-44966 - Velocity.js: Prototype Pollution in #set path assignment",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-44966",
+      "summary": "CVE ID :CVE-2026-44966 Published : May 26, 2026, 10:16 p.m. | 1 hour, 3 minutes ago Description :Velocity.js is a JavaScript implementation of the Apache Velocity template engine. In 2.1.5 and...",
+      "source": "CVE Feed",
+      "published": "2026-05-26T22:16:43+00:00"
+    },
+    {
+      "title": "CVE-2026-44900 - epa4all-client: VAU Signature bypass",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-44900",
+      "summary": "CVE ID :CVE-2026-44900 Published : May 26, 2026, 10:16 p.m. | 1 hour, 3 minutes ago Description :epa4all-client is the Java Client for epa4all / ePA 3.0 in the Telematik Infrastruktur. Prior to...",
+      "source": "CVE Feed",
+      "published": "2026-05-26T22:16:42+00:00"
+    },
+    {
+      "title": "CVE-2026-44895 - GitLab MCP Server: SSE transport has no authentication and wildcard CORS, exposing all GitLab tools",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-44895",
+      "summary": "CVE ID :CVE-2026-44895 Published : May 26, 2026, 10:16 p.m. | 1 hour, 3 minutes ago Description :GitLab MCP Server lets an AI agent talk directly to GitLab. Prior to 0.6.0, the HTTP transport in...",
+      "source": "CVE Feed",
+      "published": "2026-05-26T22:16:42+00:00"
+    },
+    {
+      "title": "CVE-2026-42013 - Gnutls: gnutls: certificate validation bypass due to oversized subject alternative name",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-42013",
+      "summary": "CVE ID :CVE-2026-42013 Published : May 26, 2026, 10:16 p.m. | 1 hour, 3 minutes ago Description :A flaw was found in gnutls. When validating certificates, an oversized Subject Alternative Name (SAN)...",
+      "source": "CVE Feed",
+      "published": "2026-05-26T22:16:42+00:00"
     },
     {
       "title": "CVE-2026-9642 - Delta Electronics DIAView Patch Bypass",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-9642",
-      "summary": "CVE ID :CVE-2026-9642 Published : May 26, 2026, 9:16 p.m. | 37 minutes ago Description :There is a mitigation bypass / (incomplete fix) for CVE-2025-62582 (Unauthenticated Remote Database Access) An...",
+      "summary": "CVE ID :CVE-2026-9642 Published : May 26, 2026, 9:16 p.m. | 2 hours, 3 minutes ago Description :There is a mitigation bypass / (incomplete fix) for CVE-2025-62582 (Unauthenticated Remote Database...",
       "source": "CVE Feed",
       "published": "2026-05-26T21:16:45+00:00"
     },
     {
       "title": "CVE-2026-8676 - \"Bluetooth LE Bond Spoofing Vulnerability in Vendor's Product\"",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-8676",
-      "summary": "CVE ID :CVE-2026-8676 Published : May 26, 2026, 9:16 p.m. | 37 minutes ago Description :An attacker is able to downgrade the security of a Bluetooth LE connection by deleting an existing bond...",
+      "summary": "CVE ID :CVE-2026-8676 Published : May 26, 2026, 9:16 p.m. | 2 hours, 3 minutes ago Description :An attacker is able to downgrade the security of a Bluetooth LE connection by deleting an existing...",
       "source": "CVE Feed",
       "published": "2026-05-26T21:16:44+00:00"
     },
     {
       "title": "CVE-2026-44843 - LangChain: Unsafe deserialization of attacker-controlled LangChain objects through overly broad `load()` allowlists",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-44843",
-      "summary": "CVE ID :CVE-2026-44843 Published : May 26, 2026, 9:16 p.m. | 37 minutes ago Description :LangChain is a framework for building agents and LLM-powered applications. Prior to 0.3.85 and 1.3.3...",
+      "summary": "CVE ID :CVE-2026-44843 Published : May 26, 2026, 9:16 p.m. | 2 hours, 3 minutes ago Description :LangChain is a framework for building agents and LLM-powered applications. Prior to 0.3.85 and 1.3.3...",
       "source": "CVE Feed",
       "published": "2026-05-26T21:16:39+00:00"
     },
     {
       "title": "CVE-2026-44451 - Lumiverse: TSX component sandbox escape via DOM ref and string-split identifier bypass",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-44451",
-      "summary": "CVE ID :CVE-2026-44451 Published : May 26, 2026, 9:16 p.m. | 37 minutes ago Description :Lumiverse is a full-featured AI chat application. Prior to 0.9.7, the component override system transpiles...",
+      "summary": "CVE ID :CVE-2026-44451 Published : May 26, 2026, 9:16 p.m. | 2 hours, 3 minutes ago Description :Lumiverse is a full-featured AI chat application. Prior to 0.9.7, the component override system...",
       "source": "CVE Feed",
       "published": "2026-05-26T21:16:38+00:00"
     },
     {
       "title": "CVE-2026-44450 - Lumiverse: RCE via MCP stdio argument injection",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-44450",
-      "summary": "CVE ID :CVE-2026-44450 Published : May 26, 2026, 9:16 p.m. | 37 minutes ago Description :Lumiverse is a full-featured AI chat application. Prior to 0.9.7, the MCP server creation endpoint validates...",
+      "summary": "CVE ID :CVE-2026-44450 Published : May 26, 2026, 9:16 p.m. | 2 hours, 3 minutes ago Description :Lumiverse is a full-featured AI chat application. Prior to 0.9.7, the MCP server creation endpoint...",
       "source": "CVE Feed",
       "published": "2026-05-26T21:16:38+00:00"
     },
     {
       "title": "CVE-2026-44449 - Lumiverse: SMB `exists()` basename injection via smbclient `!cmd` escape",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-44449",
-      "summary": "CVE ID :CVE-2026-44449 Published : May 26, 2026, 9:16 p.m. | 37 minutes ago Description :Lumiverse is a full-featured AI chat application. Prior to 0.9.7, when the primary toSmbPath(fullPath) call...",
+      "summary": "CVE ID :CVE-2026-44449 Published : May 26, 2026, 9:16 p.m. | 2 hours, 3 minutes ago Description :Lumiverse is a full-featured AI chat application. Prior to 0.9.7, when the primary toSmbPath(fullPath)...",
       "source": "CVE Feed",
       "published": "2026-05-26T21:16:38+00:00"
     },
     {
       "title": "CVE-2026-44444 - Lumiverse: Spindle extension install runs untrusted lifecycle scripts before security scan",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-44444",
-      "summary": "CVE ID :CVE-2026-44444 Published : May 26, 2026, 9:16 p.m. | 37 minutes ago Description :Lumiverse is a full-featured AI chat application. Prior to 0.9.7, the Spindle extension build pipeline calls...",
+      "summary": "CVE ID :CVE-2026-44444 Published : May 26, 2026, 9:16 p.m. | 2 hours, 3 minutes ago Description :Lumiverse is a full-featured AI chat application. Prior to 0.9.7, the Spindle extension build pipeline...",
       "source": "CVE Feed",
       "published": "2026-05-26T21:16:37+00:00"
     },
     {
       "title": "CVE-2026-44832 - Snipe-IT: Privilege Escalation via API Permissions Assignment",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-44832",
-      "summary": "CVE ID :CVE-2026-44832 Published : May 26, 2026, 8:16 p.m. | 1 hour, 37 minutes ago Description :Snipe-IT is an IT asset/license management system. Prior to 8.4.1, aAn authenticated user with only...",
+      "summary": "CVE ID :CVE-2026-44832 Published : May 26, 2026, 8:16 p.m. | 3 hours, 4 minutes ago Description :Snipe-IT is an IT asset/license management system. Prior to 8.4.1, aAn authenticated user with only...",
       "source": "CVE Feed",
       "published": "2026-05-26T20:16:20+00:00"
     },
@@ -77,6 +119,13 @@
       "summary": "Hackers exploited a critical zero-day vulnerability in a server running the KnowledgeDeliver learning management system (LMS) to deploy the Godzilla web shell. [...]",
       "source": "BleepingComputer",
       "published": "2026-05-26T20:07:31+00:00"
+    },
+    {
+      "title": "Millions of AI agents imperiled by critical vulnerability in open source package",
+      "link": "https://arstechnica.com/information-technology/2026/05/millions-of-ai-agents-imperiled-by-critical-vulnerability-in-open-source-package/",
+      "summary": "Millions of AI agents imperiled by critical vulnerability in open source package Millions of AI agents and tools around the world have been imperiled by a critical vulnerability that can allow...",
+      "source": "CVE Newsroom",
+      "published": "2026-05-26T19:50:33+00:00"
     },
     {
       "title": "Feeding Frenzy: 'Megalodon' Malware Infects Thousands of GitHub Repos",
@@ -102,21 +151,21 @@
     {
       "title": "CVE-2026-8890 - code100x Mobile API Authentication Bypass via Header Spoofing",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-8890",
-      "summary": "CVE ID :CVE-2026-8890 Published : May 26, 2026, 7:16 p.m. | 2 hours, 37 minutes ago Description :code100x contains an authentication bypass vulnerability in the Mobile API that allows unauthenticated...",
+      "summary": "CVE ID :CVE-2026-8890 Published : May 26, 2026, 7:16 p.m. | 4 hours, 3 minutes ago Description :code100x contains an authentication bypass vulnerability in the Mobile API that allows unauthenticated...",
       "source": "CVE Feed",
       "published": "2026-05-26T19:16:34+00:00"
     },
     {
       "title": "CVE-2026-48689 - FastNetMon Heap-Based Buffer Overflow Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-48689",
-      "summary": "CVE ID :CVE-2026-48689 Published : May 26, 2026, 7:16 p.m. | 2 hours, 37 minutes ago Description :FastNetMon Community Edition through 1.2.9 contains an off-by-one heap-based buffer overflow in the...",
+      "summary": "CVE ID :CVE-2026-48689 Published : May 26, 2026, 7:16 p.m. | 4 hours, 4 minutes ago Description :FastNetMon Community Edition through 1.2.9 contains an off-by-one heap-based buffer overflow in the...",
       "source": "CVE Feed",
       "published": "2026-05-26T19:16:28+00:00"
     },
     {
       "title": "CVE-2026-3660 - IBM Engineering Lifecycle Management - Jazz Foundation is vulnerable to Authentication Bypass",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-3660",
-      "summary": "CVE ID :CVE-2026-3660 Published : May 26, 2026, 7:16 p.m. | 2 hours, 37 minutes ago Description :IBM Engineering Lifecycle Management 7.0.3, 7.1.0, and 7.2.0 could allow an unauthenticated remote...",
+      "summary": "CVE ID :CVE-2026-3660 Published : May 26, 2026, 7:16 p.m. | 4 hours, 4 minutes ago Description :IBM Engineering Lifecycle Management 7.0.3, 7.1.0, and 7.2.0 could allow an unauthenticated remote...",
       "source": "CVE Feed",
       "published": "2026-05-26T19:16:27+00:00"
     },
@@ -130,86 +179,44 @@
     {
       "title": "CVE-2026-9560 - OpenVPN Connect Privilege Escalation Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-9560",
-      "summary": "CVE ID :CVE-2026-9560 Published : May 26, 2026, 6:16 p.m. | 3 hours, 37 minutes ago Description :Privilege escalation via background service of OpenVPN Connect 3.5.1 through 3.8.1 on macOS allows...",
+      "summary": "CVE ID :CVE-2026-9560 Published : May 26, 2026, 6:16 p.m. | 5 hours, 3 minutes ago Description :Privilege escalation via background service of OpenVPN Connect 3.5.1 through 3.8.1 on macOS allows...",
       "source": "CVE Feed",
       "published": "2026-05-26T18:16:58+00:00"
     },
     {
       "title": "CVE-2026-8856 - IBM HTTP Server is affected by multiple vulnerabilities",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-8856",
-      "summary": "CVE ID :CVE-2026-8856 Published : May 26, 2026, 6:16 p.m. | 3 hours, 37 minutes ago Description :IBM HTTP Server 8.5, and 9.0 is vulnerable to denial of service in configurations where an attacker...",
+      "summary": "CVE ID :CVE-2026-8856 Published : May 26, 2026, 6:16 p.m. | 5 hours, 3 minutes ago Description :IBM HTTP Server 8.5, and 9.0 is vulnerable to denial of service in configurations where an attacker has...",
       "source": "CVE Feed",
       "published": "2026-05-26T18:16:57+00:00"
     },
     {
       "title": "CVE-2026-8855 - IBM HTTP Server is affected by multiple vulnerabilities",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-8855",
-      "summary": "CVE ID :CVE-2026-8855 Published : May 26, 2026, 6:16 p.m. | 3 hours, 37 minutes ago Description :IBM HTTP Server 8.5, and 9.0 is vulnerable to remote code execution and denial of service in...",
+      "summary": "CVE ID :CVE-2026-8855 Published : May 26, 2026, 6:16 p.m. | 5 hours, 3 minutes ago Description :IBM HTTP Server 8.5, and 9.0 is vulnerable to remote code execution and denial of service in...",
       "source": "CVE Feed",
       "published": "2026-05-26T18:16:57+00:00"
     },
     {
       "title": "CVE-2026-8834 - IBM HTTP Server is affected by multiple vulnerabilities",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-8834",
-      "summary": "CVE ID :CVE-2026-8834 Published : May 26, 2026, 6:16 p.m. | 3 hours, 37 minutes ago Description :IBM HTTP Server 8.5, and 9.0 contains a buffer overflow vulnerability. A privileged user...",
+      "summary": "CVE ID :CVE-2026-8834 Published : May 26, 2026, 6:16 p.m. | 5 hours, 3 minutes ago Description :IBM HTTP Server 8.5, and 9.0 contains a buffer overflow vulnerability. A privileged user, authenticated...",
       "source": "CVE Feed",
       "published": "2026-05-26T18:16:56+00:00"
     },
     {
       "title": "CVE-2026-8633 - IBM WebSphere Application Server and WebSphere Application Server Liberty are affected by multiple vulnerabilities when using when using Web Server Plug-ins",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-8633",
-      "summary": "CVE ID :CVE-2026-8633 Published : May 26, 2026, 6:16 p.m. | 3 hours, 37 minutes ago Description :IBM Web Server Plug-ins for WebSphere Application Server and WebSphere Liberty 8.5, 9.0 IBM WebSphere...",
+      "summary": "CVE ID :CVE-2026-8633 Published : May 26, 2026, 6:16 p.m. | 5 hours, 3 minutes ago Description :IBM Web Server Plug-ins for WebSphere Application Server and WebSphere Liberty 8.5, 9.0 IBM WebSphere...",
       "source": "CVE Feed",
       "published": "2026-05-26T18:16:56+00:00"
     },
     {
       "title": "CVE-2026-7251 - Eppendorf BioFlo 320 Use of hard-coded password",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-7251",
-      "summary": "CVE ID :CVE-2026-7251 Published : May 26, 2026, 6:16 p.m. | 3 hours, 37 minutes ago Description :Eppendorf BioFlo 320 is vulnerable to due to VNC server using a hard-coded password. If a remote...",
+      "summary": "CVE ID :CVE-2026-7251 Published : May 26, 2026, 6:16 p.m. | 5 hours, 3 minutes ago Description :Eppendorf BioFlo 320 is vulnerable to due to VNC server using a hard-coded password. If a remote...",
       "source": "CVE Feed",
       "published": "2026-05-26T18:16:55+00:00"
-    },
-    {
-      "title": "CVE-2026-48695 - MikroTik FastNetMon OS Command Injection Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48695",
-      "summary": "CVE ID :CVE-2026-48695 Published : May 26, 2026, 6:16 p.m. | 3 hours, 37 minutes ago Description :FastNetMon Community Edition through 1.2.9 contains an OS command injection vulnerability in the...",
-      "source": "CVE Feed",
-      "published": "2026-05-26T18:16:52+00:00"
-    },
-    {
-      "title": "CVE-2026-48694 - Juniper FastNetMon Configuration Injection Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48694",
-      "summary": "CVE ID :CVE-2026-48694 Published : May 26, 2026, 6:16 p.m. | 3 hours, 37 minutes ago Description :FastNetMon Community Edition through 1.2.9 contains a configuration injection vulnerability in the...",
-      "source": "CVE Feed",
-      "published": "2026-05-26T18:16:52+00:00"
-    },
-    {
-      "title": "CVE-2026-47202 - Kavita: Pre-Auth Account Takeover",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-47202",
-      "summary": "CVE ID :CVE-2026-47202 Published : May 26, 2026, 6:16 p.m. | 3 hours, 37 minutes ago Description :Kavita is a cross platform reading server. Prior to 0.9.0.2, an Improper Token validation flaw...",
-      "source": "CVE Feed",
-      "published": "2026-05-26T18:16:52+00:00"
-    },
-    {
-      "title": "CVE-2026-46624 - Twenty: SQL Injection via the timeZone field",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-46624",
-      "summary": "CVE ID :CVE-2026-46624 Published : May 26, 2026, 6:16 p.m. | 3 hours, 37 minutes ago Description :Twenty is an open source CRM. From 1.7.7 through 1.16.7, a critical Remote Code Execution (RCE)...",
-      "source": "CVE Feed",
-      "published": "2026-05-26T18:16:52+00:00"
-    },
-    {
-      "title": "CVE-2026-44728 - Improper Control of Generation of Code when compiling specifically crafted malicious code with @babel/plugin-transform-modules-systemjs",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-44728",
-      "summary": "CVE ID :CVE-2026-44728 Published : May 26, 2026, 6:16 p.m. | 3 hours, 37 minutes ago Description :Babel is a compiler for writing next generation JavaScript. From 7.12.0 to before 7.29.4 and...",
-      "source": "CVE Feed",
-      "published": "2026-05-26T18:16:50+00:00"
-    },
-    {
-      "title": "CVE-2026-44706 - Chatwoot: SQL Injection in Conversation/Contact Filter API via Custom Attribute Values",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-44706",
-      "summary": "CVE ID :CVE-2026-44706 Published : May 26, 2026, 6:16 p.m. | 3 hours, 37 minutes ago Description :Chatwoot is a customer engagement suite. From 2.2.0 to before 4.11.2, a SQL injection vulnerability...",
-      "source": "CVE Feed",
-      "published": "2026-05-26T18:16:50+00:00"
     },
     {
       "title": "MuddyWater Uses DLL Side-Loading in Espionage Campaign Targeting 9 Countries",
@@ -375,8 +382,8 @@
     {
       "title": "Microsoft Patches SharePoint RCE Flaw CVE-2026-45659 Across Server Versions",
       "link": "https://thehackernews.com/2026/05/microsoft-patches-sharepoint-rce-flaw.html",
-      "summary": "Microsoft has rolled out updates to fix a remote code execution vulnerability impacting SharePoint that could be exploited by bad actors in attacks without requiring any specialized conditions to be...",
-      "source": "The Hacker News",
+      "summary": "Microsoft Patches SharePoint RCE Flaw CVE-2026-45659 Across Server Versions Microsoft has rolled out updates to fix a remote code execution vulnerability impacting SharePoint that could be exploited...",
+      "source": "CVE Newsroom",
       "published": "2026-05-26T11:49:53+00:00"
     },
     {
@@ -501,8 +508,8 @@
     {
       "title": "KnowledgeDeliver LMS Flaw Exploited to Deploy Godzilla and Cobalt Strike",
       "link": "https://thehackernews.com/2026/05/knowledgedeliver-lms-flaw-exploited-to.html",
-      "summary": "A now-patched high-severity security flaw affecting Digital Knowledge KnowledgeDeliver, a Learning Management System (LMS) popular in Japan, was exploited as a zero-day to deliver the Godzilla web...",
-      "source": "The Hacker News",
+      "summary": "KnowledgeDeliver LMS Flaw Exploited to Deploy Godzilla and Cobalt Strike A now-patched high-severity security flaw affecting Digital Knowledge KnowledgeDeliver, a Learning Management System (LMS)...",
+      "source": "CVE Newsroom",
       "published": "2026-05-26T05:19:38+00:00"
     },
     {
@@ -550,8 +557,8 @@
     {
       "title": "⚡ Weekly Recap: Linux Flaws, Defender 0-Days, Router Botnets, and Supply Chain Chaos",
       "link": "https://thehackernews.com/2026/05/weekly-recap-linux-flaws-defender-0.html",
-      "summary": "Monday recap. Same mess, new week. A sketchy dev tool got people pwned, old bugs came back from the dead, and security products somehow needed protecting from themselves. A bunch of companies spent...",
-      "source": "The Hacker News",
+      "summary": "⚡ Weekly Recap: Linux Flaws, Defender 0-Days, Router Botnets, and Supply Chain Chaos Monday recap. Same mess, new week. A sketchy dev tool got people pwned, old bugs came back from the dead, and...",
+      "source": "CVE Newsroom",
       "published": "2026-05-25T14:13:27+00:00"
     },
     {
@@ -592,8 +599,8 @@
     {
       "title": "Ghost CMS CVE-2026-26980 Exploited to Hijack 700+ Sites for ClickFix Attacks",
       "link": "https://thehackernews.com/2026/05/ghost-cms-cve-2026-26980-exploited-to.html",
-      "summary": "Threat actors are exploiting a recently disclosed critical security flaw in Ghost CMS to inject malicious JavaScript code with an aim to fuel ClickFix attacks. According to QiAnXin XLab, the activity...",
-      "source": "The Hacker News",
+      "summary": "Ghost CMS CVE-2026-26980 Exploited to Hijack 700+ Sites for ClickFix Attacks Threat actors are exploiting a recently disclosed critical security flaw in Ghost CMS to inject malicious JavaScript code...",
+      "source": "CVE Newsroom",
       "published": "2026-05-25T12:02:46+00:00"
     },
     {
@@ -658,13 +665,6 @@
       "summary": "A large-scale campaign is exploiting a critical SQL injection vulnerability (CVE-2026-26980) in Ghost CMS to inject malicious JavaScript code that triggers ClickFix attack flows. [...]",
       "source": "BleepingComputer",
       "published": "2026-05-24T14:12:32+00:00"
-    },
-    {
-      "title": "CVE-2026-9082 – Drupal Core SQL Injection",
-      "link": "https://thecyberthrone.in/2026/05/24/cve-2026-9082-drupal-core-sql-injection/",
-      "summary": "CVE-2026-9082 – Drupal Core SQL Injection May 24, 2026CVE-2026-9082 is a highly critical SQL injection vulnerability in Drupal core’s database abstraction API, specifically in the PostgreSQL...",
-      "source": "CVE Newsroom",
-      "published": "2026-05-24T11:05:42+00:00"
     },
     {
       "title": "Laravel Lang packages hijacked to deploy credential-stealing malware",
