@@ -1,6 +1,125 @@
 {
-  "last_updated": "2026-05-27T18:46:35.060775+00:00",
+  "last_updated": "2026-05-27T20:41:01.693873+00:00",
   "articles": [
+    {
+      "title": "CVE-2026-8362 - Gladinet Triofox Stack-based Buffer Overflow in WOSDefaultHttpModule.dll",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-8362",
+      "summary": "CVE ID :CVE-2026-8362 Published : May 27, 2026, 7:42 p.m. | 35 minutes ago Description :A stack-based buffer overflow condition exists in WOSDefaultHttpModule.dll when processing a long URL path...",
+      "source": "CVE Feed",
+      "published": "2026-05-27T19:42:08+00:00"
+    },
+    {
+      "title": "CVE-2026-8363 - Gladinet Triofox Stack-based Buffer Overflow in WOSDeviceDropFolder.dll",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-8363",
+      "summary": "CVE ID :CVE-2026-8363 Published : May 27, 2026, 7:40 p.m. | 37 minutes ago Description :A stack-based buffer overflow condition exists in WOSDeviceDropFolder.dll when processing a long URL path...",
+      "source": "CVE Feed",
+      "published": "2026-05-27T19:40:33+00:00"
+    },
+    {
+      "title": "CVE-2026-8364 - Gladinet Triofox Missing Authentication for Critical Functions",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-8364",
+      "summary": "CVE ID :CVE-2026-8364 Published : May 27, 2026, 7:38 p.m. | 39 minutes ago Description :Gladinet Triofox Cloud Server Agent Access Service (GladServerAgentService.exe) listens on TCP port 7878 and...",
+      "source": "CVE Feed",
+      "published": "2026-05-27T19:38:01+00:00"
+    },
+    {
+      "title": "CVE-2026-4868 - Authorization Bypass Through User-Controlled Key in GitLab",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-4868",
+      "summary": "CVE ID :CVE-2026-4868 Published : May 27, 2026, 7:16 p.m. | 1 hour, 1 minute ago Description :GitLab has remediated an issue in GitLab EE affecting all versions from 18.8 before 18.10.7, 18.11 before...",
+      "source": "CVE Feed",
+      "published": "2026-05-27T19:16:24+00:00"
+    },
+    {
+      "title": "CVE-2026-5509 - Arbitrary Command Injection via Browser Developer Console in TP-Link Archer BE450 and BE7200",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-5509",
+      "summary": "CVE ID :CVE-2026-5509 Published : May 27, 2026, 6:16 p.m. | 2 hours, 1 minute ago Description :An authenticated command injection vulnerability exists in the Archer BE450 v1 and BE7200 v1 router that...",
+      "source": "CVE Feed",
+      "published": "2026-05-27T18:16:29+00:00"
+    },
+    {
+      "title": "CVE-2026-48153 - Budibase: SSRF via OAuth2 token endpoint URL reaches internal hosts and cloud metadata",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48153",
+      "summary": "CVE ID :CVE-2026-48153 Published : May 27, 2026, 6:16 p.m. | 2 hours, 1 minute ago Description :Budibase is an open-source low-code platform. Prior to 3.39.0, fetchToken in the OAuth2 SDK makes a...",
+      "source": "CVE Feed",
+      "published": "2026-05-27T18:16:27+00:00"
+    },
+    {
+      "title": "CVE-2026-48152 - Budibase: Basic app users can exfiltrate stored REST datasource auth by rewriting datasource base URL",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48152",
+      "summary": "CVE ID :CVE-2026-48152 Published : May 27, 2026, 6:16 p.m. | 2 hours, 1 minute ago Description :Budibase is an open-source low-code platform. Prior to 3.39.0, the single-datasource GET and PUT routes...",
+      "source": "CVE Feed",
+      "published": "2026-05-27T18:16:27+00:00"
+    },
+    {
+      "title": "CVE-2026-48150 - Budibase: Workspace-scoped builder escalates to global admin via /api/public/v1/roles/assign",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48150",
+      "summary": "CVE ID :CVE-2026-48150 Published : May 27, 2026, 6:16 p.m. | 2 hours, 1 minute ago Description :Budibase is an open-source low-code platform. Prior to 3.39.0, /api/public/v1/roles/assign is guarded...",
+      "source": "CVE Feed",
+      "published": "2026-05-27T18:16:27+00:00"
+    },
+    {
+      "title": "CVE-2026-48149 - Budibase: Stored XSS in Text component: BASIC users execute JS in admin session via MarkdownViewer innerHTML + CDN+srcdoc CSP bypass",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48149",
+      "summary": "CVE ID :CVE-2026-48149 Published : May 27, 2026, 6:16 p.m. | 2 hours, 1 minute ago Description :Budibase is an open-source low-code platform. Prior to 3.39.0, the Budibase Text component renders...",
+      "source": "CVE Feed",
+      "published": "2026-05-27T18:16:27+00:00"
+    },
+    {
+      "title": "CVE-2026-46425 - Budibase: SCIM endpoints lack role-based authorization, BASIC users CRUD tenant users",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-46425",
+      "summary": "CVE ID :CVE-2026-46425 Published : May 27, 2026, 6:16 p.m. | 2 hours, 1 minute ago Description :Budibase is an open-source low-code platform. Prior to 3.38.2...",
+      "source": "CVE Feed",
+      "published": "2026-05-27T18:16:26+00:00"
+    },
+    {
+      "title": "CVE-2026-45717 - Budibase: `PUT /api/datasources/:datasourceId` is protected only by `TABLE/READ` permission instead of builder access, allowing any authenticated app user to overwrite datasource connection parameters including host, port, and URL.",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-45717",
+      "summary": "CVE ID :CVE-2026-45717 Published : May 27, 2026, 6:16 p.m. | 2 hours, 1 minute ago Description :Budibase is an open-source low-code platform. Prior to 3.38.1, Budibase exposes a REST API for...",
+      "source": "CVE Feed",
+      "published": "2026-05-27T18:16:25+00:00"
+    },
+    {
+      "title": "CVE-2026-45716 - Budibase: Builder-to-Admin Privilege Escalation via onboardUsers Endpoint Without SMTP Configuration",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-45716",
+      "summary": "CVE ID :CVE-2026-45716 Published : May 27, 2026, 6:16 p.m. | 2 hours, 1 minute ago Description :Budibase is an open-source low-code platform. Prior to 3.38.1, the POST /api/global/users/onboard...",
+      "source": "CVE Feed",
+      "published": "2026-05-27T18:16:25+00:00"
+    },
+    {
+      "title": "CVE-2026-45089 - Dalfox: Unauthenticated Arbitrary File Create/Append via `output` Option in Dalfox Server Mode",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-45089",
+      "summary": "CVE ID :CVE-2026-45089 Published : May 27, 2026, 6:16 p.m. | 2 hours, 1 minute ago Description :Dalfox is a powerful open-source XSS scanner and utility focused on automation. Prior to 2.13.0, when...",
+      "source": "CVE Feed",
+      "published": "2026-05-27T18:16:24+00:00"
+    },
+    {
+      "title": "CVE-2026-45087 - Dalfox: Unauthenticated Remote Code Execution via `found-action` in Dalfox Server Mode",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-45087",
+      "summary": "CVE ID :CVE-2026-45087 Published : May 27, 2026, 6:16 p.m. | 2 hours, 1 minute ago Description :Dalfox is a powerful open-source XSS scanner and utility focused on automation. Prior to 2.13.0, when...",
+      "source": "CVE Feed",
+      "published": "2026-05-27T18:16:24+00:00"
+    },
+    {
+      "title": "CVE-2026-44521 - elFinder: SQL Injection MySQL Volume Driver (elFinderVolumeMySQL)",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-44521",
+      "summary": "CVE ID :CVE-2026-44521 Published : May 27, 2026, 6:16 p.m. | 2 hours, 1 minute ago Description :elFinder is an open-source file manager for web, written in JavaScript using jQuery UI. Prior to...",
+      "source": "CVE Feed",
+      "published": "2026-05-27T18:16:23+00:00"
+    },
+    {
+      "title": "CVE-2026-44346 - BentoML: Dockerfile command injection via envs[*].name in bentofile.yaml",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-44346",
+      "summary": "CVE ID :CVE-2026-44346 Published : May 27, 2026, 6:16 p.m. | 2 hours, 1 minute ago Description :BentoML is a Python library for building online serving systems optimized for AI apps and model...",
+      "source": "CVE Feed",
+      "published": "2026-05-27T18:16:23+00:00"
+    },
+    {
+      "title": "CVE-2026-44345 - BentoML: Dockerfile command injection via docker.base_image",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-44345",
+      "summary": "CVE ID :CVE-2026-44345 Published : May 27, 2026, 6:16 p.m. | 2 hours, 1 minute ago Description :BentoML is a Python library for building online serving systems optimized for AI apps and model...",
+      "source": "CVE Feed",
+      "published": "2026-05-27T18:16:23+00:00"
+    },
     {
       "title": "Romanian national sentenced to more than 4 years for hacking Oregon government systems",
       "link": "https://therecord.media/romanian-national-sentenced-to-over-4-years-oregon-hack",
@@ -16,74 +135,60 @@
       "published": "2026-05-27T17:32:14+00:00"
     },
     {
-      "title": "CVE-2026-5509 - Arbitrary Command Injection via Browser Developer Console in TP-Link Archer BE450 and BE7200",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-5509",
-      "summary": "CVE ID :CVE-2026-5509 Published : May 27, 2026, 5:26 p.m. | 50 minutes ago Description :An authenticated command injection vulnerability exists in the Archer BE450 v1 and BE7200 v1 router that allows...",
-      "source": "CVE Feed",
-      "published": "2026-05-27T17:26:47+00:00"
-    },
-    {
       "title": "CVE-2026-48027 - Compromised Nx Console version 18.95.0",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-48027",
-      "summary": "CVE ID :CVE-2026-48027 Published : May 27, 2026, 5:16 p.m. | 1 hour ago Description :Nx Console is the user interface for Nx & Lerna. On 19 May 2026, a malicious version of Nx Console, 18.95.0, was...",
+      "summary": "CVE ID :CVE-2026-48027 Published : May 27, 2026, 5:16 p.m. | 3 hours ago Description :Nx Console is the user interface for Nx & Lerna. On 19 May 2026, a malicious version of Nx Console, 18.95.0, was...",
       "source": "CVE Feed",
       "published": "2026-05-27T17:16:41+00:00"
     },
     {
       "title": "CVE-2026-44483 - RVF: Prototype pollution in @rvf/set-get reachable via @rvf/core preprocessFormData (HTTP form data)",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-44483",
-      "summary": "CVE ID :CVE-2026-44483 Published : May 27, 2026, 5:16 p.m. | 1 hour ago Description :RVF (formerly Remix Validated Form) provides easy form validation and state management for React. From 6.0.0 to...",
+      "summary": "CVE ID :CVE-2026-44483 Published : May 27, 2026, 5:16 p.m. | 3 hours ago Description :RVF (formerly Remix Validated Form) provides easy form validation and state management for React. From 6.0.0 to...",
       "source": "CVE Feed",
       "published": "2026-05-27T17:16:39+00:00"
     },
     {
       "title": "CVE-2026-44330 - free5GC: NEF nnef-pfdmanagement API is unauthenticated; forged bearer tokens can read PFD data and create/delete PFD subscriptions",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-44330",
-      "summary": "CVE ID :CVE-2026-44330 Published : May 27, 2026, 5:16 p.m. | 1 hour ago Description :free5GC is an open-source implementation of the 5G core network. Prior to 4.2.2, free5GC's NEF mounts the...",
+      "summary": "CVE ID :CVE-2026-44330 Published : May 27, 2026, 5:16 p.m. | 3 hours ago Description :free5GC is an open-source implementation of the 5G core network. Prior to 4.2.2, free5GC's NEF mounts the...",
       "source": "CVE Feed",
       "published": "2026-05-27T17:16:38+00:00"
     },
     {
       "title": "CVE-2026-44329 - free5GC: SMF UPI management interface lacks auth middleware; unauthenticated topology read/write requests reach handlers",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-44329",
-      "summary": "CVE ID :CVE-2026-44329 Published : May 27, 2026, 5:16 p.m. | 1 hour ago Description :free5GC is an open-source implementation of the 5G core network. Prior to 4.2.2, free5GC's SMF mounts the UPI...",
+      "summary": "CVE ID :CVE-2026-44329 Published : May 27, 2026, 5:16 p.m. | 3 hours ago Description :free5GC is an open-source implementation of the 5G core network. Prior to 4.2.2, free5GC's SMF mounts the UPI...",
       "source": "CVE Feed",
       "published": "2026-05-27T17:16:38+00:00"
     },
     {
       "title": "CVE-2026-44328 - free5GC: SMF UPI DELETE /upi/v1/upNodesLinks/{ref} panics on AN-node deletion via nil UPF dereference; unauthenticated, state-mutating",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-44328",
-      "summary": "CVE ID :CVE-2026-44328 Published : May 27, 2026, 5:16 p.m. | 1 hour ago Description :free5GC is an open-source implementation of the 5G core network. Prior to 4.2.2, free5GC's SMF mounts the UPI...",
+      "summary": "CVE ID :CVE-2026-44328 Published : May 27, 2026, 5:16 p.m. | 3 hours ago Description :free5GC is an open-source implementation of the 5G core network. Prior to 4.2.2, free5GC's SMF mounts the UPI...",
       "source": "CVE Feed",
       "published": "2026-05-27T17:16:38+00:00"
     },
     {
       "title": "CVE-2026-44327 - free5GC: NEF nnef-oam route group is unauthenticated; no-token requests reach the OAM handler",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-44327",
-      "summary": "CVE ID :CVE-2026-44327 Published : May 27, 2026, 5:16 p.m. | 1 hour ago Description :free5GC is an open-source implementation of the 5G core network. Prior to 4.2.2, free5GC's NEF mounts the nnef-oam...",
+      "summary": "CVE ID :CVE-2026-44327 Published : May 27, 2026, 5:16 p.m. | 3 hours ago Description :free5GC is an open-source implementation of the 5G core network. Prior to 4.2.2, free5GC's NEF mounts the...",
       "source": "CVE Feed",
       "published": "2026-05-27T17:16:38+00:00"
     },
     {
       "title": "CVE-2026-44326 - free5GC: NEF 3gpp-traffic-influence API is unauthenticated; missing or forged bearer tokens can create, read, patch, and delete subscriptions",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-44326",
-      "summary": "CVE ID :CVE-2026-44326 Published : May 27, 2026, 5:16 p.m. | 1 hour ago Description :free5GC is an open-source implementation of the 5G core network. Prior to 4.2.2, free5GC's NEF mounts the...",
+      "summary": "CVE ID :CVE-2026-44326 Published : May 27, 2026, 5:16 p.m. | 3 hours ago Description :free5GC is an open-source implementation of the 5G core network. Prior to 4.2.2, free5GC's NEF mounts the...",
       "source": "CVE Feed",
       "published": "2026-05-27T17:16:38+00:00"
     },
     {
       "title": "CVE-2026-44315 - free5GC: NEF 3gpp-pfd-management API is unauthenticated; forged bearer tokens can create, read, and delete PFD transactions",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-44315",
-      "summary": "CVE ID :CVE-2026-44315 Published : May 27, 2026, 5:16 p.m. | 1 hour ago Description :free5GC is an open-source implementation of the 5G core network. Prior to 4.2.2, free5GC's NEF mounts the...",
+      "summary": "CVE ID :CVE-2026-44315 Published : May 27, 2026, 5:16 p.m. | 3 hours, 1 minute ago Description :free5GC is an open-source implementation of the 5G core network. Prior to 4.2.2, free5GC's NEF mounts...",
       "source": "CVE Feed",
       "published": "2026-05-27T17:16:36+00:00"
-    },
-    {
-      "title": "CVE-2026-42083 - free5GC: PCF Npcf_SMPolicyControl missing authentication middleware allows unauthenticated access to SM policy handlers and disclosure of subscriber SUPI",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-42083",
-      "summary": "CVE ID :CVE-2026-42083 Published : May 27, 2026, 5:16 p.m. | 1 hour ago Description :free5GC is an open-source implementation of the 5G core network. Prior to 4.2.2, PCF Npcf_SMPolicyControl missing...",
-      "source": "CVE Feed",
-      "published": "2026-05-27T17:16:35+00:00"
     },
     {
       "title": "Latin American Cybercriminals Hoover Up Government Data",
@@ -128,62 +233,6 @@
       "published": "2026-05-27T15:22:51+00:00"
     },
     {
-      "title": "CVE-2026-6957 - Path traversal in Mattermost Legal Hold plugin via unsanitized file name from federated peer allows arbitrary file write.",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-6957",
-      "summary": "CVE ID :CVE-2026-6957 Published : May 27, 2026, 3:16 p.m. | 3 hours ago Description :Mattermost Plugins versions Severity: 8.0 | HIGH Visit the link for more details, such as CVSS details, affected...",
-      "source": "CVE Feed",
-      "published": "2026-05-27T15:16:34+00:00"
-    },
-    {
-      "title": "CVE-2026-49103 - Webmin File Name Injection Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-49103",
-      "summary": "CVE ID :CVE-2026-49103 Published : May 27, 2026, 3:16 p.m. | 3 hours ago Description :Webmin before 2.640 does not safely construct a filename for saving of an attachment within the mailboxes...",
-      "source": "CVE Feed",
-      "published": "2026-05-27T15:16:34+00:00"
-    },
-    {
-      "title": "CVE-2026-49046 - WordPress Duplicate Page and Post plugin <= 2.9.5 - SQL Injection vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-49046",
-      "summary": "CVE ID :CVE-2026-49046 Published : May 27, 2026, 3:16 p.m. | 3 hours ago Description :Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Arjun...",
-      "source": "CVE Feed",
-      "published": "2026-05-27T15:16:33+00:00"
-    },
-    {
-      "title": "CVE-2026-48920 - Jenkins Email Extension Plugin File Read Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48920",
-      "summary": "CVE ID :CVE-2026-48920 Published : May 27, 2026, 3:16 p.m. | 3 hours ago Description :Jenkins Email Extension Plugin 1933.v45cec755423f and earlier allows inlining images as `base64` in email content...",
-      "source": "CVE Feed",
-      "published": "2026-05-27T15:16:31+00:00"
-    },
-    {
-      "title": "CVE-2026-48544 - Taipy 4.1.1 Path Traversal via ElementLibrary.get_resource()",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48544",
-      "summary": "CVE ID :CVE-2026-48544 Published : May 27, 2026, 3:16 p.m. | 3 hours ago Description :Taipy 4.1.1, fixed in commit 129fd40, contains a path traversal vulnerability in the...",
-      "source": "CVE Feed",
-      "published": "2026-05-27T15:16:30+00:00"
-    },
-    {
-      "title": "CVE-2026-44988 - LibVNCClient Tight Gradient decoding allows malicious server-triggered heap/stack OOB writes",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-44988",
-      "summary": "CVE ID :CVE-2026-44988 Published : May 27, 2026, 3:16 p.m. | 3 hours, 1 minute ago Description :LibVNCClient is a library for easy implementation of a VNC client. In 0.9.15 and earlier...",
-      "source": "CVE Feed",
-      "published": "2026-05-27T15:16:29+00:00"
-    },
-    {
-      "title": "CVE-2026-44971 - GuardDog: Blind GitHub URL rewrite in remote project scanning causes SSRF and `GH_TOKEN` exfiltration",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-44971",
-      "summary": "CVE ID :CVE-2026-44971 Published : May 27, 2026, 3:16 p.m. | 3 hours, 1 minute ago Description :GuardDog is a CLI tool to identify malicious PyPI packages. From 1.0.0 to 2.9.0, the programmatic...",
-      "source": "CVE Feed",
-      "published": "2026-05-27T15:16:29+00:00"
-    },
-    {
-      "title": "CVE-2026-44830 - Empty API_TOKEN disables authentication on network-reachable HTTP/SSE transport",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-44830",
-      "summary": "CVE ID :CVE-2026-44830 Published : May 27, 2026, 3:16 p.m. | 3 hours, 1 minute ago Description :Nocturne Memory is a lightweight, rollbackable, and visual Long-Term Memory Server for MCP Agents...",
-      "source": "CVE Feed",
-      "published": "2026-05-27T15:16:28+00:00"
-    },
-    {
       "title": "CISA Warns of LiteSpeed cPanel Plugin Vulnerability Exploited in Attacks",
       "link": "https://cybersecuritynews.com/litespeed-cpanel-plugin-vulnerability-exploit/",
       "summary": "CISA Warns of LiteSpeed cPanel Plugin Vulnerability Exploited in Attacks CISA has issued an urgent warning regarding a critical vulnerability in the LiteSpeed cPanel Plugin, identified as...",
@@ -217,55 +266,6 @@
       "summary": "Novee researchers discovered an account takeover vulnerability in the open source CFP management tool Pretalx. The post Vulnerability in Popular Conference Software Granted Attackers a 100% Talk...",
       "source": "SecurityWeek",
       "published": "2026-05-27T14:30:00+00:00"
-    },
-    {
-      "title": "CVE-2026-8179 - Multiple vulnerabilities in Aspera applications.",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-8179",
-      "summary": "CVE ID :CVE-2026-8179 Published : May 27, 2026, 2:17 p.m. | 3 hours, 59 minutes ago Description :IBM Aspera High-Speed Transfer Endpoint 3.7.4 through 4.4.7 Fix Pack 1 and IBM Aspera High-Speed...",
-      "source": "CVE Feed",
-      "published": "2026-05-27T14:17:36+00:00"
-    },
-    {
-      "title": "CVE-2026-8175 - Multiple vulnerabilities in Aspera applications.",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-8175",
-      "summary": "CVE ID :CVE-2026-8175 Published : May 27, 2026, 2:17 p.m. | 3 hours, 59 minutes ago Description :IBM Aspera High-Speed Transfer Endpoint 3.7.4 through 4.4.7 Fix Pack 1 and IBM Aspera High-Speed...",
-      "source": "CVE Feed",
-      "published": "2026-05-27T14:17:35+00:00"
-    },
-    {
-      "title": "CVE-2026-7524 - Path Traversal Vulnerability in File Processing Components Allows Unauthorized File System Access and Potential Remote Code Execution",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-7524",
-      "summary": "CVE ID :CVE-2026-7524 Published : May 27, 2026, 2:17 p.m. | 3 hours, 59 minutes ago Description :IBM Langflow OSS 1.0.0 through 1.9.1 could allow remote code execution due to improper validation of...",
-      "source": "CVE Feed",
-      "published": "2026-05-27T14:17:35+00:00"
-    },
-    {
-      "title": "CVE-2026-7365 - IBM Operations Analytics - Log Analysis is affected by Information disclosure due to default passwords not being forced to be changed on post-installation",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-7365",
-      "summary": "CVE ID :CVE-2026-7365 Published : May 27, 2026, 2:17 p.m. | 3 hours, 59 minutes ago Description :IBM Operations Analytics - Log Analysis and IBM SmartCloud Analytics - Log Analysis uses default...",
-      "source": "CVE Feed",
-      "published": "2026-05-27T14:17:35+00:00"
-    },
-    {
-      "title": "CVE-2026-5065 - IBM Controller is affected by vulnerabilities",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-5065",
-      "summary": "CVE ID :CVE-2026-5065 Published : May 27, 2026, 2:17 p.m. | 3 hours, 59 minutes ago Description :IBM Controller 11.0.1, 11.1.0, 11.1.1, and 11.1.2 contains hard-coded credentials, such as a password...",
-      "source": "CVE Feed",
-      "published": "2026-05-27T14:17:33+00:00"
-    },
-    {
-      "title": "CVE-2026-36044 - Apex OS Command Injection Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-36044",
-      "summary": "CVE ID :CVE-2026-36044 Published : May 27, 2026, 2:16 p.m. | 4 hours ago Description :@pensar/apex Severity: 8.8 | HIGH Visit the link for more details, such as CVSS details, affected products...",
-      "source": "CVE Feed",
-      "published": "2026-05-27T14:16:45+00:00"
-    },
-    {
-      "title": "CVE-2026-35090 - Authentication Bypass in Slican telephone exchanges",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-35090",
-      "summary": "CVE ID :CVE-2026-35090 Published : May 27, 2026, 2:16 p.m. | 4 hours ago Description :In Slican telephone exchanges it is possible to manage the control panel remotely. An unauthenticated attacker...",
-      "source": "CVE Feed",
-      "published": "2026-05-27T14:16:45+00:00"
     },
     {
       "title": "Can you enforce strong Active Directory password rules without frustrating users?",
@@ -410,8 +410,8 @@
     {
       "title": "Gitea Vulnerability Exposes Private Container Images without Authentication",
       "link": "https://thehackernews.com/2026/05/gitea-vulnerability-exposes-private.html",
-      "summary": "Cybersecurity researchers have disclosed a security flaw in Gitea, an open-source, self-hosted platform for version control, that allows unauthenticated remote attackers to pull private container...",
-      "source": "The Hacker News",
+      "summary": "Gitea Vulnerability Exposes Private Container Images without Authentication Cybersecurity researchers have disclosed a security flaw in Gitea, an open-source, self-hosted platform for version...",
+      "source": "CVE Newsroom",
       "published": "2026-05-27T10:06:32+00:00"
     },
     {
@@ -459,8 +459,8 @@
     {
       "title": "AI Chatbot Recommendations Redirect Users to Cryptojacking Malware Sites",
       "link": "https://thehackernews.com/2026/05/ai-chatbot-recommendations-redirect.html",
-      "summary": "Microsoft has warned of an active cryptojacking campaign that makes use of artificial intelligence (AI) chatbot interactions as a mechanism for surfacing malicious download sites. \"This emerging...",
-      "source": "The Hacker News",
+      "summary": "AI Chatbot Recommendations Redirect Users to Cryptojacking Malware Sites Microsoft has warned of an active cryptojacking campaign that makes use of artificial intelligence (AI) chatbot interactions...",
+      "source": "CVE Newsroom",
       "published": "2026-05-27T07:45:52+00:00"
     },
     {
@@ -676,8 +676,8 @@
     {
       "title": "Microsoft Patches SharePoint RCE Flaw CVE-2026-45659 Across Server Versions",
       "link": "https://thehackernews.com/2026/05/microsoft-patches-sharepoint-rce-flaw.html",
-      "summary": "Microsoft has rolled out updates to fix a remote code execution vulnerability impacting SharePoint that could be exploited by bad actors in attacks without requiring any specialized conditions to be...",
-      "source": "The Hacker News",
+      "summary": "Microsoft Patches SharePoint RCE Flaw CVE-2026-45659 Across Server Versions Microsoft has rolled out updates to fix a remote code execution vulnerability impacting SharePoint that could be exploited...",
+      "source": "CVE Newsroom",
       "published": "2026-05-26T11:49:53+00:00"
     },
     {
