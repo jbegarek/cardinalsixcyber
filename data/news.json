@@ -1,6 +1,20 @@
 {
-  "last_updated": "2026-05-28T22:31:40.394877+00:00",
+  "last_updated": "2026-05-29T00:34:05.458408+00:00",
   "articles": [
+    {
+      "title": "Anthropic confirms Claude Mythos-class models will roll out to the public",
+      "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-confirms-claude-mythos-class-models-will-roll-out-to-the-public/",
+      "summary": "Anthropic has confirmed that it plans to bring Mythos-class models to the general public after delaying the rollout due to security risks to public and private software. [...]",
+      "source": "BleepingComputer",
+      "published": "2026-05-29T00:21:03+00:00"
+    },
+    {
+      "title": "CVE-2026-8809 - Advanced Custom Fields: Extended <= 0.9.2.5 - Unauthenticated Privilege Escalation via Validation Bypass to '_acf_post_id' Parameter",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-8809",
+      "summary": "CVE ID :CVE-2026-8809 Published : May 28, 2026, 11:16 p.m. | 38 minutes ago Description :The Advanced Custom Fields: Extended plugin for WordPress is vulnerable to Privilege Escalation via Validation...",
+      "source": "CVE Feed",
+      "published": "2026-05-28T23:16:44+00:00"
+    },
     {
       "title": "GreyVibe hackers use ChatGPT, Gemini to power cyberattacks",
       "link": "https://www.bleepingcomputer.com/news/security/greyvibe-hackers-use-chatgpt-gemini-to-power-cyberattacks/",
@@ -9,137 +23,172 @@
       "published": "2026-05-28T22:24:49+00:00"
     },
     {
+      "title": "CVE-2026-45344 - LinkAce: Setup database password newline injection enables pre-auth RCE on uninitialized instances",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-45344",
+      "summary": "CVE ID :CVE-2026-45344 Published : May 28, 2026, 10:17 p.m. | 1 hour, 38 minutes ago Description :LinkAce is a self-hosted archive to collect website links. Prior to 2.5.6, the setup database...",
+      "source": "CVE Feed",
+      "published": "2026-05-28T22:17:00+00:00"
+    },
+    {
+      "title": "CVE-2026-45343 - LinkAce - Stored XSS via Unsanitized SSO User's Name Rendered in Admin Audit Log Allows Session Hijacking",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-45343",
+      "summary": "CVE ID :CVE-2026-45343 Published : May 28, 2026, 10:17 p.m. | 1 hour, 38 minutes ago Description :LinkAce is a self-hosted archive to collect website links. Prior to 2.5.6, LinkAce contains a stored...",
+      "source": "CVE Feed",
+      "published": "2026-05-28T22:17:00+00:00"
+    },
+    {
+      "title": "CVE-2026-44973 - Billy: Path traversal vulnerabilities",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-44973",
+      "summary": "CVE ID :CVE-2026-44973 Published : May 28, 2026, 10:16 p.m. | 1 hour, 38 minutes ago Description :Billy is an interface filesystem abstraction for Go. Prior to 5.9.0, multiple path traversal issues...",
+      "source": "CVE Feed",
+      "published": "2026-05-28T22:16:59+00:00"
+    },
+    {
+      "title": "CVE-2026-44882 - Portainer: Kubernetes middleware continues after token validation failure, bypassing endpoint authorization",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-44882",
+      "summary": "CVE ID :CVE-2026-44882 Published : May 28, 2026, 10:16 p.m. | 1 hour, 38 minutes ago Description :Portainer Community Edition is a lightweight service delivery platform for containerized applications...",
+      "source": "CVE Feed",
+      "published": "2026-05-28T22:16:59+00:00"
+    },
+    {
+      "title": "CVE-2026-44881 - Portainer: Arbitrary File Read via Git Symlink Injection in Stack Auto-Update",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-44881",
+      "summary": "CVE ID :CVE-2026-44881 Published : May 28, 2026, 10:16 p.m. | 1 hour, 38 minutes ago Description :Portainer Community Edition is a lightweight service delivery platform for containerized applications...",
+      "source": "CVE Feed",
+      "published": "2026-05-28T22:16:59+00:00"
+    },
+    {
+      "title": "CVE-2026-44850 - Portainer: Bind-mount restriction bypass via HostConfig.Mounts",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-44850",
+      "summary": "CVE ID :CVE-2026-44850 Published : May 28, 2026, 10:16 p.m. | 1 hour, 38 minutes ago Description :Portainer Community Edition is a lightweight service delivery platform for containerized applications...",
+      "source": "CVE Feed",
+      "published": "2026-05-28T22:16:59+00:00"
+    },
+    {
+      "title": "CVE-2026-44849 - Portainer: Endpoint security bypass via Swarm service create/update",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-44849",
+      "summary": "CVE ID :CVE-2026-44849 Published : May 28, 2026, 10:16 p.m. | 1 hour, 38 minutes ago Description :Portainer Community Edition is a lightweight service delivery platform for containerized applications...",
+      "source": "CVE Feed",
+      "published": "2026-05-28T22:16:58+00:00"
+    },
+    {
+      "title": "CVE-2026-44848 - Portainer: Missing authorization on Docker plugin endpoints allows host RCE",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-44848",
+      "summary": "CVE ID :CVE-2026-44848 Published : May 28, 2026, 10:16 p.m. | 1 hour, 38 minutes ago Description :Portainer Community Edition is a lightweight service delivery platform for containerized applications...",
+      "source": "CVE Feed",
+      "published": "2026-05-28T22:16:58+00:00"
+    },
+    {
       "title": "CVE-2026-9645 - ScadaBR Authenticated Remote Code Execution",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-9645",
-      "summary": "CVE ID :CVE-2026-9645 Published : May 28, 2026, 9:16 p.m. | 33 minutes ago Description :Exposed methods allow authenticated users to create and execute arbitrary JavaScript code on the server. The...",
+      "summary": "CVE ID :CVE-2026-9645 Published : May 28, 2026, 9:16 p.m. | 2 hours, 39 minutes ago Description :Exposed methods allow authenticated users to create and execute arbitrary JavaScript code on the...",
       "source": "CVE Feed",
       "published": "2026-05-28T21:16:34+00:00"
     },
     {
       "title": "CVE-2026-46840 - Vulnerability in Oracle REST Data Services (compon",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-46840",
-      "summary": "CVE ID :CVE-2026-46840 Published : May 28, 2026, 9:16 p.m. | 33 minutes ago Description :Vulnerability in Oracle REST Data Services (component: Backend-as-a-Service). Supported versions that are...",
+      "summary": "CVE ID :CVE-2026-46840 Published : May 28, 2026, 9:16 p.m. | 2 hours, 39 minutes ago Description :Vulnerability in Oracle REST Data Services (component: Backend-as-a-Service). Supported versions that...",
       "source": "CVE Feed",
       "published": "2026-05-28T21:16:33+00:00"
     },
     {
       "title": "CVE-2026-46839 - Vulnerability in Oracle REST Data Services (compon",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-46839",
-      "summary": "CVE ID :CVE-2026-46839 Published : May 28, 2026, 9:16 p.m. | 33 minutes ago Description :Vulnerability in Oracle REST Data Services (component: Core). Supported versions that are affected are...",
+      "summary": "CVE ID :CVE-2026-46839 Published : May 28, 2026, 9:16 p.m. | 2 hours, 39 minutes ago Description :Vulnerability in Oracle REST Data Services (component: Core). Supported versions that are affected...",
       "source": "CVE Feed",
       "published": "2026-05-28T21:16:33+00:00"
     },
     {
       "title": "CVE-2026-46837 - Vulnerability in the Oracle Flow Manufacturing pro",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-46837",
-      "summary": "CVE ID :CVE-2026-46837 Published : May 28, 2026, 9:16 p.m. | 33 minutes ago Description :Vulnerability in the Oracle Flow Manufacturing product of Oracle E-Business Suite (component: Security)...",
+      "summary": "CVE ID :CVE-2026-46837 Published : May 28, 2026, 9:16 p.m. | 2 hours, 39 minutes ago Description :Vulnerability in the Oracle Flow Manufacturing product of Oracle E-Business Suite (component...",
       "source": "CVE Feed",
       "published": "2026-05-28T21:16:33+00:00"
     },
     {
       "title": "CVE-2026-46833 - Vulnerability in the Net Service component of Orac",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-46833",
-      "summary": "CVE ID :CVE-2026-46833 Published : May 28, 2026, 9:16 p.m. | 33 minutes ago Description :Vulnerability in the Net Service component of Oracle Database Server. Supported versions that are affected are...",
+      "summary": "CVE ID :CVE-2026-46833 Published : May 28, 2026, 9:16 p.m. | 2 hours, 39 minutes ago Description :Vulnerability in the Net Service component of Oracle Database Server. Supported versions that are...",
       "source": "CVE Feed",
       "published": "2026-05-28T21:16:33+00:00"
     },
     {
       "title": "CVE-2026-46828 - Vulnerability in the Oracle Payroll product of Ora",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-46828",
-      "summary": "CVE ID :CVE-2026-46828 Published : May 28, 2026, 9:16 p.m. | 33 minutes ago Description :Vulnerability in the Oracle Payroll product of Oracle E-Business Suite (component: Internal Operations)...",
+      "summary": "CVE ID :CVE-2026-46828 Published : May 28, 2026, 9:16 p.m. | 2 hours, 39 minutes ago Description :Vulnerability in the Oracle Payroll product of Oracle E-Business Suite (component: Internal...",
       "source": "CVE Feed",
       "published": "2026-05-28T21:16:32+00:00"
     },
     {
       "title": "CVE-2026-46827 - Vulnerability in the Oracle Payroll product of Ora",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-46827",
-      "summary": "CVE ID :CVE-2026-46827 Published : May 28, 2026, 9:16 p.m. | 33 minutes ago Description :Vulnerability in the Oracle Payroll product of Oracle E-Business Suite (component: Self Service Manager)...",
+      "summary": "CVE ID :CVE-2026-46827 Published : May 28, 2026, 9:16 p.m. | 2 hours, 39 minutes ago Description :Vulnerability in the Oracle Payroll product of Oracle E-Business Suite (component: Self Service...",
       "source": "CVE Feed",
       "published": "2026-05-28T21:16:32+00:00"
     },
     {
       "title": "CVE-2026-46826 - Vulnerability in the Oracle Payroll product of Ora",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-46826",
-      "summary": "CVE ID :CVE-2026-46826 Published : May 28, 2026, 9:16 p.m. | 33 minutes ago Description :Vulnerability in the Oracle Payroll product of Oracle E-Business Suite (component: Internal Operations)...",
+      "summary": "CVE ID :CVE-2026-46826 Published : May 28, 2026, 9:16 p.m. | 2 hours, 39 minutes ago Description :Vulnerability in the Oracle Payroll product of Oracle E-Business Suite (component: Internal...",
       "source": "CVE Feed",
       "published": "2026-05-28T21:16:32+00:00"
     },
     {
       "title": "CVE-2026-46824 - Vulnerability in the Oracle Universal Work Queue p",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-46824",
-      "summary": "CVE ID :CVE-2026-46824 Published : May 28, 2026, 9:16 p.m. | 33 minutes ago Description :Vulnerability in the Oracle Universal Work Queue product of Oracle E-Business Suite (component: Work Provider...",
+      "summary": "CVE ID :CVE-2026-46824 Published : May 28, 2026, 9:16 p.m. | 2 hours, 39 minutes ago Description :Vulnerability in the Oracle Universal Work Queue product of Oracle E-Business Suite (component: Work...",
       "source": "CVE Feed",
       "published": "2026-05-28T21:16:32+00:00"
     },
     {
       "title": "CVE-2026-46822 - Vulnerability in the Oracle iAssets product of Ora",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-46822",
-      "summary": "CVE ID :CVE-2026-46822 Published : May 28, 2026, 9:16 p.m. | 33 minutes ago Description :Vulnerability in the Oracle iAssets product of Oracle E-Business Suite (component: Internal Operations)...",
+      "summary": "CVE ID :CVE-2026-46822 Published : May 28, 2026, 9:16 p.m. | 2 hours, 39 minutes ago Description :Vulnerability in the Oracle iAssets product of Oracle E-Business Suite (component: Internal...",
       "source": "CVE Feed",
       "published": "2026-05-28T21:16:32+00:00"
     },
     {
       "title": "CVE-2026-46820 - Vulnerability in the Oracle Financials Common Modu",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-46820",
-      "summary": "CVE ID :CVE-2026-46820 Published : May 28, 2026, 9:16 p.m. | 33 minutes ago Description :Vulnerability in the Oracle Financials Common Modules product of Oracle E-Business Suite (component: Common...",
+      "summary": "CVE ID :CVE-2026-46820 Published : May 28, 2026, 9:16 p.m. | 2 hours, 39 minutes ago Description :Vulnerability in the Oracle Financials Common Modules product of Oracle E-Business Suite (component...",
       "source": "CVE Feed",
       "published": "2026-05-28T21:16:31+00:00"
     },
     {
       "title": "CVE-2026-46819 - Vulnerability in the Oracle Internet Procurement C",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-46819",
-      "summary": "CVE ID :CVE-2026-46819 Published : May 28, 2026, 9:16 p.m. | 33 minutes ago Description :Vulnerability in the Oracle Internet Procurement Connector product of Oracle E-Business Suite (component...",
+      "summary": "CVE ID :CVE-2026-46819 Published : May 28, 2026, 9:16 p.m. | 2 hours, 39 minutes ago Description :Vulnerability in the Oracle Internet Procurement Connector product of Oracle E-Business Suite...",
       "source": "CVE Feed",
       "published": "2026-05-28T21:16:31+00:00"
     },
     {
       "title": "CVE-2026-46817 - Vulnerability in the Oracle Payments product of Or",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-46817",
-      "summary": "CVE ID :CVE-2026-46817 Published : May 28, 2026, 9:16 p.m. | 33 minutes ago Description :Vulnerability in the Oracle Payments product of Oracle E-Business Suite (component: File Transmission)...",
+      "summary": "CVE ID :CVE-2026-46817 Published : May 28, 2026, 9:16 p.m. | 2 hours, 39 minutes ago Description :Vulnerability in the Oracle Payments product of Oracle E-Business Suite (component: File...",
       "source": "CVE Feed",
       "published": "2026-05-28T21:16:31+00:00"
     },
     {
       "title": "CVE-2026-46775 - Vulnerability in Oracle REST Data Services (compon",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-46775",
-      "summary": "CVE ID :CVE-2026-46775 Published : May 28, 2026, 9:16 p.m. | 33 minutes ago Description :Vulnerability in Oracle REST Data Services (component: Core). Supported versions that are affected are...",
+      "summary": "CVE ID :CVE-2026-46775 Published : May 28, 2026, 9:16 p.m. | 2 hours, 39 minutes ago Description :Vulnerability in Oracle REST Data Services (component: Core). Supported versions that are affected...",
       "source": "CVE Feed",
       "published": "2026-05-28T21:16:31+00:00"
     },
     {
       "title": "CVE-2026-45288 - Marten has an SQL injection vulnerability in its full-text search regConfig parameter",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-45288",
-      "summary": "CVE ID :CVE-2026-45288 Published : May 28, 2026, 9:16 p.m. | 33 minutes ago Description :Marten is a .NET Transactional Document DB and Event Store on PostgreSQL. Prior to 8.36.1, Marten's full-text...",
+      "summary": "CVE ID :CVE-2026-45288 Published : May 28, 2026, 9:16 p.m. | 2 hours, 39 minutes ago Description :Marten is a .NET Transactional Document DB and Event Store on PostgreSQL. Prior to 8.36.1, Marten's...",
       "source": "CVE Feed",
       "published": "2026-05-28T21:16:31+00:00"
     },
     {
       "title": "CVE-2026-44655 - MantisBT: Stored XSS on Move Attachments Admin Page",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-44655",
-      "summary": "CVE ID :CVE-2026-44655 Published : May 28, 2026, 9:16 p.m. | 33 minutes ago Description :Mantis Bug Tracker (MantisBT) is an open source issue tracker. From 1.3.0 to 2.28.1, unescaped Project Name...",
+      "summary": "CVE ID :CVE-2026-44655 Published : May 28, 2026, 9:16 p.m. | 2 hours, 39 minutes ago Description :Mantis Bug Tracker (MantisBT) is an open source issue tracker. From 1.3.0 to 2.28.1, unescaped...",
       "source": "CVE Feed",
       "published": "2026-05-28T21:16:30+00:00"
-    },
-    {
-      "title": "CVE-2026-35277 - Vulnerability in Oracle REST Data Services (compon",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-35277",
-      "summary": "CVE ID :CVE-2026-35277 Published : May 28, 2026, 9:16 p.m. | 33 minutes ago Description :Vulnerability in Oracle REST Data Services (component: Core). Supported versions that are affected are...",
-      "source": "CVE Feed",
-      "published": "2026-05-28T21:16:29+00:00"
-    },
-    {
-      "title": "CVE-2026-34311 - Vulnerability in the Oracle Hospitality OPERA 5 Pr",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-34311",
-      "summary": "CVE ID :CVE-2026-34311 Published : May 28, 2026, 9:16 p.m. | 33 minutes ago Description :Vulnerability in the Oracle Hospitality OPERA 5 Property Services product of Oracle Hospitality Applications...",
-      "source": "CVE Feed",
-      "published": "2026-05-28T21:16:29+00:00"
-    },
-    {
-      "title": "CVE-2026-39929 - Lakeside SysTrack Agent LsiAgent.exe Out-of-Bounds Read via UDP",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-39929",
-      "summary": "CVE ID :CVE-2026-39929 Published : May 28, 2026, 9:14 p.m. | 35 minutes ago Description :Lakeside SysTrack Agent versions prior to 11.2.1.28, 11.3.0.38, 11.4.0.24, 11.5.0.15 contain an out-of-bounds...",
-      "source": "CVE Feed",
-      "published": "2026-05-28T21:14:12+00:00"
     },
     {
       "title": "BTMOB Android malware service generates custom phishing payloads",
@@ -147,48 +196,6 @@
       "summary": "An Android remote access trojan named BTMOB is offered to cybercriminals with a builder interface for generating malware payloads tailored to phishing lures. [...]",
       "source": "BleepingComputer",
       "published": "2026-05-28T21:10:11+00:00"
-    },
-    {
-      "title": "CVE-2026-10044 - ai-goofish-monitor Unauthenticated Arbitrary File Read via GET /api/prompts/",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-10044",
-      "summary": "CVE ID :CVE-2026-10044 Published : May 28, 2026, 9:02 p.m. | 47 minutes ago Description :Usagi-org ai-goofish-monitor contains an unauthenticated arbitrary file read vulnerability in the GET...",
-      "source": "CVE Feed",
-      "published": "2026-05-28T21:02:21+00:00"
-    },
-    {
-      "title": "CVE-2026-9039 - Initialization of a resource with an insecure default in XCharge C6",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-9039",
-      "summary": "CVE ID :CVE-2026-9039 Published : May 28, 2026, 8:16 p.m. | 1 hour, 33 minutes ago Description :A configuration weakness in the device’s remote management service allows an authenticated session to...",
-      "source": "CVE Feed",
-      "published": "2026-05-28T20:16:27+00:00"
-    },
-    {
-      "title": "CVE-2026-9038 - Stack-based buffer overflow in XCharge C6",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-9038",
-      "summary": "CVE ID :CVE-2026-9038 Published : May 28, 2026, 8:16 p.m. | 1 hour, 33 minutes ago Description :A stack-based buffer overflow vulnerability in the charging controller’s signal-processing logic allows...",
-      "source": "CVE Feed",
-      "published": "2026-05-28T20:16:27+00:00"
-    },
-    {
-      "title": "CVE-2026-9037 - Download of code without integrity check in XCharge C6",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-9037",
-      "summary": "CVE ID :CVE-2026-9037 Published : May 28, 2026, 8:16 p.m. | 1 hour, 33 minutes ago Description :A firmware update mechanism in the affected charging controller fails to validate the authenticity of...",
-      "source": "CVE Feed",
-      "published": "2026-05-28T20:16:27+00:00"
-    },
-    {
-      "title": "CVE-2026-49128 - Music Player Daemon < 0.24.11 Path Traversal via LocalStorage URI Handling",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-49128",
-      "summary": "CVE ID :CVE-2026-49128 Published : May 28, 2026, 8:16 p.m. | 1 hour, 33 minutes ago Description :Music Player Daemon (MPD) before version 0.24.11 contains a path traversal vulnerability in...",
-      "source": "CVE Feed",
-      "published": "2026-05-28T20:16:26+00:00"
-    },
-    {
-      "title": "CVE-2026-49127 - Music Player Daemon < 0.24.11 Stack Buffer Overflow via pcm_unpack_24be",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-49127",
-      "summary": "CVE ID :CVE-2026-49127 Published : May 28, 2026, 8:16 p.m. | 1 hour, 33 minutes ago Description :Music Player Daemon (MPD) before version 0.24.11 contains a stack buffer overflow vulnerability in the...",
-      "source": "CVE Feed",
-      "published": "2026-05-28T20:16:26+00:00"
     },
     {
       "title": "FBI warns of fake FIFA websites running World Cup fraud schemes",
@@ -256,8 +263,8 @@
     {
       "title": "Threat Actors Exploit Critical FortiClient EMS Flaw to Deploy Credential Stealer",
       "link": "https://thehackernews.com/2026/05/threat-actors-exploit-critical.html",
-      "summary": "Threat Actors Exploit Critical FortiClient EMS Flaw to Deploy Credential Stealer Threat actors are continuing to exploit a critical, now-patched security flaw impacting FortiClient Endpoint...",
-      "source": "CVE Newsroom",
+      "summary": "Threat actors are continuing to exploit a critical, now-patched security flaw impacting FortiClient Endpoint Management Server (EMS) deployments to deliver credential-stealing malware. \"The campaign...",
+      "source": "The Hacker News",
       "published": "2026-05-28T15:26:04+00:00"
     },
     {
@@ -298,8 +305,8 @@
     {
       "title": "Microsoft Slams Public Zero-Day Disclosures Amid GitHub Researcher Account Removal",
       "link": "https://thehackernews.com/2026/05/microsoft-slams-public-zero-day.html",
-      "summary": "Microsoft Slams Public Zero-Day Disclosures Amid GitHub Researcher Account Removal Microsoft has come out strongly in favor of Coordinated Vulnerability Disclosure (CVD), urging the research...",
-      "source": "CVE Newsroom",
+      "summary": "Microsoft has come out strongly in favor of Coordinated Vulnerability Disclosure (CVD), urging the research community to share their findings and give affected vendors an opportunity to better...",
+      "source": "The Hacker News",
       "published": "2026-05-28T13:53:52+00:00"
     },
     {
@@ -312,8 +319,8 @@
     {
       "title": "ThreatsDay Bulletin: Claude Security Plugin, Azure Priv-Esc, Kali365 MFA Bypass, FIFA Scams +15 More",
       "link": "https://thehackernews.com/2026/05/threatsday-bulletin-claude-security.html",
-      "summary": "ThreatsDay Bulletin: Claude Security Plugin, Azure Priv-Esc, Kali365 MFA Bypass, FIFA Scams +15 More Every time you think the industry has finally stopped doing some reckless, low-effort crap...",
-      "source": "CVE Newsroom",
+      "summary": "Every time you think the industry has finally stopped doing some reckless, low-effort crap, somebody spins up a fresh box full of sketchy loaders, fake installers, recycled social-engineering bait...",
+      "source": "The Hacker News",
       "published": "2026-05-28T13:33:16+00:00"
     },
     {
@@ -746,16 +753,9 @@
     {
       "title": "Gitea Vulnerability Exposes Private Container Images without Authentication",
       "link": "https://thehackernews.com/2026/05/gitea-vulnerability-exposes-private.html",
-      "summary": "Gitea Vulnerability Exposes Private Container Images without Authentication Cybersecurity researchers have disclosed a security flaw in Gitea, an open-source, self-hosted platform for version...",
-      "source": "CVE Newsroom",
+      "summary": "Cybersecurity researchers have disclosed a security flaw in Gitea, an open-source, self-hosted platform for version control, that allows unauthenticated remote attackers to pull private container...",
+      "source": "The Hacker News",
       "published": "2026-05-27T10:06:32+00:00"
-    },
-    {
-      "title": "CISA gives feds 4 days to patch actively exploited cPanel plugin flaw",
-      "link": "https://www.bleepingcomputer.com/news/security/cisa-gives-feds-4-days-to-patch-actively-exploited-cpanel-plugin-flaw/",
-      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has given U.S. federal agencies four days to secure their servers against a critical vulnerability in the LiteSpeed cPanel user-end...",
-      "source": "BleepingComputer",
-      "published": "2026-05-27T10:06:17+00:00"
     },
     {
       "title": "AI Chatbot Recommendations Redirect Users to Cryptojacking Malware Sites",
