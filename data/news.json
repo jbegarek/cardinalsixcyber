@@ -1,6 +1,27 @@
 {
-  "last_updated": "2026-06-01T17:59:31.896231+00:00",
+  "last_updated": "2026-06-01T19:46:27.506073+00:00",
   "articles": [
+    {
+      "title": "NSA selects new leads for key cybersecurity posts",
+      "link": "https://therecord.media/nsa-selects-new-leads-for-cyber-posts",
+      "summary": "David Imbordino, an NSA senior executive who most recently led its cybersecurity directorate in an acting capacity, has been named as its new chief. Bruce Jones, a career NSA technical and...",
+      "source": "The Record",
+      "published": "2026-06-01T18:30:00+00:00"
+    },
+    {
+      "title": "WP Maps Pro Vulnerability Exploited to Take Over WordPress Sites",
+      "link": "https://www.securityweek.com/wp-maps-pro-vulnerability-exploited-to-take-over-wordpress-sites/",
+      "summary": "The security defect (CVE-2026-8732) allows unauthenticated attackers to create administrative accounts on the affected installations. The post WP Maps Pro Vulnerability Exploited to Take Over...",
+      "source": "SecurityWeek",
+      "published": "2026-06-01T18:19:23+00:00"
+    },
+    {
+      "title": "Dashlane password manager users locked out by brute force attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/dashlane-password-manager-users-locked-out-by-brute-force-attacks/",
+      "summary": "Multiple Dashlane users have been locked out of their accounts following brute-force attacks that attempted logins from distant locations and unknown devices. [...]",
+      "source": "BleepingComputer",
+      "published": "2026-06-01T18:17:13+00:00"
+    },
     {
       "title": "Dutch Police Dismantle Massive 17-Million-Device Botnet",
       "link": "https://www.securityweek.com/dutch-police-dismantle-massive-17-million-device-botnet/",
@@ -9,11 +30,67 @@
       "published": "2026-06-01T17:55:26+00:00"
     },
     {
+      "title": "Miasma Supply Chain Attack Compromises Red Hat npm Packages with Credential-Stealing Worm",
+      "link": "https://thehackernews.com/2026/06/miasma-supply-chain-attack-compromises.html",
+      "summary": "A new Mini Shai-Hulud supply chain attack campaign, codenamed Miasma, has compromised @redhat-cloud-services packages to steal credentials and secrets from developer machines and deliver a...",
+      "source": "The Hacker News",
+      "published": "2026-06-01T17:40:28+00:00"
+    },
+    {
+      "title": "CVE-2026-0072 - Android InputMethodManagerService Privilege Escalation",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-0072",
+      "summary": "CVE ID :CVE-2026-0072 Published : June 1, 2026, 5:38 p.m. | 1 hour, 22 minutes ago Description :In addInputMethodListener of com.android.server.inputmethod.InputMethodManagerService, there is a...",
+      "source": "CVE Feed",
+      "published": "2026-06-01T17:38:48+00:00"
+    },
+    {
       "title": "Hackers Used Meta’s AI Support Bot to Seize Instagram Accounts",
       "link": "https://krebsonsecurity.com/2026/06/hackers-used-metas-ai-support-bot-to-seize-instagram-accounts/",
       "summary": "The Instagram accounts for the Obama White House and the Chief Master Sergeant of the U.S. Space Force were briefly defaced with pro-Iranian images and messages over the weekend, after instructions...",
       "source": "Krebs on Security",
       "published": "2026-06-01T17:32:50+00:00"
+    },
+    {
+      "title": "CVE-2026-45156 - Nextcloud: Authentication Bypass in ID4me handling via Missing JWT Signature Verification in User OIDC",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-45156",
+      "summary": "CVE ID :CVE-2026-45156 Published : June 1, 2026, 5:17 p.m. | 1 hour, 43 minutes ago Description :Nextcloud is an open source content collaboration platform. From versions 0.3.0 to before 3.1.0, 5.0.0...",
+      "source": "CVE Feed",
+      "published": "2026-06-01T17:17:09+00:00"
+    },
+    {
+      "title": "CVE-2026-45132 - CloudPirates Open Source Helm Charts: GitHub Actions workflow leaks PAT and SSH signing key via unsafe credential handling",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-45132",
+      "summary": "CVE ID :CVE-2026-45132 Published : June 1, 2026, 5:17 p.m. | 1 hour, 43 minutes ago Description :CloudPirates Open Source Helm Charts is a collection of Helm charts. Prior to commit fcf9302, a GitHub...",
+      "source": "CVE Feed",
+      "published": "2026-06-01T17:17:08+00:00"
+    },
+    {
+      "title": "CVE-2026-45131 - CloudPirates Open Source Helm Charts: GitHub Actions pull_request_target workflow allows secret exfiltration via fork pull requests",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-45131",
+      "summary": "CVE ID :CVE-2026-45131 Published : June 1, 2026, 5:17 p.m. | 1 hour, 43 minutes ago Description :CloudPirates Open Source Helm Charts is a collection of Helm charts. Prior to commit fcf9302, a GitHub...",
+      "source": "CVE Feed",
+      "published": "2026-06-01T17:17:08+00:00"
+    },
+    {
+      "title": "CVE-2026-44211 - Cline Kanban Server has a Cross-Origin WebSocket Hijacking Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-44211",
+      "summary": "CVE ID :CVE-2026-44211 Published : June 1, 2026, 5:17 p.m. | 1 hour, 43 minutes ago Description :Cline is an autonomous coding agent as an SDK, IDE extension, or CLI assistant. In versions 2.13.0 and...",
+      "source": "CVE Feed",
+      "published": "2026-06-01T17:17:07+00:00"
+    },
+    {
+      "title": "CVE-2026-42672 - WordPress WP Directory Kit plugin <= 1.5.1 - SQL Injection vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-42672",
+      "summary": "CVE ID :CVE-2026-42672 Published : June 1, 2026, 5:16 p.m. | 1 hour, 43 minutes ago Description :Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in...",
+      "source": "CVE Feed",
+      "published": "2026-06-01T17:16:59+00:00"
+    },
+    {
+      "title": "CVE-2026-10270 - D-Link DI-7001 MINI API httpd_debug.asp sprintf stack-based overflow",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-10270",
+      "summary": "CVE ID :CVE-2026-10270 Published : June 1, 2026, 5:16 p.m. | 1 hour, 44 minutes ago Description :A vulnerability was detected in D-Link DI-7001 MINI up to 19.09.19A1. Impacted is the function sprintf...",
+      "source": "CVE Feed",
+      "published": "2026-06-01T17:16:43+00:00"
     },
     {
       "title": "WordPress malware campaign hides payloads in Steam profiles",
@@ -44,72 +121,65 @@
       "published": "2026-06-01T16:21:20+00:00"
     },
     {
-      "title": "CVE-2026-42672 - WordPress WP Directory Kit plugin <= 1.5.1 - SQL Injection vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-42672",
-      "summary": "CVE ID :CVE-2026-42672 Published : June 1, 2026, 3:27 p.m. | 2 hours ago Description :Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Wp...",
-      "source": "CVE Feed",
-      "published": "2026-06-01T15:27:46+00:00"
-    },
-    {
       "title": "CVE-2026-8931 - Critical RCE vulnerability in Disig Web Signer",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-8931",
-      "summary": "CVE ID :CVE-2026-8931 Published : June 1, 2026, 3:16 p.m. | 2 hours, 11 minutes ago Description :A critical Remote Code Execution (RCE) vulnerability exists in Disig Web Signer versions 2.0.3 through...",
+      "summary": "CVE ID :CVE-2026-8931 Published : June 1, 2026, 3:16 p.m. | 3 hours, 44 minutes ago Description :A critical Remote Code Execution (RCE) vulnerability exists in Disig Web Signer versions 2.0.3 through...",
       "source": "CVE Feed",
       "published": "2026-06-01T15:16:39+00:00"
     },
     {
       "title": "CVE-2026-48879 - WordPress AIWU plugin <= 1.4.17 - Privilege Escalation vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-48879",
-      "summary": "CVE ID :CVE-2026-48879 Published : June 1, 2026, 3:16 p.m. | 2 hours, 11 minutes ago Description :Incorrect Privilege Assignment vulnerability in Sergey AIWU allows Privilege Escalation. This issue...",
+      "summary": "CVE ID :CVE-2026-48879 Published : June 1, 2026, 3:16 p.m. | 3 hours, 44 minutes ago Description :Incorrect Privilege Assignment vulnerability in Sergey AIWU allows Privilege Escalation. This issue...",
       "source": "CVE Feed",
       "published": "2026-06-01T15:16:38+00:00"
     },
     {
       "title": "CVE-2026-48866 - WordPress Gravity Forms plugin <= 2.10.0.1 - Arbitrary File Deletion vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-48866",
-      "summary": "CVE ID :CVE-2026-48866 Published : June 1, 2026, 3:16 p.m. | 2 hours, 11 minutes ago Description :Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') vulnerability in...",
+      "summary": "CVE ID :CVE-2026-48866 Published : June 1, 2026, 3:16 p.m. | 3 hours, 44 minutes ago Description :Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') vulnerability in...",
       "source": "CVE Feed",
       "published": "2026-06-01T15:16:38+00:00"
     },
     {
       "title": "CVE-2026-42682 - WordPress wpForo Forum plugin <= 3.0.6 - Broken Access Control vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-42682",
-      "summary": "CVE ID :CVE-2026-42682 Published : June 1, 2026, 3:16 p.m. | 2 hours, 11 minutes ago Description :Missing Authorization vulnerability in Tomdever wpForo Forum allows Exploiting Incorrectly Configured...",
+      "summary": "CVE ID :CVE-2026-42682 Published : June 1, 2026, 3:16 p.m. | 3 hours, 44 minutes ago Description :Missing Authorization vulnerability in Tomdever wpForo Forum allows Exploiting Incorrectly Configured...",
       "source": "CVE Feed",
       "published": "2026-06-01T15:16:36+00:00"
     },
     {
       "title": "CVE-2026-42680 - WordPress Contest Gallery Pro plugin <= 29.0.1 - Privilege Escalation vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-42680",
-      "summary": "CVE ID :CVE-2026-42680 Published : June 1, 2026, 3:16 p.m. | 2 hours, 11 minutes ago Description :Incorrect Privilege Assignment vulnerability in Wasiliy Strecker / ContestGallery developer Contest...",
+      "summary": "CVE ID :CVE-2026-42680 Published : June 1, 2026, 3:16 p.m. | 3 hours, 44 minutes ago Description :Incorrect Privilege Assignment vulnerability in Wasiliy Strecker / ContestGallery developer Contest...",
       "source": "CVE Feed",
       "published": "2026-06-01T15:16:35+00:00"
     },
     {
       "title": "CVE-2026-42251 - Hard-coded credentials in KS-SOMED",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-42251",
-      "summary": "CVE ID :CVE-2026-42251 Published : June 1, 2026, 3:16 p.m. | 2 hours, 11 minutes ago Description :Use of hard-coded credentials in KS-SOMED allowed an unauthorized attacker access to FTP server that...",
+      "summary": "CVE ID :CVE-2026-42251 Published : June 1, 2026, 3:16 p.m. | 3 hours, 44 minutes ago Description :Use of hard-coded credentials in KS-SOMED allowed an unauthorized attacker access to FTP server that...",
       "source": "CVE Feed",
       "published": "2026-06-01T15:16:35+00:00"
     },
     {
       "title": "CVE-2026-10259 - H3C Magic B0 aspForm SetMobileAPInfoById stack-based overflow",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-10259",
-      "summary": "CVE ID :CVE-2026-10259 Published : June 1, 2026, 3:16 p.m. | 2 hours, 11 minutes ago Description :A security vulnerability has been detected in H3C Magic B0 up to 100R002. The affected element is the...",
+      "summary": "CVE ID :CVE-2026-10259 Published : June 1, 2026, 3:16 p.m. | 3 hours, 44 minutes ago Description :A security vulnerability has been detected in H3C Magic B0 up to 100R002. The affected element is the...",
       "source": "CVE Feed",
       "published": "2026-06-01T15:16:31+00:00"
     },
     {
       "title": "CVE-2026-0826 - Poly Voice – Possible Remote Control of Certain Poly Devices",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-0826",
-      "summary": "CVE ID :CVE-2026-0826 Published : June 1, 2026, 3:16 p.m. | 2 hours, 11 minutes ago Description :In certain scenarios when the admin has enabled Interactive Connectivity Establishment (ICE), a buffer...",
+      "summary": "CVE ID :CVE-2026-0826 Published : June 1, 2026, 3:16 p.m. | 3 hours, 44 minutes ago Description :In certain scenarios when the admin has enabled Interactive Connectivity Establishment (ICE), a buffer...",
       "source": "CVE Feed",
       "published": "2026-06-01T15:16:29+00:00"
     },
     {
       "title": "CVE-2024-40646 - Vertex Vulnerable to Path Traversal",
       "link": "https://cvefeed.io/vuln/detail/CVE-2024-40646",
-      "summary": "CVE ID :CVE-2024-40646 Published : June 1, 2026, 3:16 p.m. | 2 hours, 11 minutes ago Description :Vertex is a management tool for PT (Private Tracker) users to manage streaming and watching videos...",
+      "summary": "CVE ID :CVE-2024-40646 Published : June 1, 2026, 3:16 p.m. | 3 hours, 44 minutes ago Description :Vertex is a management tool for PT (Private Tracker) users to manage streaming and watching videos...",
       "source": "CVE Feed",
       "published": "2026-06-01T15:16:28+00:00"
     },
@@ -191,6 +261,13 @@
       "published": "2026-06-01T12:01:09+00:00"
     },
     {
+      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/06/01/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "summary": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation. CVE-2024-21182 Oracle WebLogic Server Unspecified Vulnerability...",
+      "source": "CISA Alerts",
+      "published": "2026-06-01T12:00:00+00:00"
+    },
+    {
       "title": "China-Aligned Groups Ramp Up Attacks: Dragon Weave Hits Czech Republic & Taiwan",
       "link": "https://thehackernews.com/2026/06/china-aligned-groups-ramp-up-attacks.html",
       "summary": "A new cyber espionage campaign codenamed Operation Dragon Weave has been observed targeting officials and citizens in the Czech Republic and Taiwan to deliver an AdaptixC2 agent. According to Seqrite...",
@@ -256,70 +333,63 @@
     {
       "title": "CVE-2026-9024 - Stored Cross-site Scripting (XSS) vulnerability affecting Process Experience Studio in DELMIA Service Process Engineer from Release 3DEXPERIENCE R2024x through Release 3DEXPERIENCE R2026x",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-9024",
-      "summary": "CVE ID :CVE-2026-9024 Published : June 1, 2026, 9:16 a.m. | 8 hours, 11 minutes ago Description :A Stored Cross-site Scripting (XSS) vulnerability affecting Process Experience Studio in DELMIA...",
+      "summary": "CVE ID :CVE-2026-9024 Published : June 1, 2026, 9:16 a.m. | 9 hours, 44 minutes ago Description :A Stored Cross-site Scripting (XSS) vulnerability affecting Process Experience Studio in DELMIA...",
       "source": "CVE Feed",
       "published": "2026-06-01T09:16:21+00:00"
     },
     {
       "title": "CVE-2026-7858 - Deserialization of Untrusted Data vulnerability affecting Teamwork Cloud from No Magic Release 2022x through No Magic Release 2026x and Magic Collaboration Studio from CATIA Magic Release 2022x through CATIA Magic Release 2026x",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-7858",
-      "summary": "CVE ID :CVE-2026-7858 Published : June 1, 2026, 9:16 a.m. | 8 hours, 11 minutes ago Description :A Deserialization of Untrusted Data vulnerability affecting Teamwork Cloud from No Magic Release 2022x...",
+      "summary": "CVE ID :CVE-2026-7858 Published : June 1, 2026, 9:16 a.m. | 9 hours, 44 minutes ago Description :A Deserialization of Untrusted Data vulnerability affecting Teamwork Cloud from No Magic Release 2022x...",
       "source": "CVE Feed",
       "published": "2026-06-01T09:16:20+00:00"
     },
     {
       "title": "CVE-2026-49157 - Apache ActiveMQ: Authenticated low-privilege Web users retain Jolokia broker-management capability by default",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-49157",
-      "summary": "CVE ID :CVE-2026-49157 Published : June 1, 2026, 9:16 a.m. | 8 hours, 11 minutes ago Description :Incorrect Default Permissions vulnerability in Apache ActiveMQ. This issue affects Apache ActiveMQ...",
+      "summary": "CVE ID :CVE-2026-49157 Published : June 1, 2026, 9:16 a.m. | 9 hours, 44 minutes ago Description :Incorrect Default Permissions vulnerability in Apache ActiveMQ. This issue affects Apache ActiveMQ...",
       "source": "CVE Feed",
       "published": "2026-06-01T09:16:20+00:00"
     },
     {
       "title": "CVE-2026-45505 - Apache ActiveMQ Broker, Apache ActiveMQ All, Apache ActiveMQ: Jolokia `addNetworkConnector` Discovery Wrapper Bypass",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-45505",
-      "summary": "CVE ID :CVE-2026-45505 Published : June 1, 2026, 9:16 a.m. | 8 hours, 11 minutes ago Description :Improper Input Validation, Improper Control of Generation of Code ('Code Injection') vulnerability in...",
+      "summary": "CVE ID :CVE-2026-45505 Published : June 1, 2026, 9:16 a.m. | 9 hours, 44 minutes ago Description :Improper Input Validation, Improper Control of Generation of Code ('Code Injection') vulnerability in...",
       "source": "CVE Feed",
       "published": "2026-06-01T09:16:19+00:00"
     },
     {
       "title": "CVE-2026-44825 - Apache Solr: Enabling BasicAuth using bin/solr CLI configures additional insecure users",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-44825",
-      "summary": "CVE ID :CVE-2026-44825 Published : June 1, 2026, 9:16 a.m. | 8 hours, 11 minutes ago Description :Hardcoded credentials in the Basic Authentication setup tool (bin/solr auth enable) in Apache Solr...",
+      "summary": "CVE ID :CVE-2026-44825 Published : June 1, 2026, 9:16 a.m. | 9 hours, 44 minutes ago Description :Hardcoded credentials in the Basic Authentication setup tool (bin/solr auth enable) in Apache Solr...",
       "source": "CVE Feed",
       "published": "2026-06-01T09:16:19+00:00"
     },
     {
       "title": "CVE-2026-42588 - Apache ActiveMQ Broker, Apache ActiveMQ All, Apache ActiveMQ: Remote Code Execution via Jolokia addNetworkConnector",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-42588",
-      "summary": "CVE ID :CVE-2026-42588 Published : June 1, 2026, 9:16 a.m. | 8 hours, 11 minutes ago Description :Improper Input Validation, Improper Control of Generation of Code ('Code Injection') vulnerability in...",
+      "summary": "CVE ID :CVE-2026-42588 Published : June 1, 2026, 9:16 a.m. | 9 hours, 44 minutes ago Description :Improper Input Validation, Improper Control of Generation of Code ('Code Injection') vulnerability in...",
       "source": "CVE Feed",
       "published": "2026-06-01T09:16:19+00:00"
     },
     {
       "title": "CVE-2026-40546 - Multiple SQL Injections in SOPlanning",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-40546",
-      "summary": "CVE ID :CVE-2026-40546 Published : June 1, 2026, 9:16 a.m. | 8 hours, 12 minutes ago Description :SOPlanning is vulnerable to SQL Injection across multiple endpoints and parameters. Attacker with low...",
+      "summary": "CVE ID :CVE-2026-40546 Published : June 1, 2026, 9:16 a.m. | 9 hours, 44 minutes ago Description :SOPlanning is vulnerable to SQL Injection across multiple endpoints and parameters. Attacker with low...",
       "source": "CVE Feed",
       "published": "2026-06-01T09:16:17+00:00"
     },
     {
       "title": "CVE-2026-40543 - Missing Authorization in SOPlanning",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-40543",
-      "summary": "CVE ID :CVE-2026-40543 Published : June 1, 2026, 9:16 a.m. | 8 hours, 12 minutes ago Description :SOPlanning does not enforce authorization for backup functionalities. An unauthenticated attacker can...",
+      "summary": "CVE ID :CVE-2026-40543 Published : June 1, 2026, 9:16 a.m. | 9 hours, 44 minutes ago Description :SOPlanning does not enforce authorization for backup functionalities. An unauthenticated attacker can...",
       "source": "CVE Feed",
       "published": "2026-06-01T09:16:17+00:00"
     },
     {
       "title": "CVE-2026-32325 - Dell ServerView Agents Privilege Escalation",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-32325",
-      "summary": "CVE ID :CVE-2026-32325 Published : June 1, 2026, 9:16 a.m. | 8 hours, 12 minutes ago Description :Privilege chaining issue exists in ServerView Agents for Windows V11.60.04 and earlier. If this...",
-      "source": "CVE Feed",
-      "published": "2026-06-01T09:16:16+00:00"
-    },
-    {
-      "title": "CVE-2026-27788 - ServerView Agents for Windows Privilege Escalation Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-27788",
-      "summary": "CVE ID :CVE-2026-27788 Published : June 1, 2026, 9:16 a.m. | 8 hours, 12 minutes ago Description :Incorrect permission assignment for critical resource issue exists in ServerView Agents for Windows...",
+      "summary": "CVE ID :CVE-2026-32325 Published : June 1, 2026, 9:16 a.m. | 9 hours, 44 minutes ago Description :Privilege chaining issue exists in ServerView Agents for Windows V11.60.04 and earlier. If this...",
       "source": "CVE Feed",
       "published": "2026-06-01T09:16:16+00:00"
     },
@@ -352,13 +422,6 @@
       "published": "2026-06-01T08:23:33+00:00"
     },
     {
-      "title": "CVE-2026-35563 - Apache Directory LDAP API: LDAP client implementation does not verify if the server certificate matches the intended LDAP hostname",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-35563",
-      "summary": "CVE ID :CVE-2026-35563 Published : June 1, 2026, 8:16 a.m. | 9 hours, 11 minutes ago Description :It was identified that the LDAP client implementation in version 2.1.7 does not verify if the server...",
-      "source": "CVE Feed",
-      "published": "2026-06-01T08:16:20+00:00"
-    },
-    {
       "title": "Palo Alto Networks meldt actief misbruik van beveiligingslek in firewalls",
       "link": "https://www.security.nl/posting/938773/Palo+Alto+Networks+meldt+actief+misbruik+van+beveiligingslek+in+firewalls?channel=rss",
       "summary": "Palo Alto Networks meldt actief misbruik van beveiligingslek in firewalls Een beveiligingslek in de firewalls van Palo Alto Networks wordt actief misbruikt bij aanvallen, zo laat de leverancier zelf...",
@@ -373,32 +436,11 @@
       "published": "2026-06-01T06:47:28+00:00"
     },
     {
-      "title": "CVE-2026-48188 - SQL Injection via MySQL Quote Method",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48188",
-      "summary": "CVE ID :CVE-2026-48188 Published : June 1, 2026, 4:16 a.m. | 13 hours, 11 minutes ago Description :An improper Input Validation vulnerability in OTRS or ((OTRS)) Community Edition database layer...",
-      "source": "CVE Feed",
-      "published": "2026-06-01T04:16:22+00:00"
-    },
-    {
-      "title": "CVE-2026-20452 - \"Qualcomm WCN wlan AP Driver Heap Buffer Overflow\"",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-20452",
-      "summary": "CVE ID :CVE-2026-20452 Published : June 1, 2026, 4:16 a.m. | 13 hours, 11 minutes ago Description :In wlan AP driver, there is a possible memory corruption due to a heap buffer overflow. This could...",
-      "source": "CVE Feed",
-      "published": "2026-06-01T04:16:21+00:00"
-    },
-    {
       "title": "Windows Netlogon 0-Click RCE Vulnerability Now Actively Exploited In The Wild",
       "link": "https://cybersecuritynews.com/windows-netlogon-0-click-rce/",
       "summary": "Windows Netlogon 0-Click RCE Vulnerability Now Actively Exploited In The Wild The critical Windows Netlogon remote code execution (RCE) vulnerability tracked as CVE-2026-41089 is now under active...",
       "source": "CVE Newsroom",
       "published": "2026-06-01T03:16:44+00:00"
-    },
-    {
-      "title": "CVE-2026-10206 - D-Link DI-8400 dbsrv.asp stack-based overflow",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-10206",
-      "summary": "CVE ID :CVE-2026-10206 Published : June 1, 2026, 1:16 a.m. | 16 hours, 11 minutes ago Description :A vulnerability was detected in D-Link DI-8400 up to 16.07.26A1. This affects an unknown function of...",
-      "source": "CVE Feed",
-      "published": "2026-06-01T01:16:47+00:00"
     },
     {
       "title": "Afghan finance officials targeted by suspected Pakistani cyberespionage campaign",
@@ -413,13 +455,6 @@
       "summary": "More than half of the attacks observed over the past year targeted educational institutions, particularly maritime universities and schools that train personnel for Russia's shipping, inland waterway...",
       "source": "The Record",
       "published": "2026-05-31T23:00:00+00:00"
-    },
-    {
-      "title": "CVE-2026-10192 - Tenda W12 httpd set_local_time_0 stack-based overflow",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-10192",
-      "summary": "CVE ID :CVE-2026-10192 Published : May 31, 2026, 5:16 p.m. | 1 day ago Description :A vulnerability was identified in Tenda W12 3.0.0.7(4763). The affected element is the function set_local_time_0 of...",
-      "source": "CVE Feed",
-      "published": "2026-05-31T17:16:30+00:00"
     },
     {
       "title": "WP Maps Pro bug exploited to create admin accounts on WordPress sites",
@@ -541,13 +576,6 @@
       "published": "2026-05-29T15:34:24+00:00"
     },
     {
-      "title": "Charter Communications Data Breach Could Impact Nearly 5 Million",
-      "link": "https://www.securityweek.com/charter-communications-data-breach-could-impact-nearly-5-million/",
-      "summary": "The notorious ShinyHunters extortion group leaked over 42 million records allegedly stolen from Charter in April. The post Charter Communications Data Breach Could Impact Nearly 5 Million appeared...",
-      "source": "SecurityWeek",
-      "published": "2026-05-29T14:49:58+00:00"
-    },
-    {
       "title": "Attackers Use LLM Agent for Post-Exploitation After Marimo CVE-2026-39987 Exploit",
       "link": "https://thehackernews.com/2026/05/attackers-use-llm-agent-for-post.html",
       "summary": "Attackers Use LLM Agent for Post-Exploitation After Marimo CVE-2026-39987 Exploit An unknown threat actor has been observed using a large language model (LLM) agent to conduct post-compromise actions...",
@@ -595,13 +623,6 @@
       "summary": "Researchers discover an exploit chain combining over-permissioned roles, secrets discovery, and non-human identities that could have compromised a popular automation service.",
       "source": "Dark Reading",
       "published": "2026-05-29T13:00:01+00:00"
-    },
-    {
-      "title": "Google Chrome adds session cookie theft protection for all users",
-      "link": "https://www.bleepingcomputer.com/news/security/google-chrome-adds-session-cookie-theft-protection-for-all-users/",
-      "summary": "Google says the Chrome Device Bound Session Credentials (DBSC) security feature is now generally available and is rolling out to all users to prevent account takeovers. [...]",
-      "source": "BleepingComputer",
-      "published": "2026-05-29T12:08:08+00:00"
     },
     {
       "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
@@ -702,13 +723,6 @@
       "published": "2026-05-28T15:26:04+00:00"
     },
     {
-      "title": "Cruise giant Carnival confirms data breach affecting nearly 6 million people",
-      "link": "https://therecord.media/cruise-giant-carnival-confirms-data-breach-affecting-6-million",
-      "summary": "The company said the threat actor gained access to a limited portion of its IT environment last month after compromising an employee account. By the end of April, Carnival determined that the...",
-      "source": "The Record",
-      "published": "2026-05-28T14:01:00+00:00"
-    },
-    {
       "title": "Microsoft Slams Public Zero-Day Disclosures Amid GitHub Researcher Account Removal",
       "link": "https://thehackernews.com/2026/05/microsoft-slams-public-zero-day.html",
       "summary": "Microsoft has come out strongly in favor of Coordinated Vulnerability Disclosure (CVD), urging the research community to share their findings and give affected vendors an opportunity to better...",
@@ -728,6 +742,13 @@
       "summary": "In this latest installment of the Reporters' Notebook video series, we discuss how cyber insurance is forcing organizations to quantify risk, what's covered (and what's not), and why this could be...",
       "source": "Dark Reading",
       "published": "2026-05-28T12:29:58+00:00"
+    },
+    {
+      "title": "MacGregor Voyage Data Recorder (VDR) G4e",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-148-01",
+      "summary": "View CSAF Summary Successful exploitation of these vulnerabilities could result in an attacker gaining administrator access to the device. The following versions of MacGregor Voyage Data Recorder...",
+      "source": "CISA Alerts",
+      "published": "2026-05-28T12:00:00+00:00"
     },
     {
       "title": "ABB EIBPORT",
@@ -765,6 +786,13 @@
       "published": "2026-05-28T12:00:00+00:00"
     },
     {
+      "title": "KMW CCTV Security Cameras",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-148-06",
+      "summary": "View CSAF Summary Successful exploitation of this vulnerability may grant full unauthorized access to camera feeds and settings. The following versions of KMW CCTV Security Cameras are affected...",
+      "source": "CISA Alerts",
+      "published": "2026-05-28T12:00:00+00:00"
+    },
+    {
       "title": "CP Plus 8 Ch. Network Video Recorder",
       "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-148-05",
       "summary": "View CSAF Summary Successful exploitation of this vulnerability allows an attacker's malicious script to execute in the browser of any authenticated user or administrator who accesses the affected...",
@@ -782,20 +810,6 @@
       "title": "XCharge C6",
       "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-148-08",
       "summary": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to gain administrator rights or execute code on the affected device. The following versions of XCharge C6...",
-      "source": "CISA Alerts",
-      "published": "2026-05-28T12:00:00+00:00"
-    },
-    {
-      "title": "KMW CCTV Security Cameras",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-148-06",
-      "summary": "View CSAF Summary Successful exploitation of this vulnerability may grant full unauthorized access to camera feeds and settings. The following versions of KMW CCTV Security Cameras are affected...",
-      "source": "CISA Alerts",
-      "published": "2026-05-28T12:00:00+00:00"
-    },
-    {
-      "title": "MacGregor Voyage Data Recorder (VDR) G4e",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-148-01",
-      "summary": "View CSAF Summary Successful exploitation of these vulnerabilities could result in an attacker gaining administrator access to the device. The following versions of MacGregor Voyage Data Recorder...",
       "source": "CISA Alerts",
       "published": "2026-05-28T12:00:00+00:00"
     },
@@ -954,20 +968,6 @@
       "published": "2026-05-26T15:48:41+00:00"
     },
     {
-      "title": "Eppendorf BioFlo 320",
-      "link": "https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-146-01",
-      "summary": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to gain full access to functionality and data with the bioreactor. The following versions of Eppendorf BioFlo...",
-      "source": "CISA Alerts",
-      "published": "2026-05-26T12:00:00+00:00"
-    },
-    {
-      "title": "ABB Ability Camera Connect",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-146-05",
-      "summary": "View CSAF Summary ABB is aware of public reports of vulnerabilities in a 3rd party component VLC media player Version 2.2.4 which was delivered together with the installation package of Camera...",
-      "source": "CISA Alerts",
-      "published": "2026-05-26T12:00:00+00:00"
-    },
-    {
       "title": "ABB B&R Automation Runtime DoS Vulnerability in System Diagnostics Manager (SDM)",
       "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-146-04",
       "summary": "View CSAF Summary An update is available that resolves a vulnerability identified by B&Rs internal security analysis in the product versions listed as affected in this advisory. An attacker who...",
@@ -978,6 +978,20 @@
       "title": "ABB LVS MConfig",
       "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-146-06",
       "summary": "View CSAF Summary ABB became aware of an internally discovered vulnerability in the MConfig product versions listed as affected in the advisory. An attacker with access to local networks who...",
+      "source": "CISA Alerts",
+      "published": "2026-05-26T12:00:00+00:00"
+    },
+    {
+      "title": "Eppendorf BioFlo 320",
+      "link": "https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-146-01",
+      "summary": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to gain full access to functionality and data with the bioreactor. The following versions of Eppendorf BioFlo...",
+      "source": "CISA Alerts",
+      "published": "2026-05-26T12:00:00+00:00"
+    },
+    {
+      "title": "ABB Ability Camera Connect",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-146-05",
+      "summary": "View CSAF Summary ABB is aware of public reports of vulnerabilities in a 3rd party component VLC media player Version 2.2.4 which was delivered together with the installation package of Camera...",
       "source": "CISA Alerts",
       "published": "2026-05-26T12:00:00+00:00"
     },
@@ -1213,13 +1227,6 @@
       "published": "2026-05-22T07:01:00+00:00"
     },
     {
-      "title": "CISA Adds Exploited Langflow and Trend Micro Apex One Vulnerabilities to KEV",
-      "link": "https://thehackernews.com/2026/05/cisa-adds-exploited-langflow-and-trend.html",
-      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Thursday added two security flaws impacting Langflow and Trend Micro Apex One to its Known Exploited Vulnerabilities (KEV) catalog...",
-      "source": "The Hacker News",
-      "published": "2026-05-22T05:47:33+00:00"
-    },
-    {
       "title": "Alleged Kimwolf Botmaster ‘Dort’ Arrested, Charged in U.S. and Canada",
       "link": "https://krebsonsecurity.com/2026/05/alleged-kimwolf-botmaster-dort-arrested-charged-in-u-s-and-canada/",
       "summary": "Canadian authorities on Wednesday arrested a 23-year-old Ottawa man on suspicion of building and operating Kimwolf, a fast spreading Internet-of-Things botnet that enslaved millions of devices for...",
@@ -1393,13 +1400,6 @@
       "summary": "The SHub Reaper stealer, which hides behind fake WeChat and Miro installers, marks a shift from ClickFix social engineering to Apple script-based execution.",
       "source": "Dark Reading",
       "published": "2026-05-19T19:49:40+00:00"
-    },
-    {
-      "title": "Looking Back, Looking Forward: Digesting a Dynamic Bouillabaisse of Cyber Evolution",
-      "link": "https://www.darkreading.com/cybersecurity-operations/looking-back-looking-forward-bouillabaisse-cyber-evolution",
-      "summary": "Dark Reading editors reflect on two decades of dramatic change — from perimeter defense to assume-breach strategies — and warn that while AI, cloud, and COVID-19 have transformed the threat...",
-      "source": "Dark Reading",
-      "published": "2026-05-19T13:28:43+00:00"
     }
   ]
 }
