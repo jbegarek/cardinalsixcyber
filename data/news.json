@@ -1,6 +1,83 @@
 {
-  "last_updated": "2026-06-02T11:27:53.014999+00:00",
+  "last_updated": "2026-06-02T13:10:53.059269+00:00",
   "articles": [
+    {
+      "title": "CISA flags two-year-old Oracle flaw as actively exploited in attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-actively-exploited-oracle-weblogic-flaw/",
+      "summary": "CISA has ordered government agencies to secure their systems against a high-severity Oracle WebLogic Server vulnerability that was patched two years ago and is now actively exploited in attacks. [...]",
+      "source": "BleepingComputer",
+      "published": "2026-06-02T12:40:33+00:00"
+    },
+    {
+      "title": "The Zero-Knowledge Threat Actor and the End of Responsible Disclosure",
+      "link": "https://www.securityweek.com/the-zero-knowledge-threat-actor-and-the-end-of-responsible-disclosure/",
+      "summary": "AI can help attackers generate malware, create malicious payloads, bypass simple security checks, and convert vague malicious intent into functional code. The post The Zero-Knowledge Threat Actor and...",
+      "source": "SecurityWeek",
+      "published": "2026-06-02T12:30:00+00:00"
+    },
+    {
+      "title": "Critical Vulnerability in HP VoIP Phones Enables Enterprise Network Breaches",
+      "link": "https://www.securityweek.com/critical-vulnerability-in-hp-voip-phones-enables-enterprise-network-breaches/",
+      "summary": "A stack-based buffer overflow bug can be exploited for remote code execution on a vulnerable device. The post Critical Vulnerability in HP VoIP Phones Enables Enterprise Network Breaches appeared...",
+      "source": "SecurityWeek",
+      "published": "2026-06-02T12:25:52+00:00"
+    },
+    {
+      "title": "CVE-2026-42684 - WordPress WP Job Portal plugin <= 2.5.1 - SQL Injection vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-42684",
+      "summary": "CVE ID :CVE-2026-42684 Published : June 2, 2026, 12:16 p.m. | 54 minutes ago Description :Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Ahmad...",
+      "source": "CVE Feed",
+      "published": "2026-06-02T12:16:17+00:00"
+    },
+    {
+      "title": "CVE-2026-39551 - WordPress Töbel theme <= 1.8.1 - PHP Object Injection vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-39551",
+      "summary": "CVE ID :CVE-2026-39551 Published : June 2, 2026, 12:16 p.m. | 54 minutes ago Description :Deserialization of Untrusted Data vulnerability in Elated-Themes Töbel allows Object Injection. This issue...",
+      "source": "CVE Feed",
+      "published": "2026-06-02T12:16:17+00:00"
+    },
+    {
+      "title": "CVE-2026-39550 - WordPress Aperitif theme <= 1.6 - PHP Object Injection vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-39550",
+      "summary": "CVE ID :CVE-2026-39550 Published : June 2, 2026, 12:16 p.m. | 54 minutes ago Description :Deserialization of Untrusted Data vulnerability in Elated-Themes Aperitif allows Object Injection. This issue...",
+      "source": "CVE Feed",
+      "published": "2026-06-02T12:16:17+00:00"
+    },
+    {
+      "title": "CVE-2025-58705 - WordPress Crafti theme <= 1.12 - Local File Inclusion vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2025-58705",
+      "summary": "CVE ID :CVE-2025-58705 Published : June 2, 2026, 12:16 p.m. | 54 minutes ago Description :Improper Control of Filename for Include/Require Statement in PHP Program ('PHP Remote File Inclusion')...",
+      "source": "CVE Feed",
+      "published": "2026-06-02T12:16:16+00:00"
+    },
+    {
+      "title": "CVE-2025-53440 - WordPress Confidant theme <= 1.4 - Local File Inclusion vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2025-53440",
+      "summary": "CVE ID :CVE-2025-53440 Published : June 2, 2026, 12:16 p.m. | 54 minutes ago Description :Improper Control of Filename for Include/Require Statement in PHP Program ('PHP Remote File Inclusion')...",
+      "source": "CVE Feed",
+      "published": "2026-06-02T12:16:16+00:00"
+    },
+    {
+      "title": "Beyond Assume-Breach: How AI-Native Security Will Reshape Enterprise Defense",
+      "link": "https://www.darkreading.com/cyber-risk/assume-breach-ai-native-security-reshape-enterprise-defense",
+      "summary": "Twenty years after Dark Reading launched, we're looking ahead at what's next for enterprise security. Spoiler: It's hyper-segmented, AI-orchestrated, and way more sophisticated than your dad's...",
+      "source": "Dark Reading",
+      "published": "2026-06-02T12:00:00+00:00"
+    },
+    {
+      "title": "AI-Driven Exploitation is Destroying Vulnerability Management. Here’s How to Handle It.",
+      "link": "https://thehackernews.com/2026/06/ai-driven-exploitation-is-destroying.html",
+      "summary": "AI-driven exploitation timelines are rapidly shrinking, and they are not going to stop shrinking. Vulnerabilities are being discovered, reproduced, and weaponized faster than ever in the history of...",
+      "source": "The Hacker News",
+      "published": "2026-06-02T11:58:00+00:00"
+    },
+    {
+      "title": "Oracle WebLogic Vulnerability Exploited in the Wild",
+      "link": "https://www.securityweek.com/oracle-weblogic-vulnerability-exploited-in-the-wild/",
+      "summary": "The vulnerability is CVE-2024-21182 and it can be exploited without authentication to hack affected WebLogic servers. The post Oracle WebLogic Vulnerability Exploited in the Wild appeared first on...",
+      "source": "SecurityWeek",
+      "published": "2026-06-02T11:39:04+00:00"
+    },
     {
       "title": "Google fixes one actively exploited Android zero-day, 124 flaws",
       "link": "https://www.bleepingcomputer.com/news/security/google-fixes-one-actively-exploited-android-zero-day-124-flaws/",
@@ -32,14 +109,21 @@
     {
       "title": "CVE-2026-34906 - Server-Side Template Injection (SSTI) in Wirtualna Uczelnia",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-34906",
-      "summary": "CVE ID :CVE-2026-34906 Published : June 2, 2026, 10:16 a.m. | 54 minutes ago Description :Server-Side Template Injection (SSTI) in Wirtualna Uczelnia allows an unauthenticated attacker to perform...",
+      "summary": "CVE ID :CVE-2026-34906 Published : June 2, 2026, 10:16 a.m. | 2 hours, 54 minutes ago Description :Server-Side Template Injection (SSTI) in Wirtualna Uczelnia allows an unauthenticated attacker to...",
       "source": "CVE Feed",
       "published": "2026-06-02T10:16:22+00:00"
     },
     {
+      "title": "CVE-2025-53345 - WordPress Thim Core plugin <= 2.3.3 - Arbitrary Plugin Installation vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2025-53345",
+      "summary": "CVE ID :CVE-2025-53345 Published : June 2, 2026, 10:16 a.m. | 2 hours, 54 minutes ago Description :Missing Authorization vulnerability leading to code execution after installing malicious vulnerable...",
+      "source": "CVE Feed",
+      "published": "2026-06-02T10:16:20+00:00"
+    },
+    {
       "title": "CVE-2025-53209 - WordPress Masteriyo LMS PRO plugin <= 2.20.0 - Privilege Escalation Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2025-53209",
-      "summary": "CVE ID :CVE-2025-53209 Published : June 2, 2026, 10:16 a.m. | 54 minutes ago Description :Incorrect Privilege Assignment vulnerability in Themeisle Masteriyo LMS PRO allows Privilege Escalation. This...",
+      "summary": "CVE ID :CVE-2025-53209 Published : June 2, 2026, 10:16 a.m. | 2 hours, 54 minutes ago Description :Incorrect Privilege Assignment vulnerability in Themeisle Masteriyo LMS PRO allows Privilege...",
       "source": "CVE Feed",
       "published": "2026-06-02T10:16:19+00:00"
     },
@@ -53,7 +137,7 @@
     {
       "title": "CVE-2026-1784 - Ose-cluster-ingress-operator: remote code execution through haproxy configuration injection",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-1784",
-      "summary": "CVE ID :CVE-2026-1784 Published : June 2, 2026, 9:16 a.m. | 1 hour, 54 minutes ago Description :The Route OpenShift resource allows to define routes to make pods reachable at a subdomain through...",
+      "summary": "CVE ID :CVE-2026-1784 Published : June 2, 2026, 9:16 a.m. | 3 hours, 54 minutes ago Description :The Route OpenShift resource allows to define routes to make pods reachable at a subdomain through...",
       "source": "CVE Feed",
       "published": "2026-06-02T09:16:15+00:00"
     },
@@ -123,7 +207,7 @@
     {
       "title": "CVE-2026-8206 - Kirki 6.0.0 - 6.0.6 - Unauthenticated Privilege Escalation via 'handle_forgot_password'",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-8206",
-      "summary": "CVE ID :CVE-2026-8206 Published : June 2, 2026, 4:17 a.m. | 6 hours, 53 minutes ago Description :The Kirki – Freeform Page Builder, Website Builder & Customizer plugin for WordPress is vulnerable to...",
+      "summary": "CVE ID :CVE-2026-8206 Published : June 2, 2026, 4:17 a.m. | 8 hours, 53 minutes ago Description :The Kirki – Freeform Page Builder, Website Builder & Customizer plugin for WordPress is vulnerable to...",
       "source": "CVE Feed",
       "published": "2026-06-02T04:17:03+00:00"
     },
@@ -137,135 +221,114 @@
     {
       "title": "CVE-2026-25879 - Langroid has Prompt to SQL Injection, Leading to RCE",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-25879",
-      "summary": "CVE ID :CVE-2026-25879 Published : June 1, 2026, 11:16 p.m. | 11 hours, 54 minutes ago Description :Langroid is a framework for building large-language-model-powered applications. Prior to version...",
+      "summary": "CVE ID :CVE-2026-25879 Published : June 1, 2026, 11:16 p.m. | 13 hours, 54 minutes ago Description :Langroid is a framework for building large-language-model-powered applications. Prior to version...",
       "source": "CVE Feed",
       "published": "2026-06-01T23:16:21+00:00"
     },
     {
       "title": "CVE-2026-25277 - Buffer Copy Without Checking Size of Input in Secure Processor",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-25277",
-      "summary": "CVE ID :CVE-2026-25277 Published : June 1, 2026, 11:16 p.m. | 11 hours, 54 minutes ago Description :Memory corruption while using Strongbox due to buffer overflow. Severity: 8.8 | HIGH Visit the link...",
+      "summary": "CVE ID :CVE-2026-25277 Published : June 1, 2026, 11:16 p.m. | 13 hours, 54 minutes ago Description :Memory corruption while using Strongbox due to buffer overflow. Severity: 8.8 | HIGH Visit the link...",
       "source": "CVE Feed",
       "published": "2026-06-01T23:16:21+00:00"
     },
     {
       "title": "CVE-2026-25276 - Improper Validation of Array Index in Secure Processor",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-25276",
-      "summary": "CVE ID :CVE-2026-25276 Published : June 1, 2026, 11:16 p.m. | 11 hours, 54 minutes ago Description :Memory corruption while using Strongbox due to missing bounds check. Severity: 8.8 | HIGH Visit the...",
+      "summary": "CVE ID :CVE-2026-25276 Published : June 1, 2026, 11:16 p.m. | 13 hours, 54 minutes ago Description :Memory corruption while using Strongbox due to missing bounds check. Severity: 8.8 | HIGH Visit the...",
       "source": "CVE Feed",
       "published": "2026-06-01T23:16:21+00:00"
     },
     {
       "title": "CVE-2026-24752 - Kiteworks Secure Data Forms Vulnerable to Cross-site Scripting",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-24752",
-      "summary": "CVE ID :CVE-2026-24752 Published : June 1, 2026, 11:16 p.m. | 11 hours, 54 minutes ago Description :Kiteworks is a private data network (PDN). Prior to version 9.3.0, a reflected XSS vulnerability in...",
+      "summary": "CVE ID :CVE-2026-24752 Published : June 1, 2026, 11:16 p.m. | 13 hours, 54 minutes ago Description :Kiteworks is a private data network (PDN). Prior to version 9.3.0, a reflected XSS vulnerability in...",
       "source": "CVE Feed",
       "published": "2026-06-01T23:16:20+00:00"
     },
     {
       "title": "CVE-2026-24088 - Missing Authentication for Critical Function in Boot",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-24088",
-      "summary": "CVE ID :CVE-2026-24088 Published : June 1, 2026, 11:16 p.m. | 11 hours, 54 minutes ago Description :Cryptographic Issue while processing a specific partition which allows unauthorized write access to...",
+      "summary": "CVE ID :CVE-2026-24088 Published : June 1, 2026, 11:16 p.m. | 13 hours, 54 minutes ago Description :Cryptographic Issue while processing a specific partition which allows unauthorized write access to...",
       "source": "CVE Feed",
       "published": "2026-06-01T23:16:19+00:00"
     },
     {
       "title": "CVE-2019-25718 - Dräger Infinity Explorer C700 Privilege Escalation via Kiosk Mode Bypass",
       "link": "https://cvefeed.io/vuln/detail/CVE-2019-25718",
-      "summary": "CVE ID :CVE-2019-25718 Published : June 1, 2026, 11:16 p.m. | 11 hours, 54 minutes ago Description :Dräger Infinity Explorer C700 contains a privilege escalation vulnerability that allows attackers...",
+      "summary": "CVE ID :CVE-2019-25718 Published : June 1, 2026, 11:16 p.m. | 13 hours, 54 minutes ago Description :Dräger Infinity Explorer C700 contains a privilege escalation vulnerability that allows attackers...",
       "source": "CVE Feed",
       "published": "2026-06-01T23:16:13+00:00"
     },
     {
+      "title": "Spain arrests suspected hacker for publishing personal data of police, prosecutors and cyber officials",
+      "link": "https://therecord.media/spain-arrests-suspected-hacker-for-publishing-data-on-sensitive-government-workers",
+      "summary": "Police described the incident as a large-scale disclosure of sensitive personal information that posed a threat to both the affected individuals and the institutions they serve. The data was...",
+      "source": "The Record",
+      "published": "2026-06-01T23:00:00+00:00"
+    },
+    {
       "title": "CVE-2026-49491 - Pixa Bank 2.0 SQL Injection via agence-ajax.php API",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-49491",
-      "summary": "CVE ID :CVE-2026-49491 Published : June 1, 2026, 10:16 p.m. | 12 hours, 54 minutes ago Description :Pixa Bank 2.0 contains an SQL injection vulnerability that allows unauthenticated attackers to...",
+      "summary": "CVE ID :CVE-2026-49491 Published : June 1, 2026, 10:16 p.m. | 14 hours, 54 minutes ago Description :Pixa Bank 2.0 contains an SQL injection vulnerability that allows unauthenticated attackers to...",
       "source": "CVE Feed",
       "published": "2026-06-01T22:16:25+00:00"
     },
     {
       "title": "CVE-2026-40965 - Cloud Foundry UAA EC Private Key Exposure",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-40965",
-      "summary": "CVE ID :CVE-2026-40965 Published : June 1, 2026, 10:16 p.m. | 12 hours, 54 minutes ago Description :Cloud Foundry UAA versions v76.12.0 through v78.12.0 are vulnerable to a private key exposure. The...",
+      "summary": "CVE ID :CVE-2026-40965 Published : June 1, 2026, 10:16 p.m. | 14 hours, 54 minutes ago Description :Cloud Foundry UAA versions v76.12.0 through v78.12.0 are vulnerable to a private key exposure. The...",
       "source": "CVE Feed",
       "published": "2026-06-01T22:16:25+00:00"
     },
     {
       "title": "CVE-2026-10293 - UTT HiPER 1200GW formFireWall strcpy stack-based overflow",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-10293",
-      "summary": "CVE ID :CVE-2026-10293 Published : June 1, 2026, 10:16 p.m. | 12 hours, 54 minutes ago Description :A flaw has been found in UTT HiPER 1200GW up to 2.5.3-170306. This impacts the function strcpy of...",
+      "summary": "CVE ID :CVE-2026-10293 Published : June 1, 2026, 10:16 p.m. | 14 hours, 54 minutes ago Description :A flaw has been found in UTT HiPER 1200GW up to 2.5.3-170306. This impacts the function strcpy of...",
       "source": "CVE Feed",
       "published": "2026-06-01T22:16:24+00:00"
     },
     {
       "title": "CVE-2026-10292 - UTT HiPER 1200GW formTaskEdit strcpy stack-based overflow",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-10292",
-      "summary": "CVE ID :CVE-2026-10292 Published : June 1, 2026, 10:16 p.m. | 12 hours, 54 minutes ago Description :A vulnerability was detected in UTT HiPER 1200GW up to 2.5.3-170306. This affects the function...",
+      "summary": "CVE ID :CVE-2026-10292 Published : June 1, 2026, 10:16 p.m. | 14 hours, 54 minutes ago Description :A vulnerability was detected in UTT HiPER 1200GW up to 2.5.3-170306. This affects the function...",
       "source": "CVE Feed",
       "published": "2026-06-01T22:16:24+00:00"
     },
     {
       "title": "CVE-2026-0097 - Bluetooth LE Pair-Unpaired Device Logic Bypass Privilege Escalation",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-0097",
-      "summary": "CVE ID :CVE-2026-0097 Published : June 1, 2026, 10:16 p.m. | 12 hours, 54 minutes ago Description :In multiple locations, there is a possible way to bypass user interaction when pairing an LE device...",
+      "summary": "CVE ID :CVE-2026-0097 Published : June 1, 2026, 10:16 p.m. | 14 hours, 54 minutes ago Description :In multiple locations, there is a possible way to bypass user interaction when pairing an LE device...",
       "source": "CVE Feed",
       "published": "2026-06-01T22:16:23+00:00"
     },
     {
       "title": "CVE-2026-0095 - Broadcom Bluetooth Heap Corruption Leading to Privilege Escalation",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-0095",
-      "summary": "CVE ID :CVE-2026-0095 Published : June 1, 2026, 10:16 p.m. | 12 hours, 54 minutes ago Description :In l2c_fcr_clone_buf of l2c_fcr.cc, there is a possible way to trigger controlled heap corruption...",
+      "summary": "CVE ID :CVE-2026-0095 Published : June 1, 2026, 10:16 p.m. | 14 hours, 54 minutes ago Description :In l2c_fcr_clone_buf of l2c_fcr.cc, there is a possible way to trigger controlled heap corruption...",
       "source": "CVE Feed",
       "published": "2026-06-01T22:16:23+00:00"
     },
     {
       "title": "CVE-2026-0059 - SDP Heap Buffer Overflow Code Execution",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-0059",
-      "summary": "CVE ID :CVE-2026-0059 Published : June 1, 2026, 10:16 p.m. | 12 hours, 54 minutes ago Description :In multiple functions of sdp_discovery.cc, there is a possible way to achieve code execution due to...",
+      "summary": "CVE ID :CVE-2026-0059 Published : June 1, 2026, 10:16 p.m. | 14 hours, 54 minutes ago Description :In multiple functions of sdp_discovery.cc, there is a possible way to achieve code execution due to...",
       "source": "CVE Feed",
       "published": "2026-06-01T22:16:20+00:00"
     },
     {
       "title": "CVE-2025-48595 - Qualcomm REX Kernel Integer Overflow Code Execution",
       "link": "https://cvefeed.io/vuln/detail/CVE-2025-48595",
-      "summary": "CVE ID :CVE-2025-48595 Published : June 1, 2026, 10:16 p.m. | 12 hours, 54 minutes ago Description :In multiple locations, there is a possible way to achieve code execution due to an integer...",
+      "summary": "CVE ID :CVE-2025-48595 Published : June 1, 2026, 10:16 p.m. | 14 hours, 54 minutes ago Description :In multiple locations, there is a possible way to achieve code execution due to an integer...",
       "source": "CVE Feed",
       "published": "2026-06-01T22:16:18+00:00"
     },
     {
       "title": "CVE-2018-25434 - WP AutoSuggest 0.24 SQL Injection via autosuggest.php",
       "link": "https://cvefeed.io/vuln/detail/CVE-2018-25434",
-      "summary": "CVE ID :CVE-2018-25434 Published : June 1, 2026, 10:16 p.m. | 12 hours, 54 minutes ago Description :WP AutoSuggest 0.24 contains an SQL injection vulnerability that allows unauthenticated attackers...",
+      "summary": "CVE ID :CVE-2018-25434 Published : June 1, 2026, 10:16 p.m. | 14 hours, 54 minutes ago Description :WP AutoSuggest 0.24 contains an SQL injection vulnerability that allows unauthenticated attackers...",
       "source": "CVE Feed",
       "published": "2026-06-01T22:16:16+00:00"
-    },
-    {
-      "title": "CVE-2018-25433 - Joomla JE Photo Gallery 1.1 SQL Injection via categoryid",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2018-25433",
-      "summary": "CVE ID :CVE-2018-25433 Published : June 1, 2026, 10:16 p.m. | 12 hours, 54 minutes ago Description :Joomla Component JE Photo Gallery 1.1 contains an SQL injection vulnerability that allows...",
-      "source": "CVE Feed",
-      "published": "2026-06-01T22:16:16+00:00"
-    },
-    {
-      "title": "CVE-2018-25432 - Arm Whois 3.11 Buffer Overflow via ASLR Bypass",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2018-25432",
-      "summary": "CVE ID :CVE-2018-25432 Published : June 1, 2026, 10:16 p.m. | 12 hours, 54 minutes ago Description :Arm Whois 3.11 contains a buffer overflow vulnerability that allows local attackers to execute...",
-      "source": "CVE Feed",
-      "published": "2026-06-01T22:16:16+00:00"
-    },
-    {
-      "title": "CVE-2018-25428 - Paroiciel 11.20 SQL Injection via tRecIdListe Parameter",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2018-25428",
-      "summary": "CVE ID :CVE-2018-25428 Published : June 1, 2026, 10:16 p.m. | 12 hours, 54 minutes ago Description :Paroiciel 11.20 contains an SQL injection vulnerability that allows unauthenticated attackers to...",
-      "source": "CVE Feed",
-      "published": "2026-06-01T22:16:15+00:00"
-    },
-    {
-      "title": "CVE-2018-25427 - Arm Whois 3.11 Buffer Overflow via SEH Overwrite",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2018-25427",
-      "summary": "CVE ID :CVE-2018-25427 Published : June 1, 2026, 10:16 p.m. | 12 hours, 54 minutes ago Description :Arm Whois 3.11 contains a stack-based buffer overflow vulnerability that allows remote attackers to...",
-      "source": "CVE Feed",
-      "published": "2026-06-01T22:16:14+00:00"
     },
     {
       "title": "Hackers hijack thousands of sites for ClickFix and FakeUpdate attacks",
@@ -287,20 +350,6 @@
       "summary": "The Spanish National Police has arrested an individual for leaking sensitive information related to members of various key state organizations, including the National Cybersecurity Institute...",
       "source": "BleepingComputer",
       "published": "2026-06-01T21:28:41+00:00"
-    },
-    {
-      "title": "CVE-2026-49136 - Banana Slides 0.4.0 Path Traversal via generate_image() in ai_service.py",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-49136",
-      "summary": "CVE ID :CVE-2026-49136 Published : June 1, 2026, 9:16 p.m. | 13 hours, 53 minutes ago Description :Banana Slides through 0.4.0, patched in commit e8bc490, contains a path traversal vulnerability in...",
-      "source": "CVE Feed",
-      "published": "2026-06-01T21:16:46+00:00"
-    },
-    {
-      "title": "CVE-2026-24751 - Kiteworks Secure Data Forms Vulnerable to Cross-site Scripting",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-24751",
-      "summary": "CVE ID :CVE-2026-24751 Published : June 1, 2026, 9:16 p.m. | 13 hours, 54 minutes ago Description :Kiteworks is a private data network (PDN). Prior to version 9.3.0, a reflected XSS vulnerability in...",
-      "source": "CVE Feed",
-      "published": "2026-06-01T21:16:26+00:00"
     },
     {
       "title": "Anthropic to Open Mythos AI to EU's ENISA",
@@ -431,8 +480,8 @@
     {
       "title": "⚡ Weekly Recap: New Linux Flaw, PAN-OS Exploit, AI-Powered Attacks, OAuth Phishing and More",
       "link": "https://thehackernews.com/2026/06/weekly-recap-new-linux-flaw-pan-os.html",
-      "summary": "Monday hit like a cron job with anger issues. A busted auth path here, a repo-side faceplant there, some \"patched-ish\" thing already getting chewed on in the wild, and then the usual bonus round...",
-      "source": "The Hacker News",
+      "summary": "⚡ Weekly Recap: New Linux Flaw, PAN-OS Exploit, AI-Powered Attacks, OAuth Phishing and More Monday hit like a cron job with anger issues. A busted auth path here, a repo-side faceplant there, some...",
+      "source": "CVE Newsroom",
       "published": "2026-06-01T13:59:54+00:00"
     },
     {
@@ -448,13 +497,6 @@
       "summary": "Belgische overheid waarschuwt voor misbruik van kritiek Windows-lek Aanvallers maken actief misbruik van een kritieke kwetsbaarheid in Windows die remote code execution mogelijk maakt. Daarvoor...",
       "source": "CVE Newsroom",
       "published": "2026-06-01T12:54:00+00:00"
-    },
-    {
-      "title": "Dragos Acquires xIoT Security Firm Phosphorus",
-      "link": "https://www.securityweek.com/dragos-acquires-xiot-security-firm-phosphorus/",
-      "summary": "Dragos said customers will soon gain expanded asset visibility and integrated device intelligence, with automated remediation workflows and a unified platform experience to follow. The post Dragos...",
-      "source": "SecurityWeek",
-      "published": "2026-06-01T12:46:58+00:00"
     },
     {
       "title": "Critical Windows Netlogon RCE flaw now exploited in attacks",
@@ -492,13 +534,6 @@
       "published": "2026-06-01T11:54:24+00:00"
     },
     {
-      "title": "As the Pentagon Pushes for Battlefield AI, Some Military Leaders Urge Caution",
-      "link": "https://www.securityweek.com/as-the-pentagon-pushes-for-battlefield-ai-some-military-leaders-urge-caution/",
-      "summary": "AI’s use in the military is part of the administration’s larger push to grow the capability it sees as a unique American advantage. The post As the Pentagon Pushes for Battlefield AI, Some Military...",
-      "source": "SecurityWeek",
-      "published": "2026-06-01T11:48:59+00:00"
-    },
-    {
       "title": "Microsoft fixes outage affecting MFA setup, MySignIn service",
       "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-outage-affecting-mfa-setup-mysignin-service/",
       "summary": "Microsoft is working to address an ongoing incident preventing customers from setting up multi-factor authentication (MFA) or accessing the My Sign-Ins platform. [...]",
@@ -518,13 +553,6 @@
       "summary": "Three years ago, the practical question for an MSP building a cybersecurity practice was which \"vCISO platform\" to buy. The term was good shorthand for the work at the time: assessments, advisory...",
       "source": "The Hacker News",
       "published": "2026-06-01T11:30:00+00:00"
-    },
-    {
-      "title": "19-Year-Old Linux Kernel Vulnerability Exposes Systems to Root Access",
-      "link": "https://www.securityweek.com/19-year-old-linux-kernel-vulnerability-exposes-systems-to-root-access/",
-      "summary": "Proof-of-concept (PoC) exploit code has been released for the CIFSwitch flaw, which allows low-privileged users to escalate to root on vulnerable Linux systems. The post 19-Year-Old Linux Kernel...",
-      "source": "SecurityWeek",
-      "published": "2026-06-01T11:19:31+00:00"
     },
     {
       "title": "Microsoft fixes KB5089549 Windows security update install issues",
@@ -557,8 +585,8 @@
     {
       "title": "Critical WP Maps Pro Flaw Actively Exploited to Create Admin Accounts",
       "link": "https://thehackernews.com/2026/06/critical-wp-maps-pro-flaw-actively.html",
-      "summary": "Threat actors are attempting to actively exploit a critical security flaw impacting WP Maps Pro, a WordPress plugin that has had over 15,000 sales on the Envato Market, to create malicious...",
-      "source": "The Hacker News",
+      "summary": "Critical WP Maps Pro Flaw Actively Exploited to Create Admin Accounts Threat actors are attempting to actively exploit a critical security flaw impacting WP Maps Pro, a WordPress plugin that has had...",
+      "source": "CVE Newsroom",
       "published": "2026-06-01T08:45:29+00:00"
     },
     {
@@ -597,13 +625,6 @@
       "published": "2026-05-31T23:00:00+00:00"
     },
     {
-      "title": "Unknown hacker group targeted Russian maritime universities, diplomats for nearly two years",
-      "link": "https://therecord.media/unknown-hacking-group-targeting-russia-for-nearly-two-years",
-      "summary": "More than half of the attacks observed over the past year targeted educational institutions, particularly maritime universities and schools that train personnel for Russia's shipping, inland waterway...",
-      "source": "The Record",
-      "published": "2026-05-31T23:00:00+00:00"
-    },
-    {
       "title": "WP Maps Pro bug exploited to create admin accounts on WordPress sites",
       "link": "https://www.bleepingcomputer.com/news/security/wp-maps-pro-bug-exploited-to-create-admin-accounts-on-wordpress-sites/",
       "summary": "Hackers are targeting WordPress websites running a vulnerable version of the WP Maps Pro plugin, which allows creating rogue administrator accounts without authentication. [...]",
@@ -625,13 +646,6 @@
       "published": "2026-05-30T18:02:51+00:00"
     },
     {
-      "title": "New CIFSwitch Linux flaw gives root on multiple distributions",
-      "link": "https://www.bleepingcomputer.com/news/security/new-cifswitch-linux-flaw-gives-root-on-multiple-distributions/",
-      "summary": "A newly discovered local privilege escalation vulnerability dubbed 'CIFSwitch' in the Linux kernel could allow attackers to forge CIFS authentication key descriptions, abuse the kernel's key request...",
-      "source": "BleepingComputer",
-      "published": "2026-05-30T14:16:08+00:00"
-    },
-    {
       "title": "CVE-2026-0257 — Palo Alto Networks PAN-OS Auth Bypass",
       "link": "https://thecyberthrone.in/2026/05/30/cve-2026-0257-palo-alto-networks-pan-os-auth-bypass/",
       "summary": "CVE-2026-0257 — Palo Alto Networks PAN-OS Auth Bypass OverviewPalo Alto Networks PAN-OS authentication bypass vulnerability CVE-2026-0257, affecting PAN-OS and Prisma Access, is now being actively...",
@@ -641,8 +655,8 @@
     {
       "title": "PAN-OS GlobalProtect Authentication Bypass (CVE-2026-0257) Under Active Exploitation",
       "link": "https://thehackernews.com/2026/05/pan-os-globalprotect-authentication.html",
-      "summary": "Palo Alto Networks has warned that a recently disclosed medium-severity security flaw impacting PAN-OS and Prisma Access has come under active exploitation in the wild. The vulnerability, tracked as...",
-      "source": "The Hacker News",
+      "summary": "PAN-OS GlobalProtect Authentication Bypass (CVE-2026-0257) Under Active Exploitation Palo Alto Networks has warned that a recently disclosed medium-severity security flaw impacting PAN-OS and Prisma...",
+      "source": "CVE Newsroom",
       "published": "2026-05-30T06:41:26+00:00"
     },
     {
@@ -1213,13 +1227,6 @@
       "published": "2026-05-22T16:34:24+00:00"
     },
     {
-      "title": "Ghostwriter Targets Ukraine Government Entities with Prometheus Phishing Malware",
-      "link": "https://thehackernews.com/2026/05/ghostwriter-targets-ukraine-government.html",
-      "summary": "The Belarus-aligned threat actor known as Ghostwriter (aka UAC-0057 and UNC1151) has been observed using lures related to Prometheus, a Ukrainian online learning platform, to target government...",
-      "source": "The Hacker News",
-      "published": "2026-05-22T16:20:32+00:00"
-    },
-    {
       "title": "Akamai Joins Growing Chorus of Vendors Betting Big on Secure Enterprise Browsers",
       "link": "https://www.darkreading.com/remote-workforce/akamai-growing-chorus-betting-on-secure-enterprise-browsers",
       "summary": "When Akamai announced its LayerX acquisition, the company joined a growing list of vendors adding secure enterprise browsers to their product portfolios.",
@@ -1393,13 +1400,6 @@
       "summary": "A brief overview of the forces at play that will get more organizations on board with creating and consuming AI bill of materials (BOM).",
       "source": "Dark Reading",
       "published": "2026-05-19T22:17:55+00:00"
-    },
-    {
-      "title": "Verizon DBIR: Enterprises Face a Dangerous Vulnerability Glut",
-      "link": "https://www.darkreading.com/threat-intelligence/verizon-dbir-enterprises-vulnerability-glut",
-      "summary": "Verizon's 2026 Data Breach Investigations Report (DBIR) finds that exploits are now involved in 31% of initial access for breaches, while patching lags too far behind the bad guys.",
-      "source": "Dark Reading",
-      "published": "2026-05-19T21:55:35+00:00"
     }
   ]
 }
