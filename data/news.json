@@ -1,6 +1,90 @@
 {
-  "last_updated": "2026-06-03T13:31:06.619338+00:00",
+  "last_updated": "2026-06-03T15:32:18.276806+00:00",
   "articles": [
+    {
+      "title": "What 345 Days of Untested Exposure Looks Like at a Bank",
+      "link": "https://www.bleepingcomputer.com/news/security/what-345-days-of-untested-exposure-looks-like-at-a-bank/",
+      "summary": "A two-week penetration test can leave roughly 345 days of real-world exposure unvalidated. Sprocket Security explores why continuous testing is becoming critical as attack surfaces constantly change...",
+      "source": "BleepingComputer",
+      "published": "2026-06-03T14:02:12+00:00"
+    },
+    {
+      "title": "CVE-2026-35085 - Stack buffer overflow in method gdv-serverconfig",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-35085",
+      "summary": "CVE ID :CVE-2026-35085 Published : June 3, 2026, 1:16 p.m. | 42 minutes ago Description :A remote attacker with user privileges can exploit a stack buffer overflow in gdv-serverconfig to gain full...",
+      "source": "CVE Feed",
+      "published": "2026-06-03T13:16:21+00:00"
+    },
+    {
+      "title": "CVE-2026-35084 - Stack buffer overflow in method dali-devconfig",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-35084",
+      "summary": "CVE ID :CVE-2026-35084 Published : June 3, 2026, 1:16 p.m. | 42 minutes ago Description :A remote attacker with user privileges can exploit a stack buffer overflow in dali-devconfig to gain full...",
+      "source": "CVE Feed",
+      "published": "2026-06-03T13:16:21+00:00"
+    },
+    {
+      "title": "CVE-2026-35083 - Stack buffer overflow in method bac-deviceobject",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-35083",
+      "summary": "CVE ID :CVE-2026-35083 Published : June 3, 2026, 1:16 p.m. | 42 minutes ago Description :A remote attacker with user privileges can exploit a stack buffer overflow to gain full system access as root...",
+      "source": "CVE Feed",
+      "published": "2026-06-03T13:16:20+00:00"
+    },
+    {
+      "title": "CVE-2026-35082 - Local file inclusion vulnerability and deletion in ugw-logread method",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-35082",
+      "summary": "CVE ID :CVE-2026-35082 Published : June 3, 2026, 1:16 p.m. | 42 minutes ago Description :The ugw-logread method allows a remote attacker with user privileges to access arbitrary local files due to...",
+      "source": "CVE Feed",
+      "published": "2026-06-03T13:16:20+00:00"
+    },
+    {
+      "title": "CVE-2026-35081 - Arbitrary process termination vulnerability in method ugw-logstop",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-35081",
+      "summary": "CVE ID :CVE-2026-35081 Published : June 3, 2026, 1:16 p.m. | 42 minutes ago Description :The ugw-logstop method allows a remote attacker with user privileges to terminate arbitrary processes due to...",
+      "source": "CVE Feed",
+      "published": "2026-06-03T13:16:20+00:00"
+    },
+    {
+      "title": "CVE-2026-35080 - Arbitrary file delete vulnerability in method ugw-restoreinfo",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-35080",
+      "summary": "CVE ID :CVE-2026-35080 Published : June 3, 2026, 1:16 p.m. | 42 minutes ago Description :The ugw-restoreinfo method allows a remote attacker with user privileges to delete arbitrary local files due...",
+      "source": "CVE Feed",
+      "published": "2026-06-03T13:16:20+00:00"
+    },
+    {
+      "title": "CVE-2026-35079 - Arbitrary file delete vulnerability in method ugw-restore",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-35079",
+      "summary": "CVE ID :CVE-2026-35079 Published : June 3, 2026, 1:16 p.m. | 42 minutes ago Description :The ugw-restore method allows a remote attacker with user privileges to delete arbitrary local files due to...",
+      "source": "CVE Feed",
+      "published": "2026-06-03T13:16:20+00:00"
+    },
+    {
+      "title": "CVE-2026-35078 - Arbitrary file delete vulnerability in method ugw-logstop",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-35078",
+      "summary": "CVE ID :CVE-2026-35078 Published : June 3, 2026, 1:16 p.m. | 42 minutes ago Description :The ugw-logstop method allows a remote attacker with user privileges to delete arbitrary local files due to...",
+      "source": "CVE Feed",
+      "published": "2026-06-03T13:16:19+00:00"
+    },
+    {
+      "title": "CVE-2026-35077 - Arbitrary file delete vulnerability in method ugw-delete-file",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-35077",
+      "summary": "CVE ID :CVE-2026-35077 Published : June 3, 2026, 1:16 p.m. | 42 minutes ago Description :The ugw-delete-file method allows a remote attacker with user privileges to delete arbitrary local files due...",
+      "source": "CVE Feed",
+      "published": "2026-06-03T13:16:19+00:00"
+    },
+    {
+      "title": "CVE-2026-35076 - Arbitrary file delete vulnerability in method bac-scanresult",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-35076",
+      "summary": "CVE ID :CVE-2026-35076 Published : June 3, 2026, 1:16 p.m. | 42 minutes ago Description :The bac-scanresult method allows a remote attacker with user privileges to delete arbitrary local files due to...",
+      "source": "CVE Feed",
+      "published": "2026-06-03T13:16:19+00:00"
+    },
+    {
+      "title": "CVE-2026-35075 - Hardcoded default Password for Service Account",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-35075",
+      "summary": "CVE ID :CVE-2026-35075 Published : June 3, 2026, 1:16 p.m. | 42 minutes ago Description :An unauthenticated remote attacker can recover a default, hard coded password from a firmware image and thus...",
+      "source": "CVE Feed",
+      "published": "2026-06-03T13:16:19+00:00"
+    },
     {
       "title": "Kirki, Burst Statistics WordPress Plugin Flaws in Attackers’ Crosshairs",
       "link": "https://www.securityweek.com/kirki-burst-statistics-wordpress-plugin-flaws-in-attackers-crosshairs/",
@@ -23,11 +107,32 @@
       "published": "2026-06-03T12:58:22+00:00"
     },
     {
+      "title": "Critical Apache ActiveMQ Vulnerability Allows Malicious Security Header Injections",
+      "link": "https://cybersecuritynews.com/apache-activemq-header-injection-vulnerability/",
+      "summary": "Critical Apache ActiveMQ Vulnerability Allows Malicious Security Header Injections A critical vulnerability in Apache ActiveMQ has been disclosed, allowing attackers to inject malicious HTTP security...",
+      "source": "CVE Newsroom",
+      "published": "2026-06-03T12:47:14+00:00"
+    },
+    {
       "title": "Hackers Target Global Stock Exchange in Espionage Operation",
       "link": "https://www.securityweek.com/hackers-target-global-stock-exchange-in-espionage-operation/",
       "summary": "The attackers had access to a senior executive’s email account for 150 days and exfiltrated data for months. The post Hackers Target Global Stock Exchange in Espionage Operation appeared first on...",
       "source": "SecurityWeek",
       "published": "2026-06-03T12:46:53+00:00"
+    },
+    {
+      "title": "Ivanti ITSM Vulnerability Lets Attackers Gain Admin Privilege",
+      "link": "https://cybersecuritynews.com/ivanti-itsm-vulnerability-admin-privilege/",
+      "summary": "Ivanti ITSM Vulnerability Lets Attackers Gain Admin Privilege Ivanti has disclosed a high-severity vulnerability in its Ivanti Neurons for ITSM platform that could allow attackers with valid...",
+      "source": "CVE Newsroom",
+      "published": "2026-06-03T12:44:59+00:00"
+    },
+    {
+      "title": "Laravel CRLF Injection Vulnerability Enables an Attacker to Interfere with Outbound Email Processing",
+      "link": "https://cybersecuritynews.com/laravel-crlf-injection-vulnerability/",
+      "summary": "Laravel CRLF Injection Vulnerability Enables an Attacker to Interfere with Outbound Email Processing A high-severity CRLF injection vulnerability in the Laravel framework, tracked as CVE-2026-48019...",
+      "source": "CVE Newsroom",
+      "published": "2026-06-03T12:14:30+00:00"
     },
     {
       "title": "IMA Diligence Services Data Breach Impacts 525,000 People",
@@ -74,37 +179,44 @@
     {
       "title": "CVE-2026-47065 - Apache MINA: Critical Deserialization Allow-list Bypass via resolveProxyClass - ZDRES-232",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-47065",
-      "summary": "CVE ID :CVE-2026-47065 Published : June 3, 2026, 11:16 a.m. | 51 minutes ago Description :ZDRES-232: resolveProxyClass Not Overridden - acceptMatchers Filter Bypass via java.lang.reflect.Proxy...",
+      "summary": "CVE ID :CVE-2026-47065 Published : June 3, 2026, 11:16 a.m. | 2 hours, 42 minutes ago Description :ZDRES-232: resolveProxyClass Not Overridden - acceptMatchers Filter Bypass via...",
       "source": "CVE Feed",
       "published": "2026-06-03T11:16:19+00:00"
     },
     {
       "title": "CVE-2025-15656 - WordPress School Management plugin <= 93.2.0 - Privilege Escalation vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2025-15656",
-      "summary": "CVE ID :CVE-2025-15656 Published : June 3, 2026, 11:16 a.m. | 51 minutes ago Description :Incorrect Privilege Assignment vulnerability in Mojoomla School Management allows Privilege Escalation. This...",
+      "summary": "CVE ID :CVE-2025-15656 Published : June 3, 2026, 11:16 a.m. | 2 hours, 42 minutes ago Description :Incorrect Privilege Assignment vulnerability in Mojoomla School Management allows Privilege...",
       "source": "CVE Feed",
       "published": "2026-06-03T11:16:19+00:00"
     },
     {
       "title": "CVE-2025-14773 - Stored Cross-Site Scripting in ABB T-MAC Plus web application",
       "link": "https://cvefeed.io/vuln/detail/CVE-2025-14773",
-      "summary": "CVE ID :CVE-2025-14773 Published : June 3, 2026, 11:16 a.m. | 51 minutes ago Description :Improper neutralization of input during web page generation ('cross-site scripting') vulnerability in ABB...",
+      "summary": "CVE ID :CVE-2025-14773 Published : June 3, 2026, 11:16 a.m. | 2 hours, 42 minutes ago Description :Improper neutralization of input during web page generation ('cross-site scripting') vulnerability...",
       "source": "CVE Feed",
       "published": "2026-06-03T11:16:18+00:00"
     },
     {
       "title": "CVE-2025-14772 - Broken Access Control in ABB T-MAC Plus web application",
       "link": "https://cvefeed.io/vuln/detail/CVE-2025-14772",
-      "summary": "CVE ID :CVE-2025-14772 Published : June 3, 2026, 11:16 a.m. | 51 minutes ago Description :Authorization bypass through User-Controlled key vulnerability in ABB T-MAC Plus. This issue affects T-MAC...",
+      "summary": "CVE ID :CVE-2025-14772 Published : June 3, 2026, 11:16 a.m. | 2 hours, 42 minutes ago Description :Authorization bypass through User-Controlled key vulnerability in ABB T-MAC Plus. This issue affects...",
       "source": "CVE Feed",
       "published": "2026-06-03T11:16:18+00:00"
     },
     {
       "title": "CVE-2025-14771 - File Disclosure in ABB T-MAC Plus web application and in ABB T-MAC plus Server - Default IIS Web Site",
       "link": "https://cvefeed.io/vuln/detail/CVE-2025-14771",
-      "summary": "CVE ID :CVE-2025-14771 Published : June 3, 2026, 11:16 a.m. | 51 minutes ago Description :Files or directories accessible to external parties vulnerability in ABB T-MAC Plus. This issue affects T-MAC...",
+      "summary": "CVE ID :CVE-2025-14771 Published : June 3, 2026, 11:16 a.m. | 2 hours, 42 minutes ago Description :Files or directories accessible to external parties vulnerability in ABB T-MAC Plus. This issue...",
       "source": "CVE Feed",
       "published": "2026-06-03T11:16:17+00:00"
+    },
+    {
+      "title": "Vulnerabilities in school-management-system software",
+      "link": "https://cert.pl/en/posts/2026/06/CVE-2026-47324/",
+      "summary": "Vulnerabilities in school-management-system software Vulnerabilities in school-management-system software CVE ID CVE-2026-47324 Publication date 03 June 2026 Vendor ProjectsAndPrograms Product...",
+      "source": "CVE Newsroom",
+      "published": "2026-06-03T10:55:00+00:00"
     },
     {
       "title": "‘HTTP/2 Bomb’ Exploit Knocks Web Servers Offline in Seconds",
@@ -151,7 +263,7 @@
     {
       "title": "CVE-2026-4035 - Environment Variable Resolution Vulnerability in mlflow/mlflow",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-4035",
-      "summary": "CVE ID :CVE-2026-4035 Published : June 3, 2026, 9:16 a.m. | 2 hours, 51 minutes ago Description :A vulnerability in mlflow/mlflow versions prior to 3.11.0 allows for the resolution of environment...",
+      "summary": "CVE ID :CVE-2026-4035 Published : June 3, 2026, 9:16 a.m. | 4 hours, 42 minutes ago Description :A vulnerability in mlflow/mlflow versions prior to 3.11.0 allows for the resolution of environment...",
       "source": "CVE Feed",
       "published": "2026-06-03T09:16:13+00:00"
     },
@@ -221,21 +333,21 @@
     {
       "title": "CVE-2026-35482 - alf.io has an Authenticated RCE via Extension Script Sandbox Escape",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-35482",
-      "summary": "CVE ID :CVE-2026-35482 Published : June 2, 2026, 11:16 p.m. | 12 hours, 51 minutes ago Description :alf.io is an open source ticket reservation system for conferences, trade shows, workshops, and...",
+      "summary": "CVE ID :CVE-2026-35482 Published : June 2, 2026, 11:16 p.m. | 14 hours, 42 minutes ago Description :alf.io is an open source ticket reservation system for conferences, trade shows, workshops, and...",
       "source": "CVE Feed",
       "published": "2026-06-02T23:16:37+00:00"
     },
     {
       "title": "CVE-2026-32625 - LibreChat Exfiltrates Server Secrets via MCP Server URL Injection",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-32625",
-      "summary": "CVE ID :CVE-2026-32625 Published : June 2, 2026, 11:16 p.m. | 12 hours, 51 minutes ago Description :LibreChat is an enhanced ChatGPT clone that supports multiple AI providers. In versions up to and...",
+      "summary": "CVE ID :CVE-2026-32625 Published : June 2, 2026, 11:16 p.m. | 14 hours, 42 minutes ago Description :LibreChat is an enhanced ChatGPT clone that supports multiple AI providers. In versions up to and...",
       "source": "CVE Feed",
       "published": "2026-06-02T23:16:35+00:00"
     },
     {
       "title": "CVE-2026-25861 - QloApps 1.7.0 Weak Password Hashing via MD5 in Tools.php",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-25861",
-      "summary": "CVE ID :CVE-2026-25861 Published : June 2, 2026, 11:16 p.m. | 12 hours, 51 minutes ago Description :QloApps through 1.7.0, fixed in commit 64e9722, contains a weak cryptographic algorithm...",
+      "summary": "CVE ID :CVE-2026-25861 Published : June 2, 2026, 11:16 p.m. | 14 hours, 42 minutes ago Description :QloApps through 1.7.0, fixed in commit 64e9722, contains a weak cryptographic algorithm...",
       "source": "CVE Feed",
       "published": "2026-06-02T23:16:35+00:00"
     },
@@ -256,28 +368,28 @@
     {
       "title": "CVE-2026-8936 - Unbounded recursion in grpcfuse kernel module allows container to crash Docker Desktop VM",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-8936",
-      "summary": "CVE ID :CVE-2026-8936 Published : June 2, 2026, 10:16 p.m. | 13 hours, 51 minutes ago Description :Fixed a VM panic caused by unbounded recursion in the grpcfuse kernel module when a container...",
+      "summary": "CVE ID :CVE-2026-8936 Published : June 2, 2026, 10:16 p.m. | 15 hours, 42 minutes ago Description :Fixed a VM panic caused by unbounded recursion in the grpcfuse kernel module when a container...",
       "source": "CVE Feed",
       "published": "2026-06-02T22:16:17+00:00"
     },
     {
       "title": "CVE-2022-4992 - Dräger Infinity M540 VG4.1.1 Spoofed Network Message Handling DoS/Tampering",
       "link": "https://cvefeed.io/vuln/detail/CVE-2022-4992",
-      "summary": "CVE ID :CVE-2022-4992 Published : June 2, 2026, 10:16 p.m. | 13 hours, 51 minutes ago Description :Dräger Infinity Acute Care System and Standalone Infinity M540 patient monitors versions VG4.1.1...",
+      "summary": "CVE ID :CVE-2022-4992 Published : June 2, 2026, 10:16 p.m. | 15 hours, 42 minutes ago Description :Dräger Infinity Acute Care System and Standalone Infinity M540 patient monitors versions VG4.1.1...",
       "source": "CVE Feed",
       "published": "2026-06-02T22:16:15+00:00"
     },
     {
       "title": "CVE-2021-4481 - Dräger Protector Software Local Privilege Escalation via Insecure File Permissions",
       "link": "https://cvefeed.io/vuln/detail/CVE-2021-4481",
-      "summary": "CVE ID :CVE-2021-4481 Published : June 2, 2026, 10:16 p.m. | 13 hours, 51 minutes ago Description :Dräger Protector Software prior to version 6.4.2 contains a local privilege escalation vulnerability...",
+      "summary": "CVE ID :CVE-2021-4481 Published : June 2, 2026, 10:16 p.m. | 15 hours, 42 minutes ago Description :Dräger Protector Software prior to version 6.4.2 contains a local privilege escalation vulnerability...",
       "source": "CVE Feed",
       "published": "2026-06-02T22:16:15+00:00"
     },
     {
       "title": "CVE-2021-4480 - Dräger Protector Software Local Privilege Escalation via Insecure File Permissions",
       "link": "https://cvefeed.io/vuln/detail/CVE-2021-4480",
-      "summary": "CVE ID :CVE-2021-4480 Published : June 2, 2026, 10:16 p.m. | 13 hours, 51 minutes ago Description :Dräger Protector Software prior to version 6.4.2 contains a local privilege escalation vulnerability...",
+      "summary": "CVE ID :CVE-2021-4480 Published : June 2, 2026, 10:16 p.m. | 15 hours, 42 minutes ago Description :Dräger Protector Software prior to version 6.4.2 contains a local privilege escalation vulnerability...",
       "source": "CVE Feed",
       "published": "2026-06-02T22:16:14+00:00"
     },
@@ -298,7 +410,7 @@
     {
       "title": "Zoom CISO: AI as a Security Enabler, Not Role-Replacer",
       "link": "https://www.darkreading.com/cybersecurity-operations/zoom-ciso-ai-security-enabler-role-replacer",
-      "summary": "As Zoom's CISO, Sandra McLeod discusses the challenges of securing a global communication platform, the promise of AI-driven security workflows, and advice for aspiring cybersecurity leaders.",
+      "summary": "Zoom CISO Sandra McLeod discusses the challenges of securing a global communication platform, the promise of AI-driven security workflows, and her advice for aspiring cybersecurity leaders.",
       "source": "Dark Reading",
       "published": "2026-06-02T21:51:07+00:00"
     },
@@ -312,86 +424,9 @@
     {
       "title": "CVE-2026-49448 - authentik: SourceStage bypass via empty POST",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-49448",
-      "summary": "CVE ID :CVE-2026-49448 Published : June 2, 2026, 9:16 p.m. | 14 hours, 51 minutes ago Description :authentik is an open-source identity provider. Prior to versions 2025.12.6, 2026.2.4, and 2026.5.1...",
+      "summary": "CVE ID :CVE-2026-49448 Published : June 2, 2026, 9:16 p.m. | 16 hours, 42 minutes ago Description :authentik is an open-source identity provider. Prior to versions 2025.12.6, 2026.2.4, and 2026.5.1...",
       "source": "CVE Feed",
       "published": "2026-06-02T21:16:28+00:00"
-    },
-    {
-      "title": "CVE-2026-49443 - authentik: `UserSourceConnection.user` and `GroupSourceConnection.group` are changeable through the API",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-49443",
-      "summary": "CVE ID :CVE-2026-49443 Published : June 2, 2026, 9:16 p.m. | 14 hours, 51 minutes ago Description :authentik is an open-source identity provider. Prior to versions 2025.12.6, 2026.2.4, and 2026.5.1...",
-      "source": "CVE Feed",
-      "published": "2026-06-02T21:16:28+00:00"
-    },
-    {
-      "title": "CVE-2026-49143 - BrowserStack Runner 0.9.5 Unauthenticated RCE via /_log HTTP Handler",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-49143",
-      "summary": "CVE ID :CVE-2026-49143 Published : June 2, 2026, 9:16 p.m. | 14 hours, 51 minutes ago Description :BrowserStack Runner through 0.9.5 contains a remote code execution vulnerability in the /_log HTTP...",
-      "source": "CVE Feed",
-      "published": "2026-06-02T21:16:28+00:00"
-    },
-    {
-      "title": "CVE-2026-47201 - authentik: XML Signature Wrapping in SAML Source ACS allows authentication as arbitrary federated user",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-47201",
-      "summary": "CVE ID :CVE-2026-47201 Published : June 2, 2026, 9:16 p.m. | 14 hours, 51 minutes ago Description :authentik is an open-source identity provider. Prior to versions 2025.12.5, 2026.2.3, and 2026.5.1...",
-      "source": "CVE Feed",
-      "published": "2026-06-02T21:16:27+00:00"
-    },
-    {
-      "title": "CVE-2026-42849 - authentik: Reflected XSS in SFE AutosubmitStage allows IDP account takeover",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-42849",
-      "summary": "CVE ID :CVE-2026-42849 Published : June 2, 2026, 9:16 p.m. | 14 hours, 51 minutes ago Description :authentik is an open-source identity provider. Prior to versions 2025.12.5 and 2026.2.3, due to the...",
-      "source": "CVE Feed",
-      "published": "2026-06-02T21:16:27+00:00"
-    },
-    {
-      "title": "CVE-2026-8036 - Local privilege escalation in NI-PAL",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-8036",
-      "summary": "CVE ID :CVE-2026-8036 Published : June 2, 2026, 8:16 p.m. | 15 hours, 51 minutes ago Description :Improper input validation in NI-PAL may allow a local authenticated user to access arbitrary system...",
-      "source": "CVE Feed",
-      "published": "2026-06-02T20:16:41+00:00"
-    },
-    {
-      "title": "CVE-2026-5385 - GLPI 11.0.0 - Stored XSS in knowledge base",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-5385",
-      "summary": "CVE ID :CVE-2026-5385 Published : June 2, 2026, 8:16 p.m. | 15 hours, 51 minutes ago Description :An unauthenticated user with write access to the knowledge base can store an XSS payload in a...",
-      "source": "CVE Feed",
-      "published": "2026-06-02T20:16:40+00:00"
-    },
-    {
-      "title": "CVE-2026-5076 - ARMember Premium <= 7.3.1 - Insecure Password Reset Mechanism to Unauthenticated Privilege Escalation",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-5076",
-      "summary": "CVE ID :CVE-2026-5076 Published : June 2, 2026, 8:16 p.m. | 15 hours, 51 minutes ago Description :The ARMember Premium plugin for WordPress is vulnerable to an insecure password reset mechanism in...",
-      "source": "CVE Feed",
-      "published": "2026-06-02T20:16:40+00:00"
-    },
-    {
-      "title": "CVE-2026-49120 - Medplum < 5.1.14 SSRF via FHIR Subscription Endpoint",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-49120",
-      "summary": "CVE ID :CVE-2026-49120 Published : June 2, 2026, 8:16 p.m. | 15 hours, 51 minutes ago Description :Medplum before 5.1.14 contains a server-side request forgery vulnerability in the subscription...",
-      "source": "CVE Feed",
-      "published": "2026-06-02T20:16:39+00:00"
-    },
-    {
-      "title": "CVE-2026-48597 - Atom table exhaustion via untrusted URL scheme in Tesla.Adapter.Mint",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48597",
-      "summary": "CVE ID :CVE-2026-48597 Published : June 2, 2026, 8:16 p.m. | 15 hours, 51 minutes ago Description :Allocation of Resources Without Limits or Throttling vulnerability in elixir-tesla tesla allows...",
-      "source": "CVE Feed",
-      "published": "2026-06-02T20:16:38+00:00"
-    },
-    {
-      "title": "CVE-2026-48595 - Authorization header leaks to third-party origin on cross-origin redirect in Tesla.Middleware.FollowRedirects",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48595",
-      "summary": "CVE ID :CVE-2026-48595 Published : June 2, 2026, 8:16 p.m. | 15 hours, 51 minutes ago Description :Improper Handling of Case Sensitivity vulnerability in elixir-tesla tesla allows credential leakage...",
-      "source": "CVE Feed",
-      "published": "2026-06-02T20:16:38+00:00"
-    },
-    {
-      "title": "CVE-2026-48594 - Decompression bomb in Tesla.Middleware.DecompressResponse and Tesla.Middleware.Compression",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48594",
-      "summary": "CVE ID :CVE-2026-48594 Published : June 2, 2026, 8:16 p.m. | 15 hours, 51 minutes ago Description :Improper Handling of Highly Compressed Data (Data Amplification) vulnerability in elixir-tesla tesla...",
-      "source": "CVE Feed",
-      "published": "2026-06-02T20:16:38+00:00"
     },
     {
       "title": "DriveSurge Hijacks Thousands of Sites for ClickFix, FakeUpdate Attacks",
@@ -455,6 +490,13 @@
       "summary": "Oracle WebLogic CVE-2024-21182 Added to KEV Catalog After Active Exploitation The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added a high-severity security flaw impacting...",
       "source": "CVE Newsroom",
       "published": "2026-06-02T18:14:42+00:00"
+    },
+    {
+      "title": "Cyber Brief 26-06 - May 2026",
+      "link": "https://cert.europa.eu/publications/threat-intelligence/cb26-06/",
+      "summary": "Cyber Brief 26-06 - May 2026 Cyber Brief (May 2026)June 2, 2026 - Version: 1TLP:CLEARExecutive summaryWe analysed 325 open source reports for this Cyber Brief1.Relating to cyber policy and law...",
+      "source": "CVE Newsroom",
+      "published": "2026-06-02T18:00:00+00:00"
     },
     {
       "title": "Microsoft Exchange Online outage causes email delays, failures",
@@ -632,34 +674,6 @@
       "published": "2026-06-02T08:14:03+00:00"
     },
     {
-      "title": "Android 0-Day Vulnerability Exploited in Attacks to Gain Complete Device Control",
-      "link": "https://cybersecuritynews.com/android-0-day-vulnerability-exploited-device/",
-      "summary": "Android 0-Day Vulnerability Exploited in Attacks to Gain Complete Device Control A critical Android zero-day vulnerability is being actively exploited in targeted attacks, allowing threat actors to...",
-      "source": "CVE Newsroom",
-      "published": "2026-06-02T07:30:50+00:00"
-    },
-    {
-      "title": "Threat Actors Target Critical Windows Netlogon Flaw CVE-2026-41089",
-      "link": "https://thecyberexpress.com/cve-2026-41089-windows-netlogon-vulnerability/",
-      "summary": "Threat Actors Target Critical Windows Netlogon Flaw CVE-2026-41089 A critical Windows Netlogon vulnerability, tracked as CVE-2026-41089, has emerged as a significant security concern after...",
-      "source": "CVE Newsroom",
-      "published": "2026-06-02T07:26:15+00:00"
-    },
-    {
-      "title": "Critical StrongDM Vulnerability Allows Attackers to Steal and Reuse Authentication",
-      "link": "https://cybersecuritynews.com/strongdm-vulnerability/",
-      "summary": "Critical StrongDM Vulnerability Allows Attackers to Steal and Reuse Authentication A critical authentication flaw in StrongDM’s desktop application has been identified that allows attackers to hijack...",
-      "source": "CVE Newsroom",
-      "published": "2026-06-02T07:15:21+00:00"
-    },
-    {
-      "title": "Critical WP Maps Pro Vulnerability Allow Attackers to Create Administrator Account",
-      "link": "https://cybersecuritynews.com/wp-maps-pro-vulnerability/",
-      "summary": "Critical WP Maps Pro Vulnerability Allow Attackers to Create Administrator Account A critical security vulnerability in the popular WP Maps Pro WordPress plugin could allow attackers to gain full...",
-      "source": "CVE Newsroom",
-      "published": "2026-06-02T06:58:27+00:00"
-    },
-    {
       "title": "Dashlane Discloses Brute-Force Attack, Encrypted Vaults of Fewer Than 20 Users Downloaded",
       "link": "https://thehackernews.com/2026/06/dashlane-discloses-brute-force-attack.html",
       "summary": "Password manager Dashlane has disclosed that \"fewer than\" 20 users on the personal subscription plan had their encrypted vaults downloaded following a brute-force attack launched by an unknown party...",
@@ -672,13 +686,6 @@
       "summary": "Police described the incident as a large-scale disclosure of sensitive personal information that posed a threat to both the affected individuals and the institutions they serve. The data was...",
       "source": "The Record",
       "published": "2026-06-01T23:00:00+00:00"
-    },
-    {
-      "title": "Hackers hijack thousands of sites for ClickFix and FakeUpdate attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/hackers-hijack-thousands-of-sites-for-clickfix-and-fakeupdate-attacks/",
-      "summary": "A threat actor tracked as DriveSurge has been operating large-scale malware distribution campaigns using ClickFix and FakeUpdates techniques on compromised sites. [...]",
-      "source": "BleepingComputer",
-      "published": "2026-06-01T22:14:19+00:00"
     },
     {
       "title": "Anthropic to Open Mythos AI to EU's ENISA",
@@ -707,13 +714,6 @@
       "summary": "The Instagram accounts for the Obama White House and the Chief Master Sergeant of the U.S. Space Force were briefly defaced with pro-Iranian images and messages over the weekend, after instructions...",
       "source": "Krebs on Security",
       "published": "2026-06-01T17:32:50+00:00"
-    },
-    {
-      "title": "IBM WebSphere Server Vulnerable to Remote Code Execution Attack Via Crafted Request",
-      "link": "https://cybersecuritynews.com/ibm-websphere-server-remote-code-execution/",
-      "summary": "IBM WebSphere Server Vulnerable to Remote Code Execution Attack Via Crafted Request IBM has disclosed a critical security vulnerability in its WebSphere Application Server ecosystem that could allow...",
-      "source": "CVE Newsroom",
-      "published": "2026-06-01T17:09:10+00:00"
     },
     {
       "title": "Patch Now: Another Palo Alto Auth Bypass Bug Under Active Exploit",
