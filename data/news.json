@@ -1,6 +1,62 @@
 {
-  "last_updated": "2026-06-04T03:05:09.428408+00:00",
+  "last_updated": "2026-06-04T05:34:26.215166+00:00",
   "articles": [
+    {
+      "title": "CISA directive for AI executive order to be released this week, Andersen says",
+      "link": "https://therecord.media/cisa-directive-for-ai-exec-order-release",
+      "summary": "The binding operational directive will focus in part on “vulnerability alleviation and vulnerability management,” Andersen said in remarks delivered at the TechNet Cyber conference in Baltimore.",
+      "source": "The Record",
+      "published": "2026-06-04T15:05:00+00:00"
+    },
+    {
+      "title": "Pakistan Spies on Afghan Finance Ministry With Xeno RAT",
+      "link": "https://www.darkreading.com/cyberattacks-data-breaches/pakistan-spies-afghan-finance-ministry-xeno-rat",
+      "summary": "Despite broadly connected digital infrastructure, standard fare TTPs are enough to cause trouble for Afghanistan's porous cybersecurity.",
+      "source": "Dark Reading",
+      "published": "2026-06-04T04:01:00+00:00"
+    },
+    {
+      "title": "CVE-2026-49186 - Lack of MQTT Broker Topic Access Control Lists",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-49186",
+      "summary": "CVE ID :CVE-2026-49186 Published : June 4, 2026, 3:36 a.m. | 36 minutes ago Description :The local MQTT broker does not enforce topic-level Access Control Lists (ACLs). This allows any client to...",
+      "source": "CVE Feed",
+      "published": "2026-06-04T03:36:59+00:00"
+    },
+    {
+      "title": "CVE-2026-41860 - BOSH Basic-Auth Credential Disclosure via SSL Verification Bypass",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-41860",
+      "summary": "CVE ID :CVE-2026-41860 Published : June 4, 2026, 3:16 a.m. | 56 minutes ago Description :CWE-326 in BOSH allows a local attacker to steal Basic-auth credentials or redirect UAA token requests via...",
+      "source": "CVE Feed",
+      "published": "2026-06-04T03:16:20+00:00"
+    },
+    {
+      "title": "CVE-2026-41011 - BOSH OS Command Injection",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-41011",
+      "summary": "CVE ID :CVE-2026-41011 Published : June 4, 2026, 3:16 a.m. | 56 minutes ago Description :PackagePersister.validate_tgz builds \"tar -tf #{tgz} 2>&1\" where tgz = File.join(release_dir, 'packages'...",
+      "source": "CVE Feed",
+      "published": "2026-06-04T03:16:19+00:00"
+    },
+    {
+      "title": "CVE-2026-49185 - Instruction Injection via FieldX MDM",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-49185",
+      "summary": "CVE ID :CVE-2026-49185 Published : June 4, 2026, 2:55 a.m. | 1 hour, 17 minutes ago Description :The FieldX MDM adb messaging topic passes unverified payloads directly into Runtime.exec(), allowing...",
+      "source": "CVE Feed",
+      "published": "2026-06-04T02:55:48+00:00"
+    },
+    {
+      "title": "CVE-2026-41010 - BOSH Director: OS Command Injection",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-41010",
+      "summary": "CVE ID :CVE-2026-41010 Published : June 4, 2026, 2:27 a.m. | 1 hour, 45 minutes ago Description :ReleaseJob#unpack builds job_dir = File.join(@release_dir, 'jobs', name) and job_tgz =...",
+      "source": "CVE Feed",
+      "published": "2026-06-04T02:27:26+00:00"
+    },
+    {
+      "title": "CVE-2026-41283 - OpenStack Mistral Arbitrary Remote Code Execution",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-41283",
+      "summary": "CVE ID :CVE-2026-41283 Published : June 4, 2026, midnight | 4 hours, 13 minutes ago Description :OpenStack Mistral through 22.0.0 allows Arbitrary Remote Code Execution when the API is exposed. There...",
+      "source": "CVE Feed",
+      "published": "2026-06-04T00:00:00+00:00"
+    },
     {
       "title": "Chinese hackers use new Atlas RAT malware in European cyberattacks",
       "link": "https://www.bleepingcomputer.com/news/security/chinese-hackers-use-new-atlas-rat-malware-in-european-cyberattacks/",
@@ -16,7 +72,7 @@
       "published": "2026-06-03T21:34:07+00:00"
     },
     {
-      "title": "The U.S. sanctions Nobitex crypto exchange used by ransomware",
+      "title": "U.S. sanctions Nobitex crypto exchange used by Iranian ransomware actors",
       "link": "https://www.bleepingcomputer.com/news/security/the-us-sanctions-nobitex-crypto-exchange-used-by-ransomware/",
       "summary": "The U.S. Treasury's Office of Foreign Assets Control (OFAC) has announced sanctions against Nobitex, Iran's largest cryptocurrency exchange, for facilitating payments related to terrorist activities...",
       "source": "BleepingComputer",
@@ -39,7 +95,7 @@
     {
       "title": "CVE-2026-7888 - Concrete CMS below 9.5.2 is vulnerable to PHP Object Injection via unserialize() calls in the Workflow, Form block, and File/Set components that lack the allowed_classes restriction.",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-7888",
-      "summary": "CVE ID :CVE-2026-7888 Published : June 3, 2026, 7:16 p.m. | 6 hours, 33 minutes ago Description :Concrete CMS below 9.5.2 is vulnerable to PHP Object Injection via unserialize() calls in the...",
+      "summary": "CVE ID :CVE-2026-7888 Published : June 3, 2026, 7:16 p.m. | 8 hours, 56 minutes ago Description :Concrete CMS below 9.5.2 is vulnerable to PHP Object Injection via unserialize() calls in the...",
       "source": "CVE Feed",
       "published": "2026-06-03T19:16:38+00:00"
     },
@@ -81,21 +137,21 @@
     {
       "title": "CVE-2026-36608 - Mercusys UPnP Port Forwarding Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-36608",
-      "summary": "CVE ID :CVE-2026-36608 Published : June 3, 2026, 6:16 p.m. | 7 hours, 33 minutes ago Description :Mercusys AC12G (EU) V1 router with firmware AC12G(EU)_V1_200909 allows UPnP AddPortMapping to forward...",
+      "summary": "CVE ID :CVE-2026-36608 Published : June 3, 2026, 6:16 p.m. | 9 hours, 56 minutes ago Description :Mercusys AC12G (EU) V1 router with firmware AC12G(EU)_V1_200909 allows UPnP AddPortMapping to forward...",
       "source": "CVE Feed",
       "published": "2026-06-03T18:16:21+00:00"
     },
     {
       "title": "CVE-2026-36607 - Mercusys AC12G Brute-Force Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-36607",
-      "summary": "CVE ID :CVE-2026-36607 Published : June 3, 2026, 6:16 p.m. | 7 hours, 33 minutes ago Description :Mercusys AC12G (EU) V1 router with firmware AC12G(EU)_V1_200909 allows unauthenticated brute-force...",
+      "summary": "CVE ID :CVE-2026-36607 Published : June 3, 2026, 6:16 p.m. | 9 hours, 56 minutes ago Description :Mercusys AC12G (EU) V1 router with firmware AC12G(EU)_V1_200909 allows unauthenticated brute-force...",
       "source": "CVE Feed",
       "published": "2026-06-03T18:16:21+00:00"
     },
     {
       "title": "CVE-2026-20230 - Cisco Unified Communications Manager SSRF Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-20230",
-      "summary": "CVE ID :CVE-2026-20230 Published : June 3, 2026, 6:16 p.m. | 7 hours, 33 minutes ago Description :A vulnerability in Cisco Unified Communications Manager (Unified CM) and Cisco Unified Communications...",
+      "summary": "CVE ID :CVE-2026-20230 Published : June 3, 2026, 6:16 p.m. | 9 hours, 56 minutes ago Description :A vulnerability in Cisco Unified Communications Manager (Unified CM) and Cisco Unified Communications...",
       "source": "CVE Feed",
       "published": "2026-06-03T18:16:20+00:00"
     },
@@ -123,21 +179,21 @@
     {
       "title": "CVE-2026-42321 - GLPI has stored XSS in asset locks",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-42321",
-      "summary": "CVE ID :CVE-2026-42321 Published : June 3, 2026, 4:16 p.m. | 9 hours, 33 minutes ago Description :GLPI is a free asset and IT management software package. Starting in version 10.0.4 and prior to...",
+      "summary": "CVE ID :CVE-2026-42321 Published : June 3, 2026, 4:16 p.m. | 11 hours, 56 minutes ago Description :GLPI is a free asset and IT management software package. Starting in version 10.0.4 and prior to...",
       "source": "CVE Feed",
       "published": "2026-06-03T16:16:30+00:00"
     },
     {
       "title": "CVE-2026-36748 - RockRMS Cross-Site Scripting",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-36748",
-      "summary": "CVE ID :CVE-2026-36748 Published : June 3, 2026, 4:16 p.m. | 9 hours, 33 minutes ago Description :RockRMS v16.13 and before v.17.7.0 is vulnerable to Cross Site Scripting (XSS) via Social Media links...",
+      "summary": "CVE ID :CVE-2026-36748 Published : June 3, 2026, 4:16 p.m. | 11 hours, 56 minutes ago Description :RockRMS v16.13 and before v.17.7.0 is vulnerable to Cross Site Scripting (XSS) via Social Media...",
       "source": "CVE Feed",
       "published": "2026-06-03T16:16:29+00:00"
     },
     {
       "title": "CVE-2026-36576 - openlabs docker-wkhtmltopdf-aas OS Command Injection",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-36576",
-      "summary": "CVE ID :CVE-2026-36576 Published : June 3, 2026, 4:16 p.m. | 9 hours, 33 minutes ago Description :An OS command injection vulnerability in the app.py component of openlabs docker-wkhtmltopdf-aas up...",
+      "summary": "CVE ID :CVE-2026-36576 Published : June 3, 2026, 4:16 p.m. | 11 hours, 56 minutes ago Description :An OS command injection vulnerability in the app.py component of openlabs docker-wkhtmltopdf-aas up...",
       "source": "CVE Feed",
       "published": "2026-06-03T16:16:28+00:00"
     },
@@ -165,7 +221,7 @@
     {
       "title": "CVE-2026-5241 - Policy Bypass in LightGlue Nested Config Resolution in huggingface/transformers",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-5241",
-      "summary": "CVE ID :CVE-2026-5241 Published : June 3, 2026, 2:16 p.m. | 11 hours, 33 minutes ago Description :A vulnerability in the LightGlue model loading path of huggingface/transformers version 5.2.0 allows...",
+      "summary": "CVE ID :CVE-2026-5241 Published : June 3, 2026, 2:16 p.m. | 13 hours, 56 minutes ago Description :A vulnerability in the LightGlue model loading path of huggingface/transformers version 5.2.0 allows...",
       "source": "CVE Feed",
       "published": "2026-06-03T14:16:46+00:00"
     },
@@ -193,77 +249,77 @@
     {
       "title": "CVE-2026-35085 - Stack buffer overflow in method gdv-serverconfig",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-35085",
-      "summary": "CVE ID :CVE-2026-35085 Published : June 3, 2026, 1:16 p.m. | 12 hours, 33 minutes ago Description :A remote attacker with user privileges can exploit a stack buffer overflow in gdv-serverconfig to...",
+      "summary": "CVE ID :CVE-2026-35085 Published : June 3, 2026, 1:16 p.m. | 14 hours, 56 minutes ago Description :A remote attacker with user privileges can exploit a stack buffer overflow in gdv-serverconfig to...",
       "source": "CVE Feed",
       "published": "2026-06-03T13:16:21+00:00"
     },
     {
       "title": "CVE-2026-35084 - Stack buffer overflow in method dali-devconfig",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-35084",
-      "summary": "CVE ID :CVE-2026-35084 Published : June 3, 2026, 1:16 p.m. | 12 hours, 33 minutes ago Description :A remote attacker with user privileges can exploit a stack buffer overflow in dali-devconfig to gain...",
+      "summary": "CVE ID :CVE-2026-35084 Published : June 3, 2026, 1:16 p.m. | 14 hours, 56 minutes ago Description :A remote attacker with user privileges can exploit a stack buffer overflow in dali-devconfig to gain...",
       "source": "CVE Feed",
       "published": "2026-06-03T13:16:21+00:00"
     },
     {
       "title": "CVE-2026-35083 - Stack buffer overflow in method bac-deviceobject",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-35083",
-      "summary": "CVE ID :CVE-2026-35083 Published : June 3, 2026, 1:16 p.m. | 12 hours, 33 minutes ago Description :A remote attacker with user privileges can exploit a stack buffer overflow to gain full system...",
+      "summary": "CVE ID :CVE-2026-35083 Published : June 3, 2026, 1:16 p.m. | 14 hours, 56 minutes ago Description :A remote attacker with user privileges can exploit a stack buffer overflow to gain full system...",
       "source": "CVE Feed",
       "published": "2026-06-03T13:16:20+00:00"
     },
     {
       "title": "CVE-2026-35082 - Local file inclusion vulnerability and deletion in ugw-logread method",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-35082",
-      "summary": "CVE ID :CVE-2026-35082 Published : June 3, 2026, 1:16 p.m. | 12 hours, 33 minutes ago Description :The ugw-logread method allows a remote attacker with user privileges to access arbitrary local files...",
+      "summary": "CVE ID :CVE-2026-35082 Published : June 3, 2026, 1:16 p.m. | 14 hours, 56 minutes ago Description :The ugw-logread method allows a remote attacker with user privileges to access arbitrary local files...",
       "source": "CVE Feed",
       "published": "2026-06-03T13:16:20+00:00"
     },
     {
       "title": "CVE-2026-35081 - Arbitrary process termination vulnerability in method ugw-logstop",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-35081",
-      "summary": "CVE ID :CVE-2026-35081 Published : June 3, 2026, 1:16 p.m. | 12 hours, 33 minutes ago Description :The ugw-logstop method allows a remote attacker with user privileges to terminate arbitrary...",
+      "summary": "CVE ID :CVE-2026-35081 Published : June 3, 2026, 1:16 p.m. | 14 hours, 56 minutes ago Description :The ugw-logstop method allows a remote attacker with user privileges to terminate arbitrary...",
       "source": "CVE Feed",
       "published": "2026-06-03T13:16:20+00:00"
     },
     {
       "title": "CVE-2026-35080 - Arbitrary file delete vulnerability in method ugw-restoreinfo",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-35080",
-      "summary": "CVE ID :CVE-2026-35080 Published : June 3, 2026, 1:16 p.m. | 12 hours, 33 minutes ago Description :The ugw-restoreinfo method allows a remote attacker with user privileges to delete arbitrary local...",
+      "summary": "CVE ID :CVE-2026-35080 Published : June 3, 2026, 1:16 p.m. | 14 hours, 56 minutes ago Description :The ugw-restoreinfo method allows a remote attacker with user privileges to delete arbitrary local...",
       "source": "CVE Feed",
       "published": "2026-06-03T13:16:20+00:00"
     },
     {
       "title": "CVE-2026-35079 - Arbitrary file delete vulnerability in method ugw-restore",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-35079",
-      "summary": "CVE ID :CVE-2026-35079 Published : June 3, 2026, 1:16 p.m. | 12 hours, 33 minutes ago Description :The ugw-restore method allows a remote attacker with user privileges to delete arbitrary local files...",
+      "summary": "CVE ID :CVE-2026-35079 Published : June 3, 2026, 1:16 p.m. | 14 hours, 56 minutes ago Description :The ugw-restore method allows a remote attacker with user privileges to delete arbitrary local files...",
       "source": "CVE Feed",
       "published": "2026-06-03T13:16:20+00:00"
     },
     {
       "title": "CVE-2026-35078 - Arbitrary file delete vulnerability in method ugw-logstop",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-35078",
-      "summary": "CVE ID :CVE-2026-35078 Published : June 3, 2026, 1:16 p.m. | 12 hours, 33 minutes ago Description :The ugw-logstop method allows a remote attacker with user privileges to delete arbitrary local files...",
+      "summary": "CVE ID :CVE-2026-35078 Published : June 3, 2026, 1:16 p.m. | 14 hours, 56 minutes ago Description :The ugw-logstop method allows a remote attacker with user privileges to delete arbitrary local files...",
       "source": "CVE Feed",
       "published": "2026-06-03T13:16:19+00:00"
     },
     {
       "title": "CVE-2026-35077 - Arbitrary file delete vulnerability in method ugw-delete-file",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-35077",
-      "summary": "CVE ID :CVE-2026-35077 Published : June 3, 2026, 1:16 p.m. | 12 hours, 33 minutes ago Description :The ugw-delete-file method allows a remote attacker with user privileges to delete arbitrary local...",
+      "summary": "CVE ID :CVE-2026-35077 Published : June 3, 2026, 1:16 p.m. | 14 hours, 56 minutes ago Description :The ugw-delete-file method allows a remote attacker with user privileges to delete arbitrary local...",
       "source": "CVE Feed",
       "published": "2026-06-03T13:16:19+00:00"
     },
     {
       "title": "CVE-2026-35076 - Arbitrary file delete vulnerability in method bac-scanresult",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-35076",
-      "summary": "CVE ID :CVE-2026-35076 Published : June 3, 2026, 1:16 p.m. | 12 hours, 33 minutes ago Description :The bac-scanresult method allows a remote attacker with user privileges to delete arbitrary local...",
+      "summary": "CVE ID :CVE-2026-35076 Published : June 3, 2026, 1:16 p.m. | 14 hours, 56 minutes ago Description :The bac-scanresult method allows a remote attacker with user privileges to delete arbitrary local...",
       "source": "CVE Feed",
       "published": "2026-06-03T13:16:19+00:00"
     },
     {
       "title": "CVE-2026-35075 - Hardcoded default Password for Service Account",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-35075",
-      "summary": "CVE ID :CVE-2026-35075 Published : June 3, 2026, 1:16 p.m. | 12 hours, 33 minutes ago Description :An unauthenticated remote attacker can recover a default, hard coded password from a firmware image...",
+      "summary": "CVE ID :CVE-2026-35075 Published : June 3, 2026, 1:16 p.m. | 14 hours, 56 minutes ago Description :An unauthenticated remote attacker can recover a default, hard coded password from a firmware image...",
       "source": "CVE Feed",
       "published": "2026-06-03T13:16:19+00:00"
     },
@@ -359,41 +415,6 @@
       "published": "2026-06-03T11:35:47+00:00"
     },
     {
-      "title": "CVE-2026-47065 - Apache MINA: Critical Deserialization Allow-list Bypass via resolveProxyClass - ZDRES-232",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-47065",
-      "summary": "CVE ID :CVE-2026-47065 Published : June 3, 2026, 11:16 a.m. | 14 hours, 33 minutes ago Description :ZDRES-232: resolveProxyClass Not Overridden - acceptMatchers Filter Bypass via...",
-      "source": "CVE Feed",
-      "published": "2026-06-03T11:16:19+00:00"
-    },
-    {
-      "title": "CVE-2025-15656 - WordPress School Management plugin <= 93.2.0 - Privilege Escalation vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2025-15656",
-      "summary": "CVE ID :CVE-2025-15656 Published : June 3, 2026, 11:16 a.m. | 14 hours, 33 minutes ago Description :Incorrect Privilege Assignment vulnerability in Mojoomla School Management allows Privilege...",
-      "source": "CVE Feed",
-      "published": "2026-06-03T11:16:19+00:00"
-    },
-    {
-      "title": "CVE-2025-14773 - Stored Cross-Site Scripting in ABB T-MAC Plus web application",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2025-14773",
-      "summary": "CVE ID :CVE-2025-14773 Published : June 3, 2026, 11:16 a.m. | 14 hours, 33 minutes ago Description :Improper neutralization of input during web page generation ('cross-site scripting') vulnerability...",
-      "source": "CVE Feed",
-      "published": "2026-06-03T11:16:18+00:00"
-    },
-    {
-      "title": "CVE-2025-14772 - Broken Access Control in ABB T-MAC Plus web application",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2025-14772",
-      "summary": "CVE ID :CVE-2025-14772 Published : June 3, 2026, 11:16 a.m. | 14 hours, 33 minutes ago Description :Authorization bypass through User-Controlled key vulnerability in ABB T-MAC Plus. This issue...",
-      "source": "CVE Feed",
-      "published": "2026-06-03T11:16:18+00:00"
-    },
-    {
-      "title": "CVE-2025-14771 - File Disclosure in ABB T-MAC Plus web application and in ABB T-MAC plus Server - Default IIS Web Site",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2025-14771",
-      "summary": "CVE ID :CVE-2025-14771 Published : June 3, 2026, 11:16 a.m. | 14 hours, 34 minutes ago Description :Files or directories accessible to external parties vulnerability in ABB T-MAC Plus. This issue...",
-      "source": "CVE Feed",
-      "published": "2026-06-03T11:16:17+00:00"
-    },
-    {
       "title": "Vulnerabilities in school-management-system software",
       "link": "https://cert.pl/en/posts/2026/06/CVE-2026-47324/",
       "summary": "Vulnerabilities in school-management-system software Vulnerabilities in school-management-system software CVE ID CVE-2026-47324 Publication date 03 June 2026 Vendor ProjectsAndPrograms Product...",
@@ -441,13 +462,6 @@
       "summary": "Microsoft responds to backlash over its threats of legal action against researchers who publicly disclose zero-day vulnerabilities. The post Microsoft Tries to Calm Legal Threat Fears After Zero-Day...",
       "source": "SecurityWeek",
       "published": "2026-06-03T09:57:40+00:00"
-    },
-    {
-      "title": "CVE-2026-4035 - Environment Variable Resolution Vulnerability in mlflow/mlflow",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-4035",
-      "summary": "CVE ID :CVE-2026-4035 Published : June 3, 2026, 9:16 a.m. | 16 hours, 34 minutes ago Description :A vulnerability in mlflow/mlflow versions prior to 3.11.0 allows for the resolution of environment...",
-      "source": "CVE Feed",
-      "published": "2026-06-03T09:16:13+00:00"
     },
     {
       "title": "Google adds Android protection against AI deepfake scam calls",
@@ -679,13 +693,6 @@
       "summary": "Microsoft MSRC Allegedly Dismissed Dependency Confusion Vulnerability, Claims Researcher A dependency confusion vulnerability affecting Microsoft’s Azure Portal after the Microsoft Security Response...",
       "source": "CVE Newsroom",
       "published": "2026-06-02T13:45:05+00:00"
-    },
-    {
-      "title": "Red Hat removes tainted packages after software pipeline compromise",
-      "link": "https://therecord.media/red-hat-removes-tainted-packages-after-software-pipeline-compromise",
-      "summary": "According to the company’s preliminary analysis, a compromised GitHub account was used to push the malicious code out to customers, hitting 32 packages downloaded roughly 117,000 times a week.",
-      "source": "The Record",
-      "published": "2026-06-02T13:42:00+00:00"
     },
     {
       "title": "CISA and Partners Urge Hardening Automatic Tank Gauge Systems",
@@ -1393,13 +1400,6 @@
       "summary": "View CSAF Summary Hitachi Energy is aware of the vulnerability, CVE-2022-4304 in the OSS component OpenSSL, that affects the GMS600 versions that are listed below. An attacker successfully exploiting...",
       "source": "CISA Alerts",
       "published": "2026-05-21T12:00:00+00:00"
-    },
-    {
-      "title": "Cyber Pros Can't Decide If AI Is a Good or a Bad Thing",
-      "link": "https://www.darkreading.com/cybersecurity-analytics/cyber-pros-ai",
-      "summary": "There is nothing cybersecurity professionals are more excited about, and nothing they fear more, than AI.",
-      "source": "Dark Reading",
-      "published": "2026-05-20T20:52:25+00:00"
     }
   ]
 }
