@@ -1,12 +1,68 @@
 {
-  "last_updated": "2026-06-08T18:47:08.922182+00:00",
+  "last_updated": "2026-06-08T20:47:03.087207+00:00",
   "articles": [
+    {
+      "title": "New Shai-Hulud attack trojanizes 19 science-focused PyPI packages",
+      "link": "https://www.bleepingcomputer.com/news/security/new-shai-hulud-attack-trojanizes-19-science-focused-pypi-packages/",
+      "summary": "Hackers compromised 19 packages on the PyPI, collectively downloaded hundreds of thousands of times, in a new Shai-Hulud supply-chain attack that delivered malware designed to steal developer...",
+      "source": "BleepingComputer",
+      "published": "2026-06-08T20:41:35+00:00"
+    },
+    {
+      "title": "Check Point VPN Flaw Exploited Since Early May",
+      "link": "https://www.darkreading.com/vulnerabilities-threats/check-point-vpn-flaw-exploited-early-may",
+      "summary": "A newly discovered, critical zero-day vulnerability is under attack; a Qilin ransomware affiliate has been blamed for at least one incident.",
+      "source": "Dark Reading",
+      "published": "2026-06-08T20:28:35+00:00"
+    },
+    {
+      "title": "UK gives big tech 3 months to create device controls to block nude images of kids",
+      "link": "https://therecord.media/uk-gives-big-tech-3-months-to-create-device-controls-kid-images",
+      "summary": "The companies “must activate built-in features or implement technical solutions on smartphones and tablets to detect and block nude images for children,” according to a press release from the Home...",
+      "source": "The Record",
+      "published": "2026-06-08T20:24:00+00:00"
+    },
+    {
+      "title": "Iran Signed a Ceasefire — Its Hackers Didn't",
+      "link": "https://www.darkreading.com/cyberattacks-data-breaches/iran-signed-ceasefire-hackers",
+      "summary": "An extension of the Geneva Conventions could impose restrictions on cyberwarfare under ceasefire conditions and close a major loophole in international conflict.",
+      "source": "Dark Reading",
+      "published": "2026-06-08T19:07:48+00:00"
+    },
     {
       "title": "WhatsApp says it disrupted new NSO spyware phishing attacks",
       "link": "https://www.bleepingcomputer.com/news/security/whatsapp-says-it-disrupted-new-nso-spyware-phishing-attacks/",
       "summary": "WhatsApp has detected and stopped spear-phishing campaigns allegedly conducted by the NSO Group after investigating user reports of social engineering attacks. [...]",
       "source": "BleepingComputer",
       "published": "2026-06-08T18:40:53+00:00"
+    },
+    {
+      "title": "CVE-2026-11393 - Code injection via improper triple-quote escaping in AgentCore CLI Bedrock Agent import",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-11393",
+      "summary": "CVE ID :CVE-2026-11393 Published : June 8, 2026, 6:38 p.m. | 24 minutes ago Description :Improper neutralization of triple-quote characters during Python code generation in AgentCore CLI before...",
+      "source": "CVE Feed",
+      "published": "2026-06-08T18:38:03+00:00"
+    },
+    {
+      "title": "CVE-2026-8913 - Command Injection in TP-Link's Archer MR600 WireGuard Client Configuration",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-8913",
+      "summary": "CVE ID :CVE-2026-8913 Published : June 8, 2026, 6:16 p.m. | 46 minutes ago Description :A command Injection vulnerability exists in the WireGuard client configuration of Archer MR600 v5 due to...",
+      "source": "CVE Feed",
+      "published": "2026-06-08T18:16:34+00:00"
+    },
+    {
+      "title": "CVE-2026-11556 - Tenda F451 Web Management WriteFacMac formWriteFacMac os command injection",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-11556",
+      "summary": "CVE ID :CVE-2026-11556 Published : June 8, 2026, 6:16 p.m. | 46 minutes ago Description :A security flaw has been discovered in Tenda F451 1.0.0.7/1.0.0.9. Impacted is the function formWriteFacMac of...",
+      "source": "CVE Feed",
+      "published": "2026-06-08T18:16:33+00:00"
+    },
+    {
+      "title": "CVE-2026-11553 - Tenda HG7HG9/HG10 formPPPEdit stack-based overflow",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-11553",
+      "summary": "CVE ID :CVE-2026-11553 Published : June 8, 2026, 6:16 p.m. | 46 minutes ago Description :A vulnerability was found in Tenda HG7HG9 and HG10 300001138_en_xpon. This affects the function formPPPEdit of...",
+      "source": "CVE Feed",
+      "published": "2026-06-08T18:16:32+00:00"
     },
     {
       "title": "A Security Raises $37 Million for Autonomous Offensive Security Platform",
@@ -18,49 +74,49 @@
     {
       "title": "CVE-2026-46481 - OpenMetadata: TEST_CONNECTION workflow leaks ingestion-bot JWT and database password to regular users",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-46481",
-      "summary": "CVE ID :CVE-2026-46481 Published : June 8, 2026, 5:16 p.m. | 39 minutes ago Description :OpenMetadata is a unified metadata platform. Prior to version 1.12.4, a non-admin SSO user can trigger a...",
+      "summary": "CVE ID :CVE-2026-46481 Published : June 8, 2026, 5:16 p.m. | 1 hour, 45 minutes ago Description :OpenMetadata is a unified metadata platform. Prior to version 1.12.4, a non-admin SSO user can trigger...",
       "source": "CVE Feed",
       "published": "2026-06-08T17:16:51+00:00"
     },
     {
       "title": "CVE-2026-41448 - AdGuard Home Authentication Bypass via Path Traversal in Admin-Token Cookie",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-41448",
-      "summary": "CVE ID :CVE-2026-41448 Published : June 8, 2026, 5:16 p.m. | 39 minutes ago Description :AdGuard Home, when started with the --glinet flag, contains an authentication bypass vulnerability that allows...",
+      "summary": "CVE ID :CVE-2026-41448 Published : June 8, 2026, 5:16 p.m. | 1 hour, 46 minutes ago Description :AdGuard Home, when started with the --glinet flag, contains an authentication bypass vulnerability...",
       "source": "CVE Feed",
       "published": "2026-06-08T17:16:42+00:00"
     },
     {
       "title": "CVE-2026-39910 - STACKIT IaaS API Privilege Escalation via Service Account Attachment",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-39910",
-      "summary": "CVE ID :CVE-2026-39910 Published : June 8, 2026, 5:16 p.m. | 39 minutes ago Description :STACKIT IaaS API contains a missing authorization check vulnerability that allows authenticated...",
+      "summary": "CVE ID :CVE-2026-39910 Published : June 8, 2026, 5:16 p.m. | 1 hour, 46 minutes ago Description :STACKIT IaaS API contains a missing authorization check vulnerability that allows authenticated...",
       "source": "CVE Feed",
       "published": "2026-06-08T17:16:42+00:00"
     },
     {
       "title": "CVE-2026-25856 - OpenBullet2 0.3.2 Authenticated RCE via Job Configuration Interface",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-25856",
-      "summary": "CVE ID :CVE-2026-25856 Published : June 8, 2026, 5:16 p.m. | 39 minutes ago Description :OpenBullet2 through version 0.3.2 contains an authenticated remote code execution vulnerability that allows...",
+      "summary": "CVE ID :CVE-2026-25856 Published : June 8, 2026, 5:16 p.m. | 1 hour, 46 minutes ago Description :OpenBullet2 through version 0.3.2 contains an authenticated remote code execution vulnerability that...",
       "source": "CVE Feed",
       "published": "2026-06-08T17:16:41+00:00"
     },
     {
       "title": "CVE-2026-25855 - OpenBullet2 0.3.2 Authenticated RCE via FileProxySource Script Upload",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-25855",
-      "summary": "CVE ID :CVE-2026-25855 Published : June 8, 2026, 5:16 p.m. | 39 minutes ago Description :OpenBullet2 through version 0.3.2 contains a remote code execution vulnerability that allows authenticated...",
+      "summary": "CVE ID :CVE-2026-25855 Published : June 8, 2026, 5:16 p.m. | 1 hour, 46 minutes ago Description :OpenBullet2 through version 0.3.2 contains a remote code execution vulnerability that allows...",
       "source": "CVE Feed",
       "published": "2026-06-08T17:16:41+00:00"
     },
     {
       "title": "CVE-2026-25559 - OpenBullet2 0.3.2 Path Traversal via Wordlist Endpoint",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-25559",
-      "summary": "CVE ID :CVE-2026-25559 Published : June 8, 2026, 5:16 p.m. | 39 minutes ago Description :OpenBullet2 through version 0.3.2 contains a path traversal vulnerability in the wordlist endpoint that allows...",
+      "summary": "CVE ID :CVE-2026-25559 Published : June 8, 2026, 5:16 p.m. | 1 hour, 46 minutes ago Description :OpenBullet2 through version 0.3.2 contains a path traversal vulnerability in the wordlist endpoint...",
       "source": "CVE Feed",
       "published": "2026-06-08T17:16:41+00:00"
     },
     {
       "title": "CVE-2026-25555 - OpenBullet2 0.3.2 Authentication Bypass via X-Api-Key Header",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-25555",
-      "summary": "CVE ID :CVE-2026-25555 Published : June 8, 2026, 5:16 p.m. | 39 minutes ago Description :OpenBullet2 through version 0.3.2 contains an authentication bypass vulnerability in the API key...",
+      "summary": "CVE ID :CVE-2026-25555 Published : June 8, 2026, 5:16 p.m. | 1 hour, 46 minutes ago Description :OpenBullet2 through version 0.3.2 contains an authentication bypass vulnerability in the API key...",
       "source": "CVE Feed",
       "published": "2026-06-08T17:16:41+00:00"
     },
@@ -95,56 +151,56 @@
     {
       "title": "CVE-2026-49755 - Decompression bomb DoS in Req via auto-decoded archive and compressed response bodies",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-49755",
-      "summary": "CVE ID :CVE-2026-49755 Published : June 8, 2026, 4:16 p.m. | 1 hour, 39 minutes ago Description :Improper Handling of Highly Compressed Data (Data Amplification) vulnerability in wojtekmach Req...",
+      "summary": "CVE ID :CVE-2026-49755 Published : June 8, 2026, 4:16 p.m. | 2 hours, 45 minutes ago Description :Improper Handling of Highly Compressed Data (Data Amplification) vulnerability in wojtekmach Req...",
       "source": "CVE Feed",
       "published": "2026-06-08T16:16:43+00:00"
     },
     {
       "title": "CVE-2026-46656 - Bludit CMS has improper authorization and mediation failure leading to persistent ghost sessions",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-46656",
-      "summary": "CVE ID :CVE-2026-46656 Published : June 8, 2026, 4:16 p.m. | 1 hour, 39 minutes ago Description :Bludit is a content management system. Versions prior to 3.22.0 have a Broken Access Control flaw...",
+      "summary": "CVE ID :CVE-2026-46656 Published : June 8, 2026, 4:16 p.m. | 2 hours, 46 minutes ago Description :Bludit is a content management system. Versions prior to 3.22.0 have a Broken Access Control flaw...",
       "source": "CVE Feed",
       "published": "2026-06-08T16:16:42+00:00"
     },
     {
       "title": "CVE-2026-46444 - Flowise: Vector Store No Permission Checks",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-46444",
-      "summary": "CVE ID :CVE-2026-46444 Published : June 8, 2026, 4:16 p.m. | 1 hour, 39 minutes ago Description :Flowise is a drag & drop user interface to build a customized large language model flow. Prior to...",
+      "summary": "CVE ID :CVE-2026-46444 Published : June 8, 2026, 4:16 p.m. | 2 hours, 46 minutes ago Description :Flowise is a drag & drop user interface to build a customized large language model flow. Prior to...",
       "source": "CVE Feed",
       "published": "2026-06-08T16:16:41+00:00"
     },
     {
       "title": "CVE-2026-46442 - Flowise: Authenticated Host RCE via POST /api/v1/node-custom-function and NodeVM Sandbox Escape",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-46442",
-      "summary": "CVE ID :CVE-2026-46442 Published : June 8, 2026, 4:16 p.m. | 1 hour, 39 minutes ago Description :Flowise is a drag & drop user interface to build a customized large language model flow. Prior to...",
+      "summary": "CVE ID :CVE-2026-46442 Published : June 8, 2026, 4:16 p.m. | 2 hours, 46 minutes ago Description :Flowise is a drag & drop user interface to build a customized large language model flow. Prior to...",
       "source": "CVE Feed",
       "published": "2026-06-08T16:16:41+00:00"
     },
     {
       "title": "CVE-2026-11528 - Tenda AC18 Web Management getRebootStatus sub_45304 stack-based overflow",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-11528",
-      "summary": "CVE ID :CVE-2026-11528 Published : June 8, 2026, 4:16 p.m. | 1 hour, 39 minutes ago Description :A vulnerability was found in Tenda AC18 15.03.05.05. The affected element is the function sub_45304 of...",
+      "summary": "CVE ID :CVE-2026-11528 Published : June 8, 2026, 4:16 p.m. | 2 hours, 46 minutes ago Description :A vulnerability was found in Tenda AC18 15.03.05.05. The affected element is the function sub_45304...",
       "source": "CVE Feed",
       "published": "2026-06-08T16:16:37+00:00"
     },
     {
       "title": "CVE-2026-11524 - Tenda W20E Web Management modifyWifiFilterRules stack-based overflow",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-11524",
-      "summary": "CVE ID :CVE-2026-11524 Published : June 8, 2026, 4:16 p.m. | 1 hour, 39 minutes ago Description :A vulnerability has been found in Tenda W20E 15.11.0.6. Impacted is the function modifyWifiFilterRules...",
+      "summary": "CVE ID :CVE-2026-11524 Published : June 8, 2026, 4:16 p.m. | 2 hours, 46 minutes ago Description :A vulnerability has been found in Tenda W20E 15.11.0.6. Impacted is the function...",
       "source": "CVE Feed",
       "published": "2026-06-08T16:16:37+00:00"
     },
     {
       "title": "CVE-2026-11523 - Tenda W20E Web Management PortalAuth formPortalAuth stack-based overflow",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-11523",
-      "summary": "CVE ID :CVE-2026-11523 Published : June 8, 2026, 4:16 p.m. | 1 hour, 39 minutes ago Description :A flaw has been found in Tenda W20E 15.11.0.6. This issue affects the function formPortalAuth of the...",
+      "summary": "CVE ID :CVE-2026-11523 Published : June 8, 2026, 4:16 p.m. | 2 hours, 46 minutes ago Description :A flaw has been found in Tenda W20E 15.11.0.6. This issue affects the function formPortalAuth of the...",
       "source": "CVE Feed",
       "published": "2026-06-08T16:16:37+00:00"
     },
     {
       "title": "CVE-2026-11522 - Tenda W20E setPortMirror formSetPortMirror stack-based overflow",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-11522",
-      "summary": "CVE ID :CVE-2026-11522 Published : June 8, 2026, 4:16 p.m. | 1 hour, 39 minutes ago Description :A vulnerability was detected in Tenda W20E 15.11.0.6. This vulnerability affects the function...",
+      "summary": "CVE ID :CVE-2026-11522 Published : June 8, 2026, 4:16 p.m. | 2 hours, 46 minutes ago Description :A vulnerability was detected in Tenda W20E 15.11.0.6. This vulnerability affects the function...",
       "source": "CVE Feed",
       "published": "2026-06-08T16:16:36+00:00"
     },
@@ -172,57 +228,50 @@
     {
       "title": "CVE-2026-49235 - Routinator crashes on specifically crafted RRDP XML files",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-49235",
-      "summary": "CVE ID :CVE-2026-49235 Published : June 8, 2026, 3:16 p.m. | 2 hours, 39 minutes ago Description :When Routinator encounters a file via RRDP using a specifically crafted Document Type Definition...",
+      "summary": "CVE ID :CVE-2026-49235 Published : June 8, 2026, 3:16 p.m. | 3 hours, 45 minutes ago Description :When Routinator encounters a file via RRDP using a specifically crafted Document Type Definition...",
       "source": "CVE Feed",
       "published": "2026-06-08T15:16:48+00:00"
     },
     {
       "title": "CVE-2026-49234 - Routinator crashes on specifically crafted ASN strings in the API",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-49234",
-      "summary": "CVE ID :CVE-2026-49234 Published : June 8, 2026, 3:16 p.m. | 2 hours, 39 minutes ago Description :When sending a specifically crafted non-UTF-8 string as select-asn query parameter to the...",
+      "summary": "CVE ID :CVE-2026-49234 Published : June 8, 2026, 3:16 p.m. | 3 hours, 45 minutes ago Description :When sending a specifically crafted non-UTF-8 string as select-asn query parameter to the...",
       "source": "CVE Feed",
       "published": "2026-06-08T15:16:48+00:00"
     },
     {
       "title": "CVE-2026-49233 - Routinator cache path traversal using rogue rsync URIs",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-49233",
-      "summary": "CVE ID :CVE-2026-49233 Published : June 8, 2026, 3:16 p.m. | 2 hours, 39 minutes ago Description :Routinator does not properly check the module component of rsync URIs, which are used to create the...",
+      "summary": "CVE ID :CVE-2026-49233 Published : June 8, 2026, 3:16 p.m. | 3 hours, 45 minutes ago Description :Routinator does not properly check the module component of rsync URIs, which are used to create the...",
       "source": "CVE Feed",
       "published": "2026-06-08T15:16:47+00:00"
     },
     {
       "title": "CVE-2026-49232 - Routinator exits when accepting an incoming HTTP or RTR connection fails",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-49232",
-      "summary": "CVE ID :CVE-2026-49232 Published : June 8, 2026, 3:16 p.m. | 2 hours, 39 minutes ago Description :Routinator exits on any error when accepting incoming HTTP or RTR connections, including ones it can...",
+      "summary": "CVE ID :CVE-2026-49232 Published : June 8, 2026, 3:16 p.m. | 3 hours, 45 minutes ago Description :Routinator exits on any error when accepting incoming HTTP or RTR connections, including ones it can...",
       "source": "CVE Feed",
       "published": "2026-06-08T15:16:47+00:00"
     },
     {
       "title": "CVE-2026-43974 - gun HTTP/1.1 client accepts unsolicited 101 Switching Protocols response allowing server-driven protocol hijack and OOM",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-43974",
-      "summary": "CVE ID :CVE-2026-43974 Published : June 8, 2026, 3:16 p.m. | 2 hours, 39 minutes ago Description :Unexpected Status Code or Return Value vulnerability in ninenines gun (gun_http module) allows a...",
+      "summary": "CVE ID :CVE-2026-43974 Published : June 8, 2026, 3:16 p.m. | 3 hours, 45 minutes ago Description :Unexpected Status Code or Return Value vulnerability in ninenines gun (gun_http module) allows a...",
       "source": "CVE Feed",
       "published": "2026-06-08T15:16:46+00:00"
     },
     {
       "title": "CVE-2026-43973 - gun HTTP/1.1 response buffer has no size limit allowing server-controlled memory exhaustion",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-43973",
-      "summary": "CVE ID :CVE-2026-43973 Published : June 8, 2026, 3:16 p.m. | 2 hours, 39 minutes ago Description :Uncontrolled Resource Consumption vulnerability in ninenines gun (gun_http module) allows a malicious...",
+      "summary": "CVE ID :CVE-2026-43973 Published : June 8, 2026, 3:16 p.m. | 3 hours, 45 minutes ago Description :Uncontrolled Resource Consumption vulnerability in ninenines gun (gun_http module) allows a malicious...",
       "source": "CVE Feed",
       "published": "2026-06-08T15:16:46+00:00"
     },
     {
-      "title": "CVE-2026-11517 - UTT HiPER 2610G formConfigDnsFilterGlobal strcpy buffer overflow",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-11517",
-      "summary": "CVE ID :CVE-2026-11517 Published : June 8, 2026, 3:16 p.m. | 2 hours, 39 minutes ago Description :A vulnerability was determined in UTT HiPER 2610G up to 3.0.0-171107. This impacts the function...",
-      "source": "CVE Feed",
-      "published": "2026-06-08T15:16:43+00:00"
-    },
-    {
       "title": "Critical Check Point VPN Flaw Exploited to Bypass Passwords in IKEv1 Setups",
       "link": "https://thehackernews.com/2026/06/critical-check-point-vpn-flaw-exploited.html",
-      "summary": "Critical Check Point VPN Flaw Exploited to Bypass Passwords in IKEv1 Setups Check Point has warned of active exploitation of a critical vulnerability impacting Remote Access VPN and Mobile Access...",
-      "source": "CVE Newsroom",
+      "summary": "Check Point has warned of active exploitation of a critical vulnerability impacting Remote Access VPN and Mobile Access deployments that are configured to use the deprecated IKEv1 key exchange...",
+      "source": "The Hacker News",
       "published": "2026-06-08T14:17:39+00:00"
     },
     {
@@ -270,23 +319,9 @@
     {
       "title": "⚡ Weekly Recap: Instagram Account Hacks, Android Zero-Day, GitHub Worm and More",
       "link": "https://thehackernews.com/2026/06/weekly-recap-instagram-account-hacks.html",
-      "summary": "⚡ Weekly Recap: Instagram Account Hacks, Android Zero-Day, GitHub Worm and More Monday again. The weekend was meant to be quiet. It wasn't. Last week had poisoned packages, a broken AI helper, and a...",
-      "source": "CVE Newsroom",
+      "summary": "Monday again. The weekend was meant to be quiet. It wasn't. Last week had poisoned packages, a broken AI helper, and a worm tearing through repos. The ugly part: basic tricks still worked. A chatbot...",
+      "source": "The Hacker News",
       "published": "2026-06-08T13:18:57+00:00"
-    },
-    {
-      "title": "CVE-2026-8833 - XSS in urls",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-8833",
-      "summary": "CVE ID :CVE-2026-8833 Published : June 8, 2026, 1:16 p.m. | 4 hours, 39 minutes ago Description :Improper neutralization of HTML-encoded characters in the URL validation function in Checkmk Severity...",
-      "source": "CVE Feed",
-      "published": "2026-06-08T13:16:33+00:00"
-    },
-    {
-      "title": "CVE-2026-7186 - Fix stored XSS in URL dashboard widget via dangerous URI schemes",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-7186",
-      "summary": "CVE ID :CVE-2026-7186 Published : June 8, 2026, 1:16 p.m. | 4 hours, 39 minutes ago Description :Stored cross-site scripting in the URL dashboard widget in Checkmk Severity: 8.5 | HIGH Visit the link...",
-      "source": "CVE Feed",
-      "published": "2026-06-08T13:16:33+00:00"
     },
     {
       "title": "Check Point links VPN zero-day attacks to Qilin ransomware gang",
@@ -303,18 +338,18 @@
       "published": "2026-06-08T12:38:45+00:00"
     },
     {
-      "title": "CVE-2026-50751 - User Authentication Bypass in VPN Remote Access and Mobile Access",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-50751",
-      "summary": "CVE ID :CVE-2026-50751 Published : June 8, 2026, 12:16 p.m. | 5 hours, 39 minutes ago Description :A logic flow weakness in Remote Access and Mobile Access certificate validation in deprecated IKEv1...",
-      "source": "CVE Feed",
-      "published": "2026-06-08T12:16:32+00:00"
-    },
-    {
       "title": "Everest Forms Vulnerability Exploited to Hack WordPress Sites",
       "link": "https://www.securityweek.com/everest-forms-vulnerability-exploited-to-hack-wordpress-sites/",
       "summary": "The flaw allows attackers to execute arbitrary code remotely and has been exploited in the wild for two months. The post Everest Forms Vulnerability Exploited to Hack WordPress Sites appeared first...",
       "source": "SecurityWeek",
       "published": "2026-06-08T12:16:09+00:00"
+    },
+    {
+      "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/06/08/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+      "summary": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation. CVE-2026-42271 BerriAI LiteLLM Command Injection Vulnerability...",
+      "source": "CISA Alerts",
+      "published": "2026-06-08T12:00:00+00:00"
     },
     {
       "title": "The Hardest Fork",
@@ -354,8 +389,8 @@
     {
       "title": "VerdantBamboo Deploys BSD Variant of BRICKSTORM on Linux Appliances",
       "link": "https://thehackernews.com/2026/06/verdantbamboo-deploys-bsd-variant-of.html",
-      "summary": "VerdantBamboo Deploys BSD Variant of BRICKSTORM on Linux Appliances A China-nexus cyber espionage group has been observed deploying a BSD variant of a known backdoor called BRICKSTORM, as well as two...",
-      "source": "CVE Newsroom",
+      "summary": "A China-nexus cyber espionage group has been observed deploying a BSD variant of a known backdoor called BRICKSTORM, as well as two other malware families codenamed PLENET (aka GRIMBOLT) and AGENTPSD...",
+      "source": "The Hacker News",
       "published": "2026-06-08T10:27:32+00:00"
     },
     {
@@ -473,15 +508,15 @@
     {
       "title": "CISA Adds Actively Exploited SolarWinds Serv-U DoS Flaw to KEV Catalog",
       "link": "https://thehackernews.com/2026/06/cisa-adds-actively-exploited-solarwinds.html",
-      "summary": "CISA Adds Actively Exploited SolarWinds Serv-U DoS Flaw to KEV Catalog The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added a high-severity security flaw impacting SolarWinds...",
-      "source": "CVE Newsroom",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added a high-severity security flaw impacting SolarWinds Serv-U multi-protocol file server software to its Known Exploited...",
+      "source": "The Hacker News",
       "published": "2026-06-06T08:14:31+00:00"
     },
     {
       "title": "AI Agent Uncovers 21 Zero-Days in FFmpeg; Chrome Patches Record 429 Bugs",
       "link": "https://thehackernews.com/2026/06/ai-agent-uncovers-21-zero-days-in.html",
-      "summary": "AI Agent Uncovers 21 Zero-Days in FFmpeg; Chrome Patches Record 429 Bugs Two things landed within days of each other this week. A security startup reported 21 previously unknown vulnerabilities in...",
-      "source": "CVE Newsroom",
+      "summary": "Two things landed within days of each other this week. A security startup reported 21 previously unknown vulnerabilities in FFmpeg, the media library inside almost everything that touches video, all...",
+      "source": "The Hacker News",
       "published": "2026-06-06T07:28:30+00:00"
     },
     {
@@ -515,8 +550,8 @@
     {
       "title": "Cisco Catalyst SD-WAN Manager CVE-2026-20245 Flaw Actively Exploited – No Patch Available",
       "link": "https://thehackernews.com/2026/06/cisco-catalyst-sd-wan-manager-cve-2026.html",
-      "summary": "Cisco Catalyst SD-WAN Manager CVE-2026-20245 Flaw Actively Exploited – No Patch Available Cisco has warned that a high-severity security flaw impacting Catalyst SD-WAN Manager has come under active...",
-      "source": "CVE Newsroom",
+      "summary": "Cisco has warned that a high-severity security flaw impacting Catalyst SD-WAN Manager has come under active exploitation. The vulnerability, tracked as CVE-2026-20245, carries a CVSS score of 7.8 out...",
+      "source": "The Hacker News",
       "published": "2026-06-06T04:19:28+00:00"
     },
     {
@@ -560,13 +595,6 @@
       "summary": "Multiple software supply chain attacks have hit the npm ecosystem, with threat actors using both malicious and poisoned versions of over 50 legitimate packages to distribute a Rust-based information...",
       "source": "The Hacker News",
       "published": "2026-06-05T18:05:30+00:00"
-    },
-    {
-      "title": "Dark web Nemesis Market vendor gets 26 years for selling drugs",
-      "link": "https://www.bleepingcomputer.com/news/security/dark-web-nemesis-market-vendor-gets-26-years-for-selling-drugs/",
-      "summary": "A California man was sentenced to more than 26 years in federal prison for trafficking fentanyl and methamphetamine through Nemesis Market, one of the world's largest dark web marketplaces. [...]",
-      "source": "BleepingComputer",
-      "published": "2026-06-05T17:50:58+00:00"
     },
     {
       "title": "CVE-2026-20230 — Cisco Unified CM SSRF to Potential Root Escalation",
@@ -655,8 +683,8 @@
     {
       "title": "Hackers Exploit Critical Everest Forms Pro WordPress Plugin Flaw to Take Over Sites",
       "link": "https://thehackernews.com/2026/06/hackers-exploit-critical-everest-forms.html",
-      "summary": "Hackers Exploit Critical Everest Forms Pro WordPress Plugin Flaw to Take Over Sites Threat actors are actively exploiting a critical security flaw in Everest Forms Pro, a WordPress plugin with about...",
-      "source": "CVE Newsroom",
+      "summary": "Threat actors are actively exploiting a critical security flaw in Everest Forms Pro, a WordPress plugin with about 4,000 active installations, to execute arbitrary code, leading to a complete site...",
+      "source": "The Hacker News",
       "published": "2026-06-05T08:38:59+00:00"
     },
     {
@@ -679,13 +707,6 @@
       "summary": "The threat actor known as PCPJack has hijacked cloud servers associated with Amazon Web Services (AWS), Google Cloud, and Microsoft Azure to create a covert SMTP email relay network. \"Compromised...",
       "source": "The Hacker News",
       "published": "2026-06-05T05:34:19+00:00"
-    },
-    {
-      "title": "Apple removes Russia’s state-backed messaging app Max from its store",
-      "link": "https://therecord.media/apple-removes-russian-app-max-from-app-store",
-      "summary": "Russian authorities have promoted Max as a domestic alternative to foreign messaging platforms such as Telegram and WhatsApp.",
-      "source": "The Record",
-      "published": "2026-06-04T23:00:00+00:00"
     },
     {
       "title": "Rust-Written IronWorm Hits NPM Supply Chain",
@@ -1178,6 +1199,13 @@
       "published": "2026-05-28T12:00:00+00:00"
     },
     {
+      "title": "Schneider Electric EcoStruxure Machine Expert HVAC",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-148-07",
+      "summary": "View CSAF Summary Schneider Electric is aware of a vulnerability in its EcostruxureTM Machine Expert HVAC product. The [EcostruxureTM Machine Expert...",
+      "source": "CISA Alerts",
+      "published": "2026-05-28T12:00:00+00:00"
+    },
+    {
       "title": "Supply Chain Compromises Impact Nx Console and GitHub Repositories",
       "link": "https://www.cisa.gov/news-events/alerts/2026/05/28/supply-chain-compromises-impact-nx-console-and-github-repositories",
       "summary": "CISA is prioritizing the response to multiple emerging software supply chain intrusion campaigns targeting developer ecosystems Continuous Integration/Continuous Development (CI/CD) pipelines. These...",
@@ -1206,9 +1234,9 @@
       "published": "2026-05-28T12:00:00+00:00"
     },
     {
-      "title": "Schneider Electric EcoStruxure Machine Expert HVAC",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-148-07",
-      "summary": "View CSAF Summary Schneider Electric is aware of a vulnerability in its EcostruxureTM Machine Expert HVAC product. The [EcostruxureTM Machine Expert...",
+      "title": "Jinan USR IOT Technology Limited (PUSR) USR-W610 RS232/485 to Wi-Fi/Ethernet Converter",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-148-02",
+      "summary": "View CSAF Summary Successful exploitation of this vulnerability could result in an attacker gaining administrator access to the device. The following versions of Jinan USR IOT Technology Limited...",
       "source": "CISA Alerts",
       "published": "2026-05-28T12:00:00+00:00"
     },
@@ -1216,13 +1244,6 @@
       "title": "ABB EIBPORT",
       "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-148-03",
       "summary": "View CSAF Summary ABB is aware of vulnerabilities in the product versions listed as affected in the advisory. A firmware update is available that resolves these privately reported vulnerabilities in...",
-      "source": "CISA Alerts",
-      "published": "2026-05-28T12:00:00+00:00"
-    },
-    {
-      "title": "Jinan USR IOT Technology Limited (PUSR) USR-W610 RS232/485 to Wi-Fi/Ethernet Converter",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-148-02",
-      "summary": "View CSAF Summary Successful exploitation of this vulnerability could result in an attacker gaining administrator access to the device. The following versions of Jinan USR IOT Technology Limited...",
       "source": "CISA Alerts",
       "published": "2026-05-28T12:00:00+00:00"
     },
@@ -1325,16 +1346,16 @@
       "published": "2026-05-26T12:00:00+00:00"
     },
     {
-      "title": "ABB B&R Automation Runtime DoS Vulnerability in System Diagnostics Manager (SDM)",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-146-04",
-      "summary": "View CSAF Summary An update is available that resolves a vulnerability identified by B&Rs internal security analysis in the product versions listed as affected in this advisory. An attacker who...",
+      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/05/26/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "summary": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation. CVE-2026-48172 LiteSpeed cPanel Plugin Privilege Escalation...",
       "source": "CISA Alerts",
       "published": "2026-05-26T12:00:00+00:00"
     },
     {
-      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-      "link": "https://www.cisa.gov/news-events/alerts/2026/05/26/cisa-adds-one-known-exploited-vulnerability-catalog",
-      "summary": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation. CVE-2026-48172 LiteSpeed cPanel Plugin Privilege Escalation...",
+      "title": "ABB B&R Automation Runtime DoS Vulnerability in System Diagnostics Manager (SDM)",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-146-04",
+      "summary": "View CSAF Summary An update is available that resolves a vulnerability identified by B&Rs internal security analysis in the product versions listed as affected in this advisory. An attacker who...",
       "source": "CISA Alerts",
       "published": "2026-05-26T12:00:00+00:00"
     },
@@ -1367,13 +1388,6 @@
       "published": "2026-05-26T12:00:00+00:00"
     },
     {
-      "title": "Eppendorf BioFlo 320",
-      "link": "https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-146-01",
-      "summary": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to gain full access to functionality and data with the bioreactor. The following versions of Eppendorf BioFlo...",
-      "source": "CISA Alerts",
-      "published": "2026-05-26T12:00:00+00:00"
-    },
-    {
       "title": "Remembering Tim Wilson, Whose Legacy Lives on at Dark Reading",
       "link": "https://www.darkreading.com/cybersecurity-operations/remembering-tim-wilson-legacy-dark-reading",
       "summary": "The co-founder and former editor-in-chief passed away five years ago in November. As Dark Reading enters its third decade, we pause to celebrate and honor Wilson's instrumental role in building and...",
@@ -1386,20 +1400,6 @@
       "summary": "Authorities in the Netherlands have arrested the co-owners of two related Internet hosting companies for operating IT infrastructure used by Russia to carry out cyberattacks, influence operations and...",
       "source": "Krebs on Security",
       "published": "2026-05-25T13:21:49+00:00"
-    },
-    {
-      "title": "Lawmakers Demand Answers as CISA Tries to Contain Data Leak",
-      "link": "https://krebsonsecurity.com/2026/05/lawmakers-demand-answers-as-cisa-tries-to-contain-data-leak/",
-      "summary": "Lawmakers in both houses of Congress are demanding answers from the U.S. Cybersecurity & Infrastructure Security Agency (CISA) after KrebsOnSecurity reported this week that a CISA contractor...",
-      "source": "Krebs on Security",
-      "published": "2026-05-22T16:34:24+00:00"
-    },
-    {
-      "title": "Akamai Joins Growing Chorus of Vendors Betting Big on Secure Enterprise Browsers",
-      "link": "https://www.darkreading.com/remote-workforce/akamai-growing-chorus-betting-on-secure-enterprise-browsers",
-      "summary": "When Akamai announced its LayerX acquisition, the company joined a growing list of vendors adding secure enterprise browsers to their product portfolios.",
-      "source": "Dark Reading",
-      "published": "2026-05-22T15:43:50+00:00"
     }
   ]
 }
