@@ -1,180 +1,201 @@
 {
-  "last_updated": "2026-06-09T05:20:43.085878+00:00",
+  "last_updated": "2026-06-09T07:10:11.088059+00:00",
   "articles": [
+    {
+      "title": "Google patches new Chrome zero-day flaw exploited in the wild",
+      "link": "https://www.bleepingcomputer.com/news/security/google-patches-fifth-chrome-zero-day-bug-exploited-in-attacks-this-year/",
+      "summary": "Google has released emergency updates to patch another Chrome zero-day vulnerability that has been exploited in the wild, the fifth such flaw patched since the start of the year. [...]",
+      "source": "BleepingComputer",
+      "published": "2026-06-09T06:56:27+00:00"
+    },
+    {
+      "title": "LiteLLM Flaw CVE-2026-42271 Exploited in the Wild, Chains to Unauthenticated RCE",
+      "link": "https://thehackernews.com/2026/06/litellm-flaw-cve-2026-42271-exploited.html",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added a high-severity flaw impacting BerriAI LiteLLM to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence...",
+      "source": "The Hacker News",
+      "published": "2026-06-09T06:26:14+00:00"
+    },
+    {
+      "title": "CVE-2026-5067 - Out-of-bounds read/write in HTTP WebSocket upgrade via non-null-terminated Sec-WebSocket-Key",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-5067",
+      "summary": "CVE ID :CVE-2026-5067 Published : June 9, 2026, 6:16 a.m. | 44 minutes ago Description :A remote, unauthenticated attacker can trigger memory corruption in Zephyr's HTTP server WebSocket upgrade path...",
+      "source": "CVE Feed",
+      "published": "2026-06-09T06:16:53+00:00"
+    },
+    {
+      "title": "CVE-2026-41539 - QTS, QuTS hero",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-41539",
+      "summary": "CVE ID :CVE-2026-41539 Published : June 9, 2026, 6:16 a.m. | 44 minutes ago Description :A cross-site scripting (XSS) vulnerability has been reported to affect several QNAP operating system versions...",
+      "source": "CVE Feed",
+      "published": "2026-06-09T06:16:53+00:00"
+    },
+    {
+      "title": "CVE-2026-11572 - degit Command Injection",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-11572",
+      "summary": "CVE ID :CVE-2026-11572 Published : June 9, 2026, 6:16 a.m. | 44 minutes ago Description :Versions of the package degit before 2.8.6, from 3.0.0 and before 3.3.1 are vulnerable to Command Injection...",
+      "source": "CVE Feed",
+      "published": "2026-06-09T06:16:53+00:00"
+    },
+    {
+      "title": "Google Patches 5th Chrome Zero-Day Exploited in 2026",
+      "link": "https://www.securityweek.com/google-patches-5th-chrome-zero-day-exploited-in-2026/",
+      "summary": "The vulnerability is tracked as CVE-2026-11645 and it was reported in late April by an anonymous researcher. The post Google Patches 5th Chrome Zero-Day Exploited in 2026 appeared first on...",
+      "source": "SecurityWeek",
+      "published": "2026-06-09T05:57:40+00:00"
+    },
+    {
+      "title": "CVE-2026-9662 - Recover Exit For WooCommerce <= 1.0.3 - Unauthenticated Local File Inclusion via 'tpf' Parameter",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-9662",
+      "summary": "CVE ID :CVE-2026-9662 Published : June 9, 2026, 5:16 a.m. | 1 hour, 44 minutes ago Description :The Recover Exit For WooCommerce plugin for WordPress is vulnerable to Local File Inclusion in all...",
+      "source": "CVE Feed",
+      "published": "2026-06-09T05:16:41+00:00"
+    },
+    {
+      "title": "CVE-2026-41855 - Spring Framework Unsafe Deserialization via Jackson JMS Converters",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-41855",
+      "summary": "CVE ID :CVE-2026-41855 Published : June 9, 2026, 5:16 a.m. | 1 hour, 44 minutes ago Description :In an untrusted JMS environment...",
+      "source": "CVE Feed",
+      "published": "2026-06-09T05:16:37+00:00"
+    },
+    {
+      "title": "CVE-2026-26236 - QuMagie",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-26236",
+      "summary": "CVE ID :CVE-2026-26236 Published : June 9, 2026, 5:16 a.m. | 1 hour, 44 minutes ago Description :A missing authorization vulnerability has been reported to affect QuMagie. The remote attackers can...",
+      "source": "CVE Feed",
+      "published": "2026-06-09T05:16:34+00:00"
+    },
     {
       "title": "CVE-2026-44748 - XML Signature Wrapping in SAML Authentication in SAP NetWeaver AS ABAP and ABAP Platform",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-44748",
-      "summary": "CVE ID :CVE-2026-44748 Published : June 9, 2026, 1:16 a.m. | 2 hours, 14 minutes ago Description :SAP NetWeaver Application Server ABAP and ABAP Platform allows an authenticated attacker with normal...",
+      "summary": "CVE ID :CVE-2026-44748 Published : June 9, 2026, 1:16 a.m. | 5 hours, 44 minutes ago Description :SAP NetWeaver Application Server ABAP and ABAP Platform allows an authenticated attacker with normal...",
       "source": "CVE Feed",
       "published": "2026-06-09T01:16:46+00:00"
     },
     {
       "title": "CVE-2026-40128 - Directory Traversal vulnerability in SAP NetWeaver Application Server Java (Web Container)",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-40128",
-      "summary": "CVE ID :CVE-2026-40128 Published : June 9, 2026, 1:16 a.m. | 2 hours, 14 minutes ago Description :SAP NetWeaver Application Server Java (Web Container) allows an unauthenticated attacker to craft a...",
+      "summary": "CVE ID :CVE-2026-40128 Published : June 9, 2026, 1:16 a.m. | 5 hours, 44 minutes ago Description :SAP NetWeaver Application Server Java (Web Container) allows an unauthenticated attacker to craft a...",
       "source": "CVE Feed",
       "published": "2026-06-09T01:16:46+00:00"
     },
     {
       "title": "CVE-2026-27671 - Memory Corruption vulnerability in Application Server ABAP of SAP NetWeaver and ABAP Platform",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-27671",
-      "summary": "CVE ID :CVE-2026-27671 Published : June 9, 2026, 1:16 a.m. | 2 hours, 14 minutes ago Description :Due to improper RFC protocol validation in the SAP Kernel used by the Application Server ABAP of SAP...",
+      "summary": "CVE ID :CVE-2026-27671 Published : June 9, 2026, 1:16 a.m. | 5 hours, 44 minutes ago Description :Due to improper RFC protocol validation in the SAP Kernel used by the Application Server ABAP of SAP...",
       "source": "CVE Feed",
       "published": "2026-06-09T01:16:45+00:00"
     },
     {
       "title": "CVE-2026-11700 - Google Chrome Use After Free",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-11700",
-      "summary": "CVE ID :CVE-2026-11700 Published : June 9, 2026, 12:16 a.m. | 3 hours, 14 minutes ago Description :Use after free in Tracing in Google Chrome prior to 149.0.7827.103 allowed a remote attacker who had...",
+      "summary": "CVE ID :CVE-2026-11700 Published : June 9, 2026, 12:16 a.m. | 6 hours, 44 minutes ago Description :Use after free in Tracing in Google Chrome prior to 149.0.7827.103 allowed a remote attacker who had...",
       "source": "CVE Feed",
       "published": "2026-06-09T00:16:53+00:00"
     },
     {
       "title": "CVE-2026-11699 - Google Chrome Use-After-Free in Bluetooth",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-11699",
-      "summary": "CVE ID :CVE-2026-11699 Published : June 9, 2026, 12:16 a.m. | 3 hours, 14 minutes ago Description :Use after free in Bluetooth in Google Chrome on Mac prior to 149.0.7827.103 allowed a remote...",
+      "summary": "CVE ID :CVE-2026-11699 Published : June 9, 2026, 12:16 a.m. | 6 hours, 44 minutes ago Description :Use after free in Bluetooth in Google Chrome on Mac prior to 149.0.7827.103 allowed a remote...",
       "source": "CVE Feed",
       "published": "2026-06-09T00:16:53+00:00"
     },
     {
       "title": "CVE-2026-11698 - Google Chrome Use-After-Free Bluetooth Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-11698",
-      "summary": "CVE ID :CVE-2026-11698 Published : June 9, 2026, 12:16 a.m. | 3 hours, 14 minutes ago Description :Use after free in Bluetooth in Google Chrome on Mac prior to 149.0.7827.103 allowed a remote...",
+      "summary": "CVE ID :CVE-2026-11698 Published : June 9, 2026, 12:16 a.m. | 6 hours, 44 minutes ago Description :Use after free in Bluetooth in Google Chrome on Mac prior to 149.0.7827.103 allowed a remote...",
       "source": "CVE Feed",
       "published": "2026-06-09T00:16:53+00:00"
     },
     {
       "title": "CVE-2026-11692 - Google Chrome Use-After-Free Sandbox Escape",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-11692",
-      "summary": "CVE ID :CVE-2026-11692 Published : June 9, 2026, 12:16 a.m. | 3 hours, 14 minutes ago Description :Use after free in Read Anything in Google Chrome prior to 149.0.7827.103 allowed a remote attacker...",
+      "summary": "CVE ID :CVE-2026-11692 Published : June 9, 2026, 12:16 a.m. | 6 hours, 44 minutes ago Description :Use after free in Read Anything in Google Chrome prior to 149.0.7827.103 allowed a remote attacker...",
       "source": "CVE Feed",
       "published": "2026-06-09T00:16:52+00:00"
     },
     {
       "title": "CVE-2026-11688 - Google Chrome SVG Sandbox Escape",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-11688",
-      "summary": "CVE ID :CVE-2026-11688 Published : June 9, 2026, 12:16 a.m. | 3 hours, 14 minutes ago Description :Inappropriate implementation in SVG in Google Chrome prior to 149.0.7827.103 allowed a remote...",
+      "summary": "CVE ID :CVE-2026-11688 Published : June 9, 2026, 12:16 a.m. | 6 hours, 44 minutes ago Description :Inappropriate implementation in SVG in Google Chrome prior to 149.0.7827.103 allowed a remote...",
       "source": "CVE Feed",
       "published": "2026-06-09T00:16:52+00:00"
     },
     {
       "title": "CVE-2026-11687 - Google Chrome Use-after-free",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-11687",
-      "summary": "CVE ID :CVE-2026-11687 Published : June 9, 2026, 12:16 a.m. | 3 hours, 14 minutes ago Description :Use after free in Dawn in Google Chrome on Mac prior to 149.0.7827.103 allowed a remote attacker to...",
+      "summary": "CVE ID :CVE-2026-11687 Published : June 9, 2026, 12:16 a.m. | 6 hours, 44 minutes ago Description :Use after free in Dawn in Google Chrome on Mac prior to 149.0.7827.103 allowed a remote attacker to...",
       "source": "CVE Feed",
       "published": "2026-06-09T00:16:52+00:00"
     },
     {
       "title": "CVE-2026-11683 - Google Chrome Use-After-Free",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-11683",
-      "summary": "CVE ID :CVE-2026-11683 Published : June 9, 2026, 12:16 a.m. | 3 hours, 14 minutes ago Description :Use after free in WebCodecs in Google Chrome prior to 149.0.7827.103 allowed a remote attacker to...",
+      "summary": "CVE ID :CVE-2026-11683 Published : June 9, 2026, 12:16 a.m. | 6 hours, 44 minutes ago Description :Use after free in WebCodecs in Google Chrome prior to 149.0.7827.103 allowed a remote attacker to...",
       "source": "CVE Feed",
       "published": "2026-06-09T00:16:51+00:00"
     },
     {
       "title": "CVE-2026-11680 - Google Chrome Use-After-Free in Media",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-11680",
-      "summary": "CVE ID :CVE-2026-11680 Published : June 9, 2026, 12:16 a.m. | 3 hours, 14 minutes ago Description :Use after free in Media in Google Chrome on Windows prior to 149.0.7827.103 allowed a remote...",
+      "summary": "CVE ID :CVE-2026-11680 Published : June 9, 2026, 12:16 a.m. | 6 hours, 44 minutes ago Description :Use after free in Media in Google Chrome on Windows prior to 149.0.7827.103 allowed a remote...",
       "source": "CVE Feed",
       "published": "2026-06-09T00:16:51+00:00"
     },
     {
       "title": "CVE-2026-11679 - Google Chrome Use-After-Free Codec Sandbox Escape",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-11679",
-      "summary": "CVE ID :CVE-2026-11679 Published : June 9, 2026, 12:16 a.m. | 3 hours, 14 minutes ago Description :Use after free in Codecs in Google Chrome on Windows prior to 149.0.7827.103 allowed a remote...",
+      "summary": "CVE ID :CVE-2026-11679 Published : June 9, 2026, 12:16 a.m. | 6 hours, 44 minutes ago Description :Use after free in Codecs in Google Chrome on Windows prior to 149.0.7827.103 allowed a remote...",
       "source": "CVE Feed",
       "published": "2026-06-09T00:16:51+00:00"
     },
     {
       "title": "CVE-2026-11674 - Google Chrome Guest View Use-After-Free",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-11674",
-      "summary": "CVE ID :CVE-2026-11674 Published : June 9, 2026, 12:16 a.m. | 3 hours, 14 minutes ago Description :Use after free in Guest View in Google Chrome prior to 149.0.7827.103 allowed a remote attacker to...",
+      "summary": "CVE ID :CVE-2026-11674 Published : June 9, 2026, 12:16 a.m. | 6 hours, 44 minutes ago Description :Use after free in Guest View in Google Chrome prior to 149.0.7827.103 allowed a remote attacker to...",
       "source": "CVE Feed",
       "published": "2026-06-09T00:16:50+00:00"
     },
     {
       "title": "CVE-2026-11673 - Google Chrome: Use-After-Free in InterestGroups",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-11673",
-      "summary": "CVE ID :CVE-2026-11673 Published : June 9, 2026, 12:16 a.m. | 3 hours, 14 minutes ago Description :Use after free in InterestGroups in Google Chrome prior to 149.0.7827.103 allowed a remote attacker...",
+      "summary": "CVE ID :CVE-2026-11673 Published : June 9, 2026, 12:16 a.m. | 6 hours, 44 minutes ago Description :Use after free in InterestGroups in Google Chrome prior to 149.0.7827.103 allowed a remote attacker...",
       "source": "CVE Feed",
       "published": "2026-06-09T00:16:50+00:00"
     },
     {
       "title": "CVE-2026-11671 - Google Chrome Use-After-Free Sandbox Escape",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-11671",
-      "summary": "CVE ID :CVE-2026-11671 Published : June 9, 2026, 12:16 a.m. | 3 hours, 14 minutes ago Description :Use after free in Navigation in Google Chrome prior to 149.0.7827.103 allowed a remote attacker to...",
+      "summary": "CVE ID :CVE-2026-11671 Published : June 9, 2026, 12:16 a.m. | 6 hours, 44 minutes ago Description :Use after free in Navigation in Google Chrome prior to 149.0.7827.103 allowed a remote attacker to...",
       "source": "CVE Feed",
       "published": "2026-06-09T00:16:50+00:00"
     },
     {
       "title": "CVE-2026-11670 - Google Chrome Use-After-Free in PDF",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-11670",
-      "summary": "CVE ID :CVE-2026-11670 Published : June 9, 2026, 12:16 a.m. | 3 hours, 14 minutes ago Description :Use after free in PDF in Google Chrome prior to 149.0.7827.103 allowed a remote attacker to execute...",
+      "summary": "CVE ID :CVE-2026-11670 Published : June 9, 2026, 12:16 a.m. | 6 hours, 44 minutes ago Description :Use after free in PDF in Google Chrome prior to 149.0.7827.103 allowed a remote attacker to execute...",
       "source": "CVE Feed",
       "published": "2026-06-09T00:16:50+00:00"
     },
     {
       "title": "CVE-2026-11663 - Chrome Skia Use-After-Free Sandbox Escape",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-11663",
-      "summary": "CVE ID :CVE-2026-11663 Published : June 9, 2026, 12:16 a.m. | 3 hours, 14 minutes ago Description :Use after free in Skia in Google Chrome prior to 149.0.7827.103 allowed a remote attacker who had...",
+      "summary": "CVE ID :CVE-2026-11663 Published : June 9, 2026, 12:16 a.m. | 6 hours, 44 minutes ago Description :Use after free in Skia in Google Chrome prior to 149.0.7827.103 allowed a remote attacker who had...",
       "source": "CVE Feed",
       "published": "2026-06-09T00:16:49+00:00"
     },
     {
       "title": "CVE-2026-11662 - Google Chrome Type Confusion Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-11662",
-      "summary": "CVE ID :CVE-2026-11662 Published : June 9, 2026, 12:16 a.m. | 3 hours, 14 minutes ago Description :Type Confusion in Bindings in Google Chrome prior to 149.0.7827.103 allowed a remote attacker to...",
+      "summary": "CVE ID :CVE-2026-11662 Published : June 9, 2026, 12:16 a.m. | 6 hours, 44 minutes ago Description :Type Confusion in Bindings in Google Chrome prior to 149.0.7827.103 allowed a remote attacker to...",
       "source": "CVE Feed",
       "published": "2026-06-09T00:16:49+00:00"
     },
     {
       "title": "CVE-2026-11657 - Google Chrome Use-After-Free Remote Code Execution",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-11657",
-      "summary": "CVE ID :CVE-2026-11657 Published : June 9, 2026, 12:16 a.m. | 3 hours, 14 minutes ago Description :Use after free in Payments in Google Chrome on Mac prior to 149.0.7827.103 allowed a remote attacker...",
+      "summary": "CVE ID :CVE-2026-11657 Published : June 9, 2026, 12:16 a.m. | 6 hours, 44 minutes ago Description :Use after free in Payments in Google Chrome on Mac prior to 149.0.7827.103 allowed a remote attacker...",
       "source": "CVE Feed",
       "published": "2026-06-09T00:16:48+00:00"
-    },
-    {
-      "title": "CVE-2026-11656 - Google Chrome Use-After-Free Sandbox Escape",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-11656",
-      "summary": "CVE ID :CVE-2026-11656 Published : June 9, 2026, 12:16 a.m. | 3 hours, 14 minutes ago Description :Use after free in ServiceWorker in Google Chrome prior to 149.0.7827.103 allowed an attacker who...",
-      "source": "CVE Feed",
-      "published": "2026-06-09T00:16:48+00:00"
-    },
-    {
-      "title": "CVE-2026-11652 - Google Chrome Use-After-Free Sandbox Escape",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-11652",
-      "summary": "CVE ID :CVE-2026-11652 Published : June 9, 2026, 12:16 a.m. | 3 hours, 14 minutes ago Description :Use after free in Extensions in Google Chrome prior to 149.0.7827.103 allowed a remote attacker who...",
-      "source": "CVE Feed",
-      "published": "2026-06-09T00:16:48+00:00"
-    },
-    {
-      "title": "CVE-2026-11651 - Google Chrome Use-After-Free in Network",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-11651",
-      "summary": "CVE ID :CVE-2026-11651 Published : June 9, 2026, 12:16 a.m. | 3 hours, 14 minutes ago Description :Use after free in Network in Google Chrome prior to 149.0.7827.103 allowed a remote attacker to...",
-      "source": "CVE Feed",
-      "published": "2026-06-09T00:16:48+00:00"
-    },
-    {
-      "title": "CVE-2026-11650 - Google Chrome Use-After-Free",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-11650",
-      "summary": "CVE ID :CVE-2026-11650 Published : June 9, 2026, 12:16 a.m. | 3 hours, 14 minutes ago Description :Use after free in V8 in Google Chrome prior to 149.0.7827.103 allowed a remote attacker to execute...",
-      "source": "CVE Feed",
-      "published": "2026-06-09T00:16:47+00:00"
-    },
-    {
-      "title": "CVE-2026-11649 - Google Chrome Use-After-Free",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-11649",
-      "summary": "CVE ID :CVE-2026-11649 Published : June 9, 2026, 12:16 a.m. | 3 hours, 14 minutes ago Description :Use after free in V8 in Google Chrome prior to 149.0.7827.103 allowed a remote attacker to execute...",
-      "source": "CVE Feed",
-      "published": "2026-06-09T00:16:47+00:00"
-    },
-    {
-      "title": "CVE-2026-11647 - Google Chrome Use-After-Free Sandbox Escape",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-11647",
-      "summary": "CVE ID :CVE-2026-11647 Published : June 9, 2026, 12:16 a.m. | 3 hours, 14 minutes ago Description :Use after free in Printing in Google Chrome on Android prior to 149.0.7827.103 allowed a remote...",
-      "source": "CVE Feed",
-      "published": "2026-06-09T00:16:47+00:00"
     },
     {
       "title": "NFCShare Android malware spreads via fake banking app updates on GitHub",
@@ -219,17 +240,10 @@
       "published": "2026-06-08T20:28:35+00:00"
     },
     {
-      "title": "UK gives big tech 3 months to create device controls to block nude images of kids",
-      "link": "https://therecord.media/uk-gives-big-tech-3-months-to-create-device-controls-kid-images",
-      "summary": "The companies “must activate built-in features or implement technical solutions on smartphones and tablets to detect and block nude images for children,” according to a press release from the Home...",
-      "source": "The Record",
-      "published": "2026-06-08T20:24:00+00:00"
-    },
-    {
       "title": "One-Character Linux Kernel Flaw Enables Local Root Access, Exploits Now Public",
       "link": "https://thehackernews.com/2026/06/one-character-linux-kernel-flaw-enables.html",
-      "summary": "One-Character Linux Kernel Flaw Enables Local Root Access, Exploits Now Public Security researchers have published a detailed, working exploit for a Linux kernel use-after-free that lets an...",
-      "source": "CVE Newsroom",
+      "summary": "Security researchers have published a detailed, working exploit for a Linux kernel use-after-free that lets an unprivileged local user escalate to root and break out of a container. The flaw...",
+      "source": "The Hacker News",
       "published": "2026-06-08T20:17:39+00:00"
     },
     {
@@ -254,25 +268,11 @@
       "published": "2026-06-08T17:19:38+00:00"
     },
     {
-      "title": "Armenia’s pro-Europe party wins election despite Russia-linked disinformation",
-      "link": "https://therecord.media/armenia-pro-europe-party-wins-election-despite-russia-disinformation",
-      "summary": "Pashinyan's Civil Contract party won nearly 50% of Sunday's vote, defeating the pro-Russian Strong Armenia party led by Russian-Armenian billionaire Samvel Karapetyan, which received around 23% of...",
-      "source": "The Record",
-      "published": "2026-06-08T17:10:00+00:00"
-    },
-    {
       "title": "Meta Blocks NSO Group's New WhatsApp Phishing Attack, Files Contempt Order",
       "link": "https://thehackernews.com/2026/06/meta-blocks-nso-groups-new-whatsapp.html",
       "summary": "Meta on Monday said it detected and blocked spear-phishing attempts linked to Israeli spyware vendor NSO Group. In addition, the tech giant said it's filing a federal court contempt order against the...",
       "source": "The Hacker News",
       "published": "2026-06-08T17:08:44+00:00"
-    },
-    {
-      "title": "WhatsApp says NSO targeted users with spearfishing attacks in violation of court order",
-      "link": "https://therecord.media/whatsapp-says-nso-targeted-users-with-attacks-against-court-order",
-      "summary": "WhatsApp said it is filing a federal court contempt order against NSO for violating a permanent injunction that bars it from mounting attacks against its users.",
-      "source": "The Record",
-      "published": "2026-06-08T16:51:00+00:00"
     },
     {
       "title": "Gogs patches critical zero-day enabling remote code execution",
@@ -305,8 +305,8 @@
     {
       "title": "Critical Check Point VPN Flaw Exploited to Bypass Passwords in IKEv1 Setups",
       "link": "https://thehackernews.com/2026/06/critical-check-point-vpn-flaw-exploited.html",
-      "summary": "Critical Check Point VPN Flaw Exploited to Bypass Passwords in IKEv1 Setups Check Point has warned of active exploitation of a critical vulnerability impacting Remote Access VPN and Mobile Access...",
-      "source": "CVE Newsroom",
+      "summary": "Check Point has warned of active exploitation of a critical vulnerability impacting Remote Access VPN and Mobile Access deployments that are configured to use the deprecated IKEv1 key exchange...",
+      "source": "The Hacker News",
       "published": "2026-06-08T14:17:39+00:00"
     },
     {
@@ -315,13 +315,6 @@
       "summary": "CVE-2026-28318 — SolarWinds Serv-U DoS added to CISA KEV June 8, 2026CVE: CVE-2026-28318CVSS Score: 7.5 (High)CWE: CWE-400 — Uncontrolled Resource ConsumptionKEV Added: June 5, 2026FCEB Remediation...",
       "source": "CVE Newsroom",
       "published": "2026-06-08T14:10:01+00:00"
-    },
-    {
-      "title": "Russia upgrades rules for its digital spy system to better track citizens online",
-      "link": "https://therecord.media/russia-upgrades-rules-for-digital-spy-system-sorm",
-      "summary": "New regulations published by Russia's Ministry of Digital Development at the end of May updated the technical standards governing SORM, formally known as the System for Operative Investigative...",
-      "source": "The Record",
-      "published": "2026-06-08T14:04:00+00:00"
     },
     {
       "title": "Reducing security operations complexity with Wazuh Cloud",
@@ -354,8 +347,8 @@
     {
       "title": "⚡ Weekly Recap: Instagram Account Hacks, Android Zero-Day, GitHub Worm and More",
       "link": "https://thehackernews.com/2026/06/weekly-recap-instagram-account-hacks.html",
-      "summary": "⚡ Weekly Recap: Instagram Account Hacks, Android Zero-Day, GitHub Worm and More Monday again. The weekend was meant to be quiet. It wasn't. Last week had poisoned packages, a broken AI helper, and a...",
-      "source": "CVE Newsroom",
+      "summary": "Monday again. The weekend was meant to be quiet. It wasn't. Last week had poisoned packages, a broken AI helper, and a worm tearing through repos. The ugly part: basic tricks still worked. A chatbot...",
+      "source": "The Hacker News",
       "published": "2026-06-08T13:18:57+00:00"
     },
     {
@@ -424,8 +417,8 @@
     {
       "title": "VerdantBamboo Deploys BSD Variant of BRICKSTORM on Linux Appliances",
       "link": "https://thehackernews.com/2026/06/verdantbamboo-deploys-bsd-variant-of.html",
-      "summary": "VerdantBamboo Deploys BSD Variant of BRICKSTORM on Linux Appliances A China-nexus cyber espionage group has been observed deploying a BSD variant of a known backdoor called BRICKSTORM, as well as two...",
-      "source": "CVE Newsroom",
+      "summary": "A China-nexus cyber espionage group has been observed deploying a BSD variant of a known backdoor called BRICKSTORM, as well as two other malware families codenamed PLENET (aka GRIMBOLT) and AGENTPSD...",
+      "source": "The Hacker News",
       "published": "2026-06-08T10:27:32+00:00"
     },
     {
@@ -448,13 +441,6 @@
       "summary": "The proposed coordination would let advanced AI labs verify that global rivals have actually stopped or slowed their work. The post Anthropic Urges Industry Coordination to Allow for a ‘Pause’ in AI...",
       "source": "SecurityWeek",
       "published": "2026-06-08T08:00:00+00:00"
-    },
-    {
-      "title": "SolarWinds Serv-U Vulnerability Exploited in the Wild",
-      "link": "https://www.securityweek.com/solarwinds-patches-exploited-serv-u-vulnerability/",
-      "summary": "Unauthenticated attackers can exploit the flaw via specially crafted POST requests that crash the Serv-U service. The post SolarWinds Serv-U Vulnerability Exploited in the Wild appeared first on...",
-      "source": "SecurityWeek",
-      "published": "2026-06-08T07:52:28+00:00"
     },
     {
       "title": "UNC3753 Used Vishing and Physical Intrusions in U.S. Data Theft Extortion Campaign",
@@ -527,13 +513,6 @@
       "published": "2026-06-07T02:08:27+00:00"
     },
     {
-      "title": "Critical Everest Forms Pro flaw exploited to take over WordPress sites",
-      "link": "https://www.bleepingcomputer.com/news/security/critical-everest-forms-pro-flaw-exploited-to-take-over-wordpress-sites/",
-      "summary": "Hackers are actively exploiting a critical vulnerability (CVE-2026-3300) in the Everest Forms Pro plugin, which lets them take complete control of a WordPress website. [...]",
-      "source": "BleepingComputer",
-      "published": "2026-06-06T14:09:26+00:00"
-    },
-    {
       "title": "New ChatGPT Lockdown Mode Limits Tools That Could Enable Data Exfiltration",
       "link": "https://thehackernews.com/2026/06/new-chatgpt-lockdown-mode-limits-tools.html",
       "summary": "OpenAI has begun rolling out a new Lockdown Mode to ChatGPT for eligible personal accounts to reduce the risk of data exfiltration arising from prompt injection attacks. The feature is primarily...",
@@ -550,15 +529,15 @@
     {
       "title": "CISA Adds Actively Exploited SolarWinds Serv-U DoS Flaw to KEV Catalog",
       "link": "https://thehackernews.com/2026/06/cisa-adds-actively-exploited-solarwinds.html",
-      "summary": "CISA Adds Actively Exploited SolarWinds Serv-U DoS Flaw to KEV Catalog The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added a high-severity security flaw impacting SolarWinds...",
-      "source": "CVE Newsroom",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added a high-severity security flaw impacting SolarWinds Serv-U multi-protocol file server software to its Known Exploited...",
+      "source": "The Hacker News",
       "published": "2026-06-06T08:14:31+00:00"
     },
     {
       "title": "AI Agent Uncovers 21 Zero-Days in FFmpeg; Chrome Patches Record 429 Bugs",
       "link": "https://thehackernews.com/2026/06/ai-agent-uncovers-21-zero-days-in.html",
-      "summary": "AI Agent Uncovers 21 Zero-Days in FFmpeg; Chrome Patches Record 429 Bugs Two things landed within days of each other this week. A security startup reported 21 previously unknown vulnerabilities in...",
-      "source": "CVE Newsroom",
+      "summary": "Two things landed within days of each other this week. A security startup reported 21 previously unknown vulnerabilities in FFmpeg, the media library inside almost everything that touches video, all...",
+      "source": "The Hacker News",
       "published": "2026-06-06T07:28:30+00:00"
     },
     {
@@ -592,8 +571,8 @@
     {
       "title": "Cisco Catalyst SD-WAN Manager CVE-2026-20245 Flaw Actively Exploited – No Patch Available",
       "link": "https://thehackernews.com/2026/06/cisco-catalyst-sd-wan-manager-cve-2026.html",
-      "summary": "Cisco Catalyst SD-WAN Manager CVE-2026-20245 Flaw Actively Exploited – No Patch Available Cisco has warned that a high-severity security flaw impacting Catalyst SD-WAN Manager has come under active...",
-      "source": "CVE Newsroom",
+      "summary": "Cisco has warned that a high-severity security flaw impacting Catalyst SD-WAN Manager has come under active exploitation. The vulnerability, tracked as CVE-2026-20245, carries a CVSS score of 7.8 out...",
+      "source": "The Hacker News",
       "published": "2026-06-06T04:19:28+00:00"
     },
     {
@@ -637,13 +616,6 @@
       "summary": "AI worms, or \"viruses with wings and brains,\" adapt to new environments, seek out vulnerabilities, and will likely strike within a year, researchers say.",
       "source": "Dark Reading",
       "published": "2026-06-05T14:40:11+00:00"
-    },
-    {
-      "title": "EU unveils tech sovereignty package to cut reliance on US, Chinese suppliers",
-      "link": "https://therecord.media/eu-unveils-tech-sovereignty-package-cut-reliance-us-china",
-      "summary": "The package bundles two draft laws — a Chips Act 2.0 and a Cloud and AI Development Act (CADA) — alongside an Open Source Strategy and a roadmap for digitalizing the energy system.",
-      "source": "The Record",
-      "published": "2026-06-05T13:38:00+00:00"
     },
     {
       "title": "The Good, the Bad and the Ugly in Cybersecurity – Week 23",
@@ -1101,20 +1073,6 @@
       "published": "2026-06-01T18:52:26+00:00"
     },
     {
-      "title": "Miasma Supply Chain Attack Compromises Red Hat npm Packages with Credential-Stealing Worm",
-      "link": "https://thehackernews.com/2026/06/miasma-supply-chain-attack-compromises.html",
-      "summary": "A new Mini Shai-Hulud supply chain attack campaign, codenamed Miasma, has compromised @redhat-cloud-services packages to steal credentials and secrets from developer machines and deliver a...",
-      "source": "The Hacker News",
-      "published": "2026-06-01T17:40:28+00:00"
-    },
-    {
-      "title": "Hackers Used Meta’s AI Support Bot to Seize Instagram Accounts",
-      "link": "https://krebsonsecurity.com/2026/06/hackers-used-metas-ai-support-bot-to-seize-instagram-accounts/",
-      "summary": "The Instagram accounts for the Obama White House and the Chief Master Sergeant of the U.S. Space Force were briefly defaced with pro-Iranian images and messages over the weekend, after instructions...",
-      "source": "Krebs on Security",
-      "published": "2026-06-01T17:32:50+00:00"
-    },
-    {
       "title": "Patch Now: Another Palo Alto Auth Bypass Bug Under Active Exploit",
       "link": "https://www.darkreading.com/threat-intelligence/patch-palo-alto-auth-bypass-bug-exploit",
       "summary": "Exploiting the PAN-OS GlobalProtect VPN vulnerability requires certain conditions, but adversaries have done so in two attack waves that started in mid-May.",
@@ -1400,6 +1358,27 @@
       "summary": "The co-founder and former editor-in-chief passed away five years ago in November. As Dark Reading enters its third decade, we pause to celebrate and honor Wilson's instrumental role in building and...",
       "source": "Dark Reading",
       "published": "2026-05-26T12:00:00+00:00"
+    },
+    {
+      "title": "Akamai Joins Growing Chorus of Vendors Betting Big on Secure Enterprise Browsers",
+      "link": "https://www.darkreading.com/remote-workforce/akamai-growing-chorus-betting-on-secure-enterprise-browsers",
+      "summary": "When Akamai announced its LayerX acquisition, the company joined a growing list of vendors adding secure enterprise browsers to their product portfolios.",
+      "source": "Dark Reading",
+      "published": "2026-05-22T15:43:50+00:00"
+    },
+    {
+      "title": "Verizon DBIR: Healthcare Fends Off Increased Social Engineering Attacks",
+      "link": "https://www.darkreading.com/cyber-risk/verizon-dbir-healthcare-fends-off-increased-social-engineering-attacks",
+      "summary": "Ransomware and vendor breaches persist. The \"2026 Data Breach Investigations Report\" (DBIR) highlights how evolving social engineering tactics make the sector more vulnerable.",
+      "source": "Dark Reading",
+      "published": "2026-05-22T13:17:25+00:00"
+    },
+    {
+      "title": "Name That Toon Contest",
+      "link": "https://www.darkreading.com/events/celebrate-20-years-of-dark-reading-name-that-toon-contest",
+      "summary": "",
+      "source": "Dark Reading",
+      "published": null
     }
   ]
 }
