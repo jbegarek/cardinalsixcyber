@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Fetch cybersecurity news from RSS/Atom feeds and write data/news.json."""
+"""Fetch cybersecurity news from RSS/Atom feeds and write site feed JSON files."""
 
 import concurrent.futures
 import html
@@ -35,7 +35,11 @@ USER_AGENT = "C6Cyber-NewsBot/1.0"
 TIMEOUT = 15
 MAX_ARTICLES = 200
 SUMMARY_LENGTH = 200
-OUTPUT_PATH = Path(__file__).resolve().parent.parent / "data" / "news.json"
+ROOT_DIR = Path(__file__).resolve().parent.parent
+OUTPUT_PATHS = (
+    ROOT_DIR / "data" / "news.json",
+    ROOT_DIR / "public" / "data" / "news.json",
+)
 
 # Atom namespace
 ATOM_NS = "http://www.w3.org/2005/Atom"
@@ -230,6 +234,21 @@ def fetch_feed(source_name: str, url: str) -> list[dict]:
     return articles
 
 
+def write_json_atomic(path: Path, payload: dict) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    fd, tmp_path = tempfile.mkstemp(
+        dir=path.parent, suffix=".tmp", prefix="news-"
+    )
+    try:
+        with os.fdopen(fd, "w", encoding="utf-8") as f:
+            json.dump(payload, f, indent=2, ensure_ascii=False)
+            f.write("\n")
+        os.replace(tmp_path, path)
+    except Exception:
+        os.unlink(tmp_path)
+        raise
+
+
 def main() -> int:
     all_articles: list[dict] = []
 
@@ -274,21 +293,13 @@ def main() -> int:
         "articles": unique,
     }
 
-    # Write atomically
-    OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
-    fd, tmp_path = tempfile.mkstemp(
-        dir=OUTPUT_PATH.parent, suffix=".tmp", prefix="news-"
-    )
-    try:
-        with os.fdopen(fd, "w", encoding="utf-8") as f:
-            json.dump(output, f, indent=2, ensure_ascii=False)
-        os.replace(tmp_path, OUTPUT_PATH)
-    except Exception:
-        os.unlink(tmp_path)
-        raise
+    for output_path in OUTPUT_PATHS:
+        write_json_atomic(output_path, output)
 
     log.info(
-        "Wrote %d articles to %s", len(unique), OUTPUT_PATH
+        "Wrote %d articles to %s",
+        len(unique),
+        ", ".join(str(path) for path in OUTPUT_PATHS),
     )
     return 0
 

@@ -57,6 +57,23 @@ function Assert-Contains {
     }
 }
 
+function Assert-NotContains {
+    param(
+        [Parameter(Mandatory = $true)]
+        [string] $Actual,
+
+        [Parameter(Mandatory = $true)]
+        [string] $UnexpectedSubstring,
+
+        [Parameter(Mandatory = $true)]
+        [string] $Message
+    )
+
+    if ($Actual.Contains($UnexpectedSubstring)) {
+        $failures.Add("$Message`nUnexpected substring: $UnexpectedSubstring")
+    }
+}
+
 $expectedPaths = @(
     'src',
     'public',
@@ -88,13 +105,23 @@ $rebuildCommand = Get-RemoteRebuildCommand `
 
 Assert-Contains `
     -Actual $rebuildCommand `
-    -ExpectedSubstring 'docker buildx build --load --no-cache -t jbegarek/cardinalsixcyber:latest .' `
-    -Message 'Deploy script should force a fresh buildx image load on the server.'
+    -ExpectedSubstring 'docker compose build --no-cache app' `
+    -Message 'Deploy script should force Compose to build the service image on the server.'
 
 Assert-Contains `
     -Actual $rebuildCommand `
-    -ExpectedSubstring 'docker compose up -d --force-recreate --no-build' `
-    -Message 'Deploy script should recreate the running container from the freshly loaded image.'
+    -ExpectedSubstring "docker image inspect jbegarek/cardinalsixcyber:latest --format 'built image {{.Id}} created {{.Created}}'" `
+    -Message 'Deploy script should inspect the newly built service image before recreating the container.'
+
+Assert-Contains `
+    -Actual $rebuildCommand `
+    -ExpectedSubstring 'docker compose up -d --force-recreate --no-deps app' `
+    -Message 'Deploy script should recreate the running container from the image Compose just built.'
+
+Assert-NotContains `
+    -Actual $rebuildCommand `
+    -UnexpectedSubstring 'docker push' `
+    -Message 'Deploy script should not depend on Docker Hub publishing for the production server rebuild.'
 
 $statusLine = Parse-HttpStatusLine '  HTTP/1.1 200 OK'
 Assert-Equal -Actual $statusLine.StatusCode -Expected 200 -Message 'HTTP status parser should extract numeric status codes.'

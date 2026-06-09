@@ -74,9 +74,9 @@ function Get-RemoteRebuildCommand {
     $script = @"
 set -euo pipefail
 cd $RemoteDir
-docker buildx build --load --no-cache -t $ImageName .
-docker push $ImageName
-docker compose up -d --force-recreate --no-build
+docker compose build --no-cache app
+docker image inspect $ImageName --format 'built image {{.Id}} created {{.Created}}'
+docker compose up -d --force-recreate --no-deps app
 docker ps --filter name=$ContainerName --format 'table {{.Names}}\t{{.Status}}\t{{.Image}}'
 "@
     $script -replace "`r`n", "`n"
