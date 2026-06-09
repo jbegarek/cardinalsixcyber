@@ -1,12 +1,89 @@
 {
-  "last_updated": "2026-06-09T20:38:50.046020+00:00",
+  "last_updated": "2026-06-09T22:29:41.882197+00:00",
   "articles": [
+    {
+      "title": "A Record-Breaking Patch Tuesday for June 2026",
+      "link": "https://krebsonsecurity.com/2026/06/a-record-breaking-patch-tuesday-for-june-2026/",
+      "summary": "Microsoft today released software updates to plug nearly 200 security holes across its Windows operating systems and supported software, a record number of fixes for the company's monthly Patch...",
+      "source": "Krebs on Security",
+      "published": "2026-06-09T22:07:28+00:00"
+    },
+    {
+      "title": "Blame AI: Patch Tuesday Hits Record 206 CVEs",
+      "link": "https://www.darkreading.com/vulnerabilities-threats/blame-ai-patch-tuesday-record-206-cves",
+      "summary": "Voluminous patch updates could soon be the norm, as artificial intelligence accelerates the speed and scale of vulnerability discovery.",
+      "source": "Dark Reading",
+      "published": "2026-06-09T21:42:57+00:00"
+    },
+    {
+      "title": "ServiceNow discloses security incident exposing customer data",
+      "link": "https://www.bleepingcomputer.com/news/security/servicenow-discloses-security-incident-exposing-customer-data/",
+      "summary": "ServiceNow is warning about a security incident after attackers exploited an unauthenticated access flaw through a vulnerable API endpoint, allowing them to query data from customer instances. [...]",
+      "source": "BleepingComputer",
+      "published": "2026-06-09T21:34:09+00:00"
+    },
+    {
+      "title": "OpenClaw AI agent found falling for phishing attacks, spills user data",
+      "link": "https://www.bleepingcomputer.com/news/security/openclaw-ai-agent-found-falling-for-phishing-attacks-spills-user-data/",
+      "summary": "Phishing simulation on an OpenClaw email agent with various configuration profiles showed that it was susceptible to tactics commonly used to compromise human users. [...]",
+      "source": "BleepingComputer",
+      "published": "2026-06-09T21:20:20+00:00"
+    },
     {
       "title": "Microsoft Exchange Flaw Lets Attackers Spoof Any Email Address",
       "link": "https://www.darkreading.com/vulnerabilities-threats/exchange-flaw-attackers-spoof-email-address",
       "summary": "\"Ghost-Sender\" uses Exchange Online or on-premises in hybrid mode with a third-party mail server or spam filter to achieve this level of spoofing.",
       "source": "Dark Reading",
       "published": "2026-06-09T20:20:00+00:00"
+    },
+    {
+      "title": "CVE-2026-6445 - FlashArray Purity Information Disclosure",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-6445",
+      "summary": "CVE ID :CVE-2026-6445 Published : June 9, 2026, 8:17 p.m. | 55 minutes ago Description :A flaw exists in FlashArray Purity where insufficient filtering of certain data paths could expose sensitive...",
+      "source": "CVE Feed",
+      "published": "2026-06-09T20:17:02+00:00"
+    },
+    {
+      "title": "CVE-2026-6444 - FlashArray Purity Privilege Escalation",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-6444",
+      "summary": "CVE ID :CVE-2026-6444 Published : June 9, 2026, 8:17 p.m. | 55 minutes ago Description :A flaw exists in the FlashArray Purity management interface where an authenticated low-privileged user may...",
+      "source": "CVE Feed",
+      "published": "2026-06-09T20:17:02+00:00"
+    },
+    {
+      "title": "CVE-2026-47907 - Dreamweaver Desktop | Improper Access Control (CWE-284)",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-47907",
+      "summary": "CVE ID :CVE-2026-47907 Published : June 9, 2026, 8:16 p.m. | 55 minutes ago Description :Dreamweaver Desktop versions 21.7 and earlier are affected by an Improper Access Control vulnerability that...",
+      "source": "CVE Feed",
+      "published": "2026-06-09T20:16:59+00:00"
+    },
+    {
+      "title": "CVE-2026-47906 - Dreamweaver Desktop | Dependency on Vulnerable Third-Party Component (CWE-1395)",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-47906",
+      "summary": "CVE ID :CVE-2026-47906 Published : June 9, 2026, 8:16 p.m. | 55 minutes ago Description :Dreamweaver Desktop versions 21.7 and earlier are affected by a Dependency on Vulnerable Third-Party Component...",
+      "source": "CVE Feed",
+      "published": "2026-06-09T20:16:59+00:00"
+    },
+    {
+      "title": "CVE-2026-11824 - SQLite before 3.53.2 Heap Buffer Overflow via FTS5 fts5ChunkIterate",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-11824",
+      "summary": "CVE ID :CVE-2026-11824 Published : June 9, 2026, 8:16 p.m. | 56 minutes ago Description :SQLite before 3.53.2 contains a heap-based buffer overflow vulnerability in the FTS5 full-text search...",
+      "source": "CVE Feed",
+      "published": "2026-06-09T20:16:32+00:00"
+    },
+    {
+      "title": "CVE-2026-11822 - SQLite before 3.53.2 Memory Corruption in FTS5 Extension",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-11822",
+      "summary": "CVE ID :CVE-2026-11822 Published : June 9, 2026, 8:16 p.m. | 56 minutes ago Description :SQLite before 3.53.2 contains memory corruption vulnerabilities in the FTS5 full-text search extension that...",
+      "source": "CVE Feed",
+      "published": "2026-06-09T20:16:32+00:00"
+    },
+    {
+      "title": "CVE-2025-71319 - image-size < 1.2.1, 2.0.2 - Denial of Service via Infinite Loop in findBox Function",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2025-71319",
+      "summary": "CVE ID :CVE-2025-71319 Published : June 9, 2026, 7:57 p.m. | 1 hour, 15 minutes ago Description :image-size 1.1.0 before 1.2.1 and 2.0.0 before 2.0.2 contain a denial of service vulnerability in the...",
+      "source": "CVE Feed",
+      "published": "2026-06-09T19:57:16+00:00"
     },
     {
       "title": "SAP fixes critical flaws in NetWeaver and Commerce Cloud",
@@ -23,11 +100,32 @@
       "published": "2026-06-09T19:33:45+00:00"
     },
     {
+      "title": "CVE-2026-10045 - CVE-2026-10045",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-10045",
+      "summary": "CVE ID :CVE-2026-10045 Published : June 9, 2026, 7:17 p.m. | 1 hour, 55 minutes ago Description :Shenzhen Kangda Xin Intelligent Network Technology Company's router, model DR300, version 2.1.2.121...",
+      "source": "CVE Feed",
+      "published": "2026-06-09T19:17:31+00:00"
+    },
+    {
+      "title": "CVE-2023-29146 - Malwarebytes EDR Integer Overflow Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2023-29146",
+      "summary": "CVE ID :CVE-2023-29146 Published : June 9, 2026, 7:16 p.m. | 1 hour, 56 minutes ago Description :The utility functions used by Malwarebytes EDR 1.0.11 on Linux for calculating a cryptographic hash of...",
+      "source": "CVE Feed",
+      "published": "2026-06-09T19:16:41+00:00"
+    },
+    {
       "title": "Microsoft Patches 200 Vulnerabilities",
       "link": "https://www.securityweek.com/microsoft-patches-200-vulnerabilities/",
       "summary": "Three of the vulnerabilities fixed with the latest Patch Tuesday updates were publicly disclosed before Microsoft addressed them. The post Microsoft Patches 200 Vulnerabilities appeared first on...",
       "source": "SecurityWeek",
       "published": "2026-06-09T19:04:08+00:00"
+    },
+    {
+      "title": "CISA to transform how it assesses cyber vulnerabilities and risks, Andersen says",
+      "link": "https://therecord.media/cisa-to-transform-how-it-assesses-cyber-vulns-risks",
+      "summary": "A binding operational directive being released Wednesday will direct federal agencies to change the way they address vulnerabilities by elevating some while putting others to the side.",
+      "source": "The Record",
+      "published": "2026-06-09T18:50:00+00:00"
     },
     {
       "title": "Microsoft releases Windows 10 KB5094127 extended security update",
@@ -46,30 +144,37 @@
     {
       "title": "CVE-2026-50636 - LimeSurvey RemoteControl invite_participants/remind_participants SQL Injection",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-50636",
-      "summary": "CVE ID :CVE-2026-50636 Published : June 9, 2026, 6:17 p.m. | 55 minutes ago Description :The RemoteControl API methods invite_participants and remind_participants pass a caller-supplied token-ID...",
+      "summary": "CVE ID :CVE-2026-50636 Published : June 9, 2026, 6:17 p.m. | 2 hours, 55 minutes ago Description :The RemoteControl API methods invite_participants and remind_participants pass a caller-supplied...",
       "source": "CVE Feed",
       "published": "2026-06-09T18:17:10+00:00"
     },
     {
       "title": "CVE-2026-50635 - LimeSurvey Password Reset Host Header Injection Discloses Reset Token",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-50635",
-      "summary": "CVE ID :CVE-2026-50635 Published : June 9, 2026, 6:17 p.m. | 55 minutes ago Description :LimeSurvey constructs account password-reset links from the client-supplied HTTP Host header without...",
+      "summary": "CVE ID :CVE-2026-50635 Published : June 9, 2026, 6:17 p.m. | 2 hours, 55 minutes ago Description :LimeSurvey constructs account password-reset links from the client-supplied HTTP Host header without...",
       "source": "CVE Feed",
       "published": "2026-06-09T18:17:10+00:00"
     },
     {
       "title": "CVE-2026-34693 - Adobe Experience Manager Forms JEE | Cross-site Scripting (Reflected XSS) (CWE-79)",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-34693",
-      "summary": "CVE ID :CVE-2026-34693 Published : June 9, 2026, 6:16 p.m. | 55 minutes ago Description :Adobe Experience Manager Forms JEE versions LTS SP1, 6.5.24.0 and earlier are affected by a reflected...",
+      "summary": "CVE ID :CVE-2026-34693 Published : June 9, 2026, 6:16 p.m. | 2 hours, 56 minutes ago Description :Adobe Experience Manager Forms JEE versions LTS SP1, 6.5.24.0 and earlier are affected by a reflected...",
       "source": "CVE Feed",
       "published": "2026-06-09T18:16:39+00:00"
     },
     {
       "title": "CVE-2026-34691 - Adobe Experience Manager Forms JEE | Cross-site Scripting (Stored XSS) (CWE-79)",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-34691",
-      "summary": "CVE ID :CVE-2026-34691 Published : June 9, 2026, 6:16 p.m. | 55 minutes ago Description :Adobe Experience Manager Forms JEE versions LTS SP1, 6.5.24.0 and earlier are affected by a stored Cross-Site...",
+      "summary": "CVE ID :CVE-2026-34691 Published : June 9, 2026, 6:16 p.m. | 2 hours, 56 minutes ago Description :Adobe Experience Manager Forms JEE versions LTS SP1, 6.5.24.0 and earlier are affected by a stored...",
       "source": "CVE Feed",
       "published": "2026-06-09T18:16:38+00:00"
+    },
+    {
+      "title": "The June 2026 Security Update Review",
+      "link": "https://www.thezdi.com/blog/2026/6/9/the-june-2026-security-update-review",
+      "summary": "The June 2026 Security Update Review CVE Title Severity CVSS Public Exploited XI Type CVE-2026-41091 Microsoft Defender Elevation of Privilege Vulnerability Important 7.8 Yes Yes 0 EoP CVE-2026-49160...",
+      "source": "CVE Newsroom",
+      "published": "2026-06-09T18:12:18+00:00"
     },
     {
       "title": "Microsoft June 2026 Patch Tuesday fixes 3 zero-day, 200 flaws",
@@ -88,149 +193,86 @@
     {
       "title": "CVE-2026-7383 - Possible Heap Buffer Overflow in ASN.1 Multibyte String Conversion",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-7383",
-      "summary": "CVE ID :CVE-2026-7383 Published : June 9, 2026, 5:17 p.m. | 1 hour, 54 minutes ago Description :Issue summary: A signed integer overflow when sizing the destination buffer for Unicode output in...",
+      "summary": "CVE ID :CVE-2026-7383 Published : June 9, 2026, 5:17 p.m. | 3 hours, 55 minutes ago Description :Issue summary: A signed integer overflow when sizing the destination buffer for Unicode output in...",
       "source": "CVE Feed",
       "published": "2026-06-09T17:17:50+00:00"
     },
     {
       "title": "CVE-2026-49959 - Hermes WebUI < 0.51.311 RCE via Git Configuration Injection",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-49959",
-      "summary": "CVE ID :CVE-2026-49959 Published : June 9, 2026, 5:17 p.m. | 1 hour, 54 minutes ago Description :Hermes WebUI before version 0.51.311 contains a remote code execution vulnerability that allows...",
+      "summary": "CVE ID :CVE-2026-49959 Published : June 9, 2026, 5:17 p.m. | 3 hours, 55 minutes ago Description :Hermes WebUI before version 0.51.311 contains a remote code execution vulnerability that allows...",
       "source": "CVE Feed",
       "published": "2026-06-09T17:17:49+00:00"
     },
     {
       "title": "CVE-2026-49841 - FreeSWITCH: Pre-authentication heap buffer overflow in `mod_verto` HTTP POST body read",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-49841",
-      "summary": "CVE ID :CVE-2026-49841 Published : June 9, 2026, 5:17 p.m. | 1 hour, 54 minutes ago Description :FreeSWITCH is a Software Defined Telecom Stack enabling the digital transformation from proprietary...",
+      "summary": "CVE ID :CVE-2026-49841 Published : June 9, 2026, 5:17 p.m. | 3 hours, 55 minutes ago Description :FreeSWITCH is a Software Defined Telecom Stack enabling the digital transformation from proprietary...",
       "source": "CVE Feed",
       "published": "2026-06-09T17:17:47+00:00"
     },
     {
       "title": "CVE-2026-49840 - FreeSWITCH: Pre-authentication heap buffer overflow in libesl `Content-Length` parsing",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-49840",
-      "summary": "CVE ID :CVE-2026-49840 Published : June 9, 2026, 5:17 p.m. | 1 hour, 54 minutes ago Description :FreeSWITCH is a Software Defined Telecom Stack enabling the digital transformation from proprietary...",
+      "summary": "CVE ID :CVE-2026-49840 Published : June 9, 2026, 5:17 p.m. | 3 hours, 55 minutes ago Description :FreeSWITCH is a Software Defined Telecom Stack enabling the digital transformation from proprietary...",
       "source": "CVE Feed",
       "published": "2026-06-09T17:17:47+00:00"
     },
     {
       "title": "CVE-2026-47653 - Remote Desktop Client Remote Code Execution Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-47653",
-      "summary": "CVE ID :CVE-2026-47653 Published : June 9, 2026, 5:17 p.m. | 1 hour, 54 minutes ago Description :Heap-based buffer overflow in Remote Desktop Client allows an unauthorized attacker to execute code...",
+      "summary": "CVE ID :CVE-2026-47653 Published : June 9, 2026, 5:17 p.m. | 3 hours, 55 minutes ago Description :Heap-based buffer overflow in Remote Desktop Client allows an unauthorized attacker to execute code...",
       "source": "CVE Feed",
       "published": "2026-06-09T17:17:36+00:00"
     },
     {
       "title": "CVE-2026-47652 - Windows Hyper-V Remote Code Execution Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-47652",
-      "summary": "CVE ID :CVE-2026-47652 Published : June 9, 2026, 5:17 p.m. | 1 hour, 54 minutes ago Description :Out-of-bounds read in Windows Hyper-V allows an unauthorized attacker to execute code locally...",
+      "summary": "CVE ID :CVE-2026-47652 Published : June 9, 2026, 5:17 p.m. | 3 hours, 55 minutes ago Description :Out-of-bounds read in Windows Hyper-V allows an unauthorized attacker to execute code locally...",
       "source": "CVE Feed",
       "published": "2026-06-09T17:17:36+00:00"
     },
     {
       "title": "CVE-2026-47643 - Azure Stack Edge Remote Code Execution Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-47643",
-      "summary": "CVE ID :CVE-2026-47643 Published : June 9, 2026, 5:17 p.m. | 1 hour, 54 minutes ago Description :External control of file name or path in Azure Stack Edge allows an unauthorized attacker to execute...",
+      "summary": "CVE ID :CVE-2026-47643 Published : June 9, 2026, 5:17 p.m. | 3 hours, 55 minutes ago Description :External control of file name or path in Azure Stack Edge allows an unauthorized attacker to execute...",
       "source": "CVE Feed",
       "published": "2026-06-09T17:17:36+00:00"
     },
     {
       "title": "CVE-2026-47635 - Microsoft Outlook and Word Remote Code Execution Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-47635",
-      "summary": "CVE ID :CVE-2026-47635 Published : June 9, 2026, 5:17 p.m. | 1 hour, 54 minutes ago Description :Access of resource using incompatible type ('type confusion') in Microsoft Office allows an...",
+      "summary": "CVE ID :CVE-2026-47635 Published : June 9, 2026, 5:17 p.m. | 3 hours, 55 minutes ago Description :Access of resource using incompatible type ('type confusion') in Microsoft Office allows an...",
       "source": "CVE Feed",
       "published": "2026-06-09T17:17:35+00:00"
     },
     {
       "title": "CVE-2026-47631 - Microsoft Exchange Server Spoofing Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-47631",
-      "summary": "CVE ID :CVE-2026-47631 Published : June 9, 2026, 5:17 p.m. | 1 hour, 54 minutes ago Description :Improper neutralization of input during web page generation ('cross-site scripting') in Microsoft...",
+      "summary": "CVE ID :CVE-2026-47631 Published : June 9, 2026, 5:17 p.m. | 3 hours, 55 minutes ago Description :Improper neutralization of input during web page generation ('cross-site scripting') in Microsoft...",
       "source": "CVE Feed",
       "published": "2026-06-09T17:17:35+00:00"
     },
     {
       "title": "CVE-2026-47298 - Microsoft SharePoint Server Remote Code Execution Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-47298",
-      "summary": "CVE ID :CVE-2026-47298 Published : June 9, 2026, 5:17 p.m. | 1 hour, 54 minutes ago Description :Improper authorization in Microsoft Office SharePoint allows an authorized attacker to execute code...",
+      "summary": "CVE ID :CVE-2026-47298 Published : June 9, 2026, 5:17 p.m. | 3 hours, 55 minutes ago Description :Improper authorization in Microsoft Office SharePoint allows an authorized attacker to execute code...",
       "source": "CVE Feed",
       "published": "2026-06-09T17:17:35+00:00"
     },
     {
       "title": "CVE-2026-47291 - HTTP.sys Remote Code Execution Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-47291",
-      "summary": "CVE ID :CVE-2026-47291 Published : June 9, 2026, 5:17 p.m. | 1 hour, 54 minutes ago Description :Integer overflow or wraparound in Windows HTTP.sys allows an unauthorized attacker to execute code...",
+      "summary": "CVE ID :CVE-2026-47291 Published : June 9, 2026, 5:17 p.m. | 3 hours, 55 minutes ago Description :Integer overflow or wraparound in Windows HTTP.sys allows an unauthorized attacker to execute code...",
       "source": "CVE Feed",
       "published": "2026-06-09T17:17:34+00:00"
     },
     {
       "title": "CVE-2026-47289 - Remote Desktop Client Remote Code Execution Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-47289",
-      "summary": "CVE ID :CVE-2026-47289 Published : June 9, 2026, 5:17 p.m. | 1 hour, 54 minutes ago Description :Heap-based buffer overflow in Remote Desktop Client allows an unauthorized attacker to execute code...",
+      "summary": "CVE ID :CVE-2026-47289 Published : June 9, 2026, 5:17 p.m. | 3 hours, 55 minutes ago Description :Heap-based buffer overflow in Remote Desktop Client allows an unauthorized attacker to execute code...",
       "source": "CVE Feed",
       "published": "2026-06-09T17:17:34+00:00"
-    },
-    {
-      "title": "CVE-2026-47281 - Visual Studio Code Elevation of Privilege Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-47281",
-      "summary": "CVE ID :CVE-2026-47281 Published : June 9, 2026, 5:17 p.m. | 1 hour, 54 minutes ago Description :Improper input validation in Visual Studio Code allows an unauthorized attacker to elevate privileges...",
-      "source": "CVE Feed",
-      "published": "2026-06-09T17:17:33+00:00"
-    },
-    {
-      "title": "CVE-2026-45657 - Windows Kernel Remote Code Execution Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-45657",
-      "summary": "CVE ID :CVE-2026-45657 Published : June 9, 2026, 5:17 p.m. | 1 hour, 54 minutes ago Description :Use after free in Windows Kernel allows an unauthorized attacker to execute code over a network...",
-      "source": "CVE Feed",
-      "published": "2026-06-09T17:17:33+00:00"
-    },
-    {
-      "title": "CVE-2026-45648 - Windows Active Directory Domain Services Remote Code Execution Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-45648",
-      "summary": "CVE ID :CVE-2026-45648 Published : June 9, 2026, 5:17 p.m. | 1 hour, 54 minutes ago Description :Stack-based buffer overflow in Active Directory Domain Services allows an authorized attacker to...",
-      "source": "CVE Feed",
-      "published": "2026-06-09T17:17:31+00:00"
-    },
-    {
-      "title": "CVE-2026-45644 - Microsoft Live Share Canvas SDK Elevation of Privilege Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-45644",
-      "summary": "CVE ID :CVE-2026-45644 Published : June 9, 2026, 5:17 p.m. | 1 hour, 54 minutes ago Description :Improper neutralization of input during web page generation ('cross-site scripting') in Microsoft Live...",
-      "source": "CVE Feed",
-      "published": "2026-06-09T17:17:31+00:00"
-    },
-    {
-      "title": "CVE-2026-45641 - Windows Hyper-V Remote Code Execution Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-45641",
-      "summary": "CVE ID :CVE-2026-45641 Published : June 9, 2026, 5:17 p.m. | 1 hour, 54 minutes ago Description :Out-of-bounds read in Windows Hyper-V allows an unauthorized attacker to execute code locally...",
-      "source": "CVE Feed",
-      "published": "2026-06-09T17:17:31+00:00"
-    },
-    {
-      "title": "CVE-2026-45635 - Windows UPnP Device Host Remote Code Execution Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-45635",
-      "summary": "CVE ID :CVE-2026-45635 Published : June 9, 2026, 5:17 p.m. | 1 hour, 55 minutes ago Description :Use after free in Universal Plug and Play (upnp.dll) allows an unauthorized attacker to execute code...",
-      "source": "CVE Feed",
-      "published": "2026-06-09T17:17:30+00:00"
-    },
-    {
-      "title": "CVE-2026-45607 - Windows Hyper-V Remote Code Execution Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-45607",
-      "summary": "CVE ID :CVE-2026-45607 Published : June 9, 2026, 5:17 p.m. | 1 hour, 55 minutes ago Description :Out-of-bounds read in Windows Hyper-V allows an unauthorized attacker to execute code locally...",
-      "source": "CVE Feed",
-      "published": "2026-06-09T17:17:29+00:00"
-    },
-    {
-      "title": "CVE-2026-45602 - Windows Dynamic Host Configuration Protocol (DHCP) Tampering Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-45602",
-      "summary": "CVE ID :CVE-2026-45602 Published : June 9, 2026, 5:17 p.m. | 1 hour, 55 minutes ago Description :No cwe for this issue in Windows DHCP Server allows an unauthorized attacker to perform tampering over...",
-      "source": "CVE Feed",
-      "published": "2026-06-09T17:17:28+00:00"
-    },
-    {
-      "title": "CVE-2026-45599 - Windows UPnP Device Host Remote Code Execution Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-45599",
-      "summary": "CVE ID :CVE-2026-45599 Published : June 9, 2026, 5:17 p.m. | 1 hour, 55 minutes ago Description :Use after free in Universal Plug and Play (upnp.dll) allows an unauthorized attacker to execute code...",
-      "source": "CVE Feed",
-      "published": "2026-06-09T17:17:28+00:00"
     },
     {
       "title": "Meta to Use Off-Site Business Data for Feed and AI Personalization",
@@ -336,6 +378,13 @@
       "summary": "Vulnerabilities in Logseq software Vulnerabilities in Logseq software CVE ID CVE-2026-9279 Publication date 09 June 2026 Vendor Logseq Product Logseq Vulnerable versions All through 0.10.15...",
       "source": "CVE Newsroom",
       "published": "2026-06-09T13:55:00+00:00"
+    },
+    {
+      "title": "Hackers pose as women seeking romance to spy on Russian soldiers",
+      "link": "https://therecord.media/hackers-pose-as-women-seeking-romance-russian-military",
+      "summary": "The group, dubbed SiribClone by Russian cybersecurity firm F6, has been active since at least the summer of 2025 and has primarily targeted members of the Russian armed forces stationed in border...",
+      "source": "The Record",
+      "published": "2026-06-09T13:52:00+00:00"
     },
     {
       "title": "CISA adds BerriAI LiteLLM & Check Point Security Gateway to KEV",
@@ -520,18 +569,18 @@
       "published": "2026-06-08T20:59:52+00:00"
     },
     {
-      "title": "New Shai-Hulud attack trojanizes 19 science-focused PyPI packages",
-      "link": "https://www.bleepingcomputer.com/news/security/new-shai-hulud-attack-trojanizes-19-science-focused-pypi-packages/",
-      "summary": "Hackers compromised 19 packages on the PyPI, collectively downloaded hundreds of thousands of times, in a new Shai-Hulud supply-chain attack that delivered malware designed to steal developer...",
-      "source": "BleepingComputer",
-      "published": "2026-06-08T20:41:35+00:00"
-    },
-    {
       "title": "Check Point VPN Flaw Exploited Since Early May",
       "link": "https://www.darkreading.com/vulnerabilities-threats/check-point-vpn-flaw-exploited-early-may",
       "summary": "A newly discovered, critical zero-day vulnerability is under attack; a Qilin ransomware affiliate has been blamed for at least one incident.",
       "source": "Dark Reading",
       "published": "2026-06-08T20:28:35+00:00"
+    },
+    {
+      "title": "UK gives big tech 3 months to create device controls to block nude images of kids",
+      "link": "https://therecord.media/uk-gives-big-tech-3-months-to-create-device-controls-kid-images",
+      "summary": "The companies “must activate built-in features or implement technical solutions on smartphones and tablets to detect and block nude images for children,” according to a press release from the Home...",
+      "source": "The Record",
+      "published": "2026-06-08T20:24:00+00:00"
     },
     {
       "title": "One-Character Linux Kernel Flaw Enables Local Root Access, Exploits Now Public",
@@ -548,11 +597,11 @@
       "published": "2026-06-08T19:07:48+00:00"
     },
     {
-      "title": "WhatsApp says it disrupted new NSO spyware phishing attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/whatsapp-says-it-disrupted-new-nso-spyware-phishing-attacks/",
-      "summary": "WhatsApp has detected and stopped spear-phishing campaigns allegedly conducted by the NSO Group after investigating user reports of social engineering attacks. [...]",
-      "source": "BleepingComputer",
-      "published": "2026-06-08T18:40:53+00:00"
+      "title": "Armenia’s pro-Europe party wins election despite Russia-linked disinformation",
+      "link": "https://therecord.media/armenia-pro-europe-party-wins-election-despite-russia-disinformation",
+      "summary": "Pashinyan's Civil Contract party won nearly 50% of Sunday's vote, defeating the pro-Russian Strong Armenia party led by Russian-Armenian billionaire Samvel Karapetyan, which received around 23% of...",
+      "source": "The Record",
+      "published": "2026-06-08T17:10:00+00:00"
     },
     {
       "title": "Meta Blocks NSO Group's New WhatsApp Phishing Attack, Files Contempt Order",
@@ -560,6 +609,13 @@
       "summary": "Meta on Monday said it detected and blocked spear-phishing attempts linked to Israeli spyware vendor NSO Group. In addition, the tech giant said it's filing a federal court contempt order against the...",
       "source": "The Hacker News",
       "published": "2026-06-08T17:08:44+00:00"
+    },
+    {
+      "title": "WhatsApp says NSO targeted users with spearfishing attacks in violation of court order",
+      "link": "https://therecord.media/whatsapp-says-nso-targeted-users-with-attacks-against-court-order",
+      "summary": "WhatsApp said it is filing a federal court contempt order against NSO for violating a permanent injunction that bars it from mounting attacks against its users.",
+      "source": "The Record",
+      "published": "2026-06-08T16:51:00+00:00"
     },
     {
       "title": "'Hades' Campaign Against PyPI Puts New Spin on Shai-Hulud",
@@ -672,13 +728,6 @@
       "summary": "TheCyberThrone CyberSecurity Newsletter Top 5 Articles – May 2026 June 7, 2026Welcome to TheCyberThrone cybersecurity month in review will be posted covering the important security happenings. This...",
       "source": "CVE Newsroom",
       "published": "2026-06-07T14:51:44+00:00"
-    },
-    {
-      "title": "CISA Warns of Linux Kernel Improper Authentication Vulnerability Exploited in Attacks",
-      "link": "https://cybersecuritynews.com/linux-kernel-improper-authentication-vulnerability/",
-      "summary": "CISA Warns of Linux Kernel Improper Authentication Vulnerability Exploited in Attacks The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added a critical Linux kernel vulnerability...",
-      "source": "CVE Newsroom",
-      "published": "2026-06-07T02:08:27+00:00"
     },
     {
       "title": "New ChatGPT Lockdown Mode Limits Tools That Could Enable Data Exfiltration",
@@ -1346,60 +1395,11 @@
       "published": "2026-05-26T19:12:52+00:00"
     },
     {
-      "title": "Microsoft Issues Out-of-Band SharePoint Patch",
-      "link": "https://www.darkreading.com/vulnerabilities-threats/microsoft-issues-sharepoint-patch",
-      "summary": "SharePoint often gives access to the keys of the kingdom, something attackers and defenders understand all too well.",
-      "source": "Dark Reading",
-      "published": "2026-05-26T18:25:44+00:00"
-    },
-    {
       "title": "ABB LVS MConfig",
       "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-146-06",
       "summary": "View CSAF Summary ABB became aware of an internally discovered vulnerability in the MConfig product versions listed as affected in the advisory. An attacker with access to local networks who...",
       "source": "CISA Alerts",
       "published": "2026-05-26T12:00:00+00:00"
-    },
-    {
-      "title": "ABB AC500 V2",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-146-02",
-      "summary": "View CSAF Summary ABB became aware of vulnerabilities in AC500 V2 listed as affected in the advisory. An attacker who successfully exploited this vulnerability could access fragments of Modbus...",
-      "source": "CISA Alerts",
-      "published": "2026-05-26T12:00:00+00:00"
-    },
-    {
-      "title": "ABB Terra AC",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-146-01",
-      "summary": "View CSAF Summary ABB is aware of vulnerabilities in the product versions listed as affected in the advisory. An attacker who successfully exploited this vulnerability could cause the pollution of...",
-      "source": "CISA Alerts",
-      "published": "2026-05-26T12:00:00+00:00"
-    },
-    {
-      "title": "Netherlands Seizes 800 Servers, Arrests 2 for Aiding Cyberattacks",
-      "link": "https://krebsonsecurity.com/2026/05/netherlands-seizes-800-servers-arrests-2-for-aiding-cyberattacks/",
-      "summary": "Authorities in the Netherlands have arrested the co-owners of two related Internet hosting companies for operating IT infrastructure used by Russia to carry out cyberattacks, influence operations and...",
-      "source": "Krebs on Security",
-      "published": "2026-05-25T13:21:49+00:00"
-    },
-    {
-      "title": "Lawmakers Demand Answers as CISA Tries to Contain Data Leak",
-      "link": "https://krebsonsecurity.com/2026/05/lawmakers-demand-answers-as-cisa-tries-to-contain-data-leak/",
-      "summary": "Lawmakers in both houses of Congress are demanding answers from the U.S. Cybersecurity & Infrastructure Security Agency (CISA) after KrebsOnSecurity reported this week that a CISA contractor...",
-      "source": "Krebs on Security",
-      "published": "2026-05-22T16:34:24+00:00"
-    },
-    {
-      "title": "Alleged Kimwolf Botmaster ‘Dort’ Arrested, Charged in U.S. and Canada",
-      "link": "https://krebsonsecurity.com/2026/05/alleged-kimwolf-botmaster-dort-arrested-charged-in-u-s-and-canada/",
-      "summary": "Canadian authorities on Wednesday arrested a 23-year-old Ottawa man on suspicion of building and operating Kimwolf, a fast spreading Internet-of-Things botnet that enslaved millions of devices for...",
-      "source": "Krebs on Security",
-      "published": "2026-05-21T21:50:25+00:00"
-    },
-    {
-      "title": "CISA Admin Leaked AWS GovCloud Keys on Github",
-      "link": "https://krebsonsecurity.com/2026/05/cisa-admin-leaked-aws-govcloud-keys-on-github/",
-      "summary": "Until this past weekend, a contractor for the Cybersecurity & Infrastructure Security Agency (CISA) maintained a public GitHub repository that exposed credentials to several highly privileged AWS...",
-      "source": "Krebs on Security",
-      "published": "2026-05-18T20:48:21+00:00"
     }
   ]
 }
