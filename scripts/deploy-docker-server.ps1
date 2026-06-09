@@ -76,7 +76,10 @@ set -euo pipefail
 cd $RemoteDir
 docker compose build --no-cache app
 docker image inspect $ImageName --format 'built image {{.Id}} created {{.Created}}'
-docker compose up -d --force-recreate --no-deps app
+if docker ps -a --format '{{.Names}}' | grep -Fxq '$ContainerName'; then
+  docker rm -f $ContainerName
+fi
+docker compose up -d --no-deps app
 docker ps --filter name=$ContainerName --format 'table {{.Names}}\t{{.Status}}\t{{.Image}}'
 "@
     $script -replace "`r`n", "`n"

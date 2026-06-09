@@ -115,8 +115,18 @@ Assert-Contains `
 
 Assert-Contains `
     -Actual $rebuildCommand `
-    -ExpectedSubstring 'docker compose up -d --force-recreate --no-deps app' `
-    -Message 'Deploy script should recreate the running container from the image Compose just built.'
+    -ExpectedSubstring "docker ps -a --format '{{.Names}}' | grep -Fxq 'cardinalsixcyber'" `
+    -Message 'Deploy script should detect an existing fixed-name container before replacement.'
+
+Assert-Contains `
+    -Actual $rebuildCommand `
+    -ExpectedSubstring 'docker rm -f cardinalsixcyber' `
+    -Message 'Deploy script should remove the existing fixed-name container before starting the rebuilt app.'
+
+Assert-Contains `
+    -Actual $rebuildCommand `
+    -ExpectedSubstring 'docker compose up -d --no-deps app' `
+    -Message 'Deploy script should start the app from the image Compose just built.'
 
 Assert-NotContains `
     -Actual $rebuildCommand `
