@@ -1,12 +1,40 @@
 {
-  "last_updated": "2026-06-09T22:29:41.882197+00:00",
+  "last_updated": "2026-06-10T00:36:07.763580+00:00",
   "articles": [
+    {
+      "title": "Microsoft Defender 'RoguePlanet' zero-day grants SYSTEM privileges",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-defender-rogueplanet-zero-day-grants-system-privileges/",
+      "summary": "[...]",
+      "source": "BleepingComputer",
+      "published": "2026-06-09T23:11:18+00:00"
+    },
+    {
+      "title": "CVE-2026-9740 - Unbounded recursion in BSONColumn interleaved-reference causes pre-auth stack overflow",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-9740",
+      "summary": "CVE ID :CVE-2026-9740 Published : June 9, 2026, 10:43 p.m. | 31 minutes ago Description :A vulnerability in MongoDB Server's BSON validation logic allows an unauthenticated user to crash the mongod...",
+      "source": "CVE Feed",
+      "published": "2026-06-09T22:43:44+00:00"
+    },
+    {
+      "title": "CVE-2026-9753 - Server crash via malformed binary diff passed to $_internalApplyOplogUpdate.",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-9753",
+      "summary": "CVE ID :CVE-2026-9753 Published : June 9, 2026, 10:30 p.m. | 44 minutes ago Description :The $_internalApplyOplogUpdate aggregation pipeline stage can be used to execute a document diff containing a...",
+      "source": "CVE Feed",
+      "published": "2026-06-09T22:30:57+00:00"
+    },
     {
       "title": "A Record-Breaking Patch Tuesday for June 2026",
       "link": "https://krebsonsecurity.com/2026/06/a-record-breaking-patch-tuesday-for-june-2026/",
       "summary": "Microsoft today released software updates to plug nearly 200 security holes across its Windows operating systems and supported software, a record number of fixes for the company's monthly Patch...",
       "source": "Krebs on Security",
       "published": "2026-06-09T22:07:28+00:00"
+    },
+    {
+      "title": "CVE-2026-9742 - Authenticate command with specific mechanism parameter can trigger server crash",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-9742",
+      "summary": "CVE ID :CVE-2026-9742 Published : June 9, 2026, 9:57 p.m. | 1 hour, 17 minutes ago Description :When OIDC authentication is enabled in configuration, clients may set specific values in the...",
+      "source": "CVE Feed",
+      "published": "2026-06-09T21:57:46+00:00"
     },
     {
       "title": "Blame AI: Patch Tuesday Hits Record 206 CVEs",
@@ -30,6 +58,62 @@
       "published": "2026-06-09T21:20:20+00:00"
     },
     {
+      "title": "CVE-2026-48303 - Adobe Campaign Classic (ACC) | Incorrect Authorization (CWE-863)",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48303",
+      "summary": "CVE ID :CVE-2026-48303 Published : June 9, 2026, 9:17 p.m. | 1 hour, 57 minutes ago Description :Adobe Campaign Classic (ACC) versions 7.4.3 build 9394 and earlier are affected by an Incorrect...",
+      "source": "CVE Feed",
+      "published": "2026-06-09T21:17:25+00:00"
+    },
+    {
+      "title": "CVE-2026-47938 - Adobe Campaign Classic (ACC) | Server-Side Request Forgery (SSRF) (CWE-918)",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-47938",
+      "summary": "CVE ID :CVE-2026-47938 Published : June 9, 2026, 9:17 p.m. | 1 hour, 57 minutes ago Description :Adobe Campaign Classic (ACC) versions 7.4.3 build 9394 and earlier are affected by a Server-Side...",
+      "source": "CVE Feed",
+      "published": "2026-06-09T21:17:23+00:00"
+    },
+    {
+      "title": "CVE-2026-47932 - ColdFusion | Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') (CWE-22)",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-47932",
+      "summary": "CVE ID :CVE-2026-47932 Published : June 9, 2026, 9:17 p.m. | 1 hour, 57 minutes ago Description :ColdFusion versions 2023.19, 2025.8 and earlier are affected by an Improper Limitation of a Pathname...",
+      "source": "CVE Feed",
+      "published": "2026-06-09T21:17:23+00:00"
+    },
+    {
+      "title": "CVE-2026-47931 - ColdFusion | Improper Input Validation (CWE-20)",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-47931",
+      "summary": "CVE ID :CVE-2026-47931 Published : June 9, 2026, 9:17 p.m. | 1 hour, 57 minutes ago Description :ColdFusion versions 2023.19, 2025.8 and earlier are affected by an Improper Input Validation...",
+      "source": "CVE Feed",
+      "published": "2026-06-09T21:17:23+00:00"
+    },
+    {
+      "title": "CVE-2026-47930 - ColdFusion | Improper Input Validation (CWE-20)",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-47930",
+      "summary": "CVE ID :CVE-2026-47930 Published : June 9, 2026, 9:17 p.m. | 1 hour, 57 minutes ago Description :ColdFusion versions 2023.19, 2025.8 and earlier are affected by an Improper Input Validation...",
+      "source": "CVE Feed",
+      "published": "2026-06-09T21:17:22+00:00"
+    },
+    {
+      "title": "CVE-2026-47929 - ColdFusion | Incorrect Authorization (CWE-863)",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-47929",
+      "summary": "CVE ID :CVE-2026-47929 Published : June 9, 2026, 9:17 p.m. | 1 hour, 57 minutes ago Description :ColdFusion versions 2023.19, 2025.8 and earlier are affected by an Incorrect Authorization...",
+      "source": "CVE Feed",
+      "published": "2026-06-09T21:17:22+00:00"
+    },
+    {
+      "title": "CVE-2026-47928 - ColdFusion | Improper Input Validation (CWE-20)",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-47928",
+      "summary": "CVE ID :CVE-2026-47928 Published : June 9, 2026, 9:17 p.m. | 1 hour, 57 minutes ago Description :ColdFusion versions 2023.19, 2025.8 and earlier are affected by an Improper Input Validation...",
+      "source": "CVE Feed",
+      "published": "2026-06-09T21:17:22+00:00"
+    },
+    {
+      "title": "CVE-2025-71319 - image-size < 1.2.1, 2.0.2 - Denial of Service via Infinite Loop in findBox Function",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2025-71319",
+      "summary": "CVE ID :CVE-2025-71319 Published : June 9, 2026, 9:17 p.m. | 1 hour, 57 minutes ago Description :image-size 1.1.0 before 1.2.1 and 2.0.0 before 2.0.2 contain a denial of service vulnerability in the...",
+      "source": "CVE Feed",
+      "published": "2026-06-09T21:17:03+00:00"
+    },
+    {
       "title": "Microsoft Exchange Flaw Lets Attackers Spoof Any Email Address",
       "link": "https://www.darkreading.com/vulnerabilities-threats/exchange-flaw-attackers-spoof-email-address",
       "summary": "\"Ghost-Sender\" uses Exchange Online or on-premises in hybrid mode with a third-party mail server or spam filter to achieve this level of spoofing.",
@@ -39,51 +123,44 @@
     {
       "title": "CVE-2026-6445 - FlashArray Purity Information Disclosure",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-6445",
-      "summary": "CVE ID :CVE-2026-6445 Published : June 9, 2026, 8:17 p.m. | 55 minutes ago Description :A flaw exists in FlashArray Purity where insufficient filtering of certain data paths could expose sensitive...",
+      "summary": "CVE ID :CVE-2026-6445 Published : June 9, 2026, 8:17 p.m. | 2 hours, 57 minutes ago Description :A flaw exists in FlashArray Purity where insufficient filtering of certain data paths could expose...",
       "source": "CVE Feed",
       "published": "2026-06-09T20:17:02+00:00"
     },
     {
       "title": "CVE-2026-6444 - FlashArray Purity Privilege Escalation",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-6444",
-      "summary": "CVE ID :CVE-2026-6444 Published : June 9, 2026, 8:17 p.m. | 55 minutes ago Description :A flaw exists in the FlashArray Purity management interface where an authenticated low-privileged user may...",
+      "summary": "CVE ID :CVE-2026-6444 Published : June 9, 2026, 8:17 p.m. | 2 hours, 57 minutes ago Description :A flaw exists in the FlashArray Purity management interface where an authenticated low-privileged user...",
       "source": "CVE Feed",
       "published": "2026-06-09T20:17:02+00:00"
     },
     {
       "title": "CVE-2026-47907 - Dreamweaver Desktop | Improper Access Control (CWE-284)",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-47907",
-      "summary": "CVE ID :CVE-2026-47907 Published : June 9, 2026, 8:16 p.m. | 55 minutes ago Description :Dreamweaver Desktop versions 21.7 and earlier are affected by an Improper Access Control vulnerability that...",
+      "summary": "CVE ID :CVE-2026-47907 Published : June 9, 2026, 8:16 p.m. | 2 hours, 58 minutes ago Description :Dreamweaver Desktop versions 21.7 and earlier are affected by an Improper Access Control...",
       "source": "CVE Feed",
       "published": "2026-06-09T20:16:59+00:00"
     },
     {
       "title": "CVE-2026-47906 - Dreamweaver Desktop | Dependency on Vulnerable Third-Party Component (CWE-1395)",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-47906",
-      "summary": "CVE ID :CVE-2026-47906 Published : June 9, 2026, 8:16 p.m. | 55 minutes ago Description :Dreamweaver Desktop versions 21.7 and earlier are affected by a Dependency on Vulnerable Third-Party Component...",
+      "summary": "CVE ID :CVE-2026-47906 Published : June 9, 2026, 8:16 p.m. | 2 hours, 58 minutes ago Description :Dreamweaver Desktop versions 21.7 and earlier are affected by a Dependency on Vulnerable Third-Party...",
       "source": "CVE Feed",
       "published": "2026-06-09T20:16:59+00:00"
     },
     {
       "title": "CVE-2026-11824 - SQLite before 3.53.2 Heap Buffer Overflow via FTS5 fts5ChunkIterate",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-11824",
-      "summary": "CVE ID :CVE-2026-11824 Published : June 9, 2026, 8:16 p.m. | 56 minutes ago Description :SQLite before 3.53.2 contains a heap-based buffer overflow vulnerability in the FTS5 full-text search...",
+      "summary": "CVE ID :CVE-2026-11824 Published : June 9, 2026, 8:16 p.m. | 2 hours, 58 minutes ago Description :SQLite before 3.53.2 contains a heap-based buffer overflow vulnerability in the FTS5 full-text search...",
       "source": "CVE Feed",
       "published": "2026-06-09T20:16:32+00:00"
     },
     {
       "title": "CVE-2026-11822 - SQLite before 3.53.2 Memory Corruption in FTS5 Extension",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-11822",
-      "summary": "CVE ID :CVE-2026-11822 Published : June 9, 2026, 8:16 p.m. | 56 minutes ago Description :SQLite before 3.53.2 contains memory corruption vulnerabilities in the FTS5 full-text search extension that...",
+      "summary": "CVE ID :CVE-2026-11822 Published : June 9, 2026, 8:16 p.m. | 2 hours, 58 minutes ago Description :SQLite before 3.53.2 contains memory corruption vulnerabilities in the FTS5 full-text search...",
       "source": "CVE Feed",
       "published": "2026-06-09T20:16:32+00:00"
-    },
-    {
-      "title": "CVE-2025-71319 - image-size < 1.2.1, 2.0.2 - Denial of Service via Infinite Loop in findBox Function",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2025-71319",
-      "summary": "CVE ID :CVE-2025-71319 Published : June 9, 2026, 7:57 p.m. | 1 hour, 15 minutes ago Description :image-size 1.1.0 before 1.2.1 and 2.0.0 before 2.0.2 contain a denial of service vulnerability in the...",
-      "source": "CVE Feed",
-      "published": "2026-06-09T19:57:16+00:00"
     },
     {
       "title": "SAP fixes critical flaws in NetWeaver and Commerce Cloud",
@@ -100,16 +177,30 @@
       "published": "2026-06-09T19:33:45+00:00"
     },
     {
+      "title": "CVE-2026-36720 - Bookcars Privilege Escalation",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-36720",
+      "summary": "CVE ID :CVE-2026-36720 Published : June 9, 2026, 7:17 p.m. | 3 hours, 57 minutes ago Description :Insecure permissions in bookcars v8.3 allows authenticated attackers to escalate privileges from user...",
+      "source": "CVE Feed",
+      "published": "2026-06-09T19:17:42+00:00"
+    },
+    {
+      "title": "CVE-2026-30141 - bitbank2 AnimatedGIF LZW Decode Buffer Overflow",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-30141",
+      "summary": "CVE ID :CVE-2026-30141 Published : June 9, 2026, 7:17 p.m. | 3 hours, 57 minutes ago Description :An issue was discovered in bitbank2 AnimatedGIF v2.2.0. A buffer overflow in the DecodeLZW function...",
+      "source": "CVE Feed",
+      "published": "2026-06-09T19:17:32+00:00"
+    },
+    {
       "title": "CVE-2026-10045 - CVE-2026-10045",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-10045",
-      "summary": "CVE ID :CVE-2026-10045 Published : June 9, 2026, 7:17 p.m. | 1 hour, 55 minutes ago Description :Shenzhen Kangda Xin Intelligent Network Technology Company's router, model DR300, version 2.1.2.121...",
+      "summary": "CVE ID :CVE-2026-10045 Published : June 9, 2026, 7:17 p.m. | 3 hours, 57 minutes ago Description :Shenzhen Kangda Xin Intelligent Network Technology Company's router, model DR300, version 2.1.2.121...",
       "source": "CVE Feed",
       "published": "2026-06-09T19:17:31+00:00"
     },
     {
       "title": "CVE-2023-29146 - Malwarebytes EDR Integer Overflow Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2023-29146",
-      "summary": "CVE ID :CVE-2023-29146 Published : June 9, 2026, 7:16 p.m. | 1 hour, 56 minutes ago Description :The utility functions used by Malwarebytes EDR 1.0.11 on Linux for calculating a cryptographic hash of...",
+      "summary": "CVE ID :CVE-2023-29146 Published : June 9, 2026, 7:16 p.m. | 3 hours, 58 minutes ago Description :The utility functions used by Malwarebytes EDR 1.0.11 on Linux for calculating a cryptographic hash...",
       "source": "CVE Feed",
       "published": "2026-06-09T19:16:41+00:00"
     },
@@ -144,28 +235,28 @@
     {
       "title": "CVE-2026-50636 - LimeSurvey RemoteControl invite_participants/remind_participants SQL Injection",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-50636",
-      "summary": "CVE ID :CVE-2026-50636 Published : June 9, 2026, 6:17 p.m. | 2 hours, 55 minutes ago Description :The RemoteControl API methods invite_participants and remind_participants pass a caller-supplied...",
+      "summary": "CVE ID :CVE-2026-50636 Published : June 9, 2026, 6:17 p.m. | 4 hours, 57 minutes ago Description :The RemoteControl API methods invite_participants and remind_participants pass a caller-supplied...",
       "source": "CVE Feed",
       "published": "2026-06-09T18:17:10+00:00"
     },
     {
       "title": "CVE-2026-50635 - LimeSurvey Password Reset Host Header Injection Discloses Reset Token",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-50635",
-      "summary": "CVE ID :CVE-2026-50635 Published : June 9, 2026, 6:17 p.m. | 2 hours, 55 minutes ago Description :LimeSurvey constructs account password-reset links from the client-supplied HTTP Host header without...",
+      "summary": "CVE ID :CVE-2026-50635 Published : June 9, 2026, 6:17 p.m. | 4 hours, 57 minutes ago Description :LimeSurvey constructs account password-reset links from the client-supplied HTTP Host header without...",
       "source": "CVE Feed",
       "published": "2026-06-09T18:17:10+00:00"
     },
     {
       "title": "CVE-2026-34693 - Adobe Experience Manager Forms JEE | Cross-site Scripting (Reflected XSS) (CWE-79)",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-34693",
-      "summary": "CVE ID :CVE-2026-34693 Published : June 9, 2026, 6:16 p.m. | 2 hours, 56 minutes ago Description :Adobe Experience Manager Forms JEE versions LTS SP1, 6.5.24.0 and earlier are affected by a reflected...",
+      "summary": "CVE ID :CVE-2026-34693 Published : June 9, 2026, 6:16 p.m. | 4 hours, 58 minutes ago Description :Adobe Experience Manager Forms JEE versions LTS SP1, 6.5.24.0 and earlier are affected by a reflected...",
       "source": "CVE Feed",
       "published": "2026-06-09T18:16:39+00:00"
     },
     {
       "title": "CVE-2026-34691 - Adobe Experience Manager Forms JEE | Cross-site Scripting (Stored XSS) (CWE-79)",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-34691",
-      "summary": "CVE ID :CVE-2026-34691 Published : June 9, 2026, 6:16 p.m. | 2 hours, 56 minutes ago Description :Adobe Experience Manager Forms JEE versions LTS SP1, 6.5.24.0 and earlier are affected by a stored...",
+      "summary": "CVE ID :CVE-2026-34691 Published : June 9, 2026, 6:16 p.m. | 4 hours, 58 minutes ago Description :Adobe Experience Manager Forms JEE versions LTS SP1, 6.5.24.0 and earlier are affected by a stored...",
       "source": "CVE Feed",
       "published": "2026-06-09T18:16:38+00:00"
     },
@@ -191,90 +282,6 @@
       "published": "2026-06-09T17:32:32+00:00"
     },
     {
-      "title": "CVE-2026-7383 - Possible Heap Buffer Overflow in ASN.1 Multibyte String Conversion",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-7383",
-      "summary": "CVE ID :CVE-2026-7383 Published : June 9, 2026, 5:17 p.m. | 3 hours, 55 minutes ago Description :Issue summary: A signed integer overflow when sizing the destination buffer for Unicode output in...",
-      "source": "CVE Feed",
-      "published": "2026-06-09T17:17:50+00:00"
-    },
-    {
-      "title": "CVE-2026-49959 - Hermes WebUI < 0.51.311 RCE via Git Configuration Injection",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-49959",
-      "summary": "CVE ID :CVE-2026-49959 Published : June 9, 2026, 5:17 p.m. | 3 hours, 55 minutes ago Description :Hermes WebUI before version 0.51.311 contains a remote code execution vulnerability that allows...",
-      "source": "CVE Feed",
-      "published": "2026-06-09T17:17:49+00:00"
-    },
-    {
-      "title": "CVE-2026-49841 - FreeSWITCH: Pre-authentication heap buffer overflow in `mod_verto` HTTP POST body read",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-49841",
-      "summary": "CVE ID :CVE-2026-49841 Published : June 9, 2026, 5:17 p.m. | 3 hours, 55 minutes ago Description :FreeSWITCH is a Software Defined Telecom Stack enabling the digital transformation from proprietary...",
-      "source": "CVE Feed",
-      "published": "2026-06-09T17:17:47+00:00"
-    },
-    {
-      "title": "CVE-2026-49840 - FreeSWITCH: Pre-authentication heap buffer overflow in libesl `Content-Length` parsing",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-49840",
-      "summary": "CVE ID :CVE-2026-49840 Published : June 9, 2026, 5:17 p.m. | 3 hours, 55 minutes ago Description :FreeSWITCH is a Software Defined Telecom Stack enabling the digital transformation from proprietary...",
-      "source": "CVE Feed",
-      "published": "2026-06-09T17:17:47+00:00"
-    },
-    {
-      "title": "CVE-2026-47653 - Remote Desktop Client Remote Code Execution Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-47653",
-      "summary": "CVE ID :CVE-2026-47653 Published : June 9, 2026, 5:17 p.m. | 3 hours, 55 minutes ago Description :Heap-based buffer overflow in Remote Desktop Client allows an unauthorized attacker to execute code...",
-      "source": "CVE Feed",
-      "published": "2026-06-09T17:17:36+00:00"
-    },
-    {
-      "title": "CVE-2026-47652 - Windows Hyper-V Remote Code Execution Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-47652",
-      "summary": "CVE ID :CVE-2026-47652 Published : June 9, 2026, 5:17 p.m. | 3 hours, 55 minutes ago Description :Out-of-bounds read in Windows Hyper-V allows an unauthorized attacker to execute code locally...",
-      "source": "CVE Feed",
-      "published": "2026-06-09T17:17:36+00:00"
-    },
-    {
-      "title": "CVE-2026-47643 - Azure Stack Edge Remote Code Execution Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-47643",
-      "summary": "CVE ID :CVE-2026-47643 Published : June 9, 2026, 5:17 p.m. | 3 hours, 55 minutes ago Description :External control of file name or path in Azure Stack Edge allows an unauthorized attacker to execute...",
-      "source": "CVE Feed",
-      "published": "2026-06-09T17:17:36+00:00"
-    },
-    {
-      "title": "CVE-2026-47635 - Microsoft Outlook and Word Remote Code Execution Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-47635",
-      "summary": "CVE ID :CVE-2026-47635 Published : June 9, 2026, 5:17 p.m. | 3 hours, 55 minutes ago Description :Access of resource using incompatible type ('type confusion') in Microsoft Office allows an...",
-      "source": "CVE Feed",
-      "published": "2026-06-09T17:17:35+00:00"
-    },
-    {
-      "title": "CVE-2026-47631 - Microsoft Exchange Server Spoofing Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-47631",
-      "summary": "CVE ID :CVE-2026-47631 Published : June 9, 2026, 5:17 p.m. | 3 hours, 55 minutes ago Description :Improper neutralization of input during web page generation ('cross-site scripting') in Microsoft...",
-      "source": "CVE Feed",
-      "published": "2026-06-09T17:17:35+00:00"
-    },
-    {
-      "title": "CVE-2026-47298 - Microsoft SharePoint Server Remote Code Execution Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-47298",
-      "summary": "CVE ID :CVE-2026-47298 Published : June 9, 2026, 5:17 p.m. | 3 hours, 55 minutes ago Description :Improper authorization in Microsoft Office SharePoint allows an authorized attacker to execute code...",
-      "source": "CVE Feed",
-      "published": "2026-06-09T17:17:35+00:00"
-    },
-    {
-      "title": "CVE-2026-47291 - HTTP.sys Remote Code Execution Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-47291",
-      "summary": "CVE ID :CVE-2026-47291 Published : June 9, 2026, 5:17 p.m. | 3 hours, 55 minutes ago Description :Integer overflow or wraparound in Windows HTTP.sys allows an unauthorized attacker to execute code...",
-      "source": "CVE Feed",
-      "published": "2026-06-09T17:17:34+00:00"
-    },
-    {
-      "title": "CVE-2026-47289 - Remote Desktop Client Remote Code Execution Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-47289",
-      "summary": "CVE ID :CVE-2026-47289 Published : June 9, 2026, 5:17 p.m. | 3 hours, 55 minutes ago Description :Heap-based buffer overflow in Remote Desktop Client allows an unauthorized attacker to execute code...",
-      "source": "CVE Feed",
-      "published": "2026-06-09T17:17:34+00:00"
-    },
-    {
       "title": "Meta to Use Off-Site Business Data for Feed and AI Personalization",
       "link": "https://thehackernews.com/2026/06/meta-to-use-off-site-business-data-for.html",
       "summary": "Meta on Tuesday announced that it will use information shared by other businesses to personalize users' feed and responses from its artificial intelligence (AI) chatbot, expanding its scope beyond...",
@@ -298,8 +305,8 @@
     {
       "title": "Veeam Backup & Replication RCE Flaw Lets Domain Users Run Remote Code",
       "link": "https://thehackernews.com/2026/06/veeam-backup-replication-rce-flaw-lets.html",
-      "summary": "Veeam has released security patches to address a critical flaw in its Backup & Replication software that could result in remote code execution. Tracked as CVE-2026-44963, the vulnerability carries a...",
-      "source": "The Hacker News",
+      "summary": "Veeam Backup & Replication RCE Flaw Lets Domain Users Run Remote Code Veeam has released security patches to address a critical flaw in its Backup & Replication software that could result in remote...",
+      "source": "CVE Newsroom",
       "published": "2026-06-09T16:39:47+00:00"
     },
     {
@@ -403,8 +410,8 @@
     {
       "title": "WinRAR Flaw Exploited by Russia-Aligned Groups to Deploy Stealers in Ukraine",
       "link": "https://thehackernews.com/2026/06/winrar-flaw-exploited-by-russia-aligned.html",
-      "summary": "Two Russia-aligned cyber attack campaigns have continued to exploit a security flaw in WinRAR to target Ukrainian organisations, almost a year after patches for the vulnerability were released. The...",
-      "source": "The Hacker News",
+      "summary": "WinRAR Flaw Exploited by Russia-Aligned Groups to Deploy Stealers in Ukraine Two Russia-aligned cyber attack campaigns have continued to exploit a security flaw in WinRAR to target Ukrainian...",
+      "source": "CVE Newsroom",
       "published": "2026-06-09T12:26:10+00:00"
     },
     {
@@ -445,15 +452,15 @@
     {
       "title": "Researchers Build Self-Replicating AI Worm That Operates Entirely on Local, Open-Weight Models",
       "link": "https://thehackernews.com/2026/06/researchers-build-self-replicating-ai.html",
-      "summary": "University of Toronto researchers have built and tested a proof-of-concept AI-driven computer worm that uses a locally hosted open-weight large language model to reason its way through a network...",
-      "source": "The Hacker News",
+      "summary": "Researchers Build Self-Replicating AI Worm That Operates Entirely on Local, Open-Weight Models University of Toronto researchers have built and tested a proof-of-concept AI-driven computer worm that...",
+      "source": "CVE Newsroom",
       "published": "2026-06-09T11:59:03+00:00"
     },
     {
       "title": "Chrome V8 Zero-Day CVE-2026-11645 Exploited in the Wild - Patch Now",
       "link": "https://thehackernews.com/2026/06/chrome-v8-zero-day-cve-2026-11645.html",
-      "summary": "Google has released security updates to address 74 vulnerabilities, including one that has come under active exploitation in the wild. The high-severity vulnerability, tracked as CVE-2026-11645 (CVSS...",
-      "source": "The Hacker News",
+      "summary": "Chrome V8 Zero-Day CVE-2026-11645 Exploited in the Wild - Patch Now Google has released security updates to address 74 vulnerabilities, including one that has come under active exploitation in the...",
+      "source": "CVE Newsroom",
       "published": "2026-06-09T11:58:49+00:00"
     },
     {
@@ -529,8 +536,8 @@
     {
       "title": "LiteLLM Flaw CVE-2026-42271 Exploited in the Wild, Chains to Unauthenticated RCE",
       "link": "https://thehackernews.com/2026/06/litellm-flaw-cve-2026-42271-exploited.html",
-      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added a high-severity flaw impacting BerriAI LiteLLM to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence...",
-      "source": "The Hacker News",
+      "summary": "LiteLLM Flaw CVE-2026-42271 Exploited in the Wild, Chains to Unauthenticated RCE The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added a high-severity flaw impacting...",
+      "source": "CVE Newsroom",
       "published": "2026-06-09T06:26:14+00:00"
     },
     {
@@ -553,13 +560,6 @@
       "summary": "SoFi Hong Kong is warning that it suffered a data breach after hackers gained access to a database at a third-party vendor containing customer information. [...]",
       "source": "BleepingComputer",
       "published": "2026-06-08T21:55:46+00:00"
-    },
-    {
-      "title": "New Apple feature automatically changes your compromised passwords",
-      "link": "https://www.bleepingcomputer.com/news/apple/new-apple-feature-automatically-changes-your-compromised-passwords/",
-      "summary": "At WWDC 26, Apple announced an Apple Intelligence-powered feature that can automatically fix weak and compromised passwords. This works in Safari, and it's rolling out with iOS 27. [...]",
-      "source": "BleepingComputer",
-      "published": "2026-06-08T21:03:40+00:00"
     },
     {
       "title": "Silent Ransom Group Hits US Law Firms in Escalating Extortion Attacks",
@@ -585,8 +585,8 @@
     {
       "title": "One-Character Linux Kernel Flaw Enables Local Root Access, Exploits Now Public",
       "link": "https://thehackernews.com/2026/06/one-character-linux-kernel-flaw-enables.html",
-      "summary": "Security researchers have published a detailed, working exploit for a Linux kernel use-after-free that lets an unprivileged local user escalate to root and break out of a container. The flaw...",
-      "source": "The Hacker News",
+      "summary": "One-Character Linux Kernel Flaw Enables Local Root Access, Exploits Now Public Security researchers have published a detailed, working exploit for a Linux kernel use-after-free that lets an...",
+      "source": "CVE Newsroom",
       "published": "2026-06-08T20:17:39+00:00"
     },
     {
@@ -627,8 +627,8 @@
     {
       "title": "Critical Check Point VPN Flaw Exploited to Bypass Passwords in IKEv1 Setups",
       "link": "https://thehackernews.com/2026/06/critical-check-point-vpn-flaw-exploited.html",
-      "summary": "Check Point has warned of active exploitation of a critical vulnerability impacting Remote Access VPN and Mobile Access deployments that are configured to use the deprecated IKEv1 key exchange...",
-      "source": "The Hacker News",
+      "summary": "Critical Check Point VPN Flaw Exploited to Bypass Passwords in IKEv1 Setups Check Point has warned of active exploitation of a critical vulnerability impacting Remote Access VPN and Mobile Access...",
+      "source": "CVE Newsroom",
       "published": "2026-06-08T14:17:39+00:00"
     },
     {
@@ -655,8 +655,8 @@
     {
       "title": "⚡ Weekly Recap: Instagram Account Hacks, Android Zero-Day, GitHub Worm and More",
       "link": "https://thehackernews.com/2026/06/weekly-recap-instagram-account-hacks.html",
-      "summary": "Monday again. The weekend was meant to be quiet. It wasn't. Last week had poisoned packages, a broken AI helper, and a worm tearing through repos. The ugly part: basic tricks still worked. A chatbot...",
-      "source": "The Hacker News",
+      "summary": "⚡ Weekly Recap: Instagram Account Hacks, Android Zero-Day, GitHub Worm and More Monday again. The weekend was meant to be quiet. It wasn't. Last week had poisoned packages, a broken AI helper, and a...",
+      "source": "CVE Newsroom",
       "published": "2026-06-08T13:18:57+00:00"
     },
     {
@@ -683,8 +683,8 @@
     {
       "title": "VerdantBamboo Deploys BSD Variant of BRICKSTORM on Linux Appliances",
       "link": "https://thehackernews.com/2026/06/verdantbamboo-deploys-bsd-variant-of.html",
-      "summary": "A China-nexus cyber espionage group has been observed deploying a BSD variant of a known backdoor called BRICKSTORM, as well as two other malware families codenamed PLENET (aka GRIMBOLT) and AGENTPSD...",
-      "source": "The Hacker News",
+      "summary": "VerdantBamboo Deploys BSD Variant of BRICKSTORM on Linux Appliances A China-nexus cyber espionage group has been observed deploying a BSD variant of a known backdoor called BRICKSTORM, as well as two...",
+      "source": "CVE Newsroom",
       "published": "2026-06-08T10:27:32+00:00"
     },
     {
