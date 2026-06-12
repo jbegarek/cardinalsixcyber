@@ -1,12 +1,145 @@
 {
-  "last_updated": "2026-06-12T18:37:11.767586+00:00",
+  "last_updated": "2026-06-12T20:42:52.206278+00:00",
   "articles": [
+    {
+      "title": "ShinyHunters Uses Oracle Zero-Day to Rampage Higher Ed",
+      "link": "https://www.darkreading.com/vulnerabilities-threats/shinyhunters-oracle-zero-day-higher-ed",
+      "summary": "A major bug in Oracle's ERP software disproportionately affected American universities, and hackers have capitalized by stealing gobs of data.",
+      "source": "Dark Reading",
+      "published": "2026-06-12T20:26:32+00:00"
+    },
+    {
+      "title": "Maine disables data breach notification portal after fake disclosures",
+      "link": "https://www.bleepingcomputer.com/news/security/maine-disables-data-breach-notification-portal-after-fake-disclosures/",
+      "summary": "Maine has taken its public data breach reporting portal offline after fraudulent breach disclosures were published on the state's website, prompting a review of procedures to prevent abuse in the...",
+      "source": "BleepingComputer",
+      "published": "2026-06-12T19:33:32+00:00"
+    },
+    {
+      "title": "Over 400 Arch Linux AUR Packages Hijacked to Deploy Infostealer and eBPF Rootkit",
+      "link": "https://thehackernews.com/2026/06/over-400-arch-linux-aur-packages.html",
+      "summary": "Attackers took over more than 400 packages in the Arch User Repository (AUR) this week and rewrote their build scripts to install a credential stealer on any machine that built them. The malware is a...",
+      "source": "The Hacker News",
+      "published": "2026-06-12T19:33:25+00:00"
+    },
+    {
+      "title": "CVE-2026-53408 - Zoom Workplace Improper Authorization Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-53408",
+      "summary": "CVE ID :CVE-2026-53408 Published : June 12, 2026, 7:16 p.m. | 56 minutes ago Description :Improper Authorization in Handler for Custom URL Scheme in Zoom Workplace before version 7.0.4 for Android...",
+      "source": "CVE Feed",
+      "published": "2026-06-12T19:16:30+00:00"
+    },
+    {
+      "title": "CVE-2026-53407 - Zoom Workplace Improper Authorization",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-53407",
+      "summary": "CVE ID :CVE-2026-53407 Published : June 12, 2026, 7:16 p.m. | 56 minutes ago Description :Improper Authorization in Handler for Custom URL Scheme in Zoom Workplace before version 7.0.4 for Android...",
+      "source": "CVE Feed",
+      "published": "2026-06-12T19:16:29+00:00"
+    },
+    {
+      "title": "CVE-2026-50108 - Naxclow IoT Platform Missing Authorization",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-50108",
+      "summary": "CVE ID :CVE-2026-50108 Published : June 12, 2026, 7:16 p.m. | 56 minutes ago Description :The Naxclow platform API that returns device relay registration details exposes a persistent credential...",
+      "source": "CVE Feed",
+      "published": "2026-06-12T19:16:29+00:00"
+    },
+    {
+      "title": "CVE-2026-50101 - Naxclow IoT Platform Not using password aging",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-50101",
+      "summary": "CVE ID :CVE-2026-50101 Published : June 12, 2026, 7:16 p.m. | 56 minutes ago Description :Naxclow devices use a server-side, per-device relay credential that never rotates and is re-issued to the...",
+      "source": "CVE Feed",
+      "published": "2026-06-12T19:16:29+00:00"
+    },
+    {
+      "title": "CVE-2026-47138 - Parse Server: Pre-authentication denial of service via client version header regex backtracking",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-47138",
+      "summary": "CVE ID :CVE-2026-47138 Published : June 12, 2026, 7:16 p.m. | 56 minutes ago Description :Parse Server is an open source backend that can be deployed to any infrastructure that can run Node.js. Prior...",
+      "source": "CVE Feed",
+      "published": "2026-06-12T19:16:28+00:00"
+    },
+    {
+      "title": "CVE-2026-42947 - Naxclow IoT Platform Authorization bypass through User-Controlled key",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-42947",
+      "summary": "CVE ID :CVE-2026-42947 Published : June 12, 2026, 7:16 p.m. | 56 minutes ago Description :A flaw in Naxclow's platform’s onboarding workflow allows an attacker to replay a confirm-then-bind sequence...",
+      "source": "CVE Feed",
+      "published": "2026-06-12T19:16:27+00:00"
+    },
+    {
+      "title": "CVE-2026-28742 - Naxclow IoT Platform Use of hard-coded cryptographic key",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-28742",
+      "summary": "CVE ID :CVE-2026-28742 Published : June 12, 2026, 7:16 p.m. | 56 minutes ago Description :Naxclow devices use a uniform request-signing scheme based on a hard-coded, platform-wide salt embedded in...",
+      "source": "CVE Feed",
+      "published": "2026-06-12T19:16:26+00:00"
+    },
+    {
+      "title": "CVE-2026-12143 - form-data does not escape CR/LF/quote in multipart field names and filenames (CRLF injection)",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-12143",
+      "summary": "CVE ID :CVE-2026-12143 Published : June 12, 2026, 7:16 p.m. | 56 minutes ago Description :form-data is a library for creating readable multipart/form-data streams. In versions through 4.0.5, the...",
+      "source": "CVE Feed",
+      "published": "2026-06-12T19:16:26+00:00"
+    },
+    {
+      "title": "CVE-2026-12043 - Heap double-free in AWS Common Runtime aws-c-http",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-12043",
+      "summary": "CVE ID :CVE-2026-12043 Published : June 12, 2026, 7:16 p.m. | 56 minutes ago Description :Improper handling of HPACK dynamic table size updates in the AWS Common Runtime aws-c-http library might...",
+      "source": "CVE Feed",
+      "published": "2026-06-12T19:16:26+00:00"
+    },
+    {
+      "title": "Google Sues Chinese Smishing Network Accused of Using Gemini AI in Phishing",
+      "link": "https://thehackernews.com/2026/06/google-sues-chinese-smishing-network.html",
+      "summary": "Google on Friday said it's pursuing legal action against a Chinese cybercrime network, accusing it of using its Gemini artificial intelligence (AI) agent to send phishing text messages targeting...",
+      "source": "The Hacker News",
+      "published": "2026-06-12T18:59:32+00:00"
+    },
     {
       "title": "phpBB forum fixes auth bypass bug lurking for a decade",
       "link": "https://www.bleepingcomputer.com/news/security/phpbb-forum-fixes-auth-bypass-bug-lurking-for-a-decade/",
       "summary": "A 10-year-old authentication bypass vulnerability discovered in the phpBB forum software allows an attacker to log in as any user, including administrators. [...]",
       "source": "BleepingComputer",
       "published": "2026-06-12T18:19:34+00:00"
+    },
+    {
+      "title": "China-Linked Hackers Backdoored Linux Login Software to Hide for Nearly a Decade",
+      "link": "https://thehackernews.com/2026/06/china-linked-hackers-backdoored-linux.html",
+      "summary": "Instead of hiding on the laptops and servers defenders watch most closely, a China-nexus group spent close to a decade hidden inside the Linux login system itself. Sygnia, which tracks the group as...",
+      "source": "The Hacker News",
+      "published": "2026-06-12T18:17:55+00:00"
+    },
+    {
+      "title": "CVE-2026-48558 - SimpleHelp Authentication Bypass via Missing OIDC JWT Signature Verification",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48558",
+      "summary": "CVE ID :CVE-2026-48558 Published : June 12, 2026, 6:16 p.m. | 1 hour, 56 minutes ago Description :SimpleHelp versions 5.5.15 and prior and 6.0 pre-release versions contain an authentication bypass...",
+      "source": "CVE Feed",
+      "published": "2026-06-12T18:16:35+00:00"
+    },
+    {
+      "title": "CVE-2026-48165 - MariaDB: unsafe usage of `wsrep_sst_receive_address` values on the joiner side",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48165",
+      "summary": "CVE ID :CVE-2026-48165 Published : June 12, 2026, 6:16 p.m. | 1 hour, 56 minutes ago Description :MariaDB server is a community developed fork of MySQL server. From versions 10.6.1 to before 10.6.27...",
+      "source": "CVE Feed",
+      "published": "2026-06-12T18:16:35+00:00"
+    },
+    {
+      "title": "CVE-2026-48163 - MariaDB: wsrep SST unsafe parameter handling on the donor side (rsync)",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48163",
+      "summary": "CVE ID :CVE-2026-48163 Published : June 12, 2026, 6:16 p.m. | 1 hour, 56 minutes ago Description :MariaDB server is a community developed fork of MySQL server. From versions 10.6.1 to before 10.6.27...",
+      "source": "CVE Feed",
+      "published": "2026-06-12T18:16:35+00:00"
+    },
+    {
+      "title": "CVE-2026-47216 - Typesense: Unauthenticated Denial of Service in the Typesense /multi_search Endpoint",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-47216",
+      "summary": "CVE ID :CVE-2026-47216 Published : June 12, 2026, 6:16 p.m. | 1 hour, 56 minutes ago Description :Typesense is a fast, typo-tolerant search engine. Prior to versions 29.1 and 30.2, there is an...",
+      "source": "CVE Feed",
+      "published": "2026-06-12T18:16:34+00:00"
+    },
+    {
+      "title": "CVE-2026-44168 - MariaDB: wsrep SST unsafe parameter handling on the donor side",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-44168",
+      "summary": "CVE ID :CVE-2026-44168 Published : June 12, 2026, 6:16 p.m. | 1 hour, 56 minutes ago Description :MariaDB server is a community developed fork of MySQL server. From versions 10.6.1 to before 10.6.26...",
+      "source": "CVE Feed",
+      "published": "2026-06-12T18:16:33+00:00"
     },
     {
       "title": "Ukrainian national pleads guilty to role in Conti ransomware operation",
@@ -18,7 +151,7 @@
     {
       "title": "CVE-2026-7387 - Mattermost group syncable endpoints allow privilege escalation via scheme_admin",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-7387",
-      "summary": "CVE ID :CVE-2026-7387 Published : June 12, 2026, 5:16 p.m. | 34 minutes ago Description :Mattermost versions 11.6.x Severity: 8.8 | HIGH Visit the link for more details, such as CVSS details...",
+      "summary": "CVE ID :CVE-2026-7387 Published : June 12, 2026, 5:16 p.m. | 2 hours, 56 minutes ago Description :Mattermost versions 11.6.x Severity: 8.8 | HIGH Visit the link for more details, such as CVSS...",
       "source": "CVE Feed",
       "published": "2026-06-12T17:16:27+00:00"
     },
@@ -53,114 +186,72 @@
     {
       "title": "CVE-2026-8828 - ChromaDB Authorization Bypass",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-8828",
-      "summary": "CVE ID :CVE-2026-8828 Published : June 12, 2026, 4:16 p.m. | 1 hour, 33 minutes ago Description :A lack of authorization validation in version 1.0.0 or later of the ChromaDB Rust project allows any...",
+      "summary": "CVE ID :CVE-2026-8828 Published : June 12, 2026, 4:16 p.m. | 3 hours, 56 minutes ago Description :A lack of authorization validation in version 1.0.0 or later of the ChromaDB Rust project allows any...",
       "source": "CVE Feed",
       "published": "2026-06-12T16:16:34+00:00"
     },
     {
       "title": "CVE-2026-50091 - Aqara Home Android SDK hardcoded keys",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-50091",
-      "summary": "CVE ID :CVE-2026-50091 Published : June 12, 2026, 4:16 p.m. | 1 hour, 33 minutes ago Description :Aqara Home Android (com.lumiunited.aqarahome) 6.0.0 (and white-label clients embedding the same...",
+      "summary": "CVE ID :CVE-2026-50091 Published : June 12, 2026, 4:16 p.m. | 3 hours, 56 minutes ago Description :Aqara Home Android (com.lumiunited.aqarahome) 6.0.0 (and white-label clients embedding the same...",
       "source": "CVE Feed",
       "published": "2026-06-12T16:16:32+00:00"
     },
     {
       "title": "CVE-2026-50090 - Aqara OAuth redirect_uri validation bypass",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-50090",
-      "summary": "CVE ID :CVE-2026-50090 Published : June 12, 2026, 4:16 p.m. | 1 hour, 33 minutes ago Description :The Aqara Cloud OAuth Authorization Endpoint (open-cn.aqara.com/oauth/authorize) is vulnerable to a...",
+      "summary": "CVE ID :CVE-2026-50090 Published : June 12, 2026, 4:16 p.m. | 3 hours, 56 minutes ago Description :The Aqara Cloud OAuth Authorization Endpoint (open-cn.aqara.com/oauth/authorize) is vulnerable to a...",
       "source": "CVE Feed",
       "published": "2026-06-12T16:16:32+00:00"
     },
     {
       "title": "CVE-2026-50088 - Aqara Developer Portal cross-origin resource sharing",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-50088",
-      "summary": "CVE ID :CVE-2026-50088 Published : June 12, 2026, 4:16 p.m. | 1 hour, 33 minutes ago Description :The Aqara Developer Portal (developer.aqara.com) and shared test environments...",
+      "summary": "CVE ID :CVE-2026-50088 Published : June 12, 2026, 4:16 p.m. | 3 hours, 56 minutes ago Description :The Aqara Developer Portal (developer.aqara.com) and shared test environments...",
       "source": "CVE Feed",
       "published": "2026-06-12T16:16:32+00:00"
     },
     {
       "title": "CVE-2026-50087 - Aqara IAM/SSO Gateway cross-origin resource sharing",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-50087",
-      "summary": "CVE ID :CVE-2026-50087 Published : June 12, 2026, 4:16 p.m. | 1 hour, 33 minutes ago Description :The Aqara IAM/SSO gateway (gw-builder.aqara.com) exhibits a cross-origin request sharing...",
+      "summary": "CVE ID :CVE-2026-50087 Published : June 12, 2026, 4:16 p.m. | 3 hours, 56 minutes ago Description :The Aqara IAM/SSO gateway (gw-builder.aqara.com) exhibits a cross-origin request sharing...",
       "source": "CVE Feed",
       "published": "2026-06-12T16:16:32+00:00"
     },
     {
       "title": "CVE-2026-50086 - Aqara unauthenticated AES oracle",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-50086",
-      "summary": "CVE ID :CVE-2026-50086 Published : June 12, 2026, 4:16 p.m. | 1 hour, 33 minutes ago Description :The Aqara IAM/SSO gateway (gw-builder.aqara.com) exposes bidirectional AES round-trups against the...",
+      "summary": "CVE ID :CVE-2026-50086 Published : June 12, 2026, 4:16 p.m. | 3 hours, 56 minutes ago Description :The Aqara IAM/SSO gateway (gw-builder.aqara.com) exposes bidirectional AES round-trups against the...",
       "source": "CVE Feed",
       "published": "2026-06-12T16:16:32+00:00"
     },
     {
       "title": "CVE-2026-50085 - Aqara Board IoT insecure debug API",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-50085",
-      "summary": "CVE ID :CVE-2026-50085 Published : June 12, 2026, 4:16 p.m. | 1 hour, 33 minutes ago Description :The Aqara Board service (op-test.aqara.com) accepts arbitrary MQTT command payloads, and forwards...",
+      "summary": "CVE ID :CVE-2026-50085 Published : June 12, 2026, 4:16 p.m. | 3 hours, 56 minutes ago Description :The Aqara Board service (op-test.aqara.com) accepts arbitrary MQTT command payloads, and forwards...",
       "source": "CVE Feed",
       "published": "2026-06-12T16:16:32+00:00"
     },
     {
       "title": "CVE-2026-50084 - Aqara API cross-account access",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-50084",
-      "summary": "CVE ID :CVE-2026-50084 Published : June 12, 2026, 4:16 p.m. | 1 hour, 33 minutes ago Description :The Aqara Cloud Production API (open-cn.aqara.com/v3.0/open/api) would authorize any valid developer...",
+      "summary": "CVE ID :CVE-2026-50084 Published : June 12, 2026, 4:16 p.m. | 3 hours, 56 minutes ago Description :The Aqara Cloud Production API (open-cn.aqara.com/v3.0/open/api) would authorize any valid developer...",
       "source": "CVE Feed",
       "published": "2026-06-12T16:16:31+00:00"
     },
     {
       "title": "CVE-2026-50083 - Aqara hardcoded OAuth client credentials",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-50083",
-      "summary": "CVE ID :CVE-2026-50083 Published : June 12, 2026, 4:16 p.m. | 1 hour, 33 minutes ago Description :The Aqara IAM/SSO Gateway (gw-builder.aqara.com) used a hardcoded OAuth client credential, which is...",
+      "summary": "CVE ID :CVE-2026-50083 Published : June 12, 2026, 4:16 p.m. | 3 hours, 56 minutes ago Description :The Aqara IAM/SSO Gateway (gw-builder.aqara.com) used a hardcoded OAuth client credential, which is...",
       "source": "CVE Feed",
       "published": "2026-06-12T16:16:31+00:00"
     },
     {
       "title": "CVE-2026-48059 - Netty HAProxy: Unbalanced Reference Count in Nested PP2_TYPE_SSL TLV Parsing Leads to Memory Exhaustion",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-48059",
-      "summary": "CVE ID :CVE-2026-48059 Published : June 12, 2026, 4:16 p.m. | 1 hour, 33 minutes ago Description :Netty is a network application framework for development of protocol servers and clients. Prior to...",
+      "summary": "CVE ID :CVE-2026-48059 Published : June 12, 2026, 4:16 p.m. | 3 hours, 56 minutes ago Description :Netty is a network application framework for development of protocol servers and clients. Prior to...",
       "source": "CVE Feed",
       "published": "2026-06-12T16:16:30+00:00"
-    },
-    {
-      "title": "CVE-2026-48006 - Netty's Lack of Lifecycle Cleanup Leads to Pooled ByteBuf Leak in RedisArrayAggregator",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48006",
-      "summary": "CVE ID :CVE-2026-48006 Published : June 12, 2026, 4:16 p.m. | 1 hour, 33 minutes ago Description :Netty is a network application framework for development of protocol servers and clients. Prior to...",
-      "source": "CVE Feed",
-      "published": "2026-06-12T16:16:30+00:00"
-    },
-    {
-      "title": "CVE-2026-47691 - Netty has Insufficient Bailiwick Validation for NS Records",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-47691",
-      "summary": "CVE ID :CVE-2026-47691 Published : June 12, 2026, 4:16 p.m. | 1 hour, 33 minutes ago Description :Netty is a network application framework for development of protocol servers and clients. Prior to...",
-      "source": "CVE Feed",
-      "published": "2026-06-12T16:16:30+00:00"
-    },
-    {
-      "title": "CVE-2026-45833 - ChromaDB Code Injection Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-45833",
-      "summary": "CVE ID :CVE-2026-45833 Published : June 12, 2026, 4:16 p.m. | 1 hour, 33 minutes ago Description :A code injection vulnerability in version 0.4.17 or later of the ChromaDB Python project allows an...",
-      "source": "CVE Feed",
-      "published": "2026-06-12T16:16:29+00:00"
-    },
-    {
-      "title": "CVE-2026-45832 - ChromaDB Authorization Bypass via V1 API",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-45832",
-      "summary": "CVE ID :CVE-2026-45832 Published : June 12, 2026, 4:16 p.m. | 1 hour, 33 minutes ago Description :All V1 collection-level endpoints in ChromaDB's Python project pass None for the tenant and database...",
-      "source": "CVE Feed",
-      "published": "2026-06-12T16:16:28+00:00"
-    },
-    {
-      "title": "CVE-2026-45831 - ChromaDB Cross-Tenant Privilege Escalation",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-45831",
-      "summary": "CVE ID :CVE-2026-45831 Published : June 12, 2026, 4:16 p.m. | 1 hour, 33 minutes ago Description :The SimpleRBACAuthorizationProvider authorization provider in versions 0.5.0 or later of the ChromaDB...",
-      "source": "CVE Feed",
-      "published": "2026-06-12T16:16:28+00:00"
-    },
-    {
-      "title": "CVE-2026-45830 - ChromaDB Arbitrary Data Access Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-45830",
-      "summary": "CVE ID :CVE-2026-45830 Published : June 12, 2026, 4:16 p.m. | 1 hour, 33 minutes ago Description :A lack of authorization validation in version 0.4.17 or later of the ChromaDB Python project allows...",
-      "source": "CVE Feed",
-      "published": "2026-06-12T16:16:28+00:00"
     },
     {
       "title": "South Korea hits Coupang with record $409 million fine over data breach",
@@ -168,62 +259,6 @@
       "summary": "The penalty is the largest ever issued by the commission for a personal data breach, surpassing the record 134.8 billion won ($88.8 million) fine levied against SK Telecom earlier this year.",
       "source": "The Record",
       "published": "2026-06-12T15:56:00+00:00"
-    },
-    {
-      "title": "CVE-2026-7368 - Yarbo Android/iOS Mobile Application and Cloud Infrastructure Missing Authorization",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-7368",
-      "summary": "CVE ID :CVE-2026-7368 Published : June 12, 2026, 3:16 p.m. | 2 hours, 33 minutes ago Description :The Yarbo cloud does not enforce per-device or per-user authorization. Any client possessing valid...",
-      "source": "CVE Feed",
-      "published": "2026-06-12T15:16:32+00:00"
-    },
-    {
-      "title": "CVE-2026-6853 - OTP Bypass in Başbelen Group's Pause+ Mobile App",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-6853",
-      "summary": "CVE ID :CVE-2026-6853 Published : June 12, 2026, 3:16 p.m. | 2 hours, 33 minutes ago Description :Improper restriction of excessive authentication attempts vulnerability in Başbelen Group Food Cafe...",
-      "source": "CVE Feed",
-      "published": "2026-06-12T15:16:32+00:00"
-    },
-    {
-      "title": "CVE-2026-6211 - Arbitrary File Upload in Global IT's WEOLL",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-6211",
-      "summary": "CVE ID :CVE-2026-6211 Published : June 12, 2026, 3:16 p.m. | 2 hours, 33 minutes ago Description :Unrestricted upload of file with dangerous type vulnerability in Global IT Informatics Services Inc...",
-      "source": "CVE Feed",
-      "published": "2026-06-12T15:16:32+00:00"
-    },
-    {
-      "title": "CVE-2026-54133 - jmespath.php has CompilerRuntime code injection via unescaped function names",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54133",
-      "summary": "CVE ID :CVE-2026-54133 Published : June 12, 2026, 3:16 p.m. | 2 hours, 33 minutes ago Description :jmespath.php allows users to use JMESPath, software for declaratively specifying how to extract...",
-      "source": "CVE Feed",
-      "published": "2026-06-12T15:16:31+00:00"
-    },
-    {
-      "title": "CVE-2026-53787 - Amasty Order Attributes for Magento 2 < 4.0.0 Unauthenticated Arbitrary File Upload",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-53787",
-      "summary": "CVE ID :CVE-2026-53787 Published : June 12, 2026, 3:16 p.m. | 2 hours, 33 minutes ago Description :Amasty Order Attributes for Magento 2 before version 4.0.0 contains an unauthenticated arbitrary...",
-      "source": "CVE Feed",
-      "published": "2026-06-12T15:16:31+00:00"
-    },
-    {
-      "title": "CVE-2026-53721 - Nuxt: Route-rule middleware bypass via case-sensitivity mismatch between vue-router and the routeRules matcher",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-53721",
-      "summary": "CVE ID :CVE-2026-53721 Published : June 12, 2026, 3:16 p.m. | 2 hours, 33 minutes ago Description :Nuxt is an open-source web development framework for Vue.js. From versions 3.11.0 to before 3.21.7...",
-      "source": "CVE Feed",
-      "published": "2026-06-12T15:16:31+00:00"
-    },
-    {
-      "title": "CVE-2026-47210 - vm2 sandbox escape via JSPI-backed Promise `.finally()` species bypass",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-47210",
-      "summary": "CVE ID :CVE-2026-47210 Published : June 12, 2026, 3:16 p.m. | 2 hours, 33 minutes ago Description :vm2 is an open source vm/sandbox for Node.js. Prior to version 3.11.4, a sandbox escape...",
-      "source": "CVE Feed",
-      "published": "2026-06-12T15:16:29+00:00"
-    },
-    {
-      "title": "CVE-2026-47209 - vm2: Bridge Proxy set trap ignores receiver parameter, enabling host object property injection via prototype chain",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-47209",
-      "summary": "CVE ID :CVE-2026-47209 Published : June 12, 2026, 3:16 p.m. | 2 hours, 33 minutes ago Description :vm2 is an open source vm/sandbox for Node.js. Prior to version 3.11.4, the BaseHandler.set trap in...",
-      "source": "CVE Feed",
-      "published": "2026-06-12T15:16:28+00:00"
     },
     {
       "title": "Early Warning Signs of Supply-Chain Attacks Live in the Dark Web",
@@ -518,13 +553,6 @@
       "summary": "​​The Personal Information Protection Commission (PIPC), South Korea's data protection regulator, has fined e-commerce giant Coupang a record 624.6 billion won (roughly $409 million) following a...",
       "source": "BleepingComputer",
       "published": "2026-06-11T12:52:41+00:00"
-    },
-    {
-      "title": "CISA tells govt agencies to patch critical exploited flaws in 3 days",
-      "link": "https://www.bleepingcomputer.com/news/security/cisa-tells-govt-agencies-to-patch-critical-exploited-flaws-in-3-days/",
-      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) announced a new Binding Operational Directive, 26-04, that prioritizes security updates for Federal Civilian Executive Branch (FCEB)...",
-      "source": "BleepingComputer",
-      "published": "2026-06-11T12:46:44+00:00"
     },
     {
       "title": "Time4Popcorn-lek laat aanvaller malafide updates bij gebruikers installeren",
@@ -1045,32 +1073,11 @@
       "published": "2026-06-06T07:28:30+00:00"
     },
     {
-      "title": "Miasma Worm Hits 73 Microsoft GitHub Repositories in Major Supply Chain Attack",
-      "link": "https://thehackernews.com/2026/06/miasma-worm-hits-73-microsoft-github.html",
-      "summary": "Microsoft's GitHub repositories have become the latest to fall victim to the ongoing Miasma self-replicating supply chain attack campaign. The incident impacted 73 Microsoft repositories across four...",
-      "source": "The Hacker News",
-      "published": "2026-06-06T06:58:04+00:00"
-    },
-    {
-      "title": "Cisco Catalyst SD-WAN Manager CVE-2026-20245 Flaw Actively Exploited – No Patch Available",
-      "link": "https://thehackernews.com/2026/06/cisco-catalyst-sd-wan-manager-cve-2026.html",
-      "summary": "Cisco has warned that a high-severity security flaw impacting Catalyst SD-WAN Manager has come under active exploitation. The vulnerability, tracked as CVE-2026-20245, carries a CVSS score of 7.8 out...",
-      "source": "The Hacker News",
-      "published": "2026-06-06T04:19:28+00:00"
-    },
-    {
       "title": "Exposed Fuel Tank Gauges Under Attack in the US",
       "link": "https://www.darkreading.com/cyberattacks-data-breaches/exposed-fuel-tank-gauges-attack-us",
       "summary": "Threat actors are taking advantage of Internet-exposed tank gauges by breaching gas stations, opening the door to disruption.",
       "source": "Dark Reading",
       "published": "2026-06-05T19:04:36+00:00"
-    },
-    {
-      "title": "IronWorm and New Miasma Worm Variant Hit npm in Supply Chain Attacks",
-      "link": "https://thehackernews.com/2026/06/ironworm-and-new-miasma-worm-variant.html",
-      "summary": "Multiple software supply chain attacks have hit the npm ecosystem, with threat actors using both malicious and poisoned versions of over 50 legitimate packages to distribute a Rust-based information...",
-      "source": "The Hacker News",
-      "published": "2026-06-05T18:05:30+00:00"
     },
     {
       "title": "Adaptive, Agentic AI Worms Loom as Next Enterprise Threat",
@@ -1351,13 +1358,6 @@
       "summary": "Dutch law enforcement seized 800 servers and arrested two operators of THE.Hosting but left the hosting provider's core IP address space intact.",
       "source": "Dark Reading",
       "published": "2026-05-28T19:04:37+00:00"
-    },
-    {
-      "title": "Agentic AI Isn't Risky; the Way Orgs Deploy It Is",
-      "link": "https://www.darkreading.com/application-security/agentic-ai-risky",
-      "summary": "AI agents aren't black boxes — they're models interacting with software tools. The risk lies in their overlap.",
-      "source": "Dark Reading",
-      "published": "2026-05-28T15:36:25+00:00"
     },
     {
       "title": "Jinan USR IOT Technology Limited (PUSR) USR-W610 RS232/485 to Wi-Fi/Ethernet Converter",
