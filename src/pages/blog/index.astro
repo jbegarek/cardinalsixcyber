@@ -53,10 +53,6 @@ const laneLabel = {
     <div class="container blog-index-hero-inner">
       <span class="eyebrow reveal">Insights</span>
       <h1 id="blog-index-title" class="blog-index-title reveal reveal-delay-1">Blog</h1>
-      <div class="divider reveal reveal-delay-2"></div>
-      <p class="section-sub blog-index-subtitle reveal reveal-delay-2">
-        Newest-first writing from the practical and research lanes, with filters to narrow the feed by topic.
-      </p>
     </div>
   </section>
 
@@ -64,7 +60,7 @@ const laneLabel = {
     <div class="container">
       <h2 id="blog-index-filters-title" class="sr-only">Blog filters</h2>
 
-      <div class="blog-index-filter-group" role="group" aria-label="Filter by lane">
+      <div class="blog-index-filter-group blog-index-filter-group-lane" role="group" aria-label="Filter by lane">
         {laneOptions.map((option) => (
           <button
             type="button"
@@ -78,7 +74,7 @@ const laneLabel = {
         ))}
       </div>
 
-      <div class="blog-index-filter-group" role="group" aria-label="Filter by topic">
+      <div class="blog-index-filter-group blog-index-filter-group-topic" role="group" aria-label="Filter by topic">
         <button
           type="button"
           class:list={['blog-index-filter', 'is-active']}
@@ -168,8 +164,13 @@ const laneLabel = {
 </BaseLayout>
 
 <style>
+  :global(body) {
+    /* Mirrors the fixed nav offset used by Nav.astro/global.css. */
+    --blog-index-nav-height: 88px;
+  }
+
   .blog-index-hero {
-    padding: calc(var(--space-32) + var(--space-8)) 0 var(--space-12);
+    padding: calc(var(--blog-index-nav-height) + var(--space-4)) 0 var(--space-4);
     background: var(--c6-gradient-hero);
     position: relative;
     overflow: hidden;
@@ -181,9 +182,9 @@ const laneLabel = {
     position: absolute;
     inset: auto 50% 0;
     width: 760px;
-    height: 420px;
+    height: 220px;
     transform: translateX(-50%);
-    background: radial-gradient(ellipse at center, rgba(192, 57, 43, 0.08) 0%, transparent 70%);
+    background: radial-gradient(ellipse at center, rgba(192, 57, 43, 0.06) 0%, transparent 70%);
     pointer-events: none;
   }
 
@@ -194,41 +195,65 @@ const laneLabel = {
 
   .blog-index-title {
     font-family: var(--font-display);
-    font-size: clamp(2.4rem, 5vw, 4.4rem);
+    font-size: clamp(2rem, 4vw, 3.2rem);
     font-weight: 700;
     letter-spacing: 0.08em;
     text-transform: uppercase;
     color: var(--c6-text-primary);
-    margin: var(--space-4) 0 0;
-  }
-
-  .blog-index-subtitle {
-    max-width: 720px;
+    margin: var(--space-2) 0 0;
   }
 
   .blog-index-filters {
     position: sticky;
-    top: 64px;
+    top: var(--blog-index-nav-height);
     z-index: 100;
     background: rgba(17, 17, 17, 0.94);
     backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(12px);
     border-bottom: 1px solid var(--c6-border);
-    padding: var(--space-4) 0;
+    padding: var(--space-2) 0;
   }
 
-  .blog-index-filter-group {
+  .blog-index-filters .container {
     display: flex;
-    flex-wrap: wrap;
-    gap: var(--space-2);
-    margin-bottom: var(--space-3);
+    align-items: center;
+    gap: var(--space-3);
+    min-width: 0;
     overflow-x: auto;
     scrollbar-width: none;
     -ms-overflow-style: none;
   }
 
-  .blog-index-filter-group::-webkit-scrollbar {
+  .blog-index-filters::after {
+    content: '';
+    position: absolute;
+    inset: 0 0 0 auto;
+    width: 48px;
+    background: linear-gradient(90deg, rgba(17, 17, 17, 0), rgba(17, 17, 17, 0.94));
+    pointer-events: none;
+  }
+
+  .blog-index-filters .container::-webkit-scrollbar {
     display: none;
+  }
+
+  .blog-index-filter-group {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: var(--space-2);
+    margin-bottom: 0;
+    overflow: visible;
+    min-width: 0;
+  }
+
+  .blog-index-filter-group-lane {
+    flex: 0 0 auto;
+  }
+
+  .blog-index-filter-group-topic {
+    flex: 0 0 auto;
+    border-left: 1px solid var(--c6-border);
+    padding-left: var(--space-3);
   }
 
   .blog-index-filter {
@@ -238,11 +263,11 @@ const laneLabel = {
     color: var(--c6-text-muted);
     border-radius: var(--radius-full);
     font-family: var(--font-display);
-    font-size: 0.82rem;
+    font-size: 0.72rem;
     font-weight: 600;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    padding: var(--space-2) var(--space-4);
+    padding: 0.35rem var(--space-3);
     min-height: 44px;
     cursor: pointer;
     transition: color 0.2s ease, border-color 0.2s ease, background 0.2s ease, transform 0.2s ease;
@@ -268,7 +293,7 @@ const laneLabel = {
 
   .blog-index-feed {
     position: relative;
-    padding: var(--space-12) 0 var(--space-16);
+    padding: var(--space-6) 0 var(--space-16);
     background: var(--c6-gradient-section);
   }
 
@@ -284,11 +309,14 @@ const laneLabel = {
     position: relative;
     z-index: 1;
     display: grid;
-    gap: var(--space-12);
+    gap: var(--space-8);
   }
 
   .blog-index-section-head {
-    margin-bottom: var(--space-6);
+    display: flex;
+    align-items: baseline;
+    gap: var(--space-3);
+    margin-bottom: var(--space-3);
   }
 
   .blog-index-kicker {
@@ -298,7 +326,7 @@ const laneLabel = {
     letter-spacing: 0.12em;
     text-transform: uppercase;
     color: var(--c6-red-text);
-    margin-bottom: var(--space-2);
+    margin-bottom: 0;
   }
 
   .blog-index-section-title {
@@ -340,7 +368,7 @@ const laneLabel = {
   }
 
   .blog-index-card-featured :global(.blog-post-card-link) {
-    padding: var(--space-8);
+    padding: var(--space-6);
   }
 
   .blog-index-state {
@@ -373,13 +401,20 @@ const laneLabel = {
   }
 
   @media (max-width: 768px) {
-    .blog-index-hero {
-      padding-top: calc(var(--space-24) + var(--space-8));
-      padding-bottom: var(--space-8);
+    :global(body) {
+      --blog-index-nav-height: 72px;
     }
 
-    .blog-index-filters {
-      top: 56px;
+    .blog-index-hero {
+      padding-bottom: var(--space-4);
+    }
+
+    .blog-index-feed {
+      padding-top: var(--space-4);
+    }
+
+    .blog-index-section-head {
+      display: block;
     }
   }
 
