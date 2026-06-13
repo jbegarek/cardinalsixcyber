@@ -17,7 +17,7 @@ A daily cron on the Docker server (`justin@192.168.0.240`) drives the rebuild. T
 
 **Source mirror at `/home/justin/src/cardinalsixcyber`.** A shallow clone of the GitHub repo. The publish script pulls from `origin/main` here.
 
-**Publish script at `/home/justin/bin/cardinalsixcyber-publish.sh`.** Pulls the source clone, exits as a no-op if nothing changed, otherwise syncs `src/`, `public/`, `data/`, `nginx/` and the top-level config files into `/home/justin/deploy/cardinalsixcyber`, runs `docker buildx build --load --no-cache`, and recreates the container with `docker compose up -d --force-recreate --no-build`.
+**Publish script at `/home/justin/bin/cardinalsixcyber-publish.sh`.** Pulls the source clone, resets it to `origin/main`, syncs `src/`, `public/`, `data/`, `nginx/` and the top-level config files into `/home/justin/deploy/cardinalsixcyber`, runs a no-cache Docker Compose build, and recreates the container. The repo-tracked copy lives at `scripts/cardinalsixcyber-publish.sh`.
 
 **Cron entry running daily at 09:00 server time.** Logs append to `/home/justin/logs/cardinalsixcyber-publish.log`.
 
@@ -25,7 +25,9 @@ A daily cron on the Docker server (`justin@192.168.0.240`) drives the rebuild. T
 0 9 * * * /home/justin/bin/cardinalsixcyber-publish.sh
 ```
 
-The script is idempotent. If no new commits exist on `origin/main`, it exits without rebuilding.
+The script intentionally rebuilds even when no new commits exist. Scheduled static posts are filtered at build time by `publishDate <= now`, so a date rollover can publish new routes without any source change.
+
+The Compose file uses the local-only image tag `cardinalsixcyber:local` and disables Watchtower for the container. Do not change this back to a registry tag such as `jbegarek/cardinalsixcyber:latest` unless the publish flow also pushes that image to the registry; otherwise Watchtower can replace the freshly built local image with stale registry content.
 
 ## Operational checks
 

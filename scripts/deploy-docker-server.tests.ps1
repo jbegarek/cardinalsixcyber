@@ -100,7 +100,7 @@ Assert-SequenceEqual `
 
 $rebuildCommand = Get-RemoteRebuildCommand `
     -RemoteDir '/home/justin/deploy/cardinalsixcyber' `
-    -ImageName 'jbegarek/cardinalsixcyber:latest' `
+    -ImageName 'cardinalsixcyber:local' `
     -ContainerName 'cardinalsixcyber'
 
 Assert-Contains `
@@ -110,7 +110,7 @@ Assert-Contains `
 
 Assert-Contains `
     -Actual $rebuildCommand `
-    -ExpectedSubstring "docker image inspect jbegarek/cardinalsixcyber:latest --format 'built image {{.Id}} created {{.Created}}'" `
+    -ExpectedSubstring "docker image inspect cardinalsixcyber:local --format 'built image {{.Id}} created {{.Created}}'" `
     -Message 'Deploy script should inspect the newly built service image before recreating the container.'
 
 Assert-Contains `
@@ -132,6 +132,11 @@ Assert-NotContains `
     -Actual $rebuildCommand `
     -UnexpectedSubstring 'docker push' `
     -Message 'Deploy script should not depend on Docker Hub publishing for the production server rebuild.'
+
+Assert-NotContains `
+    -Actual $rebuildCommand `
+    -UnexpectedSubstring 'jbegarek/cardinalsixcyber' `
+    -Message 'Deploy script should not reference the Docker Hub registry image because Watchtower can replace local builds with stale registry content.'
 
 $statusLine = Parse-HttpStatusLine '  HTTP/1.1 200 OK'
 Assert-Equal -Actual $statusLine.StatusCode -Expected 200 -Message 'HTTP status parser should extract numeric status codes.'

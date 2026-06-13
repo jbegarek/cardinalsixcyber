@@ -3,7 +3,7 @@ param(
     [string] $SourceDir,
     [string] $HostName = 'justin@192.168.0.240',
     [string] $RemoteDir = '/home/justin/deploy/cardinalsixcyber',
-    [string] $ImageName = 'jbegarek/cardinalsixcyber:latest',
+    [string] $ImageName = 'cardinalsixcyber:local',
     [string] $ContainerName = 'cardinalsixcyber',
     [string[]] $VerifyPaths,
     [string] $PublicBaseUrl
@@ -227,7 +227,7 @@ function Invoke-DockerServerDeploy {
     if ($PSCmdlet.ShouldProcess($HostName, 'Sync deployable files')) {
         # Delete managed directories on the remote before copying so removed local files don't persist.
         $dirItems = $deployableItems | Where-Object {
-            (Get-Item (Join-Path $resolvedSourceDir $_)) -is [System.IO.DirectoryInfo]
+            (Get-Item -Force (Join-Path $resolvedSourceDir $_)) -is [System.IO.DirectoryInfo]
         }
         $rmTargets = ($dirItems | ForEach-Object { "$RemoteDir/$_" }) -join ' '
         $rmResult = Invoke-NativeCommand -FilePath 'ssh' -ArgumentList @($HostName, "rm -rf $rmTargets")
