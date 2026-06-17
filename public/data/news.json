@@ -1,12 +1,82 @@
 {
-  "last_updated": "2026-06-17T18:46:19.238263+00:00",
+  "last_updated": "2026-06-17T20:41:31.151318+00:00",
   "articles": [
+    {
+      "title": "CVE-2026-11407 - Pimcore CMS 12.3.8 Twig Sandbox Bypass via SecurityPolicy checkMethodAllowed",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-11407",
+      "summary": "CVE ID :CVE-2026-11407 Published : June 17, 2026, 8:07 p.m. | 10 minutes ago Description :Pimcore CMS/DXP version 12.3.8 contains a sandbox bypass vulnerability that allows authenticated...",
+      "source": "CVE Feed",
+      "published": "2026-06-17T20:07:50+00:00"
+    },
+    {
+      "title": "CVE-2026-50107 - NGINX Gateway Fabric vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-50107",
+      "summary": "CVE ID :CVE-2026-50107 Published : June 17, 2026, 8:04 p.m. | 13 minutes ago Description :When NGINX Plus or NGINX Open Source is configured as the data plane for NGINX Gateway Fabric, an injection...",
+      "source": "CVE Feed",
+      "published": "2026-06-17T20:04:44+00:00"
+    },
+    {
+      "title": "CVE-2026-54388 - Tinyproxy - HTTP Request Smuggling via Duplicate Content-Length Headers",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54388",
+      "summary": "CVE ID :CVE-2026-54388 Published : June 17, 2026, 7:59 p.m. | 19 minutes ago Description :Tinyproxy through 1.11.3, fixed in commit 364cdb6, fails to reject requests containing multiple...",
+      "source": "CVE Feed",
+      "published": "2026-06-17T19:59:00+00:00"
+    },
+    {
+      "title": "CVE-2026-54387 - Tinyproxy - HTTP Request Smuggling via CL/TE Desynchronization",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54387",
+      "summary": "CVE ID :CVE-2026-54387 Published : June 17, 2026, 7:48 p.m. | 29 minutes ago Description :Tinyproxy through 1.11.3, fixed in commit ff45d3b, fails to reconcile conflicting Content-Length and...",
+      "source": "CVE Feed",
+      "published": "2026-06-17T19:48:37+00:00"
+    },
+    {
+      "title": "CVE-2026-55202 - Tinyproxy - Stathost Detection Bypass via Host Header Manipulation",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55202",
+      "summary": "CVE ID :CVE-2026-55202 Published : June 17, 2026, 7:13 p.m. | 1 hour, 4 minutes ago Description :Tinyproxy through 1.11.3, fixed in commit 09312a1, fails to properly validate the Host header during...",
+      "source": "CVE Feed",
+      "published": "2026-06-17T19:13:45+00:00"
+    },
+    {
+      "title": "CVE-2026-55200 - libssh2 - Out-of-Bounds Write via Unchecked packet_length in transport.c",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55200",
+      "summary": "CVE ID :CVE-2026-55200 Published : June 17, 2026, 7:03 p.m. | 1 hour, 14 minutes ago Description :libssh2 through 1.11.1, fixed in commit 7acf3df contains an out-of-bounds write vulnerability in...",
+      "source": "CVE Feed",
+      "published": "2026-06-17T19:03:15+00:00"
+    },
+    {
+      "title": "CVE-2026-55199 - libssh2 - Pre-Authentication DoS via SSH_MSG_EXT_INFO Handler",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55199",
+      "summary": "CVE ID :CVE-2026-55199 Published : June 17, 2026, 6:44 p.m. | 1 hour, 33 minutes ago Description :libssh2 through 1.11.1, fixed in commit 1762685, contains a pre-authentication denial of service...",
+      "source": "CVE Feed",
+      "published": "2026-06-17T18:44:18+00:00"
+    },
     {
       "title": "Crypto Clipper Campaign Abuses Fake Reviews, AI Narrators, and VirusTotal Comments",
       "link": "https://thehackernews.com/2026/06/crypto-clipper-campaign-abuses-fake.html",
       "summary": "An unknown threat actor has been observed leveraging paid or promoted posts on legitimate news websites to drum up buzz for their warez, according to new findings from Check Point Research. The...",
       "source": "The Hacker News",
       "published": "2026-06-17T18:14:24+00:00"
+    },
+    {
+      "title": "CVE-2026-55196 - Hermes WebUI < 0.51.409 - Unauthenticated Passkey Registration via Authentication Bypass",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55196",
+      "summary": "CVE ID :CVE-2026-55196 Published : June 17, 2026, 5:58 p.m. | 2 hours, 19 minutes ago Description :Hermes WebUI before 0.51.409 contains an authentication bypass vulnerability in passkey registration...",
+      "source": "CVE Feed",
+      "published": "2026-06-17T17:58:56+00:00"
+    },
+    {
+      "title": "CVE-2026-53871 - Hermes WebUI < 0.51.368 - Profile-Scoped Authorization Bypass via Forged hermes_profile Cookie",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-53871",
+      "summary": "CVE ID :CVE-2026-53871 Published : June 17, 2026, 5:58 p.m. | 2 hours, 19 minutes ago Description :Hermes WebUI before 0.51.368 contains an authorization bypass vulnerability in the...",
+      "source": "CVE Feed",
+      "published": "2026-06-17T17:58:29+00:00"
+    },
+    {
+      "title": "CVE-2026-53869 - Hermes Agent < 0.16.0 - DNS Rebinding Bypass via WebSocket Endpoints",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-53869",
+      "summary": "CVE ID :CVE-2026-53869 Published : June 17, 2026, 5:57 p.m. | 2 hours, 20 minutes ago Description :Hermes Agent before 0.16.0 contains a DNS rebinding vulnerability in WebSocket endpoints that allows...",
+      "source": "CVE Feed",
+      "published": "2026-06-17T17:57:30+00:00"
     },
     {
       "title": "Hostile states behind three-quarters of attacks on Britain's critical infrastructure, cyber chief warns",
@@ -25,35 +95,35 @@
     {
       "title": "CVE-2026-30803 - Integer Underflow (Wrap or Wraparound) vulnerability in RTI Connext Micro (Core Libraries) allows Overread Buffers.",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-30803",
-      "summary": "CVE ID :CVE-2026-30803 Published : June 17, 2026, 5:21 p.m. | 31 minutes ago Description :Integer Underflow (Wrap or Wraparound) vulnerability in RTI Connext Micro (Core Libraries) allows Overread...",
+      "summary": "CVE ID :CVE-2026-30803 Published : June 17, 2026, 5:21 p.m. | 2 hours, 56 minutes ago Description :Integer Underflow (Wrap or Wraparound) vulnerability in RTI Connext Micro (Core Libraries) allows...",
       "source": "CVE Feed",
       "published": "2026-06-17T17:21:11+00:00"
     },
     {
       "title": "CVE-2026-30802 - Out-of-bounds Read vulnerability in RTI Connext Micro (Core Libraries) allows Overread Buffers.",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-30802",
-      "summary": "CVE ID :CVE-2026-30802 Published : June 17, 2026, 5:20 p.m. | 31 minutes ago Description :Out-of-bounds Read vulnerability in RTI Connext Micro (Core Libraries) allows Overread Buffers.This issue...",
+      "summary": "CVE ID :CVE-2026-30802 Published : June 17, 2026, 5:20 p.m. | 2 hours, 57 minutes ago Description :Out-of-bounds Read vulnerability in RTI Connext Micro (Core Libraries) allows Overread Buffers.This...",
       "source": "CVE Feed",
       "published": "2026-06-17T17:20:55+00:00"
     },
     {
       "title": "CVE-2026-7300 - Buffer Copy without Checking Size of Input ('Classic Buffer Overflow') vulnerability in RTI Connext Professional (Web Integration Service) allows Filter Failure through Buffer Overflow.",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-7300",
-      "summary": "CVE ID :CVE-2026-7300 Published : June 17, 2026, 5:20 p.m. | 32 minutes ago Description :Buffer Copy without Checking Size of Input ('Classic Buffer Overflow') vulnerability in RTI Connext...",
+      "summary": "CVE ID :CVE-2026-7300 Published : June 17, 2026, 5:20 p.m. | 2 hours, 57 minutes ago Description :Buffer Copy without Checking Size of Input ('Classic Buffer Overflow') vulnerability in RTI Connext...",
       "source": "CVE Feed",
       "published": "2026-06-17T17:20:19+00:00"
     },
     {
       "title": "CVE-2026-3894 - Out-of-bounds Read vulnerability in RTI Connext Professional (Core Libraries) allows Overread Buffers.",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-3894",
-      "summary": "CVE ID :CVE-2026-3894 Published : June 17, 2026, 5:19 p.m. | 32 minutes ago Description :Out-of-bounds Read vulnerability in RTI Connext Professional (Core Libraries) allows Overread Buffers.This...",
+      "summary": "CVE ID :CVE-2026-3894 Published : June 17, 2026, 5:19 p.m. | 2 hours, 58 minutes ago Description :Out-of-bounds Read vulnerability in RTI Connext Professional (Core Libraries) allows Overread...",
       "source": "CVE Feed",
       "published": "2026-06-17T17:19:25+00:00"
     },
     {
       "title": "CVE-2026-2467 - Heap-based Buffer Overflow vulnerability in RTI Connext Professional (Core Libraries) allows Overflow Variables and Tags.",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-2467",
-      "summary": "CVE ID :CVE-2026-2467 Published : June 17, 2026, 5:17 p.m. | 35 minutes ago Description :Heap-based Buffer Overflow vulnerability in RTI Connext Professional (Core Libraries) allows Overflow...",
+      "summary": "CVE ID :CVE-2026-2467 Published : June 17, 2026, 5:17 p.m. | 3 hours ago Description :Heap-based Buffer Overflow vulnerability in RTI Connext Professional (Core Libraries) allows Overflow Variables...",
       "source": "CVE Feed",
       "published": "2026-06-17T17:17:04+00:00"
     },
@@ -67,14 +137,14 @@
     {
       "title": "CVE-2026-20266 - OS Command Injection in the btool Configuration Helper in Splunk AI Toolkit",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-20266",
-      "summary": "CVE ID :CVE-2026-20266 Published : June 17, 2026, 5:07 p.m. | 44 minutes ago Description :In Splunk AI Toolkit versions below 5.7.4, a user who holds the \"admin\" Splunk role could execute arbitrary...",
+      "summary": "CVE ID :CVE-2026-20266 Published : June 17, 2026, 5:07 p.m. | 3 hours, 10 minutes ago Description :In Splunk AI Toolkit versions below 5.7.4, a user who holds the \"admin\" Splunk role could execute...",
       "source": "CVE Feed",
       "published": "2026-06-17T17:07:24+00:00"
     },
     {
       "title": "CVE-2026-53805 - NVIDIA SIL GEN3C Unauthenticated RCE via Pickle Deserialization in Inference API",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-53805",
-      "summary": "CVE ID :CVE-2026-53805 Published : June 17, 2026, 4:44 p.m. | 1 hour, 8 minutes ago Description :NVIDIA Spatial Intelligence Lab's (SIL) GEN3C contains an unauthenticated remote code execution...",
+      "summary": "CVE ID :CVE-2026-53805 Published : June 17, 2026, 4:44 p.m. | 3 hours, 33 minutes ago Description :NVIDIA Spatial Intelligence Lab's (SIL) GEN3C contains an unauthenticated remote code execution...",
       "source": "CVE Feed",
       "published": "2026-06-17T16:44:05+00:00"
     },
@@ -84,6 +154,13 @@
       "summary": "As Kyiv takes steps toward formal accession to the EU, the bloc is integrating Ukraine with its pool of pre-approved cybersecurity incident response companies.",
       "source": "The Record",
       "published": "2026-06-17T16:33:00+00:00"
+    },
+    {
+      "title": "CVE-2026-20181 - Cisco Identity Services Engine Remote Code Execution Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-20181",
+      "summary": "CVE ID :CVE-2026-20181 Published : June 17, 2026, 4:16 p.m. | 4 hours, 1 minute ago Description :A vulnerability in Cisco ISE and ISE-PIC could allow an authenticated, remote attacker to execute...",
+      "source": "CVE Feed",
+      "published": "2026-06-17T16:16:56+00:00"
     },
     {
       "title": "Junior Hacker Used Tailscale and OpenSSH to Keep Access After His C2 Went Offline",
@@ -102,65 +179,51 @@
     {
       "title": "CVE-2026-53874 - picklescan - Arbitrary Code Execution via Obfuscated eval Call",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-53874",
-      "summary": "CVE ID :CVE-2026-53874 Published : June 17, 2026, 3:05 p.m. | 2 hours, 47 minutes ago Description :picklescan before 1.0.1 contains an unsafe deserialization vulnerability allowing unauthenticated...",
+      "summary": "CVE ID :CVE-2026-53874 Published : June 17, 2026, 3:05 p.m. | 5 hours, 12 minutes ago Description :picklescan before 1.0.1 contains an unsafe deserialization vulnerability allowing unauthenticated...",
       "source": "CVE Feed",
       "published": "2026-06-17T15:05:03+00:00"
     },
     {
       "title": "CVE-2026-53873 - picklescan - Arbitrary Code Execution via profile.run() Blocklist Bypass",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-53873",
-      "summary": "CVE ID :CVE-2026-53873 Published : June 17, 2026, 3:05 p.m. | 2 hours, 47 minutes ago Description :picklescan before 1.0.4 contains an incomplete blocklist for the profile module that fails to block...",
+      "summary": "CVE ID :CVE-2026-53873 Published : June 17, 2026, 3:05 p.m. | 5 hours, 12 minutes ago Description :picklescan before 1.0.4 contains an incomplete blocklist for the profile module that fails to block...",
       "source": "CVE Feed",
       "published": "2026-06-17T15:05:02+00:00"
     },
     {
       "title": "CVE-2026-53872 - picklescan - Arbitrary File Read via Unsafe Pickle Deserialization",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-53872",
-      "summary": "CVE ID :CVE-2026-53872 Published : June 17, 2026, 3:05 p.m. | 2 hours, 47 minutes ago Description :picklescan before 0.0.35 contains an unsafe pickle deserialization vulnerability allowing...",
+      "summary": "CVE ID :CVE-2026-53872 Published : June 17, 2026, 3:05 p.m. | 5 hours, 12 minutes ago Description :picklescan before 0.0.35 contains an unsafe pickle deserialization vulnerability allowing...",
       "source": "CVE Feed",
       "published": "2026-06-17T15:05:02+00:00"
     },
     {
       "title": "CVE-2026-3490 - picklescan - Universal Blocklist Bypass via pkgutil.resolve_name",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-3490",
-      "summary": "CVE ID :CVE-2026-3490 Published : June 17, 2026, 3:05 p.m. | 2 hours, 47 minutes ago Description :picklescan before 1.0.4 fails to block pkgutil.resolve_name, allowing attackers to bypass the entire...",
+      "summary": "CVE ID :CVE-2026-3490 Published : June 17, 2026, 3:05 p.m. | 5 hours, 12 minutes ago Description :picklescan before 1.0.4 fails to block pkgutil.resolve_name, allowing attackers to bypass the entire...",
       "source": "CVE Feed",
       "published": "2026-06-17T15:05:01+00:00"
     },
     {
       "title": "CVE-2025-71325 - picklescan - Detection Bypass via STACK_GLOBAL Opcode Parsing Logic Flaw",
       "link": "https://cvefeed.io/vuln/detail/CVE-2025-71325",
-      "summary": "CVE ID :CVE-2025-71325 Published : June 17, 2026, 3:05 p.m. | 2 hours, 47 minutes ago Description :picklescan before 0.0.27 contains a parsing logic error in the _list_globals function when handling...",
+      "summary": "CVE ID :CVE-2025-71325 Published : June 17, 2026, 3:05 p.m. | 5 hours, 12 minutes ago Description :picklescan before 0.0.27 contains a parsing logic error in the _list_globals function when handling...",
       "source": "CVE Feed",
       "published": "2026-06-17T15:05:00+00:00"
     },
     {
       "title": "CVE-2025-71323 - picklescan - Remote Code Execution via Unblocked ctypes Module",
       "link": "https://cvefeed.io/vuln/detail/CVE-2025-71323",
-      "summary": "CVE ID :CVE-2025-71323 Published : June 17, 2026, 3:05 p.m. | 2 hours, 47 minutes ago Description :picklescan before 0.0.33 fails to block the ctypes module, allowing attackers to achieve remote code...",
+      "summary": "CVE ID :CVE-2025-71323 Published : June 17, 2026, 3:05 p.m. | 5 hours, 13 minutes ago Description :picklescan before 0.0.33 fails to block the ctypes module, allowing attackers to achieve remote code...",
       "source": "CVE Feed",
       "published": "2026-06-17T15:05:00+00:00"
     },
     {
       "title": "CVE-2025-71322 - PickleScan - Unsafe Globals Check Bypass via pty.spawn Function",
       "link": "https://cvefeed.io/vuln/detail/CVE-2025-71322",
-      "summary": "CVE ID :CVE-2025-71322 Published : June 17, 2026, 3:04 p.m. | 2 hours, 47 minutes ago Description :PickleScan before 0.0.33 fails to include the pty.spawn function in its unsafe globals list...",
+      "summary": "CVE ID :CVE-2025-71322 Published : June 17, 2026, 3:04 p.m. | 5 hours, 13 minutes ago Description :PickleScan before 0.0.33 fails to include the pty.spawn function in its unsafe globals list...",
       "source": "CVE Feed",
       "published": "2026-06-17T15:04:59+00:00"
-    },
-    {
-      "title": "CVE-2025-71321 - picklescan - Arbitrary File Writing via distutils Module Bypass",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2025-71321",
-      "summary": "CVE ID :CVE-2025-71321 Published : June 17, 2026, 3:04 p.m. | 2 hours, 47 minutes ago Description :picklescan before 0.0.33 contains an arbitrary file writing vulnerability that allows attackers to...",
-      "source": "CVE Feed",
-      "published": "2026-06-17T15:04:58+00:00"
-    },
-    {
-      "title": "CVE-2025-71320 - picklescan - Remote Code Execution via Incomplete Disallowed Inputs",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2025-71320",
-      "summary": "CVE ID :CVE-2025-71320 Published : June 17, 2026, 3:04 p.m. | 2 hours, 47 minutes ago Description :picklescan before 0.0.33 contains an incomplete deny-list that fails to block pydoc.locate and...",
-      "source": "CVE Feed",
-      "published": "2026-06-17T15:04:58+00:00"
     },
     {
       "title": "Adversarial Exposure Validation Turns Security Visibility into Confident Prioritization",
@@ -168,41 +231,6 @@
       "summary": "For security teams, the findings never stop, but confidence in knowing which ones matter is becoming harder to maintain. The problem is no longer visibility. It's validation. Security teams must...",
       "source": "The Hacker News",
       "published": "2026-06-17T14:58:00+00:00"
-    },
-    {
-      "title": "CVE-2026-35065 - Dell PowerFlex Manager Missing Authentication for Critical Function",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-35065",
-      "summary": "CVE ID :CVE-2026-35065 Published : June 17, 2026, 2:42 p.m. | 3 hours, 9 minutes ago Description :Dell PowerFlex Manager, version(s) [Versions], contain(s) a Missing Authentication for Critical...",
-      "source": "CVE Feed",
-      "published": "2026-06-17T14:42:31+00:00"
-    },
-    {
-      "title": "CVE-2026-32804 - Dell PowerFlex Manager Improper Authentication",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-32804",
-      "summary": "CVE ID :CVE-2026-32804 Published : June 17, 2026, 2:36 p.m. | 3 hours, 15 minutes ago Description :Dell PowerFlex Manager, version(s) [Versions], contain(s) an Improper Authentication vulnerability...",
-      "source": "CVE Feed",
-      "published": "2026-06-17T14:36:55+00:00"
-    },
-    {
-      "title": "CVE-2026-47103 - Python StateMachine 3.0.0 < 3.2.0 RCE via SCXML eval() Injection",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-47103",
-      "summary": "CVE ID :CVE-2026-47103 Published : June 17, 2026, 2:32 p.m. | 3 hours, 20 minutes ago Description :Python StateMachine versions 3.0.0 before 3.2.0 contains a remote code execution vulnerability that...",
-      "source": "CVE Feed",
-      "published": "2026-06-17T14:32:08+00:00"
-    },
-    {
-      "title": "CVE-2026-54812 - WordPress Motors plugin <= 1.4.109 - SQL Injection vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54812",
-      "summary": "CVE ID :CVE-2026-54812 Published : June 17, 2026, 2:24 p.m. | 3 hours, 28 minutes ago Description :Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability...",
-      "source": "CVE Feed",
-      "published": "2026-06-17T14:24:22+00:00"
-    },
-    {
-      "title": "CVE-2026-55743 - OpenHuman desktop agent shell tool sandbox bypass leads to arbitrary command execution",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55743",
-      "summary": "CVE ID :CVE-2026-55743 Published : June 17, 2026, 2:08 p.m. | 3 hours, 43 minutes ago Description :The shell tool command allowlist in the SecurityPolicy of OpenHuman desktop agent through 0.54.0...",
-      "source": "CVE Feed",
-      "published": "2026-06-17T14:08:33+00:00"
     },
     {
       "title": "Webinar Today: How Modern Breaches Bypass MFA and Evade Detection",
@@ -217,34 +245,6 @@
       "summary": "Attackers are actively targeting various sectors across nearly 200 countries and already have compiled a list of working credentials for tens of thousands of compromised devices.",
       "source": "Dark Reading",
       "published": "2026-06-17T14:06:34+00:00"
-    },
-    {
-      "title": "CVE-2026-54415 - Broken Access Control in Azuriom CMS Server Routes Allows Account Takeover",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54415",
-      "summary": "CVE ID :CVE-2026-54415 Published : June 17, 2026, 2:04 p.m. | 3 hours, 47 minutes ago Description :Missing Authorization in the server management routes (routes/admin.php) in Azuriom Azuriom CMS...",
-      "source": "CVE Feed",
-      "published": "2026-06-17T14:04:59+00:00"
-    },
-    {
-      "title": "CVE-2026-11311 - NGINX Gateway Fabric vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-11311",
-      "summary": "CVE ID :CVE-2026-11311 Published : June 17, 2026, 2:04 p.m. | 3 hours, 47 minutes ago Description :When NGINX Plus is configured as the data plane for NGINX Gateway Fabric, an injection vulnerability...",
-      "source": "CVE Feed",
-      "published": "2026-06-17T14:04:33+00:00"
-    },
-    {
-      "title": "CVE-2026-42055 - NGINX ngx_http_proxy_v2_module and ngx_http_grpc_module vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-42055",
-      "summary": "CVE ID :CVE-2026-42055 Published : June 17, 2026, 2:04 p.m. | 3 hours, 47 minutes ago Description :NGINX Plus and NGINX Open Source have a vulnerability in the ngx_http_proxy_v2_module and...",
-      "source": "CVE Feed",
-      "published": "2026-06-17T14:04:32+00:00"
-    },
-    {
-      "title": "CVE-2026-42530 - NGINX Open-Source ngx_http_v3_module vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-42530",
-      "summary": "CVE ID :CVE-2026-42530 Published : June 17, 2026, 2:04 p.m. | 3 hours, 47 minutes ago Description :NGINX Open Source has a vulnerability in the ngx_http_v3_module module. When NGINX Open Source is...",
-      "source": "CVE Feed",
-      "published": "2026-06-17T14:04:32+00:00"
     },
     {
       "title": "Why Account Takeovers Are Rising and How to Stop Them",
