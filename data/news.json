@@ -1,6 +1,48 @@
 {
-  "last_updated": "2026-06-23T12:53:08.845273+00:00",
+  "last_updated": "2026-06-23T15:00:08.319301+00:00",
   "articles": [
+    {
+      "title": "GitHub Updates actions/checkout to Block Common Pwn Request Attack Patterns",
+      "link": "https://thehackernews.com/2026/06/github-updates-actionscheckout-to-block.html",
+      "summary": "GitHub is moving to strengthen software supply chain security by updating \"actions/checkout\" to block pwn request attacks that exploit the risky use of the \"pull_request_target workflow\" trigger to...",
+      "source": "The Hacker News",
+      "published": "2026-06-23T14:22:03+00:00"
+    },
+    {
+      "title": "The Exploit Doesn't Exist. You Can Still Prove It Works Against You",
+      "link": "https://www.bleepingcomputer.com/news/security/the-exploit-doesnt-exist-you-can-still-prove-it-works-against-you/",
+      "summary": "Attackers can now weaponize newly disclosed vulnerabilities far faster than most organizations can patch them. Picus Security explains how security teams can validate exploitability before a public...",
+      "source": "BleepingComputer",
+      "published": "2026-06-23T14:01:11+00:00"
+    },
+    {
+      "title": "LastPass confirms data breach in Klue supply chain attack",
+      "link": "https://www.bleepingcomputer.com/news/security/lastpass-confirms-data-breach-in-klue-supply-chain-attack/",
+      "summary": "LastPass announced that hackers accessed customer data from its Salesforce environment after stealing the company's OAuth tokens in the Klue supply chain attack earlier this month. [...]",
+      "source": "BleepingComputer",
+      "published": "2026-06-23T13:58:25+00:00"
+    },
+    {
+      "title": "SocGholish Takedown Highlights Malicious TDS Threats",
+      "link": "https://www.darkreading.com/cyber-risk/socgholish-takedown-malicious-tds-threats",
+      "summary": "SocGholish uses traffic distribution systems (TDSs) to provide initial access into victims' networks for cybercrime groups such as the notorious Evil Corp.",
+      "source": "Dark Reading",
+      "published": "2026-06-23T13:51:33+00:00"
+    },
+    {
+      "title": "Two Scattered Spider members plead guilty over cyberattack that crippled London transit",
+      "link": "https://therecord.media/guilty-plea-tfl-cyberattack-scattered-spider-members",
+      "summary": "A 20-year-old and an 18-year-old admitted to infiltrating the network of Transport for London in 2024, disrupting public transportation services for months.",
+      "source": "The Record",
+      "published": "2026-06-23T13:00:00+00:00"
+    },
+    {
+      "title": "Eight-Year-Old Samsung KNOX Flaw Exposed Millions of Galaxy Devices to Kernel Attacks",
+      "link": "https://www.securityweek.com/eight-year-old-samsung-knox-flaw-exposed-millions-of-galaxy-devices-to-kernel-attacks/",
+      "summary": "The high-severity use-after-free vulnerability in Samsung's KNOX security framework affected Android-powered Galaxy devices from the S9 through S25. The post Eight-Year-Old Samsung KNOX Flaw Exposed...",
+      "source": "SecurityWeek",
+      "published": "2026-06-23T13:00:00+00:00"
+    },
     {
       "title": "CISO Conversations: Carl Froggett – Combining CISO and CIO at Deep Instinct",
       "link": "https://www.securityweek.com/ciso-conversations-carl-froggett-combining-ciso-and-cio-at-deep-instinct/",
@@ -9,11 +51,123 @@
       "published": "2026-06-23T12:50:00+00:00"
     },
     {
-      "title": "FortiBleed Attackers Turn Firewalls Into Credentials Stealers as Heist Persists",
+      "title": "FortiBleed Attackers Turn Firewalls Into Credential Stealers as Heists Persist",
       "link": "https://www.darkreading.com/cyberattacks-data-breaches/fortibleed-attackers-firewalls-credentials-stealers",
       "summary": "The threat actors engineered a Golang-based sniffer to target 430,000 FortiGate firewalls and identify 110 million credentials in the ongoing global campaign.",
       "source": "Dark Reading",
       "published": "2026-06-23T12:34:54+00:00"
+    },
+    {
+      "title": "CVE-2026-54892 - Plug: quadratic-time decoding of nested query/body parameters enables denial of service",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54892",
+      "summary": "CVE ID :CVE-2026-54892 Published : June 23, 2026, 12:31 p.m. | 1 hour, 2 minutes ago Description :Inefficient algorithmic complexity in Plug's nested-parameter decoder allows an unauthenticated...",
+      "source": "CVE Feed",
+      "published": "2026-06-23T12:31:12+00:00"
+    },
+    {
+      "title": "CVE-2026-56784 - OpenRemote Manager - Cross-Tenant IDOR in Bulk Alarm Deletion",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56784",
+      "summary": "CVE ID :CVE-2026-56784 Published : June 23, 2026, 12:13 p.m. | 1 hour, 20 minutes ago Description :OpenRemote Manager before 1.24.2 contains an insecure direct object reference vulnerability in the...",
+      "source": "CVE Feed",
+      "published": "2026-06-23T12:13:07+00:00"
+    },
+    {
+      "title": "CVE-2026-56322 - Capgo - Information Disclosure via Unauthenticated /updates defaultChannel Parameter",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56322",
+      "summary": "CVE ID :CVE-2026-56322 Published : June 23, 2026, 12:13 p.m. | 1 hour, 20 minutes ago Description :Capgo before 12.128.2 contains an information disclosure vulnerability in the unauthenticated...",
+      "source": "CVE Feed",
+      "published": "2026-06-23T12:13:03+00:00"
+    },
+    {
+      "title": "CVE-2026-56315 - picklescan - Remote Code Execution via Unblocked Standard Library Modules",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56315",
+      "summary": "CVE ID :CVE-2026-56315 Published : June 23, 2026, 12:13 p.m. | 1 hour, 20 minutes ago Description :picklescan before 1.0.4 fails to block at least seven Python standard library modules (including...",
+      "source": "CVE Feed",
+      "published": "2026-06-23T12:13:02+00:00"
+    },
+    {
+      "title": "CVE-2026-56274 - Flowise - Remote Code Execution via MCP Security Bypass in validateCommandFlags and validateArgsForLocalFileAccess",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56274",
+      "summary": "CVE ID :CVE-2026-56274 Published : June 23, 2026, 12:13 p.m. | 1 hour, 20 minutes ago Description :Flowise before 3.1.2 contains multiple OS command injection vulnerabilities in the Custom MCP Server...",
+      "source": "CVE Feed",
+      "published": "2026-06-23T12:13:00+00:00"
+    },
+    {
+      "title": "CVE-2026-56258 - Crawl4AI - Arbitrary File Write via output_path Symlink and TOCTOU",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56258",
+      "summary": "CVE ID :CVE-2026-56258 Published : June 23, 2026, 12:12 p.m. | 1 hour, 20 minutes ago Description :Crawl4AI before 0.8.8 contains an arbitrary file write vulnerability in the screenshot and PDF...",
+      "source": "CVE Feed",
+      "published": "2026-06-23T12:12:59+00:00"
+    },
+    {
+      "title": "CVE-2026-56248 - Capgo - Unauthenticated Denial-of-Service via audit_logs RLS Policy",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56248",
+      "summary": "CVE ID :CVE-2026-56248 Published : June 23, 2026, 12:12 p.m. | 1 hour, 20 minutes ago Description :Cap-go capgo (capgo-backend) before 12.128.12 contains an unauthenticated denial-of-service...",
+      "source": "CVE Feed",
+      "published": "2026-06-23T12:12:58+00:00"
+    },
+    {
+      "title": "CVE-2026-56243 - Capgo - Hashed API Key Enforcement Bypass via PostgREST/RLS Plane",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56243",
+      "summary": "CVE ID :CVE-2026-56243 Published : June 23, 2026, 12:12 p.m. | 1 hour, 20 minutes ago Description :Capgo before 12.128.2 contains a security control bypass vulnerability where the PostgREST/RLS plane...",
+      "source": "CVE Feed",
+      "published": "2026-06-23T12:12:57+00:00"
+    },
+    {
+      "title": "CVE-2026-56225 - Capgo - Authorization Bypass in API Key Management via App-Limited Keys",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56225",
+      "summary": "CVE ID :CVE-2026-56225 Published : June 23, 2026, 12:12 p.m. | 1 hour, 20 minutes ago Description :Capgo before 12.128.2 contains an authorization bypass vulnerability in its public API key...",
+      "source": "CVE Feed",
+      "published": "2026-06-23T12:12:56+00:00"
+    },
+    {
+      "title": "CVE-2026-56222 - Capgo - Cross-Organization App Takeover via Mismatched org_id and app_id in /private/role_bindings",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56222",
+      "summary": "CVE ID :CVE-2026-56222 Published : June 23, 2026, 12:12 p.m. | 1 hour, 20 minutes ago Description :Capgo before 12.128.2 contains an authorization bypass vulnerability in POST /private/role_bindings...",
+      "source": "CVE Feed",
+      "published": "2026-06-23T12:12:55+00:00"
+    },
+    {
+      "title": "CVE-2025-71376 - picklescan - Arbitrary Code Execution via Undetected idlelib.autocomplete.AutoComplete.fetch_completions",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2025-71376",
+      "summary": "CVE ID :CVE-2025-71376 Published : June 23, 2026, 12:12 p.m. | 1 hour, 20 minutes ago Description :picklescan before 0.0.29 fails to detect malicious pickle files using...",
+      "source": "CVE Feed",
+      "published": "2026-06-23T12:12:55+00:00"
+    },
+    {
+      "title": "CVE-2025-71370 - picklescan - Remote Code Execution via torch.jit.unsupported_tensor_ops.execWrapper",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2025-71370",
+      "summary": "CVE ID :CVE-2025-71370 Published : June 23, 2026, 12:12 p.m. | 1 hour, 20 minutes ago Description :picklescan before 0.0.28 fails to detect malicious torch.jit.unsupported_tensor_ops.execWrapper...",
+      "source": "CVE Feed",
+      "published": "2026-06-23T12:12:54+00:00"
+    },
+    {
+      "title": "CVE-2025-71365 - picklescan - Arbitrary Code Execution via numpy.f2py.crackfortran.myeval Detection Bypass",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2025-71365",
+      "summary": "CVE ID :CVE-2025-71365 Published : June 23, 2026, 12:12 p.m. | 1 hour, 20 minutes ago Description :picklescan before 0.0.33 fails to detect malicious pickle files that invoke...",
+      "source": "CVE Feed",
+      "published": "2026-06-23T12:12:53+00:00"
+    },
+    {
+      "title": "CVE-2025-71341 - picklescan - Remote Code Execution via Undetected profile.Profile.runctx",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2025-71341",
+      "summary": "CVE ID :CVE-2025-71341 Published : June 23, 2026, 12:12 p.m. | 1 hour, 20 minutes ago Description :picklescan before 0.0.29 fails to detect the profile.Profile.runctx function when analyzing pickle...",
+      "source": "CVE Feed",
+      "published": "2026-06-23T12:12:53+00:00"
+    },
+    {
+      "title": "CVE-2025-71337 - Flowise - Unverified Email Change via Account Profile Endpoint",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2025-71337",
+      "summary": "CVE ID :CVE-2025-71337 Published : June 23, 2026, 12:12 p.m. | 1 hour, 21 minutes ago Description :Flowise before 3.0.10 (affected versions 3.0.7 and earlier) contains an unverified email change...",
+      "source": "CVE Feed",
+      "published": "2026-06-23T12:12:52+00:00"
+    },
+    {
+      "title": "CVE-2023-54365 - Traefik - Denial of Service via HTTP/2 Request Handling",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2023-54365",
+      "summary": "CVE ID :CVE-2023-54365 Published : June 23, 2026, 12:12 p.m. | 1 hour, 21 minutes ago Description :Traefik before 2.10.5 and 3.0.0-beta4 is affected by a denial-of-service vulnerability in HTTP/2...",
+      "source": "CVE Feed",
+      "published": "2026-06-23T12:12:51+00:00"
     },
     {
       "title": "Webinar: Why email security teams are drowning in alerts",
@@ -23,11 +177,32 @@
       "published": "2026-06-23T12:12:20+00:00"
     },
     {
+      "title": "CVE-2026-10711 - RCE in Akınsoft's CafePlus",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-10711",
+      "summary": "CVE ID :CVE-2026-10711 Published : June 23, 2026, 12:08 p.m. | 1 hour, 25 minutes ago Description :Missing authentication for critical function vulnerability in AKIN Software Computer Import Export...",
+      "source": "CVE Feed",
+      "published": "2026-06-23T12:08:33+00:00"
+    },
+    {
+      "title": "CVE-2026-44089 - Buffer Overflow in Totolink EX1200L router",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-44089",
+      "summary": "CVE ID :CVE-2026-44089 Published : June 23, 2026, 12:08 p.m. | 1 hour, 25 minutes ago Description :Totolink EX1200L router is vulnerable to Buffer Overflow in the login functionality in...",
+      "source": "CVE Feed",
+      "published": "2026-06-23T12:08:09+00:00"
+    },
+    {
       "title": "Algerian Man Extradited to US for Running Cybercrime Marketplaces",
       "link": "https://www.securityweek.com/algerian-man-extradited-to-us-for-running-cybercrime-marketplaces/",
       "summary": "26-year-old Abdellah Belmili faces up to 30 years in prison for allegedly operating the marketplaces Market0Day and Spoxy. The post Algerian Man Extradited to US for Running Cybercrime Marketplaces...",
       "source": "SecurityWeek",
       "published": "2026-06-23T12:06:15+00:00"
+    },
+    {
+      "title": "Kritiek beveiligingslek in FFmpeg maakt remote code execution mogelijk",
+      "link": "https://www.security.nl/posting/941785/Kritiek+beveiligingslek+in+FFmpeg+maakt+remote+code+execution+mogelijk?channel=rss",
+      "summary": "Kritiek beveiligingslek in FFmpeg maakt remote code execution mogelijk Een kritieke kwetsbaarheid in het zeer veelgebruikte 'multimedia framework' FFmpeg maakt remote code execution mogelijk als er...",
+      "source": "CVE Newsroom",
+      "published": "2026-06-23T11:53:35+00:00"
     },
     {
       "title": "FFmpeg PixelSmash Flaw Allows RCE on Video Players, Media Servers, NAS Appliances",
@@ -49,6 +224,13 @@
       "summary": "OpenAI has expanded its Daybreak cybersecurity initiative with a new suite of tools and partnerships. The post OpenAI Refocuses Cybersecurity Efforts on Patching Over Discovery appeared first on...",
       "source": "SecurityWeek",
       "published": "2026-06-23T11:07:02+00:00"
+    },
+    {
+      "title": "Vulnerability in Totolink EX1200L router software",
+      "link": "https://cert.pl/en/posts/2026/06/CVE-2026-44089/",
+      "summary": "Vulnerability in Totolink EX1200L router software Vulnerability in Totolink EX1200L router software CVE ID CVE-2026-44089 Publication date 23 June 2026 Vendor Totolink Product EX1200L Vulnerable...",
+      "source": "CVE Newsroom",
+      "published": "2026-06-23T10:55:00+00:00"
     },
     {
       "title": "Russian Initial Access Broker Behind FortiBleed Campaign",
@@ -81,14 +263,14 @@
     {
       "title": "CVE-2026-11374 - Account Takeover via Predictable SSO Ticket Generation",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-11374",
-      "summary": "CVE ID :CVE-2026-11374 Published : June 23, 2026, 8:19 a.m. | 4 hours, 1 minute ago Description :In ManageEngine ADSelfService Plus, RecoveryManager Plus, M365 Manager Plus, and ADAudit Plus, the SSO...",
+      "summary": "CVE ID :CVE-2026-11374 Published : June 23, 2026, 8:19 a.m. | 5 hours, 14 minutes ago Description :In ManageEngine ADSelfService Plus, RecoveryManager Plus, M365 Manager Plus, and ADAudit Plus, the...",
       "source": "CVE Feed",
       "published": "2026-06-23T08:19:30+00:00"
     },
     {
       "title": "CVE-2026-10521 - Authenticated unintended access to critical program parameters",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-10521",
-      "summary": "CVE ID :CVE-2026-10521 Published : June 23, 2026, 7:34 a.m. | 4 hours, 46 minutes ago Description :An high privileged remote attacker can access a hidden configuration method, that should not be...",
+      "summary": "CVE ID :CVE-2026-10521 Published : June 23, 2026, 7:34 a.m. | 5 hours, 59 minutes ago Description :An high privileged remote attacker can access a hidden configuration method, that should not be...",
       "source": "CVE Feed",
       "published": "2026-06-23T07:34:10+00:00"
     },
@@ -109,23 +291,30 @@
     {
       "title": "CVE-2026-12866 - expr-eval Code Execution via toJSFunction",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-12866",
-      "summary": "CVE ID :CVE-2026-12866 Published : June 23, 2026, 5 a.m. | 7 hours, 20 minutes ago Description :All versions of the package expr-eval are vulnerable to Code Execution via the toJSFunction() API. An...",
+      "summary": "CVE ID :CVE-2026-12866 Published : June 23, 2026, 5 a.m. | 8 hours, 33 minutes ago Description :All versions of the package expr-eval are vulnerable to Code Execution via the toJSFunction() API. An...",
       "source": "CVE Feed",
       "published": "2026-06-23T05:00:00+00:00"
     },
     {
       "title": "OpenAI Expands Daybreak With GPT-5.5-Cyber to Help Defenders Patch Security Flaws",
       "link": "https://thehackernews.com/2026/06/openai-expands-daybreak-with-gpt-55.html",
-      "summary": "OpenAI on Monday said it's releasing an improved version of its GPT‑5.5‑Cyber model to trusted defenders as part of the Daybreak initiative the artificial intelligence (AI) company announced last...",
-      "source": "The Hacker News",
+      "summary": "OpenAI Expands Daybreak With GPT-5.5-Cyber to Help Defenders Patch Security Flaws OpenAI on Monday said it's releasing an improved version of its GPT‑5.5‑Cyber model to trusted defenders as part of...",
+      "source": "CVE Newsroom",
       "published": "2026-06-23T03:56:58+00:00"
     },
     {
       "title": "CVE-2026-11833 - FAST/TOOLS CI Server Information Disclosure",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-11833",
-      "summary": "CVE ID :CVE-2026-11833 Published : June 23, 2026, 12:53 a.m. | 11 hours, 27 minutes ago Description :Overview: A vulnerability has been found in FAST/TOOLS and CI Server. The web server may return a...",
+      "summary": "CVE ID :CVE-2026-11833 Published : June 23, 2026, 12:53 a.m. | 12 hours, 40 minutes ago Description :Overview: A vulnerability has been found in FAST/TOOLS and CI Server. The web server may return a...",
       "source": "CVE Feed",
       "published": "2026-06-23T00:53:43+00:00"
+    },
+    {
+      "title": "From Langflow to Monero: Inside CVE-2026-33017 Cryptominer",
+      "link": "https://www.trendmicro.com/en_us/research/26/f/from-langflow-to-monero-inside-cve-2026-33017-cryptominer.html",
+      "summary": "From Langflow to Monero: Inside CVE-2026-33017 Cryptominer Introduction This cryptocurrency-mining campaign shows how exposed AI application endpoints are becoming another route into enterprise...",
+      "source": "CVE Newsroom",
+      "published": "2026-06-23T00:00:00+00:00"
     },
     {
       "title": "WhatsApp phishing attack uses fake business docs to hack PCs",
@@ -137,14 +326,14 @@
     {
       "title": "CVE-2026-54232 - vLLM: Dependency Confusion Vulnerability in vLLM Dockerfile",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-54232",
-      "summary": "CVE ID :CVE-2026-54232 Published : June 22, 2026, 10:16 p.m. | 14 hours, 4 minutes ago Description :vLLM is an inference and serving engine for large language models (LLMs). Prior to 0.22.1, the vLLM...",
+      "summary": "CVE ID :CVE-2026-54232 Published : June 22, 2026, 10:16 p.m. | 15 hours, 17 minutes ago Description :vLLM is an inference and serving engine for large language models (LLMs). Prior to 0.22.1, the...",
       "source": "CVE Feed",
       "published": "2026-06-22T22:16:43+00:00"
     },
     {
       "title": "CVE-2026-48746 - vLLM: OpenAI auth bypass",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-48746",
-      "summary": "CVE ID :CVE-2026-48746 Published : June 22, 2026, 9:57 p.m. | 14 hours, 23 minutes ago Description :vLLM is an inference and serving engine for large language models (LLMs). From 0.3.0 until 0.22.0...",
+      "summary": "CVE ID :CVE-2026-48746 Published : June 22, 2026, 9:57 p.m. | 15 hours, 36 minutes ago Description :vLLM is an inference and serving engine for large language models (LLMs). From 0.3.0 until 0.22.0...",
       "source": "CVE Feed",
       "published": "2026-06-22T21:57:28+00:00"
     },
@@ -158,16 +347,9 @@
     {
       "title": "CVE-2026-48109 - MessagePack-CSharp: LZ4 decompression may fail with AccessViolationException after dereferencing memory from bad input",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-48109",
-      "summary": "CVE ID :CVE-2026-48109 Published : June 22, 2026, 9:19 p.m. | 15 hours, 1 minute ago Description :MessagePack for C# is a MessagePack serializer for C#. Prior to 2.5.301 and 3.1.7, A vulnerability...",
+      "summary": "CVE ID :CVE-2026-48109 Published : June 22, 2026, 9:19 p.m. | 16 hours, 13 minutes ago Description :MessagePack for C# is a MessagePack serializer for C#. Prior to 2.5.301 and 3.1.7, A vulnerability...",
       "source": "CVE Feed",
       "published": "2026-06-22T21:19:54+00:00"
-    },
-    {
-      "title": "CVE-2026-48502 - MessagePack-CSharp: Denial of service vulnerabilities can swamp the CPU or crash the process with stack and heap overflows",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48502",
-      "summary": "CVE ID :CVE-2026-48502 Published : June 22, 2026, 9:18 p.m. | 15 hours, 2 minutes ago Description :MessagePack for C# is a MessagePack serializer for C#. Prior to 2.5.301 and 3.1.7...",
-      "source": "CVE Feed",
-      "published": "2026-06-22T21:18:29+00:00"
     },
     {
       "title": "DifyTap Bugs Let Attackers 'Wiretap' AI Chat Histories",
@@ -184,76 +366,6 @@
       "published": "2026-06-22T21:05:01+00:00"
     },
     {
-      "title": "CVE-2026-56348 - n8n - Credential Exfiltration via Allowed HTTP Request Domains Bypass in Dynamic Node Parameters Endpoint",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56348",
-      "summary": "CVE ID :CVE-2026-56348 Published : June 22, 2026, 9:04 p.m. | 15 hours, 16 minutes ago Description :n8n before 2.20.0 contains a credential exfiltration vulnerability in the POST...",
-      "source": "CVE Feed",
-      "published": "2026-06-22T21:04:51+00:00"
-    },
-    {
-      "title": "CVE-2026-56324 - Capgo - Rate Limit Bypass via User-Controlled device_id Parameter",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56324",
-      "summary": "CVE ID :CVE-2026-56324 Published : June 22, 2026, 9:04 p.m. | 15 hours, 16 minutes ago Description :Capgo before 12.128.2 contains a rate limit bypass vulnerability in the channel_self endpoint that...",
-      "source": "CVE Feed",
-      "published": "2026-06-22T21:04:50+00:00"
-    },
-    {
-      "title": "CVE-2026-56323 - Capgo - Unauthenticated Channel Enumeration and App Oracle via GET /channel_self",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56323",
-      "summary": "CVE ID :CVE-2026-56323 Published : June 22, 2026, 9:04 p.m. | 15 hours, 16 minutes ago Description :Capgo before 12.128.2 contains an information disclosure vulnerability in the...",
-      "source": "CVE Feed",
-      "published": "2026-06-22T21:04:49+00:00"
-    },
-    {
-      "title": "CVE-2026-56266 - Crawl4AI - Server-Side Request Forgery via Direct Crawl Endpoints",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56266",
-      "summary": "CVE ID :CVE-2026-56266 Published : June 22, 2026, 9:04 p.m. | 15 hours, 16 minutes ago Description :Crawl4AI before 0.8.7 contains a server-side request forgery vulnerability in the /crawl...",
-      "source": "CVE Feed",
-      "published": "2026-06-22T21:04:44+00:00"
-    },
-    {
-      "title": "CVE-2025-71358 - picklescan - Remote Code Execution via idlelib.autocomplete.AutoComplete.get_entity",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2025-71358",
-      "summary": "CVE ID :CVE-2025-71358 Published : June 22, 2026, 9:04 p.m. | 15 hours, 16 minutes ago Description :picklescan before 0.0.29 fails to detect malicious pickle files that exploit...",
-      "source": "CVE Feed",
-      "published": "2026-06-22T21:04:42+00:00"
-    },
-    {
-      "title": "CVE-2025-71344 - picklescan - Arbitrary Code Execution via Undetected ensurepip._run_pip Function",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2025-71344",
-      "summary": "CVE ID :CVE-2025-71344 Published : June 22, 2026, 9:04 p.m. | 15 hours, 16 minutes ago Description :picklescan before 0.0.30 (affected versions 0.0.26 and earlier) fails to detect the...",
-      "source": "CVE Feed",
-      "published": "2026-06-22T21:04:41+00:00"
-    },
-    {
-      "title": "CVE-2025-71339 - Picklescan - Arbitrary Code Execution via numpy.f2py.crackfortran._eval_length Gadget",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2025-71339",
-      "summary": "CVE ID :CVE-2025-71339 Published : June 22, 2026, 9:04 p.m. | 15 hours, 16 minutes ago Description :Picklescan before 0.0.33 fails to detect the numpy.f2py.crackfortran._eval_length gadget in pickle...",
-      "source": "CVE Feed",
-      "published": "2026-06-22T21:04:41+00:00"
-    },
-    {
-      "title": "CVE-2026-54281 - Nest: Middleware Bypass on Fastify via Trailing Slash",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54281",
-      "summary": "CVE ID :CVE-2026-54281 Published : June 22, 2026, 8:48 p.m. | 15 hours, 32 minutes ago Description :Nest is a framework for building scalable Node.js server-side applications. Prior to 11.1.24, an...",
-      "source": "CVE Feed",
-      "published": "2026-06-22T20:48:45+00:00"
-    },
-    {
-      "title": "CVE-2026-49468 - LiteLLM: Authentication Bypass via Host Header Injection",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-49468",
-      "summary": "CVE ID :CVE-2026-49468 Published : June 22, 2026, 8:37 p.m. | 15 hours, 43 minutes ago Description :LiteLLM is a proxy server (AI Gateway) to call LLM APIs in OpenAI (or native) format. Prior to...",
-      "source": "CVE Feed",
-      "published": "2026-06-22T20:37:14+00:00"
-    },
-    {
-      "title": "CVE-2026-45034 - PhpSpreadsheet: File::prohibitWrappers bypass",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-45034",
-      "summary": "CVE ID :CVE-2026-45034 Published : June 22, 2026, 8:32 p.m. | 15 hours, 48 minutes ago Description :PhpSpreadsheet is a pure PHP library for reading and writing spreadsheet files. Prior to 1.30.5...",
-      "source": "CVE Feed",
-      "published": "2026-06-22T20:32:32+00:00"
-    },
-    {
       "title": "FortiBleed campaign used custom FortiGate sniffer to steal credentials",
       "link": "https://www.bleepingcomputer.com/news/security/fortibleed-campaign-used-custom-fortigate-sniffer-to-steal-credentials/",
       "summary": "Security firm SOCRadar says the large-scale FortiBleed campaign targeting Fortinet FortiGate devices used custom sniffers to harvest authentication secrets from compromised firewalls and steal...",
@@ -261,46 +373,11 @@
       "published": "2026-06-22T20:01:02+00:00"
     },
     {
-      "title": "CVE-2026-44727 - Jupyter Server: Stored XSS in `NbconvertFileHandler` / `NbconvertPostHandler` via missing `sandbox` CSP",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-44727",
-      "summary": "CVE ID :CVE-2026-44727 Published : June 22, 2026, 7:56 p.m. | 16 hours, 24 minutes ago Description :Jupyter Server is the backend for Jupyter web applications. Prior to 2.20, the nbconvert HTTP...",
-      "source": "CVE Feed",
-      "published": "2026-06-22T19:56:56+00:00"
-    },
-    {
-      "title": "CVE-2026-44271 - Dell Wyse Management Suite SQL Injection",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-44271",
-      "summary": "CVE ID :CVE-2026-44271 Published : June 22, 2026, 7 p.m. | 17 hours, 20 minutes ago Description :Dell Wyse Management Suite (WMS), versions prior to WMS 2605, contain an Improper Neutralization of...",
-      "source": "CVE Feed",
-      "published": "2026-06-22T19:00:51+00:00"
-    },
-    {
-      "title": "CVE-2026-44272 - Dell Wyse Management Suite SQL Injection",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-44272",
-      "summary": "CVE ID :CVE-2026-44272 Published : June 22, 2026, 6:56 p.m. | 17 hours, 23 minutes ago Description :Dell Wyse Management Suite (WMS), versions prior to WMS 2605, contain an Improper Neutralization of...",
-      "source": "CVE Feed",
-      "published": "2026-06-22T18:56:59+00:00"
-    },
-    {
-      "title": "CVE-2026-53779 - WebP Server Go < 0.15.0 Path Traversal via Backslash Encoding on Windows",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-53779",
-      "summary": "CVE ID :CVE-2026-53779 Published : June 22, 2026, 6:22 p.m. | 17 hours, 58 minutes ago Description :WebP Server Go through 0.14.4 contains a path traversal vulnerability on Windows that allows...",
-      "source": "CVE Feed",
-      "published": "2026-06-22T18:22:40+00:00"
-    },
-    {
       "title": "ShapedPlugin WordPress Pro Plugins Backdoored in Supply Chain Attack",
       "link": "https://thehackernews.com/2026/06/shapedplugin-wordpress-pro-plugins.html",
-      "summary": "Multiple WordPress plugins from ShapedPlugin were compromised in a supply chain attack after unknown threat actors managed to tamper with the official release channels and push backdoor code...",
-      "source": "The Hacker News",
+      "summary": "ShapedPlugin WordPress Pro Plugins Backdoored in Supply Chain Attack Multiple WordPress plugins from ShapedPlugin were compromised in a supply chain attack after unknown threat actors managed to...",
+      "source": "CVE Newsroom",
       "published": "2026-06-22T18:00:48+00:00"
-    },
-    {
-      "title": "CVE-2026-11834 - Unauthenticated Command Injection via DHCP Option Handling in Multiple TP-Link Routers",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-11834",
-      "summary": "CVE ID :CVE-2026-11834 Published : June 22, 2026, 5:53 p.m. | 18 hours, 27 minutes ago Description :A command injection vulnerability has been identified in the DHCP option processing logic in...",
-      "source": "CVE Feed",
-      "published": "2026-06-22T17:53:48+00:00"
     },
     {
       "title": "Microsoft says Windows 11 26H2 is coming soon, details upgrade process",
@@ -317,31 +394,10 @@
       "published": "2026-06-22T17:28:57+00:00"
     },
     {
-      "title": "CVE-2026-10789 - MCP Extension Code Injection Vulnerability in Autodesk Fusion Desktop",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-10789",
-      "summary": "CVE ID :CVE-2026-10789 Published : June 22, 2026, 5:15 p.m. | 19 hours, 5 minutes ago Description :A maliciously crafted webpage, when visited by a user with Autodesk Fusion Desktop running and the...",
-      "source": "CVE Feed",
-      "published": "2026-06-22T17:15:25+00:00"
-    },
-    {
-      "title": "CVE-2026-55388 - piscina: Prototype Pollution Gadget → RCE via inherited options.filename",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55388",
-      "summary": "CVE ID :CVE-2026-55388 Published : June 22, 2026, 4:50 p.m. | 19 hours, 30 minutes ago Description :piscina is a node.js worker pool implementation. Prior to 6.0.0-rc.2, 5.2.0, and 4.9.3, piscina's...",
-      "source": "CVE Feed",
-      "published": "2026-06-22T16:50:40+00:00"
-    },
-    {
-      "title": "29-Year-Old Squid Proxy Bug 'Squidbleed' Can Leak Cleartext HTTP Requests",
-      "link": "https://thehackernews.com/2026/06/29-year-old-squid-proxy-bug-squidbleed.html",
-      "summary": "A heap over-read in the Squid web proxy can leak another user's cleartext HTTP request, including any credentials or session tokens it carries, to anyone already allowed to send traffic through the...",
-      "source": "The Hacker News",
-      "published": "2026-06-22T16:29:00+00:00"
-    },
-    {
       "title": "Researchers Detail DifyTap Flaws in Dify That Could Expose AI Chats Across Tenants",
       "link": "https://thehackernews.com/2026/06/researchers-detail-difytap-flaws-in.html",
-      "summary": "Cybersecurity researchers have disclosed details of four vulnerabilities in Dify, an open-source agentic workflow platform with more than 146,000 GitHub stars, that could allow attackers to...",
-      "source": "The Hacker News",
+      "summary": "Researchers Detail DifyTap Flaws in Dify That Could Expose AI Chats Across Tenants Cybersecurity researchers have disclosed details of four vulnerabilities in Dify, an open-source agentic workflow...",
+      "source": "CVE Newsroom",
       "published": "2026-06-22T16:13:28+00:00"
     },
     {
@@ -350,6 +406,20 @@
       "summary": "Attackers are using multiple online channels — including GitHub, YouTube, and VirusTotal — to build an illusion of trust to spread a cross-platform clipboard hijacker.",
       "source": "Dark Reading",
       "published": "2026-06-22T16:10:10+00:00"
+    },
+    {
+      "title": "29-Year-Old Squid Proxy Bug 'Squidbleed' Can Leak Cleartext HTTP Requests",
+      "link": "https://thehackernews.com/2026/06/29-year-old-squid-proxy-bug-squidbleed.html",
+      "summary": "29-Year-Old Squid Proxy Bug 'Squidbleed' Can Leak Cleartext HTTP Requests A heap over-read in the Squid web proxy can leak another user's cleartext HTTP request, including any credentials or session...",
+      "source": "CVE Newsroom",
+      "published": "2026-06-22T14:29:46+00:00"
+    },
+    {
+      "title": "He Thought He Was Secure; His Phone Number Got Stolen Anyway",
+      "link": "https://www.darkreading.com/cyber-risk/how-a-sim-swap-attack-led-to-a-near-account-takeover",
+      "summary": "Threat actors can easily steal one-time passwords sent by text when they conduct a SIM swap attack. This can lead to account takeovers, so users must layer up their security measures.",
+      "source": "Dark Reading",
+      "published": "2026-06-22T14:12:11+00:00"
     },
     {
       "title": "Suspected cyberattack triggers false emergency alerts across parts of Brazil",
@@ -389,22 +459,15 @@
     {
       "title": "Stop Your Legacy Infrastructure from Hijacking Your AI Agents",
       "link": "https://thehackernews.com/2026/06/stop-your-legacy-infrastructure-from.html",
-      "summary": "Earlier this month, I spoke at the Gartner Security & Risk Management Summit about a blind spot most security programs are still not accounting for - how attackers are circumventing AI security...",
-      "source": "The Hacker News",
+      "summary": "Stop Your Legacy Infrastructure from Hijacking Your AI Agents Earlier this month, I spoke at the Gartner Security & Risk Management Summit about a blind spot most security programs are still not...",
+      "source": "CVE Newsroom",
       "published": "2026-06-22T11:58:00+00:00"
-    },
-    {
-      "title": "Attackers Exploit Gravity SMTP Plugin Flaw to Harvest Valuable WordPress Data",
-      "link": "https://www.securityweek.com/attackers-exploit-gravity-smtp-plugin-flaw-to-harvest-valuable-wordpress-data/",
-      "summary": "Vulnerable WordPress plugin iterations leak API keys, secrets, tokens, server information, and other data. The post Attackers Exploit Gravity SMTP Plugin Flaw to Harvest Valuable WordPress Data...",
-      "source": "SecurityWeek",
-      "published": "2026-06-22T11:45:43+00:00"
     },
     {
       "title": "⚡ Weekly Recap: Browser Bugs, EDR Killers, TV Botnet, OpenBSD Flaw, Android Trojan, and More",
       "link": "https://thehackernews.com/2026/06/weekly-recap-browser-bugs-edr-killers.html",
-      "summary": "It’s Monday again. This week’s threat list looks painfully familiar: abused integrations, fake tools, poisoned websites, ransomware crews trying to shut down security tools, and mobile malware asking...",
-      "source": "The Hacker News",
+      "summary": "⚡ Weekly Recap: Browser Bugs, EDR Killers, TV Botnet, OpenBSD Flaw, Android Trojan, and More It’s Monday again. This week’s threat list looks painfully familiar: abused integrations, fake tools...",
+      "source": "CVE Newsroom",
       "published": "2026-06-22T10:55:10+00:00"
     },
     {
@@ -417,8 +480,8 @@
     {
       "title": "AryStinger Malware Infects 4,300 Legacy Routers to Build Reconnaissance Proxy Network",
       "link": "https://thehackernews.com/2026/06/arystinger-malware-infects-4300-legacy.html",
-      "summary": "A new malware family is turning forgotten home routers into a distributed reconnaissance and proxy network, not the DDoS botnet these devices usually end up in. QiAnXin's XLab calls it AryStinger and...",
-      "source": "The Hacker News",
+      "summary": "AryStinger Malware Infects 4,300 Legacy Routers to Build Reconnaissance Proxy Network A new malware family is turning forgotten home routers into a distributed reconnaissance and proxy network, not...",
+      "source": "CVE Newsroom",
       "published": "2026-06-22T06:57:44+00:00"
     },
     {
@@ -452,8 +515,8 @@
     {
       "title": "Hackers Exploit Gravity SMTP WordPress Plugin Bug to Expose API Keys",
       "link": "https://thehackernews.com/2026/06/hackers-exploit-gravity-smtp-wordpress.html",
-      "summary": "Threat actors are exploiting a recently patched security flaw impacting Gravity SMTP, a WordPress plugin that's installed on about 100,000 sites. The vulnerability, tracked as CVE-2026-4020 (CVSS...",
-      "source": "The Hacker News",
+      "summary": "Hackers Exploit Gravity SMTP WordPress Plugin Bug to Expose API Keys Threat actors are exploiting a recently patched security flaw impacting Gravity SMTP, a WordPress plugin that's installed on about...",
+      "source": "CVE Newsroom",
       "published": "2026-06-20T09:56:04+00:00"
     },
     {
@@ -485,17 +548,10 @@
       "published": "2026-06-19T18:33:07+00:00"
     },
     {
-      "title": "Texas govt data breach exposes over 3 million driver’s licenses",
-      "link": "https://www.bleepingcomputer.com/news/security/texas-govt-data-breach-exposes-over-3-million-drivers-licenses/",
-      "summary": "The Texas Parks and Wildlife Department (TPWD) disclosed a data breach at its license system vendor that exposed personal information for more than three million individuals. [...]",
-      "source": "BleepingComputer",
-      "published": "2026-06-19T16:12:41+00:00"
-    },
-    {
       "title": "AutoJack Attack Lets One Web Page Hijack AI Agent for Host Code Execution",
       "link": "https://thehackernews.com/2026/06/autojack-attack-lets-one-web-page.html",
-      "summary": "Microsoft researchers have detailed an exploit chain, named AutoJack, that turns an AI browsing agent into a delivery vehicle for remote code execution. Steer the agent to load an attacker's web...",
-      "source": "The Hacker News",
+      "summary": "AutoJack Attack Lets One Web Page Hijack AI Agent for Host Code Execution Microsoft researchers have detailed an exploit chain, named AutoJack, that turns an AI browsing agent into a delivery vehicle...",
+      "source": "CVE Newsroom",
       "published": "2026-06-19T15:30:47+00:00"
     },
     {
@@ -518,13 +574,6 @@
       "summary": "The Cyber Express Weekly Roundup: Cybersecurity Weekly Round on Emerging Threats, Data Breaches, and Global Policy Shifts This week’s weekly roundup of cybersecurity developments highlights an...",
       "source": "CVE Newsroom",
       "published": "2026-06-19T13:20:24+00:00"
-    },
-    {
-      "title": "Every AI Agent Is an Identity. Most Organizations Don't Treat Them That Way",
-      "link": "https://www.bleepingcomputer.com/news/security/every-ai-agent-is-an-identity-most-organizations-dont-treat-them-that-way/",
-      "summary": "AI agents can access data, trigger workflows, deploy code, and interact with critical business systems, often with little oversight. Token Security breaks down why AI agents are becoming a new...",
-      "source": "BleepingComputer",
-      "published": "2026-06-19T13:10:19+00:00"
     },
     {
       "title": "Stressors, AI Forcing Changes to Cybersecurity Teams",
@@ -585,8 +634,8 @@
     {
       "title": "Apple Patches Beats Studio Buds Flaw Letting Nearby Attackers Spy via Microphone",
       "link": "https://thehackernews.com/2026/06/apple-patches-beats-studio-buds-flaw.html",
-      "summary": "Apple has updated its Beats Studio Buds wireless earbuds to patch a high-severity vulnerability that could be exploited by nearby hackers to eavesdrop on users. The vulnerability, tracked as...",
-      "source": "The Hacker News",
+      "summary": "Apple Patches Beats Studio Buds Flaw Letting Nearby Attackers Spy via Microphone Apple has updated its Beats Studio Buds wireless earbuds to patch a high-severity vulnerability that could be...",
+      "source": "CVE Newsroom",
       "published": "2026-06-19T06:36:09+00:00"
     },
     {
@@ -641,8 +690,8 @@
     {
       "title": "F5 Patches Two Critical NGINX Open Source Flaws Enabling Remote Code Execution",
       "link": "https://thehackernews.com/2026/06/f5-patches-two-critical-nginx-open.html",
-      "summary": "F5 has released security updates to address two critical security flaws in NGINX Open Source that could be exploited to achieve code execution on affected systems. The vulnerabilities are listed...",
-      "source": "The Hacker News",
+      "summary": "F5 Patches Two Critical NGINX Open Source Flaws Enabling Remote Code Execution Ravie LakshmananJun 18, 2026Vulnerability / Cloud Security F5 has released security updates to address two critical...",
+      "source": "CVE Newsroom",
       "published": "2026-06-18T17:32:14+00:00"
     },
     {
@@ -662,8 +711,8 @@
     {
       "title": "ThreatsDay Bulletin: Claude Chat Abuse, NastyC2 npm Packages, Device-Code Phishing + 25 More Stories",
       "link": "https://thehackernews.com/2026/06/threatsday-bulletin-claude-chat-abuse.html",
-      "summary": "The internet did not break this week. It got used exactly as designed, which is worse. Searches were siphoned through shady browser add-ons. AI chat links turned into malware delivery paths. macOS...",
-      "source": "The Hacker News",
+      "summary": "ThreatsDay Bulletin: Claude Chat Abuse, NastyC2 npm Packages, Device-Code Phishing + 25 More Stories The internet did not break this week. It got used exactly as designed, which is worse.Searches...",
+      "source": "CVE Newsroom",
       "published": "2026-06-18T15:27:54+00:00"
     },
     {
@@ -674,17 +723,10 @@
       "published": "2026-06-18T14:30:42+00:00"
     },
     {
-      "title": "Australian sugar producer works to restore operations as ransomware group claims attack",
-      "link": "https://therecord.media/mackay-sugar-cyberattack-claimed-gentlemen",
-      "summary": "Mackay Sugar said it was \"working urgently\" to verify claims that a highly active ransomware group was behind a cyberattack that shut down harvesting and milling operations.",
-      "source": "The Record",
-      "published": "2026-06-18T14:20:00+00:00"
-    },
-    {
       "title": "INC Ransomware Emerges as Major RaaS Threat in 2026 with 830+ Victims Since 2023",
       "link": "https://thehackernews.com/2026/06/inc-ransomware-claims-830-victims-since.html",
-      "summary": "Cybersecurity researchers have charted the evolution of INC from an nascent ransomware-as-a-service (RaaS) operation to one of the most prolific cybercrime groups in 2026, claiming no less than 830...",
-      "source": "The Hacker News",
+      "summary": "INC Ransomware Emerges as Major RaaS Threat in 2026 with 830+ Victims Since 2023 Cybersecurity researchers have charted the evolution of INC from an nascent ransomware-as-a-service (RaaS) operation...",
+      "source": "CVE Newsroom",
       "published": "2026-06-18T14:12:48+00:00"
     },
     {
@@ -697,8 +739,8 @@
     {
       "title": "DragonForce Hackers Abuse Microsoft Teams Relays to Hide Backdoor.Turn C2 Traffic",
       "link": "https://thehackernews.com/2026/06/dragonforce-hackers-abuse-microsoft.html",
-      "summary": "Threat actors associated with the DragonForce ransomware have been observed using a custom Go-based remote access trojan (RAT) called Backdoor.Turn to conceal command-and-control (C2) traffic inside...",
-      "source": "The Hacker News",
+      "summary": "DragonForce Hackers Abuse Microsoft Teams Relays to Hide Backdoor.Turn C2 Traffic Threat actors associated with the DragonForce ransomware have been observed using a custom Go-based remote access...",
+      "source": "CVE Newsroom",
       "published": "2026-06-18T13:30:07+00:00"
     },
     {
@@ -730,25 +772,11 @@
       "published": "2026-06-18T10:55:00+00:00"
     },
     {
-      "title": "Windows Defender Vulnerability Exposed as RoguePlanet PoC Spreads Online",
-      "link": "https://thecyberexpress.com/cve-2026-50656-rogueplanet-windows-defender/",
-      "summary": "Windows Defender Vulnerability Exposed as RoguePlanet PoC Spreads Online A newly disclosed Windows Defender vulnerability, tracked as CVE-2026-50656 and dubbed RoguePlanet, has raised concerns across...",
-      "source": "CVE Newsroom",
-      "published": "2026-06-18T07:45:25+00:00"
-    },
-    {
       "title": "EU Gets a Head Start in Developing 6G Network Security",
       "link": "https://www.darkreading.com/cybersecurity-operations/eu-6g-network-security",
       "summary": "\"Shield-6G\" will combine AI threat detection, digital twins, honeypots, and more, to help carriers protect 6G networks against the threats of tomorrow.",
       "source": "Dark Reading",
       "published": "2026-06-18T07:00:00+00:00"
-    },
-    {
-      "title": "PeopleSoft PeopleTools Pre-Authentication RCE: A PSIGW SSRF Chain That Executes Inside the JVM",
-      "link": "https://www.trendmicro.com/en_us/research/26/f/PeopleTools.html",
-      "summary": "PeopleSoft PeopleTools Pre-Authentication RCE: A PSIGW SSRF Chain That Executes Inside the JVM Cyber Threats A pre-authentication remote code execution (RCE) chain in Oracle PeopleSoft PeopleTools...",
-      "source": "CVE Newsroom",
-      "published": "2026-06-18T00:00:00+00:00"
     },
     {
       "title": "INC Ransomware Thrives by Mastering the Basics",
@@ -931,13 +959,6 @@
       "summary": "A China-linked espionage group hid inside North American medical, academic, and military research networks for more than a year, quietly stealing sensitive research and defense email. The way in was...",
       "source": "The Hacker News",
       "published": "2026-06-15T19:44:06+00:00"
-    },
-    {
-      "title": "North Korean Hackers Are Turning Developer Tools Into Malware Delivery Channels",
-      "link": "https://thehackernews.com/2026/06/north-korean-hackers-are-turning.html",
-      "summary": "Cybersecurity researchers have flagged two malicious cyber campaigns that exhibit similarities with a persistent North Korean threat cluster known as Contagious Interview (aka Famous Chollima...",
-      "source": "The Hacker News",
-      "published": "2026-06-15T19:32:52+00:00"
     },
     {
       "title": "HTTP/2 Bomb Attacks Put Telcos, Healthcare Orgs at Risk",
@@ -1162,20 +1183,6 @@
       "summary": "Like Shai-Hulud, the campaign targets developers to steal credentials and reuses them to propagate across the software supply channel.",
       "source": "Dark Reading",
       "published": "2026-06-04T21:47:06+00:00"
-    },
-    {
-      "title": "China's TA4922 Expands Cybercrime Attacks Globally",
-      "link": "https://www.darkreading.com/threat-intelligence/china-ta4922-cybercrime-attacks-globally",
-      "summary": "One of the world's most diverse, least-focused cybercrime groups is enlarging its footprint beyond East Asia.",
-      "source": "Dark Reading",
-      "published": "2026-06-04T21:23:59+00:00"
-    },
-    {
-      "title": "4 Critical Threats Where Attackers Have the Advantage",
-      "link": "https://www.darkreading.com/vulnerabilities-threats/4-critical-threats-attackers-advantage",
-      "summary": "Gartner analysts issued a call to action to bolster defenses against several emerging critical threats, such as deepfakes and prompt injections.",
-      "source": "Dark Reading",
-      "published": "2026-06-04T21:08:16+00:00"
     },
     {
       "title": "Hackers Used Meta’s AI Support Bot to Seize Instagram Accounts",
