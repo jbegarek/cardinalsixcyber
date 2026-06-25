@@ -1,6 +1,48 @@
 {
-  "last_updated": "2026-06-25T18:41:42.855298+00:00",
+  "last_updated": "2026-06-25T20:37:45.693239+00:00",
   "articles": [
+    {
+      "title": "Order-tracking app Shop abused to push callback phishing attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/order-tracking-app-shop-abused-to-push-callback-phishing-attacks/",
+      "summary": "Threat actors are increasingly abusing Shop, the order-tracking app from Shopify, by adding fake purchase receipts in users' order histories to trick them into providing sensitive data or installing...",
+      "source": "BleepingComputer",
+      "published": "2026-06-25T19:45:48+00:00"
+    },
+    {
+      "title": "CVE-2026-11310 - X.509 trust-chain bypass in wolfSSL_X509_verify_cert() via untrusted intermediate anchoring",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-11310",
+      "summary": "CVE ID :CVE-2026-11310 Published : June 25, 2026, 7:38 p.m. | 43 minutes ago Description :X.509 trust-chain bypass in the OpenSSL compatibility certificate verifier (wolfSSL_X509_verify_cert()). This...",
+      "source": "CVE Feed",
+      "published": "2026-06-25T19:38:19+00:00"
+    },
+    {
+      "title": "CVE-2026-55958 - Renesas TSIP TLS 1.3 transcript buffer out-of-bounds write in tsip_StoreMessage",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55958",
+      "summary": "CVE ID :CVE-2026-55958 Published : June 25, 2026, 7:35 p.m. | 46 minutes ago Description :Out-of-bounds write in the Renesas TSIP TLS 1.3 transcript buffer. In tsip_StoreMessage() the capacity check...",
+      "source": "CVE Feed",
+      "published": "2026-06-25T19:35:21+00:00"
+    },
+    {
+      "title": "CVE-2026-55960 - Un-negotiated Raw Public Key (RFC 7250) accepted in place of X.509, bypassing chain validation",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55960",
+      "summary": "CVE ID :CVE-2026-55960 Published : June 25, 2026, 7:31 p.m. | 50 minutes ago Description :Un-negotiated Raw Public Key (RFC 7250) accepted in place of an X.509 certificate, bypassing chain...",
+      "source": "CVE Feed",
+      "published": "2026-06-25T19:31:55+00:00"
+    },
+    {
+      "title": "Local Police Collusion Hampers Crackdown on Asian Scam Centers",
+      "link": "https://www.darkreading.com/threat-intelligence/police-collusion-crackdown-asian-scam-centers",
+      "summary": "With tens of billions of dollars flowing into regional economies from cybercrime, scam centers continue to flourish, despite international and law-enforcement efforts.",
+      "source": "Dark Reading",
+      "published": "2026-06-25T19:07:41+00:00"
+    },
+    {
+      "title": "DHS chief says president has met with potential CISA nominee; agency plans to hire 600",
+      "link": "https://therecord.media/cisa-director-nominee-workforce-hires-mullin-house-hearing",
+      "summary": "Once a new CISA director is in place, the agency will ramp up hiring efforts, Homeland Security Secretary Markwayne Mullin told lawmakers. The White House has not yet announced a nominee.",
+      "source": "The Record",
+      "published": "2026-06-25T18:47:51+00:00"
+    },
     {
       "title": "Microsoft quietly extends free Windows 10 ESU support to October 2027",
       "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-quietly-extends-free-windows-10-esu-support-to-october-2027/",
@@ -9,18 +51,102 @@
       "published": "2026-06-25T18:29:20+00:00"
     },
     {
+      "title": "CVE-2026-56786 - RTKLIB 2.4.3 - Out-of-bounds Write in decode_type1033 via Crafted RTCM3 Message",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56786",
+      "summary": "CVE ID :CVE-2026-56786 Published : June 25, 2026, 6:11 p.m. | 2 hours, 10 minutes ago Description :RTKLIB through 2.4.3 contains an out-of-bounds write vulnerability in decode_type1033 function that...",
+      "source": "CVE Feed",
+      "published": "2026-06-25T18:11:55+00:00"
+    },
+    {
+      "title": "CVE-2026-56771 - NewsBlur < 14.5.0 - Server-Side Request Forgery via add_url Endpoint",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56771",
+      "summary": "CVE ID :CVE-2026-56771 Published : June 25, 2026, 6:07 p.m. | 2 hours, 14 minutes ago Description :NewsBlur before version 14.5.0 contains a server-side request forgery vulnerability in the add_url...",
+      "source": "CVE Feed",
+      "published": "2026-06-25T18:07:31+00:00"
+    },
+    {
+      "title": "CVE-2026-56770 - libais 0.15 - Out-of-bounds Vector Access in VdmStream::AddLine via Invalid Sequential Message ID",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56770",
+      "summary": "CVE ID :CVE-2026-56770 Published : June 25, 2026, 6:06 p.m. | 2 hours, 15 minutes ago Description :libais through 0.15 VdmStream::AddLine uses an unchecked sentinel value as a vector index when...",
+      "source": "CVE Feed",
+      "published": "2026-06-25T18:06:39+00:00"
+    },
+    {
+      "title": "CVE-2026-56769 - Huly Platform - Server-Side Request Forgery via /import Endpoint",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56769",
+      "summary": "CVE ID :CVE-2026-56769 Published : June 25, 2026, 6:05 p.m. | 2 hours, 16 minutes ago Description :Huly Platform before commit 68cbf8a contains an authenticated server-side request forgery...",
+      "source": "CVE Feed",
+      "published": "2026-06-25T18:05:45+00:00"
+    },
+    {
+      "title": "CVE-2026-56768 - Seahub < 13.0.23 - Authentication Bypass in ShareLinkZipTaskView GET Method",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56768",
+      "summary": "CVE ID :CVE-2026-56768 Published : June 25, 2026, 6:05 p.m. | 2 hours, 17 minutes ago Description :Seahub before 13.0.23 does not enforce SHARE_LINK_LOGIN_REQUIRED on GET...",
+      "source": "CVE Feed",
+      "published": "2026-06-25T18:05:06+00:00"
+    },
+    {
+      "title": "CVE-2026-56767 - Maxun < 0.0.42 - Cross-Tenant IDOR in Storage and Webhook API Handlers",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56767",
+      "summary": "CVE ID :CVE-2026-56767 Published : June 25, 2026, 6:03 p.m. | 2 hours, 18 minutes ago Description :Maxun before 0.0.42 contains a cross-tenant insecure direct object reference vulnerability in...",
+      "source": "CVE Feed",
+      "published": "2026-06-25T18:03:33+00:00"
+    },
+    {
+      "title": "CVE-2026-56766 - Hydra - Stack Buffer Overflow in NTLM Authentication Handler",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56766",
+      "summary": "CVE ID :CVE-2026-56766 Published : June 25, 2026, 6:01 p.m. | 2 hours, 21 minutes ago Description :Hydra through 9.7, fixed in commit 9cc84c2, contains a stack buffer overflow in NTLM authentication...",
+      "source": "CVE Feed",
+      "published": "2026-06-25T18:01:07+00:00"
+    },
+    {
+      "title": "CVE-2026-12921 - Use after free in AzeoTech DAQFactory",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-12921",
+      "summary": "CVE ID :CVE-2026-12921 Published : June 25, 2026, 5:57 p.m. | 2 hours, 24 minutes ago Description :In AzeoTech DAQFactory versions 21.1 and prior, a Use After Free vulnerability can be exploited by...",
+      "source": "CVE Feed",
+      "published": "2026-06-25T17:57:54+00:00"
+    },
+    {
+      "title": "CVE-2026-12897 - Out-of-bounds read in Horner Automation Cscape",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-12897",
+      "summary": "CVE ID :CVE-2026-12897 Published : June 25, 2026, 5:47 p.m. | 2 hours, 34 minutes ago Description :Horner Automation Cscape versions prior to 10.2 SP3 are vulnerable to an Out-of-Bounds Read...",
+      "source": "CVE Feed",
+      "published": "2026-06-25T17:47:57+00:00"
+    },
+    {
+      "title": "CVE-2026-57700 - WordPress OMGF Pro plugin <= 5.2.6 - Arbitrary File Upload vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-57700",
+      "summary": "CVE ID :CVE-2026-57700 Published : June 25, 2026, 5:29 p.m. | 2 hours, 52 minutes ago Description :Unrestricted Upload of File with Dangerous Type vulnerability in Daan.Dev OMGF Pro allows Using...",
+      "source": "CVE Feed",
+      "published": "2026-06-25T17:29:31+00:00"
+    },
+    {
       "title": "CVE-2026-11999 - X.509 trust-chain bypass via path-depth exhaustion in wolfSSL_X509_verify_cert()",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-11999",
-      "summary": "CVE ID :CVE-2026-11999 Published : June 25, 2026, 4:56 p.m. | 1 hour, 25 minutes ago Description :X.509 trust-chain bypass (path-depth exhaustion) in the OpenSSL compatibility certificate verifier...",
+      "summary": "CVE ID :CVE-2026-11999 Published : June 25, 2026, 4:56 p.m. | 3 hours, 25 minutes ago Description :X.509 trust-chain bypass (path-depth exhaustion) in the OpenSSL compatibility certificate verifier...",
       "source": "CVE Feed",
       "published": "2026-06-25T16:56:14+00:00"
     },
     {
+      "title": "CVE-2026-50016 - pnpm: Transitive dependency alias path traversal allows project path override via symlink replacement",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-50016",
+      "summary": "CVE ID :CVE-2026-50016 Published : June 25, 2026, 4:53 p.m. | 3 hours, 28 minutes ago Description :pnpm is a package manager. Prior to 10.34.0 and 11.4.0, pnpm allows a transitive dependency alias...",
+      "source": "CVE Feed",
+      "published": "2026-06-25T16:53:16+00:00"
+    },
+    {
       "title": "CVE-2026-55961 - wolfSSL_PKCS7_verify() reports success for degenerate (certs-only) PKCS#7 with no signer",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-55961",
-      "summary": "CVE ID :CVE-2026-55961 Published : June 25, 2026, 4:51 p.m. | 1 hour, 30 minutes ago Description :wolfSSL_PKCS7_verify() returning success for a degenerate (certs-only) PKCS#7 object that contains no...",
+      "summary": "CVE ID :CVE-2026-55961 Published : June 25, 2026, 4:51 p.m. | 3 hours, 30 minutes ago Description :wolfSSL_PKCS7_verify() returning success for a degenerate (certs-only) PKCS#7 object that contains...",
       "source": "CVE Feed",
       "published": "2026-06-25T16:51:18+00:00"
+    },
+    {
+      "title": "CVE-2026-55698 - pnpm: Project env lockfile can short-circuit package-manager resolution and execute lockfile-selected pnpm bytes",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55698",
+      "summary": "CVE ID :CVE-2026-55698 Published : June 25, 2026, 4:43 p.m. | 3 hours, 38 minutes ago Description :pnpm is a package manager. Prior to 10.34.2 and 11.5.3, pnpm can persist package-manager bootstrap...",
+      "source": "CVE Feed",
+      "published": "2026-06-25T16:43:47+00:00"
     },
     {
       "title": "New macOS malware embeds fake errors to confuse AI analysis tools",
@@ -32,9 +158,23 @@
     {
       "title": "CVE-2026-9800 - Keycloak: keycloak policy enforcer: authorization bypass via incorrect uri comparison",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-9800",
-      "summary": "CVE ID :CVE-2026-9800 Published : June 25, 2026, 4:16 p.m. | 2 hours, 5 minutes ago Description :A flaw was found in Keycloak Policy Enforcer. This vulnerability allows any authenticated user to...",
+      "summary": "CVE ID :CVE-2026-9800 Published : June 25, 2026, 4:16 p.m. | 4 hours, 5 minutes ago Description :A flaw was found in Keycloak Policy Enforcer. This vulnerability allows any authenticated user to...",
       "source": "CVE Feed",
       "published": "2026-06-25T16:16:27+00:00"
+    },
+    {
+      "title": "CVE-2026-55412 - ToolJet Cloud - SSRF to Azure Cloud Infrastructure Compromise",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55412",
+      "summary": "CVE ID :CVE-2026-55412 Published : June 25, 2026, 4:07 p.m. | 4 hours, 14 minutes ago Description :ToolJet is the open-source foundation am AI-native platform for building and deploying internal...",
+      "source": "CVE Feed",
+      "published": "2026-06-25T16:07:13+00:00"
+    },
+    {
+      "title": "CVE-2026-55413 - ToolJet - Marketplace Plugin Poisoning Enables Instance-Wide Remote Code Execution",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55413",
+      "summary": "CVE ID :CVE-2026-55413 Published : June 25, 2026, 4:03 p.m. | 4 hours, 18 minutes ago Description :ToolJet is the open-source foundation am AI-native platform for building and deploying internal...",
+      "source": "CVE Feed",
+      "published": "2026-06-25T16:03:40+00:00"
     },
     {
       "title": "Google Chrome 149 Security Update: 18 Vulnerabilities Patched",
@@ -46,14 +186,21 @@
     {
       "title": "CVE-2026-45233 - HTMLy CMS 3.1.1 Path Traversal via oldfile Parameter in Autosave",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-45233",
-      "summary": "CVE ID :CVE-2026-45233 Published : June 25, 2026, 3:50 p.m. | 2 hours, 32 minutes ago Description :HTMLy CMS through 3.1.1 contains a path traversal vulnerability that allows low-privileged...",
+      "summary": "CVE ID :CVE-2026-45233 Published : June 25, 2026, 3:50 p.m. | 4 hours, 32 minutes ago Description :HTMLy CMS through 3.1.1 contains a path traversal vulnerability that allows low-privileged...",
       "source": "CVE Feed",
       "published": "2026-06-25T15:50:00+00:00"
     },
     {
+      "title": "CVE-2026-54030 - LibreChat: Missing Resource Parameter Validation in MCP OAuth Flow",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54030",
+      "summary": "CVE ID :CVE-2026-54030 Published : June 25, 2026, 3:48 p.m. | 4 hours, 34 minutes ago Description :LibreChat is an enhanced ChatGPT clone that supports multiple AI providers. Prior to 0.8.5...",
+      "source": "CVE Feed",
+      "published": "2026-06-25T15:48:00+00:00"
+    },
+    {
       "title": "CVE-2026-56123 - socat 1.8.0.0 - 1.8.1.1 Heap Buffer Overflow via SOCKS5 Reply Parser",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-56123",
-      "summary": "CVE ID :CVE-2026-56123 Published : June 25, 2026, 3:43 p.m. | 2 hours, 38 minutes ago Description :socat versions 1.8.0.0 through 1.8.1.1 contain a heap-based buffer overflow vulnerability that...",
+      "summary": "CVE ID :CVE-2026-56123 Published : June 25, 2026, 3:43 p.m. | 4 hours, 38 minutes ago Description :socat versions 1.8.0.0 through 1.8.1.1 contain a heap-based buffer overflow vulnerability that...",
       "source": "CVE Feed",
       "published": "2026-06-25T15:43:19+00:00"
     },
@@ -65,18 +212,18 @@
       "published": "2026-06-25T15:36:56+00:00"
     },
     {
-      "title": "CVE-2026-9717 - [Product/Vendor Name] OS Command Injection",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-9717",
-      "summary": "CVE ID :CVE-2026-9717 Published : June 25, 2026, 3:05 p.m. | 3 hours, 16 minutes ago Description :CWE-78 Neutralization of Special Elements used in an OS Command ('OS Command Injection')...",
+      "title": "CVE-2026-57456 - Vim: Arbitrary Code Execution via Python Omni-Completion Docstrings",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-57456",
+      "summary": "CVE ID :CVE-2026-57456 Published : June 25, 2026, 3:16 p.m. | 5 hours, 5 minutes ago Description :Vim is an open source, command line text editor. Prior to 9.2.0699, Vim's Python omni-completion...",
       "source": "CVE Feed",
-      "published": "2026-06-25T15:05:36+00:00"
+      "published": "2026-06-25T15:16:16+00:00"
     },
     {
-      "title": "CVE-2026-9716 - CWE-476 NULL Pointer Dereference vulnerability exi",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-9716",
-      "summary": "CVE ID :CVE-2026-9716 Published : June 25, 2026, 3:02 p.m. | 3 hours, 19 minutes ago Description :CWE-476 NULL Pointer Dereference vulnerability exists that could cause a denial-of-service condition...",
+      "title": "CVE-2026-9717 - [Product/Vendor Name] OS Command Injection",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-9717",
+      "summary": "CVE ID :CVE-2026-9717 Published : June 25, 2026, 3:05 p.m. | 5 hours, 16 minutes ago Description :CWE-78 Neutralization of Special Elements used in an OS Command ('OS Command Injection')...",
       "source": "CVE Feed",
-      "published": "2026-06-25T15:02:28+00:00"
+      "published": "2026-06-25T15:05:36+00:00"
     },
     {
       "title": "Bluekit phishing kit adopts browser-in-the-middle for login theft",
@@ -86,18 +233,11 @@
       "published": "2026-06-25T15:00:00+00:00"
     },
     {
-      "title": "CVE-2026-9650 - CWE-522 Insufficiently Protected Credentials vulne",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-9650",
-      "summary": "CVE ID :CVE-2026-9650 Published : June 25, 2026, 2:44 p.m. | 3 hours, 37 minutes ago Description :CWE-522 Insufficiently Protected Credentials vulnerability that could cause unauthorized access and...",
-      "source": "CVE Feed",
-      "published": "2026-06-25T14:44:30+00:00"
-    },
-    {
-      "title": "CVE-2026-57532 - Adobe Acrobat Reader PDF Ticket HTML Injection",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-57532",
-      "summary": "CVE ID :CVE-2026-57532 Published : June 25, 2026, 2:32 p.m. | 3 hours, 49 minutes ago Description :Malicious HTML content contained in the layout specification of a PDF ticket or badge layout was...",
-      "source": "CVE Feed",
-      "published": "2026-06-25T14:32:37+00:00"
+      "title": "Another Russian dairy company reportedly disrupted by cyberattack",
+      "link": "https://therecord.media/russia-dairy-producter-cyberattack-ufa",
+      "summary": "A dairy products manufacturer in Russia's republic of Bashkortostan is the latest such company to have its operations snarled by a cyberattack.",
+      "source": "The Record",
+      "published": "2026-06-25T14:45:00+00:00"
     },
     {
       "title": "Chrome Ad Blocker with 10M+ Installs Found with Dormant Script Injection Capability",
@@ -114,104 +254,6 @@
       "published": "2026-06-25T14:01:11+00:00"
     },
     {
-      "title": "CVE-2026-56122 - Winstone Servlet Engine 0.9.10 Path Traversal via HTTP Request Paths",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56122",
-      "summary": "CVE ID :CVE-2026-56122 Published : June 25, 2026, 1:34 p.m. | 4 hours, 47 minutes ago Description :Winstone Servlet Engine through 0.9.10 contains a path traversal vulnerability that allows...",
-      "source": "CVE Feed",
-      "published": "2026-06-25T13:34:15+00:00"
-    },
-    {
-      "title": "CVE-2026-41120 - Dell Wyse Management Suite: Acceptance of Extraneous Untrusted Data With Trusted Data leading to Remote Code Execution",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-41120",
-      "summary": "CVE ID :CVE-2026-41120 Published : June 25, 2026, 1:28 p.m. | 4 hours, 53 minutes ago Description :Dell Wyse Management Suite, versions prior to WMS 5.5 HF1, contain an Acceptance of Extraneous...",
-      "source": "CVE Feed",
-      "published": "2026-06-25T13:28:53+00:00"
-    },
-    {
-      "title": "CVE-2026-2815 - Incorrect use of the PUF key for user key generation in EFR32xG27 results in predictable keys",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-2815",
-      "summary": "CVE ID :CVE-2026-2815 Published : June 25, 2026, 1:27 p.m. | 4 hours, 54 minutes ago Description :Incorrect use of the PUF key for user key generation in EFR32xG27 results in predictable keys...",
-      "source": "CVE Feed",
-      "published": "2026-06-25T13:27:45+00:00"
-    },
-    {
-      "title": "CVE-2026-54848 - WordPress APIExperts Square for WooCommerce plugin <= 4.7.3 - Sensitive Data Exposure vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54848",
-      "summary": "CVE ID :CVE-2026-54848 Published : June 25, 2026, 1:26 p.m. | 4 hours, 55 minutes ago Description :Insertion of Sensitive Information Into Sent Data vulnerability in Saad Iqbal APIExperts Square for...",
-      "source": "CVE Feed",
-      "published": "2026-06-25T13:26:43+00:00"
-    },
-    {
-      "title": "CVE-2026-54836 - WordPress Filter & Grids plugin <= 3.11.5 - SQL Injection vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54836",
-      "summary": "CVE ID :CVE-2026-54836 Published : June 25, 2026, 1:17 p.m. | 5 hours, 4 minutes ago Description :Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in...",
-      "source": "CVE Feed",
-      "published": "2026-06-25T13:17:25+00:00"
-    },
-    {
-      "title": "CVE-2026-54842 - WordPress Royal MCP plugin <= 1.4.25 - Broken Access Control vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54842",
-      "summary": "CVE ID :CVE-2026-54842 Published : June 25, 2026, 1:16 p.m. | 5 hours, 5 minutes ago Description :Missing Authorization vulnerability in Royal Plugins Royal MCP allows Exploiting Incorrectly...",
-      "source": "CVE Feed",
-      "published": "2026-06-25T13:16:15+00:00"
-    },
-    {
-      "title": "CVE-2026-56053 - WordPress EventPrime plugin <= 4.3.4.1 - PHP Object Injection vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56053",
-      "summary": "CVE ID :CVE-2026-56053 Published : June 25, 2026, 1:12 p.m. | 5 hours, 9 minutes ago Description :Subscriber PHP Object Injection in EventPrime Severity: 8.8 | HIGH Visit the link for more details...",
-      "source": "CVE Feed",
-      "published": "2026-06-25T13:12:42+00:00"
-    },
-    {
-      "title": "CVE-2026-56049 - WordPress Post Snippets plugin <= 4.0.19 - Remote Code Execution (RCE) vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56049",
-      "summary": "CVE ID :CVE-2026-56049 Published : June 25, 2026, 1:12 p.m. | 5 hours, 9 minutes ago Description :Contributor Remote Code Execution (RCE) in Post Snippets Severity: 8.5 | HIGH Visit the link for more...",
-      "source": "CVE Feed",
-      "published": "2026-06-25T13:12:41+00:00"
-    },
-    {
-      "title": "CVE-2026-54849 - WordPress Premmerce Wishlist for WooCommerce plugin <= 1.1.11 - SQL Injection vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54849",
-      "summary": "CVE ID :CVE-2026-54849 Published : June 25, 2026, 1:12 p.m. | 5 hours, 9 minutes ago Description :Unauthenticated SQL Injection in Premmerce Wishlist for WooCommerce Severity: 9.3 | CRITICAL Visit...",
-      "source": "CVE Feed",
-      "published": "2026-06-25T13:12:36+00:00"
-    },
-    {
-      "title": "CVE-2026-54845 - WordPress MDTF plugin <= 1.3.8 - Local File Inclusion vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54845",
-      "summary": "CVE ID :CVE-2026-54845 Published : June 25, 2026, 1:12 p.m. | 5 hours, 9 minutes ago Description :Unauthenticated Local File Inclusion in MDTF Severity: 8.1 | HIGH Visit the link for more details...",
-      "source": "CVE Feed",
-      "published": "2026-06-25T13:12:36+00:00"
-    },
-    {
-      "title": "CVE-2026-54843 - WordPress MDTF plugin <= 1.3.7 - SQL Injection vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54843",
-      "summary": "CVE ID :CVE-2026-54843 Published : June 25, 2026, 1:12 p.m. | 5 hours, 9 minutes ago Description :Unauthenticated SQL Injection in MDTF Severity: 9.3 | CRITICAL Visit the link for more details, such...",
-      "source": "CVE Feed",
-      "published": "2026-06-25T13:12:34+00:00"
-    },
-    {
-      "title": "CVE-2026-54838 - WordPress WC Vendors Marketplace plugin <= 2.6.8 - SQL Injection vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54838",
-      "summary": "CVE ID :CVE-2026-54838 Published : June 25, 2026, 1:12 p.m. | 5 hours, 9 minutes ago Description :Subscriber SQL Injection in WC Vendors Marketplace Severity: 8.5 | HIGH Visit the link for more...",
-      "source": "CVE Feed",
-      "published": "2026-06-25T13:12:33+00:00"
-    },
-    {
-      "title": "CVE-2026-54823 - WordPress Widget Options plugin <= 4.2.3 - Remote Code Execution (RCE) vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54823",
-      "summary": "CVE ID :CVE-2026-54823 Published : June 25, 2026, 1:12 p.m. | 5 hours, 9 minutes ago Description :Contributor Remote Code Execution (RCE) in Widget Options Severity: 9.9 | CRITICAL Visit the link for...",
-      "source": "CVE Feed",
-      "published": "2026-06-25T13:12:31+00:00"
-    },
-    {
-      "title": "CVE-2026-54822 - WordPress SALESmanago & Leadoo plugin <= 3.11.2 - SQL Injection vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54822",
-      "summary": "CVE ID :CVE-2026-54822 Published : June 25, 2026, 1:12 p.m. | 5 hours, 9 minutes ago Description :Subscriber SQL Injection in SALESmanago & Leadoo Severity: 8.5 | HIGH Visit the link for more...",
-      "source": "CVE Feed",
-      "published": "2026-06-25T13:12:30+00:00"
-    },
-    {
       "title": "Runlayer Raises $30 Million in Series A Funding",
       "link": "https://www.securityweek.com/runlayer-raises-30-million-in-series-a-funding/",
       "summary": "The startup’s platform functions as a secure control layer, aiming to secure AI tools across enterprises. The post Runlayer Raises $30 Million in Series A Funding appeared first on SecurityWeek.",
@@ -224,6 +266,20 @@
       "summary": "ThreatsDay Bulletin: Smart TV Proxyware, 24-Year curl Bug, AI Crime Forums + 13 More Stories It’s dumb out there again.This week has the usual smell of prod on fire and nobody wanting to admit who...",
       "source": "CVE Newsroom",
       "published": "2026-06-25T12:24:43+00:00"
+    },
+    {
+      "title": "Ukraine's state postal operator reports app disruption after cyberattack",
+      "link": "https://therecord.media/ukraine-state-postal-operator-reports-disruption",
+      "summary": "Ukraine's state-owned postal operator said it was experiencing disruptions to some of its app services due to a suspected cyberattack, but did not say who was behind it.",
+      "source": "The Record",
+      "published": "2026-06-25T12:16:00+00:00"
+    },
+    {
+      "title": "Russia used Cellebrite phone-hacking tool to crack down on dissident after firm cut off country",
+      "link": "https://therecord.media/russia-used-cellebrite-tool-after-company-pulled-out-of-country",
+      "summary": "The continued use of the powerful data extraction product soon after the company in March 2021 said it would stop working with Russia suggests the firm has been unable to pull back its technology...",
+      "source": "The Record",
+      "published": "2026-06-25T12:15:00+00:00"
     },
     {
       "title": "Webinar: Why account takeovers remain one of the hardest threats to stop",
@@ -303,25 +359,11 @@
       "published": "2026-06-25T08:54:37+00:00"
     },
     {
-      "title": "CVE-2026-56091 - Apache Shiro: Authentication bypass in Guice-Web integration",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56091",
-      "summary": "CVE ID :CVE-2026-56091 Published : June 25, 2026, 8:45 a.m. | 9 hours, 36 minutes ago Description :When using Apache Shiro with the shiro-guice module in a web servlet context, a specially crafted...",
-      "source": "CVE Feed",
-      "published": "2026-06-25T08:45:19+00:00"
-    },
-    {
       "title": "NIST Opens Updated IoT Security Guidance to Public Review",
       "link": "https://www.securityweek.com/nist-opens-updated-iot-security-guidance-to-public-review/",
       "summary": "The guidance aims to establish product cybersecurity requirements for IoT devices integrated into federal agencies’ networks. The post NIST Opens Updated IoT Security Guidance to Public Review...",
       "source": "SecurityWeek",
       "published": "2026-06-25T08:29:26+00:00"
-    },
-    {
-      "title": "CVE-2026-41566 - Apache Kvrocks: Improper permission for the APPLYBATCH command",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-41566",
-      "summary": "CVE ID :CVE-2026-41566 Published : June 25, 2026, 8:04 a.m. | 10 hours, 17 minutes ago Description :Improper Handling of Insufficient Permissions or Privileges vulnerability in Apache Kvrocks. This...",
-      "source": "CVE Feed",
-      "published": "2026-06-25T08:04:25+00:00"
     },
     {
       "title": "Chrome 149 Update Resolves 18 Severe Vulnerabilities",
@@ -385,6 +427,13 @@
       "summary": "Persistent cybercrime, social engineering, and infrastructure threats continue to plague the FIFA 2026 World Cup across the US, Canada, and Mexico.",
       "source": "Dark Reading",
       "published": "2026-06-24T20:29:08+00:00"
+    },
+    {
+      "title": "Three ‘cybercrime as a service’ operations undercut by Microsoft, law enforcement",
+      "link": "https://therecord.media/stealc-amadey-socgholish-malware-takedown-europol-microsoft",
+      "summary": "Microsoft touted its latest action against malware infrastructure as a new approach aimed at the full cybercrime \"supply chain.\" Europol said more than 300 servers were targeted.",
+      "source": "The Record",
+      "published": "2026-06-24T20:00:00+00:00"
     },
     {
       "title": "Do CISOs Need a Code of Ethics?",
@@ -504,13 +553,6 @@
       "summary": "Cisco Unified CM Flaw Exploited After PoC Reveals File-Write Path to Root Threat actors have begun to exploit a recently disclosed critical security flaw impacting Cisco Unified Communications...",
       "source": "CVE Newsroom",
       "published": "2026-06-24T06:50:38+00:00"
-    },
-    {
-      "title": "Cisco Unified CM flaw CVE-2026-20230 now exploited in attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/cisco-unified-cm-sme-flaw-cve-2026-20230-now-exploited-in-attacks/",
-      "summary": "A high-severity SSRF vulnerability, tracked as CVE-2026-20230, in Cisco Unified Communications Manager Server is now being exploited in attacks. [...]",
-      "source": "BleepingComputer",
-      "published": "2026-06-23T21:48:32+00:00"
     },
     {
       "title": "Scope of Salesforce Attacks Expands as Icarus Leaks Data",
@@ -1155,13 +1197,6 @@
       "summary": "Two separate campaigns target CVE-2025-8088, fixed last July, to conduct data theft and cyberespionage against military and government targets in Ukraine.",
       "source": "Dark Reading",
       "published": "2026-06-09T15:37:02+00:00"
-    },
-    {
-      "title": "AI Slop Will Kill Cybersecurity Storytelling If We Let It",
-      "link": "https://www.darkreading.com/cyber-risk/ai-slop-kill-cybersecurity-storytelling-we-let-it",
-      "summary": "AI-generated content threatens credibility in cybersecurity. This \"Ask the Expert\" column explores why human oversight matters and how to maintain authentic narratives.",
-      "source": "Dark Reading",
-      "published": "2026-06-08T22:05:49+00:00"
     },
     {
       "title": "Hackers Used Meta’s AI Support Bot to Seize Instagram Accounts",
