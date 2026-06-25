@@ -1,6 +1,139 @@
 {
-  "last_updated": "2026-06-25T20:37:45.693239+00:00",
+  "last_updated": "2026-06-25T22:28:56.497690+00:00",
   "articles": [
+    {
+      "title": "In Less Than 24 Hours, Attackers Weaponize Cisco CUCM Flaw",
+      "link": "https://www.darkreading.com/cyberattacks-data-breaches/less-than-24-hours-attackers-weaponize-cisco-cucm-flaw",
+      "summary": "The flaw enables server-side request forgery (SSRF) and escalates privileges to root, impacting Cisco Unified CM and Unified CM SME deployments.",
+      "source": "Dark Reading",
+      "published": "2026-06-25T21:54:34+00:00"
+    },
+    {
+      "title": "CVE-2025-71340 - picklescan - Remote Code Execution via idlelib.pyshell.ModifiedInterpreter.runcode",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2025-71340",
+      "summary": "CVE ID :CVE-2025-71340 Published : June 25, 2026, 9:41 p.m. | 41 minutes ago Description :picklescan through 0.0.26 fails to detect malicious pickle files that invoke...",
+      "source": "CVE Feed",
+      "published": "2026-06-25T21:41:08+00:00"
+    },
+    {
+      "title": "CVE-2025-71338 - Flowise - Arbitrary File Write to Remote Code Execution via document-store API",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2025-71338",
+      "summary": "CVE ID :CVE-2025-71338 Published : June 25, 2026, 9:41 p.m. | 41 minutes ago Description :Flowise contains a path traversal vulnerability in the /api/v1/document-store/loader/process endpoint that...",
+      "source": "CVE Feed",
+      "published": "2026-06-25T21:41:07+00:00"
+    },
+    {
+      "title": "CVE-2025-71336 - Flowise - Unsandboxed Remote Code Execution via Custom MCP",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2025-71336",
+      "summary": "CVE ID :CVE-2025-71336 Published : June 25, 2026, 9:41 p.m. | 41 minutes ago Description :Flowise before 3.0.6 (affected versions 2.2.7-patch.1 and earlier) contains an unsandboxed remote code...",
+      "source": "CVE Feed",
+      "published": "2026-06-25T21:41:06+00:00"
+    },
+    {
+      "title": "CVE-2025-71335 - Flowise - Session Invalidation Failure After Password Change",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2025-71335",
+      "summary": "CVE ID :CVE-2025-71335 Published : June 25, 2026, 9:41 p.m. | 41 minutes ago Description :Flowise before 3.0.10 (affected versions 3.0.7 and earlier) fails to invalidate existing sessions and session...",
+      "source": "CVE Feed",
+      "published": "2026-06-25T21:41:06+00:00"
+    },
+    {
+      "title": "CVE-2025-71334 - Flowise - Arbitrary File Access via Missing Chat Flow ID Validation",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2025-71334",
+      "summary": "CVE ID :CVE-2025-71334 Published : June 25, 2026, 9:41 p.m. | 41 minutes ago Description :Flowise before 3.0.6 (affected versions 2.2.8 and earlier) contains an arbitrary file access vulnerability...",
+      "source": "CVE Feed",
+      "published": "2026-06-25T21:41:05+00:00"
+    },
+    {
+      "title": "CVE-2025-71333 - Flowise - Arbitrary File Upload via Unauthenticated /api/v1/attachments Endpoint",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2025-71333",
+      "summary": "CVE ID :CVE-2025-71333 Published : June 25, 2026, 9:41 p.m. | 41 minutes ago Description :Flowise through 2.2.4 contains an unauthenticated arbitrary file upload vulnerability in the...",
+      "source": "CVE Feed",
+      "published": "2026-06-25T21:41:04+00:00"
+    },
+    {
+      "title": "CVE-2025-71328 - Flowise - Unverified Password Change via Account Settings",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2025-71328",
+      "summary": "CVE ID :CVE-2025-71328 Published : June 25, 2026, 9:41 p.m. | 41 minutes ago Description :Flowise before 3.0.10 contains an unverified password change vulnerability. An authenticated user can change...",
+      "source": "CVE Feed",
+      "published": "2026-06-25T21:41:04+00:00"
+    },
+    {
+      "title": "CVE-2025-71327 - Flowise - Authentication Bypass via Unprotected Registration Endpoint",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2025-71327",
+      "summary": "CVE ID :CVE-2025-71327 Published : June 25, 2026, 9:41 p.m. | 41 minutes ago Description :Flowise contains an authentication bypass vulnerability in the unprotected /api/v1/account/register endpoint...",
+      "source": "CVE Feed",
+      "published": "2026-06-25T21:41:03+00:00"
+    },
+    {
+      "title": "CVE-2025-71324 - Flowise - Arbitrary File Read via chatId Parameter",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2025-71324",
+      "summary": "CVE ID :CVE-2025-71324 Published : June 25, 2026, 9:41 p.m. | 41 minutes ago Description :Flowise before 3.0.6 contains an arbitrary file read vulnerability in the chatId parameter of the...",
+      "source": "CVE Feed",
+      "published": "2026-06-25T21:41:02+00:00"
+    },
+    {
+      "title": "CVE-2026-12975 - Apicurio/apicurio-registry: apicurio-registry: unhardened saxparser in content-type detection leads to blind xxe / ssrf / billion-laughs dos",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-12975",
+      "summary": "CVE ID :CVE-2026-12975 Published : June 25, 2026, 9:12 p.m. | 1 hour, 9 minutes ago Description :A flaw was found in Apicurio Registry. The ContentTypeUtil.isParsableXml() method creates a...",
+      "source": "CVE Feed",
+      "published": "2026-06-25T21:12:31+00:00"
+    },
+    {
+      "title": "Russian APT 'Gamaredon' Upgrades Its Arsenal, Requiring New Defenses",
+      "link": "https://www.darkreading.com/threat-intelligence/russia-apt-gamaredon-arsenal-defense",
+      "summary": "The FSB state-sponsored operation has gotten a lot better at loading its malware and hiding its servers.",
+      "source": "Dark Reading",
+      "published": "2026-06-25T21:12:01+00:00"
+    },
+    {
+      "title": "CVE-2026-40702 - EVoke Systems EVoke CSMS Missing Authentication for Critical Function",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-40702",
+      "summary": "CVE ID :CVE-2026-40702 Published : June 25, 2026, 8:59 p.m. | 1 hour, 22 minutes ago Description :WebSocket endpoints lack proper authentication mechanisms, enabling attackers to impersonate charging...",
+      "source": "CVE Feed",
+      "published": "2026-06-25T20:59:53+00:00"
+    },
+    {
+      "title": "CVE-2026-50176 - EVoke Systems EVoke CSMS Improper Restriction of Excessive Authentication Attempts",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-50176",
+      "summary": "CVE ID :CVE-2026-50176 Published : June 25, 2026, 8:58 p.m. | 1 hour, 23 minutes ago Description :The WebSocket Application Programming Interface lacks restrictions on the number of authentication...",
+      "source": "CVE Feed",
+      "published": "2026-06-25T20:58:29+00:00"
+    },
+    {
+      "title": "CVE-2026-11800 - Org.keycloak:keycloak-services: keycloak: authentication bypass via jwt algorithm confusion",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-11800",
+      "summary": "CVE ID :CVE-2026-11800 Published : June 25, 2026, 8:57 p.m. | 1 hour, 25 minutes ago Description :A flaw was found in Keycloak. This JWT algorithm confusion vulnerability in the JWT Authorization...",
+      "source": "CVE Feed",
+      "published": "2026-06-25T20:57:05+00:00"
+    },
+    {
+      "title": "CVE-2026-56445 - pydicom pynetdicom Library Path Traversal",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56445",
+      "summary": "CVE ID :CVE-2026-56445 Published : June 25, 2026, 8:46 p.m. | 1 hour, 35 minutes ago Description :The qrscp application's C-STORE handler uses a specific instance from attacker-supplied DICOM...",
+      "source": "CVE Feed",
+      "published": "2026-06-25T20:46:44+00:00"
+    },
+    {
+      "title": "CVE-2026-12473 - OHIF Viewers DICOM Server-Side request forgery",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-12473",
+      "summary": "CVE ID :CVE-2026-12473 Published : June 25, 2026, 8:38 p.m. | 1 hour, 43 minutes ago Description :Two data sources (DICOMWebProxy and DICOMJSON) shipped in the default configuration fetch an...",
+      "source": "CVE Feed",
+      "published": "2026-06-25T20:38:32+00:00"
+    },
+    {
+      "title": "EdTech Attackers Shift From Schools to Their Software Suppliers",
+      "link": "https://www.darkreading.com/cyberattacks-data-breaches/edtech-attackers-shift-schools-software-suppliers",
+      "summary": "Educational institutions, the edtech companies they rely on, and, more concerningly, the challenges they pose for schools are the focus of the latest Reporters' Notebook video series.",
+      "source": "Dark Reading",
+      "published": "2026-06-25T20:34:14+00:00"
+    },
+    {
+      "title": "CVE-2026-6679 - DTLS 1.3 ACK serialization heap buffer overflow via integer truncation",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-6679",
+      "summary": "CVE ID :CVE-2026-6679 Published : June 25, 2026, 8:13 p.m. | 2 hours, 9 minutes ago Description :A heap buffer overflow could occur in the DTLS 1.3 ACK serialization path before the connecting peer...",
+      "source": "CVE Feed",
+      "published": "2026-06-25T20:13:06+00:00"
+    },
     {
       "title": "Order-tracking app Shop abused to push callback phishing attacks",
       "link": "https://www.bleepingcomputer.com/news/security/order-tracking-app-shop-abused-to-push-callback-phishing-attacks/",
@@ -11,21 +144,21 @@
     {
       "title": "CVE-2026-11310 - X.509 trust-chain bypass in wolfSSL_X509_verify_cert() via untrusted intermediate anchoring",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-11310",
-      "summary": "CVE ID :CVE-2026-11310 Published : June 25, 2026, 7:38 p.m. | 43 minutes ago Description :X.509 trust-chain bypass in the OpenSSL compatibility certificate verifier (wolfSSL_X509_verify_cert()). This...",
+      "summary": "CVE ID :CVE-2026-11310 Published : June 25, 2026, 7:38 p.m. | 2 hours, 43 minutes ago Description :X.509 trust-chain bypass in the OpenSSL compatibility certificate verifier...",
       "source": "CVE Feed",
       "published": "2026-06-25T19:38:19+00:00"
     },
     {
       "title": "CVE-2026-55958 - Renesas TSIP TLS 1.3 transcript buffer out-of-bounds write in tsip_StoreMessage",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-55958",
-      "summary": "CVE ID :CVE-2026-55958 Published : June 25, 2026, 7:35 p.m. | 46 minutes ago Description :Out-of-bounds write in the Renesas TSIP TLS 1.3 transcript buffer. In tsip_StoreMessage() the capacity check...",
+      "summary": "CVE ID :CVE-2026-55958 Published : June 25, 2026, 7:35 p.m. | 2 hours, 46 minutes ago Description :Out-of-bounds write in the Renesas TSIP TLS 1.3 transcript buffer. In tsip_StoreMessage() the...",
       "source": "CVE Feed",
       "published": "2026-06-25T19:35:21+00:00"
     },
     {
       "title": "CVE-2026-55960 - Un-negotiated Raw Public Key (RFC 7250) accepted in place of X.509, bypassing chain validation",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-55960",
-      "summary": "CVE ID :CVE-2026-55960 Published : June 25, 2026, 7:31 p.m. | 50 minutes ago Description :Un-negotiated Raw Public Key (RFC 7250) accepted in place of an X.509 certificate, bypassing chain...",
+      "summary": "CVE ID :CVE-2026-55960 Published : June 25, 2026, 7:31 p.m. | 2 hours, 50 minutes ago Description :Un-negotiated Raw Public Key (RFC 7250) accepted in place of an X.509 certificate, bypassing chain...",
       "source": "CVE Feed",
       "published": "2026-06-25T19:31:55+00:00"
     },
@@ -37,11 +170,25 @@
       "published": "2026-06-25T19:07:41+00:00"
     },
     {
+      "title": "CVE-2026-50548 - Cursor Desktop sandbox escape via agent-controlled working directory",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-50548",
+      "summary": "CVE ID :CVE-2026-50548 Published : June 25, 2026, 6:47 p.m. | 3 hours, 34 minutes ago Description :Cursor is a code editor built for programming with AI. Prior to 3.0, Cursor runs agent terminal...",
+      "source": "CVE Feed",
+      "published": "2026-06-25T18:47:56+00:00"
+    },
+    {
       "title": "DHS chief says president has met with potential CISA nominee; agency plans to hire 600",
       "link": "https://therecord.media/cisa-director-nominee-workforce-hires-mullin-house-hearing",
       "summary": "Once a new CISA director is in place, the agency will ramp up hiring efforts, Homeland Security Secretary Markwayne Mullin told lawmakers. The White House has not yet announced a nominee.",
       "source": "The Record",
       "published": "2026-06-25T18:47:51+00:00"
+    },
+    {
+      "title": "CVE-2026-50549 - Cursor Desktop sandbox escape via symlink and failed path canonicalization",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-50549",
+      "summary": "CVE ID :CVE-2026-50549 Published : June 25, 2026, 6:47 p.m. | 3 hours, 34 minutes ago Description :Cursor is a code editor built for programming with AI. Prior to 3.0, Cursor runs agent terminal...",
+      "source": "CVE Feed",
+      "published": "2026-06-25T18:47:45+00:00"
     },
     {
       "title": "Microsoft quietly extends free Windows 10 ESU support to October 2027",
@@ -53,100 +200,30 @@
     {
       "title": "CVE-2026-56786 - RTKLIB 2.4.3 - Out-of-bounds Write in decode_type1033 via Crafted RTCM3 Message",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-56786",
-      "summary": "CVE ID :CVE-2026-56786 Published : June 25, 2026, 6:11 p.m. | 2 hours, 10 minutes ago Description :RTKLIB through 2.4.3 contains an out-of-bounds write vulnerability in decode_type1033 function that...",
+      "summary": "CVE ID :CVE-2026-56786 Published : June 25, 2026, 6:11 p.m. | 4 hours, 10 minutes ago Description :RTKLIB through 2.4.3 contains an out-of-bounds write vulnerability in decode_type1033 function that...",
       "source": "CVE Feed",
       "published": "2026-06-25T18:11:55+00:00"
     },
     {
       "title": "CVE-2026-56771 - NewsBlur < 14.5.0 - Server-Side Request Forgery via add_url Endpoint",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-56771",
-      "summary": "CVE ID :CVE-2026-56771 Published : June 25, 2026, 6:07 p.m. | 2 hours, 14 minutes ago Description :NewsBlur before version 14.5.0 contains a server-side request forgery vulnerability in the add_url...",
+      "summary": "CVE ID :CVE-2026-56771 Published : June 25, 2026, 6:07 p.m. | 4 hours, 14 minutes ago Description :NewsBlur before version 14.5.0 contains a server-side request forgery vulnerability in the add_url...",
       "source": "CVE Feed",
       "published": "2026-06-25T18:07:31+00:00"
     },
     {
       "title": "CVE-2026-56770 - libais 0.15 - Out-of-bounds Vector Access in VdmStream::AddLine via Invalid Sequential Message ID",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-56770",
-      "summary": "CVE ID :CVE-2026-56770 Published : June 25, 2026, 6:06 p.m. | 2 hours, 15 minutes ago Description :libais through 0.15 VdmStream::AddLine uses an unchecked sentinel value as a vector index when...",
+      "summary": "CVE ID :CVE-2026-56770 Published : June 25, 2026, 6:06 p.m. | 4 hours, 15 minutes ago Description :libais through 0.15 VdmStream::AddLine uses an unchecked sentinel value as a vector index when...",
       "source": "CVE Feed",
       "published": "2026-06-25T18:06:39+00:00"
     },
     {
       "title": "CVE-2026-56769 - Huly Platform - Server-Side Request Forgery via /import Endpoint",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-56769",
-      "summary": "CVE ID :CVE-2026-56769 Published : June 25, 2026, 6:05 p.m. | 2 hours, 16 minutes ago Description :Huly Platform before commit 68cbf8a contains an authenticated server-side request forgery...",
+      "summary": "CVE ID :CVE-2026-56769 Published : June 25, 2026, 6:05 p.m. | 4 hours, 16 minutes ago Description :Huly Platform before commit 68cbf8a contains an authenticated server-side request forgery...",
       "source": "CVE Feed",
       "published": "2026-06-25T18:05:45+00:00"
-    },
-    {
-      "title": "CVE-2026-56768 - Seahub < 13.0.23 - Authentication Bypass in ShareLinkZipTaskView GET Method",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56768",
-      "summary": "CVE ID :CVE-2026-56768 Published : June 25, 2026, 6:05 p.m. | 2 hours, 17 minutes ago Description :Seahub before 13.0.23 does not enforce SHARE_LINK_LOGIN_REQUIRED on GET...",
-      "source": "CVE Feed",
-      "published": "2026-06-25T18:05:06+00:00"
-    },
-    {
-      "title": "CVE-2026-56767 - Maxun < 0.0.42 - Cross-Tenant IDOR in Storage and Webhook API Handlers",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56767",
-      "summary": "CVE ID :CVE-2026-56767 Published : June 25, 2026, 6:03 p.m. | 2 hours, 18 minutes ago Description :Maxun before 0.0.42 contains a cross-tenant insecure direct object reference vulnerability in...",
-      "source": "CVE Feed",
-      "published": "2026-06-25T18:03:33+00:00"
-    },
-    {
-      "title": "CVE-2026-56766 - Hydra - Stack Buffer Overflow in NTLM Authentication Handler",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56766",
-      "summary": "CVE ID :CVE-2026-56766 Published : June 25, 2026, 6:01 p.m. | 2 hours, 21 minutes ago Description :Hydra through 9.7, fixed in commit 9cc84c2, contains a stack buffer overflow in NTLM authentication...",
-      "source": "CVE Feed",
-      "published": "2026-06-25T18:01:07+00:00"
-    },
-    {
-      "title": "CVE-2026-12921 - Use after free in AzeoTech DAQFactory",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-12921",
-      "summary": "CVE ID :CVE-2026-12921 Published : June 25, 2026, 5:57 p.m. | 2 hours, 24 minutes ago Description :In AzeoTech DAQFactory versions 21.1 and prior, a Use After Free vulnerability can be exploited by...",
-      "source": "CVE Feed",
-      "published": "2026-06-25T17:57:54+00:00"
-    },
-    {
-      "title": "CVE-2026-12897 - Out-of-bounds read in Horner Automation Cscape",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-12897",
-      "summary": "CVE ID :CVE-2026-12897 Published : June 25, 2026, 5:47 p.m. | 2 hours, 34 minutes ago Description :Horner Automation Cscape versions prior to 10.2 SP3 are vulnerable to an Out-of-Bounds Read...",
-      "source": "CVE Feed",
-      "published": "2026-06-25T17:47:57+00:00"
-    },
-    {
-      "title": "CVE-2026-57700 - WordPress OMGF Pro plugin <= 5.2.6 - Arbitrary File Upload vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-57700",
-      "summary": "CVE ID :CVE-2026-57700 Published : June 25, 2026, 5:29 p.m. | 2 hours, 52 minutes ago Description :Unrestricted Upload of File with Dangerous Type vulnerability in Daan.Dev OMGF Pro allows Using...",
-      "source": "CVE Feed",
-      "published": "2026-06-25T17:29:31+00:00"
-    },
-    {
-      "title": "CVE-2026-11999 - X.509 trust-chain bypass via path-depth exhaustion in wolfSSL_X509_verify_cert()",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-11999",
-      "summary": "CVE ID :CVE-2026-11999 Published : June 25, 2026, 4:56 p.m. | 3 hours, 25 minutes ago Description :X.509 trust-chain bypass (path-depth exhaustion) in the OpenSSL compatibility certificate verifier...",
-      "source": "CVE Feed",
-      "published": "2026-06-25T16:56:14+00:00"
-    },
-    {
-      "title": "CVE-2026-50016 - pnpm: Transitive dependency alias path traversal allows project path override via symlink replacement",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-50016",
-      "summary": "CVE ID :CVE-2026-50016 Published : June 25, 2026, 4:53 p.m. | 3 hours, 28 minutes ago Description :pnpm is a package manager. Prior to 10.34.0 and 11.4.0, pnpm allows a transitive dependency alias...",
-      "source": "CVE Feed",
-      "published": "2026-06-25T16:53:16+00:00"
-    },
-    {
-      "title": "CVE-2026-55961 - wolfSSL_PKCS7_verify() reports success for degenerate (certs-only) PKCS#7 with no signer",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55961",
-      "summary": "CVE ID :CVE-2026-55961 Published : June 25, 2026, 4:51 p.m. | 3 hours, 30 minutes ago Description :wolfSSL_PKCS7_verify() returning success for a degenerate (certs-only) PKCS#7 object that contains...",
-      "source": "CVE Feed",
-      "published": "2026-06-25T16:51:18+00:00"
-    },
-    {
-      "title": "CVE-2026-55698 - pnpm: Project env lockfile can short-circuit package-manager resolution and execute lockfile-selected pnpm bytes",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55698",
-      "summary": "CVE ID :CVE-2026-55698 Published : June 25, 2026, 4:43 p.m. | 3 hours, 38 minutes ago Description :pnpm is a package manager. Prior to 10.34.2 and 11.5.3, pnpm can persist package-manager bootstrap...",
-      "source": "CVE Feed",
-      "published": "2026-06-25T16:43:47+00:00"
     },
     {
       "title": "New macOS malware embeds fake errors to confuse AI analysis tools",
@@ -156,27 +233,6 @@
       "published": "2026-06-25T16:23:19+00:00"
     },
     {
-      "title": "CVE-2026-9800 - Keycloak: keycloak policy enforcer: authorization bypass via incorrect uri comparison",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-9800",
-      "summary": "CVE ID :CVE-2026-9800 Published : June 25, 2026, 4:16 p.m. | 4 hours, 5 minutes ago Description :A flaw was found in Keycloak Policy Enforcer. This vulnerability allows any authenticated user to...",
-      "source": "CVE Feed",
-      "published": "2026-06-25T16:16:27+00:00"
-    },
-    {
-      "title": "CVE-2026-55412 - ToolJet Cloud - SSRF to Azure Cloud Infrastructure Compromise",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55412",
-      "summary": "CVE ID :CVE-2026-55412 Published : June 25, 2026, 4:07 p.m. | 4 hours, 14 minutes ago Description :ToolJet is the open-source foundation am AI-native platform for building and deploying internal...",
-      "source": "CVE Feed",
-      "published": "2026-06-25T16:07:13+00:00"
-    },
-    {
-      "title": "CVE-2026-55413 - ToolJet - Marketplace Plugin Poisoning Enables Instance-Wide Remote Code Execution",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55413",
-      "summary": "CVE ID :CVE-2026-55413 Published : June 25, 2026, 4:03 p.m. | 4 hours, 18 minutes ago Description :ToolJet is the open-source foundation am AI-native platform for building and deploying internal...",
-      "source": "CVE Feed",
-      "published": "2026-06-25T16:03:40+00:00"
-    },
-    {
       "title": "Google Chrome 149 Security Update: 18 Vulnerabilities Patched",
       "link": "https://thecyberthrone.in/2026/06/25/google-chrome-149-security-update-18-vulnerabilities-patched/",
       "summary": "Google Chrome 149 Security Update: 18 Vulnerabilities Patched June 25, 2026Google has shipped a Stable Channel update fixing 18 security vulnerabilities in Chrome — four rated Critical, fourteen...",
@@ -184,46 +240,11 @@
       "published": "2026-06-25T15:50:15+00:00"
     },
     {
-      "title": "CVE-2026-45233 - HTMLy CMS 3.1.1 Path Traversal via oldfile Parameter in Autosave",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-45233",
-      "summary": "CVE ID :CVE-2026-45233 Published : June 25, 2026, 3:50 p.m. | 4 hours, 32 minutes ago Description :HTMLy CMS through 3.1.1 contains a path traversal vulnerability that allows low-privileged...",
-      "source": "CVE Feed",
-      "published": "2026-06-25T15:50:00+00:00"
-    },
-    {
-      "title": "CVE-2026-54030 - LibreChat: Missing Resource Parameter Validation in MCP OAuth Flow",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54030",
-      "summary": "CVE ID :CVE-2026-54030 Published : June 25, 2026, 3:48 p.m. | 4 hours, 34 minutes ago Description :LibreChat is an enhanced ChatGPT clone that supports multiple AI providers. Prior to 0.8.5...",
-      "source": "CVE Feed",
-      "published": "2026-06-25T15:48:00+00:00"
-    },
-    {
-      "title": "CVE-2026-56123 - socat 1.8.0.0 - 1.8.1.1 Heap Buffer Overflow via SOCKS5 Reply Parser",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56123",
-      "summary": "CVE ID :CVE-2026-56123 Published : June 25, 2026, 3:43 p.m. | 4 hours, 38 minutes ago Description :socat versions 1.8.0.0 through 1.8.1.1 contain a heap-based buffer overflow vulnerability that...",
-      "source": "CVE Feed",
-      "published": "2026-06-25T15:43:19+00:00"
-    },
-    {
       "title": "PirloTV sports piracy network disrupted as 44 domains seized",
       "link": "https://www.bleepingcomputer.com/news/security/pirlotv-sports-piracy-network-disrupted-as-44-domains-seized/",
       "summary": "A major sports piracy ring linked to the illegal PirloTV streaming platform has been disrupted in an action that targeted 44 domains. [...]",
       "source": "BleepingComputer",
       "published": "2026-06-25T15:36:56+00:00"
-    },
-    {
-      "title": "CVE-2026-57456 - Vim: Arbitrary Code Execution via Python Omni-Completion Docstrings",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-57456",
-      "summary": "CVE ID :CVE-2026-57456 Published : June 25, 2026, 3:16 p.m. | 5 hours, 5 minutes ago Description :Vim is an open source, command line text editor. Prior to 9.2.0699, Vim's Python omni-completion...",
-      "source": "CVE Feed",
-      "published": "2026-06-25T15:16:16+00:00"
-    },
-    {
-      "title": "CVE-2026-9717 - [Product/Vendor Name] OS Command Injection",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-9717",
-      "summary": "CVE ID :CVE-2026-9717 Published : June 25, 2026, 3:05 p.m. | 5 hours, 16 minutes ago Description :CWE-78 Neutralization of Special Elements used in an OS Command ('OS Command Injection')...",
-      "source": "CVE Feed",
-      "published": "2026-06-25T15:05:36+00:00"
     },
     {
       "title": "Bluekit phishing kit adopts browser-in-the-middle for login theft",
@@ -1176,27 +1197,6 @@
       "summary": "Voluminous patch updates could soon be the norm, as artificial intelligence accelerates the speed and scale of vulnerability discovery.",
       "source": "Dark Reading",
       "published": "2026-06-09T21:42:57+00:00"
-    },
-    {
-      "title": "Microsoft Exchange Flaw Lets Attackers Spoof Any Email Address",
-      "link": "https://www.darkreading.com/vulnerabilities-threats/exchange-flaw-attackers-spoof-email-address",
-      "summary": "“Ghost-Sender\" is the result of a widespread misconfiguration, according to researchers, and evidence indicates it's being actively abused in the wild.",
-      "source": "Dark Reading",
-      "published": "2026-06-09T20:20:00+00:00"
-    },
-    {
-      "title": "Miasma Supply Chain Worm Burrows Into 73 Microsoft Repositories",
-      "link": "https://www.darkreading.com/application-security/miasma-supply-chain-worm-73-microsoft-repositories",
-      "summary": "The attacks stemmed from a GitHub account that was also compromised in a previous Miasma attack on Microsoft last month.",
-      "source": "Dark Reading",
-      "published": "2026-06-09T19:33:45+00:00"
-    },
-    {
-      "title": "Russian Attackers Weaponize WinRAR Flaw Against Ukrainian Orgs",
-      "link": "https://www.darkreading.com/vulnerabilities-threats/russian-groups-winrar-flaw-ukrainian-orgs",
-      "summary": "Two separate campaigns target CVE-2025-8088, fixed last July, to conduct data theft and cyberespionage against military and government targets in Ukraine.",
-      "source": "Dark Reading",
-      "published": "2026-06-09T15:37:02+00:00"
     },
     {
       "title": "Hackers Used Meta’s AI Support Bot to Seize Instagram Accounts",
