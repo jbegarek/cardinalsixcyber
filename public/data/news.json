@@ -1,6 +1,20 @@
 {
-  "last_updated": "2026-06-25T07:07:50.063059+00:00",
+  "last_updated": "2026-06-25T09:02:57.477646+00:00",
   "articles": [
+    {
+      "title": "NIST Opens Updated IoT Security Guidance to Public Review",
+      "link": "https://www.securityweek.com/nist-opens-updated-iot-security-guidance-to-public-review/",
+      "summary": "The guidance aims to establish product cybersecurity requirements for IoT devices integrated into federal agencies’ networks. The post NIST Opens Updated IoT Security Guidance to Public Review...",
+      "source": "SecurityWeek",
+      "published": "2026-06-25T08:29:26+00:00"
+    },
+    {
+      "title": "Chrome 149 Update Resolves 18 Severe Vulnerabilities",
+      "link": "https://www.securityweek.com/chrome-149-update-resolves-18-severe-vulnerabilities/",
+      "summary": "More than half of the bugs are use-after-free defects, which can potentially lead to remote code execution. The post Chrome 149 Update Resolves 18 Severe Vulnerabilities appeared first on...",
+      "source": "SecurityWeek",
+      "published": "2026-06-25T07:56:03+00:00"
+    },
     {
       "title": "Cisco SD-WAN Zero-Day Exploited Months Before Patching",
       "link": "https://www.securityweek.com/cisco-sd-wan-zero-day-exploited-months-before-patching/",
@@ -11,42 +25,63 @@
     {
       "title": "Cisco Catalyst SD-WAN Zero-Day CVE-2026-20245 Exploited to Gain Root Access",
       "link": "https://thehackernews.com/2026/06/cisco-catalyst-sd-wan-zero-day-cve-2026.html",
-      "summary": "An unknown threat actor exploited a recently disclosed high-severity security flaw impacting Cisco Catalyst SD-WAN as a zero-day at least two months before it was publicly disclosed, according to new...",
-      "source": "The Hacker News",
+      "summary": "Cisco Catalyst SD-WAN Zero-Day CVE-2026-20245 Exploited to Gain Root Access An unknown threat actor exploited a recently disclosed high-severity security flaw impacting Cisco Catalyst SD-WAN as a...",
+      "source": "CVE Newsroom",
       "published": "2026-06-25T05:46:54+00:00"
+    },
+    {
+      "title": "CVE-2026-12490 - Bypass of client certificate verification with transfer over TLS",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-12490",
+      "summary": "CVE ID :CVE-2026-12490 Published : June 25, 2026, 5:24 a.m. | 2 hours, 10 minutes ago Description :When a provide-xfr is given with a tls-auth-name, a secondary requesting a transfer should provide a...",
+      "source": "CVE Feed",
+      "published": "2026-06-25T05:24:41+00:00"
+    },
+    {
+      "title": "CVE-2026-12245 - Denial of DNS over TLS service by any DoT client",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-12245",
+      "summary": "CVE ID :CVE-2026-12245 Published : June 25, 2026, 5:24 a.m. | 2 hours, 10 minutes ago Description :NSD from version 4.13.0 has a heap use-after-free bug in logging errors on TLS connections, causing...",
+      "source": "CVE Feed",
+      "published": "2026-06-25T05:24:18+00:00"
+    },
+    {
+      "title": "CVE-2026-12244 - Heap overflow and crash with crafted SVCB RR",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-12244",
+      "summary": "CVE ID :CVE-2026-12244 Published : June 25, 2026, 5:24 a.m. | 2 hours, 10 minutes ago Description :If NSD is configured as secondary for a zone, the primary of that zone can crash NSD with an AXFR...",
+      "source": "CVE Feed",
+      "published": "2026-06-25T05:24:08+00:00"
     },
     {
       "title": "CVE-2026-10086 - Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') in GitLab",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-10086",
-      "summary": "CVE ID :CVE-2026-10086 Published : June 25, 2026, 5:03 a.m. | 31 minutes ago Description :GitLab has remediated an issue in GitLab EE affecting all versions from 16.4 before 18.11.6, 19.0 before...",
+      "summary": "CVE ID :CVE-2026-10086 Published : June 25, 2026, 5:03 a.m. | 2 hours, 31 minutes ago Description :GitLab has remediated an issue in GitLab EE affecting all versions from 16.4 before 18.11.6, 19.0...",
       "source": "CVE Feed",
       "published": "2026-06-25T05:03:58+00:00"
     },
     {
       "title": "CVE-2026-13311 - shell-quote parse() is quadratic in token count, enabling denial of service",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-13311",
-      "summary": "CVE ID :CVE-2026-13311 Published : June 25, 2026, 4:48 a.m. | 46 minutes ago Description :shell-quote prior to 1.8.5 finalizes parsed tokens in parse() using Array.prototype.concat as a reduce...",
+      "summary": "CVE ID :CVE-2026-13311 Published : June 25, 2026, 4:48 a.m. | 2 hours, 46 minutes ago Description :shell-quote prior to 1.8.5 finalizes parsed tokens in parse() using Array.prototype.concat as a...",
       "source": "CVE Feed",
       "published": "2026-06-25T04:48:36+00:00"
     },
     {
       "title": "CVE-2026-10712 - Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') in GitLab",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-10712",
-      "summary": "CVE ID :CVE-2026-10712 Published : June 25, 2026, 4:33 a.m. | 1 hour, 1 minute ago Description :GitLab has remediated an issue in GitLab CE/EE affecting all versions from 18.10 before 18.11.6, 19.0...",
+      "summary": "CVE ID :CVE-2026-10712 Published : June 25, 2026, 4:33 a.m. | 3 hours, 1 minute ago Description :GitLab has remediated an issue in GitLab CE/EE affecting all versions from 18.10 before 18.11.6, 19.0...",
       "source": "CVE Feed",
       "published": "2026-06-25T04:33:54+00:00"
     },
     {
       "title": "CVE-2026-12053 - Insertion of Sensitive Information into Log File in GitLab",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-12053",
-      "summary": "CVE ID :CVE-2026-12053 Published : June 25, 2026, 4:33 a.m. | 1 hour, 1 minute ago Description :GitLab has remediated an issue in GitLab EE affecting all versions from 19.1 before 19.1.1 that under...",
+      "summary": "CVE ID :CVE-2026-12053 Published : June 25, 2026, 4:33 a.m. | 3 hours, 1 minute ago Description :GitLab has remediated an issue in GitLab EE affecting all versions from 19.1 before 19.1.1 that under...",
       "source": "CVE Feed",
       "published": "2026-06-25T04:33:44+00:00"
     },
     {
       "title": "CVE-2026-9155 - OS Command Injection in Rapid7 InsightConnect Sed Plugin via expression parameter.",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-9155",
-      "summary": "CVE ID :CVE-2026-9155 Published : June 25, 2026, 12:25 a.m. | 5 hours, 9 minutes ago Description :OS Command Injection vulnerability in Rapid7 InsightConnect Sed Plugin on Linux allows authenticated...",
+      "summary": "CVE ID :CVE-2026-9155 Published : June 25, 2026, 12:25 a.m. | 7 hours, 9 minutes ago Description :OS Command Injection vulnerability in Rapid7 InsightConnect Sed Plugin on Linux allows authenticated...",
       "source": "CVE Feed",
       "published": "2026-06-25T00:25:22+00:00"
     },
@@ -60,91 +95,91 @@
     {
       "title": "CVE-2026-7569 - Quest NetVault Backup viewclient Cross-Site Scripting Authentication Bypass Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-7569",
-      "summary": "CVE ID :CVE-2026-7569 Published : June 24, 2026, 11:15 p.m. | 6 hours, 19 minutes ago Description :Quest NetVault Backup viewclient Cross-Site Scripting Authentication Bypass Vulnerability. This...",
+      "summary": "CVE ID :CVE-2026-7569 Published : June 24, 2026, 11:15 p.m. | 8 hours, 19 minutes ago Description :Quest NetVault Backup viewclient Cross-Site Scripting Authentication Bypass Vulnerability. This...",
       "source": "CVE Feed",
       "published": "2026-06-24T23:15:40+00:00"
     },
     {
       "title": "CVE-2026-9787 - Quest NetVault Backup NVBULogDaemon Command Injection Remote Code Execution Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-9787",
-      "summary": "CVE ID :CVE-2026-9787 Published : June 24, 2026, 11:15 p.m. | 6 hours, 19 minutes ago Description :Quest NetVault Backup NVBULogDaemon Command Injection Remote Code Execution Vulnerability. This...",
+      "summary": "CVE ID :CVE-2026-9787 Published : June 24, 2026, 11:15 p.m. | 8 hours, 19 minutes ago Description :Quest NetVault Backup NVBULogDaemon Command Injection Remote Code Execution Vulnerability. This...",
       "source": "CVE Feed",
       "published": "2026-06-24T23:15:19+00:00"
     },
     {
       "title": "CVE-2026-9786 - Quest NetVault Backup NVBUDashboard SQL Injection Remote Code Execution Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-9786",
-      "summary": "CVE ID :CVE-2026-9786 Published : June 24, 2026, 11:15 p.m. | 6 hours, 19 minutes ago Description :Quest NetVault Backup NVBUDashboard SQL Injection Remote Code Execution Vulnerability. This...",
+      "summary": "CVE ID :CVE-2026-9786 Published : June 24, 2026, 11:15 p.m. | 8 hours, 19 minutes ago Description :Quest NetVault Backup NVBUDashboard SQL Injection Remote Code Execution Vulnerability. This...",
       "source": "CVE Feed",
       "published": "2026-06-24T23:15:05+00:00"
     },
     {
       "title": "CVE-2026-9785 - Quest NetVault Backup NVBULibrarySlot SQL Injection Remote Code Execution Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-9785",
-      "summary": "CVE ID :CVE-2026-9785 Published : June 24, 2026, 11:14 p.m. | 6 hours, 20 minutes ago Description :Quest NetVault Backup NVBULibrarySlot SQL Injection Remote Code Execution Vulnerability. This...",
+      "summary": "CVE ID :CVE-2026-9785 Published : June 24, 2026, 11:14 p.m. | 8 hours, 20 minutes ago Description :Quest NetVault Backup NVBULibrarySlot SQL Injection Remote Code Execution Vulnerability. This...",
       "source": "CVE Feed",
       "published": "2026-06-24T23:14:57+00:00"
     },
     {
       "title": "CVE-2026-9784 - Quest NetVault Backup NVBULibraryPort SQL Injection Remote Code Execution Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-9784",
-      "summary": "CVE ID :CVE-2026-9784 Published : June 24, 2026, 11:14 p.m. | 6 hours, 20 minutes ago Description :Quest NetVault Backup NVBULibraryPort SQL Injection Remote Code Execution Vulnerability. This...",
+      "summary": "CVE ID :CVE-2026-9784 Published : June 24, 2026, 11:14 p.m. | 8 hours, 20 minutes ago Description :Quest NetVault Backup NVBULibraryPort SQL Injection Remote Code Execution Vulnerability. This...",
       "source": "CVE Feed",
       "published": "2026-06-24T23:14:48+00:00"
     },
     {
       "title": "CVE-2026-9783 - Quest NetVault Backup NVBURemovableMedia SQL Injection Remote Code Execution Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-9783",
-      "summary": "CVE ID :CVE-2026-9783 Published : June 24, 2026, 11:14 p.m. | 6 hours, 20 minutes ago Description :Quest NetVault Backup NVBURemovableMedia SQL Injection Remote Code Execution Vulnerability. This...",
+      "summary": "CVE ID :CVE-2026-9783 Published : June 24, 2026, 11:14 p.m. | 8 hours, 20 minutes ago Description :Quest NetVault Backup NVBURemovableMedia SQL Injection Remote Code Execution Vulnerability. This...",
       "source": "CVE Feed",
       "published": "2026-06-24T23:14:39+00:00"
     },
     {
       "title": "CVE-2026-9782 - Quest NetVault Backup NVBUDeviceDrive SQL Injection Remote Code Execution Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-9782",
-      "summary": "CVE ID :CVE-2026-9782 Published : June 24, 2026, 11:14 p.m. | 6 hours, 20 minutes ago Description :Quest NetVault Backup NVBUDeviceDrive SQL Injection Remote Code Execution Vulnerability. This...",
+      "summary": "CVE ID :CVE-2026-9782 Published : June 24, 2026, 11:14 p.m. | 8 hours, 20 minutes ago Description :Quest NetVault Backup NVBUDeviceDrive SQL Injection Remote Code Execution Vulnerability. This...",
       "source": "CVE Feed",
       "published": "2026-06-24T23:14:30+00:00"
     },
     {
       "title": "CVE-2026-9781 - Quest NetVault Backup NVBURASDevice SQL Injection Remote Code Execution Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-9781",
-      "summary": "CVE ID :CVE-2026-9781 Published : June 24, 2026, 11:14 p.m. | 6 hours, 20 minutes ago Description :Quest NetVault Backup NVBURASDevice SQL Injection Remote Code Execution Vulnerability. This...",
+      "summary": "CVE ID :CVE-2026-9781 Published : June 24, 2026, 11:14 p.m. | 8 hours, 20 minutes ago Description :Quest NetVault Backup NVBURASDevice SQL Injection Remote Code Execution Vulnerability. This...",
       "source": "CVE Feed",
       "published": "2026-06-24T23:14:05+00:00"
     },
     {
       "title": "CVE-2026-9780 - Quest NetVault Backup addclient3 Cross-Site Scripting Authentication Bypass Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-9780",
-      "summary": "CVE ID :CVE-2026-9780 Published : June 24, 2026, 11:13 p.m. | 6 hours, 21 minutes ago Description :Quest NetVault Backup addclient3 Cross-Site Scripting Authentication Bypass Vulnerability. This...",
+      "summary": "CVE ID :CVE-2026-9780 Published : June 24, 2026, 11:13 p.m. | 8 hours, 21 minutes ago Description :Quest NetVault Backup addclient3 Cross-Site Scripting Authentication Bypass Vulnerability. This...",
       "source": "CVE Feed",
       "published": "2026-06-24T23:13:55+00:00"
     },
     {
       "title": "CVE-2026-7570 - Quest NetVault Backup NVBUDashboard SQL Injection Remote Code Execution Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-7570",
-      "summary": "CVE ID :CVE-2026-7570 Published : June 24, 2026, 11:13 p.m. | 6 hours, 21 minutes ago Description :Quest NetVault Backup NVBUDashboard SQL Injection Remote Code Execution Vulnerability. This...",
+      "summary": "CVE ID :CVE-2026-7570 Published : June 24, 2026, 11:13 p.m. | 8 hours, 21 minutes ago Description :Quest NetVault Backup NVBUDashboard SQL Injection Remote Code Execution Vulnerability. This...",
       "source": "CVE Feed",
       "published": "2026-06-24T23:13:47+00:00"
     },
     {
       "title": "CVE-2026-39948 - Cacti has SQL Injection via rfilter parameter in RLIKE clauses",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-39948",
-      "summary": "CVE ID :CVE-2026-39948 Published : June 24, 2026, 11:06 p.m. | 6 hours, 28 minutes ago Description :Cacti is an open source performance and fault management framework. In versions 1.2.30 and prior...",
+      "summary": "CVE ID :CVE-2026-39948 Published : June 24, 2026, 11:06 p.m. | 8 hours, 28 minutes ago Description :Cacti is an open source performance and fault management framework. In versions 1.2.30 and prior...",
       "source": "CVE Feed",
       "published": "2026-06-24T23:06:39+00:00"
     },
     {
       "title": "CVE-2026-39955 - Cacti has Pre-Authentication SQL Injection via unanchored FILTER_VALIDATE_REGEXP in graph_view.php",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-39955",
-      "summary": "CVE ID :CVE-2026-39955 Published : June 24, 2026, 10:49 p.m. | 6 hours, 45 minutes ago Description :Cacti is an open source performance and fault management framework. Versions 1.2.30 and prior have...",
+      "summary": "CVE ID :CVE-2026-39955 Published : June 24, 2026, 10:49 p.m. | 8 hours, 45 minutes ago Description :Cacti is an open source performance and fault management framework. Versions 1.2.30 and prior have...",
       "source": "CVE Feed",
       "published": "2026-06-24T22:49:13+00:00"
     },
     {
       "title": "CVE-2026-39938 - Cacti: Unauthenticated RCE on Graph Image",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-39938",
-      "summary": "CVE ID :CVE-2026-39938 Published : June 24, 2026, 10:41 p.m. | 6 hours, 53 minutes ago Description :Cacti is an open source performance and fault management framework. Versions 1.2.30 and prior have...",
+      "summary": "CVE ID :CVE-2026-39938 Published : June 24, 2026, 10:41 p.m. | 8 hours, 53 minutes ago Description :Cacti is an open source performance and fault management framework. Versions 1.2.30 and prior have...",
       "source": "CVE Feed",
       "published": "2026-06-24T22:41:04+00:00"
     },
@@ -158,37 +193,30 @@
     {
       "title": "CVE-2026-39893 - Cacti: Pre-authentication SQL injection via rfilter RLIKE clause in graph_view.php",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-39893",
-      "summary": "CVE ID :CVE-2026-39893 Published : June 24, 2026, 9:45 p.m. | 7 hours, 49 minutes ago Description :Cacti is an open source performance and fault management framework. In versions 1.2.30 and prior...",
+      "summary": "CVE ID :CVE-2026-39893 Published : June 24, 2026, 9:45 p.m. | 9 hours, 49 minutes ago Description :Cacti is an open source performance and fault management framework. In versions 1.2.30 and prior...",
       "source": "CVE Feed",
       "published": "2026-06-24T21:45:34+00:00"
     },
     {
       "title": "CVE-2026-55454 - Appsmith: Caddy admin API exposed without authentication",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-55454",
-      "summary": "CVE ID :CVE-2026-55454 Published : June 24, 2026, 9:38 p.m. | 7 hours, 56 minutes ago Description :Appsmith is a platform to build admin panels, internal tools, and dashboards. Prior to 2.1, the...",
+      "summary": "CVE ID :CVE-2026-55454 Published : June 24, 2026, 9:38 p.m. | 9 hours, 56 minutes ago Description :Appsmith is a platform to build admin panels, internal tools, and dashboards. Prior to 2.1, the...",
       "source": "CVE Feed",
       "published": "2026-06-24T21:38:07+00:00"
     },
     {
       "title": "CVE-2026-9773 - Unraid Web Server ToggleState Command Injection Remote Code Execution Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-9773",
-      "summary": "CVE ID :CVE-2026-9773 Published : June 24, 2026, 9:35 p.m. | 7 hours, 59 minutes ago Description :Unraid Web Server ToggleState Command Injection Remote Code Execution Vulnerability. This...",
+      "summary": "CVE ID :CVE-2026-9773 Published : June 24, 2026, 9:35 p.m. | 9 hours, 59 minutes ago Description :Unraid Web Server ToggleState Command Injection Remote Code Execution Vulnerability. This...",
       "source": "CVE Feed",
       "published": "2026-06-24T21:35:35+00:00"
     },
     {
       "title": "CVE-2026-9772 - Unraid Web Server FileUpload Command Injection Remote Code Execution Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-9772",
-      "summary": "CVE ID :CVE-2026-9772 Published : June 24, 2026, 9:35 p.m. | 7 hours, 59 minutes ago Description :Unraid Web Server FileUpload Command Injection Remote Code Execution Vulnerability. This...",
+      "summary": "CVE ID :CVE-2026-9772 Published : June 24, 2026, 9:35 p.m. | 9 hours, 59 minutes ago Description :Unraid Web Server FileUpload Command Injection Remote Code Execution Vulnerability. This...",
       "source": "CVE Feed",
       "published": "2026-06-24T21:35:27+00:00"
-    },
-    {
-      "title": "CVE-2026-50189 - Appsmith: RCE via Supervisord XML-RPC Admin Interface Exposed via /supervisor Caddy Route",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-50189",
-      "summary": "CVE ID :CVE-2026-50189 Published : June 24, 2026, 9:35 p.m. | 7 hours, 59 minutes ago Description :Appsmith is a platform to build admin panels, internal tools, and dashboards. Prior to 2.1...",
-      "source": "CVE Feed",
-      "published": "2026-06-24T21:35:00+00:00"
     },
     {
       "title": "Mandiant reveals how Cisco SD-WAN zero-day attacks gained root access",
@@ -196,20 +224,6 @@
       "summary": "New details have been revealed on how hackers exploited a Cisco Catalyst SD-WAN vulnerability tracked as CVE-2026-20245 in zero-day attacks to create rogue root accounts on targeted devices. [...]",
       "source": "BleepingComputer",
       "published": "2026-06-24T21:29:10+00:00"
-    },
-    {
-      "title": "CVE-2026-55570 - SiYuan: Stored XSS results to Electron RCE in SiYuan marketplace via unescaped `data-obj` attribute (Bypass for CVE-2026-45375's patch)",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55570",
-      "summary": "CVE ID :CVE-2026-55570 Published : June 24, 2026, 9:24 p.m. | 8 hours, 10 minutes ago Description :SiYuan is an open-source personal knowledge management system. Prior to 3.7.0, it does not escape...",
-      "source": "CVE Feed",
-      "published": "2026-06-24T21:24:21+00:00"
-    },
-    {
-      "title": "CVE-2026-54759 - SiYuan: Lute HTML sanitizer allows `` tags in Bazaar package README, leading to arbitrary command execution via SiYuan Electron client",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54759",
-      "summary": "CVE ID :CVE-2026-54759 Published : June 24, 2026, 9:21 p.m. | 8 hours, 13 minutes ago Description :SiYuan is an open-source personal knowledge management system. Prior to 3.7.0, Lute's HTML sanitizer...",
-      "source": "CVE Feed",
-      "published": "2026-06-24T21:21:57+00:00"
     },
     {
       "title": "Attackers Hit Cisco SD-WAN Flaw 2 Months Before Disclosure",
@@ -366,13 +380,6 @@
       "published": "2026-06-24T12:00:00+00:00"
     },
     {
-      "title": "New ‘Mistic’ RAT Opens Door to Several Ransomware Families",
-      "link": "https://www.securityweek.com/new-mistic-rat-opens-door-to-several-ransomware-families/",
-      "summary": "Mistic is used by Woodgnat, an initial access broker working with Qilin, Interlock, Rhysida, Akira, 8Base, and Black Basta. The post New ‘Mistic’ RAT Opens Door to Several Ransomware Families...",
-      "source": "SecurityWeek",
-      "published": "2026-06-24T11:42:38+00:00"
-    },
-    {
       "title": "VS meldt voor het eerst misbruik van kritieke Ubiquiti UniFi OS-lekken",
       "link": "https://www.security.nl/posting/941924/VS+meldt+voor+het+eerst+misbruik+van+kritieke+Ubiquiti+UniFi+OS-lekken?channel=rss",
       "summary": "VS meldt voor het eerst misbruik van kritieke Ubiquiti UniFi OS-lekken Aanvallers maken actief misbruik van drie kritieke kwetsbaarheden in Ubiquiti UniFi OS waardoor aanvallers toegang tot apparaten...",
@@ -385,13 +392,6 @@
       "summary": "We are standing at the end of an era we never thought to mourn: the era of human-speed threats. For years, cybersecurity moved to a rhythm organizations could follow. A researcher found a bug, a CVE...",
       "source": "The Hacker News",
       "published": "2026-06-24T11:30:00+00:00"
-    },
-    {
-      "title": "Exploitable CI/CD Vulnerabilities Expose Millions of Repositories to Hijacking",
-      "link": "https://www.securityweek.com/exploitable-ci-cd-vulnerabilities-expose-millions-of-repositories-to-hijacking/",
-      "summary": "The security defects allow unauthenticated users to take control of the open source software supply chain. The post Exploitable CI/CD Vulnerabilities Expose Millions of Repositories to Hijacking...",
-      "source": "SecurityWeek",
-      "published": "2026-06-24T10:55:05+00:00"
     },
     {
       "title": "Stealthy Mistic backdoor linked to ransomware access broker KongTuke",
@@ -812,13 +812,6 @@
       "summary": "Apple Patches Beats Studio Buds Flaw Letting Nearby Attackers Spy via Microphone Apple has updated its Beats Studio Buds wireless earbuds to patch a high-severity vulnerability that could be...",
       "source": "CVE Newsroom",
       "published": "2026-06-19T06:36:09+00:00"
-    },
-    {
-      "title": "The Vulnerabilities That Matter in Oracle’s June 2026 CSPU",
-      "link": "https://thecyberthrone.in/2026/06/19/the-vulnerabilities-that-matter-in-oracles-june-2026-cspu/",
-      "summary": "The Vulnerabilities That Matter in Oracle’s June 2026 CSPU 1. CVE-2026-35273 — PeopleSoft PeopleTools EMHub (the one that actually got people breached)This is the standout, and it’s worth walking...",
-      "source": "CVE Newsroom",
-      "published": "2026-06-19T01:59:40+00:00"
     },
     {
       "title": "Novo Nordisk Breach Highlights Software Development Pipeline Risk",
