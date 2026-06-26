@@ -1,6 +1,20 @@
 {
-  "last_updated": "2026-06-26T20:32:29.778000+00:00",
+  "last_updated": "2026-06-26T22:24:44.563209+00:00",
   "articles": [
+    {
+      "title": "FBI: Russian hackers now target Signal backup recovery keys",
+      "link": "https://www.bleepingcomputer.com/news/security/fbi-russian-hackers-now-target-signal-backup-recovery-keys/",
+      "summary": "The FBI and CISA are warning that a phishing campaign targeting Signal users tied to Russian intelligence services has evolved to steal Signal Backup Recovery Keys, allowing attackers to access...",
+      "source": "BleepingComputer",
+      "published": "2026-06-26T22:06:17+00:00"
+    },
+    {
+      "title": "CVE-2026-32833 - Cudy LT300 3.0 OS Command Injection via NTP Configuration",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-32833",
+      "summary": "CVE ID :CVE-2026-32833 Published : June 26, 2026, 7:54 p.m. | 2 hours, 28 minutes ago Description :Cudy LT300 3.0 running firmware prior to version 2.5.12 contains an OS command injection...",
+      "source": "CVE Feed",
+      "published": "2026-06-26T19:54:02+00:00"
+    },
     {
       "title": "CISA sets urgent deadline to fix Cisco flaw exploited in attacks",
       "link": "https://www.bleepingcomputer.com/news/security/cisa-sets-urgent-deadline-to-fix-cisco-flaw-exploited-in-attacks/",
@@ -21,6 +35,41 @@
       "summary": "Companies are still experimenting with automated AI systems to find security weaknesses, but fewer are relying on the technology.",
       "source": "Dark Reading",
       "published": "2026-06-26T19:11:02+00:00"
+    },
+    {
+      "title": "CVE-2026-52780 - OpenProject: Cache store poisoning leads to Remote Code Execution (RCE)",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-52780",
+      "summary": "CVE ID :CVE-2026-52780 Published : June 26, 2026, 7:09 p.m. | 3 hours, 13 minutes ago Description :OpenProject is open-source, web-based project management software. Prior to 17.3.3 and 17.4.1, cache...",
+      "source": "CVE Feed",
+      "published": "2026-06-26T19:09:21+00:00"
+    },
+    {
+      "title": "CVE-2026-52782 - OpenProject: IDOR through /projects//settings/project_storages/ via PATCH parameter \"storages_project_storage[project_folder_id]\" leads to Access to Unauthorized Resources",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-52782",
+      "summary": "CVE ID :CVE-2026-52782 Published : June 26, 2026, 6:59 p.m. | 3 hours, 23 minutes ago Description :OpenProject is open-source, web-based project management software. Prior to 17.3.3 and 17.4.1, there...",
+      "source": "CVE Feed",
+      "published": "2026-06-26T18:59:27+00:00"
+    },
+    {
+      "title": "CVE-2026-52783 - OpenProject: Information Disclosure (cleartext storage of data) on localhost through memcached via Others \"storage..httpx_access_token\" leads to Sensitive Data Exposure",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-52783",
+      "summary": "CVE ID :CVE-2026-52783 Published : June 26, 2026, 6:57 p.m. | 3 hours, 24 minutes ago Description :OpenProject is open-source, web-based project management software. Prior to 17.3.3 and 17.4.1...",
+      "source": "CVE Feed",
+      "published": "2026-06-26T18:57:58+00:00"
+    },
+    {
+      "title": "CVE-2026-52784 - OpenProject: CSRF on TARGET through /users/:id via POST parameter \"user[admin]\"",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-52784",
+      "summary": "CVE ID :CVE-2026-52784 Published : June 26, 2026, 6:56 p.m. | 3 hours, 26 minutes ago Description :OpenProject is open-source, web-based project management software. Prior to 17.3.3 and 17.4.1, there...",
+      "source": "CVE Feed",
+      "published": "2026-06-26T18:56:06+00:00"
+    },
+    {
+      "title": "CVE-2026-52785 - OpenProject: SQL injection in timestamps functionality",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-52785",
+      "summary": "CVE ID :CVE-2026-52785 Published : June 26, 2026, 6:54 p.m. | 3 hours, 28 minutes ago Description :OpenProject is open-source, web-based project management software. Prior to 17.3.3 and 17.4.1, there...",
+      "source": "CVE Feed",
+      "published": "2026-06-26T18:54:03+00:00"
     },
     {
       "title": "New SharkLoader Malware Deploys Cobalt Strike in StrikeShark Cyberattacks",
@@ -51,11 +100,74 @@
       "published": "2026-06-26T17:31:04+00:00"
     },
     {
+      "title": "CVE-2026-33646 - mise: Arbitrary Code Execution via Tera Templates in .tool-versions Files (Trust Bypass)",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-33646",
+      "summary": "CVE ID :CVE-2026-33646 Published : June 26, 2026, 4:51 p.m. | 5 hours, 30 minutes ago Description :mise manages dev tools like node, python, cmake, and terraform. Prior to 2026.3.10, mise processes...",
+      "source": "CVE Feed",
+      "published": "2026-06-26T16:51:44+00:00"
+    },
+    {
+      "title": "CVE-2026-55441 - mise: Arbitrary command execution via task-include files in an untrusted, config-less repository",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55441",
+      "summary": "CVE ID :CVE-2026-55441 Published : June 26, 2026, 4:48 p.m. | 5 hours, 34 minutes ago Description :mise manages dev tools like node, python, cmake, and terraform. Prior to 2026.6.4, mise's trust...",
+      "source": "CVE Feed",
+      "published": "2026-06-26T16:48:23+00:00"
+    },
+    {
+      "title": "CVE-2026-56876 - extract-zip unvalidated symlink path traversal",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56876",
+      "summary": "CVE ID :CVE-2026-56876 Published : June 26, 2026, 4:44 p.m. | 5 hours, 38 minutes ago Description :extract-zip does not validate symlink targets when extracting zip archives. When processing a...",
+      "source": "CVE Feed",
+      "published": "2026-06-26T16:44:29+00:00"
+    },
+    {
+      "title": "New Initiative Tackles Security for End-of-Life Open Source Software",
+      "link": "https://www.darkreading.com/application-security/initiative-tackles-security-end-of-life-open-source",
+      "summary": "The Open Source Sustainability Initiative's goal is to help enterprises manage and secure aging open source projects while maintaining regulatory compliance.",
+      "source": "Dark Reading",
+      "published": "2026-06-26T16:32:30+00:00"
+    },
+    {
+      "title": "CVE-2026-54636 - Dokku: OS Command Injection via app.json managed Cron",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54636",
+      "summary": "CVE ID :CVE-2026-54636 Published : June 26, 2026, 4:23 p.m. | 5 hours, 58 minutes ago Description :Dokku is a docker-powered PaaS. Prior to 0.38.7, the cron plugin utilizes commands in the app.json...",
+      "source": "CVE Feed",
+      "published": "2026-06-26T16:23:58+00:00"
+    },
+    {
+      "title": "CVE-2026-45405 - Dokku: Arbitrary File Write via Tar Symlink Traversal in git:from-archive and certs:add",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-45405",
+      "summary": "CVE ID :CVE-2026-45405 Published : June 26, 2026, 4:23 p.m. | 5 hours, 59 minutes ago Description :Dokku is a docker-powered PaaS. Prior to 0.38.2, the git:from-archive and certs:add commands extract...",
+      "source": "CVE Feed",
+      "published": "2026-06-26T16:23:05+00:00"
+    },
+    {
+      "title": "CVE-2026-45406 - Dokku: Host RCE via Maliciously Named OpenResty Include Files Injected Through eval",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-45406",
+      "summary": "CVE ID :CVE-2026-45406 Published : June 26, 2026, 4:22 p.m. | 6 hours ago Description :Dokku is a docker-powered PaaS. Prior to 0.38.2, the openresty-vhosts plugin copies files from an app's...",
+      "source": "CVE Feed",
+      "published": "2026-06-26T16:22:17+00:00"
+    },
+    {
       "title": "Chinese-Speaking APT Deploys New TinyRCT Backdoor in Southeast Asia Campaign",
       "link": "https://thehackernews.com/2026/06/chinese-speaking-apt-deploys-new.html",
       "summary": "A Chinese-speaking advanced persistent threat (APT) actor has been linked to a new custom backdoor called TinyRCT as part of cyber attacks aimed at government entities and critical infrastructure in...",
       "source": "The Hacker News",
       "published": "2026-06-26T16:21:25+00:00"
+    },
+    {
+      "title": "CVE-2026-45408 - Dokku: OS Command Injection via App Name in Git Pre-Receive Hook",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-45408",
+      "summary": "CVE ID :CVE-2026-45408 Published : June 26, 2026, 4:19 p.m. | 6 hours, 2 minutes ago Description :Dokku is a docker-powered PaaS. Prior to 0.38.2, the app name validation regex (^[a-z0-9][^/:_A-Z]*$)...",
+      "source": "CVE Feed",
+      "published": "2026-06-26T16:19:56+00:00"
+    },
+    {
+      "title": "CVE-2026-56663 - AutoGPT: SSRF-to-RCE Chain in `SendWebRequestBlock` via IP validation bypass and internal `pg-meta` access",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56663",
+      "summary": "CVE ID :CVE-2026-56663 Published : June 26, 2026, 4:04 p.m. | 6 hours, 17 minutes ago Description :AutoGPT is a workflow automation platform for creating, deploying, and managing continuous...",
+      "source": "CVE Feed",
+      "published": "2026-06-26T16:04:54+00:00"
     },
     {
       "title": "AI Won't Wipe-Out Entry-Level Cybersecurity Jobs",
@@ -67,14 +179,28 @@
     {
       "title": "CVE-2026-57518 - Pagekit CMS 1.0.18 Privilege Escalation via UserApiController",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-57518",
-      "summary": "CVE ID :CVE-2026-57518 Published : June 26, 2026, 3:58 p.m. | 3 hours, 25 minutes ago Description :Pagekit CMS 1.0.18 contains a privilege escalation vulnerability that allows authenticated users...",
+      "summary": "CVE ID :CVE-2026-57518 Published : June 26, 2026, 3:58 p.m. | 6 hours, 24 minutes ago Description :Pagekit CMS 1.0.18 contains a privilege escalation vulnerability that allows authenticated users...",
       "source": "CVE Feed",
       "published": "2026-06-26T15:58:20+00:00"
     },
     {
+      "title": "CVE-2026-0685 - Server side template inject (SSTI) in Edgewall Genshi Template Engine",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-0685",
+      "summary": "CVE ID :CVE-2026-0685 Published : June 26, 2026, 3:45 p.m. | 6 hours, 37 minutes ago Description :Server side template inject (SSTI) in the expression evaluation component in Genshi Template Engine...",
+      "source": "CVE Feed",
+      "published": "2026-06-26T15:45:11+00:00"
+    },
+    {
+      "title": "CVE-2025-11919 - Unprotected temporary directories in Wolfram Cloud may result in privilege escalation",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2025-11919",
+      "summary": "CVE ID :CVE-2025-11919 Published : June 26, 2026, 3:39 p.m. | 6 hours, 43 minutes ago Description :The default JVM can access files and directories under `/tmp/` including the `$TemporaryDirectory`...",
+      "source": "CVE Feed",
+      "published": "2026-06-26T15:39:41+00:00"
+    },
+    {
       "title": "CVE-2026-12411 - Broken Access Control in Canonical LXD DevLXD API",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-12411",
-      "summary": "CVE ID :CVE-2026-12411 Published : June 26, 2026, 3:27 p.m. | 3 hours, 56 minutes ago Description :Broken Access Control in the devLXDInstancePatchHandler component of Canonical LXD allows an...",
+      "summary": "CVE ID :CVE-2026-12411 Published : June 26, 2026, 3:27 p.m. | 6 hours, 54 minutes ago Description :Broken Access Control in the devLXDInstancePatchHandler component of Canonical LXD allows an...",
       "source": "CVE Feed",
       "published": "2026-06-26T15:27:55+00:00"
     },
@@ -95,163 +221,51 @@
     {
       "title": "CVE-2026-57667 - WordPress Groundhogg plugin <= 4.5 - SQL Injection vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-57667",
-      "summary": "CVE ID :CVE-2026-57667 Published : June 26, 2026, 2:53 p.m. | 4 hours, 30 minutes ago Description :Sales Representative SQL Injection in Groundhogg Severity: 8.5 | HIGH Visit the link for more...",
+      "summary": "CVE ID :CVE-2026-57667 Published : June 26, 2026, 2:53 p.m. | 7 hours, 29 minutes ago Description :Sales Representative SQL Injection in Groundhogg Severity: 8.5 | HIGH Visit the link for more...",
       "source": "CVE Feed",
       "published": "2026-06-26T14:53:32+00:00"
     },
     {
       "title": "CVE-2026-57663 - WordPress Recipe Maker For Your Food Blog from Zip Recipes plugin <= 8.2.7 - SQL Injection vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-57663",
-      "summary": "CVE ID :CVE-2026-57663 Published : June 26, 2026, 2:53 p.m. | 4 hours, 30 minutes ago Description :Contributor SQL Injection in Recipe Maker For Your Food Blog from Zip Recipes Severity: 8.5 | HIGH...",
+      "summary": "CVE ID :CVE-2026-57663 Published : June 26, 2026, 2:53 p.m. | 7 hours, 29 minutes ago Description :Contributor SQL Injection in Recipe Maker For Your Food Blog from Zip Recipes Severity: 8.5 | HIGH...",
       "source": "CVE Feed",
       "published": "2026-06-26T14:53:30+00:00"
     },
     {
       "title": "CVE-2026-57662 - WordPress Contest Gallery plugin <= 30.0.0 - SQL Injection vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-57662",
-      "summary": "CVE ID :CVE-2026-57662 Published : June 26, 2026, 2:53 p.m. | 4 hours, 30 minutes ago Description :Contributor SQL Injection in Contest Gallery Severity: 8.5 | HIGH Visit the link for more details...",
+      "summary": "CVE ID :CVE-2026-57662 Published : June 26, 2026, 2:53 p.m. | 7 hours, 29 minutes ago Description :Contributor SQL Injection in Contest Gallery Severity: 8.5 | HIGH Visit the link for more details...",
       "source": "CVE Feed",
       "published": "2026-06-26T14:53:29+00:00"
     },
     {
       "title": "CVE-2026-57659 - WordPress Paid Memberships Pro - Add Member From Admin plugin <= 0.7.2 - Cross Site Request Forgery (CSRF) vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-57659",
-      "summary": "CVE ID :CVE-2026-57659 Published : June 26, 2026, 2:53 p.m. | 4 hours, 30 minutes ago Description :Unauthenticated Cross Site Request Forgery (CSRF) in Paid Memberships Pro - Add Member From Admin...",
+      "summary": "CVE ID :CVE-2026-57659 Published : June 26, 2026, 2:53 p.m. | 7 hours, 29 minutes ago Description :Unauthenticated Cross Site Request Forgery (CSRF) in Paid Memberships Pro - Add Member From Admin...",
       "source": "CVE Feed",
       "published": "2026-06-26T14:53:27+00:00"
     },
     {
       "title": "CVE-2026-57658 - WordPress TemplateSpare plugin <= 4.2.0 - Arbitrary File Upload vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-57658",
-      "summary": "CVE ID :CVE-2026-57658 Published : June 26, 2026, 2:53 p.m. | 4 hours, 30 minutes ago Description :Administrator Arbitrary File Upload in TemplateSpare Severity: 9.1 | CRITICAL Visit the link for...",
+      "summary": "CVE ID :CVE-2026-57658 Published : June 26, 2026, 2:53 p.m. | 7 hours, 29 minutes ago Description :Administrator Arbitrary File Upload in TemplateSpare Severity: 9.1 | CRITICAL Visit the link for...",
       "source": "CVE Feed",
       "published": "2026-06-26T14:53:26+00:00"
     },
     {
       "title": "CVE-2026-57655 - WordPress Child theme Wizard plugin <= 1.4 - Cross Site Request Forgery (CSRF) vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-57655",
-      "summary": "CVE ID :CVE-2026-57655 Published : June 26, 2026, 2:53 p.m. | 4 hours, 30 minutes ago Description :Unauthenticated Cross Site Request Forgery (CSRF) in Child Theme Wizard Severity: 8.2 | HIGH Visit...",
+      "summary": "CVE ID :CVE-2026-57655 Published : June 26, 2026, 2:53 p.m. | 7 hours, 29 minutes ago Description :Unauthenticated Cross Site Request Forgery (CSRF) in Child Theme Wizard Severity: 8.2 | HIGH Visit...",
       "source": "CVE Feed",
       "published": "2026-06-26T14:53:24+00:00"
     },
     {
       "title": "CVE-2026-57653 - WordPress WP Job Portal plugin <= 2.5.2 - SQL Injection vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-57653",
-      "summary": "CVE ID :CVE-2026-57653 Published : June 26, 2026, 2:53 p.m. | 4 hours, 30 minutes ago Description :Contributor SQL Injection in WP Job Portal Severity: 8.5 | HIGH Visit the link for more details...",
+      "summary": "CVE ID :CVE-2026-57653 Published : June 26, 2026, 2:53 p.m. | 7 hours, 29 minutes ago Description :Contributor SQL Injection in WP Job Portal Severity: 8.5 | HIGH Visit the link for more details...",
       "source": "CVE Feed",
       "published": "2026-06-26T14:53:23+00:00"
-    },
-    {
-      "title": "CVE-2026-57645 - WordPress Newsletters plugin <= 4.13 - Broken Access Control vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-57645",
-      "summary": "CVE ID :CVE-2026-57645 Published : June 26, 2026, 2:53 p.m. | 4 hours, 30 minutes ago Description :newsletters_subscribers Broken Access Control in Newsletters Severity: 8.1 | HIGH Visit the link for...",
-      "source": "CVE Feed",
-      "published": "2026-06-26T14:53:18+00:00"
-    },
-    {
-      "title": "CVE-2026-57644 - WordPress Restaurant Menu by MotoPress plugin <= 2.4.10 - SQL Injection vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-57644",
-      "summary": "CVE ID :CVE-2026-57644 Published : June 26, 2026, 2:53 p.m. | 4 hours, 30 minutes ago Description :Contributor SQL Injection in Restaurant Menu by MotoPress Severity: 8.5 | HIGH Visit the link for...",
-      "source": "CVE Feed",
-      "published": "2026-06-26T14:53:17+00:00"
-    },
-    {
-      "title": "CVE-2026-57643 - WordPress WP Post Author plugin <= 3.9.1 - SQL Injection vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-57643",
-      "summary": "CVE ID :CVE-2026-57643 Published : June 26, 2026, 2:53 p.m. | 4 hours, 30 minutes ago Description :Contributor SQL Injection in WP Post Author Severity: 8.5 | HIGH Visit the link for more details...",
-      "source": "CVE Feed",
-      "published": "2026-06-26T14:53:17+00:00"
-    },
-    {
-      "title": "CVE-2026-57642 - WordPress Gallery plugin <= 4.7.8 - SQL Injection vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-57642",
-      "summary": "CVE ID :CVE-2026-57642 Published : June 26, 2026, 2:53 p.m. | 4 hours, 30 minutes ago Description :Contributor SQL Injection in Gallery Severity: 8.5 | HIGH Visit the link for more details, such as...",
-      "source": "CVE Feed",
-      "published": "2026-06-26T14:53:16+00:00"
-    },
-    {
-      "title": "CVE-2026-57636 - WordPress wpForo Forum plugin <= 3.0.9 - SQL Injection vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-57636",
-      "summary": "CVE ID :CVE-2026-57636 Published : June 26, 2026, 2:53 p.m. | 4 hours, 30 minutes ago Description :Contributor SQL Injection in wpForo Forum Severity: 8.5 | HIGH Visit the link for more details, such...",
-      "source": "CVE Feed",
-      "published": "2026-06-26T14:53:13+00:00"
-    },
-    {
-      "title": "CVE-2026-57315 - WordPress Blocksy Companion Pro plugin <= 2.1.45 - Remote Code Execution (RCE) vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-57315",
-      "summary": "CVE ID :CVE-2026-57315 Published : June 26, 2026, 2:52 p.m. | 4 hours, 31 minutes ago Description :Contributor Remote Code Execution (RCE) in Blocksy Companion Pro Severity: 8.5 | HIGH Visit the link...",
-      "source": "CVE Feed",
-      "published": "2026-06-26T14:52:57+00:00"
-    },
-    {
-      "title": "CVE-2026-56070 - WordPress Advance Product Search plugin <= 1.4.4 - SQL Injection vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56070",
-      "summary": "CVE ID :CVE-2026-56070 Published : June 26, 2026, 2:52 p.m. | 4 hours, 31 minutes ago Description :Unauthenticated SQL Injection in Advance Product Search Severity: 9.3 | CRITICAL Visit the link for...",
-      "source": "CVE Feed",
-      "published": "2026-06-26T14:52:54+00:00"
-    },
-    {
-      "title": "CVE-2026-56068 - WordPress JetEngine plugin <= 3.8.10.2 - SQL Injection vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56068",
-      "summary": "CVE ID :CVE-2026-56068 Published : June 26, 2026, 2:52 p.m. | 4 hours, 31 minutes ago Description :Unauthenticated SQL Injection in JetEngine Severity: 9.3 | CRITICAL Visit the link for more details...",
-      "source": "CVE Feed",
-      "published": "2026-06-26T14:52:52+00:00"
-    },
-    {
-      "title": "CVE-2026-56067 - WordPress JetSmartFilters plugin <= 3.8.3 - SQL Injection vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56067",
-      "summary": "CVE ID :CVE-2026-56067 Published : June 26, 2026, 2:52 p.m. | 4 hours, 31 minutes ago Description :Unauthenticated SQL Injection in JetSmartFilters Severity: 9.3 | CRITICAL Visit the link for more...",
-      "source": "CVE Feed",
-      "published": "2026-06-26T14:52:51+00:00"
-    },
-    {
-      "title": "CVE-2026-56064 - WordPress Tourfic plugin <= 2.22.5 - SQL Injection vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56064",
-      "summary": "CVE ID :CVE-2026-56064 Published : June 26, 2026, 2:52 p.m. | 4 hours, 31 minutes ago Description :Subscriber SQL Injection in Tourfic Severity: 8.5 | HIGH Visit the link for more details, such as...",
-      "source": "CVE Feed",
-      "published": "2026-06-26T14:52:50+00:00"
-    },
-    {
-      "title": "CVE-2026-56063 - WordPress MailChimp Block plugin <= 1.1.15 - Broken Access Control vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56063",
-      "summary": "CVE ID :CVE-2026-56063 Published : June 26, 2026, 2:52 p.m. | 4 hours, 31 minutes ago Description :Unauthenticated Broken Access Control in MailChimp Block Severity: 8.3 | HIGH Visit the link for...",
-      "source": "CVE Feed",
-      "published": "2026-06-26T14:52:50+00:00"
-    },
-    {
-      "title": "CVE-2026-56062 - WordPress Quotes llama plugin <= 3.1.5 - SQL Injection vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56062",
-      "summary": "CVE ID :CVE-2026-56062 Published : June 26, 2026, 2:52 p.m. | 4 hours, 31 minutes ago Description :Unauthenticated SQL Injection in Quotes llama Severity: 9.3 | CRITICAL Visit the link for more...",
-      "source": "CVE Feed",
-      "published": "2026-06-26T14:52:49+00:00"
-    },
-    {
-      "title": "CVE-2026-56059 - WordPress Travel Booking theme <= 2.2.5 - Arbitrary File Upload vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56059",
-      "summary": "CVE ID :CVE-2026-56059 Published : June 26, 2026, 2:52 p.m. | 4 hours, 31 minutes ago Description :Subscriber Arbitrary File Upload in Travel Booking Severity: 9.9 | CRITICAL Visit the link for more...",
-      "source": "CVE Feed",
-      "published": "2026-06-26T14:52:47+00:00"
-    },
-    {
-      "title": "CVE-2026-56058 - WordPress Quform plugin <= 2.23.0 - Arbitrary File Upload vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56058",
-      "summary": "CVE ID :CVE-2026-56058 Published : June 26, 2026, 2:52 p.m. | 4 hours, 31 minutes ago Description :Subscriber Arbitrary File Upload in Quform Severity: 9.9 | CRITICAL Visit the link for more details...",
-      "source": "CVE Feed",
-      "published": "2026-06-26T14:52:46+00:00"
-    },
-    {
-      "title": "CVE-2026-56057 - WordPress Uncanny Automator Pro plugin <= 7.3.0.6 - PHP Object Injection vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56057",
-      "summary": "CVE ID :CVE-2026-56057 Published : June 26, 2026, 2:52 p.m. | 4 hours, 31 minutes ago Description :Subscriber PHP Object Injection in Uncanny Automator Pro Severity: 9.8 | CRITICAL Visit the link for...",
-      "source": "CVE Feed",
-      "published": "2026-06-26T14:52:46+00:00"
-    },
-    {
-      "title": "CVE-2026-56055 - WordPress RealHomes theme <= 4.5.3 - PHP Object Injection vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56055",
-      "summary": "CVE ID :CVE-2026-56055 Published : June 26, 2026, 2:52 p.m. | 4 hours, 31 minutes ago Description :Subscriber PHP Object Injection in RealHomes Severity: 8.8 | HIGH Visit the link for more details...",
-      "source": "CVE Feed",
-      "published": "2026-06-26T14:52:45+00:00"
     },
     {
       "title": "In Other News: Chinese Mythos-Like AI, Tata Electronics Breach, Snyk Layoffs",
@@ -289,17 +303,17 @@
       "published": "2026-06-26T13:42:00+00:00"
     },
     {
-      "title": "Turla group adds more malware to Russia’s espionage efforts against Ukraine",
-      "link": "https://therecord.media/russia-turla-espionage-ukraine-stockstay-malware",
-      "summary": "Threat intelligence researchers at Google described StockStay, the latest malware developed by the Russian cyber-espionage group known as Turla.",
-      "source": "The Record",
-      "published": "2026-06-26T13:30:00+00:00"
-    },
-    {
       "title": "Meeting Trump's 2030 Quantum Deadline Will be Expensive, Complex",
       "link": "https://www.darkreading.com/cybersecurity-operations/meeting-2030-quantum-deadline-expensive-complex",
       "summary": "Getting accurate visibility into IT and OT systems will be compounded by multivendor environments, misaligned update life cycles, and interoperability gaps.",
       "source": "Dark Reading",
+      "published": "2026-06-26T13:30:00+00:00"
+    },
+    {
+      "title": "Turla group adds more malware to Russia’s espionage efforts against Ukraine",
+      "link": "https://therecord.media/russia-turla-espionage-ukraine-stockstay-malware",
+      "summary": "Threat intelligence researchers at Google described StockStay, the latest malware developed by the Russian cyber-espionage group known as Turla.",
+      "source": "The Record",
       "published": "2026-06-26T13:30:00+00:00"
     },
     {
@@ -616,13 +630,6 @@
       "summary": "Google is rolling out new privacy controls for Search services and Google Play, giving you more control over saved history and personalized recommendations. [...]",
       "source": "BleepingComputer",
       "published": "2026-06-24T23:46:17+00:00"
-    },
-    {
-      "title": "DraftKings hacker 'Snoopy' sentenced to 18 months in prison",
-      "link": "https://www.bleepingcomputer.com/news/security/draftkings-hacker-snoopy-sentenced-to-18-months-in-prison/",
-      "summary": "A 21-year-old using the alias \"Snoopy\" was sentenced to 18 months in prison for his role in hacking DraftKings accounts in the November 2022 cyberattack. [...]",
-      "source": "BleepingComputer",
-      "published": "2026-06-24T21:55:43+00:00"
     },
     {
       "title": "Attackers Hit Cisco SD-WAN Flaw 2 Months Before Disclosure",
@@ -1190,13 +1197,6 @@
       "summary": "Even the best segmentation strategy will fall apart without constant oversight and disciplined operations.",
       "source": "Dark Reading",
       "published": "2026-06-11T14:51:48+00:00"
-    },
-    {
-      "title": "Chinese, N. Korean Threat Groups Build on Asia-Pacific Success",
-      "link": "https://www.darkreading.com/cyberattacks-data-breaches/chinese-korean-threat-groups-asia-pacific-success",
-      "summary": "North Korea's gross domestic product (GDP) has grown, in part because of the nation's state-sponsored cybercrime groups, which target financial firms and other businesses.",
-      "source": "Dark Reading",
-      "published": "2026-06-11T00:01:00+00:00"
     },
     {
       "title": "Who Runs the Ransomware Group ‘The Gentlemen?’",
