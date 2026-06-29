@@ -1,6 +1,111 @@
 {
-  "last_updated": "2026-06-29T13:23:39.960047+00:00",
+  "last_updated": "2026-06-29T15:07:38.800399+00:00",
   "articles": [
+    {
+      "title": "⚡ Weekly Recap: Linux Kernel Flaws, AI Malware Tricks, Turla Backdoor, Infostealers and More",
+      "link": "https://thehackernews.com/2026/06/weekly-recap-linux-kernel-flaws-ai.html",
+      "summary": "This week was a reminder that attackers do not always need big tricks. One small mistake, one old access path, one missed patch, and suddenly the door is open. The noise is not all noise, either...",
+      "source": "The Hacker News",
+      "published": "2026-06-29T14:41:07+00:00"
+    },
+    {
+      "title": "Researchers Demo New Claude Code Attack Using Harmless-Looking Repositories to Hijack Developer Machines",
+      "link": "https://www.securityweek.com/new-attack-abuses-claude-code-and-harmless-looking-repositories-to-hijack-developer-machines/",
+      "summary": "Indirect prompts hidden in a repository can lead to Claude Code spawning a reverse shell on the developer’s machine. The post Researchers Demo New Claude Code Attack Using Harmless-Looking...",
+      "source": "SecurityWeek",
+      "published": "2026-06-29T14:28:40+00:00"
+    },
+    {
+      "title": "Straiker Raises $64 Million for AI Security Platform",
+      "link": "https://www.securityweek.com/straiker-raises-64-million-for-ai-security-platform/",
+      "summary": "The startup’s platform can identify AI agents and provide visibility into their access, behavior, and risks. The post Straiker Raises $64 Million for AI Security Platform appeared first on...",
+      "source": "SecurityWeek",
+      "published": "2026-06-29T14:07:34+00:00"
+    },
+    {
+      "title": "Agentic AI Has an Identity Problem and Attackers Know It",
+      "link": "https://www.bleepingcomputer.com/news/security/agentic-ai-has-an-identity-problem-and-attackers-know-it/",
+      "summary": "AI agents can access data, trigger workflows, and take action across enterprise systems. Token Security explains why governing these privileged identities is becoming essential for enterprise...",
+      "source": "BleepingComputer",
+      "published": "2026-06-29T14:01:11+00:00"
+    },
+    {
+      "title": "Critical SimpleHelp flaw exploited to deploy new stealer malware",
+      "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-simplehelp-flaw-deploy-new-djinn-infostealer-taskweaver-malware/",
+      "summary": "Hackers are exploiting a recently disclosed critical vulnerability (CVE-2026-48558) in SimpleHelp to deploy Djinn Stealer, a previously undocumented cross-platform information stealer targeting...",
+      "source": "BleepingComputer",
+      "published": "2026-06-29T14:00:00+00:00"
+    },
+    {
+      "title": "Hackers now exploit critical Oracle E-Business flaw in attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/new-oracle-e-business-suite-flaw-now-exploited-in-attacks/",
+      "summary": "Attackers have begun exploiting a critical vulnerability (CVE-2026-46817) in the Oracle E-Business Suite (EBS) financial application, according to threat intelligence company Defused. [...]",
+      "source": "BleepingComputer",
+      "published": "2026-06-29T13:46:17+00:00"
+    },
+    {
+      "title": "Insurance Regulators Group NAIC Hit in Oracle PeopleSoft Hack",
+      "link": "https://www.securityweek.com/insurance-regulators-group-naic-hit-in-oracle-peoplesoft-hack/",
+      "summary": "The ShinyHunters extortion group claims to have stolen 3.1 TB of data from the organization. The post Insurance Regulators Group NAIC Hit in Oracle PeopleSoft Hack appeared first on SecurityWeek.",
+      "source": "SecurityWeek",
+      "published": "2026-06-29T13:42:28+00:00"
+    },
+    {
+      "title": "Ukraine to use seized crypto from cybercrime group to buy war bonds",
+      "link": "https://therecord.media/ukraine-uses-seized-crypto-cybercrime-for-war-bonds",
+      "summary": "Ukraine's Asset Recovery and Management Agency (ARMA), which manages property seized in criminal proceedings, said more than $8.3 million in cryptocurrency had been transferred to its official...",
+      "source": "The Record",
+      "published": "2026-06-29T13:40:00+00:00"
+    },
+    {
+      "title": "CVE-2026-54371 - attr < 2.6.0 Symlink Traversal Privilege Escalation via getfattr/setfattr",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54371",
+      "summary": "CVE ID :CVE-2026-54371 Published : June 29, 2026, 12:39 p.m. | 1 hour, 44 minutes ago Description :attr before version 2.6.0 contains a symlink traversal vulnerability in the getfattr and setfattr...",
+      "source": "CVE Feed",
+      "published": "2026-06-29T12:39:23+00:00"
+    },
+    {
+      "title": "CVE-2026-54369 - acl < 2.4.0 Symlink Traversal Privilege Escalation via libacl Functions",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54369",
+      "summary": "CVE ID :CVE-2026-54369 Published : June 29, 2026, 12:37 p.m. | 1 hour, 46 minutes ago Description :acl before version 2.4.0 contains a symlink traversal vulnerability in the libacl pathname-based...",
+      "source": "CVE Feed",
+      "published": "2026-06-29T12:37:21+00:00"
+    },
+    {
+      "title": "CVE-2026-12856 - Vscode-java: vscode: command injection vulnerability in the javadoc hover provider of the vscode-java extension",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-12856",
+      "summary": "CVE ID :CVE-2026-12856 Published : June 29, 2026, 12:33 p.m. | 1 hour, 50 minutes ago Description :A flaw was found in the vscode-java extension, which provides Java language support for Visual...",
+      "source": "CVE Feed",
+      "published": "2026-06-29T12:33:52+00:00"
+    },
+    {
+      "title": "CVE-2026-40521 - FrontAccounting < 2.4.20 Path Traversal RCE via attachment upload",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-40521",
+      "summary": "CVE ID :CVE-2026-40521 Published : June 29, 2026, 12:30 p.m. | 1 hour, 53 minutes ago Description :FrontAccounting before 2.4.20 contains a path traversal vulnerability in the attachment upload...",
+      "source": "CVE Feed",
+      "published": "2026-06-29T12:30:12+00:00"
+    },
+    {
+      "title": "CVE-2026-40523 - FrontAccounting < 2.4.20 SQL Injection via reporting/rep710.php",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-40523",
+      "summary": "CVE ID :CVE-2026-40523 Published : June 29, 2026, 12:29 p.m. | 1 hour, 54 minutes ago Description :FrontAccounting before 2.4.20 contains a SQL injection vulnerability in the Audit Trail report...",
+      "source": "CVE Feed",
+      "published": "2026-06-29T12:29:10+00:00"
+    },
+    {
+      "title": "CVE-2026-40524 - FrontAccounting < 2.4.20 SQL Injection via get_gl_transactions()",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-40524",
+      "summary": "CVE ID :CVE-2026-40524 Published : June 29, 2026, 12:27 p.m. | 1 hour, 56 minutes ago Description :FrontAccounting before 2.4.20 contains a SQL injection vulnerability in the get_gl_transactions()...",
+      "source": "CVE Feed",
+      "published": "2026-06-29T12:27:26+00:00"
+    },
+    {
+      "title": "CVE-2026-13165 - Remote Code Execution in SzafirHost",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-13165",
+      "summary": "CVE ID :CVE-2026-13165 Published : June 29, 2026, 12:16 p.m. | 2 hours, 6 minutes ago Description :SzafirHost verifies the downloaded native library archive with one JarFile parser (reading the...",
+      "source": "CVE Feed",
+      "published": "2026-06-29T12:16:55+00:00"
+    },
     {
       "title": "Webinar: Why business email compromise attacks keep succeeding",
       "link": "https://www.bleepingcomputer.com/news/security/webinar-why-business-email-compromise-attacks-keep-succeeding/",
@@ -25,8 +130,8 @@
     {
       "title": "Gamaredon Expands Ukraine Attacks with New Malware and Cloud Service Abuse",
       "link": "https://thehackernews.com/2026/06/gamaredon-expands-ukraine-attacks-with.html",
-      "summary": "A Russian advanced persistent threat (APT) group has continued to evolve and expand its malware arsenal as part of its ongoing cyber onslaught against Ukraine throughout 2025. Slovakian cybersecurity...",
-      "source": "The Hacker News",
+      "summary": "Gamaredon Expands Ukraine Attacks with New Malware and Cloud Service Abuse A Russian advanced persistent threat (APT) group has continued to evolve and expand its malware arsenal as part of its...",
+      "source": "CVE Newsroom",
       "published": "2026-06-29T11:40:24+00:00"
     },
     {
@@ -44,6 +149,13 @@
       "published": "2026-06-29T11:20:13+00:00"
     },
     {
+      "title": "Vulnerabilities in gzip software",
+      "link": "https://cert.pl/en/posts/2026/06/CVE-2026-41991/",
+      "summary": "Vulnerabilities in gzip software Vulnerabilities in gzip software CVE ID CVE-2026-41991 Publication date 29 June 2026 Vendor GNU Product gzip Vulnerable versions All through 1.14 Vulnerability type...",
+      "source": "CVE Newsroom",
+      "published": "2026-06-29T10:55:00+00:00"
+    },
+    {
       "title": "OpenAI and Anthropic Limit New AI Models to Trump-Approved Customers During Cybersecurity Review",
       "link": "https://www.securityweek.com/openai-and-anthropic-limit-new-ai-models-to-trump-approved-customers-during-cybersecurity-review/",
       "summary": "ChatGPT maker OpenAI said Friday it is restricting the release of its new artificial intelligence model at the request of President Donald Trump’s administration. The post OpenAI and Anthropic Limit...",
@@ -53,7 +165,7 @@
     {
       "title": "CVE-2026-25707 - Handcrafted repo metadata may cause arbitrary local files to be overwritten by libzypp",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-25707",
-      "summary": "CVE ID :CVE-2026-25707 Published : June 29, 2026, 10:04 a.m. | 2 hours, 56 minutes ago Description :A relative path traversal bug problem when processing repository metadata in libzypp before...",
+      "summary": "CVE ID :CVE-2026-25707 Published : June 29, 2026, 10:04 a.m. | 4 hours, 18 minutes ago Description :A relative path traversal bug problem when processing repository metadata in libzypp before...",
       "source": "CVE Feed",
       "published": "2026-06-29T10:04:59+00:00"
     },
@@ -88,14 +200,14 @@
     {
       "title": "CVE-2026-13545 - D-Link DCS-935L POST Parameter setconf.cgi sub_400E40 os command injection",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-13545",
-      "summary": "CVE ID :CVE-2026-13545 Published : June 29, 2026, 7 a.m. | 6 hours, 1 minute ago Description :A vulnerability has been found in D-Link DCS-935L 1.10.01. This affects the function sub_400E40 of the...",
+      "summary": "CVE ID :CVE-2026-13545 Published : June 29, 2026, 7 a.m. | 7 hours, 23 minutes ago Description :A vulnerability has been found in D-Link DCS-935L 1.10.01. This affects the function sub_400E40 of the...",
       "source": "CVE Feed",
       "published": "2026-06-29T07:00:11+00:00"
     },
     {
       "title": "CVE-2025-2902 - Improper Authorization Vulnerability of Maintenance Utility in Hitachi Virtual Storage Platform",
       "link": "https://cvefeed.io/vuln/detail/CVE-2025-2902",
-      "summary": "CVE ID :CVE-2025-2902 Published : June 29, 2026, 5:52 a.m. | 7 hours, 8 minutes ago Description :Improper Authorization Vulnerability of Maintenance Utility in Hitachi Virtual Storage Platform. This...",
+      "summary": "CVE ID :CVE-2025-2902 Published : June 29, 2026, 5:52 a.m. | 8 hours, 31 minutes ago Description :Improper Authorization Vulnerability of Maintenance Utility in Hitachi Virtual Storage Platform. This...",
       "source": "CVE Feed",
       "published": "2026-06-29T05:52:39+00:00"
     },
@@ -109,42 +221,42 @@
     {
       "title": "CVE-2026-13539 - Wavlink WL-NU516U1-A POST Parameter wireless.cgi sub_407504 stack-based overflow",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-13539",
-      "summary": "CVE ID :CVE-2026-13539 Published : June 29, 2026, 5:30 a.m. | 7 hours, 31 minutes ago Description :A vulnerability was identified in Wavlink WL-NU516U1-A M16U1_V240425. The impacted element is the...",
+      "summary": "CVE ID :CVE-2026-13539 Published : June 29, 2026, 5:30 a.m. | 8 hours, 53 minutes ago Description :A vulnerability was identified in Wavlink WL-NU516U1-A M16U1_V240425. The impacted element is the...",
       "source": "CVE Feed",
       "published": "2026-06-29T05:30:09+00:00"
     },
     {
       "title": "CVE-2026-13519 - Tenda JD12L NatStaticSetting fromNatStaticSetting stack-based overflow",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-13519",
-      "summary": "CVE ID :CVE-2026-13519 Published : June 29, 2026, 12:30 a.m. | 12 hours, 31 minutes ago Description :A vulnerability was found in Tenda JD12L 16.03.53.23. This impacts the function...",
+      "summary": "CVE ID :CVE-2026-13519 Published : June 29, 2026, 12:30 a.m. | 13 hours, 53 minutes ago Description :A vulnerability was found in Tenda JD12L 16.03.53.23. This impacts the function...",
       "source": "CVE Feed",
       "published": "2026-06-29T00:30:10+00:00"
     },
     {
       "title": "CVE-2026-13518 - Tenda JD12L addressNat fromAddressNat stack-based overflow",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-13518",
-      "summary": "CVE ID :CVE-2026-13518 Published : June 29, 2026, 12:15 a.m. | 12 hours, 46 minutes ago Description :A vulnerability has been found in Tenda JD12L 16.03.53.23. This affects the function...",
+      "summary": "CVE ID :CVE-2026-13518 Published : June 29, 2026, 12:15 a.m. | 14 hours, 8 minutes ago Description :A vulnerability has been found in Tenda JD12L 16.03.53.23. This affects the function fromAddressNat...",
       "source": "CVE Feed",
       "published": "2026-06-29T00:15:08+00:00"
     },
     {
       "title": "CVE-2026-13517 - Tenda JD12L WifiBasicSet formWifiBasicSet stack-based overflow",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-13517",
-      "summary": "CVE ID :CVE-2026-13517 Published : June 29, 2026, midnight | 13 hours, 1 minute ago Description :A flaw has been found in Tenda JD12L 16.03.53.23. The impacted element is the function...",
+      "summary": "CVE ID :CVE-2026-13517 Published : June 29, 2026, midnight | 14 hours, 23 minutes ago Description :A flaw has been found in Tenda JD12L 16.03.53.23. The impacted element is the function...",
       "source": "CVE Feed",
       "published": "2026-06-29T00:00:11+00:00"
     },
     {
       "title": "CVE-2026-13516 - Tenda JD12L WifiGuestSet fromSetWifiGusetBasic stack-based overflow",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-13516",
-      "summary": "CVE ID :CVE-2026-13516 Published : June 28, 2026, 11:45 p.m. | 13 hours, 16 minutes ago Description :A vulnerability was detected in Tenda JD12L 16.03.53.23. The affected element is the function...",
+      "summary": "CVE ID :CVE-2026-13516 Published : June 28, 2026, 11:45 p.m. | 14 hours, 38 minutes ago Description :A vulnerability was detected in Tenda JD12L 16.03.53.23. The affected element is the function...",
       "source": "CVE Feed",
       "published": "2026-06-28T23:45:09+00:00"
     },
     {
       "title": "CVE-2026-13515 - Tenda JD12L SetPptpServerCfg formSetPPTPServer stack-based overflow",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-13515",
-      "summary": "CVE ID :CVE-2026-13515 Published : June 28, 2026, 11:30 p.m. | 13 hours, 31 minutes ago Description :A security vulnerability has been detected in Tenda JD12L 16.03.53.23. Impacted is the function...",
+      "summary": "CVE ID :CVE-2026-13515 Published : June 28, 2026, 11:30 p.m. | 14 hours, 53 minutes ago Description :A security vulnerability has been detected in Tenda JD12L 16.03.53.23. Impacted is the function...",
       "source": "CVE Feed",
       "published": "2026-06-28T23:30:10+00:00"
     },
@@ -165,49 +277,49 @@
     {
       "title": "CVE-2026-58054 - MyBB - Privilege Escalation from Limited ACP User Management to Administrator",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-58054",
-      "summary": "CVE ID :CVE-2026-58054 Published : June 28, 2026, 1:32 a.m. | 1 day, 11 hours ago Description :MyBB 1.8.40 does not restrict which usergroup a limited Admin Control Panel user may assign when...",
+      "summary": "CVE ID :CVE-2026-58054 Published : June 28, 2026, 1:32 a.m. | 1 day, 12 hours ago Description :MyBB 1.8.40 does not restrict which usergroup a limited Admin Control Panel user may assign when...",
       "source": "CVE Feed",
       "published": "2026-06-28T01:32:56+00:00"
     },
     {
       "title": "CVE-2026-58053 - Gitea act_runner - Container Hardening Bypass via Workflow Container Options",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-58053",
-      "summary": "CVE ID :CVE-2026-58053 Published : June 28, 2026, 1:32 a.m. | 1 day, 11 hours ago Description :Gitea act_runner with the Docker backend (through act 0.262.0) passes a workflow's container.options...",
+      "summary": "CVE ID :CVE-2026-58053 Published : June 28, 2026, 1:32 a.m. | 1 day, 12 hours ago Description :Gitea act_runner with the Docker backend (through act 0.262.0) passes a workflow's container.options...",
       "source": "CVE Feed",
       "published": "2026-06-28T01:32:55+00:00"
     },
     {
       "title": "CVE-2026-58051 - libssh2 - Free of Uninitialized Pointer in publickey List Cleanup",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-58051",
-      "summary": "CVE ID :CVE-2026-58051 Published : June 28, 2026, 1:32 a.m. | 1 day, 11 hours ago Description :libssh2 through 1.11.1 grows its publickey list with SSH2_REALLOC but does not zero-initialize new...",
+      "summary": "CVE ID :CVE-2026-58051 Published : June 28, 2026, 1:32 a.m. | 1 day, 12 hours ago Description :libssh2 through 1.11.1 grows its publickey list with SSH2_REALLOC but does not zero-initialize new...",
       "source": "CVE Feed",
       "published": "2026-06-28T01:32:54+00:00"
     },
     {
       "title": "CVE-2026-58050 - libssh2 - Integer Overflow in publickey Subsystem Attribute Allocation",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-58050",
-      "summary": "CVE ID :CVE-2026-58050 Published : June 28, 2026, 1:32 a.m. | 1 day, 11 hours ago Description :libssh2 through 1.11.1 reads an attacker-controlled 32-bit attribute count from a publickey-subsystem...",
+      "summary": "CVE ID :CVE-2026-58050 Published : June 28, 2026, 1:32 a.m. | 1 day, 12 hours ago Description :libssh2 through 1.11.1 reads an attacker-controlled 32-bit attribute count from a publickey-subsystem...",
       "source": "CVE Feed",
       "published": "2026-06-28T01:32:53+00:00"
     },
     {
       "title": "CVE-2026-58049 - FFmpeg - Out-of-Bounds Write in RASC Decoder decode_dlta()",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-58049",
-      "summary": "CVE ID :CVE-2026-58049 Published : June 28, 2026, 1:32 a.m. | 1 day, 11 hours ago Description :FFmpeg's RASC video decoder (decode_dlta in libavcodec/rasc.c) performs 32-bit reads and writes at the...",
+      "summary": "CVE ID :CVE-2026-58049 Published : June 28, 2026, 1:32 a.m. | 1 day, 12 hours ago Description :FFmpeg's RASC video decoder (decode_dlta in libavcodec/rasc.c) performs 32-bit reads and writes at the...",
       "source": "CVE Feed",
       "published": "2026-06-28T01:32:52+00:00"
     },
     {
       "title": "CVE-2026-8095 - Frontend File Manager Plugin <= 23.6 - Authenticated (Subscriber+) Arbitrary File Deletion",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-8095",
-      "summary": "CVE ID :CVE-2026-8095 Published : June 27, 2026, 11:28 p.m. | 1 day, 13 hours ago Description :The Frontend File Manager Plugin plugin for WordPress is vulnerable to Authenticated Arbitrary File...",
+      "summary": "CVE ID :CVE-2026-8095 Published : June 27, 2026, 11:28 p.m. | 1 day, 14 hours ago Description :The Frontend File Manager Plugin plugin for WordPress is vulnerable to Authenticated Arbitrary File...",
       "source": "CVE Feed",
       "published": "2026-06-27T23:28:36+00:00"
     },
     {
       "title": "CVE-2026-10643 - Out-of-bounds heap write in Zephyr `recvmsg()` ancillary-data path (`insert_pktinfo` undersizes the control-buffer capacity check)",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-10643",
-      "summary": "CVE ID :CVE-2026-10643 Published : June 27, 2026, 10:59 p.m. | 1 day, 14 hours ago Description :Zephyr's IP socket recvmsg() implementation (subsys/net/lib/sockets/sockets_inet.c, insert_pktinfo())...",
+      "summary": "CVE ID :CVE-2026-10643 Published : June 27, 2026, 10:59 p.m. | 1 day, 15 hours ago Description :Zephyr's IP socket recvmsg() implementation (subsys/net/lib/sockets/sockets_inet.c, insert_pktinfo())...",
       "source": "CVE Feed",
       "published": "2026-06-27T22:59:22+00:00"
     },
@@ -240,53 +352,18 @@
       "published": "2026-06-27T12:13:51+00:00"
     },
     {
-      "title": "Third-Party Breaches Teach Education Sector a Costly Lesson in Vendor Risk",
-      "link": "https://www.darkreading.com/cyber-risk/third-party-breaches-teaches-education-lesson-vendor-risk",
-      "summary": "Rising threats from third-party actors are forcing institutions to play defense to protect student data from ransomware and other attacks.",
-      "source": "Dark Reading",
-      "published": "2026-06-27T11:48:05+00:00"
-    },
-    {
       "title": "CVE-2026-12415 - Invoice Generator <= 1.0.0 - Unauthenticated Privilege Escalation via Account Takeover via 'user_id' Parameter",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-12415",
-      "summary": "CVE ID :CVE-2026-12415 Published : June 27, 2026, 4:30 a.m. | 2 days, 8 hours ago Description :The Invoice Generator plugin for WordPress is vulnerable to privilege escalation due to a missing...",
+      "summary": "CVE ID :CVE-2026-12415 Published : June 27, 2026, 4:30 a.m. | 2 days, 9 hours ago Description :The Invoice Generator plugin for WordPress is vulnerable to privilege escalation due to a missing...",
       "source": "CVE Feed",
       "published": "2026-06-27T04:30:30+00:00"
     },
     {
       "title": "CVE-2026-56414 - H.VIEW HV-500S6 IP Camera Unrestricted Upload of File with Dangerous Type",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-56414",
-      "summary": "CVE ID :CVE-2026-56414 Published : June 26, 2026, 11 p.m. | 2 days, 14 hours ago Description :A vulnerability exists in H.View IP cameras certificate-related upload interfaces allow authenticated...",
+      "summary": "CVE ID :CVE-2026-56414 Published : June 26, 2026, 11 p.m. | 2 days, 15 hours ago Description :A vulnerability exists in H.View IP cameras certificate-related upload interfaces allow authenticated...",
       "source": "CVE Feed",
       "published": "2026-06-26T23:00:39+00:00"
-    },
-    {
-      "title": "CVE-2026-55975 - H.VIEW HV-500S6 IP Camera OS Command Injection",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55975",
-      "summary": "CVE ID :CVE-2026-55975 Published : June 26, 2026, 10:58 p.m. | 2 days, 14 hours ago Description :A vulnerability exists in H.View IP cameras that could allow an authenticated user to supply...",
-      "source": "CVE Feed",
-      "published": "2026-06-26T22:58:52+00:00"
-    },
-    {
-      "title": "CVE-2026-31928 - Daktronics Controller Firmware Use of Hard-coded Credentials",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-31928",
-      "summary": "CVE ID :CVE-2026-31928 Published : June 26, 2026, 10:52 p.m. | 2 days, 14 hours ago Description :The DMP-5000 devices are shipped with a default administrative web account with weak authentication...",
-      "source": "CVE Feed",
-      "published": "2026-06-26T22:52:51+00:00"
-    },
-    {
-      "title": "CVE-2026-33560 - Daktronics Controller Firmware Unrestricted Upload of File with Dangerous Type",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-33560",
-      "summary": "CVE ID :CVE-2026-33560 Published : June 26, 2026, 10:48 p.m. | 2 days, 14 hours ago Description :The DMP-5000 file service exposes authenticated arbitrary file upload functionality. There are exposed...",
-      "source": "CVE Feed",
-      "published": "2026-06-26T22:48:56+00:00"
-    },
-    {
-      "title": "CVE-2026-28701 - Daktronics Controller Firmware Path Traversal",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-28701",
-      "summary": "CVE ID :CVE-2026-28701 Published : June 26, 2026, 10:40 p.m. | 2 days, 14 hours ago Description :Various versions of Daktronics Controller Firmware could allow authenticated and unauthenticated...",
-      "source": "CVE Feed",
-      "published": "2026-06-26T22:40:03+00:00"
     },
     {
       "title": "FBI: Russian hackers now target Signal backup recovery keys",
@@ -294,27 +371,6 @@
       "summary": "The FBI and CISA are warning that a phishing campaign targeting Signal users tied to Russian intelligence services has evolved to steal Signal Backup Recovery Keys, allowing attackers to access...",
       "source": "BleepingComputer",
       "published": "2026-06-26T22:06:17+00:00"
-    },
-    {
-      "title": "CVE-2026-49869 - Kestra: Unauthenticated Remote Code Execution via Authentication Bypass in `AuthenticationFilter`",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-49869",
-      "summary": "CVE ID :CVE-2026-49869 Published : June 26, 2026, 8:58 p.m. | 2 days, 16 hours ago Description :Kestra is an open-source, event-driven orchestration platform. Prior to 1.0.45 and 1.3.21...",
-      "source": "CVE Feed",
-      "published": "2026-06-26T20:58:19+00:00"
-    },
-    {
-      "title": "CVE-2026-53576 - Kestra: Unauthenticated RCE via /configs path-suffix auth-filter bypass",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-53576",
-      "summary": "CVE ID :CVE-2026-53576 Published : June 26, 2026, 8:54 p.m. | 2 days, 16 hours ago Description :Kestra is an open-source, event-driven orchestration platform. Prior to 1.0.45 and 1.3.21, the...",
-      "source": "CVE Feed",
-      "published": "2026-06-26T20:54:08+00:00"
-    },
-    {
-      "title": "CVE-2026-55069 - Kestra BasicAuth Password Stored as SHA-512 Enables Offline Brute-Force Attack",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55069",
-      "summary": "CVE ID :CVE-2026-55069 Published : June 26, 2026, 8:50 p.m. | 2 days, 16 hours ago Description :Kestra is an open-source, event-driven orchestration platform. Prior to 1.3.24, this vulnerability...",
-      "source": "CVE Feed",
-      "published": "2026-06-26T20:50:09+00:00"
     },
     {
       "title": "CISA sets urgent deadline to fix Cisco flaw exploited in attacks",
@@ -329,13 +385,6 @@
       "summary": "The FBI and CISA have updated their March warning about Russian intelligence phishing Signal accounts, and the operators have added a step: they now coax targets into handing over their Signal Backup...",
       "source": "The Hacker News",
       "published": "2026-06-26T19:38:29+00:00"
-    },
-    {
-      "title": "AI Decline? Confidence in Autonomous Penetration Testing Falls",
-      "link": "https://www.darkreading.com/cybersecurity-operations/ai-decline-confidence-autonomous-penetration-testing",
-      "summary": "Companies are still experimenting with automated AI systems to find security weaknesses, but fewer are relying on the technology.",
-      "source": "Dark Reading",
-      "published": "2026-06-26T19:11:02+00:00"
     },
     {
       "title": "New SharkLoader Malware Deploys Cobalt Strike in StrikeShark Cyberattacks",
@@ -359,32 +408,11 @@
       "published": "2026-06-26T17:49:07+00:00"
     },
     {
-      "title": "Cisco Adds NHI to Security Stack With Astrix, WideField Acquisitions",
-      "link": "https://www.darkreading.com/identity-access-management-security/cisco-adds-nhi-security-stack-with-astrix-widefield",
-      "summary": "Cisco joins a growing list of security platform providers that are betting that securing the agentic workforce means turning identity into the primary control plane.",
-      "source": "Dark Reading",
-      "published": "2026-06-26T17:31:04+00:00"
-    },
-    {
-      "title": "New Initiative Tackles Security for End-of-Life Open Source Software",
-      "link": "https://www.darkreading.com/application-security/initiative-tackles-security-end-of-life-open-source",
-      "summary": "The Open Source Sustainability Initiative's goal is to help enterprises manage and secure aging open source projects while maintaining regulatory compliance.",
-      "source": "Dark Reading",
-      "published": "2026-06-26T16:32:30+00:00"
-    },
-    {
       "title": "Chinese-Speaking APT Deploys New TinyRCT Backdoor in Southeast Asia Campaign",
       "link": "https://thehackernews.com/2026/06/chinese-speaking-apt-deploys-new.html",
       "summary": "A Chinese-speaking advanced persistent threat (APT) actor has been linked to a new custom backdoor called TinyRCT as part of cyber attacks aimed at government entities and critical infrastructure in...",
       "source": "The Hacker News",
       "published": "2026-06-26T16:21:25+00:00"
-    },
-    {
-      "title": "AI Won't Wipe-Out Entry-Level Cybersecurity Jobs",
-      "link": "https://www.darkreading.com/cybersecurity-operations/ai-wont-wipe-out-entry-level-cybersecurity-jobs",
-      "summary": "Instead of eliminating jobs for early-career cyber pros, AI is creating new opportunities for candidates with strong human decision-making skills.",
-      "source": "Dark Reading",
-      "published": "2026-06-26T16:00:00+00:00"
     },
     {
       "title": "Amazon Q Flaw Enabled Cloud Credential Theft via Malicious Repositories",
@@ -399,13 +427,6 @@
       "summary": "Roughly two dozen companies have notified their customers of the Klue-Salesforce incident impact. The post More Klue Breach Victims Identified as Hackers Get Hacked appeared first on SecurityWeek.",
       "source": "SecurityWeek",
       "published": "2026-06-26T15:01:33+00:00"
-    },
-    {
-      "title": "In Other News: Chinese Mythos-Like AI, Tata Electronics Breach, Snyk Layoffs",
-      "link": "https://www.securityweek.com/in-other-news-chinese-mythos-like-ai-tata-electronics-breach-snyk-layoffs/",
-      "summary": "Other noteworthy stories that might have slipped under the radar: Russia used Cellebrite to hack activist’s phone, Five Eyes issue urgent AI threat warning, macOS Gaslight backdoor, Scattered Spider...",
-      "source": "SecurityWeek",
-      "published": "2026-06-26T14:30:00+00:00"
     },
     {
       "title": "Your First GRC Agent: A Red Teamer's Walkthrough",
@@ -436,13 +457,6 @@
       "published": "2026-06-26T13:30:00+00:00"
     },
     {
-      "title": "Meeting Trump's 2030 Quantum Deadline Will be Expensive, Complex",
-      "link": "https://www.darkreading.com/cybersecurity-operations/meeting-2030-quantum-deadline-expensive-complex",
-      "summary": "Getting accurate visibility into IT and OT systems will be compounded by multivendor environments, misaligned update life cycles, and interoperability gaps.",
-      "source": "Dark Reading",
-      "published": "2026-06-26T13:30:00+00:00"
-    },
-    {
       "title": "Russia used social engineering to breach prominent messaging accounts, Ukraine says",
       "link": "https://therecord.media/russia-ukraine-social-engineering-messaging-accounts",
       "summary": "Ukraine's SBU described a long-running Russian operation that used fake tech-support workers to persuade people to hand over credentials to their messaging apps.",
@@ -462,20 +476,6 @@
       "summary": "The Good, the Bad and the Ugly in Cybersecurity – Week 26 The Good | Authorities Dismantle Malware Networks and Seize Cambodian Scam Infrastructure Following the seizure of a major...",
       "source": "CVE Newsroom",
       "published": "2026-06-26T13:00:00+00:00"
-    },
-    {
-      "title": "Thanks for Crushing the Submissions Inbox. We're Trying to Keep Up",
-      "link": "https://www.darkreading.com/cybersecurity-operations/submissions-guidelines-reminder",
-      "summary": "It might be taking a bit longer than usual to respond to your submissions — here's why.",
-      "source": "Dark Reading",
-      "published": "2026-06-26T13:00:00+00:00"
-    },
-    {
-      "title": "Nebulock Raises $25 Million for AI-Native Contextual Security",
-      "link": "https://www.securityweek.com/nebulock-raises-25-million-for-ai-native-contextual-security/",
-      "summary": "The cybersecurity startup provides threat hunting, proactive detection, and behavioral security analytics. The post Nebulock Raises $25 Million for AI-Native Contextual Security appeared first on...",
-      "source": "SecurityWeek",
-      "published": "2026-06-26T12:37:13+00:00"
     },
     {
       "title": "CISA Adds Exploited PTC Windchill RCE Flaw to KEV as Web Shell Attacks Continue",
@@ -504,13 +504,6 @@
       "summary": "AI agents are moving through enterprise environments, inheriting permissions, traversing systems, and executing decisions at machine speed with minimal oversight. The identity infrastructure built to...",
       "source": "The Hacker News",
       "published": "2026-06-26T11:30:00+00:00"
-    },
-    {
-      "title": "Linux Foundation Unveils New Open Source Security Project Akrites",
-      "link": "https://www.securityweek.com/linux-foundation-unveils-new-open-source-security-project-akrites/",
-      "summary": "It will provide the tools and channels to report, patch, and disclose open source software vulnerabilities. The post Linux Foundation Unveils New Open Source Security Project Akrites appeared first...",
-      "source": "SecurityWeek",
-      "published": "2026-06-26T11:28:20+00:00"
     },
     {
       "title": "Miasma Malware Targets npm Packages and GitHub Actions in Supply Chain Attack",
@@ -569,39 +562,11 @@
       "published": "2026-06-25T22:53:32+00:00"
     },
     {
-      "title": "Robinhood Cuts Access Approval Time to Support High-Velocity Development",
-      "link": "https://www.darkreading.com/application-security/robinhood-reengineered-access-approvals-for-high-velocity-development",
-      "summary": "The fintech company's engineering-first application security team reengineered the process for granting system access, making it easier and more secure for developers working on their projects. Here...",
-      "source": "Dark Reading",
-      "published": "2026-06-25T22:42:36+00:00"
-    },
-    {
       "title": "Poland busts SIM-swapping gang tied to millions in crypto theft",
       "link": "https://www.bleepingcomputer.com/news/security/poland-busts-sim-swapping-gang-tied-to-millions-in-crypto-theft/",
       "summary": "Authorities in Poland have arrested four members of an organized cybercrime group accused of breaching telecommunications partners and hijacking email accounts to carry out SIM-swapping attacks. [...]",
       "source": "BleepingComputer",
       "published": "2026-06-25T22:37:42+00:00"
-    },
-    {
-      "title": "In Less Than 24 Hours, Attackers Weaponize Cisco CUCM Flaw",
-      "link": "https://www.darkreading.com/cyberattacks-data-breaches/less-than-24-hours-attackers-weaponize-cisco-cucm-flaw",
-      "summary": "The flaw enables server-side request forgery (SSRF) and escalates privileges to root, impacting Cisco Unified CM and Unified CM SME deployments.",
-      "source": "Dark Reading",
-      "published": "2026-06-25T21:54:34+00:00"
-    },
-    {
-      "title": "Russian APT 'Gamaredon' Upgrades Its Arsenal, Requiring New Defenses",
-      "link": "https://www.darkreading.com/threat-intelligence/russia-apt-gamaredon-arsenal-defense",
-      "summary": "The FSB state-sponsored operation has gotten a lot better at loading its malware and hiding its servers.",
-      "source": "Dark Reading",
-      "published": "2026-06-25T21:12:01+00:00"
-    },
-    {
-      "title": "EdTech Attackers Shift From Schools to Their Software Suppliers",
-      "link": "https://www.darkreading.com/cyberattacks-data-breaches/edtech-attackers-shift-schools-software-suppliers",
-      "summary": "Educational institutions, the edtech companies they rely on, and, more concerningly, the challenges they pose for schools are the focus of the latest Reporters' Notebook video series.",
-      "source": "Dark Reading",
-      "published": "2026-06-25T20:34:14+00:00"
     },
     {
       "title": "Order-tracking app Shop abused to push callback phishing attacks",
@@ -611,46 +576,11 @@
       "published": "2026-06-25T19:45:48+00:00"
     },
     {
-      "title": "Local Police Collusion Hampers Crackdown on Asian Scam Centers",
-      "link": "https://www.darkreading.com/threat-intelligence/police-collusion-crackdown-asian-scam-centers",
-      "summary": "With tens of billions of dollars flowing into regional economies from cybercrime, scam centers continue to flourish, despite international and law-enforcement efforts.",
-      "source": "Dark Reading",
-      "published": "2026-06-25T19:07:41+00:00"
-    },
-    {
-      "title": "DHS chief says president has met with likely CISA nominee; agency plans to hire 600",
-      "link": "https://therecord.media/cisa-director-nominee-workforce-hires-mullin-house-hearing",
-      "summary": "Once a new CISA director is in place, the agency will ramp up hiring efforts, Homeland Security Secretary Markwayne Mullin told lawmakers. The White House has not yet announced a nominee.",
-      "source": "The Record",
-      "published": "2026-06-25T18:47:51+00:00"
-    },
-    {
-      "title": "Microsoft quietly extends free Windows 10 ESU support to October 2027",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-quietly-extends-free-windows-10-esu-support-to-october-2027/",
-      "summary": "Microsoft has quietly extended its free Windows 10 Extended Security Updates (ESU) program for consumers by an additional year, allowing enrolled devices to continue receiving security updates until...",
-      "source": "BleepingComputer",
-      "published": "2026-06-25T18:29:20+00:00"
-    },
-    {
-      "title": "New macOS malware embeds fake errors to confuse AI analysis tools",
-      "link": "https://www.bleepingcomputer.com/news/security/new-macos-malware-embeds-fake-errors-to-confuse-ai-analysis-tools/",
-      "summary": "A newly discovered macOS malware dubbed \"Gaslight\" is designed to confuse AI-assisted malware analysis tools by hiding prompt injection strings and fake debugging data within the executable. [...]",
-      "source": "BleepingComputer",
-      "published": "2026-06-25T16:23:19+00:00"
-    },
-    {
       "title": "Google Chrome 149 Security Update: 18 Vulnerabilities Patched",
       "link": "https://thecyberthrone.in/2026/06/25/google-chrome-149-security-update-18-vulnerabilities-patched/",
       "summary": "Google Chrome 149 Security Update: 18 Vulnerabilities Patched June 25, 2026Google has shipped a Stable Channel update fixing 18 security vulnerabilities in Chrome — four rated Critical, fourteen...",
       "source": "CVE Newsroom",
       "published": "2026-06-25T15:50:15+00:00"
-    },
-    {
-      "title": "PirloTV sports piracy network disrupted as 44 domains seized",
-      "link": "https://www.bleepingcomputer.com/news/security/pirlotv-sports-piracy-network-disrupted-as-44-domains-seized/",
-      "summary": "A major sports piracy ring linked to the illegal PirloTV streaming platform has been disrupted in an action that targeted 44 domains. [...]",
-      "source": "BleepingComputer",
-      "published": "2026-06-25T15:36:56+00:00"
     },
     {
       "title": "Chrome Ad Blocker with 10M+ Installs Found with Dormant Script Injection Capability",
@@ -681,13 +611,6 @@
       "published": "2026-06-25T10:22:00+00:00"
     },
     {
-      "title": "Europe Evolves Into Ransomware's Favorite Region",
-      "link": "https://www.darkreading.com/cybersecurity-analytics/europe-evolves-ransomware-favorite-region",
-      "summary": "After a global lull, ransomware gangs are setting sights on a rich new arena: attacking EU organizations and their suppliers.",
-      "source": "Dark Reading",
-      "published": "2026-06-25T10:00:00+00:00"
-    },
-    {
       "title": "New Gaslight macOS Malware Uses Prompt Injection to Disrupt AI-Assisted Analysis",
       "link": "https://thehackernews.com/2026/06/new-gaslight-macos-malware-uses-prompt.html",
       "summary": "A previously undocumented Rust-based macOS implant and information stealer has been found to embed a prompt injection payload designed to trick a malware analyst's artificial intelligence (AI) tools...",
@@ -709,39 +632,11 @@
       "published": "2026-06-25T05:46:54+00:00"
     },
     {
-      "title": "Attackers Hit Cisco SD-WAN Flaw 2 Months Before Disclosure",
-      "link": "https://www.darkreading.com/cyberattacks-data-breaches/attackers-hit-cisco-sd-wan-flaw-2-months-before-disclosure",
-      "summary": "Researchers believe rogue peering was used to connect to the victim's SD-WAN devices to gain admin privileges and root-level access.",
-      "source": "Dark Reading",
-      "published": "2026-06-24T21:16:41+00:00"
-    },
-    {
-      "title": "2026 FIFA World Cup Faces Surge in Cyber Threats",
-      "link": "https://www.darkreading.com/cybersecurity-operations/2026-fifa-world-cup-faces-surge-cyber-threats",
-      "summary": "Persistent cybercrime, social engineering, and infrastructure threats continue to plague the FIFA 2026 World Cup across the US, Canada, and Mexico.",
-      "source": "Dark Reading",
-      "published": "2026-06-24T20:29:08+00:00"
-    },
-    {
-      "title": "Do CISOs Need a Code of Ethics?",
-      "link": "https://www.darkreading.com/cybersecurity-operations/ciso-code-of-ethics",
-      "summary": "Dark Reading Confidential Episode 19: Kickbacks, no-show jobs, \"dirty\" VCs, and shelf ware — industry expert Robert \"RSnake\" Hansen explains why he thinks it's time for a CISO code of ethics. It...",
-      "source": "Dark Reading",
-      "published": "2026-06-24T19:10:17+00:00"
-    },
-    {
       "title": "CISA Warns Critical Lantronix EDS5000 Flaw Is Being Actively Exploited",
       "link": "https://thehackernews.com/2026/06/cisa-warns-critical-lantronix-eds5000.html",
       "summary": "CISA Warns Critical Lantronix EDS5000 Flaw Is Being Actively Exploited The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday warned of active exploitation of a critical security...",
       "source": "CVE Newsroom",
       "published": "2026-06-24T17:19:18+00:00"
-    },
-    {
-      "title": "More Malicious OpenClaw Skills Threaten AI Supply Chain",
-      "link": "https://www.darkreading.com/cyber-risk/malicious-openclaw-skills-clawhub-threaten-ai-supply-chain",
-      "summary": "OpenClaw removed five packages from its ClawHub skills marketplace that bypassed security checks even though they included infostealers and other threats.",
-      "source": "Dark Reading",
-      "published": "2026-06-24T16:56:49+00:00"
     },
     {
       "title": "Amadey and StealC Malware Network Disrupted, 27M Stolen Credentials Recovered",
@@ -756,13 +651,6 @@
       "summary": "Cybersecurity researchers have flagged a new class of CI/CD workflow weakness that allows attackers to hijack workflows and compromise open-source supply chains. The \"critical exploitable pattern\"...",
       "source": "The Hacker News",
       "published": "2026-06-24T12:48:11+00:00"
-    },
-    {
-      "title": "Apple's MacOS Gap Lets Users Disable Security Tools",
-      "link": "https://www.darkreading.com/application-security/apple-macos-security-gap-users-disable-security-tools",
-      "summary": "Attackers can exploit the issue to disable security and integrated browser tools without needing administrator privileges or kernel exploits.",
-      "source": "Dark Reading",
-      "published": "2026-06-24T12:00:00+00:00"
     },
     {
       "title": "VS meldt voor het eerst misbruik van kritieke Ubiquiti UniFi OS-lekken",
@@ -807,25 +695,11 @@
       "published": "2026-06-24T06:50:38+00:00"
     },
     {
-      "title": "Scope of Salesforce Attacks Expands as Icarus Leaks Data",
-      "link": "https://www.darkreading.com/cyberattacks-data-breaches/scope-salesforce-attacks-expands-icarus-leaks-data",
-      "summary": "More victims have emerged after attackers breached application vendor Klue and used its OAuth tokens to steal customers' Salesforce data.",
-      "source": "Dark Reading",
-      "published": "2026-06-23T20:44:09+00:00"
-    },
-    {
       "title": "Threat Report: Ukraine as Russia’s Downrange Cyber-Warfare Target and Europe’s Emerging Exposure",
       "link": "https://krypt3ia.wordpress.com/2026/06/23/threat-report-ukraine-as-russias-downrange-cyber-warfare-target-and-europes-emerging-exposure/",
       "summary": "Threat Report: Ukraine as Russia’s Downrange Cyber-Warfare Target and Europe’s Emerging Exposure TLP:CLEAR Analytic confidence: High for the strategic pattern, high for Russia-state linkage, medium...",
       "source": "CVE Newsroom",
       "published": "2026-06-23T19:25:56+00:00"
-    },
-    {
-      "title": "'Cordyceps': Mushrooming Malicious Pull Requests Threaten Developer Workflows",
-      "link": "https://www.darkreading.com/application-security/cordyceps-malicious-pull-requests-developer-workflows",
-      "summary": "The CI/CD workflow weakness affects Microsoft's Azure Sentinel, Google's AI Agent Development Kit, Apache's Doris analytics database, Cloudflare's Workers SDK, and Python Software Foundation's Black.",
-      "source": "Dark Reading",
-      "published": "2026-06-23T19:16:42+00:00"
     },
     {
       "title": "FortiBleed Targeted FortiGate Firewalls in 110 Million-Credential Harvesting Operation",
@@ -863,34 +737,6 @@
       "published": "2026-06-23T14:22:03+00:00"
     },
     {
-      "title": "SocGholish Takedown Highlights Malicious TDS Threats",
-      "link": "https://www.darkreading.com/cyber-risk/socgholish-takedown-malicious-tds-threats",
-      "summary": "SocGholish uses traffic distribution systems (TDSs) to provide initial access into victims' networks for cybercrime groups such as the notorious Evil Corp.",
-      "source": "Dark Reading",
-      "published": "2026-06-23T13:51:33+00:00"
-    },
-    {
-      "title": "FortiBleed Attackers Turn Firewalls Into Credential Stealers as Heists Persist",
-      "link": "https://www.darkreading.com/cyberattacks-data-breaches/fortibleed-attackers-firewalls-credentials-stealers",
-      "summary": "The threat actors engineered a Golang-based sniffer to target 430,000 FortiGate firewalls and identify 110 million credentials in the ongoing global campaign.",
-      "source": "Dark Reading",
-      "published": "2026-06-23T12:34:54+00:00"
-    },
-    {
-      "title": "Duizenden Joomla-websites bevatten actief misbruikt RCE-lek in JCE-editor",
-      "link": "https://www.security.nl/posting/941798/Duizenden+Joomla-websites+bevatten+actief+misbruikt+RCE-lek+in+JCE-editor?channel=rss",
-      "summary": "Duizenden Joomla-websites bevatten actief misbruikt RCE-lek in JCE-editor Duizenden Joomla websites die gebruikmaken van de Joomla Content Editor (JCE) bevatten een kritieke kwetsbaarheid waar...",
-      "source": "CVE Newsroom",
-      "published": "2026-06-23T12:14:00+00:00"
-    },
-    {
-      "title": "Vulnerability in DRIMO CMS software",
-      "link": "https://cert.pl/en/posts/2026/06/CVE-2026-11772/",
-      "summary": "Vulnerability in DRIMO CMS software Vulnerability in DRIMO CMS software CVE ID CVE-2026-11772 Publication date 23 June 2026 Vendor DRIMO Product DRIMO CMS Vulnerable versions All through 1.0...",
-      "source": "CVE Newsroom",
-      "published": "2026-06-23T11:55:00+00:00"
-    },
-    {
       "title": "Agentic AI: The Weapon That No Longer Needs a Warrior",
       "link": "https://thehackernews.com/2026/06/agentic-ai-weapon-that-no-longer-needs.html",
       "summary": "Every weapon begins as an extension of the hand that holds it. The spear lengthened the reach of the arm. The bow sent the point flying without the throw. The rifle placed a man's death a quarter...",
@@ -919,13 +765,6 @@
       "published": "2026-06-23T03:56:58+00:00"
     },
     {
-      "title": "DifyTap Bugs Let Attackers 'Wiretap' AI Chat Histories",
-      "link": "https://www.darkreading.com/application-security/difytap-bugs-wiretap-ai-chat-histories",
-      "summary": "Four vulnerabilities allow attackers to exploit Dify, a platform for AI application building and management, to silently access and exfiltrate sensitive data.",
-      "source": "Dark Reading",
-      "published": "2026-06-22T21:14:11+00:00"
-    },
-    {
       "title": "ShapedPlugin WordPress Pro Plugins Backdoored in Supply Chain Attack",
       "link": "https://thehackernews.com/2026/06/shapedplugin-wordpress-pro-plugins.html",
       "summary": "Multiple WordPress plugins from ShapedPlugin were compromised in a supply chain attack after unknown threat actors managed to tamper with the official release channels and push backdoor code...",
@@ -945,20 +784,6 @@
       "summary": "Cybersecurity researchers have disclosed details of four vulnerabilities in Dify, an open-source agentic workflow platform with more than 146,000 GitHub stars, that could allow attackers to...",
       "source": "The Hacker News",
       "published": "2026-06-22T16:13:28+00:00"
-    },
-    {
-      "title": "Crypto Heist Fueled by Elaborate Fake Reputation-Boosting Campaign",
-      "link": "https://www.darkreading.com/cyberattacks-data-breaches/crypto-heist-fake-reputation-boosting-campaign",
-      "summary": "Attackers are using multiple online channels — including GitHub, YouTube, and VirusTotal — to build an illusion of trust to spread a cross-platform clipboard hijacker.",
-      "source": "Dark Reading",
-      "published": "2026-06-22T16:10:10+00:00"
-    },
-    {
-      "title": "He Thought He Was Secure; His Phone Number Was Stolen Anyway",
-      "link": "https://www.darkreading.com/cyber-risk/how-a-sim-swap-attack-led-to-a-near-account-takeover",
-      "summary": "Threat actors can easily steal one-time passwords sent by text when they conduct a SIM swap attack. This can lead to account takeovers, so users must layer up their security measures.",
-      "source": "Dark Reading",
-      "published": "2026-06-22T14:12:11+00:00"
     },
     {
       "title": "New OXLOADER Loader Uses Malicious Google Ads to Deliver CastleStealer",
@@ -1003,193 +828,11 @@
       "published": "2026-06-22T06:57:44+00:00"
     },
     {
-      "title": "INTERPOL Warns Phishing, Ransomware, and AI Scams Are Rising Across Asia-Pacific",
-      "link": "https://thehackernews.com/2026/06/interpol-warns-phishing-ransomware-and.html",
-      "summary": "A new report from INTERPOL has revealed a \"dramatic increase\" in cybercrime in Asia and the South Pacific, fueled by rapid digitalization, internet penetration, new technologies, organized criminal...",
-      "source": "The Hacker News",
-      "published": "2026-06-22T06:06:53+00:00"
-    },
-    {
-      "title": "Stressors, AI Forcing Changes to Cybersecurity Teams",
-      "link": "https://www.darkreading.com/cybersecurity-operations/stressors-ai-changes-cybersecurity-teams",
-      "summary": "As threats proliferate and AI complicates cybersecurity, CISOs say the job is getting harder, but more companies still want cybersecurity expertise, if even on a part-time basis.",
-      "source": "Dark Reading",
-      "published": "2026-06-19T13:00:00+00:00"
-    },
-    {
-      "title": "Novo Nordisk Breach Highlights Software Development Pipeline Risk",
-      "link": "https://www.darkreading.com/cyber-risk/novo-nordisk-breach-exposes-dev-pipeline-risk",
-      "summary": "A leaked GitHub token underscores what most organizations get wrong: Treating secrets management as a tooling problem rather than an identity problem.",
-      "source": "Dark Reading",
-      "published": "2026-06-18T20:05:47+00:00"
-    },
-    {
-      "title": "Operation Escaneo Signals Shift in LatAm Threat Landscape",
-      "link": "https://www.darkreading.com/cybersecurity-operations/operation-escaneo-signals-shift-latam-threat-landscape",
-      "summary": "The threat group's curious business model may combine opportunistic monetization alongside intel collection, without much coordination between the two.",
-      "source": "Dark Reading",
-      "published": "2026-06-18T19:09:21+00:00"
-    },
-    {
-      "title": "FIFA Bug Exposes World Cup Streams to Remote Takeover",
-      "link": "https://www.darkreading.com/application-security/fifa-bug-world-cup-streams-remote-takeover",
-      "summary": "A hacker could have \"Rickrolled\" the World Cup — or worse — thanks to FIFA's unenforced Entra access controls.",
-      "source": "Dark Reading",
-      "published": "2026-06-18T18:20:07+00:00"
-    },
-    {
       "title": "‘Popa’ Botnet Linked to Publicly-Traded Israeli Firm",
       "link": "https://krebsonsecurity.com/2026/06/popa-botnet-linked-to-publicly-traded-israeli-firm/",
       "summary": "For the past four years, a sprawling Android-based botnet called Popa has forced millions of consumer TV boxes to relay Internet traffic linked to advertising fraud, account takeovers, and mass...",
       "source": "Krebs on Security",
       "published": "2026-06-18T17:37:58+00:00"
-    },
-    {
-      "title": "Salesforce Data Thefts Continue via Klue App Compromise",
-      "link": "https://www.darkreading.com/cyberattacks-data-breaches/salesforce-data-thefts-klue-app-compromise",
-      "summary": "Klue's Battlecards is now the third integrated application that has been compromised to steal customers' Salesforce data, and victims include Huntress, the cybersecurity vendor.",
-      "source": "Dark Reading",
-      "published": "2026-06-18T16:49:04+00:00"
-    },
-    {
-      "title": "Get Out of Security Debt by Tackling the Exposure Problem",
-      "link": "https://www.darkreading.com/cyber-risk/security-debt-tackle-exposure-problem",
-      "summary": "Teams digging out of security debt need to answer only two simple questions: Which vulnerabilities in our systems are exposed, and how long should they stay that way?",
-      "source": "Dark Reading",
-      "published": "2026-06-18T13:00:00+00:00"
-    },
-    {
-      "title": "EU Gets a Head Start in Developing 6G Network Security",
-      "link": "https://www.darkreading.com/cybersecurity-operations/eu-6g-network-security",
-      "summary": "\"Shield-6G\" will combine AI threat detection, digital twins, honeypots, and more, to help carriers protect 6G networks against the threats of tomorrow.",
-      "source": "Dark Reading",
-      "published": "2026-06-18T07:00:00+00:00"
-    },
-    {
-      "title": "INC Ransomware Thrives by Mastering the Basics",
-      "link": "https://www.darkreading.com/cyberattacks-data-breaches/inc-ransomware-thrives-by-mastering-the-basics",
-      "summary": "And one of those basics is focusing on sectors where a ransomware disruption creates immediate pressure to pay up, like with healthcare.",
-      "source": "Dark Reading",
-      "published": "2026-06-17T19:46:25+00:00"
-    },
-    {
-      "title": "Sweeping Credential-Harvesting Heist Compromises 30K+ Fortinet Devices",
-      "link": "https://www.darkreading.com/cyberattacks-data-breaches/sweeping-credential-harvesting-heist-compromises-30k-fortinet-devices",
-      "summary": "Attackers are actively targeting various sectors across nearly 200 countries and already have compiled a list of working credentials for tens of thousands of compromised devices.",
-      "source": "Dark Reading",
-      "published": "2026-06-17T14:06:34+00:00"
-    },
-    {
-      "title": "UK Social Media Ban for Minors Has Privacy Experts Worried",
-      "link": "https://www.darkreading.com/cyber-risk/uk-social-media-ban-privacy-experts-worried",
-      "summary": "The UK will ban adolescents under 16 years old from user-to-user social media platforms, despite age verification issues and privacy concerns.",
-      "source": "Dark Reading",
-      "published": "2026-06-17T08:00:00+00:00"
-    },
-    {
-      "title": "Fileless Phantom Stealer Targets Browser Credentials",
-      "link": "https://www.darkreading.com/cyberattacks-data-breaches/fileless-phantom-stealer-targets-browser-credentials",
-      "summary": "In addition to executing entirely in memory, the malware's infection chain incorporates other anti-analysis techniques designed to evade detection.",
-      "source": "Dark Reading",
-      "published": "2026-06-16T22:26:34+00:00"
-    },
-    {
-      "title": "Security Community Slams US Ban on Exporting Mythos, Fable",
-      "link": "https://www.darkreading.com/vulnerabilities-threats/security-community-slams-us-ban-on-exporting-mythos-fable",
-      "summary": "An open letter signed by dozens of security experts asked the government to reverse export restrictions on Anthropic's Claude Fable 5 and Mythos 5 models.",
-      "source": "Dark Reading",
-      "published": "2026-06-16T22:00:06+00:00"
-    },
-    {
-      "title": "SprySOCKS Windows Variant Abuses Kernel Drivers to Evade Detection",
-      "link": "https://www.darkreading.com/threat-intelligence/sprysocks-windows-variant-kernel-drivers",
-      "summary": "FishMonger, a China-nexus threat group, has deployed an undocumented version of the Linux backdoor against government targets in Honduras, Taiwan, Thailand, and Pakistan.",
-      "source": "Dark Reading",
-      "published": "2026-06-16T20:11:48+00:00"
-    },
-    {
-      "title": "Rokarolla Android Trojan Levels Up to Full Device Control, Persistence",
-      "link": "https://www.darkreading.com/endpoint-security/rokarolla-android-trojan",
-      "summary": "The emerging malware, spread via fake TikTok and Chrome downloads, has evolved by combining banking fraud with extensive device surveillance and remote control.",
-      "source": "Dark Reading",
-      "published": "2026-06-16T17:32:32+00:00"
-    },
-    {
-      "title": "'Lorem Ipsum' Malware Pivots to ClickFix Delivery",
-      "link": "https://www.darkreading.com/cyberattacks-data-breaches/lorem-ipsum-malware-clickfix-delivery",
-      "summary": "New analysis shows the campaign, which uses compromised WordPress sites, may be linked to the ransomware and data extortion group Vice Society.",
-      "source": "Dark Reading",
-      "published": "2026-06-16T15:10:48+00:00"
-    },
-    {
-      "title": "HTTP/2 Bomb Attacks Put Telcos, Healthcare Orgs at Risk",
-      "link": "https://www.darkreading.com/vulnerabilities-threats/http-2-bomb-attacks-telcos-healthcare",
-      "summary": "The denial-of-service (DoS) exploit takes advantage of two features in HTTP/2 that were designed to save Internet bandwith, not power massive amplification attacks.",
-      "source": "Dark Reading",
-      "published": "2026-06-15T19:31:37+00:00"
-    },
-    {
-      "title": "Copilot 'SearchLeak' Attack Allows 1-Click Data Theft",
-      "link": "https://www.darkreading.com/application-security/copilot-searchleak-attack-1-click-data-theft",
-      "summary": "The critical, three-stage attack is now patched, but it's part of a new group of AI prompt-injection issues that use hidden URLs and other variables.",
-      "source": "Dark Reading",
-      "published": "2026-06-15T19:27:48+00:00"
-    },
-    {
-      "title": "China-Nexus Actor Spies on US Researchers Undetected for a Year",
-      "link": "https://www.darkreading.com/threat-intelligence/china-nexus-actor-us-researchers-undetected",
-      "summary": "Google discovered and disrupted the sprawling campaign, which stole RedCAP credentials to breach numerous institutions and exfiltrate sensitive data.",
-      "source": "Dark Reading",
-      "published": "2026-06-15T17:00:45+00:00"
-    },
-    {
-      "title": "Most CISOs Report Pressure to Bury Bad Security News",
-      "link": "https://www.darkreading.com/cyber-risk/most-cisos-report-pressure-to-bury-bad-security-news",
-      "summary": "Executive leaders may not be saying it aloud, but business objectives and priorities don't always promote timely disclosures.",
-      "source": "Dark Reading",
-      "published": "2026-06-15T16:45:59+00:00"
-    },
-    {
-      "title": "The Beginning of the End of Social Engineering",
-      "link": "https://www.darkreading.com/cyberattacks-data-breaches/beginning-end-social-engineering",
-      "summary": "AI-native operating systems are shifting the responsibility to stay vigilant against social engineering cyberattacks from the user onto the system itself.",
-      "source": "Dark Reading",
-      "published": "2026-06-15T15:08:32+00:00"
-    },
-    {
-      "title": "US Cracks Down on Anthropic AI Models Amid Abuse Concerns",
-      "link": "https://www.darkreading.com/cyber-risk/us-cracks-down-anthropic-ai-models-abuse-concerns",
-      "summary": "Anthropic abruptly suspended all access to Fable 5 and Mythos 5 after receiving an export control directive that banned foreign nationals from using the technology.",
-      "source": "Dark Reading",
-      "published": "2026-06-15T12:17:22+00:00"
-    },
-    {
-      "title": "ShinyHunters Uses Oracle Zero-Day to Rampage Higher Ed",
-      "link": "https://www.darkreading.com/vulnerabilities-threats/shinyhunters-oracle-zero-day-higher-ed",
-      "summary": "A major bug in Oracle's ERP software disproportionately affected American universities, and hackers have capitalized by stealing gobs of data.",
-      "source": "Dark Reading",
-      "published": "2026-06-12T20:26:32+00:00"
-    },
-    {
-      "title": "Claude Fable 5 Doesn't Change the Mythos Security Story",
-      "link": "https://www.darkreading.com/vulnerabilities-threats/claude-fable-5-doesnt-change-mythos-security-story",
-      "summary": "Stay cool: Mythos 5 is an upgrade over Mythos Preview while Fable 5 is Mythos \"made safe for general use,\" Anthropic explains.",
-      "source": "Dark Reading",
-      "published": "2026-06-12T13:01:00+00:00"
-    },
-    {
-      "title": "Phishing Attack Volume Down 20%, But Risk Still Rising",
-      "link": "https://www.darkreading.com/cybersecurity-analytics/phishing-volume-down-20-risk-rising",
-      "summary": "Hackers are valuing quality over quantity, using AI to upgrade their phishing attacks rather than multiply them.",
-      "source": "Dark Reading",
-      "published": "2026-06-12T00:58:07+00:00"
-    },
-    {
-      "title": "Max-Severity Ivanti Flaw Exploited 24 Hours After Disclosure",
-      "link": "https://www.darkreading.com/vulnerabilities-threats/max-severity-ivanti-sentry-flaw-exploited-24-hours",
-      "summary": "Initial methods suggest attackers had likely mapped out Ivanti's asset landscape upfront and acted quickly once the exploit became public.",
-      "source": "Dark Reading",
-      "published": "2026-06-11T18:43:57+00:00"
     },
     {
       "title": "Who Runs the Ransomware Group ‘The Gentlemen?’",
