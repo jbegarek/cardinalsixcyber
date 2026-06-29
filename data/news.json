@@ -1,12 +1,47 @@
 {
-  "last_updated": "2026-06-29T20:35:12.584341+00:00",
+  "last_updated": "2026-06-29T22:22:18.816594+00:00",
   "articles": [
+    {
+      "title": "'Djinn' Stealer Targets Cloud, AI Credentials",
+      "link": "https://www.darkreading.com/cyberattacks-data-breaches/djinn-stealer-targets-cloud-ai-credentials",
+      "summary": "The infostealer was delivered via CVE-2026-48558, a critical authentication bypass vulnerability in SimpleHelp, targeting credentials linking development and admin environments to wider enterprise...",
+      "source": "Dark Reading",
+      "published": "2026-06-29T21:29:15+00:00"
+    },
+    {
+      "title": "Vulnerabilities Expose Private Data in Indian Government Systems",
+      "link": "https://www.darkreading.com/vulnerabilities-threats/vulnerabilities-private-data-indian-government-systems",
+      "summary": "One critical vulnerability, among many discovered by a researcher, could have allowed anyone to walk in and take over a national government portal.",
+      "source": "Dark Reading",
+      "published": "2026-06-29T21:05:29+00:00"
+    },
+    {
+      "title": "Nissan discloses employee data breach linked to Oracle zero-day attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/nissan-discloses-employee-data-breach-linked-to-oracle-zero-day-attacks/",
+      "summary": "Nissan is warning that it suffered a data breach affecting current and former employees after threat actors exploited an Oracle PeopleSoft vulnerability in data theft attacks previously linked to the...",
+      "source": "BleepingComputer",
+      "published": "2026-06-29T20:40:44+00:00"
+    },
     {
       "title": "NAIC says public data stolen in ShinyHunters' PeopleSoft breach",
       "link": "https://www.bleepingcomputer.com/news/security/naic-says-public-data-stolen-in-shinyhunters-peoplesoft-breach/",
       "summary": "The National Association of Insurance Commissioners (NAIC) says the ShinyHunters extortion group stole only publicly available data, outdated logs, and configuration files after breaching its systems...",
       "source": "BleepingComputer",
       "published": "2026-06-29T20:30:28+00:00"
+    },
+    {
+      "title": "CVE-2026-13763 - HTTP/2 Stream Parser Confusion Body-Inspection Bypass in AWS Application Load Balancer with AWS WAF",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-13763",
+      "summary": "CVE ID :CVE-2026-13763 Published : June 29, 2026, 8:03 p.m. | 20 minutes ago Description :Inconsistent interpretation of HTTP/2 requests in AWS Application Load Balancer with AWS WAF enabled might...",
+      "source": "CVE Feed",
+      "published": "2026-06-29T20:03:57+00:00"
+    },
+    {
+      "title": "CVE-2026-13762 - HTTP/2 Stream Parser Confusion Body-Inspection Bypass in Amazon CloudFront with AWS WAF",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-13762",
+      "summary": "CVE ID :CVE-2026-13762 Published : June 29, 2026, 8:03 p.m. | 20 minutes ago Description :Inconsistent interpretation of HTTP/2 requests in Amazon CloudFront with AWS WAF enabled might allow remote...",
+      "source": "CVE Feed",
+      "published": "2026-06-29T20:03:06+00:00"
     },
     {
       "title": "Can Clothes Make You Invisible to Facial Recognition?",
@@ -25,7 +60,7 @@
     {
       "title": "CVE-2026-53426 - Atom-table exhaustion denial-of-service via JSON parse_document in MDEx",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-53426",
-      "summary": "CVE ID :CVE-2026-53426 Published : June 29, 2026, 7:11 p.m. | 25 minutes ago Description :Allocation of Resources Without Limits or Throttling vulnerability in leandrocp MDEx allows Excessive...",
+      "summary": "CVE ID :CVE-2026-53426 Published : June 29, 2026, 7:11 p.m. | 1 hour, 12 minutes ago Description :Allocation of Resources Without Limits or Throttling vulnerability in leandrocp MDEx allows Excessive...",
       "source": "CVE Feed",
       "published": "2026-06-29T19:11:32+00:00"
     },
@@ -46,21 +81,21 @@
     {
       "title": "CVE-2026-58000 - luci-proto-openvpn - Command Injection via cl_meta Parameter in generateKey",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-58000",
-      "summary": "CVE ID :CVE-2026-58000 Published : June 29, 2026, 6:16 p.m. | 1 hour, 21 minutes ago Description :luci-proto-openvpn through 0.11.1, fixed in commit e4ff45e, contains a command injection...",
+      "summary": "CVE ID :CVE-2026-58000 Published : June 29, 2026, 6:16 p.m. | 2 hours, 7 minutes ago Description :luci-proto-openvpn through 0.11.1, fixed in commit e4ff45e, contains a command injection...",
       "source": "CVE Feed",
       "published": "2026-06-29T18:16:04+00:00"
     },
     {
       "title": "CVE-2026-57999 - luci-app-tailscale-community - Command Injection via tailscale.do_login RPC",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-57999",
-      "summary": "CVE ID :CVE-2026-57999 Published : June 29, 2026, 6:16 p.m. | 1 hour, 21 minutes ago Description :luci-app-tailscale-community contains a command injection vulnerability in the tailscale.do_login RPC...",
+      "summary": "CVE ID :CVE-2026-57999 Published : June 29, 2026, 6:16 p.m. | 2 hours, 7 minutes ago Description :luci-app-tailscale-community contains a command injection vulnerability in the tailscale.do_login RPC...",
       "source": "CVE Feed",
       "published": "2026-06-29T18:16:04+00:00"
     },
     {
       "title": "CVE-2026-11720 - Path Traversal in googleapis/mcp-toolbox HTTP Tool URL Builder",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-11720",
-      "summary": "CVE ID :CVE-2026-11720 Published : June 29, 2026, 5:51 p.m. | 1 hour, 45 minutes ago Description :A path traversal vulnerability exists in the HTTP tool URL builder of googleapis/mcp-toolbox. When...",
+      "summary": "CVE ID :CVE-2026-11720 Published : June 29, 2026, 5:51 p.m. | 2 hours, 32 minutes ago Description :A path traversal vulnerability exists in the HTTP tool URL builder of googleapis/mcp-toolbox. When...",
       "source": "CVE Feed",
       "published": "2026-06-29T17:51:30+00:00"
     },
@@ -74,35 +109,35 @@
     {
       "title": "CVE-2026-57955 - SigNoz 0.130.1 - SQL Injection in Alert History Endpoints via Rule ID Parameter",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-57955",
-      "summary": "CVE ID :CVE-2026-57955 Published : June 29, 2026, 5:22 p.m. | 2 hours, 15 minutes ago Description :SigNoz through 0.130.1 contains a SQL injection vulnerability that allows authenticated attackers to...",
+      "summary": "CVE ID :CVE-2026-57955 Published : June 29, 2026, 5:22 p.m. | 3 hours, 1 minute ago Description :SigNoz through 0.130.1 contains a SQL injection vulnerability that allows authenticated attackers to...",
       "source": "CVE Feed",
       "published": "2026-06-29T17:22:22+00:00"
     },
     {
       "title": "CVE-2026-57950 - ruoyi-vue-pro - Incorrect Permission Namespace in ErpSaleOrderController",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-57950",
-      "summary": "CVE ID :CVE-2026-57950 Published : June 29, 2026, 5:20 p.m. | 2 hours, 17 minutes ago Description :ruoyi-vue-pro through 2026.05, fixed in commit 5d1fd70 contains a broken access control...",
+      "summary": "CVE ID :CVE-2026-57950 Published : June 29, 2026, 5:20 p.m. | 3 hours, 3 minutes ago Description :ruoyi-vue-pro through 2026.05, fixed in commit 5d1fd70 contains a broken access control vulnerability...",
       "source": "CVE Feed",
       "published": "2026-06-29T17:20:07+00:00"
     },
     {
       "title": "CVE-2026-57947 - Pinpoint - Server-Side Request Forgery via Alarm Webhook Registration",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-57947",
-      "summary": "CVE ID :CVE-2026-57947 Published : June 29, 2026, 5:18 p.m. | 2 hours, 18 minutes ago Description :Pinpoint through 3.1.0 contains a server-side request forgery vulnerability in the webhook...",
+      "summary": "CVE ID :CVE-2026-57947 Published : June 29, 2026, 5:18 p.m. | 3 hours, 5 minutes ago Description :Pinpoint through 3.1.0 contains a server-side request forgery vulnerability in the webhook...",
       "source": "CVE Feed",
       "published": "2026-06-29T17:18:50+00:00"
     },
     {
       "title": "CVE-2026-56782 - Gorse - Unauthenticated Database Dump and Restore via /api/dump and /api/restore Endpoints",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-56782",
-      "summary": "CVE ID :CVE-2026-56782 Published : June 29, 2026, 5:16 p.m. | 2 hours, 21 minutes ago Description :Gorse before 0.5.10 contains an authentication bypass vulnerability in the /api/dump and...",
+      "summary": "CVE ID :CVE-2026-56782 Published : June 29, 2026, 5:16 p.m. | 3 hours, 7 minutes ago Description :Gorse before 0.5.10 contains an authentication bypass vulnerability in the /api/dump and /api/restore...",
       "source": "CVE Feed",
       "published": "2026-06-29T17:16:14+00:00"
     },
     {
       "title": "CVE-2026-56285 - Nitter - Server-Side Request Forgery in /video Media Proxy Endpoint",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-56285",
-      "summary": "CVE ID :CVE-2026-56285 Published : June 29, 2026, 5:13 p.m. | 2 hours, 23 minutes ago Description :Nitter's /video media proxy endpoint fails to validate target URLs against Twitter/X domains and...",
+      "summary": "CVE ID :CVE-2026-56285 Published : June 29, 2026, 5:13 p.m. | 3 hours, 10 minutes ago Description :Nitter's /video media proxy endpoint fails to validate target URLs against Twitter/X domains and...",
       "source": "CVE Feed",
       "published": "2026-06-29T17:13:57+00:00"
     },
@@ -137,7 +172,7 @@
     {
       "title": "CVE-2026-13749 - Snowflake CLI Arbitrary Code Execution via Snowpark Annotation Processor Template Injection",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-13749",
-      "summary": "CVE ID :CVE-2026-13749 Published : June 29, 2026, 4:02 p.m. | 3 hours, 34 minutes ago Description :Improper neutralization in the Snowpark annotation processor callback template in Snowflake CLI...",
+      "summary": "CVE ID :CVE-2026-13749 Published : June 29, 2026, 4:02 p.m. | 4 hours, 21 minutes ago Description :Improper neutralization in the Snowpark annotation processor callback template in Snowflake CLI...",
       "source": "CVE Feed",
       "published": "2026-06-29T16:02:47+00:00"
     },
@@ -151,28 +186,28 @@
     {
       "title": "CVE-2026-13583 - Edimax EW-7478APC POST Request formUSBFolder buffer overflow",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-13583",
-      "summary": "CVE ID :CVE-2026-13583 Published : June 29, 2026, 3:45 p.m. | 3 hours, 52 minutes ago Description :A vulnerability has been found in Edimax EW-7478APC 1.04. Impacted is the function formUSBFolder of...",
+      "summary": "CVE ID :CVE-2026-13583 Published : June 29, 2026, 3:45 p.m. | 4 hours, 38 minutes ago Description :A vulnerability has been found in Edimax EW-7478APC 1.04. Impacted is the function formUSBFolder of...",
       "source": "CVE Feed",
       "published": "2026-06-29T15:45:07+00:00"
     },
     {
       "title": "CVE-2026-41052 - Rancher Privilege Escalation from Project Owner to Host",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-41052",
-      "summary": "CVE ID :CVE-2026-41052 Published : June 29, 2026, 3:41 p.m. | 3 hours, 55 minutes ago Description :Improper privilege handling could be used by users with Project Owner role to escalate privileges...",
+      "summary": "CVE ID :CVE-2026-41052 Published : June 29, 2026, 3:41 p.m. | 4 hours, 42 minutes ago Description :Improper privilege handling could be used by users with Project Owner role to escalate privileges...",
       "source": "CVE Feed",
       "published": "2026-06-29T15:41:56+00:00"
     },
     {
       "title": "CVE-2026-13744 - Snowflake CLI SQL Injection Through Improper Neutralization of User-Controlled Input",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-13744",
-      "summary": "CVE ID :CVE-2026-13744 Published : June 29, 2026, 3:40 p.m. | 3 hours, 56 minutes ago Description :Improper neutralization of attacker-controlled content in Snowflake CLI versions prior to 3.19...",
+      "summary": "CVE ID :CVE-2026-13744 Published : June 29, 2026, 3:40 p.m. | 4 hours, 43 minutes ago Description :Improper neutralization of attacker-controlled content in Snowflake CLI versions prior to 3.19...",
       "source": "CVE Feed",
       "published": "2026-06-29T15:40:47+00:00"
     },
     {
       "title": "CVE-2026-13582 - Edimax EW-7478APC POST Request formUSBAccount buffer overflow",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-13582",
-      "summary": "CVE ID :CVE-2026-13582 Published : June 29, 2026, 3:30 p.m. | 4 hours, 7 minutes ago Description :A flaw has been found in Edimax EW-7478APC 1.04. This issue affects the function formUSBAccount of...",
+      "summary": "CVE ID :CVE-2026-13582 Published : June 29, 2026, 3:30 p.m. | 4 hours, 53 minutes ago Description :A flaw has been found in Edimax EW-7478APC 1.04. This issue affects the function formUSBAccount of...",
       "source": "CVE Feed",
       "published": "2026-06-29T15:30:09+00:00"
     },
@@ -200,7 +235,7 @@
     {
       "title": "CVE-2026-13580 - Edimax EW-7478APC POST Request formQoS buffer overflow",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-13580",
-      "summary": "CVE ID :CVE-2026-13580 Published : June 29, 2026, 3 p.m. | 4 hours, 37 minutes ago Description :A security vulnerability has been detected in Edimax EW-7478APC 1.04. This affects the function formQoS...",
+      "summary": "CVE ID :CVE-2026-13580 Published : June 29, 2026, 3 p.m. | 5 hours, 23 minutes ago Description :A security vulnerability has been detected in Edimax EW-7478APC 1.04. This affects the function formQoS...",
       "source": "CVE Feed",
       "published": "2026-06-29T15:00:18+00:00"
     },
@@ -214,7 +249,7 @@
     {
       "title": "CVE-2026-56290 - Joomla Extension - joomlack.fr - Unauthenticated file upload in Page Builder CK extension < 3.6.0",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-56290",
-      "summary": "CVE ID :CVE-2026-56290 Published : June 29, 2026, 2:31 p.m. | 5 hours, 5 minutes ago Description :The Joomla extension Page Builder CK is vulnerable to an unauthenticated arbitrary file upload that...",
+      "summary": "CVE ID :CVE-2026-56290 Published : June 29, 2026, 2:31 p.m. | 5 hours, 52 minutes ago Description :The Joomla extension Page Builder CK is vulnerable to an unauthenticated arbitrary file upload that...",
       "source": "CVE Feed",
       "published": "2026-06-29T14:31:37+00:00"
     },
@@ -256,7 +291,7 @@
     {
       "title": "CVE-2026-56124 - phpUploader < 2.0.2 Unauthenticated Database Exposure via index model",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-56124",
-      "summary": "CVE ID :CVE-2026-56124 Published : June 29, 2026, 1:47 p.m. | 5 hours, 50 minutes ago Description :phpUploader before 2.0.2 contains an unauthenticated information disclosure vulnerability that...",
+      "summary": "CVE ID :CVE-2026-56124 Published : June 29, 2026, 1:47 p.m. | 6 hours, 36 minutes ago Description :phpUploader before 2.0.2 contains an unauthenticated information disclosure vulnerability that...",
       "source": "CVE Feed",
       "published": "2026-06-29T13:47:21+00:00"
     },
@@ -284,7 +319,7 @@
     {
       "title": "CVE-2026-57331 - WordPress Paid Videochat Turnkey Site plugin <= 7.4.8 - Arbitrary File Deletion vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-57331",
-      "summary": "CVE ID :CVE-2026-57331 Published : June 29, 2026, 1:36 p.m. | 6 hours ago Description :Performer Arbitrary File Deletion in Paid Videochat Turnkey Site Severity: 9.9 | CRITICAL Visit the link for...",
+      "summary": "CVE ID :CVE-2026-57331 Published : June 29, 2026, 1:36 p.m. | 6 hours, 47 minutes ago Description :Performer Arbitrary File Deletion in Paid Videochat Turnkey Site Severity: 9.9 | CRITICAL Visit the...",
       "source": "CVE Feed",
       "published": "2026-06-29T13:36:35+00:00"
     },
@@ -305,51 +340,37 @@
     {
       "title": "CVE-2026-54371 - attr < 2.6.0 Symlink Traversal Privilege Escalation via getfattr/setfattr",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-54371",
-      "summary": "CVE ID :CVE-2026-54371 Published : June 29, 2026, 12:39 p.m. | 6 hours, 58 minutes ago Description :attr before version 2.6.0 contains a symlink traversal vulnerability in the getfattr and setfattr...",
+      "summary": "CVE ID :CVE-2026-54371 Published : June 29, 2026, 12:39 p.m. | 7 hours, 44 minutes ago Description :attr before version 2.6.0 contains a symlink traversal vulnerability in the getfattr and setfattr...",
       "source": "CVE Feed",
       "published": "2026-06-29T12:39:23+00:00"
     },
     {
       "title": "CVE-2026-54369 - acl < 2.4.0 Symlink Traversal Privilege Escalation via libacl Functions",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-54369",
-      "summary": "CVE ID :CVE-2026-54369 Published : June 29, 2026, 12:37 p.m. | 7 hours ago Description :acl before version 2.4.0 contains a symlink traversal vulnerability in the libacl pathname-based functions...",
+      "summary": "CVE ID :CVE-2026-54369 Published : June 29, 2026, 12:37 p.m. | 7 hours, 46 minutes ago Description :acl before version 2.4.0 contains a symlink traversal vulnerability in the libacl pathname-based...",
       "source": "CVE Feed",
       "published": "2026-06-29T12:37:21+00:00"
     },
     {
       "title": "CVE-2026-12856 - Vscode-java: vscode: command injection vulnerability in the javadoc hover provider of the vscode-java extension",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-12856",
-      "summary": "CVE ID :CVE-2026-12856 Published : June 29, 2026, 12:33 p.m. | 7 hours, 3 minutes ago Description :A flaw was found in the vscode-java extension, which provides Java language support for Visual...",
+      "summary": "CVE ID :CVE-2026-12856 Published : June 29, 2026, 12:33 p.m. | 7 hours, 50 minutes ago Description :A flaw was found in the vscode-java extension, which provides Java language support for Visual...",
       "source": "CVE Feed",
       "published": "2026-06-29T12:33:52+00:00"
     },
     {
       "title": "CVE-2026-40521 - FrontAccounting < 2.4.20 Path Traversal RCE via attachment upload",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-40521",
-      "summary": "CVE ID :CVE-2026-40521 Published : June 29, 2026, 12:30 p.m. | 7 hours, 7 minutes ago Description :FrontAccounting before 2.4.20 contains a path traversal vulnerability in the attachment upload...",
+      "summary": "CVE ID :CVE-2026-40521 Published : June 29, 2026, 12:30 p.m. | 7 hours, 53 minutes ago Description :FrontAccounting before 2.4.20 contains a path traversal vulnerability in the attachment upload...",
       "source": "CVE Feed",
       "published": "2026-06-29T12:30:12+00:00"
     },
     {
       "title": "CVE-2026-40523 - FrontAccounting < 2.4.20 SQL Injection via reporting/rep710.php",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-40523",
-      "summary": "CVE ID :CVE-2026-40523 Published : June 29, 2026, 12:29 p.m. | 7 hours, 8 minutes ago Description :FrontAccounting before 2.4.20 contains a SQL injection vulnerability in the Audit Trail report...",
+      "summary": "CVE ID :CVE-2026-40523 Published : June 29, 2026, 12:29 p.m. | 7 hours, 54 minutes ago Description :FrontAccounting before 2.4.20 contains a SQL injection vulnerability in the Audit Trail report...",
       "source": "CVE Feed",
       "published": "2026-06-29T12:29:10+00:00"
-    },
-    {
-      "title": "CVE-2026-40524 - FrontAccounting < 2.4.20 SQL Injection via get_gl_transactions()",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-40524",
-      "summary": "CVE ID :CVE-2026-40524 Published : June 29, 2026, 12:27 p.m. | 7 hours, 9 minutes ago Description :FrontAccounting before 2.4.20 contains a SQL injection vulnerability in the get_gl_transactions()...",
-      "source": "CVE Feed",
-      "published": "2026-06-29T12:27:26+00:00"
-    },
-    {
-      "title": "CVE-2026-13165 - Remote Code Execution in SzafirHost",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-13165",
-      "summary": "CVE ID :CVE-2026-13165 Published : June 29, 2026, 12:16 p.m. | 7 hours, 20 minutes ago Description :SzafirHost verifies the downloaded native library archive with one JarFile parser (reading the...",
-      "source": "CVE Feed",
-      "published": "2026-06-29T12:16:55+00:00"
     },
     {
       "title": "Webinar: Why business email compromise attacks keep succeeding",
@@ -539,13 +560,6 @@
       "summary": "Polymarket says it will fully reimburse customers who lost an estimated $3 million after hackers injected a malicious script into the platform's frontend following a breach at a third-party vendor...",
       "source": "BleepingComputer",
       "published": "2026-06-26T18:04:12+00:00"
-    },
-    {
-      "title": "Cybersecurity firms targeted by fraudulent OpenAI organization invites",
-      "link": "https://www.bleepingcomputer.com/news/security/cybersecurity-firms-targeted-by-fraudulent-openai-organization-invites/",
-      "summary": "Threat actors are creating OpenAI tenants that impersonate legitimate companies and inviting employees to join them, in what appears to be a ploy to trick targets into submitting sensitive company...",
-      "source": "BleepingComputer",
-      "published": "2026-06-26T17:49:07+00:00"
     },
     {
       "title": "Cisco Adds NHI to Security Stack With Astrix, WideField Acquisitions",
@@ -1169,20 +1183,6 @@
       "summary": "AI-native operating systems are shifting the responsibility to stay vigilant against social engineering cyberattacks from the user onto the system itself.",
       "source": "Dark Reading",
       "published": "2026-06-15T15:08:32+00:00"
-    },
-    {
-      "title": "US Cracks Down on Anthropic AI Models Amid Abuse Concerns",
-      "link": "https://www.darkreading.com/cyber-risk/us-cracks-down-anthropic-ai-models-abuse-concerns",
-      "summary": "Anthropic abruptly suspended all access to Fable 5 and Mythos 5 after receiving an export control directive that banned foreign nationals from using the technology.",
-      "source": "Dark Reading",
-      "published": "2026-06-15T12:17:22+00:00"
-    },
-    {
-      "title": "ShinyHunters Uses Oracle Zero-Day to Rampage Higher Ed",
-      "link": "https://www.darkreading.com/vulnerabilities-threats/shinyhunters-oracle-zero-day-higher-ed",
-      "summary": "A major bug in Oracle's ERP software disproportionately affected American universities, and hackers have capitalized by stealing gobs of data.",
-      "source": "Dark Reading",
-      "published": "2026-06-12T20:26:32+00:00"
     },
     {
       "title": "Who Runs the Ransomware Group ‘The Gentlemen?’",
