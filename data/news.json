@@ -1,6 +1,34 @@
 {
-  "last_updated": "2026-07-01T20:33:24.980554+00:00",
+  "last_updated": "2026-07-01T22:27:04.101748+00:00",
   "articles": [
+    {
+      "title": "FortiBleed credential-theft campaign linked to Lynx ransomware",
+      "link": "https://www.bleepingcomputer.com/news/security/fortibleed-credential-theft-campaign-linked-to-lynx-ransomware/",
+      "summary": "The massive FortiBleed credential theft campaign has been linked to the INC and Lynx ransomware operations, suggesting the stolen Fortinet credentials were intended to fuel future network intrusions...",
+      "source": "BleepingComputer",
+      "published": "2026-07-01T21:37:24+00:00"
+    },
+    {
+      "title": "Kubota says hackers had month-long access to network systems",
+      "link": "https://www.bleepingcomputer.com/news/security/kubota-says-hackers-had-month-long-access-to-network-systems/",
+      "summary": "Kubota North America Corporation disclosed that hackers had access to some of its network systems for more than a month earlier this year. [...]",
+      "source": "BleepingComputer",
+      "published": "2026-07-01T21:09:06+00:00"
+    },
+    {
+      "title": "Crafty Phishing Campaigns Auto-Adapt to Victim's Device, OS",
+      "link": "https://www.darkreading.com/application-security/phishing-campaigns-auto-adapt-victims-device-os",
+      "summary": "Attackers fingerprint victims through user-agent data to deliver OS-specific payloads, increasing compromise rates and campaign profitability.",
+      "source": "Dark Reading",
+      "published": "2026-07-01T20:31:21+00:00"
+    },
+    {
+      "title": "CVE-2026-50521 - Microsoft Edge (Chromium-based) Remote Code Execution Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-50521",
+      "summary": "CVE ID :CVE-2026-50521 Published : July 1, 2026, 8:14 p.m. | 1 hour, 34 minutes ago Description :None Severity: 8.3 | HIGH Visit the link for more details, such as CVSS details, affected products...",
+      "source": "CVE Feed",
+      "published": "2026-07-01T20:14:43+00:00"
+    },
     {
       "title": "Teen suspect in Scattered Spider hacks is extradited to US",
       "link": "https://therecord.media/teen-suspect-in-scattered-spider-hacks-extradited-to-us",
@@ -9,9 +37,9 @@
       "published": "2026-07-01T20:13:00+00:00"
     },
     {
-      "title": "ChocoPoc malware delivered via trojanized exploits on GitHub",
-      "link": "https://www.bleepingcomputer.com/news/security/chocopoc-malware-delivered-via-trojanized-exploits-on-github/",
-      "summary": "Multiple weaponized proof-of-concept (PoC) exploits on GitHub delivered a Python-based remote access trojan (RAT) called ChocoPoC that can execute commands and steal sensitive data. [...]",
+      "title": "New ChocoPoC malware targets researchers via trojanized PoC exploits",
+      "link": "https://www.bleepingcomputer.com/news/security/new-chocopoc-malware-targets-researchers-via-trojanized-poc-exploits/",
+      "summary": "Multiple weaponized proof-of-concept (PoC) exploits on GitHub were found delivering a Python-based remote access trojan (RAT) named ChocoPoC that can execute commands and steal sensitive data in a...",
       "source": "BleepingComputer",
       "published": "2026-07-01T20:08:13+00:00"
     },
@@ -25,8 +53,8 @@
     {
       "title": "Unpatched Argo CD Repo-Server Flaw Could Let Attackers Take Over Kubernetes Clusters",
       "link": "https://thehackernews.com/2026/07/unpatched-argo-cd-repo-server-flaw.html",
-      "summary": "Argo CD, a widely used tool for deploying software to Kubernetes, has an unpatched flaw in its repo-server component that lets an unauthenticated attacker run code, provided they can reach the...",
-      "source": "The Hacker News",
+      "summary": "Unpatched Argo CD Repo-Server Flaw Could Let Attackers Take Over Kubernetes Clusters Argo CD, a widely used tool for deploying software to Kubernetes, has an unpatched flaw in its repo-server...",
+      "source": "CVE Newsroom",
       "published": "2026-07-01T19:40:06+00:00"
     },
     {
@@ -37,11 +65,39 @@
       "published": "2026-07-01T19:28:07+00:00"
     },
     {
+      "title": "CVE-2026-58593 - NodeBB - ActivityPub Author Spoofing via Unvalidated attributedTo Mapped to Local User",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-58593",
+      "summary": "CVE ID :CVE-2026-58593 Published : July 1, 2026, 7:27 p.m. | 2 hours, 21 minutes ago Description :NodeBB does not bind the claimed author of an inbound ActivityPub object to the authenticated remote...",
+      "source": "CVE Feed",
+      "published": "2026-07-01T19:27:23+00:00"
+    },
+    {
+      "title": "CVE-2026-58592 - Ladybird - Web-Reachable Code Execution via Dangling FunctionType Reference in WebAssembly ESM Integration",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-58592",
+      "summary": "CVE ID :CVE-2026-58592 Published : July 1, 2026, 7:27 p.m. | 2 hours, 21 minutes ago Description :Ladybird contains a dangling-reference memory-safety flaw in its WebAssembly ESM-integration module...",
+      "source": "CVE Feed",
+      "published": "2026-07-01T19:27:22+00:00"
+    },
+    {
+      "title": "CVE-2026-58457 - Shenzhen Aitemi M300 MT02 Unauthenticated OS Command Injection via protocol.csp",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-58457",
+      "summary": "CVE ID :CVE-2026-58457 Published : July 1, 2026, 7:22 p.m. | 2 hours, 26 minutes ago Description :Shenzhen Aitemi M300 Wi-Fi Repeater (hardware model MT02) contains an unauthenticated OS command...",
+      "source": "CVE Feed",
+      "published": "2026-07-01T19:22:42+00:00"
+    },
+    {
       "title": "CVE-2026-49119 - Gradio < 6.16.0 Path Traversal via FileExplorer.preprocess()",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-49119",
-      "summary": "CVE ID :CVE-2026-49119 Published : July 1, 2026, 6:30 p.m. | 1 hour, 7 minutes ago Description :Gradio before 6.16.0 contain a path traversal vulnerability in the FileExplorer component's...",
+      "summary": "CVE ID :CVE-2026-49119 Published : July 1, 2026, 6:30 p.m. | 3 hours, 18 minutes ago Description :Gradio before 6.16.0 contain a path traversal vulnerability in the FileExplorer component's...",
       "source": "CVE Feed",
       "published": "2026-07-01T18:30:38+00:00"
+    },
+    {
+      "title": "CVE-2026-53489 - containerd: Arbitrary host CRI log file read via symlink following in CRI checkpoint restore",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-53489",
+      "summary": "CVE ID :CVE-2026-53489 Published : July 1, 2026, 6:10 p.m. | 3 hours, 38 minutes ago Description :containerd is an open-source container runtime. Versions prior to 2.3.2, 2.2.5 and 2.1.9 contain a...",
+      "source": "CVE Feed",
+      "published": "2026-07-01T18:10:41+00:00"
     },
     {
       "title": "Microsoft Adds New Teams Controls to Block Unauthorized AI Bots From Meetings",
@@ -51,11 +107,25 @@
       "published": "2026-07-01T18:08:15+00:00"
     },
     {
+      "title": "CVE-2026-53492 - containerd CRI checkpoint restore CDI annotation smuggling",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-53492",
+      "summary": "CVE ID :CVE-2026-53492 Published : July 1, 2026, 5:59 p.m. | 3 hours, 49 minutes ago Description :containerd is an open-source container runtime. In Versions prior to 2.3.2, 2.2.5 and 2.1.9, the CRI...",
+      "source": "CVE Feed",
+      "published": "2026-07-01T17:59:12+00:00"
+    },
+    {
       "title": "SEO-Poisoned Software Sites Abuse ScreenConnect to Deploy AsyncRAT",
       "link": "https://thehackernews.com/2026/07/seo-poisoned-software-sites-abuse.html",
       "summary": "Unknown threat actors are leveraging the ScreenConnect remote access tool as a way to deploy and execute AsyncRAT. Kaspersky said the activity is part of a \"massive, multi-domain, multi-language\"...",
       "source": "The Hacker News",
       "published": "2026-07-01T17:53:06+00:00"
+    },
+    {
+      "title": "CVE-2026-50160 - Mass Assignment via Onboarding Endpoint Allows Unauthenticated JWT_SECRET Overwrite",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-50160",
+      "summary": "CVE ID :CVE-2026-50160 Published : July 1, 2026, 5:48 p.m. | 4 hours ago Description :Hoppscotch is an API development ecosystem. In self-hosted deployments of hoppscotch-backend from version...",
+      "source": "CVE Feed",
+      "published": "2026-07-01T17:48:49+00:00"
     },
     {
       "title": "DHS confirms hackers breached HSIN info-sharing platform",
@@ -67,7 +137,7 @@
     {
       "title": "CVE-2026-49091 - Improper Output Neutralization for Logs in Kibana Leading to Log Injection",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-49091",
-      "summary": "CVE ID :CVE-2026-49091 Published : July 1, 2026, 5:21 p.m. | 2 hours, 17 minutes ago Description :Improper Output Neutralization for Logs (CWE-117) in Kibana can lead to log injection via Log...",
+      "summary": "CVE ID :CVE-2026-49091 Published : July 1, 2026, 5:21 p.m. | 4 hours, 27 minutes ago Description :Improper Output Neutralization for Logs (CWE-117) in Kibana can lead to log injection via Log...",
       "source": "CVE Feed",
       "published": "2026-07-01T17:21:28+00:00"
     },
@@ -95,121 +165,114 @@
     {
       "title": "CVE-2026-57516 - Ray < 2.56.0 Unsafe Deserialization RCE via WebDataset Reader",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-57516",
-      "summary": "CVE ID :CVE-2026-57516 Published : July 1, 2026, 4:36 p.m. | 3 hours, 1 minute ago Description :Ray prior to 2.56.0 contains an unsafe deserialization vulnerability in the WebDataset reader that...",
+      "summary": "CVE ID :CVE-2026-57516 Published : July 1, 2026, 4:36 p.m. | 5 hours, 12 minutes ago Description :Ray prior to 2.56.0 contains an unsafe deserialization vulnerability in the WebDataset reader that...",
       "source": "CVE Feed",
       "published": "2026-07-01T16:36:55+00:00"
     },
     {
       "title": "CVE-2026-34117 - Guardian Language-System Unauthenticated OS Command Injection via id Parameter in text_to_subtitles.php",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-34117",
-      "summary": "CVE ID :CVE-2026-34117 Published : July 1, 2026, 4:24 p.m. | 3 hours, 14 minutes ago Description :Guardian language-system passes the id GET parameter directly into a PHP exec() call in...",
+      "summary": "CVE ID :CVE-2026-34117 Published : July 1, 2026, 4:24 p.m. | 5 hours, 24 minutes ago Description :Guardian language-system passes the id GET parameter directly into a PHP exec() call in...",
       "source": "CVE Feed",
       "published": "2026-07-01T16:24:06+00:00"
     },
     {
       "title": "CVE-2026-34116 - Guardian Language-System Unauthenticated OS Command Injection via id Parameter in transcribe.php",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-34116",
-      "summary": "CVE ID :CVE-2026-34116 Published : July 1, 2026, 4:23 p.m. | 3 hours, 15 minutes ago Description :Guardian language-system passes the id GET parameter directly into a PHP exec() call in...",
+      "summary": "CVE ID :CVE-2026-34116 Published : July 1, 2026, 4:23 p.m. | 5 hours, 25 minutes ago Description :Guardian language-system passes the id GET parameter directly into a PHP exec() call in...",
       "source": "CVE Feed",
       "published": "2026-07-01T16:23:24+00:00"
     },
     {
       "title": "CVE-2026-34115 - Guardian Language-System Unauthenticated OS Command Injection via id Parameter in transcribe_amazon.php",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-34115",
-      "summary": "CVE ID :CVE-2026-34115 Published : July 1, 2026, 4:22 p.m. | 3 hours, 15 minutes ago Description :Guardian language-system passes the id GET parameter directly into a PHP exec() call in...",
+      "summary": "CVE ID :CVE-2026-34115 Published : July 1, 2026, 4:22 p.m. | 5 hours, 26 minutes ago Description :Guardian language-system passes the id GET parameter directly into a PHP exec() call in...",
       "source": "CVE Feed",
       "published": "2026-07-01T16:22:45+00:00"
     },
     {
       "title": "CVE-2026-34114 - Guardian Language-System Unauthenticated OS Command Injection via id Parameter in translate_text.php",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-34114",
-      "summary": "CVE ID :CVE-2026-34114 Published : July 1, 2026, 4:21 p.m. | 3 hours, 16 minutes ago Description :Guardian language-system passes the id GET parameter directly into a PHP exec() call in...",
+      "summary": "CVE ID :CVE-2026-34114 Published : July 1, 2026, 4:21 p.m. | 5 hours, 27 minutes ago Description :Guardian language-system passes the id GET parameter directly into a PHP exec() call in...",
       "source": "CVE Feed",
       "published": "2026-07-01T16:21:59+00:00"
     },
     {
       "title": "CVE-2026-34113 - Guardian Language-System Unauthenticated OS Command Injection via id Parameter in speech_text.php",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-34113",
-      "summary": "CVE ID :CVE-2026-34113 Published : July 1, 2026, 4:21 p.m. | 3 hours, 17 minutes ago Description :Guardian language-system passes the id GET parameter directly into a PHP exec() call in...",
+      "summary": "CVE ID :CVE-2026-34113 Published : July 1, 2026, 4:21 p.m. | 5 hours, 27 minutes ago Description :Guardian language-system passes the id GET parameter directly into a PHP exec() call in...",
       "source": "CVE Feed",
       "published": "2026-07-01T16:21:21+00:00"
     },
     {
       "title": "CVE-2026-34112 - Guardian Language-System Unauthenticated OS Command Injection via id Parameter in speechmac.php",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-34112",
-      "summary": "CVE ID :CVE-2026-34112 Published : July 1, 2026, 4:20 p.m. | 3 hours, 17 minutes ago Description :Guardian language-system passes the id GET parameter directly into a PHP exec() call in speechmac.php...",
+      "summary": "CVE ID :CVE-2026-34112 Published : July 1, 2026, 4:20 p.m. | 5 hours, 28 minutes ago Description :Guardian language-system passes the id GET parameter directly into a PHP exec() call in speechmac.php...",
       "source": "CVE Feed",
       "published": "2026-07-01T16:20:46+00:00"
     },
     {
       "title": "CVE-2026-34111 - Guardian Language-System Unauthenticated OS Command Injection via id Parameter in speechmac_text.php",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-34111",
-      "summary": "CVE ID :CVE-2026-34111 Published : July 1, 2026, 4:20 p.m. | 3 hours, 18 minutes ago Description :Guardian language-system passes the id GET parameter directly into a PHP exec() call in...",
+      "summary": "CVE ID :CVE-2026-34111 Published : July 1, 2026, 4:20 p.m. | 5 hours, 28 minutes ago Description :Guardian language-system passes the id GET parameter directly into a PHP exec() call in...",
       "source": "CVE Feed",
       "published": "2026-07-01T16:20:09+00:00"
     },
     {
       "title": "CVE-2026-34110 - Guardian Language-System Unauthenticated OS Command Injection via id Parameter in complex_start.php",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-34110",
-      "summary": "CVE ID :CVE-2026-34110 Published : July 1, 2026, 4:19 p.m. | 3 hours, 19 minutes ago Description :Guardian language-system passes the id GET parameter directly into a PHP exec() call in...",
+      "summary": "CVE ID :CVE-2026-34110 Published : July 1, 2026, 4:19 p.m. | 5 hours, 29 minutes ago Description :Guardian language-system passes the id GET parameter directly into a PHP exec() call in...",
       "source": "CVE Feed",
       "published": "2026-07-01T16:19:15+00:00"
     },
     {
       "title": "CVE-2026-34109 - Guardian Language-System Unauthenticated OS Command Injection via id Parameter in speech.php",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-34109",
-      "summary": "CVE ID :CVE-2026-34109 Published : July 1, 2026, 4:18 p.m. | 3 hours, 20 minutes ago Description :Guardian language-system passes the id GET parameter directly into a PHP exec() call in speech.php...",
+      "summary": "CVE ID :CVE-2026-34109 Published : July 1, 2026, 4:18 p.m. | 5 hours, 30 minutes ago Description :Guardian language-system passes the id GET parameter directly into a PHP exec() call in speech.php...",
       "source": "CVE Feed",
       "published": "2026-07-01T16:18:27+00:00"
     },
     {
       "title": "CVE-2026-34108 - Guardian Language-System Unauthenticated OS Command Injection via id Parameter in text.php",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-34108",
-      "summary": "CVE ID :CVE-2026-34108 Published : July 1, 2026, 4:17 p.m. | 3 hours, 20 minutes ago Description :Guardian language-system passes the id GET parameter directly into a PHP exec() call in text.php...",
+      "summary": "CVE ID :CVE-2026-34108 Published : July 1, 2026, 4:17 p.m. | 5 hours, 31 minutes ago Description :Guardian language-system passes the id GET parameter directly into a PHP exec() call in text.php...",
       "source": "CVE Feed",
       "published": "2026-07-01T16:17:37+00:00"
     },
     {
       "title": "CVE-2026-34107 - Guardian Language-System Unauthenticated OS Command Injection via id Parameter in translate.php",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-34107",
-      "summary": "CVE ID :CVE-2026-34107 Published : July 1, 2026, 4:16 p.m. | 3 hours, 21 minutes ago Description :Guardian language-system passes the id GET parameter directly into a PHP exec() call in translate.php...",
+      "summary": "CVE ID :CVE-2026-34107 Published : July 1, 2026, 4:16 p.m. | 5 hours, 32 minutes ago Description :Guardian language-system passes the id GET parameter directly into a PHP exec() call in translate.php...",
       "source": "CVE Feed",
       "published": "2026-07-01T16:16:50+00:00"
     },
     {
       "title": "CVE-2026-34106 - Guardian Language-System Unauthenticated OS Command Injection via id Parameter in subtitles.php",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-34106",
-      "summary": "CVE ID :CVE-2026-34106 Published : July 1, 2026, 4:16 p.m. | 3 hours, 22 minutes ago Description :Guardian language-system passes the id GET parameter directly into a PHP exec() call in subtitles.php...",
+      "summary": "CVE ID :CVE-2026-34106 Published : July 1, 2026, 4:16 p.m. | 5 hours, 33 minutes ago Description :Guardian language-system passes the id GET parameter directly into a PHP exec() call in subtitles.php...",
       "source": "CVE Feed",
       "published": "2026-07-01T16:16:04+00:00"
     },
     {
       "title": "CVE-2026-34105 - Guardian Language-System Unauthenticated SQL Injection via id Parameter in translate_text.php",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-34105",
-      "summary": "CVE ID :CVE-2026-34105 Published : July 1, 2026, 4:15 p.m. | 3 hours, 23 minutes ago Description :Guardian language-system passes the id GET parameter directly into an unsanitized SQL query in...",
+      "summary": "CVE ID :CVE-2026-34105 Published : July 1, 2026, 4:15 p.m. | 5 hours, 34 minutes ago Description :Guardian language-system passes the id GET parameter directly into an unsanitized SQL query in...",
       "source": "CVE Feed",
       "published": "2026-07-01T16:15:01+00:00"
     },
     {
       "title": "CVE-2026-34104 - Guardian Language-System Unauthenticated SQL Injection via name Parameter in designer.php",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-34104",
-      "summary": "CVE ID :CVE-2026-34104 Published : July 1, 2026, 4:13 p.m. | 3 hours, 25 minutes ago Description :Guardian language-system passes the name GET parameter directly into an unsanitized SQL query in...",
+      "summary": "CVE ID :CVE-2026-34104 Published : July 1, 2026, 4:13 p.m. | 5 hours, 35 minutes ago Description :Guardian language-system passes the name GET parameter directly into an unsanitized SQL query in...",
       "source": "CVE Feed",
       "published": "2026-07-01T16:13:26+00:00"
     },
     {
       "title": "CVE-2026-34103 - Guardian Language-System Unauthenticated SQL Injection via id Parameter in subtitles.php",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-34103",
-      "summary": "CVE ID :CVE-2026-34103 Published : July 1, 2026, 4:12 p.m. | 3 hours, 26 minutes ago Description :Guardian language-system passes the id GET parameter directly into an unsanitized SQL query in...",
+      "summary": "CVE ID :CVE-2026-34103 Published : July 1, 2026, 4:12 p.m. | 5 hours, 36 minutes ago Description :Guardian language-system passes the id GET parameter directly into an unsanitized SQL query in...",
       "source": "CVE Feed",
       "published": "2026-07-01T16:12:26+00:00"
-    },
-    {
-      "title": "CVE-2026-34102 - Guardian Language-System Unauthenticated SQL Injection via id Parameter in job_info_get.php",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-34102",
-      "summary": "CVE ID :CVE-2026-34102 Published : July 1, 2026, 4:11 p.m. | 3 hours, 26 minutes ago Description :Guardian language-system passes the id GET parameter directly into an unsanitized SQL query in...",
-      "source": "CVE Feed",
-      "published": "2026-07-01T16:11:48+00:00"
     },
     {
       "title": "Google Chrome 150 Security Update: 382 Vulnerabilities Fixed",
@@ -219,46 +282,11 @@
       "published": "2026-07-01T16:11:05+00:00"
     },
     {
-      "title": "CVE-2026-34101 - Guardian Language-System Unauthenticated SQL Injection via id Parameter in text_file.php",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-34101",
-      "summary": "CVE ID :CVE-2026-34101 Published : July 1, 2026, 4:11 p.m. | 3 hours, 27 minutes ago Description :Guardian language-system passes the id GET parameter directly into an unsanitized SQL query in...",
-      "source": "CVE Feed",
-      "published": "2026-07-01T16:11:00+00:00"
-    },
-    {
-      "title": "CVE-2026-34100 - Guardian Language-System Unauthenticated SQL Injection via id Parameter in media.php",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-34100",
-      "summary": "CVE ID :CVE-2026-34100 Published : July 1, 2026, 4:10 p.m. | 3 hours, 28 minutes ago Description :Guardian language-system passes the id GET parameter directly into an unsanitized SQL query in...",
-      "source": "CVE Feed",
-      "published": "2026-07-01T16:10:07+00:00"
-    },
-    {
-      "title": "CVE-2026-34099 - Guardian Language-System Unauthenticated SQL Injection via id Parameter in job_info.php",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-34099",
-      "summary": "CVE ID :CVE-2026-34099 Published : July 1, 2026, 4:08 p.m. | 3 hours, 30 minutes ago Description :Guardian language-system passes the id GET parameter directly into an unsanitized SQL query in...",
-      "source": "CVE Feed",
-      "published": "2026-07-01T16:08:08+00:00"
-    },
-    {
       "title": "Cyber Brief 26-07 - June 2026",
       "link": "https://cert.europa.eu/publications/threat-intelligence/cb26-07/",
       "summary": "Cyber Brief 26-07 - June 2026 Cyber Brief (June 2026)July 1, 2026 - Version: 1TLP:CLEARExecutive summaryWe analysed 366 open source reports for this Cyber Brief.1Relating to cyber policy and law...",
       "source": "CVE Newsroom",
       "published": "2026-07-01T16:00:00+00:00"
-    },
-    {
-      "title": "CVE-2026-58453 - JAIOTlink C492A-W6 4.8.30.57701411 Hard-coded Credentials via anyka_ipc",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-58453",
-      "summary": "CVE ID :CVE-2026-58453 Published : July 1, 2026, 3:33 p.m. | 4 hours, 4 minutes ago Description :JAIOTlink C492A-W6 Wi-Fi IP cameras running firmware 4.8.30.57701411 contain a hard-coded credentials...",
-      "source": "CVE Feed",
-      "published": "2026-07-01T15:33:41+00:00"
-    },
-    {
-      "title": "CVE-2026-58452 - JAIOTlink C492A-W6 4.8.30.57701411 OS Command Injection via SetMAC Endpoint",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-58452",
-      "summary": "CVE ID :CVE-2026-58452 Published : July 1, 2026, 3:31 p.m. | 4 hours, 6 minutes ago Description :JAIOTlink C492A-W6 Wi-Fi IP cameras running firmware 4.8.30.57701411 contain an OS command injection...",
-      "source": "CVE Feed",
-      "published": "2026-07-01T15:31:51+00:00"
     },
     {
       "title": "Ousaban Banking Trojan Targets Iberian Bank Users with Fake PDF Lures",
@@ -280,13 +308,6 @@
       "summary": "LLMs consistently hallucinate Web domains for legitimate brands that attackers can register for malicious activity in a difficult-to-detect attack vector.",
       "source": "Dark Reading",
       "published": "2026-07-01T15:17:14+00:00"
-    },
-    {
-      "title": "CVE-2026-24270 - NVIDIA AIStore Authentication Bypass",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-24270",
-      "summary": "CVE ID :CVE-2026-24270 Published : July 1, 2026, 3:12 p.m. | 4 hours, 26 minutes ago Description :NVIDIA AIStore framework contains a vulnerability where an attacker could bypass authentication. A...",
-      "source": "CVE Feed",
-      "published": "2026-07-01T15:12:00+00:00"
     },
     {
       "title": "Critical Cursor Flaws Could Let Prompt Injection Escape Sandbox and Run Commands",
@@ -527,13 +548,6 @@
       "published": "2026-06-30T21:20:06+00:00"
     },
     {
-      "title": "Malicious PyPI packages give hackers control of Telegram bot servers",
-      "link": "https://www.bleepingcomputer.com/news/security/malicious-pypi-packages-give-hackers-control-of-telegram-bot-servers/",
-      "summary": "A campaign active since last November has been targeting Python developers building Telegram bots with trojanized Pyrogram forks that allow attackers to read arbitrary files on compromised servers...",
-      "source": "BleepingComputer",
-      "published": "2026-06-30T21:02:55+00:00"
-    },
-    {
       "title": "Attackers Seize Exposed AI Endpoints to Power Offensive Ops",
       "link": "https://www.darkreading.com/cloud-security/attackers-hijack-exposed-ai-endpoints-power-offensive-ops",
       "summary": "Threat actors don't need any special authentication to reach a target endpoint — they just need to know where it is.",
@@ -543,7 +557,7 @@
     {
       "title": "Why Identity Security Is Your Cyber Career Entry Point",
       "link": "https://www.darkreading.com/cybersecurity-operations/identity-security-cyber-career-entry-point",
-      "summary": "As AI reshapes cybersecurity workflows, John Paul Cunningham, CISO at SIlverfort, says the technology is creating opportunities rather than eliminating jobs — and there are more ways than ever to...",
+      "summary": "As AI reshapes cybersecurity workflows, John Paul Cunningham, CISO at Silverfort, says the technology is creating opportunities rather than eliminating jobs — and there are more ways than ever to...",
       "source": "Dark Reading",
       "published": "2026-06-30T19:11:40+00:00"
     },
@@ -595,13 +609,6 @@
       "summary": "Langflow RCE Exploited to Deploy Monero Miner on Exposed AI App Endpoints Threat actors are continuing to exploit a critical Langflow vulnerability as part of fresh attacks designed to deliver a...",
       "source": "CVE Newsroom",
       "published": "2026-06-30T15:47:20+00:00"
-    },
-    {
-      "title": "Fake Perplexity extension on Chrome Web Store tracked searches",
-      "link": "https://www.bleepingcomputer.com/news/security/fake-perplexity-extension-on-chrome-web-store-tracked-searches/",
-      "summary": "A malicious extension in the Chrome Web Store is masquerading as the Perplexity AI answer engine, intercepting search traffic and collecting browsing information. [...]",
-      "source": "BleepingComputer",
-      "published": "2026-06-30T15:46:19+00:00"
     },
     {
       "title": "Silent Swap Crypto Clipper Uses Fake Google Notes Extension to Replace Wallet Addresses",
@@ -739,8 +746,8 @@
     {
       "title": "Oracle E-Business Suite Flaw CVE-2026-46817 Actively Exploited in the Wild",
       "link": "https://thehackernews.com/2026/06/oracle-e-business-suite-flaw-cve-2026.html",
-      "summary": "Oracle E-Business Suite Flaw CVE-2026-46817 Actively Exploited in the Wild A critical security flaw impacting Oracle E-Business Suite has come under active exploitation in the wild, according to...",
-      "source": "CVE Newsroom",
+      "summary": "A critical security flaw impacting Oracle E-Business Suite has come under active exploitation in the wild, according to Defused Cyber. The vulnerability, tracked as CVE-2026-46817 (CVSS score: 9.8)...",
+      "source": "The Hacker News",
       "published": "2026-06-30T05:04:06+00:00"
     },
     {
@@ -1183,13 +1190,6 @@
       "summary": "Attackers are actively targeting various sectors across nearly 200 countries and already have compiled a list of working credentials for tens of thousands of compromised devices.",
       "source": "Dark Reading",
       "published": "2026-06-17T14:06:34+00:00"
-    },
-    {
-      "title": "UK Social Media Ban for Minors Has Privacy Experts Worried",
-      "link": "https://www.darkreading.com/cyber-risk/uk-social-media-ban-privacy-experts-worried",
-      "summary": "The UK will ban adolescents under 16 years old from user-to-user social media platforms, despite age verification issues and privacy concerns.",
-      "source": "Dark Reading",
-      "published": "2026-06-17T08:00:00+00:00"
     },
     {
       "title": "Who Runs the Ransomware Group ‘The Gentlemen?’",
