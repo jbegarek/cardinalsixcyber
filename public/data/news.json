@@ -1,103 +1,180 @@
 {
-  "last_updated": "2026-07-04T02:02:03.527927+00:00",
+  "last_updated": "2026-07-04T06:39:51.793444+00:00",
   "articles": [
+    {
+      "title": "CVE-2025-71380 - n8n - Arbitrary Command Execution via Execute Command Node",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2025-71380",
+      "summary": "CVE ID :CVE-2025-71380 Published : July 4, 2026, 1:23 a.m. | 5 hours, 2 minutes ago Description :The Execute Command node in n8n allows authenticated users to execute arbitrary commands on the host...",
+      "source": "CVE Feed",
+      "published": "2026-07-04T01:23:42+00:00"
+    },
+    {
+      "title": "CVE-2025-71375 - picklescan - Undetected Remote Code Execution via _operator.methodcaller",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2025-71375",
+      "summary": "CVE ID :CVE-2025-71375 Published : July 4, 2026, 1:23 a.m. | 5 hours, 2 minutes ago Description :picklescan before 0.0.34 fails to detect the _operator.methodcaller built-in function when scanning...",
+      "source": "CVE Feed",
+      "published": "2026-07-04T01:23:42+00:00"
+    },
+    {
+      "title": "CVE-2025-71373 - picklescan - Remote Code Execution via operator.methodcaller Detection Bypass",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2025-71373",
+      "summary": "CVE ID :CVE-2025-71373 Published : July 4, 2026, 1:23 a.m. | 5 hours, 2 minutes ago Description :picklescan before 0.0.33 fails to detect operator.methodcaller function calls in pickle files...",
+      "source": "CVE Feed",
+      "published": "2026-07-04T01:23:41+00:00"
+    },
+    {
+      "title": "CVE-2025-71372 - Picklescan - Arbitrary Code Execution via numpy.f2py.crackfortran.getlincoef Gadget",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2025-71372",
+      "summary": "CVE ID :CVE-2025-71372 Published : July 4, 2026, 1:23 a.m. | 5 hours, 2 minutes ago Description :Picklescan before 0.0.33 fails to detect the numpy.f2py.crackfortran.getlincoef gadget in pickle...",
+      "source": "CVE Feed",
+      "published": "2026-07-04T01:23:40+00:00"
+    },
+    {
+      "title": "CVE-2025-71369 - picklescan - Unsafe Deserialization via torch.utils.data.datapipes.utils.decoder.basichandlers",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2025-71369",
+      "summary": "CVE ID :CVE-2025-71369 Published : July 4, 2026, 1:23 a.m. | 5 hours, 2 minutes ago Description :picklescan before 0.0.28 fails to detect malicious pickle files that use...",
+      "source": "CVE Feed",
+      "published": "2026-07-04T01:23:40+00:00"
+    },
+    {
+      "title": "CVE-2025-71367 - picklescan - Remote Code Execution via _operator.attrgetter Detection Bypass",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2025-71367",
+      "summary": "CVE ID :CVE-2025-71367 Published : July 4, 2026, 1:23 a.m. | 5 hours, 2 minutes ago Description :picklescan before 0.0.34 fails to detect _operator.attrgetter function calls in pickle payloads...",
+      "source": "CVE Feed",
+      "published": "2026-07-04T01:23:39+00:00"
+    },
+    {
+      "title": "CVE-2025-71366 - picklescan - Arbitrary Code Execution via torch.utils.bottleneck.__main__.run_cprofile",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2025-71366",
+      "summary": "CVE ID :CVE-2025-71366 Published : July 4, 2026, 1:23 a.m. | 5 hours, 2 minutes ago Description :picklescan before 0.0.28 fails to detect malicious torch.utils.bottleneck.__main__.run_cprofile...",
+      "source": "CVE Feed",
+      "published": "2026-07-04T01:23:38+00:00"
+    },
+    {
+      "title": "CVE-2025-71364 - picklescan - Arbitrary Code Execution via Undetected asyncio.unix_events._UnixSubprocessTransport._start",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2025-71364",
+      "summary": "CVE ID :CVE-2025-71364 Published : July 4, 2026, 1:23 a.m. | 5 hours, 2 minutes ago Description :picklescan before 0.0.30 fails to detect the asyncio.unix_events._UnixSubprocessTransport._start...",
+      "source": "CVE Feed",
+      "published": "2026-07-04T01:23:37+00:00"
+    },
+    {
+      "title": "CVE-2025-71362 - picklescan - Arbitrary Code Execution via Unsafe Deserialization in numpy.f2py.crackfortran",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2025-71362",
+      "summary": "CVE ID :CVE-2025-71362 Published : July 4, 2026, 1:23 a.m. | 5 hours, 2 minutes ago Description :picklescan before 0.0.33 fails to detect unsafe deserialization when numpy.f2py.crackfortran functions...",
+      "source": "CVE Feed",
+      "published": "2026-07-04T01:23:37+00:00"
+    },
+    {
+      "title": "CVE-2025-71360 - picklescan - Remote Code Execution via Undetected idlelib.calltip.get_entity",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2025-71360",
+      "summary": "CVE ID :CVE-2025-71360 Published : July 4, 2026, 1:23 a.m. | 5 hours, 2 minutes ago Description :picklescan before 0.0.29 fails to detect malicious pickle files using idlelib.calltip.get_entity...",
+      "source": "CVE Feed",
+      "published": "2026-07-04T01:23:36+00:00"
+    },
+    {
+      "title": "CVE-2025-71359 - picklescan - Unsafe Deserialization via lib2to3.pgen2.grammar.Grammar.loads",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2025-71359",
+      "summary": "CVE ID :CVE-2025-71359 Published : July 4, 2026, 1:23 a.m. | 5 hours, 2 minutes ago Description :picklescan before 0.0.29 fails to detect malicious pickle payloads that utilize...",
+      "source": "CVE Feed",
+      "published": "2026-07-04T01:23:35+00:00"
+    },
+    {
+      "title": "CVE-2025-71356 - picklescan - Arbitrary Code Execution via torch.fx.experimental.symbolic_shapes.ShapeEnv.evaluate_guards_expression",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2025-71356",
+      "summary": "CVE ID :CVE-2025-71356 Published : July 4, 2026, 1:23 a.m. | 5 hours, 2 minutes ago Description :picklescan before 0.0.28 fails to detect malicious...",
+      "source": "CVE Feed",
+      "published": "2026-07-04T01:23:35+00:00"
+    },
+    {
+      "title": "CVE-2025-71353 - picklescan - Remote Code Execution via torch._dynamo.guards.GuardBuilder.get",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2025-71353",
+      "summary": "CVE ID :CVE-2025-71353 Published : July 4, 2026, 1:23 a.m. | 5 hours, 2 minutes ago Description :picklescan before 0.0.28 fails to detect malicious pickle files that exploit...",
+      "source": "CVE Feed",
+      "published": "2026-07-04T01:23:34+00:00"
+    },
+    {
+      "title": "CVE-2025-71347 - picklescan - Undetected Remote Code Execution via numpy.f2py.crackfortran.param_eval",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2025-71347",
+      "summary": "CVE ID :CVE-2025-71347 Published : July 4, 2026, 1:23 a.m. | 5 hours, 2 minutes ago Description :picklescan before 0.0.33 fails to detect malicious pickle files using...",
+      "source": "CVE Feed",
+      "published": "2026-07-04T01:23:33+00:00"
+    },
+    {
+      "title": "CVE-2025-71345 - picklescan - Arbitrary Code Execution via torch.utils.bottleneck.__main__.run_autograd_prof",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2025-71345",
+      "summary": "CVE ID :CVE-2025-71345 Published : July 4, 2026, 1:23 a.m. | 5 hours, 2 minutes ago Description :picklescan before 0.0.30 fails to detect malicious pickle files that invoke...",
+      "source": "CVE Feed",
+      "published": "2026-07-04T01:23:33+00:00"
+    },
+    {
+      "title": "CVE-2025-71343 - picklescan - Arbitrary Code Execution via lib2to3.pgen2.pgen.ParserGenerator.make_label Detection Bypass",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2025-71343",
+      "summary": "CVE ID :CVE-2025-71343 Published : July 4, 2026, 1:23 a.m. | 5 hours, 2 minutes ago Description :picklescan before 0.0.30 fails to detect malicious pickle files that exploit...",
+      "source": "CVE Feed",
+      "published": "2026-07-04T01:23:32+00:00"
+    },
+    {
+      "title": "CVE-2025-71342 - picklescan - Undetected Remote Code Execution via idlelib.run.Executive.runcode",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2025-71342",
+      "summary": "CVE ID :CVE-2025-71342 Published : July 4, 2026, 1:23 a.m. | 5 hours, 2 minutes ago Description :picklescan before 0.0.30 fails to detect malicious pickle files using idlelib.run.Executive.runcode in...",
+      "source": "CVE Feed",
+      "published": "2026-07-04T01:23:31+00:00"
+    },
+    {
+      "title": "CVE-2026-54424 - Parsec Elevation of Privilege via Privileged API Misuse",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54424",
+      "summary": "CVE ID :CVE-2026-54424 Published : July 4, 2026, 12:45 a.m. | 5 hours, 40 minutes ago Description :An Incorrect Use of Privileged APIs vulnerability in Unity Parsec on Windows hosts leads to a...",
+      "source": "CVE Feed",
+      "published": "2026-07-04T00:45:24+00:00"
+    },
+    {
+      "title": "CVE-2026-58426 - Gitea Actions Artifacts V4 signed URL HMAC ambiguity allows cross-repository artifact read and cross-task upload-state write",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-58426",
+      "summary": "CVE ID :CVE-2026-58426 Published : July 3, 2026, 9:17 p.m. | 9 hours, 9 minutes ago Description :Gitea Actions Artifacts V4 signed URL HMAC ambiguity allows cross-repository artifact read and...",
+      "source": "CVE Feed",
+      "published": "2026-07-03T21:17:05+00:00"
+    },
+    {
+      "title": "CVE-2026-58424 - Permanent Fork PR Workflow Approval Gate Bypass",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-58424",
+      "summary": "CVE ID :CVE-2026-58424 Published : July 3, 2026, 9:17 p.m. | 9 hours, 9 minutes ago Description :Permanent Fork PR Workflow Approval Gate Bypass Severity: 8.9 | HIGH Visit the link for more details...",
+      "source": "CVE Feed",
+      "published": "2026-07-03T21:17:05+00:00"
+    },
     {
       "title": "CVE-2026-58295 - Microsoft Edge (Chromium-based) Security Feature Bypass Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-58295",
-      "summary": "CVE ID :CVE-2026-58295 Published : July 3, 2026, 8:35 p.m. | 4 hours, 51 minutes ago Description :None Severity: 8.3 | HIGH Visit the link for more details, such as CVSS details, affected products...",
+      "summary": "CVE ID :CVE-2026-58295 Published : July 3, 2026, 9:17 p.m. | 9 hours, 9 minutes ago Description :Access of resource using incompatible type ('type confusion') in Microsoft Edge (Chromium-based)...",
       "source": "CVE Feed",
-      "published": "2026-07-03T20:35:32+00:00"
+      "published": "2026-07-03T21:17:04+00:00"
     },
     {
       "title": "CVE-2026-58293 - Microsoft Edge (Chromium-based) Remote Code Execution Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-58293",
-      "summary": "CVE ID :CVE-2026-58293 Published : July 3, 2026, 8:35 p.m. | 4 hours, 51 minutes ago Description :None Severity: 8.1 | HIGH Visit the link for more details, such as CVSS details, affected products...",
+      "summary": "CVE ID :CVE-2026-58293 Published : July 3, 2026, 9:17 p.m. | 9 hours, 9 minutes ago Description :External control of file name or path in Microsoft Edge (Chromium-based) allows an unauthorized...",
       "source": "CVE Feed",
-      "published": "2026-07-03T20:35:31+00:00"
+      "published": "2026-07-03T21:17:04+00:00"
     },
     {
       "title": "CVE-2026-58289 - Microsoft Edge (Chromium-based) Remote Code Execution Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-58289",
-      "summary": "CVE ID :CVE-2026-58289 Published : July 3, 2026, 8:35 p.m. | 4 hours, 51 minutes ago Description :None Severity: 9.0 | CRITICAL Visit the link for more details, such as CVSS details, affected...",
+      "summary": "CVE ID :CVE-2026-58289 Published : July 3, 2026, 9:17 p.m. | 9 hours, 9 minutes ago Description :Access of resource using incompatible type ('type confusion') in Microsoft Edge (Chromium-based)...",
       "source": "CVE Feed",
-      "published": "2026-07-03T20:35:29+00:00"
+      "published": "2026-07-03T21:17:03+00:00"
     },
     {
       "title": "CVE-2026-58288 - Microsoft Edge (Chromium-based) Remote Code Execution Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-58288",
-      "summary": "CVE ID :CVE-2026-58288 Published : July 3, 2026, 8:35 p.m. | 4 hours, 51 minutes ago Description :None Severity: 8.3 | HIGH Visit the link for more details, such as CVSS details, affected products...",
+      "summary": "CVE ID :CVE-2026-58288 Published : July 3, 2026, 9:17 p.m. | 9 hours, 9 minutes ago Description :Use after free in Microsoft Edge (Chromium-based) allows an unauthorized attacker to execute code over...",
       "source": "CVE Feed",
-      "published": "2026-07-03T20:35:24+00:00"
-    },
-    {
-      "title": "CVE-2026-58286 - Microsoft Edge (Chromium-based) Spoofing Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-58286",
-      "summary": "CVE ID :CVE-2026-58286 Published : July 3, 2026, 8:35 p.m. | 4 hours, 51 minutes ago Description :None Severity: 8.1 | HIGH Visit the link for more details, such as CVSS details, affected products...",
-      "source": "CVE Feed",
-      "published": "2026-07-03T20:35:24+00:00"
-    },
-    {
-      "title": "CVE-2026-58285 - Microsoft Edge (Chromium-based) Remote Code Execution Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-58285",
-      "summary": "CVE ID :CVE-2026-58285 Published : July 3, 2026, 8:35 p.m. | 4 hours, 51 minutes ago Description :None Severity: 8.3 | HIGH Visit the link for more details, such as CVSS details, affected products...",
-      "source": "CVE Feed",
-      "published": "2026-07-03T20:35:23+00:00"
-    },
-    {
-      "title": "CVE-2026-58284 - Microsoft Edge (Chromium-based) Remote Code Execution Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-58284",
-      "summary": "CVE ID :CVE-2026-58284 Published : July 3, 2026, 8:35 p.m. | 4 hours, 51 minutes ago Description :None Severity: 8.3 | HIGH Visit the link for more details, such as CVSS details, affected products...",
-      "source": "CVE Feed",
-      "published": "2026-07-03T20:35:22+00:00"
-    },
-    {
-      "title": "CVE-2026-57981 - Microsoft Edge (Chromium-based) Remote Code Execution Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-57981",
-      "summary": "CVE ID :CVE-2026-57981 Published : July 3, 2026, 8:35 p.m. | 4 hours, 51 minutes ago Description :None Severity: 8.8 | HIGH Visit the link for more details, such as CVSS details, affected products...",
-      "source": "CVE Feed",
-      "published": "2026-07-03T20:35:20+00:00"
-    },
-    {
-      "title": "CVE-2026-57974 - Microsoft Edge (Chromium-based) Remote Code Execution Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-57974",
-      "summary": "CVE ID :CVE-2026-57974 Published : July 3, 2026, 8:35 p.m. | 4 hours, 51 minutes ago Description :None Severity: 8.8 | HIGH Visit the link for more details, such as CVSS details, affected products...",
-      "source": "CVE Feed",
-      "published": "2026-07-03T20:35:19+00:00"
+      "published": "2026-07-03T21:17:03+00:00"
     },
     {
       "title": "CVE-2026-58287 - Microsoft Edge (Chromium-based) Remote Code Execution Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-58287",
-      "summary": "CVE ID :CVE-2026-58287 Published : July 3, 2026, 8:35 p.m. | 4 hours, 51 minutes ago Description :None Severity: 8.3 | HIGH Visit the link for more details, such as CVSS details, affected products...",
+      "summary": "CVE ID :CVE-2026-58287 Published : July 3, 2026, 9:17 p.m. | 9 hours, 9 minutes ago Description :Use after free in Microsoft Edge (Chromium-based) allows an unauthorized attacker to execute code over...",
       "source": "CVE Feed",
-      "published": "2026-07-03T20:35:16+00:00"
-    },
-    {
-      "title": "CVE-2026-58283 - Microsoft Edge (Chromium-based) Spoofing Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-58283",
-      "summary": "CVE ID :CVE-2026-58283 Published : July 3, 2026, 8:35 p.m. | 4 hours, 51 minutes ago Description :None Severity: 8.1 | HIGH Visit the link for more details, such as CVSS details, affected products...",
-      "source": "CVE Feed",
-      "published": "2026-07-03T20:35:15+00:00"
-    },
-    {
-      "title": "CVE-2026-58282 - Microsoft Edge (Chromium-based) Spoofing Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-58282",
-      "summary": "CVE ID :CVE-2026-58282 Published : July 3, 2026, 8:35 p.m. | 4 hours, 51 minutes ago Description :None Severity: 8.1 | HIGH Visit the link for more details, such as CVSS details, affected products...",
-      "source": "CVE Feed",
-      "published": "2026-07-03T20:35:14+00:00"
-    },
-    {
-      "title": "CVE-2026-57983 - Microsoft Edge (Chromium-based) Security Feature Bypass Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-57983",
-      "summary": "CVE ID :CVE-2026-57983 Published : July 3, 2026, 8:35 p.m. | 4 hours, 51 minutes ago Description :None Severity: 8.7 | HIGH Visit the link for more details, such as CVSS details, affected products...",
-      "source": "CVE Feed",
-      "published": "2026-07-03T20:35:10+00:00"
-    },
-    {
-      "title": "CVE-2026-56645 - Microsoft Edge (Chromium-based) Remote Code Execution Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56645",
-      "summary": "CVE ID :CVE-2026-56645 Published : July 3, 2026, 8:35 p.m. | 4 hours, 51 minutes ago Description :None Severity: 8.8 | HIGH Visit the link for more details, such as CVSS details, affected products...",
-      "source": "CVE Feed",
-      "published": "2026-07-03T20:35:08+00:00"
+      "published": "2026-07-03T21:17:03+00:00"
     },
     {
       "title": "Unpatched Flaws Disclosed in Filesystem Bundled Into Millions of Embedded Devices",
@@ -135,20 +212,6 @@
       "published": "2026-07-03T16:07:15+00:00"
     },
     {
-      "title": "CVE-2026-14460 - Missing Authorization in TUBITAK BILGEM's pardus-software",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-14460",
-      "summary": "CVE ID :CVE-2026-14460 Published : July 3, 2026, 3:16 p.m. | 10 hours, 10 minutes ago Description :Missing Authorization vulnerability in TUBITAK BILGEM Software Technologies Research Institute...",
-      "source": "CVE Feed",
-      "published": "2026-07-03T15:16:32+00:00"
-    },
-    {
-      "title": "CVE-2026-14459 - Argument Injection in TUBITAK BILGEM's pardus-software",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-14459",
-      "summary": "CVE ID :CVE-2026-14459 Published : July 3, 2026, 3:16 p.m. | 10 hours, 10 minutes ago Description :Improper neutralization of argument delimiters in a command ('argument injection') vulnerability in...",
-      "source": "CVE Feed",
-      "published": "2026-07-03T15:16:32+00:00"
-    },
-    {
       "title": "In Other News: Canadian Hacker Jailed, Open Source Zero-Days, Two Sentenced for ATM Jackpotting",
       "link": "https://www.securityweek.com/in-other-news-canadian-hacker-jailed-open-source-zero-days-two-sentenced-for-atm-jackpotting/",
       "summary": "Noteworthy stories that might have slipped under the radar: Anonymous-linked Canadian hacker jailed, researcher drops zero-days in open source projects, Venezuelans sentenced in the US over ATM...",
@@ -177,20 +240,6 @@
       "published": "2026-07-03T13:01:00+00:00"
     },
     {
-      "title": "CVE-2026-10055 - Eclipse Theia Request Service Server-Side Request Forgery",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-10055",
-      "summary": "CVE ID :CVE-2026-10055 Published : July 3, 2026, 11:16 a.m. | 14 hours, 10 minutes ago Description :In Eclipse Theia since version 1.26.0, the backend /services/request-service RPC accepts an...",
-      "source": "CVE Feed",
-      "published": "2026-07-03T11:16:27+00:00"
-    },
-    {
-      "title": "CVE-2026-10054 - Eclipse Theia: Insecure WebSocket Terminal Access",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-10054",
-      "summary": "CVE ID :CVE-2026-10054 Published : July 3, 2026, 11:16 a.m. | 14 hours, 10 minutes ago Description :In affected versions of Eclipse Theia (1.8.1 and later), the browser backend exposes privileged...",
-      "source": "CVE Feed",
-      "published": "2026-07-03T11:16:26+00:00"
-    },
-    {
       "title": "European Parliament Member Investigating Spyware Was Hacked With Pegasus",
       "link": "https://thehackernews.com/2026/07/european-parliament-member.html",
       "summary": "A new report from the Citizen Lab has revealed that former Member of the European Parliament Stelios Kouloglou had his mobile device repeatedly hacked with the notorious Pegasus spyware while serving...",
@@ -212,13 +261,6 @@
       "published": "2026-07-03T10:34:00+00:00"
     },
     {
-      "title": "CVE-2026-4321 - SQLi in Raera's Destekz",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-4321",
-      "summary": "CVE ID :CVE-2026-4321 Published : July 3, 2026, 10:16 a.m. | 15 hours, 10 minutes ago Description :Improper neutralization of special elements used in an SQL command ('SQL injection') vulnerability...",
-      "source": "CVE Feed",
-      "published": "2026-07-03T10:16:32+00:00"
-    },
-    {
       "title": "Medtronic Data Breach Impacts 3.8 Million People",
       "link": "https://www.securityweek.com/medtronic-data-breach-impacts-3-8-million-people/",
       "summary": "In April, ShinyHunters accessed the company’s corporate IT systems and stole patients’ personal and medical information. The post Medtronic Data Breach Impacts 3.8 Million People appeared first on...",
@@ -231,27 +273,6 @@
       "summary": "Prosecutors say 19-year-old Peter Stokes was a member of Scattered Spider, the hacking group linked to more than 100 network intrusions and over $100 million in ransom payments. The post Alleged...",
       "source": "SecurityWeek",
       "published": "2026-07-03T09:30:00+00:00"
-    },
-    {
-      "title": "CVE-2026-47896 - Apache Lucene.Net: Unauthenticated arbitrary file read on the Lucene.Net.Replicator replication server",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-47896",
-      "summary": "CVE ID :CVE-2026-47896 Published : July 3, 2026, 9:16 a.m. | 16 hours, 10 minutes ago Description :Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') vulnerability in...",
-      "source": "CVE Feed",
-      "published": "2026-07-03T09:16:37+00:00"
-    },
-    {
-      "title": "CVE-2026-47897 - Apache Lucene.Net: Arbitrary file write from malicious server to Lucene.Net.Replicator client",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-47897",
-      "summary": "CVE ID :CVE-2026-47897 Published : July 3, 2026, 8:16 a.m. | 17 hours, 10 minutes ago Description :Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') vulnerability in...",
-      "source": "CVE Feed",
-      "published": "2026-07-03T08:16:24+00:00"
-    },
-    {
-      "title": "CVE-2026-14544 - Hplip: incomplete fix for cve-2026-8631",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-14544",
-      "summary": "CVE ID :CVE-2026-14544 Published : July 3, 2026, 8:16 a.m. | 17 hours, 10 minutes ago Description :A flaw was found in HPLIP (HP Linux Imaging and Printing Software). This vulnerability, an...",
-      "source": "CVE Feed",
-      "published": "2026-07-03T08:16:24+00:00"
     },
     {
       "title": "Google, FBI Disrupt NetNut Residential Proxy Network Powered by Millions of Devices",
@@ -282,32 +303,11 @@
       "published": "2026-07-03T07:21:19+00:00"
     },
     {
-      "title": "CVE-2026-9725 - Printcart Web to Print Product Designer for WooCommerce <= 2.5.2 - Unauthenticated Arbitrary File Deletion",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-9725",
-      "summary": "CVE ID :CVE-2026-9725 Published : July 3, 2026, 6:16 a.m. | 19 hours, 10 minutes ago Description :The Printcart Web to Print Product Designer for WooCommerce plugin for WordPress is vulnerable to...",
-      "source": "CVE Feed",
-      "published": "2026-07-03T06:16:23+00:00"
-    },
-    {
       "title": "Spyware found on phone of European Parliament member probing it",
       "link": "https://therecord.media/pegasus-spyware-european-parliament-pega-committee-member",
       "summary": "Stelios Kouloglou, formerly a member of the European Parliament's committee investigating abuses of commercial spyware, was twice infected with Pegasus while serving, researchers said.",
       "source": "The Record",
       "published": "2026-07-03T05:00:00+00:00"
-    },
-    {
-      "title": "CVE-2026-8921 - ASUS Business Manager SYSTEM Code Execution via IPC Message Tampering",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-8921",
-      "summary": "CVE ID :CVE-2026-8921 Published : July 3, 2026, 3:16 a.m. | 22 hours, 10 minutes ago Description :External Control of File Name or Path vulnerability in ASUS Business Manager allows a local user to...",
-      "source": "CVE Feed",
-      "published": "2026-07-03T03:16:23+00:00"
-    },
-    {
-      "title": "CVE-2022-4989 - ASUS AI Suite 3 Improper Input Validation Privilege Escalation",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2022-4989",
-      "summary": "CVE ID :CVE-2022-4989 Published : July 3, 2026, 3:16 a.m. | 22 hours, 10 minutes ago Description :** UNSUPPORTED WHEN ASSIGNED ** Improper Validation of Specified Quantity in Input in the ASUS AI...",
-      "source": "CVE Feed",
-      "published": "2026-07-03T03:16:22+00:00"
     },
     {
       "title": "Claude Fable 5 isn’t permanently leaving subscriptions, Anthropic says",
