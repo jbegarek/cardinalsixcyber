@@ -1,6 +1,20 @@
 {
-  "last_updated": "2026-07-06T21:21:50.278095+00:00",
+  "last_updated": "2026-07-06T22:58:41.752894+00:00",
   "articles": [
+    {
+      "title": "'BusySnake' Infostealer Slithers into Critical Infrastructure Networks",
+      "link": "https://www.darkreading.com/cyberattacks-data-breaches/busysnake-infostealer-critical-infrastructure-networks",
+      "summary": "A threat group researchers call \"Armored Likho\" has gained access to government agencies and electrical power entities in Russia, Brazil, and Kazakhstan.",
+      "source": "Dark Reading",
+      "published": "2026-07-06T21:37:56+00:00"
+    },
+    {
+      "title": "CitrixBleed-ing Again? NetScaler Vulnerability Under Attack",
+      "link": "https://www.darkreading.com/vulnerabilities-threats/citrixbleed-ing-again-netscaler-vulnerability-under-attack",
+      "summary": "Attackers wasted little time targeting the latest memory disclosure flaw in Citrix's NetScaler products, after researchers published a proof-of-concept exploit (PoC).",
+      "source": "Dark Reading",
+      "published": "2026-07-06T21:17:42+00:00"
+    },
     {
       "title": "Canadian spy agency reports hacking three criminal groups in 2025",
       "link": "https://therecord.media/canada-cse-2025-cyber-operations-ransomware-drugs-extremism",
@@ -9,11 +23,32 @@
       "published": "2026-07-06T20:55:00+00:00"
     },
     {
+      "title": "CVE-2026-59712 - Leantime - Credential Disclosure via Unauthenticated JSON-RPC users.getUser Method",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-59712",
+      "summary": "CVE ID :CVE-2026-59712 Published : July 6, 2026, 8:43 p.m. | 44 minutes ago Description :Leantime's Users::getUser method in the JSON-RPC API lacks proper authorization checks, allowing authenticated...",
+      "source": "CVE Feed",
+      "published": "2026-07-06T20:43:50+00:00"
+    },
+    {
+      "title": "CVE-2026-59713 - Leantime - OIDC Login CSRF via Unconditional State Verification Stub",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-59713",
+      "summary": "CVE ID :CVE-2026-59713 Published : July 6, 2026, 8:36 p.m. | 51 minutes ago Description :Leantime contains an OIDC login CSRF vulnerability in the verifyState() method that unconditionally returns...",
+      "source": "CVE Feed",
+      "published": "2026-07-06T20:36:24+00:00"
+    },
+    {
       "title": "Attackers vote themselves $20 million in BONK cryptocurrency",
       "link": "https://therecord.media/attackers-vote-themselves-20-million-bonk-crypto",
       "summary": "BonkDAO said in a social media post that it was the victim of a “malicious governance proposal,” or an attack in which holders of a large amount of BONK used that leverage to vote more coins into...",
       "source": "The Record",
       "published": "2026-07-06T20:35:00+00:00"
+    },
+    {
+      "title": "CVE-2026-14471 - Authenticated SQL injection in the metrics-service retention policy subsystem of mcp-gateway-registry",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-14471",
+      "summary": "CVE ID :CVE-2026-14471 Published : July 6, 2026, 8:33 p.m. | 54 minutes ago Description :Improper Neutralization of Special Elements in the metrics-service retention policy management component in...",
+      "source": "CVE Feed",
+      "published": "2026-07-06T20:33:25+00:00"
     },
     {
       "title": "Phishing poses as big-brand job interview to steal Google accounts",
@@ -30,16 +65,23 @@
       "published": "2026-07-06T20:23:45+00:00"
     },
     {
+      "title": "CVE-2026-25268 - Stack-based Buffer Overflow in WLAN Host",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-25268",
+      "summary": "CVE ID :CVE-2026-25268 Published : July 6, 2026, 8:09 p.m. | 1 hour, 18 minutes ago Description :Memory Corruption when processing invalid HT40 channel layouts during dynamic channel switching...",
+      "source": "CVE Feed",
+      "published": "2026-07-06T20:09:41+00:00"
+    },
+    {
       "title": "CVE-2026-9181 - Directory Traversal in ArcGIS Server",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-9181",
-      "summary": "CVE ID :CVE-2026-9181 Published : July 6, 2026, 7:17 p.m. | 1 hour, 10 minutes ago Description :ArcGIS Server contains a directory traversal vulnerability. An unauthenticated attacker could exploit...",
+      "summary": "CVE ID :CVE-2026-9181 Published : July 6, 2026, 7:17 p.m. | 2 hours, 10 minutes ago Description :ArcGIS Server contains a directory traversal vulnerability. An unauthenticated attacker could exploit...",
       "source": "CVE Feed",
       "published": "2026-07-06T19:17:09+00:00"
     },
     {
       "title": "CVE-2026-54291 - Silent channel-binding authentication downgrade via unsupported certificate algorithms",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-54291",
-      "summary": "CVE ID :CVE-2026-54291 Published : July 6, 2026, 7:17 p.m. | 1 hour, 10 minutes ago Description :pgjdbc is an open source postgresql JDBC Driver. In releases 42.7.4 through 42.7.11...",
+      "summary": "CVE ID :CVE-2026-54291 Published : July 6, 2026, 7:17 p.m. | 2 hours, 10 minutes ago Description :pgjdbc is an open source postgresql JDBC Driver. In releases 42.7.4 through 42.7.11...",
       "source": "CVE Feed",
       "published": "2026-07-06T19:17:08+00:00"
     },
@@ -53,8 +95,8 @@
     {
       "title": "Iran-Linked Hackers Use New Cavern C2 Framework to Target Israeli Organizations",
       "link": "https://thehackernews.com/2026/07/iran-linked-hackers-use-new-cavern-c2.html",
-      "summary": "An Iranian hacking group affiliated with Iran's Ministry of Intelligence and Security (MOIS) has been wielding a previously undocumented modular command-and-control (C2) framework dubbed Cavern (aka...",
-      "source": "The Hacker News",
+      "summary": "Iran-Linked Hackers Use New Cavern C2 Framework to Target Israeli Organizations An Iranian hacking group affiliated with Iran's Ministry of Intelligence and Security (MOIS) has been wielding a...",
+      "source": "CVE Newsroom",
       "published": "2026-07-06T18:34:26+00:00"
     },
     {
@@ -67,7 +109,7 @@
     {
       "title": "CVE-2026-48614 - Plesk XML API Improper Authorization Privilege Escalation",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-48614",
-      "summary": "CVE ID :CVE-2026-48614 Published : July 6, 2026, 6:16 p.m. | 2 hours, 10 minutes ago Description :An improper authorization vulnerability in the Plesk XML API allows an authenticated user to inject...",
+      "summary": "CVE ID :CVE-2026-48614 Published : July 6, 2026, 6:16 p.m. | 3 hours, 11 minutes ago Description :An improper authorization vulnerability in the Plesk XML API allows an authenticated user to inject...",
       "source": "CVE Feed",
       "published": "2026-07-06T18:16:46+00:00"
     },
@@ -81,49 +123,49 @@
     {
       "title": "16-Year-Old Linux KVM Flaw Lets Guest VMs Escape to Host on Intel and AMD x86 Systems",
       "link": "https://thehackernews.com/2026/07/16-year-old-linux-kvm-flaw-lets-guest.html",
-      "summary": "A use-after-free bug in Linux's KVM hypervisor can be triggered from a guest virtual machine to corrupt the shadow-page state of the host kernel that runs it. Dubbed 'Januscape' and tracked as...",
-      "source": "The Hacker News",
+      "summary": "16-Year-Old Linux KVM Flaw Lets Guest VMs Escape to Host on Intel and AMD x86 Systems A use-after-free bug in Linux's KVM hypervisor can be triggered from a guest virtual machine to corrupt the...",
+      "source": "CVE Newsroom",
       "published": "2026-07-06T17:37:01+00:00"
     },
     {
       "title": "CVE-2026-48316 - ColdFusion | Improper Input Validation (CWE-20)",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-48316",
-      "summary": "CVE ID :CVE-2026-48316 Published : July 6, 2026, 5:16 p.m. | 3 hours, 10 minutes ago Description :ColdFusion versions 2025.9, 2023.20 and earlier are affected by an Improper Input Validation...",
+      "summary": "CVE ID :CVE-2026-48316 Published : July 6, 2026, 5:16 p.m. | 4 hours, 11 minutes ago Description :ColdFusion versions 2025.9, 2023.20 and earlier are affected by an Improper Input Validation...",
       "source": "CVE Feed",
       "published": "2026-07-06T17:16:32+00:00"
     },
     {
       "title": "CVE-2026-40141 - High-Severity Vulnerability In Web Application Component of BeyondTrust Remote Support and Privileged Remote Access",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-40141",
-      "summary": "CVE ID :CVE-2026-40141 Published : July 6, 2026, 5:16 p.m. | 3 hours, 10 minutes ago Description :A high-severity vulnerability exists in a web application component of BeyondTrust Remote Support and...",
+      "summary": "CVE ID :CVE-2026-40141 Published : July 6, 2026, 5:16 p.m. | 4 hours, 11 minutes ago Description :A high-severity vulnerability exists in a web application component of BeyondTrust Remote Support and...",
       "source": "CVE Feed",
       "published": "2026-07-06T17:16:31+00:00"
     },
     {
       "title": "CVE-2026-40140 - High-Severity Pre-Authentication Vulnerability in BeyondTrust Remote Support and Privileged Remote Access",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-40140",
-      "summary": "CVE ID :CVE-2026-40140 Published : July 6, 2026, 5:16 p.m. | 3 hours, 10 minutes ago Description :BeyondTrust Remote Support and Privileged Remote Access contain a high-severity pre-authentication...",
+      "summary": "CVE ID :CVE-2026-40140 Published : July 6, 2026, 5:16 p.m. | 4 hours, 11 minutes ago Description :BeyondTrust Remote Support and Privileged Remote Access contain a high-severity pre-authentication...",
       "source": "CVE Feed",
       "published": "2026-07-06T17:16:31+00:00"
     },
     {
       "title": "CVE-2026-40139 - Critical Pre-Authentication Vulnerability in BeyondTrust Remote Support and Privileged Remote Access",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-40139",
-      "summary": "CVE ID :CVE-2026-40139 Published : July 6, 2026, 5:16 p.m. | 3 hours, 10 minutes ago Description :A critical pre-authentication vulnerability exists in the authentication subsystem of BeyondTrust...",
+      "summary": "CVE ID :CVE-2026-40139 Published : July 6, 2026, 5:16 p.m. | 4 hours, 11 minutes ago Description :A critical pre-authentication vulnerability exists in the authentication subsystem of BeyondTrust...",
       "source": "CVE Feed",
       "published": "2026-07-06T17:16:30+00:00"
     },
     {
       "title": "CVE-2026-40138 - Critical Pre-Authentication Vulnerability in BeyondTrust Remote Support and Privileged Remote Access",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-40138",
-      "summary": "CVE ID :CVE-2026-40138 Published : July 6, 2026, 5:16 p.m. | 3 hours, 10 minutes ago Description :A critical pre-authentication vulnerability exists in the authentication subsystem of BeyondTrust...",
+      "summary": "CVE ID :CVE-2026-40138 Published : July 6, 2026, 5:16 p.m. | 4 hours, 11 minutes ago Description :A critical pre-authentication vulnerability exists in the authentication subsystem of BeyondTrust...",
       "source": "CVE Feed",
       "published": "2026-07-06T17:16:30+00:00"
     },
     {
       "title": "CVE-2025-53831 - DrawIO for ownCloud 10 is vulnerable to Stored XSS",
       "link": "https://cvefeed.io/vuln/detail/CVE-2025-53831",
-      "summary": "CVE ID :CVE-2025-53831 Published : July 6, 2026, 5:16 p.m. | 3 hours, 10 minutes ago Description :DrawIO for ownCloud is an application for using DrawIO with the file storage, synchronization, and...",
+      "summary": "CVE ID :CVE-2025-53831 Published : July 6, 2026, 5:16 p.m. | 4 hours, 11 minutes ago Description :DrawIO for ownCloud is an application for using DrawIO with the file storage, synchronization, and...",
       "source": "CVE Feed",
       "published": "2026-07-06T17:16:26+00:00"
     },
@@ -144,49 +186,49 @@
     {
       "title": "Threat Actors Probe Gitea Docker Flaw CVE-2026-20896 13 Days After Disclosure",
       "link": "https://thehackernews.com/2026/07/threat-actors-probe-gitea-docker-flaw.html",
-      "summary": "Threat actors have been observed attempting to exploit a recently patched critical security flaw in Gitea Docker images, according to Sysdig. The vulnerability in question is CVE-2026-20896 (CVSS...",
-      "source": "The Hacker News",
+      "summary": "Threat Actors Probe Gitea Docker Flaw CVE-2026-20896 13 Days After Disclosure Threat actors have been observed attempting to exploit a recently patched critical security flaw in Gitea Docker images...",
+      "source": "CVE Newsroom",
       "published": "2026-07-06T16:28:59+00:00"
     },
     {
       "title": "CVE-2026-5268 - SFTP Server Authentication Weakness",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-5268",
-      "summary": "CVE ID :CVE-2026-5268 Published : July 6, 2026, 4:16 p.m. | 4 hours, 10 minutes ago Description :An authentication bypass vulnerability exists in the default SFTP server component utilized across the...",
+      "summary": "CVE ID :CVE-2026-5268 Published : July 6, 2026, 4:16 p.m. | 5 hours, 11 minutes ago Description :An authentication bypass vulnerability exists in the default SFTP server component utilized across the...",
       "source": "CVE Feed",
       "published": "2026-07-06T16:16:38+00:00"
     },
     {
       "title": "CVE-2026-59195 - pnpm: Path traversal in configDependencies env lockfile allows symlink creation outside node_modules/.pnpm-config",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-59195",
-      "summary": "CVE ID :CVE-2026-59195 Published : July 6, 2026, 4:16 p.m. | 4 hours, 10 minutes ago Description :pnpm is a package manager. Prior to 10.34.4 and 11.8.0, pnpm accepts package names from the env...",
+      "summary": "CVE ID :CVE-2026-59195 Published : July 6, 2026, 4:16 p.m. | 5 hours, 11 minutes ago Description :pnpm is a package manager. Prior to 10.34.4 and 11.8.0, pnpm accepts package names from the env...",
       "source": "CVE Feed",
       "published": "2026-07-06T16:16:37+00:00"
     },
     {
       "title": "CVE-2025-53830 - Anti-Virus for ownCloud 10 is vulnerable to Server-Side Request Forgery (SSRF)",
       "link": "https://cvefeed.io/vuln/detail/CVE-2025-53830",
-      "summary": "CVE ID :CVE-2025-53830 Published : July 6, 2026, 4:16 p.m. | 4 hours, 10 minutes ago Description :Anti-Virus for ownCloud is an anti-virus application for file storage, synchronization, and sharing...",
+      "summary": "CVE ID :CVE-2025-53830 Published : July 6, 2026, 4:16 p.m. | 5 hours, 11 minutes ago Description :Anti-Virus for ownCloud is an anti-virus application for file storage, synchronization, and sharing...",
       "source": "CVE Feed",
       "published": "2026-07-06T16:16:27+00:00"
     },
     {
       "title": "CVE-2025-53829 - ownCloud 10 is vulnerable to Relative Path Traversal",
       "link": "https://cvefeed.io/vuln/detail/CVE-2025-53829",
-      "summary": "CVE ID :CVE-2025-53829 Published : July 6, 2026, 4:16 p.m. | 4 hours, 10 minutes ago Description :ownCloud is a file storage, synchronization, and sharing application. In ownCloud 10 prior to version...",
+      "summary": "CVE ID :CVE-2025-53829 Published : July 6, 2026, 4:16 p.m. | 5 hours, 11 minutes ago Description :ownCloud is a file storage, synchronization, and sharing application. In ownCloud 10 prior to version...",
       "source": "CVE Feed",
       "published": "2026-07-06T16:16:27+00:00"
     },
     {
       "title": "CVE-2025-53828 - SharePoint for ownCloud 10 is vulnerable to Server-Side Request Forgery (SSRF)",
       "link": "https://cvefeed.io/vuln/detail/CVE-2025-53828",
-      "summary": "CVE ID :CVE-2025-53828 Published : July 6, 2026, 4:16 p.m. | 4 hours, 10 minutes ago Description :SharePoint for ownCloud is an application for using SharePoint with the file storage...",
+      "summary": "CVE ID :CVE-2025-53828 Published : July 6, 2026, 4:16 p.m. | 5 hours, 11 minutes ago Description :SharePoint for ownCloud is an application for using SharePoint with the file storage...",
       "source": "CVE Feed",
       "published": "2026-07-06T16:16:26+00:00"
     },
     {
       "title": "CVE-2025-53827 - ownCloud Core: Updater has an exposed dangerous method or function",
       "link": "https://cvefeed.io/vuln/detail/CVE-2025-53827",
-      "summary": "CVE ID :CVE-2025-53827 Published : July 6, 2026, 4:16 p.m. | 4 hours, 10 minutes ago Description :ownCloud Core is the server-side component of the file storage, synchronization, and sharing...",
+      "summary": "CVE ID :CVE-2025-53827 Published : July 6, 2026, 4:16 p.m. | 5 hours, 11 minutes ago Description :ownCloud Core is the server-side component of the file storage, synchronization, and sharing...",
       "source": "CVE Feed",
       "published": "2026-07-06T16:16:26+00:00"
     },
@@ -249,8 +291,8 @@
     {
       "title": "⚡ Weekly Recap: Proxy Botnets, Browser Ransomware, AI Agent Tricks, Fake PoC Malware and More",
       "link": "https://thehackernews.com/2026/07/monday-recap-proxy-botnets-browser.html",
-      "summary": "A streaming box should not need a threat model. Neither should a username field, a demo repo, a reset flow, or a browser permission prompt. That is the irritating part this week: the risky pieces...",
-      "source": "The Hacker News",
+      "summary": "⚡ Weekly Recap: Proxy Botnets, Browser Ransomware, AI Agent Tricks, Fake PoC Malware and More A streaming box should not need a threat model. Neither should a username field, a demo repo, a reset...",
+      "source": "CVE Newsroom",
       "published": "2026-07-06T13:01:14+00:00"
     },
     {
@@ -284,51 +326,44 @@
     {
       "title": "CVE-2026-6901 - Untrusted Search Path",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-6901",
-      "summary": "CVE ID :CVE-2026-6901 Published : July 6, 2026, 11:16 a.m. | 9 hours, 10 minutes ago Description :Untrusted Search Path vulnerability in B&R Industrial Automation GmbH APROL. This issue affects...",
+      "summary": "CVE ID :CVE-2026-6901 Published : July 6, 2026, 11:16 a.m. | 10 hours, 11 minutes ago Description :Untrusted Search Path vulnerability in B&R Industrial Automation GmbH APROL. This issue affects...",
       "source": "CVE Feed",
       "published": "2026-07-06T11:16:31+00:00"
     },
     {
       "title": "CVE-2026-6900 - Improper Certificate Validation",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-6900",
-      "summary": "CVE ID :CVE-2026-6900 Published : July 6, 2026, 11:16 a.m. | 9 hours, 10 minutes ago Description :Improper certificate validation vulnerability in B&R Industrial Automation GmbH APROL. This issue...",
+      "summary": "CVE ID :CVE-2026-6900 Published : July 6, 2026, 11:16 a.m. | 10 hours, 11 minutes ago Description :Improper certificate validation vulnerability in B&R Industrial Automation GmbH APROL. This issue...",
       "source": "CVE Feed",
       "published": "2026-07-06T11:16:31+00:00"
     },
     {
       "title": "CVE-2026-58226 - Unauthenticated denial-of-service via unbounded HPACK integer decoding in hpax",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-58226",
-      "summary": "CVE ID :CVE-2026-58226 Published : July 6, 2026, 11:16 a.m. | 9 hours, 10 minutes ago Description :Inefficient Algorithmic Complexity vulnerability in elixir-mint hpax allows unauthenticated...",
+      "summary": "CVE ID :CVE-2026-58226 Published : July 6, 2026, 11:16 a.m. | 10 hours, 11 minutes ago Description :Inefficient Algorithmic Complexity vulnerability in elixir-mint hpax allows unauthenticated...",
       "source": "CVE Feed",
       "published": "2026-07-06T11:16:31+00:00"
     },
     {
       "title": "CVE-2026-56810 - mint buffers an entire chunked response chunk in memory in Mint.HTTP1.decode_body/5",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-56810",
-      "summary": "CVE ID :CVE-2026-56810 Published : July 6, 2026, 11:16 a.m. | 9 hours, 10 minutes ago Description :Allocation of Resources Without Limits or Throttling vulnerability in elixir-mint mint (Mint.HTTP1...",
+      "summary": "CVE ID :CVE-2026-56810 Published : July 6, 2026, 11:16 a.m. | 10 hours, 11 minutes ago Description :Allocation of Resources Without Limits or Throttling vulnerability in elixir-mint mint (Mint.HTTP1...",
       "source": "CVE Feed",
       "published": "2026-07-06T11:16:30+00:00"
     },
     {
       "title": "CVE-2026-4249 - Denial of Service via Malicious JSON Payloads in Throttling Events in Multiple WSO2 Products Causing Persistent Service Disruption",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-4249",
-      "summary": "CVE ID :CVE-2026-4249 Published : July 6, 2026, 11:16 a.m. | 9 hours, 10 minutes ago Description :The throttling event handling mechanism in multiple WSO2 products accepts user-supplied JSON payloads...",
+      "summary": "CVE ID :CVE-2026-4249 Published : July 6, 2026, 11:16 a.m. | 10 hours, 11 minutes ago Description :The throttling event handling mechanism in multiple WSO2 products accepts user-supplied JSON...",
       "source": "CVE Feed",
       "published": "2026-07-06T11:16:30+00:00"
     },
     {
-      "title": "CVE-2026-44937 - SUSE Rancher Fleet had an Unauthenticated Webhook: Regex Injection via Unsanitized Repository URL Components",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-44937",
-      "summary": "CVE ID :CVE-2026-44937 Published : July 6, 2026, 11:16 a.m. | 9 hours, 10 minutes ago Description :Potential forgery of webhook requests when using a unauthenticated webhook in SUSE Rancher Fleet...",
+      "title": "CVE-2026-49297 - Apache Airflow Google provider: Path traversal via GCS object names → local/SFTP filesystem (GCSToSFTPOperator + GCSTimeSpanFileTransformOperator)",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-49297",
+      "summary": "CVE ID :CVE-2026-49297 Published : July 6, 2026, 11:16 a.m. | 10 hours, 11 minutes ago Description :Apache Airflow's Google provider operators `GCSToSFTPOperator` and...",
       "source": "CVE Feed",
-      "published": "2026-07-06T11:16:27+00:00"
-    },
-    {
-      "title": "CVE-2026-12686 - Incorrect authorisation in Adiss’s Biloop",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-12686",
-      "summary": "CVE ID :CVE-2026-12686 Published : July 6, 2026, 11:16 a.m. | 9 hours, 10 minutes ago Description :An authenticated user could manipulate a company ID parameter in a POST request to the backend to...",
-      "source": "CVE Feed",
-      "published": "2026-07-06T11:16:26+00:00"
+      "published": "2026-07-06T11:16:30+00:00"
     },
     {
       "title": "Suspected China-Nexus Hackers Use Fake Indian Tax Filing Utility to Deploy DcRAT",
@@ -336,27 +371,6 @@
       "summary": "A suspected China-nexus threat activity cluster has been observed targeting Indian taxpayers, tax professionals, and corporate finance teams to deliver a remote access trojan designed to steal...",
       "source": "The Hacker News",
       "published": "2026-07-06T10:58:16+00:00"
-    },
-    {
-      "title": "CVE-2026-46454 - Apache Camel: Camel-Cometd: Inbound Bayeux message headers are mapped into the Exchange without a HeaderFilterStrategy, allowing unauthenticated clients to inject Camel control headers",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-46454",
-      "summary": "CVE ID :CVE-2026-46454 Published : July 6, 2026, 9:16 a.m. | 11 hours, 10 minutes ago Description :Improper Input Validation vulnerability in Apache Camel Cometd Component. The camel-cometd component...",
-      "source": "CVE Feed",
-      "published": "2026-07-06T09:16:36+00:00"
-    },
-    {
-      "title": "CVE-2026-43865 - Apache Camel: Camel-Hazelcast: Unsafe Java deserialization in default-configured managed Hazelcast instances enables remote code execution",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-43865",
-      "summary": "CVE ID :CVE-2026-43865 Published : July 6, 2026, 9:16 a.m. | 11 hours, 10 minutes ago Description :Deserialization of Untrusted Data vulnerability in Apache Camel Hazelcast component. The...",
-      "source": "CVE Feed",
-      "published": "2026-07-06T09:16:35+00:00"
-    },
-    {
-      "title": "CVE-2026-42527 - Apache Camel: Permissive default ObjectInputFilter pattern admits java.net.** and enables DNS-based information disclosure",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-42527",
-      "summary": "CVE ID :CVE-2026-42527 Published : July 6, 2026, 9:16 a.m. | 11 hours, 10 minutes ago Description :Deserialization of Untrusted Data vulnerability in Apache Camel. The default ObjectInputFilter...",
-      "source": "CVE Feed",
-      "published": "2026-07-06T09:16:35+00:00"
     },
     {
       "title": "New TrojPix Attack Leaks Data From Air-Gapped Systems via Video Cable Emissions",
@@ -417,22 +431,22 @@
     {
       "title": "Unpatched Flaws Disclosed in Filesystem Bundled Into Millions of Embedded Devices",
       "link": "https://thehackernews.com/2026/07/unpatched-flaws-disclosed-in-filesystem.html",
-      "summary": "Security firm runZero has disclosed seven vulnerabilities in FatFs, a small filesystem library that lets a device read and write the FAT and exFAT formats used on USB drives and SD cards. The flaws...",
-      "source": "The Hacker News",
+      "summary": "Unpatched Flaws Disclosed in Filesystem Bundled Into Millions of Embedded Devices Security firm runZero has disclosed seven vulnerabilities in FatFs, a small filesystem library that lets a device...",
+      "source": "CVE Newsroom",
       "published": "2026-07-03T20:19:31+00:00"
     },
     {
       "title": "New \"Bad Epoll\" Linux Kernel Flaw Lets Unprivileged Users Gain Root, Hits Android",
       "link": "https://thehackernews.com/2026/07/new-bad-epoll-linux-kernel-flaw-lets.html",
-      "summary": "A newly disclosed Linux kernel flaw called Bad Epoll (CVE-2026-46242) lets an ordinary user with no special access take full control of a machine as root. It affects Linux desktops, servers, and...",
-      "source": "The Hacker News",
+      "summary": "New \"Bad Epoll\" Linux Kernel Flaw Lets Unprivileged Users Gain Root, Hits Android A newly disclosed Linux kernel flaw called Bad Epoll (CVE-2026-46242) lets an ordinary user with no special access...",
+      "source": "CVE Newsroom",
       "published": "2026-07-03T19:40:01+00:00"
     },
     {
       "title": "New Avalon Malware Framework Packs CrownX Ransomware Capabilities",
       "link": "https://thehackernews.com/2026/07/new-avalon-malware-framework-packs.html",
-      "summary": "Cybersecurity researchers have discovered a previously undocumented modular malware framework codenamed Avalon that's distributed by means of a multi-stage phishing chain capable of bypassing...",
-      "source": "The Hacker News",
+      "summary": "New Avalon Malware Framework Packs CrownX Ransomware Capabilities Cybersecurity researchers have discovered a previously undocumented modular malware framework codenamed Avalon that's distributed by...",
+      "source": "CVE Newsroom",
       "published": "2026-07-03T18:55:24+00:00"
     },
     {
@@ -466,8 +480,8 @@
     {
       "title": "Armored Likho Targets Government Agencies, Power Sector with BusySnake Stealer",
       "link": "https://thehackernews.com/2026/07/armored-likho-targets-government.html",
-      "summary": "A previously undocumented threat actor known as Armored Likho has been attributed to cyber attacks targeting government agencies and the electric power sector across Russia, Brazil, and Kazakhstan...",
-      "source": "The Hacker News",
+      "summary": "Armored Likho Targets Government Agencies, Power Sector with BusySnake Stealer A previously undocumented threat actor known as Armored Likho has been attributed to cyber attacks targeting government...",
+      "source": "CVE Newsroom",
       "published": "2026-07-03T13:36:33+00:00"
     },
     {
@@ -578,8 +592,8 @@
     {
       "title": "Ransomware Groups Turn to Citrix Bleed 2, BYOVD, and Supply Chain Credentials",
       "link": "https://thehackernews.com/2026/07/ransomware-groups-turn-to-citrix-bleed.html",
-      "summary": "Threat actors associated with the Anubis ransomware operation have been observed exploiting the Citrix Bleed 2 (CVE-2025-5777) vulnerability to obtain initial access. \"Although tactics differ between...",
-      "source": "The Hacker News",
+      "summary": "Ransomware Groups Turn to Citrix Bleed 2, BYOVD, and Supply Chain Credentials Threat actors associated with the Anubis ransomware operation have been observed exploiting the Citrix Bleed 2...",
+      "source": "CVE Newsroom",
       "published": "2026-07-02T18:30:33+00:00"
     },
     {
@@ -606,8 +620,8 @@
     {
       "title": "ThreatsDay: AI Compute Hijacking, Apple Email Flaw, BlueHammer Ransomware + 14 Stories",
       "link": "https://thehackernews.com/2026/07/threatsday-ai-compute-hijacking-apple.html",
-      "summary": "This week’s security news is mostly about weak spots. Browsers, bots, sandboxes, AI systems, and email flows all show the same problem in different ways. Everything looks normal until someone tests a...",
-      "source": "The Hacker News",
+      "summary": "ThreatsDay: AI Compute Hijacking, Apple Email Flaw, BlueHammer Ransomware + 14 Stories This week’s security news is mostly about weak spots.Browsers, bots, sandboxes, AI systems, and email flows all...",
+      "source": "CVE Newsroom",
       "published": "2026-07-02T15:24:18+00:00"
     },
     {
@@ -669,15 +683,15 @@
     {
       "title": "AI Agent Exploits Langflow RCE to Automate Database Ransomware Attack",
       "link": "https://thehackernews.com/2026/07/ai-agent-exploits-langflow-rce-to.html",
-      "summary": "Security firm Sysdig says it has found what it believes is the first ransomware attack run from start to finish by an AI agent. Its Threat Research Team calls the operator JADEPUFFER and says a large...",
-      "source": "The Hacker News",
+      "summary": "AI Agent Exploits Langflow RCE to Automate Database Ransomware Attack Security firm Sysdig says it has found what it believes is the first ransomware attack run from start to finish by an AI agent...",
+      "source": "CVE Newsroom",
       "published": "2026-07-02T09:13:13+00:00"
     },
     {
       "title": "FortiBleed Credential Theft Linked to INC and Lynx Ransomware Operations",
       "link": "https://thehackernews.com/2026/07/fortibleed-credential-theft-linked-to.html",
-      "summary": "The recently discovered financially-motivated FortiBleed campaign has been attributed to INC and Lynx ransomware operations, indicating that the verified, stolen credentials were intended for...",
-      "source": "The Hacker News",
+      "summary": "FortiBleed Credential Theft Linked to INC and Lynx Ransomware Operations The recently discovered financially-motivated FortiBleed campaign has been attributed to INC and Lynx ransomware operations...",
+      "source": "CVE Newsroom",
       "published": "2026-07-02T08:00:49+00:00"
     },
     {
@@ -690,15 +704,15 @@
     {
       "title": "New ChocoPoC RAT Targets Vulnerability Researchers via Fake PoC Exploit Repos",
       "link": "https://thehackernews.com/2026/07/new-chocopoc-rat-targets-vulnerability.html",
-      "summary": "Attackers are hiding a data-stealing trojan inside fake exploit code aimed at the people who hunt bugs for a living. The malware, called ChocoPoC, travels in Python proof-of-concept (PoC)...",
-      "source": "The Hacker News",
+      "summary": "New ChocoPoC RAT Targets Vulnerability Researchers via Fake PoC Exploit Repos Attackers are hiding a data-stealing trojan inside fake exploit code aimed at the people who hunt bugs for a living. The...",
+      "source": "CVE Newsroom",
       "published": "2026-07-02T07:24:23+00:00"
     },
     {
       "title": "SharePoint RCE CVE-2026-45659 Added to CISA KEV After Active Exploitation",
       "link": "https://thehackernews.com/2026/07/sharepoint-rce-cve-2026-45659-added-to.html",
-      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a high-severity flaw impacting Microsoft SharePoint Server to its Known Exploited Vulnerabilities (KEV) catalog...",
-      "source": "The Hacker News",
+      "summary": "SharePoint RCE CVE-2026-45659 Added to CISA KEV After Active Exploitation The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a high-severity flaw impacting Microsoft...",
+      "source": "CVE Newsroom",
       "published": "2026-07-02T05:46:45+00:00"
     },
     {
@@ -718,8 +732,8 @@
     {
       "title": "Unpatched Argo CD Repo-Server Flaw Could Let Attackers Take Over Kubernetes Clusters",
       "link": "https://thehackernews.com/2026/07/unpatched-argo-cd-repo-server-flaw.html",
-      "summary": "Argo CD, a widely used tool for deploying software to Kubernetes, has an unpatched flaw in its repo-server component that lets an unauthenticated attacker run code, provided they can reach the...",
-      "source": "The Hacker News",
+      "summary": "Unpatched Argo CD Repo-Server Flaw Could Let Attackers Take Over Kubernetes Clusters Argo CD, a widely used tool for deploying software to Kubernetes, has an unpatched flaw in its repo-server...",
+      "source": "CVE Newsroom",
       "published": "2026-07-01T19:40:06+00:00"
     },
     {
@@ -1155,20 +1169,6 @@
       "summary": "Attackers are using multiple online channels — including GitHub, YouTube, and VirusTotal — to build an illusion of trust to spread a cross-platform clipboard hijacker.",
       "source": "Dark Reading",
       "published": "2026-06-22T16:10:10+00:00"
-    },
-    {
-      "title": "He Thought He Was Secure; His Phone Number Was Stolen Anyway",
-      "link": "https://www.darkreading.com/cyber-risk/how-a-sim-swap-attack-led-to-a-near-account-takeover",
-      "summary": "Threat actors can easily steal one-time passwords sent by text when they conduct a SIM swap attack. This can lead to account takeovers, so users must layer up their security measures.",
-      "source": "Dark Reading",
-      "published": "2026-06-22T14:12:11+00:00"
-    },
-    {
-      "title": "Stressors, AI Forcing Changes to Cybersecurity Teams",
-      "link": "https://www.darkreading.com/cybersecurity-operations/stressors-ai-changes-cybersecurity-teams",
-      "summary": "As threats proliferate and AI complicates cybersecurity, CISOs say the job is getting harder, but more companies still want cybersecurity expertise, if even on a part-time basis.",
-      "source": "Dark Reading",
-      "published": "2026-06-19T13:00:00+00:00"
     },
     {
       "title": "‘Popa’ Botnet Linked to Publicly-Traded Israeli Firm",
