@@ -1,66 +1,171 @@
 {
-  "last_updated": "2026-07-07T02:10:48.009806+00:00",
+  "last_updated": "2026-07-07T07:29:38.950605+00:00",
   "articles": [
+    {
+      "title": "BeyondTrust Patches Critical Auth Bypass Flaws in Remote Support and PRA",
+      "link": "https://thehackernews.com/2026/07/beyondtrust-patches-critical-auth.html",
+      "summary": "BeyondTrust has released updates to address two critical security flaws affecting Remote Support (RS) and Privileged Remote Access (PRA) products that, if successfully exploited, could allow...",
+      "source": "The Hacker News",
+      "published": "2026-07-07T05:16:51+00:00"
+    },
+    {
+      "title": "CVE-2026-34158 - Coolify: Command injection via single-quote breakout in Docker Compose custom commands",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-34158",
+      "summary": "CVE ID :CVE-2026-34158 Published : July 7, 2026, 5:16 a.m. | 24 minutes ago Description :Coolify is an open-source and self-hostable tool for managing servers, applications, and databases. Prior to...",
+      "source": "CVE Feed",
+      "published": "2026-07-07T05:16:50+00:00"
+    },
+    {
+      "title": "CVE-2026-42200 - Coolify: PostgreSQL Init Script Path Traversal Leads to Arbitrary File Write and Root RCE",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-42200",
+      "summary": "CVE ID :CVE-2026-42200 Published : July 7, 2026, 4:17 a.m. | 1 hour, 23 minutes ago Description :Coolify is an open-source and self-hostable tool for managing servers, applications, and databases...",
+      "source": "CVE Feed",
+      "published": "2026-07-07T04:17:52+00:00"
+    },
+    {
+      "title": "CVE-2026-42143 - Coolify: OS Command Injection via Persistent Volume Names - Root RCE on Managed Servers",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-42143",
+      "summary": "CVE ID :CVE-2026-42143 Published : July 7, 2026, 4:17 a.m. | 1 hour, 23 minutes ago Description :Coolify is an open-source and self-hostable tool for managing servers, applications, and databases...",
+      "source": "CVE Feed",
+      "published": "2026-07-07T04:17:51+00:00"
+    },
+    {
+      "title": "CVE-2026-34171 - Coolify: Account takeover via CSRF-able GET endpoint that resets password to attacker-known value",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-34171",
+      "summary": "CVE ID :CVE-2026-34171 Published : July 7, 2026, 4:17 a.m. | 1 hour, 23 minutes ago Description :Coolify is an open-source and self-hostable tool for managing servers, applications, and databases...",
+      "source": "CVE Feed",
+      "published": "2026-07-07T04:17:50+00:00"
+    },
+    {
+      "title": "CVE-2026-34168 - Coolify: Command injection via unsanitized persistent storage name in docker volume commands",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-34168",
+      "summary": "CVE ID :CVE-2026-34168 Published : July 7, 2026, 4:17 a.m. | 1 hour, 23 minutes ago Description :Coolify is an open-source and self-hostable tool for managing servers, applications, and databases...",
+      "source": "CVE Feed",
+      "published": "2026-07-07T04:17:50+00:00"
+    },
+    {
+      "title": "CVE-2026-34152 - Coolify: Command Injection via Newline in Pre/Post Deployment Commands (Heredoc Transport)",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-34152",
+      "summary": "CVE ID :CVE-2026-34152 Published : July 7, 2026, 4:17 a.m. | 1 hour, 23 minutes ago Description :Coolify is an open-source and self-hostable tool for managing servers, applications, and databases...",
+      "source": "CVE Feed",
+      "published": "2026-07-07T04:17:50+00:00"
+    },
+    {
+      "title": "CVE-2026-34058 - Coolify: OS Command Injection via Unmanaged Container Operations - Remote Code Execution",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-34058",
+      "summary": "CVE ID :CVE-2026-34058 Published : July 7, 2026, 4:17 a.m. | 1 hour, 23 minutes ago Description :Coolify is an open-source and self-hostable tool for managing servers, applications, and databases...",
+      "source": "CVE Feed",
+      "published": "2026-07-07T04:17:49+00:00"
+    },
+    {
+      "title": "CVE-2026-34057 - Coolify: Authenticated Remote Code Execution via Command Injection in Database Import Container Name",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-34057",
+      "summary": "CVE ID :CVE-2026-34057 Published : July 7, 2026, 4:17 a.m. | 1 hour, 23 minutes ago Description :Coolify is an open-source and self-hostable tool for managing servers, applications, and databases...",
+      "source": "CVE Feed",
+      "published": "2026-07-07T04:17:48+00:00"
+    },
+    {
+      "title": "CVE-2026-34048 - Coolify: Missing authorization on terminal websocket bootstrap routes allows low-privileged members to execute commands on team servers",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-34048",
+      "summary": "CVE ID :CVE-2026-34048 Published : July 7, 2026, 4:17 a.m. | 1 hour, 23 minutes ago Description :Coolify is an open-source and self-hostable tool for managing servers, applications, and databases...",
+      "source": "CVE Feed",
+      "published": "2026-07-07T04:17:48+00:00"
+    },
+    {
+      "title": "CVE-2026-34047 - Coolify: WebSocket Endpoint Access Control Flaw Leading to Remote Code Execution",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-34047",
+      "summary": "CVE ID :CVE-2026-34047 Published : July 7, 2026, 4:17 a.m. | 1 hour, 23 minutes ago Description :Coolify is an open-source and self-hostable tool for managing servers, applications, and databases...",
+      "source": "CVE Feed",
+      "published": "2026-07-07T04:17:48+00:00"
+    },
+    {
+      "title": "CVE-2026-34037 - Cross-Tenant Resource Cloning via Broken Object-Level Authorization in cloneTo()",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-34037",
+      "summary": "CVE ID :CVE-2026-34037 Published : July 7, 2026, 4:17 a.m. | 1 hour, 23 minutes ago Description :Coolify is an open-source and self-hostable tool for managing servers, applications, and databases...",
+      "source": "CVE Feed",
+      "published": "2026-07-07T04:17:48+00:00"
+    },
+    {
+      "title": "CVE-2026-34035 - Coolify: Host RCE via Log Drain secret/env command injection",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-34035",
+      "summary": "CVE ID :CVE-2026-34035 Published : July 7, 2026, 4:17 a.m. | 1 hour, 23 minutes ago Description :Coolify is an open-source and self-hostable tool for managing servers, applications, and databases...",
+      "source": "CVE Feed",
+      "published": "2026-07-07T04:17:47+00:00"
+    },
+    {
+      "title": "CVE-2026-34034 - Coolify: Host RCE via Sentinel token injection",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-34034",
+      "summary": "CVE ID :CVE-2026-34034 Published : July 7, 2026, 4:17 a.m. | 1 hour, 23 minutes ago Description :Coolify is an open-source and self-hostable tool for managing servers, applications, and databases...",
+      "source": "CVE Feed",
+      "published": "2026-07-07T04:17:47+00:00"
+    },
+    {
+      "title": "Adobe ColdFusion CVE-2026-48282: Under Active Exploitation",
+      "link": "https://thecyberthrone.in/2026/07/07/adobe-coldfusion-cve-2026-48282-under-active-exploitation/",
+      "summary": "Adobe ColdFusion CVE-2026-48282: Under Active Exploitation Executive SummaryAdobe has released an emergency security update for CVE-2026-48282, a critical vulnerability affecting Adobe ColdFusion...",
+      "source": "CVE Newsroom",
+      "published": "2026-07-07T00:48:18+00:00"
+    },
     {
       "title": "CVE-2026-53645 - FOSSBilling's missing self-edit prevention in staff permission management allows persistent privilege escalation",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-53645",
-      "summary": "CVE ID :CVE-2026-53645 Published : July 6, 2026, 11:16 p.m. | 1 hour, 10 minutes ago Description :FOSSBilling is a free, open-source billing and client management system. Versions prior to 0.8.0...",
+      "summary": "CVE ID :CVE-2026-53645 Published : July 6, 2026, 11:16 p.m. | 6 hours, 24 minutes ago Description :FOSSBilling is a free, open-source billing and client management system. Versions prior to 0.8.0...",
       "source": "CVE Feed",
       "published": "2026-07-06T23:16:56+00:00"
     },
     {
       "title": "CVE-2026-53644 - FOSSBilling's missing order-state validation allows clients to read and reset API key secrets for non-active orders",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-53644",
-      "summary": "CVE ID :CVE-2026-53644 Published : July 6, 2026, 11:16 p.m. | 1 hour, 10 minutes ago Description :FOSSBilling is a free, open-source billing and client management system. Versions 0.5.3 through 0.7.2...",
+      "summary": "CVE ID :CVE-2026-53644 Published : July 6, 2026, 11:16 p.m. | 6 hours, 24 minutes ago Description :FOSSBilling is a free, open-source billing and client management system. Versions 0.5.3 through...",
       "source": "CVE Feed",
       "published": "2026-07-06T23:16:56+00:00"
     },
     {
       "title": "CVE-2026-53643 - FOSSBilling allows low-privileged staff accounts to perform unauthorized actions via admin API endpoints",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-53643",
-      "summary": "CVE ID :CVE-2026-53643 Published : July 6, 2026, 11:16 p.m. | 1 hour, 10 minutes ago Description :FOSSBilling is a free, open-source billing and client management system. Versions prior to 0.8.0...",
+      "summary": "CVE ID :CVE-2026-53643 Published : July 6, 2026, 11:16 p.m. | 6 hours, 24 minutes ago Description :FOSSBilling is a free, open-source billing and client management system. Versions prior to 0.8.0...",
       "source": "CVE Feed",
       "published": "2026-07-06T23:16:56+00:00"
     },
     {
       "title": "CVE-2026-43921 - FOSSBilling vulnerable to arbitrary PHP code injection via unescaped config serialization",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-43921",
-      "summary": "CVE ID :CVE-2026-43921 Published : July 6, 2026, 10:16 p.m. | 2 hours, 10 minutes ago Description :FOSSBilling is a free, open-source billing and client management system. Versions 0.6.10 through...",
+      "summary": "CVE ID :CVE-2026-43921 Published : July 6, 2026, 10:16 p.m. | 7 hours, 24 minutes ago Description :FOSSBilling is a free, open-source billing and client management system. Versions 0.6.10 through...",
       "source": "CVE Feed",
       "published": "2026-07-06T22:16:49+00:00"
     },
     {
       "title": "CVE-2026-43918 - Suspended or inactive FOSSBilling accounts can retain or regain access through existing sessions, API tokens, and password reset flows",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-43918",
-      "summary": "CVE ID :CVE-2026-43918 Published : July 6, 2026, 10:16 p.m. | 2 hours, 10 minutes ago Description :FOSSBilling is a free, open-source billing and client management system. Prior to version 0.8.0...",
+      "summary": "CVE ID :CVE-2026-43918 Published : July 6, 2026, 10:16 p.m. | 7 hours, 24 minutes ago Description :FOSSBilling is a free, open-source billing and client management system. Prior to version 0.8.0...",
       "source": "CVE Feed",
       "published": "2026-07-06T22:16:49+00:00"
     },
     {
       "title": "CVE-2026-42204 - Coolify: Authenticated RCE via SHELL_SAFE_COMMAND_PATTERN regression → host root",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-42204",
-      "summary": "CVE ID :CVE-2026-42204 Published : July 6, 2026, 10:16 p.m. | 2 hours, 10 minutes ago Description :Coolify is an open-source and self-hostable tool for managing servers, applications, and databases...",
+      "summary": "CVE ID :CVE-2026-42204 Published : July 6, 2026, 10:16 p.m. | 7 hours, 24 minutes ago Description :Coolify is an open-source and self-hostable tool for managing servers, applications, and databases...",
       "source": "CVE Feed",
       "published": "2026-07-06T22:16:49+00:00"
     },
     {
       "title": "CVE-2026-42153 - Coolify: PostgreSQL Healthcheck Command Injection Allows Root Code Execution in Container",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-42153",
-      "summary": "CVE ID :CVE-2026-42153 Published : July 6, 2026, 10:16 p.m. | 2 hours, 10 minutes ago Description :Coolify is an open-source and self-hostable tool for managing servers, applications, and databases...",
+      "summary": "CVE ID :CVE-2026-42153 Published : July 6, 2026, 10:16 p.m. | 7 hours, 24 minutes ago Description :Coolify is an open-source and self-hostable tool for managing servers, applications, and databases...",
       "source": "CVE Feed",
       "published": "2026-07-06T22:16:49+00:00"
     },
     {
       "title": "CVE-2026-34599 - Coolify: Authenticated Remote Code Execution in GetLogs Livewire Component",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-34599",
-      "summary": "CVE ID :CVE-2026-34599 Published : July 6, 2026, 10:16 p.m. | 2 hours, 10 minutes ago Description :Coolify is an open-source and self-hostable tool for managing servers, applications, and databases...",
+      "summary": "CVE ID :CVE-2026-34599 Published : July 6, 2026, 10:16 p.m. | 7 hours, 24 minutes ago Description :Coolify is an open-source and self-hostable tool for managing servers, applications, and databases...",
       "source": "CVE Feed",
       "published": "2026-07-06T22:16:48+00:00"
     },
     {
       "title": "CVE-2026-34153 - Coolify LocalFileVolume fs_path command injection enables RCE",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-34153",
-      "summary": "CVE ID :CVE-2026-34153 Published : July 6, 2026, 10:16 p.m. | 2 hours, 10 minutes ago Description :Coolify is an open-source and self-hostable tool for managing servers, applications, and databases...",
+      "summary": "CVE ID :CVE-2026-34153 Published : July 6, 2026, 10:16 p.m. | 7 hours, 24 minutes ago Description :Coolify is an open-source and self-hostable tool for managing servers, applications, and databases...",
       "source": "CVE Feed",
       "published": "2026-07-06T22:16:48+00:00"
     },
@@ -81,72 +186,23 @@
     {
       "title": "CVE-2026-59713 - Leantime - OIDC Login CSRF via Unconditional State Verification Stub",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-59713",
-      "summary": "CVE ID :CVE-2026-59713 Published : July 6, 2026, 9:16 p.m. | 3 hours, 10 minutes ago Description :Leantime contains an OIDC login CSRF vulnerability in the verifyState() method that unconditionally...",
+      "summary": "CVE ID :CVE-2026-59713 Published : July 6, 2026, 9:16 p.m. | 8 hours, 24 minutes ago Description :Leantime contains an OIDC login CSRF vulnerability in the verifyState() method that unconditionally...",
       "source": "CVE Feed",
       "published": "2026-07-06T21:16:58+00:00"
     },
     {
       "title": "CVE-2026-59712 - Leantime - Credential Disclosure via Unauthenticated JSON-RPC users.getUser Method",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-59712",
-      "summary": "CVE ID :CVE-2026-59712 Published : July 6, 2026, 9:16 p.m. | 3 hours, 10 minutes ago Description :Leantime's Users::getUser method in the JSON-RPC API lacks proper authorization checks, allowing...",
+      "summary": "CVE ID :CVE-2026-59712 Published : July 6, 2026, 9:16 p.m. | 8 hours, 24 minutes ago Description :Leantime's Users::getUser method in the JSON-RPC API lacks proper authorization checks, allowing...",
       "source": "CVE Feed",
       "published": "2026-07-06T21:16:58+00:00"
     },
     {
       "title": "CVE-2026-57573 - Crawl4AI unauthenticated SSRF in Docker streaming crawl endpoint",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-57573",
-      "summary": "CVE ID :CVE-2026-57573 Published : July 6, 2026, 9:16 p.m. | 3 hours, 10 minutes ago Description :Crawl4AI is an open-source LLM-friendly web crawler and scraper. Prior to 0.9.0, the Docker API...",
+      "summary": "CVE ID :CVE-2026-57573 Published : July 6, 2026, 9:16 p.m. | 8 hours, 24 minutes ago Description :Crawl4AI is an open-source LLM-friendly web crawler and scraper. Prior to 0.9.0, the Docker API...",
       "source": "CVE Feed",
       "published": "2026-07-06T21:16:58+00:00"
-    },
-    {
-      "title": "CVE-2026-57572 - Crawl4AI: Unauthenticated RCE via Chromium launch-argument injection in browser_config.extra_args",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-57572",
-      "summary": "CVE ID :CVE-2026-57572 Published : July 6, 2026, 9:16 p.m. | 3 hours, 10 minutes ago Description :Crawl4AI is an open-source LLM-friendly web crawler and scraper. Prior to 0.9.0, the Docker API...",
-      "source": "CVE Feed",
-      "published": "2026-07-06T21:16:58+00:00"
-    },
-    {
-      "title": "CVE-2026-57571 - Crawl4AI arbitrary file write via download filename path traversal",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-57571",
-      "summary": "CVE ID :CVE-2026-57571 Published : July 6, 2026, 9:16 p.m. | 3 hours, 10 minutes ago Description :Crawl4AI is an open-source LLM-friendly web crawler and scraper. Prior to 0.9.0, when the crawler...",
-      "source": "CVE Feed",
-      "published": "2026-07-06T21:16:57+00:00"
-    },
-    {
-      "title": "CVE-2026-55574 - vLLM: ReDoS via structured_outputs.regex compiled without timeout in xgrammar and outlines backends",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55574",
-      "summary": "CVE ID :CVE-2026-55574 Published : July 6, 2026, 9:16 p.m. | 3 hours, 10 minutes ago Description :vLLM is a high-throughput and memory-efficient inference and serving engine for LLMs. Prior to...",
-      "source": "CVE Feed",
-      "published": "2026-07-06T21:16:57+00:00"
-    },
-    {
-      "title": "CVE-2026-42341 - FOSSBilling has an unauthenticated payment bypass via IPN callback forgery",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-42341",
-      "summary": "CVE ID :CVE-2026-42341 Published : July 6, 2026, 9:16 p.m. | 3 hours, 10 minutes ago Description :FOSSBilling is a free, open-source billing and client management system. Versions 0.6.0 through 0.7.2...",
-      "source": "CVE Feed",
-      "published": "2026-07-06T21:16:55+00:00"
-    },
-    {
-      "title": "CVE-2026-34038 - Coolify authenticated remote command injection leading to RCE and secret exfiltration",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-34038",
-      "summary": "CVE ID :CVE-2026-34038 Published : July 6, 2026, 9:16 p.m. | 3 hours, 10 minutes ago Description :Coolify is an open-source and self-hostable tool for managing servers, applications, and databases...",
-      "source": "CVE Feed",
-      "published": "2026-07-06T21:16:55+00:00"
-    },
-    {
-      "title": "CVE-2026-25268 - Stack-based Buffer Overflow in WLAN Host",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-25268",
-      "summary": "CVE ID :CVE-2026-25268 Published : July 6, 2026, 9:16 p.m. | 3 hours, 10 minutes ago Description :Memory Corruption when processing invalid HT40 channel layouts during dynamic channel switching...",
-      "source": "CVE Feed",
-      "published": "2026-07-06T21:16:54+00:00"
-    },
-    {
-      "title": "CVE-2026-14471 - Authenticated SQL injection in the metrics-service retention policy subsystem of mcp-gateway-registry",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-14471",
-      "summary": "CVE ID :CVE-2026-14471 Published : July 6, 2026, 9:16 p.m. | 3 hours, 10 minutes ago Description :Improper Neutralization of Special Elements in the metrics-service retention policy management...",
-      "source": "CVE Feed",
-      "published": "2026-07-06T21:16:53+00:00"
     },
     {
       "title": "Canadian spy agency reports hacking three criminal groups in 2025",
@@ -177,20 +233,6 @@
       "published": "2026-07-06T20:23:45+00:00"
     },
     {
-      "title": "CVE-2026-9181 - Directory Traversal in ArcGIS Server",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-9181",
-      "summary": "CVE ID :CVE-2026-9181 Published : July 6, 2026, 7:17 p.m. | 5 hours, 10 minutes ago Description :ArcGIS Server contains a directory traversal vulnerability. An unauthenticated attacker could exploit...",
-      "source": "CVE Feed",
-      "published": "2026-07-06T19:17:09+00:00"
-    },
-    {
-      "title": "CVE-2026-54291 - Silent channel-binding authentication downgrade via unsupported certificate algorithms",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54291",
-      "summary": "CVE ID :CVE-2026-54291 Published : July 6, 2026, 7:17 p.m. | 5 hours, 10 minutes ago Description :pgjdbc is an open source postgresql JDBC Driver. In releases 42.7.4 through 42.7.11...",
-      "source": "CVE Feed",
-      "published": "2026-07-06T19:17:08+00:00"
-    },
-    {
       "title": "Blogspot-Hosted Payloads Delivered in ‘Veil#Drop’ Attacks",
       "link": "https://www.securityweek.com/blogspot-hosted-payloads-delivered-in-veildrop-attacks/",
       "summary": "Securonix says the sophisticated framework abuses compromised websites, Blogspot, PowerShell, and fileless techniques to evade detection and deploy the PureLog information stealer. The post...",
@@ -200,8 +242,8 @@
     {
       "title": "Iran-Linked Hackers Use New Cavern C2 Framework to Target Israeli Organizations",
       "link": "https://thehackernews.com/2026/07/iran-linked-hackers-use-new-cavern-c2.html",
-      "summary": "Iran-Linked Hackers Use New Cavern C2 Framework to Target Israeli Organizations An Iranian hacking group affiliated with Iran's Ministry of Intelligence and Security (MOIS) has been wielding a...",
-      "source": "CVE Newsroom",
+      "summary": "An Iranian hacking group affiliated with Iran's Ministry of Intelligence and Security (MOIS) has been wielding a previously undocumented modular command-and-control (C2) framework dubbed Cavern (aka...",
+      "source": "The Hacker News",
       "published": "2026-07-06T18:34:26+00:00"
     },
     {
@@ -210,13 +252,6 @@
       "summary": "​Vietnamese authorities have arrested and are prosecuting seven suspects believed to have run HiAnime, the largest anime piracy streaming service before its shutdown in June. [...]",
       "source": "BleepingComputer",
       "published": "2026-07-06T18:25:06+00:00"
-    },
-    {
-      "title": "CVE-2026-48614 - Plesk XML API Improper Authorization Privilege Escalation",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48614",
-      "summary": "CVE ID :CVE-2026-48614 Published : July 6, 2026, 6:16 p.m. | 6 hours, 10 minutes ago Description :An improper authorization vulnerability in the Plesk XML API allows an authenticated user to inject...",
-      "source": "CVE Feed",
-      "published": "2026-07-06T18:16:46+00:00"
     },
     {
       "title": "Major medical device manufacturer notifies nearly 4 million of breach",
@@ -228,30 +263,9 @@
     {
       "title": "16-Year-Old Linux KVM Flaw Lets Guest VMs Escape to Host on Intel and AMD x86 Systems",
       "link": "https://thehackernews.com/2026/07/16-year-old-linux-kvm-flaw-lets-guest.html",
-      "summary": "16-Year-Old Linux KVM Flaw Lets Guest VMs Escape to Host on Intel and AMD x86 Systems A use-after-free bug in Linux's KVM hypervisor can be triggered from a guest virtual machine to corrupt the...",
-      "source": "CVE Newsroom",
+      "summary": "A use-after-free bug in Linux's KVM hypervisor can be triggered from a guest virtual machine to corrupt the shadow-page state of the host kernel that runs it. Dubbed 'Januscape' and tracked as...",
+      "source": "The Hacker News",
       "published": "2026-07-06T17:37:01+00:00"
-    },
-    {
-      "title": "CVE-2026-48316 - ColdFusion | Improper Input Validation (CWE-20)",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48316",
-      "summary": "CVE ID :CVE-2026-48316 Published : July 6, 2026, 5:16 p.m. | 7 hours, 10 minutes ago Description :ColdFusion versions 2025.9, 2023.20 and earlier are affected by an Improper Input Validation...",
-      "source": "CVE Feed",
-      "published": "2026-07-06T17:16:32+00:00"
-    },
-    {
-      "title": "CVE-2026-40141 - High-Severity Vulnerability In Web Application Component of BeyondTrust Remote Support and Privileged Remote Access",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-40141",
-      "summary": "CVE ID :CVE-2026-40141 Published : July 6, 2026, 5:16 p.m. | 7 hours, 10 minutes ago Description :A high-severity vulnerability exists in a web application component of BeyondTrust Remote Support and...",
-      "source": "CVE Feed",
-      "published": "2026-07-06T17:16:31+00:00"
-    },
-    {
-      "title": "CVE-2026-40140 - High-Severity Pre-Authentication Vulnerability in BeyondTrust Remote Support and Privileged Remote Access",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-40140",
-      "summary": "CVE ID :CVE-2026-40140 Published : July 6, 2026, 5:16 p.m. | 7 hours, 10 minutes ago Description :BeyondTrust Remote Support and Privileged Remote Access contain a high-severity pre-authentication...",
-      "source": "CVE Feed",
-      "published": "2026-07-06T17:16:31+00:00"
     },
     {
       "title": "Japanese teen arrested over cyberattack that disrupted anime streaming service",
@@ -270,8 +284,8 @@
     {
       "title": "Threat Actors Probe Gitea Docker Flaw CVE-2026-20896 13 Days After Disclosure",
       "link": "https://thehackernews.com/2026/07/threat-actors-probe-gitea-docker-flaw.html",
-      "summary": "Threat Actors Probe Gitea Docker Flaw CVE-2026-20896 13 Days After Disclosure Threat actors have been observed attempting to exploit a recently patched critical security flaw in Gitea Docker images...",
-      "source": "CVE Newsroom",
+      "summary": "Threat actors have been observed attempting to exploit a recently patched critical security flaw in Gitea Docker images, according to Sysdig. The vulnerability in question is CVE-2026-20896 (CVSS...",
+      "source": "The Hacker News",
       "published": "2026-07-06T16:28:59+00:00"
     },
     {
@@ -333,8 +347,8 @@
     {
       "title": "⚡ Weekly Recap: Proxy Botnets, Browser Ransomware, AI Agent Tricks, Fake PoC Malware and More",
       "link": "https://thehackernews.com/2026/07/monday-recap-proxy-botnets-browser.html",
-      "summary": "⚡ Weekly Recap: Proxy Botnets, Browser Ransomware, AI Agent Tricks, Fake PoC Malware and More A streaming box should not need a threat model. Neither should a username field, a demo repo, a reset...",
-      "source": "CVE Newsroom",
+      "summary": "A streaming box should not need a threat model. Neither should a username field, a demo repo, a reset flow, or a browser permission prompt. That is the irritating part this week: the risky pieces...",
+      "source": "The Hacker News",
       "published": "2026-07-06T13:01:14+00:00"
     },
     {
@@ -431,22 +445,22 @@
     {
       "title": "Unpatched Flaws Disclosed in Filesystem Bundled Into Millions of Embedded Devices",
       "link": "https://thehackernews.com/2026/07/unpatched-flaws-disclosed-in-filesystem.html",
-      "summary": "Unpatched Flaws Disclosed in Filesystem Bundled Into Millions of Embedded Devices Security firm runZero has disclosed seven vulnerabilities in FatFs, a small filesystem library that lets a device...",
-      "source": "CVE Newsroom",
+      "summary": "Security firm runZero has disclosed seven vulnerabilities in FatFs, a small filesystem library that lets a device read and write the FAT and exFAT formats used on USB drives and SD cards. The flaws...",
+      "source": "The Hacker News",
       "published": "2026-07-03T20:19:31+00:00"
     },
     {
       "title": "New \"Bad Epoll\" Linux Kernel Flaw Lets Unprivileged Users Gain Root, Hits Android",
       "link": "https://thehackernews.com/2026/07/new-bad-epoll-linux-kernel-flaw-lets.html",
-      "summary": "New \"Bad Epoll\" Linux Kernel Flaw Lets Unprivileged Users Gain Root, Hits Android A newly disclosed Linux kernel flaw called Bad Epoll (CVE-2026-46242) lets an ordinary user with no special access...",
-      "source": "CVE Newsroom",
+      "summary": "A newly disclosed Linux kernel flaw called Bad Epoll (CVE-2026-46242) lets an ordinary user with no special access take full control of a machine as root. It affects Linux desktops, servers, and...",
+      "source": "The Hacker News",
       "published": "2026-07-03T19:40:01+00:00"
     },
     {
       "title": "New Avalon Malware Framework Packs CrownX Ransomware Capabilities",
       "link": "https://thehackernews.com/2026/07/new-avalon-malware-framework-packs.html",
-      "summary": "New Avalon Malware Framework Packs CrownX Ransomware Capabilities Cybersecurity researchers have discovered a previously undocumented modular malware framework codenamed Avalon that's distributed by...",
-      "source": "CVE Newsroom",
+      "summary": "Cybersecurity researchers have discovered a previously undocumented modular malware framework codenamed Avalon that's distributed by means of a multi-stage phishing chain capable of bypassing...",
+      "source": "The Hacker News",
       "published": "2026-07-03T18:55:24+00:00"
     },
     {
@@ -480,8 +494,8 @@
     {
       "title": "Armored Likho Targets Government Agencies, Power Sector with BusySnake Stealer",
       "link": "https://thehackernews.com/2026/07/armored-likho-targets-government.html",
-      "summary": "Armored Likho Targets Government Agencies, Power Sector with BusySnake Stealer A previously undocumented threat actor known as Armored Likho has been attributed to cyber attacks targeting government...",
-      "source": "CVE Newsroom",
+      "summary": "A previously undocumented threat actor known as Armored Likho has been attributed to cyber attacks targeting government agencies and the electric power sector across Russia, Brazil, and Kazakhstan...",
+      "source": "The Hacker News",
       "published": "2026-07-03T13:36:33+00:00"
     },
     {
@@ -592,8 +606,8 @@
     {
       "title": "Ransomware Groups Turn to Citrix Bleed 2, BYOVD, and Supply Chain Credentials",
       "link": "https://thehackernews.com/2026/07/ransomware-groups-turn-to-citrix-bleed.html",
-      "summary": "Ransomware Groups Turn to Citrix Bleed 2, BYOVD, and Supply Chain Credentials Threat actors associated with the Anubis ransomware operation have been observed exploiting the Citrix Bleed 2...",
-      "source": "CVE Newsroom",
+      "summary": "Threat actors associated with the Anubis ransomware operation have been observed exploiting the Citrix Bleed 2 (CVE-2025-5777) vulnerability to obtain initial access. \"Although tactics differ between...",
+      "source": "The Hacker News",
       "published": "2026-07-02T18:30:33+00:00"
     },
     {
@@ -620,8 +634,8 @@
     {
       "title": "ThreatsDay: AI Compute Hijacking, Apple Email Flaw, BlueHammer Ransomware + 14 Stories",
       "link": "https://thehackernews.com/2026/07/threatsday-ai-compute-hijacking-apple.html",
-      "summary": "ThreatsDay: AI Compute Hijacking, Apple Email Flaw, BlueHammer Ransomware + 14 Stories This week’s security news is mostly about weak spots.Browsers, bots, sandboxes, AI systems, and email flows all...",
-      "source": "CVE Newsroom",
+      "summary": "This week’s security news is mostly about weak spots. Browsers, bots, sandboxes, AI systems, and email flows all show the same problem in different ways. Everything looks normal until someone tests a...",
+      "source": "The Hacker News",
       "published": "2026-07-02T15:24:18+00:00"
     },
     {
@@ -683,15 +697,15 @@
     {
       "title": "AI Agent Exploits Langflow RCE to Automate Database Ransomware Attack",
       "link": "https://thehackernews.com/2026/07/ai-agent-exploits-langflow-rce-to.html",
-      "summary": "AI Agent Exploits Langflow RCE to Automate Database Ransomware Attack Security firm Sysdig says it has found what it believes is the first ransomware attack run from start to finish by an AI agent...",
-      "source": "CVE Newsroom",
+      "summary": "Security firm Sysdig says it has found what it believes is the first ransomware attack run from start to finish by an AI agent. Its Threat Research Team calls the operator JADEPUFFER and says a large...",
+      "source": "The Hacker News",
       "published": "2026-07-02T09:13:13+00:00"
     },
     {
       "title": "FortiBleed Credential Theft Linked to INC and Lynx Ransomware Operations",
       "link": "https://thehackernews.com/2026/07/fortibleed-credential-theft-linked-to.html",
-      "summary": "FortiBleed Credential Theft Linked to INC and Lynx Ransomware Operations The recently discovered financially-motivated FortiBleed campaign has been attributed to INC and Lynx ransomware operations...",
-      "source": "CVE Newsroom",
+      "summary": "The recently discovered financially-motivated FortiBleed campaign has been attributed to INC and Lynx ransomware operations, indicating that the verified, stolen credentials were intended for...",
+      "source": "The Hacker News",
       "published": "2026-07-02T08:00:49+00:00"
     },
     {
@@ -704,15 +718,15 @@
     {
       "title": "New ChocoPoC RAT Targets Vulnerability Researchers via Fake PoC Exploit Repos",
       "link": "https://thehackernews.com/2026/07/new-chocopoc-rat-targets-vulnerability.html",
-      "summary": "New ChocoPoC RAT Targets Vulnerability Researchers via Fake PoC Exploit Repos Attackers are hiding a data-stealing trojan inside fake exploit code aimed at the people who hunt bugs for a living. The...",
-      "source": "CVE Newsroom",
+      "summary": "Attackers are hiding a data-stealing trojan inside fake exploit code aimed at the people who hunt bugs for a living. The malware, called ChocoPoC, travels in Python proof-of-concept (PoC)...",
+      "source": "The Hacker News",
       "published": "2026-07-02T07:24:23+00:00"
     },
     {
       "title": "SharePoint RCE CVE-2026-45659 Added to CISA KEV After Active Exploitation",
       "link": "https://thehackernews.com/2026/07/sharepoint-rce-cve-2026-45659-added-to.html",
-      "summary": "SharePoint RCE CVE-2026-45659 Added to CISA KEV After Active Exploitation The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a high-severity flaw impacting Microsoft...",
-      "source": "CVE Newsroom",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a high-severity flaw impacting Microsoft SharePoint Server to its Known Exploited Vulnerabilities (KEV) catalog...",
+      "source": "The Hacker News",
       "published": "2026-07-02T05:46:45+00:00"
     },
     {
@@ -732,8 +746,8 @@
     {
       "title": "Unpatched Argo CD Repo-Server Flaw Could Let Attackers Take Over Kubernetes Clusters",
       "link": "https://thehackernews.com/2026/07/unpatched-argo-cd-repo-server-flaw.html",
-      "summary": "Unpatched Argo CD Repo-Server Flaw Could Let Attackers Take Over Kubernetes Clusters Argo CD, a widely used tool for deploying software to Kubernetes, has an unpatched flaw in its repo-server...",
-      "source": "CVE Newsroom",
+      "summary": "Argo CD, a widely used tool for deploying software to Kubernetes, has an unpatched flaw in its repo-server component that lets an unauthenticated attacker run code, provided they can reach the...",
+      "source": "The Hacker News",
       "published": "2026-07-01T19:40:06+00:00"
     },
     {
@@ -756,13 +770,6 @@
       "summary": "Cybersecurity researchers have flagged a new multi-stage malware delivery attack chain that uses social engineering and Blogger pages to deliver an information stealer called PureLogs. The activity...",
       "source": "The Hacker News",
       "published": "2026-07-01T17:18:50+00:00"
-    },
-    {
-      "title": "Google Chrome 150 Security Update: 382 Vulnerabilities Fixed",
-      "link": "https://thecyberthrone.in/2026/07/01/google-chrome-150-security-update-382-vulnerabilities-fixed/",
-      "summary": "Google Chrome 150 Security Update: 382 Vulnerabilities Fixed Google has released Chrome 150, delivering one of its most extensive security patch cycles of 2026. The update addresses 382...",
-      "source": "CVE Newsroom",
-      "published": "2026-07-01T16:11:05+00:00"
     },
     {
       "title": "When Too Much Security Data Becomes the Risk",
@@ -938,13 +945,6 @@
       "summary": "The safety check that is supposed to stop an AI coding agent from running a dangerous command can be walked straight past using a shell trick that has been public for decades. New research from...",
       "source": "The Hacker News",
       "published": "2026-06-30T14:26:15+00:00"
-    },
-    {
-      "title": "282 iOS AI Apps Leak API Keys and Open AI Proxy Access in Network Traffic Study",
-      "link": "https://thehackernews.com/2026/06/282-ios-apps-found-leaking-llm-api-keys.html",
-      "summary": "Researchers tested 444 AI chatbot apps for iPhone and found that 282 of them, nearly two-thirds, exposed paid AI access through their network traffic. In many cases, the path in was visible just by...",
-      "source": "The Hacker News",
-      "published": "2026-06-30T13:49:34+00:00"
     },
     {
       "title": "AI-Generated Workflows Are a Silent Security Disaster",
