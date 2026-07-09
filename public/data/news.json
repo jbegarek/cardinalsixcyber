@@ -1,59 +1,150 @@
 {
-  "last_updated": "2026-07-09T02:04:21.925028+00:00",
+  "last_updated": "2026-07-09T07:34:39.453152+00:00",
   "articles": [
+    {
+      "title": "Chrome 150 Update Patches 27 Vulnerabilities",
+      "link": "https://www.securityweek.com/chrome-150-update-patches-27-vulnerabilities/",
+      "summary": "The security refresh resolves 13 use-after-free bugs, including two critical-severity flaws found by Google. The post Chrome 150 Update Patches 27 Vulnerabilities appeared first on SecurityWeek.",
+      "source": "SecurityWeek",
+      "published": "2026-07-09T07:27:59+00:00"
+    },
+    {
+      "title": "8Layers Raises $2.9 Million for Identity Security Platform",
+      "link": "https://www.securityweek.com/8layers-raises-2-9-million-for-identity-security-platform/",
+      "summary": "The Spanish startup has closed an extended pre-seed funding round two months after launching its digital identity protection platform. The post 8Layers Raises $2.9 Million for Identity Security...",
+      "source": "SecurityWeek",
+      "published": "2026-07-09T06:45:22+00:00"
+    },
+    {
+      "title": "CVE-2026-47840 - LDAP StartTLS unconditionally disables hostname verification",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-47840",
+      "summary": "CVE ID :CVE-2026-47840 Published : July 9, 2026, 6:26 a.m. | 51 minutes ago Description :A network attacker positioned between UAA and its LDAP directory can impersonate the directory using any...",
+      "source": "CVE Feed",
+      "published": "2026-07-09T06:26:02+00:00"
+    },
+    {
+      "title": "CVE-2026-47830 - Incorrect Permission Assignment Allows Local Privilege Escalation to SYSTEM via Executable Overwrite",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-47830",
+      "summary": "CVE ID :CVE-2026-47830 Published : July 9, 2026, 6:25 a.m. | 51 minutes ago Description :Incorrect Permission Assignment in BOSH.Utils.psm1 in BOSH-Ecosystem bosh-windows-stemcell-builder allows...",
+      "source": "CVE Feed",
+      "published": "2026-07-09T06:25:58+00:00"
+    },
+    {
+      "title": "CVE-2026-47829 - Argument Injection in BOSH CLI Allows Local Command Execution on Operator Workstations via Compromised Director",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-47829",
+      "summary": "CVE ID :CVE-2026-47829 Published : July 9, 2026, 6:25 a.m. | 51 minutes ago Description :Argument Injection in bosh-cli allows a compromised BOSH Director to inject arbitrary OpenSSH options into the...",
+      "source": "CVE Feed",
+      "published": "2026-07-09T06:25:56+00:00"
+    },
+    {
+      "title": "CVE-2026-5523 - Divi Form Builder <= 5.1.8 - Authenticated (Subscriber+) Missing Authorization to Privilege Escalation via User Profile Update Form",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-5523",
+      "summary": "CVE ID :CVE-2026-5523 Published : July 9, 2026, 6:16 a.m. | 1 hour ago Description :The Divi Form Builder plugin for WordPress is vulnerable to Missing Authorization in versions up to, and including...",
+      "source": "CVE Feed",
+      "published": "2026-07-09T06:16:21+00:00"
+    },
+    {
+      "title": "CVE-2026-47828 - Missing TLS Certificate Verification in BOSH CLI Allows Root Code Execution via Man-in-the-Middle Credential Replay",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-47828",
+      "summary": "CVE ID :CVE-2026-47828 Published : July 9, 2026, 6:07 a.m. | 1 hour, 10 minutes ago Description :During bosh create-env and bosh delete-env, the CLI uploads compiled CPI packages and rendered job...",
+      "source": "CVE Feed",
+      "published": "2026-07-09T06:07:10+00:00"
+    },
+    {
+      "title": "CVE-2026-47826 - blobs.yaml Path Traversal Allows File Writes",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-47826",
+      "summary": "CVE ID :CVE-2026-47826 Published : July 9, 2026, 5:45 a.m. | 1 hour, 31 minutes ago Description :The blobs.yml path key traversal vulnerability in the BOSH CLI tool allows an attacker to write...",
+      "source": "CVE Feed",
+      "published": "2026-07-09T05:45:33+00:00"
+    },
+    {
+      "title": "Microsoft patches RoguePlanet Defender zero-day vulnerability",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-patches-rogueplanet-defender-zero-day-vulnerability/",
+      "summary": "Microsoft has released a security patch to address a Defender zero-day vulnerability known as \"RoguePlanet,\" disclosed after the June 2026 Patch Tuesday. [...]",
+      "source": "BleepingComputer",
+      "published": "2026-07-09T05:42:49+00:00"
+    },
+    {
+      "title": "Top AI Agents Built to Catch Malicious Code Can Be Tricked Into Running It",
+      "link": "https://thehackernews.com/2026/07/friendly-fire-ai-agents-built-to-catch.html",
+      "summary": "Ask an AI coding agent to scan open-source code for security holes, and it might run the attacker's code on your own machine instead. That is the finding in a proof-of-concept published Wednesday by...",
+      "source": "The Hacker News",
+      "published": "2026-07-09T05:15:02+00:00"
+    },
+    {
+      "title": "Unpatched Backdoor in Tenda Firmware Grants Admin Access to Devices",
+      "link": "https://www.securityweek.com/unpatched-backdoor-in-tenda-firmware-grants-admin-access-to-devices/",
+      "summary": "Tracked as CVE-2026-11405, the vulnerability allows unauthenticated attackers to access a device's web management interface. The post Unpatched Backdoor in Tenda Firmware Grants Admin Access to...",
+      "source": "SecurityWeek",
+      "published": "2026-07-09T05:00:41+00:00"
+    },
+    {
+      "title": "GhostApproval Symlink Flaws Could Let Malicious Repos Run Code in AI Coding Agents",
+      "link": "https://thehackernews.com/2026/07/ghostapproval-symlink-flaws-could-let.html",
+      "summary": "Researchers at Wiz found that a flaw in six popular AI coding assistants lets a booby-trapped code project quietly take control of a developer's computer. The assistant asks permission to edit one...",
+      "source": "The Hacker News",
+      "published": "2026-07-09T04:27:18+00:00"
+    },
+    {
+      "title": "Fake 7-Zip Installers Turn Devices Into Residential Proxy Nodes",
+      "link": "https://thehackernews.com/2026/07/fake-7-zip-installers-turn-devices-into.html",
+      "summary": "Cybersecurity researchers have disclosed details of a new threat actor dubbed Lurking Lizard that has been operating an end-to-end malicious residential proxy business using an infrastructure...",
+      "source": "The Hacker News",
+      "published": "2026-07-09T04:01:49+00:00"
+    },
     {
       "title": "CVE-2026-47646 - Dynamics 365 Customer Voice Spoofing Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-47646",
-      "summary": "CVE ID :CVE-2026-47646 Published : July 8, 2026, 11:24 p.m. | 1 hour, 3 minutes ago Description :None Severity: 9.3 | CRITICAL Visit the link for more details, such as CVSS details, affected...",
+      "summary": "CVE ID :CVE-2026-47646 Published : July 9, 2026, 12:17 a.m. | 6 hours, 59 minutes ago Description :Improper neutralization of input during web page generation ('cross-site scripting') in Dynamics 365...",
       "source": "CVE Feed",
-      "published": "2026-07-08T23:24:43+00:00"
+      "published": "2026-07-09T00:17:23+00:00"
     },
     {
       "title": "CVE-2026-59723 - Cline: Cross-Origin WebSocket Hijacking in Cline Hub Dashboard (`/browser` endpoint)",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-59723",
-      "summary": "CVE ID :CVE-2026-59723 Published : July 8, 2026, 11:16 p.m. | 1 hour, 11 minutes ago Description :Cline is an autonomous coding agent as an SDK, IDE extension, or CLI assistant. Prior to 3.0.30, the...",
+      "summary": "CVE ID :CVE-2026-59723 Published : July 8, 2026, 11:16 p.m. | 8 hours ago Description :Cline is an autonomous coding agent as an SDK, IDE extension, or CLI assistant. Prior to 3.0.30, the Cline Hub...",
       "source": "CVE Feed",
       "published": "2026-07-08T23:16:56+00:00"
     },
     {
       "title": "CVE-2026-54782 - CoreWCF: Authentication bypass in CoreWCF SAML 1.1 / 2.0 token signature validation",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-54782",
-      "summary": "CVE ID :CVE-2026-54782 Published : July 8, 2026, 11:16 p.m. | 1 hour, 11 minutes ago Description :CoreWCF is a port of the service side of Windows Communication Foundation (WCF) to .NET Core. Prior...",
+      "summary": "CVE ID :CVE-2026-54782 Published : July 8, 2026, 11:16 p.m. | 8 hours ago Description :CoreWCF is a port of the service side of Windows Communication Foundation (WCF) to .NET Core. Prior to 1.8.1 and...",
       "source": "CVE Feed",
       "published": "2026-07-08T23:16:56+00:00"
     },
     {
       "title": "CVE-2026-55849 - @cyclonedx/cyclonedx-npm: Shell Injection via Unsanitized `--workspace` Argument",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-55849",
-      "summary": "CVE ID :CVE-2026-55849 Published : July 8, 2026, 10:17 p.m. | 2 hours, 11 minutes ago Description :@cyclonedx/cyclonedx-npm creates CycloneDX Software Bill of Materials from npm projects. From 2.1.0...",
+      "summary": "CVE ID :CVE-2026-55849 Published : July 8, 2026, 10:17 p.m. | 9 hours ago Description :@cyclonedx/cyclonedx-npm creates CycloneDX Software Bill of Materials from npm projects. From 2.1.0 before...",
       "source": "CVE Feed",
       "published": "2026-07-08T22:17:15+00:00"
     },
     {
       "title": "CVE-2026-55830 - RestrictedPython guard hooks can be shadowed via positional-only arguments",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-55830",
-      "summary": "CVE ID :CVE-2026-55830 Published : July 8, 2026, 10:17 p.m. | 2 hours, 11 minutes ago Description :RestrictedPython is a tool that helps to define a subset of the Python language which allows to...",
+      "summary": "CVE ID :CVE-2026-55830 Published : July 8, 2026, 10:17 p.m. | 9 hours ago Description :RestrictedPython is a tool that helps to define a subset of the Python language which allows to provide a...",
       "source": "CVE Feed",
       "published": "2026-07-08T22:17:15+00:00"
     },
     {
       "title": "CVE-2026-55471 - HAPI FHIR: XXE in XsltUtilities.saxonTransform via unhardened Saxon TransformerFactory",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-55471",
-      "summary": "CVE ID :CVE-2026-55471 Published : July 8, 2026, 10:17 p.m. | 2 hours, 11 minutes ago Description :HAPI FHIR is a complete implementation of the HL7 FHIR standard for healthcare interoperability in...",
+      "summary": "CVE ID :CVE-2026-55471 Published : July 8, 2026, 10:17 p.m. | 9 hours ago Description :HAPI FHIR is a complete implementation of the HL7 FHIR standard for healthcare interoperability in Java. Prior...",
       "source": "CVE Feed",
       "published": "2026-07-08T22:17:15+00:00"
     },
     {
       "title": "CVE-2026-44024 - Fluentd: Remote Code Execution (RCE) via Arbitrary File Write in `${tag}` Placeholder",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-44024",
-      "summary": "CVE ID :CVE-2026-44024 Published : July 8, 2026, 10:17 p.m. | 2 hours, 11 minutes ago Description :Fluentd collects events from various data sources and writes them to files, RDBMS, NoSQL, IaaS...",
+      "summary": "CVE ID :CVE-2026-44024 Published : July 8, 2026, 10:17 p.m. | 9 hours ago Description :Fluentd collects events from various data sources and writes them to files, RDBMS, NoSQL, IaaS, SaaS, Hadoop and...",
       "source": "CVE Feed",
       "published": "2026-07-08T22:17:14+00:00"
     },
     {
       "title": "CVE-2026-10037 - Sandbox Escape in Ubuntu OpenJDK Packages via xdg-desktop-portal",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-10037",
-      "summary": "CVE ID :CVE-2026-10037 Published : July 8, 2026, 10:17 p.m. | 2 hours, 11 minutes ago Description :A sandbox escape vulnerability exists in the OpenJDK packages provided in Ubuntu. The .jar MIME...",
+      "summary": "CVE ID :CVE-2026-10037 Published : July 8, 2026, 10:17 p.m. | 9 hours ago Description :A sandbox escape vulnerability exists in the OpenJDK packages provided in Ubuntu. The .jar MIME handlers...",
       "source": "CVE Feed",
       "published": "2026-07-08T22:17:12+00:00"
     },
@@ -74,70 +165,70 @@
     {
       "title": "CVE-2026-6896 - Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') in GitLab",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-6896",
-      "summary": "CVE ID :CVE-2026-6896 Published : July 8, 2026, 9:16 p.m. | 3 hours, 11 minutes ago Description :GitLab has remediated an issue in GitLab EE affecting all versions from 13.11 before 18.11.7, 19.0...",
+      "summary": "CVE ID :CVE-2026-6896 Published : July 8, 2026, 9:16 p.m. | 10 hours ago Description :GitLab has remediated an issue in GitLab EE affecting all versions from 13.11 before 18.11.7, 19.0 before 19.0.4...",
       "source": "CVE Feed",
       "published": "2026-07-08T21:16:55+00:00"
     },
     {
       "title": "CVE-2026-60105 - Monsta FTP < 2.14.5 SSRF via IPv4-Mapped IPv6 Address Bypass",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-60105",
-      "summary": "CVE ID :CVE-2026-60105 Published : July 8, 2026, 9:16 p.m. | 3 hours, 11 minutes ago Description :Monsta FTP before 2.14.5 contains a server-side request forgery vulnerability in the fetchRemoteFile...",
+      "summary": "CVE ID :CVE-2026-60105 Published : July 8, 2026, 9:16 p.m. | 10 hours ago Description :Monsta FTP before 2.14.5 contains a server-side request forgery vulnerability in the fetchRemoteFile action...",
       "source": "CVE Feed",
       "published": "2026-07-08T21:16:54+00:00"
     },
     {
       "title": "CVE-2026-58525 - Microsoft Edge (Chromium-based) Security Feature Bypass Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-58525",
-      "summary": "CVE ID :CVE-2026-58525 Published : July 8, 2026, 9:16 p.m. | 3 hours, 11 minutes ago Description :Improper access control in Microsoft Edge (Chromium-based) allows an unauthorized attacker to bypass...",
+      "summary": "CVE ID :CVE-2026-58525 Published : July 8, 2026, 9:16 p.m. | 10 hours ago Description :Improper access control in Microsoft Edge (Chromium-based) allows an unauthorized attacker to bypass a security...",
       "source": "CVE Feed",
       "published": "2026-07-08T21:16:54+00:00"
     },
     {
       "title": "CVE-2026-58192 - Appium: Unauthenticated arbitrary file/directory deletion in @appium/storage-plugin",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-58192",
-      "summary": "CVE ID :CVE-2026-58192 Published : July 8, 2026, 9:16 p.m. | 3 hours, 11 minutes ago Description :Appium is a cross-platform automation framework for all kinds of apps, built on top of the W3C...",
+      "summary": "CVE ID :CVE-2026-58192 Published : July 8, 2026, 9:16 p.m. | 10 hours ago Description :Appium is a cross-platform automation framework for all kinds of apps, built on top of the W3C WebDriver...",
       "source": "CVE Feed",
       "published": "2026-07-08T21:16:52+00:00"
     },
     {
       "title": "CVE-2026-57480 - Parse Server: Denial of service via exponential-time processing of deeply nested query operators",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-57480",
-      "summary": "CVE ID :CVE-2026-57480 Published : July 8, 2026, 9:16 p.m. | 3 hours, 11 minutes ago Description :Parse Server is an open source backend that can be deployed to any infrastructure that can run...",
+      "summary": "CVE ID :CVE-2026-57480 Published : July 8, 2026, 9:16 p.m. | 10 hours ago Description :Parse Server is an open source backend that can be deployed to any infrastructure that can run Node.js. Prior to...",
       "source": "CVE Feed",
       "published": "2026-07-08T21:16:50+00:00"
     },
     {
       "title": "CVE-2026-55596 - Plate: Media embed provider metadata can bypass URL sanitization and execute iframe JavaScript",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-55596",
-      "summary": "CVE ID :CVE-2026-55596 Published : July 8, 2026, 9:16 p.m. | 3 hours, 11 minutes ago Description :Plate is a rich-text editor with AI and shadcn/ui. From 53.0.0 until 53.1.4, the media embed renderer...",
+      "summary": "CVE ID :CVE-2026-55596 Published : July 8, 2026, 9:16 p.m. | 10 hours ago Description :Plate is a rich-text editor with AI and shadcn/ui. From 53.0.0 until 53.1.4, the media embed renderer trusts...",
       "source": "CVE Feed",
       "published": "2026-07-08T21:16:50+00:00"
     },
     {
       "title": "CVE-2026-55206 - py7zr: O(n^2) algorithmic complexity DoS in PackInfo._read()",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-55206",
-      "summary": "CVE ID :CVE-2026-55206 Published : July 8, 2026, 9:16 p.m. | 3 hours, 11 minutes ago Description :py7zr is a Python-based library and utility to support 7zip archive compression, decompression...",
+      "summary": "CVE ID :CVE-2026-55206 Published : July 8, 2026, 9:16 p.m. | 10 hours ago Description :py7zr is a Python-based library and utility to support 7zip archive compression, decompression, encryption and...",
       "source": "CVE Feed",
       "published": "2026-07-08T21:16:49+00:00"
     },
     {
       "title": "CVE-2026-55195 - py7zr: Decompression bomb (zip bomb) denial of service via unchecked extraction size",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-55195",
-      "summary": "CVE ID :CVE-2026-55195 Published : July 8, 2026, 9:16 p.m. | 3 hours, 11 minutes ago Description :py7zr is a Python-based library and utility to support 7zip archive compression, decompression...",
+      "summary": "CVE ID :CVE-2026-55195 Published : July 8, 2026, 9:16 p.m. | 10 hours ago Description :py7zr is a Python-based library and utility to support 7zip archive compression, decompression, encryption and...",
       "source": "CVE Feed",
       "published": "2026-07-08T21:16:49+00:00"
     },
     {
       "title": "CVE-2026-54591 - AsyncSSH: SCP Path Traversal to Arbitrary File Write",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-54591",
-      "summary": "CVE ID :CVE-2026-54591 Published : July 8, 2026, 9:16 p.m. | 3 hours, 11 minutes ago Description :AsyncSSH is a Python package which provides an asynchronous client and server implementation of the...",
+      "summary": "CVE ID :CVE-2026-54591 Published : July 8, 2026, 9:16 p.m. | 10 hours ago Description :AsyncSSH is a Python package which provides an asynchronous client and server implementation of the SSHv2...",
       "source": "CVE Feed",
       "published": "2026-07-08T21:16:49+00:00"
     },
     {
       "title": "CVE-2026-54527 - JupyterLab Git: Stored XSS leading to RCE",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-54527",
-      "summary": "CVE ID :CVE-2026-54527 Published : July 8, 2026, 9:16 p.m. | 3 hours, 11 minutes ago Description :JupyterLab Git is a Git extension for JupyterLab. From 0.30.0b3 before 0.54.0, the PlainTextDiff.ts...",
+      "summary": "CVE ID :CVE-2026-54527 Published : July 8, 2026, 9:16 p.m. | 10 hours ago Description :JupyterLab Git is a Git extension for JupyterLab. From 0.30.0b3 before 0.54.0, the PlainTextDiff.ts...",
       "source": "CVE Feed",
       "published": "2026-07-08T21:16:49+00:00"
     },
@@ -158,51 +249,9 @@
     {
       "title": "CVE-2026-60104 - Bitwarden Server < 2026.6.0 Authorization Bypass via Admin Auth Request",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-60104",
-      "summary": "CVE ID :CVE-2026-60104 Published : July 8, 2026, 8:17 p.m. | 4 hours, 11 minutes ago Description :Bitwarden Server before 2026.6.0 does not verify that the email in a POST...",
+      "summary": "CVE ID :CVE-2026-60104 Published : July 8, 2026, 8:17 p.m. | 11 hours ago Description :Bitwarden Server before 2026.6.0 does not verify that the email in a POST /auth-requests/admin-request body...",
       "source": "CVE Feed",
       "published": "2026-07-08T20:17:00+00:00"
-    },
-    {
-      "title": "CVE-2026-59936 - pypdf: Possible infinite loop for not terminated inline images",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-59936",
-      "summary": "CVE ID :CVE-2026-59936 Published : July 8, 2026, 8:16 p.m. | 4 hours, 11 minutes ago Description :pypdf is a free and open-source pure-python PDF library. Prior to 6.14.1, an attacker can craft a PDF...",
-      "source": "CVE Feed",
-      "published": "2026-07-08T20:16:59+00:00"
-    },
-    {
-      "title": "CVE-2026-59935 - pypdf: Possible infinite loop for not terminated inline images (ASCII85 and ASCIIHex filter)",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-59935",
-      "summary": "CVE ID :CVE-2026-59935 Published : July 8, 2026, 8:16 p.m. | 4 hours, 11 minutes ago Description :pypdf is a free and open-source pure-python PDF library. Prior to 6.14.2, an attacker can craft a PDF...",
-      "source": "CVE Feed",
-      "published": "2026-07-08T20:16:59+00:00"
-    },
-    {
-      "title": "CVE-2026-59822 - LiteLLM: MCP Authentication Bypass via OAuth2 Passthrough Fallback",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-59822",
-      "summary": "CVE ID :CVE-2026-59822 Published : July 8, 2026, 8:16 p.m. | 4 hours, 11 minutes ago Description :LiteLLM is a proxy server (AI Gateway) to call LLM APIs in OpenAI (or native) format. Prior to...",
-      "source": "CVE Feed",
-      "published": "2026-07-08T20:16:57+00:00"
-    },
-    {
-      "title": "CVE-2026-59807 - Composio SDK < 0.2.32-beta.283 - Sensitive File Upload via tool-file-uploads.ts",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-59807",
-      "summary": "CVE ID :CVE-2026-59807 Published : July 8, 2026, 8:16 p.m. | 4 hours, 11 minutes ago Description :Composio SDK before 0.2.32-beta.283 contains a path validation bypass vulnerability that allows...",
-      "source": "CVE Feed",
-      "published": "2026-07-08T20:16:57+00:00"
-    },
-    {
-      "title": "CVE-2026-59803 - rpcx - Denial of Service via Gzip Decompression Bomb in Wire Protocol",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-59803",
-      "summary": "CVE ID :CVE-2026-59803 Published : July 8, 2026, 8:16 p.m. | 4 hours, 11 minutes ago Description :rpcx through 1.9.3, fixed in commit 047aec1, contains a denial-of-service vulnerability in...",
-      "source": "CVE Feed",
-      "published": "2026-07-08T20:16:55+00:00"
-    },
-    {
-      "title": "CVE-2026-59802 - PasswordPusher < 2.8.1 - Redirect-Based XSS via data URI in URL Push Payload",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-59802",
-      "summary": "CVE ID :CVE-2026-59802 Published : July 8, 2026, 8:16 p.m. | 4 hours, 11 minutes ago Description :PasswordPusher before 2.8.1 accepts data URI schemes in URL push payloads due to insufficient...",
-      "source": "CVE Feed",
-      "published": "2026-07-08T20:16:55+00:00"
     },
     {
       "title": "Cash App owner to pay $45 million to settle allegations of lax security",
@@ -506,13 +555,6 @@
       "published": "2026-07-07T17:27:22+00:00"
     },
     {
-      "title": "Critical Gitea Flaw Under Active Exploitation, Researchers Warn",
-      "link": "https://www.securityweek.com/critical-gitea-flaw-under-active-exploitation-researchers-warn/",
-      "summary": "Attackers are exploiting the critical Gitea vulnerability CVE-2026-20896 to bypass authentication with a single HTTP header and access vulnerable repositories and secrets. The post Critical Gitea...",
-      "source": "SecurityWeek",
-      "published": "2026-07-07T17:17:19+00:00"
-    },
-    {
       "title": "RedWing MaaS Packages Android Bank Fraud as a Telegram Rental Service",
       "link": "https://thehackernews.com/2026/07/redwing-maas-packages-android-bank.html",
       "summary": "A new Android malware operation called RedWing is being rented out on Telegram as a ready-made bank-fraud service. It lets even low-skill criminals take over a victim's phone, steal their banking...",
@@ -569,13 +611,6 @@
       "published": "2026-07-07T14:04:50+00:00"
     },
     {
-      "title": "The GitHub Actions Attack Pattern Your CI Security Scanners Miss",
-      "link": "https://www.bleepingcomputer.com/news/security/the-github-actions-attack-pattern-your-ci-security-scanners-miss/",
-      "summary": "ActiveState explains how GitHub Actions attack chains can evade traditional CI security scanners, why passing a scan doesn't guarantee a secure pipeline, and how organizations can better govern their...",
-      "source": "BleepingComputer",
-      "published": "2026-07-07T14:01:11+00:00"
-    },
-    {
       "title": "Court Filing Reveals Windows Device ID Helped FBI Trace Alleged Scattered Spider Hacker",
       "link": "https://thehackernews.com/2026/07/court-filing-reveals-windows-device-id.html",
       "summary": "U.S. prosecutors linked an alleged Scattered Spider hacker to a break-in at a luxury jewelry retailer using a persistent Windows device ID, according to a newly unsealed federal complaint. Microsoft...",
@@ -588,20 +623,6 @@
       "summary": "Cybersecurity researchers have disclosed details of a now-patched critical session isolation vulnerability in Writer, an enterprise generative artificial intelligence (AI) platform, that could result...",
       "source": "The Hacker News",
       "published": "2026-07-07T13:27:09+00:00"
-    },
-    {
-      "title": "CISA Reportedly Using Anthropic’s Mythos to Scan Government Software for Flaws",
-      "link": "https://www.securityweek.com/cisa-reportedly-using-anthropics-mythos-to-scan-government-software-for-flaws/",
-      "summary": "The audits are reportedly being spearheaded by CISA’s Attack Surface Evaluation team, a specialized unit tasked with conducting digital defense assessments and simulated hacking exercises. The post...",
-      "source": "SecurityWeek",
-      "published": "2026-07-07T13:13:02+00:00"
-    },
-    {
-      "title": "Critical Adobe ColdFusion Vulnerability Exploited in Attacks",
-      "link": "https://www.securityweek.com/critical-adobe-coldfusion-vulnerability-exploited-in-attacks/",
-      "summary": "Hackers are exploiting a recently patched critical vulnerability (CVE-2026-48282) in Adobe ColdFusion that carries a CVSS score of 10/10. The post Critical Adobe ColdFusion Vulnerability Exploited in...",
-      "source": "SecurityWeek",
-      "published": "2026-07-07T12:38:34+00:00"
     },
     {
       "title": "What Changes When Your Software Supply Chain Includes AI Writing Your Code?",
@@ -919,20 +940,6 @@
       "published": "2026-07-02T08:00:49+00:00"
     },
     {
-      "title": "New ChocoPoC RAT Targets Vulnerability Researchers via Fake PoC Exploit Repos",
-      "link": "https://thehackernews.com/2026/07/new-chocopoc-rat-targets-vulnerability.html",
-      "summary": "Attackers are hiding a data-stealing trojan inside fake exploit code aimed at the people who hunt bugs for a living. The malware, called ChocoPoC, travels in Python proof-of-concept (PoC)...",
-      "source": "The Hacker News",
-      "published": "2026-07-02T07:24:23+00:00"
-    },
-    {
-      "title": "SharePoint RCE CVE-2026-45659 Added to CISA KEV After Active Exploitation",
-      "link": "https://thehackernews.com/2026/07/sharepoint-rce-cve-2026-45659-added-to.html",
-      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a high-severity flaw impacting Microsoft SharePoint Server to its Known Exploited Vulnerabilities (KEV) catalog...",
-      "source": "The Hacker News",
-      "published": "2026-07-02T05:46:45+00:00"
-    },
-    {
       "title": "Crafty Phishing Campaigns Auto-Adapt to Victim's Device, OS",
       "link": "https://www.darkreading.com/application-security/phishing-campaigns-auto-adapt-victims-device-os",
       "summary": "Attackers fingerprint victims through user-agent data to deliver OS-specific payloads, increasing compromise rates and campaign profitability.",
@@ -945,13 +952,6 @@
       "summary": "Researchers say the highly effective social engineering technique is no longer the exception for malware attacks — it's now the rule.",
       "source": "Dark Reading",
       "published": "2026-07-01T19:46:34+00:00"
-    },
-    {
-      "title": "Unpatched Argo CD Repo-Server Flaw Could Let Attackers Take Over Kubernetes Clusters",
-      "link": "https://thehackernews.com/2026/07/unpatched-argo-cd-repo-server-flaw.html",
-      "summary": "Argo CD, a widely used tool for deploying software to Kubernetes, has an unpatched flaw in its repo-server component that lets an unauthenticated attacker run code, provided they can reach the...",
-      "source": "The Hacker News",
-      "published": "2026-07-01T19:40:06+00:00"
     },
     {
       "title": "When Too Much Security Data Becomes the Risk",
