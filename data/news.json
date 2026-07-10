@@ -1,12 +1,82 @@
 {
-  "last_updated": "2026-07-10T17:40:52.538802+00:00",
+  "last_updated": "2026-07-10T19:16:31.565611+00:00",
   "articles": [
     {
-      "title": "Injective Labs GitHub Compromise Pushes Wallet-Key-Stealing npm Packages",
-      "link": "https://thehackernews.com/2026/07/injective-labs-github-compromise-pushes.html",
-      "summary": "Unknown threat actors compromised the Injective Labs SDK project's GitHub repository and leveraged it to publish a malicious package on the npm registry to steal cryptocurrency wallet private keys...",
-      "source": "The Hacker News",
-      "published": "2026-07-10T17:29:28+00:00"
+      "title": "Ryuk ransomware member pleads guilty in the US, faces 15 years in prison",
+      "link": "https://www.bleepingcomputer.com/news/security/ryuk-ransomware-member-pleads-guilty-in-the-us-faces-15-years-in-prison/",
+      "summary": "A 34-year-old Armenian man has pleaded guilty to hacking U.S. companies and deploying the infamous Ryuk ransomware to encrypt their systems. [...]",
+      "source": "BleepingComputer",
+      "published": "2026-07-10T17:46:10+00:00"
+    },
+    {
+      "title": "CVE-2026-2397 - SQLi in AdamPOS' MobilMen 20T",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-2397",
+      "summary": "CVE ID :CVE-2026-2397 Published : July 10, 2026, 5:29 p.m. | 54 minutes ago Description :Improper neutralization of special elements used in an SQL command ('SQL injection') vulnerability in Adam...",
+      "source": "CVE Feed",
+      "published": "2026-07-10T17:29:42+00:00"
+    },
+    {
+      "title": "CVE-2026-59190 - Grav Admin Plugin — IDOR Privilege Escalation via saveUser()",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-59190",
+      "summary": "CVE ID :CVE-2026-59190 Published : July 10, 2026, 5:17 p.m. | 1 hour, 7 minutes ago Description :grav-plugin-admin is an HTML user interface that provides a way to configure Grav and create and...",
+      "source": "CVE Feed",
+      "published": "2026-07-10T17:17:02+00:00"
+    },
+    {
+      "title": "CVE-2026-59161 - Excelize: Streaming GetRows row-bound bypass causes attacker-controlled allocation",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-59161",
+      "summary": "CVE ID :CVE-2026-59161 Published : July 10, 2026, 5:17 p.m. | 1 hour, 7 minutes ago Description :Excelize is a Go language library for reading and writing Microsoft Excel spreadsheets. Prior to...",
+      "source": "CVE Feed",
+      "published": "2026-07-10T17:17:02+00:00"
+    },
+    {
+      "title": "CVE-2026-58492 - grav-plugin-database: SQL Injection in PDO::tableExists() due to Unsanitized Table Name Interpolation",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-58492",
+      "summary": "CVE ID :CVE-2026-58492 Published : July 10, 2026, 5:17 p.m. | 1 hour, 7 minutes ago Description :grav-plugin-database is the database plugin for Grav CMS. Prior to 1.2.0, the PDO::tableExists method...",
+      "source": "CVE Feed",
+      "published": "2026-07-10T17:17:01+00:00"
+    },
+    {
+      "title": "CVE-2026-56675 - 9router: Reverse proxy locality collapse allows unauthenticated access to 9router /v1 APIs",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56675",
+      "summary": "CVE ID :CVE-2026-56675 Published : July 10, 2026, 5:17 p.m. | 1 hour, 7 minutes ago Description :9Router is an AI router & token saver. Prior to 0.5.2, 9router treats loopback requests as trusted and...",
+      "source": "CVE Feed",
+      "published": "2026-07-10T17:17:01+00:00"
+    },
+    {
+      "title": "CVE-2026-55641 - 9router: Unauthenticated `/v1` proxy access via `Host`-header spoofing → open AI relay + SSRF",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55641",
+      "summary": "CVE ID :CVE-2026-55641 Published : July 10, 2026, 5:16 p.m. | 1 hour, 7 minutes ago Description :9Router is an AI router & token saver. Prior to 0.5.2, 9router determines whether a /v1 LLM proxy...",
+      "source": "CVE Feed",
+      "published": "2026-07-10T17:16:59+00:00"
+    },
+    {
+      "title": "CVE-2026-55638 - 9router: Unauthenticated LLM proxy access via /codex rewrite authorization bypass",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55638",
+      "summary": "CVE ID :CVE-2026-55638 Published : July 10, 2026, 5:16 p.m. | 1 hour, 7 minutes ago Description :9Router is an AI router & token saver. Prior to 0.5.2, 9router protects /v1, /v1beta, /api/v1, and...",
+      "source": "CVE Feed",
+      "published": "2026-07-10T17:16:59+00:00"
+    },
+    {
+      "title": "CVE-2026-53657 - Lima: An arbitrary user in a QEMU VM could gain the root privilege in the VM via the guest agent socket",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-53657",
+      "summary": "CVE ID :CVE-2026-53657 Published : July 10, 2026, 5:16 p.m. | 1 hour, 7 minutes ago Description :Lima launches Linux virtual machines, typically on macOS, for running containerd. Prior to 2.1.3, on...",
+      "source": "CVE Feed",
+      "published": "2026-07-10T17:16:57+00:00"
+    },
+    {
+      "title": "CVE-2026-53653 - Grav: Unauthenticated denial of service via unbounded image derivative dimensions",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-53653",
+      "summary": "CVE ID :CVE-2026-53653 Published : July 10, 2026, 5:16 p.m. | 1 hour, 7 minutes ago Description :Grav is a file-based Web platform. Prior to 1.7.53 and 2.0.0-rc.8, Grav allows an unauthenticated...",
+      "source": "CVE Feed",
+      "published": "2026-07-10T17:16:57+00:00"
+    },
+    {
+      "title": "CVE-2026-2398 - IDOR in AdamPOS' MobilMen 20T",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-2398",
+      "summary": "CVE ID :CVE-2026-2398 Published : July 10, 2026, 5:16 p.m. | 1 hour, 7 minutes ago Description :Authorization bypass through User-Controlled key vulnerability in Adam Retail Automation Ltd. MobilMen...",
+      "source": "CVE Feed",
+      "published": "2026-07-10T17:16:56+00:00"
     },
     {
       "title": "Ryuk operator pleads guilty; Blackcat/AlphV conspirator gets nearly 6-year sentence",
@@ -37,11 +107,46 @@
       "published": "2026-07-10T16:37:01+00:00"
     },
     {
+      "title": "URGENT - Progress Tells ShareFile Customers to Shut Down Storage Zone Controllers Over Security Threat",
+      "link": "https://thehackernews.com/2026/07/urgent-progress-tells-sharefile.html",
+      "summary": "Progress Software has told ShareFile customers to shut down the Windows servers running their Storage Zone Controllers, confirming to The Hacker News that it is responding to a \"credible external...",
+      "source": "The Hacker News",
+      "published": "2026-07-10T16:30:00+00:00"
+    },
+    {
+      "title": "Injective Labs GitHub Compromise Pushes Wallet-Key-Stealing npm Packages",
+      "link": "https://thehackernews.com/2026/07/injective-labs-github-compromise-pushes.html",
+      "summary": "Unknown threat actors compromised the Injective Labs SDK project's GitHub repository and leveraged it to publish a malicious package on the npm registry to steal cryptocurrency wallet private keys...",
+      "source": "The Hacker News",
+      "published": "2026-07-10T16:29:00+00:00"
+    },
+    {
       "title": "Progress urges ShareFile admins to shut down servers over “credible” threat",
       "link": "https://www.bleepingcomputer.com/news/security/progress-urges-sharefile-customers-to-shut-down-servers-over-credible-threat/",
       "summary": "Progress Software is emailing ShareFile customers who use Storage Zone Controllers to immediately shut down their servers after identifying what it describes as a \"credible external security threat\"...",
       "source": "BleepingComputer",
       "published": "2026-07-10T16:26:10+00:00"
+    },
+    {
+      "title": "CVE-2026-55500 - 9router: Exposure of Sensitive Information and Unprotected Database Import/Export Allows Complete Credential Theft and Database Takeover",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55500",
+      "summary": "CVE ID :CVE-2026-55500 Published : July 10, 2026, 4:16 p.m. | 2 hours, 7 minutes ago Description :9Router is an AI router & token saver. Prior to 0.4.80, the /api/settings/database endpoint allows...",
+      "source": "CVE Feed",
+      "published": "2026-07-10T16:16:33+00:00"
+    },
+    {
+      "title": "CVE-2026-54149 - MaxKB MCP tool import validation bypass allows post-authentication remote code execution",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54149",
+      "summary": "CVE ID :CVE-2026-54149 Published : July 10, 2026, 4:16 p.m. | 2 hours, 7 minutes ago Description :MaxKB is an open-source AI assistant for enterprise. Prior to 2.10.0-lts, MaxKB tool import...",
+      "source": "CVE Feed",
+      "published": "2026-07-10T16:16:32+00:00"
+    },
+    {
+      "title": "CVE-2026-15143 - Guardrails-detectors: guardrails-detectors: ssrf and local file read via user-supplied xml schema (xml-with-schema:)",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-15143",
+      "summary": "CVE ID :CVE-2026-15143 Published : July 10, 2026, 4:16 p.m. | 2 hours, 7 minutes ago Description :A flaw was found in the file_type content detector of guardrails-detectors. This vulnerability allows...",
+      "source": "CVE Feed",
+      "published": "2026-07-10T16:16:25+00:00"
     },
     {
       "title": "Six New U-Boot Flaws Could Let Malicious Images Crash Devices or Run Code at Boot",
@@ -65,116 +170,88 @@
       "published": "2026-07-10T15:30:19+00:00"
     },
     {
-      "title": "CVE-2026-15143 - Guardrails-detectors: guardrails-detectors: ssrf and local file read via user-supplied xml schema (xml-with-schema:)",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-15143",
-      "summary": "CVE ID :CVE-2026-15143 Published : July 10, 2026, 3:25 p.m. | 59 minutes ago Description :A flaw was found in the file_type content detector of guardrails-detectors. This vulnerability allows a...",
-      "source": "CVE Feed",
-      "published": "2026-07-10T15:25:09+00:00"
-    },
-    {
       "title": "CVE-2026-61444 - PraisonAI before 4.6.78 Code Injection via f-string",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-61444",
-      "summary": "CVE ID :CVE-2026-61444 Published : July 10, 2026, 3:16 p.m. | 1 hour, 7 minutes ago Description :PraisonAI versions before 4.6.78 contain a code injection vulnerability in deploy/api.py where the...",
+      "summary": "CVE ID :CVE-2026-61444 Published : July 10, 2026, 3:16 p.m. | 3 hours, 7 minutes ago Description :PraisonAI versions before 4.6.78 contain a code injection vulnerability in deploy/api.py where the...",
       "source": "CVE Feed",
       "published": "2026-07-10T15:16:50+00:00"
     },
     {
       "title": "CVE-2026-61437 - PraisonAI before 1.6.78 Remote Code Execution via tools.py",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-61437",
-      "summary": "CVE ID :CVE-2026-61437 Published : July 10, 2026, 3:16 p.m. | 1 hour, 7 minutes ago Description :PraisonAI (pip package praisonaiagents) before 1.6.78 contains an unsafe dynamic module loading...",
+      "summary": "CVE ID :CVE-2026-61437 Published : July 10, 2026, 3:16 p.m. | 3 hours, 7 minutes ago Description :PraisonAI (pip package praisonaiagents) before 1.6.78 contains an unsafe dynamic module loading...",
       "source": "CVE Feed",
       "published": "2026-07-10T15:16:50+00:00"
     },
     {
       "title": "CVE-2026-61434 - PraisonAI before 4.6.78 Allowlist Bypass via find -exec",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-61434",
-      "summary": "CVE ID :CVE-2026-61434 Published : July 10, 2026, 3:16 p.m. | 1 hour, 7 minutes ago Description :PraisonAI versions before 4.6.78 contain an allowlist bypass vulnerability in shell command execution...",
+      "summary": "CVE ID :CVE-2026-61434 Published : July 10, 2026, 3:16 p.m. | 3 hours, 7 minutes ago Description :PraisonAI versions before 4.6.78 contain an allowlist bypass vulnerability in shell command execution...",
       "source": "CVE Feed",
       "published": "2026-07-10T15:16:50+00:00"
     },
     {
       "title": "CVE-2026-59796 - JetBrains TeamCity Unauthorized Pipeline Modification Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-59796",
-      "summary": "CVE ID :CVE-2026-59796 Published : July 10, 2026, 3:16 p.m. | 1 hour, 7 minutes ago Description :In JetBrains TeamCity before 2026.1.2 pipeline modification was possible due to improper permission...",
+      "summary": "CVE ID :CVE-2026-59796 Published : July 10, 2026, 3:16 p.m. | 3 hours, 7 minutes ago Description :In JetBrains TeamCity before 2026.1.2 pipeline modification was possible due to improper permission...",
       "source": "CVE Feed",
       "published": "2026-07-10T15:16:48+00:00"
     },
     {
       "title": "CVE-2026-59795 - JetBrains TeamCity Stored Cross-Site Scripting",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-59795",
-      "summary": "CVE ID :CVE-2026-59795 Published : July 10, 2026, 3:16 p.m. | 1 hour, 7 minutes ago Description :In JetBrains TeamCity before 2026.1.2 stored XSS via unauthenticated agent registration was possible...",
+      "summary": "CVE ID :CVE-2026-59795 Published : July 10, 2026, 3:16 p.m. | 3 hours, 7 minutes ago Description :In JetBrains TeamCity before 2026.1.2 stored XSS via unauthenticated agent registration was possible...",
       "source": "CVE Feed",
       "published": "2026-07-10T15:16:48+00:00"
     },
     {
       "title": "CVE-2026-59793 - JetBrains TeamCity Perforce VCS Integration Arbitrary File Access Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-59793",
-      "summary": "CVE ID :CVE-2026-59793 Published : July 10, 2026, 3:16 p.m. | 1 hour, 7 minutes ago Description :In JetBrains TeamCity before 2026.1.2 arbitrary file access was possible via the Perforce VCS...",
+      "summary": "CVE ID :CVE-2026-59793 Published : July 10, 2026, 3:16 p.m. | 3 hours, 7 minutes ago Description :In JetBrains TeamCity before 2026.1.2 arbitrary file access was possible via the Perforce VCS...",
       "source": "CVE Feed",
       "published": "2026-07-10T15:16:48+00:00"
     },
     {
       "title": "CVE-2026-59792 - JetBrains IntelliJ IDEA Path Traversal Remote Code Execution",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-59792",
-      "summary": "CVE ID :CVE-2026-59792 Published : July 10, 2026, 3:16 p.m. | 1 hour, 7 minutes ago Description :In JetBrains IntelliJ IDEA before 2026.1.4, 2026.2 code execution via path traversal in project...",
+      "summary": "CVE ID :CVE-2026-59792 Published : July 10, 2026, 3:16 p.m. | 3 hours, 7 minutes ago Description :In JetBrains IntelliJ IDEA before 2026.1.4, 2026.2 code execution via path traversal in project...",
       "source": "CVE Feed",
       "published": "2026-07-10T15:16:48+00:00"
     },
     {
       "title": "CVE-2026-56765 - Vikunja - Unauthenticated Instance-Wide Data Breach via Link Share Hash Disclosure Chained with Cross-Project Attachment IDOR",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-56765",
-      "summary": "CVE ID :CVE-2026-56765 Published : July 10, 2026, 3:16 p.m. | 1 hour, 7 minutes ago Description :Vikunja before 2.2.1 contains an authorization flaw where the LinkSharing.ReadAll endpoint exposes...",
+      "summary": "CVE ID :CVE-2026-56765 Published : July 10, 2026, 3:16 p.m. | 3 hours, 7 minutes ago Description :Vikunja before 2.2.1 contains an authorization flaw where the LinkSharing.ReadAll endpoint exposes...",
       "source": "CVE Feed",
       "published": "2026-07-10T15:16:43+00:00"
     },
     {
       "title": "CVE-2026-56305 - Capgo - Authentication Bypass in Password Change via Missing Current Password Validation",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-56305",
-      "summary": "CVE ID :CVE-2026-56305 Published : July 10, 2026, 3:16 p.m. | 1 hour, 7 minutes ago Description :Capgo before 12.128.2 contains an authentication bypass vulnerability in the password change endpoint...",
+      "summary": "CVE ID :CVE-2026-56305 Published : July 10, 2026, 3:16 p.m. | 3 hours, 7 minutes ago Description :Capgo before 12.128.2 contains an authentication bypass vulnerability in the password change endpoint...",
       "source": "CVE Feed",
       "published": "2026-07-10T15:16:42+00:00"
     },
     {
       "title": "CVE-2026-56279 - Capgo - Information Disclosure via get_orgs_v7 RPC Endpoint",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-56279",
-      "summary": "CVE ID :CVE-2026-56279 Published : July 10, 2026, 3:16 p.m. | 1 hour, 7 minutes ago Description :Capgo before 12.128.2 contains an information disclosure vulnerability in the get_orgs_v7(userid) RPC...",
+      "summary": "CVE ID :CVE-2026-56279 Published : July 10, 2026, 3:16 p.m. | 3 hours, 7 minutes ago Description :Capgo before 12.128.2 contains an information disclosure vulnerability in the get_orgs_v7(userid) RPC...",
       "source": "CVE Feed",
       "published": "2026-07-10T15:16:42+00:00"
     },
     {
       "title": "CVE-2026-56261 - Crawl4AI - Server-Side Request Forgery via Webhook URLs",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-56261",
-      "summary": "CVE ID :CVE-2026-56261 Published : July 10, 2026, 3:16 p.m. | 1 hour, 7 minutes ago Description :Crawl4AI before 0.8.7 contains a server-side request forgery (SSRF) vulnerability in the Docker API...",
+      "summary": "CVE ID :CVE-2026-56261 Published : July 10, 2026, 3:16 p.m. | 3 hours, 7 minutes ago Description :Crawl4AI before 0.8.7 contains a server-side request forgery (SSRF) vulnerability in the Docker API...",
       "source": "CVE Feed",
       "published": "2026-07-10T15:16:42+00:00"
     },
     {
       "title": "CVE-2026-56254 - capacitor-updater - End-to-End Encryption Bypass via Private Key Distribution",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-56254",
-      "summary": "CVE ID :CVE-2026-56254 Published : July 10, 2026, 3:16 p.m. | 1 hour, 7 minutes ago Description :In @capgo/capacitor-updater (Cap-go/capgo) before 12.128.2, the end-to-end encryption scheme...",
+      "summary": "CVE ID :CVE-2026-56254 Published : July 10, 2026, 3:16 p.m. | 3 hours, 7 minutes ago Description :In @capgo/capacitor-updater (Cap-go/capgo) before 12.128.2, the end-to-end encryption scheme...",
       "source": "CVE Feed",
       "published": "2026-07-10T15:16:41+00:00"
-    },
-    {
-      "title": "CVE-2026-38059 - ST Engineering iDirect iQ-Series Terminals Missing authentication for critical function",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-38059",
-      "summary": "CVE ID :CVE-2026-38059 Published : July 10, 2026, 3:16 p.m. | 1 hour, 7 minutes ago Description :The iDirect iQ200 exposes the /api/identity and /api/ REST API endpoints without authentication. An...",
-      "source": "CVE Feed",
-      "published": "2026-07-10T15:16:39+00:00"
-    },
-    {
-      "title": "CVE-2026-38057 - ST Engineering iDirect iQ-Series Terminals Cross-Site request forgery",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-38057",
-      "summary": "CVE ID :CVE-2026-38057 Published : July 10, 2026, 3:16 p.m. | 1 hour, 7 minutes ago Description :The iDirect iQ200 does not validate CSRF tokens on state-changing API endpoints after authentication...",
-      "source": "CVE Feed",
-      "published": "2026-07-10T15:16:39+00:00"
-    },
-    {
-      "title": "CVE-2026-29519 - Lucee CFML Server Reflected XSS via URL Path Parsing",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-29519",
-      "summary": "CVE ID :CVE-2026-29519 Published : July 10, 2026, 3:16 p.m. | 1 hour, 7 minutes ago Description :Lucee CFML Server versions across the 5.3.x, 6.1.x, 6.2.x, and 7.0.x release lines contain a reflected...",
-      "source": "CVE Feed",
-      "published": "2026-07-10T15:16:39+00:00"
     },
     {
       "title": "In Other News: DHS Database Hacked, Adobe Boosts Patch Cadence, Canada Disrupts Ransomware Ops",
@@ -198,13 +275,6 @@
       "published": "2026-07-10T14:19:50+00:00"
     },
     {
-      "title": "CVE-2026-22659 - FlaskBB Authorization Bypass via Topic ID Manipulation",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-22659",
-      "summary": "CVE ID :CVE-2026-22659 Published : July 10, 2026, 2:16 p.m. | 2 hours, 7 minutes ago Description :FlaskBB through 2.2.0, fixed in commit acc88cf, contains an authorization bypass vulnerability that...",
-      "source": "CVE Feed",
-      "published": "2026-07-10T14:16:52+00:00"
-    },
-    {
       "title": "The Replicant in Your Directory: AI Agents and the Identity Security Gap",
       "link": "https://www.bleepingcomputer.com/news/security/the-replicant-in-your-directory-ai-agents-and-the-identity-security-gap/",
       "summary": "AI agents are accelerating the growth of non-human identities, making it harder for organizations to understand what exists, who owns it, and what it can access. Netwrix explains why stronger...",
@@ -219,9 +289,9 @@
       "published": "2026-07-10T14:00:00+00:00"
     },
     {
-      "title": "More Countries Jump on the Social Media Ban Wagon",
+      "title": "More Countries Jump on the Social Media 'Ban Wagon'",
       "link": "https://www.darkreading.com/cyber-risk/more-countries-jump-on-the-social-media-ban-wagon",
-      "summary": "Age restrictions on accounts may be more of a ban(d) aid, because industry compliance is already falling short. Tech giants are struggling to follow the laws without affecting users.",
+      "summary": "Age restrictions on accounts may be more of a stopgap because industry compliance is already falling short. Tech giants are struggling to follow the laws without affecting users.",
       "source": "Dark Reading",
       "published": "2026-07-10T13:50:24+00:00"
     },
@@ -231,13 +301,6 @@
       "summary": "The activity, in some cases breaching the exact same systems, ran between February 2024 and April 2026 and centered on the force responsible for the country’s southwestern province that has been the...",
       "source": "The Record",
       "published": "2026-07-10T13:20:00+00:00"
-    },
-    {
-      "title": "CVE-2026-54469 - Dell Unisphere for PowerMax Deserialization of Untrusted Data Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54469",
-      "summary": "CVE ID :CVE-2026-54469 Published : July 10, 2026, 1:16 p.m. | 3 hours, 7 minutes ago Description :Dell Unisphere for PowerMax, version(s) 10.3.0.5 and prior, contain(s) a Deserialization of Untrusted...",
-      "source": "CVE Feed",
-      "published": "2026-07-10T13:16:20+00:00"
     },
     {
       "title": "New MODBEACON RAT Uses gRPC Streaming for Encrypted C2 Traffic",
@@ -268,20 +331,6 @@
       "published": "2026-07-10T12:35:32+00:00"
     },
     {
-      "title": "CVE-2026-56690 - Dell PowerFlex Manager SQL Injection Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56690",
-      "summary": "CVE ID :CVE-2026-56690 Published : July 10, 2026, 12:17 p.m. | 4 hours, 6 minutes ago Description :Dell PowerFlex Manager, Version prior to 5.1.0.1, contain(s) an Improper Neutralization of Special...",
-      "source": "CVE Feed",
-      "published": "2026-07-10T12:17:23+00:00"
-    },
-    {
-      "title": "CVE-2026-56688 - Dell PowerFlex Manager OS Command Injection Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56688",
-      "summary": "CVE ID :CVE-2026-56688 Published : July 10, 2026, 12:17 p.m. | 4 hours, 6 minutes ago Description :Dell PowerFlex Manager, Version prior to 5.1.0.1, contain(s) an Improper Neutralization of Special...",
-      "source": "CVE Feed",
-      "published": "2026-07-10T12:17:23+00:00"
-    },
-    {
       "title": "China, India-Linked Hackers Both Targeted Same Pakistani Police Force",
       "link": "https://www.securityweek.com/china-india-linked-hackers-both-targeted-same-pakistani-police-force/",
       "summary": "Both foes and allies have targeted the Balochistan Police force in Pakistan for at least two years, according to SentinelOne. The post China, India-Linked Hackers Both Targeted Same Pakistani Police...",
@@ -298,8 +347,8 @@
     {
       "title": "Unpatched XRING Flaw in XQUIC Lets Remote Clients Crash HTTP/3 Servers",
       "link": "https://thehackernews.com/2026/07/unpatched-xring-flaw-in-xquic-lets.html",
-      "summary": "Unpatched XRING Flaw in XQUIC Lets Remote Clients Crash HTTP/3 Servers A single wrong variable on one line in XQUIC, Alibaba's QUIC and HTTP/3 library, lets any remote client crash the server with a...",
-      "source": "CVE Newsroom",
+      "summary": "A single wrong variable on one line in XQUIC, Alibaba's QUIC and HTTP/3 library, lets any remote client crash the server with a short burst of completely legal traffic. There is no patch. FoxIO...",
+      "source": "The Hacker News",
       "published": "2026-07-10T11:47:43+00:00"
     },
     {
@@ -319,8 +368,8 @@
     {
       "title": "Exposed Hacker Server Reveals WP-SHELLSTORM Backdooring Thousands of WordPress Sites",
       "link": "https://thehackernews.com/2026/07/exposed-hacker-server-reveals-wp.html",
-      "summary": "Exposed Hacker Server Reveals WP-SHELLSTORM Backdooring Thousands of WordPress Sites A cybercrime crew left one of its own servers wide open on the internet for three weeks, and it exposed the...",
-      "source": "CVE Newsroom",
+      "summary": "A cybercrime crew left one of its own servers wide open on the internet for three weeks, and it exposed the operation's inner workings: the hacking tools, the activity logs, and target lists naming...",
+      "source": "The Hacker News",
       "published": "2026-07-10T11:30:02+00:00"
     },
     {
@@ -333,8 +382,8 @@
     {
       "title": "Study of 281 Free Android VPN Apps Finds Traffic Leaks, Unencrypted Data, and Tracking",
       "link": "https://thehackernews.com/2026/07/study-of-281-free-android-vpn-apps.html",
-      "summary": "Study of 281 Free Android VPN Apps Finds Traffic Leaks, Unencrypted Data, and Tracking Researchers ran 281 of the most popular free VPN apps on the Google Play Store through a new testing system and...",
-      "source": "CVE Newsroom",
+      "summary": "Researchers ran 281 of the most popular free VPN apps on the Google Play Store through a new testing system and found that many fail at the basics people install a VPN for, i.e., keeping their...",
+      "source": "The Hacker News",
       "published": "2026-07-10T10:56:23+00:00"
     },
     {
@@ -352,34 +401,6 @@
       "published": "2026-07-10T10:30:20+00:00"
     },
     {
-      "title": "CVE-2026-41880 - OS Command Injection in R-SOFT DMS",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-41880",
-      "summary": "CVE ID :CVE-2026-41880 Published : July 10, 2026, 10:16 a.m. | 6 hours, 7 minutes ago Description :R-SOFT DMS is vulnerable to OS Command Injection in the Optical Character Recognition (OCR) module...",
-      "source": "CVE Feed",
-      "published": "2026-07-10T10:16:24+00:00"
-    },
-    {
-      "title": "CVE-2026-41879 - Weak password hashing in R-SOFT DMS",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-41879",
-      "summary": "CVE ID :CVE-2026-41879 Published : July 10, 2026, 10:16 a.m. | 6 hours, 7 minutes ago Description :R-SOFT DMS stores superadmin credentials using a non-salted nested MD5 hash. This allows an attacker...",
-      "source": "CVE Feed",
-      "published": "2026-07-10T10:16:24+00:00"
-    },
-    {
-      "title": "CVE-2026-41876 - OS Command Injection in R-SOFT DMS",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-41876",
-      "summary": "CVE ID :CVE-2026-41876 Published : July 10, 2026, 10:16 a.m. | 6 hours, 7 minutes ago Description :R-SOFT DMS is vulnerable to OS Command Injection in konwertujAction() function. The document...",
-      "source": "CVE Feed",
-      "published": "2026-07-10T10:16:23+00:00"
-    },
-    {
-      "title": "CVE-2026-15378 - Guardrails-detectors: guardrails-detectors: ssrf and local file read via user-supplied xml schema (xml-with-schema:)",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-15378",
-      "summary": "CVE ID :CVE-2026-15378 Published : July 10, 2026, 10:16 a.m. | 6 hours, 7 minutes ago Description :A flaw was found in the `guardrails-detectors` component. This vulnerability allows a remote...",
-      "source": "CVE Feed",
-      "published": "2026-07-10T10:16:23+00:00"
-    },
-    {
       "title": "GigaWiper Combines Multiple Malware for System-Level Sabotage",
       "link": "https://www.securityweek.com/gigawiper-combines-multiple-malware-for-system-level-sabotage/",
       "summary": "The backdoor’s destructive capabilities include a standalone wiper, ransomware encryption, and a multi-pass wiping command. The post GigaWiper Combines Multiple Malware for System-Level Sabotage...",
@@ -387,10 +408,10 @@
       "published": "2026-07-10T09:12:08+00:00"
     },
     {
-      "title": "Attackers Exploit 'Ill Bloom' Vulnerability to Drain $3.1 Million From Cryptocurrency Wallets",
+      "title": "Attackers Exploit 'Ill Bloom' Vulnerability to Drain Over $5 Million From Cryptocurrency Wallets",
       "link": "https://thehackernews.com/2026/07/attackers-exploit-ill-bloom.html",
-      "summary": "Attackers Exploit 'Ill Bloom' Vulnerability to Drain $3.1 Million From Cryptocurrency Wallets Security firm Coinspect has disclosed a crypto wallet flaw it calls Ill Bloom, and attackers are already...",
-      "source": "CVE Newsroom",
+      "summary": "Security firm Coinspect has disclosed a crypto wallet flaw it calls Ill Bloom, and attackers are already using it. The flaw is in how some wallet software generated its recovery phrase, the words...",
+      "source": "The Hacker News",
       "published": "2026-07-10T09:00:05+00:00"
     },
     {
@@ -406,13 +427,6 @@
       "summary": "A former employee of cybersecurity incident response company DigitalMint was sentenced to 70 months in prison for targeting U.S. companies in BlackCat (ALPHV) ransomware attacks. [...]",
       "source": "BleepingComputer",
       "published": "2026-07-10T08:17:52+00:00"
-    },
-    {
-      "title": "CVE-2026-40008 - Apache IoTDB: Arbitrary Class Instantiation via Pipe Transfer RPC",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-40008",
-      "summary": "CVE ID :CVE-2026-40008 Published : July 10, 2026, 8:16 a.m. | 8 hours, 7 minutes ago Description :Use of Externally-Controlled Input to Select Classes or Code ('Unsafe Reflection') vulnerability in...",
-      "source": "CVE Feed",
-      "published": "2026-07-10T08:16:22+00:00"
     },
     {
       "title": "Ransomware Negotiator Gets 70 Months in Prison for Aiding BlackCat Attacks",
@@ -478,9 +492,9 @@
       "published": "2026-07-09T20:10:00+00:00"
     },
     {
-      "title": "AI Agents Are a New Kind of Identity & Most Organizations Aren't Ready",
+      "title": "AI Agents Are a New Kind of Identity—and Most Organizations Aren't Ready",
       "link": "https://www.darkreading.com/identity-access-management-security/ai-agents-new-kind-identity-most-organizations-not-ready",
-      "summary": "If you're handling them like a service account or API token, consider yourself behind. AI agents need a fundamentally different approach.",
+      "summary": "If you're handling AI agents like a service account or API token, consider yourself behind. AI agents need a fundamentally different approach.",
       "source": "Dark Reading",
       "published": "2026-07-09T19:16:02+00:00"
     },
@@ -522,8 +536,8 @@
     {
       "title": "ThreatsDay: Cloud Bucket Hijacking, Windows LPE Chain, Global Fraud Bust + 17 More Stories",
       "link": "https://thehackernews.com/2026/07/threatsday-cloud-bucket-hijacking.html",
-      "summary": "ThreatsDay: Cloud Bucket Hijacking, Windows LPE Chain, Global Fraud Bust + 17 More Stories Most security mess starts as admin work. A link gets clicked. A tool gets trusted. A bucket name gets...",
-      "source": "CVE Newsroom",
+      "summary": "Most security mess starts as admin work. A link gets clicked. A tool gets trusted. A bucket name gets reused. A setting stays loose because nobody wants to touch it. This week is full of that kind of...",
+      "source": "The Hacker News",
       "published": "2026-07-09T15:09:28+00:00"
     },
     {
@@ -548,9 +562,9 @@
       "published": "2026-07-09T14:31:29+00:00"
     },
     {
-      "title": "As Global Conflicts Go Digital, Businesses Need Wartime Gameplans",
+      "title": "As Global Conflicts Go Digital, Businesses Need Wartime Game Plans",
       "link": "https://www.darkreading.com/cybersecurity-operations/businesses-wartime-cybersecurity-gameplans",
-      "summary": "The fate of a Ukrainian tax software company shows how modern cyberwarfare can claim casualties far beyond the battlefield, and how businesses across the ocean still need to protect themselves.",
+      "summary": "The fate of a Ukrainian tax software company shows how modern cyber warfare can claim casualties far beyond the battlefield, and how businesses across the ocean still need to protect themselves.",
       "source": "Dark Reading",
       "published": "2026-07-09T14:31:20+00:00"
     },
@@ -639,13 +653,6 @@
       "published": "2026-07-09T10:00:00+00:00"
     },
     {
-      "title": "Police arrests 5,800 suspects in global anti-fraud crackdown",
-      "link": "https://www.bleepingcomputer.com/news/security/police-arrests-5-800-suspects-in-global-anti-fraud-crackdown/",
-      "summary": "Law enforcement agencies have arrested 5,811 suspects and seized $293 million in illicit assets in a global anti-fraud operation spanning 97 countries. [...]",
-      "source": "BleepingComputer",
-      "published": "2026-07-09T09:47:28+00:00"
-    },
-    {
       "title": "Cisco komt op 15 juli met belangrijke updates voor Identity Services Engine",
       "link": "https://www.security.nl/posting/944067/Cisco+komt+op+15+juli+met+belangrijke+updates+voor+Identity+Services+Engine?channel=rss",
       "summary": "Cisco komt op 15 juli met belangrijke updates voor Identity Services Engine Cisco komt op 15 juli met belangrijke updates voor kwetsbaarheden in Cisco Identity Services Engine (ISE). Dat staat in een...",
@@ -655,8 +662,8 @@
     {
       "title": "Microsoft Patches RoguePlanet Defender Flaw That Can Grant SYSTEM Privileges",
       "link": "https://thehackernews.com/2026/07/microsoft-patches-rogueplanet-defender.html",
-      "summary": "Microsoft Patches RoguePlanet Defender Flaw That Can Grant SYSTEM Privileges Microsoft has released security updates for a Defender vulnerability known as RoguePlanet, nearly a month after details of...",
-      "source": "CVE Newsroom",
+      "summary": "Microsoft has released security updates for a Defender vulnerability known as RoguePlanet, nearly a month after details of the flaw became public. The vulnerability, tracked as CVE-2026-50656 (CVSS...",
+      "source": "The Hacker News",
       "published": "2026-07-09T08:48:48+00:00"
     },
     {
@@ -704,15 +711,15 @@
     {
       "title": "Top AI Agents Built to Catch Malicious Code Can Be Tricked Into Running It",
       "link": "https://thehackernews.com/2026/07/friendly-fire-ai-agents-built-to-catch.html",
-      "summary": "Top AI Agents Built to Catch Malicious Code Can Be Tricked Into Running It Ask an AI coding agent to scan open-source code for security holes, and it might run the attacker's code on your own machine...",
-      "source": "CVE Newsroom",
+      "summary": "Ask an AI coding agent to scan open-source code for security holes, and it might run the attacker's code on your own machine instead. That is the finding in a proof-of-concept published Wednesday by...",
+      "source": "The Hacker News",
       "published": "2026-07-09T05:15:02+00:00"
     },
     {
       "title": "GhostApproval Symlink Flaws Could Let Malicious Repos Run Code in AI Coding Agents",
       "link": "https://thehackernews.com/2026/07/ghostapproval-symlink-flaws-could-let.html",
-      "summary": "GhostApproval Symlink Flaws Could Let Malicious Repos Run Code in AI Coding Agents Researchers at Wiz found that a flaw in six popular AI coding assistants lets a booby-trapped code project quietly...",
-      "source": "CVE Newsroom",
+      "summary": "Researchers at Wiz found that a flaw in six popular AI coding assistants lets a booby-trapped code project quietly take control of a developer's computer. The assistant asks permission to edit one...",
+      "source": "The Hacker News",
       "published": "2026-07-09T04:27:18+00:00"
     },
     {
@@ -767,8 +774,8 @@
     {
       "title": "Ubiquiti Patches Critical UniFi Flaws Across Connect, Talk, Access, Protect, and OS",
       "link": "https://thehackernews.com/2026/07/ubiquiti-patches-critical-unifi-flaws.html",
-      "summary": "Ubiquiti Patches Critical UniFi Flaws Across Connect, Talk, Access, Protect, and OS Ravie LakshmananJul 08, 2026Vulnerability / Network Security Ubiquiti has shipped updates to address multiple...",
-      "source": "CVE Newsroom",
+      "summary": "Ubiquiti has shipped updates to address multiple critical security flaws impacting UniFi Connect, UniFi Talk, UniFi Access, UniFi Protect, and UniFi OS that could result in privilege escalation and...",
+      "source": "The Hacker News",
       "published": "2026-07-08T14:38:05+00:00"
     },
     {
@@ -816,16 +823,9 @@
     {
       "title": "China-Linked UAT-7810 Expands ORB Network With New LONGLEASH Malware",
       "link": "https://thehackernews.com/2026/07/china-linked-uat-7810-expands-orb.html",
-      "summary": "China-Linked UAT-7810 Expands ORB Network With New LONGLEASH Malware A Chinese threat actor tracked as UAT-7810 is actively refining its bespoke malware to expand its Operational Relay Box (ORB)...",
-      "source": "CVE Newsroom",
+      "summary": "A Chinese threat actor tracked as UAT-7810 is actively refining its bespoke malware to expand its Operational Relay Box (ORB) network by breaking into internet-facing networking devices. According to...",
+      "source": "The Hacker News",
       "published": "2026-07-08T09:04:33+00:00"
-    },
-    {
-      "title": "Joomla-websites aangevallen via kritieke lekken in page builder-extensies",
-      "link": "https://www.security.nl/posting/943862/Joomla-websites+aangevallen+via+kritieke+lekken+in+page+builder-extensies?channel=rss",
-      "summary": "Joomla-websites aangevallen via kritieke lekken in page builder-extensies Joomla-websites worden actief aangevallen via twee kritieke kwetsbaarheden in page builder-extensies voor het platform, zo...",
-      "source": "CVE Newsroom",
-      "published": "2026-07-08T08:35:51+00:00"
     },
     {
       "title": "State IDs for AI Agents: Will Estonia Set a Precedent?",
@@ -987,13 +987,6 @@
       "summary": "A streaming box should not need a threat model. Neither should a username field, a demo repo, a reset flow, or a browser permission prompt. That is the irritating part this week: the risky pieces...",
       "source": "The Hacker News",
       "published": "2026-07-06T13:01:14+00:00"
-    },
-    {
-      "title": "How to Evaluate an AI SOC Platform in 2026: 6 Capabilities That Separate Leaders from Bolt-On AI solutions",
-      "link": "https://thehackernews.com/2026/07/how-to-evaluate-ai-soc-platform-in-2026.html",
-      "summary": "Building a shortlist for an AI SOC evaluation can be tough. SIEM, SOAR, and pureplay AI SOC vendors are all saying the same thing. But behind the identical label sit very different products, from...",
-      "source": "The Hacker News",
-      "published": "2026-07-06T11:30:02+00:00"
     },
     {
       "title": "Chinese LLMs Broaden the Gap Between Attackers & Defenders",
