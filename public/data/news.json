@@ -1,40 +1,82 @@
 {
-  "last_updated": "2026-07-10T20:59:46.179440+00:00",
+  "last_updated": "2026-07-10T22:51:38.059310+00:00",
   "articles": [
+    {
+      "title": "New U-Boot flaws could enable stealthy firmware attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/new-u-boot-flaws-could-enable-stealthy-firmware-attacks/",
+      "summary": "Six vulnerabilities in the widely used U-Boot bootloader have been discovered that could allow attackers to execute malicious code during device boot, potentially enabling stealthy firmware attacks...",
+      "source": "BleepingComputer",
+      "published": "2026-07-10T21:59:02+00:00"
+    },
+    {
+      "title": "CVE-2026-58499 - Path traversal in EverOS /api/v1/memory/add via unvalidated sender_id",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-58499",
+      "summary": "CVE ID :CVE-2026-58499 Published : July 10, 2026, 9:17 p.m. | 1 hour, 12 minutes ago Description :EverOS is a memory runtime for agents. Prior to 1.0.1, EverOS is vulnerable to path traversal in the...",
+      "source": "CVE Feed",
+      "published": "2026-07-10T21:17:00+00:00"
+    },
+    {
+      "title": "CVE-2026-57807 - WordPress OAuth Single Sign On - SSO (OAuth Client) plugin <= 38.5.8 - Broken Authentication vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-57807",
+      "summary": "CVE ID :CVE-2026-57807 Published : July 10, 2026, 9:16 p.m. | 1 hour, 12 minutes ago Description :Authentication Bypass Using an Alternate Path or Channel vulnerability in miniOrange Security...",
+      "source": "CVE Feed",
+      "published": "2026-07-10T21:16:59+00:00"
+    },
+    {
+      "title": "CVE-2026-57219 - RabbitMQ: Unauthenticated disclosure of OAuth client credentials via an HTTP API endpoint with certain less common OAuth 2 configurations",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-57219",
+      "summary": "CVE ID :CVE-2026-57219 Published : July 10, 2026, 9:16 p.m. | 1 hour, 12 minutes ago Description :RabbitMQ is a messaging and streaming broker. Prior to 3.13.15, 4.0.20, 4.1.11, and 4.2.6, the...",
+      "source": "CVE Feed",
+      "published": "2026-07-10T21:16:59+00:00"
+    },
+    {
+      "title": "CVE-2026-55879 - OpenReplay: Unauthenticated stored XSS leads to dashboard account takeover",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55879",
+      "summary": "CVE ID :CVE-2026-55879 Published : July 10, 2026, 9:16 p.m. | 1 hour, 12 minutes ago Description :OpenReplay is a self-hosted session replay suite. From 1.24.0 before 1.25.0, the OpenReplay tracking...",
+      "source": "CVE Feed",
+      "published": "2026-07-10T21:16:57+00:00"
+    },
+    {
+      "title": "CVE-2026-55665 - DOM-based XSS in Grist via unsanitized links, enabling privilege escalation",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55665",
+      "summary": "CVE ID :CVE-2026-55665 Published : July 10, 2026, 9:16 p.m. | 1 hour, 12 minutes ago Description :Grist is spreadsheet software using Python as its formula language. Prior to 1.7.15, Grist contained...",
+      "source": "CVE Feed",
+      "published": "2026-07-10T21:16:56+00:00"
+    },
+    {
+      "title": "CVE-2026-12761 - miniOrange Social Login and Register (Discord, Google, Twitter, LinkedIn) <= 7.7.0 - Unauthenticated Authentication Bypass to Administrator Account Takeover via Profile Completion OTP Flow",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-12761",
+      "summary": "CVE ID :CVE-2026-12761 Published : July 10, 2026, 9:16 p.m. | 1 hour, 12 minutes ago Description :The miniOrange Social Login and Register (Discord, Google, Twitter, LinkedIn) plugin for WordPress is...",
+      "source": "CVE Feed",
+      "published": "2026-07-10T21:16:53+00:00"
+    },
     {
       "title": "CVE-2026-57850 - RustDesk before 1.4.9 Missing Session Scope Enforcement Allows Out-of-Scope Control Message Injection",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-57850",
-      "summary": "CVE ID :CVE-2026-57850 Published : July 10, 2026, 8:16 p.m. | 26 minutes ago Description :RustDesk before 1.4.9 does not enforce a session's authorized connection scope on the server side, so a peer...",
+      "summary": "CVE ID :CVE-2026-57850 Published : July 10, 2026, 8:16 p.m. | 2 hours, 12 minutes ago Description :RustDesk before 1.4.9 does not enforce a session's authorized connection scope on the server side...",
       "source": "CVE Feed",
       "published": "2026-07-10T20:16:48+00:00"
     },
     {
       "title": "CVE-2026-57156 - FreeRDP: Integer overflow leading to heap buffer overflow in Orders Delta Points parsing",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-57156",
-      "summary": "CVE ID :CVE-2026-57156 Published : July 10, 2026, 8:16 p.m. | 26 minutes ago Description :FreeRDP is a free implementation of the Remote Desktop Protocol. Prior to 3.28.0 on 32-bit builds, FreeRDP...",
+      "summary": "CVE ID :CVE-2026-57156 Published : July 10, 2026, 8:16 p.m. | 2 hours, 12 minutes ago Description :FreeRDP is a free implementation of the Remote Desktop Protocol. Prior to 3.28.0 on 32-bit builds...",
       "source": "CVE Feed",
       "published": "2026-07-10T20:16:48+00:00"
     },
     {
       "title": "CVE-2026-55789 - Logto: SAML IdP injects user-controlled profile attributes raw into signed assertions, allowing privilege escalation at relying Service Providers",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-55789",
-      "summary": "CVE ID :CVE-2026-55789 Published : July 10, 2026, 8:16 p.m. | 26 minutes ago Description :Logto is the modern, open-source auth infrastructure for SaaS and AI apps. Prior to 1.41.0, Logto's...",
+      "summary": "CVE ID :CVE-2026-55789 Published : July 10, 2026, 8:16 p.m. | 2 hours, 12 minutes ago Description :Logto is the modern, open-source auth infrastructure for SaaS and AI apps. Prior to 1.41.0, Logto's...",
       "source": "CVE Feed",
       "published": "2026-07-10T20:16:47+00:00"
     },
     {
       "title": "CVE-2026-55377 - Logto: Account Center MFA management step-up bypass via WebAuthn registration verification",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-55377",
-      "summary": "CVE ID :CVE-2026-55377 Published : July 10, 2026, 8:16 p.m. | 26 minutes ago Description :Logto is the modern, open-source auth infrastructure for SaaS and AI apps. Prior to 1.41.0, Logto's Account...",
+      "summary": "CVE ID :CVE-2026-55377 Published : July 10, 2026, 8:16 p.m. | 2 hours, 12 minutes ago Description :Logto is the modern, open-source auth infrastructure for SaaS and AI apps. Prior to 1.41.0, Logto's...",
       "source": "CVE Feed",
       "published": "2026-07-10T20:16:46+00:00"
-    },
-    {
-      "title": "Turning the Tables on Email Scammers With 'ScamBuster'",
-      "link": "https://www.darkreading.com/cyberattacks-data-breaches/turning-tables-email-scammers-scambuster",
-      "summary": "An open source, AI-driven system adopts victim personas to engage with phishing attackers, allowing organizations and law enforcement to gather relevant data on cybercriminal operations.",
-      "source": "Dark Reading",
-      "published": "2026-07-10T19:43:16+00:00"
     },
     {
       "title": "Europe revives law allowing big tech to scan for CSAM",
@@ -46,77 +88,77 @@
     {
       "title": "CVE-2026-6212 - IDOR in Teracity's TeraMIS",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-6212",
-      "summary": "CVE ID :CVE-2026-6212 Published : July 10, 2026, 7:17 p.m. | 1 hour, 25 minutes ago Description :Authorization bypass through User-Controlled key vulnerability in Teracity Software Technologies Inc...",
+      "summary": "CVE ID :CVE-2026-6212 Published : July 10, 2026, 7:17 p.m. | 3 hours, 11 minutes ago Description :Authorization bypass through User-Controlled key vulnerability in Teracity Software Technologies Inc...",
       "source": "CVE Feed",
       "published": "2026-07-10T19:17:27+00:00"
     },
     {
       "title": "CVE-2026-61461 - Dify < 1.16.0-rc1 SQL Injection via MyScale Vector Store search_by_full_text",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-61461",
-      "summary": "CVE ID :CVE-2026-61461 Published : July 10, 2026, 7:17 p.m. | 1 hour, 25 minutes ago Description :Dify before 1.16.0-rc1 contains a SQL injection vulnerability in the MyScale vector store backend...",
+      "summary": "CVE ID :CVE-2026-61461 Published : July 10, 2026, 7:17 p.m. | 3 hours, 11 minutes ago Description :Dify before 1.16.0-rc1 contains a SQL injection vulnerability in the MyScale vector store backend...",
       "source": "CVE Feed",
       "published": "2026-07-10T19:17:27+00:00"
     },
     {
       "title": "CVE-2026-61460 - Krayin CRM Insecure Direct Object Reference via Controllers",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-61460",
-      "summary": "CVE ID :CVE-2026-61460 Published : July 10, 2026, 7:17 p.m. | 1 hour, 25 minutes ago Description :Krayin CRM through 2.2.3 contains an insecure direct object reference vulnerability in...",
+      "summary": "CVE ID :CVE-2026-61460 Published : July 10, 2026, 7:17 p.m. | 3 hours, 11 minutes ago Description :Krayin CRM through 2.2.3 contains an insecure direct object reference vulnerability in...",
       "source": "CVE Feed",
       "published": "2026-07-10T19:17:27+00:00"
     },
     {
       "title": "CVE-2026-61459 - MCP Server Kubernetes < 3.9.0 Argument Injection via kubectl Structured Tools",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-61459",
-      "summary": "CVE ID :CVE-2026-61459 Published : July 10, 2026, 7:17 p.m. | 1 hour, 25 minutes ago Description :MCP Server Kubernetes before 3.9.0 contains an argument injection vulnerability in structured tools...",
+      "summary": "CVE ID :CVE-2026-61459 Published : July 10, 2026, 7:17 p.m. | 3 hours, 11 minutes ago Description :MCP Server Kubernetes before 3.9.0 contains an argument injection vulnerability in structured tools...",
       "source": "CVE Feed",
       "published": "2026-07-10T19:17:27+00:00"
     },
     {
       "title": "CVE-2026-5801 - SQLi in Semtek Informatics' SEM-PMP",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-5801",
-      "summary": "CVE ID :CVE-2026-5801 Published : July 10, 2026, 7:17 p.m. | 1 hour, 25 minutes ago Description :Improper neutralization of special elements used in an SQL command ('SQL injection') vulnerability in...",
+      "summary": "CVE ID :CVE-2026-5801 Published : July 10, 2026, 7:17 p.m. | 3 hours, 11 minutes ago Description :Improper neutralization of special elements used in an SQL command ('SQL injection') vulnerability in...",
       "source": "CVE Feed",
       "published": "2026-07-10T19:17:27+00:00"
     },
     {
       "title": "CVE-2026-59151 - Prowler: SAML Domain Claiming Enables Cross-Tenant Account Takeover",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-59151",
-      "summary": "CVE ID :CVE-2026-59151 Published : July 10, 2026, 7:17 p.m. | 1 hour, 25 minutes ago Description :Prowler is a cloud security platform. Prior to 5.30.3, Prowler's SAML authentication flow trusted the...",
+      "summary": "CVE ID :CVE-2026-59151 Published : July 10, 2026, 7:17 p.m. | 3 hours, 11 minutes ago Description :Prowler is a cloud security platform. Prior to 5.30.3, Prowler's SAML authentication flow trusted...",
       "source": "CVE Feed",
       "published": "2026-07-10T19:17:26+00:00"
     },
     {
       "title": "CVE-2026-54329 - Snipe-IT: Cross-Tenant Accessory Injection in Snipe-IT API",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-54329",
-      "summary": "CVE ID :CVE-2026-54329 Published : July 10, 2026, 7:17 p.m. | 1 hour, 25 minutes ago Description :Snipe-IT is an IT asset/license management system. Prior to 8.6.2, the Accessories API create path...",
+      "summary": "CVE ID :CVE-2026-54329 Published : July 10, 2026, 7:17 p.m. | 3 hours, 11 minutes ago Description :Snipe-IT is an IT asset/license management system. Prior to 8.6.2, the Accessories API create path...",
       "source": "CVE Feed",
       "published": "2026-07-10T19:17:24+00:00"
     },
     {
       "title": "CVE-2025-30007 - HestiaCP < 1.9.5 Authenticated OS Command Injection via DNS Record Management",
       "link": "https://cvefeed.io/vuln/detail/CVE-2025-30007",
-      "summary": "CVE ID :CVE-2025-30007 Published : July 10, 2026, 7:17 p.m. | 1 hour, 25 minutes ago Description :HestiaCP before 1.9.5 contains an authenticated OS command injection vulnerability that allows...",
+      "summary": "CVE ID :CVE-2025-30007 Published : July 10, 2026, 7:17 p.m. | 3 hours, 12 minutes ago Description :HestiaCP before 1.9.5 contains an authenticated OS command injection vulnerability that allows...",
       "source": "CVE Feed",
       "published": "2026-07-10T19:17:18+00:00"
     },
     {
       "title": "Jen Ellis: Connecting Cyber Community With Political Machinery",
       "link": "https://www.darkreading.com/cybersecurity-operations/jen-ellis-connecting-cyber-community-political-machinery",
-      "summary": "On the heels of her recent honors as a Member of the Order of the British Empire (MBE), we take a look back at the events that shaped Ellis' advocacy on behalf of security researchers.",
+      "summary": "Security Pro File: On the heels of her recent honors as a Member of the Order of the British Empire (MBE), we take a look back at the events that shaped Jen Ellis' advocacy on behalf of security...",
       "source": "Dark Reading",
       "published": "2026-07-10T19:08:04+00:00"
     },
     {
       "title": "CVE-2026-56668 - ZITADEL: Unauthorized Token Privilege Escalation in OAuth2 Token Exchange",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-56668",
-      "summary": "CVE ID :CVE-2026-56668 Published : July 10, 2026, 6:16 p.m. | 2 hours, 26 minutes ago Description :ZITADEL is an open source identity management platform. Prior to 4.15.3, ZITADEL's OAuth2 Token...",
+      "summary": "CVE ID :CVE-2026-56668 Published : July 10, 2026, 6:16 p.m. | 4 hours, 12 minutes ago Description :ZITADEL is an open source identity management platform. Prior to 4.15.3, ZITADEL's OAuth2 Token...",
       "source": "CVE Feed",
       "published": "2026-07-10T18:16:24+00:00"
     },
     {
       "title": "CVE-2026-2397 - SQLi in AdamPOS' MobilMen 20T",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-2397",
-      "summary": "CVE ID :CVE-2026-2397 Published : July 10, 2026, 6:16 p.m. | 2 hours, 26 minutes ago Description :Improper neutralization of special elements used in an SQL command ('SQL injection') vulnerability in...",
+      "summary": "CVE ID :CVE-2026-2397 Published : July 10, 2026, 6:16 p.m. | 4 hours, 12 minutes ago Description :Improper neutralization of special elements used in an SQL command ('SQL injection') vulnerability in...",
       "source": "CVE Feed",
       "published": "2026-07-10T18:16:20+00:00"
     },
@@ -130,72 +172,37 @@
     {
       "title": "CVE-2026-59190 - Grav Admin Plugin — IDOR Privilege Escalation via saveUser()",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-59190",
-      "summary": "CVE ID :CVE-2026-59190 Published : July 10, 2026, 5:17 p.m. | 3 hours, 26 minutes ago Description :grav-plugin-admin is an HTML user interface that provides a way to configure Grav and create and...",
+      "summary": "CVE ID :CVE-2026-59190 Published : July 10, 2026, 5:17 p.m. | 5 hours, 12 minutes ago Description :grav-plugin-admin is an HTML user interface that provides a way to configure Grav and create and...",
       "source": "CVE Feed",
       "published": "2026-07-10T17:17:02+00:00"
     },
     {
       "title": "CVE-2026-59161 - Excelize: Streaming GetRows row-bound bypass causes attacker-controlled allocation",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-59161",
-      "summary": "CVE ID :CVE-2026-59161 Published : July 10, 2026, 5:17 p.m. | 3 hours, 26 minutes ago Description :Excelize is a Go language library for reading and writing Microsoft Excel spreadsheets. Prior to...",
+      "summary": "CVE ID :CVE-2026-59161 Published : July 10, 2026, 5:17 p.m. | 5 hours, 12 minutes ago Description :Excelize is a Go language library for reading and writing Microsoft Excel spreadsheets. Prior to...",
       "source": "CVE Feed",
       "published": "2026-07-10T17:17:02+00:00"
     },
     {
       "title": "CVE-2026-58492 - grav-plugin-database: SQL Injection in PDO::tableExists() due to Unsanitized Table Name Interpolation",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-58492",
-      "summary": "CVE ID :CVE-2026-58492 Published : July 10, 2026, 5:17 p.m. | 3 hours, 26 minutes ago Description :grav-plugin-database is the database plugin for Grav CMS. Prior to 1.2.0, the PDO::tableExists...",
+      "summary": "CVE ID :CVE-2026-58492 Published : July 10, 2026, 5:17 p.m. | 5 hours, 12 minutes ago Description :grav-plugin-database is the database plugin for Grav CMS. Prior to 1.2.0, the PDO::tableExists...",
       "source": "CVE Feed",
       "published": "2026-07-10T17:17:01+00:00"
     },
     {
       "title": "CVE-2026-56675 - 9router: Reverse proxy locality collapse allows unauthenticated access to 9router /v1 APIs",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-56675",
-      "summary": "CVE ID :CVE-2026-56675 Published : July 10, 2026, 5:17 p.m. | 3 hours, 26 minutes ago Description :9Router is an AI router & token saver. Prior to 0.5.2, 9router treats loopback requests as trusted...",
+      "summary": "CVE ID :CVE-2026-56675 Published : July 10, 2026, 5:17 p.m. | 5 hours, 12 minutes ago Description :9Router is an AI router & token saver. Prior to 0.5.2, 9router treats loopback requests as trusted...",
       "source": "CVE Feed",
       "published": "2026-07-10T17:17:01+00:00"
     },
     {
       "title": "CVE-2026-55641 - 9router: Unauthenticated `/v1` proxy access via `Host`-header spoofing → open AI relay + SSRF",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-55641",
-      "summary": "CVE ID :CVE-2026-55641 Published : July 10, 2026, 5:16 p.m. | 3 hours, 26 minutes ago Description :9Router is an AI router & token saver. Prior to 0.5.2, 9router determines whether a /v1 LLM proxy...",
+      "summary": "CVE ID :CVE-2026-55641 Published : July 10, 2026, 5:16 p.m. | 5 hours, 12 minutes ago Description :9Router is an AI router & token saver. Prior to 0.5.2, 9router determines whether a /v1 LLM proxy...",
       "source": "CVE Feed",
       "published": "2026-07-10T17:16:59+00:00"
-    },
-    {
-      "title": "CVE-2026-55638 - 9router: Unauthenticated LLM proxy access via /codex rewrite authorization bypass",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55638",
-      "summary": "CVE ID :CVE-2026-55638 Published : July 10, 2026, 5:16 p.m. | 3 hours, 26 minutes ago Description :9Router is an AI router & token saver. Prior to 0.5.2, 9router protects /v1, /v1beta, /api/v1, and...",
-      "source": "CVE Feed",
-      "published": "2026-07-10T17:16:59+00:00"
-    },
-    {
-      "title": "CVE-2026-53657 - Lima: An arbitrary user in a QEMU VM could gain the root privilege in the VM via the guest agent socket",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-53657",
-      "summary": "CVE ID :CVE-2026-53657 Published : July 10, 2026, 5:16 p.m. | 3 hours, 26 minutes ago Description :Lima launches Linux virtual machines, typically on macOS, for running containerd. Prior to 2.1.3, on...",
-      "source": "CVE Feed",
-      "published": "2026-07-10T17:16:57+00:00"
-    },
-    {
-      "title": "CVE-2026-53653 - Grav: Unauthenticated denial of service via unbounded image derivative dimensions",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-53653",
-      "summary": "CVE ID :CVE-2026-53653 Published : July 10, 2026, 5:16 p.m. | 3 hours, 26 minutes ago Description :Grav is a file-based Web platform. Prior to 1.7.53 and 2.0.0-rc.8, Grav allows an unauthenticated...",
-      "source": "CVE Feed",
-      "published": "2026-07-10T17:16:57+00:00"
-    },
-    {
-      "title": "CVE-2026-51119 - Invixium IXM WEB Privilege Escalation",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-51119",
-      "summary": "CVE ID :CVE-2026-51119 Published : July 10, 2026, 5:16 p.m. | 3 hours, 26 minutes ago Description :An issue in Invixium IXM WEB v.2.3.85.25 allows an attacker to escalate privileges via the...",
-      "source": "CVE Feed",
-      "published": "2026-07-10T17:16:57+00:00"
-    },
-    {
-      "title": "CVE-2026-2398 - IDOR in AdamPOS' MobilMen 20T",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-2398",
-      "summary": "CVE ID :CVE-2026-2398 Published : July 10, 2026, 5:16 p.m. | 3 hours, 26 minutes ago Description :Authorization bypass through User-Controlled key vulnerability in Adam Retail Automation Ltd...",
-      "source": "CVE Feed",
-      "published": "2026-07-10T17:16:56+00:00"
     },
     {
       "title": "Ryuk operator pleads guilty; Blackcat/AlphV conspirator gets nearly 6-year sentence",
@@ -228,8 +235,8 @@
     {
       "title": "URGENT - Progress Tells ShareFile Customers to Shut Down Storage Zone Controllers Over Security Threat",
       "link": "https://thehackernews.com/2026/07/urgent-progress-tells-sharefile.html",
-      "summary": "Progress Software has told ShareFile customers to shut down the Windows servers running their Storage Zone Controllers, confirming to The Hacker News that it is responding to a \"credible external...",
-      "source": "The Hacker News",
+      "summary": "URGENT - Progress Tells ShareFile Customers to Shut Down Storage Zone Controllers Over Security Threat Progress Software has told ShareFile customers to shut down the Windows servers running their...",
+      "source": "CVE Newsroom",
       "published": "2026-07-10T16:30:00+00:00"
     },
     {
@@ -247,17 +254,10 @@
       "published": "2026-07-10T16:26:10+00:00"
     },
     {
-      "title": "CVE-2026-55500 - 9router: Exposure of Sensitive Information and Unprotected Database Import/Export Allows Complete Credential Theft and Database Takeover",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55500",
-      "summary": "CVE ID :CVE-2026-55500 Published : July 10, 2026, 4:16 p.m. | 4 hours, 26 minutes ago Description :9Router is an AI router & token saver. Prior to 0.4.80, the /api/settings/database endpoint allows...",
-      "source": "CVE Feed",
-      "published": "2026-07-10T16:16:33+00:00"
-    },
-    {
       "title": "Six New U-Boot Flaws Could Let Malicious Images Crash Devices or Run Code at Boot",
       "link": "https://thehackernews.com/2026/07/six-new-u-boot-flaws-could-let.html",
-      "summary": "Researchers at firmware security firm Binarly have found six new flaws in U-Boot, the small program that starts up hardware as varied as home routers, smart cameras, and the management chips inside...",
-      "source": "The Hacker News",
+      "summary": "Six New U-Boot Flaws Could Let Malicious Images Crash Devices or Run Code at Boot Researchers at firmware security firm Binarly have found six new flaws in U-Boot, the small program that starts up...",
+      "source": "CVE Newsroom",
       "published": "2026-07-10T15:57:14+00:00"
     },
     {
@@ -368,8 +368,8 @@
     {
       "title": "Unpatched XRING Flaw in XQUIC Lets Remote Clients Crash HTTP/3 Servers",
       "link": "https://thehackernews.com/2026/07/unpatched-xring-flaw-in-xquic-lets.html",
-      "summary": "A single wrong variable on one line in XQUIC, Alibaba's QUIC and HTTP/3 library, lets any remote client crash the server with a short burst of completely legal traffic. There is no patch. FoxIO...",
-      "source": "The Hacker News",
+      "summary": "Unpatched XRING Flaw in XQUIC Lets Remote Clients Crash HTTP/3 Servers A single wrong variable on one line in XQUIC, Alibaba's QUIC and HTTP/3 library, lets any remote client crash the server with a...",
+      "source": "CVE Newsroom",
       "published": "2026-07-10T11:47:43+00:00"
     },
     {
@@ -389,8 +389,8 @@
     {
       "title": "Exposed Hacker Server Reveals WP-SHELLSTORM Backdooring Thousands of WordPress Sites",
       "link": "https://thehackernews.com/2026/07/exposed-hacker-server-reveals-wp.html",
-      "summary": "A cybercrime crew left one of its own servers wide open on the internet for three weeks, and it exposed the operation's inner workings: the hacking tools, the activity logs, and target lists naming...",
-      "source": "The Hacker News",
+      "summary": "Exposed Hacker Server Reveals WP-SHELLSTORM Backdooring Thousands of WordPress Sites A cybercrime crew left one of its own servers wide open on the internet for three weeks, and it exposed the...",
+      "source": "CVE Newsroom",
       "published": "2026-07-10T11:30:02+00:00"
     },
     {
@@ -403,8 +403,8 @@
     {
       "title": "Study of 281 Free Android VPN Apps Finds Traffic Leaks, Unencrypted Data, and Tracking",
       "link": "https://thehackernews.com/2026/07/study-of-281-free-android-vpn-apps.html",
-      "summary": "Researchers ran 281 of the most popular free VPN apps on the Google Play Store through a new testing system and found that many fail at the basics people install a VPN for, i.e., keeping their...",
-      "source": "The Hacker News",
+      "summary": "Study of 281 Free Android VPN Apps Finds Traffic Leaks, Unencrypted Data, and Tracking Researchers ran 281 of the most popular free VPN apps on the Google Play Store through a new testing system and...",
+      "source": "CVE Newsroom",
       "published": "2026-07-10T10:56:23+00:00"
     },
     {
@@ -429,10 +429,10 @@
       "published": "2026-07-10T09:12:08+00:00"
     },
     {
-      "title": "Attackers Exploit 'Ill Bloom' Vulnerability to Drain Over $5 Million From Cryptocurrency Wallets",
+      "title": "Attackers Exploit 'Ill Bloom' Vulnerability to Drain $3.1 Million From Cryptocurrency Wallets",
       "link": "https://thehackernews.com/2026/07/attackers-exploit-ill-bloom.html",
-      "summary": "Security firm Coinspect has disclosed a crypto wallet flaw it calls Ill Bloom, and attackers are already using it. The flaw is in how some wallet software generated its recovery phrase, the words...",
-      "source": "The Hacker News",
+      "summary": "Attackers Exploit 'Ill Bloom' Vulnerability to Drain $3.1 Million From Cryptocurrency Wallets Security firm Coinspect has disclosed a crypto wallet flaw it calls Ill Bloom, and attackers are already...",
+      "source": "CVE Newsroom",
       "published": "2026-07-10T09:00:05+00:00"
     },
     {
@@ -557,8 +557,8 @@
     {
       "title": "ThreatsDay: Cloud Bucket Hijacking, Windows LPE Chain, Global Fraud Bust + 17 More Stories",
       "link": "https://thehackernews.com/2026/07/threatsday-cloud-bucket-hijacking.html",
-      "summary": "Most security mess starts as admin work. A link gets clicked. A tool gets trusted. A bucket name gets reused. A setting stays loose because nobody wants to touch it. This week is full of that kind of...",
-      "source": "The Hacker News",
+      "summary": "ThreatsDay: Cloud Bucket Hijacking, Windows LPE Chain, Global Fraud Bust + 17 More Stories Most security mess starts as admin work. A link gets clicked. A tool gets trusted. A bucket name gets...",
+      "source": "CVE Newsroom",
       "published": "2026-07-09T15:09:28+00:00"
     },
     {
@@ -632,13 +632,6 @@
       "published": "2026-07-09T12:26:58+00:00"
     },
     {
-      "title": "Microsoft to retire the OWA Light client in Exchange Server",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-announces-owa-light-retirement-in-exchange-server/",
-      "summary": "Microsoft has announced plans to disable Outlook Web Access (OWA) Light, the lightweight version of the Outlook Web App email client, in a future Exchange Server update. [...]",
-      "source": "BleepingComputer",
-      "published": "2026-07-09T11:00:35+00:00"
-    },
-    {
       "title": "Summer of Clearinghouses",
       "link": "https://thehackernews.com/2026/07/summer-of-clearinghouses.html",
       "summary": "Everyone seems to have announced a clearinghouse over the past few weeks. We did too. Ours is called Athena, and the main thing that sets it apart is that it was already real and running when we...",
@@ -676,8 +669,8 @@
     {
       "title": "Microsoft Patches RoguePlanet Defender Flaw That Can Grant SYSTEM Privileges",
       "link": "https://thehackernews.com/2026/07/microsoft-patches-rogueplanet-defender.html",
-      "summary": "Microsoft has released security updates for a Defender vulnerability known as RoguePlanet, nearly a month after details of the flaw became public. The vulnerability, tracked as CVE-2026-50656 (CVSS...",
-      "source": "The Hacker News",
+      "summary": "Microsoft Patches RoguePlanet Defender Flaw That Can Grant SYSTEM Privileges Microsoft has released security updates for a Defender vulnerability known as RoguePlanet, nearly a month after details of...",
+      "source": "CVE Newsroom",
       "published": "2026-07-09T08:48:48+00:00"
     },
     {
@@ -725,15 +718,15 @@
     {
       "title": "Top AI Agents Built to Catch Malicious Code Can Be Tricked Into Running It",
       "link": "https://thehackernews.com/2026/07/friendly-fire-ai-agents-built-to-catch.html",
-      "summary": "Ask an AI coding agent to scan open-source code for security holes, and it might run the attacker's code on your own machine instead. That is the finding in a proof-of-concept published Wednesday by...",
-      "source": "The Hacker News",
+      "summary": "Top AI Agents Built to Catch Malicious Code Can Be Tricked Into Running It Ask an AI coding agent to scan open-source code for security holes, and it might run the attacker's code on your own machine...",
+      "source": "CVE Newsroom",
       "published": "2026-07-09T05:15:02+00:00"
     },
     {
       "title": "GhostApproval Symlink Flaws Could Let Malicious Repos Run Code in AI Coding Agents",
       "link": "https://thehackernews.com/2026/07/ghostapproval-symlink-flaws-could-let.html",
-      "summary": "Researchers at Wiz found that a flaw in six popular AI coding assistants lets a booby-trapped code project quietly take control of a developer's computer. The assistant asks permission to edit one...",
-      "source": "The Hacker News",
+      "summary": "GhostApproval Symlink Flaws Could Let Malicious Repos Run Code in AI Coding Agents Researchers at Wiz found that a flaw in six popular AI coding assistants lets a booby-trapped code project quietly...",
+      "source": "CVE Newsroom",
       "published": "2026-07-09T04:27:18+00:00"
     },
     {
@@ -788,8 +781,8 @@
     {
       "title": "Ubiquiti Patches Critical UniFi Flaws Across Connect, Talk, Access, Protect, and OS",
       "link": "https://thehackernews.com/2026/07/ubiquiti-patches-critical-unifi-flaws.html",
-      "summary": "Ubiquiti has shipped updates to address multiple critical security flaws impacting UniFi Connect, UniFi Talk, UniFi Access, UniFi Protect, and UniFi OS that could result in privilege escalation and...",
-      "source": "The Hacker News",
+      "summary": "Ubiquiti Patches Critical UniFi Flaws Across Connect, Talk, Access, Protect, and OS Ravie LakshmananJul 08, 2026Vulnerability / Network Security Ubiquiti has shipped updates to address multiple...",
+      "source": "CVE Newsroom",
       "published": "2026-07-08T14:38:05+00:00"
     },
     {
@@ -1197,6 +1190,13 @@
       "summary": "The Open Source Sustainability Initiative's goal is to help enterprises manage and secure aging open source projects while maintaining regulatory compliance.",
       "source": "Dark Reading",
       "published": "2026-06-26T16:32:30+00:00"
+    },
+    {
+      "title": "AI Won't Wipe Out Entry-Level Cybersecurity Jobs",
+      "link": "https://www.darkreading.com/cybersecurity-operations/ai-wont-wipe-out-entry-level-cybersecurity-jobs",
+      "summary": "Instead of eliminating jobs for early-career cyber pros, AI is creating new opportunities for candidates with strong human decision-making skills.",
+      "source": "Dark Reading",
+      "published": "2026-06-26T16:00:00+00:00"
     },
     {
       "title": "Scattered Spider Hackers Plead Guilty on Day 1 of Trial",
