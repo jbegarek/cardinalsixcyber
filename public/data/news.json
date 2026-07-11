@@ -1,6 +1,97 @@
 {
-  "last_updated": "2026-07-10T22:51:38.059310+00:00",
+  "last_updated": "2026-07-11T01:49:57.796831+00:00",
   "articles": [
+    {
+      "title": "CVE-2026-44383 - Hydro-Québec Le Circuit Electrique charging station backend Insufficient Session Expiration",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-44383",
+      "summary": "CVE ID :CVE-2026-44383 Published : July 10, 2026, 11:16 p.m. | 45 minutes ago Description :Multiple connections to the backend using the same charging station ID are allowed, which could allow an...",
+      "source": "CVE Feed",
+      "published": "2026-07-10T23:16:48+00:00"
+    },
+    {
+      "title": "CVE-2026-42952 - Hydro-Québec Le Circuit Electrique charging station backend Improper Restriction of Excessive Authentication Attempts",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-42952",
+      "summary": "CVE ID :CVE-2026-42952 Published : July 10, 2026, 11:16 p.m. | 45 minutes ago Description :Previously, there was no throttling on repeated authentication attempts to the charging station backend...",
+      "source": "CVE Feed",
+      "published": "2026-07-10T23:16:48+00:00"
+    },
+    {
+      "title": "CVE-2026-20744 - Hydro-Québec Le Circuit Electrique charging station backend Improper Access Control",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-20744",
+      "summary": "CVE ID :CVE-2026-20744 Published : July 10, 2026, 11:16 p.m. | 46 minutes ago Description :The charging station websocket endpoint accepts connections without proper authentication, which could lead...",
+      "source": "CVE Feed",
+      "published": "2026-07-10T23:16:47+00:00"
+    },
+    {
+      "title": "CVE-2026-14480 - OpenPLC v3 External Control of File Name or Path",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-14480",
+      "summary": "CVE ID :CVE-2026-14480 Published : July 10, 2026, 11:16 p.m. | 46 minutes ago Description :OpenPLC Runtime v3 contains an authenticated arbitrary file write vulnerability in the legacy web UI...",
+      "source": "CVE Feed",
+      "published": "2026-07-10T23:16:47+00:00"
+    },
+    {
+      "title": "CVE-2026-57584 - Phalcon: Catastrophic backtracking (ReDoS) in the default Phalcon Router route lead to remote unauthenticated DoS",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-57584",
+      "summary": "CVE ID :CVE-2026-57584 Published : July 10, 2026, 10:16 p.m. | 1 hour, 46 minutes ago Description :Phalcon is a high-performance, full-stack PHP framework. Prior to 5.15.0, every Phalcon MVC...",
+      "source": "CVE Feed",
+      "published": "2026-07-10T22:16:44+00:00"
+    },
+    {
+      "title": "CVE-2026-55884 - Tilt: Missing authentication on the network-exposed Tilt HUD server",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55884",
+      "summary": "CVE ID :CVE-2026-55884 Published : July 10, 2026, 10:16 p.m. | 1 hour, 46 minutes ago Description :Tilt defines dev environments as code for microservice apps on Kubernetes. From 0.20.8 through...",
+      "source": "CVE Feed",
+      "published": "2026-07-10T22:16:44+00:00"
+    },
+    {
+      "title": "CVE-2026-55883 - Tilt: Cross-site WebSocket hijacking of the Tilt HUD stream",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55883",
+      "summary": "CVE ID :CVE-2026-55883 Published : July 10, 2026, 10:16 p.m. | 1 hour, 46 minutes ago Description :Tilt defines dev environments as code for microservice apps on Kubernetes. From 0.24.0 through...",
+      "source": "CVE Feed",
+      "published": "2026-07-10T22:16:44+00:00"
+    },
+    {
+      "title": "CVE-2026-55882 - Tilt: Unauthenticated pprof debug endpoints on the Tilt HUD server",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55882",
+      "summary": "CVE ID :CVE-2026-55882 Published : July 10, 2026, 10:16 p.m. | 1 hour, 46 minutes ago Description :Tilt defines dev environments as code for microservice apps on Kubernetes. From 0.19.5 through...",
+      "source": "CVE Feed",
+      "published": "2026-07-10T22:16:44+00:00"
+    },
+    {
+      "title": "CVE-2026-55852 - Frappe: TarSlip RCE in Package Import",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55852",
+      "summary": "CVE ID :CVE-2026-55852 Published : July 10, 2026, 10:16 p.m. | 1 hour, 46 minutes ago Description :Frappe is a full-stack web application framework. Prior to 16.23.0 and 15.112.0, TarSlip RCE was...",
+      "source": "CVE Feed",
+      "published": "2026-07-10T22:16:43+00:00"
+    },
+    {
+      "title": "CVE-2026-54736 - Phalcon: Non-constant-time HMAC verification in `Encryption\\Crypt::decrypt` (timing side-channel)",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54736",
+      "summary": "CVE ID :CVE-2026-54736 Published : July 10, 2026, 10:16 p.m. | 1 hour, 46 minutes ago Description :Phalcon is a high-performance, full-stack PHP framework. Prior to 5.14.1...",
+      "source": "CVE Feed",
+      "published": "2026-07-10T22:16:42+00:00"
+    },
+    {
+      "title": "CVE-2026-52747 - ModSecurity: Multipart form-data parser silently strips embedded line breaks from form-field values, enabling request-body inspection bypass",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-52747",
+      "summary": "CVE ID :CVE-2026-52747 Published : July 10, 2026, 10:16 p.m. | 1 hour, 46 minutes ago Description :ModSecurity is an open source, cross platform web application firewall (WAF) engine for Apache, IIS...",
+      "source": "CVE Feed",
+      "published": "2026-07-10T22:16:42+00:00"
+    },
+    {
+      "title": "CVE-2026-49213 - TypeBot: SSRF protection bypass via IPv6 unspecified address in Typebot HTTP request execution",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-49213",
+      "summary": "CVE ID :CVE-2026-49213 Published : July 10, 2026, 10:16 p.m. | 1 hour, 46 minutes ago Description :TypeBot is a chatbot builder tool. Prior to 3.17.2, Typebot's shared SSRF validator in...",
+      "source": "CVE Feed",
+      "published": "2026-07-10T22:16:42+00:00"
+    },
+    {
+      "title": "CVE-2026-44795 - Spinnaker: Non-safe yaml deserialization allowing RCE when using specific types",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-44795",
+      "summary": "CVE ID :CVE-2026-44795 Published : July 10, 2026, 10:16 p.m. | 1 hour, 46 minutes ago Description :Spinnaker is an open source, multi-cloud continuous delivery platform. Prior to 2026.1.0, 2026.0.3...",
+      "source": "CVE Feed",
+      "published": "2026-07-10T22:16:41+00:00"
+    },
     {
       "title": "New U-Boot flaws could enable stealthy firmware attacks",
       "link": "https://www.bleepingcomputer.com/news/security/new-u-boot-flaws-could-enable-stealthy-firmware-attacks/",
@@ -11,70 +102,70 @@
     {
       "title": "CVE-2026-58499 - Path traversal in EverOS /api/v1/memory/add via unvalidated sender_id",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-58499",
-      "summary": "CVE ID :CVE-2026-58499 Published : July 10, 2026, 9:17 p.m. | 1 hour, 12 minutes ago Description :EverOS is a memory runtime for agents. Prior to 1.0.1, EverOS is vulnerable to path traversal in the...",
+      "summary": "CVE ID :CVE-2026-58499 Published : July 10, 2026, 9:17 p.m. | 2 hours, 45 minutes ago Description :EverOS is a memory runtime for agents. Prior to 1.0.1, EverOS is vulnerable to path traversal in the...",
       "source": "CVE Feed",
       "published": "2026-07-10T21:17:00+00:00"
     },
     {
       "title": "CVE-2026-57807 - WordPress OAuth Single Sign On - SSO (OAuth Client) plugin <= 38.5.8 - Broken Authentication vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-57807",
-      "summary": "CVE ID :CVE-2026-57807 Published : July 10, 2026, 9:16 p.m. | 1 hour, 12 minutes ago Description :Authentication Bypass Using an Alternate Path or Channel vulnerability in miniOrange Security...",
+      "summary": "CVE ID :CVE-2026-57807 Published : July 10, 2026, 9:16 p.m. | 2 hours, 45 minutes ago Description :Authentication Bypass Using an Alternate Path or Channel vulnerability in miniOrange Security...",
       "source": "CVE Feed",
       "published": "2026-07-10T21:16:59+00:00"
     },
     {
       "title": "CVE-2026-57219 - RabbitMQ: Unauthenticated disclosure of OAuth client credentials via an HTTP API endpoint with certain less common OAuth 2 configurations",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-57219",
-      "summary": "CVE ID :CVE-2026-57219 Published : July 10, 2026, 9:16 p.m. | 1 hour, 12 minutes ago Description :RabbitMQ is a messaging and streaming broker. Prior to 3.13.15, 4.0.20, 4.1.11, and 4.2.6, the...",
+      "summary": "CVE ID :CVE-2026-57219 Published : July 10, 2026, 9:16 p.m. | 2 hours, 45 minutes ago Description :RabbitMQ is a messaging and streaming broker. Prior to 3.13.15, 4.0.20, 4.1.11, and 4.2.6, the...",
       "source": "CVE Feed",
       "published": "2026-07-10T21:16:59+00:00"
     },
     {
       "title": "CVE-2026-55879 - OpenReplay: Unauthenticated stored XSS leads to dashboard account takeover",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-55879",
-      "summary": "CVE ID :CVE-2026-55879 Published : July 10, 2026, 9:16 p.m. | 1 hour, 12 minutes ago Description :OpenReplay is a self-hosted session replay suite. From 1.24.0 before 1.25.0, the OpenReplay tracking...",
+      "summary": "CVE ID :CVE-2026-55879 Published : July 10, 2026, 9:16 p.m. | 2 hours, 45 minutes ago Description :OpenReplay is a self-hosted session replay suite. From 1.24.0 before 1.25.0, the OpenReplay tracking...",
       "source": "CVE Feed",
       "published": "2026-07-10T21:16:57+00:00"
     },
     {
       "title": "CVE-2026-55665 - DOM-based XSS in Grist via unsanitized links, enabling privilege escalation",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-55665",
-      "summary": "CVE ID :CVE-2026-55665 Published : July 10, 2026, 9:16 p.m. | 1 hour, 12 minutes ago Description :Grist is spreadsheet software using Python as its formula language. Prior to 1.7.15, Grist contained...",
+      "summary": "CVE ID :CVE-2026-55665 Published : July 10, 2026, 9:16 p.m. | 2 hours, 45 minutes ago Description :Grist is spreadsheet software using Python as its formula language. Prior to 1.7.15, Grist contained...",
       "source": "CVE Feed",
       "published": "2026-07-10T21:16:56+00:00"
     },
     {
       "title": "CVE-2026-12761 - miniOrange Social Login and Register (Discord, Google, Twitter, LinkedIn) <= 7.7.0 - Unauthenticated Authentication Bypass to Administrator Account Takeover via Profile Completion OTP Flow",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-12761",
-      "summary": "CVE ID :CVE-2026-12761 Published : July 10, 2026, 9:16 p.m. | 1 hour, 12 minutes ago Description :The miniOrange Social Login and Register (Discord, Google, Twitter, LinkedIn) plugin for WordPress is...",
+      "summary": "CVE ID :CVE-2026-12761 Published : July 10, 2026, 9:16 p.m. | 2 hours, 45 minutes ago Description :The miniOrange Social Login and Register (Discord, Google, Twitter, LinkedIn) plugin for WordPress...",
       "source": "CVE Feed",
       "published": "2026-07-10T21:16:53+00:00"
     },
     {
       "title": "CVE-2026-57850 - RustDesk before 1.4.9 Missing Session Scope Enforcement Allows Out-of-Scope Control Message Injection",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-57850",
-      "summary": "CVE ID :CVE-2026-57850 Published : July 10, 2026, 8:16 p.m. | 2 hours, 12 minutes ago Description :RustDesk before 1.4.9 does not enforce a session's authorized connection scope on the server side...",
+      "summary": "CVE ID :CVE-2026-57850 Published : July 10, 2026, 8:16 p.m. | 3 hours, 45 minutes ago Description :RustDesk before 1.4.9 does not enforce a session's authorized connection scope on the server side...",
       "source": "CVE Feed",
       "published": "2026-07-10T20:16:48+00:00"
     },
     {
       "title": "CVE-2026-57156 - FreeRDP: Integer overflow leading to heap buffer overflow in Orders Delta Points parsing",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-57156",
-      "summary": "CVE ID :CVE-2026-57156 Published : July 10, 2026, 8:16 p.m. | 2 hours, 12 minutes ago Description :FreeRDP is a free implementation of the Remote Desktop Protocol. Prior to 3.28.0 on 32-bit builds...",
+      "summary": "CVE ID :CVE-2026-57156 Published : July 10, 2026, 8:16 p.m. | 3 hours, 45 minutes ago Description :FreeRDP is a free implementation of the Remote Desktop Protocol. Prior to 3.28.0 on 32-bit builds...",
       "source": "CVE Feed",
       "published": "2026-07-10T20:16:48+00:00"
     },
     {
       "title": "CVE-2026-55789 - Logto: SAML IdP injects user-controlled profile attributes raw into signed assertions, allowing privilege escalation at relying Service Providers",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-55789",
-      "summary": "CVE ID :CVE-2026-55789 Published : July 10, 2026, 8:16 p.m. | 2 hours, 12 minutes ago Description :Logto is the modern, open-source auth infrastructure for SaaS and AI apps. Prior to 1.41.0, Logto's...",
+      "summary": "CVE ID :CVE-2026-55789 Published : July 10, 2026, 8:16 p.m. | 3 hours, 45 minutes ago Description :Logto is the modern, open-source auth infrastructure for SaaS and AI apps. Prior to 1.41.0, Logto's...",
       "source": "CVE Feed",
       "published": "2026-07-10T20:16:47+00:00"
     },
     {
       "title": "CVE-2026-55377 - Logto: Account Center MFA management step-up bypass via WebAuthn registration verification",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-55377",
-      "summary": "CVE ID :CVE-2026-55377 Published : July 10, 2026, 8:16 p.m. | 2 hours, 12 minutes ago Description :Logto is the modern, open-source auth infrastructure for SaaS and AI apps. Prior to 1.41.0, Logto's...",
+      "summary": "CVE ID :CVE-2026-55377 Published : July 10, 2026, 8:16 p.m. | 3 hours, 46 minutes ago Description :Logto is the modern, open-source auth infrastructure for SaaS and AI apps. Prior to 1.41.0, Logto's...",
       "source": "CVE Feed",
       "published": "2026-07-10T20:16:46+00:00"
     },
@@ -88,58 +179,16 @@
     {
       "title": "CVE-2026-6212 - IDOR in Teracity's TeraMIS",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-6212",
-      "summary": "CVE ID :CVE-2026-6212 Published : July 10, 2026, 7:17 p.m. | 3 hours, 11 minutes ago Description :Authorization bypass through User-Controlled key vulnerability in Teracity Software Technologies Inc...",
+      "summary": "CVE ID :CVE-2026-6212 Published : July 10, 2026, 7:17 p.m. | 4 hours, 45 minutes ago Description :Authorization bypass through User-Controlled key vulnerability in Teracity Software Technologies Inc...",
       "source": "CVE Feed",
       "published": "2026-07-10T19:17:27+00:00"
     },
     {
       "title": "CVE-2026-61461 - Dify < 1.16.0-rc1 SQL Injection via MyScale Vector Store search_by_full_text",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-61461",
-      "summary": "CVE ID :CVE-2026-61461 Published : July 10, 2026, 7:17 p.m. | 3 hours, 11 minutes ago Description :Dify before 1.16.0-rc1 contains a SQL injection vulnerability in the MyScale vector store backend...",
+      "summary": "CVE ID :CVE-2026-61461 Published : July 10, 2026, 7:17 p.m. | 4 hours, 45 minutes ago Description :Dify before 1.16.0-rc1 contains a SQL injection vulnerability in the MyScale vector store backend...",
       "source": "CVE Feed",
       "published": "2026-07-10T19:17:27+00:00"
-    },
-    {
-      "title": "CVE-2026-61460 - Krayin CRM Insecure Direct Object Reference via Controllers",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-61460",
-      "summary": "CVE ID :CVE-2026-61460 Published : July 10, 2026, 7:17 p.m. | 3 hours, 11 minutes ago Description :Krayin CRM through 2.2.3 contains an insecure direct object reference vulnerability in...",
-      "source": "CVE Feed",
-      "published": "2026-07-10T19:17:27+00:00"
-    },
-    {
-      "title": "CVE-2026-61459 - MCP Server Kubernetes < 3.9.0 Argument Injection via kubectl Structured Tools",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-61459",
-      "summary": "CVE ID :CVE-2026-61459 Published : July 10, 2026, 7:17 p.m. | 3 hours, 11 minutes ago Description :MCP Server Kubernetes before 3.9.0 contains an argument injection vulnerability in structured tools...",
-      "source": "CVE Feed",
-      "published": "2026-07-10T19:17:27+00:00"
-    },
-    {
-      "title": "CVE-2026-5801 - SQLi in Semtek Informatics' SEM-PMP",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-5801",
-      "summary": "CVE ID :CVE-2026-5801 Published : July 10, 2026, 7:17 p.m. | 3 hours, 11 minutes ago Description :Improper neutralization of special elements used in an SQL command ('SQL injection') vulnerability in...",
-      "source": "CVE Feed",
-      "published": "2026-07-10T19:17:27+00:00"
-    },
-    {
-      "title": "CVE-2026-59151 - Prowler: SAML Domain Claiming Enables Cross-Tenant Account Takeover",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-59151",
-      "summary": "CVE ID :CVE-2026-59151 Published : July 10, 2026, 7:17 p.m. | 3 hours, 11 minutes ago Description :Prowler is a cloud security platform. Prior to 5.30.3, Prowler's SAML authentication flow trusted...",
-      "source": "CVE Feed",
-      "published": "2026-07-10T19:17:26+00:00"
-    },
-    {
-      "title": "CVE-2026-54329 - Snipe-IT: Cross-Tenant Accessory Injection in Snipe-IT API",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54329",
-      "summary": "CVE ID :CVE-2026-54329 Published : July 10, 2026, 7:17 p.m. | 3 hours, 11 minutes ago Description :Snipe-IT is an IT asset/license management system. Prior to 8.6.2, the Accessories API create path...",
-      "source": "CVE Feed",
-      "published": "2026-07-10T19:17:24+00:00"
-    },
-    {
-      "title": "CVE-2025-30007 - HestiaCP < 1.9.5 Authenticated OS Command Injection via DNS Record Management",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2025-30007",
-      "summary": "CVE ID :CVE-2025-30007 Published : July 10, 2026, 7:17 p.m. | 3 hours, 12 minutes ago Description :HestiaCP before 1.9.5 contains an authenticated OS command injection vulnerability that allows...",
-      "source": "CVE Feed",
-      "published": "2026-07-10T19:17:18+00:00"
     },
     {
       "title": "Jen Ellis: Connecting Cyber Community With Political Machinery",
@@ -149,60 +198,11 @@
       "published": "2026-07-10T19:08:04+00:00"
     },
     {
-      "title": "CVE-2026-56668 - ZITADEL: Unauthorized Token Privilege Escalation in OAuth2 Token Exchange",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56668",
-      "summary": "CVE ID :CVE-2026-56668 Published : July 10, 2026, 6:16 p.m. | 4 hours, 12 minutes ago Description :ZITADEL is an open source identity management platform. Prior to 4.15.3, ZITADEL's OAuth2 Token...",
-      "source": "CVE Feed",
-      "published": "2026-07-10T18:16:24+00:00"
-    },
-    {
-      "title": "CVE-2026-2397 - SQLi in AdamPOS' MobilMen 20T",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-2397",
-      "summary": "CVE ID :CVE-2026-2397 Published : July 10, 2026, 6:16 p.m. | 4 hours, 12 minutes ago Description :Improper neutralization of special elements used in an SQL command ('SQL injection') vulnerability in...",
-      "source": "CVE Feed",
-      "published": "2026-07-10T18:16:20+00:00"
-    },
-    {
       "title": "Ryuk ransomware member pleads guilty in the US, faces 15 years in prison",
       "link": "https://www.bleepingcomputer.com/news/security/ryuk-ransomware-member-pleads-guilty-in-the-us-faces-15-years-in-prison/",
       "summary": "A 34-year-old Armenian man has pleaded guilty to hacking U.S. companies and deploying the infamous Ryuk ransomware to encrypt their systems. [...]",
       "source": "BleepingComputer",
       "published": "2026-07-10T17:46:10+00:00"
-    },
-    {
-      "title": "CVE-2026-59190 - Grav Admin Plugin — IDOR Privilege Escalation via saveUser()",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-59190",
-      "summary": "CVE ID :CVE-2026-59190 Published : July 10, 2026, 5:17 p.m. | 5 hours, 12 minutes ago Description :grav-plugin-admin is an HTML user interface that provides a way to configure Grav and create and...",
-      "source": "CVE Feed",
-      "published": "2026-07-10T17:17:02+00:00"
-    },
-    {
-      "title": "CVE-2026-59161 - Excelize: Streaming GetRows row-bound bypass causes attacker-controlled allocation",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-59161",
-      "summary": "CVE ID :CVE-2026-59161 Published : July 10, 2026, 5:17 p.m. | 5 hours, 12 minutes ago Description :Excelize is a Go language library for reading and writing Microsoft Excel spreadsheets. Prior to...",
-      "source": "CVE Feed",
-      "published": "2026-07-10T17:17:02+00:00"
-    },
-    {
-      "title": "CVE-2026-58492 - grav-plugin-database: SQL Injection in PDO::tableExists() due to Unsanitized Table Name Interpolation",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-58492",
-      "summary": "CVE ID :CVE-2026-58492 Published : July 10, 2026, 5:17 p.m. | 5 hours, 12 minutes ago Description :grav-plugin-database is the database plugin for Grav CMS. Prior to 1.2.0, the PDO::tableExists...",
-      "source": "CVE Feed",
-      "published": "2026-07-10T17:17:01+00:00"
-    },
-    {
-      "title": "CVE-2026-56675 - 9router: Reverse proxy locality collapse allows unauthenticated access to 9router /v1 APIs",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56675",
-      "summary": "CVE ID :CVE-2026-56675 Published : July 10, 2026, 5:17 p.m. | 5 hours, 12 minutes ago Description :9Router is an AI router & token saver. Prior to 0.5.2, 9router treats loopback requests as trusted...",
-      "source": "CVE Feed",
-      "published": "2026-07-10T17:17:01+00:00"
-    },
-    {
-      "title": "CVE-2026-55641 - 9router: Unauthenticated `/v1` proxy access via `Host`-header spoofing → open AI relay + SSRF",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55641",
-      "summary": "CVE ID :CVE-2026-55641 Published : July 10, 2026, 5:16 p.m. | 5 hours, 12 minutes ago Description :9Router is an AI router & token saver. Prior to 0.5.2, 9router determines whether a /v1 LLM proxy...",
-      "source": "CVE Feed",
-      "published": "2026-07-10T17:16:59+00:00"
     },
     {
       "title": "Ryuk operator pleads guilty; Blackcat/AlphV conspirator gets nearly 6-year sentence",
