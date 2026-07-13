@@ -1,6 +1,48 @@
 {
-  "last_updated": "2026-07-13T19:13:13.148855+00:00",
+  "last_updated": "2026-07-13T20:50:29.838177+00:00",
   "articles": [
+    {
+      "title": "Japan's largest taxi operator shuts systems after cyberattack",
+      "link": "https://www.bleepingcomputer.com/news/security/japans-largest-taxi-operator-shuts-systems-after-cyberattack/",
+      "summary": "Japan's largest taxi operator, Nihon Kotsu, announced that its systems were compromised in a cyberattack, forcing the company to shut down part of its infrastructure. [...]",
+      "source": "BleepingComputer",
+      "published": "2026-07-13T20:18:59+00:00"
+    },
+    {
+      "title": "Hackers backdoor Jscrambler npm package with infostealer malware",
+      "link": "https://www.bleepingcomputer.com/news/security/hackers-backdoor-jscrambler-npm-package-with-infostealer-malware/",
+      "summary": "The Jscrambler client-side web security company disclosed that a threat actor published a malicious version of its npm package that has been downloaded almost 1,500 times. [...]",
+      "source": "BleepingComputer",
+      "published": "2026-07-13T19:44:19+00:00"
+    },
+    {
+      "title": "CVE-2026-6875 - Sandbox Escape in ServiceNow AI Platform",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-6875",
+      "summary": "CVE ID :CVE-2026-6875 Published : July 13, 2026, 7:17 p.m. | 1 hour, 8 minutes ago Description :ServiceNow has addressed a remote code execution vulnerability that was identified in the ServiceNow AI...",
+      "source": "CVE Feed",
+      "published": "2026-07-13T19:17:36+00:00"
+    },
+    {
+      "title": "CVE-2026-55772 - CedarJava has a type confusion vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55772",
+      "summary": "CVE ID :CVE-2026-55772 Published : July 13, 2026, 7:17 p.m. | 1 hour, 9 minutes ago Description :CedarJava is an open source Java implementation of the Cedar policy language, used for fine-grained...",
+      "source": "CVE Feed",
+      "published": "2026-07-13T19:17:15+00:00"
+    },
+    {
+      "title": "CVE-2026-49972 - Laravel-Mediable < 7.0.0 File Upload RCE via Extension Bypass",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-49972",
+      "summary": "CVE ID :CVE-2026-49972 Published : July 13, 2026, 7:17 p.m. | 1 hour, 9 minutes ago Description :Laravel-Mediable before 7.0.0 contains a file upload vulnerability that allows unauthenticated...",
+      "source": "CVE Feed",
+      "published": "2026-07-13T19:17:10+00:00"
+    },
+    {
+      "title": "CVE-2026-49970 - Laravel-Mediable < 7.0.0 Path Traversal via File::sanitizePath()",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-49970",
+      "summary": "CVE ID :CVE-2026-49970 Published : July 13, 2026, 7:17 p.m. | 1 hour, 9 minutes ago Description :Laravel-Mediable before 7.0.0 contains a path traversal vulnerability in the File::sanitizePath()...",
+      "source": "CVE Feed",
+      "published": "2026-07-13T19:17:09+00:00"
+    },
     {
       "title": "New CrashStealer malware poses as Apple crash reporting tool",
       "link": "https://www.bleepingcomputer.com/news/security/new-crashstealer-malware-poses-as-apple-crash-reporting-tool/",
@@ -23,32 +65,32 @@
       "published": "2026-07-13T18:18:30+00:00"
     },
     {
+      "title": "CVE-2026-61500 - Rejetto HFS < 3.2.1 Session Forgery via Predictable Signing Key",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-61500",
+      "summary": "CVE ID :CVE-2026-61500 Published : July 13, 2026, 6:16 p.m. | 2 hours, 9 minutes ago Description :Rejetto HFS 3.0.0 through 3.2.0 derives its session-cookie signing key from the non-cryptographic...",
+      "source": "CVE Feed",
+      "published": "2026-07-13T18:16:29+00:00"
+    },
+    {
+      "title": "CVE-2026-61463 - Shiori Authenticated Privilege Escalation via PATCH /api/v1/auth/account",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-61463",
+      "summary": "CVE ID :CVE-2026-61463 Published : July 13, 2026, 6:16 p.m. | 2 hours, 10 minutes ago Description :Shiori contains a privilege escalation vulnerability in the account update endpoint that allows...",
+      "source": "CVE Feed",
+      "published": "2026-07-13T18:16:29+00:00"
+    },
+    {
+      "title": "CVE-2026-61462 - mcp-gitlab Path Traversal via job_id Parameter",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-61462",
+      "summary": "CVE ID :CVE-2026-61462 Published : July 13, 2026, 6:16 p.m. | 2 hours, 10 minutes ago Description :mcp-gitlab contains a path traversal vulnerability in the job_id parameter of build/index.js that...",
+      "source": "CVE Feed",
+      "published": "2026-07-13T18:16:29+00:00"
+    },
+    {
       "title": "CrashStealer macOS Malware Uses Notarized Dropper to Pass Gatekeeper Checks",
       "link": "https://thehackernews.com/2026/07/crashstealer-macos-malware-uses.html",
       "summary": "Cybersecurity researchers have flagged a new macOS information stealer called CrashStealer that's capable of harvesting sensitive data from compromised systems. Unlike other information stealers that...",
       "source": "The Hacker News",
       "published": "2026-07-13T17:36:12+00:00"
-    },
-    {
-      "title": "CVE-2026-61463 - Shiori Authenticated Privilege Escalation via PATCH /api/v1/auth/account",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-61463",
-      "summary": "CVE ID :CVE-2026-61463 Published : July 13, 2026, 5:22 p.m. | 1 hour, 2 minutes ago Description :Shiori contains a privilege escalation vulnerability in the account update endpoint that allows...",
-      "source": "CVE Feed",
-      "published": "2026-07-13T17:22:59+00:00"
-    },
-    {
-      "title": "CVE-2026-61500 - Rejetto HFS < 3.2.1 Session Forgery via Predictable Signing Key",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-61500",
-      "summary": "CVE ID :CVE-2026-61500 Published : July 13, 2026, 5:21 p.m. | 1 hour, 3 minutes ago Description :Rejetto HFS 3.0.0 through 3.2.0 derives its session-cookie signing key from the non-cryptographic...",
-      "source": "CVE Feed",
-      "published": "2026-07-13T17:21:55+00:00"
-    },
-    {
-      "title": "CVE-2026-61462 - mcp-gitlab Path Traversal via job_id Parameter",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-61462",
-      "summary": "CVE ID :CVE-2026-61462 Published : July 13, 2026, 5:17 p.m. | 1 hour, 7 minutes ago Description :mcp-gitlab contains a path traversal vulnerability in the job_id parameter of build/index.js that...",
-      "source": "CVE Feed",
-      "published": "2026-07-13T17:17:26+00:00"
     },
     {
       "title": "Google and Microsoft Pull ModHeader With 1.6 Million Installs After Dormant Collector Found",
@@ -109,21 +151,21 @@
     {
       "title": "CVE-2026-6847 - Unauthenticated Remote Code Execution in ThemisNETPanel",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-6847",
-      "summary": "CVE ID :CVE-2026-6847 Published : July 13, 2026, 2:16 p.m. | 4 hours, 8 minutes ago Description :Remote Code Execution vulnerability exists in ThemisNETPanel due to missing authentication for a...",
+      "summary": "CVE ID :CVE-2026-6847 Published : July 13, 2026, 2:16 p.m. | 6 hours, 9 minutes ago Description :Remote Code Execution vulnerability exists in ThemisNETPanel due to missing authentication for a...",
       "source": "CVE Feed",
       "published": "2026-07-13T14:16:32+00:00"
     },
     {
       "title": "CVE-2026-61498 - Vitec Flamingo 4.12.2 Unauthenticated OS Command Injection via gen_graphs.php",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-61498",
-      "summary": "CVE ID :CVE-2026-61498 Published : July 13, 2026, 2:16 p.m. | 4 hours, 8 minutes ago Description :Vitec Flamingo 4.12.2 contains an unauthenticated OS command injection vulnerability in the...",
+      "summary": "CVE ID :CVE-2026-61498 Published : July 13, 2026, 2:16 p.m. | 6 hours, 9 minutes ago Description :Vitec Flamingo 4.12.2 contains an unauthenticated OS command injection vulnerability in the...",
       "source": "CVE Feed",
       "published": "2026-07-13T14:16:32+00:00"
     },
     {
       "title": "CVE-2026-60121 - Vitec Flamingo 4.12.2 Unauthenticated OS Command Injection via ping.php",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-60121",
-      "summary": "CVE ID :CVE-2026-60121 Published : July 13, 2026, 2:16 p.m. | 4 hours, 8 minutes ago Description :Vitec Flamingo 4.12.2 contains an unauthenticated OS command injection vulnerability in the...",
+      "summary": "CVE ID :CVE-2026-60121 Published : July 13, 2026, 2:16 p.m. | 6 hours, 9 minutes ago Description :Vitec Flamingo 4.12.2 contains an unauthenticated OS command injection vulnerability in the...",
       "source": "CVE Feed",
       "published": "2026-07-13T14:16:32+00:00"
     },
@@ -179,7 +221,7 @@
     {
       "title": "CVE-2026-12257 - Remote code execution in Mura Software’s CMS",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-12257",
-      "summary": "CVE ID :CVE-2026-12257 Published : July 13, 2026, 12:16 p.m. | 6 hours, 8 minutes ago Description :Versions of Mura CMS prior to 10.0.712 contain a critical remote code execution (RCE) vulnerability...",
+      "summary": "CVE ID :CVE-2026-12257 Published : July 13, 2026, 12:16 p.m. | 8 hours, 10 minutes ago Description :Versions of Mura CMS prior to 10.0.712 contain a critical remote code execution (RCE)...",
       "source": "CVE Feed",
       "published": "2026-07-13T12:16:29+00:00"
     },
@@ -214,7 +256,7 @@
     {
       "title": "CVE-2026-14934 - Cross-Tenant Repository Takeover via Improper Access Control in BigQuery, Dataform and Colab Enterprise",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-14934",
-      "summary": "CVE ID :CVE-2026-14934 Published : July 13, 2026, 11:16 a.m. | 7 hours, 8 minutes ago Description :A Missing Authorization vulnerability in the repository creation functionality in Google Cloud...",
+      "summary": "CVE ID :CVE-2026-14934 Published : July 13, 2026, 11:16 a.m. | 9 hours, 10 minutes ago Description :A Missing Authorization vulnerability in the repository creation functionality in Google Cloud...",
       "source": "CVE Feed",
       "published": "2026-07-13T11:16:26+00:00"
     },
@@ -235,121 +277,93 @@
     {
       "title": "CVE-2026-59518 - WordPress Directorist plugin <= 8.8.2 - PHP Object Injection vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-59518",
-      "summary": "CVE ID :CVE-2026-59518 Published : July 13, 2026, 10:16 a.m. | 8 hours, 8 minutes ago Description :Deserialization of Untrusted Data vulnerability in wpWax Directorist directorist allows Object...",
+      "summary": "CVE ID :CVE-2026-59518 Published : July 13, 2026, 10:16 a.m. | 10 hours, 9 minutes ago Description :Deserialization of Untrusted Data vulnerability in wpWax Directorist directorist allows Object...",
       "source": "CVE Feed",
       "published": "2026-07-13T10:16:45+00:00"
     },
     {
       "title": "CVE-2026-59515 - WordPress AIWU plugin <= 1.5.4 - SQL Injection vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-59515",
-      "summary": "CVE ID :CVE-2026-59515 Published : July 13, 2026, 10:16 a.m. | 8 hours, 8 minutes ago Description :Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability...",
+      "summary": "CVE ID :CVE-2026-59515 Published : July 13, 2026, 10:16 a.m. | 10 hours, 9 minutes ago Description :Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability...",
       "source": "CVE Feed",
       "published": "2026-07-13T10:16:45+00:00"
     },
     {
       "title": "CVE-2026-57813 - WordPress MailOptin plugin <= 1.2.77.3 - Privilege Escalation vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-57813",
-      "summary": "CVE ID :CVE-2026-57813 Published : July 13, 2026, 10:16 a.m. | 8 hours, 8 minutes ago Description :Incorrect Privilege Assignment vulnerability in properfraction MailOptin mailoptin allows Privilege...",
+      "summary": "CVE ID :CVE-2026-57813 Published : July 13, 2026, 10:16 a.m. | 10 hours, 9 minutes ago Description :Incorrect Privilege Assignment vulnerability in properfraction MailOptin mailoptin allows Privilege...",
       "source": "CVE Feed",
       "published": "2026-07-13T10:16:45+00:00"
     },
     {
       "title": "CVE-2026-57811 - WordPress Realtyna Organic IDX plugin plugin <= 5.2.0 - Remote Code Execution (RCE) vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-57811",
-      "summary": "CVE ID :CVE-2026-57811 Published : July 13, 2026, 10:16 a.m. | 8 hours, 8 minutes ago Description :Improper Control of Generation of Code ('Code Injection') vulnerability in Realtyna Realtyna Organic...",
+      "summary": "CVE ID :CVE-2026-57811 Published : July 13, 2026, 10:16 a.m. | 10 hours, 9 minutes ago Description :Improper Control of Generation of Code ('Code Injection') vulnerability in Realtyna Realtyna...",
       "source": "CVE Feed",
       "published": "2026-07-13T10:16:45+00:00"
     },
     {
       "title": "CVE-2026-57810 - WordPress APIExperts Square for WooCommerce plugin <= 4.7.4 - SQL Injection vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-57810",
-      "summary": "CVE ID :CVE-2026-57810 Published : July 13, 2026, 10:16 a.m. | 8 hours, 8 minutes ago Description :Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability...",
+      "summary": "CVE ID :CVE-2026-57810 Published : July 13, 2026, 10:16 a.m. | 10 hours, 9 minutes ago Description :Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability...",
       "source": "CVE Feed",
       "published": "2026-07-13T10:16:44+00:00"
     },
     {
       "title": "CVE-2026-57787 - WordPress CWS SVGicons plugin <= 1.5.5 - SQL Injection vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-57787",
-      "summary": "CVE ID :CVE-2026-57787 Published : July 13, 2026, 10:16 a.m. | 8 hours, 8 minutes ago Description :Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability...",
+      "summary": "CVE ID :CVE-2026-57787 Published : July 13, 2026, 10:16 a.m. | 10 hours, 9 minutes ago Description :Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability...",
       "source": "CVE Feed",
       "published": "2026-07-13T10:16:42+00:00"
     },
     {
       "title": "CVE-2026-57786 - WordPress WorkScout-Core plugin <= 1.7.08 - Cross Site Request Forgery (CSRF) to Broken Authentication vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-57786",
-      "summary": "CVE ID :CVE-2026-57786 Published : July 13, 2026, 10:16 a.m. | 8 hours, 8 minutes ago Description :Cross-Site Request Forgery (CSRF) vulnerability in purethemes WorkScout-Core workscout-core allows...",
+      "summary": "CVE ID :CVE-2026-57786 Published : July 13, 2026, 10:16 a.m. | 10 hours, 9 minutes ago Description :Cross-Site Request Forgery (CSRF) vulnerability in purethemes WorkScout-Core workscout-core allows...",
       "source": "CVE Feed",
       "published": "2026-07-13T10:16:42+00:00"
     },
     {
       "title": "CVE-2026-57772 - WordPress WP Inventory Manager plugin <= 2.4.0 - SQL Injection vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-57772",
-      "summary": "CVE ID :CVE-2026-57772 Published : July 13, 2026, 10:16 a.m. | 8 hours, 8 minutes ago Description :Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability...",
+      "summary": "CVE ID :CVE-2026-57772 Published : July 13, 2026, 10:16 a.m. | 10 hours, 9 minutes ago Description :Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability...",
       "source": "CVE Feed",
       "published": "2026-07-13T10:16:41+00:00"
     },
     {
       "title": "CVE-2026-57771 - WordPress GD Rating System plugin <= 3.7 - SQL Injection vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-57771",
-      "summary": "CVE ID :CVE-2026-57771 Published : July 13, 2026, 10:16 a.m. | 8 hours, 8 minutes ago Description :Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability...",
+      "summary": "CVE ID :CVE-2026-57771 Published : July 13, 2026, 10:16 a.m. | 10 hours, 9 minutes ago Description :Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability...",
       "source": "CVE Feed",
       "published": "2026-07-13T10:16:41+00:00"
     },
     {
       "title": "CVE-2026-57770 - WordPress Grand Photography theme <= 5.7.8 - PHP Object Injection vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-57770",
-      "summary": "CVE ID :CVE-2026-57770 Published : July 13, 2026, 10:16 a.m. | 8 hours, 8 minutes ago Description :Deserialization of Untrusted Data vulnerability in ThemeGoods Grand Photography grandphotography...",
+      "summary": "CVE ID :CVE-2026-57770 Published : July 13, 2026, 10:16 a.m. | 10 hours, 9 minutes ago Description :Deserialization of Untrusted Data vulnerability in ThemeGoods Grand Photography grandphotography...",
       "source": "CVE Feed",
       "published": "2026-07-13T10:16:41+00:00"
     },
     {
       "title": "CVE-2026-57768 - WordPress Houzez Login Register plugin <= 3.3.3 - Privilege Escalation vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-57768",
-      "summary": "CVE ID :CVE-2026-57768 Published : July 13, 2026, 10:16 a.m. | 8 hours, 8 minutes ago Description :Incorrect Privilege Assignment vulnerability in favethemes Houzez Login Register...",
+      "summary": "CVE ID :CVE-2026-57768 Published : July 13, 2026, 10:16 a.m. | 10 hours, 9 minutes ago Description :Incorrect Privilege Assignment vulnerability in favethemes Houzez Login Register...",
       "source": "CVE Feed",
       "published": "2026-07-13T10:16:40+00:00"
     },
     {
       "title": "CVE-2026-57744 - WordPress RT-Theme 18 | Extensions plugin <= 2.5 - PHP Object Injection vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-57744",
-      "summary": "CVE ID :CVE-2026-57744 Published : July 13, 2026, 10:16 a.m. | 8 hours, 8 minutes ago Description :Deserialization of Untrusted Data vulnerability in stmcan RT-Theme 18 | Extensions rt18-extensions...",
+      "summary": "CVE ID :CVE-2026-57744 Published : July 13, 2026, 10:16 a.m. | 10 hours, 9 minutes ago Description :Deserialization of Untrusted Data vulnerability in stmcan RT-Theme 18 | Extensions rt18-extensions...",
       "source": "CVE Feed",
       "published": "2026-07-13T10:16:40+00:00"
     },
     {
       "title": "CVE-2026-57743 - WordPress RT-Theme 18 | Extensions plugin <= 2.5 - Local File Inclusion vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-57743",
-      "summary": "CVE ID :CVE-2026-57743 Published : July 13, 2026, 10:16 a.m. | 8 hours, 8 minutes ago Description :Improper Control of Filename for Include/Require Statement in PHP Program ('PHP Remote File...",
+      "summary": "CVE ID :CVE-2026-57743 Published : July 13, 2026, 10:16 a.m. | 10 hours, 9 minutes ago Description :Improper Control of Filename for Include/Require Statement in PHP Program ('PHP Remote File...",
       "source": "CVE Feed",
       "published": "2026-07-13T10:16:40+00:00"
-    },
-    {
-      "title": "CVE-2026-57739 - WordPress AcyMailing SMTP Newsletter plugin <= 10.11.0 - SQL Injection vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-57739",
-      "summary": "CVE ID :CVE-2026-57739 Published : July 13, 2026, 10:16 a.m. | 8 hours, 8 minutes ago Description :Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability...",
-      "source": "CVE Feed",
-      "published": "2026-07-13T10:16:40+00:00"
-    },
-    {
-      "title": "CVE-2026-57738 - WordPress 777 theme <= 1.13.0 - PHP Object Injection vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-57738",
-      "summary": "CVE ID :CVE-2026-57738 Published : July 13, 2026, 10:16 a.m. | 8 hours, 8 minutes ago Description :Deserialization of Untrusted Data vulnerability in axiomthemes 777 triple-seven allows Object...",
-      "source": "CVE Feed",
-      "published": "2026-07-13T10:16:40+00:00"
-    },
-    {
-      "title": "CVE-2026-57726 - WordPress Kirki plugin <= 6.0.12 - SQL Injection vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-57726",
-      "summary": "CVE ID :CVE-2026-57726 Published : July 13, 2026, 10:16 a.m. | 8 hours, 8 minutes ago Description :Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability...",
-      "source": "CVE Feed",
-      "published": "2026-07-13T10:16:39+00:00"
-    },
-    {
-      "title": "CVE-2026-57724 - WordPress Kirki plugin <= 6.0.12 - PHP Object Injection vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-57724",
-      "summary": "CVE ID :CVE-2026-57724 Published : July 13, 2026, 10:16 a.m. | 8 hours, 8 minutes ago Description :Deserialization of Untrusted Data vulnerability in Themeum Kirki kirki allows Object Injection.This...",
-      "source": "CVE Feed",
-      "published": "2026-07-13T10:16:39+00:00"
     },
     {
       "title": "Zimbra Patches Critical Code Execution Vulnerability",
@@ -513,13 +527,6 @@
       "published": "2026-07-10T19:08:04+00:00"
     },
     {
-      "title": "Ryuk ransomware member pleads guilty in the US, faces 15 years in prison",
-      "link": "https://www.bleepingcomputer.com/news/security/ryuk-ransomware-member-pleads-guilty-in-the-us-faces-15-years-in-prison/",
-      "summary": "A 34-year-old Armenian man has pleaded guilty to hacking U.S. companies and deploying the infamous Ryuk ransomware to encrypt their systems. [...]",
-      "source": "BleepingComputer",
-      "published": "2026-07-10T17:46:10+00:00"
-    },
-    {
       "title": "Ryuk operator pleads guilty; Blackcat/AlphV conspirator gets nearly 6-year sentence",
       "link": "https://therecord.media/ryuk-operator-pleads-guilty-alphv-conspirator-sentenced",
       "summary": "One man accused of deploying Ryuk ransomware pleaded guilty Wednesday in an Oregon federal court to conspiracy and computer fraud, while another man received a 70-month federal prison sentence in a...",
@@ -532,13 +539,6 @@
       "summary": "While cyberattacks against hospitals and clinics grew modestly in the first half of 2026, attacks on service providers and other healthcare businesses more than doubled.",
       "source": "Dark Reading",
       "published": "2026-07-10T16:51:34+00:00"
-    },
-    {
-      "title": "Police suspects Dutch hackers were involved in Odido breach",
-      "link": "https://www.bleepingcomputer.com/news/security/police-suspects-dutch-hackers-were-involved-in-odido-breach/",
-      "summary": "The Dutch National Police (Politie) says it has found \"strong indications\" that Dutch hackers have been involved in a February breach at the telecommunications provider Odido. [...]",
-      "source": "BleepingComputer",
-      "published": "2026-07-10T16:37:01+00:00"
     },
     {
       "title": "URGENT - Progress Tells ShareFile Customers to Shut Down Storage Zone Controllers Over Security Threat",
