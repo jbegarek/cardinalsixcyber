@@ -1,187 +1,208 @@
 {
-  "last_updated": "2026-07-14T20:50:39.817186+00:00",
+  "last_updated": "2026-07-14T22:48:16.606191+00:00",
   "articles": [
+    {
+      "title": "CVE-2026-59733 - rclone `serve restic --private-repos` authorization bypass: `..` in the URL path lets an authenticated user read, overwrite and delete other users' repositories",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-59733",
+      "summary": "CVE ID :CVE-2026-59733 Published : July 14, 2026, 10:17 p.m. | 13 minutes ago Description :Rclone is a command-line program to sync files and directories to and from different cloud storage...",
+      "source": "CVE Feed",
+      "published": "2026-07-14T22:17:30+00:00"
+    },
+    {
+      "title": "CVE-2026-50130 - Pi-hole: Local privilege escalation from `pihole` user to root via `/etc/pihole/logrotate`",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-50130",
+      "summary": "CVE ID :CVE-2026-50130 Published : July 14, 2026, 10:17 p.m. | 14 minutes ago Description :Pi-hole is a DNS sinkhole that protects devices from unwanted content without installing any client-side...",
+      "source": "CVE Feed",
+      "published": "2026-07-14T22:17:13+00:00"
+    },
+    {
+      "title": "CVE-2026-48334 - Illustrator | Improper Input Validation (CWE-20)",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48334",
+      "summary": "CVE ID :CVE-2026-48334 Published : July 14, 2026, 10:17 p.m. | 14 minutes ago Description :Illustrator is affected by an Improper Input Validation vulnerability that could result in arbitrary code...",
+      "source": "CVE Feed",
+      "published": "2026-07-14T22:17:01+00:00"
+    },
+    {
+      "title": "CVE-2026-48290 - CAI Content Credentials | Server-Side Request Forgery (SSRF) (CWE-918)",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48290",
+      "summary": "CVE ID :CVE-2026-48290 Published : July 14, 2026, 10:17 p.m. | 14 minutes ago Description :CAI Content Credentials is affected by a Server-Side Request Forgery (SSRF) vulnerability that could result...",
+      "source": "CVE Feed",
+      "published": "2026-07-14T22:17:00+00:00"
+    },
+    {
+      "title": "CVE-2026-48275 - Illustrator | Untrusted Search Path (CWE-426)",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48275",
+      "summary": "CVE ID :CVE-2026-48275 Published : July 14, 2026, 10:17 p.m. | 14 minutes ago Description :Illustrator is affected by an Untrusted Search Path vulnerability that could result in arbitrary code...",
+      "source": "CVE Feed",
+      "published": "2026-07-14T22:17:00+00:00"
+    },
+    {
+      "title": "CVE-2026-46640 - Twig: Arbitrary PHP code execution via `_self.()` macro-reference compilation",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-46640",
+      "summary": "CVE ID :CVE-2026-46640 Published : July 14, 2026, 10:16 p.m. | 14 minutes ago Description :Twig is a template language for PHP. From 3.15.0 until 3.26.0, _self.() and import-alias dynamic attribute...",
+      "source": "CVE Feed",
+      "published": "2026-07-14T22:16:56+00:00"
+    },
+    {
+      "title": "CVE-2026-46633 - Twig: PHP code injection via `{% use %}` template name",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-46633",
+      "summary": "CVE ID :CVE-2026-46633 Published : July 14, 2026, 10:16 p.m. | 14 minutes ago Description :Twig is a template language for PHP. Prior to 3.26.0, Compiler::string() does not escape single quotes when...",
+      "source": "CVE Feed",
+      "published": "2026-07-14T22:16:55+00:00"
+    },
+    {
+      "title": "CVE-2026-45363 - `jwt` (Ruby gem) - empty-key HMAC bypass",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-45363",
+      "summary": "CVE ID :CVE-2026-45363 Published : July 14, 2026, 10:16 p.m. | 14 minutes ago Description :ruby-jwt is a Ruby implementation of the RFC 7519 OAuth JSON Web Token standard. Prior to 2.10.3 and 3.2.0...",
+      "source": "CVE Feed",
+      "published": "2026-07-14T22:16:54+00:00"
+    },
+    {
+      "title": "CVE-2026-42049 - jadx: RCE Via Groovy Code Injection in Gradle Export",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-42049",
+      "summary": "CVE ID :CVE-2026-42049 Published : July 14, 2026, 10:16 p.m. | 14 minutes ago Description :jadx is a Dex to Java decompiler. Prior to 1.5.6, jadx inserts the android:versionName value from an...",
+      "source": "CVE Feed",
+      "published": "2026-07-14T22:16:52+00:00"
+    },
+    {
+      "title": "Records Are Made to Be Broken: Patch Tuesday Raises Triage Stakes",
+      "link": "https://www.darkreading.com/vulnerabilities-threats/records-broken-patch-tuesday-raises-triage-stakes",
+      "summary": "Three of the 622 CVEs for which Microsoft issued patches this week are zero-days; there are more than 60 critical vulnerabilities.",
+      "source": "Dark Reading",
+      "published": "2026-07-14T21:50:56+00:00"
+    },
+    {
+      "title": "SonicWall warns of SMA1000 flaws exploited in zero-day attacks, patch now",
+      "link": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-sma1000-flaws-exploited-in-zero-day-attacks-patch-now/",
+      "summary": "SonicWall warns that threat actors have been exploiting two SMA1000 vulnerabilities, tracked as CVE-2026-15409 and CVE-2026-15410, in zero-day attacks and urges customers to install the newly...",
+      "source": "BleepingComputer",
+      "published": "2026-07-14T21:23:24+00:00"
+    },
+    {
+      "title": "CVE-2026-53486 - decompress: Archive extraction can create files and links outside the target directory",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-53486",
+      "summary": "CVE ID :CVE-2026-53486 Published : July 14, 2026, 9:17 p.m. | 1 hour, 14 minutes ago Description :The decompress package for Node.js extracts archives. Prior to 10.2.1 and 11.1.3, archive extraction...",
+      "source": "CVE Feed",
+      "published": "2026-07-14T21:17:05+00:00"
+    },
+    {
+      "title": "CVE-2026-48801 - linkify-it: Quadratic algorithmic complexity in LinkifyIt#match scan loop",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48801",
+      "summary": "CVE ID :CVE-2026-48801 Published : July 14, 2026, 9:17 p.m. | 1 hour, 14 minutes ago Description :linkify-it is a links recognition library with full Unicode support. Prior to 5.0.1...",
+      "source": "CVE Feed",
+      "published": "2026-07-14T21:17:01+00:00"
+    },
+    {
+      "title": "CVE-2026-48327 - ColdFusion | Incorrect Authorization (CWE-863)",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48327",
+      "summary": "CVE ID :CVE-2026-48327 Published : July 14, 2026, 9:16 p.m. | 1 hour, 14 minutes ago Description :ColdFusion is affected by an Incorrect Authorization vulnerability that could result in arbitrary...",
+      "source": "CVE Feed",
+      "published": "2026-07-14T21:16:59+00:00"
+    },
+    {
+      "title": "CVE-2026-48325 - ColdFusion | Missing Authentication for Critical Function (CWE-306)",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48325",
+      "summary": "CVE ID :CVE-2026-48325 Published : July 14, 2026, 9:16 p.m. | 1 hour, 14 minutes ago Description :ColdFusion is affected by a Missing Authentication for Critical Function vulnerability that could...",
+      "source": "CVE Feed",
+      "published": "2026-07-14T21:16:59+00:00"
+    },
+    {
+      "title": "CVE-2026-48324 - ColdFusion | Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') (CWE-89)",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48324",
+      "summary": "CVE ID :CVE-2026-48324 Published : July 14, 2026, 9:16 p.m. | 1 hour, 14 minutes ago Description :ColdFusion is affected by an Improper Neutralization of Special Elements used in an SQL Command ('SQL...",
+      "source": "CVE Feed",
+      "published": "2026-07-14T21:16:59+00:00"
+    },
+    {
+      "title": "CVE-2026-48322 - ColdFusion | Improper Control of Generation of Code ('Code Injection') (CWE-94)",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48322",
+      "summary": "CVE ID :CVE-2026-48322 Published : July 14, 2026, 9:16 p.m. | 1 hour, 14 minutes ago Description :ColdFusion is affected by an Improper Control of Generation of Code ('Code Injection') vulnerability...",
+      "source": "CVE Feed",
+      "published": "2026-07-14T21:16:58+00:00"
+    },
+    {
+      "title": "CVE-2026-48321 - ColdFusion | Incorrect Authorization (CWE-863)",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48321",
+      "summary": "CVE ID :CVE-2026-48321 Published : July 14, 2026, 9:16 p.m. | 1 hour, 14 minutes ago Description :ColdFusion is affected by an Incorrect Authorization vulnerability that could result in privilege...",
+      "source": "CVE Feed",
+      "published": "2026-07-14T21:16:58+00:00"
+    },
+    {
+      "title": "CVE-2026-48320 - ColdFusion | Cross-site Scripting (Reflected XSS) (CWE-79)",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48320",
+      "summary": "CVE ID :CVE-2026-48320 Published : July 14, 2026, 9:16 p.m. | 1 hour, 14 minutes ago Description :ColdFusion is affected by a reflected Cross-Site Scripting (XSS) vulnerability. An attacker could...",
+      "source": "CVE Feed",
+      "published": "2026-07-14T21:16:58+00:00"
+    },
+    {
+      "title": "CVE-2026-48319 - ColdFusion | Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') (CWE-22)",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48319",
+      "summary": "CVE ID :CVE-2026-48319 Published : July 14, 2026, 9:16 p.m. | 1 hour, 14 minutes ago Description :ColdFusion is affected by an Improper Limitation of a Pathname to a Restricted Directory ('Path...",
+      "source": "CVE Feed",
+      "published": "2026-07-14T21:16:58+00:00"
+    },
+    {
+      "title": "CVE-2026-48318 - ColdFusion | Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') (CWE-22)",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48318",
+      "summary": "CVE ID :CVE-2026-48318 Published : July 14, 2026, 9:16 p.m. | 1 hour, 14 minutes ago Description :ColdFusion is affected by an Improper Limitation of a Pathname to a Restricted Directory ('Path...",
+      "source": "CVE Feed",
+      "published": "2026-07-14T21:16:58+00:00"
+    },
+    {
+      "title": "CVE-2026-48284 - ColdFusion | Improper Input Validation (CWE-20)",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48284",
+      "summary": "CVE ID :CVE-2026-48284 Published : July 14, 2026, 9:16 p.m. | 1 hour, 14 minutes ago Description :ColdFusion is affected by an Improper Input Validation vulnerability that could result in arbitrary...",
+      "source": "CVE Feed",
+      "published": "2026-07-14T21:16:58+00:00"
+    },
+    {
+      "title": "CVE-2026-24233 - NVIDIA TensorRT-LLM Insecure Deserialization Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-24233",
+      "summary": "CVE ID :CVE-2026-24233 Published : July 14, 2026, 9:16 p.m. | 1 hour, 14 minutes ago Description :NVIDIA TensorRT-LLM for Linux contains a vulnerability in the restricted unpickler used for model...",
+      "source": "CVE Feed",
+      "published": "2026-07-14T21:16:44+00:00"
+    },
+    {
+      "title": "CVE-2026-15776 - Google Chrome V8 Arbitrary Code Execution",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-15776",
+      "summary": "CVE ID :CVE-2026-15776 Published : July 14, 2026, 9:16 p.m. | 1 hour, 14 minutes ago Description :Inappropriate implementation in V8 in Google Chrome prior to 150.0.7871.125 allowed a remote attacker...",
+      "source": "CVE Feed",
+      "published": "2026-07-14T21:16:43+00:00"
+    },
+    {
+      "title": "CVE-2026-15774 - Google Chrome Skia Use-After-Free Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-15774",
+      "summary": "CVE ID :CVE-2026-15774 Published : July 14, 2026, 9:16 p.m. | 1 hour, 14 minutes ago Description :Use after free in Skia in Google Chrome prior to 150.0.7871.125 allowed a remote attacker who had...",
+      "source": "CVE Feed",
+      "published": "2026-07-14T21:16:43+00:00"
+    },
+    {
+      "title": "CVE-2026-15773 - Google Chrome Core Use-After-Free Sandbox Escape",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-15773",
+      "summary": "CVE ID :CVE-2026-15773 Published : July 14, 2026, 9:16 p.m. | 1 hour, 14 minutes ago Description :Use after free in Core in Google Chrome on Windows prior to 150.0.7871.125 allowed a remote attacker...",
+      "source": "CVE Feed",
+      "published": "2026-07-14T21:16:43+00:00"
+    },
+    {
+      "title": "CVE-2026-15772 - Google Chrome GPU Use-After-Free Sandbox Escape",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-15772",
+      "summary": "CVE ID :CVE-2026-15772 Published : July 14, 2026, 9:16 p.m. | 1 hour, 14 minutes ago Description :Use after free in GPU in Google Chrome on Android prior to 150.0.7871.125 allowed a remote attacker...",
+      "source": "CVE Feed",
+      "published": "2026-07-14T21:16:42+00:00"
+    },
+    {
+      "title": "Microsoft Patches Record 622 Flaws, Including Two Zero-Days Under Active Attack",
+      "link": "https://thehackernews.com/2026/07/microsoft-patches-record-622-flaws.html",
+      "summary": "Microsoft shipped its largest Patch Tuesday on record today, and two of the fixes close holes that attackers are already exploiting. The release covers 622 of Microsoft's own CVEs by its Security...",
+      "source": "The Hacker News",
+      "published": "2026-07-14T20:25:47+00:00"
+    },
     {
       "title": "Spanish Police take down €140 million cyber fraud ring, arrest four",
       "link": "https://www.bleepingcomputer.com/news/security/spanish-police-take-down-140-million-cyber-fraud-ring-arrest-four/",
       "summary": "The Spanish Police dismantled a cybercrime and money-laundering organization that made €140 million ($160 million) from investment fraud and business email compromise (BEC) attacks. [...]",
       "source": "BleepingComputer",
       "published": "2026-07-14T20:23:09+00:00"
-    },
-    {
-      "title": "CVE-2026-15738 - Cross-namespace traffic interception via incorrect route precedence ordering in AWS Load Balancer Controller",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-15738",
-      "summary": "CVE ID :CVE-2026-15738 Published : July 14, 2026, 8:19 p.m. | 12 minutes ago Description :Incorrect behavior order in the Gateway API listener-rule generation in Amazon AWS Load Balancer Controller...",
-      "source": "CVE Feed",
-      "published": "2026-07-14T20:19:23+00:00"
-    },
-    {
-      "title": "CVE-2026-53633 - Vitest: Exposed Browser Mode API Can Proxy CDP and Overwrite Config Files, Leading to RCE",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-53633",
-      "summary": "CVE ID :CVE-2026-53633 Published : July 14, 2026, 8:17 p.m. | 14 minutes ago Description :Vitest is a testing framework powered by Vite. From 3.0.0 until 3.2.5, 4.1.8, and 5.0.0-beta.4, Vitest...",
-      "source": "CVE Feed",
-      "published": "2026-07-14T20:17:42+00:00"
-    },
-    {
-      "title": "CVE-2026-50528 - .NET Security Feature Bypass Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-50528",
-      "summary": "CVE ID :CVE-2026-50528 Published : July 14, 2026, 8:17 p.m. | 14 minutes ago Description :Incorrect authorization in .NET allows an unauthorized attacker to bypass a security feature over a network...",
-      "source": "CVE Feed",
-      "published": "2026-07-14T20:17:37+00:00"
-    },
-    {
-      "title": "CVE-2026-48489 - Symfony: Security Firewall Bypass via failure_forward Subrequest: Unauthenticated Access to access_control-Protected GET Routes",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48489",
-      "summary": "CVE ID :CVE-2026-48489 Published : July 14, 2026, 8:17 p.m. | 14 minutes ago Description :Symfony is a PHP framework for web and console applications and a set of reusable PHP components. Prior to...",
-      "source": "CVE Feed",
-      "published": "2026-07-14T20:17:09+00:00"
-    },
-    {
-      "title": "CVE-2026-48359 - Adobe Experience Manager | Improper Restriction of XML External Entity Reference ('XXE') (CWE-611)",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48359",
-      "summary": "CVE ID :CVE-2026-48359 Published : July 14, 2026, 8:17 p.m. | 14 minutes ago Description :Adobe Experience Manager is affected by an Improper Restriction of XML External Entity Reference ('XXE')...",
-      "source": "CVE Feed",
-      "published": "2026-07-14T20:17:08+00:00"
-    },
-    {
-      "title": "CVE-2026-48358 - Adobe Commerce | Improper Encoding or Escaping of Output (CWE-116)",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48358",
-      "summary": "CVE ID :CVE-2026-48358 Published : July 14, 2026, 8:17 p.m. | 14 minutes ago Description :Adobe Commerce is affected by an Improper Encoding or Escaping of Output vulnerability that could result in...",
-      "source": "CVE Feed",
-      "published": "2026-07-14T20:17:08+00:00"
-    },
-    {
-      "title": "CVE-2026-48356 - Adobe Commerce | Unrestricted Upload of File with Dangerous Type (CWE-434)",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48356",
-      "summary": "CVE ID :CVE-2026-48356 Published : July 14, 2026, 8:17 p.m. | 14 minutes ago Description :Adobe Commerce is affected by an Unrestricted Upload of File with Dangerous Type vulnerability that could...",
-      "source": "CVE Feed",
-      "published": "2026-07-14T20:17:08+00:00"
-    },
-    {
-      "title": "CVE-2026-48350 - Animate | Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') (CWE-22)",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48350",
-      "summary": "CVE ID :CVE-2026-48350 Published : July 14, 2026, 8:17 p.m. | 14 minutes ago Description :Animate is affected by an Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')...",
-      "source": "CVE Feed",
-      "published": "2026-07-14T20:17:08+00:00"
-    },
-    {
-      "title": "CVE-2026-48349 - Animate | Incorrect Authorization (CWE-863)",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48349",
-      "summary": "CVE ID :CVE-2026-48349 Published : July 14, 2026, 8:17 p.m. | 14 minutes ago Description :Animate is affected by an Incorrect Authorization vulnerability that could result in arbitrary code execution...",
-      "source": "CVE Feed",
-      "published": "2026-07-14T20:17:08+00:00"
-    },
-    {
-      "title": "CVE-2026-48345 - Animate | Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') (CWE-78)",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48345",
-      "summary": "CVE ID :CVE-2026-48345 Published : July 14, 2026, 8:17 p.m. | 14 minutes ago Description :Animate is affected by an Improper Neutralization of Special Elements used in an OS Command ('OS Command...",
-      "source": "CVE Feed",
-      "published": "2026-07-14T20:17:07+00:00"
-    },
-    {
-      "title": "CVE-2026-48310 - Adobe Experience Manager | Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') (CWE-22)",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48310",
-      "summary": "CVE ID :CVE-2026-48310 Published : July 14, 2026, 8:17 p.m. | 14 minutes ago Description :Adobe Experience Manager is affected by an Improper Limitation of a Pathname to a Restricted Directory ('Path...",
-      "source": "CVE Feed",
-      "published": "2026-07-14T20:17:07+00:00"
-    },
-    {
-      "title": "CVE-2026-48259 - Adobe Experience Manager | Server-Side Request Forgery (SSRF) (CWE-918)",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48259",
-      "summary": "CVE ID :CVE-2026-48259 Published : July 14, 2026, 8:17 p.m. | 14 minutes ago Description :Adobe Experience Manager is affected by a Server-Side Request Forgery (SSRF) vulnerability that could result...",
-      "source": "CVE Feed",
-      "published": "2026-07-14T20:17:06+00:00"
-    },
-    {
-      "title": "CVE-2026-48252 - Adobe Experience Manager | Missing Authentication for Critical Function (CWE-306)",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48252",
-      "summary": "CVE ID :CVE-2026-48252 Published : July 14, 2026, 8:17 p.m. | 14 minutes ago Description :Adobe Experience Manager is affected by a Missing Authentication for Critical Function vulnerability that...",
-      "source": "CVE Feed",
-      "published": "2026-07-14T20:17:06+00:00"
-    },
-    {
-      "title": "CVE-2026-47995 - Adobe Commerce | Cross-site Scripting (Stored XSS) (CWE-79)",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-47995",
-      "summary": "CVE ID :CVE-2026-47995 Published : July 14, 2026, 8:17 p.m. | 14 minutes ago Description :Adobe Commerce is affected by a stored Cross-Site Scripting (XSS) vulnerability that could be abused by a...",
-      "source": "CVE Feed",
-      "published": "2026-07-14T20:17:04+00:00"
-    },
-    {
-      "title": "CVE-2026-47994 - Adobe Commerce | Cross-site Scripting (Stored XSS) (CWE-79)",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-47994",
-      "summary": "CVE ID :CVE-2026-47994 Published : July 14, 2026, 8:17 p.m. | 14 minutes ago Description :Adobe Commerce is affected by a stored Cross-Site Scripting (XSS) vulnerability that could be abused by a...",
-      "source": "CVE Feed",
-      "published": "2026-07-14T20:17:04+00:00"
-    },
-    {
-      "title": "CVE-2026-47988 - Adobe Commerce | Incorrect Authorization (CWE-863)",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-47988",
-      "summary": "CVE ID :CVE-2026-47988 Published : July 14, 2026, 8:17 p.m. | 14 minutes ago Description :Adobe Commerce is affected by an Incorrect Authorization vulnerability that could result in a Security...",
-      "source": "CVE Feed",
-      "published": "2026-07-14T20:17:04+00:00"
-    },
-    {
-      "title": "CVE-2026-47984 - Adobe Commerce | Incorrect Authorization (CWE-863)",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-47984",
-      "summary": "CVE ID :CVE-2026-47984 Published : July 14, 2026, 8:17 p.m. | 14 minutes ago Description :Adobe Commerce is affected by an Incorrect Authorization vulnerability that could result in a Security...",
-      "source": "CVE Feed",
-      "published": "2026-07-14T20:17:04+00:00"
-    },
-    {
-      "title": "CVE-2026-47429 - Vitest: Arbitrary file can be read and executed when Vitest UI server is listening",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-47429",
-      "summary": "CVE ID :CVE-2026-47429 Published : July 14, 2026, 8:17 p.m. | 14 minutes ago Description :Vitest is a testing framework powered by Vite. Prior to 3.2.5 and 4.1.0, the Vitest UI/API server on Windows...",
-      "source": "CVE Feed",
-      "published": "2026-07-14T20:17:02+00:00"
-    },
-    {
-      "title": "CVE-2026-47428 - Vitest browser mode serves unsanitized otelCarrier query parameter as inline script",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-47428",
-      "summary": "CVE ID :CVE-2026-47428 Published : July 14, 2026, 8:17 p.m. | 14 minutes ago Description :Vitest is a testing framework powered by Vite. From 4.0.17 until 4.1.6 and 5.0.0-beta.3, Vitest Browser Mode...",
-      "source": "CVE Feed",
-      "published": "2026-07-14T20:17:02+00:00"
-    },
-    {
-      "title": "CVE-2026-47423 - DOMPurify XSS via `selectedcontent` re-clone",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-47423",
-      "summary": "CVE ID :CVE-2026-47423 Published : July 14, 2026, 8:17 p.m. | 14 minutes ago Description :DOMPurify is a DOM-only cross-site scripting sanitizer for HTML, MathML, and SVG. In 3.4.4, DOMPurify allowed...",
-      "source": "CVE Feed",
-      "published": "2026-07-14T20:17:02+00:00"
-    },
-    {
-      "title": "CVE-2026-45071 - Symfony: XXE (Local File Disclosure) in DomCrawler::addXmlContent() via validateOnParse = true",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-45071",
-      "summary": "CVE ID :CVE-2026-45071 Published : July 14, 2026, 8:17 p.m. | 15 minutes ago Description :Symfony is a PHP framework for web and console applications and a set of reusable PHP components. Prior to...",
-      "source": "CVE Feed",
-      "published": "2026-07-14T20:17:00+00:00"
-    },
-    {
-      "title": "CVE-2026-45068 - Symfony: Argument Injection in SendmailTransport via Dash-Prefixed Recipient Address",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-45068",
-      "summary": "CVE ID :CVE-2026-45068 Published : July 14, 2026, 8:17 p.m. | 15 minutes ago Description :Symfony is a PHP framework for web and console applications and a set of reusable PHP components. Prior to...",
-      "source": "CVE Feed",
-      "published": "2026-07-14T20:17:00+00:00"
-    },
-    {
-      "title": "CVE-2026-13001 - Podlove Podcast Publisher <= 4.5.1 - Unauthenticated Arbitrary File Upload via podlove_image_cache_url Parameter",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-13001",
-      "summary": "CVE ID :CVE-2026-13001 Published : July 14, 2026, 8:16 p.m. | 15 minutes ago Description :The Podlove Podcast Publisher plugin for WordPress is vulnerable to arbitrary file uploads due to missing...",
-      "source": "CVE Feed",
-      "published": "2026-07-14T20:16:56+00:00"
-    },
-    {
-      "title": "CVE-2026-15643 - AWS HealthLake MCP Server SSRF via Pagination URL",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-15643",
-      "summary": "CVE ID :CVE-2026-15643 Published : July 14, 2026, 8:03 p.m. | 28 minutes ago Description :AWS HealthLake MCP Server (awslabs.healthlake-mcp-server) is a Model Context Protocol server that enables AI...",
-      "source": "CVE Feed",
-      "published": "2026-07-14T20:03:58+00:00"
-    },
-    {
-      "title": "CVE-2026-24233 - NVIDIA TensorRT-LLM Insecure Deserialization Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-24233",
-      "summary": "CVE ID :CVE-2026-24233 Published : July 14, 2026, 8 p.m. | 31 minutes ago Description :NVIDIA TensorRT-LLM for Linux contains a vulnerability in the restricted unpickler used for model weight...",
-      "source": "CVE Feed",
-      "published": "2026-07-14T20:00:37+00:00"
     },
     {
       "title": "6 GHz Wi-Fi Flaws Could Disrupt Critical Systems",
@@ -235,8 +256,8 @@
     {
       "title": "SAP Patches CVSS 9.9 NetWeaver ABAP Flaw That Could Expose or Modify Data",
       "link": "https://thehackernews.com/2026/07/sap-patches-cvss-99-netweaver-abap-flaw.html",
-      "summary": "SAP has rolled out updates to address multiple vulnerabilities as part of its July 2026 security updates, including a critical flaw in SAP NetWeaver Application Server ABAP. The vulnerability in...",
-      "source": "The Hacker News",
+      "summary": "SAP Patches CVSS 9.9 NetWeaver ABAP Flaw That Could Expose or Modify Data SAP has rolled out updates to address multiple vulnerabilities as part of its July 2026 security updates, including a...",
+      "source": "CVE Newsroom",
       "published": "2026-07-14T18:17:57+00:00"
     },
     {
@@ -256,7 +277,7 @@
     {
       "title": "Windows 11 KB5101650 & KB5099414 cumulative updates released",
       "link": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5101650-and-kb5099414-cumulative-updates-released/",
-      "summary": "Microsoft has released Windows 11 KB5101650 and KB5099414 cumulative updates for versions 25H2/24H2 and 23H2 to fix security vulnerabilities, bugs, and add new features. [...]",
+      "summary": "Microsoft has released Windows 11's June 2026 Update for version 25H2, 24H2, and 23H2, bringing fixes for over 570 security issues. [...]",
       "source": "BleepingComputer",
       "published": "2026-07-14T17:41:16+00:00"
     },
@@ -347,8 +368,8 @@
     {
       "title": "RabbitMQ Flaws Could Leak OAuth Secrets and Expose Cross-Tenant Queue Metadata",
       "link": "https://thehackernews.com/2026/07/rabbitmq-flaws-could-leak-oauth-secrets.html",
-      "summary": "Cybersecurity researchers have disclosed details of two access control-related flaws impacting the RabbitMQ message broker service that could allow attackers to leak OAuth client secrets, expose...",
-      "source": "The Hacker News",
+      "summary": "RabbitMQ Flaws Could Leak OAuth Secrets and Expose Cross-Tenant Queue Metadata Cybersecurity researchers have disclosed details of two access control-related flaws impacting the RabbitMQ message...",
+      "source": "CVE Newsroom",
       "published": "2026-07-14T13:48:07+00:00"
     },
     {
@@ -382,8 +403,8 @@
     {
       "title": "11 Old Microsoft-Signed Linux UEFI Shims Could Let Attackers Bypass Secure Boot",
       "link": "https://thehackernews.com/2026/07/11-old-microsoft-signed-linux-uefi.html",
-      "summary": "Cybersecurity researchers have discovered 11 old, Microsoft-signed, Unified Extensible Firmware Interface (UEFI) applications that could be abused to bypass Secure Boot on most systems using the...",
-      "source": "The Hacker News",
+      "summary": "11 Old Microsoft-Signed Linux UEFI Shims Could Let Attackers Bypass Secure Boot Cybersecurity researchers have discovered 11 old, Microsoft-signed, Unified Extensible Firmware Interface (UEFI)...",
+      "source": "CVE Newsroom",
       "published": "2026-07-14T12:46:18+00:00"
     },
     {
@@ -473,8 +494,8 @@
     {
       "title": "U.S. Sanctions First VPN Service and Malware Cryptor Seller Over Ransomware Support",
       "link": "https://thehackernews.com/2026/07/us-sanctions-first-vpn-service-and.html",
-      "summary": "The U.S. Treasury Department's Office of Foreign Assets Control (OFAC) has designated two individuals and a VPN service provider for enabling ransomware actors' and other cybercriminals' malicious...",
-      "source": "The Hacker News",
+      "summary": "U.S. Sanctions First VPN Service and Malware Cryptor Seller Over Ransomware Support The U.S. Treasury Department's Office of Foreign Assets Control (OFAC) has designated two individuals and a VPN...",
+      "source": "CVE Newsroom",
       "published": "2026-07-14T08:02:33+00:00"
     },
     {
@@ -541,13 +562,6 @@
       "published": "2026-07-13T20:18:59+00:00"
     },
     {
-      "title": "Hackers backdoor Jscrambler npm package with infostealer malware",
-      "link": "https://www.bleepingcomputer.com/news/security/hackers-backdoor-jscrambler-npm-package-with-infostealer-malware/",
-      "summary": "The Jscrambler client-side web security company disclosed that a threat actor published a malicious version of its npm package that has been downloaded almost 1,500 times. [...]",
-      "source": "BleepingComputer",
-      "published": "2026-07-13T19:44:19+00:00"
-    },
-    {
       "title": "'Yellow Teams' Are Defining the Future of AI Security",
       "link": "https://www.darkreading.com/cybersecurity-operations/yellow-teams-defining-future-ai-security",
       "summary": "In some companies, engineers are building defense and attack tools to test the potential of artificial intelligence for cybersecurity — and its threat.",
@@ -578,8 +592,8 @@
     {
       "title": "⚡ Weekly Recap: ShareFile Threat, Citrix Bleed 2 Ransomware, AI Coding Attacks, and More",
       "link": "https://thehackernews.com/2026/07/weekly-recap-sharefile-threat-citrix.html",
-      "summary": "Somewhere right now, a security tool is quietly finding bugs faster than any human can fix them. That's supposed to be the good news. The catch is that the attackers have the same tools, pointed the...",
-      "source": "The Hacker News",
+      "summary": "⚡ Weekly Recap: ShareFile Threat, Citrix Bleed 2 Ransomware, AI Coding Attacks, and More Somewhere right now, a security tool is quietly finding bugs faster than any human can fix them. That's...",
+      "source": "CVE Newsroom",
       "published": "2026-07-13T15:05:57+00:00"
     },
     {
@@ -599,8 +613,8 @@
     {
       "title": "New MemGhost Attack Plants Persistent False Memories in AI Agents Through One Email",
       "link": "https://thehackernews.com/2026/07/new-memghost-attack-plants-persistent.html",
-      "summary": "Give an AI assistant a memory and access to your inbox, and you hand an attacker a way to rewrite what it thinks it knows about you. A single email can trick that agent into saving a false \"fact\"...",
-      "source": "The Hacker News",
+      "summary": "New MemGhost Attack Plants Persistent False Memories in AI Agents Through One Email Give an AI assistant a memory and access to your inbox, and you hand an attacker a way to rewrite what it thinks it...",
+      "source": "CVE Newsroom",
       "published": "2026-07-13T13:49:48+00:00"
     },
     {
@@ -669,8 +683,8 @@
     {
       "title": "iCagenda and Balbooa Forms Joomla Flaws Reportedly Exploited as Zero-Days",
       "link": "https://thehackernews.com/2026/07/icagenda-and-balbooa-forms-joomla-flaws.html",
-      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added two maximum-severity security flaws impacting iCagenda and Balbooa extensions for Joomla to its Known Exploited...",
-      "source": "The Hacker News",
+      "summary": "iCagenda and Balbooa Forms Joomla Flaws Reportedly Exploited as Zero-Days The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added two maximum-severity security flaws impacting...",
+      "source": "CVE Newsroom",
       "published": "2026-07-13T05:36:02+00:00"
     },
     {
@@ -690,8 +704,8 @@
     {
       "title": "Critical Zimbra Flaw Could Let Crafted Emails Run Malicious Code in User Sessions",
       "link": "https://thehackernews.com/2026/07/critical-zimbra-flaw-could-let-crafted_0483473395.html",
-      "summary": "Zimbra is urging customers to apply updates to address a critical security vulnerability impacting the Classic Web Client that could result in arbitrary code execution. The vulnerability has been...",
-      "source": "The Hacker News",
+      "summary": "Critical Zimbra Flaw Could Let Crafted Emails Run Malicious Code in User Sessions Zimbra is urging customers to apply updates to address a critical security vulnerability impacting the Classic Web...",
+      "source": "CVE Newsroom",
       "published": "2026-07-11T06:45:55+00:00"
     },
     {
@@ -711,8 +725,8 @@
     {
       "title": "URGENT - Progress Tells ShareFile Customers to Shut Down Storage Zone Controllers Over Security Threat",
       "link": "https://thehackernews.com/2026/07/urgent-progress-tells-sharefile.html",
-      "summary": "Progress Software has told ShareFile customers to shut down the Windows servers running their Storage Zone Controllers, confirming to The Hacker News that it is responding to a \"credible external...",
-      "source": "The Hacker News",
+      "summary": "URGENT - Progress Tells ShareFile Customers to Shut Down Storage Zone Controllers Over Security Threat Progress Software has told ShareFile customers to shut down the Windows servers running their...",
+      "source": "CVE Newsroom",
       "published": "2026-07-10T16:30:00+00:00"
     },
     {
@@ -725,8 +739,8 @@
     {
       "title": "Six New U-Boot Flaws Could Let Malicious Images Crash Devices or Run Code at Boot",
       "link": "https://thehackernews.com/2026/07/six-new-u-boot-flaws-could-let.html",
-      "summary": "Researchers at firmware security firm Binarly have found six new flaws in U-Boot, the small program that starts up hardware as varied as home routers, smart cameras, and the management chips inside...",
-      "source": "The Hacker News",
+      "summary": "Six New U-Boot Flaws Could Let Malicious Images Crash Devices or Run Code at Boot Researchers at firmware security firm Binarly have found six new flaws in U-Boot, the small program that starts up...",
+      "source": "CVE Newsroom",
       "published": "2026-07-10T15:57:14+00:00"
     },
     {
@@ -788,22 +802,22 @@
     {
       "title": "Unpatched XRING Flaw in XQUIC Lets Remote Clients Crash HTTP/3 Servers",
       "link": "https://thehackernews.com/2026/07/unpatched-xring-flaw-in-xquic-lets.html",
-      "summary": "A single wrong variable on one line in XQUIC, Alibaba's QUIC and HTTP/3 library, lets any remote client crash the server with a short burst of completely legal traffic. There is no patch. FoxIO...",
-      "source": "The Hacker News",
+      "summary": "Unpatched XRING Flaw in XQUIC Lets Remote Clients Crash HTTP/3 Servers A single wrong variable on one line in XQUIC, Alibaba's QUIC and HTTP/3 library, lets any remote client crash the server with a...",
+      "source": "CVE Newsroom",
       "published": "2026-07-10T11:47:43+00:00"
     },
     {
       "title": "Exposed Hacker Server Reveals WP-SHELLSTORM Backdooring Thousands of WordPress Sites",
       "link": "https://thehackernews.com/2026/07/exposed-hacker-server-reveals-wp.html",
-      "summary": "A cybercrime crew left one of its own servers wide open on the internet for three weeks, and it exposed the operation's inner workings: the hacking tools, the activity logs, and target lists naming...",
-      "source": "The Hacker News",
+      "summary": "Exposed Hacker Server Reveals WP-SHELLSTORM Backdooring Thousands of WordPress Sites A cybercrime crew left one of its own servers wide open on the internet for three weeks, and it exposed the...",
+      "source": "CVE Newsroom",
       "published": "2026-07-10T11:30:02+00:00"
     },
     {
       "title": "Study of 281 Free Android VPN Apps Finds Traffic Leaks, Unencrypted Data, and Tracking",
       "link": "https://thehackernews.com/2026/07/study-of-281-free-android-vpn-apps.html",
-      "summary": "Researchers ran 281 of the most popular free VPN apps on the Google Play Store through a new testing system and found that many fail at the basics people install a VPN for, i.e., keeping their...",
-      "source": "The Hacker News",
+      "summary": "Study of 281 Free Android VPN Apps Finds Traffic Leaks, Unencrypted Data, and Tracking Researchers ran 281 of the most popular free VPN apps on the Google Play Store through a new testing system and...",
+      "source": "CVE Newsroom",
       "published": "2026-07-10T10:56:23+00:00"
     },
     {
@@ -821,10 +835,10 @@
       "published": "2026-07-10T10:30:20+00:00"
     },
     {
-      "title": "Attackers Exploit 'Ill Bloom' Vulnerability to Drain Over $5 Million From Cryptocurrency Wallets",
+      "title": "Attackers Exploit 'Ill Bloom' Vulnerability to Drain $3.1 Million From Cryptocurrency Wallets",
       "link": "https://thehackernews.com/2026/07/attackers-exploit-ill-bloom.html",
-      "summary": "Security firm Coinspect has disclosed a crypto wallet flaw it calls Ill Bloom, and attackers are already using it. The flaw is in how some wallet software generated its recovery phrase, the words...",
-      "source": "The Hacker News",
+      "summary": "Attackers Exploit 'Ill Bloom' Vulnerability to Drain $3.1 Million From Cryptocurrency Wallets Security firm Coinspect has disclosed a crypto wallet flaw it calls Ill Bloom, and attackers are already...",
+      "source": "CVE Newsroom",
       "published": "2026-07-10T09:00:05+00:00"
     },
     {
@@ -833,13 +847,6 @@
       "summary": "A 41-year-old former ransomware negotiator has been sentenced to nearly six years (i.e., 70 months) in prison in the U.S. for their role in conspiring with the now-defunct BlackCat ransomware...",
       "source": "The Hacker News",
       "published": "2026-07-10T08:10:12+00:00"
-    },
-    {
-      "title": "Ubiquiti Fixes Critical CVE-2026-50746 and Multiple UniFi OS Vulnerability Flaws",
-      "link": "https://thecyberexpress.com/cve-2026-50746-ubiquiti-unifi-os-vulnerability/",
-      "summary": "Ubiquiti Fixes Critical CVE-2026-50746 and Multiple UniFi OS Vulnerability Flaws Ubiquiti has released security updates to address several critical security flaws, led by CVE-2026-50746, a...",
-      "source": "CVE Newsroom",
-      "published": "2026-07-10T07:12:07+00:00"
     },
     {
       "title": "Iran's Cyber Crosshairs Focus Beyond Critical Infrastructure",
@@ -987,13 +994,6 @@
       "summary": "The attacker exploited AI workflows, chained cloud weaknesses, and stolen credentials to extort a large Amazon customer.",
       "source": "Dark Reading",
       "published": "2026-07-08T20:32:22+00:00"
-    },
-    {
-      "title": "AI Coding Agents Found Triggering Endpoint Security Rules Built to Catch Attackers",
-      "link": "https://thehackernews.com/2026/07/ai-coding-agents-found-triggering.html",
-      "summary": "Sophos looked at a week of its own endpoint data and found that AI coding agents such as Claude Code, Cursor, and OpenAI Codex are setting off detection rules written to catch human intruders. The...",
-      "source": "The Hacker News",
-      "published": "2026-07-08T17:02:12+00:00"
     },
     {
       "title": "Vidar Infostealer Hammers SMBs via Malvertising Campaign",
@@ -1190,13 +1190,6 @@
       "summary": "The National Institute of Standards and Technology (NIST) scaled back the number of CVEs it selects for in-depth analysis, but the move has produced mixed results, according to researchers.",
       "source": "Dark Reading",
       "published": "2026-06-29T22:46:45+00:00"
-    },
-    {
-      "title": "'Djinn' Stealer Targets Cloud, AI Credentials",
-      "link": "https://www.darkreading.com/cyberattacks-data-breaches/djinn-stealer-targets-cloud-ai-credentials",
-      "summary": "The infostealer was delivered via CVE-2026-48558, a critical authentication bypass vulnerability in SimpleHelp, targeting credentials linking development and admin environments to wider enterprise...",
-      "source": "Dark Reading",
-      "published": "2026-06-29T21:29:15+00:00"
     },
     {
       "title": "Scattered Spider Hackers Plead Guilty on Day 1 of Trial",
