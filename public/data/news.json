@@ -1,122 +1,164 @@
 {
-  "last_updated": "2026-07-14T01:41:56.551469+00:00",
+  "last_updated": "2026-07-14T04:42:15.070546+00:00",
   "articles": [
+    {
+      "title": "CVE-2026-44761 - Insecure Sample Credentials in SAP Commerce Cloud",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-44761",
+      "summary": "CVE ID :CVE-2026-44761 Published : July 14, 2026, 1:16 a.m. | 3 hours, 14 minutes ago Description :SAP Commerce Cloud could retain a sample OAuth2 client with publicly documented sample credentials...",
+      "source": "CVE Feed",
+      "published": "2026-07-14T01:16:18+00:00"
+    },
+    {
+      "title": "CVE-2026-44752 - Cross-Site Scripting (XSS) vulnerability in SAP NetWeaver Application Server Java(Configuration Wizard)",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-44752",
+      "summary": "CVE ID :CVE-2026-44752 Published : July 14, 2026, 1:16 a.m. | 3 hours, 14 minutes ago Description :SAP NetWeaver Application Server Java allows an unauthenticated attacker to inject malicious...",
+      "source": "CVE Feed",
+      "published": "2026-07-14T01:16:17+00:00"
+    },
+    {
+      "title": "CVE-2026-44747 - Memory Corruption vulnerability in SAP NetWeaver Application Server ABAP",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-44747",
+      "summary": "CVE ID :CVE-2026-44747 Published : July 14, 2026, 1:16 a.m. | 3 hours, 14 minutes ago Description :SAP NetWeaver Application Server ABAP allows an authenticated attacker to leverage logical errors in...",
+      "source": "CVE Feed",
+      "published": "2026-07-14T01:16:17+00:00"
+    },
+    {
+      "title": "CVE-2026-44745 - Open Redirect vulnerability in SAP Approuter",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-44745",
+      "summary": "CVE ID :CVE-2026-44745 Published : July 14, 2026, 1:16 a.m. | 3 hours, 14 minutes ago Description :SAP Approuter does not properly validate incoming request headers during the OAuth2 login flow under...",
+      "source": "CVE Feed",
+      "published": "2026-07-14T01:16:17+00:00"
+    },
+    {
+      "title": "CVE-2026-27690 - HTTP Request Smuggling in SAP Approuter",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-27690",
+      "summary": "CVE ID :CVE-2026-27690 Published : July 14, 2026, 1:16 a.m. | 3 hours, 14 minutes ago Description :Due to an HTTP Request Smuggling vulnerability in SAP Approuter, an unauthenticated attacker could...",
+      "source": "CVE Feed",
+      "published": "2026-07-14T01:16:17+00:00"
+    },
+    {
+      "title": "CVE-2026-0487 - DLL Hijacking vulnerability in SAProuter on Microsoft Windows",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-0487",
+      "summary": "CVE ID :CVE-2026-0487 Published : July 14, 2026, 1:16 a.m. | 3 hours, 14 minutes ago Description :SAProuter on Microsoft Windows allows an unauthenticated attacker to load library (DLL) files from an...",
+      "source": "CVE Feed",
+      "published": "2026-07-14T01:16:16+00:00"
+    },
     {
       "title": "CVE-2026-58486 - HedgeDoc: Denial-of-service via YAML alias expansion in note frontmatter",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-58486",
-      "summary": "CVE ID :CVE-2026-58486 Published : July 13, 2026, 11:16 p.m. | 1 hour, 14 minutes ago Description :HedgeDoc is an open source, real-time, collaborative, markdown notes application. Prior to version...",
+      "summary": "CVE ID :CVE-2026-58486 Published : July 13, 2026, 11:16 p.m. | 5 hours, 14 minutes ago Description :HedgeDoc is an open source, real-time, collaborative, markdown notes application. Prior to version...",
       "source": "CVE Feed",
       "published": "2026-07-13T23:16:47+00:00"
     },
     {
       "title": "CVE-2026-57856 - Cockpit CMS Path Traversal via Bucket Name in Bucket File Storage API",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-57856",
-      "summary": "CVE ID :CVE-2026-57856 Published : July 13, 2026, 11:16 p.m. | 1 hour, 14 minutes ago Description :Cockpit CMS contains a path traversal vulnerability in the Bucket file storage API...",
+      "summary": "CVE ID :CVE-2026-57856 Published : July 13, 2026, 11:16 p.m. | 5 hours, 14 minutes ago Description :Cockpit CMS contains a path traversal vulnerability in the Bucket file storage API...",
       "source": "CVE Feed",
       "published": "2026-07-13T23:16:46+00:00"
     },
     {
       "title": "CVE-2026-57855 - Cockpit CMS Missing Authorization in Bucket File Storage API",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-57855",
-      "summary": "CVE ID :CVE-2026-57855 Published : July 13, 2026, 11:16 p.m. | 1 hour, 14 minutes ago Description :Cockpit CMS contains a missing authorization vulnerability in the Bucket file storage API...",
+      "summary": "CVE ID :CVE-2026-57855 Published : July 13, 2026, 11:16 p.m. | 5 hours, 14 minutes ago Description :Cockpit CMS contains a missing authorization vulnerability in the Bucket file storage API...",
       "source": "CVE Feed",
       "published": "2026-07-13T23:16:46+00:00"
     },
     {
       "title": "CVE-2026-62327 - 9Router 0.4.41 - Unauthenticated API Key Exposure via /api/usage/stats",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-62327",
-      "summary": "CVE ID :CVE-2026-62327 Published : July 13, 2026, 10:16 p.m. | 2 hours, 13 minutes ago Description :9Router through version 0.4.41 contain an unauthenticated information disclosure vulnerability that...",
+      "summary": "CVE ID :CVE-2026-62327 Published : July 13, 2026, 10:16 p.m. | 6 hours, 14 minutes ago Description :9Router through version 0.4.41 contain an unauthenticated information disclosure vulnerability that...",
       "source": "CVE Feed",
       "published": "2026-07-13T22:16:52+00:00"
     },
     {
       "title": "CVE-2026-62242 - Spring Boot Admin Server < 4.1.2 SSRF via Unauthenticated Instance Registration",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-62242",
-      "summary": "CVE ID :CVE-2026-62242 Published : July 13, 2026, 10:16 p.m. | 2 hours, 13 minutes ago Description :Spring Boot Admin Server before 4.1.2 contains a server-side request forgery vulnerability that...",
+      "summary": "CVE ID :CVE-2026-62242 Published : July 13, 2026, 10:16 p.m. | 6 hours, 14 minutes ago Description :Spring Boot Admin Server before 4.1.2 contains a server-side request forgery vulnerability that...",
       "source": "CVE Feed",
       "published": "2026-07-13T22:16:52+00:00"
     },
     {
       "title": "CVE-2026-62200 - OpenClaw < 2026.6.6 Authentication Bypass via Git ext transport",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-62200",
-      "summary": "CVE ID :CVE-2026-62200 Published : July 13, 2026, 10:16 p.m. | 2 hours, 13 minutes ago Description :OpenClaw versions before 2026.6.1 contain a flaw in host exec environment filtering that could...",
+      "summary": "CVE ID :CVE-2026-62200 Published : July 13, 2026, 10:16 p.m. | 6 hours, 14 minutes ago Description :OpenClaw versions before 2026.6.1 contain a flaw in host exec environment filtering that could...",
       "source": "CVE Feed",
       "published": "2026-07-13T22:16:51+00:00"
     },
     {
       "title": "CVE-2026-62199 - OpenClaw < 2026.6.6 Authentication Bypass via Environment Filtering",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-62199",
-      "summary": "CVE ID :CVE-2026-62199 Published : July 13, 2026, 10:16 p.m. | 2 hours, 13 minutes ago Description :OpenClaw versions before 2026.6.6 contain a flaw in host exec environment filtering that can miss...",
+      "summary": "CVE ID :CVE-2026-62199 Published : July 13, 2026, 10:16 p.m. | 6 hours, 14 minutes ago Description :OpenClaw versions before 2026.6.6 contain a flaw in host exec environment filtering that can miss...",
       "source": "CVE Feed",
       "published": "2026-07-13T22:16:51+00:00"
     },
     {
       "title": "CVE-2026-62197 - OpenClaw < 2026.6.6 Policy Bypass via CDP Discovery",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-62197",
-      "summary": "CVE ID :CVE-2026-62197 Published : July 13, 2026, 10:16 p.m. | 2 hours, 14 minutes ago Description :OpenClaw before 2026.6.6 contains a policy bypass vulnerability in browser CDP discovery that...",
+      "summary": "CVE ID :CVE-2026-62197 Published : July 13, 2026, 10:16 p.m. | 6 hours, 14 minutes ago Description :OpenClaw before 2026.6.6 contains a policy bypass vulnerability in browser CDP discovery that...",
       "source": "CVE Feed",
       "published": "2026-07-13T22:16:51+00:00"
     },
     {
       "title": "CVE-2026-62196 - OpenClaw 2026.3.22 < 2026.6.6 Authorization Bypass via WhatsApp Group IDs",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-62196",
-      "summary": "CVE ID :CVE-2026-62196 Published : July 13, 2026, 10:16 p.m. | 2 hours, 14 minutes ago Description :OpenClaw versions 2026.3.22 before 2026.6.6 contain an authorization bypass vulnerability where...",
+      "summary": "CVE ID :CVE-2026-62196 Published : July 13, 2026, 10:16 p.m. | 6 hours, 14 minutes ago Description :OpenClaw versions 2026.3.22 before 2026.6.6 contain an authorization bypass vulnerability where...",
       "source": "CVE Feed",
       "published": "2026-07-13T22:16:51+00:00"
     },
     {
       "title": "CVE-2026-62195 - OpenClaw 2026.5.20 < 2026.6.6 Authorization Bypass via MCP loopback",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-62195",
-      "summary": "CVE ID :CVE-2026-62195 Published : July 13, 2026, 10:16 p.m. | 2 hours, 14 minutes ago Description :OpenClaw versions 2026.5.20 before 2026.6.6 contain an authorization bypass vulnerability in the...",
+      "summary": "CVE ID :CVE-2026-62195 Published : July 13, 2026, 10:16 p.m. | 6 hours, 14 minutes ago Description :OpenClaw versions 2026.5.20 before 2026.6.6 contain an authorization bypass vulnerability in the...",
       "source": "CVE Feed",
       "published": "2026-07-13T22:16:51+00:00"
     },
     {
       "title": "CVE-2026-62194 - OpenClaw 2026.5.20 < 2026.6.9 Privilege Escalation via Plugin Install",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-62194",
-      "summary": "CVE ID :CVE-2026-62194 Published : July 13, 2026, 10:16 p.m. | 2 hours, 14 minutes ago Description :OpenClaw versions 2026.5.20 before 2026.6.9 contain a privilege escalation vulnerability in plugin...",
+      "summary": "CVE ID :CVE-2026-62194 Published : July 13, 2026, 10:16 p.m. | 6 hours, 14 minutes ago Description :OpenClaw versions 2026.5.20 before 2026.6.9 contain a privilege escalation vulnerability in plugin...",
       "source": "CVE Feed",
       "published": "2026-07-13T22:16:50+00:00"
     },
     {
       "title": "CVE-2026-62192 - OpenClaw 2026.6.6 < 2026.6.9 Authorization Bypass",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-62192",
-      "summary": "CVE ID :CVE-2026-62192 Published : July 13, 2026, 10:16 p.m. | 2 hours, 14 minutes ago Description :OpenClaw versions 2026.6.6 before 2026.6.9 contain an authorization bypass vulnerability in Discord...",
+      "summary": "CVE ID :CVE-2026-62192 Published : July 13, 2026, 10:16 p.m. | 6 hours, 14 minutes ago Description :OpenClaw versions 2026.6.6 before 2026.6.9 contain an authorization bypass vulnerability in Discord...",
       "source": "CVE Feed",
       "published": "2026-07-13T22:16:50+00:00"
     },
     {
       "title": "CVE-2026-62190 - OpenClaw < 2026.6.9 Authorization Bypass via flock wrapper",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-62190",
-      "summary": "CVE ID :CVE-2026-62190 Published : July 13, 2026, 10:16 p.m. | 2 hours, 14 minutes ago Description :OpenClaw versions before 2026.6.9 contain an authorization bypass vulnerability in the flock...",
+      "summary": "CVE ID :CVE-2026-62190 Published : July 13, 2026, 10:16 p.m. | 6 hours, 14 minutes ago Description :OpenClaw versions before 2026.6.9 contain an authorization bypass vulnerability in the flock...",
       "source": "CVE Feed",
       "published": "2026-07-13T22:16:50+00:00"
     },
     {
       "title": "CVE-2026-62188 - OpenClaw < 2026.6.9 Feishu Authorization Bypass",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-62188",
-      "summary": "CVE ID :CVE-2026-62188 Published : July 13, 2026, 10:16 p.m. | 2 hours, 14 minutes ago Description :OpenClaw @openclaw/feishu versions 2026.6.6 and earlier contain an incorrect authorization...",
+      "summary": "CVE ID :CVE-2026-62188 Published : July 13, 2026, 10:16 p.m. | 6 hours, 14 minutes ago Description :OpenClaw @openclaw/feishu versions 2026.6.6 and earlier contain an incorrect authorization...",
       "source": "CVE Feed",
       "published": "2026-07-13T22:16:49+00:00"
     },
     {
       "title": "CVE-2026-62187 - OpenClaw < 2026.6.9 Feishu tools Authorization Bypass",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-62187",
-      "summary": "CVE ID :CVE-2026-62187 Published : July 13, 2026, 10:16 p.m. | 2 hours, 14 minutes ago Description :OpenClaw Feishu tools (npm package @openclaw/feishu) in versions Severity: 8.1 | HIGH Visit the...",
+      "summary": "CVE ID :CVE-2026-62187 Published : July 13, 2026, 10:16 p.m. | 6 hours, 14 minutes ago Description :OpenClaw Feishu tools (npm package @openclaw/feishu) in versions Severity: 8.1 | HIGH Visit the...",
       "source": "CVE Feed",
       "published": "2026-07-13T22:16:49+00:00"
     },
     {
       "title": "CVE-2026-59801 - 9Router 0.4.41 - Unauthenticated API Exposure via /api/providers",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-59801",
-      "summary": "CVE ID :CVE-2026-59801 Published : July 13, 2026, 10:16 p.m. | 2 hours, 14 minutes ago Description :9Router through version 0.4.41 contains an unauthenticated access vulnerability that allows remote...",
+      "summary": "CVE ID :CVE-2026-59801 Published : July 13, 2026, 10:16 p.m. | 6 hours, 14 minutes ago Description :9Router through version 0.4.41 contains an unauthenticated access vulnerability that allows remote...",
       "source": "CVE Feed",
       "published": "2026-07-13T22:16:48+00:00"
     },
     {
       "title": "CVE-2026-58500 - MCP Appium: Unescaped Locator Data XSS in MCP-UI Resource (createLocatorGeneratorUI)",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-58500",
-      "summary": "CVE ID :CVE-2026-58500 Published : July 13, 2026, 10:16 p.m. | 2 hours, 14 minutes ago Description :MCP Appium is an MCP server that provides AI assistants with tools to automate mobile app testing...",
+      "summary": "CVE ID :CVE-2026-58500 Published : July 13, 2026, 10:16 p.m. | 6 hours, 14 minutes ago Description :MCP Appium is an MCP server that provides AI assistants with tools to automate mobile app testing...",
       "source": "CVE Feed",
       "published": "2026-07-13T22:16:48+00:00"
     },
@@ -137,23 +179,16 @@
     {
       "title": "CVE-2026-58409 - ChurchCRM: Authenticated Remote Code Execution (RCE) via Malicious Plugin Upload",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-58409",
-      "summary": "CVE ID :CVE-2026-58409 Published : July 13, 2026, 9:16 p.m. | 3 hours, 14 minutes ago Description :ChurchCRM is an open-source church management system. Prior to version 7.4.0, an authenticated...",
+      "summary": "CVE ID :CVE-2026-58409 Published : July 13, 2026, 9:16 p.m. | 7 hours, 14 minutes ago Description :ChurchCRM is an open-source church management system. Prior to version 7.4.0, an authenticated...",
       "source": "CVE Feed",
       "published": "2026-07-13T21:16:48+00:00"
     },
     {
       "title": "CVE-2026-48364 - ColdFusion | Uncontrolled Search Path Element (CWE-427)",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-48364",
-      "summary": "CVE ID :CVE-2026-48364 Published : July 13, 2026, 9:16 p.m. | 3 hours, 14 minutes ago Description :ColdFusion versions 2025.9, 2023.20 and earlier are affected by an Uncontrolled Search Path Element...",
+      "summary": "CVE ID :CVE-2026-48364 Published : July 13, 2026, 9:16 p.m. | 7 hours, 14 minutes ago Description :ColdFusion versions 2025.9, 2023.20 and earlier are affected by an Uncontrolled Search Path Element...",
       "source": "CVE Feed",
       "published": "2026-07-13T21:16:48+00:00"
-    },
-    {
-      "title": "CVE-2026-48363 - ColdFusion | Uncontrolled Search Path Element (CWE-427)",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48363",
-      "summary": "CVE ID :CVE-2026-48363 Published : July 13, 2026, 9:16 p.m. | 3 hours, 14 minutes ago Description :ColdFusion versions 2025.9, 2023.20 and earlier are affected by an Uncontrolled Search Path Element...",
-      "source": "CVE Feed",
-      "published": "2026-07-13T21:16:47+00:00"
     },
     {
       "title": "EU leaders eye social media ban for children under age 13",
@@ -170,46 +205,11 @@
       "published": "2026-07-13T20:18:59+00:00"
     },
     {
-      "title": "CVE-2026-55773 - CedarJava has a policy injection vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55773",
-      "summary": "CVE ID :CVE-2026-55773 Published : July 13, 2026, 8:16 p.m. | 4 hours, 14 minutes ago Description :CedarJava is an open source Java implementation of the Cedar policy language, used for fine-grained...",
-      "source": "CVE Feed",
-      "published": "2026-07-13T20:16:48+00:00"
-    },
-    {
-      "title": "CVE-2026-55771 - CedarJava has policy injection, type confusion, and incorrect equality comparison vulnerabilities",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55771",
-      "summary": "CVE ID :CVE-2026-55771 Published : July 13, 2026, 8:16 p.m. | 4 hours, 14 minutes ago Description :CedarJava is an open source Java implementation of the Cedar policy language, used for fine-grained...",
-      "source": "CVE Feed",
-      "published": "2026-07-13T20:16:48+00:00"
-    },
-    {
       "title": "Hackers backdoor Jscrambler npm package with infostealer malware",
       "link": "https://www.bleepingcomputer.com/news/security/hackers-backdoor-jscrambler-npm-package-with-infostealer-malware/",
       "summary": "The Jscrambler client-side web security company disclosed that a threat actor published a malicious version of its npm package that has been downloaded almost 1,500 times. [...]",
       "source": "BleepingComputer",
       "published": "2026-07-13T19:44:19+00:00"
-    },
-    {
-      "title": "CVE-2026-6875 - Sandbox Escape in ServiceNow AI Platform",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-6875",
-      "summary": "CVE ID :CVE-2026-6875 Published : July 13, 2026, 7:17 p.m. | 5 hours, 13 minutes ago Description :ServiceNow has addressed a remote code execution vulnerability that was identified in the ServiceNow...",
-      "source": "CVE Feed",
-      "published": "2026-07-13T19:17:36+00:00"
-    },
-    {
-      "title": "CVE-2026-55772 - CedarJava has a type confusion vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55772",
-      "summary": "CVE ID :CVE-2026-55772 Published : July 13, 2026, 7:17 p.m. | 5 hours, 13 minutes ago Description :CedarJava is an open source Java implementation of the Cedar policy language, used for fine-grained...",
-      "source": "CVE Feed",
-      "published": "2026-07-13T19:17:15+00:00"
-    },
-    {
-      "title": "CVE-2026-49972 - Laravel-Mediable < 7.0.0 File Upload RCE via Extension Bypass",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-49972",
-      "summary": "CVE ID :CVE-2026-49972 Published : July 13, 2026, 7:17 p.m. | 5 hours, 13 minutes ago Description :Laravel-Mediable before 7.0.0 contains a file upload vulnerability that allows unauthenticated...",
-      "source": "CVE Feed",
-      "published": "2026-07-13T19:17:10+00:00"
     },
     {
       "title": "New CrashStealer malware poses as Apple crash reporting tool",
