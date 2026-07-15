@@ -1,6 +1,139 @@
 {
-  "last_updated": "2026-07-15T15:18:47.046512+00:00",
+  "last_updated": "2026-07-15T17:06:20.457495+00:00",
   "articles": [
+    {
+      "title": "CVE-2026-62685 - File Browser: Colliding username normalization gives two users the same home directory",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-62685",
+      "summary": "CVE ID :CVE-2026-62685 Published : July 15, 2026, 4:16 p.m. | 14 minutes ago Description :File Browser is a file managing interface for uploading, deleting, previewing, renaming, and editing files...",
+      "source": "CVE Feed",
+      "published": "2026-07-15T16:16:51+00:00"
+    },
+    {
+      "title": "CVE-2026-61828 - nixos/mysql : `services.mysql` is configured with insecure authentication by default when used with `mysql` or `percona-server`",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-61828",
+      "summary": "CVE ID :CVE-2026-61828 Published : July 15, 2026, 4:16 p.m. | 14 minutes ago Description :Nixpkgs is a collection of software packages that can be installed with the Nix package manager. Prior to the...",
+      "source": "CVE Feed",
+      "published": "2026-07-15T16:16:50+00:00"
+    },
+    {
+      "title": "CVE-2026-60005 - NGINX ngx_http_slice_module vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-60005",
+      "summary": "CVE ID :CVE-2026-60005 Published : July 15, 2026, 4:16 p.m. | 14 minutes ago Description :NGINX Plus and NGINX Open Source have a vulnerability in the ngx_http_slice_module module. When the slice...",
+      "source": "CVE Feed",
+      "published": "2026-07-15T16:16:49+00:00"
+    },
+    {
+      "title": "CVE-2026-55242 - ERPNext: Server-Side Template Injection (SSTI) in Batch autonaming via Stock Settings.naming_series_prefix",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55242",
+      "summary": "CVE ID :CVE-2026-55242 Published : July 15, 2026, 4:16 p.m. | 14 minutes ago Description :ERPNext is a free and open source Enterprise Resource Planning tool. Prior to 15.111.0 and 16.22.0, an...",
+      "source": "CVE Feed",
+      "published": "2026-07-15T16:16:48+00:00"
+    },
+    {
+      "title": "CVE-2026-50148 - Metabase: Remote Code Execution via Snowflake JDBC Driver Arbitrary File Write",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-50148",
+      "summary": "CVE ID :CVE-2026-50148 Published : July 15, 2026, 4:16 p.m. | 14 minutes ago Description :Metabase is an open-source business intelligence and embedded analytics tool. From 1.54.0 until 1.54.24...",
+      "source": "CVE Feed",
+      "published": "2026-07-15T16:16:47+00:00"
+    },
+    {
+      "title": "CVE-2026-47158 - Vaultwarden: CSRF in SSO Authorization Flow",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-47158",
+      "summary": "CVE ID :CVE-2026-47158 Published : July 15, 2026, 4:16 p.m. | 14 minutes ago Description :Vaultwarden is a Bitwarden-compatible server written in Rust. Prior to 1.36.0, Vaultwarden's SSO...",
+      "source": "CVE Feed",
+      "published": "2026-07-15T16:16:46+00:00"
+    },
+    {
+      "title": "CVE-2026-45805 - Penpot: MCP REPL server binds to 0.0.0.0 with unauthenticated /execute endpoint — RCE",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-45805",
+      "summary": "CVE ID :CVE-2026-45805 Published : July 15, 2026, 4:16 p.m. | 14 minutes ago Description :Penpot is an open-source design tool for design and code collaboration. Prior to 2.15.0, Penpot MCP's...",
+      "source": "CVE Feed",
+      "published": "2026-07-15T16:16:45+00:00"
+    },
+    {
+      "title": "CVE-2026-44986 - Penpot: Pre-authenticated account takeover via team-invitation token + prepare-register-profile",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-44986",
+      "summary": "CVE ID :CVE-2026-44986 Published : July 15, 2026, 4:16 p.m. | 14 minutes ago Description :Penpot is an open-source design tool for design and code collaboration. Prior to 2.14.5, Penpot exposed...",
+      "source": "CVE Feed",
+      "published": "2026-07-15T16:16:45+00:00"
+    },
+    {
+      "title": "​ ​AsyncAPI npm packages infected with credential-stealing malware",
+      "link": "https://www.bleepingcomputer.com/news/security/-asyncapi-npm-packages-infected-with-credential-stealing-malware/",
+      "summary": "Five malicious versions of AsyncAPI packages were published to the Node Package Manager (npm) in a supply-chain attack that delivered a remote access trojan with info-stealing capabilities. [...]",
+      "source": "BleepingComputer",
+      "published": "2026-07-15T15:37:27+00:00"
+    },
+    {
+      "title": "OkoBot Malware Framework Injects Seed Phrase Phishing Into Ledger and Trezor Apps",
+      "link": "https://thehackernews.com/2026/07/okobot-malware-framework-injects-seed.html",
+      "summary": "A malware framework called OkoBot has been running on Windows machines since April 2025, and one of its modules is built to con hardware wallet owners out of their recovery phrase. On an infected PC...",
+      "source": "The Hacker News",
+      "published": "2026-07-15T15:30:30+00:00"
+    },
+    {
+      "title": "Claude Flaw Automatically Sends Malicious Prompts to AI Agents",
+      "link": "https://www.darkreading.com/vulnerabilities-threats/claude-flaw-malicious-prompts-ai-agents",
+      "summary": "When combined with another exploit, the \"PromptFiction\" vulnerability, which has been fixed, could have enabled an end-to-end attack on a targeted system.",
+      "source": "Dark Reading",
+      "published": "2026-07-15T15:27:35+00:00"
+    },
+    {
+      "title": "CVE-2026-61836 - Directus: Authorization-dependent response served from unsegmented cache key",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-61836",
+      "summary": "CVE ID :CVE-2026-61836 Published : July 15, 2026, 3:16 p.m. | 1 hour, 14 minutes ago Description :Directus is a real-time API and App dashboard for managing SQL database content. Prior to 12.0.0...",
+      "source": "CVE Feed",
+      "published": "2026-07-15T15:16:48+00:00"
+    },
+    {
+      "title": "CVE-2026-61740 - LightRAG: Authentication bypass: hardcoded DEFAULT_TOKEN_SECRET and public /auth-status defeat LIGHTRAG_API_KEY protection",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-61740",
+      "summary": "CVE ID :CVE-2026-61740 Published : July 15, 2026, 3:16 p.m. | 1 hour, 14 minutes ago Description :LightRAG provides simple and fast retrieval-augmented generation. Prior to 1.5.4, when LightRAG is...",
+      "source": "CVE Feed",
+      "published": "2026-07-15T15:16:48+00:00"
+    },
+    {
+      "title": "CVE-2026-61736 - LightRAG: CORS Wildcard + Credentials Enables Any-Origin Credentialed Requests",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-61736",
+      "summary": "CVE ID :CVE-2026-61736 Published : July 15, 2026, 3:16 p.m. | 1 hour, 14 minutes ago Description :LightRAG provides simple and fast retrieval-augmented generation. Prior to 1.5.4, the server defaults...",
+      "source": "CVE Feed",
+      "published": "2026-07-15T15:16:48+00:00"
+    },
+    {
+      "title": "CVE-2026-61684 - FastGPT: Unauthenticated cross-tenant data access via forgeable plugin-invoke JWT (default INVOKE_TOKEN_SECRET='token')",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-61684",
+      "summary": "CVE ID :CVE-2026-61684 Published : July 15, 2026, 3:16 p.m. | 1 hour, 14 minutes ago Description :FastGPT is a knowledge-based AI application platform. In 4.15.0-beta4, FastGPT plugin invoke...",
+      "source": "CVE Feed",
+      "published": "2026-07-15T15:16:48+00:00"
+    },
+    {
+      "title": "CVE-2026-59762 - BIG-IP HTTP/2 vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-59762",
+      "summary": "CVE ID :CVE-2026-59762 Published : July 15, 2026, 3:16 p.m. | 1 hour, 14 minutes ago Description :When an HTTP/2 profile is configured on a virtual server, undisclosed requests can cause an increase...",
+      "source": "CVE Feed",
+      "published": "2026-07-15T15:16:46+00:00"
+    },
+    {
+      "title": "CVE-2026-56434 - NGINX ngx_http_ssi_module vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56434",
+      "summary": "CVE ID :CVE-2026-56434 Published : July 15, 2026, 3:16 p.m. | 1 hour, 14 minutes ago Description :NGINX Plus and NGINX Open Source have a vulnerability in the ngx_http_ssi_module module. This...",
+      "source": "CVE Feed",
+      "published": "2026-07-15T15:16:45+00:00"
+    },
+    {
+      "title": "CVE-2026-55723 - NGINX Ingress Controller vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55723",
+      "summary": "CVE ID :CVE-2026-55723 Published : July 15, 2026, 3:16 p.m. | 1 hour, 14 minutes ago Description :When NGINX Ingress Controller is configured with Custom Resource Definitions (CRDs) or Ingress...",
+      "source": "CVE Feed",
+      "published": "2026-07-15T15:16:45+00:00"
+    },
+    {
+      "title": "CVE-2026-42533 - NGINX Map directive and Regex matching vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-42533",
+      "summary": "CVE ID :CVE-2026-42533 Published : July 15, 2026, 3:16 p.m. | 1 hour, 15 minutes ago Description :A vulnerability exists in NGINX Plus and NGINX Open Source when a map directive uses regex matching...",
+      "source": "CVE Feed",
+      "published": "2026-07-15T15:16:33+00:00"
+    },
     {
       "title": "Unpatched Cursor Vulnerability Exposes Users to Code Execution",
       "link": "https://www.securityweek.com/unpatched-cursor-vulnerability-exposes-users-to-code-execution/",
@@ -11,7 +144,7 @@
     {
       "title": "CVE-2026-43637 - Cornac < 2.6.0 Path Traversal via _extract_archive() in download.py",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-43637",
-      "summary": "CVE ID :CVE-2026-43637 Published : July 15, 2026, 2:18 p.m. | 30 minutes ago Description :Cornac before 2.6.0 contains a path traversal (Tar Slip) vulnerability that allows attackers to write...",
+      "summary": "CVE ID :CVE-2026-43637 Published : July 15, 2026, 2:18 p.m. | 2 hours, 13 minutes ago Description :Cornac before 2.6.0 contains a path traversal (Tar Slip) vulnerability that allows attackers to...",
       "source": "CVE Feed",
       "published": "2026-07-15T14:18:10+00:00"
     },
@@ -74,114 +207,58 @@
     {
       "title": "CVE-2026-61873 - Grav before 9.1.8 Arbitrary File Write via Twig-Processed Filename",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-61873",
-      "summary": "CVE ID :CVE-2026-61873 Published : July 15, 2026, 12:18 p.m. | 2 hours, 30 minutes ago Description :Grav before 9.1.8 contains an arbitrary file write vulnerability in the Form plugin's...",
+      "summary": "CVE ID :CVE-2026-61873 Published : July 15, 2026, 12:18 p.m. | 4 hours, 13 minutes ago Description :Grav before 9.1.8 contains an arbitrary file write vulnerability in the Form plugin's...",
       "source": "CVE Feed",
       "published": "2026-07-15T12:18:22+00:00"
     },
     {
       "title": "CVE-2026-61457 - Grav before 1.0.3 Remote Code Execution via File Upload Extension Bypass",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-61457",
-      "summary": "CVE ID :CVE-2026-61457 Published : July 15, 2026, 12:18 p.m. | 2 hours, 30 minutes ago Description :The Grav API plugin (getgrav/grav-plugin-api) before 1.0.3 contains a file upload extension bypass...",
+      "summary": "CVE ID :CVE-2026-61457 Published : July 15, 2026, 12:18 p.m. | 4 hours, 13 minutes ago Description :The Grav API plugin (getgrav/grav-plugin-api) before 1.0.3 contains a file upload extension bypass...",
       "source": "CVE Feed",
       "published": "2026-07-15T12:18:20+00:00"
     },
     {
       "title": "CVE-2026-61451 - Grav before 1.0.4 Password Reset Token Poisoning via admin_base_url",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-61451",
-      "summary": "CVE ID :CVE-2026-61451 Published : July 15, 2026, 12:18 p.m. | 2 hours, 30 minutes ago Description :The Grav API plugin (grav-plugin-api) before 1.0.4 does not validate the origin of the...",
+      "summary": "CVE ID :CVE-2026-61451 Published : July 15, 2026, 12:18 p.m. | 4 hours, 13 minutes ago Description :The Grav API plugin (grav-plugin-api) before 1.0.4 does not validate the origin of the...",
       "source": "CVE Feed",
       "published": "2026-07-15T12:18:19+00:00"
     },
     {
       "title": "CVE-2026-61446 - PraisonAI before 1.6.78 Remote Code Execution via Plugin Auto-Discovery",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-61446",
-      "summary": "CVE ID :CVE-2026-61446 Published : July 15, 2026, 12:18 p.m. | 2 hours, 30 minutes ago Description :PraisonAI (praisonaiagents) before 1.6.78 contains a remote code execution vulnerability in the...",
+      "summary": "CVE ID :CVE-2026-61446 Published : July 15, 2026, 12:18 p.m. | 4 hours, 13 minutes ago Description :PraisonAI (praisonaiagents) before 1.6.78 contains a remote code execution vulnerability in the...",
       "source": "CVE Feed",
       "published": "2026-07-15T12:18:19+00:00"
     },
     {
       "title": "CVE-2026-61443 - PraisonAI before 1.6.78 Remote Code Execution via SkillTools",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-61443",
-      "summary": "CVE ID :CVE-2026-61443 Published : July 15, 2026, 12:18 p.m. | 2 hours, 30 minutes ago Description :PraisonAI before 1.6.78 contains a remote code execution vulnerability in...",
+      "summary": "CVE ID :CVE-2026-61443 Published : July 15, 2026, 12:18 p.m. | 4 hours, 13 minutes ago Description :PraisonAI before 1.6.78 contains a remote code execution vulnerability in...",
       "source": "CVE Feed",
       "published": "2026-07-15T12:18:19+00:00"
     },
     {
       "title": "CVE-2026-61436 - PraisonAI before 4.6.78 Missing Webhook Signature Verification",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-61436",
-      "summary": "CVE ID :CVE-2026-61436 Published : July 15, 2026, 12:18 p.m. | 2 hours, 30 minutes ago Description :PraisonAI before 4.6.78 fails to verify Svix webhook signatures in AgentMail webhook mode, allowing...",
+      "summary": "CVE ID :CVE-2026-61436 Published : July 15, 2026, 12:18 p.m. | 4 hours, 13 minutes ago Description :PraisonAI before 4.6.78 fails to verify Svix webhook signatures in AgentMail webhook mode, allowing...",
       "source": "CVE Feed",
       "published": "2026-07-15T12:18:18+00:00"
     },
     {
       "title": "CVE-2026-61435 - PraisonAI before 4.6.78 Authentication Bypass via Host Header Spoofing",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-61435",
-      "summary": "CVE ID :CVE-2026-61435 Published : July 15, 2026, 12:18 p.m. | 2 hours, 30 minutes ago Description :PraisonAI before 4.6.78 contains an authentication bypass in the Call API agent invocation...",
+      "summary": "CVE ID :CVE-2026-61435 Published : July 15, 2026, 12:18 p.m. | 4 hours, 13 minutes ago Description :PraisonAI before 4.6.78 contains an authentication bypass in the Call API agent invocation...",
       "source": "CVE Feed",
       "published": "2026-07-15T12:18:18+00:00"
     },
     {
       "title": "CVE-2026-61433 - PraisonAI before 4.6.78 Code Injection via API deployment generator",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-61433",
-      "summary": "CVE ID :CVE-2026-61433 Published : July 15, 2026, 12:18 p.m. | 2 hours, 30 minutes ago Description :PraisonAI before 4.6.78 fails to safely encode deployment configuration values when generating...",
+      "summary": "CVE ID :CVE-2026-61433 Published : July 15, 2026, 12:18 p.m. | 4 hours, 13 minutes ago Description :PraisonAI before 4.6.78 fails to safely encode deployment configuration values when generating...",
       "source": "CVE Feed",
       "published": "2026-07-15T12:18:18+00:00"
-    },
-    {
-      "title": "CVE-2026-61430 - PraisonAI before 1.6.78 DNS Rebinding SSRF via web_crawl",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-61430",
-      "summary": "CVE ID :CVE-2026-61430 Published : July 15, 2026, 12:18 p.m. | 2 hours, 30 minutes ago Description :PraisonAI before 1.6.78 contains a server-side request forgery vulnerability in the web_crawl tool...",
-      "source": "CVE Feed",
-      "published": "2026-07-15T12:18:18+00:00"
-    },
-    {
-      "title": "CVE-2026-60085 - PraisonAI before 4.6.78 Unenforced Security Policy in Subprocess Sandbox",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-60085",
-      "summary": "CVE ID :CVE-2026-60085 Published : July 15, 2026, 12:18 p.m. | 2 hours, 30 minutes ago Description :PraisonAI before 4.6.78 contains an unenforced security policy vulnerability in the default...",
-      "source": "CVE Feed",
-      "published": "2026-07-15T12:18:17+00:00"
-    },
-    {
-      "title": "CVE-2026-58655 - Grav Flex Objects - Server-Side Template Injection via Dynamic Titles",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-58655",
-      "summary": "CVE ID :CVE-2026-58655 Published : July 15, 2026, 12:18 p.m. | 2 hours, 30 minutes ago Description :The bundled Grav Flex Objects plugin (getgrav/grav-plugin-flex-objects) before 1.4.0 contains a...",
-      "source": "CVE Feed",
-      "published": "2026-07-15T12:18:17+00:00"
-    },
-    {
-      "title": "CVE-2026-57996 - phpMyFAQ - Privilege Escalation via Missing SuperAdmin Guard in user/add Endpoint",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-57996",
-      "summary": "CVE ID :CVE-2026-57996 Published : July 15, 2026, 12:18 p.m. | 2 hours, 30 minutes ago Description :phpMyFAQ before 4.1.5 contains a privilege escalation vulnerability in the user/add API endpoint...",
-      "source": "CVE Feed",
-      "published": "2026-07-15T12:18:16+00:00"
-    },
-    {
-      "title": "CVE-2026-56699 - Wazuh Manager - NDJSON Injection in inventory_sync via Agent-Controlled DataValue.index",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56699",
-      "summary": "CVE ID :CVE-2026-56699 Published : July 15, 2026, 12:18 p.m. | 2 hours, 30 minutes ago Description :Wazuh Manager before 5.0.0-beta3 fails to escape the DataValue.index field when constructing...",
-      "source": "CVE Feed",
-      "published": "2026-07-15T12:18:15+00:00"
-    },
-    {
-      "title": "CVE-2026-56400 - open-webui - Remote Code Execution via CORS Misconfiguration and Session Validation",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56400",
-      "summary": "CVE ID :CVE-2026-56400 Published : July 15, 2026, 12:18 p.m. | 2 hours, 30 minutes ago Description :open-webui before 0.3.14 contains a cross-origin resource sharing misconfiguration allowing...",
-      "source": "CVE Feed",
-      "published": "2026-07-15T12:18:03+00:00"
-    },
-    {
-      "title": "CVE-2026-56398 - Open WebUI - Stored Cross-Site Scripting via OAuth Picture Claim SVG Data URI",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56398",
-      "summary": "CVE ID :CVE-2026-56398 Published : July 15, 2026, 12:18 p.m. | 2 hours, 30 minutes ago Description :Open WebUI before 0.9.5 contains a stored cross-site scripting vulnerability in the OAuth...",
-      "source": "CVE Feed",
-      "published": "2026-07-15T12:18:02+00:00"
-    },
-    {
-      "title": "CVE-2026-56339 - Capgo - Unauthenticated Organization Existence Enumeration via rescind_invitation RPC",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56339",
-      "summary": "CVE ID :CVE-2026-56339 Published : July 15, 2026, 12:18 p.m. | 2 hours, 30 minutes ago Description :Capgo (Cap-go/capgo) before 12.128.2 contains an information disclosure vulnerability in the...",
-      "source": "CVE Feed",
-      "published": "2026-07-15T12:18:02+00:00"
     },
     {
       "title": "Microsoft smashes Patch Tuesday record for second successive month",
@@ -203,13 +280,6 @@
       "summary": "For years, routing traffic through cloud proxies was good enough. Then work moved to the browser, AI entered the workflow, and the inspection model stopped keeping up. Enterprise workflows now live...",
       "source": "The Hacker News",
       "published": "2026-07-15T11:50:01+00:00"
-    },
-    {
-      "title": "CVE-2026-59235 - Missing authorization in Prospero Flow CRM allows low-privileged users to read all bank accounts",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-59235",
-      "summary": "CVE ID :CVE-2026-59235 Published : July 15, 2026, 11:16 a.m. | 3 hours, 32 minutes ago Description :Missing Authorization (CWE-862) in BankAccountListController...",
-      "source": "CVE Feed",
-      "published": "2026-07-15T11:16:33+00:00"
     },
     {
       "title": "Researcher Drops New Windows Zero-Day PoC Hours After Microsoft Patch Tuesday",
@@ -254,27 +324,6 @@
       "published": "2026-07-15T10:18:25+00:00"
     },
     {
-      "title": "CVE-2026-58077 - Joomla Extension - weeblr.com - Unauthenticated stored XSS in 4Analytics < 5.0.2",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-58077",
-      "summary": "CVE ID :CVE-2026-58077 Published : July 15, 2026, 10:16 a.m. | 4 hours, 32 minutes ago Description :The Joomla extension 4Analytics is vulnerable to an unauthenticated stored XSS. A specially crafted...",
-      "source": "CVE Feed",
-      "published": "2026-07-15T10:16:47+00:00"
-    },
-    {
-      "title": "CVE-2026-57833 - Joomla Extension - weeblr.com - Unauthenticated stored XSS in 4Analytics < 5.0.2",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-57833",
-      "summary": "CVE ID :CVE-2026-57833 Published : July 15, 2026, 10:16 a.m. | 4 hours, 32 minutes ago Description :The Joomla extension 4Analytics is vulnerable to an unauthenticated stored XSS in relation to the...",
-      "source": "CVE Feed",
-      "published": "2026-07-15T10:16:47+00:00"
-    },
-    {
-      "title": "CVE-2026-57821 - Apache Fineract: Office list: SQL Injection via Subquery in orderBy",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-57821",
-      "summary": "CVE ID :CVE-2026-57821 Published : July 15, 2026, 10:16 a.m. | 4 hours, 32 minutes ago Description :A SQL Injection vulnerability exists in Apache Fineract's Office Search API (GET /api/v1/offices)...",
-      "source": "CVE Feed",
-      "published": "2026-07-15T10:16:47+00:00"
-    },
-    {
       "title": "Progress Confirms Zero-Day Vulnerability Behind ShareFile Disruption",
       "link": "https://www.securityweek.com/progress-confirms-zero-day-vulnerability-behind-sharefile-disruption/",
       "summary": "The company has rolled out a fix and is restoring access for Storage Zones Controller customers who apply it. The post Progress Confirms Zero-Day Vulnerability Behind ShareFile Disruption appeared...",
@@ -317,20 +366,6 @@
       "published": "2026-07-15T09:19:58+00:00"
     },
     {
-      "title": "CVE-2026-57832 - Joomla Extension - joomdonation.com - Unauthenticated blind SQL injection in EDocman < 3.9",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-57832",
-      "summary": "CVE ID :CVE-2026-57832 Published : July 15, 2026, 9:16 a.m. | 5 hours, 32 minutes ago Description :The Joomla extension EDocman is vulnerable to an unauthenticated SQL injection. Severity: 8.7 | HIGH...",
-      "source": "CVE Feed",
-      "published": "2026-07-15T09:16:33+00:00"
-    },
-    {
-      "title": "CVE-2026-57831 - Joomla Extension - digital-peak.com - Unauthenticated blind SQL injection in DP Calendar 8.18.0 - 10.11.2",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-57831",
-      "summary": "CVE ID :CVE-2026-57831 Published : July 15, 2026, 9:16 a.m. | 5 hours, 32 minutes ago Description :The Joomla extension DP Calendar is vulnerable to an unauthenticated SQL injection. Severity: 8.7 |...",
-      "source": "CVE Feed",
-      "published": "2026-07-15T09:16:33+00:00"
-    },
-    {
       "title": "Compromised AsyncAPI npm Packages Deliver Multi-Stage Botnet Malware",
       "link": "https://thehackernews.com/2026/07/compromised-asyncapi-npm-packages.html",
       "summary": "Four compromised npm packages in the @asyncapi namespace have been observed distributing a multi-stage botnet loader, according to findings from OX Security, SafeDep, Socket, and StepSecurity. The...",
@@ -350,20 +385,6 @@
       "summary": "Microsoft is blocking this month's Windows 11 security updates on some Dell devices because they are causing shutdowns and performance issues. [...]",
       "source": "BleepingComputer",
       "published": "2026-07-15T08:26:48+00:00"
-    },
-    {
-      "title": "CVE-2026-15804 - MetaGuru｜HCM - SQL Injection",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-15804",
-      "summary": "CVE ID :CVE-2026-15804 Published : July 15, 2026, 8:16 a.m. | 6 hours, 32 minutes ago Description :The HCM developed by MetaGuru has a SQL Injection vulnerability. Authenticated remote attackers can...",
-      "source": "CVE Feed",
-      "published": "2026-07-15T08:16:23+00:00"
-    },
-    {
-      "title": "CVE-2026-15583 - SSRF (confused deputy) in Grafana MCP Server via X-Grafana-URL header",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-15583",
-      "summary": "CVE ID :CVE-2026-15583 Published : July 15, 2026, 8:16 a.m. | 6 hours, 32 minutes ago Description :A confused-deputy flaw in Grafana MCP Server allows an unauthenticated remote attacker to exfiltrate...",
-      "source": "CVE Feed",
-      "published": "2026-07-15T08:16:22+00:00"
     },
     {
       "title": "Nigeria Deepens Cybersecurity Efforts as Cybercriminals See More Profits",
@@ -623,13 +644,6 @@
       "summary": "Microsoft has announced that passkeys will become the default authentication method for the Entra ID enterprise identity service starting September 2026. [...]",
       "source": "BleepingComputer",
       "published": "2026-07-14T12:49:56+00:00"
-    },
-    {
-      "title": "New phishing kits target Microsoft 365 accounts, evade MFA",
-      "link": "https://www.bleepingcomputer.com/news/security/new-phishing-kits-target-microsoft-365-accounts-evade-mfa/",
-      "summary": "Two new phishing kits, Jalisco and OmegaLord, have been discovered in attacks targeting Microsoft 365 accounts, using techniques that defeat multi-factor authentication (MFA). [...]",
-      "source": "BleepingComputer",
-      "published": "2026-07-14T12:49:00+00:00"
     },
     {
       "title": "11 Old Microsoft-Signed Linux UEFI Shims Could Let Attackers Bypass Secure Boot",
@@ -1017,13 +1031,6 @@
       "published": "2026-07-09T13:01:00+00:00"
     },
     {
-      "title": "AI Attacks Move in Minutes. Join This Webinar on Building a Defense That Keeps Up",
-      "link": "https://thehackernews.com/2026/07/ai-attacks-move-in-minutes-join-this.html",
-      "summary": "AI has changed how fast attacks move. Work that once took an attacker days now takes minutes. Using models like Mythos, attackers write tailored bait, pick targets, test what lands, and jump to the...",
-      "source": "The Hacker News",
-      "published": "2026-07-09T12:26:58+00:00"
-    },
-    {
       "title": "'GodDamn' Ransomware Uses BYOVD to Smite US Companies",
       "link": "https://www.darkreading.com/cyberattacks-data-breaches/goddamn-ransomware-byovd-smite-companies",
       "summary": "Microsoft signed a malicious kernel driver, and now it's being used to kill security software in ransomware attacks.",
@@ -1218,13 +1225,6 @@
       "summary": "Threat actors don't need any special authentication to reach a target endpoint — they just need to know where it is.",
       "source": "Dark Reading",
       "published": "2026-06-30T21:01:58+00:00"
-    },
-    {
-      "title": "Why Identity Security Is Your Cyber Career Entry Point",
-      "link": "https://www.darkreading.com/cybersecurity-operations/identity-security-cyber-career-entry-point",
-      "summary": "In this \"Heard it From a CISO\" video, Silverfort CISO John Paul Cunningham explains that AI in cybersecurity workflows is creating opportunities rather than eliminating jobs — and there are more ways...",
-      "source": "Dark Reading",
-      "published": "2026-06-30T19:11:40+00:00"
     },
     {
       "title": "Scattered Spider Hackers Plead Guilty on Day 1 of Trial",
