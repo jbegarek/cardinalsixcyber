@@ -1,80 +1,178 @@
 {
-  "last_updated": "2026-07-16T18:56:50.209876+00:00",
+  "last_updated": "2026-07-16T20:46:31.473382+00:00",
   "articles": [
+    {
+      "title": "CVE-2026-15352 - NASA Core Flight System (cFS) Health & Safety (HS) Application NULL Pointer Dereference",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-15352",
+      "summary": "CVE ID :CVE-2026-15352 Published : July 16, 2026, 7:48 p.m. | 34 minutes ago Description :A vulnerability exists in the Health & Safety (HS) application of NASA's Core Flight System (cFS). The flaw...",
+      "source": "CVE Feed",
+      "published": "2026-07-16T19:48:43+00:00"
+    },
+    {
+      "title": "1M+ Emails Use Hidden Text to Dupe AI Security Filters",
+      "link": "https://www.darkreading.com/threat-intelligence/1m-emails-hidden-text-dupe-ai-security-filters",
+      "summary": "Artificial intelligence and LLMs can be surprisingly ineffective against text salting, allowing phishing emails to slide right into your inbox.",
+      "source": "Dark Reading",
+      "published": "2026-07-16T19:41:31+00:00"
+    },
+    {
+      "title": "CVE-2026-15422 - SCTP needs to better-check INIT ACK chunk parameters",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-15422",
+      "summary": "CVE ID :CVE-2026-15422 Published : July 16, 2026, 7:29 p.m. | 54 minutes ago Description :The illumos SCTP inbound path performs association lookup for INIT ACK chunks without adequately validating...",
+      "source": "CVE Feed",
+      "published": "2026-07-16T19:29:13+00:00"
+    },
+    {
+      "title": "CVE-2026-63089 - WireGuard Easy Weak Token Generation Information Disclosure via OTL Route",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-63089",
+      "summary": "CVE ID :CVE-2026-63089 Published : July 16, 2026, 7:28 p.m. | 54 minutes ago Description :WireGuard Easy through 15.3.0, fixed in commit 66b292b, contains a cryptographically weak one-time link token...",
+      "source": "CVE Feed",
+      "published": "2026-07-16T19:28:37+00:00"
+    },
+    {
+      "title": "Claude Chrome extension flaw lets malicious extensions trigger AI actions",
+      "link": "https://www.bleepingcomputer.com/news/security/claude-chrome-extension-flaw-lets-malicious-extensions-trigger-ai-actions/",
+      "summary": "A flaw in Anthropic's Claude for Chrome browser extension could allow a malicious extension to trigger predefined AI actions by simulating user clicks, potentially allowing it to abuse Claude's...",
+      "source": "BleepingComputer",
+      "published": "2026-07-16T19:26:07+00:00"
+    },
+    {
+      "title": "CVE-2026-54526 - Argo Workflows: Incomplete fix for CVE-2026-31892: ArtifactGC.PodSpecPatch bypass of Strict/Secure templateReferencing",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54526",
+      "summary": "CVE ID :CVE-2026-54526 Published : July 16, 2026, 7:16 p.m. | 1 hour, 6 minutes ago Description :Argo Workflows is an open source container-native workflow engine for orchestrating parallel jobs on...",
+      "source": "CVE Feed",
+      "published": "2026-07-16T19:16:50+00:00"
+    },
+    {
+      "title": "CVE-2026-46515 - Frogman: Multiple read-tier tools expose admin-grade data and arbitrary GraphQL execution",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-46515",
+      "summary": "CVE ID :CVE-2026-46515 Published : July 16, 2026, 7:16 p.m. | 1 hour, 6 minutes ago Description :Frogman provides headless PBX control through MCP and HTTP API. Prior to 1.6.3, PERM_READ access was...",
+      "source": "CVE Feed",
+      "published": "2026-07-16T19:16:46+00:00"
+    },
+    {
+      "title": "CVE-2026-46512 - Frogman: Dialplan template parameters interpolated into extensions_custom.conf without escaping",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-46512",
+      "summary": "CVE ID :CVE-2026-46512 Published : July 16, 2026, 7:16 p.m. | 1 hour, 6 minutes ago Description :Frogman provides headless PBX control through MCP and HTTP API. Prior to 1.6.2, fm_dialplan_apply...",
+      "source": "CVE Feed",
+      "published": "2026-07-16T19:16:46+00:00"
+    },
+    {
+      "title": "CVE-2026-46353 - BigBlueButton API checksum bypass via presentationUploadExternalUrl",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-46353",
+      "summary": "CVE ID :CVE-2026-46353 Published : July 16, 2026, 7:16 p.m. | 1 hour, 6 minutes ago Description :BigBlueButton is an open-source virtual classroom. Prior to 3.0.21, bbb-web checksum validation could...",
+      "source": "CVE Feed",
+      "published": "2026-07-16T19:16:46+00:00"
+    },
+    {
+      "title": "CVE-2026-46351 - BigBlueButton: Insecure Randomness allows to guess user's conference session token and impersonate them",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-46351",
+      "summary": "CVE ID :CVE-2026-46351 Published : July 16, 2026, 7:16 p.m. | 1 hour, 6 minutes ago Description :BigBlueButton is an open-source virtual classroom. Prior to 3.0.21, bbb-web generated conference...",
+      "source": "CVE Feed",
+      "published": "2026-07-16T19:16:45+00:00"
+    },
+    {
+      "title": "New OkoBot framework deploys 20 payloads to steal data, crypto",
+      "link": "https://www.bleepingcomputer.com/news/security/new-okobot-framework-deploys-20-payloads-to-steal-data-crypto/",
+      "summary": "A new malicious framework called OkoBot is delivering more than 20 payloads in attacks focused on stealing cryptocurrency wallet seed phrases, credentials, and other sensitive data. [...]",
+      "source": "BleepingComputer",
+      "published": "2026-07-16T19:09:35+00:00"
+    },
+    {
+      "title": "CVE-2026-46686 - Emlog Reflected Cross-Site Scripting",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-46686",
+      "summary": "CVE ID :CVE-2026-46686 Published : July 16, 2026, 6:16 p.m. | 2 hours, 6 minutes ago Description :Emlog is an open source website building system. In 2.6.13 and earlier, the admin backend user search...",
+      "source": "CVE Feed",
+      "published": "2026-07-16T18:16:44+00:00"
+    },
+    {
+      "title": "CVE-2026-45336 - HireFlow: Use of Hard-coded Credentials",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-45336",
+      "summary": "CVE ID :CVE-2026-45336 Published : July 16, 2026, 6:16 p.m. | 2 hours, 6 minutes ago Description :HireFlow is a web-based interview management system for managing candidates, scheduling interviews...",
+      "source": "CVE Feed",
+      "published": "2026-07-16T18:16:43+00:00"
+    },
+    {
+      "title": "CVE-2021-27137 - DD-WRT UPnP Buffer Overflow",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2021-27137",
+      "summary": "CVE ID :CVE-2021-27137 Published : July 16, 2026, 6:16 p.m. | 2 hours, 6 minutes ago Description :An issue was discovered in router/upnp/src/ssdp.c in DD-WRT before 45724. An unsafe strcpy in the...",
+      "source": "CVE Feed",
+      "published": "2026-07-16T18:16:39+00:00"
+    },
     {
       "title": "CVE-2026-63088 - stoatchat < 0.14.0 SSRF via DNS-based IP Blocklist Bypass",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-63088",
-      "summary": "CVE ID :CVE-2026-63088 Published : July 16, 2026, 5:16 p.m. | 1 hour, 5 minutes ago Description :stoatchat before 0.14.0 contains a server-side request forgery (SSRF) vulnerability that allows...",
+      "summary": "CVE ID :CVE-2026-63088 Published : July 16, 2026, 5:16 p.m. | 3 hours, 6 minutes ago Description :stoatchat before 0.14.0 contains a server-side request forgery (SSRF) vulnerability that allows...",
       "source": "CVE Feed",
       "published": "2026-07-16T17:16:58+00:00"
     },
     {
       "title": "CVE-2026-63087 - Grafana OnCall 1.16.11 Unauthenticated Token Hijack via Plugin Install Endpoint",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-63087",
-      "summary": "CVE ID :CVE-2026-63087 Published : July 16, 2026, 5:16 p.m. | 1 hour, 5 minutes ago Description :Grafana OnCall through 1.16.11 contains an unauthenticated access vulnerability that allows remote...",
+      "summary": "CVE ID :CVE-2026-63087 Published : July 16, 2026, 5:16 p.m. | 3 hours, 6 minutes ago Description :Grafana OnCall through 1.16.11 contains an unauthenticated access vulnerability that allows remote...",
       "source": "CVE Feed",
       "published": "2026-07-16T17:16:58+00:00"
     },
     {
       "title": "CVE-2026-63086 - text-generation-inference 3.3.7 SSRF via fetch_image in multimodal chat completions",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-63086",
-      "summary": "CVE ID :CVE-2026-63086 Published : July 16, 2026, 5:16 p.m. | 1 hour, 5 minutes ago Description :text-generation-inference through 3.3.7 contains a server-side request forgery (SSRF) vulnerability in...",
+      "summary": "CVE ID :CVE-2026-63086 Published : July 16, 2026, 5:16 p.m. | 3 hours, 6 minutes ago Description :text-generation-inference through 3.3.7 contains a server-side request forgery (SSRF) vulnerability...",
       "source": "CVE Feed",
       "published": "2026-07-16T17:16:58+00:00"
     },
     {
       "title": "CVE-2026-63085 - Axelor Open Platform 8.x < 8.2.2 Authorization Bypass via Nested Relational Record Persistence",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-63085",
-      "summary": "CVE ID :CVE-2026-63085 Published : July 16, 2026, 5:16 p.m. | 1 hour, 5 minutes ago Description :Axelor Open Platform versions 8.x prior to 8.2.2 contains an authorization bypass vulnerability that...",
+      "summary": "CVE ID :CVE-2026-63085 Published : July 16, 2026, 5:16 p.m. | 3 hours, 6 minutes ago Description :Axelor Open Platform versions 8.x prior to 8.2.2 contains an authorization bypass vulnerability that...",
       "source": "CVE Feed",
       "published": "2026-07-16T17:16:58+00:00"
     },
     {
       "title": "CVE-2026-46621 - Yamcs: Authenticated Remote Code Execution (RCE) via Jython Algorithm Code Injection",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-46621",
-      "summary": "CVE ID :CVE-2026-46621 Published : July 16, 2026, 5:16 p.m. | 1 hour, 5 minutes ago Description :Yamcs is a mission control framework. Prior to 5.12.7, the Yamcs script evaluation engine for Python...",
+      "summary": "CVE ID :CVE-2026-46621 Published : July 16, 2026, 5:16 p.m. | 3 hours, 6 minutes ago Description :Yamcs is a mission control framework. Prior to 5.12.7, the Yamcs script evaluation engine for Python...",
       "source": "CVE Feed",
       "published": "2026-07-16T17:16:57+00:00"
     },
     {
       "title": "CVE-2026-46562 - Yamcs: Remote Code Execution via Mission Database algorithm override",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-46562",
-      "summary": "CVE ID :CVE-2026-46562 Published : July 16, 2026, 5:16 p.m. | 1 hour, 5 minutes ago Description :Yamcs is a mission control framework. Prior to 5.12.7, the Nashorn ScriptEngine used to evaluate...",
+      "summary": "CVE ID :CVE-2026-46562 Published : July 16, 2026, 5:16 p.m. | 3 hours, 6 minutes ago Description :Yamcs is a mission control framework. Prior to 5.12.7, the Nashorn ScriptEngine used to evaluate...",
       "source": "CVE Feed",
       "published": "2026-07-16T17:16:56+00:00"
     },
     {
       "title": "CVE-2026-45576 - zrok copy writes attacker-controlled WebDAV paths outside the destination root",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-45576",
-      "summary": "CVE ID :CVE-2026-45576 Published : July 16, 2026, 5:16 p.m. | 1 hour, 5 minutes ago Description :zrok is software for sharing web services, files, and network resources. From 0.4.23 until 2.0.3...",
+      "summary": "CVE ID :CVE-2026-45576 Published : July 16, 2026, 5:16 p.m. | 3 hours, 6 minutes ago Description :zrok is software for sharing web services, files, and network resources. From 0.4.23 until 2.0.3...",
       "source": "CVE Feed",
       "published": "2026-07-16T17:16:56+00:00"
     },
     {
       "title": "CVE-2026-45568 - zrok Python ProxyShare can be used as an SSRF proxy through absolute URL paths",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-45568",
-      "summary": "CVE ID :CVE-2026-45568 Published : July 16, 2026, 5:16 p.m. | 1 hour, 5 minutes ago Description :zrok is software for sharing web services, files, and network resources. Prior to 2.0.3, zrok's Python...",
+      "summary": "CVE ID :CVE-2026-45568 Published : July 16, 2026, 5:16 p.m. | 3 hours, 6 minutes ago Description :zrok is software for sharing web services, files, and network resources. Prior to 2.0.3, zrok's...",
       "source": "CVE Feed",
       "published": "2026-07-16T17:16:56+00:00"
     },
     {
       "title": "CVE-2026-45325 - Gestor de Oferta: Prototype pollution in @tmlmobilidade/utils setValueAtPath",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-45325",
-      "summary": "CVE ID :CVE-2026-45325 Published : July 16, 2026, 5:16 p.m. | 1 hour, 5 minutes ago Description :Gestor de Oferta is a web application for managing mobility service offerings. Prior to...",
+      "summary": "CVE ID :CVE-2026-45325 Published : July 16, 2026, 5:16 p.m. | 3 hours, 6 minutes ago Description :Gestor de Oferta is a web application for managing mobility service offerings. Prior to...",
       "source": "CVE Feed",
       "published": "2026-07-16T17:16:56+00:00"
     },
     {
       "title": "CVE-2026-44632 - Yamcs: Server-Side Code Injection (RCE) via Janino Expression Engine in `JavaExprAlgorithmExecutionFactory`",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-44632",
-      "summary": "CVE ID :CVE-2026-44632 Published : July 16, 2026, 5:16 p.m. | 1 hour, 5 minutes ago Description :Yamcs is a mission control framework. Prior to 5.12.7, a server-side code injection vulnerability...",
+      "summary": "CVE ID :CVE-2026-44632 Published : July 16, 2026, 5:16 p.m. | 3 hours, 6 minutes ago Description :Yamcs is a mission control framework. Prior to 5.12.7, a server-side code injection vulnerability...",
       "source": "CVE Feed",
       "published": "2026-07-16T17:16:56+00:00"
     },
     {
       "title": "CVE-2026-14371 - Lenovo XClarity Integrator for Windows Admin Center PowerShell Command Injection Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-14371",
-      "summary": "CVE ID :CVE-2026-14371 Published : July 16, 2026, 5:16 p.m. | 1 hour, 5 minutes ago Description :The Lenovo XClarity Integrator for Windows Admin Center plugin version 5.1.1 and below running on the...",
+      "summary": "CVE ID :CVE-2026-14371 Published : July 16, 2026, 5:16 p.m. | 3 hours, 6 minutes ago Description :The Lenovo XClarity Integrator for Windows Admin Center plugin version 5.1.1 and below running on the...",
       "source": "CVE Feed",
       "published": "2026-07-16T17:16:55+00:00"
     },
@@ -88,51 +186,23 @@
     {
       "title": "CVE-2026-59866 - Kiota: Arbitrary file write + code-injection via x-ms-kiota-info clientClassName and clientNamespaceName",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-59866",
-      "summary": "CVE ID :CVE-2026-59866 Published : July 16, 2026, 4:19 p.m. | 2 hours, 3 minutes ago Description :Kiota is an OpenAPI based HTTP Client code generator. Prior to 1.32.5, Kiota emitted x-ms-kiota-info...",
+      "summary": "CVE ID :CVE-2026-59866 Published : July 16, 2026, 4:19 p.m. | 4 hours, 4 minutes ago Description :Kiota is an OpenAPI based HTTP Client code generator. Prior to 1.32.5, Kiota emitted x-ms-kiota-info...",
       "source": "CVE Feed",
       "published": "2026-07-16T16:19:15+00:00"
     },
     {
       "title": "CVE-2026-59865 - Kiota: Command injection via x-ms-kiota-info dependencyInstallCommand surfaced by `kiota info`",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-59865",
-      "summary": "CVE ID :CVE-2026-59865 Published : July 16, 2026, 4:19 p.m. | 2 hours, 3 minutes ago Description :Kiota is an OpenAPI based HTTP Client code generator. Prior to 1.32.5, `kiota info` read...",
+      "summary": "CVE ID :CVE-2026-59865 Published : July 16, 2026, 4:19 p.m. | 4 hours, 4 minutes ago Description :Kiota is an OpenAPI based HTTP Client code generator. Prior to 1.32.5, `kiota info` read...",
       "source": "CVE Feed",
       "published": "2026-07-16T16:19:15+00:00"
     },
     {
       "title": "CVE-2026-59864 - Kiota: Path/URL injection into generated Copilot plugin manifest via x-ai-* extensions",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-59864",
-      "summary": "CVE ID :CVE-2026-59864 Published : July 16, 2026, 4:19 p.m. | 2 hours, 3 minutes ago Description :Kiota is an OpenAPI based HTTP Client code generator. Prior to 1.32.5, `kiota plugin add` and `kiota...",
+      "summary": "CVE ID :CVE-2026-59864 Published : July 16, 2026, 4:19 p.m. | 4 hours, 4 minutes ago Description :Kiota is an OpenAPI based HTTP Client code generator. Prior to 1.32.5, `kiota plugin add` and `kiota...",
       "source": "CVE Feed",
       "published": "2026-07-16T16:19:15+00:00"
-    },
-    {
-      "title": "CVE-2026-57206 - SimpleChat plugin validation endpoints missing authentication and authorization",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-57206",
-      "summary": "CVE ID :CVE-2026-57206 Published : July 16, 2026, 4:19 p.m. | 2 hours, 3 minutes ago Description :SimpleChat is a secure AI conversation application with personal and group workspaces for...",
-      "source": "CVE Feed",
-      "published": "2026-07-16T16:19:14+00:00"
-    },
-    {
-      "title": "CVE-2026-54733 - moodle-local_o365: Authentication bypass via unverified JWT signature in Teams SSO endpoint",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54733",
-      "summary": "CVE ID :CVE-2026-54733 Published : July 16, 2026, 4:19 p.m. | 2 hours, 3 minutes ago Description :The Microsoft 365 and Microsoft Entra ID Plugins for Moodle provide Office 365 and Azure Active...",
-      "source": "CVE Feed",
-      "published": "2026-07-16T16:19:13+00:00"
-    },
-    {
-      "title": "CVE-2026-53597 - Prompty: Arbitrary code execution via JavaScript frontmatter in TypeScript loader",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-53597",
-      "summary": "CVE ID :CVE-2026-53597 Published : July 16, 2026, 4:19 p.m. | 2 hours, 3 minutes ago Description :Prompty is a markdown file format (.prompty) for LLM prompts. From 2.0.0-alpha.1 until 2.0.0-beta.3...",
-      "source": "CVE Feed",
-      "published": "2026-07-16T16:19:12+00:00"
-    },
-    {
-      "title": "CVE-2026-45695 - Kopia: Unauthenticated RCE via SSH ProxyCommand Injection when --insecure --without-password is used",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-45695",
-      "summary": "CVE ID :CVE-2026-45695 Published : July 16, 2026, 4:19 p.m. | 2 hours, 3 minutes ago Description :Kopia is a cross-platform backup tool for Windows, macOS, and Linux with fast incremental backups...",
-      "source": "CVE Feed",
-      "published": "2026-07-16T16:19:08+00:00"
     },
     {
       "title": "UK investigates TikTok for alleged age-verification lapses, exposing kids to online harms",
@@ -140,6 +210,13 @@
       "summary": "“Age checks are a cornerstone of the UK’s online safety laws,” said Ofcom’s Chief Executive, Melanie Dawes. “Too many services have no or inadequate age checks in place, which is not good enough.”",
       "source": "The Record",
       "published": "2026-07-16T16:15:00+00:00"
+    },
+    {
+      "title": "CISA Expands KEV Catalog Again adds Zeroday Vulnerabilities",
+      "link": "https://thecyberthrone.in/2026/07/16/cisa-expands-kev-catalog-again-adds-zeroday-vulnerabilities/",
+      "summary": "CISA Expands KEV Catalog Again adds Zeroday Vulnerabilities The pace of additions to the Cybersecurity and Infrastructure Security Agency (CISA) Known Exploited Vulnerabilities (KEV) Catalog...",
+      "source": "CVE Newsroom",
+      "published": "2026-07-16T16:08:04+00:00"
     },
     {
       "title": "Ukrainians rally against dismissal of tech-minded defense minister Fedorov",
@@ -156,27 +233,6 @@
       "published": "2026-07-16T15:41:15+00:00"
     },
     {
-      "title": "CVE-2026-59860 - Kiota: XML Doc-Comment Newline Breakout Code Injection",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-59860",
-      "summary": "CVE ID :CVE-2026-59860 Published : July 16, 2026, 3:16 p.m. | 3 hours, 6 minutes ago Description :Kiota is an OpenAPI based HTTP Client code generator. Prior to 1.32.3, Kiota is affected by a...",
-      "source": "CVE Feed",
-      "published": "2026-07-16T15:16:35+00:00"
-    },
-    {
-      "title": "CVE-2026-59859 - Kiota: Code Generation Literal Injection in the PHP Generator",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-59859",
-      "summary": "CVE ID :CVE-2026-59859 Published : July 16, 2026, 3:16 p.m. | 3 hours, 6 minutes ago Description :Kiota is an OpenAPI based HTTP Client code generator. Prior to 1.32.4, Kiota's PHP generator embedded...",
-      "source": "CVE Feed",
-      "published": "2026-07-16T15:16:35+00:00"
-    },
-    {
-      "title": "CVE-2026-14254 - Improper Restriction of Excessive Authentication Attempts in Delphix Continuous Data",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-14254",
-      "summary": "CVE ID :CVE-2026-14254 Published : July 16, 2026, 3:16 p.m. | 3 hours, 6 minutes ago Description :A race condition in the account lockout mechanism in Delphix Continous Data allowed the lockout...",
-      "source": "CVE Feed",
-      "published": "2026-07-16T15:16:30+00:00"
-    },
-    {
       "title": "Legacy Systems, Real-World Impacts: The Reality of OT Security",
       "link": "https://www.securityweek.com/legacy-systems-real-world-impacts-the-reality-of-ot-security/",
       "summary": "Legacy systems, safety concerns, and critical infrastructure risks make OT vulnerability disclosure one of cybersecurity's most challenging balancing acts. The post Legacy Systems, Real-World...",
@@ -189,13 +245,6 @@
       "summary": "'Gehackte SonicWall-gateways gebruikt als backdoor tot bedrijfsnetwerken' Aanvallers gebruiken gehackte SonicWall-gateways als backdoor tot bedrijfsnetwerken, zo stelt cybersecuritybedrijf Rapid7 in...",
       "source": "CVE Newsroom",
       "published": "2026-07-16T14:39:19+00:00"
-    },
-    {
-      "title": "CVE-2026-5674 - Pipewire: pipewire: sandbox escape and arbitrary code execution via malicious library loading",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-5674",
-      "summary": "CVE ID :CVE-2026-5674 Published : July 16, 2026, 2:16 p.m. | 4 hours, 5 minutes ago Description :A flaw was found in PipeWire, a multimedia server. This vulnerability allows an attacker to escape...",
-      "source": "CVE Feed",
-      "published": "2026-07-16T14:16:56+00:00"
     },
     {
       "title": "AI Agents Broke the Security Playbook. Here's What Replaces It.",
@@ -231,27 +280,6 @@
       "summary": "Thalha Jubair and Owen Flowers were prosecuted over a 2024 cyberattack targeting Transport for London (TfL). The post Two Scattered Spider Hackers Sentenced to Jail in UK appeared first on...",
       "source": "SecurityWeek",
       "published": "2026-07-16T13:21:12+00:00"
-    },
-    {
-      "title": "CVE-2026-63306 - stoatchat before 0.13.5 Unauthenticated SSRF via proxy and embed endpoints",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-63306",
-      "summary": "CVE ID :CVE-2026-63306 Published : July 16, 2026, 1:16 p.m. | 5 hours, 6 minutes ago Description :stoatchat before 0.13.5 contains an unauthenticated server-side request forgery vulnerability in the...",
-      "source": "CVE Feed",
-      "published": "2026-07-16T13:16:33+00:00"
-    },
-    {
-      "title": "CVE-2026-63305 - AVideo through 29.0 OS Command Injection via ffmpeg.json.php",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-63305",
-      "summary": "CVE ID :CVE-2026-63305 Published : July 16, 2026, 1:16 p.m. | 5 hours, 6 minutes ago Description :AVideo through 29.0 contains an OS command injection vulnerability in the ffmpeg.json.php endpoint...",
-      "source": "CVE Feed",
-      "published": "2026-07-16T13:16:33+00:00"
-    },
-    {
-      "title": "CVE-2026-63304 - AVideo through 29.0 OS Command Injection via listFFmpegProcesses",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-63304",
-      "summary": "CVE ID :CVE-2026-63304 Published : July 16, 2026, 1:16 p.m. | 5 hours, 6 minutes ago Description :AVideo through 29.0 contains an OS command injection vulnerability in...",
-      "source": "CVE Feed",
-      "published": "2026-07-16T13:16:33+00:00"
     },
     {
       "title": "AI Data Centers Are Being Built Faster Than They Can Be Secured",
@@ -625,13 +653,6 @@
       "published": "2026-07-15T08:57:29+00:00"
     },
     {
-      "title": "Microsoft: Some Dell PCs shut down after recent Windows updates",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-some-dell-devices-shut-down-after-windows-update/",
-      "summary": "Microsoft is blocking this month's Windows 11 security updates on some Dell devices because they are causing shutdowns and performance issues. [...]",
-      "source": "BleepingComputer",
-      "published": "2026-07-15T08:26:48+00:00"
-    },
-    {
       "title": "Nigeria Deepens Cybersecurity Efforts as Cybercriminals See More Profits",
       "link": "https://www.darkreading.com/cyber-risk/nigeria-cybersecurity-efforts-cybercriminals-profits",
       "summary": "The West African country advanced rules to force organizations to disclose cyberattacks, joining other nations in a shift to mandated transparency.",
@@ -644,13 +665,6 @@
       "summary": "Microsoft komt met grootste Patch Tuesday ooit: 622 kwetsbaarheden gefixt Microsoft heeft gisteren tijdens Patch Tuesday het grootste aantal kwetsbaarheden ooit verholpen, namelijk 622. Het...",
       "source": "CVE Newsroom",
       "published": "2026-07-15T07:57:15+00:00"
-    },
-    {
-      "title": "US charges alleged operators of Russian bulletproof hosting service",
-      "link": "https://www.bleepingcomputer.com/news/security/us-charges-alleged-russian-bulletproof-hosting-service-operators/",
-      "summary": "U.S. federal prosecutors have unsealed charges against three Russian nationals, accusing them of providing bulletproof hosting (BPH) services to ransomware gangs that caused over $62 million in...",
-      "source": "BleepingComputer",
-      "published": "2026-07-15T07:45:50+00:00"
     },
     {
       "title": "SonicWall waarschuwt voor actief misbruik van lekken in SMA1000-gateway",
@@ -1218,13 +1232,6 @@
       "summary": "Researchers say the highly effective social engineering technique is no longer the exception for malware attacks — it's now the rule.",
       "source": "Dark Reading",
       "published": "2026-07-01T19:46:34+00:00"
-    },
-    {
-      "title": "When Too Much Security Data Becomes the Risk",
-      "link": "https://www.darkreading.com/cyber-risk/too-much-security-data-risk",
-      "summary": "Rapid growth turned routine firewall logs into a security and budget liability. One CISO used artificial intelligence to filter what data truly belongs in the SIEM.",
-      "source": "Dark Reading",
-      "published": "2026-07-01T15:44:41+00:00"
     },
     {
       "title": "Scattered Spider Hackers Plead Guilty on Day 1 of Trial",
