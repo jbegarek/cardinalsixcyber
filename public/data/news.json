@@ -1,6 +1,202 @@
 {
-  "last_updated": "2026-07-17T18:53:48.178520+00:00",
+  "last_updated": "2026-07-17T20:43:17.775430+00:00",
   "articles": [
+    {
+      "title": "OpenSSL HollowByte Flaw Could Freeze Server Memory with 11-Byte TLS Requests",
+      "link": "https://thehackernews.com/2026/07/openssl-hollowbyte-flaw-could-freeze.html",
+      "summary": "Eleven bytes will make an unpatched OpenSSL server set aside up to 131 KB of memory for a message that never arrives. On the glibc systems Okta tested, that memory is gone until the process restarts...",
+      "source": "The Hacker News",
+      "published": "2026-07-17T20:20:53+00:00"
+    },
+    {
+      "title": "CVE-2026-8859 - Path Traversal in APIRequest Component via Content-Disposition Header",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-8859",
+      "summary": "CVE ID :CVE-2026-8859 Published : July 17, 2026, 8:17 p.m. | 22 minutes ago Description :IBM Langflow OSS 1.0.0 through 1.10.0 Langflow could allow an attacker to write arbitrary files to unintended...",
+      "source": "CVE Feed",
+      "published": "2026-07-17T20:17:31+00:00"
+    },
+    {
+      "title": "CVE-2026-8635 - Arbitrary Code Execution in Python Interpreter Component",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-8635",
+      "summary": "CVE ID :CVE-2026-8635 Published : July 17, 2026, 8:17 p.m. | 22 minutes ago Description :IBM Langflow OSS 1.0.0 through 1.10.0 allows authenticated users to escalate privileges to superuser by...",
+      "source": "CVE Feed",
+      "published": "2026-07-17T20:17:31+00:00"
+    },
+    {
+      "title": "CVE-2026-8505 - Authentication Bypass in Webhook Endpoints Allowed Unauthorized Flow Execution",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-8505",
+      "summary": "CVE ID :CVE-2026-8505 Published : July 17, 2026, 8:17 p.m. | 22 minutes ago Description :IBM Langflow OSS 1.0.0 through 1.10.0 has a vulnerability in Langflow's webhook authentication logic allows...",
+      "source": "CVE Feed",
+      "published": "2026-07-17T20:17:31+00:00"
+    },
+    {
+      "title": "CVE-2026-8481 - Remote Code Execution via Code Validation Endpoint",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-8481",
+      "summary": "CVE ID :CVE-2026-8481 Published : July 17, 2026, 8:17 p.m. | 22 minutes ago Description :IBM Langflow OSS 1.0.0 through 1.10.0 contain a critical remote code execution vulnerability in the code...",
+      "source": "CVE Feed",
+      "published": "2026-07-17T20:17:30+00:00"
+    },
+    {
+      "title": "CVE-2026-8476 - Disk Cache Deserialization Remote Code Execution Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-8476",
+      "summary": "CVE ID :CVE-2026-8476 Published : July 17, 2026, 8:17 p.m. | 22 minutes ago Description :IBM Langflow OSS 1.0.0 through 1.10.0 contain a critical remote code execution vulnerability in the disk-based...",
+      "source": "CVE Feed",
+      "published": "2026-07-17T20:17:30+00:00"
+    },
+    {
+      "title": "CVE-2026-8056 - Parameter Injection Vulnerability in API Graph Execution Engine",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-8056",
+      "summary": "CVE ID :CVE-2026-8056 Published : July 17, 2026, 8:17 p.m. | 22 minutes ago Description :IBM Langflow OSS 1.0.0 through 1.10.0 allows authenticated users to override component parameters at runtime...",
+      "source": "CVE Feed",
+      "published": "2026-07-17T20:17:30+00:00"
+    },
+    {
+      "title": "CVE-2026-7755 - MCP Server Configuration Validator Bypass via File Upload API",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-7755",
+      "summary": "CVE ID :CVE-2026-7755 Published : July 17, 2026, 8:17 p.m. | 22 minutes ago Description :IBM Langflow OSS 1.0.0 through 1.10.0 Langflow could allow remote code execution due to incomplete validation...",
+      "source": "CVE Feed",
+      "published": "2026-07-17T20:17:30+00:00"
+    },
+    {
+      "title": "CVE-2026-7667 - Path Traversal Vulnerability in API Request Component Content-Disposition Header Processing",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-7667",
+      "summary": "CVE ID :CVE-2026-7667 Published : July 17, 2026, 8:17 p.m. | 22 minutes ago Description :IBM Langflow OSS 1.0.0 through 1.10.0 allows an authenticated attacker to create a malicious flow pointing to...",
+      "source": "CVE Feed",
+      "published": "2026-07-17T20:17:29+00:00"
+    },
+    {
+      "title": "CVE-2026-60137 - WordPress < 7.0.2 - Facilitated SQL Injection via author__not_in in WP_Query",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-60137",
+      "summary": "CVE ID :CVE-2026-60137 Published : July 17, 2026, 8:17 p.m. | 22 minutes ago Description :WordPress 6.8.x before 6.8.6, 6.9.x before 6.9.5, and 7.0.x before 7.0.2 does not properly sanitise the...",
+      "source": "CVE Feed",
+      "published": "2026-07-17T20:17:27+00:00"
+    },
+    {
+      "title": "CVE-2026-50289 - systeminformation: OS command injection in networkInterfaces() via interfaces(5) source-directive path on Linux",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-50289",
+      "summary": "CVE ID :CVE-2026-50289 Published : July 17, 2026, 8:17 p.m. | 22 minutes ago Description :systeminformation is a System and OS information library for node.js. Prior to 5.31.7, networkInterfaces() on...",
+      "source": "CVE Feed",
+      "published": "2026-07-17T20:17:24+00:00"
+    },
+    {
+      "title": "CVE-2026-49852 - joserfc: HS256/HS384/HS512 verify accepts empty/nil HMAC key (cross-language sibling of CVE-2026-45363)",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-49852",
+      "summary": "CVE ID :CVE-2026-49852 Published : July 17, 2026, 8:17 p.m. | 22 minutes ago Description :joserfc is a Python library that provides an implementation of several JSON Object Signing and Encryption...",
+      "source": "CVE Feed",
+      "published": "2026-07-17T20:17:23+00:00"
+    },
+    {
+      "title": "CVE-2026-45260 - Pimcore: Missing Authorization in WebDAV MOVE via unchecked asset move handling",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-45260",
+      "summary": "CVE ID :CVE-2026-45260 Published : July 17, 2026, 8:17 p.m. | 22 minutes ago Description :Pimcore is an Open Source Data & Experience Management Platform. Prior to 11.5.17 (LTS) and 12.3.7, Pimcore's...",
+      "source": "CVE Feed",
+      "published": "2026-07-17T20:17:16+00:00"
+    },
+    {
+      "title": "CVE-2026-44739 - Pimcore: SQL Injection in Custom Reports Column Configuration",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-44739",
+      "summary": "CVE ID :CVE-2026-44739 Published : July 17, 2026, 8:17 p.m. | 22 minutes ago Description :Pimcore is an Open Source Data & Experience Management Platform. Prior to 11.5.17 (LTS) and 12.3.6, the...",
+      "source": "CVE Feed",
+      "published": "2026-07-17T20:17:16+00:00"
+    },
+    {
+      "title": "CVE-2026-15091 - Multiple Vulnerabilities in IBM Engineering AI hub.",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-15091",
+      "summary": "CVE ID :CVE-2026-15091 Published : July 17, 2026, 8:17 p.m. | 22 minutes ago Description :IBM Engineering AI Hub 1.0.0, 1.1.0, and 1.2.0 could allow a remote attacker to execute arbitrary scripts due...",
+      "source": "CVE Feed",
+      "published": "2026-07-17T20:17:15+00:00"
+    },
+    {
+      "title": "CVE-2026-14499 - Langflow is affected by remote code execution, denial of service, path traversal, and exposed credentials due to multiple unauthenticated and insufficiently authorized API endpoints",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-14499",
+      "summary": "CVE ID :CVE-2026-14499 Published : July 17, 2026, 8:17 p.m. | 22 minutes ago Description :IBM Langflow OSS 1.0.0 through 1.10.1 Langflow could allow an authenticated user to execute arbitrary...",
+      "source": "CVE Feed",
+      "published": "2026-07-17T20:17:14+00:00"
+    },
+    {
+      "title": "CVE-2026-13473 - IBM Storage Protect Client is vulnerable to Heap-Based Buffer Overflow",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-13473",
+      "summary": "CVE ID :CVE-2026-13473 Published : July 17, 2026, 8:17 p.m. | 22 minutes ago Description :IBM Storage Protect Client 8.1.0.0 through 8.1.27.0, 8.1.27.1, and 8.2.0.0 through 8.2.1.0 IBM Storage...",
+      "source": "CVE Feed",
+      "published": "2026-07-17T20:17:14+00:00"
+    },
+    {
+      "title": "CVE-2026-13448 - Langflow is affected by remote code execution, denial of service, path traversal, and exposed credentials due to multiple unauthenticated and insufficiently authorized API endpoints",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-13448",
+      "summary": "CVE ID :CVE-2026-13448 Published : July 17, 2026, 8:17 p.m. | 22 minutes ago Description :IBM Langflow OSS 1.0.0 through 1.10.1 Lanflow OSS contains an unauthenticated remote code execution...",
+      "source": "CVE Feed",
+      "published": "2026-07-17T20:17:14+00:00"
+    },
+    {
+      "title": "Inc Ransomware Exploits SonicWall SMA Zero-Days",
+      "link": "https://www.darkreading.com/vulnerabilities-threats/inc-ransomware-exploits-sonicwall-sma-zero-days",
+      "summary": "When chained together, the two vulnerabilities allow threat actors to gain root-level capabilities on SonicWall's mobile access appliances.",
+      "source": "Dark Reading",
+      "published": "2026-07-17T20:01:13+00:00"
+    },
+    {
+      "title": "CVE-2026-9135 - Policies Component Dynamic CodeInput Fields Bypass Custom Component Validation",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-9135",
+      "summary": "CVE ID :CVE-2026-9135 Published : July 17, 2026, 7:17 p.m. | 1 hour, 22 minutes ago Description :IBM Langflow OSS 1.0.0 through 1.10.0 Langflow versions up to 1.9.2 (commit...",
+      "source": "CVE Feed",
+      "published": "2026-07-17T19:17:19+00:00"
+    },
+    {
+      "title": "CVE-2026-9103 - Unauthenticated Superuser Token Issuance via Auto-Login Endpoint",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-9103",
+      "summary": "CVE ID :CVE-2026-9103 Published : July 17, 2026, 7:17 p.m. | 1 hour, 22 minutes ago Description :IBM Langflow OSS 1.0.0 through 1.10.0 could allow a remote attacker to gain unauthorized access due to...",
+      "source": "CVE Feed",
+      "published": "2026-07-17T19:17:19+00:00"
+    },
+    {
+      "title": "CVE-2026-58195 - Agentic-Flow: OS Command Injection in agentic-flow MCP server tools via unsanitized tool-parameter interpolation into execSync",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-58195",
+      "summary": "CVE ID :CVE-2026-58195 Published : July 17, 2026, 7:17 p.m. | 1 hour, 22 minutes ago Description :Agentic-Flow is an AI agent orchestration platform. Prior to 2.0.14, agentic-flow MCP server tools in...",
+      "source": "CVE Feed",
+      "published": "2026-07-17T19:17:17+00:00"
+    },
+    {
+      "title": "CVE-2026-53712 - SCRAM: Silent channel-binding authentication downgrade via unsupported certificate algorithms",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-53712",
+      "summary": "CVE ID :CVE-2026-53712 Published : July 17, 2026, 7:17 p.m. | 1 hour, 22 minutes ago Description :SCRAM (Salted Challenge Response Authentication Mechanism) is part of the family of Simple...",
+      "source": "CVE Feed",
+      "published": "2026-07-17T19:17:16+00:00"
+    },
+    {
+      "title": "CVE-2026-45309 - AsyncSSH `AuthorizedKeysFile %u` path traversal allows attacker-selected authorized keys to authenticate a traversal username",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-45309",
+      "summary": "CVE ID :CVE-2026-45309 Published : July 17, 2026, 7:17 p.m. | 1 hour, 22 minutes ago Description :AsyncSSH is a Python package which provides an asynchronous client and server implementation of the...",
+      "source": "CVE Feed",
+      "published": "2026-07-17T19:17:14+00:00"
+    },
+    {
+      "title": "CVE-2026-45162 - Pimcore: Unsafe PHP Deserialization in Multiple Locations Without allowed_classes Restriction",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-45162",
+      "summary": "CVE ID :CVE-2026-45162 Published : July 17, 2026, 7:17 p.m. | 1 hour, 22 minutes ago Description :Pimcore is an Open Source Data & Experience Management Platform. Prior to 11.5.17 (LTS) and 12.3.7...",
+      "source": "CVE Feed",
+      "published": "2026-07-17T19:17:14+00:00"
+    },
+    {
+      "title": "Seven Malicious Vite npm Packages Use Blockchain C2 to Deliver a RAT",
+      "link": "https://thehackernews.com/2026/07/seven-malicious-vite-npm-packages-use.html",
+      "summary": "Cybersecurity researchers have discovered a cluster of seven malicious npm packages targeting the Vite frontend tooling ecosystem as part of a software supply chain attack. The malicious package...",
+      "source": "The Hacker News",
+      "published": "2026-07-17T18:54:51+00:00"
+    },
+    {
+      "title": "CVE-2026-9202 - Unauthenticated User Registration Could Lead to Remote Code Execution",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-9202",
+      "summary": "CVE ID :CVE-2026-9202 Published : July 17, 2026, 6:17 p.m. | 2 hours, 22 minutes ago Description :IBM Langflow OSS 1.0.0 through 1.10.0 allows unauthenticated attackers to create unlimited user...",
+      "source": "CVE Feed",
+      "published": "2026-07-17T18:17:17+00:00"
+    },
+    {
+      "title": "CVE-2026-9198 - Unauthenticated Remote Code Execution via Auto-Login Bypass and Code Validation",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-9198",
+      "summary": "CVE ID :CVE-2026-9198 Published : July 17, 2026, 6:17 p.m. | 2 hours, 22 minutes ago Description :IBM Langflow OSS 1.0.0 through 1.10.0 allows unauthenticated attackers to chain /api/v1/auto_login...",
+      "source": "CVE Feed",
+      "published": "2026-07-17T18:17:17+00:00"
+    },
     {
       "title": "HollowByte DDoS flaw bloats OpenSSL server memory with 11-byte payload",
       "link": "https://www.bleepingcomputer.com/news/security/hollowbyte-ddos-flaw-bloats-openssl-server-memory-with-11-byte-payload/",
@@ -9,87 +205,10 @@
       "published": "2026-07-17T17:56:21+00:00"
     },
     {
-      "title": "CVE-2026-9198 - Unauthenticated Remote Code Execution via Auto-Login Bypass and Code Validation",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-9198",
-      "summary": "CVE ID :CVE-2026-9198 Published : July 17, 2026, 5:36 p.m. | 51 minutes ago Description :IBM Langflow OSS 1.0.0 through 1.10.0 allows unauthenticated attackers to chain /api/v1/auto_login (mints...",
-      "source": "CVE Feed",
-      "published": "2026-07-17T17:36:11+00:00"
-    },
-    {
-      "title": "CVE-2026-9202 - Unauthenticated User Registration Could Lead to Remote Code Execution",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-9202",
-      "summary": "CVE ID :CVE-2026-9202 Published : July 17, 2026, 5:33 p.m. | 54 minutes ago Description :IBM Langflow OSS 1.0.0 through 1.10.0 allows unauthenticated attackers to create unlimited user accounts on...",
-      "source": "CVE Feed",
-      "published": "2026-07-17T17:33:20+00:00"
-    },
-    {
-      "title": "CVE-2026-9586 - Unauthenticated SQL Injection Leading to Remote Code Execution in Switchvox SMB",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-9586",
-      "summary": "CVE ID :CVE-2026-9586 Published : July 17, 2026, 5:17 p.m. | 1 hour, 10 minutes ago Description :An unauthenticated SQL injection vulnerability exists in Sangoma Switchvox SMB Edition 8.3 (104997)...",
-      "source": "CVE Feed",
-      "published": "2026-07-17T17:17:18+00:00"
-    },
-    {
-      "title": "CVE-2026-9585 - Unauthenticated Reflected Cross-Site Scripting (XSS) in Switchvox SMB Web Portal",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-9585",
-      "summary": "CVE ID :CVE-2026-9585 Published : July 17, 2026, 5:17 p.m. | 1 hour, 10 minutes ago Description :An unauthenticated reflected cross-site scripting (XSS) vulnerability exists in Sangoma Switchvox SMB...",
-      "source": "CVE Feed",
-      "published": "2026-07-17T17:17:17+00:00"
-    },
-    {
-      "title": "CVE-2026-8297 - SQLi in GIS Informatics' GisLab Laboratory Management System",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-8297",
-      "summary": "CVE ID :CVE-2026-8297 Published : July 17, 2026, 5:17 p.m. | 1 hour, 10 minutes ago Description :Improper neutralization of special elements used in an SQL command ('SQL injection') vulnerability in...",
-      "source": "CVE Feed",
-      "published": "2026-07-17T17:17:17+00:00"
-    },
-    {
-      "title": "CVE-2026-63101 - Open Event Server 1.19.1 Unauthenticated Member Roster Export via CSV Export Endpoint",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-63101",
-      "summary": "CVE ID :CVE-2026-63101 Published : July 17, 2026, 5:17 p.m. | 1 hour, 10 minutes ago Description :Open Event Server through 1.19.1 contains a missing authentication vulnerability that allows...",
-      "source": "CVE Feed",
-      "published": "2026-07-17T17:17:17+00:00"
-    },
-    {
-      "title": "CVE-2026-57860 - ForgeCode Arbitrary Code Execution via Unvetted .mcp.json in Untrusted Repository",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-57860",
-      "summary": "CVE ID :CVE-2026-57860 Published : July 17, 2026, 5:17 p.m. | 1 hour, 10 minutes ago Description :ForgeCode (tailcallhq/forgecode), an AI pair-programming CLI, automatically loads and executes the...",
-      "source": "CVE Feed",
-      "published": "2026-07-17T17:17:16+00:00"
-    },
-    {
-      "title": "CVE-2026-54496 - Missing copy constraint in halo2_gadgets variable-base scalar multiplication allows under-constrained base, breaking Orchard Action circuit soundness",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54496",
-      "summary": "CVE ID :CVE-2026-54496 Published : July 17, 2026, 5:17 p.m. | 1 hour, 10 minutes ago Description :ZEBRA is a Zcash node written entirely in Rust. Prior to zebrad 5.0.0, halo2_gadgets 0.5.0, orchard...",
-      "source": "CVE Feed",
-      "published": "2026-07-17T17:17:16+00:00"
-    },
-    {
-      "title": "CVE-2026-12694 - Missing Authorization in Vimesoft's Enterprise Video Platform",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-12694",
-      "summary": "CVE ID :CVE-2026-12694 Published : July 17, 2026, 5:17 p.m. | 1 hour, 10 minutes ago Description :Missing Authorization vulnerability in Vimesoft Inc. Enterprise Video Platform allows Accessing...",
-      "source": "CVE Feed",
-      "published": "2026-07-17T17:17:13+00:00"
-    },
-    {
-      "title": "CVE-2026-12693 - IDOR in Vimesoft's Enterprise Video Platform",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-12693",
-      "summary": "CVE ID :CVE-2026-12693 Published : July 17, 2026, 5:17 p.m. | 1 hour, 10 minutes ago Description :Authorization bypass through User-Controlled key vulnerability in Vimesoft Inc. Enterprise Video...",
-      "source": "CVE Feed",
-      "published": "2026-07-17T17:17:13+00:00"
-    },
-    {
-      "title": "CVE-2026-12692 - Improper Authentication in Vimesoft's Enterprise Video Platform",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-12692",
-      "summary": "CVE ID :CVE-2026-12692 Published : July 17, 2026, 5:17 p.m. | 1 hour, 10 minutes ago Description :Unverified password change vulnerability in Vimesoft Inc. Enterprise Video Platform allows...",
-      "source": "CVE Feed",
-      "published": "2026-07-17T17:17:13+00:00"
-    },
-    {
       "title": "New NadMesh Botnet Hunts Exposed AI Services for Cloud Keys and Kubernetes Tokens",
       "link": "https://thehackernews.com/2026/07/new-nadmesh-botnet-hunts-exposed-ai.html",
-      "summary": "New NadMesh Botnet Hunts Exposed AI Services for Cloud Keys and Kubernetes Tokens A Go botnet called NadMesh turned up in early July hunting exposed AI services, and the operator's own dashboard...",
-      "source": "CVE Newsroom",
+      "summary": "A Go botnet called NadMesh turned up in early July hunting exposed AI services, and the operator's own dashboard claims 3,811 unique AWS keys. A Shodan harvester keeps the scan queue stocked with...",
+      "source": "The Hacker News",
       "published": "2026-07-17T17:12:23+00:00"
     },
     {
@@ -107,41 +226,6 @@
       "published": "2026-07-17T16:39:16+00:00"
     },
     {
-      "title": "CVE-2026-58148 - Joomla Extension - chronoengine.com - Stored XSS in ChronoForms extension for Joomla < 8.0.53",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-58148",
-      "summary": "CVE ID :CVE-2026-58148 Published : July 17, 2026, 4:17 p.m. | 2 hours, 10 minutes ago Description :The Joomla extension ChronoForms is vulnerable to an unauthenticated stored XSS vulnerability...",
-      "source": "CVE Feed",
-      "published": "2026-07-17T16:17:15+00:00"
-    },
-    {
-      "title": "CVE-2026-15343 - Path traversal vulnerability in GitHub Enterprise Server allowed writing files to arbitrary repository paths, including GitHub Actions workflow files, via unchecked Dependabot dependency-file paths",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-15343",
-      "summary": "CVE ID :CVE-2026-15343 Published : July 17, 2026, 4:17 p.m. | 2 hours, 10 minutes ago Description :A path traversal vulnerability was identified in GitHub Enterprise Server that allowed an attacker...",
-      "source": "CVE Feed",
-      "published": "2026-07-17T16:17:13+00:00"
-    },
-    {
-      "title": "CVE-2026-12715 - Missing Authorization in Firebase Studio allows Cross-Tenant Source Code Theft",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-12715",
-      "summary": "CVE ID :CVE-2026-12715 Published : July 17, 2026, 4:17 p.m. | 2 hours, 10 minutes ago Description :Missing Authorization in Google Cloud Firebase Studio versions prior to 2026-04-15 on Google Cloud...",
-      "source": "CVE Feed",
-      "published": "2026-07-17T16:17:13+00:00"
-    },
-    {
-      "title": "CVE-2026-63094 - SigNoz 0.133.0 SSO OAuth State Manipulation Session Token Theft",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-63094",
-      "summary": "CVE ID :CVE-2026-63094 Published : July 17, 2026, 3:16 p.m. | 3 hours, 10 minutes ago Description :SigNoz through 0.133.0 contains an open redirect vulnerability in the SSO authentication flow that...",
-      "source": "CVE Feed",
-      "published": "2026-07-17T15:16:47+00:00"
-    },
-    {
-      "title": "CVE-2026-63093 - Cursor for Windows 3.2.16 RCE via Malicious git.exe in Workspace",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-63093",
-      "summary": "CVE ID :CVE-2026-63093 Published : July 17, 2026, 3:16 p.m. | 3 hours, 10 minutes ago Description :Cursor for Windows version 3.2.16 contains a binary planting vulnerability that allows remote...",
-      "source": "CVE Feed",
-      "published": "2026-07-17T15:16:47+00:00"
-    },
-    {
       "title": "Ernst & Young discloses data breach after support system hack",
       "link": "https://www.bleepingcomputer.com/news/security/ernst-and-young-discloses-data-breach-after-support-system-hack/",
       "summary": "Ernst & Young is notifying customers of a data breach caused by the compromise of a third-party support ticket system used by its IT personnel. [...]",
@@ -154,27 +238,6 @@
       "summary": "Noteworthy stories that might have slipped under the radar: OpenClaw AI agents exploited via WhatsApp, ransomware hits naval defense firm TKMS, Lidl discloses data breach. The post In Other News...",
       "source": "SecurityWeek",
       "published": "2026-07-17T14:27:54+00:00"
-    },
-    {
-      "title": "CVE-2026-51080 - libpve-storage-perl XML External Entity Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-51080",
-      "summary": "CVE ID :CVE-2026-51080 Published : July 17, 2026, 2:17 p.m. | 4 hours, 10 minutes ago Description :libpvestorage-perl v9.1.1 and libpve-storage-perl v8.3.7 were discovered to contain an XML External...",
-      "source": "CVE Feed",
-      "published": "2026-07-17T14:17:24+00:00"
-    },
-    {
-      "title": "CVE-2025-60357 - AhnLab EPP Management NoSQL Injection",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2025-60357",
-      "summary": "CVE ID :CVE-2025-60357 Published : July 17, 2026, 2:17 p.m. | 4 hours, 10 minutes ago Description :AhnLab EPP Management v1.0.14.32-6249 was discovered to contain a NoSQL injection vulnerability via...",
-      "source": "CVE Feed",
-      "published": "2026-07-17T14:17:19+00:00"
-    },
-    {
-      "title": "CVE-2024-23564 - HCL Aftermarket EPC Business Logic Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2024-23564",
-      "summary": "CVE ID :CVE-2024-23564 Published : July 17, 2026, 2:17 p.m. | 4 hours, 10 minutes ago Description :HCL Aftermarket EPC is affected by Business Logic Vulnerability using which a non valid user of the...",
-      "source": "CVE Feed",
-      "published": "2026-07-17T14:17:16+00:00"
     },
     {
       "title": "Inside the Search for \"Clean\" Residential Proxies for Carding",
@@ -196,13 +259,6 @@
       "summary": "Fairlife’s U.S. operation includes plants in Michigan, New York and Arizona, and the company's retail sales passed $1 billion in 2022.",
       "source": "The Record",
       "published": "2026-07-17T13:40:00+00:00"
-    },
-    {
-      "title": "CVE-2026-7189 - Sensitive Data Exposure in Proliz's OBS",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-7189",
-      "summary": "CVE ID :CVE-2026-7189 Published : July 17, 2026, 1:19 p.m. | 5 hours, 8 minutes ago Description :Insertion of sensitive information into sent data vulnerability in Proliz Software Ltd. Co. Proliz's...",
-      "source": "CVE Feed",
-      "published": "2026-07-17T13:19:01+00:00"
     },
     {
       "title": "Gold Eagle Clearinghouse Targets Security Gap, but How Is Unclear",
@@ -266,27 +322,6 @@
       "summary": "'Nederland telt tweeduizend IP-camera's met bekend misbruikt beveiligingslek' Nederland telt zo'n tweeduizend IP-camera's die kwetsbaarheden bevatten waarvan bekend is dat aanvallers er misbruik van...",
       "source": "CVE Newsroom",
       "published": "2026-07-17T11:18:18+00:00"
-    },
-    {
-      "title": "CVE-2026-59695 - Unbounded max_fee_per_gas in mpp Tempo fee-payer enables single-request wallet drain",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-59695",
-      "summary": "CVE ID :CVE-2026-59695 Published : July 17, 2026, 11:17 a.m. | 7 hours, 10 minutes ago Description :Improper Validation of Specified Quantity in Input in ZenHive mpp allows an unauthenticated remote...",
-      "source": "CVE Feed",
-      "published": "2026-07-17T11:17:14+00:00"
-    },
-    {
-      "title": "CVE-2026-59694 - Unbounded access list in mpp Tempo fee-payer inflates gas cost per payment",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-59694",
-      "summary": "CVE ID :CVE-2026-59694 Published : July 17, 2026, 11:17 a.m. | 7 hours, 10 minutes ago Description :Improper Validation of Specified Quantity in Input in ZenHive mpp allows an unauthenticated remote...",
-      "source": "CVE Feed",
-      "published": "2026-07-17T11:17:13+00:00"
-    },
-    {
-      "title": "CVE-2026-59252 - Missing gas_limit validation in mpp Tempo fee-payer enables wallet drain",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-59252",
-      "summary": "CVE ID :CVE-2026-59252 Published : July 17, 2026, 11:17 a.m. | 7 hours, 10 minutes ago Description :Improper Validation of Specified Quantity in Input in ZenHive mpp allows an unauthenticated remote...",
-      "source": "CVE Feed",
-      "published": "2026-07-17T11:17:13+00:00"
     },
     {
       "title": "Industry Reactions to Pentagon Suspending CMMC Phase 2: Feedback Friday",
@@ -373,20 +408,6 @@
       "published": "2026-07-17T07:47:08+00:00"
     },
     {
-      "title": "CVE-2026-9810 - AI Chatbot & Workflow Automation by AIWU < 1.5.4 - Unauthenticated Privilege Escalation via MCP OAuth",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-9810",
-      "summary": "CVE ID :CVE-2026-9810 Published : July 17, 2026, 7:16 a.m. | 11 hours, 11 minutes ago Description :The AI Copilot WordPress plugin before 1.5.4 does not bind OAuth access tokens to a WordPress user...",
-      "source": "CVE Feed",
-      "published": "2026-07-17T07:16:38+00:00"
-    },
-    {
-      "title": "CVE-2026-11961 - User Registration & Membership < 5.2.3 - Unauthenticated Privilege Escalation via Unbound members_data Membership ID",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-11961",
-      "summary": "CVE ID :CVE-2026-11961 Published : July 17, 2026, 7:16 a.m. | 11 hours, 11 minutes ago Description :The User Registration & Membership WordPress plugin before 5.2.3 does not validate that the...",
-      "source": "CVE Feed",
-      "published": "2026-07-17T07:16:37+00:00"
-    },
-    {
       "title": "Fresh SharePoint Vulnerability Exploited Soon After Disclosure",
       "link": "https://www.securityweek.com/fresh-sharepoint-vulnerability-exploited-soon-after-disclosure/",
       "summary": "The critical-severity security defect allows remote, authenticated attackers to execute arbitrary code on the server. The post Fresh SharePoint Vulnerability Exploited Soon After Disclosure appeared...",
@@ -403,8 +424,8 @@
     {
       "title": "CISA Adds Exploited SharePoint RCE Zero-Day CVE-2026-58644 to KEV",
       "link": "https://thehackernews.com/2026/07/cisa-adds-exploited-sharepoint-rce-zero.html",
-      "summary": "CISA Adds Exploited SharePoint RCE Zero-Day CVE-2026-58644 to KEV The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Thursday added a newly patched security flaw impacting Microsoft...",
-      "source": "CVE Newsroom",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Thursday added a newly patched security flaw impacting Microsoft SharePoint Server to its Known Exploited Vulnerabilities (KEV)...",
+      "source": "The Hacker News",
       "published": "2026-07-17T06:42:23+00:00"
     },
     {
@@ -508,8 +529,8 @@
     {
       "title": "ThreatsDay: Game Cheat Spyware, 24-Hour Ransomware, Chrome Sync Stalking + 12 More Stories",
       "link": "https://thehackernews.com/2026/07/threatsday-game-cheat-spyware-24-hour.html",
-      "summary": "ThreatsDay: Game Cheat Spyware, 24-Hour Ransomware, Chrome Sync Stalking + 12 More Stories A lot of this week’s trouble starts with something that looks close enough.A familiar repo. A useful...",
-      "source": "CVE Newsroom",
+      "summary": "A lot of this week’s trouble starts with something that looks close enough. A familiar repo. A useful installer. A harmless sync setting. Then the handoff goes bad, the box starts talking to someone...",
+      "source": "The Hacker News",
       "published": "2026-07-16T15:41:15+00:00"
     },
     {
@@ -543,8 +564,8 @@
     {
       "title": "n8n Token Exchange Flaw Could Let Attackers Log In as Users From Another Issuer",
       "link": "https://thehackernews.com/2026/07/n8n-token-exchange-flaw-could-let.html",
-      "summary": "n8n Token Exchange Flaw Could Let Attackers Log In as Users From Another Issuer n8n, the workflow automation platform, handed out the wrong accounts at login. On Enterprise instances configured to...",
-      "source": "CVE Newsroom",
+      "summary": "n8n, the workflow automation platform, handed out the wrong accounts at login. On Enterprise instances configured to trust more than one external token issuer, it matched an incoming JWT to a local...",
+      "source": "The Hacker News",
       "published": "2026-07-16T13:33:25+00:00"
     },
     {
@@ -599,8 +620,8 @@
     {
       "title": "New Agent Data Injection Attack Can Make AI Agents Misclick or Run Attacker Commands",
       "link": "https://thehackernews.com/2026/07/new-agent-data-injection-attack-can.html",
-      "summary": "New Agent Data Injection Attack Can Make AI Agents Misclick or Run Attacker Commands Ask an AI agent to summarize the reviews on a product page, and a single planted review can make it click \"Buy...",
-      "source": "CVE Newsroom",
+      "summary": "Ask an AI agent to summarize the reviews on a product page, and a single planted review can make it click \"Buy Now\" instead. Ask a coding assistant to apply a maintainer's fix from a GitHub thread...",
+      "source": "The Hacker News",
       "published": "2026-07-16T11:32:28+00:00"
     },
     {
@@ -641,8 +662,8 @@
     {
       "title": "Zoom Patches Critical Windows Flaw That Could Enable Account Takeover",
       "link": "https://thehackernews.com/2026/07/zoom-patches-critical-windows-flaw-that.html",
-      "summary": "Zoom Patches Critical Windows Flaw That Could Enable Account Takeover Zoom has released security updates for a critical security flaw impacting Zoom Workplace for Windows that could facilitate...",
-      "source": "CVE Newsroom",
+      "summary": "Zoom has released security updates for a critical security flaw impacting Zoom Workplace for Windows that could facilitate account takeover. The vulnerability, tracked as CVE-2026-53412 (CVSS score...",
+      "source": "The Hacker News",
       "published": "2026-07-16T07:22:44+00:00"
     },
     {
@@ -718,8 +739,8 @@
     {
       "title": "Firefox, Chrome, Adobe, and VMware Updates Fix Multiple Critical Security Flaws",
       "link": "https://thehackernews.com/2026/07/firefox-chrome-adobe-and-vmware-updates.html",
-      "summary": "Firefox, Chrome, Adobe, and VMware Updates Fix Multiple Critical Security Flaws Mozilla has released updates to address two critical flaws in Firefox for which it warned that exploit code has been...",
-      "source": "CVE Newsroom",
+      "summary": "Mozilla has released updates to address two critical flaws in Firefox for which it warned that exploit code has been published. The vulnerabilities are listed below - CVE-2026-15718, an invalid...",
+      "source": "The Hacker News",
       "published": "2026-07-15T13:18:53+00:00"
     },
     {
@@ -739,8 +760,8 @@
     {
       "title": "Researcher Drops New Windows Zero-Day PoC Hours After Microsoft Patch Tuesday",
       "link": "https://thehackernews.com/2026/07/researcher-drops-new-windows-zero-day.html",
-      "summary": "Researcher Drops New Windows Zero-Day PoC Hours After Microsoft Patch Tuesday Security researcher Chaotic Eclipse (aka Nightmare-Eclipse) has released a new proof-of-concept (PoC) exploit called...",
-      "source": "CVE Newsroom",
+      "summary": "Security researcher Chaotic Eclipse (aka Nightmare-Eclipse) has released a new proof-of-concept (PoC) exploit called LegacyHive. It has been described as a Windows User Profile Service arbitrary hive...",
+      "source": "The Hacker News",
       "published": "2026-07-15T11:07:07+00:00"
     },
     {
@@ -753,8 +774,8 @@
     {
       "title": "Cursor Flaw Lets Malicious Cloned Repositories Trigger Windows Code Execution",
       "link": "https://thehackernews.com/2026/07/cursor-flaw-lets-malicious-cloned.html",
-      "summary": "Cursor Flaw Lets Malicious Cloned Repositories Trigger Windows Code Execution Open a repository in Cursor on Windows and, if a file named git.exe is sitting in the project root, Cursor runs it. No...",
-      "source": "CVE Newsroom",
+      "summary": "Open a repository in Cursor on Windows and, if a file named git.exe is sitting in the project root, Cursor runs it. No click, no approval dialog, no warning that anything in the folder is about to...",
+      "source": "The Hacker News",
       "published": "2026-07-15T10:55:22+00:00"
     },
     {
@@ -1017,20 +1038,6 @@
       "published": "2026-07-13T13:00:00+00:00"
     },
     {
-      "title": "Meta Files Patent for AI That Can Listen All Day and Track How You're Feeling",
-      "link": "https://thehackernews.com/2026/07/meta-files-patent-for-ai-that-can.html",
-      "summary": "Meta has filed a patent application for an AI that listens to your voice throughout the day, works out how it thinks you are feeling from the way you sound, and keeps a timestamped log of every read...",
-      "source": "The Hacker News",
-      "published": "2026-07-13T11:54:46+00:00"
-    },
-    {
-      "title": "Thinking Fast and Slow in the SOC: The Case for Combining Autonomous AI with Analyst Copilots",
-      "link": "https://thehackernews.com/2026/07/thinking-fast-and-slow-in-soc-case-for.html",
-      "summary": "A few days ago, I was sitting with the CISO of a Fortune 50 company, walking through how his security team was thinking about AI agents in the SOC. Smart team. Serious program. They had already...",
-      "source": "The Hacker News",
-      "published": "2026-07-13T11:37:05+00:00"
-    },
-    {
       "title": "Jen Ellis: Connecting Cyber Community With Political Machinery",
       "link": "https://www.darkreading.com/cybersecurity-operations/jen-ellis-connecting-cyber-community-political-machinery",
       "summary": "Security Pro File: On the heels of her recent honors as a Member of the Order of the British Empire (MBE), we take a look back at the events that shaped Jen Ellis' advocacy on behalf of security...",
@@ -1218,13 +1225,6 @@
       "summary": "The Federal Bureau of Investigation (FBI) said today it worked with industry partners to seize hundreds of domains associated with NetNut, a sprawling residential proxy service operated by the...",
       "source": "Krebs on Security",
       "published": "2026-07-02T19:27:33+00:00"
-    },
-    {
-      "title": "FortiBleed Actors Collaborating With Inc, Lynx Ransomware Gangs",
-      "link": "https://www.darkreading.com/threat-intelligence/fortibleed-actors-inc-lynx-ransomware-gangs",
-      "summary": "After gaining a foothold in thousands of Fortinet firewalls, the attackers are starting to monetize that access, and are also piling on a Nextcloud zero-day bug.",
-      "source": "Dark Reading",
-      "published": "2026-07-02T19:11:33+00:00"
     },
     {
       "title": "Scattered Spider Hackers Plead Guilty on Day 1 of Trial",
