@@ -1,12 +1,138 @@
 {
-  "last_updated": "2026-07-20T21:01:44.636324+00:00",
+  "last_updated": "2026-07-20T22:48:33.777794+00:00",
   "articles": [
+    {
+      "title": "Estée Lauder discloses data breach via Oracle E-Business flaw",
+      "link": "https://www.bleepingcomputer.com/news/security/est-e-lauder-discloses-data-breach-via-oracle-e-business-flaw/",
+      "summary": "Cosmetics giant Estée Lauder is notifying customers of a data breach after hackers exploited a flaw in Oracle E-Business Suite that the company used for human resources (HR) operations. [...]",
+      "source": "BleepingComputer",
+      "published": "2026-07-20T22:39:30+00:00"
+    },
+    {
+      "title": "SonicWall SMA1000 flaws exploited as zero-days to push custom malware",
+      "link": "https://www.bleepingcomputer.com/news/security/sonicwall-sma1000-flaws-exploited-as-zero-days-to-push-custom-malware/",
+      "summary": "Two recently disclosed SonicWall SMA1000 vulnerabilities were exploited in zero-day attacks for weeks, allowing threat actors to install custom malware on vulnerable VPN appliances. [...]",
+      "source": "BleepingComputer",
+      "published": "2026-07-20T22:23:23+00:00"
+    },
+    {
+      "title": "Hackers steal $23.7 million in crypto from Ostium in off-chain attack",
+      "link": "https://www.bleepingcomputer.com/news/security/hackers-steal-237-million-in-crypto-from-ostium-in-off-chain-attack/",
+      "summary": "The Ostium trading platform announced that an attacker stole $23.75 million from its liquidity provider vault last week, after compromising off-chain infrastructure used to feed prices into the...",
+      "source": "BleepingComputer",
+      "published": "2026-07-20T22:22:56+00:00"
+    },
+    {
+      "title": "'WP2Shell' Opens Millions of WordPress Sites to Remote Takeover",
+      "link": "https://www.darkreading.com/cyberattacks-data-breaches/wp2shell-millions-wordpress-sites-remote-takeover",
+      "summary": "Barely three days after disclosure, attackers are widely chaining together CVE-2026-60137 and CVE-2026-63030 to lob exploit attempts against one of the largest attack surfaces on the Internet.",
+      "source": "Dark Reading",
+      "published": "2026-07-20T21:38:18+00:00"
+    },
+    {
+      "title": "CVE-2026-53595 - FreeScout vulnerable to anonymous account takeover via /user-setup empty invite_hash on MySQL",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-53595",
+      "summary": "CVE ID :CVE-2026-53595 Published : July 20, 2026, 9:16 p.m. | 40 minutes ago Description :FreeScout is a free help desk and shared inbox built with PHP's Laravel framework. Prior to version 1.8.224...",
+      "source": "CVE Feed",
+      "published": "2026-07-20T21:16:48+00:00"
+    },
+    {
+      "title": "CVE-2026-47198 - Paymenter: URL parameter injection bypasses paid plan limits at checkout",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-47198",
+      "summary": "CVE ID :CVE-2026-47198 Published : July 20, 2026, 9:16 p.m. | 40 minutes ago Description :Paymenter is a free and open-source webshop solution for management of hosting services. In versions prior to...",
+      "source": "CVE Feed",
+      "published": "2026-07-20T21:16:48+00:00"
+    },
+    {
+      "title": "CVE-2026-47129 - NextCRM has Broken Access Control in Server Actions that allows any authenticated user to deactivate/activate arbitrary accounts",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-47129",
+      "summary": "CVE ID :CVE-2026-47129 Published : July 20, 2026, 9:16 p.m. | 40 minutes ago Description :NextCRM is open-source customer relationship management (CRM) software. Versions prior to 0.12.0 have a...",
+      "source": "CVE Feed",
+      "published": "2026-07-20T21:16:47+00:00"
+    },
+    {
+      "title": "CVE-2026-44508 - Rsync: Integer overflow in compressed-token decoding",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-44508",
+      "summary": "CVE ID :CVE-2026-44508 Published : July 20, 2026, 9:16 p.m. | 40 minutes ago Description :Rsync is a file-copying tool that uses a delta-transfer algorithm to synchronize remote and local files. In...",
+      "source": "CVE Feed",
+      "published": "2026-07-20T21:16:47+00:00"
+    },
+    {
+      "title": "CVE-2026-13381 - VSee Clinic and API Insecure Direct Object Reference in File API Allows Unauthorized File Access and Deletion",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-13381",
+      "summary": "CVE ID :CVE-2026-13381 Published : July 20, 2026, 9:16 p.m. | 40 minutes ago Description :VSee Clinic 7.1.26 and API 1.3.0 contain an Insecure Direct Object Reference (IDOR) vulnerability in the...",
+      "source": "CVE Feed",
+      "published": "2026-07-20T21:16:46+00:00"
+    },
+    {
+      "title": "CVE-2026-13380 - VSee Clinic and API Exposes Cleartext SFTP Credentials in Unauthenticated HTTP Responses",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-13380",
+      "summary": "CVE ID :CVE-2026-13380 Published : July 20, 2026, 9:16 p.m. | 40 minutes ago Description :VSee Clinic 7.1.26 and VSee Clinic API 1.3.0 exposes cleartext SFTP credentials in the HTTP responses of...",
+      "source": "CVE Feed",
+      "published": "2026-07-20T21:16:46+00:00"
+    },
+    {
+      "title": "Cursor, Codex, Gemini CLI, Antigravity hit by sandbox escapes",
+      "link": "https://www.bleepingcomputer.com/news/security/cursor-codex-gemini-cli-antigravity-hit-by-sandbox-escapes/",
+      "summary": "Researchers escaped the sandboxes in Cursor, Codex, Gemini CLI and Antigravity by having the AI agent write files that trusted host tools later run. Multiple CVEs, patches, and Google downgrading two...",
+      "source": "BleepingComputer",
+      "published": "2026-07-20T21:14:42+00:00"
+    },
+    {
+      "title": "JadePuffer agentic attacks now target AI model data with ransomware",
+      "link": "https://www.bleepingcomputer.com/news/security/jadepuffer-agentic-attacks-now-target-ai-model-data-with-ransomware/",
+      "summary": "The JadePuffer autonomous AI agent has upgraded with custom malware called EncForge that focuses on encrypting AI assets, such as training datasets, vector databases, and model checkpoints. [...]",
+      "source": "BleepingComputer",
+      "published": "2026-07-20T21:08:02+00:00"
+    },
     {
       "title": "Remediating Vulnerabilities With LLMs: Inside Ivanti's Automation Push",
       "link": "https://www.darkreading.com/cybersecurity-operations/remediating-vulnerabilities-llms-ivanti-automation",
       "summary": "Ivanti CSO Daniel Spicer says frontier models have shown surprising effectiveness in early stages; but cost and human-in-the-loop viability remain open questions.",
       "source": "Dark Reading",
       "published": "2026-07-20T20:26:56+00:00"
+    },
+    {
+      "title": "CVE-2026-63767 - ktransformers Unauthenticated Pickle Deserialization RCE via ZMQ",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-63767",
+      "summary": "CVE ID :CVE-2026-63767 Published : July 20, 2026, 8:16 p.m. | 1 hour, 40 minutes ago Description :ktransformers through 0.6.3, fixed in commit def0f93, contains an unauthenticated pickle...",
+      "source": "CVE Feed",
+      "published": "2026-07-20T20:16:46+00:00"
+    },
+    {
+      "title": "CVE-2026-63766 - GPT-SoVITS 20250606v2pro OS Command Injection via webui.py",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-63766",
+      "summary": "CVE ID :CVE-2026-63766 Published : July 20, 2026, 8:16 p.m. | 1 hour, 40 minutes ago Description :GPT-SoVITS through 20250606v2pro contains an OS command injection vulnerability in webui.py where...",
+      "source": "CVE Feed",
+      "published": "2026-07-20T20:16:46+00:00"
+    },
+    {
+      "title": "CVE-2026-53593 - FreeScout Vulnerable to Authenticated Remote Code Execution via incomplete upload extension denylist (.pht) — bypass of CVE-2025-48471",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-53593",
+      "summary": "CVE ID :CVE-2026-53593 Published : July 20, 2026, 8:16 p.m. | 1 hour, 40 minutes ago Description :FreeScout is a free help desk and shared inbox built with PHP's Laravel framework. Prior to version...",
+      "source": "CVE Feed",
+      "published": "2026-07-20T20:16:44+00:00"
+    },
+    {
+      "title": "CVE-2026-53591 - FreeScout Vulnerable to Unauthenticated Conversation Thread Injection via HMAC Length Bypass in FetchEmails",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-53591",
+      "summary": "CVE ID :CVE-2026-53591 Published : July 20, 2026, 8:16 p.m. | 1 hour, 40 minutes ago Description :FreeScout is a free help desk and shared inbox built with PHP's Laravel framework. Prior to version...",
+      "source": "CVE Feed",
+      "published": "2026-07-20T20:16:44+00:00"
+    },
+    {
+      "title": "CVE-2026-44231 - RT: Privilege escalation and information disclosure via REST 2.0 user collection endpoint",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-44231",
+      "summary": "CVE ID :CVE-2026-44231 Published : July 20, 2026, 8:16 p.m. | 1 hour, 40 minutes ago Description :RT is an open source, enterprise-grade issue and ticket tracking system. Versions prior to 5.0.10...",
+      "source": "CVE Feed",
+      "published": "2026-07-20T20:16:43+00:00"
+    },
+    {
+      "title": "CVE-2026-16337 - dotCMS Improper Authorization and Remote Code Execution",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-16337",
+      "summary": "CVE ID :CVE-2026-16337 Published : July 20, 2026, 8:16 p.m. | 1 hour, 40 minutes ago Description :Improper authorization in the ToolGroupResource and RoleAjax REST/DWR endpoints in dotCMS dotCMS...",
+      "source": "CVE Feed",
+      "published": "2026-07-20T20:16:43+00:00"
     },
     {
       "title": "Flock Safety kills acoustic system designed to detect 'human distress'",
@@ -16,46 +142,102 @@
       "published": "2026-07-20T19:55:00+00:00"
     },
     {
+      "title": "CVE-2026-64619 - FileCodeBox < 2.4 Anti-bruteforce Rate Limit Bypass via Spoofed Headers",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-64619",
+      "summary": "CVE ID :CVE-2026-64619 Published : July 20, 2026, 7:17 p.m. | 2 hours, 40 minutes ago Description :FileCodeBox before 2.4 contains a rate-limit bypass vulnerability in the IPRateLimit class that...",
+      "source": "CVE Feed",
+      "published": "2026-07-20T19:17:30+00:00"
+    },
+    {
+      "title": "CVE-2026-63770 - Glance 0.8.5 IP Spoofing Authentication Brute-Force Protection Bypass",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-63770",
+      "summary": "CVE ID :CVE-2026-63770 Published : July 20, 2026, 7:17 p.m. | 2 hours, 40 minutes ago Description :Glance through 0.8.5 contains an IP address spoofing vulnerability in the authentication handler...",
+      "source": "CVE Feed",
+      "published": "2026-07-20T19:17:29+00:00"
+    },
+    {
+      "title": "CVE-2026-63108 - Roo Code 3.54.0 Command Injection via Parameter Expansion Parsing",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-63108",
+      "summary": "CVE ID :CVE-2026-63108 Published : July 20, 2026, 7:17 p.m. | 2 hours, 40 minutes ago Description :Roo Code through 3.54.0 contains a command injection vulnerability in the auto-approve execute...",
+      "source": "CVE Feed",
+      "published": "2026-07-20T19:17:29+00:00"
+    },
+    {
+      "title": "CVE-2026-61900 - Joomla Extension - dj-extensions.com - Unauthenticated arbitrary file upload in DJ-jDownloads < 4.1.6",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-61900",
+      "summary": "CVE ID :CVE-2026-61900 Published : July 20, 2026, 7:17 p.m. | 2 hours, 40 minutes ago Description :The Joomla extension JDownloads is vulnerable to an unauthenticated file upload, leading to full...",
+      "source": "CVE Feed",
+      "published": "2026-07-20T19:17:28+00:00"
+    },
+    {
+      "title": "CVE-2026-61425 - Joomla Extension - balbooa.com - Authentication bypass in Gridbox < 1.6.0",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-61425",
+      "summary": "CVE ID :CVE-2026-61425 Published : July 20, 2026, 7:17 p.m. | 2 hours, 40 minutes ago Description :The Joomla extension Gridbox is vulnerable an authenticated bypass, potentially leading to full...",
+      "source": "CVE Feed",
+      "published": "2026-07-20T19:17:28+00:00"
+    },
+    {
+      "title": "CVE-2026-61424 - Joomla Extension - dj-extensions.com - Unauthenticated arbitrary file upload in DJ-Classifieds < 3.11.2",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-61424",
+      "summary": "CVE ID :CVE-2026-61424 Published : July 20, 2026, 7:17 p.m. | 2 hours, 40 minutes ago Description :The Joomla extension DJ-Classifieds is vulnerable to an unauthenticated file upload, leading to full...",
+      "source": "CVE Feed",
+      "published": "2026-07-20T19:17:28+00:00"
+    },
+    {
+      "title": "CVE-2026-60034 - Joomla Extension - themexpert.com - Authenticated stored XSS in JMedia Extension < 1.6.0",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-60034",
+      "summary": "CVE ID :CVE-2026-60034 Published : July 20, 2026, 7:17 p.m. | 2 hours, 40 minutes ago Description :The Joomla extension JMedia is vulnerable to a stored XSS vulnerability. Unsanitised SVG uploads...",
+      "source": "CVE Feed",
+      "published": "2026-07-20T19:17:27+00:00"
+    },
+    {
+      "title": "CVE-2026-60032 - Joomla Extension - themexpert.com - Authenticated arbitrary file upload in JMedia < 1.6.0",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-60032",
+      "summary": "CVE ID :CVE-2026-60032 Published : July 20, 2026, 7:17 p.m. | 2 hours, 40 minutes ago Description :The Joomla extension JMedia is vulnerable to an authenticated arbitrary file upload, leading to RCE...",
+      "source": "CVE Feed",
+      "published": "2026-07-20T19:17:27+00:00"
+    },
+    {
+      "title": "CVE-2026-60030 - Joomla Extension - themexpert.com - Broken Access Control for media management in Quix Page Builder < 6.2.1",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-60030",
+      "summary": "CVE ID :CVE-2026-60030 Published : July 20, 2026, 7:17 p.m. | 2 hours, 40 minutes ago Description :The Joomla extension Quix Page Builder Pro is vulnerable to an improper access control...",
+      "source": "CVE Feed",
+      "published": "2026-07-20T19:17:27+00:00"
+    },
+    {
+      "title": "CVE-2026-60028 - Joomla Extension - themexpert.com - Authenticated stored XSS in Quix Page Builder < 6.2.1",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-60028",
+      "summary": "CVE ID :CVE-2026-60028 Published : July 20, 2026, 7:17 p.m. | 2 hours, 40 minutes ago Description :The Joomla extension Quix Page Builder Pro is vulnerable to an authenticated stored XSS...",
+      "source": "CVE Feed",
+      "published": "2026-07-20T19:17:27+00:00"
+    },
+    {
+      "title": "CVE-2026-60027 - Joomla Extension - themexpert.com - Unauthenticated path traversal / file read in Quix Page Builder < 6.2.1",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-60027",
+      "summary": "CVE ID :CVE-2026-60027 Published : July 20, 2026, 7:17 p.m. | 2 hours, 40 minutes ago Description :The Joomla extension Quix Page Builder Pro is vulnerable to a unauthenticated path traversal via...",
+      "source": "CVE Feed",
+      "published": "2026-07-20T19:17:27+00:00"
+    },
+    {
+      "title": "CVE-2026-60026 - Joomla Extension - themexpert.com - Authenticated PHP code execution in Quix Page Builder < 6.2.1",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-60026",
+      "summary": "CVE ID :CVE-2026-60026 Published : July 20, 2026, 7:17 p.m. | 2 hours, 40 minutes ago Description :The Joomla extension Quix Page Builder Pro is vulnerable to an authenticated PHP code execution...",
+      "source": "CVE Feed",
+      "published": "2026-07-20T19:17:26+00:00"
+    },
+    {
+      "title": "CVE-2026-12341 - SailPoint IdentityIQ Improper Bearer Token Validation Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-12341",
+      "summary": "CVE ID :CVE-2026-12341 Published : July 20, 2026, 7:17 p.m. | 2 hours, 40 minutes ago Description :This vulnerability impacts all versions of IdentityIQ and allows an unauthenticated attacker...",
+      "source": "CVE Feed",
+      "published": "2026-07-20T19:17:18+00:00"
+    },
+    {
       "title": "CISOs Feel the Heat Over AI Risk",
       "link": "https://www.darkreading.com/cybersecurity-operations/cisos-feel-heat-ai-risk",
       "summary": "Job pressures have increased as companies run headlong into AI adoption, causing 26% of top security executives to consider leaving their position.",
       "source": "Dark Reading",
       "published": "2026-07-20T19:07:01+00:00"
-    },
-    {
-      "title": "CVE-2026-63770 - Glance 0.8.5 IP Spoofing Authentication Brute-Force Protection Bypass",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-63770",
-      "summary": "CVE ID :CVE-2026-63770 Published : July 20, 2026, 7:02 p.m. | 27 minutes ago Description :Glance through 0.8.5 contains an IP address spoofing vulnerability in the authentication handler that allows...",
-      "source": "CVE Feed",
-      "published": "2026-07-20T19:02:36+00:00"
-    },
-    {
-      "title": "CVE-2026-64619 - FileCodeBox < 2.4 Anti-bruteforce Rate Limit Bypass via Spoofed Headers",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-64619",
-      "summary": "CVE ID :CVE-2026-64619 Published : July 20, 2026, 6:50 p.m. | 39 minutes ago Description :FileCodeBox before 2.4 contains a rate-limit bypass vulnerability in the IPRateLimit class that allows...",
-      "source": "CVE Feed",
-      "published": "2026-07-20T18:50:12+00:00"
-    },
-    {
-      "title": "CVE-2026-61425 - Joomla Extension - balbooa.com - Authentication bypass in Gridbox < 1.6.0",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-61425",
-      "summary": "CVE ID :CVE-2026-61425 Published : July 20, 2026, 6:45 p.m. | 44 minutes ago Description :The Joomla extension Gridbox is vulnerable an authenticated bypass, potentially leading to full admin access...",
-      "source": "CVE Feed",
-      "published": "2026-07-20T18:45:51+00:00"
-    },
-    {
-      "title": "CVE-2026-61424 - Joomla Extension - dj-extensions.com - Unauthenticated arbitrary file upload in DJ-Classifieds < 3.11.2",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-61424",
-      "summary": "CVE ID :CVE-2026-61424 Published : July 20, 2026, 6:34 p.m. | 55 minutes ago Description :The Joomla extension DJ-Classifieds is vulnerable to an unauthenticated file upload, leading to full RCE...",
-      "source": "CVE Feed",
-      "published": "2026-07-20T18:34:51+00:00"
-    },
-    {
-      "title": "CVE-2026-61900 - Joomla Extension - dj-extensions.com - Unauthenticated arbitrary file upload in DJ-jDownloads < 4.1.6",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-61900",
-      "summary": "CVE ID :CVE-2026-61900 Published : July 20, 2026, 6:34 p.m. | 55 minutes ago Description :The Joomla extension JDownloads is vulnerable to an unauthenticated file upload, leading to full RCE...",
-      "source": "CVE Feed",
-      "published": "2026-07-20T18:34:32+00:00"
     },
     {
       "title": "Attackers Combo Up Evasion Tactics for BEC Phishing",
@@ -65,13 +247,6 @@
       "published": "2026-07-20T18:30:22+00:00"
     },
     {
-      "title": "CVE-2026-63108 - Roo Code 3.54.0 Command Injection via Parameter Expansion Parsing",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-63108",
-      "summary": "CVE ID :CVE-2026-63108 Published : July 20, 2026, 6:24 p.m. | 1 hour, 5 minutes ago Description :Roo Code through 3.54.0 contains a command injection vulnerability in the auto-approve execute feature...",
-      "source": "CVE Feed",
-      "published": "2026-07-20T18:24:14+00:00"
-    },
-    {
       "title": "FakeGit Campaign Uses 7,600 GitHub Repositories to Spread SmartLoader Malware",
       "link": "https://thehackernews.com/2026/07/fakegit-campaign-uses-7600-github.html",
       "summary": "Cybersecurity researchers have discovered nearly 7,600 malicious GitHub repositories, out of which more than 800 pose as artificial intelligence (AI) skills or Model Context Protocol (MCP) servers to...",
@@ -79,88 +254,11 @@
       "published": "2026-07-20T18:23:03+00:00"
     },
     {
-      "title": "CVE-2026-12341 - SailPoint IdentityIQ Improper Bearer Token Validation Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-12341",
-      "summary": "CVE ID :CVE-2026-12341 Published : July 20, 2026, 6:22 p.m. | 1 hour, 7 minutes ago Description :This vulnerability impacts all versions of IdentityIQ and allows an unauthenticated attacker...",
-      "source": "CVE Feed",
-      "published": "2026-07-20T18:22:36+00:00"
-    },
-    {
       "title": "India says allegedly leaked nuclear plant files pose no safety risk",
       "link": "https://therecord.media/india-nuclear-plant-kudankulam-world-leaks-documents",
       "summary": "Documents that the World Leaks cybercrime group claimed to leak from the Kudankulam Nuclear Power Plant do not contain information pertaining to safety or security, Indian officials said.",
       "source": "The Record",
       "published": "2026-07-20T18:20:00+00:00"
-    },
-    {
-      "title": "CVE-2026-8170 - ExtremeXOS Privilege Escalation via Symlink Following in File Utilities",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-8170",
-      "summary": "CVE ID :CVE-2026-8170 Published : July 20, 2026, 6:16 p.m. | 1 hour, 13 minutes ago Description :The mv, cp, and rm file utilities exposed within the ExtremeXOS (EXOS) shell environment fail to...",
-      "source": "CVE Feed",
-      "published": "2026-07-20T18:16:56+00:00"
-    },
-    {
-      "title": "CVE-2026-8169 - ExtremeXOS Debug-Mode Privilege Escalation via Weak PRNG",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-8169",
-      "summary": "CVE ID :CVE-2026-8169 Published : July 20, 2026, 6:16 p.m. | 1 hour, 13 minutes ago Description :ExtremeXOS (EXOS) uses a challenge-response mechanism to authorize access to the privileged debug-mode...",
-      "source": "CVE Feed",
-      "published": "2026-07-20T18:16:56+00:00"
-    },
-    {
-      "title": "CVE-2026-55626 - xrdp: No authentication required with Xvnc backend on RHEL 9",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55626",
-      "summary": "CVE ID :CVE-2026-55626 Published : July 20, 2026, 6:16 p.m. | 1 hour, 13 minutes ago Description :xrdp is an open source RDP server. In versions 0.10.6 and prior, when an authenticated user session...",
-      "source": "CVE Feed",
-      "published": "2026-07-20T18:16:54+00:00"
-    },
-    {
-      "title": "CVE-2026-39878 - Chamilo stored XSS via user registration leads to admin account takeover",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-39878",
-      "summary": "CVE ID :CVE-2026-39878 Published : July 20, 2026, 6:16 p.m. | 1 hour, 13 minutes ago Description :Chamilo LMS versions 1.11.38 and earlier contain a stored cross-site scripting vulnerability in the...",
-      "source": "CVE Feed",
-      "published": "2026-07-20T18:16:51+00:00"
-    },
-    {
-      "title": "CVE-2026-60027 - Joomla Extension - themexpert.com - Unauthenticated path traversal / file read in Quix Page Builder < 6.2.1",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-60027",
-      "summary": "CVE ID :CVE-2026-60027 Published : July 20, 2026, 6:14 p.m. | 1 hour, 15 minutes ago Description :The Joomla extension Quix Page Builder Pro is vulnerable to a unauthenticated path traversal via form...",
-      "source": "CVE Feed",
-      "published": "2026-07-20T18:14:30+00:00"
-    },
-    {
-      "title": "CVE-2026-60026 - Joomla Extension - themexpert.com - Authenticated PHP code execution in Quix Page Builder < 6.2.1",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-60026",
-      "summary": "CVE ID :CVE-2026-60026 Published : July 20, 2026, 6:11 p.m. | 1 hour, 18 minutes ago Description :The Joomla extension Quix Page Builder Pro is vulnerable to an authenticated PHP code execution...",
-      "source": "CVE Feed",
-      "published": "2026-07-20T18:11:57+00:00"
-    },
-    {
-      "title": "CVE-2026-60034 - Joomla Extension - themexpert.com - Authenticated stored XSS in JMedia Extension < 1.6.0",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-60034",
-      "summary": "CVE ID :CVE-2026-60034 Published : July 20, 2026, 6:11 p.m. | 1 hour, 18 minutes ago Description :The Joomla extension JMedia is vulnerable to a stored XSS vulnerability. Unsanitised SVG uploads...",
-      "source": "CVE Feed",
-      "published": "2026-07-20T18:11:53+00:00"
-    },
-    {
-      "title": "CVE-2026-60030 - Joomla Extension - themexpert.com - Broken Access Control for media management in Quix Page Builder < 6.2.1",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-60030",
-      "summary": "CVE ID :CVE-2026-60030 Published : July 20, 2026, 6:11 p.m. | 1 hour, 18 minutes ago Description :The Joomla extension Quix Page Builder Pro is vulnerable to an improper access control. Authenticated...",
-      "source": "CVE Feed",
-      "published": "2026-07-20T18:11:08+00:00"
-    },
-    {
-      "title": "CVE-2026-60032 - Joomla Extension - themexpert.com - Authenticated arbitrary file upload in JMedia < 1.6.0",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-60032",
-      "summary": "CVE ID :CVE-2026-60032 Published : July 20, 2026, 6:09 p.m. | 1 hour, 20 minutes ago Description :The Joomla extension JMedia is vulnerable to an authenticated arbitrary file upload, leading to RCE...",
-      "source": "CVE Feed",
-      "published": "2026-07-20T18:09:34+00:00"
-    },
-    {
-      "title": "CVE-2026-60028 - Joomla Extension - themexpert.com - Authenticated stored XSS in Quix Page Builder < 6.2.1",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-60028",
-      "summary": "CVE ID :CVE-2026-60028 Published : July 20, 2026, 6:09 p.m. | 1 hour, 20 minutes ago Description :The Joomla extension Quix Page Builder Pro is vulnerable to an authenticated stored XSS...",
-      "source": "CVE Feed",
-      "published": "2026-07-20T18:09:33+00:00"
     },
     {
       "title": "New HollowGraph malware uses Microsoft Graph for stealthy C2 comms",
@@ -172,58 +270,9 @@
     {
       "title": "Exposed Server Reveals AI-Assisted Phishing Toolkit Behind WebDAV Malware Campaign",
       "link": "https://thehackernews.com/2026/07/exposed-server-reveals-ai-assisted.html",
-      "summary": "Exposed Server Reveals AI-Assisted Phishing Toolkit Behind WebDAV Malware Campaign A malware operator left its delivery server wide open, and Rapid7 pulled down the whole toolkit: 1,048 files...",
-      "source": "CVE Newsroom",
+      "summary": "A malware operator left its delivery server wide open, and Rapid7 pulled down the whole toolkit: 1,048 files spanning lure templates, filename-spoofing tests, execution experiments, droppers, builder...",
+      "source": "The Hacker News",
       "published": "2026-07-20T17:29:50+00:00"
-    },
-    {
-      "title": "CVE-2026-54051 - Network-AI has an an OS Command Injection issue",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54051",
-      "summary": "CVE ID :CVE-2026-54051 Published : July 20, 2026, 5:17 p.m. | 2 hours, 12 minutes ago Description :Network-AI is a TypeScript/Node.js multi-agent orchestrator. Prior to version 5.9.1, the agent...",
-      "source": "CVE Feed",
-      "published": "2026-07-20T17:17:57+00:00"
-    },
-    {
-      "title": "CVE-2026-44178 - xrdp: Channel Data Forwarding Fixed-Size Buffer Overflow",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-44178",
-      "summary": "CVE ID :CVE-2026-44178 Published : July 20, 2026, 5:17 p.m. | 2 hours, 12 minutes ago Description :xrdp is an open source RDP server. Versions 0.10.6 and prior contain a heap-based buffer overflow...",
-      "source": "CVE Feed",
-      "published": "2026-07-20T17:17:09+00:00"
-    },
-    {
-      "title": "CVE-2026-41521 - xrdp: lib_framebuffer_update Has Integer Overflow Heap Info Leak & ASLR Bypass",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-41521",
-      "summary": "CVE ID :CVE-2026-41521 Published : July 20, 2026, 5:17 p.m. | 2 hours, 12 minutes ago Description :xrdp is an open source RDP server. Versions 0.10.6 and prior contain an integer overflow...",
-      "source": "CVE Feed",
-      "published": "2026-07-20T17:17:08+00:00"
-    },
-    {
-      "title": "CVE-2026-41252 - xrdp: lib_palette_update Heap Buffer Overflow & RCE",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-41252",
-      "summary": "CVE ID :CVE-2026-41252 Published : July 20, 2026, 5:17 p.m. | 2 hours, 12 minutes ago Description :xrdp is an open source RDP server. Versions 0.10.6 and prior contain a missing bounds check in xrdp...",
-      "source": "CVE Feed",
-      "published": "2026-07-20T17:17:08+00:00"
-    },
-    {
-      "title": "CVE-2026-40187 - Authenticated RCE via Malicious eTemplate Upload in EGroupware",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-40187",
-      "summary": "CVE ID :CVE-2026-40187 Published : July 20, 2026, 5:17 p.m. | 2 hours, 12 minutes ago Description :In egroupware version 26.0 and earlier, an authenticated administrator can achieve OS-level Remote...",
-      "source": "CVE Feed",
-      "published": "2026-07-20T17:17:07+00:00"
-    },
-    {
-      "title": "CVE-2026-35048 - Piwigo RCE via PHP Code Injection into Config File in Installer",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-35048",
-      "summary": "CVE ID :CVE-2026-35048 Published : July 20, 2026, 5:17 p.m. | 2 hours, 12 minutes ago Description :The Piwigo installer in versions 16.3.0 and earlier accepts POST parameters for database...",
-      "source": "CVE Feed",
-      "published": "2026-07-20T17:17:06+00:00"
-    },
-    {
-      "title": "CVE-2026-32821 - API Collection Impersonation Via user_email And Missing Object- Level Authorization",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-32821",
-      "summary": "CVE ID :CVE-2026-32821 Published : July 20, 2026, 5:17 p.m. | 2 hours, 12 minutes ago Description :dataCycle is a data management system for centrally storing, managing, searching, finding, and...",
-      "source": "CVE Feed",
-      "published": "2026-07-20T17:17:05+00:00"
     },
     {
       "title": "More than 1,000 domains illegally streaming World Cup games seized, DOJ says",
@@ -231,13 +280,6 @@
       "summary": "Over the course of the World Cup tournament, the Department of Justice seized more than 1,000 domains for illegally streaming games.",
       "source": "The Record",
       "published": "2026-07-20T17:15:00+00:00"
-    },
-    {
-      "title": "CVE-2026-63429 - HeyForm has unauthenticated /api/upload endpoint that accepts arbitrary files with no auth/session/form context",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-63429",
-      "summary": "CVE ID :CVE-2026-63429 Published : July 20, 2026, 4:17 p.m. | 3 hours, 12 minutes ago Description :HeyForm is an open-source form builder. Prior to version 3.0.0-rc.9, `POST /api/upload` has no...",
-      "source": "CVE Feed",
-      "published": "2026-07-20T16:17:06+00:00"
     },
     {
       "title": "Hackers were inside South Korea's diplomat training system for 9 months",
@@ -305,8 +347,8 @@
     {
       "title": "⚡ Weekly Recap: WordPress RCE, SonicWall 0-Days, AI Service Attacks, SharePoint 0-Day and More",
       "link": "https://thehackernews.com/2026/07/weekly-recap-wordpress-rce-sonicwall-0.html",
-      "summary": "⚡ Weekly Recap: WordPress RCE, SonicWall 0-Days, AI Service Attacks, SharePoint 0-Day and More A single request should not be able to do this much. But this week, small inputs led to code execution...",
-      "source": "CVE Newsroom",
+      "summary": "A single request should not be able to do this much. But this week, small inputs led to code execution, memory loss, stolen keys, and disabled security tools. The paths were often simple: exposed...",
+      "source": "The Hacker News",
       "published": "2026-07-20T13:32:26+00:00"
     },
     {
@@ -319,8 +361,8 @@
     {
       "title": "Russian Intelligence Hacks IP Cameras to Spy on Military Logistics Across NATO States and Ukraine",
       "link": "https://thehackernews.com/2026/07/russian-intelligence-hacks-ip-cameras.html",
-      "summary": "Russian Intelligence Hacks IP Cameras to Spy on Military Logistics Across NATO States and Ukraine At least one Russian intelligence service is systematically hijacking internet-connected security...",
-      "source": "CVE Newsroom",
+      "summary": "At least one Russian intelligence service is systematically hijacking internet-connected security cameras across Europe and Ukraine, using the feeds to watch military transport routes, weapons...",
+      "source": "The Hacker News",
       "published": "2026-07-20T12:13:39+00:00"
     },
     {
@@ -403,8 +445,8 @@
     {
       "title": "New 7-Zip Vulnerability Could Let Crafted XZ Archives Run Code During Extraction",
       "link": "https://thehackernews.com/2026/07/new-7-zip-vulnerability-could-let.html",
-      "summary": "New 7-Zip Vulnerability Could Let Crafted XZ Archives Run Code During Extraction Opening a crafted XZ archive in 7-Zip could let an attacker run code on the machine. The flaw, CVE-2026-14266, is a...",
-      "source": "CVE Newsroom",
+      "summary": "Opening a crafted XZ archive in 7-Zip could let an attacker run code on the machine. The flaw, CVE-2026-14266, is a heap-based buffer overflow in how the archiver processes XZ chunked data, and Trend...",
+      "source": "The Hacker News",
       "published": "2026-07-20T09:10:56+00:00"
     },
     {
@@ -473,8 +515,8 @@
     {
       "title": "Critical NGINX Vulnerability Can Crash Workers and May Allow Remote Code Execution",
       "link": "https://thehackernews.com/2026/07/critical-nginx-vulnerability-can-crash.html",
-      "summary": "Critical NGINX Vulnerability Can Crash Workers and May Allow Remote Code Execution F5 has shipped fixes for a critical nginx flaw that lets a remote, unauthenticated attacker trigger a heap buffer...",
-      "source": "CVE Newsroom",
+      "summary": "F5 has shipped fixes for a critical nginx flaw that lets a remote, unauthenticated attacker trigger a heap buffer overflow in the worker process with crafted HTTP requests. CVE-2026-42533 was patched...",
+      "source": "The Hacker News",
       "published": "2026-07-19T20:42:49+00:00"
     },
     {
@@ -494,8 +536,8 @@
     {
       "title": "SonicWall SMA Zero-Days Exploited Before Disclosure to Gain Root Access",
       "link": "https://thehackernews.com/2026/07/sonicwall-sma-zero-days-exploited.html",
-      "summary": "SonicWall SMA Zero-Days Exploited Before Disclosure to Gain Root Access A previously undocumented threat actor has been attributed to the exploitation of recently disclosed SonicWall Secure Mobile...",
-      "source": "CVE Newsroom",
+      "summary": "A previously undocumented threat actor has been attributed to the exploitation of recently disclosed SonicWall Secure Mobile Access (SMA) 1000 series VPN appliances as zero-days prior their public...",
+      "source": "The Hacker News",
       "published": "2026-07-19T13:18:56+00:00"
     },
     {
@@ -527,31 +569,17 @@
       "published": "2026-07-18T13:32:48+00:00"
     },
     {
-      "title": "The Future of Age Verification: Your Face Never Leaves Your Device",
-      "link": "https://www.bleepingcomputer.com/news/security/the-future-of-age-verification-your-face-never-leaves-your-device/",
-      "summary": "As age verification laws expand worldwide, organizations face growing pressure to protect users' privacy while meeting regulatory requirements. Incode explains how on-device age estimation verifies...",
-      "source": "BleepingComputer",
-      "published": "2026-07-18T13:15:24+00:00"
-    },
-    {
       "title": "New wp2shell WordPress Core Flaw Lets Unauthenticated Attackers Run Code",
       "link": "https://thehackernews.com/2026/07/new-wp2shell-wordpress-core-flaw-lets.html",
-      "summary": "New wp2shell WordPress Core Flaw Lets Unauthenticated Attackers Run Code An anonymous HTTP request can run code on a WordPress site. The bug is in core, so a bare install with zero plugins is...",
-      "source": "CVE Newsroom",
+      "summary": "Updated July 18, 2026: the two flaws now carry CVE IDs, the full mechanism has been published, a persistent-object-cache condition has surfaced, and a working proof-of-concept is public. The story...",
+      "source": "The Hacker News",
       "published": "2026-07-17T21:20:10+00:00"
-    },
-    {
-      "title": "Abbott probes two cyber incidents amid extortion claims",
-      "link": "https://www.bleepingcomputer.com/news/security/abbott-laboratories-probes-two-cyber-incidents-amid-extortion-claims/",
-      "summary": "Abbott Laboratories is investigating two separate cybersecurity incidents after confirming unauthorized access to internal legacy Exact Sciences systems in its Cancer Diagnostics business, while also...",
-      "source": "BleepingComputer",
-      "published": "2026-07-17T20:45:52+00:00"
     },
     {
       "title": "OpenSSL HollowByte Flaw Could Freeze Server Memory with 11-Byte TLS Requests",
       "link": "https://thehackernews.com/2026/07/openssl-hollowbyte-flaw-could-freeze.html",
-      "summary": "OpenSSL HollowByte Flaw Could Freeze Server Memory with 11-Byte TLS Requests Eleven bytes will make an unpatched OpenSSL server set aside up to 131 KB of memory for a message that never arrives. On...",
-      "source": "CVE Newsroom",
+      "summary": "Eleven bytes will make an unpatched OpenSSL server set aside up to 131 KB of memory for a message that never arrives. On the glibc systems Okta tested, that memory is gone until the process restarts...",
+      "source": "The Hacker News",
       "published": "2026-07-17T20:20:53+00:00"
     },
     {
@@ -576,17 +604,10 @@
       "published": "2026-07-17T18:54:51+00:00"
     },
     {
-      "title": "HollowByte DDoS flaw bloats OpenSSL server memory with 11-byte payload",
-      "link": "https://www.bleepingcomputer.com/news/security/hollowbyte-ddos-flaw-bloats-openssl-server-memory-with-11-byte-payload/",
-      "summary": "A vulnerability dubbed HollowByte allows unauthenticated attackers to trigger a denial-of-service (DoS) condition on OpenSSL servers with a malicious payload of just 11 bytes. [...]",
-      "source": "BleepingComputer",
-      "published": "2026-07-17T17:56:21+00:00"
-    },
-    {
       "title": "New NadMesh Botnet Hunts Exposed AI Services for Cloud Keys and Kubernetes Tokens",
       "link": "https://thehackernews.com/2026/07/new-nadmesh-botnet-hunts-exposed-ai.html",
-      "summary": "New NadMesh Botnet Hunts Exposed AI Services for Cloud Keys and Kubernetes Tokens A Go botnet called NadMesh turned up in early July hunting exposed AI services, and the operator's own dashboard...",
-      "source": "CVE Newsroom",
+      "summary": "A Go botnet called NadMesh turned up in early July hunting exposed AI services, and the operator's own dashboard claims 3,811 unique AWS keys. A Shodan harvester keeps the scan queue stocked with...",
+      "source": "The Hacker News",
       "published": "2026-07-17T17:12:23+00:00"
     },
     {
@@ -602,20 +623,6 @@
       "summary": "Cybersecurity researchers have attributed the April 2026 DigiCert security incident to a threat activity cluster dubbed CylindricalCanine. Expel, which shared technical details of the event...",
       "source": "The Hacker News",
       "published": "2026-07-17T16:39:16+00:00"
-    },
-    {
-      "title": "Ernst & Young discloses data breach after support system hack",
-      "link": "https://www.bleepingcomputer.com/news/security/ernst-and-young-discloses-data-breach-after-support-system-hack/",
-      "summary": "Ernst & Young is notifying customers of a data breach caused by the compromise of a third-party support ticket system used by its IT personnel. [...]",
-      "source": "BleepingComputer",
-      "published": "2026-07-17T14:55:28+00:00"
-    },
-    {
-      "title": "Inside the Search for \"Clean\" Residential Proxies for Carding",
-      "link": "https://www.bleepingcomputer.com/news/security/inside-the-search-for-clean-residential-proxies-for-carding/",
-      "summary": "Residential proxies are no longer the silver bullet they once were for carding. Flare explains why cybercriminals increasingly seek \"clean\" residential proxies and combine them with browser...",
-      "source": "BleepingComputer",
-      "published": "2026-07-17T14:00:10+00:00"
     },
     {
       "title": "Fake Coding Tests Deliver OtterCookie-Aligned Malware Hidden in SVG Flag Images",
@@ -711,8 +718,8 @@
     {
       "title": "CISA Adds Exploited SharePoint RCE Zero-Day CVE-2026-58644 to KEV",
       "link": "https://thehackernews.com/2026/07/cisa-adds-exploited-sharepoint-rce-zero.html",
-      "summary": "CISA Adds Exploited SharePoint RCE Zero-Day CVE-2026-58644 to KEV The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Thursday added a newly patched security flaw impacting Microsoft...",
-      "source": "CVE Newsroom",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Thursday added a newly patched security flaw impacting Microsoft SharePoint Server to its Known Exploited Vulnerabilities (KEV)...",
+      "source": "The Hacker News",
       "published": "2026-07-17T06:42:23+00:00"
     },
     {
@@ -1204,13 +1211,6 @@
       "summary": "A threat group researchers call \"Armored Likho\" has gained access to government agencies and electrical power entities in Russia, Brazil, and Kazakhstan.",
       "source": "Dark Reading",
       "published": "2026-07-06T21:37:56+00:00"
-    },
-    {
-      "title": "CitrixBleed-ing Again? NetScaler Vulnerability Under Attack",
-      "link": "https://www.darkreading.com/vulnerabilities-threats/citrixbleed-ing-again-netscaler-vulnerability-under-attack",
-      "summary": "Attackers wasted little time targeting the latest memory disclosure flaw in Citrix's NetScaler products, after researchers published a proof-of-concept exploit (PoC).",
-      "source": "Dark Reading",
-      "published": "2026-07-06T21:17:42+00:00"
     },
     {
       "title": "FBI Seizes NetNut Proxy Platform, Popa Botnet",
