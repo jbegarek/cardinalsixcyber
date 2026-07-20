@@ -1,31 +1,206 @@
 {
-  "last_updated": "2026-07-20T17:24:10.667053+00:00",
+  "last_updated": "2026-07-20T19:26:13.039059+00:00",
   "articles": [
+    {
+      "title": "CISOs Feel the Heat Over AI Risk",
+      "link": "https://www.darkreading.com/cybersecurity-operations/cisos-feel-heat-ai-risk",
+      "summary": "Job pressures have increased as companies run headlong into AI adoption, causing 26% of top security executives to consider leaving their position.",
+      "source": "Dark Reading",
+      "published": "2026-07-20T19:07:01+00:00"
+    },
+    {
+      "title": "Attackers Combo Up Evasion Tactics for BEC Phishing",
+      "link": "https://www.darkreading.com/endpoint-security/attackers-combo-evasion-tactics-bec-phishing",
+      "summary": "\"The TFF Trap\" uses fileless techniques and loaders with low detection rates to deploy various RATs and stealers, including Agent Tesla, Remcos, XWorm, and Best Private Logger.",
+      "source": "Dark Reading",
+      "published": "2026-07-20T18:30:22+00:00"
+    },
+    {
+      "title": "India says allegedly leaked nuclear plant files pose no safety risk",
+      "link": "https://therecord.media/india-nuclear-plant-kudankulam-world-leaks-documents",
+      "summary": "Documents that the World Leaks cybercrime group claimed to leak from the Kudankulam Nuclear Power Plant do not contain information pertaining to safety or security, Indian officials said.",
+      "source": "The Record",
+      "published": "2026-07-20T18:20:00+00:00"
+    },
+    {
+      "title": "New HollowGraph malware uses Microsoft Graph for stealthy C2 comms",
+      "link": "https://www.bleepingcomputer.com/news/security/new-hollowgraph-malware-uses-microsoft-graph-for-stealthy-c2-comms/",
+      "summary": "A malicious component dubbed HollowGraph uses the calendar feature in compromised Microsoft 365 mailboxes as a command-and-control channel to receive attacker commands and exfiltrate stolen data...",
+      "source": "BleepingComputer",
+      "published": "2026-07-20T17:43:01+00:00"
+    },
+    {
+      "title": "CVE-2026-8170 - ExtremeXOS Privilege Escalation via Symlink Following in File Utilities",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-8170",
+      "summary": "CVE ID :CVE-2026-8170 Published : July 20, 2026, 5:34 p.m. | 54 minutes ago Description :The mv, cp, and rm file utilities exposed within the ExtremeXOS (EXOS) shell environment fail to safely...",
+      "source": "CVE Feed",
+      "published": "2026-07-20T17:34:10+00:00"
+    },
+    {
+      "title": "CVE-2026-8169 - ExtremeXOS Debug-Mode Privilege Escalation via Weak PRNG",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-8169",
+      "summary": "CVE ID :CVE-2026-8169 Published : July 20, 2026, 5:33 p.m. | 55 minutes ago Description :ExtremeXOS (EXOS) uses a challenge-response mechanism to authorize access to the privileged debug-mode...",
+      "source": "CVE Feed",
+      "published": "2026-07-20T17:33:05+00:00"
+    },
+    {
+      "title": "Exposed Server Reveals AI-Assisted Phishing Toolkit Behind WebDAV Malware Campaign",
+      "link": "https://thehackernews.com/2026/07/exposed-server-reveals-ai-assisted.html",
+      "summary": "Exposed Server Reveals AI-Assisted Phishing Toolkit Behind WebDAV Malware Campaign A malware operator left its delivery server wide open, and Rapid7 pulled down the whole toolkit: 1,048 files...",
+      "source": "CVE Newsroom",
+      "published": "2026-07-20T17:29:50+00:00"
+    },
+    {
+      "title": "CVE-2026-54051 - Network-AI has an an OS Command Injection issue",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54051",
+      "summary": "CVE ID :CVE-2026-54051 Published : July 20, 2026, 5:17 p.m. | 1 hour, 11 minutes ago Description :Network-AI is a TypeScript/Node.js multi-agent orchestrator. Prior to version 5.9.1, the agent...",
+      "source": "CVE Feed",
+      "published": "2026-07-20T17:17:57+00:00"
+    },
+    {
+      "title": "CVE-2026-44178 - xrdp: Channel Data Forwarding Fixed-Size Buffer Overflow",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-44178",
+      "summary": "CVE ID :CVE-2026-44178 Published : July 20, 2026, 5:17 p.m. | 1 hour, 11 minutes ago Description :xrdp is an open source RDP server. Versions 0.10.6 and prior contain a heap-based buffer overflow...",
+      "source": "CVE Feed",
+      "published": "2026-07-20T17:17:09+00:00"
+    },
+    {
+      "title": "CVE-2026-41521 - xrdp: lib_framebuffer_update Has Integer Overflow Heap Info Leak & ASLR Bypass",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-41521",
+      "summary": "CVE ID :CVE-2026-41521 Published : July 20, 2026, 5:17 p.m. | 1 hour, 11 minutes ago Description :xrdp is an open source RDP server. Versions 0.10.6 and prior contain an integer overflow...",
+      "source": "CVE Feed",
+      "published": "2026-07-20T17:17:08+00:00"
+    },
+    {
+      "title": "CVE-2026-41252 - xrdp: lib_palette_update Heap Buffer Overflow & RCE",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-41252",
+      "summary": "CVE ID :CVE-2026-41252 Published : July 20, 2026, 5:17 p.m. | 1 hour, 11 minutes ago Description :xrdp is an open source RDP server. Versions 0.10.6 and prior contain a missing bounds check in xrdp...",
+      "source": "CVE Feed",
+      "published": "2026-07-20T17:17:08+00:00"
+    },
+    {
+      "title": "CVE-2026-40187 - Authenticated RCE via Malicious eTemplate Upload in EGroupware",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-40187",
+      "summary": "CVE ID :CVE-2026-40187 Published : July 20, 2026, 5:17 p.m. | 1 hour, 11 minutes ago Description :In egroupware version 26.0 and earlier, an authenticated administrator can achieve OS-level Remote...",
+      "source": "CVE Feed",
+      "published": "2026-07-20T17:17:07+00:00"
+    },
+    {
+      "title": "CVE-2026-35048 - Piwigo RCE via PHP Code Injection into Config File in Installer",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-35048",
+      "summary": "CVE ID :CVE-2026-35048 Published : July 20, 2026, 5:17 p.m. | 1 hour, 11 minutes ago Description :The Piwigo installer in versions 16.3.0 and earlier accepts POST parameters for database...",
+      "source": "CVE Feed",
+      "published": "2026-07-20T17:17:06+00:00"
+    },
+    {
+      "title": "CVE-2026-32821 - API Collection Impersonation Via user_email And Missing Object- Level Authorization",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-32821",
+      "summary": "CVE ID :CVE-2026-32821 Published : July 20, 2026, 5:17 p.m. | 1 hour, 11 minutes ago Description :dataCycle is a data management system for centrally storing, managing, searching, finding, and...",
+      "source": "CVE Feed",
+      "published": "2026-07-20T17:17:05+00:00"
+    },
+    {
+      "title": "More than 1,000 domains illegally streaming World Cup games seized, DOJ says",
+      "link": "https://therecord.media/world-cup-illegal-streams-doj",
+      "summary": "Over the course of the World Cup tournament, the Department of Justice seized more than 1,000 domains for illegally streaming games.",
+      "source": "The Record",
+      "published": "2026-07-20T17:15:00+00:00"
+    },
+    {
+      "title": "CVE-2026-63429 - HeyForm has unauthenticated /api/upload endpoint that accepts arbitrary files with no auth/session/form context",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-63429",
+      "summary": "CVE ID :CVE-2026-63429 Published : July 20, 2026, 4:17 p.m. | 2 hours, 11 minutes ago Description :HeyForm is an open-source form builder. Prior to version 3.0.0-rc.9, `POST /api/upload` has no...",
+      "source": "CVE Feed",
+      "published": "2026-07-20T16:17:06+00:00"
+    },
+    {
+      "title": "CVE-2026-51027 - FileThingie Information Disclosure Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-51027",
+      "summary": "CVE ID :CVE-2026-51027 Published : July 20, 2026, 4:17 p.m. | 2 hours, 11 minutes ago Description :An issue in FileThingie v.2.5.7 allows a remote attacker to obtain sensitive information via the...",
+      "source": "CVE Feed",
+      "published": "2026-07-20T16:17:04+00:00"
+    },
+    {
+      "title": "CVE-2026-46428 - lettre has TLS hostname verification disabled when using Boring TLS backend",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-46428",
+      "summary": "CVE ID :CVE-2026-46428 Published : July 20, 2026, 4:17 p.m. | 2 hours, 11 minutes ago Description :lettre is a a mailer library for Rust. Starting in version 0.10.1 and prior to version 0.11.22, an...",
+      "source": "CVE Feed",
+      "published": "2026-07-20T16:17:01+00:00"
+    },
+    {
+      "title": "CVE-2026-46415 - Caddy Defender trusted proxy client IP bypass",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-46415",
+      "summary": "CVE ID :CVE-2026-46415 Published : July 20, 2026, 4:17 p.m. | 2 hours, 11 minutes ago Description :The Caddy Defender plugin is a middleware for Caddy that allows users to block or manipulate...",
+      "source": "CVE Feed",
+      "published": "2026-07-20T16:17:01+00:00"
+    },
+    {
+      "title": "CVE-2026-46412 - Malicious code in @beproduct/nestjs-auth (0.1.2 through 0.1.19) — Mini Shai-Hulud worm",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-46412",
+      "summary": "CVE ID :CVE-2026-46412 Published : July 20, 2026, 4:17 p.m. | 2 hours, 11 minutes ago Description :@beproduct/nestjs-auth is a NestJS authentication module for BeProduct IDS (Identity Server) with...",
+      "source": "CVE Feed",
+      "published": "2026-07-20T16:17:01+00:00"
+    },
+    {
+      "title": "CVE-2026-35198 - HeyForm vulnerable to stored XSS via form field titles",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-35198",
+      "summary": "CVE ID :CVE-2026-35198 Published : July 20, 2026, 4:16 p.m. | 2 hours, 12 minutes ago Description :HeyForm is an open-source form builder. Prior to version 3.0.0-rc.7, a stored cross-site scripting...",
+      "source": "CVE Feed",
+      "published": "2026-07-20T16:16:58+00:00"
+    },
+    {
+      "title": "CVE-2026-28220 - Wazuh cluster DAPI arbitrary callable deserialization and RBAC context injection allow a cluster peer to execute privileged functions on the master node",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-28220",
+      "summary": "CVE ID :CVE-2026-28220 Published : July 20, 2026, 4:16 p.m. | 2 hours, 12 minutes ago Description :Wazuh is a free and open source platform used for threat prevention, detection, and response. Prior...",
+      "source": "CVE Feed",
+      "published": "2026-07-20T16:16:57+00:00"
+    },
+    {
+      "title": "CVE-2026-27823 - Remote Code Execution Vulnerability in EGroupware",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-27823",
+      "summary": "CVE ID :CVE-2026-27823 Published : July 20, 2026, 4:16 p.m. | 2 hours, 12 minutes ago Description :A vulnerability has been identified in EGroupware that may lead to Remote Code Execution (RCE). The...",
+      "source": "CVE Feed",
+      "published": "2026-07-20T16:16:57+00:00"
+    },
+    {
+      "title": "CVE-2026-25039 - The application evaluate UNC path in workspace name",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-25039",
+      "summary": "CVE ID :CVE-2026-25039 Published : July 20, 2026, 4:16 p.m. | 2 hours, 12 minutes ago Description :Parsec is a cloud-based application for simple and cryptographically secure file sharing. The...",
+      "source": "CVE Feed",
+      "published": "2026-07-20T16:16:56+00:00"
+    },
+    {
+      "title": "CVE-2026-21824 - A privilege escalation vulnerability affects HCL Commerce",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-21824",
+      "summary": "CVE ID :CVE-2026-21824 Published : July 20, 2026, 4:16 p.m. | 2 hours, 12 minutes ago Description :HCL Commerce contains an privilege escalation vulnerability that could allow denial of service...",
+      "source": "CVE Feed",
+      "published": "2026-07-20T16:16:56+00:00"
+    },
     {
       "title": "CVE-2026-63090 - ProFTPD mod_sftp Heap Buffer Overflow via SFTP Packet Reassembly",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-63090",
-      "summary": "CVE ID :CVE-2026-63090 Published : July 20, 2026, 3:16 p.m. | 1 hour, 12 minutes ago Description :ProFTPD before 1.3.9c and 1.3.10rc3 contains a heap-based buffer overflow vulnerability in the...",
+      "summary": "CVE ID :CVE-2026-63090 Published : July 20, 2026, 3:16 p.m. | 3 hours, 12 minutes ago Description :ProFTPD before 1.3.9c and 1.3.10rc3 contains a heap-based buffer overflow vulnerability in the...",
       "source": "CVE Feed",
       "published": "2026-07-20T15:16:45+00:00"
     },
     {
       "title": "CVE-2026-46410 - FileBrowser Quantum: unauthenticated user share share info",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-46410",
-      "summary": "CVE ID :CVE-2026-46410 Published : July 20, 2026, 3:16 p.m. | 1 hour, 12 minutes ago Description :FileBrowser Quantum is a free, self-hosted, web-based file manager. Versions prior to 1.3.2-stable...",
+      "summary": "CVE ID :CVE-2026-46410 Published : July 20, 2026, 3:16 p.m. | 3 hours, 12 minutes ago Description :FileBrowser Quantum is a free, self-hosted, web-based file manager. Versions prior to 1.3.2-stable...",
       "source": "CVE Feed",
       "published": "2026-07-20T15:16:38+00:00"
     },
     {
       "title": "CVE-2026-45270 - CI4MS: Stored XSS in Pages Module Content via Broken html_purify Validation Rule",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-45270",
-      "summary": "CVE ID :CVE-2026-45270 Published : July 20, 2026, 3:16 p.m. | 1 hour, 12 minutes ago Description :CI4MS is a CodeIgniter 4-based content management system skeleton. Prior to version 0.31.9.0, the...",
+      "summary": "CVE ID :CVE-2026-45270 Published : July 20, 2026, 3:16 p.m. | 3 hours, 12 minutes ago Description :CI4MS is a CodeIgniter 4-based content management system skeleton. Prior to version 0.31.9.0, the...",
       "source": "CVE Feed",
       "published": "2026-07-20T15:16:38+00:00"
     },
     {
       "title": "CVE-2026-12701 - Pulpcore: pulpcore: relative_path_validator bypass via directory traversal in filesystemexport",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-12701",
-      "summary": "CVE ID :CVE-2026-12701 Published : July 20, 2026, 3:16 p.m. | 1 hour, 12 minutes ago Description :A path traversal vulnerability was found in pulpcore. The relative_path_validator function only...",
+      "summary": "CVE ID :CVE-2026-12701 Published : July 20, 2026, 3:16 p.m. | 3 hours, 12 minutes ago Description :A path traversal vulnerability was found in pulpcore. The relative_path_validator function only...",
       "source": "CVE Feed",
       "published": "2026-07-20T15:16:34+00:00"
     },
@@ -35,13 +210,6 @@
       "summary": "Unidentified hackers compromised an online education system used by South Korea's diplomatic academy, stealing personal information belonging to former and current employees of the country's Ministry...",
       "source": "The Record",
       "published": "2026-07-20T15:15:00+00:00"
-    },
-    {
-      "title": "CVE-2026-21824 - A privilege escalation vulnerability affects HCL Commerce",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-21824",
-      "summary": "CVE ID :CVE-2026-21824 Published : July 20, 2026, 3:04 p.m. | 1 hour, 24 minutes ago Description :HCL Commerce contains an privilege escalation vulnerability that could allow denial of service...",
-      "source": "CVE Feed",
-      "published": "2026-07-20T15:04:37+00:00"
     },
     {
       "title": "Neo Emerges From Stealth With $100M to Control and Secure Enterprise AI Software",
@@ -109,14 +277,14 @@
     {
       "title": "CVE-2026-57309 - Blind SQL Injection in Windu CMS",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-57309",
-      "summary": "CVE ID :CVE-2026-57309 Published : July 20, 2026, 1:16 p.m. | 3 hours, 12 minutes ago Description :A Blind SQL injection vulnerability has been identified in Windu CMS. A remote unauthenticated...",
+      "summary": "CVE ID :CVE-2026-57309 Published : July 20, 2026, 1:16 p.m. | 5 hours, 12 minutes ago Description :A Blind SQL injection vulnerability has been identified in Windu CMS. A remote unauthenticated...",
       "source": "CVE Feed",
       "published": "2026-07-20T13:16:56+00:00"
     },
     {
       "title": "CVE-2026-16248 - Tenda AC10 httpd/netctrl AdvSetLanip fromAdvSetLanip stack-based overflow",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-16248",
-      "summary": "CVE ID :CVE-2026-16248 Published : July 20, 2026, 1:16 p.m. | 3 hours, 12 minutes ago Description :A vulnerability was found in Tenda AC10 16.03.10.09_multi_TDE01. This issue affects the function...",
+      "summary": "CVE ID :CVE-2026-16248 Published : July 20, 2026, 1:16 p.m. | 5 hours, 12 minutes ago Description :A vulnerability was found in Tenda AC10 16.03.10.09_multi_TDE01. This issue affects the function...",
       "source": "CVE Feed",
       "published": "2026-07-20T13:16:56+00:00"
     },
@@ -126,83 +294,6 @@
       "summary": "Attackers could send waves of malicious payloads to trigger buffer pre-allocations that are not freed, exhausting server memory. The post OpenSSL Silently Fixes ‘HollowByte’ DoS Vulnerability...",
       "source": "SecurityWeek",
       "published": "2026-07-20T12:32:40+00:00"
-    },
-    {
-      "title": "CVE-2026-64623 - Network-AI before 5.13.4 Cryptographic Signature Verification Bypass",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-64623",
-      "summary": "CVE ID :CVE-2026-64623 Published : July 20, 2026, 12:19 p.m. | 4 hours, 9 minutes ago Description :Network-AI before 5.13.4 contains an improper cryptographic signature verification vulnerability in...",
-      "source": "CVE Feed",
-      "published": "2026-07-20T12:19:47+00:00"
-    },
-    {
-      "title": "CVE-2026-64622 - Network-AI 5.12.2 through 5.13.3 Missing Authorization via ApprovalInbox",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-64622",
-      "summary": "CVE ID :CVE-2026-64622 Published : July 20, 2026, 12:19 p.m. | 4 hours, 9 minutes ago Description :Network-AI (npm: network-ai) versions 5.12.2 through 5.13.3 fail to apply the configured...",
-      "source": "CVE Feed",
-      "published": "2026-07-20T12:19:47+00:00"
-    },
-    {
-      "title": "CVE-2026-64621 - FreeRDP before 3.28.0 Double-Free via selectedmonitors",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-64621",
-      "summary": "CVE ID :CVE-2026-64621 Published : July 20, 2026, 12:19 p.m. | 4 hours, 9 minutes ago Description :FreeRDP before 3.28.0 (affected 3.x through 3.27.1) contains a double-free vulnerability in...",
-      "source": "CVE Feed",
-      "published": "2026-07-20T12:19:46+00:00"
-    },
-    {
-      "title": "CVE-2026-64620 - FreeRDP before 3.28.0 Heap Buffer Overflow via crypto_rsa_common",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-64620",
-      "summary": "CVE ID :CVE-2026-64620 Published : July 20, 2026, 12:19 p.m. | 4 hours, 9 minutes ago Description :FreeRDP before 3.28.0 (affected out_length, so out-of-bounds bytes are written before the bounds...",
-      "source": "CVE Feed",
-      "published": "2026-07-20T12:19:46+00:00"
-    },
-    {
-      "title": "CVE-2026-63760 - SurrealDB before 3.1.0 Denial of Service via JSON Parser",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-63760",
-      "summary": "CVE ID :CVE-2026-63760 Published : July 20, 2026, 12:19 p.m. | 4 hours, 9 minutes ago Description :SurrealDB before 3.1.0 fails to enforce the configured recursion depth limit in the value and JSON...",
-      "source": "CVE Feed",
-      "published": "2026-07-20T12:19:46+00:00"
-    },
-    {
-      "title": "CVE-2026-63757 - SurrealDB before 3.1.0 Session Hijacking via /rpc sessions",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-63757",
-      "summary": "CVE ID :CVE-2026-63757 Published : July 20, 2026, 12:19 p.m. | 4 hours, 9 minutes ago Description :SurrealDB versions before 3.1.0 contain a session hijacking vulnerability where the HTTP /rpc...",
-      "source": "CVE Feed",
-      "published": "2026-07-20T12:19:45+00:00"
-    },
-    {
-      "title": "CVE-2026-63756 - SurrealDB before 3.1.0 Privilege Escalation via RPC Session Race Condition",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-63756",
-      "summary": "CVE ID :CVE-2026-63756 Published : July 20, 2026, 12:19 p.m. | 4 hours, 9 minutes ago Description :SurrealDB versions before 3.1.0 contain a time-of-check/time-of-use race condition in the HTTP /rpc...",
-      "source": "CVE Feed",
-      "published": "2026-07-20T12:19:45+00:00"
-    },
-    {
-      "title": "CVE-2026-63747 - SurrealDB before 3.1.0 Denial of Service via malformed RPC use",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-63747",
-      "summary": "CVE ID :CVE-2026-63747 Published : July 20, 2026, 12:19 p.m. | 4 hours, 9 minutes ago Description :SurrealDB versions before 3.1.0 contain a denial of service vulnerability in the RPC use handler...",
-      "source": "CVE Feed",
-      "published": "2026-07-20T12:19:44+00:00"
-    },
-    {
-      "title": "CVE-2026-63739 - SurrealDB before 3.1.5 Arbitrary File Read via DEFINE ANALYZER",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-63739",
-      "summary": "CVE ID :CVE-2026-63739 Published : July 20, 2026, 12:19 p.m. | 4 hours, 9 minutes ago Description :SurrealDB before 3.1.5 contains an arbitrary file read vulnerability in the DEFINE ANALYZER mapper...",
-      "source": "CVE Feed",
-      "published": "2026-07-20T12:19:43+00:00"
-    },
-    {
-      "title": "CVE-2026-63735 - SurrealDB before 3.2.0 Authentication Bypass via Custom API",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-63735",
-      "summary": "CVE ID :CVE-2026-63735 Published : July 20, 2026, 12:19 p.m. | 4 hours, 9 minutes ago Description :SurrealDB versions before 3.2.0 fail to validate namespace and database scope in custom API routes...",
-      "source": "CVE Feed",
-      "published": "2026-07-20T12:19:42+00:00"
-    },
-    {
-      "title": "CVE-2026-14448 - Authenticated RCE in system_certificates view",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-14448",
-      "summary": "CVE ID :CVE-2026-14448 Published : July 20, 2026, 12:17 p.m. | 4 hours, 11 minutes ago Description :An high privileged remote attacker can exploit an authenticated OS command injection vulnerability...",
-      "source": "CVE Feed",
-      "published": "2026-07-20T12:17:54+00:00"
     },
     {
       "title": "Russian Intelligence Hacks IP Cameras to Spy on Military Logistics Across NATO States and Ukraine",
@@ -324,20 +415,6 @@
       "published": "2026-07-20T08:17:45+00:00"
     },
     {
-      "title": "CVE-2026-16242 - Hypershift: konnectivity proxy-server accepts agent connections without validating client certificates",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-16242",
-      "summary": "CVE ID :CVE-2026-16242 Published : July 20, 2026, 8:16 a.m. | 8 hours, 12 minutes ago Description :A flaw was found in the Konnectivity proxy-server configuration for hosted control planes. The...",
-      "source": "CVE Feed",
-      "published": "2026-07-20T08:16:29+00:00"
-    },
-    {
-      "title": "CVE-2026-13577 - Dancer2 versions through 2.1.0 for Perl generate insecure session ids when CSPRNG modules are unavailable",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-13577",
-      "summary": "CVE ID :CVE-2026-13577 Published : July 20, 2026, 8:16 a.m. | 8 hours, 12 minutes ago Description :Dancer2 versions through 2.1.0 for Perl generate insecure session ids when CSPRNG modules are...",
-      "source": "CVE Feed",
-      "published": "2026-07-20T08:16:28+00:00"
-    },
-    {
       "title": "Chrome 150 Update Patches Severe Memory Safety Bugs",
       "link": "https://www.securityweek.com/chrome-150-update-patches-severe-memory-safety-bugs/",
       "summary": "The fresh security update resolves six critical and high-severity use-after-free vulnerabilities. The post Chrome 150 Update Patches Severe Memory Safety Bugs appeared first on SecurityWeek.",
@@ -350,34 +427,6 @@
       "summary": "NCSC verwacht op korte termijn misbruik van kritiek WordPress-lek - Update maandag 20 juli 2026, 09:17 door Redactie, 0 reactiesLaatst bijgewerkt: Vandaag, 09:42 Het Nationaal Cyber Security Centrum...",
       "source": "CVE Newsroom",
       "published": "2026-07-20T07:17:00+00:00"
-    },
-    {
-      "title": "CVE-2026-16235 - Crypt::Password versions through 0.28 for Perl generate insecure random values for salts",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-16235",
-      "summary": "CVE ID :CVE-2026-16235 Published : July 20, 2026, 7:16 a.m. | 9 hours, 12 minutes ago Description :Crypt::Password versions through 0.28 for Perl generate insecure random values for salts. These...",
-      "source": "CVE Feed",
-      "published": "2026-07-20T07:16:37+00:00"
-    },
-    {
-      "title": "CVE-2026-13147 - Kirki < 6.0.12 - Unauthenticated Server-Side Request Forgery via kirki_get_apis",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-13147",
-      "summary": "CVE ID :CVE-2026-13147 Published : July 20, 2026, 7:16 a.m. | 9 hours, 12 minutes ago Description :The Kirki WordPress plugin before 6.0.12 does not validate a user-supplied URL before requesting it...",
-      "source": "CVE Feed",
-      "published": "2026-07-20T07:16:35+00:00"
-    },
-    {
-      "title": "CVE-2026-11349 - Modern Events Calendar (Lite & Pro) < 7.34.0 - Unauthenticated SQL Injection via mec_list_load_more",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-11349",
-      "summary": "CVE ID :CVE-2026-11349 Published : July 20, 2026, 7:16 a.m. | 9 hours, 12 minutes ago Description :The Modern Event Calendar Pro WordPress plugin before 7.34.0, Modern Events Calendar Lite WordPress...",
-      "source": "CVE Feed",
-      "published": "2026-07-20T07:16:34+00:00"
-    },
-    {
-      "title": "CVE-2026-10081 - Unlimited Elements for Elementor < 2.0.11 - Unauthenticated Stored XSS via Google Reviews Widget",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-10081",
-      "summary": "CVE ID :CVE-2026-10081 Published : July 20, 2026, 7:16 a.m. | 9 hours, 12 minutes ago Description :The Unlimited Elements For Elementor WordPress plugin before 2.0.11 does not sanitize or escape...",
-      "source": "CVE Feed",
-      "published": "2026-07-20T07:16:33+00:00"
     },
     {
       "title": "CVE-2026-42533 Exposes Critical Pre-Auth nginx RCE Flaw",
@@ -406,13 +455,6 @@
       "summary": "Cybersecurity researchers have flagged a new software supply chain attack codenamed SleeperGem targeting the Ruby ecosystem after three malicious gems were published to RubyGems with the end goal of...",
       "source": "The Hacker News",
       "published": "2026-07-20T05:15:39+00:00"
-    },
-    {
-      "title": "CVE-2026-44359 - Meshtastic GitHub repo vulnerable to Arbitrary Code Execution via pull_request_target Fork Checkout in CI Workflow",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-44359",
-      "summary": "CVE ID :CVE-2026-44359 Published : July 20, 2026, 12:16 a.m. | 16 hours, 11 minutes ago Description :Meshtastic is an open source mesh networking solution. Prior to version 2.7.21.1370b23, the...",
-      "source": "CVE Feed",
-      "published": "2026-07-20T00:16:58+00:00"
     },
     {
       "title": "Critical NGINX Vulnerability Can Crash Workers and May Allow Remote Code Execution",
@@ -569,25 +611,11 @@
       "published": "2026-07-17T13:48:56+00:00"
     },
     {
-      "title": "Dairy company Fairlife suspends production in US after cyber incident",
-      "link": "https://therecord.media/dairy-company-fairlife-suspends-production-us-cyber-incident",
-      "summary": "Fairlife’s U.S. operation includes plants in Michigan, New York and Arizona, and the company's retail sales passed $1 billion in 2022.",
-      "source": "The Record",
-      "published": "2026-07-17T13:40:00+00:00"
-    },
-    {
       "title": "Gold Eagle Clearinghouse Targets Security Gap, but How Is Unclear",
       "link": "https://www.darkreading.com/vulnerabilities-threats/gold-eagle-clearinghouse-targets-security-gap",
       "summary": "The White House launched Gold Eagle to coordinate vulnerability response in a new AI world, but multiple questions linger over how it's being implemented.",
       "source": "Dark Reading",
       "published": "2026-07-17T13:00:00+00:00"
-    },
-    {
-      "title": "Zelensky appoints Ukraine's acting security service chief as acting defense minister",
-      "link": "https://therecord.media/ukraine-acting-defense-minister-yevhenii-khmara",
-      "summary": "Yevhenii Khmara, a major general with deep experience in intelligence, counterterrorism and long-range strikes against Russia, is Ukraine's new acting defense minister.",
-      "source": "The Record",
-      "published": "2026-07-17T12:50:00+00:00"
     },
     {
       "title": "Google Bets 'Agentic Defense' Strategy Can Outpace Attackers",
@@ -623,13 +651,6 @@
       "summary": "'Nederland telt tweeduizend IP-camera's met bekend misbruikt beveiligingslek' Nederland telt zo'n tweeduizend IP-camera's die kwetsbaarheden bevatten waarvan bekend is dat aanvallers er misbruik van...",
       "source": "CVE Newsroom",
       "published": "2026-07-17T11:18:18+00:00"
-    },
-    {
-      "title": "New Windows LegacyHive zero-day gives hackers admin privileges",
-      "link": "https://www.bleepingcomputer.com/news/security/new-windows-legacyhive-zero-day-exploit-grants-hackers-admin-access/",
-      "summary": "A security researcher using the \"Nightmare Eclipse\" handle has released a Windows zero-day exploit dubbed LegacyHive that allows attackers to escalate privileges on up-to-date Windows systems. [...]",
-      "source": "BleepingComputer",
-      "published": "2026-07-17T11:05:30+00:00"
     },
     {
       "title": "Armenia Detains Russian Tourist on U.S. Warrant for REvil Hacker, Lawyers Say Wrong Man",
@@ -686,13 +707,6 @@
       "summary": "Zoom Patches Critical Windows Flaw Enabling Account Takeover Zoom has released security updates to fix CVE-2026-53412, a critical Improper Input Validation vulnerability affecting its Windows...",
       "source": "CVE Newsroom",
       "published": "2026-07-17T05:41:33+00:00"
-    },
-    {
-      "title": "Google Chrome and Mozilla Firefox Patch Critical Browser Flaws",
-      "link": "https://thecyberthrone.in/2026/07/17/google-chrome-and-mozilla-firefox-patch-critical-browser-flaws/",
-      "summary": "Google Chrome and Mozilla Firefox Patch Critical Browser Flaws Web browsers have become the modern enterprise workspace. Employees rely on them to access cloud applications, email, identity...",
-      "source": "CVE Newsroom",
-      "published": "2026-07-17T02:03:38+00:00"
     },
     {
       "title": "Agentic AI: Taming the Unpredictable",
@@ -1003,13 +1017,6 @@
       "published": "2026-07-14T13:00:00+00:00"
     },
     {
-      "title": "11 Old Microsoft-Signed Linux UEFI Shims Could Let Attackers Bypass Secure Boot",
-      "link": "https://thehackernews.com/2026/07/11-old-microsoft-signed-linux-uefi.html",
-      "summary": "Cybersecurity researchers have discovered 11 old, Microsoft-signed, Unified Extensible Firmware Interface (UEFI) applications that could be abused to bypass Secure Boot on most systems using the...",
-      "source": "The Hacker News",
-      "published": "2026-07-14T12:46:18+00:00"
-    },
-    {
       "title": "Weak Security Continues to Fuel Russian Cyberattacks",
       "link": "https://www.darkreading.com/endpoint-security/weak-security-fuel-russian-cyberattacks",
       "summary": "In a first, the UK and the EU jointly imposed sanctions on Russian individuals and entities for cyberattacks and disinformation campaigns in the region.",
@@ -1204,20 +1211,6 @@
       "summary": "An \"agentic threat actor\" successfully exploited a Langflow flaw to steal data from a production database server and encrypt other systems.",
       "source": "Dark Reading",
       "published": "2026-07-06T16:36:50+00:00"
-    },
-    {
-      "title": "Chinese LLMs Broaden the Gap Between Attackers & Defenders",
-      "link": "https://www.darkreading.com/cyber-risk/chinese-llms-broaden-gap-between-attackers-and-defenders",
-      "summary": "Two new models from Chinese firms compete with top US mainstream and frontier models. Should cyber-defenders be worried?",
-      "source": "Dark Reading",
-      "published": "2026-07-03T13:01:00+00:00"
-    },
-    {
-      "title": "Aussies Face Reduced Cybercrime Risk, as Pressure Shifts to SMBs",
-      "link": "https://www.darkreading.com/cybersecurity-analytics/aussies-face-reduced-cybercrime-risk-pressure-shifts-smbs",
-      "summary": "Improved institutional safeguards and stricter regulations have pushed the burdens of protection and risk reduction on to Australian businesses.",
-      "source": "Dark Reading",
-      "published": "2026-07-02T23:01:00+00:00"
     },
     {
       "title": "FBI Seizes NetNut Proxy Platform, Popa Botnet",
