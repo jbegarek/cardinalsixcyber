@@ -1,12 +1,82 @@
 {
-  "last_updated": "2026-07-21T19:04:24.761020+00:00",
+  "last_updated": "2026-07-21T20:58:05.252167+00:00",
   "articles": [
+    {
+      "title": "CVE-2026-64879 - Command Injection",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-64879",
+      "summary": "CVE ID :CVE-2026-64879 Published : July 21, 2026, 8:17 p.m. | 13 minutes ago Description :A filename supplied during file upload is not properly sanitized before being used in system command...",
+      "source": "CVE Feed",
+      "published": "2026-07-21T20:17:04+00:00"
+    },
+    {
+      "title": "CVE-2026-64878 - Command Injection",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-64878",
+      "summary": "CVE ID :CVE-2026-64878 Published : July 21, 2026, 8:17 p.m. | 13 minutes ago Description :Unvalidated input in asset filter parameters allows shell metacharacters to escape command argument handling...",
+      "source": "CVE Feed",
+      "published": "2026-07-21T20:17:04+00:00"
+    },
+    {
+      "title": "CVE-2026-15957 - Uncontrolled recursion in smithy-rs generated JSON, CBOR, and XML deserializers allows unauthenticated remote denial of service via recursive shapes",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-15957",
+      "summary": "CVE ID :CVE-2026-15957 Published : July 21, 2026, 8:16 p.m. | 13 minutes ago Description :Smithy-RS is a Rust code generation and runtime framework that generates HTTP clients and servers from Smithy...",
+      "source": "CVE Feed",
+      "published": "2026-07-21T20:16:58+00:00"
+    },
+    {
+      "title": "Critical SharePoint RCE flaw exploited to steal machine keys",
+      "link": "https://www.bleepingcomputer.com/news/security/critical-sharepoint-rce-flaw-exploited-to-steal-machine-keys/",
+      "summary": "Hackers are actively exploiting the critical CVE-2026-50522 vulnerability in Microsoft SharePoint to steal machine keys and maintain access even after affected servers are patched. [...]",
+      "source": "BleepingComputer",
+      "published": "2026-07-21T20:06:55+00:00"
+    },
+    {
+      "title": "CVE-2026-64877 - Ticketing REST API SQL Injection Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-64877",
+      "summary": "CVE ID :CVE-2026-64877 Published : July 21, 2026, 7:17 p.m. | 1 hour, 12 minutes ago Description :An authenticated non-admin user can exploit a SQL injection flaw in the ticketing REST API to access...",
+      "source": "CVE Feed",
+      "published": "2026-07-21T19:17:13+00:00"
+    },
+    {
+      "title": "CVE-2026-55084 - SQL Injection in SqlView Filter Parameter Leading to Arbitrary Database Read",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55084",
+      "summary": "CVE ID :CVE-2026-55084 Published : July 21, 2026, 7:17 p.m. | 1 hour, 13 minutes ago Description :DHIS2 is a flexible information system for data capture, management, validation, analytics and...",
+      "source": "CVE Feed",
+      "published": "2026-07-21T19:17:11+00:00"
+    },
+    {
+      "title": "CVE-2026-55082 - DHIS2 SQL injection in SQL View filter values",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55082",
+      "summary": "CVE ID :CVE-2026-55082 Published : July 21, 2026, 7:17 p.m. | 1 hour, 13 minutes ago Description :DHIS2 is a flexible information system for data capture, management, validation, analytics and...",
+      "source": "CVE Feed",
+      "published": "2026-07-21T19:17:11+00:00"
+    },
+    {
+      "title": "CVE-2016-20096 - Linknat VOS3000/VOS2009 2.1.2.0 SQL Injection via login.jsp",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2016-20096",
+      "summary": "CVE ID :CVE-2016-20096 Published : July 21, 2026, 7:17 p.m. | 1 hour, 13 minutes ago Description :Linknat VOS3000 and VOS2009 through version 2.1.2.0 contain an unauthenticated SQL injection...",
+      "source": "CVE Feed",
+      "published": "2026-07-21T19:17:07+00:00"
+    },
+    {
+      "title": "DNI nominee Clayton wins Senate panel’s approval",
+      "link": "https://therecord.media/jay-clayton-dni-nomination-senate-committee-approval",
+      "summary": "By a party-line vote, the Senate Intelligence Committee sent the nomination of Jay Clayton to lead ODNI to the Senate floor.",
+      "source": "The Record",
+      "published": "2026-07-21T19:00:00+00:00"
+    },
     {
       "title": "Anubis ransomware claims Coca-Cola Fairlife attack, threatens data leak",
       "link": "https://www.bleepingcomputer.com/news/security/anubis-ransomware-claims-coca-cola-fairlife-attack-threatens-data-leak/",
       "summary": "The Anubis ransomware gang has claimed responsibility for the cyberattack on Coca-Cola's Fairlife dairy subsidiary, threatening to publish allegedly stolen corporate data unless the company pays a...",
       "source": "BleepingComputer",
       "published": "2026-07-21T18:50:54+00:00"
+    },
+    {
+      "title": "Apple Fixes Hide My Email Bug That Exposed Real Addresses in Mail Logs",
+      "link": "https://thehackernews.com/2026/07/apple-fixes-hide-my-email-bug-that.html",
+      "summary": "Apple has moved to address a security flaw in its Hide My Email service that enabled users' real email addresses to be unmasked, effectively undermining the feature's privacy guarantees. 404 Media...",
+      "source": "The Hacker News",
+      "published": "2026-07-21T18:46:32+00:00"
     },
     {
       "title": "Hacker Turns AI Jailbreaks Into Offensive Attack Platform",
@@ -16,18 +86,74 @@
       "published": "2026-07-21T18:38:52+00:00"
     },
     {
+      "title": "CVE-2026-47419 - praisonai-platform: Agent endpoints accept any agent_id without workspace ownership check, cross-workspace read/update/delete IDOR",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-47419",
+      "summary": "CVE ID :CVE-2026-47419 Published : July 21, 2026, 6:17 p.m. | 2 hours, 13 minutes ago Description :PraisonAI Platform is the platform layer for the PraisonAI multi-agent teams system. Versions prior...",
+      "source": "CVE Feed",
+      "published": "2026-07-21T18:17:00+00:00"
+    },
+    {
+      "title": "CVE-2026-47418 - praisonai-platform: Project endpoints accept any project_id without workspace ownership check, cross-workspace read/update/delete IDOR",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-47418",
+      "summary": "CVE ID :CVE-2026-47418 Published : July 21, 2026, 6:17 p.m. | 2 hours, 13 minutes ago Description :PraisonAI Platform is the platform layer for the PraisonAI multi-agent teams system. Versions prior...",
+      "source": "CVE Feed",
+      "published": "2026-07-21T18:17:00+00:00"
+    },
+    {
+      "title": "CVE-2026-47417 - praisonai-platform: Comment endpoints accept any issue_id without workspace ownership check, cross-workspace comment read and post IDOR",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-47417",
+      "summary": "CVE ID :CVE-2026-47417 Published : July 21, 2026, 6:17 p.m. | 2 hours, 13 minutes ago Description :PraisonAI Platform is the platform layer for the PraisonAI multi-agent teams system. Versions prior...",
+      "source": "CVE Feed",
+      "published": "2026-07-21T18:17:00+00:00"
+    },
+    {
+      "title": "CVE-2026-47416 - praisonai-platform: Any workspace member can promote themselves (or any other member) to owner via PATCH /workspaces/{id}/members/{user_id}",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-47416",
+      "summary": "CVE ID :CVE-2026-47416 Published : July 21, 2026, 6:17 p.m. | 2 hours, 13 minutes ago Description :PraisonAI Platform is the platform layer for the PraisonAI multi-agent teams system. Versions prior...",
+      "source": "CVE Feed",
+      "published": "2026-07-21T18:17:00+00:00"
+    },
+    {
+      "title": "CVE-2026-47415 - praisonai-platform: Issue endpoints accept any issue_id without workspace ownership check, cross-workspace read/update/delete IDOR",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-47415",
+      "summary": "CVE ID :CVE-2026-47415 Published : July 21, 2026, 6:17 p.m. | 2 hours, 13 minutes ago Description :PraisonAI Platform is the platform layer for the PraisonAI multi-agent teams system. Versions prior...",
+      "source": "CVE Feed",
+      "published": "2026-07-21T18:17:00+00:00"
+    },
+    {
+      "title": "CVE-2026-47413 - praisonai-platform: Any workspace member can add arbitrary user as owner via POST /workspaces/{id}/members",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-47413",
+      "summary": "CVE ID :CVE-2026-47413 Published : July 21, 2026, 6:17 p.m. | 2 hours, 13 minutes ago Description :PraisonAI Platform is the platform layer for the PraisonAI multi-agent teams system. Versions prior...",
+      "source": "CVE Feed",
+      "published": "2026-07-21T18:17:00+00:00"
+    },
+    {
+      "title": "CVE-2026-47412 - praisonai-platform: Any workspace member can delete the entire workspace via DELETE /workspaces/{id}",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-47412",
+      "summary": "CVE ID :CVE-2026-47412 Published : July 21, 2026, 6:16 p.m. | 2 hours, 13 minutes ago Description :PraisonAI Platform is the platform layer for the PraisonAI multi-agent teams system. Versions prior...",
+      "source": "CVE Feed",
+      "published": "2026-07-21T18:16:59+00:00"
+    },
+    {
+      "title": "CVE-2026-44880 - Low-Privilege Authenticated Buffer Overflow Vulnerabilities lead to Remote Code Execution in AOS-CX",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-44880",
+      "summary": "CVE ID :CVE-2026-44880 Published : July 21, 2026, 6:16 p.m. | 2 hours, 13 minutes ago Description :A buffer overflow vulnerability was found in the command line interface of AOS-CX. Successful...",
+      "source": "CVE Feed",
+      "published": "2026-07-21T18:16:58+00:00"
+    },
+    {
+      "title": "CVE-2026-21579 - Atlassian Confluence Data Center Information Disclosure Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-21579",
+      "summary": "CVE ID :CVE-2026-21579 Published : July 21, 2026, 6:16 p.m. | 2 hours, 13 minutes ago Description :This High severity Information Disclosure vulnerability was introduced in versions 7.17.0, 7.19.0...",
+      "source": "CVE Feed",
+      "published": "2026-07-21T18:16:57+00:00"
+    },
+    {
       "title": "Trump Orders Defense Contractors to Map Software, Suppliers Across Critical Supply Chains",
       "link": "https://www.securityweek.com/trump-orders-defense-contractors-to-map-software-suppliers-across-critical-supply-chains/",
       "summary": "New executive order calls for end-to-end visibility into defense supply chains, including software dependencies, foreign ownership and cyber-related supplier risks. The post Trump Orders Defense...",
       "source": "SecurityWeek",
       "published": "2026-07-21T18:16:09+00:00"
-    },
-    {
-      "title": "CVE-2026-44880 - Low-Privilege Authenticated Buffer Overflow Vulnerabilities lead to Remote Code Execution in AOS-CX",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-44880",
-      "summary": "CVE ID :CVE-2026-44880 Published : July 21, 2026, 6:01 p.m. | 28 minutes ago Description :A buffer overflow vulnerability was found in the command line interface of AOS-CX. Successful exploitation of...",
-      "source": "CVE Feed",
-      "published": "2026-07-21T18:01:52+00:00"
     },
     {
       "title": "Cisco Launches Low-Cost AI Models for Source Code Security",
@@ -39,70 +165,63 @@
     {
       "title": "CVE-2026-47410 - praisonai-platform: JWT signing key defaults to hardcoded \"dev-secret-change-me\", allowing token forgery for any user when PLATFORM_ENV is unset",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-47410",
-      "summary": "CVE ID :CVE-2026-47410 Published : July 21, 2026, 5:17 p.m. | 1 hour, 12 minutes ago Description :PraisonAI Platform is the platform layer for the PraisonAI multi-agent teams system. Versions prior...",
+      "summary": "CVE ID :CVE-2026-47410 Published : July 21, 2026, 5:17 p.m. | 3 hours, 13 minutes ago Description :PraisonAI Platform is the platform layer for the PraisonAI multi-agent teams system. Versions prior...",
       "source": "CVE Feed",
       "published": "2026-07-21T17:17:09+00:00"
     },
     {
       "title": "CVE-2026-47409 - praisonai-platform: Any workspace member can remove any other member (including the owner) via DELETE /workspaces/{id}/members/{user_id}",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-47409",
-      "summary": "CVE ID :CVE-2026-47409 Published : July 21, 2026, 5:17 p.m. | 1 hour, 12 minutes ago Description :PraisonAI Platform is the platform layer for the PraisonAI multi-agent teams system. Versions prior...",
+      "summary": "CVE ID :CVE-2026-47409 Published : July 21, 2026, 5:17 p.m. | 3 hours, 13 minutes ago Description :PraisonAI Platform is the platform layer for the PraisonAI multi-agent teams system. Versions prior...",
       "source": "CVE Feed",
       "published": "2026-07-21T17:17:09+00:00"
     },
     {
       "title": "CVE-2026-47407 - PraisonAI Platform has a cross-workspace IDOR + member-role privilege escalation",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-47407",
-      "summary": "CVE ID :CVE-2026-47407 Published : July 21, 2026, 5:17 p.m. | 1 hour, 12 minutes ago Description :PraisonAI Platform is the platform layer for the PraisonAI multi-agent teams system. Prior to version...",
+      "summary": "CVE ID :CVE-2026-47407 Published : July 21, 2026, 5:17 p.m. | 3 hours, 13 minutes ago Description :PraisonAI Platform is the platform layer for the PraisonAI multi-agent teams system. Prior to...",
       "source": "CVE Feed",
       "published": "2026-07-21T17:17:09+00:00"
     },
     {
       "title": "CVE-2026-47406 - praisonai-platform: Dependency endpoints accept any issue_id and dep_id without workspace ownership check, cross-workspace issue linking + read + delete IDOR",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-47406",
-      "summary": "CVE ID :CVE-2026-47406 Published : July 21, 2026, 5:17 p.m. | 1 hour, 12 minutes ago Description :PraisonAI Platform is the platform layer for the PraisonAI multi-agent teams system. Versions prior...",
+      "summary": "CVE ID :CVE-2026-47406 Published : July 21, 2026, 5:17 p.m. | 3 hours, 13 minutes ago Description :PraisonAI Platform is the platform layer for the PraisonAI multi-agent teams system. Versions prior...",
       "source": "CVE Feed",
       "published": "2026-07-21T17:17:09+00:00"
     },
     {
       "title": "CVE-2026-47405 - PraisonAI Platform missing role checks let any workspace member become owner and take over workspace membership",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-47405",
-      "summary": "CVE ID :CVE-2026-47405 Published : July 21, 2026, 5:17 p.m. | 1 hour, 12 minutes ago Description :PraisonAI Platform is the platform layer for the PraisonAI multi-agent teams system. Versions prior...",
+      "summary": "CVE ID :CVE-2026-47405 Published : July 21, 2026, 5:17 p.m. | 3 hours, 13 minutes ago Description :PraisonAI Platform is the platform layer for the PraisonAI multi-agent teams system. Versions prior...",
       "source": "CVE Feed",
       "published": "2026-07-21T17:17:09+00:00"
     },
     {
       "title": "CVE-2026-47399 - PraisonAI Platform workspace-scoped routes allow cross-workspace object access by global object ID",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-47399",
-      "summary": "CVE ID :CVE-2026-47399 Published : July 21, 2026, 5:17 p.m. | 1 hour, 12 minutes ago Description :PraisonAI Platform is the platform layer for the PraisonAI multi-agent teams system. Prior to version...",
+      "summary": "CVE ID :CVE-2026-47399 Published : July 21, 2026, 5:17 p.m. | 3 hours, 13 minutes ago Description :PraisonAI Platform is the platform layer for the PraisonAI multi-agent teams system. Prior to...",
       "source": "CVE Feed",
       "published": "2026-07-21T17:17:08+00:00"
     },
     {
       "title": "CVE-2026-47398 - PraisonAI: Arbitrary code execution via unguarded `spec.loader.exec_module` in `agents_generator.py` - sibling of CVE-2026-44334",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-47398",
-      "summary": "CVE ID :CVE-2026-47398 Published : July 21, 2026, 5:17 p.m. | 1 hour, 12 minutes ago Description :PraisonAI is a multi-agent teams system. The v4.6.32 chokepoint refactor (which patched...",
+      "summary": "CVE ID :CVE-2026-47398 Published : July 21, 2026, 5:17 p.m. | 3 hours, 13 minutes ago Description :PraisonAI is a multi-agent teams system. The v4.6.32 chokepoint refactor (which patched...",
       "source": "CVE Feed",
       "published": "2026-07-21T17:17:08+00:00"
     },
     {
       "title": "CVE-2026-15829 - SQL Injection and Security Boundary Bypass in googleapis/mcp-toolbox",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-15829",
-      "summary": "CVE ID :CVE-2026-15829 Published : July 21, 2026, 5:17 p.m. | 1 hour, 12 minutes ago Description :A SQL injection (CWE-89) and security boundary bypass (CWE-863) vulnerability exists in the prebuilt...",
+      "summary": "CVE ID :CVE-2026-15829 Published : July 21, 2026, 5:17 p.m. | 3 hours, 13 minutes ago Description :A SQL injection (CWE-89) and security boundary bypass (CWE-863) vulnerability exists in the prebuilt...",
       "source": "CVE Feed",
       "published": "2026-07-21T17:17:05+00:00"
     },
     {
       "title": "CVE-2026-15724 - Path traversal in Progress ShareFile Storage Zones Controller (SZC)",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-15724",
-      "summary": "CVE ID :CVE-2026-15724 Published : July 21, 2026, 5:17 p.m. | 1 hour, 12 minutes ago Description :In Progress ShareFile Storage Zones Controller versions prior to 5.12.5 and 6.0.2, an authenticated...",
-      "source": "CVE Feed",
-      "published": "2026-07-21T17:17:04+00:00"
-    },
-    {
-      "title": "CVE-2026-15432 - Observable Timing Discrepancy in Tink-Java and Tink-Android ChunkedMacVerification",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-15432",
-      "summary": "CVE ID :CVE-2026-15432 Published : July 21, 2026, 5:17 p.m. | 1 hour, 12 minutes ago Description :When verifying a mac with a ChunkedMacVerification object, Tink compares the resulting tag with non...",
+      "summary": "CVE ID :CVE-2026-15724 Published : July 21, 2026, 5:17 p.m. | 3 hours, 13 minutes ago Description :In Progress ShareFile Storage Zones Controller versions prior to 5.12.5 and 6.0.2, an authenticated...",
       "source": "CVE Feed",
       "published": "2026-07-21T17:17:04+00:00"
     },
@@ -119,104 +238,6 @@
       "summary": "Hackers are exploiting the \"wp2shell\" critical vulnerability suite (CVE-2026-63030 and CVE-2026-60137) affecting WordPress Core to deploy persistent webshells and install malicious plugins on...",
       "source": "BleepingComputer",
       "published": "2026-07-21T16:41:50+00:00"
-    },
-    {
-      "title": "CVE-2026-64825 - Home Assistant Core < 2026.6.0 Path Traversal File Write via Backup Upload",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-64825",
-      "summary": "CVE ID :CVE-2026-64825 Published : July 21, 2026, 4:17 p.m. | 2 hours, 12 minutes ago Description :Home Assistant Core before 2026.6.0 contains a path traversal vulnerability that allows...",
-      "source": "CVE Feed",
-      "published": "2026-07-21T16:17:21+00:00"
-    },
-    {
-      "title": "CVE-2026-64824 - Home Assistant Core < 2026.7.0 Symlink Path Traversal RCE via backup-restore",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-64824",
-      "summary": "CVE ID :CVE-2026-64824 Published : July 21, 2026, 4:17 p.m. | 2 hours, 12 minutes ago Description :Home Assistant Core before 2026.6.0 contains a path traversal vulnerability in the backup-restore...",
-      "source": "CVE Feed",
-      "published": "2026-07-21T16:17:21+00:00"
-    },
-    {
-      "title": "CVE-2026-47396 - PraisonAI call server exposes unauthenticated agent listing, invocation, and deletion when CALL_SERVER_TOKEN is unset",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-47396",
-      "summary": "CVE ID :CVE-2026-47396 Published : July 21, 2026, 4:17 p.m. | 2 hours, 12 minutes ago Description :PraisonAI is a multi-agent teams system. Prior to version 4.6.40, PraisonAI's call server exposes a...",
-      "source": "CVE Feed",
-      "published": "2026-07-21T16:17:12+00:00"
-    },
-    {
-      "title": "CVE-2026-47394 - PraisonAI vulnerable to unauthenticated arbitrary file read via MCP workflow.show, workflow.validate, deploy.validate",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-47394",
-      "summary": "CVE ID :CVE-2026-47394 Published : July 21, 2026, 4:17 p.m. | 2 hours, 12 minutes ago Description :PraisonAI is a multi-agent teams system. Prior to version 4.6.40, the fix for GHSA-9mqq-jqxf-grvw /...",
-      "source": "CVE Feed",
-      "published": "2026-07-21T16:17:12+00:00"
-    },
-    {
-      "title": "CVE-2026-47393 - PraisonAI `deploy --type api` emits a Flask server with authentication disabled by default",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-47393",
-      "summary": "CVE ID :CVE-2026-47393 Published : July 21, 2026, 4:17 p.m. | 2 hours, 12 minutes ago Description :PraisonAI is a multi-agent teams system. CVE-2026-44338 (GHSA-6rmh-7xcm-cpxj) documents that...",
-      "source": "CVE Feed",
-      "published": "2026-07-21T16:17:12+00:00"
-    },
-    {
-      "title": "CVE-2026-47392 - PraisonAI vulnerable to sandbox escape via `print.__self__` builtins module leak in `execute_code` (subprocess mode)",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-47392",
-      "summary": "CVE ID :CVE-2026-47392 Published : July 21, 2026, 4:17 p.m. | 2 hours, 12 minutes ago Description :PraisonAI is a multi-agent teams system. Prior to version 4.6.40 of PraisonAI, corresponding to...",
-      "source": "CVE Feed",
-      "published": "2026-07-21T16:17:12+00:00"
-    },
-    {
-      "title": "CVE-2026-47391 - PraisonAI's unauthenticated A2A official example can reach real LLM-driven `eval()` tool execution",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-47391",
-      "summary": "CVE ID :CVE-2026-47391 Published : July 21, 2026, 4:17 p.m. | 2 hours, 12 minutes ago Description :PraisonAI is a multi-agent teams system. Prior to version 4.6.40, PraisonAI's first-party A2A server...",
-      "source": "CVE Feed",
-      "published": "2026-07-21T16:17:11+00:00"
-    },
-    {
-      "title": "CVE-2026-28321 - SolarWinds Serv-U Broken Access Control Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-28321",
-      "summary": "CVE ID :CVE-2026-28321 Published : July 21, 2026, 4:17 p.m. | 2 hours, 12 minutes ago Description :SolarWinds Serv-U is affected by a broken access control vulnerability that could allow arbitrary...",
-      "source": "CVE Feed",
-      "published": "2026-07-21T16:17:10+00:00"
-    },
-    {
-      "title": "CVE-2026-28317 - SolarWinds Serv-U Insecure Direct Object Reference (IDOR) Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-28317",
-      "summary": "CVE ID :CVE-2026-28317 Published : July 21, 2026, 4:17 p.m. | 2 hours, 12 minutes ago Description :SolarWinds Serv-U is affected by an insecure direct object reference (IDOR) vulnerability that can...",
-      "source": "CVE Feed",
-      "published": "2026-07-21T16:17:10+00:00"
-    },
-    {
-      "title": "CVE-2026-28316 - SolarWinds Serv-U Insecure Direct Object Reference (IDOR) Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-28316",
-      "summary": "CVE ID :CVE-2026-28316 Published : July 21, 2026, 4:17 p.m. | 2 hours, 12 minutes ago Description :SolarWinds Serv-U is affected by an insecure direct object reference (IDOR) vulnerability that can...",
-      "source": "CVE Feed",
-      "published": "2026-07-21T16:17:09+00:00"
-    },
-    {
-      "title": "CVE-2026-28314 - SolarWinds Serv-U Insecure Direct Object Reference (IDOR) Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-28314",
-      "summary": "CVE ID :CVE-2026-28314 Published : July 21, 2026, 4:17 p.m. | 2 hours, 12 minutes ago Description :SolarWinds Serv-U is affected by an insecure direct object reference vulnerability that leads to an...",
-      "source": "CVE Feed",
-      "published": "2026-07-21T16:17:09+00:00"
-    },
-    {
-      "title": "CVE-2026-28313 - SolarWinds Serv-U Insecure Direct Object Reference (IDOR) Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-28313",
-      "summary": "CVE ID :CVE-2026-28313 Published : July 21, 2026, 4:17 p.m. | 2 hours, 12 minutes ago Description :SolarWinds Serv-U is affected by an insecure direct object reference (IDOR) vulnerability that can...",
-      "source": "CVE Feed",
-      "published": "2026-07-21T16:17:09+00:00"
-    },
-    {
-      "title": "CVE-2026-28312 - SolarWinds Serv-U Privilege Escalation Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-28312",
-      "summary": "CVE ID :CVE-2026-28312 Published : July 21, 2026, 4:17 p.m. | 2 hours, 12 minutes ago Description :SolarWinds Serv-U is affected by a privilege escalation vulnerability. This would elevate a group’s...",
-      "source": "CVE Feed",
-      "published": "2026-07-21T16:17:09+00:00"
-    },
-    {
-      "title": "CVE-2026-28310 - SolarWinds Serv-U Privilege Escalation Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-28310",
-      "summary": "CVE ID :CVE-2026-28310 Published : July 21, 2026, 4:17 p.m. | 2 hours, 12 minutes ago Description :SolarWinds Serv-U is affected by a privilege escalation vulnerability that allows a domain...",
-      "source": "CVE Feed",
-      "published": "2026-07-21T16:17:08+00:00"
     },
     {
       "title": "AWS Kiro Flaw Let a Poisoned Web Page Rewrite Its Config and Run Code",
@@ -452,7 +473,7 @@
     {
       "title": "Estée Lauder discloses data breach via Oracle E-Business flaw",
       "link": "https://www.bleepingcomputer.com/news/security/est-e-lauder-discloses-data-breach-via-oracle-e-business-flaw/",
-      "summary": "Cosmetics giant Estée Lauder is notifying customers of a data breach after hackers exploited a flaw in Oracle E-Business Suite that the company used for human resources (HR) operations. [...]",
+      "summary": "Cosmetics giant Estée Lauder is notifying employees of a data breach after hackers exploited a flaw in Oracle E-Business Suite that the company used for human resources (HR) operations. [...]",
       "source": "BleepingComputer",
       "published": "2026-07-20T22:39:30+00:00"
     },
@@ -534,13 +555,6 @@
       "published": "2026-07-20T18:23:03+00:00"
     },
     {
-      "title": "India says allegedly leaked nuclear plant files pose no safety risk",
-      "link": "https://therecord.media/india-nuclear-plant-kudankulam-world-leaks-documents",
-      "summary": "Documents that the World Leaks cybercrime group claimed to leak from the Kudankulam Nuclear Power Plant do not contain information pertaining to safety or security, Indian officials said.",
-      "source": "The Record",
-      "published": "2026-07-20T18:20:00+00:00"
-    },
-    {
       "title": "New HollowGraph malware uses Microsoft Graph for stealthy C2 comms",
       "link": "https://www.bleepingcomputer.com/news/security/new-hollowgraph-malware-uses-microsoft-graph-for-stealthy-c2-comms/",
       "summary": "A malicious component dubbed HollowGraph uses the calendar feature in compromised Microsoft 365 mailboxes as a command-and-control channel to receive attacker commands and exfiltrate stolen data...",
@@ -602,13 +616,6 @@
       "summary": "At least one Russian intelligence service is systematically hijacking internet-connected security cameras across Europe and Ukraine, using the feeds to watch military transport routes, weapons...",
       "source": "The Hacker News",
       "published": "2026-07-20T12:13:39+00:00"
-    },
-    {
-      "title": "Hugging Face warns an autonomous AI agent hacked its network",
-      "link": "https://www.bleepingcomputer.com/news/security/hugging-face-breach-autonomous-ai-agent-system-internal-datasets-credentials/",
-      "summary": "The Hugging Face artificial intelligence repository disclosed that attackers gained access to internal datasets and credentials after breaching its production infrastructure using an autonomous AI...",
-      "source": "BleepingComputer",
-      "published": "2026-07-20T11:56:28+00:00"
     },
     {
       "title": "Mythos Didn't Break Your Security Program. Your Exposure Window Could.",
@@ -952,13 +959,6 @@
       "summary": "The US government's restrictions on Anthropic and OpenAI frontier models have intensified calls in the UK and other countries to reduce their reliance on US tech companies, with significant cyber...",
       "source": "Dark Reading",
       "published": "2026-07-15T17:03:23+00:00"
-    },
-    {
-      "title": "OkoBot Malware Framework Injects Seed Phrase Phishing Into Ledger and Trezor Apps",
-      "link": "https://thehackernews.com/2026/07/okobot-malware-framework-injects-seed.html",
-      "summary": "A malware framework called OkoBot has been running on Windows machines since April 2025, and one of its modules is built to con hardware wallet owners out of their recovery phrase. On an infected PC...",
-      "source": "The Hacker News",
-      "published": "2026-07-15T15:30:30+00:00"
     },
     {
       "title": "Claude Flaw Automatically Sends Malicious Prompts to AI Agents",
