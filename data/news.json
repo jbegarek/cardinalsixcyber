@@ -1,6 +1,139 @@
 {
-  "last_updated": "2026-07-27T11:10:33.126204+00:00",
+  "last_updated": "2026-07-27T14:11:38.720147+00:00",
   "articles": [
+    {
+      "title": "Shadow AI agents are multiplying. Here's how to find and secure them.",
+      "link": "https://www.bleepingcomputer.com/news/security/shadow-ai-agents-are-multiplying-heres-how-to-find-and-secure-them/",
+      "summary": "Shadow AI agents are rapidly spreading across enterprise platforms, often without IT or security visibility. Nudge Security explains how organizations can discover, assess, and govern AI agents...",
+      "source": "BleepingComputer",
+      "published": "2026-07-27T14:01:11+00:00"
+    },
+    {
+      "title": "PTC Windchill Vulnerability Exploited in Ransomware Campaign",
+      "link": "https://www.securityweek.com/ptc-windchill-vulnerability-exploited-in-ransomware-campaign/",
+      "summary": "The critical unsafe deserialization flaw allows attackers to execute arbitrary code remotely, without authentication. The post PTC Windchill Vulnerability Exploited in Ransomware Campaign appeared...",
+      "source": "SecurityWeek",
+      "published": "2026-07-27T13:19:30+00:00"
+    },
+    {
+      "title": "n8n Sandbox Escape Lets Workflow Editors Run OS Commands as the n8n Process",
+      "link": "https://thehackernews.com/2026/07/n8n-sandbox-escape-lets-workflow.html",
+      "summary": "n8n has patched a high-severity expression-sandbox escape that could let an authenticated workflow editor execute operating-system commands on the server running the automation platform. Security...",
+      "source": "The Hacker News",
+      "published": "2026-07-27T13:05:15+00:00"
+    },
+    {
+      "title": "MedusaHVNC Malware Uses Hidden Windows Desktops to Evade Detection",
+      "link": "https://www.securityweek.com/medusahvnc-malware-uses-hidden-windows-desktops-to-evade-detection/",
+      "summary": "The malware-as-a-service operation launches legitimate browsers on an invisible desktop, giving attackers persistent and covert remote access to compromised Windows systems. The post MedusaHVNC...",
+      "source": "SecurityWeek",
+      "published": "2026-07-27T13:00:00+00:00"
+    },
+    {
+      "title": "Operation BlueDash Deploys Level RMM and ScreenConnect via Fake Teams Update",
+      "link": "https://thehackernews.com/2026/07/operation-bluedash-deploys-level-rmm.html",
+      "summary": "Cybersecurity researchers have flagged a Microsoft Teams-themed phishing campaign that employs \"secure document\" lures to deliver legitimate remote monitoring and management (RMM) tools. \"The victim...",
+      "source": "The Hacker News",
+      "published": "2026-07-27T12:37:49+00:00"
+    },
+    {
+      "title": "Nvidia and Tech Giants Launch AI Security Alliance",
+      "link": "https://www.securityweek.com/nvidia-and-tech-giants-launch-ai-security-alliance/",
+      "summary": "The Nvidia-led coalition aims to give defenders more open tools for testing, auditing and protecting AI models and agents. The post Nvidia and Tech Giants Launch AI Security Alliance appeared first...",
+      "source": "SecurityWeek",
+      "published": "2026-07-27T12:25:43+00:00"
+    },
+    {
+      "title": "CVE-2026-58662 - Apache Thrift: C++ THeaderTransport::readString() info-header length bounds bypass",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-58662",
+      "summary": "CVE ID :CVE-2026-58662 Published : July 27, 2026, 12:16 p.m. | 20 minutes ago Description :Improper Validation of Specified Quantity in Input, Out-of-bounds Read vulnerability in Apache Thrift C++...",
+      "source": "CVE Feed",
+      "published": "2026-07-27T12:16:46+00:00"
+    },
+    {
+      "title": "CVE-2026-58389 - Apache Thrift: Rust binary protocol non-strict path missing string size limit",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-58389",
+      "summary": "CVE ID :CVE-2026-58389 Published : July 27, 2026, 12:16 p.m. | 20 minutes ago Description :Allocation of Resources Without Limits or Throttling vulnerability in Apache Thrift Rust bindings. This...",
+      "source": "CVE Feed",
+      "published": "2026-07-27T12:16:46+00:00"
+    },
+    {
+      "title": "CVE-2026-55971 - Apache Thrift: C++ ZLIB heap buffer overflow (write) in THeaderTransport::untransform()",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55971",
+      "summary": "CVE ID :CVE-2026-55971 Published : July 27, 2026, 12:16 p.m. | 20 minutes ago Description :Heap-based Buffer Overflow vulnerability in Apache Thrift C++ bindings. This issue affects Apache Thrift...",
+      "source": "CVE Feed",
+      "published": "2026-07-27T12:16:46+00:00"
+    },
+    {
+      "title": "CVE-2026-55969 - Apache Thrift, Apache Thrift, Apache Thrift, Apache Thrift, Apache Thrift, Apache Thrift: integer overflow in TProtocol::checkReadBytesAvailable()",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55969",
+      "summary": "CVE ID :CVE-2026-55969 Published : July 27, 2026, 12:16 p.m. | 20 minutes ago Description :Integer Overflow or Wraparound vulnerability in Apache Thrift C++, c_glib, Go, netstd, Delphi and Haxe...",
+      "source": "CVE Feed",
+      "published": "2026-07-27T12:16:45+00:00"
+    },
+    {
+      "title": "CVE-2026-55968 - Apache Thrift: Node.js quadratic-time DoS in server receive transports",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55968",
+      "summary": "CVE ID :CVE-2026-55968 Published : July 27, 2026, 12:16 p.m. | 20 minutes ago Description :Inefficient Algorithmic Complexity, Allocation of Resources Without Limits or Throttling vulnerability in...",
+      "source": "CVE Feed",
+      "published": "2026-07-27T12:16:45+00:00"
+    },
+    {
+      "title": "CVE-2026-48586 - Apache Thrift, Apache Thrift, Apache Thrift, Apache Thrift, Apache Thrift, Apache Thrift: TZlibTransport Decompression Size Limit",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48586",
+      "summary": "CVE ID :CVE-2026-48586 Published : July 27, 2026, 12:16 p.m. | 20 minutes ago Description :Improper Handling of Highly Compressed Data (Data Amplification) vulnerability in Apache Thrift C++, Java...",
+      "source": "CVE Feed",
+      "published": "2026-07-27T12:16:44+00:00"
+    },
+    {
+      "title": "CVE-2026-48145 - Apache Thrift: C++ TSSLSocket matchName() RFC 6125 Wildcard Bypass",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48145",
+      "summary": "CVE ID :CVE-2026-48145 Published : July 27, 2026, 12:16 p.m. | 20 minutes ago Description :Improper Validation of Certificate with Host Mismatch vulnerability in Apache Thrift C++ bindings. This...",
+      "source": "CVE Feed",
+      "published": "2026-07-27T12:16:44+00:00"
+    },
+    {
+      "title": "CVE-2026-48144 - Apache Thrift: c_glib TLS Client Missing Hostname Verification",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48144",
+      "summary": "CVE ID :CVE-2026-48144 Published : July 27, 2026, 12:16 p.m. | 20 minutes ago Description :Improper Validation of Certificate with Host Mismatch vulnerability in Apache Thrift c_glib bindings. This...",
+      "source": "CVE Feed",
+      "published": "2026-07-27T12:16:44+00:00"
+    },
+    {
+      "title": "CVE-2026-43871 - Apache Thrift, Apache Thrift, Apache Thrift, Apache Thrift: TCompactProtocol varint byte-count limit",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-43871",
+      "summary": "CVE ID :CVE-2026-43871 Published : July 27, 2026, 12:16 p.m. | 20 minutes ago Description :Loop with Unreachable Exit Condition ('Infinite Loop') vulnerability in Apache Thrift Python, Go, PHP and...",
+      "source": "CVE Feed",
+      "published": "2026-07-27T12:16:44+00:00"
+    },
+    {
+      "title": "CVE-2026-12495 - Stack-Based Buffer Overflow in the Mercusys MB115-4G",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-12495",
+      "summary": "CVE ID :CVE-2026-12495 Published : July 27, 2026, 12:16 p.m. | 20 minutes ago Description :Denial-of-service (DoS) vulnerability due to a stack buffer overflow in the http_gdpr_decrypt function of...",
+      "source": "CVE Feed",
+      "published": "2026-07-27T12:16:41+00:00"
+    },
+    {
+      "title": "Hackers used autonomous AI agent to spy on Thailand's finance ministry",
+      "link": "https://therecord.media/thailand-hackers-ai-finance-ministry",
+      "summary": "Hackers used an autonomous artificial intelligence agent to carry out a cyber-espionage campaign against Thailand's Ministry of Finance, researchers discovered.",
+      "source": "The Record",
+      "published": "2026-07-27T12:00:00+00:00"
+    },
+    {
+      "title": "Vulnerabilities in proCertum SmartSign software",
+      "link": "https://cert.pl/en/posts/2026/07/CVE-2026-57916/",
+      "summary": "Vulnerabilities in proCertum SmartSign software Vulnerabilities in proCertum SmartSign software CVE ID CVE-2026-57916 Publication date 27 July 2026 Vendor Asseco Product proCertum SmartSign...",
+      "source": "CVE Newsroom",
+      "published": "2026-07-27T11:55:00+00:00"
+    },
+    {
+      "title": "Coca-Cola Confirms Data Breach After Fairlife Ransomware Attack",
+      "link": "https://www.securityweek.com/coca-cola-confirms-data-breach-after-fairlife-ransomware-attack/",
+      "summary": "The Anubis cybercrime group has taken credit for the attack and is threatening to leak data. The post Coca-Cola Confirms Data Breach After Fairlife Ransomware Attack appeared first on SecurityWeek.",
+      "source": "SecurityWeek",
+      "published": "2026-07-27T11:29:03+00:00"
+    },
     {
       "title": "Beelzebub Raises $3.4 Million for Hacker-Trapping Platform",
       "link": "https://www.securityweek.com/beelzebub-raises-3-4-million-for-hacker-trapping-platform/",
@@ -21,6 +154,20 @@
       "summary": "Vulnerability in DaveGamble cJSON library Vulnerability in DaveGamble cJSON library CVE ID CVE-2026-16554 Publication date 27 July 2026 Vendor DaveGamble Product cJSON Vulnerable versions 1.7.19...",
       "source": "CVE Newsroom",
       "published": "2026-07-27T10:55:00+00:00"
+    },
+    {
+      "title": "Two Old Oj Flaws Chained to Trigger GitLab Remote Code Execution",
+      "link": "https://thecyberexpress.com/gitlab-vulnerability-oj-parser-rce/",
+      "summary": "Two Old Oj Flaws Chained to Trigger GitLab Remote Code Execution A newly disclosed GitLab vulnerability has revealed how two long-standing memory-safety flaws in the widely used Ruby JSON parsing...",
+      "source": "CVE Newsroom",
+      "published": "2026-07-27T10:53:42+00:00"
+    },
+    {
+      "title": "Cruciferra Crypter Uses BYOVD and Process Ghosting to Hide Windows Malware",
+      "link": "https://thehackernews.com/2026/07/cruciferra-crypter-uses-byovd-and.html",
+      "summary": "The China-linked cybercrime group behind the use of income tax-related phishing lures targeting Indian taxpayers, tax professionals, and corporate finance teams has been observed using a...",
+      "source": "The Hacker News",
+      "published": "2026-07-27T10:51:45+00:00"
     },
     {
       "title": "Hacked Public Wi-Fi Gateways Used to Harvest Corporate Credentials",
@@ -60,16 +207,9 @@
     {
       "title": "CVE-2026-65894 - Improper Authentication Vulnerability in CP PLUS EZ-P21 IP Camera",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-65894",
-      "summary": "CVE ID :CVE-2026-65894 Published : July 27, 2026, 8:16 a.m. | 2 hours, 20 minutes ago Description :This vulnerability exists in CP PLUS EZ-P21 IP Camera due to improper authentication of HTTP...",
+      "summary": "CVE ID :CVE-2026-65894 Published : July 27, 2026, 8:16 a.m. | 4 hours, 20 minutes ago Description :This vulnerability exists in CP PLUS EZ-P21 IP Camera due to improper authentication of HTTP...",
       "source": "CVE Feed",
       "published": "2026-07-27T08:16:23+00:00"
-    },
-    {
-      "title": "CVE-2026-14837 - SSH Enablement Signature Verification Bypass",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-14837",
-      "summary": "CVE ID :CVE-2026-14837 Published : July 27, 2026, 8:16 a.m. | 2 hours, 20 minutes ago Description :Multiple Lenze products are affected by an improper signature verification vulnerability in the SSH...",
-      "source": "CVE Feed",
-      "published": "2026-07-27T08:16:17+00:00"
     },
     {
       "title": "GitHub Adds 3-Day Dependabot Cooldown to Limit Poisoned Package Adoption",
@@ -88,21 +228,21 @@
     {
       "title": "CVE-2026-15928 - XMLRPC-C Library Reflected Cross-Site Scripting Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-15928",
-      "summary": "CVE ID :CVE-2026-15928 Published : July 27, 2026, 3:16 a.m. | 7 hours, 20 minutes ago Description :XMLRPC-C Library versions 1.07 through 1.67.01 are vulnerable to a reflected cross-site scripting...",
+      "summary": "CVE ID :CVE-2026-15928 Published : July 27, 2026, 3:16 a.m. | 9 hours, 20 minutes ago Description :XMLRPC-C Library versions 1.07 through 1.67.01 are vulnerable to a reflected cross-site scripting...",
       "source": "CVE Feed",
       "published": "2026-07-27T03:16:18+00:00"
     },
     {
       "title": "CVE-2026-17497 - NoteGen arbitrary OS command execution via Tauri shell:allow-execute for bash/python",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-17497",
-      "summary": "CVE ID :CVE-2026-17497 Published : July 26, 2026, 3:16 p.m. | 19 hours, 20 minutes ago Description :NoteGen before 0.32.0 grants the Tauri shell plugin shell:allow-execute capability for bash...",
+      "summary": "CVE ID :CVE-2026-17497 Published : July 26, 2026, 3:16 p.m. | 21 hours, 20 minutes ago Description :NoteGen before 0.32.0 grants the Tauri shell plugin shell:allow-execute capability for bash...",
       "source": "CVE Feed",
       "published": "2026-07-26T15:16:27+00:00"
     },
     {
       "title": "CVE-2026-17496 - NoteGen chat preview XSS via unsanitized AI/skill HTML rendering",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-17496",
-      "summary": "CVE ID :CVE-2026-17496 Published : July 26, 2026, 3:16 p.m. | 19 hours, 20 minutes ago Description :NoteGen before 0.32.0 renders AI chat responses with markdown-it configured with html:true and...",
+      "summary": "CVE ID :CVE-2026-17496 Published : July 26, 2026, 3:16 p.m. | 21 hours, 20 minutes ago Description :NoteGen before 0.32.0 renders AI chat responses with markdown-it configured with html:true and...",
       "source": "CVE Feed",
       "published": "2026-07-26T15:16:27+00:00"
     },
@@ -116,14 +256,14 @@
     {
       "title": "CVE-2026-64530 - net/sched: cls_api: Handle TC_ACT_CONSUMED in tcf_qevent_handle",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-64530",
-      "summary": "CVE ID :CVE-2026-64530 Published : July 26, 2026, 7:16 a.m. | 1 day, 3 hours ago Description :In the Linux kernel, the following vulnerability has been resolved: net/sched: cls_api: Handle...",
+      "summary": "CVE ID :CVE-2026-64530 Published : July 26, 2026, 7:16 a.m. | 1 day, 5 hours ago Description :In the Linux kernel, the following vulnerability has been resolved: net/sched: cls_api: Handle...",
       "source": "CVE Feed",
       "published": "2026-07-26T07:16:41+00:00"
     },
     {
       "title": "CVE-2026-15962 - Fluent Forms Pro Add On Pack <= 6.2.6 - Authenticated (Subscriber+) PHP Object Injection to Arbitrary User Password Change via User Meta Field",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-15962",
-      "summary": "CVE ID :CVE-2026-15962 Published : July 26, 2026, 2:16 a.m. | 1 day, 8 hours ago Description :The Fluent Forms Pro Add On Pack plugin for WordPress is vulnerable to PHP Object Injection in all...",
+      "summary": "CVE ID :CVE-2026-15962 Published : July 26, 2026, 2:16 a.m. | 1 day, 10 hours ago Description :The Fluent Forms Pro Add On Pack plugin for WordPress is vulnerable to PHP Object Injection in all...",
       "source": "CVE Feed",
       "published": "2026-07-26T02:16:28+00:00"
     },
@@ -158,135 +298,72 @@
     {
       "title": "Fastjson 1.x RCE Vulnerability Targeted in Attacks With No Patched Available",
       "link": "https://thehackernews.com/2026/07/fastjson-1x-rce-vulnerability-targeted.html",
-      "summary": "Fastjson 1.x RCE Vulnerability Targeted in Attacks With No Patched Available Security firms ThreatBook and Imperva say attackers are targeting a critical flaw in Fastjson, Alibaba's JSON library for...",
-      "source": "CVE Newsroom",
+      "summary": "Security firms ThreatBook and Imperva say attackers are targeting a critical flaw in Fastjson, Alibaba's JSON library for Java. In affected Spring Boot applications, a malicious JSON request can...",
+      "source": "The Hacker News",
       "published": "2026-07-25T12:52:43+00:00"
     },
     {
       "title": "CVE-2026-66013 - OpenRemote before 1.26.2 Authentication Bypass via Console Registration",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-66013",
-      "summary": "CVE ID :CVE-2026-66013 Published : July 25, 2026, 11:17 a.m. | 1 day, 23 hours ago Description :OpenRemote before 1.26.2 contains an authentication bypass vulnerability in the console registration...",
+      "summary": "CVE ID :CVE-2026-66013 Published : July 25, 2026, 11:17 a.m. | 2 days, 1 hour ago Description :OpenRemote before 1.26.2 contains an authentication bypass vulnerability in the console registration API...",
       "source": "CVE Feed",
       "published": "2026-07-25T11:17:19+00:00"
     },
     {
       "title": "CVE-2026-66012 - SiYuan before v3.7.2 Unauthenticated Administrator Takeover via MCP",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-66012",
-      "summary": "CVE ID :CVE-2026-66012 Published : July 25, 2026, 11:17 a.m. | 1 day, 23 hours ago Description :SiYuan before v3.7.2 contains a missing authorization vulnerability in the POST /mcp kernel endpoint...",
+      "summary": "CVE ID :CVE-2026-66012 Published : July 25, 2026, 11:17 a.m. | 2 days, 1 hour ago Description :SiYuan before v3.7.2 contains a missing authorization vulnerability in the POST /mcp kernel endpoint...",
       "source": "CVE Feed",
       "published": "2026-07-25T11:17:19+00:00"
     },
     {
       "title": "CVE-2026-64523 - net/handshake: Take a long-lived file reference at submit",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-64523",
-      "summary": "CVE ID :CVE-2026-64523 Published : July 25, 2026, 10:17 a.m. | 2 days ago Description :In the Linux kernel, the following vulnerability has been resolved: net/handshake: Take a long-lived file...",
+      "summary": "CVE ID :CVE-2026-64523 Published : July 25, 2026, 10:17 a.m. | 2 days, 2 hours ago Description :In the Linux kernel, the following vulnerability has been resolved: net/handshake: Take a long-lived...",
       "source": "CVE Feed",
       "published": "2026-07-25T10:17:38+00:00"
     },
     {
       "title": "CVE-2026-64522 - net/mlx5e: Fix eswitch mode block underflow on IPsec acquire SA",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-64522",
-      "summary": "CVE ID :CVE-2026-64522 Published : July 25, 2026, 10:17 a.m. | 2 days ago Description :In the Linux kernel, the following vulnerability has been resolved: net/mlx5e: Fix eswitch mode block underflow...",
+      "summary": "CVE ID :CVE-2026-64522 Published : July 25, 2026, 10:17 a.m. | 2 days, 2 hours ago Description :In the Linux kernel, the following vulnerability has been resolved: net/mlx5e: Fix eswitch mode block...",
       "source": "CVE Feed",
       "published": "2026-07-25T10:17:38+00:00"
     },
     {
       "title": "CVE-2026-64520 - firmware: arm_ffa: Bound PARTITION_INFO_GET_REGS copies",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-64520",
-      "summary": "CVE ID :CVE-2026-64520 Published : July 25, 2026, 10:17 a.m. | 2 days ago Description :In the Linux kernel, the following vulnerability has been resolved: firmware: arm_ffa: Bound...",
+      "summary": "CVE ID :CVE-2026-64520 Published : July 25, 2026, 10:17 a.m. | 2 days, 2 hours ago Description :In the Linux kernel, the following vulnerability has been resolved: firmware: arm_ffa: Bound...",
       "source": "CVE Feed",
       "published": "2026-07-25T10:17:38+00:00"
     },
     {
       "title": "CVE-2026-64516 - drm/amdgpu/vce1: Fix VCE 1 firmware size and offsets",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-64516",
-      "summary": "CVE ID :CVE-2026-64516 Published : July 25, 2026, 10:17 a.m. | 2 days ago Description :In the Linux kernel, the following vulnerability has been resolved: drm/amdgpu/vce1: Fix VCE 1 firmware size and...",
+      "summary": "CVE ID :CVE-2026-64516 Published : July 25, 2026, 10:17 a.m. | 2 days, 2 hours ago Description :In the Linux kernel, the following vulnerability has been resolved: drm/amdgpu/vce1: Fix VCE 1 firmware...",
       "source": "CVE Feed",
       "published": "2026-07-25T10:17:37+00:00"
     },
     {
       "title": "CVE-2026-64515 - wifi: mac80211: fix MLE defragmentation",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-64515",
-      "summary": "CVE ID :CVE-2026-64515 Published : July 25, 2026, 10:17 a.m. | 2 days ago Description :In the Linux kernel, the following vulnerability has been resolved: wifi: mac80211: fix MLE defragmentation If...",
+      "summary": "CVE ID :CVE-2026-64515 Published : July 25, 2026, 10:17 a.m. | 2 days, 2 hours ago Description :In the Linux kernel, the following vulnerability has been resolved: wifi: mac80211: fix MLE...",
       "source": "CVE Feed",
       "published": "2026-07-25T10:17:37+00:00"
     },
     {
       "title": "CVE-2026-64490 - ALSA: virtio: Validate control metadata from the device",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-64490",
-      "summary": "CVE ID :CVE-2026-64490 Published : July 25, 2026, 10:17 a.m. | 2 days ago Description :In the Linux kernel, the following vulnerability has been resolved: ALSA: virtio: Validate control metadata from...",
+      "summary": "CVE ID :CVE-2026-64490 Published : July 25, 2026, 10:17 a.m. | 2 days, 2 hours ago Description :In the Linux kernel, the following vulnerability has been resolved: ALSA: virtio: Validate control...",
       "source": "CVE Feed",
       "published": "2026-07-25T10:17:34+00:00"
     },
     {
       "title": "CVE-2026-64475 - vfio/pci: Release the VGA arbiter client on register_device() failure",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-64475",
-      "summary": "CVE ID :CVE-2026-64475 Published : July 25, 2026, 10:17 a.m. | 2 days ago Description :In the Linux kernel, the following vulnerability has been resolved: vfio/pci: Release the VGA arbiter client on...",
+      "summary": "CVE ID :CVE-2026-64475 Published : July 25, 2026, 10:17 a.m. | 2 days, 2 hours ago Description :In the Linux kernel, the following vulnerability has been resolved: vfio/pci: Release the VGA arbiter...",
       "source": "CVE Feed",
       "published": "2026-07-25T10:17:32+00:00"
-    },
-    {
-      "title": "CVE-2026-64467 - rust_binder: use a u64 stride when cleaning up the offsets array",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-64467",
-      "summary": "CVE ID :CVE-2026-64467 Published : July 25, 2026, 10:17 a.m. | 2 days ago Description :In the Linux kernel, the following vulnerability has been resolved: rust_binder: use a u64 stride when cleaning...",
-      "source": "CVE Feed",
-      "published": "2026-07-25T10:17:32+00:00"
-    },
-    {
-      "title": "CVE-2026-64459 - tcp: restore RCU grace period in tcp_ao_destroy_sock",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-64459",
-      "summary": "CVE ID :CVE-2026-64459 Published : July 25, 2026, 10:17 a.m. | 2 days ago Description :In the Linux kernel, the following vulnerability has been resolved: tcp: restore RCU grace period in...",
-      "source": "CVE Feed",
-      "published": "2026-07-25T10:17:31+00:00"
-    },
-    {
-      "title": "CVE-2026-64450 - tipc: fix out-of-bounds read in broadcast Gap ACK blocks",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-64450",
-      "summary": "CVE ID :CVE-2026-64450 Published : July 25, 2026, 10:17 a.m. | 2 days ago Description :In the Linux kernel, the following vulnerability has been resolved: tipc: fix out-of-bounds read in broadcast...",
-      "source": "CVE Feed",
-      "published": "2026-07-25T10:17:29+00:00"
-    },
-    {
-      "title": "CVE-2026-64448 - smb: client: restrict implied bcc[0] exemption to responses without data area",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-64448",
-      "summary": "CVE ID :CVE-2026-64448 Published : July 25, 2026, 10:17 a.m. | 2 days ago Description :In the Linux kernel, the following vulnerability has been resolved: smb: client: restrict implied bcc[0]...",
-      "source": "CVE Feed",
-      "published": "2026-07-25T10:17:29+00:00"
-    },
-    {
-      "title": "CVE-2026-64445 - staging: rtl8723bs: fix WEP length underflow and OOB read in OnAuth()",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-64445",
-      "summary": "CVE ID :CVE-2026-64445 Published : July 25, 2026, 10:17 a.m. | 2 days ago Description :In the Linux kernel, the following vulnerability has been resolved: staging: rtl8723bs: fix WEP length underflow...",
-      "source": "CVE Feed",
-      "published": "2026-07-25T10:17:29+00:00"
-    },
-    {
-      "title": "CVE-2026-64444 - staging: rtl8723bs: fix OOB read in OnAssocRsp() IE loop",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-64444",
-      "summary": "CVE ID :CVE-2026-64444 Published : July 25, 2026, 10:17 a.m. | 2 days ago Description :In the Linux kernel, the following vulnerability has been resolved: staging: rtl8723bs: fix OOB read in...",
-      "source": "CVE Feed",
-      "published": "2026-07-25T10:17:29+00:00"
-    },
-    {
-      "title": "CVE-2026-64443 - staging: rtl8723bs: fix OOB read in update_beacon_info() IE loop",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-64443",
-      "summary": "CVE ID :CVE-2026-64443 Published : July 25, 2026, 10:17 a.m. | 2 days ago Description :In the Linux kernel, the following vulnerability has been resolved: staging: rtl8723bs: fix OOB read in...",
-      "source": "CVE Feed",
-      "published": "2026-07-25T10:17:28+00:00"
-    },
-    {
-      "title": "CVE-2026-64442 - staging: rtl8723bs: fix OOB reads in IE loops in issue_assocreq() and join_cmd_hdl()",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-64442",
-      "summary": "CVE ID :CVE-2026-64442 Published : July 25, 2026, 10:17 a.m. | 2 days ago Description :In the Linux kernel, the following vulnerability has been resolved: staging: rtl8723bs: fix OOB reads in IE...",
-      "source": "CVE Feed",
-      "published": "2026-07-25T10:17:28+00:00"
-    },
-    {
-      "title": "CVE-2026-64441 - staging: rtl8723bs: fix OOB reads in rtw_get_sec_ie(), rtw_get_wapi_ie(), and rtw_get_wps_attr()",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-64441",
-      "summary": "CVE ID :CVE-2026-64441 Published : July 25, 2026, 10:17 a.m. | 2 days ago Description :In the Linux kernel, the following vulnerability has been resolved: staging: rtl8723bs: fix OOB reads in...",
-      "source": "CVE Feed",
-      "published": "2026-07-25T10:17:28+00:00"
     },
     {
       "title": "Researcher Publishes GitLab RCE PoC Letting Authenticated Users Run Commands as Git",
@@ -305,8 +382,8 @@
     {
       "title": "Cl0p Affiliates Target Internet-Exposed PTC Windchill and FlexPLM with Unauthenticated RCE",
       "link": "https://thehackernews.com/2026/07/cl0p-affiliates-target-internet-exposed.html",
-      "summary": "Cl0p Affiliates Target Internet-Exposed PTC Windchill and FlexPLM with Unauthenticated RCE Threat actors linked to the Cl0p (aka Chubby Scorpius, FIN11, Graceful Spider, and Lace Tempest) ransomware...",
-      "source": "CVE Newsroom",
+      "summary": "Threat actors linked to the Cl0p (aka Chubby Scorpius, FIN11, Graceful Spider, and Lace Tempest) ransomware campaign are exploiting flaws in internet-exposed PTC Windmill and FlexPLM deployments as...",
+      "source": "The Hacker News",
       "published": "2026-07-25T10:14:03+00:00"
     },
     {
@@ -322,13 +399,6 @@
       "summary": "ChatGPT, the famous artificial intelligence chatbot that allows users to converse with various personalities and topics, has connectivity issues worldwide. [...]",
       "source": "BleepingComputer",
       "published": "2026-07-25T09:31:09+00:00"
-    },
-    {
-      "title": "Rockwell Patches Code Execution Flaws in Arena Simulation Software",
-      "link": "https://www.securityweek.com/rockwell-patches-code-execution-flaws-in-arena-simulation-software/",
-      "summary": "A researcher has explained how an attacker could exploit these vulnerabilities to target industrial organizations. The post Rockwell Patches Code Execution Flaws in Arena Simulation Software appeared...",
-      "source": "SecurityWeek",
-      "published": "2026-07-25T08:30:00+00:00"
     },
     {
       "title": "CISOs vs. Boards: Myth or Misunderstanding?",
@@ -401,17 +471,10 @@
       "published": "2026-07-24T14:40:42+00:00"
     },
     {
-      "title": "In Other News: Dolphin X AI-Powered Malware, Car Anti-Theft Device Hack, 400 Linux Kernel Flaws",
-      "link": "https://www.securityweek.com/in-other-news-dolphin-x-ai-powered-malware-car-anti-theft-device-hack-400-linux-kernel-flaws/",
-      "summary": "Noteworthy stories that might have slipped under the radar: Siemens ROX II industrial switch vulnerabilities, Russian Zimbra webmail espionage campaign, Stadler Rail ransomware extortion attempt. The...",
-      "source": "SecurityWeek",
-      "published": "2026-07-24T14:20:00+00:00"
-    },
-    {
       "title": "Certighost Exploit Lets Low-Privileged Active Directory Users Impersonate a Domain Controller",
       "link": "https://thehackernews.com/2026/07/certighost-exploit-lets-low-privileged.html",
-      "summary": "Certighost Exploit Lets Low-Privileged Active Directory Users Impersonate a Domain Controller Researchers H0j3n and Aniq Fakhrul published a working exploit on July 24 that lets a low-privileged...",
-      "source": "CVE Newsroom",
+      "summary": "Researchers H0j3n and Aniq Fakhrul published a working exploit on July 24 that lets a low-privileged Active Directory user obtain a certificate for a Domain Controller and authenticate as that...",
+      "source": "The Hacker News",
       "published": "2026-07-24T14:15:21+00:00"
     },
     {
@@ -450,24 +513,17 @@
       "published": "2026-07-24T12:48:16+00:00"
     },
     {
-      "title": "AegisAI Raises $36 Million for AI-Powered Email Security",
-      "link": "https://www.securityweek.com/aegisai-raises-36-million-for-ai-powered-email-security/",
-      "summary": "The company has raised a total of $49 million in funding, including from Battery Ventures, Accel and Foundation Capital. The post AegisAI Raises $36 Million for AI-Powered Email Security appeared...",
-      "source": "SecurityWeek",
-      "published": "2026-07-24T12:01:18+00:00"
-    },
-    {
       "title": "ChatGPT AgentForger Flaw Could Deploy Rogue Workspace Agents via a Phishing Link",
       "link": "https://thehackernews.com/2026/07/chatgpt-agentforger-flaw-could-deploy.html",
-      "summary": "ChatGPT AgentForger Flaw Could Deploy Rogue Workspace Agents via a Phishing Link Cybersecurity researchers have disclosed a critical vulnerability in OpenAI's ChatGPT Workspace Agents that could have...",
-      "source": "CVE Newsroom",
+      "summary": "Cybersecurity researchers have disclosed a critical vulnerability in OpenAI's ChatGPT Workspace Agents that could have allowed a single phishing link to stealthily build, authorize, and deploy an...",
+      "source": "The Hacker News",
       "published": "2026-07-24T11:53:55+00:00"
     },
     {
       "title": "Bing Images Flaws Let Crafted SVGs Run Commands as SYSTEM on Microsoft's Servers",
       "link": "https://thehackernews.com/2026/07/bing-images-flaws-let-crafted-svgs-run.html",
-      "summary": "Bing Images Flaws Let Crafted SVGs Run Commands as SYSTEM on Microsoft's Servers A crafted SVG submitted to Bing's image search ran commands as NT AUTHORITY\\SYSTEM on Microsoft's production...",
-      "source": "CVE Newsroom",
+      "summary": "A crafted SVG submitted to Bing's image search ran commands as NT AUTHORITY\\SYSTEM on Microsoft's production image-processing workers, and as root on the Linux machines in the same fleet. XBOW's...",
+      "source": "The Hacker News",
       "published": "2026-07-24T11:45:17+00:00"
     },
     {
@@ -476,13 +532,6 @@
       "summary": "AI agent security is moving through a familiar maturity curve: adoption, then visibility, and finally, control. But what we've collectively discovered is that enforcing least privilege for AI agents...",
       "source": "The Hacker News",
       "published": "2026-07-24T11:30:00+00:00"
-    },
-    {
-      "title": "Industry Reactions to OpenAI Models Hacking Hugging Face: Feedback Friday",
-      "link": "https://www.securityweek.com/industry-reactions-to-openai-models-hacking-hugging-face-feedback-friday/",
-      "summary": "Industry professionals debate whether it represents a lab containment failure or an unprecedented agentic capability milestone. The post Industry Reactions to OpenAI Models Hacking Hugging Face...",
-      "source": "SecurityWeek",
-      "published": "2026-07-24T11:19:46+00:00"
     },
     {
       "title": "Man gets six years for hacking 750 women's Snapchat accounts",
@@ -501,8 +550,8 @@
     {
       "title": "Hacker Runs Hermes AI Agent Unattended for Post-Exploitation at Thai Finance Ministry",
       "link": "https://thehackernews.com/2026/07/hacker-runs-hermes-ai-agent-unattended.html",
-      "summary": "Hacker Runs Hermes AI Agent Unattended for Post-Exploitation at Thai Finance Ministry Someone installed a popular AI assistant on a rented server, switched off the setting that makes it ask...",
-      "source": "CVE Newsroom",
+      "summary": "Someone installed a popular AI assistant on a rented server, switched off the setting that makes it ask permission before running risky commands, and pointed it at Thailand's Ministry of Finance...",
+      "source": "The Hacker News",
       "published": "2026-07-24T10:15:29+00:00"
     },
     {
@@ -522,8 +571,8 @@
     {
       "title": "NodeBB Patches Eight AI-Found Flaws Exposing Admin Access and Private Chats",
       "link": "https://thehackernews.com/2026/07/nodebb-patches-eight-ai-found-flaws.html",
-      "summary": "NodeBB Patches Eight AI-Found Flaws Exposing Admin Access and Private Chats Eight security flaws in NodeBB went public on Wednesday, along with the code to exploit them. Aikido Security rates all...",
-      "source": "CVE Newsroom",
+      "summary": "Eight security flaws in NodeBB went public on Wednesday, along with the code to exploit them. Aikido Security rates all eight as high severity and says its AI pentest agents found them in a six-hour...",
+      "source": "The Hacker News",
       "published": "2026-07-24T07:41:06+00:00"
     },
     {
@@ -543,15 +592,15 @@
     {
       "title": "Kimi K3 Agents Found Redis Zero-Days and Built RCE Exploit, Researchers Say",
       "link": "https://thehackernews.com/2026/07/kimi-k3-agents-found-redis-zero-days.html",
-      "summary": "Kimi K3 Agents Found Redis Zero-Days and Built RCE Exploit, Researchers Say Redis shipped seven security releases on July 23 after researchers published authenticated RCE PoCs for stock Redis 6.2.22...",
-      "source": "CVE Newsroom",
+      "summary": "Redis shipped seven security releases on July 23 after researchers published authenticated RCE PoCs for stock Redis 6.2.22, 7.4.9, 8.6.4, and 8.8.0. All four chains require RESTORE. The Streams...",
+      "source": "The Hacker News",
       "published": "2026-07-24T06:58:27+00:00"
     },
     {
       "title": "Fake Notepad++ Plugin Delivers MATCHBOIL.V2 in UAC-0099 Attacks",
       "link": "https://thehackernews.com/2026/07/fake-notepad-plugin-delivers.html",
-      "summary": "Fake Notepad++ Plugin Delivers MATCHBOIL.V2 in UAC-0099 Attacks The Computer Emergency Response Team of Ukraine (CERT-UA) has warned of a new campaign that involves the use of a malicious program...",
-      "source": "CVE Newsroom",
+      "summary": "The Computer Emergency Response Team of Ukraine (CERT-UA) has warned of a new campaign that involves the use of a malicious program that's dressed up as a Notepad++ plugin to compromise Windows...",
+      "source": "The Hacker News",
       "published": "2026-07-24T06:50:57+00:00"
     },
     {
@@ -576,17 +625,10 @@
       "published": "2026-07-23T21:23:18+00:00"
     },
     {
-      "title": "New Dolphin X malware uses AI to rank high-value targets",
-      "link": "https://www.bleepingcomputer.com/news/security/new-dolphin-x-malware-uses-ai-to-rank-high-value-targets/",
-      "summary": "A new Dolphin X remote access trojan claims to use an AI-powered profiling feature to score and rank infected users, helping cybercriminals identify which victims should be targeted first. [...]",
-      "source": "BleepingComputer",
-      "published": "2026-07-23T21:20:34+00:00"
-    },
-    {
       "title": "Russian Espionage Group Exploited Zimbra Zero-Day to Steal Mail and 2FA Codes",
       "link": "https://thehackernews.com/2026/07/russian-espionage-group-exploited.html",
-      "summary": "Russian Espionage Group Exploited Zimbra Zero-Day to Steal Mail and 2FA Codes A Russian state-supported espionage group spent months reading Western mailboxes through a then-unknown flaw in Zimbra's...",
-      "source": "CVE Newsroom",
+      "summary": "A Russian state-supported espionage group spent months reading Western mailboxes through a then-unknown flaw in Zimbra's webmail client. The payload goes after the last 90 days of email, the...",
+      "source": "The Hacker News",
       "published": "2026-07-23T18:36:08+00:00"
     },
     {
@@ -639,13 +681,6 @@
       "published": "2026-07-23T13:27:59+00:00"
     },
     {
-      "title": "Major Australian energy supplier confirms customer data compromised",
-      "link": "https://therecord.media/australia-origin-energy-data-breach",
-      "summary": "Origin Energy said it was working to figure out how many Australians were affected by a recent data breach.",
-      "source": "The Record",
-      "published": "2026-07-23T13:20:00+00:00"
-    },
-    {
       "title": "Chaos Ransomware Uses msaRAT to Route C2 Traffic Through Headless Chrome and Edge",
       "link": "https://thehackernews.com/2026/07/chaos-ransomware-uses-msarat-to-route.html",
       "summary": "The Chaos ransomware group ran its command-and-control through the victim's own browser. Cisco Talos on Thursday detailed msaRAT, the Rust implant behind it, found on a compromised Windows machine...",
@@ -676,8 +711,8 @@
     {
       "title": "China-Nexus JadeProx Uses New TriBack Loader in Government and Healthcare Attacks",
       "link": "https://thehackernews.com/2026/07/china-nexus-jadeprox-uses-new-triback.html",
-      "summary": "China-Nexus JadeProx Uses New TriBack Loader in Government and Healthcare Attacks An exposed Alibaba Cloud server has revealed a China-nexus operation that Group-IB tracks as JadeProx. The cluster...",
-      "source": "CVE Newsroom",
+      "summary": "An exposed Alibaba Cloud server has revealed a China-nexus operation that Group-IB tracks as JadeProx. The cluster has targeted government, healthcare, and education organizations across Asia and...",
+      "source": "The Hacker News",
       "published": "2026-07-23T12:20:23+00:00"
     },
     {
@@ -690,8 +725,8 @@
     {
       "title": "Attackers Weaponize GitHub Actions Runners to Target cPanel and WHM Servers",
       "link": "https://thehackernews.com/2026/07/attackers-weaponize-github-actions.html",
-      "summary": "Attackers Weaponize GitHub Actions Runners to Target cPanel and WHM Servers Cybersecurity researchers have shed light on a large-scale campaign that has turned compromised GitHub repositories into...",
-      "source": "CVE Newsroom",
+      "summary": "Cybersecurity researchers have shed light on a large-scale campaign that has turned compromised GitHub repositories into distributed attack infrastructure designed to target cPanel and WebHost...",
+      "source": "The Hacker News",
       "published": "2026-07-23T11:28:54+00:00"
     },
     {
@@ -938,27 +973,6 @@
       "summary": "A cloud tenant using nothing but ordinary GPU access can push a data center's power draw up and down fast enough to threaten the grid it runs on, with no exploit and no break-in. That is the claim...",
       "source": "The Hacker News",
       "published": "2026-07-21T11:24:50+00:00"
-    },
-    {
-      "title": "WordPress wp2shell Exploitation Grows as Public Exploit Fuels Mass Scanning",
-      "link": "https://thehackernews.com/2026/07/wordpress-wp2shell-exploitation-grows.html",
-      "summary": "Attackers have begun to exploit two critical vulnerabilities in WordPress that, when combined together, enable unauthenticated remote code execution (RCE) and complete compromise of vulnerable...",
-      "source": "The Hacker News",
-      "published": "2026-07-21T08:59:30+00:00"
-    },
-    {
-      "title": "New ENCFORGE Ransomware Targets AI Model Files in Langflow RCE Attack",
-      "link": "https://thehackernews.com/2026/07/new-encforge-ransomware-targets-ai.html",
-      "summary": "Researchers at Sysdig have linked a second attack on the same Langflow server to JADEPUFFER, the AI-agent-driven operator it first documented earlier this month. The same operator has now been...",
-      "source": "The Hacker News",
-      "published": "2026-07-21T07:34:32+00:00"
-    },
-    {
-      "title": "Critical ServiceNow AI Platform Flaw Exploited for Unauthenticated Code Execution",
-      "link": "https://thehackernews.com/2026/07/critical-servicenow-ai-platform-flaw.html",
-      "summary": "Threat actors are now exploiting a recently disclosed critical security flaw impacting ServiceNow AI Platform, according to Defused Cyber. In a post shared on X, the threat intelligence firm said...",
-      "source": "The Hacker News",
-      "published": "2026-07-21T06:29:26+00:00"
     },
     {
       "title": "'WP2Shell' Opens Millions of WordPress Sites to Remote Takeover",
