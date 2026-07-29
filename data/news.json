@@ -1,52 +1,136 @@
 {
-  "last_updated": "2026-07-29T17:04:56.776453+00:00",
+  "last_updated": "2026-07-29T18:58:56.305535+00:00",
   "articles": [
+    {
+      "title": "Critical Rails Flaw Could Let Unauthenticated Attackers Read Server Files via Image Uploads",
+      "link": "https://thehackernews.com/2026/07/critical-rails-flaw-could-let.html",
+      "summary": "Ruby on Rails has released fixes for a critical Active Storage vulnerability that could let unauthenticated attackers read arbitrary files from application servers through crafted image uploads...",
+      "source": "The Hacker News",
+      "published": "2026-07-29T18:10:00+00:00"
+    },
+    {
+      "title": "Health-ISAC warns of rising ShinyHunters data theft attacks on healthcare",
+      "link": "https://www.bleepingcomputer.com/news/security/health-isac-warns-of-rising-shinyhunters-data-theft-attacks-on-healthcare/",
+      "summary": "Health-ISAC, a cybersecurity information-sharing organization for the health sector, is warning healthcare and medical technology organizations of an observed increase in successful attacks by...",
+      "source": "BleepingComputer",
+      "published": "2026-07-29T17:54:05+00:00"
+    },
+    {
+      "title": "Who's Liable When AI Agents Escape? Hugging Face Breach Raises Hard Questions",
+      "link": "https://www.darkreading.com/cyberattacks-data-breaches/liable-ai-agents-escape-hugging-face-breach-questions",
+      "summary": "Dark Reading walks through the many twists and turns in the bizarre story of how OpenAI's agent AI system broke out of its sandbox and decided to target Hugging Face, and what CISOs should be aware...",
+      "source": "Dark Reading",
+      "published": "2026-07-29T17:43:38+00:00"
+    },
+    {
+      "title": "Hugging Face Hack Lessons for Cyber Defenders",
+      "link": "https://www.darkreading.com/cyberattacks-data-breaches/hugging-face-hack-lessons-cyber-defenders",
+      "summary": "Dark Reading Confidential Episode 20: Expert Rich Mogull reflects on lessons cyber teams should pull from the OpenAI agent's attack on Hugging Face.",
+      "source": "Dark Reading",
+      "published": "2026-07-29T17:35:23+00:00"
+    },
+    {
+      "title": "OpenAI says rogue agent behind Hugging Face hack broke into additional services",
+      "link": "https://therecord.media/openai-says-rogue-agent-behind-hugging-face-hack-broke-into-additional-services",
+      "summary": "The four additional targeted organizations weren’t named. OpenAI said they were not affected as severely as Hugging Face.",
+      "source": "The Record",
+      "published": "2026-07-29T17:22:00+00:00"
+    },
+    {
+      "title": "CVE-2026-8339 - SQL Injection in Coverity Connect SOAP API",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-8339",
+      "summary": "CVE ID :CVE-2026-8339 Published : July 29, 2026, 5:16 p.m. | 42 minutes ago Description :A SQL injection vulnerability exists in the Coverity Connect SOAP API for versions between 2024.6.0 and...",
+      "source": "CVE Feed",
+      "published": "2026-07-29T17:16:54+00:00"
+    },
+    {
+      "title": "CVE-2026-8338 - Authentication and Authorization Bypass in Coverity Connect",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-8338",
+      "summary": "CVE ID :CVE-2026-8338 Published : July 29, 2026, 5:16 p.m. | 42 minutes ago Description :A Spring Security authentication and authorization bypass exists in Coverity Connect versions between 2023.6.0...",
+      "source": "CVE Feed",
+      "published": "2026-07-29T17:16:54+00:00"
+    },
+    {
+      "title": "CVE-2026-54727 - proot-distro has a Container Isolation Bypass via Crafted Restore Archive",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54727",
+      "summary": "CVE ID :CVE-2026-54727 Published : July 29, 2026, 5:16 p.m. | 42 minutes ago Description :proot-distro is a utility for managing proot containers. Prior to version 5.1.6, proot-distro restore...",
+      "source": "CVE Feed",
+      "published": "2026-07-29T17:16:53+00:00"
+    },
+    {
+      "title": "CVE-2026-54693 - ZITADEL Users Can Self-Verify Email/Phone via API",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54693",
+      "summary": "CVE ID :CVE-2026-54693 Published : July 29, 2026, 5:16 p.m. | 42 minutes ago Description :ZITADEL is an open source identity management platform. From 2.43.0 through 2.71.19, from 3.0.0 until 3.4.11...",
+      "source": "CVE Feed",
+      "published": "2026-07-29T17:16:53+00:00"
+    },
+    {
+      "title": "CVE-2026-54680 - Logging operator has Fluentd configuration injection that allows remote code execution",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54680",
+      "summary": "CVE ID :CVE-2026-54680 Published : July 29, 2026, 5:16 p.m. | 42 minutes ago Description :Logging operator automates the deployment and configuration of Kubernetes logging pipelines. Prior to 6.6.0...",
+      "source": "CVE Feed",
+      "published": "2026-07-29T17:16:52+00:00"
+    },
+    {
+      "title": "CVE-2026-54574 - `proot-distro install` has a Symlink Escape (Arbitrary Host File Write) via Malicious Tar Archive",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54574",
+      "summary": "CVE ID :CVE-2026-54574 Published : July 29, 2026, 5:16 p.m. | 42 minutes ago Description :proot-distro is a utility for managing proot containers. Prior to version 5.1.5, proot-distro install...",
+      "source": "CVE Feed",
+      "published": "2026-07-29T17:16:52+00:00"
+    },
+    {
+      "title": "When AppSec Scanners Become a Supply Chain Attack Vector",
+      "link": "https://www.darkreading.com/application-security/when-appsec-scanners-become-supply-chain-attack-vector",
+      "summary": "New research shows how security scanners embedded in the software supply chain can be attacked to serve as a foothold for downstream attacks.",
+      "source": "Dark Reading",
+      "published": "2026-07-29T17:06:52+00:00"
+    },
     {
       "title": "CVE-2026-67192 - Xlight FTP Server < 3.9.5 Pre-Auth Stack Buffer Overflow via SSH GCM Cipher",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-67192",
-      "summary": "CVE ID :CVE-2026-67192 Published : July 29, 2026, 4:17 p.m. | 20 minutes ago Description :Xlight FTP Server before 3.9.5 contains a pre-authentication stack buffer overflow vulnerability that allows...",
+      "summary": "CVE ID :CVE-2026-67192 Published : July 29, 2026, 4:17 p.m. | 1 hour, 41 minutes ago Description :Xlight FTP Server before 3.9.5 contains a pre-authentication stack buffer overflow vulnerability that...",
       "source": "CVE Feed",
       "published": "2026-07-29T16:17:57+00:00"
     },
     {
       "title": "CVE-2026-67191 - Xlight FTP Server < 3.9.5 Pre-Auth Heap Buffer Overflow via SSH Parser",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-67191",
-      "summary": "CVE ID :CVE-2026-67191 Published : July 29, 2026, 4:17 p.m. | 20 minutes ago Description :Xlight FTP Server before 3.9.5 contains a pre-authentication heap buffer overflow vulnerability that allows...",
+      "summary": "CVE ID :CVE-2026-67191 Published : July 29, 2026, 4:17 p.m. | 1 hour, 41 minutes ago Description :Xlight FTP Server before 3.9.5 contains a pre-authentication heap buffer overflow vulnerability that...",
       "source": "CVE Feed",
       "published": "2026-07-29T16:17:57+00:00"
     },
     {
       "title": "CVE-2026-60113 - AIT-DSN < 2.2.2 Missing Authentication via SLE API Routes",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-60113",
-      "summary": "CVE ID :CVE-2026-60113 Published : July 29, 2026, 4:17 p.m. | 20 minutes ago Description :AMMOS Instrument Toolkit (AIT) Deep Space Network (DSN) Interface before 2.2.2 contains a missing...",
+      "summary": "CVE ID :CVE-2026-60113 Published : July 29, 2026, 4:17 p.m. | 1 hour, 41 minutes ago Description :AMMOS Instrument Toolkit (AIT) Deep Space Network (DSN) Interface before 2.2.2 contains a missing...",
       "source": "CVE Feed",
       "published": "2026-07-29T16:17:55+00:00"
     },
     {
       "title": "CVE-2026-60112 - AIT-GUI < 2.5.1 Missing Authentication via Sessions.create()",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-60112",
-      "summary": "CVE ID :CVE-2026-60112 Published : July 29, 2026, 4:17 p.m. | 20 minutes ago Description :AMMOS Instrument Toolkit (AIT) GUI before 2.5.1 contains a missing authentication vulnerability that allows...",
+      "summary": "CVE ID :CVE-2026-60112 Published : July 29, 2026, 4:17 p.m. | 1 hour, 41 minutes ago Description :AMMOS Instrument Toolkit (AIT) GUI before 2.5.1 contains a missing authentication vulnerability that...",
       "source": "CVE Feed",
       "published": "2026-07-29T16:17:55+00:00"
     },
     {
       "title": "CVE-2026-54735 - prebid-server's request forgery vulnerability allows for possible host environment data extraction",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-54735",
-      "summary": "CVE ID :CVE-2026-54735 Published : July 29, 2026, 4:17 p.m. | 20 minutes ago Description :Prebid Server is an open-source solution for running real-time advertising auctions in the cloud. Prior to...",
+      "summary": "CVE ID :CVE-2026-54735 Published : July 29, 2026, 4:17 p.m. | 1 hour, 41 minutes ago Description :Prebid Server is an open-source solution for running real-time advertising auctions in the cloud...",
       "source": "CVE Feed",
       "published": "2026-07-29T16:17:54+00:00"
     },
     {
       "title": "CVE-2026-54079 - veraPDF Validation XXE via XFA",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-54079",
-      "summary": "CVE ID :CVE-2026-54079 Published : July 29, 2026, 4:17 p.m. | 20 minutes ago Description :veraPDF validation provides PDF/A and PDF/UA validation, feature reporting, and metadata repair. From 1.17.35...",
+      "summary": "CVE ID :CVE-2026-54079 Published : July 29, 2026, 4:17 p.m. | 1 hour, 41 minutes ago Description :veraPDF validation provides PDF/A and PDF/UA validation, feature reporting, and metadata repair. From...",
       "source": "CVE Feed",
       "published": "2026-07-29T16:17:53+00:00"
     },
     {
       "title": "CVE-2026-54078 - veraPDF Validation XXE via Rich Text",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-54078",
-      "summary": "CVE ID :CVE-2026-54078 Published : July 29, 2026, 4:17 p.m. | 20 minutes ago Description :veraPDF validation model is an implementation of the veraPDF validation model. From 1.25.73 until 1.30.2 and...",
+      "summary": "CVE ID :CVE-2026-54078 Published : July 29, 2026, 4:17 p.m. | 1 hour, 41 minutes ago Description :veraPDF validation model is an implementation of the veraPDF validation model. From 1.25.73 until...",
       "source": "CVE Feed",
       "published": "2026-07-29T16:17:53+00:00"
     },
@@ -74,56 +158,56 @@
     {
       "title": "CVE-2026-65888 - Joomla Extension - balbooa.com - Account takeover vulnerability in Gridbox < 2.20.2",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-65888",
-      "summary": "CVE ID :CVE-2026-65888 Published : July 29, 2026, 3:16 p.m. | 1 hour, 21 minutes ago Description :Joomla Extension - balbooa.com - Account takeover vulnerability in Gridbox Severity: 10.0 | CRITICAL...",
+      "summary": "CVE ID :CVE-2026-65888 Published : July 29, 2026, 3:16 p.m. | 2 hours, 43 minutes ago Description :Joomla Extension - balbooa.com - Account takeover vulnerability in Gridbox Severity: 10.0 | CRITICAL...",
       "source": "CVE Feed",
       "published": "2026-07-29T15:16:28+00:00"
     },
     {
       "title": "CVE-2026-65887 - Joomla Extension - balbooa.com - Unauthenticated arbitrary password reset in Gridbox < 2.20.2",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-65887",
-      "summary": "CVE ID :CVE-2026-65887 Published : July 29, 2026, 3:16 p.m. | 1 hour, 21 minutes ago Description :Joomla Extension - balbooa.com - Unauthenticated arbitrary password reset in Gridbox Severity: 10.0 |...",
+      "summary": "CVE ID :CVE-2026-65887 Published : July 29, 2026, 3:16 p.m. | 2 hours, 43 minutes ago Description :Joomla Extension - balbooa.com - Unauthenticated arbitrary password reset in Gridbox Severity: 10.0...",
       "source": "CVE Feed",
       "published": "2026-07-29T15:16:28+00:00"
     },
     {
       "title": "CVE-2026-65886 - Joomla Extension - balbooa.com - Unauthenticated arbitrary file read in Gridbox < 2.20.2",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-65886",
-      "summary": "CVE ID :CVE-2026-65886 Published : July 29, 2026, 3:16 p.m. | 1 hour, 21 minutes ago Description :Joomla Extension - balbooa.com - Unauthenticated arbitrary file read in Gridbox Severity: 9.2 |...",
+      "summary": "CVE ID :CVE-2026-65886 Published : July 29, 2026, 3:16 p.m. | 2 hours, 43 minutes ago Description :Joomla Extension - balbooa.com - Unauthenticated arbitrary file read in Gridbox Severity: 9.2 |...",
       "source": "CVE Feed",
       "published": "2026-07-29T15:16:28+00:00"
     },
     {
       "title": "CVE-2026-54666 - swagger-typescript-api vulnerable to code injection via unescaped OpenAPI path strings in generated method bodies",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-54666",
-      "summary": "CVE ID :CVE-2026-54666 Published : July 29, 2026, 3:16 p.m. | 1 hour, 21 minutes ago Description :swagger-typescript-api generates API clients for Fetch or Axios from an OpenAPI Specification. Prior...",
+      "summary": "CVE ID :CVE-2026-54666 Published : July 29, 2026, 3:16 p.m. | 2 hours, 43 minutes ago Description :swagger-typescript-api generates API clients for Fetch or Axios from an OpenAPI Specification. Prior...",
       "source": "CVE Feed",
       "published": "2026-07-29T15:16:25+00:00"
     },
     {
       "title": "CVE-2026-54664 - swagger-typescript-api vulnerable to code injection via unescaped enum string values",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-54664",
-      "summary": "CVE ID :CVE-2026-54664 Published : July 29, 2026, 3:16 p.m. | 1 hour, 21 minutes ago Description :swagger-typescript-api generates API clients for Fetch or Axios from an OpenAPI Specification. Prior...",
+      "summary": "CVE ID :CVE-2026-54664 Published : July 29, 2026, 3:16 p.m. | 2 hours, 43 minutes ago Description :swagger-typescript-api generates API clients for Fetch or Axios from an OpenAPI Specification. Prior...",
       "source": "CVE Feed",
       "published": "2026-07-29T15:16:25+00:00"
     },
     {
       "title": "CVE-2026-54662 - swagger-typescript-api vulnerable to code injection via unescaped `servers[0].url` in fetch http-client template",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-54662",
-      "summary": "CVE ID :CVE-2026-54662 Published : July 29, 2026, 3:16 p.m. | 1 hour, 21 minutes ago Description :swagger-typescript-api generates API clients for Fetch or Axios from OpenAPI specifications. Prior to...",
+      "summary": "CVE ID :CVE-2026-54662 Published : July 29, 2026, 3:16 p.m. | 2 hours, 43 minutes ago Description :swagger-typescript-api generates API clients for Fetch or Axios from OpenAPI specifications. Prior...",
       "source": "CVE Feed",
       "published": "2026-07-29T15:16:25+00:00"
     },
     {
       "title": "CVE-2026-54661 - swagger-typescript-api vulnerable to code injection via unescaped `servers[0].url` in axios http-client template",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-54661",
-      "summary": "CVE ID :CVE-2026-54661 Published : July 29, 2026, 3:16 p.m. | 1 hour, 21 minutes ago Description :swagger-typescript-api generates API clients for Fetch or Axios from an OpenAPI Specification. Prior...",
+      "summary": "CVE ID :CVE-2026-54661 Published : July 29, 2026, 3:16 p.m. | 2 hours, 43 minutes ago Description :swagger-typescript-api generates API clients for Fetch or Axios from an OpenAPI Specification. Prior...",
       "source": "CVE Feed",
       "published": "2026-07-29T15:16:25+00:00"
     },
     {
       "title": "CVE-2026-12703 - Bypass of 2FA for Connections via Unattended Access in TeamViewer for macOS",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-12703",
-      "summary": "CVE ID :CVE-2026-12703 Published : July 29, 2026, 3:16 p.m. | 1 hour, 21 minutes ago Description :TeamViewer Full Client and Host for macOS before version 15.80 contain a business logic error that...",
+      "summary": "CVE ID :CVE-2026-12703 Published : July 29, 2026, 3:16 p.m. | 2 hours, 43 minutes ago Description :TeamViewer Full Client and Host for macOS before version 15.80 contain a business logic error that...",
       "source": "CVE Feed",
       "published": "2026-07-29T15:16:20+00:00"
     },
@@ -135,7 +219,7 @@
       "published": "2026-07-29T15:00:00+00:00"
     },
     {
-      "title": "Hackers target over 30 Minnesota water utilities in coordinated OT attack",
+      "title": "Hackers disrupt over 30 Minnesota water utilities in coordinated OT attack",
       "link": "https://www.bleepingcomputer.com/news/security/hackers-target-over-30-minnesota-water-utilities-in-coordinated-ot-attack/",
       "summary": "The Minnesota IT Services (MNIT) agency activated its cybersecurity incident response capabilities across the entire state after hackers targeted more than 30 community water systems in \"a...",
       "source": "BleepingComputer",
@@ -165,56 +249,28 @@
     {
       "title": "CVE-2026-9177 - Server-Side Template Injection in SecureTransport's Apache Velocity mail templates",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-9177",
-      "summary": "CVE ID :CVE-2026-9177 Published : July 29, 2026, 2:16 p.m. | 2 hours, 21 minutes ago Description :A Server-Side Template Injection (SSTI) vulnerability was identified in the mail template...",
+      "summary": "CVE ID :CVE-2026-9177 Published : July 29, 2026, 2:16 p.m. | 3 hours, 43 minutes ago Description :A Server-Side Template Injection (SSTI) vulnerability was identified in the mail template...",
       "source": "CVE Feed",
       "published": "2026-07-29T14:16:35+00:00"
-    },
-    {
-      "title": "CVE-2026-67216 - cJSON cJSON_Compare Exponential Complexity Denial of Service",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-67216",
-      "summary": "CVE ID :CVE-2026-67216 Published : July 29, 2026, 2:16 p.m. | 2 hours, 21 minutes ago Description :cJSON through 1.7.19 contains an inefficient algorithmic complexity flaw in cJSON_Compare(). When...",
-      "source": "CVE Feed",
-      "published": "2026-07-29T14:16:35+00:00"
-    },
-    {
-      "title": "CVE-2026-67215 - cJSON JSON Patch copy/add Uncontrolled Recursion Stack Exhaustion",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-67215",
-      "summary": "CVE ID :CVE-2026-67215 Published : July 29, 2026, 2:16 p.m. | 2 hours, 21 minutes ago Description :cJSON through 1.7.19 is vulnerable to uncontrolled recursion leading to stack exhaustion when an...",
-      "source": "CVE Feed",
-      "published": "2026-07-29T14:16:35+00:00"
-    },
-    {
-      "title": "CVE-2026-67214 - nanoid before 5.1.16 Infinite Loop via Negative Size in non-secure module",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-67214",
-      "summary": "CVE ID :CVE-2026-67214 Published : July 29, 2026, 2:16 p.m. | 2 hours, 21 minutes ago Description :nanoid (Nano ID) before 5.1.16 contains an infinite loop in the customAlphabet and nanoid functions...",
-      "source": "CVE Feed",
-      "published": "2026-07-29T14:16:35+00:00"
-    },
-    {
-      "title": "CVE-2026-67213 - nanoid before 5.1.6 Infinite Loop via Zero Size in customAlphabet and customRandom",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-67213",
-      "summary": "CVE ID :CVE-2026-67213 Published : July 29, 2026, 2:16 p.m. | 2 hours, 21 minutes ago Description :nanoid (Nano ID) before 5.1.6 contains an infinite loop in the customAlphabet and customRandom...",
-      "source": "CVE Feed",
-      "published": "2026-07-29T14:16:34+00:00"
     },
     {
       "title": "CVE-2026-65890 - Joomla Extension - balbooa.com - Unauthenticated SQL injection in Gridbox < 2.20.2",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-65890",
-      "summary": "CVE ID :CVE-2026-65890 Published : July 29, 2026, 2:16 p.m. | 2 hours, 21 minutes ago Description :Joomla Extension - balbooa.com - Unauthenticated SQL injection in Gridbox Severity: 9.2 | CRITICAL...",
+      "summary": "CVE ID :CVE-2026-65890 Published : July 29, 2026, 2:16 p.m. | 3 hours, 43 minutes ago Description :Joomla Extension - balbooa.com - Unauthenticated SQL injection in Gridbox Severity: 9.2 | CRITICAL...",
       "source": "CVE Feed",
       "published": "2026-07-29T14:16:33+00:00"
     },
     {
       "title": "CVE-2026-65889 - Joomla Extension - balbooa.com - Unauthenticated recursive directory deletion in Gridbox < 2.20.2",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-65889",
-      "summary": "CVE ID :CVE-2026-65889 Published : July 29, 2026, 2:16 p.m. | 2 hours, 21 minutes ago Description :Joomla Extension - balbooa.com - Unauthenticated recursive directory deletion Severity: 9.2 |...",
+      "summary": "CVE ID :CVE-2026-65889 Published : July 29, 2026, 2:16 p.m. | 3 hours, 43 minutes ago Description :Joomla Extension - balbooa.com - Unauthenticated recursive directory deletion Severity: 9.2 |...",
       "source": "CVE Feed",
       "published": "2026-07-29T14:16:33+00:00"
     },
     {
       "title": "CVE-2026-55995 - Double-free in the iSNS attribute decoder in open-iscsi",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-55995",
-      "summary": "CVE ID :CVE-2026-55995 Published : July 29, 2026, 2:16 p.m. | 2 hours, 21 minutes ago Description :A Double Free vulnerability in open-iscsi allows an unauthenticated MITM attacker to cause DoS. This...",
+      "summary": "CVE ID :CVE-2026-55995 Published : July 29, 2026, 2:16 p.m. | 3 hours, 43 minutes ago Description :A Double Free vulnerability in open-iscsi allows an unauthenticated MITM attacker to cause DoS. This...",
       "source": "CVE Feed",
       "published": "2026-07-29T14:16:31+00:00"
     },
@@ -259,20 +315,6 @@
       "summary": "The agency said imports of advanced robots pose cybersecurity and other national security risks. The post US Bans Foreign-Made Humanoid Robots, Targeting China Over National Security appeared first...",
       "source": "SecurityWeek",
       "published": "2026-07-29T13:31:00+00:00"
-    },
-    {
-      "title": "CVE-2026-65885 - Joomla Extension - balbooa.com - Authenticated arbitrary file upload in Gridbox < 2.20.2",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-65885",
-      "summary": "CVE ID :CVE-2026-65885 Published : July 29, 2026, 1:19 p.m. | 3 hours, 18 minutes ago Description :Joomla Extension - balbooa.com - Authenticated arbitrary file upload in Gridbox Severity: 9.4 |...",
-      "source": "CVE Feed",
-      "published": "2026-07-29T13:19:10+00:00"
-    },
-    {
-      "title": "CVE-2026-65884 - Joomla Extension - balbooa.com - Privilege Escalation in Gridbox < 2.20.2",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-65884",
-      "summary": "CVE ID :CVE-2026-65884 Published : July 29, 2026, 1:19 p.m. | 3 hours, 18 minutes ago Description :Joomla Extension - balbooa.com - Privilege Escalation in Gridbox Severity: 10.0 | CRITICAL Visit the...",
-      "source": "CVE Feed",
-      "published": "2026-07-29T13:19:10+00:00"
     },
     {
       "title": "Vulnerability in Quick.CMS software",
@@ -576,13 +618,6 @@
       "published": "2026-07-28T15:01:33+00:00"
     },
     {
-      "title": "India’s Bank of Baroda confirms cyber incident after hackers claim data theft",
-      "link": "https://therecord.media/india-bank-of-baroda-reports-cybersecurity-incident",
-      "summary": "An employee's email account had been compromised, allowing unauthorized access to \"certain data,\" Bank of Baroda reported.",
-      "source": "The Record",
-      "published": "2026-07-28T14:45:57+00:00"
-    },
-    {
       "title": "24,650 Internet-Exposed BMCs Disclose IPMI Password Hashes Before Login",
       "link": "https://thehackernews.com/2026/07/24650-internet-exposed-bmcs-disclose.html",
       "summary": "Cybersecurity researchers have sounded an alert after finding more than 36,000 Baseboard Management Controller (BMC) management interfaces exposing Intelligent Platform Management Interface (IPMI)...",
@@ -721,13 +756,6 @@
       "summary": "PleaseFix class of flaws makes it easy to socially engineer agentic browsers and highlights weaknesses in how they handle cross-origin requests.",
       "source": "Dark Reading",
       "published": "2026-07-27T21:39:09+00:00"
-    },
-    {
-      "title": "New Dysphoria DDoS botnet spreads to 200k devices worldwide",
-      "link": "https://www.bleepingcomputer.com/news/security/new-dysphoria-ddos-botnet-spreads-to-200k-devices-worldwide/",
-      "summary": "A botnet called Dysphoria has compromised around 200,000 devices across the world and is using them for distributed denial of service (DDoS) attacks and traffic relay operations. [...]",
-      "source": "BleepingComputer",
-      "published": "2026-07-27T21:08:15+00:00"
     },
     {
       "title": "'Confused Deputy' Flaws Persist in Google Cloud, Microsoft Azure",
@@ -982,13 +1010,6 @@
       "published": "2026-07-23T18:36:08+00:00"
     },
     {
-      "title": "ThreatsDay: Android Spyware, PLC Attacks, AI Image Prompt Injection + 12 More Stories",
-      "link": "https://thehackernews.com/2026/07/threatsday-android-spyware-plc-attacks.html",
-      "summary": "Most of this week's trouble came dressed as something useful. A package stole data. A fake extension opened remote access. A safety app became spyware. An image gave hidden orders to an AI agent...",
-      "source": "The Hacker News",
-      "published": "2026-07-23T15:02:07+00:00"
-    },
-    {
       "title": "Agentic AI Challenges Progress in Confidential Computing",
       "link": "https://www.darkreading.com/endpoint-security/agentic-ai-challenges-progress-in-confidential-computing",
       "summary": "Core issues that slowed down adoption of secure data vaults are being resolved by technology, but artificial intelligence poses new ones. Experts have some answers.",
@@ -1190,27 +1211,6 @@
       "summary": "We're thrilled to unveil the latest evolution of Dark Reading's DR Global section — your go-to source for region-specific cybersecurity intelligence beyond North America.",
       "source": "Dark Reading",
       "published": "2026-07-15T18:08:56+00:00"
-    },
-    {
-      "title": "Is 'Tech-xit' Imminent? UK Steps Up Sovereignty Push Amid AI Strife",
-      "link": "https://www.darkreading.com/cybersecurity-operations/tech-xit-uk-sovereignty-push-amid-ai-strife",
-      "summary": "The US government's restrictions on Anthropic and OpenAI frontier models have intensified calls in the UK and other countries to reduce their reliance on US tech companies, with significant cyber...",
-      "source": "Dark Reading",
-      "published": "2026-07-15T17:03:23+00:00"
-    },
-    {
-      "title": "Claude Flaw Automatically Sends Malicious Prompts to AI Agents",
-      "link": "https://www.darkreading.com/vulnerabilities-threats/claude-flaw-malicious-prompts-ai-agents",
-      "summary": "When combined with another exploit, the \"PromptFiction\" vulnerability, which has been fixed, could have enabled an end-to-end attack on a targeted system.",
-      "source": "Dark Reading",
-      "published": "2026-07-15T15:27:35+00:00"
-    },
-    {
-      "title": "2-Click Cursor Exploit Enables Dev Environment Takeover",
-      "link": "https://www.darkreading.com/application-security/2-click-cursor-exploit-dev-environment-takeover",
-      "summary": "Simple age-old bugs give bad actors access to developers' secrets and source code-rich environments.",
-      "source": "Dark Reading",
-      "published": "2026-07-15T13:00:00+00:00"
     },
     {
       "title": "Microsoft Patches a Record 570 Security Flaws",
