@@ -1,12 +1,68 @@
 {
-  "last_updated": "2026-07-30T08:08:30.627846+00:00",
+  "last_updated": "2026-07-30T11:45:22.667462+00:00",
   "articles": [
+    {
+      "title": "Semiconductor Firm Analog Devices Discloses Data Breach",
+      "link": "https://www.securityweek.com/semiconductor-firm-analog-devices-discloses-data-breach/",
+      "summary": "Hackers were detected on Analog Devices systems in June, and an investigation found that they stole files. The post Semiconductor Firm Analog Devices Discloses Data Breach appeared first on...",
+      "source": "SecurityWeek",
+      "published": "2026-07-30T11:16:23+00:00"
+    },
+    {
+      "title": "Hackers Exploit AnySign4PC via Hacked Korean Sites to Install Backdoors Without Prompts",
+      "link": "https://thehackernews.com/2026/07/hackers-exploit-anysign4pc-via-hacked.html",
+      "summary": "South Korean authorities and four security firms have disclosed a state-sponsored campaign that compromised trusted domestic websites. The attackers used those sites to exploit locally installed...",
+      "source": "The Hacker News",
+      "published": "2026-07-30T10:33:15+00:00"
+    },
+    {
+      "title": "SilverFox Targets Japanese Manufacturer with 3-Driver BYOVD Chain and ValleyRAT",
+      "link": "https://thehackernews.com/2026/07/silverfox-targets-japanese-manufacturer.html",
+      "summary": "The Chinese cybercrime group known as Silver Fox has been observed using new drivers as part of bring your own vulnerable driver (BYOVD) attacks targeting a Japanese organization in the industrial...",
+      "source": "The Hacker News",
+      "published": "2026-07-30T10:32:59+00:00"
+    },
+    {
+      "title": "Critical Ruflo Flaw Lets Attackers Spawn Rogue AI Swarms",
+      "link": "https://www.securityweek.com/critical-ruflo-flaw-lets-attackers-spawn-rogue-ai-swarms/",
+      "summary": "Unauthenticated attackers could send HTTP requests to an exposed endpoint to execute commands inside the MCP bridge container. The post Critical Ruflo Flaw Lets Attackers Spawn Rogue AI Swarms...",
+      "source": "SecurityWeek",
+      "published": "2026-07-30T09:56:10+00:00"
+    },
+    {
+      "title": "1 in 5 Data Center Assets Are Within Easy Reach of Attackers",
+      "link": "https://www.securityweek.com/1-in-5-data-center-assets-are-within-easy-reach-of-attackers/",
+      "summary": "Claroty has analyzed 750,000 cyber-physical systems across some of the world’s largest data center facilities. The post 1 in 5 Data Center Assets Are Within Easy Reach of Attackers appeared first on...",
+      "source": "SecurityWeek",
+      "published": "2026-07-30T09:28:37+00:00"
+    },
+    {
+      "title": "US and Allies Update SBOM Guidance",
+      "link": "https://www.securityweek.com/us-and-allies-update-sbom-guidance/",
+      "summary": "Five years after the initial release, the refresh introduces new elements, removes others, and updates terminology. The post US and Allies Update SBOM Guidance appeared first on SecurityWeek.",
+      "source": "SecurityWeek",
+      "published": "2026-07-30T08:21:19+00:00"
+    },
+    {
+      "title": "CVE-2026-18353 - Unauthenticated SSRF in PIA via OIDC issuer allowlist bypass",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-18353",
+      "summary": "CVE ID :CVE-2026-18353 Published : July 30, 2026, 8:16 a.m. | 2 hours, 21 minutes ago Description :PIA's `POST /v1/upload/sbom` endpoint accepts a Bearer JWT and checks its **unverified** `iss` claim...",
+      "source": "CVE Feed",
+      "published": "2026-07-30T08:16:28+00:00"
+    },
     {
       "title": "Chrome 151 Patches 370 Vulnerabilities",
       "link": "https://www.securityweek.com/chrome-151-patches-370-vulnerabilities/",
       "summary": "The major browser update resolves roughly 80 critical- and high-severity security defects. The post Chrome 151 Patches 370 Vulnerabilities appeared first on SecurityWeek.",
       "source": "SecurityWeek",
       "published": "2026-07-30T07:51:24+00:00"
+    },
+    {
+      "title": "Critical wp2shell Vulnerability Hits WordPress Core, Patch Released",
+      "link": "https://thecyberexpress.com/wp2shell-vulnerability-wordpress/",
+      "summary": "Critical wp2shell Vulnerability Hits WordPress Core, Patch Released WordPress has released security updates to address the wp2shell vulnerability, a critical flaw that allowed attackers to achieve...",
+      "source": "CVE Newsroom",
+      "published": "2026-07-30T07:50:05+00:00"
     },
     {
       "title": "Russian Hackers Exploit Microsoft OWA Flaw to Keep Mailbox Access After Credential Rotation",
@@ -23,6 +79,125 @@
       "published": "2026-07-30T07:28:43+00:00"
     },
     {
+      "title": "CVE-2026-7849 - Command Injection in SCM (idledisconnect parameter)",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-7849",
+      "summary": "CVE ID :CVE-2026-7849 Published : July 30, 2026, 7:16 a.m. | 3 hours, 21 minutes ago Description :Due to improper neutralization of special elements, an unauthenticated remote attacker is able to...",
+      "source": "CVE Feed",
+      "published": "2026-07-30T07:16:59+00:00"
+    },
+    {
+      "title": "CVE-2026-44108 - Firewall bypass during shutdown",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-44108",
+      "summary": "CVE ID :CVE-2026-44108 Published : July 30, 2026, 7:16 a.m. | 3 hours, 21 minutes ago Description :Due to a flaw in the execution order of scripts during shutdown, the firewall is terminated...",
+      "source": "CVE Feed",
+      "published": "2026-07-30T07:16:59+00:00"
+    },
+    {
+      "title": "CVE-2026-44107 - Exposed Reboot via Modbus",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-44107",
+      "summary": "CVE ID :CVE-2026-44107 Published : July 30, 2026, 7:16 a.m. | 3 hours, 21 minutes ago Description :A reboot of the charging controller can be triggered via Modbus TCP without authentication...",
+      "source": "CVE Feed",
+      "published": "2026-07-30T07:16:59+00:00"
+    },
+    {
+      "title": "CVE-2026-44106 - Local Privilege Escalation vulnerability in /etc/init.d/user-applications via customer website file",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-44106",
+      "summary": "CVE ID :CVE-2026-44106 Published : July 30, 2026, 7:16 a.m. | 3 hours, 21 minutes ago Description :A privilege escalation vulnerability in the init-script for user-applications allows a...",
+      "source": "CVE Feed",
+      "published": "2026-07-30T07:16:59+00:00"
+    },
+    {
+      "title": "CVE-2026-44104 - ControllerAgent does not perform validation of firmware",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-44104",
+      "summary": "CVE ID :CVE-2026-44104 Published : July 30, 2026, 7:16 a.m. | 3 hours, 21 minutes ago Description :The firmware update process for the basemodule of the charging controller only validates the CRC32...",
+      "source": "CVE Feed",
+      "published": "2026-07-30T07:16:58+00:00"
+    },
+    {
+      "title": "CVE-2026-44101 - OCPP reconfiguration vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-44101",
+      "summary": "CVE ID :CVE-2026-44101 Published : July 30, 2026, 7:16 a.m. | 3 hours, 21 minutes ago Description :Due to missing authentication the CHARX OCPP Agent service allows an unauthenticated remote attacker...",
+      "source": "CVE Feed",
+      "published": "2026-07-30T07:16:58+00:00"
+    },
+    {
+      "title": "CVE-2026-44100 - JupiCore charging point reconfiguration without auth",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-44100",
+      "summary": "CVE ID :CVE-2026-44100 Published : July 30, 2026, 7:16 a.m. | 3 hours, 21 minutes ago Description :The CHARX JupiCore service allows an unauthenticated remote attacker to reconfigure charging points...",
+      "source": "CVE Feed",
+      "published": "2026-07-30T07:16:58+00:00"
+    },
+    {
+      "title": "CVE-2026-44099 - Local Privilege Escalation via pppd password injection",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-44099",
+      "summary": "CVE ID :CVE-2026-44099 Published : July 30, 2026, 7:16 a.m. | 3 hours, 21 minutes ago Description :A privilege escalation vulnerability in the system configuration allows a low-privileged local user...",
+      "source": "CVE Feed",
+      "published": "2026-07-30T07:16:58+00:00"
+    },
+    {
+      "title": "CVE-2026-44098 - OS Command Injection in OCPP Agent via charge_box_id",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-44098",
+      "summary": "CVE ID :CVE-2026-44098 Published : July 30, 2026, 7:16 a.m. | 3 hours, 21 minutes ago Description :This vulnerability allows an unauthenticated remote attacker with control over the OCPP backend via...",
+      "source": "CVE Feed",
+      "published": "2026-07-30T07:16:57+00:00"
+    },
+    {
+      "title": "CVE-2026-44096 - udhcpc Privilege Escalation",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-44096",
+      "summary": "CVE ID :CVE-2026-44096 Published : July 30, 2026, 7:16 a.m. | 3 hours, 21 minutes ago Description :A privilege escalation vulnerability in udhcpc allows a local user \"charx-web\" to execute arbitrary...",
+      "source": "CVE Feed",
+      "published": "2026-07-30T07:16:57+00:00"
+    },
+    {
+      "title": "CVE-2026-44095 - Local Privilege Escalation via Network scripts",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-44095",
+      "summary": "CVE ID :CVE-2026-44095 Published : July 30, 2026, 7:16 a.m. | 3 hours, 21 minutes ago Description :A privilege escalation vulnerability in a script used for network configuration allows a...",
+      "source": "CVE Feed",
+      "published": "2026-07-30T07:16:57+00:00"
+    },
+    {
+      "title": "CVE-2026-44094 - Fallback to second RAUC slot with default credentials",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-44094",
+      "summary": "CVE ID :CVE-2026-44094 Published : July 30, 2026, 7:16 a.m. | 3 hours, 21 minutes ago Description :An unauthenticated remote attacker can enforce the system to fall back to a firmware partition with...",
+      "source": "CVE Feed",
+      "published": "2026-07-30T07:16:57+00:00"
+    },
+    {
+      "title": "CVE-2026-44093 - Local Privilege Escalation vulnerability in /etc/init.d/user-applications via user-application start script",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-44093",
+      "summary": "CVE ID :CVE-2026-44093 Published : July 30, 2026, 7:16 a.m. | 3 hours, 21 minutes ago Description :A local privilege escalation vulnerability in the init-script for user-applications allows a...",
+      "source": "CVE Feed",
+      "published": "2026-07-30T07:16:57+00:00"
+    },
+    {
+      "title": "CVE-2026-44092 - Missing input validation / stripping of CRLF characters in SystemConfigManager",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-44092",
+      "summary": "CVE ID :CVE-2026-44092 Published : July 30, 2026, 7:16 a.m. | 3 hours, 21 minutes ago Description :An unauthenticated remote attacker can inject malicious input into the ModbusServer application...",
+      "source": "CVE Feed",
+      "published": "2026-07-30T07:16:57+00:00"
+    },
+    {
+      "title": "CVE-2026-44091 - Creation of a new configuration by posting a malicious ID to MQTT",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-44091",
+      "summary": "CVE ID :CVE-2026-44091 Published : July 30, 2026, 7:16 a.m. | 3 hours, 21 minutes ago Description :An unauthenticated remote attacker can post a malicious ID to the MQTT Broker results in the...",
+      "source": "CVE Feed",
+      "published": "2026-07-30T07:16:56+00:00"
+    },
+    {
+      "title": "CVE-2026-44090 - Missing authentication for MQTT Broker",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-44090",
+      "summary": "CVE ID :CVE-2026-44090 Published : July 30, 2026, 7:16 a.m. | 3 hours, 21 minutes ago Description :Due to missing authentication, an unauthenticated remote attacker may access the MQTT broker, which...",
+      "source": "CVE Feed",
+      "published": "2026-07-30T07:16:56+00:00"
+    },
+    {
+      "title": "Cisco meldt misbruik van hardcoded wachtwoord in firewall-beheersoftware",
+      "link": "https://www.security.nl/posting/947218/Cisco+meldt+misbruik+van+hardcoded+wachtwoord+in+firewall-beheersoftware?channel=rss",
+      "summary": "Cisco meldt misbruik van hardcoded wachtwoord in firewall-beheersoftware Aanvallers maken actief misbruik van een hardcoded wachtwoord in het Cisco Secure Firewall Management Center (FMC), software...",
+      "source": "CVE Newsroom",
+      "published": "2026-07-30T07:04:59+00:00"
+    },
+    {
       "title": "Cisco Secure FMC Zero-Day Exploited in the Wild",
       "link": "https://www.securityweek.com/cisco-secure-fmc-zero-day-exploited-in-the-wild/",
       "summary": "The vulnerability tracked as CVE-2026-20316 can be exploited by a remote, unauthenticated attacker to log into affected devices. The post Cisco Secure FMC Zero-Day Exploited in the Wild appeared...",
@@ -32,42 +207,42 @@
     {
       "title": "CVE-2026-58066 - Rocket.Chat SAML SSO XML Signature Wrapping Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-58066",
-      "summary": "CVE ID :CVE-2026-58066 Published : July 30, 2026, 6:25 a.m. | 5 minutes ago Description :Rocket.Chat's SAML SSO before versions 8.7.0, 8.6.1, 8.5.2, 8.4.5, 8.3.7, 8.2.7, 8.1.7, 8.0.8, and 7.10.14...",
+      "summary": "CVE ID :CVE-2026-58066 Published : July 30, 2026, 6:25 a.m. | 4 hours, 12 minutes ago Description :Rocket.Chat's SAML SSO before versions 8.7.0, 8.6.1, 8.5.2, 8.4.5, 8.3.7, 8.2.7, 8.1.7, 8.0.8, and...",
       "source": "CVE Feed",
       "published": "2026-07-30T06:25:55+00:00"
     },
     {
       "title": "CVE-2026-58046 - Plesk SQL Injection Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-58046",
-      "summary": "CVE ID :CVE-2026-58046 Published : July 30, 2026, 6:25 a.m. | 5 minutes ago Description :Improper neutralization in the Plesk XML-RPC API allows a remote authenticated low-privileged user to perform...",
+      "summary": "CVE ID :CVE-2026-58046 Published : July 30, 2026, 6:25 a.m. | 4 hours, 12 minutes ago Description :Improper neutralization in the Plesk XML-RPC API allows a remote authenticated low-privileged user...",
       "source": "CVE Feed",
       "published": "2026-07-30T06:25:55+00:00"
     },
     {
       "title": "CVE-2026-47882 - Spring Boot DevTools remote secret generated with a non-cryptographic PRNG",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-47882",
-      "summary": "CVE ID :CVE-2026-47882 Published : July 30, 2026, 6:25 a.m. | 5 minutes ago Description :When enabling Spring Boot DevTools support for a remote application target (for example a Docker container or...",
+      "summary": "CVE ID :CVE-2026-47882 Published : July 30, 2026, 6:25 a.m. | 4 hours, 12 minutes ago Description :When enabling Spring Boot DevTools support for a remote application target (for example a Docker...",
       "source": "CVE Feed",
       "published": "2026-07-30T06:25:52+00:00"
     },
     {
       "title": "CVE-2026-47873 - Spring Tools Docker integration publishes unauthenticated debug (JDWP) and JMX ports on all network interfaces",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-47873",
-      "summary": "CVE ID :CVE-2026-47873 Published : July 30, 2026, 6:25 a.m. | 5 minutes ago Description :The Boot Dashboard Docker integration in Spring Tools publishes container control ports on all of the host's...",
+      "summary": "CVE ID :CVE-2026-47873 Published : July 30, 2026, 6:25 a.m. | 4 hours, 12 minutes ago Description :The Boot Dashboard Docker integration in Spring Tools publishes container control ports on all of...",
       "source": "CVE Feed",
       "published": "2026-07-30T06:25:52+00:00"
     },
     {
       "title": "CVE-2026-47858 - live information startup mode is vulnerable for remote code execution",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-47858",
-      "summary": "CVE ID :CVE-2026-47858 Published : July 30, 2026, 6:25 a.m. | 5 minutes ago Description :Starting Spring Boot applications in the Spring Tools with the live information mode enabled makes the running...",
+      "summary": "CVE ID :CVE-2026-47858 Published : July 30, 2026, 6:25 a.m. | 4 hours, 12 minutes ago Description :Starting Spring Boot applications in the Spring Tools with the live information mode enabled makes...",
       "source": "CVE Feed",
       "published": "2026-07-30T06:25:52+00:00"
     },
     {
       "title": "CVE-2026-16526 - Pcp: pcp: privilege escalation to root via linux_sockets pmda vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-16526",
-      "summary": "CVE ID :CVE-2026-16526 Published : July 30, 2026, 6:25 a.m. | 6 minutes ago Description :A flaw in the PCP linux_sockets module exposes an unsecured internal connection. An attacker with initial code...",
+      "summary": "CVE ID :CVE-2026-16526 Published : July 30, 2026, 6:25 a.m. | 4 hours, 13 minutes ago Description :A flaw in the PCP linux_sockets module exposes an unsecured internal connection. An attacker with...",
       "source": "CVE Feed",
       "published": "2026-07-30T06:25:02+00:00"
     },
@@ -81,23 +256,16 @@
     {
       "title": "CVE-2026-67248 - A stack-based buffer overflow vulnerability was found in the File Explorer on the ADM",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-67248",
-      "summary": "CVE ID :CVE-2026-67248 Published : July 30, 2026, 5:16 a.m. | 1 hour, 14 minutes ago Description :A stack-based buffer overflow vulnerability was found in the File Explorer on the ADM. The...",
+      "summary": "CVE ID :CVE-2026-67248 Published : July 30, 2026, 5:16 a.m. | 5 hours, 21 minutes ago Description :A stack-based buffer overflow vulnerability was found in the File Explorer on the ADM. The...",
       "source": "CVE Feed",
       "published": "2026-07-30T05:16:39+00:00"
     },
     {
       "title": "CVE-2026-16610 - Admin and Site Enhancements (ASE) Pro <= 8.9.0 - Unauthenticated Remote Code Execution via PHP Code Injection via cfgroup[input] Repeater Row Key",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-16610",
-      "summary": "CVE ID :CVE-2026-16610 Published : July 30, 2026, 5:16 a.m. | 1 hour, 14 minutes ago Description :The Admin and Site Enhancements (ASE) Pro plugin for WordPress is vulnerable to Remote Code Execution...",
+      "summary": "CVE ID :CVE-2026-16610 Published : July 30, 2026, 5:16 a.m. | 5 hours, 21 minutes ago Description :The Admin and Site Enhancements (ASE) Pro plugin for WordPress is vulnerable to Remote Code...",
       "source": "CVE Feed",
       "published": "2026-07-30T05:16:34+00:00"
-    },
-    {
-      "title": "CVE-2026-14356 - FleekDash V2 <= 2.6.2.2 - Missing Authorization to Authenticated (Subscriber+) Administrator Account Takeover via /users/{id} REST Endpoint",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-14356",
-      "summary": "CVE ID :CVE-2026-14356 Published : July 30, 2026, 5:16 a.m. | 1 hour, 14 minutes ago Description :The FleekDash V2 plugin for WordPress is vulnerable to authorization bypass in all versions up to...",
-      "source": "CVE Feed",
-      "published": "2026-07-30T05:16:32+00:00"
     },
     {
       "title": "Cisco FMC Zero-Day Actively Exploited, Static Credentials Could Expose Sensitive Data",
@@ -105,27 +273,6 @@
       "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a newly disclosed security flaw impacting Cisco Secure Firewall Management Center (FMC) Software to its Known...",
       "source": "The Hacker News",
       "published": "2026-07-30T05:08:39+00:00"
-    },
-    {
-      "title": "CVE-2026-67244 - A format string vulnerability was found in the Notification OAuth settings of ADM",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-67244",
-      "summary": "CVE ID :CVE-2026-67244 Published : July 30, 2026, 3:16 a.m. | 3 hours, 15 minutes ago Description :A format string vulnerability was found in the Notification OAuth settings of ADM. The vulnerability...",
-      "source": "CVE Feed",
-      "published": "2026-07-30T03:16:25+00:00"
-    },
-    {
-      "title": "CVE-2026-48449 - Adobe Campaign Classic (ACC) | Incorrect Authorization (CWE-863)",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48449",
-      "summary": "CVE ID :CVE-2026-48449 Published : July 30, 2026, 3:16 a.m. | 3 hours, 15 minutes ago Description :Adobe Campaign Classic (ACC) is affected by an Incorrect Authorization vulnerability that could...",
-      "source": "CVE Feed",
-      "published": "2026-07-30T03:16:24+00:00"
-    },
-    {
-      "title": "CVE-2026-48448 - Adobe Campaign Classic (ACC) | Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') (CWE-89)",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48448",
-      "summary": "CVE ID :CVE-2026-48448 Published : July 30, 2026, 3:16 a.m. | 3 hours, 15 minutes ago Description :Adobe Campaign Classic (ACC) is affected by an Improper Neutralization of Special Elements used in...",
-      "source": "CVE Feed",
-      "published": "2026-07-30T03:16:24+00:00"
     },
     {
       "title": "CISA Adds Cisco Secure FMC Vulnerability to KEV",
@@ -156,13 +303,6 @@
       "published": "2026-07-29T23:44:07+00:00"
     },
     {
-      "title": "CVE-2026-67595 - VaahCMS 2.0.0 - 2.3.4 Malicious JavaScript Supply Chain via security-otp.blade.php",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-67595",
-      "summary": "CVE ID :CVE-2026-67595 Published : July 29, 2026, 10:16 p.m. | 8 hours, 14 minutes ago Description :VaahCMS versions 2.0.0 through 2.3.4 contain a malicious obfuscated JavaScript payload embedded in...",
-      "source": "CVE Feed",
-      "published": "2026-07-29T22:16:52+00:00"
-    },
-    {
       "title": "Anthropic confirms Claude is down worldwide",
       "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-confirms-claude-is-down-worldwide/",
       "summary": "Claude is down for some users, with Anthropic confirming elevated errors across multiple AI models. The disruption is causing requests to fail with a \"529 Overloaded\" message, including in Claude and...",
@@ -177,55 +317,6 @@
       "published": "2026-07-29T21:35:40+00:00"
     },
     {
-      "title": "CVE-2026-13308 - Autel MaxiCharger AC Elite Home WebSockets Integer Underflow Remote Code Execution Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-13308",
-      "summary": "CVE ID :CVE-2026-13308 Published : July 29, 2026, 9:17 p.m. | 9 hours, 13 minutes ago Description :Autel MaxiCharger AC Elite Home WebSockets Integer Underflow Remote Code Execution Vulnerability...",
-      "source": "CVE Feed",
-      "published": "2026-07-29T21:17:46+00:00"
-    },
-    {
-      "title": "CVE-2026-6267 - Insertion of Sensitive Information Into Sent Data in GitLab",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-6267",
-      "summary": "CVE ID :CVE-2026-6267 Published : July 29, 2026, 8:17 p.m. | 10 hours, 14 minutes ago Description :GitLab has remediated an issue in GitLab CE/EE affecting all versions from 10.1.0 before 19.0.5...",
-      "source": "CVE Feed",
-      "published": "2026-07-29T20:17:13+00:00"
-    },
-    {
-      "title": "CVE-2026-67436 - Linuxfabrik monitoring-plugins: SSRF and auth-token disclosure via unvalidated @odata.id link in redfish-* plugins",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-67436",
-      "summary": "CVE ID :CVE-2026-67436 Published : July 29, 2026, 8:17 p.m. | 10 hours, 14 minutes ago Description :Linuxfabrik monitoring-plugins provides Python monitoring plugins for Icinga, Nagios, and related...",
-      "source": "CVE Feed",
-      "published": "2026-07-29T20:17:12+00:00"
-    },
-    {
-      "title": "CVE-2026-67431 - MCP Ruby SDK: Ruby SSE Session Poisoning",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-67431",
-      "summary": "CVE ID :CVE-2026-67431 Published : July 29, 2026, 8:17 p.m. | 10 hours, 14 minutes ago Description :MCP Ruby SDK is the official Ruby SDK for Model Context Protocol servers and clients. Prior to...",
-      "source": "CVE Feed",
-      "published": "2026-07-29T20:17:12+00:00"
-    },
-    {
-      "title": "CVE-2026-5490 - DriveLock SQL Injection Privilege Escalation Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-5490",
-      "summary": "CVE ID :CVE-2026-5490 Published : July 29, 2026, 8:17 p.m. | 10 hours, 14 minutes ago Description :DriveLock SQL Injection Privilege Escalation Vulnerability. This vulnerability allows remote...",
-      "source": "CVE Feed",
-      "published": "2026-07-29T20:17:05+00:00"
-    },
-    {
-      "title": "CVE-2026-18022 - pgvector buffer overflow via integer wraparound in IVFFlat index build on 32-bit systems",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-18022",
-      "summary": "CVE ID :CVE-2026-18022 Published : July 29, 2026, 8:17 p.m. | 10 hours, 14 minutes ago Description :Integer wraparound in IVFFlat index build in pgvector before 0.8.6 allows a database user to write...",
-      "source": "CVE Feed",
-      "published": "2026-07-29T20:17:02+00:00"
-    },
-    {
-      "title": "CVE-2026-12436 - Improperly Controlled Modification of Dynamically-Determined Object Attributes in GitLab",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-12436",
-      "summary": "CVE ID :CVE-2026-12436 Published : July 29, 2026, 8:17 p.m. | 10 hours, 14 minutes ago Description :GitLab has remediated an issue in GitLab CE/EE affecting all versions from 18.0 before 19.0.5, 19.1...",
-      "source": "CVE Feed",
-      "published": "2026-07-29T20:17:00+00:00"
-    },
-    {
       "title": "OpenAI's Rogue Model Claims More Victims Beyond Hugging Face",
       "link": "https://www.darkreading.com/application-security/openai-rogue-model-claims-more-victims-beyond-hugging-face",
       "summary": "OpenAI revealed rogue AI models compromised more services than initially disclosed, including a Modal customer environment and others.",
@@ -238,41 +329,6 @@
       "summary": "The agentic AI playing field was heavily tilted toward offense, so researchers began using red team agents to help teach their blue counterparts.",
       "source": "Dark Reading",
       "published": "2026-07-29T19:46:20+00:00"
-    },
-    {
-      "title": "CVE-2026-67429 - Flyto2 Core: Arbitrary file write via image.download (and other file-writing modules)",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-67429",
-      "summary": "CVE ID :CVE-2026-67429 Published : July 29, 2026, 7:16 p.m. | 11 hours, 14 minutes ago Description :Flyto2 Core is an execution kernel for automation and AI-agent workflows. Prior to 2.26.6...",
-      "source": "CVE Feed",
-      "published": "2026-07-29T19:16:52+00:00"
-    },
-    {
-      "title": "CVE-2026-67428 - Flyto2 Core: Multiple HTTP-family modules fetch client-controlled URLs without the SSRF guard their siblings apply (SSRF to internal/metadata)",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-67428",
-      "summary": "CVE ID :CVE-2026-67428 Published : July 29, 2026, 7:16 p.m. | 11 hours, 14 minutes ago Description :Flyto2 Core is an execution kernel for automation and AI-agent workflows. Prior to 2.26.7...",
-      "source": "CVE Feed",
-      "published": "2026-07-29T19:16:52+00:00"
-    },
-    {
-      "title": "CVE-2026-67427 - Flyto2 Core: ${env.VAR} interpolation reads any env secret despite env.get being denylisted",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-67427",
-      "summary": "CVE ID :CVE-2026-67427 Published : July 29, 2026, 7:16 p.m. | 11 hours, 14 minutes ago Description :Flyto2 Core is an execution kernel for automation and AI-agent workflows. Prior to 2.26.6, the...",
-      "source": "CVE Feed",
-      "published": "2026-07-29T19:16:51+00:00"
-    },
-    {
-      "title": "CVE-2026-67426 - Flyto2 Core: Unauthenticated flyto-verification /run: callback_url SSRF and internal runner-secret exfiltration",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-67426",
-      "summary": "CVE ID :CVE-2026-67426 Published : July 29, 2026, 7:16 p.m. | 11 hours, 14 minutes ago Description :Flyto2 Core is an execution kernel for automation and AI-agent workflows. Prior to 2.26.7, the...",
-      "source": "CVE Feed",
-      "published": "2026-07-29T19:16:51+00:00"
-    },
-    {
-      "title": "CVE-2026-67425 - Flyto2 Core: LLM/API keys leak to an attacker-controlled base_url",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-67425",
-      "summary": "CVE ID :CVE-2026-67425 Published : July 29, 2026, 7:16 p.m. | 11 hours, 14 minutes ago Description :Flyto2 Core is an execution kernel for automation and AI-agent workflows. Prior to 2.26.6, llm.chat...",
-      "source": "CVE Feed",
-      "published": "2026-07-29T19:16:51+00:00"
     },
     {
       "title": "Critical Rails Flaw Could Let Unauthenticated Attackers Read Server Files via Image Uploads",
@@ -450,17 +506,17 @@
       "published": "2026-07-29T12:17:14+00:00"
     },
     {
-      "title": "Cyberattack hits Angola’s largest telco hours before landmark stock debut",
-      "link": "https://therecord.media/angola-unitel-cyberattack-outage",
-      "summary": "Angola’s largest telecommunications operator, Unitel, was hit by a cyberattack that has left millions of people nationwide without voice services, mobile data, and internet access.",
-      "source": "The Record",
-      "published": "2026-07-29T12:15:00+00:00"
-    },
-    {
       "title": "Mythos Asks the Right Question. It Doesn't Answer It.",
       "link": "https://thehackernews.com/2026/07/mythos-asks-right-question-it-doesnt.html",
       "summary": "AI is compressing exploit timelines. The real question isn't whether your vulnerability management playbook needs to change, it's which part of it you've been getting wrong all along. The...",
       "source": "The Hacker News",
+      "published": "2026-07-29T12:15:00+00:00"
+    },
+    {
+      "title": "Cyberattack hits Angola’s largest telco hours before landmark stock debut",
+      "link": "https://therecord.media/angola-unitel-cyberattack-outage",
+      "summary": "Angola’s largest telecommunications operator, Unitel, was hit by a cyberattack that has left millions of people nationwide without voice services, mobile data, and internet access.",
+      "source": "The Record",
       "published": "2026-07-29T12:15:00+00:00"
     },
     {
@@ -506,32 +562,11 @@
       "published": "2026-07-29T11:00:00+00:00"
     },
     {
-      "title": "US, Australia Release OT Isolation Guidance for Critical Infrastructure",
-      "link": "https://www.securityweek.com/us-australia-release-ot-isolation-guidance-for-critical-infrastructure/",
-      "summary": "The guidance details steps organizations can take to isolate vital OT and supporting systems, and operate in isolation for an extended period. The post US, Australia Release OT Isolation Guidance for...",
-      "source": "SecurityWeek",
-      "published": "2026-07-29T10:58:44+00:00"
-    },
-    {
       "title": "Vulnerability in diff-so-fancy software",
       "link": "https://cert.pl/en/posts/2026/07/CVE-2026-50642/",
       "summary": "Vulnerability in diff-so-fancy software Vulnerability in diff-so-fancy software CVE ID CVE-2026-50642 Publication date 29 July 2026 Vendor so-fancy Product diff-so-fancy Vulnerable versions All...",
       "source": "CVE Newsroom",
       "published": "2026-07-29T10:55:00+00:00"
-    },
-    {
-      "title": "OpenAI’s Rogue AI Ventured Beyond Hugging Face",
-      "link": "https://www.securityweek.com/openais-rogue-ai-ventured-beyond-hugging-face/",
-      "summary": "Hugging Face has published an anatomy of the attack and OpenAI has shared additional information from its investigation. The post OpenAI’s Rogue AI Ventured Beyond Hugging Face appeared first on...",
-      "source": "SecurityWeek",
-      "published": "2026-07-29T10:10:09+00:00"
-    },
-    {
-      "title": "Spur Raises $200 Million for IP Intelligence Platform",
-      "link": "https://www.securityweek.com/spur-raises-200-million-for-ip-intelligence-platform/",
-      "summary": "The IP intelligence company will use the fresh investment to accelerate and scale its operations. The post Spur Raises $200 Million for IP Intelligence Platform appeared first on SecurityWeek.",
-      "source": "SecurityWeek",
-      "published": "2026-07-29T09:12:19+00:00"
     },
     {
       "title": "Public PoC Released for Exploited Check Point SmartConsole Authentication Bypass",
@@ -546,13 +581,6 @@
       "summary": "Vulnerabilities in GNU Bison software Vulnerabilities in GNU Bison software CVE ID CVE-2026-56389 Publication date 29 July 2026 Vendor GNU Product Bison Vulnerable versions 3.8.2 Vulnerability type...",
       "source": "CVE Newsroom",
       "published": "2026-07-29T08:55:00+00:00"
-    },
-    {
-      "title": "JFrog Zero-Days Exploited in OpenAI-Hugging Face Hack",
-      "link": "https://www.securityweek.com/jfrog-zero-days-exploited-in-openai-hugging-face-hack/",
-      "summary": "The OpenAI models targeted services beyond Hugging Face as they attempted to solve the tasks they were given. The post JFrog Zero-Days Exploited in OpenAI-Hugging Face Hack appeared first on...",
-      "source": "SecurityWeek",
-      "published": "2026-07-29T08:46:30+00:00"
     },
     {
       "title": "MikroTik-routers door RouterOS-lek kwetsbaar voor bruteforce-aanvallen",
@@ -721,13 +749,6 @@
       "summary": "JFrog has confirmed that OpenAI models exploited a zero-day in self-hosted Artifactory while trying to reach the open internet from a sealed evaluation environment. Artifactory is JFrog's software...",
       "source": "The Hacker News",
       "published": "2026-07-28T13:33:47+00:00"
-    },
-    {
-      "title": "'24.000 server-BMC's lekken wachtwoordhashes via 13 jaar oude kwetsbaarheid'",
-      "link": "https://www.security.nl/posting/946981/%2724_000+server-BMC%27s+lekken+wachtwoordhashes+via+13+jaar+oude+kwetsbaarheid%27?channel=rss",
-      "summary": "'24.000 server-BMC's lekken wachtwoordhashes via 13 jaar oude kwetsbaarheid' Onderzoekers hebben op internet ruim 24.000 Baseboard Management Controllers (BMC's) ontdekt die via een dertien jaar oude...",
-      "source": "CVE Newsroom",
-      "published": "2026-07-28T13:17:45+00:00"
     },
     {
       "title": "Critical OpenWrt DHCPv6 Flaw Could Let Unauthenticated Attackers Run Code as Root",
@@ -994,20 +1015,6 @@
       "summary": "AI agent security is moving through a familiar maturity curve: adoption, then visibility, and finally, control. But what we've collectively discovered is that enforcing least privilege for AI agents...",
       "source": "The Hacker News",
       "published": "2026-07-24T11:30:00+00:00"
-    },
-    {
-      "title": "Hacker Runs Hermes AI Agent Unattended for Post-Exploitation at Thai Finance Ministry",
-      "link": "https://thehackernews.com/2026/07/hacker-runs-hermes-ai-agent-unattended.html",
-      "summary": "Someone installed a popular AI assistant on a rented server, switched off the setting that makes it ask permission before running risky commands, and pointed it at Thailand's Ministry of Finance...",
-      "source": "The Hacker News",
-      "published": "2026-07-24T10:15:29+00:00"
-    },
-    {
-      "title": "Golden Chickens Resurfaces With Four New Malware Families and Modular Implants",
-      "link": "https://thehackernews.com/2026/07/golden-chickens-resurfaces-with-four.html",
-      "summary": "The threat actors behind the Golden Chickens malware-as-a-service (MaaS) ecosystem have resurfaced with four new malware families, indicating that the operators are showing no signs of stopping...",
-      "source": "The Hacker News",
-      "published": "2026-07-24T10:09:24+00:00"
     },
     {
       "title": "Europe's Multilingual Reality Exposes AI Security Gaps",
