@@ -1,6 +1,97 @@
 {
-  "last_updated": "2026-08-03T20:55:28.023889+00:00",
+  "last_updated": "2026-08-03T22:52:52.473982+00:00",
   "articles": [
+    {
+      "title": "CVE-2026-18667 - Sensor Proxy Version 1.4.2 Fixes One Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-18667",
+      "summary": "CVE ID :CVE-2026-18667 Published : Aug. 3, 2026, 10:27 p.m. | 6 minutes ago Description :A vulnerability in Tenable Sensor Proxy allows a remote attacker to execute code with elevated privileges by...",
+      "source": "CVE Feed",
+      "published": "2026-08-03T22:27:29+00:00"
+    },
+    {
+      "title": "CVE-2026-69249 - python-cryptography: Duplicate self-signed intermediates can cause exponential path-building",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-69249",
+      "summary": "CVE ID :CVE-2026-69249 Published : Aug. 3, 2026, 10:16 p.m. | 16 minutes ago Description :python-cryptography is a package designed to expose cryptographic primitives and recipes to Python...",
+      "source": "CVE Feed",
+      "published": "2026-08-03T22:16:52+00:00"
+    },
+    {
+      "title": "CVE-2026-69247 - cryptography: PKCS#7 EnvelopedData decryption exposes a Bleichenbacher oracle through distinguishable errors and timing",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-69247",
+      "summary": "CVE ID :CVE-2026-69247 Published : Aug. 3, 2026, 10:16 p.m. | 16 minutes ago Description :cryptography is a package designed to expose cryptographic primitives and recipes to Python developers. From...",
+      "source": "CVE Feed",
+      "published": "2026-08-03T22:16:52+00:00"
+    },
+    {
+      "title": "CVE-2026-47746 - Misskey: JSON-LD signature validation + compaction is vulnerable to timing attacks",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-47746",
+      "summary": "CVE ID :CVE-2026-47746 Published : Aug. 3, 2026, 10:16 p.m. | 16 minutes ago Description :Misskey is an open source, federated social media platform. Versions 12.37.0 and later, but prior to...",
+      "source": "CVE Feed",
+      "published": "2026-08-03T22:16:49+00:00"
+    },
+    {
+      "title": "CVE-2026-46713 - Misskey: JSON-LD signature validation + compaction may lead to improper activity handling",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-46713",
+      "summary": "CVE ID :CVE-2026-46713 Published : Aug. 3, 2026, 10:16 p.m. | 16 minutes ago Description :Misskey is an open source, federated social media platform. Versions 12.37.0 and later, but prior to...",
+      "source": "CVE Feed",
+      "published": "2026-08-03T22:16:49+00:00"
+    },
+    {
+      "title": "CVE-2026-10849 - Heap out-of-bounds write in Zephyr hawkBit OTA client when terminating server response body",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-10849",
+      "summary": "CVE ID :CVE-2026-10849 Published : Aug. 3, 2026, 10:16 p.m. | 16 minutes ago Description :The hawkBit device management client in subsys/mgmt/hawkbit accumulates the body of an HTTP response from the...",
+      "source": "CVE Feed",
+      "published": "2026-08-03T22:16:47+00:00"
+    },
+    {
+      "title": "Attackers Exploit N-able Patch Bypass Flaw on RMM Servers",
+      "link": "https://www.darkreading.com/vulnerabilities-threats/attackers-exploit-n-able-patch-bypass-flaw",
+      "summary": "Over the weekend, the vendor discovered another vector of authentication bypass CVE-2026-18577 that gives attackers administrator access.",
+      "source": "Dark Reading",
+      "published": "2026-08-03T21:21:11+00:00"
+    },
+    {
+      "title": "CVE-2026-69240 - Sequelize: SQL Injection (Oracle DB)",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-69240",
+      "summary": "CVE ID :CVE-2026-69240 Published : Aug. 3, 2026, 9:16 p.m. | 1 hour, 17 minutes ago Description :Sequelize is a Node.js ORM tool. Prior to 6.37.4, SQL injection is possible with strings only if...",
+      "source": "CVE Feed",
+      "published": "2026-08-03T21:16:41+00:00"
+    },
+    {
+      "title": "CVE-2026-66065 - Ouroboros: Untrusted project .env can still reach RCE via omitted execution-routing keys (Incomplete fix of CVE-2026-47211)",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-66065",
+      "summary": "CVE ID :CVE-2026-66065 Published : Aug. 3, 2026, 9:16 p.m. | 1 hour, 17 minutes ago Description :Ouroboros is a local-first runtime for AI coding agents that records their actions and applies...",
+      "source": "CVE Feed",
+      "published": "2026-08-03T21:16:41+00:00"
+    },
+    {
+      "title": "CVE-2026-48113 - Chisel: ACL Bypass via Post-Handshake SSH Channel ExtraData Injection",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48113",
+      "summary": "CVE ID :CVE-2026-48113 Published : Aug. 3, 2026, 9:16 p.m. | 1 hour, 17 minutes ago Description :Chisel is a TCP/UDP tunnel, transported over HTTP and secured via SSH. In versions prior to 1.11.5...",
+      "source": "CVE Feed",
+      "published": "2026-08-03T21:16:39+00:00"
+    },
+    {
+      "title": "CVE-2026-48063 - Baileys has message upsert / hist sync spoofing and app state corruption when using maliciously crafted protocolMessage payload",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48063",
+      "summary": "CVE ID :CVE-2026-48063 Published : Aug. 3, 2026, 9:16 p.m. | 1 hour, 17 minutes ago Description :Baileys is a cocket-based TS/JavaScript API for WhatsApp Web. In versions prior to both 6.7.22 and...",
+      "source": "CVE Feed",
+      "published": "2026-08-03T21:16:39+00:00"
+    },
+    {
+      "title": "CVE-2026-41447 - FirmaCheck < 1.3.16 DLL Hijacking via Unvalidated OpenSSL Configuration Path",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-41447",
+      "summary": "CVE ID :CVE-2026-41447 Published : Aug. 3, 2026, 9:16 p.m. | 1 hour, 17 minutes ago Description :FirmaCheck for Windows before 1.3.16 contains a dll hijacking vulnerability that allows local...",
+      "source": "CVE Feed",
+      "published": "2026-08-03T21:16:38+00:00"
+    },
+    {
+      "title": "CVE-2026-18733 - Prompt injection bypasses shell tool consent gate in Strands Agents Tools",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-18733",
+      "summary": "CVE ID :CVE-2026-18733 Published : Aug. 3, 2026, 9:16 p.m. | 1 hour, 17 minutes ago Description :A prompt injection vulnerability in the shell tool in Amazon Strands Agents Tools before 0.8.0 might...",
+      "source": "CVE Feed",
+      "published": "2026-08-03T21:16:37+00:00"
+    },
     {
       "title": "New Tool Traces AI Videos Back to Their Source",
       "link": "https://www.darkreading.com/cyber-risk/new-tool-advances-ai-generated-video-detection",
@@ -9,11 +100,46 @@
       "published": "2026-08-03T20:42:28+00:00"
     },
     {
-      "title": "Anthropic: AI Issues Result of Security Gaps, Not Model Issues",
+      "title": "Anthropic: Claude Attacks Result of Security Gaps, Not Model Issues",
       "link": "https://www.darkreading.com/cyber-risk/anthropic-ai-issues-result-security-gaps",
-      "summary": "Last month's incidents in which Claude breached real-world systems derived from over-permissioning, especially with Internet access.",
+      "summary": "Last month's incidents in which the AI model breached real-world systems derived from over-permissioning, especially with Internet access.",
       "source": "Dark Reading",
       "published": "2026-08-03T20:31:12+00:00"
+    },
+    {
+      "title": "CVE-2026-68981 - Apache NiFi: Uncontrolled Resource Consumption through Decompression of HTTP Requests",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-68981",
+      "summary": "CVE ID :CVE-2026-68981 Published : Aug. 3, 2026, 8:17 p.m. | 2 hours, 16 minutes ago Description :Apache NiFi 1.5.0 through 2.10.0 support gzip-encoded HTTP requests for the application REST API...",
+      "source": "CVE Feed",
+      "published": "2026-08-03T20:17:29+00:00"
+    },
+    {
+      "title": "CVE-2026-67599 - ClearOS 7.9 OS Command Injection via Log Viewer filter parameter",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-67599",
+      "summary": "CVE ID :CVE-2026-67599 Published : Aug. 3, 2026, 8:17 p.m. | 2 hours, 16 minutes ago Description :ClearOS 7.9 contains an OS command injection vulnerability in the Log Viewer component that allows...",
+      "source": "CVE Feed",
+      "published": "2026-08-03T20:17:28+00:00"
+    },
+    {
+      "title": "CVE-2026-67598 - Emlog Pro 2.6.23 TLS Certificate Validation Disabled in ai.php",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-67598",
+      "summary": "CVE ID :CVE-2026-67598 Published : Aug. 3, 2026, 8:17 p.m. | 2 hours, 16 minutes ago Description :Emlog Pro through 2.6.23 contains a disabled TLS certificate validation vulnerability in...",
+      "source": "CVE Feed",
+      "published": "2026-08-03T20:17:27+00:00"
+    },
+    {
+      "title": "CVE-2026-48031 - Go Restful API Boilerplate: Hardcoded JWT Secret \"random\" Allows Token Forgery",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48031",
+      "summary": "CVE ID :CVE-2026-48031 Published : Aug. 3, 2026, 8:17 p.m. | 2 hours, 16 minutes ago Description :go-base is a Go RESTful API Boilerplate template with JWT Authentication, backed by PostgreSQL. In...",
+      "source": "CVE Feed",
+      "published": "2026-08-03T20:17:24+00:00"
+    },
+    {
+      "title": "CVE-2026-47211 - Ouroboros: Remote Code Execution via Untrusted Project-Directory .env",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-47211",
+      "summary": "CVE ID :CVE-2026-47211 Published : Aug. 3, 2026, 8:17 p.m. | 2 hours, 16 minutes ago Description :Ouroboros is a local-first runtime for AI coding agents that records their actions and applies...",
+      "source": "CVE Feed",
+      "published": "2026-08-03T20:17:24+00:00"
     },
     {
       "title": "Bitcoin hardware wallet maker destroys some inventory after more than $88 million stolen",
@@ -37,46 +163,39 @@
       "published": "2026-08-03T19:25:10+00:00"
     },
     {
+      "title": "CVE-2026-38447 - osTicket API Key Cryptographic Weakness",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-38447",
+      "summary": "CVE ID :CVE-2026-38447 Published : Aug. 3, 2026, 7:16 p.m. | 3 hours, 17 minutes ago Description :osTicket 1.18.3 generates API keys using a predictable construction based on MD5 hashing. The use of...",
+      "source": "CVE Feed",
+      "published": "2026-08-03T19:16:46+00:00"
+    },
+    {
       "title": "CVE-2026-18616 - GL-iNet GL-MT3000 wg-server.so Native Plugin glc server.set_peer command injection",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-18616",
-      "summary": "CVE ID :CVE-2026-18616 Published : Aug. 3, 2026, 7:16 p.m. | 41 minutes ago Description :A vulnerability was identified in GL-iNet GL-MT3000 up to 4.4.5. The impacted element is the function...",
+      "summary": "CVE ID :CVE-2026-18616 Published : Aug. 3, 2026, 7:16 p.m. | 3 hours, 17 minutes ago Description :A vulnerability was identified in GL-iNet GL-MT3000 up to 4.4.5. The impacted element is the function...",
       "source": "CVE Feed",
       "published": "2026-08-03T19:16:45+00:00"
     },
     {
       "title": "CVE-2026-18615 - GL-iNet GL-MT3000 wg-server.so Native Plugin glc wg-server.generate_publickey command injection",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-18615",
-      "summary": "CVE ID :CVE-2026-18615 Published : Aug. 3, 2026, 7:16 p.m. | 41 minutes ago Description :A vulnerability was determined in GL-iNet GL-MT3000 up to 4.4.5. The affected element is the function...",
+      "summary": "CVE ID :CVE-2026-18615 Published : Aug. 3, 2026, 7:16 p.m. | 3 hours, 17 minutes ago Description :A vulnerability was determined in GL-iNet GL-MT3000 up to 4.4.5. The affected element is the function...",
       "source": "CVE Feed",
       "published": "2026-08-03T19:16:45+00:00"
     },
     {
       "title": "CVE-2026-18614 - GL-iNet GL-MT3000 s2s.so Native Plugin glc s2s.enable_echo_server command injection",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-18614",
-      "summary": "CVE ID :CVE-2026-18614 Published : Aug. 3, 2026, 7:16 p.m. | 41 minutes ago Description :A vulnerability was found in GL-iNet GL-MT3000 up to 4.4.5. Impacted is the function s2s.enable_echo_server of...",
+      "summary": "CVE ID :CVE-2026-18614 Published : Aug. 3, 2026, 7:16 p.m. | 3 hours, 17 minutes ago Description :A vulnerability was found in GL-iNet GL-MT3000 up to 4.4.5. Impacted is the function...",
       "source": "CVE Feed",
       "published": "2026-08-03T19:16:45+00:00"
     },
     {
       "title": "CVE-2025-15628 - Hardcoded Certificates in TP-Link Omada Device Communications",
       "link": "https://cvefeed.io/vuln/detail/CVE-2025-15628",
-      "summary": "CVE ID :CVE-2025-15628 Published : Aug. 3, 2026, 7:16 p.m. | 41 minutes ago Description :Affected Omada devices rely on embedded certificates that are shared across deployments to establish trust...",
+      "summary": "CVE ID :CVE-2025-15628 Published : Aug. 3, 2026, 7:16 p.m. | 3 hours, 17 minutes ago Description :Affected Omada devices rely on embedded certificates that are shared across deployments to establish...",
       "source": "CVE Feed",
       "published": "2026-08-03T19:16:40+00:00"
-    },
-    {
-      "title": "CVE-2026-67599 - ClearOS 7.9 OS Command Injection via Log Viewer filter parameter",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-67599",
-      "summary": "CVE ID :CVE-2026-67599 Published : Aug. 3, 2026, 7:05 p.m. | 52 minutes ago Description :ClearOS 7.9 contains an OS command injection vulnerability in the Log Viewer component that allows...",
-      "source": "CVE Feed",
-      "published": "2026-08-03T19:05:57+00:00"
-    },
-    {
-      "title": "CVE-2026-67598 - Emlog Pro 2.6.23 TLS Certificate Validation Disabled in ai.php",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-67598",
-      "summary": "CVE ID :CVE-2026-67598 Published : Aug. 3, 2026, 7:02 p.m. | 56 minutes ago Description :Emlog Pro through 2.6.23 contains a disabled TLS certificate validation vulnerability in...",
-      "source": "CVE Feed",
-      "published": "2026-08-03T19:02:06+00:00"
     },
     {
       "title": "18 Malicious npm Packages Deliver Cross-Platform RAT to Alibaba Tool Users",
@@ -88,28 +207,21 @@
     {
       "title": "CVE-2026-61524 - WebsiteBaker CMS < 2.13.10 File Upload RCE via Module Installation",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-61524",
-      "summary": "CVE ID :CVE-2026-61524 Published : Aug. 3, 2026, 6:16 p.m. | 1 hour, 41 minutes ago Description :WebsiteBaker CMS before 2.13.10 contains an unrestricted file upload vulnerability in the module...",
+      "summary": "CVE ID :CVE-2026-61524 Published : Aug. 3, 2026, 6:16 p.m. | 4 hours, 17 minutes ago Description :WebsiteBaker CMS before 2.13.10 contains an unrestricted file upload vulnerability in the module...",
       "source": "CVE Feed",
       "published": "2026-08-03T18:16:40+00:00"
     },
     {
       "title": "CVE-2026-61523 - WebsiteBaker CMS < 2.13.10 Code Injection via Droplets Editor",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-61523",
-      "summary": "CVE ID :CVE-2026-61523 Published : Aug. 3, 2026, 6:16 p.m. | 1 hour, 41 minutes ago Description :WebsiteBaker CMS before 2.13.10 contains a code injection vulnerability in the Droplets editor that...",
+      "summary": "CVE ID :CVE-2026-61523 Published : Aug. 3, 2026, 6:16 p.m. | 4 hours, 17 minutes ago Description :WebsiteBaker CMS before 2.13.10 contains a code injection vulnerability in the Droplets editor that...",
       "source": "CVE Feed",
       "published": "2026-08-03T18:16:40+00:00"
     },
     {
       "title": "CVE-2026-18613 - GL-iNet GL-MT3000 plugins.so Native Plugin glc plugins.set_config injection",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-18613",
-      "summary": "CVE ID :CVE-2026-18613 Published : Aug. 3, 2026, 6:16 p.m. | 1 hour, 41 minutes ago Description :A vulnerability has been found in GL-iNet GL-MT3000 up to 4.4.5. This issue affects the function...",
-      "source": "CVE Feed",
-      "published": "2026-08-03T18:16:38+00:00"
-    },
-    {
-      "title": "CVE-2026-18612 - GL-iNet GL-MT3000 plugins.so Native Plugin glc plugins.install_package command injection",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-18612",
-      "summary": "CVE ID :CVE-2026-18612 Published : Aug. 3, 2026, 6:16 p.m. | 1 hour, 41 minutes ago Description :A flaw has been found in GL-iNet GL-MT3000 up to 4.4.5. This vulnerability affects the function...",
+      "summary": "CVE ID :CVE-2026-18613 Published : Aug. 3, 2026, 6:16 p.m. | 4 hours, 17 minutes ago Description :A vulnerability has been found in GL-iNet GL-MT3000 up to 4.4.5. This issue affects the function...",
       "source": "CVE Feed",
       "published": "2026-08-03T18:16:38+00:00"
     },
@@ -119,69 +231,6 @@
       "summary": "A cyberattack compromised tens of thousands of records related to companies, foundations and trusts in Liechtenstein, prompting the government to to form a “crisis unit” to address the breach.",
       "source": "The Record",
       "published": "2026-08-03T17:36:00+00:00"
-    },
-    {
-      "title": "CVE-2026-69149 - Angular SSR: Missing Fallback Raw-Content Serialization Escaping leads to Cross-Site Scripting (XSS)",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-69149",
-      "summary": "CVE ID :CVE-2026-69149 Published : Aug. 3, 2026, 5:16 p.m. | 2 hours, 41 minutes ago Description :Angular is a development platform for building mobile and desktop web applications using...",
-      "source": "CVE Feed",
-      "published": "2026-08-03T17:16:45+00:00"
-    },
-    {
-      "title": "CVE-2026-68945 - Angular: Cache-Key Ambiguity in HttpTransferCache Leading to Cross-Request Response Reuse and State Poisoning",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-68945",
-      "summary": "CVE ID :CVE-2026-68945 Published : Aug. 3, 2026, 5:16 p.m. | 2 hours, 41 minutes ago Description :Angular is a development platform for building mobile and desktop web applications using...",
-      "source": "CVE Feed",
-      "published": "2026-08-03T17:16:45+00:00"
-    },
-    {
-      "title": "CVE-2026-67611 - OpenEMR 8.2.0 OAuth2 Password Grant Authentication Bypass via SMART Configuration",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-67611",
-      "summary": "CVE ID :CVE-2026-67611 Published : Aug. 3, 2026, 5:16 p.m. | 2 hours, 41 minutes ago Description :OpenEMR through 8.2.0 contains an authentication bypass vulnerability that allows attackers with...",
-      "source": "CVE Feed",
-      "published": "2026-08-03T17:16:43+00:00"
-    },
-    {
-      "title": "CVE-2026-67610 - OpenEMR 8.2.0 OAuth2 Dynamic Client Registration Unauthorized FHIR Access",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-67610",
-      "summary": "CVE ID :CVE-2026-67610 Published : Aug. 3, 2026, 5:16 p.m. | 2 hours, 41 minutes ago Description :OpenEMR through 8.2.0 contains an improper authentication vulnerability in the OAuth2 dynamic client...",
-      "source": "CVE Feed",
-      "published": "2026-08-03T17:16:43+00:00"
-    },
-    {
-      "title": "CVE-2026-41453 - Krayin CRM < 2.2.4 Blind SQL Injection via LeadDataGrid.php rotten_lead Parameter",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-41453",
-      "summary": "CVE ID :CVE-2026-41453 Published : Aug. 3, 2026, 5:16 p.m. | 2 hours, 41 minutes ago Description :Krayin CRM before 2.2.4 contains a blind SQL injection vulnerability in the leads DataGrid that...",
-      "source": "CVE Feed",
-      "published": "2026-08-03T17:16:37+00:00"
-    },
-    {
-      "title": "CVE-2026-41452 - Krayin CRM 2.2.4 Missing Authentication via install/api/admin-config-setup",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-41452",
-      "summary": "CVE ID :CVE-2026-41452 Published : Aug. 3, 2026, 5:16 p.m. | 2 hours, 41 minutes ago Description :Krayin CRM 2.2.4 contains a missing authentication vulnerability in the installer middleware that...",
-      "source": "CVE Feed",
-      "published": "2026-08-03T17:16:37+00:00"
-    },
-    {
-      "title": "CVE-2026-39932 - OpenEMR 8.2.0 Remote Code Execution via CategoryTree eval() Injection",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-39932",
-      "summary": "CVE ID :CVE-2026-39932 Published : Aug. 3, 2026, 5:16 p.m. | 2 hours, 41 minutes ago Description :OpenEMR through 8.2.0 contains a remote code execution vulnerability in the document category tree...",
-      "source": "CVE Feed",
-      "published": "2026-08-03T17:16:36+00:00"
-    },
-    {
-      "title": "CVE-2026-18607 - Wavlink NU516 lighttpd upload.cgi strcpy stack-based overflow",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-18607",
-      "summary": "CVE ID :CVE-2026-18607 Published : Aug. 3, 2026, 5:16 p.m. | 2 hours, 41 minutes ago Description :A security vulnerability has been detected in Wavlink WN572, WN570H, WN573, WN529, WN530, WN531...",
-      "source": "CVE Feed",
-      "published": "2026-08-03T17:16:35+00:00"
-    },
-    {
-      "title": "CVE-2026-18602 - GL.iNet GL-MT3000 ovpn-client.so Native Plugin glc ovpn-client.get_recommend_config command injection",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-18602",
-      "summary": "CVE ID :CVE-2026-18602 Published : Aug. 3, 2026, 5:16 p.m. | 2 hours, 41 minutes ago Description :A vulnerability was determined in GL.iNet GL-MT3000 up to 4.4.5. Affected is the function...",
-      "source": "CVE Feed",
-      "published": "2026-08-03T17:16:35+00:00"
     },
     {
       "title": "N-able warns of N-central auth bypass flaw exploited in attacks",
@@ -198,17 +247,10 @@
       "published": "2026-08-03T16:24:47+00:00"
     },
     {
-      "title": "CVE-2026-18248 - @fastify/aws-lambda vulnerable to Lambda event spoofing via client-controlled x-apigateway-event header",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-18248",
-      "summary": "CVE ID :CVE-2026-18248 Published : Aug. 3, 2026, 4:16 p.m. | 3 hours, 42 minutes ago Description :@fastify/aws-lambda version 6.4.0 decorates each Fastify request with request.awsLambda.event and...",
-      "source": "CVE Feed",
-      "published": "2026-08-03T16:16:28+00:00"
-    },
-    {
       "title": "INC Ransomware Emerges as Dominant Actor Exploiting SonicWall SMA 1000 Flaws",
       "link": "https://thehackernews.com/2026/08/inc-ransomware-emerges-as-dominant.html",
-      "summary": "The INC Ransomware operation has emerged as the \"dominant threat actor\" exploiting the recently disclosed security flaws in SonicWall Secure Mobile Access (SMA) 1000 series VPN appliances. In a...",
-      "source": "The Hacker News",
+      "summary": "INC Ransomware Emerges as Dominant Actor Exploiting SonicWall SMA 1000 Flaws The INC Ransomware operation has emerged as the \"dominant threat actor\" exploiting the recently disclosed security flaws...",
+      "source": "CVE Newsroom",
       "published": "2026-08-03T16:15:13+00:00"
     },
     {
@@ -228,7 +270,7 @@
     {
       "title": "Chinese Actor Weaponizes Deepseek AI Agent to Attack Security Firm",
       "link": "https://www.darkreading.com/cyberattacks-data-breaches/chinese-actor-deepseek-ai-agent-attack-security-firm",
-      "summary": "Researchers from Jesta intercepted and investigated the model, which was attempting to compromise more than 1,200 hosts for proxyjacking and to launch further attacks",
+      "summary": "Researchers intercepted and investigated the model, which was attempting to compromise more than 1,200 hosts for proxyjacking to launch further attacks.",
       "source": "Dark Reading",
       "published": "2026-08-03T15:42:18+00:00"
     },
@@ -261,45 +303,10 @@
       "published": "2026-08-03T14:45:55+00:00"
     },
     {
-      "title": "CVE-2026-69096 - OpenWrt luci-app-dockerman Read ACL Remote Code Execution",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-69096",
-      "summary": "CVE ID :CVE-2026-69096 Published : Aug. 3, 2026, 2:16 p.m. | 5 hours, 41 minutes ago Description :OpenWrt luci-app-dockerman (LuCI master and openwrt-25.12 snapshots containing the ucode...",
-      "source": "CVE Feed",
-      "published": "2026-08-03T14:16:30+00:00"
-    },
-    {
-      "title": "CVE-2026-69088 - Grav CMS 2.0.7 through 2.0.10 Arbitrary Method Invocation via Blueprint",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-69088",
-      "summary": "CVE ID :CVE-2026-69088 Published : Aug. 3, 2026, 2:16 p.m. | 5 hours, 41 minutes ago Description :Grav CMS versions 2.0.7 through 2.0.10 fail to validate fully-qualified static method calls...",
-      "source": "CVE Feed",
-      "published": "2026-08-03T14:16:29+00:00"
-    },
-    {
-      "title": "CVE-2026-69085 - SiYuan before v3.7.3 SQL Injection via searchDocs",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-69085",
-      "summary": "CVE ID :CVE-2026-69085 Published : Aug. 3, 2026, 2:16 p.m. | 5 hours, 41 minutes ago Description :SiYuan before v3.7.3 contains a SQL injection vulnerability in the /api/filetree/searchDocs endpoint...",
-      "source": "CVE Feed",
-      "published": "2026-08-03T14:16:28+00:00"
-    },
-    {
-      "title": "CVE-2026-69084 - SiYuan before v3.7.3 SQL Injection via searchEmbedBlock",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-69084",
-      "summary": "CVE ID :CVE-2026-69084 Published : Aug. 3, 2026, 2:16 p.m. | 5 hours, 41 minutes ago Description :SiYuan versions Severity: 10.0 | CRITICAL Visit the link for more details, such as CVSS details...",
-      "source": "CVE Feed",
-      "published": "2026-08-03T14:16:28+00:00"
-    },
-    {
-      "title": "CVE-2026-69083 - SiYuan before v3.7.3 SQL Injection via fullTextSearchAssetContent",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-69083",
-      "summary": "CVE ID :CVE-2026-69083 Published : Aug. 3, 2026, 2:16 p.m. | 5 hours, 41 minutes ago Description :SiYuan versions before v3.7.3 contain SQL injection vulnerabilities in the fullTextSearchAssetContent...",
-      "source": "CVE Feed",
-      "published": "2026-08-03T14:16:28+00:00"
-    },
-    {
       "title": "⚡ Weekly Recap: Rogue AI Models, $88M Bitcoin Theft, Water-System Attacks and Dangling DNS Hijacks",
       "link": "https://thehackernews.com/2026/08/weekly-recap-rogue-ai-models-88m.html",
-      "summary": "This week kept coming back to permission. A model crossed a boundary. A wallet trusted bad randomness. Webmail kept an intruder around. Public systems, package feeds, hotel networks, and login flows...",
-      "source": "The Hacker News",
+      "summary": "⚡ Weekly Recap: Rogue AI Models, $88M Bitcoin Theft, Water-System Attacks and Dangling DNS Hijacks This week kept coming back to permission. A model crossed a boundary. A wallet trusted bad...",
+      "source": "CVE Newsroom",
       "published": "2026-08-03T14:03:11+00:00"
     },
     {
@@ -410,22 +417,22 @@
     {
       "title": "Thermo Fisher Patches Flaw That Could Make DNA File Tampering Nearly Undetectable",
       "link": "https://thehackernews.com/2026/08/thermo-fisher-patches-flaw-that-could.html",
-      "summary": "Thermo Fisher Scientific has patched a flaw in select Applied Biosystems human identification software that could allow data files to be altered before analysis software loads them. The vendor's July...",
-      "source": "The Hacker News",
+      "summary": "Thermo Fisher Patches Flaw That Could Make DNA File Tampering Nearly Undetectable Thermo Fisher Scientific has patched a flaw in select Applied Biosystems human identification software that could...",
+      "source": "CVE Newsroom",
       "published": "2026-08-03T08:05:30+00:00"
     },
     {
       "title": "N-able Says Attackers Take Over N-central Servers After Initial Fix Proves Incomplete",
       "link": "https://thehackernews.com/2026/08/n-able-says-attackers-take-over-n.html",
-      "summary": "N-able said attackers exploited an authentication bypass in N-central to gain remote administrative access and reach the customer systems managed through those servers. Its first fix was incomplete...",
-      "source": "The Hacker News",
+      "summary": "N-able Says Attackers Take Over N-central Servers After Initial Fix Proves Incomplete N-able said attackers exploited an authentication bypass in N-central to gain remote administrative access and...",
+      "source": "CVE Newsroom",
       "published": "2026-08-03T06:41:46+00:00"
     },
     {
       "title": "Hugging Face Diffusers Flaws Could Let Model Repositories Execute Arbitrary Code",
       "link": "https://thehackernews.com/2026/08/hugging-face-diffusers-flaws-could-let.html",
-      "summary": "Three high-severity security flaws have been disclosed in Hugging Face's Diffusers library that could allow crafted model repositories to stealthily execute arbitrary code on machines that load it...",
-      "source": "The Hacker News",
+      "summary": "Hugging Face Diffusers Flaws Could Let Model Repositories Execute Arbitrary Code Three high-severity security flaws have been disclosed in Hugging Face's Diffusers library that could allow crafted...",
+      "source": "CVE Newsroom",
       "published": "2026-08-03T06:40:31+00:00"
     },
     {
@@ -480,8 +487,8 @@
     {
       "title": "Adobe Campaign Classic CVSS 10.0 Flaw Could Run Code Without User Interaction",
       "link": "https://thehackernews.com/2026/08/adobe-campaign-classic-cvss-100-flaw.html",
-      "summary": "Adobe has released security updates to address a maximum-severity security flaw in Campaign Classic (ACC), its enterprise-focused marketing automation platform, that could result in arbitrary code...",
-      "source": "The Hacker News",
+      "summary": "Adobe Campaign Classic CVSS 10.0 Flaw Could Run Code Without User Interaction Adobe has released security updates to address a maximum-severity security flaw in Campaign Classic (ACC), its...",
+      "source": "CVE Newsroom",
       "published": "2026-08-01T07:12:42+00:00"
     },
     {
@@ -613,15 +620,15 @@
     {
       "title": "Three Recent Chrome Releases Fix 1,442 Flaws, More Than Prior 23 Updates Combined",
       "link": "https://thehackernews.com/2026/07/three-recent-chrome-releases-fix-1442.html",
-      "summary": "Google on Thursday announced that it fixed a whopping 1,072 security bugs in Chrome versions 149 and 150, surpassing the total number of flaws the company fixed across the prior 23 milestones...",
-      "source": "The Hacker News",
+      "summary": "Three Recent Chrome Releases Fix 1,442 Flaws, More Than Prior 23 Updates Combined Google on Thursday announced that it fixed a whopping 1,072 security bugs in Chrome versions 149 and 150, surpassing...",
+      "source": "CVE Newsroom",
       "published": "2026-07-31T12:51:52+00:00"
     },
     {
       "title": "Researchers Report 84 Flaws in 4G and 5G Cores, Including a Session Hijacking Flaw",
       "link": "https://thehackernews.com/2026/07/researchers-report-84-flaws-in-4g-and.html",
-      "summary": "An academic study has disclosed a \"widespread class\" of security vulnerabilities impacting 4G and 5G core networks that, if successfully exploited, could trigger denial-of-service (DoS) attacks and...",
-      "source": "The Hacker News",
+      "summary": "Researchers Report 84 Flaws in 4G and 5G Cores, Including a Session Hijacking Flaw An academic study has disclosed a \"widespread class\" of security vulnerabilities impacting 4G and 5G core networks...",
+      "source": "CVE Newsroom",
       "published": "2026-07-31T11:55:00+00:00"
     },
     {
@@ -634,8 +641,8 @@
     {
       "title": "Chinese Hacker Commands DeepSeek via Telegram to Launch Autonomous Attacks",
       "link": "https://thehackernews.com/2026/07/chinese-hacker-commands-deepseek-via.html",
-      "summary": "Palo Alto Networks' Unit 42 says a Chinese-speaking threat actor used DeepSeek through the open-source Hermes Agent framework to launch attacks autonomously. After an initial Telegram instruction...",
-      "source": "The Hacker News",
+      "summary": "Chinese Hacker Commands DeepSeek via Telegram to Launch Autonomous Attacks Palo Alto Networks' Unit 42 says a Chinese-speaking threat actor used DeepSeek through the open-source Hermes Agent...",
+      "source": "CVE Newsroom",
       "published": "2026-07-31T11:21:27+00:00"
     },
     {
@@ -697,8 +704,8 @@
     {
       "title": "ThreatsDay: AI-Powered Hacking, 370 Chrome Flaws, SonicWall Attacks, DNS Hijacking + 22 More Stories",
       "link": "https://thehackernews.com/2026/07/threatsday-ai-powered-hacking-370.html",
-      "summary": "A lot of security still comes down to trusting the wrong screen. This week, that screen might be a login page, an install guide, a recruiter call, or a familiar service behaving slightly wrong...",
-      "source": "The Hacker News",
+      "summary": "ThreatsDay: AI-Powered Hacking, 370 Chrome Flaws, SonicWall Attacks, DNS Hijacking + 22 More Stories A lot of security still comes down to trusting the wrong screen.This week, that screen might be a...",
+      "source": "CVE Newsroom",
       "published": "2026-07-30T15:25:57+00:00"
     },
     {
@@ -732,8 +739,8 @@
     {
       "title": "Hackers Exploit AnySign4PC via Hacked Korean Sites to Install Backdoors Without Prompts",
       "link": "https://thehackernews.com/2026/07/hackers-exploit-anysign4pc-via-hacked.html",
-      "summary": "South Korean authorities and four security firms have disclosed a state-sponsored campaign that compromised trusted domestic websites. The attackers used those sites to exploit locally installed...",
-      "source": "The Hacker News",
+      "summary": "Hackers Exploit AnySign4PC via Hacked Korean Sites to Install Backdoors Without Prompts South Korean authorities and four security firms have disclosed a state-sponsored campaign that compromised...",
+      "source": "CVE Newsroom",
       "published": "2026-07-30T10:33:15+00:00"
     },
     {
@@ -760,15 +767,15 @@
     {
       "title": "Russian Hackers Exploit Microsoft OWA Flaw to Keep Mailbox Access After Credential Rotation",
       "link": "https://thehackernews.com/2026/07/russian-hackers-exploit-microsoft-owa.html",
-      "summary": "The Russian threat actors recently linked to the exploitation of a now-patched vulnerability in Zimbra have been observed exploiting another vulnerability, this time in Microsoft Outlook Web Access...",
-      "source": "The Hacker News",
+      "summary": "Russian Hackers Exploit Microsoft OWA Flaw to Keep Mailbox Access After Credential Rotation The Russian threat actors recently linked to the exploitation of a now-patched vulnerability in Zimbra have...",
+      "source": "CVE Newsroom",
       "published": "2026-07-30T07:40:48+00:00"
     },
     {
       "title": "FCC Blocks New Foreign-Produced Robots and Power Inverters Over Cyber Risks",
       "link": "https://thehackernews.com/2026/07/fcc-blocks-new-foreign-produced-robots.html",
-      "summary": "The Federal Communications Commission (FCC) added foreign-produced mobile robots and networked power inverters to its Covered List on July 28. The move generally prevents new models from receiving...",
-      "source": "The Hacker News",
+      "summary": "FCC Blocks New Foreign-Produced Robots and Power Inverters Over Cyber Risks The Federal Communications Commission (FCC) added foreign-produced mobile robots and networked power inverters to its...",
+      "source": "CVE Newsroom",
       "published": "2026-07-30T07:28:43+00:00"
     },
     {
@@ -1176,13 +1183,6 @@
       "summary": "The latest large language models have high false-positive rates and fail to take into account the context of scans, leading to more work for AppSec professionals.",
       "source": "Dark Reading",
       "published": "2026-07-21T21:27:37+00:00"
-    },
-    {
-      "title": "Hacker Turns AI Jailbreaks Into Offensive Attack Platform",
-      "link": "https://www.darkreading.com/cyber-risk/hacker-ai-jailbreaks-offensive-attack-platform",
-      "summary": "A Russian-speaking actor, \"Trim,\" dismantled publicly available frontier models and integrated them with offensive security tools.",
-      "source": "Dark Reading",
-      "published": "2026-07-21T18:38:52+00:00"
     },
     {
       "title": "Microsoft Patches a Record 570 Security Flaws",
