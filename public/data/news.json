@@ -1,12 +1,110 @@
 {
-  "last_updated": "2026-08-06T08:16:48.062960+00:00",
+  "last_updated": "2026-08-06T11:57:19.078387+00:00",
   "articles": [
+    {
+      "title": "Critical Paperclip Flaw Allowed Admin Access, Code Execution",
+      "link": "https://www.securityweek.com/critical-paperclip-flaw-allowed-admin-access-code-execution/",
+      "summary": "An attacker could self-register, sign in for board-level API access, and import a new company for code execution. The post Critical Paperclip Flaw Allowed Admin Access, Code Execution appeared first...",
+      "source": "SecurityWeek",
+      "published": "2026-08-06T11:09:11+00:00"
+    },
+    {
+      "title": "CVE-2026-55978 - Improper access control vulnerability in CatchPulse",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55978",
+      "summary": "CVE ID :CVE-2026-55978 Published : Aug. 6, 2026, 10:16 a.m. | 1 hour, 5 minutes ago Description :An improper access control vulnerability in CatchPulse could allow a non-administrative local attacker...",
+      "source": "CVE Feed",
+      "published": "2026-08-06T10:16:43+00:00"
+    },
+    {
+      "title": "Meta AI Hacked External Systems During Cybersecurity Testing",
+      "link": "https://www.securityweek.com/meta-ai-hacked-external-systems-during-cybersecurity-testing/",
+      "summary": "The incident involved a testing environment set up by Irregular, similar to what Anthropic reported last week. The post Meta AI Hacked External Systems During Cybersecurity Testing appeared first on...",
+      "source": "SecurityWeek",
+      "published": "2026-08-06T09:56:26+00:00"
+    },
+    {
+      "title": "Belarusian Ransom Cartel Mastermind Gets 16 Years in Prison",
+      "link": "https://www.securityweek.com/belarusian-ransom-cartel-mastermind-gets-16-years-in-prison/",
+      "summary": "Maksim Silnikau was the creator and administrator of the ransomware group and involved in Angler EK’s distribution. The post Belarusian Ransom Cartel Mastermind Gets 16 Years in Prison appeared first...",
+      "source": "SecurityWeek",
+      "published": "2026-08-06T09:30:30+00:00"
+    },
+    {
+      "title": "Attackers Compile khunt Inside Oracle to Turn SQL Injection Into Windows SYSTEM Access",
+      "link": "https://thehackernews.com/2026/08/attackers-compile-khunt-inside-oracle.html",
+      "summary": "Attackers broke into an organization's Oracle database through a SQL injection flaw in a public-facing web application, then installed a post-exploitation toolkit without writing an executable to...",
+      "source": "The Hacker News",
+      "published": "2026-08-06T09:19:23+00:00"
+    },
+    {
+      "title": "AWS, Google, and Vercel Agent Flaws Let Attackers Trigger Tools Without Running the Model",
+      "link": "https://thehackernews.com/2026/08/aws-google-and-vercel-patch-agent-flaws.html",
+      "summary": "Security flaws in agent infrastructure from Amazon Web Services (AWS), Google, and Vercel let untrusted or forged instructions reach an agent's tools with no check that a model turn had authorized...",
+      "source": "The Hacker News",
+      "published": "2026-08-06T08:57:30+00:00"
+    },
+    {
+      "title": "CVE-2026-5430 - Authentication Bypass via JWT Algorithm Mismatch in Multiple WSO2 Products Allows Account Takeover",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-5430",
+      "summary": "CVE ID :CVE-2026-5430 Published : Aug. 6, 2026, 8:16 a.m. | 3 hours, 5 minutes ago Description :The JWT authentication mechanism accepts tokens signed with algorithms other than those explicitly...",
+      "source": "CVE Feed",
+      "published": "2026-08-06T08:16:33+00:00"
+    },
+    {
+      "title": "CVE-2026-1728 - Privilege Escalation via System REST APIs in Multiple WSO2 Products Permits Admin Account Takeover",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-1728",
+      "summary": "CVE ID :CVE-2026-1728 Published : Aug. 6, 2026, 8:16 a.m. | 3 hours, 5 minutes ago Description :Tokens issued to a low-privileged user are not sufficiently restricted, allowing them to be used to...",
+      "source": "CVE Feed",
+      "published": "2026-08-06T08:16:31+00:00"
+    },
+    {
+      "title": "CVE-2026-18597 - Blind SSRF on Foxit PDF Services API",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-18597",
+      "summary": "CVE ID :CVE-2026-18597 Published : Aug. 6, 2026, 8:16 a.m. | 3 hours, 5 minutes ago Description :The PDF creation feature of Foxit PDF Services API supports referencing external files. Although local...",
+      "source": "CVE Feed",
+      "published": "2026-08-06T08:16:29+00:00"
+    },
+    {
+      "title": "CVE-2025-15039 - Account Takeover via Conditional Authentication Script Logic in Multiple WSO2 Products",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2025-15039",
+      "summary": "CVE ID :CVE-2025-15039 Published : Aug. 6, 2026, 8:16 a.m. | 3 hours, 5 minutes ago Description :The Conditional Authentication (Adaptive Authentication) script does not correctly enforce the...",
+      "source": "CVE Feed",
+      "published": "2026-08-06T08:16:29+00:00"
+    },
+    {
+      "title": "Chinese-Made Zbtlink Routers Ship With Backdoor That Opens Unauthenticated Root Shells",
+      "link": "https://thehackernews.com/2026/08/chinese-made-zbtlink-routers-ship-with.html",
+      "summary": "Cybersecurity researchers have disclosed details of a \"factory-shipped backdoor\" implanted in at least 20 Chinese router models from Zbtlink. According to a new report from VulnCheck, the implant...",
+      "source": "The Hacker News",
+      "published": "2026-08-06T08:05:22+00:00"
+    },
+    {
+      "title": "VS en Italië melden misbruik van kritiek lek in Jetbrains TeamCity-servers",
+      "link": "https://www.security.nl/posting/948211/VS+en+Itali%C3%AB+melden+misbruik+van+kritiek+lek+in+Jetbrains+TeamCity-servers?channel=rss",
+      "summary": "VS en Italië melden misbruik van kritiek lek in Jetbrains TeamCity-servers Aanvallers maken actief misbruik van een kritieke kwetsbaarheid in Jetbrains TeamCity-servers waardoor systemen op afstand...",
+      "source": "CVE Newsroom",
+      "published": "2026-08-06T07:53:10+00:00"
+    },
     {
       "title": "Cisco Patches Critical SD-WAN, IOS XE, FMC Vulnerabilities",
       "link": "https://www.securityweek.com/cisco-patches-critical-sd-wan-ios-xe-fmc-vulnerabilities/",
       "summary": "Patches were rolled out for two dozen vulnerabilities, including one with public proof-of-concept (PoC) code. The post Cisco Patches Critical SD-WAN, IOS XE, FMC Vulnerabilities appeared first on...",
       "source": "SecurityWeek",
       "published": "2026-08-06T07:20:20+00:00"
+    },
+    {
+      "title": "Ransom Cartel Creator Gets 16 Years in Prison for Operating Ransomware-as-a-Service",
+      "link": "https://thehackernews.com/2026/08/ransom-cartel-creator-gets-16-years-in.html",
+      "summary": "A federal judge in Alexandria, Virginia, sentenced Maksim Silnikau to 16 years in prison on August 5 for creating and running Ransom Cartel, the ransomware-as-a-service operation he stood up in 2021...",
+      "source": "The Hacker News",
+      "published": "2026-08-06T07:19:54+00:00"
+    },
+    {
+      "title": "CISA Flags TeamCity CVE-2026-63077 RCE Flaw Under Active Exploitation in the Wild",
+      "link": "https://thehackernews.com/2026/08/cisa-flags-teamcity-cve-2026-63077-rce.html",
+      "summary": "A newly patched security flaw impacting on-premise versions of JetBrains TeamCity has come under active exploitation in the wild, according to the U.S. Cybersecurity and Infrastructure Security...",
+      "source": "The Hacker News",
+      "published": "2026-08-06T06:51:43+00:00"
     },
     {
       "title": "CISA Adds Four Vulnerabilities to KEV Catalog Aug 6 2026",
@@ -25,7 +123,7 @@
     {
       "title": "CVE-2026-15459 - WPMU DEV Dashboard <= 5.0.0 - Authentication Bypass to Arbitrary Plugin Installation (Remote Code Execution) via Forged WDP_AUTH HMAC on ?wpmudev-hub= Endpoint",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-15459",
-      "summary": "CVE ID :CVE-2026-15459 Published : Aug. 6, 2026, 6:16 a.m. | 1 hour, 43 minutes ago Description :The WPMU DEV Dashboard plugin for WordPress is vulnerable to Authentication Bypass in all versions up...",
+      "summary": "CVE ID :CVE-2026-15459 Published : Aug. 6, 2026, 6:16 a.m. | 5 hours, 5 minutes ago Description :The WPMU DEV Dashboard plugin for WordPress is vulnerable to Authentication Bypass in all versions up...",
       "source": "CVE Feed",
       "published": "2026-08-06T06:16:30+00:00"
     },
@@ -39,14 +137,14 @@
     {
       "title": "CVE-2026-15991 - File Manager 6.0 - 6.9 - Missing Authorization to Authenticated (Subscriber+) Arbitrary File Read and Deletion via 'cmd' Query Parameter",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-15991",
-      "summary": "CVE ID :CVE-2026-15991 Published : Aug. 6, 2026, 5:16 a.m. | 2 hours, 43 minutes ago Description :The File Manager plugin for WordPress is vulnerable to arbitrary file deletion due to insufficient...",
+      "summary": "CVE ID :CVE-2026-15991 Published : Aug. 6, 2026, 5:16 a.m. | 6 hours, 5 minutes ago Description :The File Manager plugin for WordPress is vulnerable to arbitrary file deletion due to insufficient...",
       "source": "CVE Feed",
       "published": "2026-08-06T05:16:38+00:00"
     },
     {
       "title": "CVE-2026-67531 - FrontMCP: CodeCall sandbox escape -> host RCE via live Zod schema exposure by getTool",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-67531",
-      "summary": "CVE ID :CVE-2026-67531 Published : Aug. 6, 2026, 12:16 a.m. | 7 hours, 42 minutes ago Description :FrontMCP is a TypeScript-first framework for the Model Context Protocol (MCP). Prior to 1.5.7, the...",
+      "summary": "CVE ID :CVE-2026-67531 Published : Aug. 6, 2026, 12:16 a.m. | 11 hours, 5 minutes ago Description :FrontMCP is a TypeScript-first framework for the Model Context Protocol (MCP). Prior to 1.5.7, the...",
       "source": "CVE Feed",
       "published": "2026-08-06T00:16:53+00:00"
     },
@@ -67,7 +165,7 @@
     {
       "title": "CVE-2026-19024 - HDF5 H5Pget_fill_value NULL Pointer Dereference via Malformed Fill Value Message",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-19024",
-      "summary": "CVE ID :CVE-2026-19024 Published : Aug. 5, 2026, 11:16 p.m. | 8 hours, 42 minutes ago Description :NULL pointer dereference in H5Pget_fill_value in HDF5 before 2.1.1 allows attackers to cause a...",
+      "summary": "CVE ID :CVE-2026-19024 Published : Aug. 5, 2026, 11:16 p.m. | 12 hours, 5 minutes ago Description :NULL pointer dereference in H5Pget_fill_value in HDF5 before 2.1.1 allows attackers to cause a...",
       "source": "CVE Feed",
       "published": "2026-08-05T23:16:53+00:00"
     },
@@ -95,14 +193,14 @@
     {
       "title": "CVE-2026-71320 - Nuxt: Server-Side Remote Code Execution via Runtime Template Injection in Nuxt Server Island Props",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-71320",
-      "summary": "CVE ID :CVE-2026-71320 Published : Aug. 5, 2026, 10:17 p.m. | 9 hours, 42 minutes ago Description :Nuxt is an open-source web development framework for Vue.js. From 3.4.0 until 3.21.10 and 4.5.1, an...",
+      "summary": "CVE ID :CVE-2026-71320 Published : Aug. 5, 2026, 10:17 p.m. | 13 hours, 5 minutes ago Description :Nuxt is an open-source web development framework for Vue.js. From 3.4.0 until 3.21.10 and 4.5.1, an...",
       "source": "CVE Feed",
       "published": "2026-08-05T22:17:08+00:00"
     },
     {
       "title": "CVE-2026-71319 - Nuxt.js Unauthenticated WebSocket RPC Call Leading to Remote Code Execution",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-71319",
-      "summary": "CVE ID :CVE-2026-71319 Published : Aug. 5, 2026, 10:17 p.m. | 9 hours, 42 minutes ago Description :Nuxt is an open-source web development framework for Vue.js. Prior to 3.3.1, Nuxt DevTools...",
+      "summary": "CVE ID :CVE-2026-71319 Published : Aug. 5, 2026, 10:17 p.m. | 13 hours, 5 minutes ago Description :Nuxt is an open-source web development framework for Vue.js. Prior to 3.3.1, Nuxt DevTools...",
       "source": "CVE Feed",
       "published": "2026-08-05T22:17:08+00:00"
     },
@@ -116,35 +214,35 @@
     {
       "title": "CVE-2026-71315 - Nuxt route rules silently dropped for mixed-case paths, bypassing appMiddleware auth gates (incomplete fix for CVE-2026-53721)",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-71315",
-      "summary": "CVE ID :CVE-2026-71315 Published : Aug. 5, 2026, 9:16 p.m. | 10 hours, 42 minutes ago Description :Nuxt is an open-source web development framework for Vue.js. From 3.21.7 until 3.21.10 and 4.5.1...",
+      "summary": "CVE ID :CVE-2026-71315 Published : Aug. 5, 2026, 9:16 p.m. | 14 hours, 5 minutes ago Description :Nuxt is an open-source web development framework for Vue.js. From 3.21.7 until 3.21.10 and 4.5.1...",
       "source": "CVE Feed",
       "published": "2026-08-05T21:16:59+00:00"
     },
     {
       "title": "CVE-2026-71312 - rclone: PowerShell Smart-Quote Filename Injection Enables SFTP Server-Side Command Execution",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-71312",
-      "summary": "CVE ID :CVE-2026-71312 Published : Aug. 5, 2026, 9:16 p.m. | 10 hours, 42 minutes ago Description :rclone is a command-line program to sync files and directories to and from different cloud storage...",
+      "summary": "CVE ID :CVE-2026-71312 Published : Aug. 5, 2026, 9:16 p.m. | 14 hours, 5 minutes ago Description :rclone is a command-line program to sync files and directories to and from different cloud storage...",
       "source": "CVE Feed",
       "published": "2026-08-05T21:16:58+00:00"
     },
     {
       "title": "CVE-2026-71309 - rclone: Incomplete path validation allows backend root escape in serve restic",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-71309",
-      "summary": "CVE ID :CVE-2026-71309 Published : Aug. 5, 2026, 9:16 p.m. | 10 hours, 42 minutes ago Description :rclone is a command-line program to sync files and directories to and from different cloud storage...",
+      "summary": "CVE ID :CVE-2026-71309 Published : Aug. 5, 2026, 9:16 p.m. | 14 hours, 5 minutes ago Description :rclone is a command-line program to sync files and directories to and from different cloud storage...",
       "source": "CVE Feed",
       "published": "2026-08-05T21:16:58+00:00"
     },
     {
       "title": "CVE-2026-18411 - Use of hard-coded cryptographic key in Acrisure KARR BT and DR-100",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-18411",
-      "summary": "CVE ID :CVE-2026-18411 Published : Aug. 5, 2026, 9:16 p.m. | 10 hours, 42 minutes ago Description :The KARR Security System and SWDS dealer-installed automotive anti-theft systems use a shared...",
+      "summary": "CVE ID :CVE-2026-18411 Published : Aug. 5, 2026, 9:16 p.m. | 14 hours, 5 minutes ago Description :The KARR Security System and SWDS dealer-installed automotive anti-theft systems use a shared...",
       "source": "CVE Feed",
       "published": "2026-08-05T21:16:57+00:00"
     },
     {
       "title": "CVE-2026-17583 - Thermo Fisher Applied Biosystems Genetic Analyzers Missing Support for Integrity Check",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-17583",
-      "summary": "CVE ID :CVE-2026-17583 Published : Aug. 5, 2026, 9:16 p.m. | 10 hours, 42 minutes ago Description :The affected Thermo Fisher Applied Biosystems Genetic Analyzers are vulnerable because .fsa/.hid...",
+      "summary": "CVE ID :CVE-2026-17583 Published : Aug. 5, 2026, 9:16 p.m. | 14 hours, 5 minutes ago Description :The affected Thermo Fisher Applied Biosystems Genetic Analyzers are vulnerable because .fsa/.hid...",
       "source": "CVE Feed",
       "published": "2026-08-05T21:16:57+00:00"
     },
@@ -158,35 +256,35 @@
     {
       "title": "CVE-2026-70617 - Spacebar Server Missing Authorization via Group DM Recipient Endpoint",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-70617",
-      "summary": "CVE ID :CVE-2026-70617 Published : Aug. 5, 2026, 8:17 p.m. | 11 hours, 42 minutes ago Description :Spacebar Server before commit dcfd910 contains a missing authorization vulnerability that allows any...",
+      "summary": "CVE ID :CVE-2026-70617 Published : Aug. 5, 2026, 8:17 p.m. | 15 hours, 4 minutes ago Description :Spacebar Server before commit dcfd910 contains a missing authorization vulnerability that allows any...",
       "source": "CVE Feed",
       "published": "2026-08-05T20:17:17+00:00"
     },
     {
       "title": "CVE-2026-70615 - boringproxy 0.10.0 SSH authorized_keys Injection via Tunnel Creation",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-70615",
-      "summary": "CVE ID :CVE-2026-70615 Published : Aug. 5, 2026, 8:17 p.m. | 11 hours, 42 minutes ago Description :boringproxy through 0.10.0 contains a newline injection vulnerability that allows authenticated...",
+      "summary": "CVE ID :CVE-2026-70615 Published : Aug. 5, 2026, 8:17 p.m. | 15 hours, 4 minutes ago Description :boringproxy through 0.10.0 contains a newline injection vulnerability that allows authenticated...",
       "source": "CVE Feed",
       "published": "2026-08-05T20:17:17+00:00"
     },
     {
       "title": "CVE-2026-66298 - JS-view sandboxed output can synthesize keyboard events to trigger unconfirmed global shortcuts",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-66298",
-      "summary": "CVE ID :CVE-2026-66298 Published : Aug. 5, 2026, 8:17 p.m. | 11 hours, 42 minutes ago Description :Origin Validation Error vulnerability in livebook-dev livebook allows untrusted notebook output...",
+      "summary": "CVE ID :CVE-2026-66298 Published : Aug. 5, 2026, 8:17 p.m. | 15 hours, 5 minutes ago Description :Origin Validation Error vulnerability in livebook-dev livebook allows untrusted notebook output...",
       "source": "CVE Feed",
       "published": "2026-08-05T20:17:12+00:00"
     },
     {
       "title": "CVE-2026-18953 - Improper limitation of a pathname to a restricted directory in aws-transform-mcp-server",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-18953",
-      "summary": "CVE ID :CVE-2026-18953 Published : Aug. 5, 2026, 8:17 p.m. | 11 hours, 42 minutes ago Description :Improper limitation of a pathname to a restricted directory in the get_resource tool in Amazon...",
+      "summary": "CVE ID :CVE-2026-18953 Published : Aug. 5, 2026, 8:17 p.m. | 15 hours, 5 minutes ago Description :Improper limitation of a pathname to a restricted directory in the get_resource tool in Amazon...",
       "source": "CVE Feed",
       "published": "2026-08-05T20:17:07+00:00"
     },
     {
       "title": "CVE-2026-17556 - Path traversal in GitHub Enterprise Server allowed unauthenticated deletion of instance storage via the X-GitHub-Request-Id header",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-17556",
-      "summary": "CVE ID :CVE-2026-17556 Published : Aug. 5, 2026, 8:17 p.m. | 11 hours, 42 minutes ago Description :A path traversal vulnerability was identified in GitHub Enterprise Server that allowed an...",
+      "summary": "CVE ID :CVE-2026-17556 Published : Aug. 5, 2026, 8:17 p.m. | 15 hours, 5 minutes ago Description :A path traversal vulnerability was identified in GitHub Enterprise Server that allowed an...",
       "source": "CVE Feed",
       "published": "2026-08-05T20:17:06+00:00"
     },
@@ -221,65 +319,30 @@
     {
       "title": "CVE-2026-9201 - Langflow OSS is affected by arbitrary code execution in component generation, validation, and custom component handling",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-9201",
-      "summary": "CVE ID :CVE-2026-9201 Published : Aug. 5, 2026, 7:17 p.m. | 12 hours, 41 minutes ago Description :IBM Langflow OSS 1.0.0 through 1.10.3 could allow an authenticated attacker to execute arbitrary code...",
+      "summary": "CVE ID :CVE-2026-9201 Published : Aug. 5, 2026, 7:17 p.m. | 16 hours, 4 minutes ago Description :IBM Langflow OSS 1.0.0 through 1.10.3 could allow an authenticated attacker to execute arbitrary code...",
       "source": "CVE Feed",
       "published": "2026-08-05T19:17:48+00:00"
     },
     {
       "title": "CVE-2026-9196 - Langflow OSS is affected by arbitrary code execution in component generation, validation, and custom component handling",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-9196",
-      "summary": "CVE ID :CVE-2026-9196 Published : Aug. 5, 2026, 7:17 p.m. | 12 hours, 41 minutes ago Description :IBM Langflow OSS 1.0.0 through 1.10.3 could allow an authenticated attacker to execute unintended...",
+      "summary": "CVE ID :CVE-2026-9196 Published : Aug. 5, 2026, 7:17 p.m. | 16 hours, 4 minutes ago Description :IBM Langflow OSS 1.0.0 through 1.10.3 could allow an authenticated attacker to execute unintended code...",
       "source": "CVE Feed",
       "published": "2026-08-05T19:17:48+00:00"
     },
     {
       "title": "CVE-2026-8478 - Langflow OSS is affected by arbitrary code execution in component generation, validation, and custom component handling",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-8478",
-      "summary": "CVE ID :CVE-2026-8478 Published : Aug. 5, 2026, 7:17 p.m. | 12 hours, 42 minutes ago Description :IBM Langflow OSS 1.0.0 through 1.10.3 could allow a remote attacker to inject arbitrary code on the...",
+      "summary": "CVE ID :CVE-2026-8478 Published : Aug. 5, 2026, 7:17 p.m. | 16 hours, 4 minutes ago Description :IBM Langflow OSS 1.0.0 through 1.10.3 could allow a remote attacker to inject arbitrary code on the...",
       "source": "CVE Feed",
       "published": "2026-08-05T19:17:45+00:00"
     },
     {
       "title": "CVE-2026-8182 - Langflow OSS is affected by arbitrary code execution in component generation, validation, and custom component handling",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-8182",
-      "summary": "CVE ID :CVE-2026-8182 Published : Aug. 5, 2026, 7:17 p.m. | 12 hours, 42 minutes ago Description :IBM Langflow OSS 1.0.0 through 1.10.3 installations allow anyone on the internet to execute arbitrary...",
+      "summary": "CVE ID :CVE-2026-8182 Published : Aug. 5, 2026, 7:17 p.m. | 16 hours, 4 minutes ago Description :IBM Langflow OSS 1.0.0 through 1.10.3 installations allow anyone on the internet to execute arbitrary...",
       "source": "CVE Feed",
       "published": "2026-08-05T19:17:43+00:00"
-    },
-    {
-      "title": "CVE-2026-48168 - PraisonAI: GitHub Actions Claude workflow command injection via unquoted PR branch name",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48168",
-      "summary": "CVE ID :CVE-2026-48168 Published : Aug. 5, 2026, 7:17 p.m. | 12 hours, 42 minutes ago Description :PraisonAI is a multi-agent teams system. In versions prior to 4.6.40, the bundled Claude GitHub...",
-      "source": "CVE Feed",
-      "published": "2026-08-05T19:17:31+00:00"
-    },
-    {
-      "title": "CVE-2026-18485 - Local Privilege Escalation in NI-PAL",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-18485",
-      "summary": "CVE ID :CVE-2026-18485 Published : Aug. 5, 2026, 7:17 p.m. | 12 hours, 42 minutes ago Description :There is a local privilege escalation vulnerability recently discovered in the NI-PAL kernel driver...",
-      "source": "CVE Feed",
-      "published": "2026-08-05T19:17:29+00:00"
-    },
-    {
-      "title": "CVE-2026-17633 - Langflow OSS is affected by arbitrary code execution in component generation, validation, and custom component handling",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-17633",
-      "summary": "CVE ID :CVE-2026-17633 Published : Aug. 5, 2026, 7:17 p.m. | 12 hours, 42 minutes ago Description :IBM Langflow OSS 1.0.0 through 1.10.3 could allow a remote authenticated attacker to execute...",
-      "source": "CVE Feed",
-      "published": "2026-08-05T19:17:29+00:00"
-    },
-    {
-      "title": "CVE-2026-17632 - Langflow OSS is affected by arbitrary code execution in component generation, validation, and custom component handling",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-17632",
-      "summary": "CVE ID :CVE-2026-17632 Published : Aug. 5, 2026, 7:17 p.m. | 12 hours, 42 minutes ago Description :IBM Langflow OSS 1.0.0 through 1.10.3 could allow a remote authenticated attacker to execute...",
-      "source": "CVE Feed",
-      "published": "2026-08-05T19:17:28+00:00"
-    },
-    {
-      "title": "CVE-2026-17624 - Langflow OSS is affected by arbitrary code execution in component generation, validation, and custom component handling",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-17624",
-      "summary": "CVE ID :CVE-2026-17624 Published : Aug. 5, 2026, 7:17 p.m. | 12 hours, 42 minutes ago Description :IBM Langflow OSS 1.0.0 through 1.10.3, 1.0.0 through 1.10.3, 1.0.0 through 1.10.3, 1.0.0 through...",
-      "source": "CVE Feed",
-      "published": "2026-08-05T19:17:27+00:00"
     },
     {
       "title": "15 TP-Link Bugs Expose Risks in Zero-Trust Provisioning",
@@ -340,8 +403,8 @@
     {
       "title": "Paperclip AI Flaws Let Attackers Run Host Commands via Malicious Agent Imports",
       "link": "https://thehackernews.com/2026/08/paperclip-ai-flaws-let-attackers-run.html",
-      "summary": "Paperclip AI Flaws Let Attackers Run Host Commands via Malicious Agent Imports Two security flaws in Paperclip could let attackers execute commands on a network server or a developer's computer...",
-      "source": "CVE Newsroom",
+      "summary": "Two security flaws in Paperclip could let attackers execute commands on a network server or a developer's computer. Paperclip is an open-source control plane for teams of artificial intelligence (AI)...",
+      "source": "The Hacker News",
       "published": "2026-08-05T15:14:05+00:00"
     },
     {
@@ -361,8 +424,8 @@
     {
       "title": "Veeam, Terraform MCP, Django Patch Critical Flaws, Led by CVSS 10.0 Cross-Tenant Bug",
       "link": "https://thehackernews.com/2026/08/veeam-terraform-mcp-django-patch.html",
-      "summary": "Veeam, Terraform MCP, Django Patch Critical Flaws, Led by CVSS 10.0 Cross-Tenant Bug HashiCorp, Veeam, and the Django Software Foundation have patched 11 vulnerabilities across Terraform MCP Server...",
-      "source": "CVE Newsroom",
+      "summary": "HashiCorp, Veeam, and the Django Software Foundation have patched 11 vulnerabilities across Terraform MCP Server, Veeam Service Provider Console, and Django. The three most serious: An...",
+      "source": "The Hacker News",
       "published": "2026-08-05T14:27:30+00:00"
     },
     {
@@ -410,8 +473,8 @@
     {
       "title": "New OVSwrap Linux Kernel Flaw Lets Local Users Gain Root via Open vSwitch",
       "link": "https://thehackernews.com/2026/08/new-ovswrap-linux-kernel-flaw-lets.html",
-      "summary": "New OVSwrap Linux Kernel Flaw Lets Local Users Gain Root via Open vSwitch A memory corruption flaw in the Linux kernel's Open vSwitch datapath gives ordinary local users a path to root on a broad set...",
-      "source": "CVE Newsroom",
+      "summary": "A memory corruption flaw in the Linux kernel's Open vSwitch datapath gives ordinary local users a path to root on a broad set of default-configured distributions, and a public exploit ships with...",
+      "source": "The Hacker News",
       "published": "2026-08-05T11:43:27+00:00"
     },
     {
@@ -429,39 +492,18 @@
       "published": "2026-08-05T11:35:23+00:00"
     },
     {
-      "title": "Cybersecurity Alliance Drafts SAFE Guidelines for Sharing AI Incident Data",
-      "link": "https://www.securityweek.com/cybersecurity-alliance-drafts-safe-guidelines-for-sharing-ai-incident-data/",
-      "summary": "The guidelines are the work of the recently launched Open Secure AI Alliance, which now includes 120 organizations. The post Cybersecurity Alliance Drafts SAFE Guidelines for Sharing AI Incident Data...",
-      "source": "SecurityWeek",
-      "published": "2026-08-05T11:11:29+00:00"
-    },
-    {
       "title": "Critical Gitea Flaw Let Unauthenticated Attackers Read Server Files via Org-Mode Markup",
       "link": "https://thehackernews.com/2026/08/critical-gitea-flaw-let-unauthenticated.html",
-      "summary": "Critical Gitea Flaw Let Unauthenticated Attackers Read Server Files via Org-Mode Markup An unauthenticated attacker can read any file the service account can access on Gitea, the self-hosted Git...",
-      "source": "CVE Newsroom",
+      "summary": "An unauthenticated attacker can read any file the service account can access on Gitea, the self-hosted Git platform, in versions 1.22.1 through 1.27.0. No login, no repository write access. A public...",
+      "source": "The Hacker News",
       "published": "2026-08-05T11:04:23+00:00"
     },
     {
       "title": "Leaked n8n API Tokens Exposed Live Instances to Credential Theft",
       "link": "https://thehackernews.com/2026/08/leaked-n8n-api-tokens-exposed-live.html",
-      "summary": "Leaked n8n API Tokens Exposed Live Instances to Credential Theft GitGuardian researchers found 321 n8n instances accepting API tokens exposed in public GitHub commits and demonstrated four ways...",
-      "source": "CVE Newsroom",
+      "summary": "GitGuardian researchers found 321 n8n instances accepting API tokens exposed in public GitHub commits and demonstrated four ways attackers could use them to access sensitive data and downstream...",
+      "source": "The Hacker News",
       "published": "2026-08-05T10:35:29+00:00"
-    },
-    {
-      "title": "AI Agents Targeted Real People and Projects During Cybersecurity Tests",
-      "link": "https://www.securityweek.com/ai-security-institute-reports-anthropic-and-openai-models-going-rogue-against-organizations/",
-      "summary": "AI Security Institute reports Anthropic and OpenAI models going rogue against real people, organizations, and open source projects. The post AI Agents Targeted Real People and Projects During...",
-      "source": "SecurityWeek",
-      "published": "2026-08-05T10:33:41+00:00"
-    },
-    {
-      "title": "CISA Warns of Exploited Langflow, N-central, and Tomcat Vulnerabilities",
-      "link": "https://www.securityweek.com/cisa-warns-of-exploited-langflow-n-central-and-tomcat-vulnerabilities/",
-      "summary": "The flaws can be exploited for remote code execution, authentication bypass, and EncryptInterceptor bypass. The post CISA Warns of Exploited Langflow, N-central, and Tomcat Vulnerabilities appeared...",
-      "source": "SecurityWeek",
-      "published": "2026-08-05T09:44:50+00:00"
     },
     {
       "title": "Open VSX Removes 77 Malicious Evil Twin Extensions Exfiltrating Developer Data",
@@ -494,8 +536,8 @@
     {
       "title": "CISA Flags Langflow RCE, Tomcat, and N-central Flaws as Actively Exploited",
       "link": "https://thehackernews.com/2026/08/cisa-flags-langflow-rce-tomcat-and-n.html",
-      "summary": "CISA Flags Langflow RCE, Tomcat, and N-central Flaws as Actively Exploited The U.S. Cybersecurity and Infrastructure Security Agency (CISA), on August 5, 2026, added three flaws to its Known...",
-      "source": "CVE Newsroom",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA), on August 5, 2026, added three flaws to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation in...",
+      "source": "The Hacker News",
       "published": "2026-08-05T07:40:39+00:00"
     },
     {
@@ -613,8 +655,8 @@
     {
       "title": "New cPanel Critical Flaw Could Let Hosting Customers Run SQL as Database Root",
       "link": "https://thehackernews.com/2026/08/new-cpanel-critical-flaw-could-let.html",
-      "summary": "New cPanel Critical Flaw Could Let Hosting Customers Run SQL as Database Root cPanel has patched a flaw that let an authenticated hosting customer execute SQL in the database's root context, crossing...",
-      "source": "CVE Newsroom",
+      "summary": "cPanel has patched a flaw that let an authenticated hosting customer execute SQL in the database's root context, crossing the privilege boundary between a cPanel account and the server's...",
+      "source": "The Hacker News",
       "published": "2026-08-04T10:36:27+00:00"
     },
     {
@@ -641,8 +683,8 @@
     {
       "title": "CISA Adds Exploited N-able N-central Flaw to KEV After Customer Compromises",
       "link": "https://thehackernews.com/2026/08/cisa-adds-exploited-n-able-n-central.html",
-      "summary": "CISA Adds Exploited N-able N-central Flaw to KEV After Customer Compromises The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added a high-severity security flaw impacting...",
-      "source": "CVE Newsroom",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added a high-severity security flaw impacting N-able N-central to its Known Exploited Vulnerabilities (KEV) catalog...",
+      "source": "The Hacker News",
       "published": "2026-08-04T07:00:13+00:00"
     },
     {
@@ -704,8 +746,8 @@
     {
       "title": "INC Ransomware Emerges as Dominant Actor Exploiting SonicWall SMA 1000 Flaws",
       "link": "https://thehackernews.com/2026/08/inc-ransomware-emerges-as-dominant.html",
-      "summary": "INC Ransomware Emerges as Dominant Actor Exploiting SonicWall SMA 1000 Flaws The INC Ransomware operation has emerged as the \"dominant threat actor\" exploiting the recently disclosed security flaws...",
-      "source": "CVE Newsroom",
+      "summary": "The INC Ransomware operation has emerged as the \"dominant threat actor\" exploiting the recently disclosed security flaws in SonicWall Secure Mobile Access (SMA) 1000 series VPN appliances. In a...",
+      "source": "The Hacker News",
       "published": "2026-08-03T16:15:13+00:00"
     },
     {
@@ -725,8 +767,8 @@
     {
       "title": "⚡ Weekly Recap: Rogue AI Models, $88M Bitcoin Theft, Water-System Attacks and Dangling DNS Hijacks",
       "link": "https://thehackernews.com/2026/08/weekly-recap-rogue-ai-models-88m.html",
-      "summary": "⚡ Weekly Recap: Rogue AI Models, $88M Bitcoin Theft, Water-System Attacks and Dangling DNS Hijacks This week kept coming back to permission. A model crossed a boundary. A wallet trusted bad...",
-      "source": "CVE Newsroom",
+      "summary": "This week kept coming back to permission. A model crossed a boundary. A wallet trusted bad randomness. Webmail kept an intruder around. Public systems, package feeds, hotel networks, and login flows...",
+      "source": "The Hacker News",
       "published": "2026-08-03T14:03:11+00:00"
     },
     {
@@ -774,22 +816,22 @@
     {
       "title": "Thermo Fisher Patches Flaw That Could Make DNA File Tampering Nearly Undetectable",
       "link": "https://thehackernews.com/2026/08/thermo-fisher-patches-flaw-that-could.html",
-      "summary": "Thermo Fisher Patches Flaw That Could Make DNA File Tampering Nearly Undetectable Thermo Fisher Scientific has patched a flaw in select Applied Biosystems human identification software that could...",
-      "source": "CVE Newsroom",
+      "summary": "Thermo Fisher Scientific has patched a flaw in select Applied Biosystems human identification software that could allow data files to be altered before analysis software loads them. The vendor's July...",
+      "source": "The Hacker News",
       "published": "2026-08-03T08:05:30+00:00"
     },
     {
       "title": "N-able Says Attackers Take Over N-central Servers After Initial Fix Proves Incomplete",
       "link": "https://thehackernews.com/2026/08/n-able-says-attackers-take-over-n.html",
-      "summary": "N-able Says Attackers Take Over N-central Servers After Initial Fix Proves Incomplete N-able said attackers exploited an authentication bypass in N-central to gain remote administrative access and...",
-      "source": "CVE Newsroom",
+      "summary": "N-able said attackers exploited an authentication bypass in N-central to gain remote administrative access and reach the customer systems managed through those servers. Its first fix was incomplete...",
+      "source": "The Hacker News",
       "published": "2026-08-03T06:41:46+00:00"
     },
     {
       "title": "Hugging Face Diffusers Flaws Could Let Model Repositories Execute Arbitrary Code",
       "link": "https://thehackernews.com/2026/08/hugging-face-diffusers-flaws-could-let.html",
-      "summary": "Hugging Face Diffusers Flaws Could Let Model Repositories Execute Arbitrary Code Three high-severity security flaws have been disclosed in Hugging Face's Diffusers library that could allow crafted...",
-      "source": "CVE Newsroom",
+      "summary": "Three high-severity security flaws have been disclosed in Hugging Face's Diffusers library that could allow crafted model repositories to stealthily execute arbitrary code on machines that load it...",
+      "source": "The Hacker News",
       "published": "2026-08-03T06:40:31+00:00"
     },
     {
@@ -816,8 +858,8 @@
     {
       "title": "Adobe Campaign Classic CVSS 10.0 Flaw Could Run Code Without User Interaction",
       "link": "https://thehackernews.com/2026/08/adobe-campaign-classic-cvss-100-flaw.html",
-      "summary": "Adobe Campaign Classic CVSS 10.0 Flaw Could Run Code Without User Interaction Adobe has released security updates to address a maximum-severity security flaw in Campaign Classic (ACC), its...",
-      "source": "CVE Newsroom",
+      "summary": "Adobe has released security updates to address a maximum-severity security flaw in Campaign Classic (ACC), its enterprise-focused marketing automation platform, that could result in arbitrary code...",
+      "source": "The Hacker News",
       "published": "2026-08-01T07:12:42+00:00"
     },
     {
@@ -933,13 +975,6 @@
       "published": "2026-07-30T19:40:40+00:00"
     },
     {
-      "title": "DPRK-Linked macOS Malvertising Uses Fake Updates to Deliver Crypto-Stealing Malware",
-      "link": "https://thehackernews.com/2026/07/dprk-linked-macos-malvertising-uses.html",
-      "summary": "Threat actors with ties to North Korea have been attributed to a sophisticated macOS malvertising campaign that involves redirecting users to fake web pages displaying a full-screen non-existent...",
-      "source": "The Hacker News",
-      "published": "2026-07-30T18:18:24+00:00"
-    },
-    {
       "title": "Read This Before You Buy That TV Streaming Stick",
       "link": "https://krebsonsecurity.com/2026/07/read-this-before-you-buy-that-tv-streaming-stick/",
       "summary": "Security experts have been sounding the alarm for years about the risks of using generic TV boxes that promise unlimited content streaming for a one-time fee, warning that they secretly rent the...",
@@ -952,34 +987,6 @@
       "summary": "In this edition of Reporters' Notebook, our journalists discuss the ins and outs of Anthropic's Claude Mythos rollout. How seriously should we take its risks? How big of a deal is it?",
       "source": "Dark Reading",
       "published": "2026-07-30T15:28:43+00:00"
-    },
-    {
-      "title": "ThreatsDay: AI-Powered Hacking, 370 Chrome Flaws, SonicWall Attacks, DNS Hijacking + 22 More Stories",
-      "link": "https://thehackernews.com/2026/07/threatsday-ai-powered-hacking-370.html",
-      "summary": "A lot of security still comes down to trusting the wrong screen. This week, that screen might be a login page, an install guide, a recruiter call, or a familiar service behaving slightly wrong...",
-      "source": "The Hacker News",
-      "published": "2026-07-30T15:25:57+00:00"
-    },
-    {
-      "title": "Azure Cosmos DB Flaw Exposed Platform-Wide Key That Could Access Any Database",
-      "link": "https://thehackernews.com/2026/07/azure-cosmos-db-flaw-exposed-platform.html",
-      "summary": "A now-patched vulnerability in Azure Cosmos DB could have let an attacker escape the service's Gremlin query sandbox and obtain full read and write access to databases across customer tenants...",
-      "source": "The Hacker News",
-      "published": "2026-07-30T13:34:09+00:00"
-    },
-    {
-      "title": "Microsoft Copilot for Word Can Copy Hidden Prompts Into New Documents",
-      "link": "https://thehackernews.com/2026/07/microsoft-copilot-for-word-can-copy.html",
-      "summary": "Hidden instructions in a Word document can make Microsoft 365 Copilot rewrite figures in a report, then copy the same instructions into the finished file. Håkon Måløy disclosed the technique on July...",
-      "source": "The Hacker News",
-      "published": "2026-07-30T11:54:49+00:00"
-    },
-    {
-      "title": "The Network Has Become the Control Plane for AI Security",
-      "link": "https://thehackernews.com/2026/07/the-network-has-become-control-plane.html",
-      "summary": "Network firewalls are the workhorses of modern cybersecurity. They are trusted to protect the network, blocking malicious traffic and preventing intrusions and breaches. And for decades, network...",
-      "source": "The Hacker News",
-      "published": "2026-07-30T11:32:46+00:00"
     },
     {
       "title": "SE Asian Cybercriminal Syndicates Become a Global Power",
