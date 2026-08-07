@@ -1,6 +1,76 @@
 {
-  "last_updated": "2026-08-07T18:40:46.330542+00:00",
+  "last_updated": "2026-08-07T20:30:18.205539+00:00",
   "articles": [
+    {
+      "title": "Metabase SQLi zero-day exploited in customer data-theft attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/framework-tally-disclose-metabase-data-theft-attacks/",
+      "summary": "A critical Metabase SQL injection vulnerability was exploited in zero-day attacks to breach customer instances in data theft attacks, known to impact Framework and Tally. [...]",
+      "source": "BleepingComputer",
+      "published": "2026-08-07T20:14:46+00:00"
+    },
+    {
+      "title": "Unlimited Technology Systems breach impacts 3.8 million people",
+      "link": "https://www.bleepingcomputer.com/news/security/unlimited-technology-systems-breach-impacts-38-million-people/",
+      "summary": "Healthcare software company Unlimited Technology Systems reported that more than 3.8 million people were impacted by a data breach incident that occurred in October 2025. [...]",
+      "source": "BleepingComputer",
+      "published": "2026-08-07T19:30:41+00:00"
+    },
+    {
+      "title": "CVE-2026-71851 - crypto-js: Insufficient Entropy in Cryptographic Secret Generation via Vulnerable CryptoJS Dependency Chain",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-71851",
+      "summary": "CVE ID :CVE-2026-71851 Published : Aug. 7, 2026, 7:18 p.m. | 53 minutes ago Description :crypto-js is a JavaScript library of crypto standards. Versions of crypto-js prior to 4.0.0 generate...",
+      "source": "CVE Feed",
+      "published": "2026-08-07T19:18:54+00:00"
+    },
+    {
+      "title": "CVE-2026-71847 - Ruby JSON: JSON::ResumableParser#partial_value dereferences a freed input buffer and crashes on truncated duplicate-key streams",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-71847",
+      "summary": "CVE ID :CVE-2026-71847 Published : Aug. 7, 2026, 7:18 p.m. | 53 minutes ago Description :Ruby JSON is a JSON implementation for Ruby. From 2.20.0 until 2.21.2, Ruby's JSON native C extension clears...",
+      "source": "CVE Feed",
+      "published": "2026-08-07T19:18:53+00:00"
+    },
+    {
+      "title": "Water utilities group partners with DEF CON offshoot for Water Watch Center",
+      "link": "https://therecord.media/water-watch-center-utilities-def-con-franklin-nrwa",
+      "summary": "The National Rural Water Association and a group of cybersecurity experts have formed a program to help cash-strapped utilities face the increase in threats to their systems.",
+      "source": "The Record",
+      "published": "2026-08-07T18:55:00+00:00"
+    },
+    {
+      "title": "Nearly 800 Malicious npm Packages Deliver Cross-Platform RAT and Infostealer",
+      "link": "https://thehackernews.com/2026/08/nearly-800-malicious-npm-packages.html",
+      "summary": "A cluster of nearly 800 malicious packages has been published to the npm registry as part of a new campaign designed to deliver cross-platform malware targeting Windows, Mac, and Linux systems...",
+      "source": "The Hacker News",
+      "published": "2026-08-07T18:48:17+00:00"
+    },
+    {
+      "title": "ClickFix Attacks Deliver macOS Stealer That Can Drain Crypto Wallets",
+      "link": "https://thehackernews.com/2026/08/clickfix-attacks-deliver-macos-stealer.html",
+      "summary": "ClickFix-style attacks are being used to deliver a Go-based malware capable of stealing cryptocurrency assets, as well as browser-stored passwords, Apple iCloud Keychain data, and cached credentials...",
+      "source": "The Hacker News",
+      "published": "2026-08-07T18:29:08+00:00"
+    },
+    {
+      "title": "CVE-2026-64638 - WordPress Reflected Cross-Site Scripting Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-64638",
+      "summary": "CVE ID :CVE-2026-64638 Published : Aug. 7, 2026, 6:17 p.m. | 1 hour, 55 minutes ago Description :WordPress is vulnerable to a pre-auth reflected XSS vulnerability on the login screen. Via a specially...",
+      "source": "CVE Feed",
+      "published": "2026-08-07T18:17:20+00:00"
+    },
+    {
+      "title": "CVE-2026-64637 - Plesk XML-RPC API Privilege Escalation",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-64637",
+      "summary": "CVE ID :CVE-2026-64637 Published : Aug. 7, 2026, 6:17 p.m. | 1 hour, 55 minutes ago Description :Improper privilege management in the XML-RPC API of Plesk before 18.0.80, allows an authenticated...",
+      "source": "CVE Feed",
+      "published": "2026-08-07T18:17:20+00:00"
+    },
+    {
+      "title": "UNC6671 Vishing Attacks Target Personal Phones to Steal SaaS Data",
+      "link": "https://thehackernews.com/2026/08/unc6671-vishing-attacks-target-personal.html",
+      "summary": "A recent wave of cyber attacks targeting financial services, private equity, and professional services is attributed to a data extortion group known as UNC6671. \"UNC6671 continues to rely on voice...",
+      "source": "The Hacker News",
+      "published": "2026-08-07T18:16:13+00:00"
+    },
     {
       "title": "US cyber ambassador nominee Cassady confirmed in Senate",
       "link": "https://therecord.media/adam-cassady-confirmed-senate-cyber-ambassador",
@@ -11,49 +81,49 @@
     {
       "title": "CVE-2026-68772 - ZenML 0.94.6 Remote Code Execution via CloudpickleMaterializer",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-68772",
-      "summary": "CVE ID :CVE-2026-68772 Published : Aug. 7, 2026, 5:17 p.m. | 39 minutes ago Description :ZenML 0.94.6 contains a remote code execution vulnerability in the CloudpickleMaterializer component that...",
+      "summary": "CVE ID :CVE-2026-68772 Published : Aug. 7, 2026, 5:17 p.m. | 2 hours, 55 minutes ago Description :ZenML 0.94.6 contains a remote code execution vulnerability in the CloudpickleMaterializer component...",
       "source": "CVE Feed",
       "published": "2026-08-07T17:17:07+00:00"
     },
     {
       "title": "CVE-2026-67585 - Atom Exhaustion via _entities Representation Keys in DivvyPayHQ absinthe_federation",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-67585",
-      "summary": "CVE ID :CVE-2026-67585 Published : Aug. 7, 2026, 5:17 p.m. | 39 minutes ago Description :Allocation of Resources Without Limits or Throttling vulnerability in DivvyPayHQ absinthe_federation allows an...",
+      "summary": "CVE ID :CVE-2026-67585 Published : Aug. 7, 2026, 5:17 p.m. | 2 hours, 55 minutes ago Description :Allocation of Resources Without Limits or Throttling vulnerability in DivvyPayHQ absinthe_federation...",
       "source": "CVE Feed",
       "published": "2026-08-07T17:17:06+00:00"
     },
     {
       "title": "CVE-2026-17603 - Nexus Repository 3 - HikariCP connectionInitSql Injection RCE via DataStore Configuration API",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-17603",
-      "summary": "CVE ID :CVE-2026-17603 Published : Aug. 7, 2026, 5:17 p.m. | 39 minutes ago Description :Nexus Repository 3 did not sufficiently restrict which HikariCP connection-pool properties could be set...",
+      "summary": "CVE ID :CVE-2026-17603 Published : Aug. 7, 2026, 5:17 p.m. | 2 hours, 55 minutes ago Description :Nexus Repository 3 did not sufficiently restrict which HikariCP connection-pool properties could be...",
       "source": "CVE Feed",
       "published": "2026-08-07T17:17:01+00:00"
     },
     {
       "title": "CVE-2026-17601 - Nexus Repository 3 - Wildcard Privilege Update Self-Escalation to Administrator",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-17601",
-      "summary": "CVE ID :CVE-2026-17601 Published : Aug. 7, 2026, 5:17 p.m. | 39 minutes ago Description :A user holding a permission to update privilege definitions could modify a wildcard privilege already assigned...",
+      "summary": "CVE ID :CVE-2026-17601 Published : Aug. 7, 2026, 5:17 p.m. | 2 hours, 55 minutes ago Description :A user holding a permission to update privilege definitions could modify a wildcard privilege already...",
       "source": "CVE Feed",
       "published": "2026-08-07T17:17:01+00:00"
     },
     {
       "title": "CVE-2026-17600 - Nexus Repository 3 - Session Not Invalidated on User Account Deletion or Deactivation",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-17600",
-      "summary": "CVE ID :CVE-2026-17600 Published : Aug. 7, 2026, 5:17 p.m. | 39 minutes ago Description :Sonatype Nexus Repository 3 did not immediately terminate a user's active login session or revoke their cached...",
+      "summary": "CVE ID :CVE-2026-17600 Published : Aug. 7, 2026, 5:17 p.m. | 2 hours, 55 minutes ago Description :Sonatype Nexus Repository 3 did not immediately terminate a user's active login session or revoke...",
       "source": "CVE Feed",
       "published": "2026-08-07T17:17:00+00:00"
     },
     {
       "title": "CVE-2026-17594 - Nexus Repository 3 - Authorization Bypass in Repository Creation",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-17594",
-      "summary": "CVE ID :CVE-2026-17594 Published : Aug. 7, 2026, 5:16 p.m. | 39 minutes ago Description :Nexus Repository 3 CE/Pro versions 3.0.0 through 3.94.x contain an incorrect authorization vulnerability...",
+      "summary": "CVE ID :CVE-2026-17594 Published : Aug. 7, 2026, 5:16 p.m. | 2 hours, 55 minutes ago Description :Nexus Repository 3 CE/Pro versions 3.0.0 through 3.94.x contain an incorrect authorization...",
       "source": "CVE Feed",
       "published": "2026-08-07T17:16:59+00:00"
     },
     {
       "title": "CVE-2026-14644 - Nexus Repository 3 - Privilege Escalation",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-14644",
-      "summary": "CVE ID :CVE-2026-14644 Published : Aug. 7, 2026, 5:16 p.m. | 39 minutes ago Description :Nexus Repository 3 contained a privilege escalation vulnerability in the REST privileges API. An authenticated...",
+      "summary": "CVE ID :CVE-2026-14644 Published : Aug. 7, 2026, 5:16 p.m. | 2 hours, 55 minutes ago Description :Nexus Repository 3 contained a privilege escalation vulnerability in the REST privileges API. An...",
       "source": "CVE Feed",
       "published": "2026-08-07T17:16:57+00:00"
     },
@@ -88,14 +158,14 @@
     {
       "title": "CVE-2026-19264 - Unauthenticated arbitrary file read via /uploads path traversal (URL-encoded separators) leading to instance takeover",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-19264",
-      "summary": "CVE ID :CVE-2026-19264 Published : Aug. 7, 2026, 3:17 p.m. | 2 hours, 39 minutes ago Description :Postiz is an open-source social media scheduling tool. The route that serves locally stored media...",
+      "summary": "CVE ID :CVE-2026-19264 Published : Aug. 7, 2026, 3:17 p.m. | 4 hours, 55 minutes ago Description :Postiz is an open-source social media scheduling tool. The route that serves locally stored media...",
       "source": "CVE Feed",
       "published": "2026-08-07T15:17:00+00:00"
     },
     {
       "title": "CVE-2022-4995 - Weaver E-cology 9.0 File Upload RCE via uploaderOperate.jsp",
       "link": "https://cvefeed.io/vuln/detail/CVE-2022-4995",
-      "summary": "CVE ID :CVE-2022-4995 Published : Aug. 7, 2026, 3:16 p.m. | 2 hours, 39 minutes ago Description :Weaver (Fanwei) E-cology 9.0 versions prior to 10.52 contain a file upload vulnerability that allows a...",
+      "summary": "CVE ID :CVE-2022-4995 Published : Aug. 7, 2026, 3:16 p.m. | 4 hours, 55 minutes ago Description :Weaver (Fanwei) E-cology 9.0 versions prior to 10.52 contain a file upload vulnerability that allows a...",
       "source": "CVE Feed",
       "published": "2026-08-07T15:16:57+00:00"
     },
@@ -116,7 +186,7 @@
     {
       "title": "CVE-2026-66914 - Joomla Extension - seblod.com - Unauthenticated path traversal in SEBLOD < 3.30.0, < 4.7.0, < 6.0.1",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-66914",
-      "summary": "CVE ID :CVE-2026-66914 Published : Aug. 7, 2026, 2:17 p.m. | 3 hours, 39 minutes ago Description :Joomla Extension - seblod.com - Unauthenticated path traversal in SEBLOD Severity: 9.2 | CRITICAL...",
+      "summary": "CVE ID :CVE-2026-66914 Published : Aug. 7, 2026, 2:17 p.m. | 5 hours, 55 minutes ago Description :Joomla Extension - seblod.com - Unauthenticated path traversal in SEBLOD Severity: 9.2 | CRITICAL...",
       "source": "CVE Feed",
       "published": "2026-08-07T14:17:00+00:00"
     },
@@ -126,13 +196,6 @@
       "summary": "Gen's H1 2026 Threat Report examines two separate attack chains. One used compromised business inboxes and browser manipulation in a banking-malware campaign, while the other used clipboard hijacking...",
       "source": "BleepingComputer",
       "published": "2026-08-07T14:00:10+00:00"
-    },
-    {
-      "title": "Levi Strauss says hackers breached employee computers, accessed corporate data",
-      "link": "https://therecord.media/levis-data-breach-social-engineering",
-      "summary": "Intruders exfiltrated certain corporate information after gaining access to three company-issued computers through a social engineering attack, Levi Strauss reported.",
-      "source": "The Record",
-      "published": "2026-08-07T13:35:00+00:00"
     },
     {
       "title": "North Carolina Ports confirms cyberattack disrupting operations",
@@ -151,7 +214,7 @@
     {
       "title": "CVE-2026-66494 - Joomla Extension - joomshaper.com - Unauthenticated stored XSS in Shapes API endpoint SP Page Builder < 6.7.0",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-66494",
-      "summary": "CVE ID :CVE-2026-66494 Published : Aug. 7, 2026, 1:16 p.m. | 4 hours, 39 minutes ago Description :Joomla Extension - joomshaper.com - Unauthenticated stored XSS in Shapes API endpoint SP Page Builder...",
+      "summary": "CVE ID :CVE-2026-66494 Published : Aug. 7, 2026, 1:16 p.m. | 6 hours, 55 minutes ago Description :Joomla Extension - joomshaper.com - Unauthenticated stored XSS in Shapes API endpoint SP Page Builder...",
       "source": "CVE Feed",
       "published": "2026-08-07T13:16:52+00:00"
     },
@@ -191,81 +254,74 @@
       "published": "2026-08-07T10:38:27+00:00"
     },
     {
+      "title": "CVE-2026-71560 - Apache Fory: Out-of-bounds heap read in C++ struct deserializer tagged-int fast-path",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-71560",
+      "summary": "CVE ID :CVE-2026-71560 Published : Aug. 7, 2026, 10:16 a.m. | 9 hours, 55 minutes ago Description :Out-of-bounds Read vulnerability in Apache Fory C++ deserialization. This issue affects Apache Fory...",
+      "source": "CVE Feed",
+      "published": "2026-08-07T10:16:59+00:00"
+    },
+    {
+      "title": "CVE-2026-71558 - Apache Fory: Heap type confusion in C++ polymorphic smart-pointer deserialization",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-71558",
+      "summary": "CVE ID :CVE-2026-71558 Published : Aug. 7, 2026, 10:16 a.m. | 9 hours, 55 minutes ago Description :Heap type confusion vulnerability in Apache Fory C++ deserialization. This issue affects Apache Fory...",
+      "source": "CVE Feed",
+      "published": "2026-08-07T10:16:59+00:00"
+    },
+    {
       "title": "CVE-2026-54218 - TeamDavid: Weak Cryptography and Insecure Password Storage",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-54218",
-      "summary": "CVE ID :CVE-2026-54218 Published : Aug. 7, 2026, 10:16 a.m. | 7 hours, 39 minutes ago Description :Use of hard-coded cryptographic key vulnerability in Tobit Laboratories AG TeamDavid's Webbox. For...",
+      "summary": "CVE ID :CVE-2026-54218 Published : Aug. 7, 2026, 10:16 a.m. | 9 hours, 55 minutes ago Description :Use of hard-coded cryptographic key vulnerability in Tobit Laboratories AG TeamDavid's Webbox. For...",
       "source": "CVE Feed",
       "published": "2026-08-07T10:16:59+00:00"
     },
     {
       "title": "CVE-2026-54213 - TeamDavid: Denial of Service via endpoint 'internalRestart'",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-54213",
-      "summary": "CVE ID :CVE-2026-54213 Published : Aug. 7, 2026, 10:16 a.m. | 7 hours, 39 minutes ago Description :Tobit Laboratories AG TeamDavid's Webbox application exposes a functionality that allows the server...",
+      "summary": "CVE ID :CVE-2026-54213 Published : Aug. 7, 2026, 10:16 a.m. | 9 hours, 55 minutes ago Description :Tobit Laboratories AG TeamDavid's Webbox application exposes a functionality that allows the server...",
       "source": "CVE Feed",
       "published": "2026-08-07T10:16:58+00:00"
     },
     {
       "title": "CVE-2026-54212 - TeamDavid: Buffer Overflow in JSON-parsing",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-54212",
-      "summary": "CVE ID :CVE-2026-54212 Published : Aug. 7, 2026, 10:16 a.m. | 7 hours, 39 minutes ago Description :Tobit Laboratories AG TeamDavid's Webbox application implements an API endpoint that is vulnerable...",
+      "summary": "CVE ID :CVE-2026-54212 Published : Aug. 7, 2026, 10:16 a.m. | 9 hours, 55 minutes ago Description :Tobit Laboratories AG TeamDavid's Webbox application implements an API endpoint that is vulnerable...",
       "source": "CVE Feed",
       "published": "2026-08-07T10:16:58+00:00"
     },
     {
       "title": "CVE-2026-54211 - TeamDavid: Buffer Overflow in multiple form data parameters",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-54211",
-      "summary": "CVE ID :CVE-2026-54211 Published : Aug. 7, 2026, 10:16 a.m. | 7 hours, 39 minutes ago Description :Tobit Laboratories AG TeamDavid's Webbox application’s endpoint “//serverClient_close.html” is...",
+      "summary": "CVE ID :CVE-2026-54211 Published : Aug. 7, 2026, 10:16 a.m. | 9 hours, 55 minutes ago Description :Tobit Laboratories AG TeamDavid's Webbox application’s endpoint “//serverClient_close.html” is...",
       "source": "CVE Feed",
       "published": "2026-08-07T10:16:58+00:00"
     },
     {
       "title": "CVE-2026-54210 - TeamDavid: Buffer Overflow in file names of file upload functionalities",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-54210",
-      "summary": "CVE ID :CVE-2026-54210 Published : Aug. 7, 2026, 10:16 a.m. | 7 hours, 39 minutes ago Description :Tobit Laboratories AG TeamDavid's Webbox application implements various file upload functionalities...",
+      "summary": "CVE ID :CVE-2026-54210 Published : Aug. 7, 2026, 10:16 a.m. | 9 hours, 55 minutes ago Description :Tobit Laboratories AG TeamDavid's Webbox application implements various file upload functionalities...",
       "source": "CVE Feed",
       "published": "2026-08-07T10:16:58+00:00"
     },
     {
       "title": "CVE-2026-54209 - TeamDavid: Buffer Overflow in 'editini' function",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-54209",
-      "summary": "CVE ID :CVE-2026-54209 Published : Aug. 7, 2026, 10:16 a.m. | 7 hours, 39 minutes ago Description :Tobit Laboratories AG TeamDavid's Webbox application handles password changes using a function...",
+      "summary": "CVE ID :CVE-2026-54209 Published : Aug. 7, 2026, 10:16 a.m. | 9 hours, 55 minutes ago Description :Tobit Laboratories AG TeamDavid's Webbox application handles password changes using a function...",
       "source": "CVE Feed",
       "published": "2026-08-07T10:16:57+00:00"
     },
     {
       "title": "CVE-2026-54208 - TeamDavid: Arbitrary File Write leading to Stored XSS",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-54208",
-      "summary": "CVE ID :CVE-2026-54208 Published : Aug. 7, 2026, 10:16 a.m. | 7 hours, 39 minutes ago Description :Tobit Laboratories AG TeamDavid's Webbox application is vulnerable to arbitrary file write, allowing...",
+      "summary": "CVE ID :CVE-2026-54208 Published : Aug. 7, 2026, 10:16 a.m. | 9 hours, 55 minutes ago Description :Tobit Laboratories AG TeamDavid's Webbox application is vulnerable to arbitrary file write, allowing...",
       "source": "CVE Feed",
       "published": "2026-08-07T10:16:57+00:00"
     },
     {
       "title": "CVE-2026-54203 - TeamDavid: Memory Leak leaking sensitive information",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-54203",
-      "summary": "CVE ID :CVE-2026-54203 Published : Aug. 7, 2026, 10:16 a.m. | 7 hours, 39 minutes ago Description :Memory Leak to an Unauthorized Actor vulnerability in Tobit Laboratories AG TeamDavid's Webbox...",
+      "summary": "CVE ID :CVE-2026-54203 Published : Aug. 7, 2026, 10:16 a.m. | 9 hours, 55 minutes ago Description :Memory Leak to an Unauthorized Actor vulnerability in Tobit Laboratories AG TeamDavid's Webbox...",
       "source": "CVE Feed",
       "published": "2026-08-07T10:16:57+00:00"
-    },
-    {
-      "title": "CVE-2026-54202 - TeamDavid: Path Traversal in the archive creation functionality",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54202",
-      "summary": "CVE ID :CVE-2026-54202 Published : Aug. 7, 2026, 10:16 a.m. | 7 hours, 39 minutes ago Description :Tobit Laboratories AG TeamDavid's Webbox is vulnerable to a path traversal vulnerability in the...",
-      "source": "CVE Feed",
-      "published": "2026-08-07T10:16:56+00:00"
-    },
-    {
-      "title": "CVE-2026-54200 - TeamDavid: Local File Inclusion via the form field 'scjob'",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54200",
-      "summary": "CVE ID :CVE-2026-54200 Published : Aug. 7, 2026, 10:16 a.m. | 7 hours, 39 minutes ago Description :Tobit Laboratories AG TeamDavid's Webbox is vulnerable to a local file inclusion vulnerability in...",
-      "source": "CVE Feed",
-      "published": "2026-08-07T10:16:56+00:00"
-    },
-    {
-      "title": "CVE-2026-12070 - TeamDavid: Arbitrary File Deletion via form field 'scjob'",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-12070",
-      "summary": "CVE ID :CVE-2026-12070 Published : Aug. 7, 2026, 10:16 a.m. | 7 hours, 39 minutes ago Description :Tobit Laboratories AG TeamDavid's Webbox is vulnerable to an arbitrary file deletion vulnerability...",
-      "source": "CVE Feed",
-      "published": "2026-08-07T10:16:55+00:00"
     },
     {
       "title": "AI-Assisted HTTP Terminator Finds Novel HTTP Desync Techniques and Apache Zero-Day",
@@ -294,20 +350,6 @@
       "summary": "Companies are showcasing their products and services this week at the 2026 edition of the Black Hat conference in Las Vegas. The post Black Hat USA 2026 – Summary of Vendor Announcements (Part 4)...",
       "source": "SecurityWeek",
       "published": "2026-08-07T09:24:22+00:00"
-    },
-    {
-      "title": "CVE-2026-9169 - LUCID Vision Labs: DLL Search Order Hijacking in Arena SDK 1.0.80.49 on Windows",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-9169",
-      "summary": "CVE ID :CVE-2026-9169 Published : Aug. 7, 2026, 9:16 a.m. | 8 hours, 39 minutes ago Description :DLL Search Order Hijacking in LUCID Vision Labs Arena SDK 1.0.80.49 on Windows allows a local attacker...",
-      "source": "CVE Feed",
-      "published": "2026-08-07T09:16:59+00:00"
-    },
-    {
-      "title": "CVE-2026-66491 - Joomla Extension - phoca.cz - Arbitrary File Read in Phoca Commander 1.0.0-6.1.3",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-66491",
-      "summary": "CVE ID :CVE-2026-66491 Published : Aug. 7, 2026, 9:16 a.m. | 8 hours, 39 minutes ago Description :Joomla Extension - phoca.cz - Arbitrary File Read in Phoca Commander 1.0.0-6.1.3 - Improper...",
-      "source": "CVE Feed",
-      "published": "2026-08-07T09:16:59+00:00"
     },
     {
       "title": "Microsoft, Apple Release Fresh Security Updates",
@@ -364,13 +406,6 @@
       "summary": "A new analysis has uncovered that the threat actor tracked as TeamPCP has been active on the cybercrime scene as far back as 2020, indicating the group has been compromising internet-facing...",
       "source": "The Hacker News",
       "published": "2026-08-07T06:50:05+00:00"
-    },
-    {
-      "title": "CVE-2026-14365 - TrueBooker <= 1.2.3 - Missing Authorization to Unauthenticated Arbitrary Password Reset via 'truebooker_wp_user_id'",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-14365",
-      "summary": "CVE ID :CVE-2026-14365 Published : Aug. 7, 2026, 5:16 a.m. | 12 hours, 39 minutes ago Description :The TrueBooker – Appointment Booking and Scheduler System plugin for WordPress is vulnerable to...",
-      "source": "CVE Feed",
-      "published": "2026-08-07T05:16:57+00:00"
     },
     {
       "title": "OpenAI rolls out a major ChatGPT upgrade, even if you don’t pay for it",
@@ -695,20 +730,6 @@
       "published": "2026-08-05T18:03:31+00:00"
     },
     {
-      "title": "COLDCARD security audit phishing attack installs remote access tool",
-      "link": "https://www.bleepingcomputer.com/news/security/coldcard-security-audit-phishing-attack-installs-remote-access-tool/",
-      "summary": "A phishing campaign is exploiting fears surrounding the recently disclosed COLDCARD wallet vulnerability and suspected $88.6 million Bitcoin theft to trick users into installing ScreenConnect remote...",
-      "source": "BleepingComputer",
-      "published": "2026-08-05T17:49:41+00:00"
-    },
-    {
-      "title": "CISA warns of hackers exploiting Langflow, N-central, Apache Tomcat flaws",
-      "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-exploiting-langflow-n-central-apache-tomcat-flaws/",
-      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency is giving federal agencies three days to mitigate vulnerabilities in IBM Langflow, N-central, and Apache Tomcat, all actively exploited. [...]",
-      "source": "BleepingComputer",
-      "published": "2026-08-05T15:51:33+00:00"
-    },
-    {
       "title": "Poison Claude Sells Discounted Claude Access While Its Operator Sees Every Customer Prompt",
       "link": "https://thehackernews.com/2026/08/poison-claude-sells-discounted-claude.html",
       "summary": "Cybersecurity researchers have discovered more than half-a-dozen services advertisements for illegal access to artificial intelligence (AI) models on underground cybercrime forums and messaging...",
@@ -912,13 +933,6 @@
       "published": "2026-08-03T16:24:47+00:00"
     },
     {
-      "title": "INC Ransomware Emerges as Dominant Actor Exploiting SonicWall SMA 1000 Flaws",
-      "link": "https://thehackernews.com/2026/08/inc-ransomware-emerges-as-dominant.html",
-      "summary": "The INC Ransomware operation has emerged as the \"dominant threat actor\" exploiting the recently disclosed security flaws in SonicWall Secure Mobile Access (SMA) 1000 series VPN appliances. In a...",
-      "source": "The Hacker News",
-      "published": "2026-08-03T16:15:13+00:00"
-    },
-    {
       "title": "Chinese Actor Weaponizes Deepseek AI Agent to Attack Security Firm",
       "link": "https://www.darkreading.com/cyberattacks-data-breaches/chinese-actor-deepseek-ai-agent-attack-security-firm",
       "summary": "Researchers intercepted and investigated the model, which was attempting to compromise more than 1,200 hosts for proxyjacking to launch further attacks.",
@@ -926,25 +940,11 @@
       "published": "2026-08-03T15:42:18+00:00"
     },
     {
-      "title": "⚡ Weekly Recap: Rogue AI Models, $88M Bitcoin Theft, Water-System Attacks and Dangling DNS Hijacks",
-      "link": "https://thehackernews.com/2026/08/weekly-recap-rogue-ai-models-88m.html",
-      "summary": "This week kept coming back to permission. A model crossed a boundary. A wallet trusted bad randomness. Webmail kept an intruder around. Public systems, package feeds, hotel networks, and login flows...",
-      "source": "The Hacker News",
-      "published": "2026-08-03T14:03:11+00:00"
-    },
-    {
       "title": "Is There Really a Fix for CISO Fatigue?",
       "link": "https://www.darkreading.com/cybersecurity-operations/fix-for-ciso-fatigue",
       "summary": "Accountability without any real authority is driving CISO burnout, and organizations need to take notice.",
       "source": "Dark Reading",
       "published": "2026-08-03T14:00:00+00:00"
-    },
-    {
-      "title": "FOMO in the SOC: Where AI Platforms like Claude Actually Fit",
-      "link": "https://thehackernews.com/2026/08/fomo-in-soc-where-ai-platforms-like.html",
-      "summary": "AI is moving incredibly fast, and every security leader is feeling the pressure to keep up. AI platforms like Claude, Codex and Cursor are already helping security teams write detections, investigate...",
-      "source": "The Hacker News",
-      "published": "2026-08-03T11:30:00+00:00"
     },
     {
       "title": "CISA Issues Fresh SBOM Guidance. Did They Get It Right?",
