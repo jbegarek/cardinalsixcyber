@@ -1,12 +1,40 @@
 {
-  "last_updated": "2026-08-11T18:48:30.102183+00:00",
+  "last_updated": "2026-08-11T20:34:46.605020+00:00",
   "articles": [
+    {
+      "title": "NSA installs DHS lawyer as new general counsel",
+      "link": "https://therecord.media/kerianne-tobitsch-new-nsa-general-counsel",
+      "summary": "Kerianne Tobitsch, who most recently served as a senior lawyer at the Homeland Security Department, is the NSA's new general counsel, sources told Recorded Future News.",
+      "source": "The Record",
+      "published": "2026-08-11T20:00:09+00:00"
+    },
+    {
+      "title": "Cisco warns of ASA and FTD VPN flaw exploited to crash devices",
+      "link": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-asa-and-ftd-vpn-flaw-exploited-to-crash-devices/",
+      "summary": "Cisco is warning that a high-severity denial-of-service vulnerability in Secure Firewall ASA and Threat Defense (FTD) software is being actively exploited in attacks to remotely crash affected...",
+      "source": "BleepingComputer",
+      "published": "2026-08-11T19:45:31+00:00"
+    },
+    {
+      "title": "Ransomware group hijacks hospital system’s Facebook page amid ongoing cyberattack fallout",
+      "link": "https://therecord.media/ransomware-group-hijacks-hospital-facebook-amid-cyberattack-response",
+      "summary": "The hackers claimed to have exfiltrated 6 terabytes of data, including highly sensitive health information like records related to sexual assault, mental health, abortions and sexual harassment...",
+      "source": "The Record",
+      "published": "2026-08-11T19:15:00+00:00"
+    },
     {
       "title": "August 2026 Patch Tuesday: Microsoft Fixes 421 CVEs, One Exploited Zero-Day",
       "link": "https://www.securityweek.com/august-2026-patch-tuesday-microsoft-fixes-421-cves-one-exploited-zero-day/",
       "summary": "A use-after-free in the afd.sys Windows kernel-mode driver has been exploited to gain SYSTEM privileges. The post August 2026 Patch Tuesday: Microsoft Fixes 421 CVEs, One Exploited Zero-Day appeared...",
       "source": "SecurityWeek",
       "published": "2026-08-11T18:46:07+00:00"
+    },
+    {
+      "title": "Sandworm-Linked UAC-0145 Uses Fake Job Interviews to Push VPN That Can Run Commands",
+      "link": "https://thehackernews.com/2026/08/sandworm-linked-uac-0145-uses-fake-job.html",
+      "summary": "The Computer Emergency Response Team of Ukraine (CERT-UA) has disclosed details of a new social engineering campaign orchestrated by Russian nation-state threat actors targeting IT workers in the...",
+      "source": "The Hacker News",
+      "published": "2026-08-11T18:36:47+00:00"
     },
     {
       "title": "Delta probes Wi-Fi deauth attack on flight carrying DEF CON attendees",
@@ -16,11 +44,123 @@
       "published": "2026-08-11T18:34:23+00:00"
     },
     {
-      "title": "Windows 10 KB5120249 cumulative update released with fixes",
+      "title": "Microsoft releases Windows 10 KB5120249 extended security update",
       "link": "https://www.bleepingcomputer.com/news/microsoft/windows-10-kb5120249-cumulative-update-released-with-fixes/",
       "summary": "Microsoft has released Windows 10 KB5120249 Extended Security Updates for versions 22H2 and 21H2 to fix security vulnerabilities and bugs. [...]",
       "source": "BleepingComputer",
       "published": "2026-08-11T18:26:03+00:00"
+    },
+    {
+      "title": "CVE-2026-73214 - coturn allocates a full per-peer SSL/session before verifying the DTLS cookie, enabling source-spoofing/botnet state-exhaustion DoS",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-73214",
+      "summary": "CVE ID :CVE-2026-73214 Published : Aug. 11, 2026, 6:18 p.m. | 27 minutes ago Description :Coturn is a free open source implementation of TURN and STUN Server. Prior to 4.16.0...",
+      "source": "CVE Feed",
+      "published": "2026-08-11T18:18:26+00:00"
+    },
+    {
+      "title": "CVE-2026-73211 - PeerTube: Unauthenticated remote SQL injection in ActorFollowModel.updateScore()",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-73211",
+      "summary": "CVE ID :CVE-2026-73211 Published : Aug. 11, 2026, 6:18 p.m. | 27 minutes ago Description :PeerTube is an ActivityPub-federated video streaming platform. Prior to 8.1.6, ActorFollowModel.updateScore()...",
+      "source": "CVE Feed",
+      "published": "2026-08-11T18:18:26+00:00"
+    },
+    {
+      "title": "CVE-2026-73090 - PeerTube: Cross-origin remote video takeover via Update activity",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-73090",
+      "summary": "CVE ID :CVE-2026-73090 Published : Aug. 11, 2026, 6:18 p.m. | 27 minutes ago Description :PeerTube is an ActivityPub-federated video streaming platform. Prior to 8.2.2, processUpdateActivity and...",
+      "source": "CVE Feed",
+      "published": "2026-08-11T18:18:26+00:00"
+    },
+    {
+      "title": "CVE-2026-72713 - XAgent Path Traversal Arbitrary File Read via /workspace/file",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-72713",
+      "summary": "CVE ID :CVE-2026-72713 Published : Aug. 11, 2026, 6:18 p.m. | 27 minutes ago Description :XAgent contains a path traversal vulnerability in the workspace file endpoint that allows self-registered or...",
+      "source": "CVE Feed",
+      "published": "2026-08-11T18:18:23+00:00"
+    },
+    {
+      "title": "CVE-2026-71398 - Adobe Campaign Classic (ACC) | Incorrect Authorization (CWE-863)",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-71398",
+      "summary": "CVE ID :CVE-2026-71398 Published : Aug. 11, 2026, 6:18 p.m. | 27 minutes ago Description :Adobe Campaign Classic (ACC) is affected by an Incorrect Authorization vulnerability that could result in...",
+      "source": "CVE Feed",
+      "published": "2026-08-11T18:18:22+00:00"
+    },
+    {
+      "title": "CVE-2026-71362 - Adobe Commerce | Incorrect Authorization (CWE-863)",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-71362",
+      "summary": "CVE ID :CVE-2026-71362 Published : Aug. 11, 2026, 6:18 p.m. | 27 minutes ago Description :Adobe Commerce is affected by an Incorrect Authorization vulnerability that could result in privilege...",
+      "source": "CVE Feed",
+      "published": "2026-08-11T18:18:21+00:00"
+    },
+    {
+      "title": "CVE-2026-69102 - MaxKey Hard-coded JWT Secret Unauthorized Access via /login/jwt/trust",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-69102",
+      "summary": "CVE ID :CVE-2026-69102 Published : Aug. 11, 2026, 6:18 p.m. | 27 minutes ago Description :MaxKey contains an unauthorized access vulnerability due to a hard-coded JWT signing secret in...",
+      "source": "CVE Feed",
+      "published": "2026-08-11T18:18:17+00:00"
+    },
+    {
+      "title": "CVE-2026-48771 - ishankportfolio: Stored Contact Form Submission Exposure via Public Client-Side Database Configuration",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48771",
+      "summary": "CVE ID :CVE-2026-48771 Published : Aug. 11, 2026, 6:17 p.m. | 27 minutes ago Description :ishankportfolio is a portfolio website. Prior to version 1.0.1, contact form submissions could potentially be...",
+      "source": "CVE Feed",
+      "published": "2026-08-11T18:17:34+00:00"
+    },
+    {
+      "title": "CVE-2026-48441 - Lightroom Classic | Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') (CWE-22)",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48441",
+      "summary": "CVE ID :CVE-2026-48441 Published : Aug. 11, 2026, 6:17 p.m. | 27 minutes ago Description :Lightroom Classic is affected by an Improper Limitation of a Pathname to a Restricted Directory ('Path...",
+      "source": "CVE Feed",
+      "published": "2026-08-11T18:17:32+00:00"
+    },
+    {
+      "title": "CVE-2026-48413 - Adobe Commerce | Cross-site Scripting (Stored XSS) (CWE-79)",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48413",
+      "summary": "CVE ID :CVE-2026-48413 Published : Aug. 11, 2026, 6:17 p.m. | 27 minutes ago Description :Adobe Commerce is affected by a stored Cross-Site Scripting (XSS) vulnerability that could be abused by a...",
+      "source": "CVE Feed",
+      "published": "2026-08-11T18:17:31+00:00"
+    },
+    {
+      "title": "CVE-2026-48397 - Lightroom Classic | Deserialization of Untrusted Data (CWE-502)",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48397",
+      "summary": "CVE ID :CVE-2026-48397 Published : Aug. 11, 2026, 6:17 p.m. | 28 minutes ago Description :Lightroom Classic is affected by a Deserialization of Untrusted Data vulnerability that could result in...",
+      "source": "CVE Feed",
+      "published": "2026-08-11T18:17:29+00:00"
+    },
+    {
+      "title": "CVE-2026-48381 - Adobe Campaign Classic (ACC) | Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') (CWE-89)",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48381",
+      "summary": "CVE ID :CVE-2026-48381 Published : Aug. 11, 2026, 6:17 p.m. | 28 minutes ago Description :Adobe Campaign Classic (ACC) is affected by an Improper Neutralization of Special Elements used in an SQL...",
+      "source": "CVE Feed",
+      "published": "2026-08-11T18:17:28+00:00"
+    },
+    {
+      "title": "CVE-2026-47705 - TypeBot vulnerable to CSV injection in result export",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-47705",
+      "summary": "CVE ID :CVE-2026-47705 Published : Aug. 11, 2026, 6:17 p.m. | 28 minutes ago Description :TypeBot is a chatbot builder tool. Version 3.16.1 has a CSV injection vulnerability in the result export...",
+      "source": "CVE Feed",
+      "published": "2026-08-11T18:17:27+00:00"
+    },
+    {
+      "title": "CVE-2026-27302 - Adobe Campaign Classic (ACC) | Incorrect Authorization (CWE-863)",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-27302",
+      "summary": "CVE ID :CVE-2026-27302 Published : Aug. 11, 2026, 6:17 p.m. | 28 minutes ago Description :Adobe Campaign Classic (ACC) is affected by an Incorrect Authorization vulnerability that could result in...",
+      "source": "CVE Feed",
+      "published": "2026-08-11T18:17:25+00:00"
+    },
+    {
+      "title": "CVE-2022-50997 - Weaver E-cology 8.0 / 9.0 SQL Injection via HrmCareerApplyPerView.jsp",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2022-50997",
+      "summary": "CVE ID :CVE-2022-50997 Published : Aug. 11, 2026, 6:17 p.m. | 28 minutes ago Description :Weaver (Fanwei) E-cology 8.0 and 9.0 contains a SQL injection vulnerability in the HrmCareerApplyPerView.jsp...",
+      "source": "CVE Feed",
+      "published": "2026-08-11T18:17:16+00:00"
+    },
+    {
+      "title": "CVE-2016-20097 - Weaver E-cology 8.0 SQL Injection File Read via SignatureDownLoad",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2016-20097",
+      "summary": "CVE ID :CVE-2016-20097 Published : Aug. 11, 2026, 6:17 p.m. | 28 minutes ago Description :Weaver (Fanwei) E-cology 8.0 contains a SQL injection vulnerability in the SignatureDownLoad servlet that...",
+      "source": "CVE Feed",
+      "published": "2026-08-11T18:17:16+00:00"
     },
     {
       "title": "Microsoft August 2026 Patch Tuesday fixes 400 flaws, 3 zero-days",
@@ -39,177 +179,65 @@
     {
       "title": "CVE-2026-73081 - Activepieces: Remote Code Execution via Command Injection in Code Step Name",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-73081",
-      "summary": "CVE ID :CVE-2026-73081 Published : Aug. 11, 2026, 5:19 p.m. | 38 minutes ago Description :Activepieces is an open source AI workflow automation platform. Prior to 0.80.0, the worker's...",
+      "summary": "CVE ID :CVE-2026-73081 Published : Aug. 11, 2026, 5:19 p.m. | 1 hour, 26 minutes ago Description :Activepieces is an open source AI workflow automation platform. Prior to 0.80.0, the worker's...",
       "source": "CVE Feed",
       "published": "2026-08-11T17:19:15+00:00"
     },
     {
       "title": "CVE-2026-71387 - ColdFusion | Incorrect Authorization (CWE-863)",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-71387",
-      "summary": "CVE ID :CVE-2026-71387 Published : Aug. 11, 2026, 5:19 p.m. | 38 minutes ago Description :ColdFusion is affected by an Incorrect Authorization vulnerability that could result in arbitrary code...",
+      "summary": "CVE ID :CVE-2026-71387 Published : Aug. 11, 2026, 5:19 p.m. | 1 hour, 26 minutes ago Description :ColdFusion is affected by an Incorrect Authorization vulnerability that could result in arbitrary...",
       "source": "CVE Feed",
       "published": "2026-08-11T17:19:13+00:00"
     },
     {
       "title": "CVE-2026-71386 - ColdFusion | Cross-site Scripting (XSS) (CWE-79)",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-71386",
-      "summary": "CVE ID :CVE-2026-71386 Published : Aug. 11, 2026, 5:19 p.m. | 38 minutes ago Description :is affected by a Cross-site Scripting (XSS) vulnerability that could result in arbitrary code execution in...",
+      "summary": "CVE ID :CVE-2026-71386 Published : Aug. 11, 2026, 5:19 p.m. | 1 hour, 26 minutes ago Description :is affected by a Cross-site Scripting (XSS) vulnerability that could result in arbitrary code...",
       "source": "CVE Feed",
       "published": "2026-08-11T17:19:13+00:00"
     },
     {
       "title": "CVE-2026-71384 - ColdFusion | Incorrect Authorization (CWE-863)",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-71384",
-      "summary": "CVE ID :CVE-2026-71384 Published : Aug. 11, 2026, 5:19 p.m. | 38 minutes ago Description :is affected by an Incorrect Authorization vulnerability that could result in a Security feature bypass. An...",
+      "summary": "CVE ID :CVE-2026-71384 Published : Aug. 11, 2026, 5:19 p.m. | 1 hour, 26 minutes ago Description :is affected by an Incorrect Authorization vulnerability that could result in a Security feature...",
       "source": "CVE Feed",
       "published": "2026-08-11T17:19:13+00:00"
     },
     {
       "title": "CVE-2026-71331 - Windows Device Health Attestation (DHA) Remote Code Execution Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-71331",
-      "summary": "CVE ID :CVE-2026-71331 Published : Aug. 11, 2026, 5:19 p.m. | 38 minutes ago Description :Integer overflow or wraparound in Microsoft Azure Attestation service and Device Health Attestation Service...",
+      "summary": "CVE ID :CVE-2026-71331 Published : Aug. 11, 2026, 5:19 p.m. | 1 hour, 26 minutes ago Description :Integer overflow or wraparound in Microsoft Azure Attestation service and Device Health Attestation...",
       "source": "CVE Feed",
       "published": "2026-08-11T17:19:13+00:00"
     },
     {
       "title": "CVE-2026-70340 - Azure CycleCloud Elevation of Privilege Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-70340",
-      "summary": "CVE ID :CVE-2026-70340 Published : Aug. 11, 2026, 5:19 p.m. | 38 minutes ago Description :Missing authorization in Azure CycleCloud allows an authorized attacker to elevate privileges over a network...",
+      "summary": "CVE ID :CVE-2026-70340 Published : Aug. 11, 2026, 5:19 p.m. | 1 hour, 26 minutes ago Description :Missing authorization in Azure CycleCloud allows an authorized attacker to elevate privileges over a...",
       "source": "CVE Feed",
       "published": "2026-08-11T17:19:11+00:00"
     },
     {
       "title": "CVE-2026-70337 - Microsoft PowerShell Remote Code Execution Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-70337",
-      "summary": "CVE ID :CVE-2026-70337 Published : Aug. 11, 2026, 5:19 p.m. | 38 minutes ago Description :Relative path traversal in Microsoft PowerShell Core allows an unauthorized attacker to execute code over a...",
+      "summary": "CVE ID :CVE-2026-70337 Published : Aug. 11, 2026, 5:19 p.m. | 1 hour, 26 minutes ago Description :Relative path traversal in Microsoft PowerShell Core allows an unauthorized attacker to execute code...",
       "source": "CVE Feed",
       "published": "2026-08-11T17:19:11+00:00"
     },
     {
       "title": "CVE-2026-70336 - Visual Studio Code Remote Code Execution Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-70336",
-      "summary": "CVE ID :CVE-2026-70336 Published : Aug. 11, 2026, 5:19 p.m. | 38 minutes ago Description :Improper control of generation of code ('code injection') in Visual Studio Code allows an unauthorized...",
+      "summary": "CVE ID :CVE-2026-70336 Published : Aug. 11, 2026, 5:19 p.m. | 1 hour, 26 minutes ago Description :Improper control of generation of code ('code injection') in Visual Studio Code allows an...",
       "source": "CVE Feed",
       "published": "2026-08-11T17:19:11+00:00"
     },
     {
       "title": "CVE-2026-70329 - Microsoft Outlook Remote Code Execution Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-70329",
-      "summary": "CVE ID :CVE-2026-70329 Published : Aug. 11, 2026, 5:19 p.m. | 38 minutes ago Description :Integer overflow or wraparound in Microsoft Office Outlook allows an unauthorized attacker to execute code...",
+      "summary": "CVE ID :CVE-2026-70329 Published : Aug. 11, 2026, 5:19 p.m. | 1 hour, 26 minutes ago Description :Integer overflow or wraparound in Microsoft Office Outlook allows an unauthorized attacker to execute...",
       "source": "CVE Feed",
       "published": "2026-08-11T17:19:10+00:00"
-    },
-    {
-      "title": "CVE-2026-70326 - Microsoft SharePoint Server Elevation of Privilege Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-70326",
-      "summary": "CVE ID :CVE-2026-70326 Published : Aug. 11, 2026, 5:19 p.m. | 38 minutes ago Description :Server-side request forgery (ssrf) in Microsoft Office SharePoint allows an authorized attacker to elevate...",
-      "source": "CVE Feed",
-      "published": "2026-08-11T17:19:10+00:00"
-    },
-    {
-      "title": "CVE-2026-70324 - Microsoft SharePoint Elevation of Privilege Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-70324",
-      "summary": "CVE ID :CVE-2026-70324 Published : Aug. 11, 2026, 5:19 p.m. | 38 minutes ago Description :Server-side request forgery (ssrf) in Microsoft Office SharePoint allows an authorized attacker to elevate...",
-      "source": "CVE Feed",
-      "published": "2026-08-11T17:19:10+00:00"
-    },
-    {
-      "title": "CVE-2026-70321 - Microsoft SharePoint Remote Code Execution Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-70321",
-      "summary": "CVE ID :CVE-2026-70321 Published : Aug. 11, 2026, 5:19 p.m. | 38 minutes ago Description :Deserialization of untrusted data in Microsoft Office SharePoint allows an authorized attacker to execute...",
-      "source": "CVE Feed",
-      "published": "2026-08-11T17:19:09+00:00"
-    },
-    {
-      "title": "CVE-2026-70306 - Microsoft Office SharePoint Spoofing Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-70306",
-      "summary": "CVE ID :CVE-2026-70306 Published : Aug. 11, 2026, 5:19 p.m. | 38 minutes ago Description :Improper neutralization of input during web page generation ('cross-site scripting') in Microsoft Office...",
-      "source": "CVE Feed",
-      "published": "2026-08-11T17:19:07+00:00"
-    },
-    {
-      "title": "CVE-2026-70130 - Microsoft Office Remote Code Execution Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-70130",
-      "summary": "CVE ID :CVE-2026-70130 Published : Aug. 11, 2026, 5:19 p.m. | 38 minutes ago Description :Heap-based buffer overflow in Microsoft Office allows an unauthorized attacker to execute code locally...",
-      "source": "CVE Feed",
-      "published": "2026-08-11T17:19:07+00:00"
-    },
-    {
-      "title": "CVE-2026-69320 - Visual Studio Code Remote Code Execution Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-69320",
-      "summary": "CVE ID :CVE-2026-69320 Published : Aug. 11, 2026, 5:19 p.m. | 38 minutes ago Description :Improper neutralization of special elements used in an os command ('os command injection') in Visual Studio...",
-      "source": "CVE Feed",
-      "published": "2026-08-11T17:19:07+00:00"
-    },
-    {
-      "title": "CVE-2026-69306 - Visual Studio Code Security Feature Bypass Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-69306",
-      "summary": "CVE ID :CVE-2026-69306 Published : Aug. 11, 2026, 5:19 p.m. | 38 minutes ago Description :Not failing securely ('failing open') in Visual Studio Code allows an unauthorized attacker to bypass a...",
-      "source": "CVE Feed",
-      "published": "2026-08-11T17:19:07+00:00"
-    },
-    {
-      "title": "CVE-2026-66808 - Microsoft SharePoint Server Remote Code Execution Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-66808",
-      "summary": "CVE ID :CVE-2026-66808 Published : Aug. 11, 2026, 5:19 p.m. | 38 minutes ago Description :Deserialization of untrusted data in Microsoft Office SharePoint allows an authorized attacker to execute...",
-      "source": "CVE Feed",
-      "published": "2026-08-11T17:19:02+00:00"
-    },
-    {
-      "title": "CVE-2026-66805 - Microsoft SharePoint Server Remote Code Execution Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-66805",
-      "summary": "CVE ID :CVE-2026-66805 Published : Aug. 11, 2026, 5:19 p.m. | 38 minutes ago Description :Deserialization of untrusted data in Microsoft Office SharePoint allows an authorized attacker to execute...",
-      "source": "CVE Feed",
-      "published": "2026-08-11T17:19:01+00:00"
-    },
-    {
-      "title": "CVE-2026-66802 - Windows Device Health Attestation (DHA) Remote Code Execution Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-66802",
-      "summary": "CVE ID :CVE-2026-66802 Published : Aug. 11, 2026, 5:19 p.m. | 38 minutes ago Description :Concurrent execution using shared resource with improper synchronization ('race condition') in Microsoft...",
-      "source": "CVE Feed",
-      "published": "2026-08-11T17:19:01+00:00"
-    },
-    {
-      "title": "CVE-2026-65815 - Microsoft Dynamics 365 On-Premises Remote Code Execution Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-65815",
-      "summary": "CVE ID :CVE-2026-65815 Published : Aug. 11, 2026, 5:19 p.m. | 38 minutes ago Description :Deserialization of untrusted data in Microsoft Dynamics 365 (on-premises) allows an authorized attacker to...",
-      "source": "CVE Feed",
-      "published": "2026-08-11T17:19:01+00:00"
-    },
-    {
-      "title": "CVE-2026-65811 - Power BI Remote Code Execution Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-65811",
-      "summary": "CVE ID :CVE-2026-65811 Published : Aug. 11, 2026, 5:19 p.m. | 38 minutes ago Description :Improper input validation in Power BI allows an authorized attacker to execute code over a network. Severity...",
-      "source": "CVE Feed",
-      "published": "2026-08-11T17:19:00+00:00"
-    },
-    {
-      "title": "CVE-2026-65807 - Microsoft Excel Remote Code Execution Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-65807",
-      "summary": "CVE ID :CVE-2026-65807 Published : Aug. 11, 2026, 5:19 p.m. | 38 minutes ago Description :Access of resource using incompatible type ('type confusion') in Microsoft Office Excel allows an...",
-      "source": "CVE Feed",
-      "published": "2026-08-11T17:19:00+00:00"
-    },
-    {
-      "title": "CVE-2026-65791 - Windows iSCSI Target Service Remote Code Execution Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-65791",
-      "summary": "CVE ID :CVE-2026-65791 Published : Aug. 11, 2026, 5:18 p.m. | 38 minutes ago Description :Heap-based buffer overflow in Windows iSCSI Target Service allows an unauthorized attacker to execute code...",
-      "source": "CVE Feed",
-      "published": "2026-08-11T17:18:59+00:00"
-    },
-    {
-      "title": "CVE-2026-65789 - Windows DNS Server Remote Code Execution Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-65789",
-      "summary": "CVE ID :CVE-2026-65789 Published : Aug. 11, 2026, 5:18 p.m. | 38 minutes ago Description :Use after free in Windows DNS allows an unauthorized attacker to execute code over a network. Severity: 8.1 |...",
-      "source": "CVE Feed",
-      "published": "2026-08-11T17:18:58+00:00"
-    },
-    {
-      "title": "CVE-2026-65768 - Microsoft Teams Remote Code Execution Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-65768",
-      "summary": "CVE ID :CVE-2026-65768 Published : Aug. 11, 2026, 5:18 p.m. | 39 minutes ago Description :Improper limitation of a pathname to a restricted directory ('path traversal') in Microsoft Teams for Android...",
-      "source": "CVE Feed",
-      "published": "2026-08-11T17:18:56+00:00"
     },
     {
       "title": "Adobe Urges Immediate Patching of Critical ColdFusion, Campaign Classic Flaws",
@@ -499,13 +527,6 @@
       "published": "2026-08-10T21:02:23+00:00"
     },
     {
-      "title": "FBI, South Korea warn of Gunra ransomware gang targeting critical infrastructure",
-      "link": "https://therecord.media/ransomware-south-korea-fbi-gunra",
-      "summary": "The Gunra ransomware gang is breaching critical infrastructure organizations through vulnerabilities in popular brands of firewalls, the FBI and South Korea’s government warned.",
-      "source": "The Record",
-      "published": "2026-08-10T19:30:00+00:00"
-    },
-    {
       "title": "OpenAI releases ChatGPT 5.6 Cyber, but it's only for approved users",
       "link": "https://www.bleepingcomputer.com/news/security/openai-releases-chatgpt-56-cyber-but-its-only-for-approved-users/",
       "summary": "OpenAI has developed a new model called \"GPT 5.6 Cyber,\" designed for vulnerability research, penetration testing, incident response, and remediation. [...]",
@@ -518,13 +539,6 @@
       "summary": "It's time to turn from CVSS-backed patching to choke-point patching focused on breaking chains to critical assets.",
       "source": "Dark Reading",
       "published": "2026-08-10T17:56:34+00:00"
-    },
-    {
-      "title": "New StormEncryptor ransomware used by former Medusa affiliate",
-      "link": "https://www.bleepingcomputer.com/news/security/new-stormencryptor-ransomware-used-by-former-medusa-affiliate/",
-      "summary": "A financially motivated threat actor previously associated with the Medusa ransomware operation is now deploying a new ransomware strain called StormEncryptor. [...]",
-      "source": "BleepingComputer",
-      "published": "2026-08-10T17:42:00+00:00"
     },
     {
       "title": "Shipping 10–50× More Code? Watch This Webinar on Securing AI-Speed Development",
@@ -560,13 +574,6 @@
       "summary": "The crime solver wore disguises, spied on targets, and built intelligence networks long before modern-day tactics emerged. He has lessons for today's ethical- and unethical hackers.",
       "source": "Dark Reading",
       "published": "2026-08-10T15:59:27+00:00"
-    },
-    {
-      "title": "Poland uncovers second heat plant cyberattack that went hidden for months",
-      "link": "https://therecord.media/poland-uncovers-critical-infrastructure-attack-hidden",
-      "summary": "The incident occurred on the same day as coordinated cyberattacks struck more than 30 other renewable energy installations and a larger heat plant, as Poland publicly disclosed in January.",
-      "source": "The Record",
-      "published": "2026-08-10T15:52:00+00:00"
     },
     {
       "title": "⚡ Weekly Recap: AI Goes Rogue, Metabase 0-Day, MCP Supply-Chain Attacks, and Router Backdoors",
@@ -910,13 +917,6 @@
       "summary": "A newly patched security flaw impacting on-premise versions of JetBrains TeamCity has come under active exploitation in the wild, according to the U.S. Cybersecurity and Infrastructure Security...",
       "source": "The Hacker News",
       "published": "2026-08-06T06:51:43+00:00"
-    },
-    {
-      "title": "Snowflake Hacker Pleads Guilty Over Breaches Affecting at Least 100 Million People",
-      "link": "https://thehackernews.com/2026/08/snowflake-hacker-pleads-guilty-over.html",
-      "summary": "Connor Riley Moucka pleaded guilty in Seattle federal court on Wednesday to computer fraud, wire fraud, aggravated identity theft and a related conspiracy over the 2024 breaches of Snowflake customer...",
-      "source": "The Hacker News",
-      "published": "2026-08-06T06:04:30+00:00"
     },
     {
       "title": "AI Sends Global Crime Syndicates Into Fraud Nirvana",
