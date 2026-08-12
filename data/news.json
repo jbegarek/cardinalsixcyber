@@ -1,6 +1,188 @@
 {
-  "last_updated": "2026-08-12T18:49:36.603220+00:00",
+  "last_updated": "2026-08-12T20:33:43.249823+00:00",
   "articles": [
+    {
+      "title": "CVE-2026-19311 - Missing Authorization in Execute Monitor API in OpenSearch Alerting Plugin",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-19311",
+      "summary": "CVE ID :CVE-2026-19311 Published : Aug. 12, 2026, 7:17 p.m. | 21 minutes ago Description :Missing authorization in the Execute Monitor API in Amazon OpenSearch Alerting plugin might allow an...",
+      "source": "CVE Feed",
+      "published": "2026-08-12T19:17:31+00:00"
+    },
+    {
+      "title": "CVE-2026-18952 - Missing Input Validation in Threat Intel Feed Parser in OpenSearch Security Analytics Plugin",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-18952",
+      "summary": "CVE ID :CVE-2026-18952 Published : Aug. 12, 2026, 7:17 p.m. | 21 minutes ago Description :Missing input validation in the threat intelligence feed parser in the OpenSearch Security Analytics plugin...",
+      "source": "CVE Feed",
+      "published": "2026-08-12T19:17:31+00:00"
+    },
+    {
+      "title": "CVE-2026-63299 - Storage volume cross-project move and snapshot restore bypass project disk limits",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-63299",
+      "summary": "CVE ID :CVE-2026-63299 Published : Aug. 12, 2026, 7:17 p.m. | 21 minutes ago Description :An authorization bypass vulnerability in LXD allows an authenticated user to bypass project-level disk and...",
+      "source": "CVE Feed",
+      "published": "2026-08-12T19:17:07+00:00"
+    },
+    {
+      "title": "CVE-2026-62420 - Cross-project cluster migration bypasses project restrictions via cluster notification flag",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-62420",
+      "summary": "CVE ID :CVE-2026-62420 Published : Aug. 12, 2026, 7:12 p.m. | 26 minutes ago Description :An authorization bypass vulnerability in LXD allows an authenticated attacker to bypass target project...",
+      "source": "CVE Feed",
+      "published": "2026-08-12T19:12:28+00:00"
+    },
+    {
+      "title": "CVE-2026-19656 - ScadaLTS Authenticated Remote Code Execution",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-19656",
+      "summary": "CVE ID :CVE-2026-19656 Published : Aug. 12, 2026, 7:10 p.m. | 28 minutes ago Description :ScadaLTS 2.7.8.1 exposes a server-side method that lacks authorization checks, allowing any authenticated...",
+      "source": "CVE Feed",
+      "published": "2026-08-12T19:10:11+00:00"
+    },
+    {
+      "title": "CVE-2026-73332 - CamaleonCMS cama_contact_form Plugin Stored XSS via before_html Field",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-73332",
+      "summary": "CVE ID :CVE-2026-73332 Published : Aug. 12, 2026, 7:09 p.m. | 29 minutes ago Description :CamaleonCMS contains a stored cross-site scripting vulnerability in the cama_contact_form plugin that allows...",
+      "source": "CVE Feed",
+      "published": "2026-08-12T19:09:47+00:00"
+    },
+    {
+      "title": "CVE-2026-63300 - Cross-project instance move bypasses all project restrictions allowing host command execution",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-63300",
+      "summary": "CVE ID :CVE-2026-63300 Published : Aug. 12, 2026, 7:09 p.m. | 29 minutes ago Description :An improper validation vulnerability in the instancePostMigration function in lxd/instance_post.go of LXD...",
+      "source": "CVE Feed",
+      "published": "2026-08-12T19:09:04+00:00"
+    },
+    {
+      "title": "CVE-2026-72809 - SiYuan before v3.7.4 Authentication Bypass via Localhost Trust",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-72809",
+      "summary": "CVE ID :CVE-2026-72809 Published : Aug. 12, 2026, 7:07 p.m. | 31 minutes ago Description :SiYuan versions Severity: 8.0 | HIGH Visit the link for more details, such as CVSS details, affected...",
+      "source": "CVE Feed",
+      "published": "2026-08-12T19:07:52+00:00"
+    },
+    {
+      "title": "CVE-2026-72807 - SiYuan before v3.7.4 SQL Injection via queryBlocks template",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-72807",
+      "summary": "CVE ID :CVE-2026-72807 Published : Aug. 12, 2026, 7:07 p.m. | 31 minutes ago Description :SiYuan versions before v3.7.4 contain a second-order SQL injection vulnerability in attribute-view template...",
+      "source": "CVE Feed",
+      "published": "2026-08-12T19:07:51+00:00"
+    },
+    {
+      "title": "CVE-2026-72804 - SiYuan before v3.7.4 Authentication Bypass via Graph Endpoints",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-72804",
+      "summary": "CVE ID :CVE-2026-72804 Published : Aug. 12, 2026, 7:07 p.m. | 31 minutes ago Description :SiYuan versions before v3.7.4 fail to validate publish-password tier in getGraph and getLocalGraph endpoints...",
+      "source": "CVE Feed",
+      "published": "2026-08-12T19:07:49+00:00"
+    },
+    {
+      "title": "CVE-2026-72801 - SiYuan before v3.7.4 Information Disclosure via Encryption Key Material",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-72801",
+      "summary": "CVE ID :CVE-2026-72801 Published : Aug. 12, 2026, 7:07 p.m. | 31 minutes ago Description :SiYuan versions before v3.7.4 disclose encrypted-notebook key-derivation material and wrapped data keys...",
+      "source": "CVE Feed",
+      "published": "2026-08-12T19:07:47+00:00"
+    },
+    {
+      "title": "CVE-2026-72798 - SiYuan before v3.7.4 Information Disclosure via renderAttributeView",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-72798",
+      "summary": "CVE ID :CVE-2026-72798 Published : Aug. 12, 2026, 7:07 p.m. | 31 minutes ago Description :SiYuan versions before v3.7.4 fail to properly filter related-database content in renderAttributeView...",
+      "source": "CVE Feed",
+      "published": "2026-08-12T19:07:44+00:00"
+    },
+    {
+      "title": "CVE-2026-72795 - SiYuan before v3.7.4 Information Disclosure via Embed Block",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-72795",
+      "summary": "CVE ID :CVE-2026-72795 Published : Aug. 12, 2026, 7:07 p.m. | 31 minutes ago Description :SiYuan versions before v3.7.4 fail to filter embedded block content by publish access in the...",
+      "source": "CVE Feed",
+      "published": "2026-08-12T19:07:42+00:00"
+    },
+    {
+      "title": "CVE-2026-72794 - siyuan before v3.7.4 Session Cookie Key Disclosure via getConf",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-72794",
+      "summary": "CVE ID :CVE-2026-72794 Published : Aug. 12, 2026, 7:07 p.m. | 31 minutes ago Description :siyuan versions before v3.7.4 expose the session cookie signing key through the /api/system/getConf endpoint...",
+      "source": "CVE Feed",
+      "published": "2026-08-12T19:07:41+00:00"
+    },
+    {
+      "title": "CVE-2026-72793 - SiYuan before v3.7.4 Information Disclosure via /api/system/getConf",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-72793",
+      "summary": "CVE ID :CVE-2026-72793 Published : Aug. 12, 2026, 7:07 p.m. | 31 minutes ago Description :SiYuan versions before v3.7.4 fail to mask sensitive configuration fields in the /api/system/getConf...",
+      "source": "CVE Feed",
+      "published": "2026-08-12T19:07:41+00:00"
+    },
+    {
+      "title": "CVE-2026-72789 - SiYuan before v3.7.4 Authentication Bypass via Encrypted Notebooks",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-72789",
+      "summary": "CVE ID :CVE-2026-72789 Published : Aug. 12, 2026, 7:07 p.m. | 31 minutes ago Description :SiYuan before v3.7.4 fails to properly validate publish access for encrypted notebooks, treating them as...",
+      "source": "CVE Feed",
+      "published": "2026-08-12T19:07:38+00:00"
+    },
+    {
+      "title": "CVE-2026-73268 - Cluster-curator-controller: cluster-curator-controller: spec.install.overridejob allows arbitrary job spec injection",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-73268",
+      "summary": "CVE ID :CVE-2026-73268 Published : Aug. 12, 2026, 7:05 p.m. | 33 minutes ago Description :A flaw was found in the cluster-curator-controller component of multicluster engine (MCE). A tenant with...",
+      "source": "CVE Feed",
+      "published": "2026-08-12T19:05:12+00:00"
+    },
+    {
+      "title": "CVE-2026-73269 - Cluster-curator-controller: cluster-curator-controller: tenant-controllable trigger creates clusterrolebinding granting cluster-wide secrets access to namespace-local sa",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-73269",
+      "summary": "CVE ID :CVE-2026-73269 Published : Aug. 12, 2026, 7:05 p.m. | 33 minutes ago Description :A flaw was found in the cluster-curator-controller component. A local user, by creating a ClusterCurator...",
+      "source": "CVE Feed",
+      "published": "2026-08-12T19:05:05+00:00"
+    },
+    {
+      "title": "CVE-2026-15217 - Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') in GitLab",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-15217",
+      "summary": "CVE ID :CVE-2026-15217 Published : Aug. 12, 2026, 7:04 p.m. | 34 minutes ago Description :GitLab has remediated an issue in GitLab CE/EE affecting all versions from 18.2 before 19.0.6, 19.1 before...",
+      "source": "CVE Feed",
+      "published": "2026-08-12T19:04:51+00:00"
+    },
+    {
+      "title": "CVE-2026-15216 - Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') in GitLab",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-15216",
+      "summary": "CVE ID :CVE-2026-15216 Published : Aug. 12, 2026, 7:04 p.m. | 34 minutes ago Description :GitLab has remediated an issue in GitLab CE/EE affecting all versions from 18.2 before 19.0.6, 19.1 before...",
+      "source": "CVE Feed",
+      "published": "2026-08-12T19:04:46+00:00"
+    },
+    {
+      "title": "CVE-2026-19228 - Authorization Bypass Through User-Controlled Key in GitLab",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-19228",
+      "summary": "CVE ID :CVE-2026-19228 Published : Aug. 12, 2026, 7:04 p.m. | 34 minutes ago Description :GitLab has remediated an issue in GitLab EE affecting all versions from 19.1 before 19.1.4 and 19.2 before...",
+      "source": "CVE Feed",
+      "published": "2026-08-12T19:04:16+00:00"
+    },
+    {
+      "title": "Hundreds of fake Chrome VPN extensions route traffic through a proxy",
+      "link": "https://www.bleepingcomputer.com/news/security/hundreds-of-fake-chrome-vpn-extensions-route-traffic-through-a-proxy/",
+      "summary": "More than 737 browser extensions published on the Chrome Web Store impersonated well-known VPN and proxy services while routing users' traffic through SOCKS5 proxies operated by a single provider...",
+      "source": "BleepingComputer",
+      "published": "2026-08-12T18:54:57+00:00"
+    },
+    {
+      "title": "CVE-2026-73329 - CamaleonCMS Stored XSS via Draft Post Title Creation Endpoint",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-73329",
+      "summary": "CVE ID :CVE-2026-73329 Published : Aug. 12, 2026, 6:54 p.m. | 44 minutes ago Description :CamaleonCMS contains a stored cross-site scripting vulnerability that allows authenticated low-privileged...",
+      "source": "CVE Feed",
+      "published": "2026-08-12T18:54:07+00:00"
+    },
+    {
+      "title": "CVE-2026-73327 - Joomla 6.1.1 Zip Slip Path Traversal via com_joomlaupdate extract.php",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-73327",
+      "summary": "CVE ID :CVE-2026-73327 Published : Aug. 12, 2026, 6:18 p.m. | 1 hour, 20 minutes ago Description :Joomla 6.1.1 contains a path traversal vulnerability in the com_joomlaupdate extension that allows a...",
+      "source": "CVE Feed",
+      "published": "2026-08-12T18:18:15+00:00"
+    },
+    {
+      "title": "CVE-2026-73300 - Budibase: SQL Injection via `multipleStatements: true`",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-73300",
+      "summary": "CVE ID :CVE-2026-73300 Published : Aug. 12, 2026, 6:18 p.m. | 1 hour, 20 minutes ago Description :Budibase is an open-source low-code platform. Prior to 3.40.0, the MySQL integration component in...",
+      "source": "CVE Feed",
+      "published": "2026-08-12T18:18:15+00:00"
+    },
+    {
+      "title": "CVE-2026-73299 - Prompty: Server-Side Template Injection to Remote Code Execution in the @prompty/core Nunjucks Renderer",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-73299",
+      "summary": "CVE ID :CVE-2026-73299 Published : Aug. 12, 2026, 6:18 p.m. | 1 hour, 20 minutes ago Description :Prompty is a markdown file format (.prompty) for LLM prompts. Prior to 0.1.5 and 2.0.0-beta.5, the...",
+      "source": "CVE Feed",
+      "published": "2026-08-12T18:18:15+00:00"
+    },
     {
       "title": "Lazarus Exploits Windows Zero-Day to Gain SYSTEM Access and Deploy Backdoor",
       "link": "https://thehackernews.com/2026/08/lazarus-exploits-windows-zero-day-to.html",
@@ -16,151 +198,11 @@
       "published": "2026-08-12T17:28:00+00:00"
     },
     {
-      "title": "CVE-2026-17418 - IBM i is Affected By Multiple Vulnerabilities in SQL",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-17418",
-      "summary": "CVE ID :CVE-2026-17418 Published : Aug. 12, 2026, 5:22 p.m. | 35 minutes ago Description :IBM i 7.6, 7.5, 7.4, and 7.3 could allow a local authenticated attacker to cause a denial of service due to...",
-      "source": "CVE Feed",
-      "published": "2026-08-12T17:22:48+00:00"
-    },
-    {
-      "title": "CVE-2026-18235 - IBM i is Affected By Multiple Vulnerabilities in Navigator for i",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-18235",
-      "summary": "CVE ID :CVE-2026-18235 Published : Aug. 12, 2026, 5:21 p.m. | 36 minutes ago Description :IBM i 7.6, 7.5, 7.4, and 7.3 could allow a remote authenticated attacker to execute arbitrary Control...",
-      "source": "CVE Feed",
-      "published": "2026-08-12T17:21:40+00:00"
-    },
-    {
-      "title": "CVE-2026-17276 - IBM i is Affected By Multiple Vulnerabilities in Navigator for i",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-17276",
-      "summary": "CVE ID :CVE-2026-17276 Published : Aug. 12, 2026, 5:20 p.m. | 37 minutes ago Description :IBM i 7.6, 7.5, 7.4, and 7.3 could allow a remote authenticated attacker to escalate privileges due to...",
-      "source": "CVE Feed",
-      "published": "2026-08-12T17:20:24+00:00"
-    },
-    {
-      "title": "CVE-2026-18713 - IBM i is Affected By Multiple Vulnerabilities in Navigator for i",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-18713",
-      "summary": "CVE ID :CVE-2026-18713 Published : Aug. 12, 2026, 5:19 p.m. | 38 minutes ago Description :IBM i 7.6, 7.5, 7.4, and 7.3 s vulnerable to privilege escalation via Navigator for i. An authenticated user...",
-      "source": "CVE Feed",
-      "published": "2026-08-12T17:19:22+00:00"
-    },
-    {
-      "title": "CVE-2026-16904 - IBM i is Affected By improper privilege management in Navigator for i",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-16904",
-      "summary": "CVE ID :CVE-2026-16904 Published : Aug. 12, 2026, 5:18 p.m. | 40 minutes ago Description :IBM i 7.6, 7.5, 7.4, and 7.3 could allow a remote authenticated attacker to execute arbitrary commands due to...",
-      "source": "CVE Feed",
-      "published": "2026-08-12T17:18:20+00:00"
-    },
-    {
-      "title": "CVE-2026-73296 - Microsoft UFO: Unauthenticated Mobile MCP access allows remote Android device control and screen disclosure",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-73296",
-      "summary": "CVE ID :CVE-2026-73296 Published : Aug. 12, 2026, 5:17 p.m. | 40 minutes ago Description :Microsoft UFO open-source framework for intelligent automation across devices and platforms. Prior to 3.0.8...",
-      "source": "CVE Feed",
-      "published": "2026-08-12T17:17:32+00:00"
-    },
-    {
-      "title": "CVE-2026-18847 - IBM i is Affected By Multiple Vulnerabilities in Navigator for i",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-18847",
-      "summary": "CVE ID :CVE-2026-18847 Published : Aug. 12, 2026, 5:17 p.m. | 40 minutes ago Description :IBM i 7.6, 7.5, 7.4, and 7.3 could allow a remote unauthenticated attacker to harvest credentials due to...",
-      "source": "CVE Feed",
-      "published": "2026-08-12T17:17:25+00:00"
-    },
-    {
-      "title": "CVE-2026-18683 - IBM i is Affected By privilege escalation in Navigator for i",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-18683",
-      "summary": "CVE ID :CVE-2026-18683 Published : Aug. 12, 2026, 5:17 p.m. | 40 minutes ago Description :IBM i 7.6, 7.5, 7.4, and 7.3 is vulnerable to privilege escalation via Navigator for i. An authenticated user...",
-      "source": "CVE Feed",
-      "published": "2026-08-12T17:17:25+00:00"
-    },
-    {
-      "title": "CVE-2026-18499 - IBM WebSphere Application Server Liberty is affected by a privilege escalation",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-18499",
-      "summary": "CVE ID :CVE-2026-18499 Published : Aug. 12, 2026, 5:17 p.m. | 40 minutes ago Description :IBM WebSphere Application Server - Liberty 17.0.0.3 through 26.0.0.8 is vulnerable to a privilege escalation...",
-      "source": "CVE Feed",
-      "published": "2026-08-12T17:17:25+00:00"
-    },
-    {
-      "title": "CVE-2026-18098 - IBM i is Affected By XML injection flaw in Navigator for i",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-18098",
-      "summary": "CVE ID :CVE-2026-18098 Published : Aug. 12, 2026, 5:17 p.m. | 40 minutes ago Description :IBM i 7.6, 7.5, 7.4, and 7.3 could allow a remote authenticated attacker to obtain sensitive information and...",
-      "source": "CVE Feed",
-      "published": "2026-08-12T17:17:24+00:00"
-    },
-    {
-      "title": "CVE-2026-17095 - IBM i is Affected By Multiple Vulnerabilities in Navigator for i",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-17095",
-      "summary": "CVE ID :CVE-2026-17095 Published : Aug. 12, 2026, 5:17 p.m. | 40 minutes ago Description :IBM i 7.6, 7.5, 7.4, and 7.3 could allow a remote authenticated attacker to bypass security restrictions due...",
-      "source": "CVE Feed",
-      "published": "2026-08-12T17:17:24+00:00"
-    },
-    {
       "title": "Walmart's \"Trusted Agent\" Approach to Purple Teaming",
       "link": "https://www.darkreading.com/cybersecurity-operations/walmart-trusted-agent-approach-purple-teaming",
       "summary": "Walmart co-locates red and blue teams to build trust and improve security through collaborative purple teaming exercises",
       "source": "Dark Reading",
       "published": "2026-08-12T16:28:04+00:00"
-    },
-    {
-      "title": "CVE-2026-73325 - Fujitsu OneCompression 1.2.0 Arbitrary Code Execution via torch.load Deserialization",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-73325",
-      "summary": "CVE ID :CVE-2026-73325 Published : Aug. 12, 2026, 4:17 p.m. | 1 hour, 40 minutes ago Description :Fujitsu Research's OneCompression library 1.2.0 contains an unsafe deserialization vulnerability that...",
-      "source": "CVE Feed",
-      "published": "2026-08-12T16:17:23+00:00"
-    },
-    {
-      "title": "CVE-2026-73294 - Semaphore U: OS Command Injection",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-73294",
-      "summary": "CVE ID :CVE-2026-73294 Published : Aug. 12, 2026, 4:17 p.m. | 1 hour, 40 minutes ago Description :Semaphore UI is a web interface for managing DevOps tools. Prior to 2.18.17 and 2.19.5-beta2...",
-      "source": "CVE Feed",
-      "published": "2026-08-12T16:17:22+00:00"
-    },
-    {
-      "title": "CVE-2026-73293 - Semaphore UI: Manager-to-owner privilege escalation via custom-role slug collision",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-73293",
-      "summary": "CVE ID :CVE-2026-73293 Published : Aug. 12, 2026, 4:17 p.m. | 1 hour, 40 minutes ago Description :Semaphore UI is a web interface for managing DevOps tools. Prior to 2.18.19 and from 2.19.0-alpha3...",
-      "source": "CVE Feed",
-      "published": "2026-08-12T16:17:22+00:00"
-    },
-    {
-      "title": "CVE-2026-73292 - Semaphore UI: CSRF vulnerability on password change endpoint - No CSRF token or password confirmation",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-73292",
-      "summary": "CVE ID :CVE-2026-73292 Published : Aug. 12, 2026, 4:17 p.m. | 1 hour, 40 minutes ago Description :Semaphore UI is a web interface for managing DevOps tools. Prior to 2.18.21, the...",
-      "source": "CVE Feed",
-      "published": "2026-08-12T16:17:22+00:00"
-    },
-    {
-      "title": "CVE-2026-69105 - Potential package cache integrity issue in JFrog Artifactory",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-69105",
-      "summary": "CVE ID :CVE-2026-69105 Published : Aug. 12, 2026, 4:17 p.m. | 1 hour, 41 minutes ago Description :An unauthenticated attacker may cause untrusted package content to be cached under specific...",
-      "source": "CVE Feed",
-      "published": "2026-08-12T16:17:20+00:00"
-    },
-    {
-      "title": "CVE-2026-65941 - WhatsUp Gold versions prior to 26.0.2 contain an unauthenticated remote code execution vulnerability in an internal report scheduling service.",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-65941",
-      "summary": "CVE ID :CVE-2026-65941 Published : Aug. 12, 2026, 4:17 p.m. | 1 hour, 41 minutes ago Description :In WhatsUp Gold versions released before 2026.0.2, an unauthenticated remote attacker with network...",
-      "source": "CVE Feed",
-      "published": "2026-08-12T16:17:14+00:00"
-    },
-    {
-      "title": "CVE-2026-65937 - WhatsUp Gold versions prior to 26.0.2 contain multiple stored cross-site scripting (XSS) vulnerabilities across the web UI",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-65937",
-      "summary": "CVE ID :CVE-2026-65937 Published : Aug. 12, 2026, 4:17 p.m. | 1 hour, 41 minutes ago Description :In WhatsUp Gold versions released before 2026.0.2, an authenticated attacker can bypass frontend...",
-      "source": "CVE Feed",
-      "published": "2026-08-12T16:17:13+00:00"
-    },
-    {
-      "title": "CVE-2026-64639 - Plesk Database Cloning Arbitrary Code Execution Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-64639",
-      "summary": "CVE ID :CVE-2026-64639 Published : Aug. 12, 2026, 4:17 p.m. | 1 hour, 41 minutes ago Description :Incorrect database cloning process in Plesk from 18.0.52 before 18.0.79.6 and 18.0.80.2 allows a...",
-      "source": "CVE Feed",
-      "published": "2026-08-12T16:17:12+00:00"
-    },
-    {
-      "title": "CVE-2026-15803 - Eclipse RDF4J XML External Entity Injection",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-15803",
-      "summary": "CVE ID :CVE-2026-15803 Published : Aug. 12, 2026, 4:16 p.m. | 1 hour, 41 minutes ago Description :In Eclipse RDF4J, several XML parser entry points do not fully restrict XML External Entity (XXE)...",
-      "source": "CVE Feed",
-      "published": "2026-08-12T16:16:54+00:00"
     },
     {
       "title": "CISA Adds Cisco ASA and Microsoft Windows WinSock Vulnerabilities to KEV",
@@ -182,41 +224,6 @@
       "summary": "North Korean hackers have been exploiting a Windows zero-day vulnerability (CVE-2026-68820) to target defense-sector companies as part of the Operation Dream Job campaign. [...]",
       "source": "BleepingComputer",
       "published": "2026-08-12T15:38:08+00:00"
-    },
-    {
-      "title": "CVE-2026-73431 - Reusable Account Activation and Recovery Tokens Allow Repeated Account Takeover in vulnerability-lookup",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-73431",
-      "summary": "CVE ID :CVE-2026-73431 Published : Aug. 12, 2026, 3:18 p.m. | 2 hours, 39 minutes ago Description :Vulnerability-Lookup contains an authentication weakness in its account activation and...",
-      "source": "CVE Feed",
-      "published": "2026-08-12T15:18:33+00:00"
-    },
-    {
-      "title": "CVE-2026-73289 - RustFS: ForAllValues/ForAnyValue negated string conditions are transposed, inverting IAM and bucket-policy decisions",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-73289",
-      "summary": "CVE ID :CVE-2026-73289 Published : Aug. 12, 2026, 3:18 p.m. | 2 hours, 39 minutes ago Description :RustFS is a distributed object storage system built in Rust. Prior to 1.0.0-beta.12, RustFS...",
-      "source": "CVE Feed",
-      "published": "2026-08-12T15:18:32+00:00"
-    },
-    {
-      "title": "CVE-2026-73286 - RustF: Request headers can populate server-derived IAM condition keys, letting a caller satisfy identity-based policy conditions",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-73286",
-      "summary": "CVE ID :CVE-2026-73286 Published : Aug. 12, 2026, 3:18 p.m. | 2 hours, 39 minutes ago Description :RustFS is a distributed object storage system built in Rust. Prior to 1.0.0-beta.12, RustFS...",
-      "source": "CVE Feed",
-      "published": "2026-08-12T15:18:32+00:00"
-    },
-    {
-      "title": "CVE-2026-73284 - RustFS: AddServiceAccount Handler Allows Creation of Root-Parent Service Accounts",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-73284",
-      "summary": "CVE ID :CVE-2026-73284 Published : Aug. 12, 2026, 3:18 p.m. | 2 hours, 39 minutes ago Description :RustFS is a distributed object storage system built in Rust. RustFS AddServiceAccount in...",
-      "source": "CVE Feed",
-      "published": "2026-08-12T15:18:31+00:00"
-    },
-    {
-      "title": "CVE-2026-73263 - Prowler: RCE on Prowler App workers via kubeconfig auth-provider cmd-path",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-73263",
-      "summary": "CVE ID :CVE-2026-73263 Published : Aug. 12, 2026, 3:18 p.m. | 2 hours, 39 minutes ago Description :Prowler is a cloud security platform. Prior to 5.36.0, the Kubernetes provider connection test...",
-      "source": "CVE Feed",
-      "published": "2026-08-12T15:18:30+00:00"
     },
     {
       "title": "SharePoint Vulnerability Exploited Shortly After PoC Release",
@@ -340,8 +347,8 @@
     {
       "title": "Adobe Patches Three CVSS 10.0 ColdFusion and Campaign Classic Flaws",
       "link": "https://thehackernews.com/2026/08/adobe-patches-three-cvss-100-coldfusion.html",
-      "summary": "Adobe Patches Three CVSS 10.0 ColdFusion and Campaign Classic Flaws Adobe has shipped updates to address multiple critical security vulnerabilities impacting ColdFusion, Commerce, and Campaign...",
-      "source": "CVE Newsroom",
+      "summary": "Adobe has shipped updates to address multiple critical security vulnerabilities impacting ColdFusion, Commerce, and Campaign Classic that, if successfully exploited, could result in arbitrary code...",
+      "source": "The Hacker News",
       "published": "2026-08-12T11:13:03+00:00"
     },
     {
@@ -382,8 +389,8 @@
     {
       "title": "Attackers Exploit VMware vCenter Vulnerability to Gain Persistent Remote Access",
       "link": "https://thehackernews.com/2026/08/attackers-exploit-vmware-vcenter.html",
-      "summary": "Attackers Exploit VMware vCenter Vulnerability to Gain Persistent Remote Access Threat actors have begun to actively exploit a recently patched critical security flaw in Broadcom VMware vCenter...",
-      "source": "CVE Newsroom",
+      "summary": "Threat actors have begun to actively exploit a recently patched critical security flaw in Broadcom VMware vCenter, according to new findings from QUIRSO. The vulnerability in question is...",
+      "source": "The Hacker News",
       "published": "2026-08-12T09:01:54+00:00"
     },
     {
@@ -410,8 +417,8 @@
     {
       "title": "Malicious LiteLLM Releases Tied to Trivy Hack May Have Exposed 2,100+ Organizations",
       "link": "https://thehackernews.com/2026/08/malicious-litellm-releases-tied-to.html",
-      "summary": "Malicious LiteLLM Releases Tied to Trivy Hack May Have Exposed 2,100+ Organizations Two malicious LiteLLM releases sat on PyPI for about 40 minutes in March carrying credential-stealing code capable...",
-      "source": "CVE Newsroom",
+      "summary": "Two malicious LiteLLM releases sat on PyPI for about 40 minutes in March carrying credential-stealing code capable of harvesting cloud keys, SSH keys, Kubernetes tokens, database passwords, and other...",
+      "source": "The Hacker News",
       "published": "2026-08-12T08:04:52+00:00"
     },
     {
@@ -438,8 +445,8 @@
     {
       "title": "SAP Commerce Cloud Flaw Could Let Unauthenticated Attackers Execute Arbitrary Code",
       "link": "https://thehackernews.com/2026/08/sap-commerce-cloud-flaw-could-let.html",
-      "summary": "SAP Commerce Cloud Flaw Could Let Unauthenticated Attackers Execute Arbitrary Code SAP has released patches to address a maximum-severity security flaw impacting Commerce Cloud (Data Hub Adapter)...",
-      "source": "CVE Newsroom",
+      "summary": "SAP has released patches to address a maximum-severity security flaw impacting Commerce Cloud (Data Hub Adapter) that could result in arbitrary code execution. The vulnerability, assigned the CVE...",
+      "source": "The Hacker News",
       "published": "2026-08-12T07:31:40+00:00"
     },
     {
@@ -452,15 +459,15 @@
     {
       "title": "ShieldBreak Zero-Day PoC Claims Microsoft Defender Patch Bypass With SYSTEM Access",
       "link": "https://thehackernews.com/2026/08/shieldbreak-zero-day-poc-claims.html",
-      "summary": "ShieldBreak Zero-Day PoC Claims Microsoft Defender Patch Bypass With SYSTEM Access The security researcher going by the name Chaotic Eclipse (aka INFINITE NIGHTMARE, MSNightmare, and...",
-      "source": "CVE Newsroom",
+      "summary": "The security researcher going by the name Chaotic Eclipse (aka INFINITE NIGHTMARE, MSNightmare, and Nightmare-Eclipse) has released a proof-of-concept (PoC) for a new Microsoft zero-day called...",
+      "source": "The Hacker News",
       "published": "2026-08-12T06:41:38+00:00"
     },
     {
       "title": "Cisco ASA and FTD Flaw Exploited in the Wild Can Trigger Remote DoS",
       "link": "https://thehackernews.com/2026/08/cisco-asa-and-ftd-flaw-exploited-in.html",
-      "summary": "Cisco ASA and FTD Flaw Exploited in the Wild Can Trigger Remote DoS Cisco has warned that a new vulnerability impacting Secure Firewall Adaptive Security Appliance (ASA) Software and Secure Firewall...",
-      "source": "CVE Newsroom",
+      "summary": "Cisco has warned that a new vulnerability impacting Secure Firewall Adaptive Security Appliance (ASA) Software and Secure Firewall Threat Defense (FTD) Software has been exploited in the wild. The...",
+      "source": "The Hacker News",
       "published": "2026-08-12T06:15:58+00:00"
     },
     {
@@ -522,8 +529,8 @@
     {
       "title": "Microsoft Patches 398 Flaws Including a Windows Driver Zero-Day Under Active Attack",
       "link": "https://thehackernews.com/2026/08/microsoft-patches-398-flaws-including.html",
-      "summary": "Microsoft Patches 398 Flaws Including a Windows Driver Zero-Day Under Active Attack Microsoft released its monthly security updates on Tuesday, and one of the flaws it closed is already being used in...",
-      "source": "CVE Newsroom",
+      "summary": "Microsoft released its monthly security updates on Tuesday, and one of the flaws it closed is already being used in attacks. The bug sits in a core Windows kernel driver that handles network socket...",
+      "source": "The Hacker News",
       "published": "2026-08-11T20:10:55+00:00"
     },
     {
@@ -550,8 +557,8 @@
     {
       "title": "Zoom Annotation Flaws Could Let a Meeting Participant Hijack Another Attendee's Client",
       "link": "https://thehackernews.com/2026/08/zoom-annotation-flaws-could-let-meeting.html",
-      "summary": "Zoom Annotation Flaws Could Let a Meeting Participant Hijack Another Attendee's Client Anyone sharing their screen on a Zoom call could have taken over the computers of everyone watching, and anyone...",
-      "source": "CVE Newsroom",
+      "summary": "Anyone sharing their screen on a Zoom call could have taken over the computers of everyone watching, and anyone watching could have taken over the presenter's. The flaw sat in the annotation tool...",
+      "source": "The Hacker News",
       "published": "2026-08-11T19:08:47+00:00"
     },
     {
@@ -583,17 +590,10 @@
       "published": "2026-08-11T18:08:50+00:00"
     },
     {
-      "title": "Windows 11 KB5121003 & KB5120240 cumulative updates released",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5121003-and-kb5120240-cumulative-updates-released/",
-      "summary": "Microsoft has released Windows 11 KB5121003 and KB5120240 cumulative updates for versions 25H2/24H2 and 23H2 to fix security vulnerabilities, bugs, and add new features. [...]",
-      "source": "BleepingComputer",
-      "published": "2026-08-11T17:38:42+00:00"
-    },
-    {
       "title": "Researchers Disclose AI-Assisted SharePoint Exploit Chain Reaching Unauthenticated RCE",
       "link": "https://thehackernews.com/2026/08/researchers-disclose-ai-assisted.html",
-      "summary": "Researchers Disclose AI-Assisted SharePoint Exploit Chain Reaching Unauthenticated RCE Security researchers found a way to enter Microsoft SharePoint servers as any user, including an administrator...",
-      "source": "CVE Newsroom",
+      "summary": "Security researchers found a way to enter Microsoft SharePoint servers as any user, including an administrator, with no valid account. A significant part of the work that found it was done through an...",
+      "source": "The Hacker News",
       "published": "2026-08-11T16:47:44+00:00"
     },
     {
@@ -620,15 +620,15 @@
     {
       "title": "OpenAI Launches GPT-5.6-Cyber with Reduced Safeguards for Exploit Development",
       "link": "https://thehackernews.com/2026/08/openai-launches-gpt-56-cyber-with.html",
-      "summary": "OpenAI Launches GPT-5.6-Cyber with Reduced Safeguards for Exploit Development OpenAI on Monday unveiled a new cybersecurity-focused model called GPT‑5.6‑Cyber that it said is focused on vulnerability...",
-      "source": "CVE Newsroom",
+      "summary": "OpenAI on Monday unveiled a new cybersecurity-focused model called GPT‑5.6‑Cyber that it said is focused on vulnerability research, penetration testing, and incident response. \"Built on GPT‑5.6 Sol...",
+      "source": "The Hacker News",
       "published": "2026-08-11T13:11:23+00:00"
     },
     {
       "title": "A Malicious SIM Card Can Run Attacker Code Inside the Modems Behind Cellular IoT Devices",
       "link": "https://thehackernews.com/2026/08/a-malicious-sim-card-can-run-attacker.html",
-      "summary": "A Malicious SIM Card Can Run Attacker Code Inside the Modems Behind Cellular IoT Devices A malicious SIM card can order the device it sits in to run commands of the attacker's choosing. On the...",
-      "source": "CVE Newsroom",
+      "summary": "A malicious SIM card can order the device it sits in to run commands of the attacker's choosing. On the cellular modules built into electric-vehicle chargers, industrial routers, and car telematics...",
+      "source": "The Hacker News",
       "published": "2026-08-11T12:05:03+00:00"
     },
     {
@@ -674,10 +674,10 @@
       "published": "2026-08-11T10:19:36+00:00"
     },
     {
-      "title": "Gunra Ransomware Exploits Fortinet and Schneider Electric Flaws to Breach Networks",
+      "title": "Gunra Ransomware Exploits Fortinet FortiOS, FortiProxy Flaws to Breach Networks",
       "link": "https://thehackernews.com/2026/08/gunra-ransomware-exploits-fortinet-and.html",
-      "summary": "Gunra Ransomware Exploits Fortinet and Schneider Electric Flaws to Breach Networks Cybersecurity and intelligence agencies from South Korea and the U.S. warned of Gunra ransomware attacks targeting...",
-      "source": "CVE Newsroom",
+      "summary": "Cybersecurity and intelligence agencies from South Korea and the U.S. warned of Gunra ransomware attacks targeting critical infrastructure sectors and organizations across the world. Targets of these...",
+      "source": "The Hacker News",
       "published": "2026-08-11T09:16:24+00:00"
     },
     {
