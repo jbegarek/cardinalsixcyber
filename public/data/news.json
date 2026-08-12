@@ -1,12 +1,89 @@
 {
-  "last_updated": "2026-08-12T14:50:11.861801+00:00",
+  "last_updated": "2026-08-12T16:47:10.912843+00:00",
   "articles": [
+    {
+      "title": "Plug and Pwn attack uses fake USB devices for Windows SYSTEM access",
+      "link": "https://www.bleepingcomputer.com/news/security/plug-and-pwn-attack-uses-fake-usb-devices-for-windows-system-access/",
+      "summary": "Security researchers have disclosed new \"Plug and Pwn\" attacks that abuse the Windows Plug and Play feature to trigger Windows into installing vulnerable or insecure vendor software and gain SYSTEM...",
+      "source": "BleepingComputer",
+      "published": "2026-08-12T16:05:12+00:00"
+    },
+    {
+      "title": "Lazarus hackers exploited Windows zero-day to target defense firms",
+      "link": "https://www.bleepingcomputer.com/news/security/lazarus-hackers-exploited-windows-zero-day-to-target-defense-firms/",
+      "summary": "North Korean hackers have been exploiting a Windows zero-day vulnerability (CVE-2026-68820) to target defense-sector companies as part of the Operation Dream Job campaign. [...]",
+      "source": "BleepingComputer",
+      "published": "2026-08-12T15:38:08+00:00"
+    },
+    {
+      "title": "CVE-2026-73431 - Reusable Account Activation and Recovery Tokens Allow Repeated Account Takeover in vulnerability-lookup",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-73431",
+      "summary": "CVE ID :CVE-2026-73431 Published : Aug. 12, 2026, 3:18 p.m. | 16 minutes ago Description :Vulnerability-Lookup contains an authentication weakness in its account activation and password-recovery...",
+      "source": "CVE Feed",
+      "published": "2026-08-12T15:18:33+00:00"
+    },
+    {
+      "title": "CVE-2026-73289 - RustFS: ForAllValues/ForAnyValue negated string conditions are transposed, inverting IAM and bucket-policy decisions",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-73289",
+      "summary": "CVE ID :CVE-2026-73289 Published : Aug. 12, 2026, 3:18 p.m. | 16 minutes ago Description :RustFS is a distributed object storage system built in Rust. Prior to 1.0.0-beta.12, RustFS evaluates the...",
+      "source": "CVE Feed",
+      "published": "2026-08-12T15:18:32+00:00"
+    },
+    {
+      "title": "CVE-2026-73286 - RustF: Request headers can populate server-derived IAM condition keys, letting a caller satisfy identity-based policy conditions",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-73286",
+      "summary": "CVE ID :CVE-2026-73286 Published : Aug. 12, 2026, 3:18 p.m. | 16 minutes ago Description :RustFS is a distributed object storage system built in Rust. Prior to 1.0.0-beta.12, RustFS...",
+      "source": "CVE Feed",
+      "published": "2026-08-12T15:18:32+00:00"
+    },
+    {
+      "title": "CVE-2026-73284 - RustFS: AddServiceAccount Handler Allows Creation of Root-Parent Service Accounts",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-73284",
+      "summary": "CVE ID :CVE-2026-73284 Published : Aug. 12, 2026, 3:18 p.m. | 16 minutes ago Description :RustFS is a distributed object storage system built in Rust. RustFS AddServiceAccount in...",
+      "source": "CVE Feed",
+      "published": "2026-08-12T15:18:31+00:00"
+    },
+    {
+      "title": "CVE-2026-73263 - Prowler: RCE on Prowler App workers via kubeconfig auth-provider cmd-path",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-73263",
+      "summary": "CVE ID :CVE-2026-73263 Published : Aug. 12, 2026, 3:18 p.m. | 16 minutes ago Description :Prowler is a cloud security platform. Prior to 5.36.0, the Kubernetes provider connection test accepted...",
+      "source": "CVE Feed",
+      "published": "2026-08-12T15:18:30+00:00"
+    },
+    {
+      "title": "CVE-2026-66375 - Low-privilege users may remove protected Artifactory metadata",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-66375",
+      "summary": "CVE ID :CVE-2026-66375 Published : Aug. 12, 2026, 3:18 p.m. | 16 minutes ago Description :A low-privilege authenticated user may permanently remove protected internal metadata across repositories...",
+      "source": "CVE Feed",
+      "published": "2026-08-12T15:18:19+00:00"
+    },
+    {
+      "title": "CVE-2026-50561 - Yuxi has a JWT Authentication Bypass Leading to Cross-Instance Administrator Token Reuse",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-50561",
+      "summary": "CVE ID :CVE-2026-50561 Published : Aug. 12, 2026, 3:17 p.m. | 17 minutes ago Description :Yuxi is a large-model-based intelligent knowledge base and knowledge graph agent development platform. Prior...",
+      "source": "CVE Feed",
+      "published": "2026-08-12T15:17:38+00:00"
+    },
     {
       "title": "SharePoint Vulnerability Exploited Shortly After PoC Release",
       "link": "https://www.securityweek.com/sharepoint-vulnerability-exploited-shortly-after-poc-release/",
       "summary": "The vulnerability was patched by Microsoft in July and CISA warned that it could end up being exploited in the wild. The post SharePoint Vulnerability Exploited Shortly After PoC Release appeared...",
       "source": "SecurityWeek",
       "published": "2026-08-12T14:47:01+00:00"
+    },
+    {
+      "title": "CVE-2026-67285 - Joomla Extension - joomshaper.com - Unauthenticated arbitrary local PHP file inclusion in SP Page Builder < 6.8.0",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-67285",
+      "summary": "CVE ID :CVE-2026-67285 Published : Aug. 12, 2026, 2:18 p.m. | 1 hour, 16 minutes ago Description :Joomla Extension - joomshaper.com - Unauthenticated arbitrary local PHP file inclusion in SP Page...",
+      "source": "CVE Feed",
+      "published": "2026-08-12T14:18:33+00:00"
+    },
+    {
+      "title": "CVE-2026-47231 - Admidio has IDOR in `documents-files.php` `mode=move_save` that lets any folder-uploader exfiltrate files from private folders",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-47231",
+      "summary": "CVE ID :CVE-2026-47231 Published : Aug. 12, 2026, 2:17 p.m. | 1 hour, 16 minutes ago Description :Admidio is an open-source user management solution. Prior to version 5.0.10...",
+      "source": "CVE Feed",
+      "published": "2026-08-12T14:17:54+00:00"
     },
     {
       "title": "FBI: Hackers target online accounts to steal nude photos",
@@ -46,30 +123,23 @@
     {
       "title": "CVE-2026-70468 - Fortinet FortiManager Authentication Bypass Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-70468",
-      "summary": "CVE ID :CVE-2026-70468 Published : Aug. 12, 2026, 1:17 p.m. | 17 minutes ago Description :A authentication bypass using an alternate path or channel vulnerability in Fortinet FortiManager 7.6.1...",
+      "summary": "CVE ID :CVE-2026-70468 Published : Aug. 12, 2026, 1:17 p.m. | 2 hours, 17 minutes ago Description :A authentication bypass using an alternate path or channel vulnerability in Fortinet FortiManager...",
       "source": "CVE Feed",
       "published": "2026-08-12T13:17:25+00:00"
     },
     {
       "title": "CVE-2026-57858 - Cal.com Cal.diy 6.2.0 Stored XSS via BookingPageTagManager Analytics Tracking ID",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-57858",
-      "summary": "CVE ID :CVE-2026-57858 Published : Aug. 12, 2026, 1:17 p.m. | 17 minutes ago Description :Cal.com Cal.diy versions 2.1.1 through 6.2.0 contain a stored cross-site scripting vulnerability in the...",
+      "summary": "CVE ID :CVE-2026-57858 Published : Aug. 12, 2026, 1:17 p.m. | 2 hours, 17 minutes ago Description :Cal.com Cal.diy versions 2.1.1 through 6.2.0 contain a stored cross-site scripting vulnerability in...",
       "source": "CVE Feed",
       "published": "2026-08-12T13:17:22+00:00"
     },
     {
       "title": "CVE-2026-26035 - Fortinet FortiWeb Improper Authentication Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-26035",
-      "summary": "CVE ID :CVE-2026-26035 Published : Aug. 12, 2026, 1:17 p.m. | 17 minutes ago Description :An Improper Authentication vulnerability [CWE-287] vulnerability in Fortinet FortiWeb 8.0.0 through 8.0.2...",
+      "summary": "CVE ID :CVE-2026-26035 Published : Aug. 12, 2026, 1:17 p.m. | 2 hours, 17 minutes ago Description :An Improper Authentication vulnerability [CWE-287] vulnerability in Fortinet FortiWeb 8.0.0 through...",
       "source": "CVE Feed",
       "published": "2026-08-12T13:17:22+00:00"
-    },
-    {
-      "title": "Three intrusions at UK criminal records office went undetected for two years",
-      "link": "https://therecord.media/uk-criminal-records-office-acro-data-breaches",
-      "summary": "Unread antivirus alerts and an unpatched content management system exposed Britain's ACRO to three separate data breaches, according to a reprimand notice.",
-      "source": "The Record",
-      "published": "2026-08-12T13:00:00+00:00"
     },
     {
       "title": "WhatsApp Unveils New Scam Alert Feature",
@@ -83,6 +153,13 @@
       "link": "https://www.securityweek.com/stealthy-city-forum-attacks-target-salesforce-and-servicenow-with-custom-toolset/",
       "summary": "Researchers observed the novel campaign exploiting unauthenticated guest access to quietly enumerate and exfiltrate exposed data from both platforms. The post Stealthy ‘City-Forum’ Attacks Target...",
       "source": "SecurityWeek",
+      "published": "2026-08-12T13:00:00+00:00"
+    },
+    {
+      "title": "Three intrusions at UK criminal records office went undetected for two years",
+      "link": "https://therecord.media/uk-criminal-records-office-acro-data-breaches",
+      "summary": "Unread antivirus alerts and an unpatched content management system exposed Britain's ACRO to three separate data breaches, according to a reprimand notice.",
+      "source": "The Record",
       "published": "2026-08-12T13:00:00+00:00"
     },
     {
@@ -109,14 +186,14 @@
     {
       "title": "CVE-2026-70465 - Fortinet FortiClient Buffer Overflow Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-70465",
-      "summary": "CVE ID :CVE-2026-70465 Published : Aug. 12, 2026, 12:19 p.m. | 1 hour, 14 minutes ago Description :A buffer copy without checking size of input ('classic buffer overflow') vulnerability in Fortinet...",
+      "summary": "CVE ID :CVE-2026-70465 Published : Aug. 12, 2026, 12:19 p.m. | 3 hours, 14 minutes ago Description :A buffer copy without checking size of input ('classic buffer overflow') vulnerability in Fortinet...",
       "source": "CVE Feed",
       "published": "2026-08-12T12:19:47+00:00"
     },
     {
       "title": "CVE-2026-11325 - cloudflare/pages-action is deprecated — migration required by September 18th, 2026",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-11325",
-      "summary": "CVE ID :CVE-2026-11325 Published : Aug. 12, 2026, 12:17 p.m. | 1 hour, 16 minutes ago Description :Description Cloudflare was recently notified by external researchers of vulnerabilities in this...",
+      "summary": "CVE ID :CVE-2026-11325 Published : Aug. 12, 2026, 12:17 p.m. | 3 hours, 16 minutes ago Description :Description Cloudflare was recently notified by external researchers of vulnerabilities in this...",
       "source": "CVE Feed",
       "published": "2026-08-12T12:17:44+00:00"
     },
@@ -200,7 +277,7 @@
     {
       "title": "CVE-2026-67282 - Joomla Extension - fabrikar.com - Unauthenticated remote code execution in Fabrik < 4.6.8",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-67282",
-      "summary": "CVE ID :CVE-2026-67282 Published : Aug. 12, 2026, 9:17 a.m. | 4 hours, 16 minutes ago Description :Joomla Extension - fabrikar.com - Unauthenticated remote code execution in Fabrik Severity: 10.0 |...",
+      "summary": "CVE ID :CVE-2026-67282 Published : Aug. 12, 2026, 9:17 a.m. | 6 hours, 17 minutes ago Description :Joomla Extension - fabrikar.com - Unauthenticated remote code execution in Fabrik Severity: 10.0 |...",
       "source": "CVE Feed",
       "published": "2026-08-12T09:17:30+00:00"
     },
@@ -228,14 +305,14 @@
     {
       "title": "CVE-2026-19426 - FitSoft｜POS Sytstem - Missing Authentication",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-19426",
-      "summary": "CVE ID :CVE-2026-19426 Published : Aug. 12, 2026, 8:17 a.m. | 5 hours, 17 minutes ago Description :POS System developed by FitSoft has a Missing Authentication vulnerability. Unauthenticated remote...",
+      "summary": "CVE ID :CVE-2026-19426 Published : Aug. 12, 2026, 8:17 a.m. | 7 hours, 17 minutes ago Description :POS System developed by FitSoft has a Missing Authentication vulnerability. Unauthenticated remote...",
       "source": "CVE Feed",
       "published": "2026-08-12T08:17:17+00:00"
     },
     {
       "title": "CVE-2025-41769 - Unauthenticated Buffer Overflow in PROFINET Service",
       "link": "https://cvefeed.io/vuln/detail/CVE-2025-41769",
-      "summary": "CVE ID :CVE-2025-41769 Published : Aug. 12, 2026, 8:17 a.m. | 5 hours, 17 minutes ago Description :The device's PROFINET service is affected by a buffer overflow vulnerability that exists in the...",
+      "summary": "CVE ID :CVE-2025-41769 Published : Aug. 12, 2026, 8:17 a.m. | 7 hours, 17 minutes ago Description :The device's PROFINET service is affected by a buffer overflow vulnerability that exists in the...",
       "source": "CVE Feed",
       "published": "2026-08-12T08:17:11+00:00"
     },
@@ -298,21 +375,21 @@
     {
       "title": "CVE-2026-66659 - WordPress Tablesome Table plugin <= 1.2.9 - SQL Injection vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-66659",
-      "summary": "CVE ID :CVE-2026-66659 Published : Aug. 12, 2026, 6:22 a.m. | 7 hours, 12 minutes ago Description :Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability...",
+      "summary": "CVE ID :CVE-2026-66659 Published : Aug. 12, 2026, 6:22 a.m. | 9 hours, 12 minutes ago Description :Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability...",
       "source": "CVE Feed",
       "published": "2026-08-12T06:22:09+00:00"
     },
     {
       "title": "CVE-2026-19594 - Path Traversal and HTTP Parameter Pollution in Snowflake Python API (snowflake.core) Allow Confused-Deputy Privilege Escalation",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-19594",
-      "summary": "CVE ID :CVE-2026-19594 Published : Aug. 12, 2026, 6:21 a.m. | 7 hours, 12 minutes ago Description :Insufficient input sanitization in Snowflake Python API (`snowflake.core`) versions prior to 1.13.0...",
+      "summary": "CVE ID :CVE-2026-19594 Published : Aug. 12, 2026, 6:21 a.m. | 9 hours, 12 minutes ago Description :Insufficient input sanitization in Snowflake Python API (`snowflake.core`) versions prior to 1.13.0...",
       "source": "CVE Feed",
       "published": "2026-08-12T06:21:57+00:00"
     },
     {
       "title": "CVE-2026-18474 - WP Directory Kit < 1.5.6 - Unauthenticated SQL Injection via search_location and search_category",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-18474",
-      "summary": "CVE ID :CVE-2026-18474 Published : Aug. 12, 2026, 6:20 a.m. | 7 hours, 14 minutes ago Description :The WP Directory Kit WordPress plugin before 1.5.6 does not sanitise and escape a parameter before...",
+      "summary": "CVE ID :CVE-2026-18474 Published : Aug. 12, 2026, 6:20 a.m. | 9 hours, 14 minutes ago Description :The WP Directory Kit WordPress plugin before 1.5.6 does not sanitise and escape a parameter before...",
       "source": "CVE Feed",
       "published": "2026-08-12T06:20:14+00:00"
     },
@@ -326,7 +403,7 @@
     {
       "title": "CVE-2026-64954 - Velociraptor collect_client() Permissions Bypass",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-64954",
-      "summary": "CVE ID :CVE-2026-64954 Published : Aug. 12, 2026, 5:19 a.m. | 8 hours, 15 minutes ago Description :Velociraptor allows scheduling new collections via VQL queries in notebooks. For a user to schedule...",
+      "summary": "CVE ID :CVE-2026-64954 Published : Aug. 12, 2026, 5:19 a.m. | 10 hours, 15 minutes ago Description :Velociraptor allows scheduling new collections via VQL queries in notebooks. For a user to schedule...",
       "source": "CVE Feed",
       "published": "2026-08-12T05:19:17+00:00"
     },
@@ -340,28 +417,28 @@
     {
       "title": "CVE-2026-18961 - Social Login, Passkeys, Magic Link & Email OTP – Passwordless Login by VentraConnect <= 1.4.3 - Unauthenticated Authentication Bypass via Spotify OAuth Callback",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-18961",
-      "summary": "CVE ID :CVE-2026-18961 Published : Aug. 12, 2026, 3:16 a.m. | 10 hours, 17 minutes ago Description :The Social Login, Passkeys, Magic Link & Email OTP – Passwordless Login by VentraConnect plugin for...",
+      "summary": "CVE ID :CVE-2026-18961 Published : Aug. 12, 2026, 3:16 a.m. | 12 hours, 17 minutes ago Description :The Social Login, Passkeys, Magic Link & Email OTP – Passwordless Login by VentraConnect plugin for...",
       "source": "CVE Feed",
       "published": "2026-08-12T03:16:42+00:00"
     },
     {
       "title": "CVE-2026-72526 - Multicloud-integrations: multicloud-integrations: pull-model propagation allows hub tenant to target arbitrary spoke cluster via unvalidated ocm-managed-cluster annotation",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-72526",
-      "summary": "CVE ID :CVE-2026-72526 Published : Aug. 12, 2026, 2:16 a.m. | 11 hours, 17 minutes ago Description :A flaw was found in the multicloud-integrations component. The Application propagation controller...",
+      "summary": "CVE ID :CVE-2026-72526 Published : Aug. 12, 2026, 2:16 a.m. | 13 hours, 18 minutes ago Description :A flaw was found in the multicloud-integrations component. The Application propagation controller...",
       "source": "CVE Feed",
       "published": "2026-08-12T02:16:38+00:00"
     },
     {
       "title": "CVE-2026-70398 - Multicloud-integrations: multicloud-integrations: gitopscluster.spec.argoserver.argonamespace writes spoke bearer tokens to attacker-chosen namespace",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-70398",
-      "summary": "CVE ID :CVE-2026-70398 Published : Aug. 12, 2026, 2:16 a.m. | 11 hours, 17 minutes ago Description :A flaw was found in multicloud-integrations, a component of Red Hat Advanced Cluster Management...",
+      "summary": "CVE ID :CVE-2026-70398 Published : Aug. 12, 2026, 2:16 a.m. | 13 hours, 18 minutes ago Description :A flaw was found in multicloud-integrations, a component of Red Hat Advanced Cluster Management...",
       "source": "CVE Feed",
       "published": "2026-08-12T02:16:38+00:00"
     },
     {
       "title": "CVE-2026-6484 - Lack of verified boot to certain FV may cause arbitrary code execution",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-6484",
-      "summary": "CVE ID :CVE-2026-6484 Published : Aug. 12, 2026, 1:17 a.m. | 12 hours, 17 minutes ago Description :In an UEFI, Lack of verified boot to certain FV may cause arbitrary code execution. Severity: 8.2 |...",
+      "summary": "CVE ID :CVE-2026-6484 Published : Aug. 12, 2026, 1:17 a.m. | 14 hours, 17 minutes ago Description :In an UEFI, Lack of verified boot to certain FV may cause arbitrary code execution. Severity: 8.2 |...",
       "source": "CVE Feed",
       "published": "2026-08-12T01:17:08+00:00"
     },
@@ -378,55 +455,6 @@
       "summary": "Microsoft Patch Tuesday August 2026 Microsoft’s August 2026 Patch Tuesday is another substantial security release, addressing 421 vulnerabilities across Windows, Office, Azure, Exchange Server...",
       "source": "CVE Newsroom",
       "published": "2026-08-12T00:57:44+00:00"
-    },
-    {
-      "title": "CVE-2026-73248 - calibre: Bypass of Python template restrictions via nested `template()` leading to RCE",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-73248",
-      "summary": "CVE ID :CVE-2026-73248 Published : Aug. 11, 2026, 10:19 p.m. | 15 hours, 15 minutes ago Description :calibre is an e-book manager. Prior to 9.12.0, calibre processes attacker-controlled...",
-      "source": "CVE Feed",
-      "published": "2026-08-11T22:19:05+00:00"
-    },
-    {
-      "title": "CVE-2026-73247 - Kestra: SSRF via Pebble http() function allows unauthenticated access to internal services & cloud metadata",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-73247",
-      "summary": "CVE ID :CVE-2026-73247 Published : Aug. 11, 2026, 10:19 p.m. | 15 hours, 15 minutes ago Description :Kestra is an open-source, event-driven orchestration platform. Prior to 2.0.0, Kestra's...",
-      "source": "CVE Feed",
-      "published": "2026-08-11T22:19:05+00:00"
-    },
-    {
-      "title": "CVE-2026-68067 - Mira Hormone Monitor, Mira Android App Weak Authentication",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-68067",
-      "summary": "CVE ID :CVE-2026-68067 Published : Aug. 11, 2026, 10:18 p.m. | 15 hours, 15 minutes ago Description :The login endpoint on the Mira cloud API accepts any format-valid string in the password field and...",
-      "source": "CVE Feed",
-      "published": "2026-08-11T22:18:55+00:00"
-    },
-    {
-      "title": "CVE-2026-67568 - Mira Hormone Monitor, Mira Android App Use of Hard-coded Credentials",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-67568",
-      "summary": "CVE ID :CVE-2026-67568 Published : Aug. 11, 2026, 10:18 p.m. | 15 hours, 15 minutes ago Description :The distributed Mira Android APK v4.5.15.4 allows an attacker read/write access to reproductive...",
-      "source": "CVE Feed",
-      "published": "2026-08-11T22:18:54+00:00"
-    },
-    {
-      "title": "CVE-2026-66875 - Mira Hormone Monitor, Mira Android App Missing authentication for critical function",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-66875",
-      "summary": "CVE ID :CVE-2026-66875 Published : Aug. 11, 2026, 10:18 p.m. | 15 hours, 15 minutes ago Description :In the Mira hormone monitor device firmware v1.7.1.47 build 01070147, a remote unauthenticated...",
-      "source": "CVE Feed",
-      "published": "2026-08-11T22:18:54+00:00"
-    },
-    {
-      "title": "CVE-2026-5917 - libgit2 v0.27.0-v1.9.0 Shell Command Injection via ssh_libssh2 Backend",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-5917",
-      "summary": "CVE ID :CVE-2026-5917 Published : Aug. 11, 2026, 10:17 p.m. | 15 hours, 16 minutes ago Description :libgit2 versions v0.27.0 through v1.9.0 built with the libssh2 SSH backend (USE_SSH=libssh2)...",
-      "source": "CVE Feed",
-      "published": "2026-08-11T22:17:37+00:00"
-    },
-    {
-      "title": "CVE-2026-18710 - Cleartext Storage of Sensitive Information in MongoDB Driver Logging During Client Initialization",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-18710",
-      "summary": "CVE ID :CVE-2026-18710 Published : Aug. 11, 2026, 10:17 p.m. | 15 hours, 17 minutes ago Description :A MongoDB driver component could write sensitive configuration information, including a credential...",
-      "source": "CVE Feed",
-      "published": "2026-08-11T22:17:20+00:00"
     },
     {
       "title": "DeadLock ransomware uses blockchain to resist infrastructure takedown",
@@ -448,20 +476,6 @@
       "summary": "Microsoft today released updates to remedy at least 398 security vulnerabilities in its Windows operating systems and supported software, including one weakness that is already being actively...",
       "source": "Krebs on Security",
       "published": "2026-08-11T21:28:35+00:00"
-    },
-    {
-      "title": "CVE-2026-66154 - GMS Insufficient Certificate Validation Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-66154",
-      "summary": "CVE ID :CVE-2026-66154 Published : Aug. 11, 2026, 9:17 p.m. | 16 hours, 16 minutes ago Description :An insufficient certificate validation in a privileged communication workflow, was identified in a...",
-      "source": "CVE Feed",
-      "published": "2026-08-11T21:17:49+00:00"
-    },
-    {
-      "title": "CVE-2026-66147 - GMS Dispatcher Service Remote Code Execution Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-66147",
-      "summary": "CVE ID :CVE-2026-66147 Published : Aug. 11, 2026, 9:17 p.m. | 16 hours, 16 minutes ago Description :An unauthenticated command injection vulnerability was identified in the GMS Dispatcher Service in...",
-      "source": "CVE Feed",
-      "published": "2026-08-11T21:17:49+00:00"
     },
     {
       "title": "Gunra Ransomware Gang Exploits Fortinet Flaws, Bypasses MFA",
@@ -569,13 +583,6 @@
       "published": "2026-08-11T16:35:27+00:00"
     },
     {
-      "title": "Wesco confirms security incident after ExfilSquad claims data theft",
-      "link": "https://www.bleepingcomputer.com/news/security/wesco-confirms-security-incident-after-exfilsquad-claims-data-theft/",
-      "summary": "Global supply chain and distribution giant Wesco has confirmed in a statement for BleepingComputer that it is investigating a cybersecurity incident. [...]",
-      "source": "BleepingComputer",
-      "published": "2026-08-11T15:59:35+00:00"
-    },
-    {
       "title": "Zoom-beveiligingslek laat aanvaller systeem van gebruikers overnemen",
       "link": "https://www.security.nl/posting/948857/Zoom-beveiligingslek+laat+aanvaller+systeem+van+gebruikers+overnemen?channel=rss",
       "summary": "Zoom-beveiligingslek laat aanvaller systeem van gebruikers overnemen Twee kwetsbaarheden in videoconferentiesoftware Zoom maken het mogelijk voor aanvallers om de systemen van gebruikers over te...",
@@ -588,13 +595,6 @@
       "summary": "Microsoft komt vanavond met update voor RCE-lek in SharePoint Microsoft komt vanavond met een beveiligingsupdate voor een kwetsbaarheid in SharePoint (CVE-2026-63520) waardoor remote code execution...",
       "source": "CVE Newsroom",
       "published": "2026-08-11T13:58:07+00:00"
-    },
-    {
-      "title": "Mozilla updates GPG signing key for Firefox releases after exposure",
-      "link": "https://www.bleepingcomputer.com/news/security/mozilla-updates-gpg-key-for-signing-firefox-thunderbird-releases-after-exposure/",
-      "summary": "Mozilla announced today that it updated the GPG key used to sign Firefox and Thunderbird releases after it was accidentally exposed on GitHub. [...]",
-      "source": "BleepingComputer",
-      "published": "2026-08-11T13:20:28+00:00"
     },
     {
       "title": "OpenAI Launches GPT-5.6-Cyber with Reduced Safeguards for Exploit Development",
