@@ -1,6 +1,48 @@
 {
-  "last_updated": "2026-08-11T22:32:16.606527+00:00",
+  "last_updated": "2026-08-12T01:09:03.904519+00:00",
   "articles": [
+    {
+      "title": "CVE-2026-73248 - calibre: Bypass of Python template restrictions via nested `template()` leading to RCE",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-73248",
+      "summary": "CVE ID :CVE-2026-73248 Published : Aug. 11, 2026, 10:19 p.m. | 2 hours, 24 minutes ago Description :calibre is an e-book manager. Prior to 9.12.0, calibre processes attacker-controlled...",
+      "source": "CVE Feed",
+      "published": "2026-08-11T22:19:05+00:00"
+    },
+    {
+      "title": "CVE-2026-73247 - Kestra: SSRF via Pebble http() function allows unauthenticated access to internal services & cloud metadata",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-73247",
+      "summary": "CVE ID :CVE-2026-73247 Published : Aug. 11, 2026, 10:19 p.m. | 2 hours, 24 minutes ago Description :Kestra is an open-source, event-driven orchestration platform. Prior to 2.0.0, Kestra's...",
+      "source": "CVE Feed",
+      "published": "2026-08-11T22:19:05+00:00"
+    },
+    {
+      "title": "CVE-2026-68067 - Mira Hormone Monitor, Mira Android App Weak Authentication",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-68067",
+      "summary": "CVE ID :CVE-2026-68067 Published : Aug. 11, 2026, 10:18 p.m. | 2 hours, 24 minutes ago Description :The login endpoint on the Mira cloud API accepts any format-valid string in the password field and...",
+      "source": "CVE Feed",
+      "published": "2026-08-11T22:18:55+00:00"
+    },
+    {
+      "title": "CVE-2026-67568 - Mira Hormone Monitor, Mira Android App Use of Hard-coded Credentials",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-67568",
+      "summary": "CVE ID :CVE-2026-67568 Published : Aug. 11, 2026, 10:18 p.m. | 2 hours, 24 minutes ago Description :The distributed Mira Android APK v4.5.15.4 allows an attacker read/write access to reproductive...",
+      "source": "CVE Feed",
+      "published": "2026-08-11T22:18:54+00:00"
+    },
+    {
+      "title": "CVE-2026-66875 - Mira Hormone Monitor, Mira Android App Missing authentication for critical function",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-66875",
+      "summary": "CVE ID :CVE-2026-66875 Published : Aug. 11, 2026, 10:18 p.m. | 2 hours, 24 minutes ago Description :In the Mira hormone monitor device firmware v1.7.1.47 build 01070147, a remote unauthenticated...",
+      "source": "CVE Feed",
+      "published": "2026-08-11T22:18:54+00:00"
+    },
+    {
+      "title": "CVE-2026-5917 - libgit2 v0.27.0-v1.9.0 Shell Command Injection via ssh_libssh2 Backend",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-5917",
+      "summary": "CVE ID :CVE-2026-5917 Published : Aug. 11, 2026, 10:17 p.m. | 2 hours, 26 minutes ago Description :libgit2 versions v0.27.0 through v1.9.0 built with the libssh2 SSH backend (USE_SSH=libssh2) contain...",
+      "source": "CVE Feed",
+      "published": "2026-08-11T22:17:37+00:00"
+    },
     {
       "title": "DeadLock ransomware uses blockchain to resist infrastructure takedown",
       "link": "https://www.bleepingcomputer.com/news/security/deadlock-ransomware-uses-blockchain-to-resist-infrastructure-takedown/",
@@ -16,27 +58,6 @@
       "published": "2026-08-11T21:42:34+00:00"
     },
     {
-      "title": "CVE-2026-5917 - libgit2 v0.27.0-v1.9.0 Shell Command Injection via ssh_libssh2 Backend",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-5917",
-      "summary": "CVE ID :CVE-2026-5917 Published : Aug. 11, 2026, 9:40 p.m. | 34 minutes ago Description :libgit2 versions v0.27.0 through v1.9.0 built with the libssh2 SSH backend (USE_SSH=libssh2) contain a shell...",
-      "source": "CVE Feed",
-      "published": "2026-08-11T21:40:29+00:00"
-    },
-    {
-      "title": "CVE-2026-66875 - Mira Hormone Monitor, Mira Android App Missing authentication for critical function",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-66875",
-      "summary": "CVE ID :CVE-2026-66875 Published : Aug. 11, 2026, 9:31 p.m. | 42 minutes ago Description :In the Mira hormone monitor device firmware v1.7.1.47 build 01070147, a remote unauthenticated attacker...",
-      "source": "CVE Feed",
-      "published": "2026-08-11T21:31:42+00:00"
-    },
-    {
-      "title": "CVE-2026-29036 - cJSON 1.7.19 Wrong-Key Modification via JSON Pointer Escape Decoding",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-29036",
-      "summary": "CVE ID :CVE-2026-29036 Published : Aug. 11, 2026, 9:30 p.m. | 44 minutes ago Description :cJSON versions 1.5.0 through 1.7.19 contain an incorrectly-resolved name or reference vulnerability in the...",
-      "source": "CVE Feed",
-      "published": "2026-08-11T21:30:01+00:00"
-    },
-    {
       "title": "Microsoft Plugs Nearly 400 Security Holes",
       "link": "https://krebsonsecurity.com/2026/08/microsoft-plugs-nearly-400-security-holes/",
       "summary": "Microsoft today released updates to remedy at least 398 security vulnerabilities in its Windows operating systems and supported software, including one weakness that is already being actively...",
@@ -44,65 +65,51 @@
       "published": "2026-08-11T21:28:35+00:00"
     },
     {
-      "title": "CVE-2026-67558 - Mira Hormone Monitor, Mira Android App Authentication bypass by spoofing",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-67558",
-      "summary": "CVE ID :CVE-2026-67558 Published : Aug. 11, 2026, 9:27 p.m. | 47 minutes ago Description :The Mira Android companion app v4.5.15.4 identifies the paired Mira hormone analyzer by performing a...",
+      "title": "CVE-2026-66154 - GMS Insufficient Certificate Validation Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-66154",
+      "summary": "CVE ID :CVE-2026-66154 Published : Aug. 11, 2026, 9:17 p.m. | 3 hours, 26 minutes ago Description :An insufficient certificate validation in a privileged communication workflow, was identified in a...",
       "source": "CVE Feed",
-      "published": "2026-08-11T21:27:03+00:00"
+      "published": "2026-08-11T21:17:49+00:00"
     },
     {
-      "title": "CVE-2026-67568 - Mira Hormone Monitor, Mira Android App Use of Hard-coded Credentials",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-67568",
-      "summary": "CVE ID :CVE-2026-67568 Published : Aug. 11, 2026, 9:25 p.m. | 49 minutes ago Description :The distributed Mira Android APK v4.5.15.4 allows an attacker read/write access to reproductive health...",
+      "title": "CVE-2026-66147 - GMS Dispatcher Service Remote Code Execution Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-66147",
+      "summary": "CVE ID :CVE-2026-66147 Published : Aug. 11, 2026, 9:17 p.m. | 3 hours, 26 minutes ago Description :An unauthenticated command injection vulnerability was identified in the GMS Dispatcher Service in...",
       "source": "CVE Feed",
-      "published": "2026-08-11T21:25:10+00:00"
-    },
-    {
-      "title": "CVE-2026-68067 - Mira Hormone Monitor, Mira Android App Weak Authentication",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-68067",
-      "summary": "CVE ID :CVE-2026-68067 Published : Aug. 11, 2026, 9:23 p.m. | 51 minutes ago Description :The login endpoint on the Mira cloud API accepts any format-valid string in the password field and returns a...",
-      "source": "CVE Feed",
-      "published": "2026-08-11T21:23:05+00:00"
+      "published": "2026-08-11T21:17:49+00:00"
     },
     {
       "title": "CVE-2026-55676 - Malcolm vulnerable to RCE via unrestricted .php upload to the file-upload component",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-55676",
-      "summary": "CVE ID :CVE-2026-55676 Published : Aug. 11, 2026, 9:17 p.m. | 56 minutes ago Description :Malcolm is a network traffic analysis tool suite. The file-upload component (FilePond PHP backend) accepts...",
+      "summary": "CVE ID :CVE-2026-55676 Published : Aug. 11, 2026, 9:17 p.m. | 3 hours, 26 minutes ago Description :Malcolm is a network traffic analysis tool suite. The file-upload component (FilePond PHP backend)...",
       "source": "CVE Feed",
       "published": "2026-08-11T21:17:37+00:00"
     },
     {
       "title": "CVE-2026-48765 - TypeBot vulnerable to cross-workspace OAuth credential takeover in updateOAuthCredentials via missing object binding",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-48765",
-      "summary": "CVE ID :CVE-2026-48765 Published : Aug. 11, 2026, 9:17 p.m. | 57 minutes ago Description :TypeBot is a chatbot builder tool. Versions prior to 3.17.0 allow a low-privilege read collaborator to...",
+      "summary": "CVE ID :CVE-2026-48765 Published : Aug. 11, 2026, 9:17 p.m. | 3 hours, 26 minutes ago Description :TypeBot is a chatbot builder tool. Versions prior to 3.17.0 allow a low-privilege read collaborator...",
       "source": "CVE Feed",
       "published": "2026-08-11T21:17:36+00:00"
     },
     {
       "title": "CVE-2026-48763 - TypeBot has Arbitrary S3 Object Write in deprecated public upload endpoint via attacker-controlled filePath",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-48763",
-      "summary": "CVE ID :CVE-2026-48763 Published : Aug. 11, 2026, 9:17 p.m. | 57 minutes ago Description :TypeBot is a chatbot builder tool. Versions prior to 3.17.0 expose a deprecated public upload endpoint at...",
+      "summary": "CVE ID :CVE-2026-48763 Published : Aug. 11, 2026, 9:17 p.m. | 3 hours, 26 minutes ago Description :TypeBot is a chatbot builder tool. Versions prior to 3.17.0 expose a deprecated public upload...",
       "source": "CVE Feed",
       "published": "2026-08-11T21:17:36+00:00"
     },
     {
-      "title": "CVE-2026-29035 - CivetWeb Heap/Stack Buffer Overflow via WebSocket permessage-deflate Decompression",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-29035",
-      "summary": "CVE ID :CVE-2026-29035 Published : Aug. 11, 2026, 9:17 p.m. | 57 minutes ago Description :CivetWeb (commit 4a4f0c95) contains a heap and stack buffer overflow vulnerability in the read_websocket()...",
-      "source": "CVE Feed",
-      "published": "2026-08-11T21:17:35+00:00"
-    },
-    {
       "title": "CVE-2026-15606 - Frontend Admin by DynamiApps <= 3.29.9 - Authenticated (Subscriber+) Arbitrary Password Reset via Encrypted Object Token",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-15606",
-      "summary": "CVE ID :CVE-2026-15606 Published : Aug. 11, 2026, 9:17 p.m. | 57 minutes ago Description :The Frontend Admin by DynamiApps plugin for WordPress is vulnerable to authorization bypass in all versions...",
+      "summary": "CVE ID :CVE-2026-15606 Published : Aug. 11, 2026, 9:17 p.m. | 3 hours, 26 minutes ago Description :The Frontend Admin by DynamiApps plugin for WordPress is vulnerable to authorization bypass in all...",
       "source": "CVE Feed",
       "published": "2026-08-11T21:17:27+00:00"
     },
     {
       "title": "CVE-2026-14863 - FileRun 2026.2.0 RCE via Thumbnail Generation Command Injection",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-14863",
-      "summary": "CVE ID :CVE-2026-14863 Published : Aug. 11, 2026, 9:17 p.m. | 57 minutes ago Description :FileRun up to and including version 2026.2.0 contains an OS command injection vulnerability that allows...",
+      "summary": "CVE ID :CVE-2026-14863 Published : Aug. 11, 2026, 9:17 p.m. | 3 hours, 26 minutes ago Description :FileRun up to and including version 2026.2.0 contains an OS command injection vulnerability that...",
       "source": "CVE Feed",
       "published": "2026-08-11T21:17:25+00:00"
     },
@@ -123,92 +130,92 @@
     {
       "title": "CVE-2026-73242 - FreeRDP: Kerberos GSS Wrap-token `EC` field is unbounded, causing an out-of-bounds decrypt in `kerberos_DecryptMessage`",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-73242",
-      "summary": "CVE ID :CVE-2026-73242 Published : Aug. 11, 2026, 8:18 p.m. | 1 hour, 55 minutes ago Description :FreeRDP is a free implementation of the Remote Desktop Protocol. Prior to 3.30.0, FreeRDP's...",
+      "summary": "CVE ID :CVE-2026-73242 Published : Aug. 11, 2026, 8:18 p.m. | 4 hours, 25 minutes ago Description :FreeRDP is a free implementation of the Remote Desktop Protocol. Prior to 3.30.0, FreeRDP's...",
       "source": "CVE Feed",
       "published": "2026-08-11T20:18:49+00:00"
     },
     {
       "title": "CVE-2026-73241 - FreeRDP: RDSTLS server authentication bypass: a credential-less Capabilities PDU is accepted at the auth step (fail-open `resultCode`)",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-73241",
-      "summary": "CVE ID :CVE-2026-73241 Published : Aug. 11, 2026, 8:18 p.m. | 1 hour, 55 minutes ago Description :FreeRDP is a free implementation of the Remote Desktop Protocol. Prior to 3.30.0, FreeRDP server-side...",
+      "summary": "CVE ID :CVE-2026-73241 Published : Aug. 11, 2026, 8:18 p.m. | 4 hours, 25 minutes ago Description :FreeRDP is a free implementation of the Remote Desktop Protocol. Prior to 3.30.0, FreeRDP...",
       "source": "CVE Feed",
       "published": "2026-08-11T20:18:49+00:00"
     },
     {
       "title": "CVE-2026-73233 - FreeCAD: FEM formula incomplete escape",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-73233",
-      "summary": "CVE ID :CVE-2026-73233 Published : Aug. 11, 2026, 8:18 p.m. | 1 hour, 55 minutes ago Description :FreeCAD is a free and open-source multiplatform 3D parametric modeler. Prior to 1.1.2, the FEM...",
+      "summary": "CVE ID :CVE-2026-73233 Published : Aug. 11, 2026, 8:18 p.m. | 4 hours, 25 minutes ago Description :FreeCAD is a free and open-source multiplatform 3D parametric modeler. Prior to 1.1.2, the FEM...",
       "source": "CVE Feed",
       "published": "2026-08-11T20:18:48+00:00"
     },
     {
       "title": "CVE-2026-73034 - DB-GPT v0.8.1 Path Traversal Arbitrary File Write via user_id Header",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-73034",
-      "summary": "CVE ID :CVE-2026-73034 Published : Aug. 11, 2026, 8:18 p.m. | 1 hour, 55 minutes ago Description :DB-GPT v0.8.1 contains an unauthenticated path traversal vulnerability that allows remote attackers...",
+      "summary": "CVE ID :CVE-2026-73034 Published : Aug. 11, 2026, 8:18 p.m. | 4 hours, 25 minutes ago Description :DB-GPT v0.8.1 contains an unauthenticated path traversal vulnerability that allows remote attackers...",
       "source": "CVE Feed",
       "published": "2026-08-11T20:18:46+00:00"
     },
     {
       "title": "CVE-2026-73032 - PapersGPT for Zotero 0.6.1 RCE via Unsanitized LLM Response eval()",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-73032",
-      "summary": "CVE ID :CVE-2026-73032 Published : Aug. 11, 2026, 8:18 p.m. | 1 hour, 55 minutes ago Description :PapersGPT for Zotero 0.6.1 contains a remote code execution vulnerability that allows attackers to...",
+      "summary": "CVE ID :CVE-2026-73032 Published : Aug. 11, 2026, 8:18 p.m. | 4 hours, 25 minutes ago Description :PapersGPT for Zotero 0.6.1 contains a remote code execution vulnerability that allows attackers to...",
       "source": "CVE Feed",
       "published": "2026-08-11T20:18:46+00:00"
     },
     {
       "title": "CVE-2026-73031 - telegram-search Stored XSS via v-html in MessageList.vue",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-73031",
-      "summary": "CVE ID :CVE-2026-73031 Published : Aug. 11, 2026, 8:18 p.m. | 1 hour, 55 minutes ago Description :telegram-search contains a stored cross-site scripting vulnerability that allows remote attackers to...",
+      "summary": "CVE ID :CVE-2026-73031 Published : Aug. 11, 2026, 8:18 p.m. | 4 hours, 25 minutes ago Description :telegram-search contains a stored cross-site scripting vulnerability that allows remote attackers to...",
       "source": "CVE Feed",
       "published": "2026-08-11T20:18:46+00:00"
     },
     {
       "title": "CVE-2026-66145 - GMS Arbitrary File Write Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-66145",
-      "summary": "CVE ID :CVE-2026-66145 Published : Aug. 11, 2026, 8:18 p.m. | 1 hour, 55 minutes ago Description :An unauthenticated remote code execution vulnerability was identified in GMS 9.5.1 (Build 9510.1044)...",
+      "summary": "CVE ID :CVE-2026-66145 Published : Aug. 11, 2026, 8:18 p.m. | 4 hours, 25 minutes ago Description :An unauthenticated remote code execution vulnerability was identified in GMS 9.5.1 (Build 9510.1044)...",
       "source": "CVE Feed",
       "published": "2026-08-11T20:18:37+00:00"
     },
     {
       "title": "CVE-2026-48813 - Flawfinder output manipulation via untrusted filenames and source text",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-48813",
-      "summary": "CVE ID :CVE-2026-48813 Published : Aug. 11, 2026, 8:17 p.m. | 1 hour, 56 minutes ago Description :Flawfinder is a a static analysis tool for finding vulnerabilities in C/C++ source code. Versions...",
+      "summary": "CVE ID :CVE-2026-48813 Published : Aug. 11, 2026, 8:17 p.m. | 4 hours, 26 minutes ago Description :Flawfinder is a a static analysis tool for finding vulnerabilities in C/C++ source code. Versions...",
       "source": "CVE Feed",
       "published": "2026-08-11T20:17:43+00:00"
     },
     {
       "title": "CVE-2026-45618 - LiquidJS is Vulnerable to Remote Code Execution",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-45618",
-      "summary": "CVE ID :CVE-2026-45618 Published : Aug. 11, 2026, 8:17 p.m. | 1 hour, 56 minutes ago Description :LiquidJS is a Shopify/GitHub Pages compatible template engine. Prior to version 10.26.0, it is...",
+      "summary": "CVE ID :CVE-2026-45618 Published : Aug. 11, 2026, 8:17 p.m. | 4 hours, 26 minutes ago Description :LiquidJS is a Shopify/GitHub Pages compatible template engine. Prior to version 10.26.0, it is...",
       "source": "CVE Feed",
       "published": "2026-08-11T20:17:40+00:00"
     },
     {
       "title": "CVE-2026-19091 - GeoDirectory <= 2.8.169 - Authenticated (Subscriber+) Arbitrary File Deletion via 'post_type' Parameter via Query-String Bypass in geodir_save_post + geodir_delete_revision",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-19091",
-      "summary": "CVE ID :CVE-2026-19091 Published : Aug. 11, 2026, 8:17 p.m. | 1 hour, 56 minutes ago Description :The GeoDirectory – WP Business Directory Plugin and Classified Listings Directory plugin for...",
+      "summary": "CVE ID :CVE-2026-19091 Published : Aug. 11, 2026, 8:17 p.m. | 4 hours, 26 minutes ago Description :The GeoDirectory – WP Business Directory Plugin and Classified Listings Directory plugin for...",
       "source": "CVE Feed",
       "published": "2026-08-11T20:17:38+00:00"
     },
     {
       "title": "CVE-2026-18844 - Pulsetto Vagus Nerve Stimulator Hidden Functionality",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-18844",
-      "summary": "CVE ID :CVE-2026-18844 Published : Aug. 11, 2026, 8:17 p.m. | 1 hour, 56 minutes ago Description :The firmware of the Pulsetto Vagus Nerve Stimulator accepts several undisclosed commands over its...",
+      "summary": "CVE ID :CVE-2026-18844 Published : Aug. 11, 2026, 8:17 p.m. | 4 hours, 26 minutes ago Description :The firmware of the Pulsetto Vagus Nerve Stimulator accepts several undisclosed commands over its...",
       "source": "CVE Feed",
       "published": "2026-08-11T20:17:37+00:00"
     },
     {
       "title": "CVE-2026-16230 - Formidable Digital Signatures <= 3.0.6 - Unauthenticated Arbitrary File Deletion via Signature Field",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-16230",
-      "summary": "CVE ID :CVE-2026-16230 Published : Aug. 11, 2026, 8:17 p.m. | 1 hour, 57 minutes ago Description :The Formidable Digital Signatures plugin for WordPress is vulnerable to file deletion due to...",
+      "summary": "CVE ID :CVE-2026-16230 Published : Aug. 11, 2026, 8:17 p.m. | 4 hours, 26 minutes ago Description :The Formidable Digital Signatures plugin for WordPress is vulnerable to file deletion due to...",
       "source": "CVE Feed",
       "published": "2026-08-11T20:17:27+00:00"
     },
     {
       "title": "Microsoft Patches 398 Flaws Including a Windows Driver Zero-Day Under Active Attack",
       "link": "https://thehackernews.com/2026/08/microsoft-patches-398-flaws-including.html",
-      "summary": "Microsoft released its monthly security updates on Tuesday, and one of the flaws it closed is already being used in attacks. The bug sits in a core Windows kernel driver that handles network socket...",
-      "source": "The Hacker News",
+      "summary": "Microsoft Patches 398 Flaws Including a Windows Driver Zero-Day Under Active Attack Microsoft released its monthly security updates on Tuesday, and one of the flaws it closed is already being used in...",
+      "source": "CVE Newsroom",
       "published": "2026-08-11T20:10:55+00:00"
     },
     {
@@ -233,13 +240,6 @@
       "published": "2026-08-11T19:36:37+00:00"
     },
     {
-      "title": "CVE-2026-73227 - electerm's RDP clipboard file download may parse unsafe file name",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-73227",
-      "summary": "CVE ID :CVE-2026-73227 Published : Aug. 11, 2026, 7:18 p.m. | 2 hours, 55 minutes ago Description :electerm is an open-sourced terminal/ssh/sftp/telnet/serialport/RDP/VNC/Spice/ftp client. Prior to...",
-      "source": "CVE Feed",
-      "published": "2026-08-11T19:18:52+00:00"
-    },
-    {
       "title": "Ransomware group hijacks hospital system’s Facebook page amid ongoing cyberattack fallout",
       "link": "https://therecord.media/ransomware-group-hijacks-hospital-facebook-amid-cyberattack-response",
       "summary": "The hackers claimed to have exfiltrated 6 terabytes of data, including highly sensitive health information like records related to sexual assault, mental health, abortions and sexual harassment...",
@@ -249,8 +249,8 @@
     {
       "title": "Zoom Annotation Flaws Could Let a Meeting Participant Hijack Another Attendee's Client",
       "link": "https://thehackernews.com/2026/08/zoom-annotation-flaws-could-let-meeting.html",
-      "summary": "Anyone sharing their screen on a Zoom call could have taken over the computers of everyone watching, and anyone watching could have taken over the presenter's. The flaw sat in the annotation tool...",
-      "source": "The Hacker News",
+      "summary": "Zoom Annotation Flaws Could Let a Meeting Participant Hijack Another Attendee's Client Anyone sharing their screen on a Zoom call could have taken over the computers of everyone watching, and anyone...",
+      "source": "CVE Newsroom",
       "published": "2026-08-11T19:08:47+00:00"
     },
     {
@@ -394,17 +394,17 @@
       "published": "2026-08-11T13:11:23+00:00"
     },
     {
-      "title": "Local governments in four states dealing with cyberattacks that have shut down services",
-      "link": "https://therecord.media/cyberattacks-ransomware-local-governments",
-      "summary": "Municipalities in California, Oklahoma, Wisconsin and Texas are all recovering from disruptive cyberattacks that have affected government operations.",
-      "source": "The Record",
-      "published": "2026-08-11T13:00:00+00:00"
-    },
-    {
       "title": "DDoS attacks over 1 Tbps surged fivefold in the second quarter",
       "link": "https://www.bleepingcomputer.com/news/security/ddos-attacks-over-1-tbps-surged-fivefold-in-the-second-quarter/",
       "summary": "Cloudflare says it mitigated more than 800 network-layer distributed denial-of-service (DDoS) attacks exceeding 1 Tbps in the second quarter of the year. [...]",
       "source": "BleepingComputer",
+      "published": "2026-08-11T13:00:00+00:00"
+    },
+    {
+      "title": "Local governments in four states dealing with cyberattacks that have shut down services",
+      "link": "https://therecord.media/cyberattacks-ransomware-local-governments",
+      "summary": "Municipalities in California, Oklahoma, Wisconsin and Texas are all recovering from disruptive cyberattacks that have affected government operations.",
+      "source": "The Record",
       "published": "2026-08-11T13:00:00+00:00"
     },
     {
@@ -725,15 +725,15 @@
     {
       "title": "Metabase Zero-Day Exploited in Wild Allows Admin Access Without Authentication",
       "link": "https://thehackernews.com/2026/08/metabase-zero-day-exploited-in-wild.html",
-      "summary": "Metabase Zero-Day Exploited in Wild Allows Admin Access Without Authentication Metabase has warned that a maximum-severity security flaw impacting its business intelligence and data visualization...",
-      "source": "CVE Newsroom",
+      "summary": "Metabase has warned that a maximum-severity security flaw impacting its business intelligence and data visualization software package has been exploited in the wild as a zero-day. The vulnerability...",
+      "source": "The Hacker News",
       "published": "2026-08-08T06:58:31+00:00"
     },
     {
       "title": "N-able Issues N-central Hotfix 2 as Attackers Reach Managed Systems and Persist",
       "link": "https://thehackernews.com/2026/08/n-central-attackers-reach-managed.html",
-      "summary": "N-able Issues N-central Hotfix 2 as Attackers Reach Managed Systems and Persist N-able has released a fresh round of hotfixes for N‑central as part of its investigation into ongoing exploitation of a...",
-      "source": "CVE Newsroom",
+      "summary": "N-able has released a fresh round of hotfixes for N‑central as part of its investigation into ongoing exploitation of a recently disclosed security flaw in the Remote Monitoring and Management (RMM)...",
+      "source": "The Hacker News",
       "published": "2026-08-08T06:57:43+00:00"
     },
     {
