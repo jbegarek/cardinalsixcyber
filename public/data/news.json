@@ -1,12 +1,180 @@
 {
-  "last_updated": "2026-08-12T22:30:22.436406+00:00",
+  "last_updated": "2026-08-13T01:10:51.078012+00:00",
   "articles": [
+    {
+      "title": "CVE-2026-49819 - UpSnap - Unauthenticated Initial-Superuser Takeover Chains to Root RCE via wake_cmd",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-49819",
+      "summary": "CVE ID :CVE-2026-49819 Published : Aug. 13, 2026, 12:17 a.m. | 28 minutes ago Description :UpSnap is a wake on lan web app. Versions 4.4.1 through 5.3.5 are vulnerable to a missing-authentication /...",
+      "source": "CVE Feed",
+      "published": "2026-08-13T00:17:32+00:00"
+    },
+    {
+      "title": "CVE-2026-49473 - @cedar-policy/authorization-for-expressjs has an authorization bypass via query string manipulation",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-49473",
+      "summary": "CVE ID :CVE-2026-49473 Published : Aug. 13, 2026, 12:17 a.m. | 28 minutes ago Description :@cedar-policy/authorization-for-expressjs is an open-source Express.js middleware that integrates Cedar...",
+      "source": "CVE Feed",
+      "published": "2026-08-13T00:17:32+00:00"
+    },
+    {
+      "title": "CVE-2026-46382 - Meeting Room Booking System has server-side request forgery in import functionality",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-46382",
+      "summary": "CVE ID :CVE-2026-46382 Published : Aug. 13, 2026, 12:17 a.m. | 28 minutes ago Description :The Meeting Room Booking System (MRBS) is a PHP-based application for booking meeting rooms. Prior to...",
+      "source": "CVE Feed",
+      "published": "2026-08-13T00:17:32+00:00"
+    },
+    {
+      "title": "CVE-2026-71193 - OpenStack Designate Cross-Tenant Zone Overlap Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-71193",
+      "summary": "CVE ID :CVE-2026-71193 Published : Aug. 12, 2026, 11:17 p.m. | 1 hour, 28 minutes ago Description :In OpenStack Designate before 22.0.1, zone creation checks (_is_subzone, _is_superzone, and the...",
+      "source": "CVE Feed",
+      "published": "2026-08-12T23:17:22+00:00"
+    },
+    {
+      "title": "CVE-2026-49481 - UpSnap vulnerable to Remote Code Execution via IP Field Template Injection in wake_cmd/shutdown_cmd",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-49481",
+      "summary": "CVE ID :CVE-2026-49481 Published : Aug. 12, 2026, 11:17 p.m. | 1 hour, 28 minutes ago Description :UpSnap is a wake on lan web app. Versions prior to 5.4.0 have an OS command injection vulnerability...",
+      "source": "CVE Feed",
+      "published": "2026-08-12T23:17:21+00:00"
+    },
+    {
+      "title": "\"City-Forum\" data-theft attacks target Salesforce, ServiceNow portals",
+      "link": "https://www.bleepingcomputer.com/news/security/city-forum-data-theft-attacks-target-salesforce-servicenow-portals/",
+      "summary": "An ongoing data theft campaign uses custom tools to steal data exposed to anonymous users through Salesforce Experience Cloud and ServiceNow customer portals. [...]",
+      "source": "BleepingComputer",
+      "published": "2026-08-12T23:07:23+00:00"
+    },
     {
       "title": "Android malware combo takes out loans and relays victims' credit cards",
       "link": "https://www.bleepingcomputer.com/news/security/android-malware-combo-takes-out-loans-and-relays-victims-credit-cards/",
       "summary": "A new Android NFC relay malware called WindRelay is being used alongside the SpyNote remote administration tool (RAT) to steal live card data and send it to attackers in real time. [...]",
       "source": "BleepingComputer",
       "published": "2026-08-12T22:22:57+00:00"
+    },
+    {
+      "title": "CVE-2026-73519 - WolfStack < 25.9.2 Hard-coded Secret Authentication Bypass via X-WolfStack-Secret",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-73519",
+      "summary": "CVE ID :CVE-2026-73519 Published : Aug. 12, 2026, 10:17 p.m. | 2 hours, 28 minutes ago Description :WolfStack before 25.9.2 contains a hard-coded cluster-authentication secret compiled into every...",
+      "source": "CVE Feed",
+      "published": "2026-08-12T22:17:17+00:00"
+    },
+    {
+      "title": "CVE-2026-73501 - kin-openapi: ValidationHandler.Load() Fail-Open Authentication Bypass via NoopAuthenticationFunc Default",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-73501",
+      "summary": "CVE ID :CVE-2026-73501 Published : Aug. 12, 2026, 10:17 p.m. | 2 hours, 28 minutes ago Description :kin-openapi is a Go project for handling OpenAPI files. Prior to 0.144.0, ValidationHandler.Load()...",
+      "source": "CVE Feed",
+      "published": "2026-08-12T22:17:17+00:00"
+    },
+    {
+      "title": "CVE-2026-73500 - etcd: `tlsListener.acceptLoop` spawns unbounded handshake goroutines with no deadline",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-73500",
+      "summary": "CVE ID :CVE-2026-73500 Published : Aug. 12, 2026, 10:17 p.m. | 2 hours, 28 minutes ago Description :etcd is a distributed key-value store for the data of a distributed system. Prior to versions...",
+      "source": "CVE Feed",
+      "published": "2026-08-12T22:17:17+00:00"
+    },
+    {
+      "title": "CVE-2026-71473 - Acm-search-v2-rhel9: search-v2-operator: addonfactory.getvaluesfromaddonannotation enables arbitrary helm-values override per spoke",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-71473",
+      "summary": "CVE ID :CVE-2026-71473 Published : Aug. 12, 2026, 10:17 p.m. | 2 hours, 28 minutes ago Description :A flaw was found in the `search-v2-operator` component. A user with specific administrative...",
+      "source": "CVE Feed",
+      "published": "2026-08-12T22:17:16+00:00"
+    },
+    {
+      "title": "CVE-2026-71471 - Acm-search-v2-rhel9: search-v2-operator: hub search cr collector.imageoverride propagated to every spoke as arbitrary container image",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-71471",
+      "summary": "CVE ID :CVE-2026-71471 Published : Aug. 12, 2026, 10:17 p.m. | 2 hours, 28 minutes ago Description :A flaw was found in acm-search-v2-rhel9. An attacker with administrative privileges on the hub...",
+      "source": "CVE Feed",
+      "published": "2026-08-12T22:17:15+00:00"
+    },
+    {
+      "title": "CVE-2026-19003 - MongoDB BI Connector ODBC driver may write outside an allocated buffer when the setup dialog opens a data source with oversized path settings",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-19003",
+      "summary": "CVE ID :CVE-2026-19003 Published : Aug. 12, 2026, 10:17 p.m. | 2 hours, 28 minutes ago Description :A data source definition containing an over-length file path setting may cause the MongoDB BI...",
+      "source": "CVE Feed",
+      "published": "2026-08-12T22:17:15+00:00"
+    },
+    {
+      "title": "CVE-2026-17485 - IBM i is Affected By Denial of Service Vulnerability []",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-17485",
+      "summary": "CVE ID :CVE-2026-17485 Published : Aug. 12, 2026, 10:17 p.m. | 2 hours, 28 minutes ago Description :IBM i 7.6, 7.5, 7.4, and 7.3 could allow a remote attacker to cause a denial of service and obtain...",
+      "source": "CVE Feed",
+      "published": "2026-08-12T22:17:14+00:00"
+    },
+    {
+      "title": "CVE-2026-10534 - IBM® Db2® is vulnerable to buffer overflow in the IXF IMPORT parser",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-10534",
+      "summary": "CVE ID :CVE-2026-10534 Published : Aug. 12, 2026, 10:17 p.m. | 2 hours, 28 minutes ago Description :IBM Db2 11.5.0 through 11.5.9, and 12.1.0 through 12.1.5 is vulnerable to buffer overflow in the...",
+      "source": "CVE Feed",
+      "published": "2026-08-12T22:17:14+00:00"
+    },
+    {
+      "title": "CVE-2024-27253 - IBM Engineering Requirements Management DOORS Next is impacted by vulnerability in Reviews delete request",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2024-27253",
+      "summary": "CVE ID :CVE-2024-27253 Published : Aug. 12, 2026, 10:17 p.m. | 2 hours, 28 minutes ago Description :IBM DOORS Next 7.0.3 through 7.0.3 Interim Fix 018 could allow an authenticated user to bypass...",
+      "source": "CVE Feed",
+      "published": "2026-08-12T22:17:13+00:00"
+    },
+    {
+      "title": "CVE-2026-66898 - Path traversal via unvalidated instance name in backup tarball restore enables root file write / RCE",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-66898",
+      "summary": "CVE ID :CVE-2026-66898 Published : Aug. 12, 2026, 9:17 p.m. | 3 hours, 28 minutes ago Description :A path traversal vulnerability in LXD allows an attacker to manipulate file system paths during...",
+      "source": "CVE Feed",
+      "published": "2026-08-12T21:17:39+00:00"
+    },
+    {
+      "title": "CVE-2026-19004 - MongoDB BI Connector ODBC Driver Memory-Safety Issue When Handling Stored Procedure Output Parameters",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-19004",
+      "summary": "CVE ID :CVE-2026-19004 Published : Aug. 12, 2026, 9:17 p.m. | 3 hours, 28 minutes ago Description :An application using the MongoDB BI Connector ODBC Driver may experience a memory-safety issue when...",
+      "source": "CVE Feed",
+      "published": "2026-08-12T21:17:37+00:00"
+    },
+    {
+      "title": "CVE-2026-19002 - Crafted database metadata may cause memory corruption in MongoDB BI Connector ODBC Driver",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-19002",
+      "summary": "CVE ID :CVE-2026-19002 Published : Aug. 12, 2026, 9:17 p.m. | 3 hours, 28 minutes ago Description :A missing bounds check when parsing stored procedure parameter metadata in the MongoDB BI Connector...",
+      "source": "CVE Feed",
+      "published": "2026-08-12T21:17:37+00:00"
+    },
+    {
+      "title": "CVE-2026-19001 - MongoDB BI Connector ODBC driver may write outside an allocated buffer when handling oversized catalog object names",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-19001",
+      "summary": "CVE ID :CVE-2026-19001 Published : Aug. 12, 2026, 9:17 p.m. | 3 hours, 28 minutes ago Description :The MongoDB BI Connector ODBC Driver may write outside the bounds of a fixed-size buffer when an...",
+      "source": "CVE Feed",
+      "published": "2026-08-12T21:17:37+00:00"
+    },
+    {
+      "title": "CVE-2026-16033 - Arbitrary file read+write on host via templates/ symlink in malicious image",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-16033",
+      "summary": "CVE ID :CVE-2026-16033 Published : Aug. 12, 2026, 9:17 p.m. | 3 hours, 28 minutes ago Description :A path traversal vulnerability in LXD allows an attacker to achieve arbitrary host file read or...",
+      "source": "CVE Feed",
+      "published": "2026-08-12T21:17:35+00:00"
+    },
+    {
+      "title": "CVE-2026-13622 - Kubevirt: virt-handler-rhel9: kubevirt: virt-handler migration proxy follows symlinks allowing container escape to host",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-13622",
+      "summary": "CVE ID :CVE-2026-13622 Published : Aug. 12, 2026, 9:17 p.m. | 3 hours, 28 minutes ago Description :A symlink following vulnerability was found in KubeVirt's virt-handler migration proxy. During live...",
+      "source": "CVE Feed",
+      "published": "2026-08-12T21:17:35+00:00"
+    },
+    {
+      "title": "CVE-2026-13433 - IBM i Access Client Solutions (ACS) is Affected By Multiple Vulnerabilities",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-13433",
+      "summary": "CVE ID :CVE-2026-13433 Published : Aug. 12, 2026, 9:17 p.m. | 3 hours, 28 minutes ago Description :IBM i Access Client Solutions 1.1.2.0 through 1.1.9.13 (ACS) is vulnerable to downloading unverified...",
+      "source": "CVE Feed",
+      "published": "2026-08-12T21:17:35+00:00"
+    },
+    {
+      "title": "CVE-2026-13105 - IBM i Access Client Solutions (ACS) is Affected By Multiple Vulnerabilities",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-13105",
+      "summary": "CVE ID :CVE-2026-13105 Published : Aug. 12, 2026, 9:17 p.m. | 3 hours, 28 minutes ago Description :IBM i Access Client Solutions 1.1.2.0 through 1.1.9.13 is vulnerable to zip slip path traversal...",
+      "source": "CVE Feed",
+      "published": "2026-08-12T21:17:35+00:00"
+    },
+    {
+      "title": "CVE-2026-10543 - IBM® Db2® is vulnerable to privilege escalation with a specially crafted query",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-10543",
+      "summary": "CVE ID :CVE-2026-10543 Published : Aug. 12, 2026, 9:17 p.m. | 3 hours, 28 minutes ago Description :IBM Db2 11.5.0 through 11.5.9, and 12.1.0 through 12.1.5 is vulnerable to privilege escalation with...",
+      "source": "CVE Feed",
+      "published": "2026-08-12T21:17:34+00:00"
     },
     {
       "title": "Long-running Data Theft Campaign Targeting Salesforce, ServiceNow",
@@ -23,179 +191,18 @@
       "published": "2026-08-12T20:54:59+00:00"
     },
     {
-      "title": "CVE-2026-10543 - IBM® Db2® is vulnerable to privilege escalation with a specially crafted query",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-10543",
-      "summary": "CVE ID :CVE-2026-10543 Published : Aug. 12, 2026, 8:50 p.m. | 12 minutes ago Description :IBM Db2 11.5.0 through 11.5.9, and 12.1.0 through 12.1.5 is vulnerable to privilege escalation with a...",
-      "source": "CVE Feed",
-      "published": "2026-08-12T20:50:02+00:00"
-    },
-    {
-      "title": "CVE-2026-13622 - Kubevirt: virt-handler-rhel9: kubevirt: virt-handler migration proxy follows symlinks allowing container escape to host",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-13622",
-      "summary": "CVE ID :CVE-2026-13622 Published : Aug. 12, 2026, 8:46 p.m. | 15 minutes ago Description :A symlink following vulnerability was found in KubeVirt's virt-handler migration proxy. During live...",
-      "source": "CVE Feed",
-      "published": "2026-08-12T20:46:15+00:00"
-    },
-    {
-      "title": "CVE-2026-13433 - IBM i Access Client Solutions (ACS) is Affected By Multiple Vulnerabilities",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-13433",
-      "summary": "CVE ID :CVE-2026-13433 Published : Aug. 12, 2026, 8:44 p.m. | 17 minutes ago Description :IBM i Access Client Solutions 1.1.2.0 through 1.1.9.13 (ACS) is vulnerable to downloading unverified product...",
-      "source": "CVE Feed",
-      "published": "2026-08-12T20:44:47+00:00"
-    },
-    {
-      "title": "CVE-2026-13105 - IBM i Access Client Solutions (ACS) is Affected By Multiple Vulnerabilities",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-13105",
-      "summary": "CVE ID :CVE-2026-13105 Published : Aug. 12, 2026, 8:42 p.m. | 20 minutes ago Description :IBM i Access Client Solutions 1.1.2.0 through 1.1.9.13 is vulnerable to zip slip path traversal exploit when...",
-      "source": "CVE Feed",
-      "published": "2026-08-12T20:42:06+00:00"
-    },
-    {
-      "title": "CVE-2026-19004 - MongoDB BI Connector ODBC Driver Memory-Safety Issue When Handling Stored Procedure Output Parameters",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-19004",
-      "summary": "CVE ID :CVE-2026-19004 Published : Aug. 12, 2026, 8:33 p.m. | 28 minutes ago Description :An application using the MongoDB BI Connector ODBC Driver may experience a memory-safety issue when...",
-      "source": "CVE Feed",
-      "published": "2026-08-12T20:33:13+00:00"
-    },
-    {
-      "title": "CVE-2026-19001 - MongoDB BI Connector ODBC driver may write outside an allocated buffer when handling oversized catalog object names",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-19001",
-      "summary": "CVE ID :CVE-2026-19001 Published : Aug. 12, 2026, 8:27 p.m. | 35 minutes ago Description :The MongoDB BI Connector ODBC Driver may write outside the bounds of a fixed-size buffer when an application...",
-      "source": "CVE Feed",
-      "published": "2026-08-12T20:27:02+00:00"
-    },
-    {
-      "title": "CVE-2026-19002 - Crafted database metadata may cause memory corruption in MongoDB BI Connector ODBC Driver",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-19002",
-      "summary": "CVE ID :CVE-2026-19002 Published : Aug. 12, 2026, 8:24 p.m. | 37 minutes ago Description :A missing bounds check when parsing stored procedure parameter metadata in the MongoDB BI Connector ODBC...",
-      "source": "CVE Feed",
-      "published": "2026-08-12T20:24:35+00:00"
-    },
-    {
       "title": "CVE-2026-73414 - Shescape: Shell injection via unescaped parentheses on Windows with CMD",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-73414",
-      "summary": "CVE ID :CVE-2026-73414 Published : Aug. 12, 2026, 8:17 p.m. | 44 minutes ago Description :Shescape is a simple shell escape library for JavaScript. Prior to 2.1.14 and 3.0.1, getEscapeFunction in...",
+      "summary": "CVE ID :CVE-2026-73414 Published : Aug. 12, 2026, 8:17 p.m. | 4 hours, 28 minutes ago Description :Shescape is a simple shell escape library for JavaScript. Prior to 2.1.14 and 3.0.1...",
       "source": "CVE Feed",
       "published": "2026-08-12T20:17:56+00:00"
     },
     {
       "title": "CVE-2026-73413 - Shescape: Quadratic-time denial of service in flag-protection",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-73413",
-      "summary": "CVE ID :CVE-2026-73413 Published : Aug. 12, 2026, 8:17 p.m. | 44 minutes ago Description :Shescape is a simple shell escape library for JavaScript. From 2.1.11 until 2.1.14 and 3.0.1, the...",
+      "summary": "CVE ID :CVE-2026-73413 Published : Aug. 12, 2026, 8:17 p.m. | 4 hours, 28 minutes ago Description :Shescape is a simple shell escape library for JavaScript. From 2.1.11 until 2.1.14 and 3.0.1, the...",
       "source": "CVE Feed",
       "published": "2026-08-12T20:17:56+00:00"
-    },
-    {
-      "title": "CVE-2026-73407 - Budibase: Unauthenticated REST Datasource Credential Theft via Cross-Origin Auth Leak (bypass of CVE-2026-48152))",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-73407",
-      "summary": "CVE ID :CVE-2026-73407 Published : Aug. 12, 2026, 8:17 p.m. | 44 minutes ago Description :Budibase is an open-source low-code platform. Prior to 3.40.1, RestIntegration._req in...",
-      "source": "CVE Feed",
-      "published": "2026-08-12T20:17:55+00:00"
-    },
-    {
-      "title": "CVE-2026-73332 - CamaleonCMS cama_contact_form Plugin Stored XSS via before_html Field",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-73332",
-      "summary": "CVE ID :CVE-2026-73332 Published : Aug. 12, 2026, 8:17 p.m. | 44 minutes ago Description :CamaleonCMS contains a stored cross-site scripting vulnerability in the cama_contact_form plugin that allows...",
-      "source": "CVE Feed",
-      "published": "2026-08-12T20:17:55+00:00"
-    },
-    {
-      "title": "CVE-2026-73329 - CamaleonCMS Stored XSS via Draft Post Title Creation Endpoint",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-73329",
-      "summary": "CVE ID :CVE-2026-73329 Published : Aug. 12, 2026, 8:17 p.m. | 44 minutes ago Description :CamaleonCMS contains a stored cross-site scripting vulnerability that allows authenticated low-privileged...",
-      "source": "CVE Feed",
-      "published": "2026-08-12T20:17:55+00:00"
-    },
-    {
-      "title": "CVE-2026-73303 - Budibase: Email Change IDOR via POST /api/v2/email allows full Account Takeover (accountId not validated against session)",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-73303",
-      "summary": "CVE ID :CVE-2026-73303 Published : Aug. 12, 2026, 8:17 p.m. | 44 minutes ago Description :Budibase is an open-source low-code platform. Prior to 3.40.0, POST /api/v2/email on account.budibase.app...",
-      "source": "CVE Feed",
-      "published": "2026-08-12T20:17:54+00:00"
-    },
-    {
-      "title": "CVE-2026-73269 - Cluster-curator-controller: cluster-curator-controller: tenant-controllable trigger creates clusterrolebinding granting cluster-wide secrets access to namespace-local sa",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-73269",
-      "summary": "CVE ID :CVE-2026-73269 Published : Aug. 12, 2026, 8:17 p.m. | 44 minutes ago Description :A flaw was found in the cluster-curator-controller component. A local user, by creating a ClusterCurator...",
-      "source": "CVE Feed",
-      "published": "2026-08-12T20:17:53+00:00"
-    },
-    {
-      "title": "CVE-2026-73268 - Cluster-curator-controller: cluster-curator-controller: spec.install.overridejob allows arbitrary job spec injection",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-73268",
-      "summary": "CVE ID :CVE-2026-73268 Published : Aug. 12, 2026, 8:17 p.m. | 44 minutes ago Description :A flaw was found in the cluster-curator-controller component of multicluster engine (MCE). A tenant with...",
-      "source": "CVE Feed",
-      "published": "2026-08-12T20:17:53+00:00"
-    },
-    {
-      "title": "CVE-2026-72809 - SiYuan before v3.7.4 Authentication Bypass via Localhost Trust",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-72809",
-      "summary": "CVE ID :CVE-2026-72809 Published : Aug. 12, 2026, 8:17 p.m. | 44 minutes ago Description :SiYuan versions Severity: 8.0 | HIGH Visit the link for more details, such as CVSS details, affected...",
-      "source": "CVE Feed",
-      "published": "2026-08-12T20:17:53+00:00"
-    },
-    {
-      "title": "CVE-2026-72807 - SiYuan before v3.7.4 SQL Injection via queryBlocks template",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-72807",
-      "summary": "CVE ID :CVE-2026-72807 Published : Aug. 12, 2026, 8:17 p.m. | 44 minutes ago Description :SiYuan versions before v3.7.4 contain a second-order SQL injection vulnerability in attribute-view template...",
-      "source": "CVE Feed",
-      "published": "2026-08-12T20:17:52+00:00"
-    },
-    {
-      "title": "CVE-2026-72804 - SiYuan before v3.7.4 Authentication Bypass via Graph Endpoints",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-72804",
-      "summary": "CVE ID :CVE-2026-72804 Published : Aug. 12, 2026, 8:17 p.m. | 44 minutes ago Description :SiYuan versions before v3.7.4 fail to validate publish-password tier in getGraph and getLocalGraph endpoints...",
-      "source": "CVE Feed",
-      "published": "2026-08-12T20:17:52+00:00"
-    },
-    {
-      "title": "CVE-2026-72801 - SiYuan before v3.7.4 Information Disclosure via Encryption Key Material",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-72801",
-      "summary": "CVE ID :CVE-2026-72801 Published : Aug. 12, 2026, 8:17 p.m. | 44 minutes ago Description :SiYuan versions before v3.7.4 disclose encrypted-notebook key-derivation material and wrapped data keys...",
-      "source": "CVE Feed",
-      "published": "2026-08-12T20:17:51+00:00"
-    },
-    {
-      "title": "CVE-2026-72798 - SiYuan before v3.7.4 Information Disclosure via renderAttributeView",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-72798",
-      "summary": "CVE ID :CVE-2026-72798 Published : Aug. 12, 2026, 8:17 p.m. | 44 minutes ago Description :SiYuan versions before v3.7.4 fail to properly filter related-database content in renderAttributeView...",
-      "source": "CVE Feed",
-      "published": "2026-08-12T20:17:51+00:00"
-    },
-    {
-      "title": "CVE-2026-72795 - SiYuan before v3.7.4 Information Disclosure via Embed Block",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-72795",
-      "summary": "CVE ID :CVE-2026-72795 Published : Aug. 12, 2026, 8:17 p.m. | 44 minutes ago Description :SiYuan versions before v3.7.4 fail to filter embedded block content by publish access in the...",
-      "source": "CVE Feed",
-      "published": "2026-08-12T20:17:51+00:00"
-    },
-    {
-      "title": "CVE-2026-72794 - siyuan before v3.7.4 Session Cookie Key Disclosure via getConf",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-72794",
-      "summary": "CVE ID :CVE-2026-72794 Published : Aug. 12, 2026, 8:17 p.m. | 44 minutes ago Description :siyuan versions before v3.7.4 expose the session cookie signing key through the /api/system/getConf endpoint...",
-      "source": "CVE Feed",
-      "published": "2026-08-12T20:17:50+00:00"
-    },
-    {
-      "title": "CVE-2026-72793 - SiYuan before v3.7.4 Information Disclosure via /api/system/getConf",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-72793",
-      "summary": "CVE ID :CVE-2026-72793 Published : Aug. 12, 2026, 8:17 p.m. | 44 minutes ago Description :SiYuan versions before v3.7.4 fail to mask sensitive configuration fields in the /api/system/getConf...",
-      "source": "CVE Feed",
-      "published": "2026-08-12T20:17:50+00:00"
-    },
-    {
-      "title": "CVE-2026-72789 - SiYuan before v3.7.4 Authentication Bypass via Encrypted Notebooks",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-72789",
-      "summary": "CVE ID :CVE-2026-72789 Published : Aug. 12, 2026, 8:17 p.m. | 44 minutes ago Description :SiYuan before v3.7.4 fails to properly validate publish access for encrypted notebooks, treating them as...",
-      "source": "CVE Feed",
-      "published": "2026-08-12T20:17:50+00:00"
-    },
-    {
-      "title": "CVE-2026-72508 - Multicloud-operators-subscription: multicloud-operators-subscription: hub and spoke serviceaccounts bound to wildcard rbac (*/*/*)",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-72508",
-      "summary": "CVE ID :CVE-2026-72508 Published : Aug. 12, 2026, 8:17 p.m. | 44 minutes ago Description :A flaw was found in the multicloud-operators-subscription component of Red Hat Advanced Cluster Management...",
-      "source": "CVE Feed",
-      "published": "2026-08-12T20:17:49+00:00"
     },
     {
       "title": "Hundreds of fake Chrome VPN extensions route traffic through a proxy",
@@ -289,6 +296,13 @@
       "published": "2026-08-12T13:24:00+00:00"
     },
     {
+      "title": "Three intrusions at UK criminal records office went undetected for two years",
+      "link": "https://therecord.media/uk-criminal-records-office-acro-data-breaches",
+      "summary": "Unread antivirus alerts and an unpatched content management system exposed Britain's ACRO to three separate data breaches, according to a reprimand notice.",
+      "source": "The Record",
+      "published": "2026-08-12T13:00:00+00:00"
+    },
+    {
       "title": "WhatsApp Unveils New Scam Alert Feature",
       "link": "https://www.securityweek.com/whatsapp-unveils-new-scam-alert-feature/",
       "summary": "Signal has also made a security announcement: an automatic key verification feature to complement its safety number system. The post WhatsApp Unveils New Scam Alert Feature appeared first on...",
@@ -300,13 +314,6 @@
       "link": "https://www.securityweek.com/stealthy-city-forum-attacks-target-salesforce-and-servicenow-with-custom-toolset/",
       "summary": "Researchers observed the novel campaign exploiting unauthenticated guest access to quietly enumerate and exfiltrate exposed data from both platforms. The post Stealthy ‘City-Forum’ Attacks Target...",
       "source": "SecurityWeek",
-      "published": "2026-08-12T13:00:00+00:00"
-    },
-    {
-      "title": "Three intrusions at UK criminal records office went undetected for two years",
-      "link": "https://therecord.media/uk-criminal-records-office-acro-data-breaches",
-      "summary": "Unread antivirus alerts and an unpatched content management system exposed Britain's ACRO to three separate data breaches, according to a reprimand notice.",
-      "source": "The Record",
       "published": "2026-08-12T13:00:00+00:00"
     },
     {
@@ -588,13 +595,6 @@
       "summary": "The Computer Emergency Response Team of Ukraine (CERT-UA) has disclosed details of a new social engineering campaign orchestrated by Russian nation-state threat actors targeting IT workers in the...",
       "source": "The Hacker News",
       "published": "2026-08-11T18:36:47+00:00"
-    },
-    {
-      "title": "Delta probes Wi-Fi deauth attack on flight carrying DEF CON attendees",
-      "link": "https://www.bleepingcomputer.com/news/security/delta-probes-wi-fi-deauth-attack-on-flight-carrying-def-con-attendees/",
-      "summary": "Delta Air Lines is investigating an unauthorized Wi-Fi network that appeared aboard a flight from Las Vegas to Atlanta carrying passengers who had attended the DEF CON hacker convention. [...]",
-      "source": "BleepingComputer",
-      "published": "2026-08-11T18:34:23+00:00"
     },
     {
       "title": "Researchers Disclose AI-Assisted SharePoint Exploit Chain Reaching Unauthenticated RCE",
