@@ -1,6 +1,202 @@
 {
-  "last_updated": "2026-08-13T14:26:10.901068+00:00",
+  "last_updated": "2026-08-13T16:16:37.271750+00:00",
   "articles": [
+    {
+      "title": "New Mirai variant adds stealth capabilities to notorious botnet code",
+      "link": "https://therecord.media/new-mirai-variant-adds-stealth-to-botnet-code",
+      "summary": "Beyond Mirai’s usual functions, the new code features include encrypted communications with command-and-control servers and a “sniffer” that looks for default access credentials.",
+      "source": "The Record",
+      "published": "2026-08-13T15:52:00+00:00"
+    },
+    {
+      "title": "CVE-2026-70464 - rsync 2.0.0 < 3.5.0 Connection Slot Exhaustion DoS via Handshake Stall",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-70464",
+      "summary": "CVE ID :CVE-2026-70464 Published : Aug. 13, 2026, 3:20 p.m. | 38 minutes ago Description :rsync daemon 2.0.0 before 3.5.0 contains a denial of service vulnerability that allows unauthenticated remote...",
+      "source": "CVE Feed",
+      "published": "2026-08-13T15:20:01+00:00"
+    },
+    {
+      "title": "CVE-2026-70463 - rsync 3.1.0 < 3.5.0 Authorization Bypass via auth users Directive Parsing",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-70463",
+      "summary": "CVE ID :CVE-2026-70463 Published : Aug. 13, 2026, 3:20 p.m. | 38 minutes ago Description :rsync 3.1.0 before 3.5.0 contains an authorization bypass in auth users directive parsing. The auth users...",
+      "source": "CVE Feed",
+      "published": "2026-08-13T15:20:01+00:00"
+    },
+    {
+      "title": "CVE-2026-70461 - rsync 3.2.5 < 3.5.0 Heap Out-of-Bounds Write via files-from Entry",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-70461",
+      "summary": "CVE ID :CVE-2026-70461 Published : Aug. 13, 2026, 3:20 p.m. | 38 minutes ago Description :rsync 3.2.5 before 3.5.0 contains a heap out-of-bounds write vulnerability that allows remote unauthenticated...",
+      "source": "CVE Feed",
+      "published": "2026-08-13T15:20:00+00:00"
+    },
+    {
+      "title": "CVE-2026-70460 - rsync 2.3.3 < 3.5.0 Path Traversal via --partial-dir/--backup-dir Symlink",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-70460",
+      "summary": "CVE ID :CVE-2026-70460 Published : Aug. 13, 2026, 3:19 p.m. | 38 minutes ago Description :rsync 2.3.3 before 3.5.0 contains a path traversal vulnerability that allows a malicious sender to escape the...",
+      "source": "CVE Feed",
+      "published": "2026-08-13T15:19:59+00:00"
+    },
+    {
+      "title": "CVE-2026-70458 - rsync 3.0.0 < 3.5.0 Out-of-Bounds Write via FLAG_HLINKED Handling",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-70458",
+      "summary": "CVE ID :CVE-2026-70458 Published : Aug. 13, 2026, 3:19 p.m. | 38 minutes ago Description :rsync 3.0.0 before 3.5.0 contains an out-of-bounds write vulnerability that allows attackers to corrupt...",
+      "source": "CVE Feed",
+      "published": "2026-08-13T15:19:59+00:00"
+    },
+    {
+      "title": "CVE-2026-70457 - rsync 3.2.3 < 3.5.0 Out-of-Bounds Write via parse_size_arg()",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-70457",
+      "summary": "CVE ID :CVE-2026-70457 Published : Aug. 13, 2026, 3:19 p.m. | 38 minutes ago Description :rsync 3.2.3 before 3.5.0 contains an out-of-bounds write in parse_size_arg() where the return value of...",
+      "source": "CVE Feed",
+      "published": "2026-08-13T15:19:59+00:00"
+    },
+    {
+      "title": "CVE-2026-70456 - rsync 3.0.1 < 3.5.0 Heap Out-of-Bounds Write via read_args()",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-70456",
+      "summary": "CVE ID :CVE-2026-70456 Published : Aug. 13, 2026, 3:19 p.m. | 38 minutes ago Description :rsync 3.0.1 before 3.5.0 contains an out-of-bounds write vulnerability in the read_args() function that...",
+      "source": "CVE Feed",
+      "published": "2026-08-13T15:19:59+00:00"
+    },
+    {
+      "title": "CVE-2026-70455 - rsync 3.4.2 < 3.5.0 DoS via --zt Zstandard Compression Thread Exhaustion",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-70455",
+      "summary": "CVE ID :CVE-2026-70455 Published : Aug. 13, 2026, 3:19 p.m. | 38 minutes ago Description :rsync 3.4.2 before 3.5.0 contains a denial of service vulnerability that allows a remote sender to exhaust...",
+      "source": "CVE Feed",
+      "published": "2026-08-13T15:19:59+00:00"
+    },
+    {
+      "title": "CVE-2026-70454 - rsync < 3.5.0 TLS Certificate Validation Bypass via SSL/OpenSSL Mode",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-70454",
+      "summary": "CVE ID :CVE-2026-70454 Published : Aug. 13, 2026, 3:19 p.m. | 38 minutes ago Description :rsync 3.2.0 through 3.2.3 (openssl mode) and rsync-ssl through 3.4.4 (stunnel mode) contain a TLS certificate...",
+      "source": "CVE Feed",
+      "published": "2026-08-13T15:19:59+00:00"
+    },
+    {
+      "title": "CVE-2026-70453 - rsync < 3.5.0 Algorithmic Complexity DoS via hash_search()",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-70453",
+      "summary": "CVE ID :CVE-2026-70453 Published : Aug. 13, 2026, 3:19 p.m. | 38 minutes ago Description :rsync before 3.5.0 contains an algorithmic complexity vulnerability in the hash_search() function that allows...",
+      "source": "CVE Feed",
+      "published": "2026-08-13T15:19:58+00:00"
+    },
+    {
+      "title": "CVE-2026-70452 - rsync 3.1.0 < 3.5.0 Access Control Bypass via DNS Resolution Failure",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-70452",
+      "summary": "CVE ID :CVE-2026-70452 Published : Aug. 13, 2026, 3:19 p.m. | 38 minutes ago Description :rsync 3.1.0 before 3.5.0 contains an access control bypass vulnerability that allows remote attackers to...",
+      "source": "CVE Feed",
+      "published": "2026-08-13T15:19:58+00:00"
+    },
+    {
+      "title": "CVE-2026-63425 - Lenovo Dock Manager Improper Permissions Privilege Escalation",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-63425",
+      "summary": "CVE ID :CVE-2026-63425 Published : Aug. 13, 2026, 3:19 p.m. | 38 minutes ago Description :During an internal security assessment, a potential improper permissions vulnerability was discovered in...",
+      "source": "CVE Feed",
+      "published": "2026-08-13T15:19:55+00:00"
+    },
+    {
+      "title": "CVE-2026-63423 - Lenovo Accessories and Display Manager for Enterprise Local Privilege Escalation",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-63423",
+      "summary": "CVE ID :CVE-2026-63423 Published : Aug. 13, 2026, 3:19 p.m. | 38 minutes ago Description :During an internal security assessment, a potential vulnerability was discovered in Lenovo Accessories and...",
+      "source": "CVE Feed",
+      "published": "2026-08-13T15:19:55+00:00"
+    },
+    {
+      "title": "CVE-2026-53803 - rsync < 3.5.0 Symlink Following Arbitrary File Overwrite",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-53803",
+      "summary": "CVE ID :CVE-2026-53803 Published : Aug. 13, 2026, 3:19 p.m. | 38 minutes ago Description :rsync before 3.5.0 contains a symlink following vulnerability that allows local attackers to overwrite...",
+      "source": "CVE Feed",
+      "published": "2026-08-13T15:19:53+00:00"
+    },
+    {
+      "title": "CVE-2026-53802 - rsync < 3.5.0 Arbitrary File Read via Symlink Following",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-53802",
+      "summary": "CVE ID :CVE-2026-53802 Published : Aug. 13, 2026, 3:19 p.m. | 38 minutes ago Description :rsync before 3.5.0 contains an arbitrary file read vulnerability that allows attackers to read files...",
+      "source": "CVE Feed",
+      "published": "2026-08-13T15:19:52+00:00"
+    },
+    {
+      "title": "CVE-2026-53801 - rsync < 3.5.0 Symlink Race Condition Directory Traversal",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-53801",
+      "summary": "CVE ID :CVE-2026-53801 Published : Aug. 13, 2026, 3:19 p.m. | 38 minutes ago Description :rsync before 3.5.0 contains a symlink race condition vulnerability in the sender's directory scanning logic...",
+      "source": "CVE Feed",
+      "published": "2026-08-13T15:19:52+00:00"
+    },
+    {
+      "title": "CVE-2026-53795 - rsync < 3.5.0 Arbitrary File Write via --temp-dir/--link-dest",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-53795",
+      "summary": "CVE ID :CVE-2026-53795 Published : Aug. 13, 2026, 3:19 p.m. | 38 minutes ago Description :rsync before 3.5.0 contains an arbitrary file write vulnerability that allows attackers to write files...",
+      "source": "CVE Feed",
+      "published": "2026-08-13T15:19:44+00:00"
+    },
+    {
+      "title": "CVE-2026-53793 - rsync < 3.5.0 Path Confinement Bypass via /./ Boundary Marker in Chroot Mode",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-53793",
+      "summary": "CVE ID :CVE-2026-53793 Published : Aug. 13, 2026, 3:19 p.m. | 38 minutes ago Description :rsync before 3.5.0 contains a path confinement bypass vulnerability that allows remote clients to escape the...",
+      "source": "CVE Feed",
+      "published": "2026-08-13T15:19:43+00:00"
+    },
+    {
+      "title": "CVE-2026-53791 - rsync < 3.5.0 Daemon IP Spoofing via PROXY Protocol Header",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-53791",
+      "summary": "CVE ID :CVE-2026-53791 Published : Aug. 13, 2026, 3:19 p.m. | 38 minutes ago Description :rsync daemon before 3.5.0 contains an IP address spoofing vulnerability that allows unauthenticated remote...",
+      "source": "CVE Feed",
+      "published": "2026-08-13T15:19:43+00:00"
+    },
+    {
+      "title": "CVE-2026-53790 - rsync < 3.5.0 Command Injection via Multiple Code Paths",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-53790",
+      "summary": "CVE ID :CVE-2026-53790 Published : Aug. 13, 2026, 3:19 p.m. | 38 minutes ago Description :rsync before 3.5.0 contains multiple command and argument injection vulnerabilities that allow attackers to...",
+      "source": "CVE Feed",
+      "published": "2026-08-13T15:19:43+00:00"
+    },
+    {
+      "title": "CVE-2026-73570 - Zimbra Collaboration Remote Code Execution Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-73570",
+      "summary": "CVE ID :CVE-2026-73570 Published : Aug. 13, 2026, 3:19 p.m. | 38 minutes ago Description :A remote code execution vulnerability exists in Zimbra Collaboration (ZCS) before 10.1.20 when the optional...",
+      "source": "CVE Feed",
+      "published": "2026-08-13T15:19:42+00:00"
+    },
+    {
+      "title": "CVE-2026-53784 - rsync < 3.5.0 Path Traversal via Symlink Module Root",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-53784",
+      "summary": "CVE ID :CVE-2026-53784 Published : Aug. 13, 2026, 3:19 p.m. | 38 minutes ago Description :rsync before 3.5.0 contains a path traversal vulnerability that allows remote clients to access files outside...",
+      "source": "CVE Feed",
+      "published": "2026-08-13T15:19:42+00:00"
+    },
+    {
+      "title": "CVE-2026-53783 - rsync < 3.5.0 TOCTOU Race Condition Directory Escape via rrsync",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-53783",
+      "summary": "CVE ID :CVE-2026-53783 Published : Aug. 13, 2026, 3:19 p.m. | 38 minutes ago Description :rsync before 3.5.0 contains a time-of-check to time-of-use (TOCTOU) race condition vulnerability in the...",
+      "source": "CVE Feed",
+      "published": "2026-08-13T15:19:41+00:00"
+    },
+    {
+      "title": "CVE-2026-19734 - IDOR in Prospero Flow CRM allows cross-tenant product disclosure and hijacking",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-19734",
+      "summary": "CVE ID :CVE-2026-19734 Published : Aug. 13, 2026, 3:19 p.m. | 39 minutes ago Description :Missing Authorization and Authorization Bypass Through User-Controlled Key in the product management...",
+      "source": "CVE Feed",
+      "published": "2026-08-13T15:19:38+00:00"
+    },
+    {
+      "title": "CVE-2026-19293 - SMP security request",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-19293",
+      "summary": "CVE ID :CVE-2026-19293 Published : Aug. 13, 2026, 3:19 p.m. | 39 minutes ago Description :SMP security request (from peripheral) does not include the maximum encryption key size supported. Using a...",
+      "source": "CVE Feed",
+      "published": "2026-08-13T15:19:37+00:00"
+    },
+    {
+      "title": "Trezor discloses data breach affecting nearly 14,000 customers",
+      "link": "https://www.bleepingcomputer.com/news/security/trezor-discloses-data-breach-affecting-nearly-14-000-customers/",
+      "summary": "Hardware wallet manufacturer Trezor disclosed a data breach affecting nearly 14,000 of its customers after ShipMonk, its shipping and logistics provider, was hacked [...]",
+      "source": "BleepingComputer",
+      "published": "2026-08-13T15:13:19+00:00"
+    },
+    {
+      "title": "Cybersecurity M&A Roundup: 21 Deals Announced in July 2026",
+      "link": "https://www.securityweek.com/cybersecurity-ma-roundup-21-deals-announced-in-july-2026/",
+      "summary": "Significant cybersecurity M&A deals announced by Barracuda, CrowdStrike, Cyera, Okta, Palo Alto Networks, and Qualcomm. The post Cybersecurity M&A Roundup: 21 Deals Announced in July 2026 appeared...",
+      "source": "SecurityWeek",
+      "published": "2026-08-13T14:41:44+00:00"
+    },
     {
       "title": "Adobe Commerce Bug Targeted Immediately After Disclosure",
       "link": "https://www.securityweek.com/adobe-commerce-bug-targeted-immediately-after-disclosure/",
@@ -37,6 +233,13 @@
       "published": "2026-08-13T13:30:00+00:00"
     },
     {
+      "title": "WordPress-lek maakt remote code execution via file upload mogelijk",
+      "link": "https://www.security.nl/posting/949148/WordPress-lek+maakt+remote+code+execution+via+file+upload+mogelijk?channel=rss",
+      "summary": "WordPress-lek maakt remote code execution via file upload mogelijk Een kwetsbaarheid in WordPress maakt het mogelijk voor geauthenticeerde aanvallers om willekeurige code op de onderliggende...",
+      "source": "CVE Newsroom",
+      "published": "2026-08-13T13:14:41+00:00"
+    },
+    {
       "title": "WordPress 7.0.4 Patches Remote Code Execution Vulnerability",
       "link": "https://www.securityweek.com/wordpress-7-0-4-patches-remote-code-execution-vulnerability/",
       "summary": "Attackers with Author-level user or higher permissions could exploit the flaw via malicious Postscript files. The post WordPress 7.0.4 Patches Remote Code Execution Vulnerability appeared first on...",
@@ -49,132 +252,6 @@
       "summary": "Germany’s cabinet approved legislation that would let its intelligence agencies hack foreign systems, sabotage adversaries’ supply chains and feed false information to extremists inside Germany, in...",
       "source": "The Record",
       "published": "2026-08-13T12:45:00+00:00"
-    },
-    {
-      "title": "CVE-2026-73629 - Serendipity before 2.6.0 SSRF via hex IPv4 and IPv6 addresses",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-73629",
-      "summary": "CVE ID :CVE-2026-73629 Published : Aug. 13, 2026, 12:17 p.m. | 28 minutes ago Description :Serendipity before 2.6.0 contains a server-side request forgery vulnerability in the...",
-      "source": "CVE Feed",
-      "published": "2026-08-13T12:17:28+00:00"
-    },
-    {
-      "title": "CVE-2026-73625 - GitPython before 3.1.54 Remote Code Execution via kwarg value smuggling",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-73625",
-      "summary": "CVE ID :CVE-2026-73625 Published : Aug. 13, 2026, 12:17 p.m. | 28 minutes ago Description :GitPython versions before 3.1.54 contain a remote code execution vulnerability in the check_unsafe_options...",
-      "source": "CVE Feed",
-      "published": "2026-08-13T12:17:27+00:00"
-    },
-    {
-      "title": "CVE-2026-73624 - GitPython before 3.1.54 Arbitrary File Overwrite via diff",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-73624",
-      "summary": "CVE ID :CVE-2026-73624 Published : Aug. 13, 2026, 12:17 p.m. | 28 minutes ago Description :GitPython versions before 3.1.54 contain an arbitrary file overwrite vulnerability in the Diffable.diff...",
-      "source": "CVE Feed",
-      "published": "2026-08-13T12:17:27+00:00"
-    },
-    {
-      "title": "CVE-2026-73622 - GitPython before 3.1.55 Environment Variable Exfiltration via Remote.add()",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-73622",
-      "summary": "CVE ID :CVE-2026-73622 Published : Aug. 13, 2026, 12:17 p.m. | 28 minutes ago Description :GitPython before 3.1.55 fails to disable environment variable expansion in Remote.create() and...",
-      "source": "CVE Feed",
-      "published": "2026-08-13T12:17:27+00:00"
-    },
-    {
-      "title": "CVE-2026-73620 - GitPython before 3.1.57 Arbitrary File Overwrite and Read",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-73620",
-      "summary": "CVE ID :CVE-2026-73620 Published : Aug. 13, 2026, 12:17 p.m. | 28 minutes ago Description :GitPython before 3.1.57 fails to guard git option forwarding in IndexFile.checkout() and...",
-      "source": "CVE Feed",
-      "published": "2026-08-13T12:17:27+00:00"
-    },
-    {
-      "title": "CVE-2026-73618 - Budibase Server before 3.40.0 NoSQL Injection via JSON Parameter",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-73618",
-      "summary": "CVE ID :CVE-2026-73618 Published : Aug. 13, 2026, 12:17 p.m. | 28 minutes ago Description :Budibase Server before 3.40.0 contains a NoSQL injection vulnerability in the MongoDB query execution...",
-      "source": "CVE Feed",
-      "published": "2026-08-13T12:17:26+00:00"
-    },
-    {
-      "title": "CVE-2026-73615 - Network-AI SandboxPolicy before 5.15.1 Blocklist Bypass via Quote Mismatch",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-73615",
-      "summary": "CVE ID :CVE-2026-73615 Published : Aug. 13, 2026, 12:17 p.m. | 28 minutes ago Description :Network-AI versions before 5.15.1 contain a security matcher bypass vulnerability where SandboxPolicy...",
-      "source": "CVE Feed",
-      "published": "2026-08-13T12:17:26+00:00"
-    },
-    {
-      "title": "CVE-2026-73614 - Network-AI ClaudeHookBridge Deny Pattern Bypass via Truncation",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-73614",
-      "summary": "CVE ID :CVE-2026-73614 Published : Aug. 13, 2026, 12:17 p.m. | 28 minutes ago Description :Network-AI ClaudeHookBridge before 5.15.1 truncates the target string to 500 characters before evaluating...",
-      "source": "CVE Feed",
-      "published": "2026-08-13T12:17:26+00:00"
-    },
-    {
-      "title": "CVE-2026-73613 - filebrowser before 2.63.19 Out-of-Scope File Deletion via Symlink",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-73613",
-      "summary": "CVE ID :CVE-2026-73613 Published : Aug. 13, 2026, 12:17 p.m. | 28 minutes ago Description :filebrowser versions before 2.63.19 contain an out-of-scope file deletion vulnerability in the TUS upload...",
-      "source": "CVE Feed",
-      "published": "2026-08-13T12:17:26+00:00"
-    },
-    {
-      "title": "CVE-2026-73612 - File Browser before v2.63.22 Authorization Bypass via Recursive Operations",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-73612",
-      "summary": "CVE ID :CVE-2026-73612 Published : Aug. 13, 2026, 12:17 p.m. | 28 minutes ago Description :File Browser before v2.63.22 fails to validate access rules for descendants during recursive copy, rename...",
-      "source": "CVE Feed",
-      "published": "2026-08-13T12:17:25+00:00"
-    },
-    {
-      "title": "CVE-2026-73608 - SiYuan before v3.7.4 Authorization Bypass via getAttributeViewSearchTarget",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-73608",
-      "summary": "CVE ID :CVE-2026-73608 Published : Aug. 13, 2026, 12:17 p.m. | 28 minutes ago Description :SiYuan's development branch (endpoint introduced by commit 9b8e8956f, not present in v3.7.3 or master...",
-      "source": "CVE Feed",
-      "published": "2026-08-13T12:17:25+00:00"
-    },
-    {
-      "title": "CVE-2026-73602 - Flowise before 3.1.3 Sandbox Escape to RCE",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-73602",
-      "summary": "CVE ID :CVE-2026-73602 Published : Aug. 13, 2026, 12:17 p.m. | 28 minutes ago Description :Flowise before 3.1.3 contains a sandbox escape vulnerability in the vm2 JavaScript sandbox that allows...",
-      "source": "CVE Feed",
-      "published": "2026-08-13T12:17:24+00:00"
-    },
-    {
-      "title": "CVE-2026-73601 - Flowise before 3.1.3 Remote Code Execution via Custom MCP",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-73601",
-      "summary": "CVE ID :CVE-2026-73601 Published : Aug. 13, 2026, 12:17 p.m. | 28 minutes ago Description :Flowise versions before 3.1.3 contain a remote code execution vulnerability in the Custom MCP node when...",
-      "source": "CVE Feed",
-      "published": "2026-08-13T12:17:24+00:00"
-    },
-    {
-      "title": "CVE-2026-73487 - Flowise before 3.1.3 Prompt Injection RCE via CSV Agent",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-73487",
-      "summary": "CVE ID :CVE-2026-73487 Published : Aug. 13, 2026, 12:17 p.m. | 28 minutes ago Description :Flowise before 3.1.3 contains a regex-based Python code validator bypass in CSV and Airtable Agent nodes...",
-      "source": "CVE Feed",
-      "published": "2026-08-13T12:17:24+00:00"
-    },
-    {
-      "title": "CVE-2026-73486 - Flowise before 3.1.3 Code Injection via CSV Agent customReadCSV",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-73486",
-      "summary": "CVE ID :CVE-2026-73486 Published : Aug. 13, 2026, 12:17 p.m. | 28 minutes ago Description :Flowise before 3.1.3 contains a code injection vulnerability in the CSV Agent node's customReadCSV parameter...",
-      "source": "CVE Feed",
-      "published": "2026-08-13T12:17:23+00:00"
-    },
-    {
-      "title": "CVE-2026-73485 - Flowise before 3.1.3 Remote Code Execution via Airtable Agent",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-73485",
-      "summary": "CVE ID :CVE-2026-73485 Published : Aug. 13, 2026, 12:17 p.m. | 28 minutes ago Description :Flowise before 3.1.3 contains a code injection vulnerability in the Airtable Agent node that allows...",
-      "source": "CVE Feed",
-      "published": "2026-08-13T12:17:23+00:00"
-    },
-    {
-      "title": "CVE-2026-73484 - Flowise before 3.1.3 Sandbox Escape via Pandas Methods",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-73484",
-      "summary": "CVE ID :CVE-2026-73484 Published : Aug. 13, 2026, 12:17 p.m. | 28 minutes ago Description :Flowise before 3.1.3 contains a sandbox escape vulnerability in pythonCodeValidator.ts that fails to block...",
-      "source": "CVE Feed",
-      "published": "2026-08-13T12:17:23+00:00"
-    },
-    {
-      "title": "CVE-2026-73483 - Flowise before 3.1.3 Sandbox Escape via Puppeteer",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-73483",
-      "summary": "CVE ID :CVE-2026-73483 Published : Aug. 13, 2026, 12:17 p.m. | 28 minutes ago Description :Flowise (packages flowise and flowise-components) in versions Severity: 9.4 | CRITICAL Visit the link for...",
-      "source": "CVE Feed",
-      "published": "2026-08-13T12:17:23+00:00"
     },
     {
       "title": "WhatsApp rolls out new feature that flags potential scam messages",
@@ -191,60 +268,11 @@
       "published": "2026-08-13T11:42:48+00:00"
     },
     {
-      "title": "CVE-2026-12263 - Authentication Bypass",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-12263",
-      "summary": "CVE ID :CVE-2026-12263 Published : Aug. 13, 2026, 11:17 a.m. | 1 hour, 28 minutes ago Description :Zohocorp ManageEngine Password Manager Pro versions before 13232 and PAM360 versions before 8551 are...",
-      "source": "CVE Feed",
-      "published": "2026-08-13T11:17:38+00:00"
-    },
-    {
       "title": "Fortinet Patches Authentication Flaws in FortiWeb and FortiManager",
       "link": "https://www.securityweek.com/fortinet-patches-authentication-flaws-in-fortiweb-and-fortimanager/",
       "summary": "The vulnerabilities could allow attackers to log in with random usernames and passwords or impersonate any FortiGate appliance. The post Fortinet Patches Authentication Flaws in FortiWeb and...",
       "source": "SecurityWeek",
       "published": "2026-08-13T10:40:57+00:00"
-    },
-    {
-      "title": "CVE-2026-59507 - Priority – CWE-798: Use of Hard-coded Credentials CWE-200: Exposure of Sensitive Information to an Unauthorized Actor CWE-284: Improper Access Control",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-59507",
-      "summary": "CVE ID :CVE-2026-59507 Published : Aug. 13, 2026, 10:17 a.m. | 2 hours, 29 minutes ago Description :CWE-798: Use of Hard-coded Credentials CWE-200: Exposure of Sensitive Information to an...",
-      "source": "CVE Feed",
-      "published": "2026-08-13T10:17:15+00:00"
-    },
-    {
-      "title": "CVE-2026-59506 - Priority – CWE-306: Missing Authentication for Critical Function",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-59506",
-      "summary": "CVE ID :CVE-2026-59506 Published : Aug. 13, 2026, 10:17 a.m. | 2 hours, 29 minutes ago Description :CWE-306: Missing Authentication for Critical Function Severity: 9.3 | CRITICAL Visit the link for...",
-      "source": "CVE Feed",
-      "published": "2026-08-13T10:17:15+00:00"
-    },
-    {
-      "title": "CVE-2026-59505 - Priority - CWE-284: Improper Access Control",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-59505",
-      "summary": "CVE ID :CVE-2026-59505 Published : Aug. 13, 2026, 10:17 a.m. | 2 hours, 29 minutes ago Description :CWE-284: Improper Access Control Severity: 8.6 | HIGH Visit the link for more details, such as CVSS...",
-      "source": "CVE Feed",
-      "published": "2026-08-13T10:17:15+00:00"
-    },
-    {
-      "title": "CVE-2026-59504 - Priority – CWE-602: Client-Side Enforcement of Server-Side Security",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-59504",
-      "summary": "CVE ID :CVE-2026-59504 Published : Aug. 13, 2026, 10:17 a.m. | 2 hours, 29 minutes ago Description :CWE-602: Client-Side Enforcement of Server-Side Security Severity: 9.1 | CRITICAL Visit the link...",
-      "source": "CVE Feed",
-      "published": "2026-08-13T10:17:15+00:00"
-    },
-    {
-      "title": "CVE-2026-59503 - Priority – CWE-200: Exposure of Sensitive Information to an Unauthorized Actor CWE-359: Exposure of Private Personal Information to an Unauthorized Actor",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-59503",
-      "summary": "CVE ID :CVE-2026-59503 Published : Aug. 13, 2026, 10:17 a.m. | 2 hours, 29 minutes ago Description :CWE-200: Exposure of Sensitive Information to an Unauthorized Actor CWE-359: Exposure of Private...",
-      "source": "CVE Feed",
-      "published": "2026-08-13T10:17:15+00:00"
-    },
-    {
-      "title": "CVE-2026-59501 - Priority – CWE-284: Improper Access Control",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-59501",
-      "summary": "CVE ID :CVE-2026-59501 Published : Aug. 13, 2026, 10:17 a.m. | 2 hours, 29 minutes ago Description :CWE-284: Improper Access Control Severity: 8.2 | HIGH Visit the link for more details, such as CVSS...",
-      "source": "CVE Feed",
-      "published": "2026-08-13T10:17:15+00:00"
     },
     {
       "title": "'Honderden VMware vCenter-servers gehackt via recent beveiligingslek'",
@@ -312,8 +340,8 @@
     {
       "title": "Attackers Exploit SharePoint Authentication Bypass After Public PoC Release",
       "link": "https://thehackernews.com/2026/08/attackers-exploit-sharepoint.html",
-      "summary": "Threat actors have begun to exploit a newly disclosed Microsoft SharePoint vulnerability following the release of a proof-of-concept (PoC) code. The vulnerability in question is CVE-2026-55040 (CVSS...",
-      "source": "The Hacker News",
+      "summary": "Attackers Exploit SharePoint Authentication Bypass After Public PoC Release Threat actors have begun to exploit a newly disclosed Microsoft SharePoint vulnerability following the release of a...",
+      "source": "CVE Newsroom",
       "published": "2026-08-13T06:09:48+00:00"
     },
     {
@@ -361,8 +389,8 @@
     {
       "title": "Lazarus Exploits Windows Zero-Day to Gain SYSTEM Access and Deploy Backdoor",
       "link": "https://thehackernews.com/2026/08/lazarus-exploits-windows-zero-day-to.html",
-      "summary": "The North Korean threat actor known as Lazarus Group has been attributed to the zero-day exploitation of a newly patched security flaw impacting Microsoft Windows to deliver a never-before-seen...",
-      "source": "The Hacker News",
+      "summary": "Lazarus Exploits Windows Zero-Day to Gain SYSTEM Access and Deploy Backdoor The North Korean threat actor known as Lazarus Group has been attributed to the zero-day exploitation of a newly patched...",
+      "source": "CVE Newsroom",
       "published": "2026-08-12T17:39:27+00:00"
     },
     {
@@ -443,20 +471,6 @@
       "published": "2026-08-12T13:24:00+00:00"
     },
     {
-      "title": "Three intrusions at UK criminal records office went undetected for two years",
-      "link": "https://therecord.media/uk-criminal-records-office-acro-data-breaches",
-      "summary": "Unread antivirus alerts and an unpatched content management system exposed Britain's ACRO to three separate data breaches, according to a reprimand notice.",
-      "source": "The Record",
-      "published": "2026-08-12T13:00:00+00:00"
-    },
-    {
-      "title": "WhatsApp Unveils New Scam Alert Feature",
-      "link": "https://www.securityweek.com/whatsapp-unveils-new-scam-alert-feature/",
-      "summary": "Signal has also made a security announcement: an automatic key verification feature to complement its safety number system. The post WhatsApp Unveils New Scam Alert Feature appeared first on...",
-      "source": "SecurityWeek",
-      "published": "2026-08-12T13:00:00+00:00"
-    },
-    {
       "title": "Walmart Leaders Transform Security Operations Without Going Bananas",
       "link": "https://www.darkreading.com/cybersecurity-operations/walmart-leaders-transform-security-operations-without-going-bananas",
       "summary": "The big-box giant has scaled its defenses by encouraging trust and innovation. Good communications, transparency, and team spirit are key factors.",
@@ -494,8 +508,8 @@
     {
       "title": "Adobe Patches Three CVSS 10.0 ColdFusion and Campaign Classic Flaws",
       "link": "https://thehackernews.com/2026/08/adobe-patches-three-cvss-100-coldfusion.html",
-      "summary": "Adobe has shipped updates to address multiple critical security vulnerabilities impacting ColdFusion, Commerce, and Campaign Classic that, if successfully exploited, could result in arbitrary code...",
-      "source": "The Hacker News",
+      "summary": "Adobe Patches Three CVSS 10.0 ColdFusion and Campaign Classic Flaws Adobe has shipped updates to address multiple critical security vulnerabilities impacting ColdFusion, Commerce, and Campaign...",
+      "source": "CVE Newsroom",
       "published": "2026-08-12T11:13:03+00:00"
     },
     {
@@ -522,8 +536,8 @@
     {
       "title": "Attackers Exploit VMware vCenter Vulnerability to Gain Persistent Remote Access",
       "link": "https://thehackernews.com/2026/08/attackers-exploit-vmware-vcenter.html",
-      "summary": "Threat actors have begun to actively exploit a recently patched critical security flaw in Broadcom VMware vCenter, according to new findings from QUIRSO. The vulnerability in question is...",
-      "source": "The Hacker News",
+      "summary": "Attackers Exploit VMware vCenter Vulnerability to Gain Persistent Remote Access Threat actors have begun to actively exploit a recently patched critical security flaw in Broadcom VMware vCenter...",
+      "source": "CVE Newsroom",
       "published": "2026-08-12T09:01:54+00:00"
     },
     {
@@ -536,8 +550,8 @@
     {
       "title": "Malicious LiteLLM Releases Tied to Trivy Hack May Have Exposed 2,100+ Organizations",
       "link": "https://thehackernews.com/2026/08/malicious-litellm-releases-tied-to.html",
-      "summary": "Two malicious LiteLLM releases sat on PyPI for about 40 minutes in March carrying credential-stealing code capable of harvesting cloud keys, SSH keys, Kubernetes tokens, database passwords, and other...",
-      "source": "The Hacker News",
+      "summary": "Malicious LiteLLM Releases Tied to Trivy Hack May Have Exposed 2,100+ Organizations Two malicious LiteLLM releases sat on PyPI for about 40 minutes in March carrying credential-stealing code capable...",
+      "source": "CVE Newsroom",
       "published": "2026-08-12T08:04:52+00:00"
     },
     {
@@ -557,8 +571,8 @@
     {
       "title": "SAP Commerce Cloud Flaw Could Let Unauthenticated Attackers Execute Arbitrary Code",
       "link": "https://thehackernews.com/2026/08/sap-commerce-cloud-flaw-could-let.html",
-      "summary": "SAP has released patches to address a maximum-severity security flaw impacting Commerce Cloud (Data Hub Adapter) that could result in arbitrary code execution. The vulnerability, assigned the CVE...",
-      "source": "The Hacker News",
+      "summary": "SAP Commerce Cloud Flaw Could Let Unauthenticated Attackers Execute Arbitrary Code SAP has released patches to address a maximum-severity security flaw impacting Commerce Cloud (Data Hub Adapter)...",
+      "source": "CVE Newsroom",
       "published": "2026-08-12T07:31:40+00:00"
     },
     {
@@ -571,15 +585,15 @@
     {
       "title": "ShieldBreak Zero-Day PoC Claims Microsoft Defender Patch Bypass With SYSTEM Access",
       "link": "https://thehackernews.com/2026/08/shieldbreak-zero-day-poc-claims.html",
-      "summary": "The security researcher going by the name Chaotic Eclipse (aka INFINITE NIGHTMARE, MSNightmare, and Nightmare-Eclipse) has released a proof-of-concept (PoC) for a new Microsoft zero-day called...",
-      "source": "The Hacker News",
+      "summary": "ShieldBreak Zero-Day PoC Claims Microsoft Defender Patch Bypass With SYSTEM Access The security researcher going by the name Chaotic Eclipse (aka INFINITE NIGHTMARE, MSNightmare, and...",
+      "source": "CVE Newsroom",
       "published": "2026-08-12T06:41:38+00:00"
     },
     {
       "title": "Cisco ASA and FTD Flaw Exploited in the Wild Can Trigger Remote DoS",
       "link": "https://thehackernews.com/2026/08/cisco-asa-and-ftd-flaw-exploited-in.html",
-      "summary": "Cisco has warned that a new vulnerability impacting Secure Firewall Adaptive Security Appliance (ASA) Software and Secure Firewall Threat Defense (FTD) Software has been exploited in the wild. The...",
-      "source": "The Hacker News",
+      "summary": "Cisco ASA and FTD Flaw Exploited in the Wild Can Trigger Remote DoS Cisco has warned that a new vulnerability impacting Secure Firewall Adaptive Security Appliance (ASA) Software and Secure Firewall...",
+      "source": "CVE Newsroom",
       "published": "2026-08-12T06:15:58+00:00"
     },
     {
@@ -588,13 +602,6 @@
       "summary": "August 2026 Patch Tuesday: One Exploited Zero-Day and 62 Critical Vulnerabilities Among 415 CVEs Microsoft has addressed 415 vulnerabilities in its August 2026 security update release. This month's...",
       "source": "CVE Newsroom",
       "published": "2026-08-12T05:05:59+00:00"
-    },
-    {
-      "title": "Google says Chrome cuts 7 billion unwanted Android notifications a day to fight abuse",
-      "link": "https://www.bleepingcomputer.com/news/security/google-says-chrome-cuts-7-billion-unwanted-android-notifications-a-day-to-fight-abuse/",
-      "summary": "Google says Chrome's anti-abuse systems reduced unwanted notifications on Android by more than 7 billion per day during the first quarter of 2026. [...]",
-      "source": "BleepingComputer",
-      "published": "2026-08-12T01:15:55+00:00"
     },
     {
       "title": "Microsoft Patch Tuesday August 2026",
@@ -606,7 +613,7 @@
     {
       "title": "Microsoft's Patch Tuesday Deluge Continues With August Updates",
       "link": "https://www.darkreading.com/application-security/microsofts-patch-tuesday-deluge-continues",
-      "summary": "Security experts say prioritization should be the main focus for the August updates, not the massive CVE volume.",
+      "summary": "The most concerning bug in the batch is CVE-2026-62878 (CVSS: 9.8), a remote code execution (RCE) vulnerability in Windows DNS Server that requires no user interaction.",
       "source": "Dark Reading",
       "published": "2026-08-11T21:42:34+00:00"
     },
@@ -627,8 +634,8 @@
     {
       "title": "Microsoft Patches 398 Flaws Including a Windows Driver Zero-Day Under Active Attack",
       "link": "https://thehackernews.com/2026/08/microsoft-patches-398-flaws-including.html",
-      "summary": "Microsoft released its monthly security updates on Tuesday, and one of the flaws it closed is already being used in attacks. The bug sits in a core Windows kernel driver that handles network socket...",
-      "source": "The Hacker News",
+      "summary": "Microsoft Patches 398 Flaws Including a Windows Driver Zero-Day Under Active Attack Microsoft released its monthly security updates on Tuesday, and one of the flaws it closed is already being used in...",
+      "source": "CVE Newsroom",
       "published": "2026-08-11T20:10:55+00:00"
     },
     {
@@ -641,8 +648,8 @@
     {
       "title": "Zoom Annotation Flaws Could Let a Meeting Participant Hijack Another Attendee's Client",
       "link": "https://thehackernews.com/2026/08/zoom-annotation-flaws-could-let-meeting.html",
-      "summary": "Anyone sharing their screen on a Zoom call could have taken over the computers of everyone watching, and anyone watching could have taken over the presenter's. The flaw sat in the annotation tool...",
-      "source": "The Hacker News",
+      "summary": "Zoom Annotation Flaws Could Let a Meeting Participant Hijack Another Attendee's Client Anyone sharing their screen on a Zoom call could have taken over the computers of everyone watching, and anyone...",
+      "source": "CVE Newsroom",
       "published": "2026-08-11T19:08:47+00:00"
     },
     {
