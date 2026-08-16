@@ -1,173 +1,194 @@
 {
-  "last_updated": "2026-08-16T14:04:07.804005+00:00",
+  "last_updated": "2026-08-16T16:03:14.567473+00:00",
   "articles": [
+    {
+      "title": "New AmnesiaStealer macOS malware hijacks browser sessions via remote control",
+      "link": "https://www.bleepingcomputer.com/news/security/new-amnesiastealer-macos-malware-hijacks-browser-sessions-via-remote-control/",
+      "summary": "A new information-stealing malware called AmnesiaStealer, which targets macOS users via ClickFix attacks, includes a streaming module that allows the attacker to interactively control the victim's...",
+      "source": "BleepingComputer",
+      "published": "2026-08-16T15:07:44+00:00"
+    },
+    {
+      "title": "CVE-2026-74251 - Joomla Extension - phoca.cz - Unauthenticated SQL injection via attribute filter in Phoca Cart 5.0.0-6.1.16",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-74251",
+      "summary": "CVE ID :CVE-2026-74251 Published : Aug. 16, 2026, 1:16 p.m. | 55 minutes ago Description :Joomla Extension - phoca.cz - Unauthenticated SQL injection via attribute filter in Phoca Cart 5.0.0-6.1.16 -...",
+      "source": "CVE Feed",
+      "published": "2026-08-16T13:16:57+00:00"
+    },
+    {
+      "title": "CVE-2026-74795 - Scriban before 6.6.0 Denial of Service via Uncontrolled Recursion",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-74795",
+      "summary": "CVE ID :CVE-2026-74795 Published : Aug. 16, 2026, 1:14 p.m. | 57 minutes ago Description :Scriban before 6.6.0 contains an uncontrolled recursion vulnerability in its recursive-descent parser. The...",
+      "source": "CVE Feed",
+      "published": "2026-08-16T13:14:17+00:00"
+    },
+    {
+      "title": "CVE-2026-74794 - Scriban before 6.6.0 Denial of Service via Infinite Recursion",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-74794",
+      "summary": "CVE ID :CVE-2026-74794 Published : Aug. 16, 2026, 1:14 p.m. | 57 minutes ago Description :Scriban before 6.6.0 contains an infinite recursion vulnerability in object rendering when the...",
+      "source": "CVE Feed",
+      "published": "2026-08-16T13:14:17+00:00"
+    },
+    {
+      "title": "CVE-2026-74792 - Scriban before 7.0.0 Stack Overflow via nested array initializers",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-74792",
+      "summary": "CVE ID :CVE-2026-74792 Published : Aug. 16, 2026, 1:14 p.m. | 57 minutes ago Description :Scriban before 7.0.0 (affected versions Severity: 8.7 | HIGH Visit the link for more details, such as CVSS...",
+      "source": "CVE Feed",
+      "published": "2026-08-16T13:14:15+00:00"
+    },
+    {
+      "title": "CVE-2026-74791 - Scriban before 7.0.0 Authorization Bypass via Stale Include Cache",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-74791",
+      "summary": "CVE ID :CVE-2026-74791 Published : Aug. 16, 2026, 1:14 p.m. | 57 minutes ago Description :Scriban before 7.0.0 fails to clear the CachedTemplates dictionary when TemplateContext.Reset() is called...",
+      "source": "CVE Feed",
+      "published": "2026-08-16T13:14:15+00:00"
+    },
+    {
+      "title": "CVE-2026-74790 - Scriban before 7.0.0 MemberFilter Bypass via TemplateContext Cache",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-74790",
+      "summary": "CVE ID :CVE-2026-74790 Published : Aug. 16, 2026, 1:14 p.m. | 58 minutes ago Description :Scriban before 7.0.0 caches TypedObjectAccessor by Type only without considering MemberFilter changes...",
+      "source": "CVE Feed",
+      "published": "2026-08-16T13:14:14+00:00"
+    },
+    {
+      "title": "CVE-2026-74789 - Scriban before 7.0.0 LoopLimit Bypass via Built-in Operations",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-74789",
+      "summary": "CVE ID :CVE-2026-74789 Published : Aug. 16, 2026, 1:14 p.m. | 58 minutes ago Description :Scriban before 7.0.0 (affected Severity: 8.7 | HIGH Visit the link for more details, such as CVSS details...",
+      "source": "CVE Feed",
+      "published": "2026-08-16T13:14:13+00:00"
+    },
+    {
+      "title": "CVE-2026-74788 - Scriban before 7.0.0 Denial of Service via string.pad_left/pad_right",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-74788",
+      "summary": "CVE ID :CVE-2026-74788 Published : Aug. 16, 2026, 1:14 p.m. | 58 minutes ago Description :Scriban before 7.0.0 (affected versions Severity: 8.7 | HIGH Visit the link for more details, such as CVSS...",
+      "source": "CVE Feed",
+      "published": "2026-08-16T13:14:13+00:00"
+    },
+    {
+      "title": "CVE-2026-74787 - Scriban before 7.0.0 Uncontrolled Recursion via object.to_json",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-74787",
+      "summary": "CVE ID :CVE-2026-74787 Published : Aug. 16, 2026, 1:14 p.m. | 58 minutes ago Description :Scriban before 7.0.0 contains an uncontrolled recursion vulnerability in the object.to_json builtin function...",
+      "source": "CVE Feed",
+      "published": "2026-08-16T13:14:12+00:00"
+    },
+    {
+      "title": "CVE-2026-74784 - Scriban before 7.2.0 Denial of Service via array.insert_at",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-74784",
+      "summary": "CVE ID :CVE-2026-74784 Published : Aug. 16, 2026, 1:14 p.m. | 58 minutes ago Description :Scriban before 7.2.0 contains a denial of service vulnerability in the array.insert_at function that...",
+      "source": "CVE Feed",
+      "published": "2026-08-16T13:14:10+00:00"
+    },
+    {
+      "title": "CVE-2026-74783 - Scriban 6.6.0 through 7.2.0 Parser Recursion Denial of Service",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-74783",
+      "summary": "CVE ID :CVE-2026-74783 Published : Aug. 16, 2026, 1:14 p.m. | 58 minutes ago Description :Scriban versions 6.6.0 through 7.2.0 contain a non-enforcing ExpressionDepthLimit guard that fails to stop...",
+      "source": "CVE Feed",
+      "published": "2026-08-16T13:14:09+00:00"
+    },
+    {
+      "title": "CVE-2026-73062 - Scriban 3.0.0 through 7.2.0 Denial of Service via Array Multiplication",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-73062",
+      "summary": "CVE ID :CVE-2026-73062 Published : Aug. 16, 2026, 1:14 p.m. | 58 minutes ago Description :Scriban versions 3.0.0 through 7.2.0 contain a denial of service vulnerability in the array multiplication...",
+      "source": "CVE Feed",
+      "published": "2026-08-16T13:14:08+00:00"
+    },
+    {
+      "title": "CVE-2026-73061 - Scriban before 7.2.2 Arbitrary Property Write via TypedObjectAccessor",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-73061",
+      "summary": "CVE ID :CVE-2026-73061 Published : Aug. 16, 2026, 1:14 p.m. | 58 minutes ago Description :Scriban before 7.2.2 contains an access-modifier bypass vulnerability in TypedObjectAccessor that allows...",
+      "source": "CVE Feed",
+      "published": "2026-08-16T13:14:07+00:00"
+    },
+    {
+      "title": "CVE-2026-73060 - Scriban 3.0.0 through 7.2.5 Denial of Service via ScriptRange.Multiply",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-73060",
+      "summary": "CVE ID :CVE-2026-73060 Published : Aug. 16, 2026, 1:14 p.m. | 58 minutes ago Description :Scriban versions from 3.0.0 through 7.2.5 contain a denial of service vulnerability in the...",
+      "source": "CVE Feed",
+      "published": "2026-08-16T13:14:07+00:00"
+    },
+    {
+      "title": "CVE-2026-73057 - stoatchat before 0.15.0 Uncapped SVG Rendering Denial of Service",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-73057",
+      "summary": "CVE ID :CVE-2026-73057 Published : Aug. 16, 2026, 1:14 p.m. | 58 minutes ago Description :stoatchat before 0.15.0 fails to validate SVG viewBox dimensions in the proxy endpoint, allowing attackers to...",
+      "source": "CVE Feed",
+      "published": "2026-08-16T13:14:05+00:00"
+    },
+    {
+      "title": "CVE-2026-73056 - SiYuan kernel before 3.7.4 Unthrottled Brute-Force via API Token",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-73056",
+      "summary": "CVE ID :CVE-2026-73056 Published : Aug. 16, 2026, 1:14 p.m. | 58 minutes ago Description :SiYuan kernel versions before 3.7.4 contain an improper restriction of excessive authentication attempts...",
+      "source": "CVE Feed",
+      "published": "2026-08-16T13:14:04+00:00"
+    },
+    {
+      "title": "CVE-2024-58375 - OpenTofu before 1.8.3 Secret Variable Leaking via Static Evaluation",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2024-58375",
+      "summary": "CVE ID :CVE-2024-58375 Published : Aug. 16, 2026, 1:14 p.m. | 58 minutes ago Description :OpenTofu versions 1.8.0 through 1.8.2 do not properly restrict sensitive variables and locals when users have...",
+      "source": "CVE Feed",
+      "published": "2026-08-16T13:14:03+00:00"
+    },
+    {
+      "title": "CVE-2026-59310: Critical VMware vCenter Vulnerability",
+      "link": "https://thecyberthrone.in/2026/08/16/cve-2026-59310-critical-vmware-vcenter-vulnerability/",
+      "summary": "CVE-2026-59310: Critical VMware vCenter Vulnerability CVE-2026-59310 is a critical directory-traversal vulnerability in the VMware vCenter Server Syslog server that deserves immediate attention from...",
+      "source": "CVE Newsroom",
+      "published": "2026-08-16T12:31:52+00:00"
+    },
     {
       "title": "CVE-2024-13784 - Contact Form, Survey, Quiz & Popup Form Builder – ARForms <= 1.8.5 - Unauthenticated PHP Object Injection",
       "link": "https://cvefeed.io/vuln/detail/CVE-2024-13784",
-      "summary": "CVE ID :CVE-2024-13784 Published : Aug. 16, 2026, 9:16 a.m. | 3 hours, 53 minutes ago Description :The Contact Form, Survey, Quiz & Popup Form Builder – ARForms plugin for WordPress is vulnerable to...",
+      "summary": "CVE ID :CVE-2024-13784 Published : Aug. 16, 2026, 9:16 a.m. | 4 hours, 55 minutes ago Description :The Contact Form, Survey, Quiz & Popup Form Builder – ARForms plugin for WordPress is vulnerable to...",
       "source": "CVE Feed",
       "published": "2026-08-16T09:16:19+00:00"
     },
     {
       "title": "CVE-2026-18316 - Solace Extra <= 1.6.0 - Missing Authorization to Unauthenticated Site Content Deletion and Unauthorized Demo Import via action-import-zip AJAX Action",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-18316",
-      "summary": "CVE ID :CVE-2026-18316 Published : Aug. 16, 2026, 6:16 a.m. | 6 hours, 53 minutes ago Description :The Solace Extra plugin for WordPress is vulnerable to unauthorized modification and loss of data...",
+      "summary": "CVE ID :CVE-2026-18316 Published : Aug. 16, 2026, 6:16 a.m. | 7 hours, 55 minutes ago Description :The Solace Extra plugin for WordPress is vulnerable to unauthorized modification and loss of data...",
       "source": "CVE Feed",
       "published": "2026-08-16T06:16:51+00:00"
     },
     {
       "title": "CVE-2026-18432 - Frontend Admin by DynamiApps <= 3.29.9 - Unauthenticated Privilege Escalation via 'item_id' Parameter",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-18432",
-      "summary": "CVE ID :CVE-2026-18432 Published : Aug. 16, 2026, 5:16 a.m. | 7 hours, 53 minutes ago Description :The Frontend Admin by DynamiApps plugin for WordPress is vulnerable to Privilege Escalation in all...",
+      "summary": "CVE ID :CVE-2026-18432 Published : Aug. 16, 2026, 5:16 a.m. | 8 hours, 55 minutes ago Description :The Frontend Admin by DynamiApps plugin for WordPress is vulnerable to Privilege Escalation in all...",
       "source": "CVE Feed",
       "published": "2026-08-16T05:16:48+00:00"
     },
     {
       "title": "CVE-2026-17123 - Royal Addons for Elementor <= 1.7.1064 - Authenticated (Contributor+) Server-Side Request Forgery via Form Builder Widget 'webhook_url' Setting",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-17123",
-      "summary": "CVE ID :CVE-2026-17123 Published : Aug. 16, 2026, 5:16 a.m. | 7 hours, 53 minutes ago Description :The Royal Elementor Addons plugin for WordPress is vulnerable to Server-Side Request Forgery in...",
+      "summary": "CVE ID :CVE-2026-17123 Published : Aug. 16, 2026, 5:16 a.m. | 8 hours, 55 minutes ago Description :The Royal Elementor Addons plugin for WordPress is vulnerable to Server-Side Request Forgery in...",
       "source": "CVE Feed",
       "published": "2026-08-16T05:16:48+00:00"
     },
     {
       "title": "CVE-2026-16099 - Podlove Podcast Publisher <= 4.5.3 - Authenticated (Contributor+) PHP Object Injection to Arbitrary File Deletion via 'unfurl_data' Parameter",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-16099",
-      "summary": "CVE ID :CVE-2026-16099 Published : Aug. 16, 2026, 5:16 a.m. | 7 hours, 53 minutes ago Description :The Podlove Podcast Publisher plugin for WordPress is vulnerable to arbitrary file deletion due to...",
+      "summary": "CVE ID :CVE-2026-16099 Published : Aug. 16, 2026, 5:16 a.m. | 8 hours, 55 minutes ago Description :The Podlove Podcast Publisher plugin for WordPress is vulnerable to arbitrary file deletion due to...",
       "source": "CVE Feed",
       "published": "2026-08-16T05:16:47+00:00"
     },
     {
       "title": "CVE-2026-16098 - ProSolution WP Client <= 2.0.10 - Unauthenticated Arbitrary File Upload via Content-Disposition Header Filename Override",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-16098",
-      "summary": "CVE ID :CVE-2026-16098 Published : Aug. 16, 2026, 5:16 a.m. | 7 hours, 53 minutes ago Description :The ProSolution WP Client plugin for WordPress is vulnerable to Arbitrary File Upload in all...",
+      "summary": "CVE ID :CVE-2026-16098 Published : Aug. 16, 2026, 5:16 a.m. | 8 hours, 55 minutes ago Description :The ProSolution WP Client plugin for WordPress is vulnerable to Arbitrary File Upload in all...",
       "source": "CVE Feed",
       "published": "2026-08-16T05:16:47+00:00"
     },
     {
       "title": "CVE-2026-14524 - ProSolution WP Client <= 2.0.8 - Unauthenticated Arbitrary File Deletion via 'newfilename' and 'filename' Parameters",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-14524",
-      "summary": "CVE ID :CVE-2026-14524 Published : Aug. 16, 2026, 5:16 a.m. | 7 hours, 53 minutes ago Description :The ProSolution WP Client plugin for WordPress is vulnerable to arbitrary file deletion due to...",
+      "summary": "CVE ID :CVE-2026-14524 Published : Aug. 16, 2026, 5:16 a.m. | 8 hours, 55 minutes ago Description :The ProSolution WP Client plugin for WordPress is vulnerable to arbitrary file deletion due to...",
       "source": "CVE Feed",
       "published": "2026-08-16T05:16:46+00:00"
     },
     {
       "title": "CVE-2026-14498 - Query Wrangler <= 1.5.57 - Authenticated (Subscriber+) Remote Code Execution via 'options' Parameter",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-14498",
-      "summary": "CVE ID :CVE-2026-14498 Published : Aug. 16, 2026, 5:16 a.m. | 7 hours, 53 minutes ago Description :The Query Wrangler plugin for WordPress is vulnerable to Remote Code Execution in all versions up...",
+      "summary": "CVE ID :CVE-2026-14498 Published : Aug. 16, 2026, 5:16 a.m. | 8 hours, 55 minutes ago Description :The Query Wrangler plugin for WordPress is vulnerable to Remote Code Execution in all versions up...",
       "source": "CVE Feed",
       "published": "2026-08-16T05:16:46+00:00"
-    },
-    {
-      "title": "CVE-2026-19924 - Tenda AC10 httpd R7WebsSecurityHandler improper authentication",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-19924",
-      "summary": "CVE ID :CVE-2026-19924 Published : Aug. 16, 2026, 2:16 a.m. | 10 hours, 53 minutes ago Description :A security vulnerability has been detected in Tenda AC10 16.03.10.09_multi_TDE01. This...",
-      "source": "CVE Feed",
-      "published": "2026-08-16T02:16:47+00:00"
-    },
-    {
-      "title": "CVE-2026-74767 - Unbounded DAA Decompression in Pandora Allows Denial of Service via Decompression Bomb",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-74767",
-      "summary": "CVE ID :CVE-2026-74767 Published : Aug. 15, 2026, 10:16 p.m. | 14 hours, 53 minutes ago Description :Pandora contains a denial-of-service vulnerability in its handling of DAA (Direct Access Archive)...",
-      "source": "CVE Feed",
-      "published": "2026-08-15T22:16:55+00:00"
-    },
-    {
-      "title": "CVE-2026-74764 - Path Traversal in TAR Archive Extraction Allows Arbitrary File Write in Pandora",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-74764",
-      "summary": "CVE ID :CVE-2026-74764 Published : Aug. 15, 2026, 10:16 p.m. | 14 hours, 53 minutes ago Description :Pandora contains a path traversal vulnerability in its TAR archive extraction functionality. When...",
-      "source": "CVE Feed",
-      "published": "2026-08-15T22:16:55+00:00"
-    },
-    {
-      "title": "CVE-2026-73053 - SiYuan before v3.7.4 Cross-Site Scripting via unicode2Emoji",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-73053",
-      "summary": "CVE ID :CVE-2026-73053 Published : Aug. 15, 2026, 10:16 p.m. | 14 hours, 53 minutes ago Description :SiYuan versions before v3.7.4 contain a cross-site scripting vulnerability in the unicode2Emoji...",
-      "source": "CVE Feed",
-      "published": "2026-08-15T22:16:55+00:00"
-    },
-    {
-      "title": "CVE-2026-73052 - SiYuan before v3.7.4 Stored XSS via Attribute-View Field Names",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-73052",
-      "summary": "CVE ID :CVE-2026-73052 Published : Aug. 15, 2026, 10:16 p.m. | 14 hours, 53 minutes ago Description :SiYuan before v3.7.4 stores attribute-view field names without HTML escaping and interpolates them...",
-      "source": "CVE Feed",
-      "published": "2026-08-15T22:16:55+00:00"
-    },
-    {
-      "title": "CVE-2026-73050 - SiYuan before v3.7.4 Stored XSS via select option color",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-73050",
-      "summary": "CVE ID :CVE-2026-73050 Published : Aug. 15, 2026, 10:16 p.m. | 14 hours, 53 minutes ago Description :SiYuan versions before v3.7.4 fail to validate or escape the color field in attribute-view select...",
-      "source": "CVE Feed",
-      "published": "2026-08-15T22:16:54+00:00"
-    },
-    {
-      "title": "CVE-2026-73046 - SiYuan before v3.7.4 Authentication Bypass via HTTP Basic Auth",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-73046",
-      "summary": "CVE ID :CVE-2026-73046 Published : Aug. 15, 2026, 10:16 p.m. | 14 hours, 53 minutes ago Description :SiYuan before v3.7.4 improperly restricts excessive authentication attempts in the CheckAuth()...",
-      "source": "CVE Feed",
-      "published": "2026-08-15T22:16:54+00:00"
-    },
-    {
-      "title": "CVE-2026-73044 - SiYuan before v3.7.4 Stored Cross-Site Scripting via Column Width",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-73044",
-      "summary": "CVE ID :CVE-2026-73044 Published : Aug. 15, 2026, 10:16 p.m. | 14 hours, 53 minutes ago Description :SiYuan versions before v3.7.4 fail to validate or escape table column width values, allowing...",
-      "source": "CVE Feed",
-      "published": "2026-08-15T22:16:54+00:00"
-    },
-    {
-      "title": "CVE-2026-73043 - SiYuan before v3.7.4 Remote Code Execution via Template Calculation",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-73043",
-      "summary": "CVE ID :CVE-2026-73043 Published : Aug. 15, 2026, 10:16 p.m. | 14 hours, 53 minutes ago Description :SiYuan versions before v3.7.4 contain a remote code execution vulnerability in the Template...",
-      "source": "CVE Feed",
-      "published": "2026-08-15T22:16:54+00:00"
-    },
-    {
-      "title": "CVE-2026-73042 - SiYuan before v3.7.4 Remote Code Execution via Menu Metadata",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-73042",
-      "summary": "CVE ID :CVE-2026-73042 Published : Aug. 15, 2026, 10:16 p.m. | 14 hours, 53 minutes ago Description :SiYuan before v3.7.4 fails to properly escape database menu metadata in HTML interpolation...",
-      "source": "CVE Feed",
-      "published": "2026-08-15T22:16:54+00:00"
-    },
-    {
-      "title": "CVE-2026-73041 - SiYuan before v3.7.4 Remote Code Execution via PDF Annotations",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-73041",
-      "summary": "CVE ID :CVE-2026-73041 Published : Aug. 15, 2026, 10:16 p.m. | 14 hours, 53 minutes ago Description :SiYuan versions before v3.7.4 fail to validate or escape annotation fields written to disk by the...",
-      "source": "CVE Feed",
-      "published": "2026-08-15T22:16:53+00:00"
-    },
-    {
-      "title": "CVE-2026-18855 - Link Library <= 7.9.4 - Unauthenticated Arbitrary File Deletion via link_url Parameter",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-18855",
-      "summary": "CVE ID :CVE-2026-18855 Published : Aug. 15, 2026, 7:16 p.m. | 17 hours, 53 minutes ago Description :The Link Library plugin for WordPress is vulnerable to arbitrary file deletion due to insufficient...",
-      "source": "CVE Feed",
-      "published": "2026-08-15T19:16:32+00:00"
-    },
-    {
-      "title": "CVE-2026-19901 - LB-LINK X-PRO easycwmp hard-coded credentials",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-19901",
-      "summary": "CVE ID :CVE-2026-19901 Published : Aug. 15, 2026, 6:16 p.m. | 18 hours, 53 minutes ago Description :A security flaw has been discovered in LB-LINK X-PRO 1.0.22-20231206. This affects an unknown...",
-      "source": "CVE Feed",
-      "published": "2026-08-15T18:16:24+00:00"
-    },
-    {
-      "title": "CVE-2026-19598 - Pods <= 3.3.9 - Unauthenticated Privilege Escalation via Authorization Bypass to Admin Methods via 'pods_admin' AJAX Router",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-19598",
-      "summary": "CVE ID :CVE-2026-19598 Published : Aug. 15, 2026, 6:16 p.m. | 18 hours, 53 minutes ago Description :The Pods – Custom Content Types and Fields plugin for WordPress is vulnerable to Privilege...",
-      "source": "CVE Feed",
-      "published": "2026-08-15T18:16:23+00:00"
-    },
-    {
-      "title": "CVE-2026-19900 - LB-LINK X-PRO shadow hard-coded credentials",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-19900",
-      "summary": "CVE ID :CVE-2026-19900 Published : Aug. 15, 2026, 5:16 p.m. | 19 hours, 53 minutes ago Description :A vulnerability was identified in LB-LINK X-PRO 1.0.22-20231206. The impacted element is an unknown...",
-      "source": "CVE Feed",
-      "published": "2026-08-15T17:16:24+00:00"
-    },
-    {
-      "title": "CVE-2026-18500 - @fastify/jwt vulnerable to authorization bypass via global secret overriding the per-request key",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-18500",
-      "summary": "CVE ID :CVE-2026-18500 Published : Aug. 15, 2026, 2:17 p.m. | 22 hours, 53 minutes ago Description :@fastify/jwt is a JSON Web Token plugin for Fastify. In versions before 10.2.2, a per-request...",
-      "source": "CVE Feed",
-      "published": "2026-08-15T14:17:07+00:00"
     },
     {
       "title": "New Evooo1Bot Linux botnet turns routers into traffic relay nodes",
@@ -175,13 +196,6 @@
       "summary": "A new Mirai-based modular Linux botnet malware called Evooo1Bot has been targeting internet-facing gateway devices, turning them into SOCKS5 traffic relay nodes. [...]",
       "source": "BleepingComputer",
       "published": "2026-08-15T14:14:38+00:00"
-    },
-    {
-      "title": "CVE-2026-18438 - Templately <= 3.7.1 - Authenticated (Contributor+) Arbitrary File Upload to Remote Code Execution via Gutenberg Cloud Import Attachment Filename Mismatch",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-18438",
-      "summary": "CVE ID :CVE-2026-18438 Published : Aug. 15, 2026, 10:16 a.m. | 1 day, 2 hours ago Description :The Templately – Elementor & Gutenberg Template Library: 6500+ Free & Pro Ready Templates And Cloud...",
-      "source": "CVE Feed",
-      "published": "2026-08-15T10:16:29+00:00"
     },
     {
       "title": "How Anthropic plans to watermark Claude's AI-generated text",
@@ -443,13 +457,6 @@
       "published": "2026-08-13T17:46:20+00:00"
     },
     {
-      "title": "AI 'watermark removers' flood the web. Almost none can prove they work.",
-      "link": "https://www.bleepingcomputer.com/news/security/ai-watermark-removers-flood-the-web-almost-none-can-prove-they-work/",
-      "summary": "Multiple 'watermark removers' have surfaced days after Anthropic began watermarking text generated by Claude, including an open source project with over 4,500 GitHub stars and paid AI detection...",
-      "source": "BleepingComputer",
-      "published": "2026-08-13T17:33:28+00:00"
-    },
-    {
       "title": "Flock tightens privacy controls amid scandals over officer abuse",
       "link": "https://therecord.media/flock-safety-audit-assistance-police-departments",
       "summary": "All Flock Safety customers will be required to adopt its \"Audit Assistance\" feature for tracking abnormal uses, and the company says it will hold license plate data for only seven days in most cases.",
@@ -536,8 +543,8 @@
     {
       "title": "Attackers Exploit SharePoint Authentication Bypass After Public PoC Release",
       "link": "https://thehackernews.com/2026/08/attackers-exploit-sharepoint.html",
-      "summary": "Threat actors have begun to exploit a newly disclosed Microsoft SharePoint vulnerability following the release of a proof-of-concept (PoC) code. The vulnerability in question is CVE-2026-55040 (CVSS...",
-      "source": "The Hacker News",
+      "summary": "Attackers Exploit SharePoint Authentication Bypass After Public PoC Release Threat actors have begun to exploit a newly disclosed Microsoft SharePoint vulnerability following the release of a...",
+      "source": "CVE Newsroom",
       "published": "2026-08-13T06:09:48+00:00"
     },
     {
@@ -557,8 +564,8 @@
     {
       "title": "Lazarus Exploits Windows Zero-Day to Gain SYSTEM Access and Deploy Backdoor",
       "link": "https://thehackernews.com/2026/08/lazarus-exploits-windows-zero-day-to.html",
-      "summary": "The North Korean threat actor known as Lazarus Group has been attributed to the zero-day exploitation of a newly patched security flaw impacting Microsoft Windows to deliver a never-before-seen...",
-      "source": "The Hacker News",
+      "summary": "Lazarus Exploits Windows Zero-Day to Gain SYSTEM Access and Deploy Backdoor The North Korean threat actor known as Lazarus Group has been attributed to the zero-day exploitation of a newly patched...",
+      "source": "CVE Newsroom",
       "published": "2026-08-12T17:39:27+00:00"
     },
     {
@@ -613,8 +620,8 @@
     {
       "title": "Adobe Patches Three CVSS 10.0 ColdFusion and Campaign Classic Flaws",
       "link": "https://thehackernews.com/2026/08/adobe-patches-three-cvss-100-coldfusion.html",
-      "summary": "Adobe has shipped updates to address multiple critical security vulnerabilities impacting ColdFusion, Commerce, and Campaign Classic that, if successfully exploited, could result in arbitrary code...",
-      "source": "The Hacker News",
+      "summary": "Adobe Patches Three CVSS 10.0 ColdFusion and Campaign Classic Flaws Adobe has shipped updates to address multiple critical security vulnerabilities impacting ColdFusion, Commerce, and Campaign...",
+      "source": "CVE Newsroom",
       "published": "2026-08-12T11:13:03+00:00"
     },
     {
@@ -634,8 +641,8 @@
     {
       "title": "Attackers Exploit VMware vCenter Vulnerability to Gain Persistent Remote Access",
       "link": "https://thehackernews.com/2026/08/attackers-exploit-vmware-vcenter.html",
-      "summary": "Threat actors have begun to actively exploit a recently patched critical security flaw in Broadcom VMware vCenter, according to new findings from QUIRSO. The vulnerability in question is...",
-      "source": "The Hacker News",
+      "summary": "Attackers Exploit VMware vCenter Vulnerability to Gain Persistent Remote Access Threat actors have begun to actively exploit a recently patched critical security flaw in Broadcom VMware vCenter...",
+      "source": "CVE Newsroom",
       "published": "2026-08-12T09:01:54+00:00"
     },
     {
@@ -648,8 +655,8 @@
     {
       "title": "Malicious LiteLLM Releases Tied to Trivy Hack May Have Exposed 2,100+ Organizations",
       "link": "https://thehackernews.com/2026/08/malicious-litellm-releases-tied-to.html",
-      "summary": "Two malicious LiteLLM releases sat on PyPI for about 40 minutes in March carrying credential-stealing code capable of harvesting cloud keys, SSH keys, Kubernetes tokens, database passwords, and other...",
-      "source": "The Hacker News",
+      "summary": "Malicious LiteLLM Releases Tied to Trivy Hack May Have Exposed 2,100+ Organizations Two malicious LiteLLM releases sat on PyPI for about 40 minutes in March carrying credential-stealing code capable...",
+      "source": "CVE Newsroom",
       "published": "2026-08-12T08:04:52+00:00"
     },
     {
@@ -658,13 +665,6 @@
       "summary": "Adobe dicht dozijn kritieke ColdFusion-lekken: 'Zo snel mogelijk updaten' Adobe heeft een belangrijke update voor een dozijn kritieke kwetsbaarheden in ColdFusion uitgebracht en roept organisaties op...",
       "source": "CVE Newsroom",
       "published": "2026-08-12T07:58:01+00:00"
-    },
-    {
-      "title": "Cisco waarschuwt voor actief misbruik van dos-lek in vpn-service firewalls",
-      "link": "https://www.security.nl/posting/948902/Cisco+waarschuwt+voor+actief+misbruik+van+dos-lek+in+vpn-service+firewalls?channel=rss",
-      "summary": "Cisco waarschuwt voor actief misbruik van dos-lek in vpn-service firewalls Cisco waarschuwt organisaties voor actief misbruik van een kwetsbaarheid in de vpn-service van ASA- en FTD-firewalls...",
-      "source": "CVE Newsroom",
-      "published": "2026-08-12T07:47:08+00:00"
     },
     {
       "title": "SAP Commerce Cloud Flaw Could Let Unauthenticated Attackers Execute Arbitrary Code",
