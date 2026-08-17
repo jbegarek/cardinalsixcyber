@@ -1,6 +1,55 @@
 {
-  "last_updated": "2026-08-17T12:04:49.419387+00:00",
+  "last_updated": "2026-08-17T14:06:30.605954+00:00",
   "articles": [
+    {
+      "title": "Certighost and the Privilege Hiding in Your Certificate Authority",
+      "link": "https://www.bleepingcomputer.com/news/security/certighost-and-the-privilege-hiding-in-your-certificate-authority/",
+      "summary": "CVE-2026-54121 lets a standard domain user turn your Enterprise CA into a Domain Controller. The patch is the easy part. The lesson is standing privilege, implicit trust, and treating PKI as the Tier...",
+      "source": "BleepingComputer",
+      "published": "2026-08-17T14:00:10+00:00"
+    },
+    {
+      "title": "680,000 Impacted by French Tax Authority Data Breach",
+      "link": "https://www.securityweek.com/680000-impacted-by-french-tax-authority-data-breach/",
+      "summary": "Hackers used compromised credentials to access enterprise and personal tax-related data. The post 680,000 Impacted by French Tax Authority Data Breach appeared first on SecurityWeek.",
+      "source": "SecurityWeek",
+      "published": "2026-08-17T13:53:55+00:00"
+    },
+    {
+      "title": "⚡ Weekly Recap: VMware Exploits, Windows 0-Day, MCP Attacks, Browser Hijacks and More",
+      "link": "https://thehackernews.com/2026/08/weekly-recap-vmware-exploits-windows-0.html",
+      "summary": "The expensive attacks are not always the clever ones. This week had plenty of proof. Exposed services got hit, old bugs found fresh use, browser sessions became attack paths, and supply-chain...",
+      "source": "The Hacker News",
+      "published": "2026-08-17T13:23:51+00:00"
+    },
+    {
+      "title": "Windows Server 2022 reaches end of mainstream support in 60 days",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/windows-server-2022-reaches-end-of-mainstream-support-in-60-days/",
+      "summary": "Microsoft has reminded IT administrators that Windows Server 2022 is rapidly approaching its mainstream end date of October 2026, when it will switch to extended support. [...]",
+      "source": "BleepingComputer",
+      "published": "2026-08-17T12:33:11+00:00"
+    },
+    {
+      "title": "Ukraine says cyberattack hit Russian e-commerce giant Wildberries amid drone strikes",
+      "link": "https://therecord.media/russia-wildberries-cyberattack-ukraine",
+      "summary": "Ukraine’s military intelligence claimed it disrupted the operations of Russia’s largest online marketplace, Wildberries, in a cyberattack intended to amplify the impact of drone strikes on the...",
+      "source": "The Record",
+      "published": "2026-08-17T12:30:00+00:00"
+    },
+    {
+      "title": "Irregular Details How a Naming Error Let AI Models Attack a Real Company",
+      "link": "https://www.securityweek.com/irregular-details-how-a-naming-error-let-ai-models-attack-a-real-company/",
+      "summary": "The AI security testing firm has shared information on a recently disclosed incident involving Anthropic AI models. The post Irregular Details How a Naming Error Let AI Models Attack a Real Company...",
+      "source": "SecurityWeek",
+      "published": "2026-08-17T12:11:00+00:00"
+    },
+    {
+      "title": "How MCP Servers Can Expose Enterprise Secrets",
+      "link": "https://thehackernews.com/2026/08/how-mcp-servers-can-expose-enterprise.html",
+      "summary": "MCP servers can expose enterprise secrets through plaintext configuration files, over-permissioned access and prompt injection, often before security teams even know the server is running. As more...",
+      "source": "The Hacker News",
+      "published": "2026-08-17T11:58:00+00:00"
+    },
     {
       "title": "Philips and GE investigating Clop ransomware data theft claims",
       "link": "https://www.bleepingcomputer.com/news/security/philips-and-ge-investigating-clop-ransomware-data-theft-claims/",
@@ -11,175 +60,175 @@
     {
       "title": "CVE-2026-74901 - openssl_encrypt before 1.4.0 Authentication Bypass via AES-CTR Fallback",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-74901",
-      "summary": "CVE ID :CVE-2026-74901 Published : Aug. 17, 2026, 11:16 a.m. | 43 minutes ago Description :openssl_encrypt versions before 1.4.0 contain an authentication bypass vulnerability in pqc.py where AES-GCM...",
+      "summary": "CVE ID :CVE-2026-74901 Published : Aug. 17, 2026, 11:16 a.m. | 1 hour ago Description :openssl_encrypt versions before 1.4.0 contain an authentication bypass vulnerability in pqc.py where AES-GCM...",
       "source": "CVE Feed",
       "published": "2026-08-17T11:16:45+00:00"
     },
     {
       "title": "CVE-2026-74900 - openssl_encrypt before 1.4.0 Weak Shared Secret via PQC Simulation Mode",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-74900",
-      "summary": "CVE ID :CVE-2026-74900 Published : Aug. 17, 2026, 11:16 a.m. | 43 minutes ago Description :openssl_encrypt versions before 1.4.0 contain a critical vulnerability in pqc.py where KEM decapsulation...",
+      "summary": "CVE ID :CVE-2026-74900 Published : Aug. 17, 2026, 11:16 a.m. | 1 hour ago Description :openssl_encrypt versions before 1.4.0 contain a critical vulnerability in pqc.py where KEM decapsulation...",
       "source": "CVE Feed",
       "published": "2026-08-17T11:16:45+00:00"
     },
     {
       "title": "CVE-2026-74899 - openssl_encrypt before 1.4.0 Sandbox Escape via Type Hierarchy",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-74899",
-      "summary": "CVE ID :CVE-2026-74899 Published : Aug. 17, 2026, 11:16 a.m. | 43 minutes ago Description :openssl_encrypt versions before 1.4.0 contain a sandbox escape vulnerability in IsolatedPluginExecutor that...",
+      "summary": "CVE ID :CVE-2026-74899 Published : Aug. 17, 2026, 11:16 a.m. | 1 hour ago Description :openssl_encrypt versions before 1.4.0 contain a sandbox escape vulnerability in IsolatedPluginExecutor that...",
       "source": "CVE Feed",
       "published": "2026-08-17T11:16:44+00:00"
     },
     {
       "title": "CVE-2026-74896 - openssl_encrypt before 1.4.0 Sandbox Escape via Dunder Attribute Traversal",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-74896",
-      "summary": "CVE ID :CVE-2026-74896 Published : Aug. 17, 2026, 11:16 a.m. | 43 minutes ago Description :openssl_encrypt versions before 1.4.0 contain a sandbox escape vulnerability in the DangerousPatternVisitor...",
+      "summary": "CVE ID :CVE-2026-74896 Published : Aug. 17, 2026, 11:16 a.m. | 1 hour ago Description :openssl_encrypt versions before 1.4.0 contain a sandbox escape vulnerability in the DangerousPatternVisitor AST...",
       "source": "CVE Feed",
       "published": "2026-08-17T11:16:44+00:00"
     },
     {
       "title": "CVE-2026-74895 - openssl_encrypt before 1.4.0 Plugin Sandbox Bypass via Process Isolation",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-74895",
-      "summary": "CVE ID :CVE-2026-74895 Published : Aug. 17, 2026, 11:16 a.m. | 43 minutes ago Description :openssl_encrypt versions before 1.4.0 fail to apply sandbox restrictions in the default process isolation...",
+      "summary": "CVE ID :CVE-2026-74895 Published : Aug. 17, 2026, 11:16 a.m. | 1 hour, 1 minute ago Description :openssl_encrypt versions before 1.4.0 fail to apply sandbox restrictions in the default process...",
       "source": "CVE Feed",
       "published": "2026-08-17T11:16:44+00:00"
     },
     {
       "title": "CVE-2026-74894 - openssl_encrypt before 1.4.0 Authentication Bypass via Bearer Token",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-74894",
-      "summary": "CVE ID :CVE-2026-74894 Published : Aug. 17, 2026, 11:16 a.m. | 43 minutes ago Description :openssl_encrypt before 1.4.0 contains an authentication bypass vulnerability in the verify_api_token...",
+      "summary": "CVE ID :CVE-2026-74894 Published : Aug. 17, 2026, 11:16 a.m. | 1 hour, 1 minute ago Description :openssl_encrypt before 1.4.0 contains an authentication bypass vulnerability in the verify_api_token...",
       "source": "CVE Feed",
       "published": "2026-08-17T11:16:44+00:00"
     },
     {
       "title": "CVE-2026-74893 - openssl_encrypt before 1.4.0 JWT Token Forgery via Hardcoded Secrets",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-74893",
-      "summary": "CVE ID :CVE-2026-74893 Published : Aug. 17, 2026, 11:16 a.m. | 43 minutes ago Description :openssl_encrypt versions before 1.4.0 contain hardcoded default JWT signing secrets in config.py that pass...",
+      "summary": "CVE ID :CVE-2026-74893 Published : Aug. 17, 2026, 11:16 a.m. | 1 hour, 1 minute ago Description :openssl_encrypt versions before 1.4.0 contain hardcoded default JWT signing secrets in config.py that...",
       "source": "CVE Feed",
       "published": "2026-08-17T11:16:44+00:00"
     },
     {
       "title": "CVE-2026-74892 - openssl_encrypt before 1.4.0 Hardcoded Secret Key",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-74892",
-      "summary": "CVE ID :CVE-2026-74892 Published : Aug. 17, 2026, 11:16 a.m. | 43 minutes ago Description :openssl_encrypt versions before 1.4.0 contain a hardcoded default secret key in the standalone telemetry...",
+      "summary": "CVE ID :CVE-2026-74892 Published : Aug. 17, 2026, 11:16 a.m. | 1 hour, 1 minute ago Description :openssl_encrypt versions before 1.4.0 contain a hardcoded default secret key in the standalone...",
       "source": "CVE Feed",
       "published": "2026-08-17T11:16:44+00:00"
     },
     {
       "title": "CVE-2026-74891 - openssl_encrypt before 1.4.0 Hardcoded Database Credentials",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-74891",
-      "summary": "CVE ID :CVE-2026-74891 Published : Aug. 17, 2026, 11:16 a.m. | 43 minutes ago Description :openssl_encrypt versions before 1.4.0 contain hardcoded database credentials in standalone server...",
+      "summary": "CVE ID :CVE-2026-74891 Published : Aug. 17, 2026, 11:16 a.m. | 1 hour, 1 minute ago Description :openssl_encrypt versions before 1.4.0 contain hardcoded database credentials in standalone server...",
       "source": "CVE Feed",
       "published": "2026-08-17T11:16:44+00:00"
     },
     {
       "title": "CVE-2026-74890 - openssl_encrypt before 1.4.0 HMAC Authentication Bypass via Environment Variable",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-74890",
-      "summary": "CVE ID :CVE-2026-74890 Published : Aug. 17, 2026, 11:16 a.m. | 43 minutes ago Description :openssl_encrypt versions before 1.4.0 contain an authentication bypass vulnerability in CamelliaCipher that...",
+      "summary": "CVE ID :CVE-2026-74890 Published : Aug. 17, 2026, 11:16 a.m. | 1 hour, 1 minute ago Description :openssl_encrypt versions before 1.4.0 contain an authentication bypass vulnerability in CamelliaCipher...",
       "source": "CVE Feed",
       "published": "2026-08-17T11:16:43+00:00"
     },
     {
       "title": "CVE-2026-74889 - openssl_encrypt before 1.4.0 Weak Key Derivation via HKDF",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-74889",
-      "summary": "CVE ID :CVE-2026-74889 Published : Aug. 17, 2026, 11:16 a.m. | 43 minutes ago Description :openssl_encrypt versions before 1.4.0 use HKDF with no salt and static info parameter in key normalization...",
+      "summary": "CVE ID :CVE-2026-74889 Published : Aug. 17, 2026, 11:16 a.m. | 1 hour, 1 minute ago Description :openssl_encrypt versions before 1.4.0 use HKDF with no salt and static info parameter in key...",
       "source": "CVE Feed",
       "published": "2026-08-17T11:16:43+00:00"
     },
     {
       "title": "CVE-2026-74888 - openssl_encrypt before 1.4.0 Non-Standard PBKDF2 Key Derivation",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-74888",
-      "summary": "CVE ID :CVE-2026-74888 Published : Aug. 17, 2026, 11:16 a.m. | 43 minutes ago Description :openssl_encrypt versions before 1.4.0 use a non-standard PBKDF2 key derivation construction with...",
+      "summary": "CVE ID :CVE-2026-74888 Published : Aug. 17, 2026, 11:16 a.m. | 1 hour, 1 minute ago Description :openssl_encrypt versions before 1.4.0 use a non-standard PBKDF2 key derivation construction with...",
       "source": "CVE Feed",
       "published": "2026-08-17T11:16:43+00:00"
     },
     {
       "title": "CVE-2026-74887 - openssl_encrypt before 1.4.0 Insecure Random Import in PQC Module",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-74887",
-      "summary": "CVE ID :CVE-2026-74887 Published : Aug. 17, 2026, 11:16 a.m. | 43 minutes ago Description :openssl_encrypt before 1.4.0 imports Python's non-cryptographic 'random' module (Mersenne Twister PRNG) at...",
+      "summary": "CVE ID :CVE-2026-74887 Published : Aug. 17, 2026, 11:16 a.m. | 1 hour, 1 minute ago Description :openssl_encrypt before 1.4.0 imports Python's non-cryptographic 'random' module (Mersenne Twister...",
       "source": "CVE Feed",
       "published": "2026-08-17T11:16:43+00:00"
     },
     {
       "title": "CVE-2026-74886 - openssl_encrypt before 1.4.0 Plugin Import Guard Bypass",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-74886",
-      "summary": "CVE ID :CVE-2026-74886 Published : Aug. 17, 2026, 11:16 a.m. | 43 minutes ago Description :openssl_encrypt versions before 1.4.0 contain a plugin sandbox bypass vulnerability where the...",
+      "summary": "CVE ID :CVE-2026-74886 Published : Aug. 17, 2026, 11:16 a.m. | 1 hour, 1 minute ago Description :openssl_encrypt versions before 1.4.0 contain a plugin sandbox bypass vulnerability where the...",
       "source": "CVE Feed",
       "published": "2026-08-17T11:16:43+00:00"
     },
     {
       "title": "CVE-2026-74885 - openssl_encrypt before 1.4.0 Logging Bug and Race Condition",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-74885",
-      "summary": "CVE ID :CVE-2026-74885 Published : Aug. 17, 2026, 11:16 a.m. | 43 minutes ago Description :openssl_encrypt versions before 1.4.0 contain a logging bug in restore_hidden_modules() that logs module...",
+      "summary": "CVE ID :CVE-2026-74885 Published : Aug. 17, 2026, 11:16 a.m. | 1 hour, 1 minute ago Description :openssl_encrypt versions before 1.4.0 contain a logging bug in restore_hidden_modules() that logs...",
       "source": "CVE Feed",
       "published": "2026-08-17T11:16:43+00:00"
     },
     {
       "title": "CVE-2026-74884 - openssl_encrypt before 1.4.0 Path Traversal via plugin_id",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-74884",
-      "summary": "CVE ID :CVE-2026-74884 Published : Aug. 17, 2026, 11:16 a.m. | 43 minutes ago Description :openssl_encrypt versions before 1.4.0 contain a path traversal vulnerability in the _is_safe_path method...",
+      "summary": "CVE ID :CVE-2026-74884 Published : Aug. 17, 2026, 11:16 a.m. | 1 hour, 1 minute ago Description :openssl_encrypt versions before 1.4.0 contain a path traversal vulnerability in the _is_safe_path...",
       "source": "CVE Feed",
       "published": "2026-08-17T11:16:43+00:00"
     },
     {
       "title": "CVE-2026-74883 - openssl_encrypt before 1.4.0 Sandbox Bypass via pathlib and io",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-74883",
-      "summary": "CVE ID :CVE-2026-74883 Published : Aug. 17, 2026, 11:16 a.m. | 43 minutes ago Description :openssl_encrypt versions before 1.4.0 contain a sandbox bypass vulnerability where the plugin sandbox fails...",
+      "summary": "CVE ID :CVE-2026-74883 Published : Aug. 17, 2026, 11:16 a.m. | 1 hour, 1 minute ago Description :openssl_encrypt versions before 1.4.0 contain a sandbox bypass vulnerability where the plugin sandbox...",
       "source": "CVE Feed",
       "published": "2026-08-17T11:16:42+00:00"
     },
     {
       "title": "CVE-2026-74882 - openssl_encrypt before 1.4.0 Insecure Default Configuration",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-74882",
-      "summary": "CVE ID :CVE-2026-74882 Published : Aug. 17, 2026, 11:16 a.m. | 43 minutes ago Description :openssl_encrypt versions before 1.4.0 contain an insecure default configuration that trusts the entire RFC...",
+      "summary": "CVE ID :CVE-2026-74882 Published : Aug. 17, 2026, 11:16 a.m. | 1 hour, 1 minute ago Description :openssl_encrypt versions before 1.4.0 contain an insecure default configuration that trusts the entire...",
       "source": "CVE Feed",
       "published": "2026-08-17T11:16:42+00:00"
     },
     {
       "title": "CVE-2026-74880 - openssl_encrypt before 1.4.0 Token Leakage via Query Parameters",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-74880",
-      "summary": "CVE ID :CVE-2026-74880 Published : Aug. 17, 2026, 11:16 a.m. | 43 minutes ago Description :openssl_encrypt versions before 1.4.0 accept refresh tokens as URL query parameters in keyserver and...",
+      "summary": "CVE ID :CVE-2026-74880 Published : Aug. 17, 2026, 11:16 a.m. | 1 hour, 1 minute ago Description :openssl_encrypt versions before 1.4.0 accept refresh tokens as URL query parameters in keyserver and...",
       "source": "CVE Feed",
       "published": "2026-08-17T11:16:42+00:00"
     },
     {
       "title": "CVE-2026-74879 - openssl_encrypt before 1.4.0 Information Disclosure via /ready endpoint",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-74879",
-      "summary": "CVE ID :CVE-2026-74879 Published : Aug. 17, 2026, 11:16 a.m. | 43 minutes ago Description :openssl_encrypt versions before 1.4.0 contain an information disclosure vulnerability in the /ready endpoint...",
+      "summary": "CVE ID :CVE-2026-74879 Published : Aug. 17, 2026, 11:16 a.m. | 1 hour, 1 minute ago Description :openssl_encrypt versions before 1.4.0 contain an information disclosure vulnerability in the /ready...",
       "source": "CVE Feed",
       "published": "2026-08-17T11:16:42+00:00"
     },
     {
       "title": "CVE-2026-74878 - openssl_encrypt before 1.4.0 TOTP Rate Limiter Bypass",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-74878",
-      "summary": "CVE ID :CVE-2026-74878 Published : Aug. 17, 2026, 11:16 a.m. | 43 minutes ago Description :openssl_encrypt versions before 1.4.0 use an in-memory rate limiter for TOTP brute-force protection that is...",
+      "summary": "CVE ID :CVE-2026-74878 Published : Aug. 17, 2026, 11:16 a.m. | 1 hour, 1 minute ago Description :openssl_encrypt versions before 1.4.0 use an in-memory rate limiter for TOTP brute-force protection...",
       "source": "CVE Feed",
       "published": "2026-08-17T11:16:42+00:00"
     },
     {
       "title": "CVE-2026-74877 - openssl_encrypt before 1.4.0 Missing Ownership Verification via revoke_key",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-74877",
-      "summary": "CVE ID :CVE-2026-74877 Published : Aug. 17, 2026, 11:16 a.m. | 43 minutes ago Description :openssl_encrypt versions before 1.4.0 contain a missing ownership verification vulnerability in the...",
+      "summary": "CVE ID :CVE-2026-74877 Published : Aug. 17, 2026, 11:16 a.m. | 1 hour, 1 minute ago Description :openssl_encrypt versions before 1.4.0 contain a missing ownership verification vulnerability in the...",
       "source": "CVE Feed",
       "published": "2026-08-17T11:16:42+00:00"
     },
     {
       "title": "CVE-2026-74876 - openssl_encrypt before 1.4.0 Unverified Key Bundle Encryption",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-74876",
-      "summary": "CVE ID :CVE-2026-74876 Published : Aug. 17, 2026, 11:16 a.m. | 43 minutes ago Description :openssl_encrypt versions before 1.4.0 contain a vulnerability in PublicKeyBundle.from_dict() that creates...",
+      "summary": "CVE ID :CVE-2026-74876 Published : Aug. 17, 2026, 11:16 a.m. | 1 hour, 1 minute ago Description :openssl_encrypt versions before 1.4.0 contain a vulnerability in PublicKeyBundle.from_dict() that...",
       "source": "CVE Feed",
       "published": "2026-08-17T11:16:42+00:00"
     },
     {
       "title": "CVE-2026-74875 - openssl_encrypt before 1.4.0 Schema Validation Bypass",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-74875",
-      "summary": "CVE ID :CVE-2026-74875 Published : Aug. 17, 2026, 11:16 a.m. | 43 minutes ago Description :openssl_encrypt versions before 1.4.0 silently skip JSON schema validation when the jsonschema library is...",
+      "summary": "CVE ID :CVE-2026-74875 Published : Aug. 17, 2026, 11:16 a.m. | 1 hour, 1 minute ago Description :openssl_encrypt versions before 1.4.0 silently skip JSON schema validation when the jsonschema library...",
       "source": "CVE Feed",
       "published": "2026-08-17T11:16:41+00:00"
     },
     {
       "title": "CVE-2026-74874 - openssl_encrypt before 1.4.0 Weak PRNG Steganography Pixel Selection",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-74874",
-      "summary": "CVE ID :CVE-2026-74874 Published : Aug. 17, 2026, 11:16 a.m. | 43 minutes ago Description :openssl_encrypt versions before 1.4.0 use Python's non-cryptographic random module for steganographic pixel...",
+      "summary": "CVE ID :CVE-2026-74874 Published : Aug. 17, 2026, 11:16 a.m. | 1 hour, 1 minute ago Description :openssl_encrypt versions before 1.4.0 use Python's non-cryptographic random module for steganographic...",
       "source": "CVE Feed",
       "published": "2026-08-17T11:16:41+00:00"
     },
@@ -189,6 +238,20 @@
       "summary": "Anthropic has been conducting tests to identify issues in how AI agents interact with each other. The post Conflicting Test Goals Pushed Claude Agents to Deploy Self-Replicating Malware appeared...",
       "source": "SecurityWeek",
       "published": "2026-08-17T11:09:57+00:00"
+    },
+    {
+      "title": "Vulnerability in OutSystems Service Center software",
+      "link": "https://cert.pl/en/posts/2026/08/CVE-2026-40126/",
+      "summary": "Vulnerability in OutSystems Service Center software Vulnerability in OutSystems Service Center software CVE ID CVE-2026-40126 Publication date 17 August 2026 Vendor OutSystems Product Service Center...",
+      "source": "CVE Newsroom",
+      "published": "2026-08-17T10:55:00+00:00"
+    },
+    {
+      "title": "Unisoc VoLTE Video Call Exploit Chain Can Give Attackers Full Android Kernel Access",
+      "link": "https://thehackernews.com/2026/08/unisoc-volte-video-call-exploit-chain.html",
+      "summary": "Security researchers at SSD Secure Disclosure have published a two-stage exploit chain that achieves full Android kernel access on devices running Unisoc modem firmware through a VoLTE video call...",
+      "source": "The Hacker News",
+      "published": "2026-08-17T10:52:34+00:00"
     },
     {
       "title": "French tax authority data breach affects 678,000 individuals",
@@ -207,8 +270,8 @@
     {
       "title": "Evooo1Bot Linux Botnet Exploits Known Flaws to Turn Edge Devices Into SOCKS5 Proxies",
       "link": "https://thehackernews.com/2026/08/evooo1bot-linux-botnet-exploits-known.html",
-      "summary": "Cybersecurity researchers have flagged a previously undocumented Linux botnet family dubbed Evooo1Bot that derives its core functionality from the Mirai botnet source code and is equipped to turn...",
-      "source": "The Hacker News",
+      "summary": "Evooo1Bot Linux Botnet Exploits Known Flaws to Turn Edge Devices Into SOCKS5 Proxies Cybersecurity researchers have flagged a previously undocumented Linux botnet family dubbed Evooo1Bot that derives...",
+      "source": "CVE Newsroom",
       "published": "2026-08-17T09:29:55+00:00"
     },
     {
@@ -242,8 +305,8 @@
     {
       "title": "Suspected China-Nexus Actor Exploits VMware vCenter Flaw, Deploys Babuk-Derived Ransomware",
       "link": "https://thehackernews.com/2026/08/suspected-china-nexus-actor-exploits.html",
-      "summary": "Cybersecurity researchers have attributed the exploitation of a newly patched security flaw in Broadcom VMware vCenter to a suspected China-nexus advanced persistent threat (APT). The attacks involve...",
-      "source": "The Hacker News",
+      "summary": "Suspected China-Nexus Actor Exploits VMware vCenter Flaw, Deploys Babuk-Derived Ransomware Cybersecurity researchers have attributed the exploitation of a newly patched security flaw in Broadcom...",
+      "source": "CVE Newsroom",
       "published": "2026-08-17T07:36:19+00:00"
     },
     {
@@ -305,15 +368,15 @@
     {
       "title": "SAP Commerce Cloud CVE-2026-58231 Targeted in Exploitation Attempts Days After Patch",
       "link": "https://thehackernews.com/2026/08/sap-commerce-cloud-cve-2026-58231.html",
-      "summary": "A maximum-severity security vulnerability impacting SAP Commerce Cloud is witnessing active exploitation efforts. The vulnerability, tracked as CVE-2026-58231, is rated 10.0 on the CVSS scoring...",
-      "source": "The Hacker News",
+      "summary": "SAP Commerce Cloud CVE-2026-58231 Targeted in Exploitation Attempts Days After Patch A maximum-severity security vulnerability impacting SAP Commerce Cloud is witnessing active exploitation efforts...",
+      "source": "CVE Newsroom",
       "published": "2026-08-15T08:38:46+00:00"
     },
     {
       "title": "Apple macOS Screen Sharing Flaw Exploited on Internet-Exposed Macs to Install Monero Miner",
       "link": "https://thehackernews.com/2026/08/apple-macos-screen-sharing-flaw.html",
-      "summary": "A recently patched security flaw in Apple macOS has come under active exploitation in the wild to deploy a cryptocurrency miner, the Netherlands National Cyber Security Centre (NCSC) has warned. The...",
-      "source": "The Hacker News",
+      "summary": "Apple macOS Screen Sharing Flaw Exploited on Internet-Exposed Macs to Install Monero Miner A recently patched security flaw in Apple macOS has come under active exploitation in the wild to deploy a...",
+      "source": "CVE Newsroom",
       "published": "2026-08-15T07:24:04+00:00"
     },
     {
@@ -457,13 +520,6 @@
       "published": "2026-08-14T11:57:51+00:00"
     },
     {
-      "title": "Shell investigates 'potential incident' after Clop data theft claims",
-      "link": "https://www.bleepingcomputer.com/news/security/shell-investigates-potential-incident-after-clop-data-theft-claims/",
-      "summary": "Oil giant Shell has confirmed it is investigating a potential security incident after the Clop ransomware gang claimed it stole 89GB of data. [...]",
-      "source": "BleepingComputer",
-      "published": "2026-08-14T11:55:45+00:00"
-    },
-    {
       "title": "Trivy, Not LiteLLM Behind the 2,500 Org Compromise",
       "link": "https://www.securityweek.com/trivy-not-litellm-behind-the-2500-org-compromise/",
       "summary": "Over 95% of the affected companies were exposed before the malicious LiteLLM packages were published. The post Trivy, Not LiteLLM Behind the 2,500 Org Compromise appeared first on SecurityWeek.",
@@ -499,25 +555,11 @@
       "published": "2026-08-14T10:57:00+00:00"
     },
     {
-      "title": "RingCentral data breach exposed info of 1.6 million accounts",
-      "link": "https://www.bleepingcomputer.com/news/security/ringcentral-data-breach-exposed-info-of-16-million-accounts/",
-      "summary": "The ShinyHunters extortion group stole personal information from 1.6 million RingCentral accounts after hacking the company in July, according to the data breach notification service Have I Been...",
-      "source": "BleepingComputer",
-      "published": "2026-08-14T10:52:05+00:00"
-    },
-    {
       "title": "Apple Warns Users in 110 Countries They May Be Targets of Mercenary Spyware",
       "link": "https://thehackernews.com/2026/08/apple-warns-users-in-110-countries-they.html",
       "summary": "Apple on Thursday sent a fresh batch of notifications to customers whom it suspects may have been targeted by mercenary spyware attacks. In a statement shared with TechCrunch, the iPhone maker said...",
       "source": "The Hacker News",
       "published": "2026-08-14T10:44:34+00:00"
-    },
-    {
-      "title": "1.6 Million Likely Impacted by RingCentral Data Breach",
-      "link": "https://www.securityweek.com/1-6-million-likely-impacted-by-ringcentral-data-breach/",
-      "summary": "The hackers published the allegedly stolen information, including names, addresses, email addresses, and phone numbers. The post 1.6 Million Likely Impacted by RingCentral Data Breach appeared first...",
-      "source": "SecurityWeek",
-      "published": "2026-08-14T10:24:03+00:00"
     },
     {
       "title": "Microsoft verwacht misbruik van Windows-lek gevonden door dozijn onderzoekers",
@@ -532,13 +574,6 @@
       "summary": "A new White House memo signed by U.S. President Donald Trump has instructed the National Coordination Center (NCC) to establish a program that would allow private sector companies to take advantage...",
       "source": "The Hacker News",
       "published": "2026-08-14T09:38:56+00:00"
-    },
-    {
-      "title": "Over 1,000 Charities Hit by Beacon CRM Data Breach",
-      "link": "https://www.securityweek.com/over-1000-charities-hit-by-beacon-crm-data-breach/",
-      "summary": "The root cause of the incident is believed to be a compromised AWS access key that was exposed in publicly available JavaScript build artifacts. The post Over 1,000 Charities Hit by Beacon CRM Data...",
-      "source": "SecurityWeek",
-      "published": "2026-08-14T09:20:28+00:00"
     },
     {
       "title": "Kritiek Citrix NetScaler-lek maakt ook remote code execution mogelijk",
@@ -571,15 +606,15 @@
     {
       "title": "GeoServer Zero-Day Targeted in Active Exploitation Attempts, Can Lead to RCE",
       "link": "https://thehackernews.com/2026/08/unpatched-geoserver-zero-day-targeted.html",
-      "summary": "A newly disclosed zero-day flaw in GeoServer is seeing active exploitation efforts, per watchTowr. The vulnerability, which has yet to be assigned a CVE identifier, is an SQL injection vulnerability...",
-      "source": "The Hacker News",
+      "summary": "GeoServer Zero-Day Targeted in Active Exploitation Attempts, Can Lead to RCE A newly disclosed zero-day flaw in GeoServer is seeing active exploitation efforts, per watchTowr. The vulnerability...",
+      "source": "CVE Newsroom",
       "published": "2026-08-13T18:45:12+00:00"
     },
     {
       "title": "ThreatsDay: GhostJacking AI Attacks, EtherHiding ClickFix, Cursor CLI Flaw + 17 More Stories",
       "link": "https://thehackernews.com/2026/08/threatsday-ghostjacking-ai-attacks.html",
-      "summary": "Some weeks have one big security story. Others bring many smaller updates that are easy to miss but still matter. This week has plenty of them, covering cloud services, AI tools, malware, data...",
-      "source": "The Hacker News",
+      "summary": "ThreatsDay: GhostJacking AI Attacks, EtherHiding ClickFix, Cursor CLI Flaw + 17 More Stories Some weeks have one big security story. Others bring many smaller updates that are easy to miss but still...",
+      "source": "CVE Newsroom",
       "published": "2026-08-13T18:17:10+00:00"
     },
     {
@@ -599,23 +634,16 @@
     {
       "title": "New PATCHCORD Backdoor Targets Afghan Telecom and Indian Critical Infrastructure",
       "link": "https://thehackernews.com/2026/08/new-patchcord-backdoor-targets-afghan.html",
-      "summary": "Afghan telecom providers and South Asian critical infrastructure organizations have emerged as the target of a new ongoing campaign that delivers a previously undocumented backdoor called PATCHCORD...",
-      "source": "The Hacker News",
+      "summary": "New PATCHCORD Backdoor Targets Afghan Telecom and Indian Critical Infrastructure Afghan telecom providers and South Asian critical infrastructure organizations have emerged as the target of a new...",
+      "source": "CVE Newsroom",
       "published": "2026-08-13T15:00:29+00:00"
     },
     {
       "title": "AmnesiaStealer Hijacks Chromium Sessions to Give Attackers Live Browser Control on macOS",
       "link": "https://thehackernews.com/2026/08/amnesiastealer-hijacks-chromium.html",
-      "summary": "Cybersecurity researchers have disclosed details of a new macOS-oriented, Rust-based information stealer called AmnesiaStealer that's capable of hijacking Chromium web browsers to steal session data...",
-      "source": "The Hacker News",
+      "summary": "AmnesiaStealer Hijacks Chromium Sessions to Give Attackers Live Browser Control on macOS Cybersecurity researchers have disclosed details of a new macOS-oriented, Rust-based information stealer...",
+      "source": "CVE Newsroom",
       "published": "2026-08-13T13:43:14+00:00"
-    },
-    {
-      "title": "Brazil orders Discord to suspend livestreaming after teen suicide",
-      "link": "https://therecord.media/discord-brazil-orders-suspension-livestreaming",
-      "summary": "Discord's Go Live feature contributed to a 13-year-old girl's death by suicide, according to Brazilian regulators, who told the company to suspend the streaming technology.",
-      "source": "The Record",
-      "published": "2026-08-13T13:37:32+00:00"
     },
     {
       "title": "WordPress-lek maakt remote code execution via file upload mogelijk",
@@ -683,16 +711,9 @@
     {
       "title": "Attackers Exploit SharePoint Authentication Bypass After Public PoC Release",
       "link": "https://thehackernews.com/2026/08/attackers-exploit-sharepoint.html",
-      "summary": "Attackers Exploit SharePoint Authentication Bypass After Public PoC Release Threat actors have begun to exploit a newly disclosed Microsoft SharePoint vulnerability following the release of a...",
-      "source": "CVE Newsroom",
+      "summary": "Threat actors have begun to exploit a newly disclosed Microsoft SharePoint vulnerability following the release of a proof-of-concept (PoC) code. The vulnerability in question is CVE-2026-55040 (CVSS...",
+      "source": "The Hacker News",
       "published": "2026-08-13T06:09:48+00:00"
-    },
-    {
-      "title": "Adobe August 2026 Security Update- Three Perfect 10",
-      "link": "https://thecyberthrone.in/2026/08/13/adobe-august-2026-security-update-three-perfect-10/",
-      "summary": "Adobe August 2026 Security Update- Three Perfect 10 Adobe has released security updates addressing seven vulnerabilities across ColdFusion, Commerce, and Campaign Classic, including three critical...",
-      "source": "CVE Newsroom",
-      "published": "2026-08-13T02:58:47+00:00"
     },
     {
       "title": "Long-running Data Theft Campaign Targeting Salesforce, ServiceNow",
@@ -704,8 +725,8 @@
     {
       "title": "Lazarus Exploits Windows Zero-Day to Gain SYSTEM Access and Deploy Backdoor",
       "link": "https://thehackernews.com/2026/08/lazarus-exploits-windows-zero-day-to.html",
-      "summary": "Lazarus Exploits Windows Zero-Day to Gain SYSTEM Access and Deploy Backdoor The North Korean threat actor known as Lazarus Group has been attributed to the zero-day exploitation of a newly patched...",
-      "source": "CVE Newsroom",
+      "summary": "The North Korean threat actor known as Lazarus Group has been attributed to the zero-day exploitation of a newly patched security flaw impacting Microsoft Windows to deliver a never-before-seen...",
+      "source": "The Hacker News",
       "published": "2026-08-12T17:39:27+00:00"
     },
     {
@@ -714,13 +735,6 @@
       "summary": "Walmart colocates red and blue teams to build trust and improve security through collaborative purple teaming exercises",
       "source": "Dark Reading",
       "published": "2026-08-12T16:28:04+00:00"
-    },
-    {
-      "title": "CISA Adds Cisco ASA and Microsoft Windows WinSock Vulnerabilities to KEV",
-      "link": "https://thecyberthrone.in/2026/08/12/cisa-adds-cisco-asa-and-microsoft-windows-winsock-vulnerabilities-to-kev/",
-      "summary": "CISA Adds Cisco ASA and Microsoft Windows WinSock Vulnerabilities to KEV CISA has added newly exploited vulnerabilities affecting Cisco Secure Firewall ASA/FTD and Microsoft Windows WinSock to its...",
-      "source": "CVE Newsroom",
-      "published": "2026-08-12T16:10:33+00:00"
     },
     {
       "title": "737 Chrome VPN Extensions Caught Routing Traffic Through Proxies. Check If You Have One",
@@ -760,37 +774,16 @@
     {
       "title": "Adobe Patches Three CVSS 10.0 ColdFusion and Campaign Classic Flaws",
       "link": "https://thehackernews.com/2026/08/adobe-patches-three-cvss-100-coldfusion.html",
-      "summary": "Adobe Patches Three CVSS 10.0 ColdFusion and Campaign Classic Flaws Adobe has shipped updates to address multiple critical security vulnerabilities impacting ColdFusion, Commerce, and Campaign...",
-      "source": "CVE Newsroom",
+      "summary": "Adobe has shipped updates to address multiple critical security vulnerabilities impacting ColdFusion, Commerce, and Campaign Classic that, if successfully exploited, could result in arbitrary code...",
+      "source": "The Hacker News",
       "published": "2026-08-12T11:13:03+00:00"
-    },
-    {
-      "title": "NCSC meldt actief misbruik van Screen Sharing-lek in macOS",
-      "link": "https://www.security.nl/posting/948925/NCSC+meldt+actief+misbruik+van+Screen+Sharing-lek+in+macOS?channel=rss",
-      "summary": "NCSC meldt actief misbruik van Screen Sharing-lek in macOS Het Nationaal Cyber Security Centrum (NCSC) meldt dat aanvallers actief misbruik maken van een kwetsbaarheid in de ScreenSharing-functie van...",
-      "source": "CVE Newsroom",
-      "published": "2026-08-12T10:21:42+00:00"
-    },
-    {
-      "title": "'Europese defensiesector aangevallen via nep-vacatures en Windows-zeroday'",
-      "link": "https://www.security.nl/posting/948915/%27Europese+defensiesector+aangevallen+via+nep-vacatures+en+Windows-zeroday%27?channel=rss",
-      "summary": "'Europese defensiesector aangevallen via nep-vacatures en Windows-zeroday' Europese defensiebedrijven zijn recentelijk het doelwit van cyberaanvallen geworden, waarbij nep-vacatures en een zerodaylek...",
-      "source": "CVE Newsroom",
-      "published": "2026-08-12T09:53:17+00:00"
     },
     {
       "title": "Attackers Exploit VMware vCenter Vulnerability to Gain Persistent Remote Access",
       "link": "https://thehackernews.com/2026/08/attackers-exploit-vmware-vcenter.html",
-      "summary": "Attackers Exploit VMware vCenter Vulnerability to Gain Persistent Remote Access Threat actors have begun to actively exploit a recently patched critical security flaw in Broadcom VMware vCenter...",
-      "source": "CVE Newsroom",
+      "summary": "Threat actors have begun to actively exploit a recently patched critical security flaw in Broadcom VMware vCenter, according to new findings from QUIRSO. The vulnerability in question is...",
+      "source": "The Hacker News",
       "published": "2026-08-12T09:01:54+00:00"
-    },
-    {
-      "title": "Microsoft Patchdinsdag: Misbruikt Windows-lek, kritieke updates Office en Exchange",
-      "link": "https://www.security.nl/posting/948908/Microsoft+Patchdinsdag%3A+Misbruikt+Windows-lek%2C+kritieke+updates+Office+en+Exchange?channel=rss",
-      "summary": "Microsoft Patchdinsdag: Misbruikt Windows-lek, kritieke updates Office en Exchange Tijdens de patchdinsdag van augustus heeft Microsoft updates voor honderden kwetsbaarheden uitgebracht, waaronder...",
-      "source": "CVE Newsroom",
-      "published": "2026-08-12T08:42:37+00:00"
     },
     {
       "title": "Malicious LiteLLM Releases Tied to Trivy Hack May Have Exposed 2,100+ Organizations",
@@ -1015,27 +1008,6 @@
       "summary": "A lot of security problems still begin with someone doing a completely normal thing. Cloning a repo. Answering a call. Leaving a box exposed. Trusting the default. That pretty much covers the mood...",
       "source": "The Hacker News",
       "published": "2026-08-10T15:00:29+00:00"
-    },
-    {
-      "title": "Kimsuky Builds Offline AI Stack to Boost Phishing and Automate Malware Development",
-      "link": "https://thehackernews.com/2026/08/kimsuky-builds-offline-ai-stack-that.html",
-      "summary": "North Korea's state hackers are no longer content to type prompts into public chatbots. One of the country's main espionage groups has begun running artificial intelligence (AI) offline on its own...",
-      "source": "The Hacker News",
-      "published": "2026-08-10T13:19:58+00:00"
-    },
-    {
-      "title": "New Passkey Attacks Can Recover Synced Private Keys or Bypass Phishing-Resistant MFA",
-      "link": "https://thehackernews.com/2026/08/new-passkey-attacks-can-recover-synced.html",
-      "summary": "Three separate research efforts last week demonstrated ways to defeat passkey protections without breaking the cryptography they rest on. Passkeys are designed to replace reusable passwords and...",
-      "source": "The Hacker News",
-      "published": "2026-08-10T12:25:04+00:00"
-    },
-    {
-      "title": "TrueConf Server Flaws Exploited to Replace Client Installers with PhantomCore",
-      "link": "https://thehackernews.com/2026/08/head-mare-exploits-trueconf-flaws-to.html",
-      "summary": "The threat actor known as Head Mare has been observed weaponizing security flaws in unpatched TrueConf servers once again in attacks targeting Russian companies spanning instrumentation, electronics...",
-      "source": "The Hacker News",
-      "published": "2026-08-10T11:33:41+00:00"
     },
     {
       "title": "AI-Generated Patches Fail Half the Time",
