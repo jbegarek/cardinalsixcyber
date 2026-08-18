@@ -1,6 +1,13 @@
 {
-  "last_updated": "2026-08-17T22:03:51.803079+00:00",
+  "last_updated": "2026-08-18T00:06:52.209707+00:00",
   "articles": [
+    {
+      "title": "CVE-2026-9816 - Insufficient server-side validation of board member role fields permits privilege escalation",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-9816",
+      "summary": "CVE ID :CVE-2026-9816 Published : Aug. 17, 2026, 10:05 p.m. | 12 minutes ago Description :Mattermost versions 11.7.x Severity: 8.3 | HIGH Visit the link for more details, such as CVSS details...",
+      "source": "CVE Feed",
+      "published": "2026-08-17T22:05:24+00:00"
+    },
     {
       "title": "Video Call Exploit Chains Two Flaws in Unisoc Modems",
       "link": "https://www.darkreading.com/mobile-security/video-call-exploit-chains-two-flaws-unisoc-modems",
@@ -9,10 +16,143 @@
       "published": "2026-08-17T21:37:23+00:00"
     },
     {
+      "title": "CVE-2026-75482 - SWE-agent Trajectory Inspector Path Traversal File Disclosure",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-75482",
+      "summary": "CVE ID :CVE-2026-75482 Published : Aug. 17, 2026, 9:16 p.m. | 1 hour, 1 minute ago Description :SWE-agent's trajectory inspector (sweagent inspector), confirmed in v1.1.0, is an HTTP server that...",
+      "source": "CVE Feed",
+      "published": "2026-08-17T21:16:50+00:00"
+    },
+    {
+      "title": "CVE-2026-75481 - SkyPilot Authentication Bypass via Service Account Role Escalation",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-75481",
+      "summary": "CVE ID :CVE-2026-75481 Published : Aug. 17, 2026, 9:16 p.m. | 1 hour, 1 minute ago Description :SkyPilot fails to validate that authenticated users are entitled to grant administrator roles when...",
+      "source": "CVE Feed",
+      "published": "2026-08-17T21:16:50+00:00"
+    },
+    {
+      "title": "CVE-2026-75479 - JimuReport Unauthenticated Report Listing and Share Token Disclosure",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-75479",
+      "summary": "CVE ID :CVE-2026-75479 Published : Aug. 17, 2026, 9:16 p.m. | 1 hour, 1 minute ago Description :JimuReport contains an authentication bypass vulnerability in the report folder template listing...",
+      "source": "CVE Feed",
+      "published": "2026-08-17T21:16:50+00:00"
+    },
+    {
+      "title": "CVE-2026-75111 - Evidently UI Path Traversal via Dataset Materialization Filename",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-75111",
+      "summary": "CVE ID :CVE-2026-75111 Published : Aug. 17, 2026, 9:16 p.m. | 1 hour, 1 minute ago Description :Evidently UI fails to properly validate the filename parameter in the dataset materialization endpoint...",
+      "source": "CVE Feed",
+      "published": "2026-08-17T21:16:50+00:00"
+    },
+    {
+      "title": "CVE-2026-75110 - MemOS Authentication Bypass via Unset INTERNAL_SERVICE_SECRET",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-75110",
+      "summary": "CVE ID :CVE-2026-75110 Published : Aug. 17, 2026, 9:16 p.m. | 1 hour, 1 minute ago Description :MemOS is a memory operating system for LLMs and AI agents. In deployments where authentication is...",
+      "source": "CVE Feed",
+      "published": "2026-08-17T21:16:50+00:00"
+    },
+    {
+      "title": "CVE-2026-75106 - OpnForm Editable Submission Secret Derivation via Empty Hashids Salt",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-75106",
+      "summary": "CVE ID :CVE-2026-75106 Published : Aug. 17, 2026, 9:16 p.m. | 1 hour, 1 minute ago Description :OpnForm derives editable-submission secrets from sequential row identifiers using Hashids with an empty...",
+      "source": "CVE Feed",
+      "published": "2026-08-17T21:16:49+00:00"
+    },
+    {
+      "title": "CVE-2026-75105 - phpIPAM Temporary Subnet Share Information Disclosure via Address Parameter",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-75105",
+      "summary": "CVE ID :CVE-2026-75105 Published : Aug. 17, 2026, 9:16 p.m. | 1 hour, 1 minute ago Description :phpIPAM through 1.8.1 fails to verify that a requested IP address belongs to the subnet a temporary...",
+      "source": "CVE Feed",
+      "published": "2026-08-17T21:16:49+00:00"
+    },
+    {
+      "title": "CVE-2026-75103 - Crawlab Missing Authorization on Password Change Endpoint Allows Account Takeover",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-75103",
+      "summary": "CVE ID :CVE-2026-75103 Published : Aug. 17, 2026, 9:16 p.m. | 1 hour, 1 minute ago Description :Crawlab fails to verify user ownership or administrative role on the password-change endpoint, allowing...",
+      "source": "CVE Feed",
+      "published": "2026-08-17T21:16:49+00:00"
+    },
+    {
+      "title": "CVE-2026-73410 - Budibase: SSRF via DNS rebinding in the REST datasource integration",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-73410",
+      "summary": "CVE ID :CVE-2026-73410 Published : Aug. 17, 2026, 9:16 p.m. | 1 hour, 1 minute ago Description :Budibase is an open-source low-code platform. Prior to 3.40.0...",
+      "source": "CVE Feed",
+      "published": "2026-08-17T21:16:48+00:00"
+    },
+    {
+      "title": "CVE-2026-71518 - Typemill < 2.26.0 Authorization Bypass via Media File Download Route",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-71518",
+      "summary": "CVE ID :CVE-2026-71518 Published : Aug. 17, 2026, 9:16 p.m. | 1 hour, 1 minute ago Description :Typemill before 2.26.0 contains an authorization bypass vulnerability in the media file download route...",
+      "source": "CVE Feed",
+      "published": "2026-08-17T21:16:48+00:00"
+    },
+    {
+      "title": "CVE-2026-66795 - Managedcluster-import-controller: managedcluster-import-controller: csr auto-approver does not validate certificate subject, signername, or requester identity",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-66795",
+      "summary": "CVE ID :CVE-2026-66795 Published : Aug. 17, 2026, 9:16 p.m. | 1 hour, 1 minute ago Description :A flaw was found in the managedcluster-import-controller. The Certificate Signing Request (CSR)...",
+      "source": "CVE Feed",
+      "published": "2026-08-17T21:16:47+00:00"
+    },
+    {
+      "title": "CVE-2026-65974 - ERPNext: Server-Side Template Injection leading to Remote Code Execution",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-65974",
+      "summary": "CVE ID :CVE-2026-65974 Published : Aug. 17, 2026, 9:16 p.m. | 1 hour, 1 minute ago Description :ERPNext is a free and open source Enterprise Resource Planning tool. Prior to 15.111.0 and 16.22.0...",
+      "source": "CVE Feed",
+      "published": "2026-08-17T21:16:46+00:00"
+    },
+    {
+      "title": "CVE-2026-65832 - Deskflow - Unauthenticated server-controlled out-of-bounds read in ServerProxy::setOptions / translateKey modifier-table indexing",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-65832",
+      "summary": "CVE ID :CVE-2026-65832 Published : Aug. 17, 2026, 9:16 p.m. | 1 hour, 1 minute ago Description :Deskflow is a keyboard and mouse sharing app. Prior to continuous build 1.26.0.299, a remote...",
+      "source": "CVE Feed",
+      "published": "2026-08-17T21:16:46+00:00"
+    },
+    {
+      "title": "CVE-2026-65640 - WordPress Arbitrary Remote Code Execution via Image Processing",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-65640",
+      "summary": "CVE ID :CVE-2026-65640 Published : Aug. 17, 2026, 9:16 p.m. | 1 hour, 1 minute ago Description :WordPress is vulnerable to a remote code execution vulnerability via malicious Postscript file upload...",
+      "source": "CVE Feed",
+      "published": "2026-08-17T21:16:46+00:00"
+    },
+    {
+      "title": "CVE-2026-64657 - Budibase: Database Connector SQL Injections in PostgreSQL, MS SQL, and MySQL",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-64657",
+      "summary": "CVE ID :CVE-2026-64657 Published : Aug. 17, 2026, 9:16 p.m. | 1 hour, 1 minute ago Description :Budibase is an open-source low-code platform. Prior to 3.39.19, the PostgreSQL datasource connector in...",
+      "source": "CVE Feed",
+      "published": "2026-08-17T21:16:46+00:00"
+    },
+    {
+      "title": "CVE-2026-63409 - Deskflow: Odd-length DSOP options vector causes out-of-bounds read in Deskflow client",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-63409",
+      "summary": "CVE ID :CVE-2026-63409 Published : Aug. 17, 2026, 9:16 p.m. | 1 hour, 1 minute ago Description :Deskflow is a keyboard and mouse sharing app. From 1.17.0 until continuous build 1.26.0.296, a...",
+      "source": "CVE Feed",
+      "published": "2026-08-17T21:16:46+00:00"
+    },
+    {
+      "title": "CVE-2026-47698 - vm2: Sandbox Breakout Using Dangerous Host Proto Mutators",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-47698",
+      "summary": "CVE ID :CVE-2026-47698 Published : Aug. 17, 2026, 9:16 p.m. | 1 hour, 1 minute ago Description :vm2 is an open source vm/sandbox for Node.js. Prior to 3.11.6, lib/bridge.js and lib/setup-sandbox.js...",
+      "source": "CVE Feed",
+      "published": "2026-08-17T21:16:45+00:00"
+    },
+    {
+      "title": "CVE-2026-47686 - vm2: Missing Error.cause Sanitization Enables VM2 Sandbox Escape to RCE",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-47686",
+      "summary": "CVE ID :CVE-2026-47686 Published : Aug. 17, 2026, 9:16 p.m. | 1 hour, 1 minute ago Description :vm2 is an open source vm/sandbox for Node.js. Prior to 3.11.6, handleException() in...",
+      "source": "CVE Feed",
+      "published": "2026-08-17T21:16:45+00:00"
+    },
+    {
+      "title": "CVE-2026-47683 - vm2: bufferAllocLimit cap bypassed by Buffer.concat and Buffer.from arrayLike",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-47683",
+      "summary": "CVE ID :CVE-2026-47683 Published : Aug. 17, 2026, 9:16 p.m. | 1 hour, 1 minute ago Description :vm2 is an open source vm/sandbox for Node.js. Prior to 3.11.6, the bufferAllocLimit enforcement in...",
+      "source": "CVE Feed",
+      "published": "2026-08-17T21:16:45+00:00"
+    },
+    {
       "title": "Critical GitLab GraphQL Flaw Could Let Unauthenticated Attackers Delete Public Projects",
       "link": "https://thehackernews.com/2026/08/critical-gitlab-graphql-flaw-could-let.html",
-      "summary": "GitLab has released security updates to address a critical vulnerability impacting its Community Edition (CE) and Enterprise Edition (EE) software that, under certain conditions, could allow an...",
-      "source": "The Hacker News",
+      "summary": "Critical GitLab GraphQL Flaw Could Let Unauthenticated Attackers Delete Public Projects GitLab has released security updates to address a critical vulnerability impacting its Community Edition (CE)...",
+      "source": "CVE Newsroom",
       "published": "2026-08-17T21:03:04+00:00"
     },
     {
@@ -25,35 +165,35 @@
     {
       "title": "CVE-2026-71472 - Acm-search-v2-rhel9: search-v2-operator: shell-command and sql injection in postgresql-start.sh via cr-supplied work_mem",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-71472",
-      "summary": "CVE ID :CVE-2026-71472 Published : Aug. 17, 2026, 8:16 p.m. | 13 minutes ago Description :A flaw was found in acm-search-v2-rhel9. This vulnerability allows an authenticated attacker, such as a hub...",
+      "summary": "CVE ID :CVE-2026-71472 Published : Aug. 17, 2026, 8:16 p.m. | 2 hours, 1 minute ago Description :A flaw was found in acm-search-v2-rhel9. This vulnerability allows an authenticated attacker, such as...",
       "source": "CVE Feed",
       "published": "2026-08-17T20:16:45+00:00"
     },
     {
       "title": "CVE-2026-70495 - Search-v2-operator: search-v2-operator: cluster-wide impersonate on users/groups shared across 4 pods grants hub system:masters",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-70495",
-      "summary": "CVE ID :CVE-2026-70495 Published : Aug. 17, 2026, 8:16 p.m. | 13 minutes ago Description :A flaw was found in search-v2-operator. This component's `search-serviceaccount` has overly broad...",
+      "summary": "CVE ID :CVE-2026-70495 Published : Aug. 17, 2026, 8:16 p.m. | 2 hours, 1 minute ago Description :A flaw was found in search-v2-operator. This component's `search-serviceaccount` has overly broad...",
       "source": "CVE Feed",
       "published": "2026-08-17T20:16:45+00:00"
     },
     {
       "title": "CVE-2026-57485 - Stirling-PDF: Internal Service Account API Key Disclosure via Pipeline Endpoint",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-57485",
-      "summary": "CVE ID :CVE-2026-57485 Published : Aug. 17, 2026, 8:16 p.m. | 14 minutes ago Description :Stirling-PDF is a locally hosted web application that facilitates various operations on PDF files. Prior to...",
+      "summary": "CVE ID :CVE-2026-57485 Published : Aug. 17, 2026, 8:16 p.m. | 2 hours, 1 minute ago Description :Stirling-PDF is a locally hosted web application that facilitates various operations on PDF files...",
       "source": "CVE Feed",
       "published": "2026-08-17T20:16:44+00:00"
     },
     {
       "title": "CVE-2026-57233 - Notepad++: Path Traversal (Zip Slip) in WinGup Plugin Extraction",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-57233",
-      "summary": "CVE ID :CVE-2026-57233 Published : Aug. 17, 2026, 8:16 p.m. | 14 minutes ago Description :Notepad++ is a free and open-source source code editor. Prior to 8.9.7, the WinGup decompress function joins...",
+      "summary": "CVE ID :CVE-2026-57233 Published : Aug. 17, 2026, 8:16 p.m. | 2 hours, 1 minute ago Description :Notepad++ is a free and open-source source code editor. Prior to 8.9.7, the WinGup decompress function...",
       "source": "CVE Feed",
       "published": "2026-08-17T20:16:44+00:00"
     },
     {
       "title": "CVE-2026-19478 - Improper Control of Generation of Code ('Code Injection') in GitLab",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-19478",
-      "summary": "CVE ID :CVE-2026-19478 Published : Aug. 17, 2026, 8:16 p.m. | 14 minutes ago Description :GitLab has remediated an issue in GitLab CE/EE affecting all versions from 18.2 before 18.11.11, 19.0 before...",
+      "summary": "CVE ID :CVE-2026-19478 Published : Aug. 17, 2026, 8:16 p.m. | 2 hours, 1 minute ago Description :GitLab has remediated an issue in GitLab CE/EE affecting all versions from 18.2 before 18.11.11, 19.0...",
       "source": "CVE Feed",
       "published": "2026-08-17T20:16:41+00:00"
     },
@@ -79,27 +219,6 @@
       "published": "2026-08-17T19:22:56+00:00"
     },
     {
-      "title": "CVE-2026-74238 - TIER IV Nebula 1.2.0 Heap Out-of-Bounds Read via VLP32 UDP Decoder",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-74238",
-      "summary": "CVE ID :CVE-2026-74238 Published : Aug. 17, 2026, 7:16 p.m. | 1 hour, 14 minutes ago Description :TIER IV Nebula through 1.2.0 contains an out-of-bounds read vulnerability in the...",
-      "source": "CVE Feed",
-      "published": "2026-08-17T19:16:42+00:00"
-    },
-    {
-      "title": "CVE-2026-66792 - Multicloud-operators-subscription: multicloud-operators-subscription: isclusteradmin() trusts user-settable annotations on managed clusters",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-66792",
-      "summary": "CVE ID :CVE-2026-66792 Published : Aug. 17, 2026, 7:16 p.m. | 1 hour, 14 minutes ago Description :A flaw was found in the multicloud-operators-subscription component. This vulnerability allows a user...",
-      "source": "CVE Feed",
-      "published": "2026-08-17T19:16:34+00:00"
-    },
-    {
-      "title": "CVE-2026-12553 - HP Web Jetadmin (WJA) - Potential Arbitrary File Read/Write",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-12553",
-      "summary": "CVE ID :CVE-2026-12553 Published : Aug. 17, 2026, 7:16 p.m. | 1 hour, 14 minutes ago Description :HP has identified a potential vulnerability in HP Web Jetadmin (WJA) that may allow an...",
-      "source": "CVE Feed",
-      "published": "2026-08-17T19:16:24+00:00"
-    },
-    {
       "title": "Pokémon Center data breach exposes customer info, cancels some orders",
       "link": "https://www.bleepingcomputer.com/news/security/pokemon-center-data-breach-exposes-customer-info-cancels-some-orders/",
       "summary": "Pokémon Center is notifying customers in the United Kingdom and Germany that it suffered a third-party data breach after hackers stole customer personal and order information from third-party...",
@@ -121,97 +240,6 @@
       "published": "2026-08-17T18:22:09+00:00"
     },
     {
-      "title": "CVE-2026-74254 - Joomla Extension - joomlack.fr - SQL injection in Page Builder CK < 3.6.5",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-74254",
-      "summary": "CVE ID :CVE-2026-74254 Published : Aug. 17, 2026, 6:18 p.m. | 2 hours, 12 minutes ago Description :Joomla Extension - joomlack.fr - SQL injection in Page Builder CK Severity: 9.3 | CRITICAL Visit the...",
-      "source": "CVE Feed",
-      "published": "2026-08-17T18:18:14+00:00"
-    },
-    {
-      "title": "CVE-2026-74253 - Joomla Extension - regularlabs.com - Unauthenticated RCE through unverified reflected user input in Sourcerer < 14.0.0",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-74253",
-      "summary": "CVE ID :CVE-2026-74253 Published : Aug. 17, 2026, 6:18 p.m. | 2 hours, 12 minutes ago Description :Joomla Extension - regularlabs.com - Unauthenticated RCE through unverified reflected user input in...",
-      "source": "CVE Feed",
-      "published": "2026-08-17T18:18:14+00:00"
-    },
-    {
-      "title": "CVE-2026-73523 - COVESA Open1722 0.9.2 Stack Memory Disclosure via acf-can-listener.c Integer Truncation",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-73523",
-      "summary": "CVE ID :CVE-2026-73523 Published : Aug. 17, 2026, 6:18 p.m. | 2 hours, 12 minutes ago Description :COVESA Open1722 through 0.9.2 contains an integer truncation vulnerability in acf-can-listener.c...",
-      "source": "CVE Feed",
-      "published": "2026-08-17T18:18:14+00:00"
-    },
-    {
-      "title": "CVE-2026-73522 - COVESA Open1722 0.9.2 Stack Buffer Overflow via avtp_to_can() in acf-can-listener",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-73522",
-      "summary": "CVE ID :CVE-2026-73522 Published : Aug. 17, 2026, 6:18 p.m. | 2 hours, 12 minutes ago Description :COVESA Open1722 through 0.9.2 contains a stack buffer overflow vulnerability that allows...",
-      "source": "CVE Feed",
-      "published": "2026-08-17T18:18:14+00:00"
-    },
-    {
-      "title": "CVE-2026-71980 - Belledonne Communications bcg729 1.1.2 Out-of-Bounds Read via decodeSIDframe()",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-71980",
-      "summary": "CVE ID :CVE-2026-71980 Published : Aug. 17, 2026, 6:18 p.m. | 2 hours, 12 minutes ago Description :Belledonne Communications bcg729 through 1.1.2 contains an out-of-bounds read vulnerability in the...",
-      "source": "CVE Feed",
-      "published": "2026-08-17T18:18:12+00:00"
-    },
-    {
-      "title": "CVE-2026-71979 - INDI indiserver 2.2.4.2 Stack Buffer Overflow via XML Tag Parsing",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-71979",
-      "summary": "CVE ID :CVE-2026-71979 Published : Aug. 17, 2026, 6:18 p.m. | 2 hours, 12 minutes ago Description :INDI (Instrument Neutral Distributed Interface) indiserver through 2.2.4.2, fixed in commit 96bbd7f...",
-      "source": "CVE Feed",
-      "published": "2026-08-17T18:18:12+00:00"
-    },
-    {
-      "title": "CVE-2026-71491 - sqlparse: Quadratic O(n²) DoS in group_comments",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-71491",
-      "summary": "CVE ID :CVE-2026-71491 Published : Aug. 17, 2026, 6:18 p.m. | 2 hours, 12 minutes ago Description :sqlparse is a non-validating SQL parser module for Python. Prior to 0.6.0, group_comments in...",
-      "source": "CVE Feed",
-      "published": "2026-08-17T18:18:12+00:00"
-    },
-    {
-      "title": "CVE-2026-62982 - Glances: Incomplete fix of CVE-2026-32608: action-template sanitizer is bypassed by nested stat values (process 'cmdline') → OS command injection",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-62982",
-      "summary": "CVE ID :CVE-2026-62982 Published : Aug. 17, 2026, 6:17 p.m. | 2 hours, 12 minutes ago Description :Glances is an open-source system cross-platform monitoring tool. From 4.5.2 until 4.5.6...",
-      "source": "CVE Feed",
-      "published": "2026-08-17T18:17:56+00:00"
-    },
-    {
-      "title": "CVE-2026-54284 - sqlparse: TokenList.__init__ materializes O(subtree) value per group, causing CPU DoS before depth/token caps trigger",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54284",
-      "summary": "CVE ID :CVE-2026-54284 Published : Aug. 17, 2026, 6:17 p.m. | 2 hours, 13 minutes ago Description :sqlparse is a non-validating SQL parser module for Python. Prior to 0.6.0, TokenList construction...",
-      "source": "CVE Feed",
-      "published": "2026-08-17T18:17:11+00:00"
-    },
-    {
-      "title": "CVE-2026-51346 - Stud.IP SQL Injection Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-51346",
-      "summary": "CVE ID :CVE-2026-51346 Published : Aug. 17, 2026, 6:17 p.m. | 2 hours, 13 minutes ago Description :SQL Injection vulnerability in StudIP 6.0.x before 6.0.3 and 5.4.x before 5.4.12 allows a remote...",
-      "source": "CVE Feed",
-      "published": "2026-08-17T18:17:09+00:00"
-    },
-    {
-      "title": "CVE-2026-50768 - T-Systems International GmbH ImageMaster Arbitrary Code Execution via File Upload",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-50768",
-      "summary": "CVE ID :CVE-2026-50768 Published : Aug. 17, 2026, 6:17 p.m. | 2 hours, 13 minutes ago Description :File Upload vulnerability in T-Systems International GmbH ImageMaster Version: 9.14.2.8.1 allows a...",
-      "source": "CVE Feed",
-      "published": "2026-08-17T18:17:08+00:00"
-    },
-    {
-      "title": "CVE-2026-46345 - compliance-trestle - jinja has an Arbitrary File Write via Path Traversal",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-46345",
-      "summary": "CVE ID :CVE-2026-46345 Published : Aug. 17, 2026, 6:16 p.m. | 2 hours, 14 minutes ago Description :compliance-trestle is a tooling platform for managing compliance as code. Prior to versions 3.12.2...",
-      "source": "CVE Feed",
-      "published": "2026-08-17T18:16:38+00:00"
-    },
-    {
-      "title": "CVE-2026-33437 - Stirling PDF: Stored XSS in Info Summary",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-33437",
-      "summary": "CVE ID :CVE-2026-33437 Published : Aug. 17, 2026, 6:16 p.m. | 2 hours, 14 minutes ago Description :Stirling-PDF is a locally hosted web application that facilitates various operations on PDF files...",
-      "source": "CVE Feed",
-      "published": "2026-08-17T18:16:35+00:00"
-    },
-    {
       "title": "Cavern C2 Uses DNS and Google Apps Script to Blend Into Legitimate Traffic",
       "link": "https://thehackernews.com/2026/08/cavern-c2-uses-dns-and-google-apps.html",
       "summary": "Cybersecurity researchers have traced the continued evolution of the Cavern (aka Cav3rn) command-and-control (C2) framework used by Iranian nation-state hackers in attacks targeting entities in...",
@@ -219,39 +247,11 @@
       "published": "2026-08-17T17:41:06+00:00"
     },
     {
-      "title": "CVE-2026-9771 - Missing device-pointer validation in flash_copy() syscall allows userspace privilege escalation",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-9771",
-      "summary": "CVE ID :CVE-2026-9771 Published : Aug. 17, 2026, 5:16 p.m. | 3 hours, 13 minutes ago Description :The flash_copy() system call is verified by z_vrfy_flash_copy() in drivers/flash/flash_util.c. On...",
-      "source": "CVE Feed",
-      "published": "2026-08-17T17:16:57+00:00"
-    },
-    {
-      "title": "CVE-2026-68518 - Glances: Command injection bypass of action-template sanitizer via cross-field shell-operator reconstruction",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-68518",
-      "summary": "CVE ID :CVE-2026-68518 Published : Aug. 17, 2026, 5:16 p.m. | 3 hours, 14 minutes ago Description :Glances is an open-source system cross-platform monitoring tool. Prior to 4.5.6...",
-      "source": "CVE Feed",
-      "published": "2026-08-17T17:16:40+00:00"
-    },
-    {
-      "title": "CVE-2026-61666 - websocket-driver: Denial of service via malformed Host header",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-61666",
-      "summary": "CVE ID :CVE-2026-61666 Published : Aug. 17, 2026, 5:16 p.m. | 3 hours, 14 minutes ago Description :websocket-driver is a WebSocket protocol handler with pluggable I/O. Prior to 0.8.2...",
-      "source": "CVE Feed",
-      "published": "2026-08-17T17:16:39+00:00"
-    },
-    {
       "title": "SafePal latest crypto hardware wallet maker affected by breach, with nearly 40,000 impacted",
       "link": "https://therecord.media/safepal-crypto-hardware-breach",
       "summary": "The crypto hardware wallet company SafePal confirmed a data breach on Sunday, telling users that nearly 40,000 customers had information stolen during a recent security incident.",
       "source": "The Record",
       "published": "2026-08-17T17:00:00+00:00"
-    },
-    {
-      "title": "CVE-2026-75060 - JetBrains PyCharm Remote Code Execution Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-75060",
-      "summary": "CVE ID :CVE-2026-75060 Published : Aug. 17, 2026, 4:17 p.m. | 4 hours, 12 minutes ago Description :In JetBrains PyCharm before 2026.2.1 code execution was possible via unauthenticated Jupyter MCP...",
-      "source": "CVE Feed",
-      "published": "2026-08-17T16:17:53+00:00"
     },
     {
       "title": "Irregular faces criticism over ‘spin’ in AI hacking postmortem",
@@ -704,8 +704,8 @@
     {
       "title": "AmnesiaStealer Hijacks Chromium Sessions to Give Attackers Live Browser Control on macOS",
       "link": "https://thehackernews.com/2026/08/amnesiastealer-hijacks-chromium.html",
-      "summary": "AmnesiaStealer Hijacks Chromium Sessions to Give Attackers Live Browser Control on macOS Cybersecurity researchers have disclosed details of a new macOS-oriented, Rust-based information stealer...",
-      "source": "CVE Newsroom",
+      "summary": "Cybersecurity researchers have disclosed details of a new macOS-oriented, Rust-based information stealer called AmnesiaStealer that's capable of hijacking Chromium web browsers to steal session data...",
+      "source": "The Hacker News",
       "published": "2026-08-13T13:43:14+00:00"
     },
     {
