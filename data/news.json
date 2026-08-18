@@ -1,12 +1,138 @@
 {
-  "last_updated": "2026-08-18T20:02:53.237877+00:00",
+  "last_updated": "2026-08-18T22:03:03.160387+00:00",
   "articles": [
+    {
+      "title": "Critical GitLab Zero-Click Flaw Poses Mitigation Challenges",
+      "link": "https://www.darkreading.com/application-security/critical-gitlab-zero-click-flaw-mitigation-challenges",
+      "summary": "A lack of technical details could make it hard for organizations running self-managed GitLab versions to detect potential exploitation of CVE-2026-19478.",
+      "source": "Dark Reading",
+      "published": "2026-08-18T21:25:58+00:00"
+    },
+    {
+      "title": "'CoSnitch' Attack Tricked Copilot into Mapping Out Architecture",
+      "link": "https://www.darkreading.com/vulnerabilities-threats/cosnitch-attack-copilot-mapping-out-architecture",
+      "summary": "Researchers discovered a \"meta-hacking\" technique that can manipulate the AI service into revealing its own security weaknesses.",
+      "source": "Dark Reading",
+      "published": "2026-08-18T20:17:24+00:00"
+    },
+    {
+      "title": "Comcast turns your Xfinity WiFi into a home motion detector",
+      "link": "https://www.bleepingcomputer.com/news/security/comcast-turns-your-xfinity-wifi-into-a-home-motion-detector/",
+      "summary": "Comcast is promoting WiFi-based motion detection as a part of its new Xfinity Shield home protection platform, allowing routers and wireless devices to detect people moving through a home without...",
+      "source": "BleepingComputer",
+      "published": "2026-08-18T20:14:58+00:00"
+    },
+    {
+      "title": "CVE-2026-75936 - Memory-amplification denial of service via GZIP decompression bomb in Amazon ion-java",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-75936",
+      "summary": "CVE ID :CVE-2026-75936 Published : Aug. 18, 2026, 7:34 p.m. | 44 minutes ago Description :Improper handling of highly compressed data in the GZIP auto-decompression handler in Amazon ion-java before...",
+      "source": "CVE Feed",
+      "published": "2026-08-18T19:34:19+00:00"
+    },
+    {
+      "title": "CVE-2026-75935 - Memory-amplification denial of service via declared-length preallocation in Amazon ion-java",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-75935",
+      "summary": "CVE ID :CVE-2026-75935 Published : Aug. 18, 2026, 7:33 p.m. | 44 minutes ago Description :Uncontrolled memory allocation in the binary Ion stream cursor in Amazon ion-java before 1.12.0 might allow...",
+      "source": "CVE Feed",
+      "published": "2026-08-18T19:33:46+00:00"
+    },
+    {
+      "title": "CVE-2026-55166 - Lemur: any SSO-authenticated user achieves AWS IAM compromise and permanent PKI key access via ACME acme_url SSRF and creator-equality IDOR",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55166",
+      "summary": "CVE ID :CVE-2026-55166 Published : Aug. 18, 2026, 7:16 p.m. | 1 hour, 1 minute ago Description :Lemur manages TLS certificate creation. Prior to 1.9.2, authenticated users could influence an ACME...",
+      "source": "CVE Feed",
+      "published": "2026-08-18T19:16:58+00:00"
+    },
+    {
+      "title": "CVE-2026-47627 - NVIDIA Triton Inference Server Path Traversal Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-47627",
+      "summary": "CVE ID :CVE-2026-47627 Published : Aug. 18, 2026, 7:16 p.m. | 1 hour, 1 minute ago Description :NVIDIA Triton Inference Server for Linux contains a vulnerability where an attacker could cause path...",
+      "source": "CVE Feed",
+      "published": "2026-08-18T19:16:51+00:00"
+    },
+    {
+      "title": "CVE-2025-9210 - Missing JSON Web Token signature validation in Otalio Ship Property Management System",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2025-9210",
+      "summary": "CVE ID :CVE-2025-9210 Published : Aug. 18, 2026, 7:16 p.m. | 1 hour, 1 minute ago Description :Missing signature validation in JSON Web Tokens in Otalio Ship Property Management System versions...",
+      "source": "CVE Feed",
+      "published": "2026-08-18T19:16:43+00:00"
+    },
     {
       "title": "CISOs Break Their Silence in 'Declassified' Docuseries",
       "link": "https://www.darkreading.com/cyber-risk/cisos-break-their-silence-in-declassified-docuseries",
       "summary": "Million-dollar heists, divorce, and career-ending burnout are all stories told in the latest docuseries revealing a behind-the-scenes look at the cybersecurity community.",
       "source": "Dark Reading",
       "published": "2026-08-18T18:32:01+00:00"
+    },
+    {
+      "title": "CVE-2026-75625 - Kraken Agents Peer-to-Peer Download Cache Poisoning via Digest Verification Bypass",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-75625",
+      "summary": "CVE ID :CVE-2026-75625 Published : Aug. 18, 2026, 6:19 p.m. | 1 hour, 58 minutes ago Description :Kraken agents fail to verify peer-to-peer downloaded blobs against their requested SHA-256 digest...",
+      "source": "CVE Feed",
+      "published": "2026-08-18T18:19:34+00:00"
+    },
+    {
+      "title": "CVE-2026-75130 - Context7 2.1.2 Prompt Injection via Custom AI Instructions",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-75130",
+      "summary": "CVE ID :CVE-2026-75130 Published : Aug. 18, 2026, 6:19 p.m. | 1 hour, 58 minutes ago Description :Context7 through 2.1.2 contains a prompt injection vulnerability that allows attackers to execute...",
+      "source": "CVE Feed",
+      "published": "2026-08-18T18:19:34+00:00"
+    },
+    {
+      "title": "CVE-2026-71879 - Authentication bypass in Integrated Publishing Toolkit",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-71879",
+      "summary": "CVE ID :CVE-2026-71879 Published : Aug. 18, 2026, 6:19 p.m. | 1 hour, 58 minutes ago Description :Missing authentication in initial setup functionality left exposed until first reboot in GBIF...",
+      "source": "CVE Feed",
+      "published": "2026-08-18T18:19:32+00:00"
+    },
+    {
+      "title": "CVE-2026-71878 - Authentication bypass in Integrated Publishing Toolkit",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-71878",
+      "summary": "CVE ID :CVE-2026-71878 Published : Aug. 18, 2026, 6:19 p.m. | 1 hour, 58 minutes ago Description :Missing authentication in initial setup functionality left exposed after initial setup is completed...",
+      "source": "CVE Feed",
+      "published": "2026-08-18T18:19:32+00:00"
+    },
+    {
+      "title": "CVE-2026-67262 - Dell PowerStore Missing Authorization Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-67262",
+      "summary": "CVE ID :CVE-2026-67262 Published : Aug. 18, 2026, 6:19 p.m. | 1 hour, 59 minutes ago Description :Dell PowerStore contains a Missing Authorization vulnerability. An attacker with access to a mapped...",
+      "source": "CVE Feed",
+      "published": "2026-08-18T18:19:24+00:00"
+    },
+    {
+      "title": "CVE-2026-66780 - Submariner-operator: submariner-operator: flat broker trust model grants every spoke full crud on all endpoints, secrets, and endpointslices in broker namespace",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-66780",
+      "summary": "CVE ID :CVE-2026-66780 Published : Aug. 18, 2026, 6:19 p.m. | 1 hour, 59 minutes ago Description :A flaw was found in the submariner-operator component. The `submariner-k8s-broker-cluster` Role...",
+      "source": "CVE Feed",
+      "published": "2026-08-18T18:19:23+00:00"
+    },
+    {
+      "title": "CVE-2026-50161 - libre: Integer overflow in websock_decode() masked frame length check leads to heap buffer overflow",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-50161",
+      "summary": "CVE ID :CVE-2026-50161 Published : Aug. 18, 2026, 6:17 p.m. | 2 hours ago Description :libre is a generic library for real-time communications with asynchronous input and output support. Prior to...",
+      "source": "CVE Feed",
+      "published": "2026-08-18T18:17:53+00:00"
+    },
+    {
+      "title": "CVE-2026-50143 - Actor MCP path authority injection leaks Apify token",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-50143",
+      "summary": "CVE ID :CVE-2026-50143 Published : Aug. 18, 2026, 6:17 p.m. | 2 hours ago Description :The Apify MCP server enables AI agents to extract data from websites using ready-made scrapers, crawlers, and...",
+      "source": "CVE Feed",
+      "published": "2026-08-18T18:17:53+00:00"
+    },
+    {
+      "title": "CVE-2026-48508 - Lemur: Authorization bypass in StrictRolePermission / AuthorityCreatorPermission",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48508",
+      "summary": "CVE ID :CVE-2026-48508 Published : Aug. 18, 2026, 6:17 p.m. | 2 hours ago Description :Lemur manages TLS certificate creation. Prior to 1.9.1, StrictRolePermission and AuthorityCreatorPermission in...",
+      "source": "CVE Feed",
+      "published": "2026-08-18T18:17:41+00:00"
+    },
+    {
+      "title": "CVE-2026-44472 - Saleor: Account pre-hijacking vulnerability due to unverified anonymous order merge",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-44472",
+      "summary": "CVE ID :CVE-2026-44472 Published : Aug. 18, 2026, 6:17 p.m. | 2 hours ago Description :Saleor is an e-commerce platform. From 2.10.0rc1 until 3.21.67, 3.22.63, and 3.23.22, the account activation...",
+      "source": "CVE Feed",
+      "published": "2026-08-18T18:17:33+00:00"
     },
     {
       "title": "More than 200 victims of Medusa ransomware identified over the last year, CISA says",
@@ -16,46 +142,18 @@
       "published": "2026-08-18T18:05:00+00:00"
     },
     {
-      "title": "CVE-2026-75625 - Kraken Agents Peer-to-Peer Download Cache Poisoning via Digest Verification Bypass",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-75625",
-      "summary": "CVE ID :CVE-2026-75625 Published : Aug. 18, 2026, 5:56 p.m. | 12 minutes ago Description :Kraken agents fail to verify peer-to-peer downloaded blobs against their requested SHA-256 digest before...",
-      "source": "CVE Feed",
-      "published": "2026-08-18T17:56:54+00:00"
-    },
-    {
       "title": "Microsoft Copilot Personal Flaws Could Let One Click Exfiltrate Data From Connected Apps",
       "link": "https://thehackernews.com/2026/08/microsoft-copilot-personal-flaws-could.html",
-      "summary": "Varonis Threat Labs has disclosed three vulnerabilities in Microsoft Copilot Personal that it said could allow a single click on a crafted link to silently pull data from connected apps and other...",
-      "source": "The Hacker News",
+      "summary": "Microsoft Copilot Personal Flaws Could Let One Click Exfiltrate Data From Connected Apps Varonis Threat Labs has disclosed three vulnerabilities in Microsoft Copilot Personal that it said could allow...",
+      "source": "CVE Newsroom",
       "published": "2026-08-18T17:47:22+00:00"
     },
     {
       "title": "Attackers Exploit MLflow SSRF Flaw to Steal Cloud Credentials and Secrets",
       "link": "https://thehackernews.com/2026/08/attackers-exploit-mlflow-ssrf-flaw-to.html",
-      "summary": "Two critical vulnerabilities impacting MLflow, an open-source artificial intelligence (AI) platform, and FUXA, an open-source, web-based SCADA / HMI software built for operational technology (OT) and...",
-      "source": "The Hacker News",
+      "summary": "Attackers Exploit MLflow SSRF Flaw to Steal Cloud Credentials and Secrets Two critical vulnerabilities impacting MLflow, an open-source artificial intelligence (AI) platform, and FUXA, an...",
+      "source": "CVE Newsroom",
       "published": "2026-08-18T17:44:05+00:00"
-    },
-    {
-      "title": "CVE-2026-71879 - Authentication bypass in Integrated Publishing Toolkit",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-71879",
-      "summary": "CVE ID :CVE-2026-71879 Published : Aug. 18, 2026, 5:41 p.m. | 27 minutes ago Description :Missing authentication in initial setup functionality left exposed until first reboot in GBIF Integrated...",
-      "source": "CVE Feed",
-      "published": "2026-08-18T17:41:48+00:00"
-    },
-    {
-      "title": "CVE-2026-71878 - Authentication bypass in Integrated Publishing Toolkit",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-71878",
-      "summary": "CVE ID :CVE-2026-71878 Published : Aug. 18, 2026, 5:41 p.m. | 27 minutes ago Description :Missing authentication in initial setup functionality left exposed after initial setup is completed in GBIF...",
-      "source": "CVE Feed",
-      "published": "2026-08-18T17:41:34+00:00"
-    },
-    {
-      "title": "CVE-2026-66780 - Submariner-operator: submariner-operator: flat broker trust model grants every spoke full crud on all endpoints, secrets, and endpointslices in broker namespace",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-66780",
-      "summary": "CVE ID :CVE-2026-66780 Published : Aug. 18, 2026, 5:32 p.m. | 37 minutes ago Description :A flaw was found in the submariner-operator component. The `submariner-k8s-broker-cluster` Role, which is...",
-      "source": "CVE Feed",
-      "published": "2026-08-18T17:32:00+00:00"
     },
     {
       "title": "Clop created custom web shell for Windchill data theft attacks",
@@ -65,116 +163,74 @@
       "published": "2026-08-18T17:29:51+00:00"
     },
     {
-      "title": "CVE-2026-67262 - Dell PowerStore Missing Authorization Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-67262",
-      "summary": "CVE ID :CVE-2026-67262 Published : Aug. 18, 2026, 5:24 p.m. | 44 minutes ago Description :Dell PowerStore contains a Missing Authorization vulnerability. An attacker with access to a mapped host...",
-      "source": "CVE Feed",
-      "published": "2026-08-18T17:24:30+00:00"
-    },
-    {
       "title": "CVE-2026-75924 - Managed-serviceaccount: managed-serviceaccount: hub addon-manager clusterrole grants cluster-wide secret read/write and csr approval",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-75924",
-      "summary": "CVE ID :CVE-2026-75924 Published : Aug. 18, 2026, 5:17 p.m. | 52 minutes ago Description :A flaw was found in managed-serviceaccount. A compromised addon-manager pod, due to its ClusterRole granting...",
-      "source": "CVE Feed",
-      "published": "2026-08-18T17:17:03+00:00"
-    },
-    {
-      "title": "CVE-2026-75897 - Uncontrolled Resource Consumption in Capabilities Route in OpenSearch Dashboards",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-75897",
-      "summary": "CVE ID :CVE-2026-75897 Published : Aug. 18, 2026, 5:17 p.m. | 52 minutes ago Description :Improper input validation in the capabilities route handler in OpenSearch Dashboards - the size of the...",
+      "summary": "CVE ID :CVE-2026-75924 Published : Aug. 18, 2026, 5:17 p.m. | 3 hours, 1 minute ago Description :A flaw was found in managed-serviceaccount. A compromised addon-manager pod, due to its ClusterRole...",
       "source": "CVE Feed",
       "published": "2026-08-18T17:17:03+00:00"
     },
     {
       "title": "CVE-2026-70415 - Dell PowerStore NFS/RPC Buffer Overflow",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-70415",
-      "summary": "CVE ID :CVE-2026-70415 Published : Aug. 18, 2026, 5:17 p.m. | 52 minutes ago Description :Dell PowerStore SDNAS contains a Buffer Copy without Checking Size of Input vulnerability in the NFS/RPC. An...",
+      "summary": "CVE ID :CVE-2026-70415 Published : Aug. 18, 2026, 5:17 p.m. | 3 hours, 1 minute ago Description :Dell PowerStore SDNAS contains a Buffer Copy without Checking Size of Input vulnerability in the...",
       "source": "CVE Feed",
       "published": "2026-08-18T17:17:01+00:00"
     },
     {
       "title": "CVE-2026-69220 - RabbitMQ Java client ValueReader: Unbounded recursive table/array nesting causes StackOverflowError DoS",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-69220",
-      "summary": "CVE ID :CVE-2026-69220 Published : Aug. 18, 2026, 5:17 p.m. | 52 minutes ago Description :The RabbitMQ Java client library allows Java and JVM-based applications to connect to and interact with...",
+      "summary": "CVE ID :CVE-2026-69220 Published : Aug. 18, 2026, 5:17 p.m. | 3 hours, 1 minute ago Description :The RabbitMQ Java client library allows Java and JVM-based applications to connect to and interact...",
       "source": "CVE Feed",
       "published": "2026-08-18T17:17:01+00:00"
     },
     {
       "title": "CVE-2026-69219 - RabbitMQ Java client ValueReader: Oversized LongString/bytes length triggers OOM via unchecked allocation",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-69219",
-      "summary": "CVE ID :CVE-2026-69219 Published : Aug. 18, 2026, 5:17 p.m. | 52 minutes ago Description :The RabbitMQ Java client library allows Java and JVM-based applications to connect to and interact with...",
+      "summary": "CVE ID :CVE-2026-69219 Published : Aug. 18, 2026, 5:17 p.m. | 3 hours, 1 minute ago Description :The RabbitMQ Java client library allows Java and JVM-based applications to connect to and interact...",
       "source": "CVE Feed",
       "published": "2026-08-18T17:17:01+00:00"
     },
     {
       "title": "CVE-2026-67271 - Dell PowerStore SMB/CIFS Out-of-Bounds Write Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-67271",
-      "summary": "CVE ID :CVE-2026-67271 Published : Aug. 18, 2026, 5:17 p.m. | 52 minutes ago Description :Dell PowerStore SDNAS, contains an Out-of-bounds Write vulnerability in the SMB/CIFS. An unauthenticated...",
+      "summary": "CVE ID :CVE-2026-67271 Published : Aug. 18, 2026, 5:17 p.m. | 3 hours, 1 minute ago Description :Dell PowerStore SDNAS, contains an Out-of-bounds Write vulnerability in the SMB/CIFS. An...",
       "source": "CVE Feed",
       "published": "2026-08-18T17:17:00+00:00"
     },
     {
       "title": "CVE-2026-66783 - Submariner-operator: submariner-operator: arbitrary image override enables privileged code execution on every node",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-66783",
-      "summary": "CVE ID :CVE-2026-66783 Published : Aug. 18, 2026, 5:17 p.m. | 52 minutes ago Description :A flaw was found in the `submariner-operator` component of Red Hat Advanced Cluster Management for...",
+      "summary": "CVE ID :CVE-2026-66783 Published : Aug. 18, 2026, 5:17 p.m. | 3 hours, 1 minute ago Description :A flaw was found in the `submariner-operator` component of Red Hat Advanced Cluster Management for...",
       "source": "CVE Feed",
       "published": "2026-08-18T17:17:00+00:00"
     },
     {
       "title": "CVE-2026-61574 - authentik RAC: access any endpoint via an unrelated application",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-61574",
-      "summary": "CVE ID :CVE-2026-61574 Published : Aug. 18, 2026, 5:16 p.m. | 52 minutes ago Description :authentik is an open-source identity provider. Prior to 2026.2.6 and 2026.5.5, the Remote Access Control...",
+      "summary": "CVE ID :CVE-2026-61574 Published : Aug. 18, 2026, 5:16 p.m. | 3 hours, 1 minute ago Description :authentik is an open-source identity provider. Prior to 2026.2.6 and 2026.5.5, the Remote Access...",
       "source": "CVE Feed",
       "published": "2026-08-18T17:16:59+00:00"
     },
     {
       "title": "CVE-2026-57580 - authentik: Account Takeover via SAML NameID Comment Truncation",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-57580",
-      "summary": "CVE ID :CVE-2026-57580 Published : Aug. 18, 2026, 5:16 p.m. | 52 minutes ago Description :authentik is an open-source identity provider. Prior to 2026.2.6 and 2026.5.5, an inbound SAML Source...",
+      "summary": "CVE ID :CVE-2026-57580 Published : Aug. 18, 2026, 5:16 p.m. | 3 hours, 1 minute ago Description :authentik is an open-source identity provider. Prior to 2026.2.6 and 2026.5.5, an inbound SAML Source...",
       "source": "CVE Feed",
       "published": "2026-08-18T17:16:59+00:00"
     },
     {
       "title": "CVE-2026-54730 - authentik: Authentication Flow Bypass via Unguarded challenge_valid() in AuthenticatorEndpointGDTCStage and GoogleChromeStageView",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-54730",
-      "summary": "CVE ID :CVE-2026-54730 Published : Aug. 18, 2026, 5:16 p.m. | 52 minutes ago Description :authentik is an open-source identity provider. Prior to 2026.2.6 and 2026.5.5, the enterprise Google Chrome...",
+      "summary": "CVE ID :CVE-2026-54730 Published : Aug. 18, 2026, 5:16 p.m. | 3 hours, 1 minute ago Description :authentik is an open-source identity provider. Prior to 2026.2.6 and 2026.5.5, the enterprise Google...",
       "source": "CVE Feed",
       "published": "2026-08-18T17:16:59+00:00"
     },
     {
       "title": "CVE-2026-52723 - ePA 3.x Integration: VAU Server Authentication Bypass via Circular Certificate Trust",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-52723",
-      "summary": "CVE ID :CVE-2026-52723 Published : Aug. 18, 2026, 5:16 p.m. | 52 minutes ago Description :ePA 3.x Integration implements the authorization workflow and writes Medical Information Objects to Germany's...",
+      "summary": "CVE ID :CVE-2026-52723 Published : Aug. 18, 2026, 5:16 p.m. | 3 hours, 1 minute ago Description :ePA 3.x Integration implements the authorization workflow and writes Medical Information Objects to...",
       "source": "CVE Feed",
       "published": "2026-08-18T17:16:59+00:00"
-    },
-    {
-      "title": "CVE-2026-49228 - Vvveb product authorization bypass allows Vendors to read, duplicate, or delete other Vendors' products",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-49228",
-      "summary": "CVE ID :CVE-2026-49228 Published : Aug. 18, 2026, 5:16 p.m. | 52 minutes ago Description :Vvveb is a powerful and easy to use CMS with page builder to build websites, blogs or ecommerce stores. Prior...",
-      "source": "CVE Feed",
-      "published": "2026-08-18T17:16:58+00:00"
-    },
-    {
-      "title": "CVE-2026-49225 - Vvveb product revision authorization bypass allows Vendors to read, restore, or delete other Vendors' product revisions",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-49225",
-      "summary": "CVE ID :CVE-2026-49225 Published : Aug. 18, 2026, 5:16 p.m. | 52 minutes ago Description :Vvveb is a powerful and easy to use CMS with page builder to build websites, blogs or ecommerce stores. Prior...",
-      "source": "CVE Feed",
-      "published": "2026-08-18T17:16:58+00:00"
-    },
-    {
-      "title": "CVE-2026-49224 - Vvveb post revision authorization bypass allows Authors to read, restore, or delete other Authors' post revisions",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-49224",
-      "summary": "CVE ID :CVE-2026-49224 Published : Aug. 18, 2026, 5:16 p.m. | 52 minutes ago Description :Vvveb is a powerful and easy to use CMS with page builder to build websites, blogs or ecommerce stores. Prior...",
-      "source": "CVE Feed",
-      "published": "2026-08-18T17:16:57+00:00"
-    },
-    {
-      "title": "CVE-2026-18963 - Keycloak-services: keycloak-services: unauthenticated account takeover via reset-credentials flow bypass",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-18963",
-      "summary": "CVE ID :CVE-2026-18963 Published : Aug. 18, 2026, 5:16 p.m. | 52 minutes ago Description :A flaw was found in the reset-credentials flow of the keycloak-services component, which is the core engine...",
-      "source": "CVE Feed",
-      "published": "2026-08-18T17:16:57+00:00"
     },
     {
       "title": "Ransom Busters Claims It Hacked Ransomware Servers, Asks Victims for Up to $60,000",
@@ -196,41 +252,6 @@
       "summary": "The University of Texas at San Antonio, which serves 40,000 students across six campuses, said its IT team identified threat activity on its academic campus over the weekend and took some systems...",
       "source": "The Record",
       "published": "2026-08-18T16:20:00+00:00"
-    },
-    {
-      "title": "CVE-2026-75926 - Hugo 0.162.0 to 0.164.x - Node Permission Model Bypass via Default TailwindCSS Child-Process Grant",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-75926",
-      "summary": "CVE ID :CVE-2026-75926 Published : Aug. 18, 2026, 4:18 p.m. | 1 hour, 50 minutes ago Description :Hugo 0.161.0 placed the Node asset pipelines behind the Node.js permission model so that code running...",
-      "source": "CVE Feed",
-      "published": "2026-08-18T16:18:24+00:00"
-    },
-    {
-      "title": "CVE-2026-75915 - CodeWhale before 0.8.64 Environment Variable Leak via js_execution",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-75915",
-      "summary": "CVE ID :CVE-2026-75915 Published : Aug. 18, 2026, 4:18 p.m. | 1 hour, 50 minutes ago Description :CodeWhale versions before 0.8.64 contain an environment variable exposure vulnerability in the...",
-      "source": "CVE Feed",
-      "published": "2026-08-18T16:18:23+00:00"
-    },
-    {
-      "title": "CVE-2026-75914 - CodeWhale before 0.8.64 Path Traversal via image_analyze symlink",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-75914",
-      "summary": "CVE ID :CVE-2026-75914 Published : Aug. 18, 2026, 4:18 p.m. | 1 hour, 50 minutes ago Description :CodeWhale versions before 0.8.64 contain a path traversal vulnerability in the image_analyze tool...",
-      "source": "CVE Feed",
-      "published": "2026-08-18T16:18:23+00:00"
-    },
-    {
-      "title": "CVE-2026-75913 - CodeWhale before 0.8.64 Argument Injection via git_show",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-75913",
-      "summary": "CVE ID :CVE-2026-75913 Published : Aug. 18, 2026, 4:18 p.m. | 1 hour, 50 minutes ago Description :CodeWhale (codewhale / codewhale-tui) versions >= 0.8.41 and Severity: 9.3 | CRITICAL Visit the link...",
-      "source": "CVE Feed",
-      "published": "2026-08-18T16:18:23+00:00"
-    },
-    {
-      "title": "CVE-2026-75912 - CodeWhale before 0.8.64 Argument Injection via git_blame",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-75912",
-      "summary": "CVE ID :CVE-2026-75912 Published : Aug. 18, 2026, 4:18 p.m. | 1 hour, 50 minutes ago Description :CodeWhale versions before 0.8.64 contain an argument injection vulnerability in the git_blame tool...",
-      "source": "CVE Feed",
-      "published": "2026-08-18T16:18:23+00:00"
     },
     {
       "title": "Webinar Today: Rethinking Cyber Defense for AI-Speed Attacks",
@@ -268,10 +289,10 @@
       "published": "2026-08-18T14:01:11+00:00"
     },
     {
-      "title": "AI-Driven Vulnerability Surge Breaks the Traditional Patching Model",
-      "link": "https://www.securityweek.com/ai-driven-vulnerability-surge-breaks-the-traditional-patching-model/",
-      "summary": "Rapid7 warns that traditional patch cycles cannot keep pace with soaring vulnerability disclosures and faster exploitation, forcing defenders to prioritize exposure over severity scores. The post...",
-      "source": "SecurityWeek",
+      "title": "Silent 'TwinLoot' Cyber Threat Operates Entirely From Microsoft's Cloud",
+      "link": "https://www.darkreading.com/cloud-security/silent-twinloot-threat-operates-microsoft-cloud",
+      "summary": "The Python-based malware framework takes living-off-the-land tactics to a new heights of stealth, with a modular implant that steals credentials and achieves persistence.",
+      "source": "Dark Reading",
       "published": "2026-08-18T13:00:00+00:00"
     },
     {
@@ -282,10 +303,10 @@
       "published": "2026-08-18T13:00:00+00:00"
     },
     {
-      "title": "Silent 'TwinLoot' Cyber Threat Operates Entirely From Microsoft's Cloud",
-      "link": "https://www.darkreading.com/cloud-security/silent-twinloot-threat-operates-microsoft-cloud",
-      "summary": "The Python-based malware framework takes living-off-the-land tactics to a new heights of stealth, with a modular implant that steals credentials and achieves persistence.",
-      "source": "Dark Reading",
+      "title": "AI-Driven Vulnerability Surge Breaks the Traditional Patching Model",
+      "link": "https://www.securityweek.com/ai-driven-vulnerability-surge-breaks-the-traditional-patching-model/",
+      "summary": "Rapid7 warns that traditional patch cycles cannot keep pace with soaring vulnerability disclosures and faster exploitation, forcing defenders to prioritize exposure over severity scores. The post...",
+      "source": "SecurityWeek",
       "published": "2026-08-18T13:00:00+00:00"
     },
     {
@@ -611,13 +632,6 @@
       "published": "2026-08-17T07:24:32+00:00"
     },
     {
-      "title": "SafePal data breach impacts 39,798 customers, stolen info for sale",
-      "link": "https://www.bleepingcomputer.com/news/security/safepal-data-breach-impacts-39-798-customers-stolen-info-for-sale/",
-      "summary": "Cryptocurrency hardware wallet provider SafePal is warning of a data breach affecting about 39,798 customers after a flaw was exploited to steal customer order information, and a threat actor is now...",
-      "source": "BleepingComputer",
-      "published": "2026-08-16T23:47:06+00:00"
-    },
-    {
       "title": "CVE-2026-59310: Critical VMware vCenter Vulnerability",
       "link": "https://thecyberthrone.in/2026/08/16/cve-2026-59310-critical-vmware-vcenter-vulnerability/",
       "summary": "CVE-2026-59310: Critical VMware vCenter Vulnerability CVE-2026-59310 is a critical directory-traversal vulnerability in the VMware vCenter Server Syslog server that deserves immediate attention from...",
@@ -716,13 +730,6 @@
       "published": "2026-08-14T12:17:21+00:00"
     },
     {
-      "title": "Dozijn Nederlandse VMware vCenter-servers recentelijk gehackt",
-      "link": "https://www.security.nl/posting/949273/Dozijn+Nederlandse+VMware+vCenter-servers+recentelijk+gehackt?channel=rss",
-      "summary": "Dozijn Nederlandse VMware vCenter-servers recentelijk gehackt Bij een recente aanval op VMware vCenter-servers zijn ook een dozijn Nederlandse servers gehackt, zo meldt The Shadowserver Foundation...",
-      "source": "CVE Newsroom",
-      "published": "2026-08-14T12:17:10+00:00"
-    },
-    {
       "title": "Who’s Tracking You? Use This New Service to Find Out",
       "link": "https://krebsonsecurity.com/2026/08/whos-tracking-you-use-this-new-service-to-find-out/",
       "summary": "It can be daunting to determine who's responsible for showing ads on the websites we visit, or who's harvesting data from the mobile apps we use every day. That information is already semi-public...",
@@ -749,13 +756,6 @@
       "summary": "Apple on Thursday sent a fresh batch of notifications to customers whom it suspects may have been targeted by mercenary spyware attacks. In a statement shared with TechCrunch, the iPhone maker said...",
       "source": "The Hacker News",
       "published": "2026-08-14T10:44:34+00:00"
-    },
-    {
-      "title": "Microsoft verwacht misbruik van Windows-lek gevonden door dozijn onderzoekers",
-      "link": "https://www.security.nl/posting/949254/Microsoft+verwacht+misbruik+van+Windows-lek+gevonden+door+dozijn+onderzoekers?channel=rss",
-      "summary": "Microsoft verwacht misbruik van Windows-lek gevonden door dozijn onderzoekers Microsoft verwacht dat aanvallers misbruik zullen maken van een kwetsbaarheid in Windows die door een dozijn...",
-      "source": "CVE Newsroom",
-      "published": "2026-08-14T10:00:24+00:00"
     },
     {
       "title": "Trump Memo Paves Way for U.S. Firms to Hack and Disrupt Foreign Crime Groups",
@@ -1190,20 +1190,6 @@
       "summary": "Accountability without any real authority is driving CISO burnout, and organizations need to take notice.",
       "source": "Dark Reading",
       "published": "2026-08-03T14:00:00+00:00"
-    },
-    {
-      "title": "CISA Issues Fresh SBOM Guidance. Did They Get It Right?",
-      "link": "https://www.darkreading.com/cybersecurity-operations/cisa-issues-fresh-sbom-guidance",
-      "summary": "A couple dozen changes to SBOM fields will make them more comprehensive, but some argue that the framework lacks real risk-management improvements.",
-      "source": "Dark Reading",
-      "published": "2026-07-31T18:13:11+00:00"
-    },
-    {
-      "title": "The Morning After We Pull a Root of Trust, Nobody Owns It",
-      "link": "https://www.darkreading.com/cyber-risk/morning-after-we-pull-root-of-trust-nobody-owns-it",
-      "summary": "The most valuable move any security team can make is building a certificate and key inventory.",
-      "source": "Dark Reading",
-      "published": "2026-07-31T14:00:00+00:00"
     },
     {
       "title": "Read This Before You Buy That TV Streaming Stick",
