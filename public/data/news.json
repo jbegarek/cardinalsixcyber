@@ -1,180 +1,201 @@
 {
-  "last_updated": "2026-08-18T16:05:24.814328+00:00",
+  "last_updated": "2026-08-18T18:05:58.570400+00:00",
   "articles": [
+    {
+      "title": "CVE-2026-75625 - Kraken Agents Peer-to-Peer Download Cache Poisoning via Digest Verification Bypass",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-75625",
+      "summary": "CVE ID :CVE-2026-75625 Published : Aug. 18, 2026, 5:56 p.m. | 4 minutes ago Description :Kraken agents fail to verify peer-to-peer downloaded blobs against their requested SHA-256 digest before...",
+      "source": "CVE Feed",
+      "published": "2026-08-18T17:56:54+00:00"
+    },
+    {
+      "title": "CVE-2026-71879 - Authentication bypass in Integrated Publishing Toolkit",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-71879",
+      "summary": "CVE ID :CVE-2026-71879 Published : Aug. 18, 2026, 5:41 p.m. | 19 minutes ago Description :Missing authentication in initial setup functionality left exposed until first reboot in GBIF Integrated...",
+      "source": "CVE Feed",
+      "published": "2026-08-18T17:41:48+00:00"
+    },
+    {
+      "title": "CVE-2026-71878 - Authentication bypass in Integrated Publishing Toolkit",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-71878",
+      "summary": "CVE ID :CVE-2026-71878 Published : Aug. 18, 2026, 5:41 p.m. | 19 minutes ago Description :Missing authentication in initial setup functionality left exposed after initial setup is completed in GBIF...",
+      "source": "CVE Feed",
+      "published": "2026-08-18T17:41:34+00:00"
+    },
+    {
+      "title": "CVE-2026-66780 - Submariner-operator: submariner-operator: flat broker trust model grants every spoke full crud on all endpoints, secrets, and endpointslices in broker namespace",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-66780",
+      "summary": "CVE ID :CVE-2026-66780 Published : Aug. 18, 2026, 5:32 p.m. | 28 minutes ago Description :A flaw was found in the submariner-operator component. The `submariner-k8s-broker-cluster` Role, which is...",
+      "source": "CVE Feed",
+      "published": "2026-08-18T17:32:00+00:00"
+    },
+    {
+      "title": "Clop created custom web shell for Windchill data theft attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/clop-created-custom-web-shell-for-windchill-data-theft-attacks/",
+      "summary": "A custom Java web shell likely linked to the Clop ransomware gang was designed specifically for PTC Windchill and FlexPLM servers, with built-in features to decrypt credentials, enumerate file...",
+      "source": "BleepingComputer",
+      "published": "2026-08-18T17:29:51+00:00"
+    },
+    {
+      "title": "CVE-2026-67262 - Dell PowerStore Missing Authorization Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-67262",
+      "summary": "CVE ID :CVE-2026-67262 Published : Aug. 18, 2026, 5:24 p.m. | 36 minutes ago Description :Dell PowerStore contains a Missing Authorization vulnerability. An attacker with access to a mapped host...",
+      "source": "CVE Feed",
+      "published": "2026-08-18T17:24:30+00:00"
+    },
+    {
+      "title": "CVE-2026-75924 - Managed-serviceaccount: managed-serviceaccount: hub addon-manager clusterrole grants cluster-wide secret read/write and csr approval",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-75924",
+      "summary": "CVE ID :CVE-2026-75924 Published : Aug. 18, 2026, 5:17 p.m. | 43 minutes ago Description :A flaw was found in managed-serviceaccount. A compromised addon-manager pod, due to its ClusterRole granting...",
+      "source": "CVE Feed",
+      "published": "2026-08-18T17:17:03+00:00"
+    },
+    {
+      "title": "CVE-2026-75897 - Uncontrolled Resource Consumption in Capabilities Route in OpenSearch Dashboards",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-75897",
+      "summary": "CVE ID :CVE-2026-75897 Published : Aug. 18, 2026, 5:17 p.m. | 43 minutes ago Description :Improper input validation in the capabilities route handler in OpenSearch Dashboards - the size of the...",
+      "source": "CVE Feed",
+      "published": "2026-08-18T17:17:03+00:00"
+    },
+    {
+      "title": "CVE-2026-70415 - Dell PowerStore NFS/RPC Buffer Overflow",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-70415",
+      "summary": "CVE ID :CVE-2026-70415 Published : Aug. 18, 2026, 5:17 p.m. | 43 minutes ago Description :Dell PowerStore SDNAS contains a Buffer Copy without Checking Size of Input vulnerability in the NFS/RPC. An...",
+      "source": "CVE Feed",
+      "published": "2026-08-18T17:17:01+00:00"
+    },
+    {
+      "title": "CVE-2026-69220 - RabbitMQ Java client ValueReader: Unbounded recursive table/array nesting causes StackOverflowError DoS",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-69220",
+      "summary": "CVE ID :CVE-2026-69220 Published : Aug. 18, 2026, 5:17 p.m. | 43 minutes ago Description :The RabbitMQ Java client library allows Java and JVM-based applications to connect to and interact with...",
+      "source": "CVE Feed",
+      "published": "2026-08-18T17:17:01+00:00"
+    },
+    {
+      "title": "CVE-2026-69219 - RabbitMQ Java client ValueReader: Oversized LongString/bytes length triggers OOM via unchecked allocation",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-69219",
+      "summary": "CVE ID :CVE-2026-69219 Published : Aug. 18, 2026, 5:17 p.m. | 43 minutes ago Description :The RabbitMQ Java client library allows Java and JVM-based applications to connect to and interact with...",
+      "source": "CVE Feed",
+      "published": "2026-08-18T17:17:01+00:00"
+    },
+    {
+      "title": "CVE-2026-67271 - Dell PowerStore SMB/CIFS Out-of-Bounds Write Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-67271",
+      "summary": "CVE ID :CVE-2026-67271 Published : Aug. 18, 2026, 5:17 p.m. | 43 minutes ago Description :Dell PowerStore SDNAS, contains an Out-of-bounds Write vulnerability in the SMB/CIFS. An unauthenticated...",
+      "source": "CVE Feed",
+      "published": "2026-08-18T17:17:00+00:00"
+    },
+    {
+      "title": "CVE-2026-66783 - Submariner-operator: submariner-operator: arbitrary image override enables privileged code execution on every node",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-66783",
+      "summary": "CVE ID :CVE-2026-66783 Published : Aug. 18, 2026, 5:17 p.m. | 43 minutes ago Description :A flaw was found in the `submariner-operator` component of Red Hat Advanced Cluster Management for...",
+      "source": "CVE Feed",
+      "published": "2026-08-18T17:17:00+00:00"
+    },
+    {
+      "title": "CVE-2026-61574 - authentik RAC: access any endpoint via an unrelated application",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-61574",
+      "summary": "CVE ID :CVE-2026-61574 Published : Aug. 18, 2026, 5:16 p.m. | 43 minutes ago Description :authentik is an open-source identity provider. Prior to 2026.2.6 and 2026.5.5, the Remote Access Control...",
+      "source": "CVE Feed",
+      "published": "2026-08-18T17:16:59+00:00"
+    },
+    {
+      "title": "CVE-2026-57580 - authentik: Account Takeover via SAML NameID Comment Truncation",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-57580",
+      "summary": "CVE ID :CVE-2026-57580 Published : Aug. 18, 2026, 5:16 p.m. | 43 minutes ago Description :authentik is an open-source identity provider. Prior to 2026.2.6 and 2026.5.5, an inbound SAML Source...",
+      "source": "CVE Feed",
+      "published": "2026-08-18T17:16:59+00:00"
+    },
+    {
+      "title": "CVE-2026-54730 - authentik: Authentication Flow Bypass via Unguarded challenge_valid() in AuthenticatorEndpointGDTCStage and GoogleChromeStageView",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54730",
+      "summary": "CVE ID :CVE-2026-54730 Published : Aug. 18, 2026, 5:16 p.m. | 43 minutes ago Description :authentik is an open-source identity provider. Prior to 2026.2.6 and 2026.5.5, the enterprise Google Chrome...",
+      "source": "CVE Feed",
+      "published": "2026-08-18T17:16:59+00:00"
+    },
+    {
+      "title": "CVE-2026-52723 - ePA 3.x Integration: VAU Server Authentication Bypass via Circular Certificate Trust",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-52723",
+      "summary": "CVE ID :CVE-2026-52723 Published : Aug. 18, 2026, 5:16 p.m. | 43 minutes ago Description :ePA 3.x Integration implements the authorization workflow and writes Medical Information Objects to Germany's...",
+      "source": "CVE Feed",
+      "published": "2026-08-18T17:16:59+00:00"
+    },
+    {
+      "title": "CVE-2026-49228 - Vvveb product authorization bypass allows Vendors to read, duplicate, or delete other Vendors' products",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-49228",
+      "summary": "CVE ID :CVE-2026-49228 Published : Aug. 18, 2026, 5:16 p.m. | 43 minutes ago Description :Vvveb is a powerful and easy to use CMS with page builder to build websites, blogs or ecommerce stores. Prior...",
+      "source": "CVE Feed",
+      "published": "2026-08-18T17:16:58+00:00"
+    },
+    {
+      "title": "CVE-2026-49225 - Vvveb product revision authorization bypass allows Vendors to read, restore, or delete other Vendors' product revisions",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-49225",
+      "summary": "CVE ID :CVE-2026-49225 Published : Aug. 18, 2026, 5:16 p.m. | 43 minutes ago Description :Vvveb is a powerful and easy to use CMS with page builder to build websites, blogs or ecommerce stores. Prior...",
+      "source": "CVE Feed",
+      "published": "2026-08-18T17:16:58+00:00"
+    },
+    {
+      "title": "CVE-2026-49224 - Vvveb post revision authorization bypass allows Authors to read, restore, or delete other Authors' post revisions",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-49224",
+      "summary": "CVE ID :CVE-2026-49224 Published : Aug. 18, 2026, 5:16 p.m. | 43 minutes ago Description :Vvveb is a powerful and easy to use CMS with page builder to build websites, blogs or ecommerce stores. Prior...",
+      "source": "CVE Feed",
+      "published": "2026-08-18T17:16:57+00:00"
+    },
+    {
+      "title": "CVE-2026-18963 - Keycloak-services: keycloak-services: unauthenticated account takeover via reset-credentials flow bypass",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-18963",
+      "summary": "CVE ID :CVE-2026-18963 Published : Aug. 18, 2026, 5:16 p.m. | 43 minutes ago Description :A flaw was found in the reset-credentials flow of the keycloak-services component, which is the core engine...",
+      "source": "CVE Feed",
+      "published": "2026-08-18T17:16:57+00:00"
+    },
+    {
+      "title": "Berlin cuts two state ministries off government network after security breach",
+      "link": "https://therecord.media/berlin-cuts-two-state-ministries-off-government-breach",
+      "summary": "The affected ministries — one responsible for urban development, construction and housing, and the other for mobility, transport, climate protection and the environment — have been isolated from...",
+      "source": "The Record",
+      "published": "2026-08-18T16:40:00+00:00"
+    },
+    {
+      "title": "University of Texas forced to take systems offline in San Antonio after cyberattack",
+      "link": "https://therecord.media/university-of-texas-forced-to-take-systems-offline-cyberattack-san-antonio",
+      "summary": "The University of Texas at San Antonio, which serves 40,000 students across six campuses, said its IT team identified threat activity on its academic campus over the weekend and took some systems...",
+      "source": "The Record",
+      "published": "2026-08-18T16:20:00+00:00"
+    },
+    {
+      "title": "CVE-2026-75926 - Hugo 0.162.0 to 0.164.x - Node Permission Model Bypass via Default TailwindCSS Child-Process Grant",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-75926",
+      "summary": "CVE ID :CVE-2026-75926 Published : Aug. 18, 2026, 4:18 p.m. | 1 hour, 42 minutes ago Description :Hugo 0.161.0 placed the Node asset pipelines behind the Node.js permission model so that code running...",
+      "source": "CVE Feed",
+      "published": "2026-08-18T16:18:24+00:00"
+    },
     {
       "title": "CVE-2026-75915 - CodeWhale before 0.8.64 Environment Variable Leak via js_execution",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-75915",
-      "summary": "CVE ID :CVE-2026-75915 Published : Aug. 18, 2026, 3:22 p.m. | 18 minutes ago Description :CodeWhale versions before 0.8.64 contain an environment variable exposure vulnerability in the js_execution...",
+      "summary": "CVE ID :CVE-2026-75915 Published : Aug. 18, 2026, 4:18 p.m. | 1 hour, 42 minutes ago Description :CodeWhale versions before 0.8.64 contain an environment variable exposure vulnerability in the...",
       "source": "CVE Feed",
-      "published": "2026-08-18T15:22:02+00:00"
+      "published": "2026-08-18T16:18:23+00:00"
     },
     {
       "title": "CVE-2026-75914 - CodeWhale before 0.8.64 Path Traversal via image_analyze symlink",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-75914",
-      "summary": "CVE ID :CVE-2026-75914 Published : Aug. 18, 2026, 3:22 p.m. | 18 minutes ago Description :CodeWhale versions before 0.8.64 contain a path traversal vulnerability in the image_analyze tool that fails...",
+      "summary": "CVE ID :CVE-2026-75914 Published : Aug. 18, 2026, 4:18 p.m. | 1 hour, 42 minutes ago Description :CodeWhale versions before 0.8.64 contain a path traversal vulnerability in the image_analyze tool...",
       "source": "CVE Feed",
-      "published": "2026-08-18T15:22:02+00:00"
+      "published": "2026-08-18T16:18:23+00:00"
     },
     {
       "title": "CVE-2026-75913 - CodeWhale before 0.8.64 Argument Injection via git_show",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-75913",
-      "summary": "CVE ID :CVE-2026-75913 Published : Aug. 18, 2026, 3:22 p.m. | 18 minutes ago Description :CodeWhale (codewhale / codewhale-tui) versions >= 0.8.41 and Severity: 9.3 | CRITICAL Visit the link for more...",
+      "summary": "CVE ID :CVE-2026-75913 Published : Aug. 18, 2026, 4:18 p.m. | 1 hour, 42 minutes ago Description :CodeWhale (codewhale / codewhale-tui) versions >= 0.8.41 and Severity: 9.3 | CRITICAL Visit the link...",
       "source": "CVE Feed",
-      "published": "2026-08-18T15:22:01+00:00"
+      "published": "2026-08-18T16:18:23+00:00"
     },
     {
       "title": "CVE-2026-75912 - CodeWhale before 0.8.64 Argument Injection via git_blame",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-75912",
-      "summary": "CVE ID :CVE-2026-75912 Published : Aug. 18, 2026, 3:22 p.m. | 18 minutes ago Description :CodeWhale versions before 0.8.64 contain an argument injection vulnerability in the git_blame tool that...",
+      "summary": "CVE ID :CVE-2026-75912 Published : Aug. 18, 2026, 4:18 p.m. | 1 hour, 42 minutes ago Description :CodeWhale versions before 0.8.64 contain an argument injection vulnerability in the git_blame tool...",
       "source": "CVE Feed",
-      "published": "2026-08-18T15:22:00+00:00"
-    },
-    {
-      "title": "CVE-2026-75911 - CodeWhale before 0.8.64 Remote Code Execution via allow_shell",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-75911",
-      "summary": "CVE ID :CVE-2026-75911 Published : Aug. 18, 2026, 3:21 p.m. | 18 minutes ago Description :CodeWhale versions before 0.8.64 fail to properly validate the allow_shell configuration parameter from...",
-      "source": "CVE Feed",
-      "published": "2026-08-18T15:21:59+00:00"
-    },
-    {
-      "title": "CVE-2026-75859 - CodeWhale before 0.8.64 Arbitrary File Read via instructions",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-75859",
-      "summary": "CVE ID :CVE-2026-75859 Published : Aug. 18, 2026, 3:21 p.m. | 18 minutes ago Description :CodeWhale versions before 0.8.64 fail to validate file paths in the project config instructions field...",
-      "source": "CVE Feed",
-      "published": "2026-08-18T15:21:57+00:00"
-    },
-    {
-      "title": "CVE-2026-75858 - CodeWhale rlm_eval before 0.8.64 Remote Code Execution",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-75858",
-      "summary": "CVE ID :CVE-2026-75858 Published : Aug. 18, 2026, 3:21 p.m. | 18 minutes ago Description :CodeWhale (packages codewhale / codewhale-tui) versions >= 0.8.41 and Severity: 8.5 | HIGH Visit the link for...",
-      "source": "CVE Feed",
-      "published": "2026-08-18T15:21:57+00:00"
-    },
-    {
-      "title": "CVE-2026-75856 - CodeWhale before 0.8.64 SSRF Bypass via DNS Pinning TOCTOU",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-75856",
-      "summary": "CVE ID :CVE-2026-75856 Published : Aug. 18, 2026, 3:21 p.m. | 18 minutes ago Description :CodeWhale before 0.8.64 contains a server-side request forgery bypass vulnerability in DNS pinning logic that...",
-      "source": "CVE Feed",
-      "published": "2026-08-18T15:21:55+00:00"
-    },
-    {
-      "title": "CVE-2026-75898 - RAGFlow < 0.26.3 - Server-Side Request Forgery via Agent Invoke Component",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-75898",
-      "summary": "CVE ID :CVE-2026-75898 Published : Aug. 18, 2026, 3:17 p.m. | 23 minutes ago Description :RAGFlow before 0.26.3 contains a server-side request forgery vulnerability in the agent workflow \"Invoke\"...",
-      "source": "CVE Feed",
-      "published": "2026-08-18T15:17:15+00:00"
-    },
-    {
-      "title": "CVE-2026-75784 - TRENDnet TEW-WLC100 HTTP Header nginx FUN_0040da4c stack-based overflow",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-75784",
-      "summary": "CVE ID :CVE-2026-75784 Published : Aug. 18, 2026, 3:17 p.m. | 23 minutes ago Description :A vulnerability was detected in TRENDnet TEW-WLC100 1v2.07b01. Affected by this issue is the function...",
-      "source": "CVE Feed",
-      "published": "2026-08-18T15:17:13+00:00"
-    },
-    {
-      "title": "CVE-2026-74015 - WordPress Readabler plugin < 2.0.18 - SQL Injection vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-74015",
-      "summary": "CVE ID :CVE-2026-74015 Published : Aug. 18, 2026, 3:17 p.m. | 23 minutes ago Description :Unauthenticated SQL Injection in Readabler Severity: 9.3 | CRITICAL Visit the link for more details, such as...",
-      "source": "CVE Feed",
-      "published": "2026-08-18T15:17:09+00:00"
-    },
-    {
-      "title": "CVE-2026-74012 - WordPress TaxoPress plugin <= 3.51.0 - PHP Object Injection vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-74012",
-      "summary": "CVE ID :CVE-2026-74012 Published : Aug. 18, 2026, 3:17 p.m. | 23 minutes ago Description :Editor PHP Object Injection in TaxoPress Severity: 8.8 | HIGH Visit the link for more details, such as CVSS...",
-      "source": "CVE Feed",
-      "published": "2026-08-18T15:17:09+00:00"
-    },
-    {
-      "title": "CVE-2026-73996 - WordPress Masteriyo - LMS plugin <= 2.3.2 - Arbitrary File Upload vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-73996",
-      "summary": "CVE ID :CVE-2026-73996 Published : Aug. 18, 2026, 3:17 p.m. | 23 minutes ago Description :Unauthenticated Arbitrary File Upload in Masteriyo - LMS Severity: 9.8 | CRITICAL Visit the link for more...",
-      "source": "CVE Feed",
-      "published": "2026-08-18T15:17:08+00:00"
-    },
-    {
-      "title": "CVE-2026-73400 - WordPress Restaurant Menu by MotoPress plugin <= 2.4.11 - Local File Inclusion vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-73400",
-      "summary": "CVE ID :CVE-2026-73400 Published : Aug. 18, 2026, 3:17 p.m. | 23 minutes ago Description :Unauthenticated Local File Inclusion in Restaurant Menu by MotoPress Severity: 8.1 | HIGH Visit the link for...",
-      "source": "CVE Feed",
-      "published": "2026-08-18T15:17:07+00:00"
-    },
-    {
-      "title": "CVE-2026-73397 - WordPress Youzify plugin <= 1.3.7 - Deserialization of untrusted data vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-73397",
-      "summary": "CVE ID :CVE-2026-73397 Published : Aug. 18, 2026, 3:17 p.m. | 23 minutes ago Description :Unauthenticated Deserialization of untrusted data in Youzify Severity: 9.8 | CRITICAL Visit the link for more...",
-      "source": "CVE Feed",
-      "published": "2026-08-18T15:17:07+00:00"
-    },
-    {
-      "title": "CVE-2026-73392 - WordPress Super Store Finder plugin <= 7.8 - SQL Injection vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-73392",
-      "summary": "CVE ID :CVE-2026-73392 Published : Aug. 18, 2026, 3:17 p.m. | 23 minutes ago Description :Unauthenticated SQL Injection in Super Store Finder Severity: 9.3 | CRITICAL Visit the link for more details...",
-      "source": "CVE Feed",
-      "published": "2026-08-18T15:17:06+00:00"
-    },
-    {
-      "title": "CVE-2026-73381 - WordPress Popup by Supsystic plugin <= 1.13.0 - Broken Authentication vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-73381",
-      "summary": "CVE ID :CVE-2026-73381 Published : Aug. 18, 2026, 3:17 p.m. | 23 minutes ago Description :Unauthenticated Broken Authentication in Popup by Supsystic Severity: 9.1 | CRITICAL Visit the link for more...",
-      "source": "CVE Feed",
-      "published": "2026-08-18T15:17:06+00:00"
-    },
-    {
-      "title": "CVE-2026-73380 - WordPress Popup by Supsystic plugin <= 1.13.0 - PHP Object Injection vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-73380",
-      "summary": "CVE ID :CVE-2026-73380 Published : Aug. 18, 2026, 3:17 p.m. | 23 minutes ago Description :Unauthenticated PHP Object Injection in Popup by Supsystic Severity: 9.8 | CRITICAL Visit the link for more...",
-      "source": "CVE Feed",
-      "published": "2026-08-18T15:17:06+00:00"
-    },
-    {
-      "title": "CVE-2026-73376 - WordPress Ultimate Maps by Supsystic plugin < 1.5.0 - PHP Object Injection vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-73376",
-      "summary": "CVE ID :CVE-2026-73376 Published : Aug. 18, 2026, 3:17 p.m. | 23 minutes ago Description :Unauthenticated PHP Object Injection in Ultimate Maps by Supsystic Severity: 9.8 | CRITICAL Visit the link...",
-      "source": "CVE Feed",
-      "published": "2026-08-18T15:17:05+00:00"
-    },
-    {
-      "title": "CVE-2026-73366 - WordPress Easy Google Maps plugin <= 1.13.0 - PHP Object Injection vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-73366",
-      "summary": "CVE ID :CVE-2026-73366 Published : Aug. 18, 2026, 3:17 p.m. | 23 minutes ago Description :Unauthenticated PHP Object Injection in Easy Google Maps Severity: 9.8 | CRITICAL Visit the link for more...",
-      "source": "CVE Feed",
-      "published": "2026-08-18T15:17:04+00:00"
-    },
-    {
-      "title": "CVE-2026-73365 - WordPress JetAppointment plugin <= 2.5.2 - SQL Injection vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-73365",
-      "summary": "CVE ID :CVE-2026-73365 Published : Aug. 18, 2026, 3:17 p.m. | 23 minutes ago Description :Unauthenticated SQL Injection in JetAppointment Severity: 9.3 | CRITICAL Visit the link for more details...",
-      "source": "CVE Feed",
-      "published": "2026-08-18T15:17:04+00:00"
-    },
-    {
-      "title": "CVE-2026-73356 - WordPress Breeze plugin <= 2.5.12 - Arbitrary Content Deletion vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-73356",
-      "summary": "CVE ID :CVE-2026-73356 Published : Aug. 18, 2026, 3:17 p.m. | 23 minutes ago Description :Unauthenticated Arbitrary Content Deletion in Breeze Severity: 8.2 | HIGH Visit the link for more details...",
-      "source": "CVE Feed",
-      "published": "2026-08-18T15:17:03+00:00"
-    },
-    {
-      "title": "CVE-2026-73355 - WordPress Affiliates Manager plugin <= 2.9.53 - SQL Injection vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-73355",
-      "summary": "CVE ID :CVE-2026-73355 Published : Aug. 18, 2026, 3:17 p.m. | 23 minutes ago Description :Unauthenticated SQL Injection in Affiliates Manager Severity: 9.3 | CRITICAL Visit the link for more details...",
-      "source": "CVE Feed",
-      "published": "2026-08-18T15:17:03+00:00"
-    },
-    {
-      "title": "CVE-2026-73350 - WordPress SupportCandy plugin <= 3.5.1 - Broken Authentication vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-73350",
-      "summary": "CVE ID :CVE-2026-73350 Published : Aug. 18, 2026, 3:17 p.m. | 23 minutes ago Description :Unauthenticated Broken Authentication in SupportCandy Severity: 8.2 | HIGH Visit the link for more details...",
-      "source": "CVE Feed",
-      "published": "2026-08-18T15:17:03+00:00"
-    },
-    {
-      "title": "CVE-2026-73343 - WordPress WP Compress plugin < 7.20.01 - Remote Code Execution (RCE) vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-73343",
-      "summary": "CVE ID :CVE-2026-73343 Published : Aug. 18, 2026, 3:17 p.m. | 23 minutes ago Description :Unauthenticated Remote Code Execution (RCE) in WP Compress Severity: 10.0 | CRITICAL Visit the link for more...",
-      "source": "CVE Feed",
-      "published": "2026-08-18T15:17:02+00:00"
+      "published": "2026-08-18T16:18:23+00:00"
     },
     {
       "title": "Webinar Today: Rethinking Cyber Defense for AI-Speed Attacks",
@@ -196,6 +217,13 @@
       "summary": "With no formal training and no career plan, Waisman built a path from Argentina's early hacking scene to leading security at an AI-powered offensive security firm. The post CISO Conversations: Nico...",
       "source": "SecurityWeek",
       "published": "2026-08-18T14:30:00+00:00"
+    },
+    {
+      "title": "Microsoft verhelpt kritiek Copilot-lek waardoor informatie kon lekken",
+      "link": "https://www.security.nl/posting/949587/Microsoft+verhelpt+kritiek+Copilot-lek+waardoor+informatie+kon+lekken?channel=rss",
+      "summary": "Microsoft verhelpt kritiek Copilot-lek waardoor informatie kon lekken Microsoft heeft een kritieke kwetsbaarheid in AI-assistent Copilot verholpen waardoor informatie kon lekken. Het beveiligingslek...",
+      "source": "CVE Newsroom",
+      "published": "2026-08-18T14:07:11+00:00"
     },
     {
       "title": "Your Controls Block Known Attacks. What About the Behavior?",
@@ -354,8 +382,8 @@
     {
       "title": "CISA Flags Actively Exploited Ray Flaw That Can Trigger Browser-Based RCE",
       "link": "https://thehackernews.com/2026/08/cisa-flags-actively-exploited-ray-flaw.html",
-      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added a critical flaw impacting Ray to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active...",
-      "source": "The Hacker News",
+      "summary": "CISA Flags Actively Exploited Ray Flaw That Can Trigger Browser-Based RCE The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added a critical flaw impacting Ray to its Known...",
+      "source": "CVE Newsroom",
       "published": "2026-08-18T06:34:20+00:00"
     },
     {
@@ -375,8 +403,8 @@
     {
       "title": "Critical GitLab GraphQL Flaw Could Let Unauthenticated Attackers Delete Public Projects",
       "link": "https://thehackernews.com/2026/08/critical-gitlab-graphql-flaw-could-let.html",
-      "summary": "GitLab has released security updates to address a critical vulnerability impacting its Community Edition (CE) and Enterprise Edition (EE) software that, under certain conditions, could allow an...",
-      "source": "The Hacker News",
+      "summary": "Critical GitLab GraphQL Flaw Could Let Unauthenticated Attackers Delete Public Projects GitLab has released security updates to address a critical vulnerability impacting its Community Edition (CE)...",
+      "source": "CVE Newsroom",
       "published": "2026-08-17T21:03:04+00:00"
     },
     {
@@ -424,8 +452,8 @@
     {
       "title": "Forminator WordPress Flaw Can Enable Unauthenticated RCE via Malicious PHP Uploads",
       "link": "https://thehackernews.com/2026/08/forminator-wordpress-flaw-can-enable.html",
-      "summary": "A critical security flaw has been disclosed in Forminator Forms, a WordPress plugin with more than 600,000 active installations, that could be exploited to achieve arbitrary code execution on...",
-      "source": "The Hacker News",
+      "summary": "Forminator WordPress Flaw Can Enable Unauthenticated RCE via Malicious PHP Uploads A critical security flaw has been disclosed in Forminator Forms, a WordPress plugin with more than 600,000 active...",
+      "source": "CVE Newsroom",
       "published": "2026-08-17T18:22:09+00:00"
     },
     {
@@ -434,20 +462,6 @@
       "summary": "Cybersecurity researchers have traced the continued evolution of the Cavern (aka Cav3rn) command-and-control (C2) framework used by Iranian nation-state hackers in attacks targeting entities in...",
       "source": "The Hacker News",
       "published": "2026-08-17T17:41:06+00:00"
-    },
-    {
-      "title": "SafePal latest crypto hardware wallet maker affected by breach, with nearly 40,000 impacted",
-      "link": "https://therecord.media/safepal-crypto-hardware-breach",
-      "summary": "The crypto hardware wallet company SafePal confirmed a data breach on Sunday, telling users that nearly 40,000 customers had information stolen during a recent security incident.",
-      "source": "The Record",
-      "published": "2026-08-17T17:00:00+00:00"
-    },
-    {
-      "title": "Irregular faces criticism over ‘spin’ in AI hacking postmortem",
-      "link": "https://therecord.media/irregular-ai-hacking-model-blog",
-      "summary": "The company at the center of a series of incidents in which AI models compromised real-world computer systems during security evaluations is facing criticism after the release of a report that...",
-      "source": "The Record",
-      "published": "2026-08-17T16:15:00+00:00"
     },
     {
       "title": "ClickFix on Steam forums: how malicious PowerShell commands install a crypto miner | Kaspersky official blog",
@@ -487,8 +501,8 @@
     {
       "title": "⚡ Weekly Recap: VMware Exploits, Windows 0-Day, MCP Attacks, Browser Hijacks and More",
       "link": "https://thehackernews.com/2026/08/weekly-recap-vmware-exploits-windows-0.html",
-      "summary": "The expensive attacks are not always the clever ones. This week had plenty of proof. Exposed services got hit, old bugs found fresh use, browser sessions became attack paths, and supply-chain...",
-      "source": "The Hacker News",
+      "summary": "⚡ Weekly Recap: VMware Exploits, Windows 0-Day, MCP Attacks, Browser Hijacks and More The expensive attacks are not always the clever ones. This week had plenty of proof. Exposed services got hit...",
+      "source": "CVE Newsroom",
       "published": "2026-08-17T13:23:51+00:00"
     },
     {
@@ -501,8 +515,8 @@
     {
       "title": "How MCP Servers Can Expose Enterprise Secrets",
       "link": "https://thehackernews.com/2026/08/how-mcp-servers-can-expose-enterprise.html",
-      "summary": "MCP servers can expose enterprise secrets through plaintext configuration files, over-permissioned access and prompt injection, often before security teams even know the server is running. As more...",
-      "source": "The Hacker News",
+      "summary": "How MCP Servers Can Expose Enterprise Secrets MCP servers can expose enterprise secrets through plaintext configuration files, over-permissioned access and prompt injection, often before security...",
+      "source": "CVE Newsroom",
       "published": "2026-08-17T11:58:00+00:00"
     },
     {
@@ -522,8 +536,8 @@
     {
       "title": "Unisoc VoLTE Video Call Exploit Chain Can Give Attackers Full Android Kernel Access",
       "link": "https://thehackernews.com/2026/08/unisoc-volte-video-call-exploit-chain.html",
-      "summary": "Security researchers at SSD Secure Disclosure have published a two-stage exploit chain that achieves full Android kernel access on devices running Unisoc modem firmware through a VoLTE video call...",
-      "source": "The Hacker News",
+      "summary": "Unisoc VoLTE Video Call Exploit Chain Can Give Attackers Full Android Kernel Access Security researchers at SSD Secure Disclosure have published a two-stage exploit chain that achieves full Android...",
+      "source": "CVE Newsroom",
       "published": "2026-08-17T10:52:34+00:00"
     },
     {
@@ -536,8 +550,8 @@
     {
       "title": "Evooo1Bot Linux Botnet Exploits Known Flaws to Turn Edge Devices Into SOCKS5 Proxies",
       "link": "https://thehackernews.com/2026/08/evooo1bot-linux-botnet-exploits-known.html",
-      "summary": "Cybersecurity researchers have flagged a previously undocumented Linux botnet family dubbed Evooo1Bot that derives its core functionality from the Mirai botnet source code and is equipped to turn...",
-      "source": "The Hacker News",
+      "summary": "Evooo1Bot Linux Botnet Exploits Known Flaws to Turn Edge Devices Into SOCKS5 Proxies Cybersecurity researchers have flagged a previously undocumented Linux botnet family dubbed Evooo1Bot that derives...",
+      "source": "CVE Newsroom",
       "published": "2026-08-17T09:29:55+00:00"
     },
     {
@@ -557,8 +571,8 @@
     {
       "title": "Suspected China-Nexus Actor Exploits VMware vCenter Flaw, Deploys Babuk-Derived Ransomware",
       "link": "https://thehackernews.com/2026/08/suspected-china-nexus-actor-exploits.html",
-      "summary": "Cybersecurity researchers have attributed the exploitation of a newly patched security flaw in Broadcom VMware vCenter to a suspected China-nexus advanced persistent threat (APT). The attacks involve...",
-      "source": "The Hacker News",
+      "summary": "Suspected China-Nexus Actor Exploits VMware vCenter Flaw, Deploys Babuk-Derived Ransomware Cybersecurity researchers have attributed the exploitation of a newly patched security flaw in Broadcom...",
+      "source": "CVE Newsroom",
       "published": "2026-08-17T07:36:19+00:00"
     },
     {
@@ -576,13 +590,6 @@
       "published": "2026-08-16T23:47:06+00:00"
     },
     {
-      "title": "Anthropic confirms Claude is down in major outage affecting multiple services",
-      "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-confirms-claude-is-down-in-major-outage-affecting-multiple-services/",
-      "summary": "Claude is experiencing a major outage, with users reporting login problems and degraded performance across several Anthropic services. [...]",
-      "source": "BleepingComputer",
-      "published": "2026-08-16T22:28:57+00:00"
-    },
-    {
       "title": "CVE-2026-59310: Critical VMware vCenter Vulnerability",
       "link": "https://thecyberthrone.in/2026/08/16/cve-2026-59310-critical-vmware-vcenter-vulnerability/",
       "summary": "CVE-2026-59310: Critical VMware vCenter Vulnerability CVE-2026-59310 is a critical directory-traversal vulnerability in the VMware vCenter Server Syslog server that deserves immediate attention from...",
@@ -592,15 +599,15 @@
     {
       "title": "SAP Commerce Cloud CVE-2026-58231 Targeted in Exploitation Attempts Days After Patch",
       "link": "https://thehackernews.com/2026/08/sap-commerce-cloud-cve-2026-58231.html",
-      "summary": "A maximum-severity security vulnerability impacting SAP Commerce Cloud is witnessing active exploitation efforts. The vulnerability, tracked as CVE-2026-58231, is rated 10.0 on the CVSS scoring...",
-      "source": "The Hacker News",
+      "summary": "SAP Commerce Cloud CVE-2026-58231 Targeted in Exploitation Attempts Days After Patch A maximum-severity security vulnerability impacting SAP Commerce Cloud is witnessing active exploitation efforts...",
+      "source": "CVE Newsroom",
       "published": "2026-08-15T08:38:46+00:00"
     },
     {
       "title": "Apple macOS Screen Sharing Flaw Exploited on Internet-Exposed Macs to Install Monero Miner",
       "link": "https://thehackernews.com/2026/08/apple-macos-screen-sharing-flaw.html",
-      "summary": "A recently patched security flaw in Apple macOS has come under active exploitation in the wild to deploy a cryptocurrency miner, the Netherlands National Cyber Security Centre (NCSC-NL) has warned...",
-      "source": "The Hacker News",
+      "summary": "Apple macOS Screen Sharing Flaw Exploited on Internet-Exposed Macs to Install Monero Miner A recently patched security flaw in Apple macOS has come under active exploitation in the wild to deploy a...",
+      "source": "CVE Newsroom",
       "published": "2026-08-15T07:24:04+00:00"
     },
     {
@@ -728,13 +735,6 @@
       "summary": "A new White House memo signed by U.S. President Donald Trump has instructed the National Coordination Center (NCC) to establish a program that would allow private sector companies to take advantage...",
       "source": "The Hacker News",
       "published": "2026-08-14T09:38:56+00:00"
-    },
-    {
-      "title": "Kritiek Citrix NetScaler-lek maakt ook remote code execution mogelijk",
-      "link": "https://www.security.nl/posting/949246/Kritiek+Citrix+NetScaler-lek+maakt+ook+remote+code+execution+mogelijk?channel=rss",
-      "summary": "Kritiek Citrix NetScaler-lek maakt ook remote code execution mogelijk Een kritieke kwetsbaarheid in Citrix NetScaler ADC en Citrix NetScaler Gateway blijkt ook remote code execution door een...",
-      "source": "CVE Newsroom",
-      "published": "2026-08-14T09:08:08+00:00"
     },
     {
       "title": "China-Linked Jewelbug Uses XG-Web for Government Espionage and Crypto Fraud",
