@@ -1,12 +1,208 @@
 {
-  "last_updated": "2026-08-18T12:05:41.628911+00:00",
+  "last_updated": "2026-08-18T14:10:38.515657+00:00",
   "articles": [
     {
-      "title": "16 Typosquatted RubyGems Packages Steal Browser Credentials and Crypto Wallets",
-      "link": "https://thehackernews.com/2026/08/16-typosquatted-rubygems-packages-steal.html",
-      "summary": "Cybersecurity researchers have flagged a new typosquatting campaign targeting RubyGems users with a Windows-based information stealer. OpenSourceMalware, which discovered the activity on August 15...",
+      "title": "Your Controls Block Known Attacks. What About the Behavior?",
+      "link": "https://www.bleepingcomputer.com/news/security/your-controls-block-known-attacks-what-about-the-behavior/",
+      "summary": "Security controls can block a familiar attack method while missing quieter ways to achieve the same objective. Picus Security's Blue Report 2026 shows how prevention rates can vary dramatically by...",
+      "source": "BleepingComputer",
+      "published": "2026-08-18T14:01:11+00:00"
+    },
+    {
+      "title": "AI-Driven Vulnerability Surge Breaks the Traditional Patching Model",
+      "link": "https://www.securityweek.com/ai-driven-vulnerability-surge-breaks-the-traditional-patching-model/",
+      "summary": "Rapid7 warns that traditional patch cycles cannot keep pace with soaring vulnerability disclosures and faster exploitation, forcing defenders to prioritize exposure over severity scores. The post...",
+      "source": "SecurityWeek",
+      "published": "2026-08-18T13:00:00+00:00"
+    },
+    {
+      "title": "Silent 'TwinLoot' Cyber Threat Operates Entirely From Microsoft's Cloud",
+      "link": "https://www.darkreading.com/cloud-security/silent-twinloot-threat-operates-microsoft-cloud",
+      "summary": "The Python-based malware framework takes living-off-the-land tactics to a new heights of stealth, with a modular implant that steals credentials and achieves persistence.",
+      "source": "Dark Reading",
+      "published": "2026-08-18T13:00:00+00:00"
+    },
+    {
+      "title": "'Ransom Busters': Ransomware Actor Poses as Incident-Recovery Service",
+      "link": "https://www.darkreading.com/cyberattacks-data-breaches/ransom-busters-ransomware-actor-incident-recovery-service",
+      "summary": "A ransomware affiliate appears to be sidling up to victims with offers of aid, masking its true intention of diverting ransom payments.",
+      "source": "Dark Reading",
+      "published": "2026-08-18T13:00:00+00:00"
+    },
+    {
+      "title": "AI \"Mind Viruses\" Can Spread Between Agents Through Persistent Prompt Files",
+      "link": "https://thehackernews.com/2026/08/ai-mind-viruses-can-spread-between.html",
+      "summary": "Security researchers at Anthropic and Switzerland's EPFL have demonstrated that self-propagating payloads can spread from one artificial intelligence (AI) agent to the next through the editable...",
       "source": "The Hacker News",
-      "published": "2026-08-18T11:40:06+00:00"
+      "published": "2026-08-18T12:38:36+00:00"
+    },
+    {
+      "title": "TWINLOOT Abuses SharePoint and Teams to Steal Credentials and Move Across Networks",
+      "link": "https://thehackernews.com/2026/08/twinloot-abuses-sharepoint-and-teams-to.html",
+      "summary": "Cybersecurity researchers have disclosed details of a previously undocumented Python implant framework dubbed TWINLOOT. \"TWINLOOT is a modular, PyArmor-hardened Python implant designed to operate its...",
+      "source": "The Hacker News",
+      "published": "2026-08-18T12:38:20+00:00"
+    },
+    {
+      "title": "Xpander Raises $7.5 Million for AI Management and Governance",
+      "link": "https://www.securityweek.com/xpander-raises-7-5-million-for-ai-management-and-governance/",
+      "summary": "Xpander’s platform uses a universal agent harness that executes AI agents as portable workloads and securely renders interfaces on demand. The post Xpander Raises $7.5 Million for AI Management and...",
+      "source": "SecurityWeek",
+      "published": "2026-08-18T12:29:08+00:00"
+    },
+    {
+      "title": "CVE-2026-75855 - ArcadeDB before 26.8.1 Path Traversal via create/drop database",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-75855",
+      "summary": "CVE ID :CVE-2026-75855 Published : Aug. 18, 2026, 12:19 p.m. | 19 minutes ago Description :ArcadeDB versions before 26.8.1 fail to sanitize database names in the POST /api/v1/server endpoint's create...",
+      "source": "CVE Feed",
+      "published": "2026-08-18T12:19:35+00:00"
+    },
+    {
+      "title": "CVE-2026-75854 - ArcadeDB Redis Wire-Protocol Plugin Missing Authentication",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-75854",
+      "summary": "CVE ID :CVE-2026-75854 Published : Aug. 18, 2026, 12:19 p.m. | 19 minutes ago Description :ArcadeDB versions before 26.8.1 contain a missing authentication vulnerability in the Redis wire-protocol...",
+      "source": "CVE Feed",
+      "published": "2026-08-18T12:19:35+00:00"
+    },
+    {
+      "title": "CVE-2026-75853 - ArcadeDB Gremlin Wire Protocol Authorization Bypass Cross-Database",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-75853",
+      "summary": "CVE ID :CVE-2026-75853 Published : Aug. 18, 2026, 12:19 p.m. | 19 minutes ago Description :ArcadeDB's Gremlin wire-protocol plugin (com.arcadedb:arcadedb-gremlin) in versions Severity: 8.8 | HIGH...",
+      "source": "CVE Feed",
+      "published": "2026-08-18T12:19:35+00:00"
+    },
+    {
+      "title": "CVE-2026-75852 - ArcadeDB MongoDB wire protocol authentication bypass cross-database",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-75852",
+      "summary": "CVE ID :CVE-2026-75852 Published : Aug. 18, 2026, 12:19 p.m. | 19 minutes ago Description :ArcadeDB versions before 26.8.1 fail to enforce SASL authentication on data commands in the MongoDB...",
+      "source": "CVE Feed",
+      "published": "2026-08-18T12:19:35+00:00"
+    },
+    {
+      "title": "CVE-2026-75851 - ArcadeDB before 26.8.1 Authentication Bypass via Async Command",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-75851",
+      "summary": "CVE ID :CVE-2026-75851 Published : Aug. 18, 2026, 12:19 p.m. | 19 minutes ago Description :ArcadeDB server (com.arcadedb:arcadedb-server) in versions 26.7.3 and earlier fails to propagate the...",
+      "source": "CVE Feed",
+      "published": "2026-08-18T12:19:35+00:00"
+    },
+    {
+      "title": "CVE-2026-75843 - ArcadeDB before 26.8.1 Privilege Escalation via gRPC Transaction",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-75843",
+      "summary": "CVE ID :CVE-2026-75843 Published : Aug. 18, 2026, 12:19 p.m. | 19 minutes ago Description :ArcadeDB before 26.8.1 fails to bind the authenticated principal on the gRPC transaction executor thread in...",
+      "source": "CVE Feed",
+      "published": "2026-08-18T12:19:34+00:00"
+    },
+    {
+      "title": "CVE-2026-75842 - ArcadeDB before 26.8.1 Arbitrary File Read via LOAD CSV",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-75842",
+      "summary": "CVE ID :CVE-2026-75842 Published : Aug. 18, 2026, 12:19 p.m. | 19 minutes ago Description :ArcadeDB versions before 26.8.1 contain an arbitrary file read vulnerability in the OpenCypher LOAD CSV FROM...",
+      "source": "CVE Feed",
+      "published": "2026-08-18T12:19:34+00:00"
+    },
+    {
+      "title": "CVE-2026-75840 - ArcadeDB before 26.8.1 Arbitrary File Read via Unescaped Regex",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-75840",
+      "summary": "CVE ID :CVE-2026-75840 Published : Aug. 18, 2026, 12:19 p.m. | 19 minutes ago Description :ArcadeDB before 26.8.1 contains an arbitrary file read vulnerability in the GraalVM JavaScript sandbox...",
+      "source": "CVE Feed",
+      "published": "2026-08-18T12:19:34+00:00"
+    },
+    {
+      "title": "CVE-2026-75837 - Grav before 2.0.14 Privilege Escalation via Group Access Field",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-75837",
+      "summary": "CVE ID :CVE-2026-75837 Published : Aug. 18, 2026, 12:19 p.m. | 19 minutes ago Description :Grav before 2.0.14 fails to guard the access field in the core group blueprint with the required security@...",
+      "source": "CVE Feed",
+      "published": "2026-08-18T12:19:33+00:00"
+    },
+    {
+      "title": "CVE-2026-75836 - Grav API Plugin before 1.0.14 Missing Authorization",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-75836",
+      "summary": "CVE ID :CVE-2026-75836 Published : Aug. 18, 2026, 12:19 p.m. | 19 minutes ago Description :The Grav API plugin (getgrav/grav-plugin-api, bundled with Grav's admin-next/API stack) before 1.0.14 fails...",
+      "source": "CVE Feed",
+      "published": "2026-08-18T12:19:33+00:00"
+    },
+    {
+      "title": "CVE-2026-75835 - Grav API Plugin before 1.0.14 Missing Authorization",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-75835",
+      "summary": "CVE ID :CVE-2026-75835 Published : Aug. 18, 2026, 12:19 p.m. | 19 minutes ago Description :Grav API plugin (getgrav/grav-plugin-api) before 1.0.14 contains a missing authorization vulnerability in...",
+      "source": "CVE Feed",
+      "published": "2026-08-18T12:19:33+00:00"
+    },
+    {
+      "title": "CVE-2026-75833 - Grav API Plugin Open Redirect via Backslash Bypass",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-75833",
+      "summary": "CVE ID :CVE-2026-75833 Published : Aug. 18, 2026, 12:19 p.m. | 19 minutes ago Description :The Grav API plugin (getgrav/grav-plugin-api, bundled with Grav 2.0's admin-next/API stack) before version...",
+      "source": "CVE Feed",
+      "published": "2026-08-18T12:19:33+00:00"
+    },
+    {
+      "title": "CVE-2026-75832 - Grav API Plugin before 1.0.14 Authorization Bypass",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-75832",
+      "summary": "CVE ID :CVE-2026-75832 Published : Aug. 18, 2026, 12:19 p.m. | 19 minutes ago Description :The Grav API plugin (getgrav/grav-plugin-api, bundled with Grav 2.0) before version 1.0.14 (fixed in 1.0.15)...",
+      "source": "CVE Feed",
+      "published": "2026-08-18T12:19:33+00:00"
+    },
+    {
+      "title": "CVE-2026-75829 - grav-plugin-api before 1.0.15 Twig SSTI via translate endpoint",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-75829",
+      "summary": "CVE ID :CVE-2026-75829 Published : Aug. 18, 2026, 12:19 p.m. | 19 minutes ago Description :grav-plugin-api versions before 1.0.15 fail to validate Twig content in the translate() endpoint, allowing...",
+      "source": "CVE Feed",
+      "published": "2026-08-18T12:19:32+00:00"
+    },
+    {
+      "title": "CVE-2026-75828 - Grav before 2.0.15 Stored XSS via detectXss() Quote Bypass",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-75828",
+      "summary": "CVE ID :CVE-2026-75828 Published : Aug. 18, 2026, 12:19 p.m. | 19 minutes ago Description :Grav before 2.0.15 contains a stored cross-site scripting vulnerability in the detectXss() function where...",
+      "source": "CVE Feed",
+      "published": "2026-08-18T12:19:32+00:00"
+    },
+    {
+      "title": "CVE-2026-75827 - Grav before 2.0.15 Arbitrary File Write via error_log",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-75827",
+      "summary": "CVE ID :CVE-2026-75827 Published : Aug. 18, 2026, 12:19 p.m. | 19 minutes ago Description :Grav before 2.0.15 contains an arbitrary file write vulnerability in the Blueprint dynamic-data...",
+      "source": "CVE Feed",
+      "published": "2026-08-18T12:19:32+00:00"
+    },
+    {
+      "title": "CVE-2026-74907 - Grav before 2.0.15 Path Traversal via plugin-asset-map.php",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-74907",
+      "summary": "CVE ID :CVE-2026-74907 Published : Aug. 18, 2026, 12:19 p.m. | 19 minutes ago Description :Grav before 2.0.15 contains a path traversal vulnerability in the static asset server within index.php that...",
+      "source": "CVE Feed",
+      "published": "2026-08-18T12:19:31+00:00"
+    },
+    {
+      "title": "CVE-2026-74906 - SiYuan before v3.7.4 Incorrect Authorization via Publish Access",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-74906",
+      "summary": "CVE ID :CVE-2026-74906 Published : Aug. 18, 2026, 12:19 p.m. | 19 minutes ago Description :SiYuan before v3.7.4 contains an incorrect authorization vulnerability in eight publish-mode reader-facing...",
+      "source": "CVE Feed",
+      "published": "2026-08-18T12:19:30+00:00"
+    },
+    {
+      "title": "CVE-2026-74904 - SiYuan before v3.7.4 Missing Authorization via block API",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-74904",
+      "summary": "CVE ID :CVE-2026-74904 Published : Aug. 18, 2026, 12:19 p.m. | 19 minutes ago Description :SiYuan before v3.7.4 is missing authorization checks in 17 block metadata/content endpoints in...",
+      "source": "CVE Feed",
+      "published": "2026-08-18T12:19:30+00:00"
+    },
+    {
+      "title": "CVE-2026-74902 - SiYuan before v3.7.4 XSS-to-RCE via malicious filename upload",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-74902",
+      "summary": "CVE ID :CVE-2026-74902 Published : Aug. 18, 2026, 12:19 p.m. | 19 minutes ago Description :SiYuan before v3.7.4 contains a cross-site scripting vulnerability in the file upload validation flow that...",
+      "source": "CVE Feed",
+      "published": "2026-08-18T12:19:30+00:00"
+    },
+    {
+      "title": "CVE-2026-23929 - Prototype pollution leading to stored XSS",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-23929",
+      "summary": "CVE ID :CVE-2026-23929 Published : Aug. 18, 2026, 12:16 p.m. | 22 minutes ago Description :Prototype pollution vulnerability in searchParamsToObject() is leading to a persistent XSS in Maps. URL...",
+      "source": "CVE Feed",
+      "published": "2026-08-18T12:16:15+00:00"
+    },
+    {
+      "title": "Fortinet Acquires AI Security Company Virtue AI",
+      "link": "https://www.securityweek.com/fortinet-acquires-ai-security-company-virtue-ai/",
+      "summary": "Fortinet will use Virtue AI technology to enhance its AI security portfolio, including for AI models, applications, and agentic systems. The post Fortinet Acquires AI Security Company Virtue AI...",
+      "source": "SecurityWeek",
+      "published": "2026-08-18T12:06:21+00:00"
     },
     {
       "title": "One Attacker Has Scraped Both Salesforce and ServiceNow Portals Since 2025",
@@ -14,6 +210,27 @@
       "summary": "A single piece of infrastructure has been pulling records out of Salesforce and ServiceNow customer portals across multiple industries for more than a year, according to research published this week...",
       "source": "The Hacker News",
       "published": "2026-08-18T11:30:00+00:00"
+    },
+    {
+      "title": "16 Typosquatted RubyGems Packages Steal Browser Credentials and Crypto Wallets",
+      "link": "https://thehackernews.com/2026/08/16-typosquatted-rubygems-packages-steal.html",
+      "summary": "Cybersecurity researchers have flagged a new typosquatting campaign targeting RubyGems users with a Windows-based information stealer. OpenSourceMalware, which discovered the activity on August 15...",
+      "source": "The Hacker News",
+      "published": "2026-08-18T11:20:00+00:00"
+    },
+    {
+      "title": "CVE-2026-75627 - Bastillion Authentication Bypass via Path-Prefix Routing Mismatch",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-75627",
+      "summary": "CVE ID :CVE-2026-75627 Published : Aug. 18, 2026, 11:16 a.m. | 1 hour, 21 minutes ago Description :Bastillion fails to properly validate request URI paths in its controller dispatcher, allowing...",
+      "source": "CVE Feed",
+      "published": "2026-08-18T11:16:52+00:00"
+    },
+    {
+      "title": "CVE-2026-75626 - SpiderFoot Stored Cross-Site Scripting via Correlation Titles",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-75626",
+      "summary": "CVE ID :CVE-2026-75626 Published : Aug. 18, 2026, 11:16 a.m. | 1 hour, 21 minutes ago Description :SpiderFoot fails to HTML-escape correlation titles built from external scan data sources including...",
+      "source": "CVE Feed",
+      "published": "2026-08-18T11:16:51+00:00"
     },
     {
       "title": "Microsoft tests faster Windows File Explorer, new context menu",
@@ -95,7 +312,7 @@
     {
       "title": "CVE-2026-15371 - Velociraptor Stored XSS in URL column types",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-15371",
-      "summary": "CVE ID :CVE-2026-15371 Published : Aug. 18, 2026, 7:16 a.m. | 3 hours, 21 minutes ago Description :Velociraptor's web GUI allows specifying a custom type for columns in tables. The URL type takes the...",
+      "summary": "CVE ID :CVE-2026-15371 Published : Aug. 18, 2026, 7:16 a.m. | 5 hours, 21 minutes ago Description :Velociraptor's web GUI allows specifying a custom type for columns in tables. The URL type takes the...",
       "source": "CVE Feed",
       "published": "2026-08-18T07:16:48+00:00"
     },
@@ -116,16 +333,9 @@
     {
       "title": "CVE-2026-15748 - Forminator Forms <= 1.56.1 - Unauthenticated Arbitrary File Upload via Forged Upload Field Configuration",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-15748",
-      "summary": "CVE ID :CVE-2026-15748 Published : Aug. 18, 2026, 6:16 a.m. | 4 hours, 22 minutes ago Description :The Forminator Forms plugin for WordPress is vulnerable to Arbitrary File Upload in all versions up...",
+      "summary": "CVE ID :CVE-2026-15748 Published : Aug. 18, 2026, 6:16 a.m. | 6 hours, 22 minutes ago Description :The Forminator Forms plugin for WordPress is vulnerable to Arbitrary File Upload in all versions up...",
       "source": "CVE Feed",
       "published": "2026-08-18T06:16:40+00:00"
-    },
-    {
-      "title": "CVE-2026-75094 - COMFAST CF-N1-S CGI mbox-config sub_44B438 os command injection",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-75094",
-      "summary": "CVE ID :CVE-2026-75094 Published : Aug. 18, 2026, 2:17 a.m. | 8 hours, 21 minutes ago Description :A flaw has been found in COMFAST CF-N1-S 2.6.0.1. This impacts the function sub_44B438 of the file...",
-      "source": "CVE Feed",
-      "published": "2026-08-18T02:17:30+00:00"
     },
     {
       "title": "Ukrainian software developer faces 12 years in Swiss ransomware trial",
@@ -135,144 +345,11 @@
       "published": "2026-08-17T23:00:00+00:00"
     },
     {
-      "title": "CVE-2026-9816 - Insufficient server-side validation of board member role fields permits privilege escalation",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-9816",
-      "summary": "CVE ID :CVE-2026-9816 Published : Aug. 17, 2026, 10:17 p.m. | 12 hours, 21 minutes ago Description :Mattermost versions 11.7.x Severity: 8.3 | HIGH Visit the link for more details, such as CVSS...",
-      "source": "CVE Feed",
-      "published": "2026-08-17T22:17:27+00:00"
-    },
-    {
-      "title": "CVE-2026-71424 - Onyx: Cross-user OAuth-token leak via /api/mcp/servers* for per-user MCP servers",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-71424",
-      "summary": "CVE ID :CVE-2026-71424 Published : Aug. 17, 2026, 10:17 p.m. | 12 hours, 21 minutes ago Description :Onyx is an open-source AI platform. Prior to 3.1.10, 3.2.14, and 4.0.0, Onyx's GET...",
-      "source": "CVE Feed",
-      "published": "2026-08-17T22:17:26+00:00"
-    },
-    {
-      "title": "CVE-2026-64849 - MLflow: Unauthenticated full-read SSRF in webhook delivery: _validate_webhook_url bypassed via unvalidated HTTP redirects (and DNS rebinding)",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-64849",
-      "summary": "CVE ID :CVE-2026-64849 Published : Aug. 17, 2026, 10:17 p.m. | 12 hours, 21 minutes ago Description :MLflow is an open source AI engineering platform for agents, large language models, and machine...",
-      "source": "CVE Feed",
-      "published": "2026-08-17T22:17:23+00:00"
-    },
-    {
-      "title": "CVE-2026-56677 - 9Router: Authenticated Server-Side Request Forgery (SSRF) via OIDC Provider Test Endpoint",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56677",
-      "summary": "CVE ID :CVE-2026-56677 Published : Aug. 17, 2026, 10:17 p.m. | 12 hours, 21 minutes ago Description :9Router is an AI router & token saver. In 0.5.4 and earlier, the POST /api/auth/oidc/test endpoint...",
-      "source": "CVE Feed",
-      "published": "2026-08-17T22:17:14+00:00"
-    },
-    {
-      "title": "CVE-2026-45790 - Dokploy: Invitation Role Escalation Allows Organization Takeover",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-45790",
-      "summary": "CVE ID :CVE-2026-45790 Published : Aug. 17, 2026, 10:17 p.m. | 12 hours, 21 minutes ago Description :Dokploy is a free, self-hostable Platform as a Service (PaaS). Prior to 0.29.6, Dokploy's...",
-      "source": "CVE Feed",
-      "published": "2026-08-17T22:17:14+00:00"
-    },
-    {
       "title": "Video Call Exploit Chains Two Flaws in Unisoc Modems",
       "link": "https://www.darkreading.com/mobile-security/video-call-exploit-chains-two-flaws-unisoc-modems",
       "summary": "Researchers found that by combining two vulnerabilities, they could take over an Android device by delivering a payload and getting the victim to answer their phone.",
       "source": "Dark Reading",
       "published": "2026-08-17T21:37:23+00:00"
-    },
-    {
-      "title": "CVE-2026-75481 - SkyPilot Authentication Bypass via Service Account Role Escalation",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-75481",
-      "summary": "CVE ID :CVE-2026-75481 Published : Aug. 17, 2026, 9:16 p.m. | 13 hours, 21 minutes ago Description :SkyPilot fails to validate that authenticated users are entitled to grant administrator roles when...",
-      "source": "CVE Feed",
-      "published": "2026-08-17T21:16:50+00:00"
-    },
-    {
-      "title": "CVE-2026-75110 - MemOS Authentication Bypass via Unset INTERNAL_SERVICE_SECRET",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-75110",
-      "summary": "CVE ID :CVE-2026-75110 Published : Aug. 17, 2026, 9:16 p.m. | 13 hours, 21 minutes ago Description :MemOS is a memory operating system for LLMs and AI agents. In deployments where authentication is...",
-      "source": "CVE Feed",
-      "published": "2026-08-17T21:16:50+00:00"
-    },
-    {
-      "title": "CVE-2026-75106 - OpnForm Editable Submission Secret Derivation via Empty Hashids Salt",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-75106",
-      "summary": "CVE ID :CVE-2026-75106 Published : Aug. 17, 2026, 9:16 p.m. | 13 hours, 21 minutes ago Description :OpnForm derives editable-submission secrets from sequential row identifiers using Hashids with an...",
-      "source": "CVE Feed",
-      "published": "2026-08-17T21:16:49+00:00"
-    },
-    {
-      "title": "CVE-2026-75103 - Crawlab Missing Authorization on Password Change Endpoint Allows Account Takeover",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-75103",
-      "summary": "CVE ID :CVE-2026-75103 Published : Aug. 17, 2026, 9:16 p.m. | 13 hours, 21 minutes ago Description :Crawlab fails to verify user ownership or administrative role on the password-change endpoint...",
-      "source": "CVE Feed",
-      "published": "2026-08-17T21:16:49+00:00"
-    },
-    {
-      "title": "CVE-2026-73410 - Budibase: SSRF via DNS rebinding in the REST datasource integration",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-73410",
-      "summary": "CVE ID :CVE-2026-73410 Published : Aug. 17, 2026, 9:16 p.m. | 13 hours, 21 minutes ago Description :Budibase is an open-source low-code platform. Prior to 3.40.0...",
-      "source": "CVE Feed",
-      "published": "2026-08-17T21:16:48+00:00"
-    },
-    {
-      "title": "CVE-2026-66795 - Managedcluster-import-controller: managedcluster-import-controller: csr auto-approver does not validate certificate subject, signername, or requester identity",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-66795",
-      "summary": "CVE ID :CVE-2026-66795 Published : Aug. 17, 2026, 9:16 p.m. | 13 hours, 21 minutes ago Description :A flaw was found in the managedcluster-import-controller. The Certificate Signing Request (CSR)...",
-      "source": "CVE Feed",
-      "published": "2026-08-17T21:16:47+00:00"
-    },
-    {
-      "title": "CVE-2026-65974 - ERPNext: Server-Side Template Injection leading to Remote Code Execution",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-65974",
-      "summary": "CVE ID :CVE-2026-65974 Published : Aug. 17, 2026, 9:16 p.m. | 13 hours, 21 minutes ago Description :ERPNext is a free and open source Enterprise Resource Planning tool. Prior to 15.111.0 and 16.22.0...",
-      "source": "CVE Feed",
-      "published": "2026-08-17T21:16:46+00:00"
-    },
-    {
-      "title": "CVE-2026-65832 - Deskflow - Unauthenticated server-controlled out-of-bounds read in ServerProxy::setOptions / translateKey modifier-table indexing",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-65832",
-      "summary": "CVE ID :CVE-2026-65832 Published : Aug. 17, 2026, 9:16 p.m. | 13 hours, 21 minutes ago Description :Deskflow is a keyboard and mouse sharing app. Prior to continuous build 1.26.0.299, a remote...",
-      "source": "CVE Feed",
-      "published": "2026-08-17T21:16:46+00:00"
-    },
-    {
-      "title": "CVE-2026-65640 - WordPress Arbitrary Remote Code Execution via Image Processing",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-65640",
-      "summary": "CVE ID :CVE-2026-65640 Published : Aug. 17, 2026, 9:16 p.m. | 13 hours, 21 minutes ago Description :WordPress is vulnerable to a remote code execution vulnerability via malicious Postscript file...",
-      "source": "CVE Feed",
-      "published": "2026-08-17T21:16:46+00:00"
-    },
-    {
-      "title": "CVE-2026-64657 - Budibase: Database Connector SQL Injections in PostgreSQL, MS SQL, and MySQL",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-64657",
-      "summary": "CVE ID :CVE-2026-64657 Published : Aug. 17, 2026, 9:16 p.m. | 13 hours, 21 minutes ago Description :Budibase is an open-source low-code platform. Prior to 3.39.19, the PostgreSQL datasource connector...",
-      "source": "CVE Feed",
-      "published": "2026-08-17T21:16:46+00:00"
-    },
-    {
-      "title": "CVE-2026-63409 - Deskflow: Odd-length DSOP options vector causes out-of-bounds read in Deskflow client",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-63409",
-      "summary": "CVE ID :CVE-2026-63409 Published : Aug. 17, 2026, 9:16 p.m. | 13 hours, 21 minutes ago Description :Deskflow is a keyboard and mouse sharing app. From 1.17.0 until continuous build 1.26.0.296, a...",
-      "source": "CVE Feed",
-      "published": "2026-08-17T21:16:46+00:00"
-    },
-    {
-      "title": "CVE-2026-47698 - vm2: Sandbox Breakout Using Dangerous Host Proto Mutators",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-47698",
-      "summary": "CVE ID :CVE-2026-47698 Published : Aug. 17, 2026, 9:16 p.m. | 13 hours, 21 minutes ago Description :vm2 is an open source vm/sandbox for Node.js. Prior to 3.11.6, lib/bridge.js and...",
-      "source": "CVE Feed",
-      "published": "2026-08-17T21:16:45+00:00"
-    },
-    {
-      "title": "CVE-2026-47686 - vm2: Missing Error.cause Sanitization Enables VM2 Sandbox Escape to RCE",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-47686",
-      "summary": "CVE ID :CVE-2026-47686 Published : Aug. 17, 2026, 9:16 p.m. | 13 hours, 21 minutes ago Description :vm2 is an open source vm/sandbox for Node.js. Prior to 3.11.6, handleException() in...",
-      "source": "CVE Feed",
-      "published": "2026-08-17T21:16:45+00:00"
-    },
-    {
-      "title": "CVE-2026-47683 - vm2: bufferAllocLimit cap bypassed by Buffer.concat and Buffer.from arrayLike",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-47683",
-      "summary": "CVE ID :CVE-2026-47683 Published : Aug. 17, 2026, 9:16 p.m. | 13 hours, 21 minutes ago Description :vm2 is an open source vm/sandbox for Node.js. Prior to 3.11.6, the bufferAllocLimit enforcement in...",
-      "source": "CVE Feed",
-      "published": "2026-08-17T21:16:45+00:00"
     },
     {
       "title": "Critical GitLab GraphQL Flaw Could Let Unauthenticated Attackers Delete Public Projects",
@@ -289,27 +366,6 @@
       "published": "2026-08-17T20:26:34+00:00"
     },
     {
-      "title": "CVE-2026-71472 - Acm-search-v2-rhel9: search-v2-operator: shell-command and sql injection in postgresql-start.sh via cr-supplied work_mem",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-71472",
-      "summary": "CVE ID :CVE-2026-71472 Published : Aug. 17, 2026, 8:16 p.m. | 14 hours, 21 minutes ago Description :A flaw was found in acm-search-v2-rhel9. This vulnerability allows an authenticated attacker, such...",
-      "source": "CVE Feed",
-      "published": "2026-08-17T20:16:45+00:00"
-    },
-    {
-      "title": "CVE-2026-70495 - Search-v2-operator: search-v2-operator: cluster-wide impersonate on users/groups shared across 4 pods grants hub system:masters",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-70495",
-      "summary": "CVE ID :CVE-2026-70495 Published : Aug. 17, 2026, 8:16 p.m. | 14 hours, 21 minutes ago Description :A flaw was found in search-v2-operator. This component's `search-serviceaccount` has overly broad...",
-      "source": "CVE Feed",
-      "published": "2026-08-17T20:16:45+00:00"
-    },
-    {
-      "title": "CVE-2026-57485 - Stirling-PDF: Internal Service Account API Key Disclosure via Pipeline Endpoint",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-57485",
-      "summary": "CVE ID :CVE-2026-57485 Published : Aug. 17, 2026, 8:16 p.m. | 14 hours, 21 minutes ago Description :Stirling-PDF is a locally hosted web application that facilitates various operations on PDF files...",
-      "source": "CVE Feed",
-      "published": "2026-08-17T20:16:44+00:00"
-    },
-    {
       "title": "Nearly 750k had financial info, SSNs leaked in South Carolina loan company breach",
       "link": "https://therecord.media/financial-info-leak-debt-consolidator",
       "summary": "The breach affected anyone who received a loan through the company or inquired about a loan product through a third party.",
@@ -324,9 +380,9 @@
       "published": "2026-08-17T19:35:01+00:00"
     },
     {
-      "title": "Adam Shostack Talks Hugging Face & PHANTOM-B",
+      "title": "Adam Shostack Talks Hugging Face Breach & PHANTOM-B",
       "link": "https://www.darkreading.com/vulnerabilities-threats/adam-shostack-talks-hugging-face-phantom-b",
-      "summary": "World-class threat modeler Adam Shostack shared he was \"blown away\" by OpenAI's revelations about the Hugging Face attack, and explains why his new threat model for LLMs is both \"lightweight yet...",
+      "summary": "The security expert talks with the Dark Reading News Desk about why he \"blown away\" by OpenAI's revelations regarding the Hugging Face attack, and also discussed his new threat model for LLMs.",
       "source": "Dark Reading",
       "published": "2026-08-17T19:22:56+00:00"
     },
@@ -478,13 +534,6 @@
       "published": "2026-08-17T10:09:48+00:00"
     },
     {
-      "title": "40,000 Impacted by SafePal Data Breach",
-      "link": "https://www.securityweek.com/40000-impacted-by-safepal-data-breach/",
-      "summary": "Hackers exploited a vulnerability in the order-tracking function of a plugin to access SafePal customer information. The post 40,000 Impacted by SafePal Data Breach appeared first on SecurityWeek.",
-      "source": "SecurityWeek",
-      "published": "2026-08-17T09:37:06+00:00"
-    },
-    {
       "title": "Evooo1Bot Linux Botnet Exploits Known Flaws to Turn Edge Devices Into SOCKS5 Proxies",
       "link": "https://thehackernews.com/2026/08/evooo1bot-linux-botnet-exploits-known.html",
       "summary": "Evooo1Bot Linux Botnet Exploits Known Flaws to Turn Edge Devices Into SOCKS5 Proxies Cybersecurity researchers have flagged a previously undocumented Linux botnet family dubbed Evooo1Bot that derives...",
@@ -497,20 +546,6 @@
       "summary": "Microsoft is working on a security patch for the \"ShieldBreak\" zero-day vulnerability disclosed last week by security researcher \"Nightmare Eclipse\" and now tracked as CVE-2026-69414. [...]",
       "source": "BleepingComputer",
       "published": "2026-08-17T09:05:33+00:00"
-    },
-    {
-      "title": "Recent macOS Screen Sharing Vulnerability Exploited in Attacks",
-      "link": "https://www.securityweek.com/recent-macos-screen-sharing-vulnerability-exploited-in-attacks/",
-      "summary": "Threat actors gained root access to the vulnerable systems and deployed a Monero miner. The post Recent macOS Screen Sharing Vulnerability Exploited in Attacks appeared first on SecurityWeek.",
-      "source": "SecurityWeek",
-      "published": "2026-08-17T08:47:38+00:00"
-    },
-    {
-      "title": "Critical SAP Commerce Cloud Vulnerability Exploited 3 Days After Disclosure",
-      "link": "https://www.securityweek.com/critical-sap-commerce-cloud-vulnerability-exploited-3-days-after-disclosure/",
-      "summary": "The vulnerability tracked as CVE-2026-58231 can be exploited to execute arbitrary code and compromise internal components. The post Critical SAP Commerce Cloud Vulnerability Exploited 3 Days After...",
-      "source": "SecurityWeek",
-      "published": "2026-08-17T08:13:07+00:00"
     },
     {
       "title": "Duizenden Metabase-installaties missen update voor actief aangevallen lek",
@@ -546,13 +581,6 @@
       "summary": "Claude is experiencing a major outage, with users reporting login problems and degraded performance across several Anthropic services. [...]",
       "source": "BleepingComputer",
       "published": "2026-08-16T22:28:57+00:00"
-    },
-    {
-      "title": "Large-scale DDoS attacks disrupted Threema secure messaging service",
-      "link": "https://www.bleepingcomputer.com/news/security/large-scale-ddos-attacks-disrupted-threema-secure-messaging-service/",
-      "summary": "Multiple distributed denial-of-service (DDoS) attacks targeted the Threema secure messaging service earlier this week, causing severe disruptions to communications. [...]",
-      "source": "BleepingComputer",
-      "published": "2026-08-16T17:29:52+00:00"
     },
     {
       "title": "CVE-2026-59310: Critical VMware vCenter Vulnerability",
@@ -961,20 +989,6 @@
       "published": "2026-08-11T12:05:03+00:00"
     },
     {
-      "title": "Mozilla Revokes Firefox and Thunderbird Linux Signing Key After Key Lands in Private Repo",
-      "link": "https://thehackernews.com/2026/08/mozilla-revokes-firefox-and-thunderbird.html",
-      "summary": "Mozilla has scrapped the cryptographic key behind Firefox and Thunderbird downloads for Linux after an unencrypted copy of it was committed by mistake to one of the company's own private code...",
-      "source": "The Hacker News",
-      "published": "2026-08-11T12:04:51+00:00"
-    },
-    {
-      "title": "Researchers Built a Fake Crypto Startup and Hired Three Suspected North Korean IT Workers",
-      "link": "https://thehackernews.com/2026/08/researchers-built-fake-crypto-startup.html",
-      "summary": "Security researchers invented a cryptocurrency startup, advertised developer jobs, and hired three people they believe were North Korean operatives. Every virtual machine the company issued was...",
-      "source": "The Hacker News",
-      "published": "2026-08-11T11:35:03+00:00"
-    },
-    {
       "title": "'GhostJacking' Exposes Identity Governance Gaps in AI Agents",
       "link": "https://www.darkreading.com/cyber-risk/ghostjacking-identity-governance-gaps-ai-agents",
       "summary": "New research shows how attackers can use security alerts and blocked events to manipulate and hijack AI agents.",
@@ -1190,20 +1204,6 @@
       "summary": "When a fraudulent transaction occurs, law enforcement agencies must work quickly to halt payments before cybercriminals cash out.",
       "source": "Dark Reading",
       "published": "2026-07-31T13:30:00+00:00"
-    },
-    {
-      "title": "DROP Platform Lets Californians Reduce Digital Footprint",
-      "link": "https://www.darkreading.com/data-privacy/drop-platform-lets-californians-ditch-their-data",
-      "summary": "Hundreds of thousands of California residents have already registered for the Delete Request and Opt-out Platform (DROP), which launches Aug. 1. Other states could follow if the process goes smoothly.",
-      "source": "Dark Reading",
-      "published": "2026-07-31T13:19:36+00:00"
-    },
-    {
-      "title": "USA Fencing Lunges Into the Hidden Identity Challenge in Amateur Sports",
-      "link": "https://www.darkreading.com/identity-access-management-security/usa-fencing-hidden-identity-challenge-amateur-sports",
-      "summary": "The organization behind Team USA's Olympic/Paralympic fencing teams has automated identity verification to handle growing membership, cutting manual review time while ensuring athletes compete in the...",
-      "source": "Dark Reading",
-      "published": "2026-07-31T13:00:00+00:00"
     },
     {
       "title": "Read This Before You Buy That TV Streaming Stick",
