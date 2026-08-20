@@ -1,6 +1,97 @@
 {
-  "last_updated": "2026-08-20T08:10:33.149556+00:00",
+  "last_updated": "2026-08-20T10:07:07.674163+00:00",
   "articles": [
+    {
+      "title": "New Manic Android malware can exfiltrate data through nearby devices",
+      "link": "https://www.bleepingcomputer.com/news/security/new-manic-android-malware-can-exfiltrate-data-through-nearby-devices/",
+      "summary": "A new Android malware named Manic targeting users in multiple European countries has a fallback data exfiltration mechanism that uses nearby infected devices. [...]",
+      "source": "BleepingComputer",
+      "published": "2026-08-20T10:02:02+00:00"
+    },
+    {
+      "title": "Critical Zimbra RCE flaw now actively exploited in attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/critical-zimbra-rce-flaw-now-actively-exploited-in-attacks/",
+      "summary": "CERT Polska, the Polish Computer Emergency Response Team (CERT), warned that attackers have begun exploiting a critical vulnerability in Zimbra Collaboration Suite (ZCS). [...]",
+      "source": "BleepingComputer",
+      "published": "2026-08-20T09:46:54+00:00"
+    },
+    {
+      "title": "CVE-2026-14952 - Frauscher Sensortechnik: FDS102 for FAdC/FAdCi R2 is offering files with sensitive information for download without requiring authentication",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-14952",
+      "summary": "CVE ID :CVE-2026-14952 Published : Aug. 20, 2026, 9:16 a.m. | 44 minutes ago Description :An unauthenticated remote attacker can retrieve sensible files from the FDS Web server, such as the backup...",
+      "source": "CVE Feed",
+      "published": "2026-08-20T09:16:47+00:00"
+    },
+    {
+      "title": "CVE-2026-14951 - Frauscher Sensortechnik: FDS102 for FAdC/FAdCi R2 is vulnerable to Cross-Site Request Forgery due to missing CSFR protection headers",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-14951",
+      "summary": "CVE ID :CVE-2026-14951 Published : Aug. 20, 2026, 9:16 a.m. | 44 minutes ago Description :An low privileged remote attacker can cause authenticated users to perform unintended actions in the FDS Web...",
+      "source": "CVE Feed",
+      "published": "2026-08-20T09:16:47+00:00"
+    },
+    {
+      "title": "CVE-2026-14950 - Frauscher Sensortechnik: FDS102 for FAdC/FAdCi R2 is vulnerable to Insufficient Session Expiration due to flawed session expiration logic",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-14950",
+      "summary": "CVE ID :CVE-2026-14950 Published : Aug. 20, 2026, 9:16 a.m. | 44 minutes ago Description :An unauthenticated remote attacker in possession of a valid session identifier is able to continue using the...",
+      "source": "CVE Feed",
+      "published": "2026-08-20T09:16:47+00:00"
+    },
+    {
+      "title": "CVE-2026-14949 - Frauscher Sensortechnik: FDS102 for FAdC/FAdCi R2 is vulnerable to Incorrect Authorization due to improper enforcement of role-based access control",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-14949",
+      "summary": "CVE ID :CVE-2026-14949 Published : Aug. 20, 2026, 9:16 a.m. | 44 minutes ago Description :A low privileged remote attacker with a valid session can submit a request to the user creation functionality...",
+      "source": "CVE Feed",
+      "published": "2026-08-20T09:16:47+00:00"
+    },
+    {
+      "title": "CVE-2026-14948 - Frauscher Sensortechnik: FDS102 for FAdC/FAdCi R2 is vulnerable to Insertion of Sensitive Information into Log File via error log archives",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-14948",
+      "summary": "CVE ID :CVE-2026-14948 Published : Aug. 20, 2026, 9:16 a.m. | 44 minutes ago Description :A low privileged remote attacker can hijack an active administrative session without needing to know the...",
+      "source": "CVE Feed",
+      "published": "2026-08-20T09:16:47+00:00"
+    },
+    {
+      "title": "CVE-2026-14947 - Frauscher Sensortechnik: FDS102 for FAdC/FAdCi R2 is vulnerable to Remote Code Execution via malicious ZIP file",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-14947",
+      "summary": "CVE ID :CVE-2026-14947 Published : Aug. 20, 2026, 9:16 a.m. | 44 minutes ago Description :A high-privileged remote attacker can upload malicious ZIP archive containing directory traversal sequences...",
+      "source": "CVE Feed",
+      "published": "2026-08-20T09:16:46+00:00"
+    },
+    {
+      "title": "CVE-2026-14946 - Frauscher Sensortechnik: FDS102 for FAdC/FAdCi R2 is vulnerable to Remote Code Execution via malicious configuration file.",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-14946",
+      "summary": "CVE ID :CVE-2026-14946 Published : Aug. 20, 2026, 9:16 a.m. | 44 minutes ago Description :A high privileged remote attacker can upload a .php file and then request it directly from /uploads/.php to...",
+      "source": "CVE Feed",
+      "published": "2026-08-20T09:16:45+00:00"
+    },
+    {
+      "title": "Exploitation Expected for Critical Authentication Bypass Patched in Citrix NetScaler",
+      "link": "https://www.securityweek.com/exploitation-expected-for-critical-authentication-bypass-patched-in-citrix-netscaler/",
+      "summary": "Remote, unauthenticated attackers could exploit the critical-severity flaw without user interaction. The post Exploitation Expected for Critical Authentication Bypass Patched in Citrix NetScaler...",
+      "source": "SecurityWeek",
+      "published": "2026-08-20T08:33:25+00:00"
+    },
+    {
+      "title": "CVE-2026-76564 - Joomla Extension - phoca.cz - Stored XSS via User-Agent header in Admin Order View in Phoca Cart 5.0.0-6.1.7",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-76564",
+      "summary": "CVE ID :CVE-2026-76564 Published : Aug. 20, 2026, 8:16 a.m. | 1 hour, 44 minutes ago Description :Joomla Extension - phoca.cz - Stored XSS via User-Agent header in Admin Order View in Phoca Cart...",
+      "source": "CVE Feed",
+      "published": "2026-08-20T08:16:47+00:00"
+    },
+    {
+      "title": "CVE-2026-75948 - Joomla Extension - icagenda.com - Authenticated Stored XSS in iCagenda 4.0.8 to 4.0.12",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-75948",
+      "summary": "CVE ID :CVE-2026-75948 Published : Aug. 20, 2026, 8:16 a.m. | 1 hour, 44 minutes ago Description :Joomla Extension - icagenda.com - Authenticated Stored XSS in iCagenda 4.0.8 to 4.0.12 - The frontend...",
+      "source": "CVE Feed",
+      "published": "2026-08-20T08:16:47+00:00"
+    },
+    {
+      "title": "CVE-2025-14601 - vsDesk Task Scheduler OS Command Injection",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2025-14601",
+      "summary": "CVE ID :CVE-2025-14601 Published : Aug. 20, 2026, 8:16 a.m. | 1 hour, 44 minutes ago Description :An OS command injection vulnerability in vsDesk allows an authenticated attacker with administrative...",
+      "source": "CVE Feed",
+      "published": "2026-08-20T08:16:46+00:00"
+    },
     {
       "title": "Critical GitLab Flaw Exploited Shortly After Disclosure",
       "link": "https://www.securityweek.com/critical-gitlab-flaw-exploited-shortly-after-disclosure/",
@@ -39,177 +130,107 @@
     {
       "title": "CVE-2026-76886 - Heap-based Buffer Overflow in Wireshark",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-76886",
-      "summary": "CVE ID :CVE-2026-76886 Published : Aug. 19, 2026, 11:16 p.m. | 7 hours, 25 minutes ago Description :C12.22 protocol dissector crash in 4.6.0 to 4.6.7 and 4.4.0 to 4.4.18 allows denial of service...",
+      "summary": "CVE ID :CVE-2026-76886 Published : Aug. 19, 2026, 11:16 p.m. | 10 hours, 45 minutes ago Description :C12.22 protocol dissector crash in 4.6.0 to 4.6.7 and 4.4.0 to 4.4.18 allows denial of service...",
       "source": "CVE Feed",
       "published": "2026-08-19T23:16:19+00:00"
     },
     {
       "title": "CVE-2026-76878 - OpenStack Aodh and Watcher Authorization Bypass",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-76878",
-      "summary": "CVE ID :CVE-2026-76878 Published : Aug. 19, 2026, 10:17 p.m. | 8 hours, 24 minutes ago Description :In OpenStack Aodh before 22.0.1, the alarm list API bypasses project scoping when the all_projects...",
+      "summary": "CVE ID :CVE-2026-76878 Published : Aug. 19, 2026, 10:17 p.m. | 11 hours, 44 minutes ago Description :In OpenStack Aodh before 22.0.1, the alarm list API bypasses project scoping when the all_projects...",
       "source": "CVE Feed",
       "published": "2026-08-19T22:17:28+00:00"
     },
     {
       "title": "CVE-2026-76850 - LMDeploy Remote Code Execution via Unsafe Pickle Deserialization in the Disaggregated Serving Peer Connector",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-76850",
-      "summary": "CVE ID :CVE-2026-76850 Published : Aug. 19, 2026, 10:17 p.m. | 8 hours, 24 minutes ago Description :LMDeploy deserializes disaggregated-serving peer messages with pickle. The handle_zmq_recv...",
+      "summary": "CVE ID :CVE-2026-76850 Published : Aug. 19, 2026, 10:17 p.m. | 11 hours, 44 minutes ago Description :LMDeploy deserializes disaggregated-serving peer messages with pickle. The handle_zmq_recv...",
       "source": "CVE Feed",
       "published": "2026-08-19T22:17:28+00:00"
     },
     {
       "title": "CVE-2026-76832 - Agno PythonTools Path Traversal via joinpath file_name argument",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-76832",
-      "summary": "CVE ID :CVE-2026-76832 Published : Aug. 19, 2026, 10:17 p.m. | 8 hours, 24 minutes ago Description :Agno's PythonTools in libs/agno/agno/tools/python.py contains a path traversal vulnerability that...",
+      "summary": "CVE ID :CVE-2026-76832 Published : Aug. 19, 2026, 10:17 p.m. | 11 hours, 44 minutes ago Description :Agno's PythonTools in libs/agno/agno/tools/python.py contains a path traversal vulnerability that...",
       "source": "CVE Feed",
       "published": "2026-08-19T22:17:27+00:00"
     },
     {
       "title": "CVE-2026-76590 - TRENDnet TEW-755AP ssi wan.cgi stack-based overflow",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-76590",
-      "summary": "CVE ID :CVE-2026-76590 Published : Aug. 19, 2026, 10:17 p.m. | 8 hours, 24 minutes ago Description :A vulnerability was identified in TRENDnet TEW-755AP up to 20260702. Affected by this issue is some...",
+      "summary": "CVE ID :CVE-2026-76590 Published : Aug. 19, 2026, 10:17 p.m. | 11 hours, 44 minutes ago Description :A vulnerability was identified in TRENDnet TEW-755AP up to 20260702. Affected by this issue is...",
       "source": "CVE Feed",
       "published": "2026-08-19T22:17:27+00:00"
     },
     {
       "title": "CVE-2026-76589 - TRENDnet TEW-755AP mycli FUN_401000 stack-based overflow",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-76589",
-      "summary": "CVE ID :CVE-2026-76589 Published : Aug. 19, 2026, 10:17 p.m. | 8 hours, 24 minutes ago Description :A vulnerability was found in TRENDnet TEW-755AP up to 20260702. Affected is the function FUN_401000...",
+      "summary": "CVE ID :CVE-2026-76589 Published : Aug. 19, 2026, 10:17 p.m. | 11 hours, 44 minutes ago Description :A vulnerability was found in TRENDnet TEW-755AP up to 20260702. Affected is the function...",
       "source": "CVE Feed",
       "published": "2026-08-19T22:17:27+00:00"
     },
     {
       "title": "CVE-2026-76404 - Remote Code Execution (RCE) through Deserialization of Untrusted Data in Splunk MCP Server app",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-76404",
-      "summary": "CVE ID :CVE-2026-76404 Published : Aug. 19, 2026, 10:17 p.m. | 8 hours, 24 minutes ago Description :In Splunk MCP Server app versions below 1.2.1, a user who holds the \"admin\" Splunk role could...",
+      "summary": "CVE ID :CVE-2026-76404 Published : Aug. 19, 2026, 10:17 p.m. | 11 hours, 44 minutes ago Description :In Splunk MCP Server app versions below 1.2.1, a user who holds the \"admin\" Splunk role could...",
       "source": "CVE Feed",
       "published": "2026-08-19T22:17:27+00:00"
     },
     {
       "title": "CVE-2026-76402 - Server-Side Request Forgery (SSRF) through the REST API in Splunk Connect for Kafka",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-76402",
-      "summary": "CVE ID :CVE-2026-76402 Published : Aug. 19, 2026, 10:17 p.m. | 8 hours, 24 minutes ago Description :In Splunk Connect for Kafka versions below 2.2.7, an unauthenticated user who can reach the Kafka...",
+      "summary": "CVE ID :CVE-2026-76402 Published : Aug. 19, 2026, 10:17 p.m. | 11 hours, 44 minutes ago Description :In Splunk Connect for Kafka versions below 2.2.7, an unauthenticated user who can reach the Kafka...",
       "source": "CVE Feed",
       "published": "2026-08-19T22:17:26+00:00"
     },
     {
       "title": "CVE-2026-76399 - Incorrect Permission Assignment for Scheduled Searches in Splunk AI Toolkit",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-76399",
-      "summary": "CVE ID :CVE-2026-76399 Published : Aug. 19, 2026, 10:17 p.m. | 8 hours, 24 minutes ago Description :In Splunk AI Toolkit versions below 6.0.1, a user who holds the \"power\" Splunk role could modify...",
+      "summary": "CVE ID :CVE-2026-76399 Published : Aug. 19, 2026, 10:17 p.m. | 11 hours, 44 minutes ago Description :In Splunk AI Toolkit versions below 6.0.1, a user who holds the \"power\" Splunk role could modify...",
       "source": "CVE Feed",
       "published": "2026-08-19T22:17:26+00:00"
     },
     {
       "title": "CVE-2026-76397 - Improper Access Control in Experiment History through the REST API in Splunk AI Toolkit",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-76397",
-      "summary": "CVE ID :CVE-2026-76397 Published : Aug. 19, 2026, 10:17 p.m. | 8 hours, 24 minutes ago Description :In Splunk AI Toolkit versions below 6.0.0, a user who holds the \"power\" Splunk role could access...",
+      "summary": "CVE ID :CVE-2026-76397 Published : Aug. 19, 2026, 10:17 p.m. | 11 hours, 44 minutes ago Description :In Splunk AI Toolkit versions below 6.0.0, a user who holds the \"power\" Splunk role could access...",
       "source": "CVE Feed",
       "published": "2026-08-19T22:17:26+00:00"
     },
     {
       "title": "CVE-2026-76395 - Remote Code Execution (RCE) through Deserialization of Untrusted Data in the Model Loading REST API in Splunk AI Toolkit",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-76395",
-      "summary": "CVE ID :CVE-2026-76395 Published : Aug. 19, 2026, 10:17 p.m. | 8 hours, 24 minutes ago Description :In Splunk AI Toolkit versions below 6.0.0, a user who holds the \"power\" Splunk role could execute...",
+      "summary": "CVE ID :CVE-2026-76395 Published : Aug. 19, 2026, 10:17 p.m. | 11 hours, 44 minutes ago Description :In Splunk AI Toolkit versions below 6.0.0, a user who holds the \"power\" Splunk role could execute...",
       "source": "CVE Feed",
       "published": "2026-08-19T22:17:26+00:00"
     },
     {
       "title": "CVE-2026-76394 - Missing Authorization in Container and Connection Management through the REST API in Splunk AI Toolkit",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-76394",
-      "summary": "CVE ID :CVE-2026-76394 Published : Aug. 19, 2026, 10:17 p.m. | 8 hours, 24 minutes ago Description :In Splunk AI Toolkit versions below 6.0.0, a low-privileged user who does not hold the \"admin\" or...",
+      "summary": "CVE ID :CVE-2026-76394 Published : Aug. 19, 2026, 10:17 p.m. | 11 hours, 44 minutes ago Description :In Splunk AI Toolkit versions below 6.0.0, a low-privileged user who does not hold the \"admin\" or...",
       "source": "CVE Feed",
       "published": "2026-08-19T22:17:25+00:00"
     },
     {
       "title": "CVE-2026-76391 - Improper Privilege Management through Agent Run History in Splunk AI Toolkit",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-76391",
-      "summary": "CVE ID :CVE-2026-76391 Published : Aug. 19, 2026, 10:17 p.m. | 8 hours, 24 minutes ago Description :In Splunk AI Toolkit versions below 6.0.0, a user who does not hold the \"admin\" or \"power\" Splunk...",
+      "summary": "CVE ID :CVE-2026-76391 Published : Aug. 19, 2026, 10:17 p.m. | 11 hours, 44 minutes ago Description :In Splunk AI Toolkit versions below 6.0.0, a user who does not hold the \"admin\" or \"power\" Splunk...",
       "source": "CVE Feed",
       "published": "2026-08-19T22:17:25+00:00"
     },
     {
       "title": "CVE-2026-76389 - Server-Side Request Forgery (SSRF) through the REST API in Cisco Talos Intelligence for Enterprise Security Cloud",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-76389",
-      "summary": "CVE ID :CVE-2026-76389 Published : Aug. 19, 2026, 10:17 p.m. | 8 hours, 24 minutes ago Description :In Cisco Talos Intelligence for Enterprise Security Cloud versions below 1.0.3, a user that holds a...",
+      "summary": "CVE ID :CVE-2026-76389 Published : Aug. 19, 2026, 10:17 p.m. | 11 hours, 44 minutes ago Description :In Cisco Talos Intelligence for Enterprise Security Cloud versions below 1.0.3, a user that holds...",
       "source": "CVE Feed",
       "published": "2026-08-19T22:17:25+00:00"
     },
     {
       "title": "CVE-2026-76388 - Privilege Escalation through Search Macro Permissions in Splunk Enterprise Security",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-76388",
-      "summary": "CVE ID :CVE-2026-76388 Published : Aug. 19, 2026, 10:17 p.m. | 8 hours, 24 minutes ago Description :In Splunk Enterprise Security versions below 8.6.1, a user who holds the ess_analyst Splunk...",
+      "summary": "CVE ID :CVE-2026-76388 Published : Aug. 19, 2026, 10:17 p.m. | 11 hours, 44 minutes ago Description :In Splunk Enterprise Security versions below 8.6.1, a user who holds the ess_analyst Splunk...",
       "source": "CVE Feed",
       "published": "2026-08-19T22:17:25+00:00"
-    },
-    {
-      "title": "CVE-2026-76387 - SPL Injection through the REST API in Splunk Enterprise Security",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-76387",
-      "summary": "CVE ID :CVE-2026-76387 Published : Aug. 19, 2026, 10:17 p.m. | 8 hours, 24 minutes ago Description :In Splunk Enterprise Security versions below 8.6.1, a user who holds a Splunk Enterprise Security...",
-      "source": "CVE Feed",
-      "published": "2026-08-19T22:17:24+00:00"
-    },
-    {
-      "title": "CVE-2026-76356 - Authentication Bypass through IP Address Spoofing in the Automation Broker in Splunk SOAR",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-76356",
-      "summary": "CVE ID :CVE-2026-76356 Published : Aug. 19, 2026, 10:17 p.m. | 8 hours, 24 minutes ago Description :In Splunk SOAR versions below 8.6.0, an unauthenticated user could spoof the source IP address in a...",
-      "source": "CVE Feed",
-      "published": "2026-08-19T22:17:20+00:00"
-    },
-    {
-      "title": "CVE-2026-76354 - Path Traversal through Search Head Clustering in Splunk Enterprise",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-76354",
-      "summary": "CVE ID :CVE-2026-76354 Published : Aug. 19, 2026, 10:17 p.m. | 8 hours, 24 minutes ago Description :In Splunk Enterprise versions below 10.4.2, 10.2.6, 10.0.9, and 9.4.14, a user who does not hold...",
-      "source": "CVE Feed",
-      "published": "2026-08-19T22:17:20+00:00"
-    },
-    {
-      "title": "CVE-2026-76352 - Improper Authorization through the REST API in Splunk Enterprise",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-76352",
-      "summary": "CVE ID :CVE-2026-76352 Published : Aug. 19, 2026, 10:17 p.m. | 8 hours, 24 minutes ago Description :In Splunk Enterprise versions below 10.4.2, 10.2.6, 10.0.9, and 9.4.14, a user who does not hold...",
-      "source": "CVE Feed",
-      "published": "2026-08-19T22:17:20+00:00"
-    },
-    {
-      "title": "CVE-2026-76351 - Server-Side Request Forgery (SSRF) through the Report Notification REST API in Splunk Secure Gateway",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-76351",
-      "summary": "CVE ID :CVE-2026-76351 Published : Aug. 19, 2026, 10:17 p.m. | 8 hours, 24 minutes ago Description :In Splunk Enterprise versions below 10.4.2, 10.2.6, 10.0.9, and 9.4.14, and Splunk Secure Gateway...",
-      "source": "CVE Feed",
-      "published": "2026-08-19T22:17:20+00:00"
-    },
-    {
-      "title": "CVE-2026-76350 - Improper Privilege Management through PDF Attachments for Email Alert Actions in Splunk Enterprise",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-76350",
-      "summary": "CVE ID :CVE-2026-76350 Published : Aug. 19, 2026, 10:17 p.m. | 8 hours, 24 minutes ago Description :In Splunk Enterprise versions below 10.4.2, 10.2.6, 10.0.9, and 9.4.14, a user that holds a role...",
-      "source": "CVE Feed",
-      "published": "2026-08-19T22:17:19+00:00"
-    },
-    {
-      "title": "CVE-2026-76338 - Improper Authentication through REST API Distributed Search Token Requests in Splunk Enterprise",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-76338",
-      "summary": "CVE ID :CVE-2026-76338 Published : Aug. 19, 2026, 10:17 p.m. | 8 hours, 24 minutes ago Description :In Splunk Enterprise versions below 10.4.2, 10.2.6, 10.0.9, and 9.4.14, an unauthenticated user who...",
-      "source": "CVE Feed",
-      "published": "2026-08-19T22:17:18+00:00"
-    },
-    {
-      "title": "CVE-2026-76335 - Remote Code Execution (RCE) through Splunk Web Manager Configuration in Splunk Enterprise",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-76335",
-      "summary": "CVE ID :CVE-2026-76335 Published : Aug. 19, 2026, 10:17 p.m. | 8 hours, 24 minutes ago Description :In Splunk Enterprise versions below 10.4.2, 10.2.6, 10.0.9, and 9.4.14, an authenticated user who...",
-      "source": "CVE Feed",
-      "published": "2026-08-19T22:17:17+00:00"
-    },
-    {
-      "title": "CVE-2026-76331 - SPL Injection through the REST API in Splunk Enterprise",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-76331",
-      "summary": "CVE ID :CVE-2026-76331 Published : Aug. 19, 2026, 10:17 p.m. | 8 hours, 24 minutes ago Description :In Splunk Enterprise versions below 10.4.2, 10.2.6, 10.0.9, and 9.4.14, a user who does not hold...",
-      "source": "CVE Feed",
-      "published": "2026-08-19T22:17:17+00:00"
-    },
-    {
-      "title": "CVE-2026-76319 - Remote Code Execution (RCE) through Federated Search in Splunk Enterprise",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-76319",
-      "summary": "CVE ID :CVE-2026-76319 Published : Aug. 19, 2026, 10:17 p.m. | 8 hours, 24 minutes ago Description :In Splunk Enterprise versions below 10.4.2, 10.2.6, 10.0.9, and 9.4.14, a low-privileged user that...",
-      "source": "CVE Feed",
-      "published": "2026-08-19T22:17:15+00:00"
     },
     {
       "title": "Rogue ransomware affiliate poses as recovery firm to steal payments",
@@ -347,8 +368,8 @@
     {
       "title": "Hackers Compromised 14,500+ Dahua Devices Using Credential Attacks, Auth Bypasses, and P2P",
       "link": "https://thehackernews.com/2026/08/hackers-compromised-14500-dahua-devices.html",
-      "summary": "Hackers Compromised 14,500+ Dahua Devices Using Credential Attacks, Auth Bypasses, and P2P Cybersecurity researchers at Hunt.io have disclosed details of a campaign that they say compromised more...",
-      "source": "CVE Newsroom",
+      "summary": "Cybersecurity researchers at Hunt.io have disclosed details of a campaign that they say compromised more than 14,530 Dahua devices between June 17 and July 22, 2026, using credential attacks, two...",
+      "source": "The Hacker News",
       "published": "2026-08-19T11:34:28+00:00"
     },
     {
@@ -389,8 +410,8 @@
     {
       "title": "Critical macOS, SharePoint, vCenter, and Microsoft IKE Flaws Under Active Exploitation",
       "link": "https://thehackernews.com/2026/08/critical-macos-sharepoint-vcenter-and.html",
-      "summary": "Critical macOS, SharePoint, vCenter, and Microsoft IKE Flaws Under Active Exploitation The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added four critical vulnerabilities...",
-      "source": "CVE Newsroom",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added four critical vulnerabilities to its Known Exploited Vulnerabilities (KEV) catalog, stating they are being exploited...",
+      "source": "The Hacker News",
       "published": "2026-08-19T11:01:48+00:00"
     },
     {
@@ -457,13 +478,6 @@
       "published": "2026-08-19T07:36:35+00:00"
     },
     {
-      "title": "CareCloud Data Breach Impact Grows to 3.7 Million Individuals",
-      "link": "https://www.securityweek.com/carecloud-data-breach-impact-grows-to-3-7-million-individuals/",
-      "summary": "The data breach was initially believed to affect roughly 350,000 people, but the HHS breach tracker shows a far bigger impact. The post CareCloud Data Breach Impact Grows to 3.7 Million Individuals...",
-      "source": "SecurityWeek",
-      "published": "2026-08-19T06:56:43+00:00"
-    },
-    {
       "title": "Microsoft Links 30+ Rotating Domains to MacSync Stealer Infrastructure",
       "link": "https://thehackernews.com/2026/08/microsoft-links-30-rotating-domains-to.html",
       "summary": "Microsoft Defender Experts have linked more than 30 web domains to MacSync Stealer, a macOS-focused information stealer, after correlating recurring endpoint and network behaviors across changing...",
@@ -473,8 +487,8 @@
     {
       "title": "Clop-Linked Windchill Web Shell Decrypts Credentials and Maps Engineering Data",
       "link": "https://thehackernews.com/2026/08/clop-linked-windchill-web-shell.html",
-      "summary": "Clop-Linked Windchill Web Shell Decrypts Credentials and Maps Engineering Data A JavaServer Pages (JSP) web shell deployed following the exploitation of a critical security flaw in PTC Windchill and...",
-      "source": "CVE Newsroom",
+      "summary": "A JavaServer Pages (JSP) web shell deployed following the exploitation of a critical security flaw in PTC Windchill and FlexPLM servers is specifically designed for the enterprise Product Lifecycle...",
+      "source": "The Hacker News",
       "published": "2026-08-19T05:39:25+00:00"
     },
     {
@@ -506,13 +520,6 @@
       "published": "2026-08-18T20:17:24+00:00"
     },
     {
-      "title": "Comcast turns your Xfinity WiFi into a home motion detector",
-      "link": "https://www.bleepingcomputer.com/news/security/comcast-turns-your-xfinity-wifi-into-a-home-motion-detector/",
-      "summary": "Comcast is promoting WiFi-based motion detection as a part of its new Xfinity Shield home protection platform, allowing routers and wireless devices to detect people moving through a home without...",
-      "source": "BleepingComputer",
-      "published": "2026-08-18T20:14:58+00:00"
-    },
-    {
       "title": "The 'Industrial Accidents' Behind Rogue AI Agent Attacks — and the Sandbox Failures Exposed",
       "link": "https://www.darkreading.com/vulnerabilities-threats/industrial-accidents-rogue-ai-agent-attacks-sandbox-failures",
       "summary": "Rich Mogull, chief analyst with the Cloud Security Alliance, joins the Dark Reading News Desk with what defenders need to take away from AI agents escaping their environments to launch attacks.",
@@ -536,23 +543,16 @@
     {
       "title": "Microsoft Copilot Personal Flaws Could Let One Click Exfiltrate Data From Connected Apps",
       "link": "https://thehackernews.com/2026/08/microsoft-copilot-personal-flaws-could.html",
-      "summary": "Microsoft Copilot Personal Flaws Could Let One Click Exfiltrate Data From Connected Apps Varonis Threat Labs has disclosed three vulnerabilities in Microsoft Copilot Personal that it said could allow...",
-      "source": "CVE Newsroom",
+      "summary": "Varonis Threat Labs has disclosed three vulnerabilities in Microsoft Copilot Personal that it said could allow a single click on a crafted link to silently pull data from connected apps and other...",
+      "source": "The Hacker News",
       "published": "2026-08-18T17:47:22+00:00"
     },
     {
       "title": "Attackers Exploit MLflow SSRF Flaw to Steal Cloud Credentials and Secrets",
       "link": "https://thehackernews.com/2026/08/attackers-exploit-mlflow-ssrf-flaw-to.html",
-      "summary": "Attackers Exploit MLflow SSRF Flaw to Steal Cloud Credentials and Secrets Two critical vulnerabilities impacting MLflow, an open-source artificial intelligence (AI) platform, and FUXA, an...",
-      "source": "CVE Newsroom",
+      "summary": "Two critical vulnerabilities impacting MLflow, an open-source artificial intelligence (AI) platform, and FUXA, an open-source, web-based SCADA / HMI software built for operational technology (OT) and...",
+      "source": "The Hacker News",
       "published": "2026-08-18T17:44:05+00:00"
-    },
-    {
-      "title": "Clop created custom web shell for Windchill data theft attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/clop-created-custom-web-shell-for-windchill-data-theft-attacks/",
-      "summary": "A custom Java web shell likely linked to the Clop ransomware gang was designed specifically for PTC Windchill and FlexPLM servers, with built-in features to decrypt credentials, enumerate file...",
-      "source": "BleepingComputer",
-      "published": "2026-08-18T17:29:51+00:00"
     },
     {
       "title": "Ransom Busters Claims It Hacked Ransomware Servers, Asks Victims for Up to $60,000",
@@ -641,8 +641,8 @@
     {
       "title": "CISA Flags Actively Exploited Ray Flaw That Can Trigger Browser-Based RCE",
       "link": "https://thehackernews.com/2026/08/cisa-flags-actively-exploited-ray-flaw.html",
-      "summary": "CISA Flags Actively Exploited Ray Flaw That Can Trigger Browser-Based RCE The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added a critical flaw impacting Ray to its Known...",
-      "source": "CVE Newsroom",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added a critical flaw impacting Ray to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active...",
+      "source": "The Hacker News",
       "published": "2026-08-18T06:34:20+00:00"
     },
     {
@@ -655,8 +655,8 @@
     {
       "title": "Critical GitLab GraphQL Flaw Could Let Unauthenticated Attackers Delete Public Projects",
       "link": "https://thehackernews.com/2026/08/critical-gitlab-graphql-flaw-could-let.html",
-      "summary": "Critical GitLab GraphQL Flaw Could Let Unauthenticated Attackers Delete Public Projects GitLab has released security updates to address a critical vulnerability impacting its Community Edition (CE)...",
-      "source": "CVE Newsroom",
+      "summary": "GitLab has released security updates to address a critical vulnerability impacting its Community Edition (CE) and Enterprise Edition (EE) software that, under certain conditions, could allow an...",
+      "source": "The Hacker News",
       "published": "2026-08-17T21:03:04+00:00"
     },
     {
@@ -683,8 +683,8 @@
     {
       "title": "Forminator WordPress Flaw Can Enable Unauthenticated RCE via Malicious PHP Uploads",
       "link": "https://thehackernews.com/2026/08/forminator-wordpress-flaw-can-enable.html",
-      "summary": "Forminator WordPress Flaw Can Enable Unauthenticated RCE via Malicious PHP Uploads A critical security flaw has been disclosed in Forminator Forms, a WordPress plugin with more than 600,000 active...",
-      "source": "CVE Newsroom",
+      "summary": "A critical security flaw has been disclosed in Forminator Forms, a WordPress plugin with more than 600,000 active installations, that could be exploited to achieve arbitrary code execution on...",
+      "source": "The Hacker News",
       "published": "2026-08-17T18:22:09+00:00"
     },
     {
@@ -711,15 +711,15 @@
     {
       "title": "⚡ Weekly Recap: VMware Exploits, Windows 0-Day, MCP Attacks, Browser Hijacks and More",
       "link": "https://thehackernews.com/2026/08/weekly-recap-vmware-exploits-windows-0.html",
-      "summary": "⚡ Weekly Recap: VMware Exploits, Windows 0-Day, MCP Attacks, Browser Hijacks and More The expensive attacks are not always the clever ones. This week had plenty of proof. Exposed services got hit...",
-      "source": "CVE Newsroom",
+      "summary": "The expensive attacks are not always the clever ones. This week had plenty of proof. Exposed services got hit, old bugs found fresh use, browser sessions became attack paths, and supply-chain...",
+      "source": "The Hacker News",
       "published": "2026-08-17T13:23:51+00:00"
     },
     {
       "title": "How MCP Servers Can Expose Enterprise Secrets",
       "link": "https://thehackernews.com/2026/08/how-mcp-servers-can-expose-enterprise.html",
-      "summary": "How MCP Servers Can Expose Enterprise Secrets MCP servers can expose enterprise secrets through plaintext configuration files, over-permissioned access and prompt injection, often before security...",
-      "source": "CVE Newsroom",
+      "summary": "MCP servers can expose enterprise secrets through plaintext configuration files, over-permissioned access and prompt injection, often before security teams even know the server is running. As more...",
+      "source": "The Hacker News",
       "published": "2026-08-17T11:58:00+00:00"
     },
     {
@@ -732,15 +732,15 @@
     {
       "title": "Unisoc VoLTE Video Call Exploit Chain Can Give Attackers Full Android Kernel Access",
       "link": "https://thehackernews.com/2026/08/unisoc-volte-video-call-exploit-chain.html",
-      "summary": "Unisoc VoLTE Video Call Exploit Chain Can Give Attackers Full Android Kernel Access Security researchers at SSD Secure Disclosure have published a two-stage exploit chain that achieves full Android...",
-      "source": "CVE Newsroom",
+      "summary": "Security researchers at SSD Secure Disclosure have published a two-stage exploit chain that achieves full Android kernel access on devices running Unisoc modem firmware through a VoLTE video call...",
+      "source": "The Hacker News",
       "published": "2026-08-17T10:52:34+00:00"
     },
     {
       "title": "Evooo1Bot Linux Botnet Exploits Known Flaws to Turn Edge Devices Into SOCKS5 Proxies",
       "link": "https://thehackernews.com/2026/08/evooo1bot-linux-botnet-exploits-known.html",
-      "summary": "Evooo1Bot Linux Botnet Exploits Known Flaws to Turn Edge Devices Into SOCKS5 Proxies Cybersecurity researchers have flagged a previously undocumented Linux botnet family dubbed Evooo1Bot that derives...",
-      "source": "CVE Newsroom",
+      "summary": "Cybersecurity researchers have flagged a previously undocumented Linux botnet family dubbed Evooo1Bot that derives its core functionality from the Mirai botnet source code and is equipped to turn...",
+      "source": "The Hacker News",
       "published": "2026-08-17T09:29:55+00:00"
     },
     {
@@ -753,8 +753,8 @@
     {
       "title": "Suspected China-Nexus Actor Exploits VMware vCenter Flaw, Deploys Babuk-Derived Ransomware",
       "link": "https://thehackernews.com/2026/08/suspected-china-nexus-actor-exploits.html",
-      "summary": "Suspected China-Nexus Actor Exploits VMware vCenter Flaw, Deploys Babuk-Derived Ransomware Cybersecurity researchers have attributed the exploitation of a newly patched security flaw in Broadcom...",
-      "source": "CVE Newsroom",
+      "summary": "Cybersecurity researchers have attributed the exploitation of a newly patched security flaw in Broadcom VMware vCenter to a suspected China-nexus advanced persistent threat (APT). The attacks involve...",
+      "source": "The Hacker News",
       "published": "2026-08-17T07:36:19+00:00"
     },
     {
