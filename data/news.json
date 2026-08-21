@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-21T10:06:59.771739+00:00",
+  "last_updated": "2026-08-21T12:05:59.477629+00:00",
   "articles": [
     {
       "title": "Calling on Cyber Pros to Help Defend City Hall",
@@ -7,6 +7,90 @@
       "summary": "Government agencies with smaller budgets need support — and here's how you can help.",
       "source": "Dark Reading",
       "published": "2026-08-21T14:00:00+00:00"
+    },
+    {
+      "title": "CVE-2026-77759 - IDOR and missing authorization in the Prospero Flow CRM transaction API allow cross-tenant reading of financial records",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-77759",
+      "summary": "CVE ID :CVE-2026-77759 Published : Aug. 21, 2026, 11:29 a.m. | 32 minutes ago Description :Authorization Bypass Through User-Controlled Key in the transaction API in Roskus Prospero Flow CRM 5.0.0...",
+      "source": "CVE Feed",
+      "published": "2026-08-21T11:29:43+00:00"
+    },
+    {
+      "title": "CVE-2026-77776 - Headroom Proxy Treats the Client-Supplied x-headroom-user-id Header as an Authenticated Identity",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-77776",
+      "summary": "CVE ID :CVE-2026-77776 Published : Aug. 21, 2026, 11:22 a.m. | 39 minutes ago Description :Headroom's LLM proxy derives the memory owner from the x-headroom-user-id request header. The header is read...",
+      "source": "CVE Feed",
+      "published": "2026-08-21T11:22:51+00:00"
+    },
+    {
+      "title": "CVE-2026-77775 - Headroom Proxy Sends Upstream Requests to a Client-Supplied Base URL Without Address Validation",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-77775",
+      "summary": "CVE ID :CVE-2026-77775 Published : Aug. 21, 2026, 11:22 a.m. | 39 minutes ago Description :Headroom's LLM proxy lets a client choose the upstream destination with the x-headroom-base-url request...",
+      "source": "CVE Feed",
+      "published": "2026-08-21T11:22:51+00:00"
+    },
+    {
+      "title": "CVE-2026-77767 - Reconmap Report Preview Endpoint Is Marked AllowAnonymous, Exposing Every Project and Client Organisation Without Authentication",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-77767",
+      "summary": "CVE ID :CVE-2026-77767 Published : Aug. 21, 2026, 11:17 a.m. | 44 minutes ago Description :Reconmap's API applies a fallback authorization policy in apps/api/app/Program.cs that requires an...",
+      "source": "CVE Feed",
+      "published": "2026-08-21T11:17:07+00:00"
+    },
+    {
+      "title": "CVE-2026-77683 - Comfast CF-N1-S mbox-config system command injection",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-77683",
+      "summary": "CVE ID :CVE-2026-77683 Published : Aug. 21, 2026, 11:17 a.m. | 44 minutes ago Description :A security flaw has been discovered in Comfast CF-N1-S 2.6.0.1. Affected by this issue is the function...",
+      "source": "CVE Feed",
+      "published": "2026-08-21T11:17:06+00:00"
+    },
+    {
+      "title": "CVE-2026-77086 - SiYuan before v3.7.4 Path Traversal via packageName",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-77086",
+      "summary": "CVE ID :CVE-2026-77086 Published : Aug. 21, 2026, 11:17 a.m. | 44 minutes ago Description :SiYuan before v3.7.4 fails to validate the packageName parameter in Bazaar install and uninstall endpoints...",
+      "source": "CVE Feed",
+      "published": "2026-08-21T11:17:06+00:00"
+    },
+    {
+      "title": "Microsoft warns of max severity Entra ID flaw exploited in attacks",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-warns-of-max-severity-entra-id-flaw-exploited-in-attacks/",
+      "summary": "Microsoft has patched a maximum-severity vulnerability in the Entra ID identity and access management (IAM) platform that has been exploited in attacks. [...]",
+      "source": "BleepingComputer",
+      "published": "2026-08-21T11:04:10+00:00"
+    },
+    {
+      "title": "Hackers abuse FTP server banners to deliver new Windows malware",
+      "link": "https://www.bleepingcomputer.com/news/security/hackers-abuse-ftp-server-banners-to-deliver-new-windows-malware/",
+      "summary": "Threat actors are abusing FTP banners to hide commands that deliver two previously undocumented remote access trojans named E4del and PINHOLE. [...]",
+      "source": "BleepingComputer",
+      "published": "2026-08-21T11:00:00+00:00"
+    },
+    {
+      "title": "CVE-2026-77755 - Denial of Service in MISP-STIX Import via Malformed or Oversized STIX Documents in misp-stix library",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-77755",
+      "summary": "CVE ID :CVE-2026-77755 Published : Aug. 21, 2026, 10:16 a.m. | 1 hour, 45 minutes ago Description :A denial-of-service vulnerability was identified in misp-stix when processing attacker-controlled...",
+      "source": "CVE Feed",
+      "published": "2026-08-21T10:16:39+00:00"
+    },
+    {
+      "title": "CVE-2026-77751 - Path Traversal in MISP Object Template Resolution During STIX Import and Export in misp-stix library",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-77751",
+      "summary": "CVE ID :CVE-2026-77751 Published : Aug. 21, 2026, 10:16 a.m. | 1 hour, 45 minutes ago Description :A path traversal vulnerability existed in the handling of MISP object template names during STIX 2...",
+      "source": "CVE Feed",
+      "published": "2026-08-21T10:16:39+00:00"
+    },
+    {
+      "title": "SickKids data breach exposes employee and job applicant info",
+      "link": "https://www.bleepingcomputer.com/news/security/sickkids-data-breach-exposes-employee-and-job-applicant-info/",
+      "summary": "Toronto's Hospital for Sick Children (SickKids) says a cybersecurity incident exposed the personal information of some current and former employees and job applicants, stemming from a flaw in...",
+      "source": "BleepingComputer",
+      "published": "2026-08-21T10:10:42+00:00"
+    },
+    {
+      "title": "Cisco Patches Nine Crosswork and Secure Workload Flaws, Five Scoring CVSS 10.0",
+      "link": "https://thehackernews.com/2026/08/cisco-patches-nine-crosswork-and-secure.html",
+      "summary": "Cisco has published another round of security updates for Crosswork platforms and Secure Workload Software as part of a continued comprehensive internal security review. Four of the security...",
+      "source": "The Hacker News",
+      "published": "2026-08-21T10:03:11+00:00"
     },
     {
       "title": "Rust Supply Chain Attack Linked to North Korean Hackers",
@@ -21,6 +105,13 @@
       "summary": "Two industry surveys released this week by Kiteworks and CyberSheath paint a consistent picture of the defense industrial base. The post Contractors’ CMMC Confidence Rises as Ability to Prove It...",
       "source": "SecurityWeek",
       "published": "2026-08-21T08:41:06+00:00"
+    },
+    {
+      "title": "CVE-2026-77264 - Automation Web Platform <= 4.8.6 - Unauthenticated Authentication Bypass via 'otp_transient' Token Disclosure",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-77264",
+      "summary": "CVE ID :CVE-2026-77264 Published : Aug. 21, 2026, 8:16 a.m. | 3 hours, 45 minutes ago Description :The Automation Web Platform – Notifications and OTP for WooCommerce, Advanced Country Code plugin...",
+      "source": "CVE Feed",
+      "published": "2026-08-21T08:16:44+00:00"
     },
     {
       "title": "Microsoft Rolls Out 22 Fresh Security Patches",
@@ -60,177 +151,114 @@
     {
       "title": "CVE-2026-76158 - Datiphy Data Management Center - External Control of File Name or Path",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-76158",
-      "summary": "CVE ID :CVE-2026-76158 Published : Aug. 21, 2026, 3:16 a.m. | 5 hours, 3 minutes ago Description :External Control of File Name or Path in the upload API endpoint of Datiphy Data Management Center...",
+      "summary": "CVE ID :CVE-2026-76158 Published : Aug. 21, 2026, 3:16 a.m. | 8 hours, 45 minutes ago Description :External Control of File Name or Path in the upload API endpoint of Datiphy Data Management Center...",
       "source": "CVE Feed",
       "published": "2026-08-21T03:16:39+00:00"
     },
     {
       "title": "CVE-2026-76157 - Datiphy Data Management Center - Missing Authentication for Critical Function",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-76157",
-      "summary": "CVE ID :CVE-2026-76157 Published : Aug. 21, 2026, 2:16 a.m. | 6 hours, 3 minutes ago Description :Missing authentication for a critical function in the upload API endpoint of Datiphy Data Management...",
+      "summary": "CVE ID :CVE-2026-76157 Published : Aug. 21, 2026, 2:16 a.m. | 9 hours, 45 minutes ago Description :Missing authentication for a critical function in the upload API endpoint of Datiphy Data Management...",
       "source": "CVE Feed",
       "published": "2026-08-21T02:16:27+00:00"
     },
     {
       "title": "CVE-2026-76156 - Datiphy Data Management Center - Improper Neutralization of Special Elements used in an OS Command",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-76156",
-      "summary": "CVE ID :CVE-2026-76156 Published : Aug. 21, 2026, 2:16 a.m. | 6 hours, 3 minutes ago Description :OS command injection in the api endpoint of Datiphy Data Management Center from v8.3.0 through v8.5.1...",
+      "summary": "CVE ID :CVE-2026-76156 Published : Aug. 21, 2026, 2:16 a.m. | 9 hours, 45 minutes ago Description :OS command injection in the api endpoint of Datiphy Data Management Center from v8.3.0 through...",
       "source": "CVE Feed",
       "published": "2026-08-21T02:16:27+00:00"
     },
     {
       "title": "CVE-2026-76155 - Datiphy Data Management Center - Use of Default Credentials",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-76155",
-      "summary": "CVE ID :CVE-2026-76155 Published : Aug. 21, 2026, 2:16 a.m. | 6 hours, 3 minutes ago Description :Use of default credentials in Datiphy Data Management Center from v8.3.0 through v8.5.1 allows a...",
+      "summary": "CVE ID :CVE-2026-76155 Published : Aug. 21, 2026, 2:16 a.m. | 9 hours, 45 minutes ago Description :Use of default credentials in Datiphy Data Management Center from v8.3.0 through v8.5.1 allows a...",
       "source": "CVE Feed",
       "published": "2026-08-21T02:16:25+00:00"
     },
     {
       "title": "CVE-2026-77651 - arrayref Supply Chain Compromise",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-77651",
-      "summary": "CVE ID :CVE-2026-77651 Published : Aug. 21, 2026, 1:17 a.m. | 7 hours, 2 minutes ago Description :The arrayref crate 0.3.10 for Rust can trigger execution of malicious code when compiling a project...",
+      "summary": "CVE ID :CVE-2026-77651 Published : Aug. 21, 2026, 1:17 a.m. | 10 hours, 45 minutes ago Description :The arrayref crate 0.3.10 for Rust can trigger execution of malicious code when compiling a project...",
       "source": "CVE Feed",
       "published": "2026-08-21T01:17:02+00:00"
     },
     {
       "title": "CVE-2026-77650 - append-only-vec Malicious Dependency Arbitrary Code Execution",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-77650",
-      "summary": "CVE ID :CVE-2026-77650 Published : Aug. 21, 2026, 1:17 a.m. | 7 hours, 2 minutes ago Description :The append-only-vec crate 0.1.9 for Rust can trigger execution of malicious code when compiling a...",
+      "summary": "CVE ID :CVE-2026-77650 Published : Aug. 21, 2026, 1:17 a.m. | 10 hours, 45 minutes ago Description :The append-only-vec crate 0.1.9 for Rust can trigger execution of malicious code when compiling a...",
       "source": "CVE Feed",
       "published": "2026-08-21T01:17:01+00:00"
     },
     {
       "title": "CVE-2026-77649 - Internment Rust Crate Arbitrary Code Execution Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-77649",
-      "summary": "CVE ID :CVE-2026-77649 Published : Aug. 21, 2026, 1:17 a.m. | 7 hours, 2 minutes ago Description :The internment crate 0.8.7 for Rust can trigger execution of malicious code when compiling a project...",
+      "summary": "CVE ID :CVE-2026-77649 Published : Aug. 21, 2026, 1:17 a.m. | 10 hours, 45 minutes ago Description :The internment crate 0.8.7 for Rust can trigger execution of malicious code when compiling a...",
       "source": "CVE Feed",
       "published": "2026-08-21T01:17:01+00:00"
     },
     {
       "title": "CVE-2026-16520 - Genians Genian NAC and Genian ZTNA SQL Injection and Authentication Bypass Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-16520",
-      "summary": "CVE ID :CVE-2026-16520 Published : Aug. 21, 2026, 12:16 a.m. | 8 hours, 3 minutes ago Description :Improper input validation and Exposure of sensitive information through data queries vulnerability...",
+      "summary": "CVE ID :CVE-2026-16520 Published : Aug. 21, 2026, 12:16 a.m. | 11 hours, 45 minutes ago Description :Improper input validation and Exposure of sensitive information through data queries vulnerability...",
       "source": "CVE Feed",
       "published": "2026-08-21T00:16:31+00:00"
     },
     {
       "title": "CVE-2026-77647 - SPIP Remote Code Execution Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-77647",
-      "summary": "CVE ID :CVE-2026-77647 Published : Aug. 20, 2026, 11:16 p.m. | 9 hours, 3 minutes ago Description :SPIP before 4.4.20 allows unauthenticated remote attackers to execute arbitrary code, as exploited...",
+      "summary": "CVE ID :CVE-2026-77647 Published : Aug. 20, 2026, 11:16 p.m. | 12 hours, 45 minutes ago Description :SPIP before 4.4.20 allows unauthenticated remote attackers to execute arbitrary code, as exploited...",
       "source": "CVE Feed",
       "published": "2026-08-20T23:16:28+00:00"
     },
     {
       "title": "CVE-2026-77645 - Critical Remote Code Execution (RCE) vulnerability reported in Windchill",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-77645",
-      "summary": "CVE ID :CVE-2026-77645 Published : Aug. 20, 2026, 10:18 p.m. | 10 hours, 1 minute ago Description :A critical remote code execution (RCE) vulnerability has been reported in PTC Windchill and PTC...",
+      "summary": "CVE ID :CVE-2026-77645 Published : Aug. 20, 2026, 10:18 p.m. | 13 hours, 43 minutes ago Description :A critical remote code execution (RCE) vulnerability has been reported in PTC Windchill and PTC...",
       "source": "CVE Feed",
       "published": "2026-08-20T22:18:06+00:00"
     },
     {
       "title": "CVE-2026-77644 - Critical Bypass Access Control Vulnerability Reported for Windchill Risk and Reliability (WRR) Enterprise Edition",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-77644",
-      "summary": "CVE ID :CVE-2026-77644 Published : Aug. 20, 2026, 10:18 p.m. | 10 hours, 1 minute ago Description :A critical bypass access control vulnerability has been reported in PTC Windchill Risk and...",
+      "summary": "CVE ID :CVE-2026-77644 Published : Aug. 20, 2026, 10:18 p.m. | 13 hours, 43 minutes ago Description :A critical bypass access control vulnerability has been reported in PTC Windchill Risk and...",
       "source": "CVE Feed",
       "published": "2026-08-20T22:18:06+00:00"
     },
     {
       "title": "CVE-2026-72860 - 9router Server-Side Request Forgery via /api/provider-nodes/validate Because the IPv4-Mapped IPv6 Denylist Check Is Unreachable",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-72860",
-      "summary": "CVE ID :CVE-2026-72860 Published : Aug. 20, 2026, 10:18 p.m. | 10 hours, 1 minute ago Description :The POST /api/provider-nodes/validate route in 9router takes a caller-supplied baseUrl and issues...",
+      "summary": "CVE ID :CVE-2026-72860 Published : Aug. 20, 2026, 10:18 p.m. | 13 hours, 43 minutes ago Description :The POST /api/provider-nodes/validate route in 9router takes a caller-supplied baseUrl and issues...",
       "source": "CVE Feed",
       "published": "2026-08-20T22:18:05+00:00"
     },
     {
       "title": "CVE-2026-72848 - langchain-community SitemapLoader Does Not Apply restrict_to_same_domain to Nested Sitemap Index Entries, Allowing Server-Side Request Forgery",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-72848",
-      "summary": "CVE ID :CVE-2026-72848 Published : Aug. 20, 2026, 10:18 p.m. | 10 hours, 1 minute ago Description :SitemapLoader.parse_sitemap in langchain_community/document_loaders/sitemap.py applies the...",
+      "summary": "CVE ID :CVE-2026-72848 Published : Aug. 20, 2026, 10:18 p.m. | 13 hours, 43 minutes ago Description :SitemapLoader.parse_sitemap in langchain_community/document_loaders/sitemap.py applies the...",
       "source": "CVE Feed",
       "published": "2026-08-20T22:18:05+00:00"
     },
     {
       "title": "CVE-2026-72843 - EverShop Missing Authorization on PATCH /api/customers/:id Allows Unauthenticated Account Takeover",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-72843",
-      "summary": "CVE ID :CVE-2026-72843 Published : Aug. 20, 2026, 10:18 p.m. | 10 hours, 1 minute ago Description :The customer update route in EverShop is declared with \"access\": \"public\" in...",
+      "summary": "CVE ID :CVE-2026-72843 Published : Aug. 20, 2026, 10:18 p.m. | 13 hours, 43 minutes ago Description :The customer update route in EverShop is declared with \"access\": \"public\" in...",
+      "source": "CVE Feed",
+      "published": "2026-08-20T22:18:05+00:00"
+    },
+    {
+      "title": "CVE-2026-72818 - NLTK TweetTokenizer URL Pattern Backtracks Catastrophically on Naked-Domain-Like Input",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-72818",
+      "summary": "CVE ID :CVE-2026-72818 Published : Aug. 20, 2026, 10:18 p.m. | 13 hours, 43 minutes ago Description :The URLS regular expression in nltk/tokenize/casual.py, compiled into TweetTokenizer.WORD_RE and...",
       "source": "CVE Feed",
       "published": "2026-08-20T22:18:05+00:00"
     },
     {
       "title": "CVE-2026-69851 - Microsoft Entra ID Elevation of Privilege Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-69851",
-      "summary": "CVE ID :CVE-2026-69851 Published : Aug. 20, 2026, 10:18 p.m. | 10 hours, 1 minute ago Description :Server-side request forgery (ssrf) in Azure Active Directory allows an authorized attacker to...",
+      "summary": "CVE ID :CVE-2026-69851 Published : Aug. 20, 2026, 10:18 p.m. | 13 hours, 44 minutes ago Description :Server-side request forgery (ssrf) in Azure Active Directory allows an authorized attacker to...",
       "source": "CVE Feed",
       "published": "2026-08-20T22:18:00+00:00"
-    },
-    {
-      "title": "CVE-2026-69836 - Microsoft Entra ID Remote Code Execution Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-69836",
-      "summary": "CVE ID :CVE-2026-69836 Published : Aug. 20, 2026, 10:18 p.m. | 10 hours, 1 minute ago Description :Deserialization of untrusted data in Microsoft Entra ID allows an unauthorized attacker to execute...",
-      "source": "CVE Feed",
-      "published": "2026-08-20T22:18:00+00:00"
-    },
-    {
-      "title": "CVE-2026-69558 - Microsoft Partner Center Information Disclosure Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-69558",
-      "summary": "CVE ID :CVE-2026-69558 Published : Aug. 20, 2026, 10:18 p.m. | 10 hours, 1 minute ago Description :Authorization bypass through user-controlled key in Microsoft Partner Center allows an unauthorized...",
-      "source": "CVE Feed",
-      "published": "2026-08-20T22:18:00+00:00"
-    },
-    {
-      "title": "CVE-2026-69555 - Azure Arc Elevation of Privilege Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-69555",
-      "summary": "CVE ID :CVE-2026-69555 Published : Aug. 20, 2026, 10:18 p.m. | 10 hours, 1 minute ago Description :Incorrect authorization in Azure Arc allows an unauthorized attacker to elevate privileges over a...",
-      "source": "CVE Feed",
-      "published": "2026-08-20T22:18:00+00:00"
-    },
-    {
-      "title": "CVE-2026-69543 - Azure Virtual Machines Elevation of Privilege Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-69543",
-      "summary": "CVE ID :CVE-2026-69543 Published : Aug. 20, 2026, 10:18 p.m. | 10 hours, 1 minute ago Description :Server-side request forgery (ssrf) in Azure Virtual Machines allows an authorized attacker to...",
-      "source": "CVE Feed",
-      "published": "2026-08-20T22:18:00+00:00"
-    },
-    {
-      "title": "CVE-2026-69519 - Azure Stack HCI Information Disclosure Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-69519",
-      "summary": "CVE ID :CVE-2026-69519 Published : Aug. 20, 2026, 10:18 p.m. | 10 hours, 1 minute ago Description :Observable response discrepancy in Azure Stack HCI allows an unauthorized attacker to disclose...",
-      "source": "CVE Feed",
-      "published": "2026-08-20T22:18:00+00:00"
-    },
-    {
-      "title": "CVE-2026-69419 - Azure Data Manager for Energy Remote Code Execution Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-69419",
-      "summary": "CVE ID :CVE-2026-69419 Published : Aug. 20, 2026, 10:17 p.m. | 10 hours, 1 minute ago Description :Integer overflow or wraparound in Azure Data Manager for Energy allows an authorized attacker to...",
-      "source": "CVE Feed",
-      "published": "2026-08-20T22:17:59+00:00"
-    },
-    {
-      "title": "CVE-2026-69400 - Azure Logic Apps Elevation of Privilege Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-69400",
-      "summary": "CVE ID :CVE-2026-69400 Published : Aug. 20, 2026, 10:17 p.m. | 10 hours, 1 minute ago Description :Improper limitation of a pathname to a restricted directory ('path traversal') in Azure Logic Apps...",
-      "source": "CVE Feed",
-      "published": "2026-08-20T22:17:59+00:00"
-    },
-    {
-      "title": "CVE-2026-68789 - Azure SQL Database Elevation of Privilege Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-68789",
-      "summary": "CVE ID :CVE-2026-68789 Published : Aug. 20, 2026, 10:17 p.m. | 10 hours, 1 minute ago Description :Improper neutralization of special elements used in an sql command ('sql injection') in Azure SQL...",
-      "source": "CVE Feed",
-      "published": "2026-08-20T22:17:57+00:00"
-    },
-    {
-      "title": "CVE-2026-68782 - Azure SQL Database Elevation of Privilege Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-68782",
-      "summary": "CVE ID :CVE-2026-68782 Published : Aug. 20, 2026, 10:17 p.m. | 10 hours, 1 minute ago Description :Improper neutralization of special elements used in an sql command ('sql injection') in Azure SQL...",
-      "source": "CVE Feed",
-      "published": "2026-08-20T22:17:57+00:00"
-    },
-    {
-      "title": "CVE-2026-66800 - Azure Data Factory Information Disclosure Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-66800",
-      "summary": "CVE ID :CVE-2026-66800 Published : Aug. 20, 2026, 10:17 p.m. | 10 hours, 2 minutes ago Description :Server-side request forgery (ssrf) in Azure Data Factory allows an unauthorized attacker to...",
-      "source": "CVE Feed",
-      "published": "2026-08-20T22:17:56+00:00"
     },
     {
       "title": "New CUSTODY Framework Constrains AI Agents Inside the Network",
@@ -604,13 +632,6 @@
       "published": "2026-08-19T18:10:00+00:00"
     },
     {
-      "title": "Hackers compromise 14,500 Dahua web cameras in 35-day campaign",
-      "link": "https://www.bleepingcomputer.com/news/security/hackers-compromise-14-500-dahua-web-cameras-in-35-day-campaign/",
-      "summary": "In a large-scale campaign that researchers dubbed CameraSwarm, hackers compromised more than 14,500 Dahua IP cameras mostly in Ukraine and Russia. [...]",
-      "source": "BleepingComputer",
-      "published": "2026-08-19T18:09:13+00:00"
-    },
-    {
       "title": "OpenAI Pauses Frontier RL Training as It Tightens Defenses Against Unsafe AI Behavior",
       "link": "https://thehackernews.com/2026/08/openai-pauses-frontier-rl-training-as.html",
       "summary": "OpenAI on Tuesday revealed that it paused reinforcement learning (RL) training for its latest artificial intelligence (AI) models for two weeks while it shored up additional defenses and increased...",
@@ -625,25 +646,11 @@
       "published": "2026-08-19T17:58:00+00:00"
     },
     {
-      "title": "US warns of AI-powered attacks on Siemens PLCs in critical infrastructure",
-      "link": "https://www.bleepingcomputer.com/news/security/us-warns-of-ai-powered-attacks-on-siemens-plcs-in-critical-infrastructure/",
-      "summary": "U.S. cybersecurity agencies warn that threat actors are using AI-generated scripts to exploit Siemens S7 Series programmable logic controllers (PLCs) in U.S. critical infrastructure. [...]",
-      "source": "BleepingComputer",
-      "published": "2026-08-19T17:50:01+00:00"
-    },
-    {
       "title": "SilkParasite Threatens Central Asian Orgs With Flurry of RATs",
       "link": "https://www.darkreading.com/threat-intelligence/silkparasite-central-asian-orgs-flurry-rats",
       "summary": "A spear-phishing campaign by a China-nexus group linked to FamousSparrow provides insight into geopolitical, technical, and strategic global moves by the country's APTs.",
       "source": "Dark Reading",
       "published": "2026-08-19T16:58:23+00:00"
-    },
-    {
-      "title": "US charges Iranian hackers over $3.4 billion intellectual property theft",
-      "link": "https://www.bleepingcomputer.com/news/security/us-charges-iranian-hackers-over-34-billion-intellectual-property-theft/",
-      "summary": "The U.S. has charged 17 Iranians, alleged members of a hacking-for-hire company called Mabna Institute, involved in years-long operations that stole data from American organizations. [...]",
-      "source": "BleepingComputer",
-      "published": "2026-08-19T15:56:09+00:00"
     },
     {
       "title": "Latvian officials resign after cyberattack exposes data on 1.2 million people",
@@ -994,13 +1001,6 @@
       "summary": "Why do so many boards underestimate technology risk until it becomes a crisis?",
       "source": "Dark Reading",
       "published": "2026-08-14T14:00:00+00:00"
-    },
-    {
-      "title": "Mustang Panda Adds Signed Windows Rootkit to CoolClient Backdoor for Stealth",
-      "link": "https://thehackernews.com/2026/08/mustang-panda-adds-signed-windows.html",
-      "summary": "The threat actor known as HoneyMyte (aka Mustang Panda) has been observed deploying an updated version of the CoolClient backdoor with a signed Windows kernel-mode rootkit that can hide and protect...",
-      "source": "The Hacker News",
-      "published": "2026-08-14T13:08:56+00:00"
     },
     {
       "title": "Cyera's Oasis Security Buy Is All About AI Agent Control",
