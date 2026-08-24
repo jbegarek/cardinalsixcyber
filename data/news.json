@@ -1,12 +1,96 @@
 {
-  "last_updated": "2026-08-24T20:05:35.099835+00:00",
+  "last_updated": "2026-08-24T22:04:37.448608+00:00",
   "articles": [
+    {
+      "title": "Exploited Zimbra Flaw Highlights Shrinking Window to Patch",
+      "link": "https://www.darkreading.com/vulnerabilities-threats/zimbra-flaw-exploitation-shrinking-window-patch",
+      "summary": "CISA has issued a three-day deadline for agencies to patch a Zimbra security vulnerability, CVE-2026-73570, which allows full takeover of a user's communications.",
+      "source": "Dark Reading",
+      "published": "2026-08-24T21:46:55+00:00"
+    },
+    {
+      "title": "Unpatched Calix flaw lets hackers bypass NAT to expose internal devices",
+      "link": "https://www.bleepingcomputer.com/news/security/unpatched-calix-flaw-lets-hackers-bypass-nat-to-expose-internal-devices/",
+      "summary": "An unpatched vulnerability in Calix GS7 XGS (GS5239XG) residential routers used by multiple U.S. broadband providers allows remote, unauthenticated attackers to create port-forwarding rules that can...",
+      "source": "BleepingComputer",
+      "published": "2026-08-24T21:14:30+00:00"
+    },
+    {
+      "title": "Foul Language: WordlistLoader Disguises Malware as Ordinary Text",
+      "link": "https://www.darkreading.com/data-privacy/wordlistloader-disguises-malware-ordinary-text",
+      "summary": "ClickFix-style threat campaigns are using a new trick to evade detection and deliver Amatera, an increasingly prevalent infostealer.",
+      "source": "Dark Reading",
+      "published": "2026-08-24T20:51:27+00:00"
+    },
+    {
+      "title": "New Zealand to pursue social media ban for children under 16",
+      "link": "https://therecord.media/new-zealand-to-pursue-social-media-ban-for-children",
+      "summary": "The legislation would mandate that high-risk social media platforms such as Instagram, TikTok, Snapchat and Facebook take “reasonable steps” to ensure users are over age 16 by using tools like facial...",
+      "source": "The Record",
+      "published": "2026-08-24T20:36:00+00:00"
+    },
+    {
+      "title": "CVE-2026-78555 - RansomLook API Key Disclosure Through /admin/apikeys HTML Source",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-78555",
+      "summary": "CVE ID :CVE-2026-78555 Published : Aug. 24, 2026, 7:38 p.m. | 37 minutes ago Description :RansomLook exposed complete API keys in the HTML source of the authenticated /admin/apikeys administration...",
+      "source": "CVE Feed",
+      "published": "2026-08-24T19:38:50+00:00"
+    },
     {
       "title": "Hackers target WordPress sites in miniOrange auth bypass attacks",
       "link": "https://www.bleepingcomputer.com/news/security/hackers-target-wordpress-sites-in-miniorange-auth-bypass-attacks/",
       "summary": "Hackers are attempting to exploit two critical authentication bypass vulnerabilities in the miniOrange SAML 2.0 Single Sign On plugin for WordPress that can be used to forge SAML responses and log in...",
       "source": "BleepingComputer",
       "published": "2026-08-24T19:26:32+00:00"
+    },
+    {
+      "title": "CVE-2026-78551 - RansomLook Login Endpoint Allows Timing-Based Username Enumeration and Unthrottled Authentication Attempts",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-78551",
+      "summary": "CVE ID :CVE-2026-78551 Published : Aug. 24, 2026, 7:20 p.m. | 56 minutes ago Description :RansomLook contains multiple weaknesses in its authentication endpoint that allow an unauthenticated remote...",
+      "source": "CVE Feed",
+      "published": "2026-08-24T19:20:03+00:00"
+    },
+    {
+      "title": "CVE-2026-78541 - Command Injection in Parent Control of TP-Link Archer BE3600 v1",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-78541",
+      "summary": "CVE ID :CVE-2026-78541 Published : Aug. 24, 2026, 7:17 p.m. | 59 minutes ago Description :A stored OS command injection vulnerability exists in the parent-control module of TP-Link Archer BE3600 V1...",
+      "source": "CVE Feed",
+      "published": "2026-08-24T19:17:04+00:00"
+    },
+    {
+      "title": "CVE-2026-71506 - Dolibarr < 24.0.0 Payments REST API Improper Authorization via Delete Endpoint",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-71506",
+      "summary": "CVE ID :CVE-2026-71506 Published : Aug. 24, 2026, 7:16 p.m. | 59 minutes ago Description :Dolibarr before 24.0.0 contains an improper authorization vulnerability in the payments REST API delete...",
+      "source": "CVE Feed",
+      "published": "2026-08-24T19:16:49+00:00"
+    },
+    {
+      "title": "CVE-2026-71504 - Dolibarr < 24.0.0 Members REST API Improper Authorization via Password Reset",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-71504",
+      "summary": "CVE ID :CVE-2026-71504 Published : Aug. 24, 2026, 7:16 p.m. | 59 minutes ago Description :Dolibarr before 24.0.0 contains an improper authorization vulnerability in the Members REST API that allows...",
+      "source": "CVE Feed",
+      "published": "2026-08-24T19:16:49+00:00"
+    },
+    {
+      "title": "CVE-2026-40877 - Combodo iTop: PHP Object Injection Leading to Remote Code Execution on user preferences",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-40877",
+      "summary": "CVE ID :CVE-2026-40877 Published : Aug. 24, 2026, 7:16 p.m. | 59 minutes ago Description :Combodo iTop is a web-based IT service management tool. Prior to 3.2.3, iTop is vulnerable to PHP object...",
+      "source": "CVE Feed",
+      "published": "2026-08-24T19:16:38+00:00"
+    },
+    {
+      "title": "CVE-2026-39975 - Combodo iTop: Remote code execution using external auth variable value",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-39975",
+      "summary": "CVE ID :CVE-2026-39975 Published : Aug. 24, 2026, 7:16 p.m. | 59 minutes ago Description :Combodo iTop is a web-based IT service management tool. Prior to 3.2.3, unauthenticated users could delete...",
+      "source": "CVE Feed",
+      "published": "2026-08-24T19:16:38+00:00"
+    },
+    {
+      "title": "CVE-2026-30864 - Combodo iTop: Reflected XSS in dashboard revert",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-30864",
+      "summary": "CVE ID :CVE-2026-30864 Published : Aug. 24, 2026, 7:16 p.m. | 59 minutes ago Description :Combodo iTop is a web-based IT service management tool. Prior to 3.2.3, iTop is vulnerable to Reflected...",
+      "source": "CVE Feed",
+      "published": "2026-08-24T19:16:37+00:00"
     },
     {
       "title": "Indian man who fled US arrested on charges he helped scammers siphon $7.5 million from the elderly",
@@ -16,6 +100,125 @@
       "published": "2026-08-24T18:30:00+00:00"
     },
     {
+      "title": "CVE-2026-9254 - Command Injection Vulnerability in Parent Control of Multiple TP-Link Archer Devices",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-9254",
+      "summary": "CVE ID :CVE-2026-9254 Published : Aug. 24, 2026, 6:17 p.m. | 1 hour, 58 minutes ago Description :An unauthenticated OS command injection vulnerability exists in the parental control functionality of...",
+      "source": "CVE Feed",
+      "published": "2026-08-24T18:17:34+00:00"
+    },
+    {
+      "title": "CVE-2026-76838 - Hi.Events before 1.11.1-beta Server-Side Request Forgery via Unvalidated Webhook Redirects",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-76838",
+      "summary": "CVE ID :CVE-2026-76838 Published : Aug. 24, 2026, 6:17 p.m. | 1 hour, 58 minutes ago Description :Hi.Events validates a webhook destination only when it is registered, never when it is used...",
+      "source": "CVE Feed",
+      "published": "2026-08-24T18:17:22+00:00"
+    },
+    {
+      "title": "CVE-2026-76836 - AzuraCast through 0.23.8 Liquidsoap Configuration Write via Profile Edit Serialization Group Bypass",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-76836",
+      "summary": "CVE ID :CVE-2026-76836 Published : Aug. 24, 2026, 6:17 p.m. | 1 hour, 58 minutes ago Description :AzuraCast exposes the Liquidsoap custom configuration fields through an endpoint that does not...",
+      "source": "CVE Feed",
+      "published": "2026-08-24T18:17:21+00:00"
+    },
+    {
+      "title": "CVE-2026-76835 - OAuth2 Proxy 7.15.2 through 7.15.4 Authentication Bypass via X-Forwarded-Uri Under the Default Trusted Proxy Set",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-76835",
+      "summary": "CVE ID :CVE-2026-76835 Published : Aug. 24, 2026, 6:17 p.m. | 1 hour, 58 minutes ago Description :OAuth2 Proxy honours a client-supplied X-Forwarded-Uri header when deciding whether a request may...",
+      "source": "CVE Feed",
+      "published": "2026-08-24T18:17:21+00:00"
+    },
+    {
+      "title": "CVE-2026-76073 - Label Studio through 1.23.0 Cross-Organization Annotation Access via Unscoped AnnotationAPI Queryset",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-76073",
+      "summary": "CVE ID :CVE-2026-76073 Published : Aug. 24, 2026, 6:17 p.m. | 1 hour, 58 minutes ago Description :Label Studio does not scope the annotation detail endpoint to the requesting user's organization...",
+      "source": "CVE Feed",
+      "published": "2026-08-24T18:17:21+00:00"
+    },
+    {
+      "title": "CVE-2026-76072 - Continue CLI through 1.5.47 Incomplete Destructive Command Denylist in Headless and Auto Mode",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-76072",
+      "summary": "CVE ID :CVE-2026-76072 Published : Aug. 24, 2026, 6:17 p.m. | 1 hour, 58 minutes ago Description :The Continue CLI applies an incomplete denylist as its only barrier to destructive shell commands...",
+      "source": "CVE Feed",
+      "published": "2026-08-24T18:17:21+00:00"
+    },
+    {
+      "title": "CVE-2026-71942 - DrayTek VigorSwitch Multiple Models Buffer Overflow via mail_mailalert",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-71942",
+      "summary": "CVE ID :CVE-2026-71942 Published : Aug. 24, 2026, 6:17 p.m. | 1 hour, 58 minutes ago Description :Multiple DrayTek VigorSwitch models contain a buffer overflow vulnerability in the mail_mailalert...",
+      "source": "CVE Feed",
+      "published": "2026-08-24T18:17:19+00:00"
+    },
+    {
+      "title": "CVE-2026-71940 - DrayTek VigorSwitch Multiple Models Buffer Overflow via acl_general_setup Edit ACE",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-71940",
+      "summary": "CVE ID :CVE-2026-71940 Published : Aug. 24, 2026, 6:17 p.m. | 1 hour, 58 minutes ago Description :Multiple DrayTek VigorSwitch models contain a buffer overflow vulnerability in the acl_general_setup...",
+      "source": "CVE Feed",
+      "published": "2026-08-24T18:17:19+00:00"
+    },
+    {
+      "title": "CVE-2026-71937 - DrayTek VigorSwitch Multiple Models Buffer Overflow via poe_schedule_profile",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-71937",
+      "summary": "CVE ID :CVE-2026-71937 Published : Aug. 24, 2026, 6:17 p.m. | 1 hour, 58 minutes ago Description :Multiple DrayTek VigorSwitch models contain a buffer overflow vulnerability in the...",
+      "source": "CVE Feed",
+      "published": "2026-08-24T18:17:18+00:00"
+    },
+    {
+      "title": "CVE-2026-71935 - DrayTek VigorSwitch Multiple Models Buffer Overflow via webBackupAction",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-71935",
+      "summary": "CVE ID :CVE-2026-71935 Published : Aug. 24, 2026, 6:17 p.m. | 1 hour, 59 minutes ago Description :Multiple DrayTek VigorSwitch models contain a buffer overflow vulnerability in the webBackupAction...",
+      "source": "CVE Feed",
+      "published": "2026-08-24T18:17:18+00:00"
+    },
+    {
+      "title": "CVE-2026-71933 - DrayTek VigorSwitch Multiple Models Missing Authorization in Syslog Functions",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-71933",
+      "summary": "CVE ID :CVE-2026-71933 Published : Aug. 24, 2026, 6:17 p.m. | 1 hour, 59 minutes ago Description :Multiple DrayTek VigorSwitch models contain unauthorized operation vulnerabilities in multiple syslog...",
+      "source": "CVE Feed",
+      "published": "2026-08-24T18:17:18+00:00"
+    },
+    {
+      "title": "CVE-2026-71927 - DrayTek VigorSwitch Multiple Models OS Command Injection via rebDevice",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-71927",
+      "summary": "CVE ID :CVE-2026-71927 Published : Aug. 24, 2026, 6:17 p.m. | 1 hour, 59 minutes ago Description :Multiple DrayTek VigorSwitch models contain a command injection vulnerability in the rebDevice...",
+      "source": "CVE Feed",
+      "published": "2026-08-24T18:17:08+00:00"
+    },
+    {
+      "title": "CVE-2026-71925 - DrayTek VigorSwitch Multiple Models OS Command Injection via getDetail",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-71925",
+      "summary": "CVE ID :CVE-2026-71925 Published : Aug. 24, 2026, 6:17 p.m. | 1 hour, 59 minutes ago Description :Multiple DrayTek VigorSwitch models contain a command injection vulnerability in the getDetail...",
+      "source": "CVE Feed",
+      "published": "2026-08-24T18:17:07+00:00"
+    },
+    {
+      "title": "CVE-2026-71922 - DrayTek VigorSwitch Multiple Models Pre-Authentication NULL Pointer Dereference via setget.cgi",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-71922",
+      "summary": "CVE ID :CVE-2026-71922 Published : Aug. 24, 2026, 6:17 p.m. | 1 hour, 59 minutes ago Description :Multiple DrayTek VigorSwitch models contain a pre-authentication null pointer dereference...",
+      "source": "CVE Feed",
+      "published": "2026-08-24T18:17:07+00:00"
+    },
+    {
+      "title": "CVE-2026-71921 - DrayTek VigorSwitch Multiple Models Pre-Authentication OS Command Injection via setget.cgi",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-71921",
+      "summary": "CVE ID :CVE-2026-71921 Published : Aug. 24, 2026, 6:17 p.m. | 1 hour, 59 minutes ago Description :Multiple DrayTek VigorSwitch models contain a pre-authentication command injection vulnerability in...",
+      "source": "CVE Feed",
+      "published": "2026-08-24T18:17:07+00:00"
+    },
+    {
+      "title": "CVE-2026-71917 - DrayTek VigorSwitch Multiple Models OS Command Injection via pingtrace",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-71917",
+      "summary": "CVE ID :CVE-2026-71917 Published : Aug. 24, 2026, 6:17 p.m. | 1 hour, 59 minutes ago Description :Multiple DrayTek VigorSwitch models contain a command injection vulnerability in the pingtrace...",
+      "source": "CVE Feed",
+      "published": "2026-08-24T18:17:06+00:00"
+    },
+    {
+      "title": "CVE-2026-71915 - DrayTek VigorSwitch Multiple Models OS Command Injection via jsonstatus",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-71915",
+      "summary": "CVE ID :CVE-2026-71915 Published : Aug. 24, 2026, 6:17 p.m. | 1 hour, 59 minutes ago Description :Multiple DrayTek VigorSwitch models contain a command injection vulnerability in the jsonstatus...",
+      "source": "CVE Feed",
+      "published": "2026-08-24T18:17:03+00:00"
+    },
+    {
       "title": "TikTok reaches $400M settlement with US over COPPA violations",
       "link": "https://www.bleepingcomputer.com/news/legal/tiktok-reaches-400m-settlement-with-us-over-coppa-violations/",
       "summary": "The U.S. Department of Justice announced a $400 million settlement with TikTok, ByteDance, and affiliated companies over allegations that they violated the Children's Online Privacy Protection Act...",
@@ -23,186 +226,11 @@
       "published": "2026-08-24T17:56:24+00:00"
     },
     {
-      "title": "CVE-2026-76835 - OAuth2 Proxy 7.15.2 through 7.15.4 Authentication Bypass via X-Forwarded-Uri Under the Default Trusted Proxy Set",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-76835",
-      "summary": "CVE ID :CVE-2026-76835 Published : Aug. 24, 2026, 5:55 p.m. | 26 minutes ago Description :OAuth2 Proxy honours a client-supplied X-Forwarded-Uri header when deciding whether a request may skip...",
-      "source": "CVE Feed",
-      "published": "2026-08-24T17:55:39+00:00"
-    },
-    {
-      "title": "CVE-2026-76073 - Label Studio through 1.23.0 Cross-Organization Annotation Access via Unscoped AnnotationAPI Queryset",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-76073",
-      "summary": "CVE ID :CVE-2026-76073 Published : Aug. 24, 2026, 5:55 p.m. | 26 minutes ago Description :Label Studio does not scope the annotation detail endpoint to the requesting user's organization...",
-      "source": "CVE Feed",
-      "published": "2026-08-24T17:55:39+00:00"
-    },
-    {
-      "title": "CVE-2026-76072 - Continue CLI through 1.5.47 Incomplete Destructive Command Denylist in Headless and Auto Mode",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-76072",
-      "summary": "CVE ID :CVE-2026-76072 Published : Aug. 24, 2026, 5:55 p.m. | 26 minutes ago Description :The Continue CLI applies an incomplete denylist as its only barrier to destructive shell commands when...",
-      "source": "CVE Feed",
-      "published": "2026-08-24T17:55:38+00:00"
-    },
-    {
       "title": "ReliaQuest Confirms ShinyHunters Hack, but Says Impact Was Limited",
       "link": "https://www.securityweek.com/reliaquest-confirms-shinyhunters-hack-but-says-impact-was-limited/",
       "summary": "A ReliaQuest employee fell victim to a phishing attack and the hackers gained access to a dashboard. The post ReliaQuest Confirms ShinyHunters Hack, but Says Impact Was Limited appeared first on...",
       "source": "SecurityWeek",
       "published": "2026-08-24T17:38:21+00:00"
-    },
-    {
-      "title": "CVE-2026-76838 - Hi.Events before 1.11.1-beta Server-Side Request Forgery via Unvalidated Webhook Redirects",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-76838",
-      "summary": "CVE ID :CVE-2026-76838 Published : Aug. 24, 2026, 5:36 p.m. | 45 minutes ago Description :Hi.Events validates a webhook destination only when it is registered, never when it is used...",
-      "source": "CVE Feed",
-      "published": "2026-08-24T17:36:02+00:00"
-    },
-    {
-      "title": "CVE-2026-76836 - AzuraCast through 0.23.8 Liquidsoap Configuration Write via Profile Edit Serialization Group Bypass",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-76836",
-      "summary": "CVE ID :CVE-2026-76836 Published : Aug. 24, 2026, 5:36 p.m. | 45 minutes ago Description :AzuraCast exposes the Liquidsoap custom configuration fields through an endpoint that does not require the...",
-      "source": "CVE Feed",
-      "published": "2026-08-24T17:36:01+00:00"
-    },
-    {
-      "title": "CVE-2026-16348 - Command Injection Vulnerability in VPN connection of Archer BE800",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-16348",
-      "summary": "CVE ID :CVE-2026-16348 Published : Aug. 24, 2026, 5:25 p.m. | 55 minutes ago Description :An authenticated command injection vulnerability in TP-Link Archer BE800 V1 allows an attacker with...",
-      "source": "CVE Feed",
-      "published": "2026-08-24T17:25:46+00:00"
-    },
-    {
-      "title": "CVE-2026-9254 - Command Injection Vulnerability in Parent Control of Multiple TP-Link Archer Devices",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-9254",
-      "summary": "CVE ID :CVE-2026-9254 Published : Aug. 24, 2026, 5:25 p.m. | 56 minutes ago Description :An unauthenticated OS command injection vulnerability exists in the parental control functionality of Archer...",
-      "source": "CVE Feed",
-      "published": "2026-08-24T17:25:30+00:00"
-    },
-    {
-      "title": "CVE-2026-77915 - rConfig 8.0.0 < 8.2.10 Unauthorized Admin Registration via web.php",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-77915",
-      "summary": "CVE ID :CVE-2026-77915 Published : Aug. 24, 2026, 5:18 p.m. | 1 hour, 3 minutes ago Description :rConfig 8.0.0 before 8.2.13 contains an authentication bypass vulnerability that allows...",
-      "source": "CVE Feed",
-      "published": "2026-08-24T17:18:18+00:00"
-    },
-    {
-      "title": "CVE-2026-19685 - Networkmanager: networkmanager: 802-1x ca-path and phase2-ca-path bypass private_user restriction, allowing wpa-enterprise server validation bypass (incomplete fix for cve-2025-9615)",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-19685",
-      "summary": "CVE ID :CVE-2026-19685 Published : Aug. 24, 2026, 5:17 p.m. | 1 hour, 4 minutes ago Description :NetworkManager did not apply the private_user restriction to the 802-1x.ca-path and phase2-ca-path...",
-      "source": "CVE Feed",
-      "published": "2026-08-24T17:17:21+00:00"
-    },
-    {
-      "title": "CVE-2025-36939 - OpenThread MLE Packet Denial of Service and Buffer Overflow",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2025-36939",
-      "summary": "CVE ID :CVE-2025-36939 Published : Aug. 24, 2026, 5:17 p.m. | 1 hour, 4 minutes ago Description :Multiple vulnerabilities exist in OpenThread's handling of MLE packets. An authenticated attacker on...",
-      "source": "CVE Feed",
-      "published": "2026-08-24T17:17:21+00:00"
-    },
-    {
-      "title": "CVE-2026-71943 - DrayTek VigorSwitch Multiple Models OS Command Injection via setDevNet",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-71943",
-      "summary": "CVE ID :CVE-2026-71943 Published : Aug. 24, 2026, 5:08 p.m. | 1 hour, 13 minutes ago Description :Multiple DrayTek VigorSwitch models contain a command injection vulnerability in the setDevNet...",
-      "source": "CVE Feed",
-      "published": "2026-08-24T17:08:06+00:00"
-    },
-    {
-      "title": "CVE-2026-71942 - DrayTek VigorSwitch Multiple Models Buffer Overflow via mail_mailalert",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-71942",
-      "summary": "CVE ID :CVE-2026-71942 Published : Aug. 24, 2026, 5:08 p.m. | 1 hour, 13 minutes ago Description :Multiple DrayTek VigorSwitch models contain a buffer overflow vulnerability in the mail_mailalert...",
-      "source": "CVE Feed",
-      "published": "2026-08-24T17:08:05+00:00"
-    },
-    {
-      "title": "CVE-2026-71941 - DrayTek VigorSwitch Multiple Models Buffer Overflow via diag_logmail",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-71941",
-      "summary": "CVE ID :CVE-2026-71941 Published : Aug. 24, 2026, 5:08 p.m. | 1 hour, 13 minutes ago Description :Multiple DrayTek VigorSwitch models contain a buffer overflow vulnerability in the diag_logmail...",
-      "source": "CVE Feed",
-      "published": "2026-08-24T17:08:04+00:00"
-    },
-    {
-      "title": "CVE-2026-71940 - DrayTek VigorSwitch Multiple Models Buffer Overflow via acl_general_setup Edit ACE",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-71940",
-      "summary": "CVE ID :CVE-2026-71940 Published : Aug. 24, 2026, 5:08 p.m. | 1 hour, 13 minutes ago Description :Multiple DrayTek VigorSwitch models contain a buffer overflow vulnerability in the acl_general_setup...",
-      "source": "CVE Feed",
-      "published": "2026-08-24T17:08:03+00:00"
-    },
-    {
-      "title": "CVE-2026-71939 - DrayTek VigorSwitch Multiple Models Buffer Overflow via acl_general_setup Add ACE",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-71939",
-      "summary": "CVE ID :CVE-2026-71939 Published : Aug. 24, 2026, 5:08 p.m. | 1 hour, 13 minutes ago Description :Multiple DrayTek VigorSwitch models contain a buffer overflow vulnerability in the acl_general_setup...",
-      "source": "CVE Feed",
-      "published": "2026-08-24T17:08:03+00:00"
-    },
-    {
-      "title": "CVE-2026-71938 - DrayTek VigorSwitch Multiple Models Buffer Overflow via switch_lan_gvrp",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-71938",
-      "summary": "CVE ID :CVE-2026-71938 Published : Aug. 24, 2026, 5:08 p.m. | 1 hour, 13 minutes ago Description :Multiple DrayTek VigorSwitch models contain a buffer overflow vulnerability in the switch_lan_gvrp...",
-      "source": "CVE Feed",
-      "published": "2026-08-24T17:08:02+00:00"
-    },
-    {
-      "title": "CVE-2026-71937 - DrayTek VigorSwitch Multiple Models Buffer Overflow via poe_schedule_profile",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-71937",
-      "summary": "CVE ID :CVE-2026-71937 Published : Aug. 24, 2026, 5:08 p.m. | 1 hour, 13 minutes ago Description :Multiple DrayTek VigorSwitch models contain a buffer overflow vulnerability in the...",
-      "source": "CVE Feed",
-      "published": "2026-08-24T17:08:01+00:00"
-    },
-    {
-      "title": "CVE-2026-71936 - DrayTek VigorSwitch Multiple Models Buffer Overflow via sysreboot",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-71936",
-      "summary": "CVE ID :CVE-2026-71936 Published : Aug. 24, 2026, 5:08 p.m. | 1 hour, 13 minutes ago Description :Multiple DrayTek VigorSwitch models contain a buffer overflow vulnerability in the sysreboot...",
-      "source": "CVE Feed",
-      "published": "2026-08-24T17:08:01+00:00"
-    },
-    {
-      "title": "CVE-2026-71935 - DrayTek VigorSwitch Multiple Models Buffer Overflow via webBackupAction",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-71935",
-      "summary": "CVE ID :CVE-2026-71935 Published : Aug. 24, 2026, 5:08 p.m. | 1 hour, 13 minutes ago Description :Multiple DrayTek VigorSwitch models contain a buffer overflow vulnerability in the webBackupAction...",
-      "source": "CVE Feed",
-      "published": "2026-08-24T17:08:00+00:00"
-    },
-    {
-      "title": "CVE-2026-71934 - DrayTek VigorSwitch Multiple Models Buffer Overflow via pingtrace",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-71934",
-      "summary": "CVE ID :CVE-2026-71934 Published : Aug. 24, 2026, 5:07 p.m. | 1 hour, 13 minutes ago Description :Multiple DrayTek VigorSwitch models contain a buffer overflow vulnerability in the pingtrace...",
-      "source": "CVE Feed",
-      "published": "2026-08-24T17:07:59+00:00"
-    },
-    {
-      "title": "CVE-2026-71933 - DrayTek VigorSwitch Multiple Models Missing Authorization in Syslog Functions",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-71933",
-      "summary": "CVE ID :CVE-2026-71933 Published : Aug. 24, 2026, 5:07 p.m. | 1 hour, 13 minutes ago Description :Multiple DrayTek VigorSwitch models contain unauthorized operation vulnerabilities in multiple syslog...",
-      "source": "CVE Feed",
-      "published": "2026-08-24T17:07:59+00:00"
-    },
-    {
-      "title": "CVE-2026-71931 - DrayTek VigorSwitch Multiple Models OS Command Injection via tftp_upgrade",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-71931",
-      "summary": "CVE ID :CVE-2026-71931 Published : Aug. 24, 2026, 5:07 p.m. | 1 hour, 13 minutes ago Description :Multiple DrayTek VigorSwitch models contain a command injection vulnerability in the tftp_upgrade...",
-      "source": "CVE Feed",
-      "published": "2026-08-24T17:07:57+00:00"
-    },
-    {
-      "title": "CVE-2026-71930 - DrayTek VigorSwitch Multiple Models OS Command Injection via setTime",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-71930",
-      "summary": "CVE ID :CVE-2026-71930 Published : Aug. 24, 2026, 5:07 p.m. | 1 hour, 13 minutes ago Description :Multiple DrayTek VigorSwitch models contain a command injection vulnerability in the setTime...",
-      "source": "CVE Feed",
-      "published": "2026-08-24T17:07:56+00:00"
-    },
-    {
-      "title": "CVE-2026-71929 - DrayTek VigorSwitch Multiple Models OS Command Injection via setDevProto",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-71929",
-      "summary": "CVE ID :CVE-2026-71929 Published : Aug. 24, 2026, 5:07 p.m. | 1 hour, 13 minutes ago Description :Multiple DrayTek VigorSwitch models contain a command injection vulnerability in the setDevProto...",
-      "source": "CVE Feed",
-      "published": "2026-08-24T17:07:56+00:00"
-    },
-    {
-      "title": "CVE-2026-71928 - DrayTek VigorSwitch Multiple Models OS Command Injection via fdftDevice",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-71928",
-      "summary": "CVE ID :CVE-2026-71928 Published : Aug. 24, 2026, 5:07 p.m. | 1 hour, 13 minutes ago Description :Multiple DrayTek VigorSwitch models contain a command injection vulnerability in the fdftDevice...",
-      "source": "CVE Feed",
-      "published": "2026-08-24T17:07:55+00:00"
     },
     {
       "title": "ReliaQuest confirms failed data-theft attack after ShinyHunters breach",
@@ -513,13 +541,6 @@
       "published": "2026-08-21T15:41:44+00:00"
     },
     {
-      "title": "Canada’s Hospital for Sick Children attacked by cybercriminals again as employee data stolen",
-      "link": "https://therecord.media/canada-hospital-for-sick-children-attacked-again-employee-data",
-      "summary": "The Hospital for Sick Children — which was hit in a ransomware incident in 2022 that disabled some of its systems — released a statement on Thursday warning of a data theft incident they believe is...",
-      "source": "The Record",
-      "published": "2026-08-21T15:00:00+00:00"
-    },
-    {
       "title": "Microsoft blames Windows gaming issues on RGB lighting devices",
       "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-blames-windows-gaming-issues-on-rgb-lighting-devices/",
       "summary": "Microsoft says ongoing issues causing games to crash or fail to launch after installing the August 2026 Windows updates may be caused by peripherals with RGB lighting. [...]",
@@ -532,13 +553,6 @@
       "summary": "Microsoft Says CVSS 10.0 Entra ID Code Execution Flaw Was Exploited Before Server-Side Fix Microsoft disclosed on Thursday that a maximum-severity remote code execution vulnerability in Entra ID, the...",
       "source": "CVE Newsroom",
       "published": "2026-08-21T14:28:10+00:00"
-    },
-    {
-      "title": "Is Online Privacy Possible? How Digital Identities Can Help",
-      "link": "https://www.bleepingcomputer.com/news/security/is-online-privacy-possible-how-digital-identities-can-help/",
-      "summary": "Using the same email, phone number, payment method, and other identifiers makes it easier for data brokers and attackers to profile your activity. Anonyome Labs explains how separate digital personas...",
-      "source": "BleepingComputer",
-      "published": "2026-08-21T14:00:10+00:00"
     },
     {
       "title": "Calling on Cyber Pros to Help Defend City Hall",
@@ -1183,20 +1197,6 @@
       "summary": "A public policy expert mapped global cybercrime laws to develop a five-point framework for protecting ethical hackers and good-faith security research.",
       "source": "Dark Reading",
       "published": "2026-08-10T16:25:22+00:00"
-    },
-    {
-      "title": "Sherlock Holmes Was the 'OG' Social Engineer",
-      "link": "https://www.darkreading.com/cyber-risk/sherlock-holmes-was-the-og-social-engineer",
-      "summary": "The crime solver wore disguises, spied on targets, and built intelligence networks long before modern-day tactics emerged. He has lessons for today's ethical- and unethical hackers.",
-      "source": "Dark Reading",
-      "published": "2026-08-10T15:59:27+00:00"
-    },
-    {
-      "title": "AI-Generated Patches Fail Half the Time",
-      "link": "https://www.darkreading.com/application-security/ai-generated-patches-fail-half-time",
-      "summary": "A study of more than 6,000 patches found that even working patches can introduce new bugs, break something else, or are open to bypass.",
-      "source": "Dark Reading",
-      "published": "2026-08-07T16:47:43+00:00"
     },
     {
       "title": "Canadian Man Pleads Guilty in Snowflake Extortions",
