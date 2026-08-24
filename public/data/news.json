@@ -1,6 +1,34 @@
 {
-  "last_updated": "2026-08-24T00:06:27.070018+00:00",
+  "last_updated": "2026-08-24T02:27:40.876735+00:00",
   "articles": [
+    {
+      "title": "CVE-2026-78209 - exceljs through 4.4.0 CSV Formula Injection via Unescaped Cell Values",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-78209",
+      "summary": "CVE ID :CVE-2026-78209 Published : Aug. 24, 2026, 1:16 a.m. | 1 hour, 4 minutes ago Description :exceljs-hardened versions before 5.0.0 fail to neutralize leading equals, plus, minus, or at signs in...",
+      "source": "CVE Feed",
+      "published": "2026-08-24T01:16:58+00:00"
+    },
+    {
+      "title": "CVE-2026-78208 - exceljs through 4.4.0 Path Traversal via Unvalidated addImage filename",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-78208",
+      "summary": "CVE ID :CVE-2026-78208 Published : Aug. 24, 2026, 1:16 a.m. | 1 hour, 4 minutes ago Description :exceljs-hardened before 5.0.0 contains a path traversal vulnerability in the Workbook.addImage()...",
+      "source": "CVE Feed",
+      "published": "2026-08-24T01:16:58+00:00"
+    },
+    {
+      "title": "CVE-2026-78207 - exceljs through 4.4.0 Prototype Pollution via deepMerge Reached From Note Serialization",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-78207",
+      "summary": "CVE ID :CVE-2026-78207 Published : Aug. 24, 2026, 1:16 a.m. | 1 hour, 4 minutes ago Description :exceljs-hardened before 5.0.0 contains a prototype pollution vulnerability in the deepMerge helper...",
+      "source": "CVE Feed",
+      "published": "2026-08-24T01:16:58+00:00"
+    },
+    {
+      "title": "CVE-2026-78206 - exceljs through 4.4.0 Uncontrolled Resource Consumption via Unbounded xlsx Decompression",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-78206",
+      "summary": "CVE ID :CVE-2026-78206 Published : Aug. 24, 2026, 1:16 a.m. | 1 hour, 4 minutes ago Description :exceljs-hardened before 5.0.0 decompresses all entries from supplied xlsx archives into memory without...",
+      "source": "CVE Feed",
+      "published": "2026-08-24T01:16:57+00:00"
+    },
     {
       "title": "ToxicPanda Android malware uses VPN permissions to block Google Play",
       "link": "https://www.bleepingcomputer.com/news/security/toxicpanda-android-malware-uses-vpn-permissions-to-block-google-play/",
@@ -11,147 +39,147 @@
     {
       "title": "CVE-2026-8445 - justhtml before 1.12.0 Sanitizer Bypass via Markdown",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-8445",
-      "summary": "CVE ID :CVE-2026-8445 Published : Aug. 23, 2026, 2:16 p.m. | 8 hours, 29 minutes ago Description :justhtml versions are preserved, so untrusted input that is safe in to_html() — including...",
+      "summary": "CVE ID :CVE-2026-8445 Published : Aug. 23, 2026, 2:16 p.m. | 12 hours, 4 minutes ago Description :justhtml versions are preserved, so untrusted input that is safe in to_html() — including...",
       "source": "CVE Feed",
       "published": "2026-08-23T14:16:54+00:00"
     },
     {
       "title": "CVE-2026-7808 - justhtml before 1.16.0 Multiple Security Issues via Sanitization",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-7808",
-      "summary": "CVE ID :CVE-2026-7808 Published : Aug. 23, 2026, 2:16 p.m. | 8 hours, 29 minutes ago Description :justhtml before 1.16.0 contains multiple HTML sanitization bypass issues that can allow...",
+      "summary": "CVE ID :CVE-2026-7808 Published : Aug. 23, 2026, 2:16 p.m. | 12 hours, 4 minutes ago Description :justhtml before 1.16.0 contains multiple HTML sanitization bypass issues that can allow...",
       "source": "CVE Feed",
       "published": "2026-08-23T14:16:54+00:00"
     },
     {
       "title": "CVE-2026-5388 - justhtml before 1.15.0 Multiple Security Issues",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-5388",
-      "summary": "CVE ID :CVE-2026-5388 Published : Aug. 23, 2026, 2:16 p.m. | 8 hours, 29 minutes ago Description :justhtml before 1.15.0 contains multiple security issues in URL sanitization helpers...",
+      "summary": "CVE ID :CVE-2026-5388 Published : Aug. 23, 2026, 2:16 p.m. | 12 hours, 4 minutes ago Description :justhtml before 1.15.0 contains multiple security issues in URL sanitization helpers...",
       "source": "CVE Feed",
       "published": "2026-08-23T14:16:53+00:00"
     },
     {
       "title": "CVE-2026-78155 - Untrusted Search Path in StackGres",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-78155",
-      "summary": "CVE ID :CVE-2026-78155 Published : Aug. 23, 2026, 10:16 a.m. | 12 hours, 30 minutes ago Description :privilege escalation in StackGres operator allows a low-privilege tenant who owns a database to...",
+      "summary": "CVE ID :CVE-2026-78155 Published : Aug. 23, 2026, 10:16 a.m. | 16 hours, 4 minutes ago Description :privilege escalation in StackGres operator allows a low-privilege tenant who owns a database to...",
       "source": "CVE Feed",
       "published": "2026-08-23T10:16:28+00:00"
     },
     {
       "title": "CVE-2026-10053 - Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') in GitLab",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-10053",
-      "summary": "CVE ID :CVE-2026-10053 Published : Aug. 23, 2026, 10:16 a.m. | 12 hours, 30 minutes ago Description :GitLab has remediated an issue in GitLab CE/EE affecting all versions from 18.8 before 19.0.6...",
+      "summary": "CVE ID :CVE-2026-10053 Published : Aug. 23, 2026, 10:16 a.m. | 16 hours, 4 minutes ago Description :GitLab has remediated an issue in GitLab CE/EE affecting all versions from 18.8 before 19.0.6, 19.1...",
       "source": "CVE Feed",
       "published": "2026-08-23T10:16:27+00:00"
     },
     {
       "title": "CVE-2026-78050 - Comfast CF-N1-S Web Management mbox-config sub_41AD7C stack-based overflow",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-78050",
-      "summary": "CVE ID :CVE-2026-78050 Published : Aug. 23, 2026, 12:16 a.m. | 22 hours, 29 minutes ago Description :A vulnerability was found in Comfast CF-N1-S 2.6.0.1. The affected element is the function...",
+      "summary": "CVE ID :CVE-2026-78050 Published : Aug. 23, 2026, 12:16 a.m. | 1 day, 2 hours ago Description :A vulnerability was found in Comfast CF-N1-S 2.6.0.1. The affected element is the function sub_41AD7C of...",
       "source": "CVE Feed",
       "published": "2026-08-23T00:16:50+00:00"
     },
     {
       "title": "CVE-2026-16149 - Security Hardener <= 2.4.4 - Authenticated (Subscriber+) Privilege Escalation via REST API '/wp/v2/users' permission_callback Overwrite",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-16149",
-      "summary": "CVE ID :CVE-2026-16149 Published : Aug. 23, 2026, 12:16 a.m. | 22 hours, 29 minutes ago Description :The Security Hardener plugin for WordPress is vulnerable to Missing Authorization in all versions...",
+      "summary": "CVE ID :CVE-2026-16149 Published : Aug. 23, 2026, 12:16 a.m. | 1 day, 2 hours ago Description :The Security Hardener plugin for WordPress is vulnerable to Missing Authorization in all versions up to...",
       "source": "CVE Feed",
       "published": "2026-08-23T00:16:50+00:00"
     },
     {
       "title": "CVE-2026-0551 - PPWP – Password Protect Pages <= 1.9.18 - Authenticated (Contributor+) PHP Object Injection via post_protection_roles",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-0551",
-      "summary": "CVE ID :CVE-2026-0551 Published : Aug. 23, 2026, 12:16 a.m. | 22 hours, 29 minutes ago Description :The PPWP – Password Protect Pages plugin for WordPress is vulnerable to PHP Object Injection in all...",
+      "summary": "CVE ID :CVE-2026-0551 Published : Aug. 23, 2026, 12:16 a.m. | 1 day, 2 hours ago Description :The PPWP – Password Protect Pages plugin for WordPress is vulnerable to PHP Object Injection in all...",
       "source": "CVE Feed",
       "published": "2026-08-23T00:16:49+00:00"
     },
     {
       "title": "CVE-2026-4703 - WS Form LITE <= 1.10.80 - Unauthenticated PHP Object Injection via Form Submission",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-4703",
-      "summary": "CVE ID :CVE-2026-4703 Published : Aug. 22, 2026, 4:16 p.m. | 1 day, 6 hours ago Description :The WS Form LITE – Drag & Drop Contact Form Builder plugin for WordPress is vulnerable to PHP Object...",
+      "summary": "CVE ID :CVE-2026-4703 Published : Aug. 22, 2026, 4:16 p.m. | 1 day, 10 hours ago Description :The WS Form LITE – Drag & Drop Contact Form Builder plugin for WordPress is vulnerable to PHP Object...",
       "source": "CVE Feed",
       "published": "2026-08-22T16:16:29+00:00"
     },
     {
       "title": "CVE-2026-77992 - Joomla Extension - fabrikar.com - heredoc terminator breakout in the calc element in Fabrik < 4.7.2",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-77992",
-      "summary": "CVE ID :CVE-2026-77992 Published : Aug. 22, 2026, 3:16 p.m. | 1 day, 7 hours ago Description :Joomla Extension - fabrikar.com - heredoc terminator breakout in the calc element in Fabrik Severity: 9.5...",
+      "summary": "CVE ID :CVE-2026-77992 Published : Aug. 22, 2026, 3:16 p.m. | 1 day, 11 hours ago Description :Joomla Extension - fabrikar.com - heredoc terminator breakout in the calc element in Fabrik Severity...",
       "source": "CVE Feed",
       "published": "2026-08-22T15:16:23+00:00"
     },
     {
       "title": "CVE-2026-77027 - Joomla Extension - fabrikar.com - Unauthenticated stored XSS in Fabrik < 4.7.2",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-77027",
-      "summary": "CVE ID :CVE-2026-77027 Published : Aug. 22, 2026, 3:16 p.m. | 1 day, 7 hours ago Description :Joomla Extension - fabrikar.com - Unauthenticated stored XSS in Fabrik Severity: 8.6 | HIGH Visit the...",
+      "summary": "CVE ID :CVE-2026-77027 Published : Aug. 22, 2026, 3:16 p.m. | 1 day, 11 hours ago Description :Joomla Extension - fabrikar.com - Unauthenticated stored XSS in Fabrik Severity: 8.6 | HIGH Visit the...",
       "source": "CVE Feed",
       "published": "2026-08-22T15:16:23+00:00"
     },
     {
       "title": "CVE-2026-76607 - Joomla Extension - fabrikar.com - Missing ACL check in download element in Fabrik < 4.7.2",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-76607",
-      "summary": "CVE ID :CVE-2026-76607 Published : Aug. 22, 2026, 3:16 p.m. | 1 day, 7 hours ago Description :Joomla Extension - fabrikar.com - Missing ACL check in download element in Fabrik Severity: 10.0 |...",
+      "summary": "CVE ID :CVE-2026-76607 Published : Aug. 22, 2026, 3:16 p.m. | 1 day, 11 hours ago Description :Joomla Extension - fabrikar.com - Missing ACL check in download element in Fabrik Severity: 10.0 |...",
       "source": "CVE Feed",
       "published": "2026-08-22T15:16:22+00:00"
     },
     {
       "title": "CVE-2026-76606 - Joomla Extension - fabrikar.com - Path Traversal via image element in Fabrik < 4.7.2",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-76606",
-      "summary": "CVE ID :CVE-2026-76606 Published : Aug. 22, 2026, 3:16 p.m. | 1 day, 7 hours ago Description :Joomla Extension - fabrikar.com - Path Traversal via image element in Fabrik Severity: 10.0 | CRITICAL...",
+      "summary": "CVE ID :CVE-2026-76606 Published : Aug. 22, 2026, 3:16 p.m. | 1 day, 11 hours ago Description :Joomla Extension - fabrikar.com - Path Traversal via image element in Fabrik Severity: 10.0 | CRITICAL...",
       "source": "CVE Feed",
       "published": "2026-08-22T15:16:22+00:00"
     },
     {
       "title": "CVE-2026-76605 - Joomla Extension - fabrikar.com - Remote code execution via image element in Fabrik < 4.7.2",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-76605",
-      "summary": "CVE ID :CVE-2026-76605 Published : Aug. 22, 2026, 3:16 p.m. | 1 day, 7 hours ago Description :Joomla Extension - fabrikar.com - Remote code execution via image element in Fabrik Severity: 10.0 |...",
+      "summary": "CVE ID :CVE-2026-76605 Published : Aug. 22, 2026, 3:16 p.m. | 1 day, 11 hours ago Description :Joomla Extension - fabrikar.com - Remote code execution via image element in Fabrik Severity: 10.0 |...",
       "source": "CVE Feed",
       "published": "2026-08-22T15:16:22+00:00"
     },
     {
       "title": "CVE-2026-76604 - Joomla Extension - fabrikar.com - Unauthenticated remote code execution via PHP form element in Fabrik < 4.7.2",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-76604",
-      "summary": "CVE ID :CVE-2026-76604 Published : Aug. 22, 2026, 3:16 p.m. | 1 day, 7 hours ago Description :Joomla Extension - fabrikar.com - Unauthenticated remote code execution via PHP form element in Fabrik...",
+      "summary": "CVE ID :CVE-2026-76604 Published : Aug. 22, 2026, 3:16 p.m. | 1 day, 11 hours ago Description :Joomla Extension - fabrikar.com - Unauthenticated remote code execution via PHP form element in Fabrik...",
       "source": "CVE Feed",
       "published": "2026-08-22T15:16:22+00:00"
     },
     {
       "title": "CVE-2026-76602 - Joomla Extension - fabrikar.com - Unauthenticated SQL injection in ORDER BY in Fabrik < 4.7.2",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-76602",
-      "summary": "CVE ID :CVE-2026-76602 Published : Aug. 22, 2026, 3:16 p.m. | 1 day, 7 hours ago Description :Joomla Extension - fabrikar.com - Unauthenticated SQL injection in ORDER BY in Fabrik Severity: 9.3 |...",
+      "summary": "CVE ID :CVE-2026-76602 Published : Aug. 22, 2026, 3:16 p.m. | 1 day, 11 hours ago Description :Joomla Extension - fabrikar.com - Unauthenticated SQL injection in ORDER BY in Fabrik Severity: 9.3 |...",
       "source": "CVE Feed",
       "published": "2026-08-22T15:16:22+00:00"
     },
     {
       "title": "CVE-2026-76599 - Joomla Extension - fabrikar.com - Unauthenticated database table list and table-prefix disclosure in Fabrik < 4.7.2",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-76599",
-      "summary": "CVE ID :CVE-2026-76599 Published : Aug. 22, 2026, 3:16 p.m. | 1 day, 7 hours ago Description :Joomla Extension - fabrikar.com - Unauthenticated database table list and table-prefix disclosure in...",
+      "summary": "CVE ID :CVE-2026-76599 Published : Aug. 22, 2026, 3:16 p.m. | 1 day, 11 hours ago Description :Joomla Extension - fabrikar.com - Unauthenticated database table list and table-prefix disclosure in...",
       "source": "CVE Feed",
       "published": "2026-08-22T15:16:21+00:00"
     },
     {
       "title": "CVE-2026-76598 - Joomla Extension - fabrikar.com - Unauthenticated arbitrary directory listing via onAjax_getFolders in Fabrik < 4.7.2",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-76598",
-      "summary": "CVE ID :CVE-2026-76598 Published : Aug. 22, 2026, 3:16 p.m. | 1 day, 7 hours ago Description :Joomla Extension - fabrikar.com - Unauthenticated arbitrary directory listing via onAjax_getFolders in...",
+      "summary": "CVE ID :CVE-2026-76598 Published : Aug. 22, 2026, 3:16 p.m. | 1 day, 11 hours ago Description :Joomla Extension - fabrikar.com - Unauthenticated arbitrary directory listing via onAjax_getFolders in...",
       "source": "CVE Feed",
       "published": "2026-08-22T15:16:21+00:00"
     },
     {
       "title": "CVE-2026-76597 - Joomla Extension - fabrikar.com - Unauthenticated arbitrary file upload to web root via list email plugin in Fabrik < 4.7.2",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-76597",
-      "summary": "CVE ID :CVE-2026-76597 Published : Aug. 22, 2026, 3:16 p.m. | 1 day, 7 hours ago Description :Joomla Extension - fabrikar.com - Unauthenticated arbitrary file upload to web root via list email plugin...",
+      "summary": "CVE ID :CVE-2026-76597 Published : Aug. 22, 2026, 3:16 p.m. | 1 day, 11 hours ago Description :Joomla Extension - fabrikar.com - Unauthenticated arbitrary file upload to web root via list email...",
       "source": "CVE Feed",
       "published": "2026-08-22T15:16:21+00:00"
     },
     {
       "title": "CVE-2026-76596 - Joomla Extension - fabrikar.com - Unauthenticated table truncation via list.doempty in Fabrik < 4.7.2",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-76596",
-      "summary": "CVE ID :CVE-2026-76596 Published : Aug. 22, 2026, 3:16 p.m. | 1 day, 7 hours ago Description :Joomla Extension - fabrikar.com - Unauthenticated table truncation via list.doempty in Fabrik Severity...",
+      "summary": "CVE ID :CVE-2026-76596 Published : Aug. 22, 2026, 3:16 p.m. | 1 day, 11 hours ago Description :Joomla Extension - fabrikar.com - Unauthenticated table truncation via list.doempty in Fabrik Severity...",
       "source": "CVE Feed",
       "published": "2026-08-22T15:16:21+00:00"
     },
     {
       "title": "CVE-2026-76571 - Joomla Extension - fabrikar.com - Unauthenticated SQL injection in list filter condition parameter in Fabrik < 4.7.2",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-76571",
-      "summary": "CVE ID :CVE-2026-76571 Published : Aug. 22, 2026, 3:16 p.m. | 1 day, 7 hours ago Description :Joomla Extension - fabrikar.com - Unauthenticated SQL injection in list filter condition parameter in...",
+      "summary": "CVE ID :CVE-2026-76571 Published : Aug. 22, 2026, 3:16 p.m. | 1 day, 11 hours ago Description :Joomla Extension - fabrikar.com - Unauthenticated SQL injection in list filter condition parameter in...",
       "source": "CVE Feed",
       "published": "2026-08-22T15:16:21+00:00"
     },
@@ -163,13 +191,6 @@
       "published": "2026-08-22T14:32:41+00:00"
     },
     {
-      "title": "CVE-2026-71513 - NLTK 3.10.0 through 3.10.2 Remote Code Execution via AllowlistUnpickler Dotted-Name Bypass",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-71513",
-      "summary": "CVE ID :CVE-2026-71513 Published : Aug. 22, 2026, 2:16 p.m. | 1 day, 8 hours ago Description :NLTK before 3.10.3 contains a remote code execution vulnerability in AllowlistUnpickler that validates...",
-      "source": "CVE Feed",
-      "published": "2026-08-22T14:16:33+00:00"
-    },
-    {
       "title": "Hackers infect Android car head units with proxy botnet malware",
       "link": "https://www.bleepingcomputer.com/news/security/hackers-infect-android-car-head-units-with-proxy-botnet-malware/",
       "summary": "A supply-chain attack targeting Android-based car head units is using a legitimate device-update app to spread malware that enlists compromised devices in a proxy botnet or uses them for ad fraud...",
@@ -177,32 +198,11 @@
       "published": "2026-08-22T14:14:24+00:00"
     },
     {
-      "title": "CVE-2026-60084 - SiYuan before v3.7.4 Arbitrary File Deletion via removeTemplate",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-60084",
-      "summary": "CVE ID :CVE-2026-60084 Published : Aug. 22, 2026, 1:16 p.m. | 1 day, 9 hours ago Description :SiYuan versions before v3.7.4 contain an arbitrary file deletion vulnerability in the...",
-      "source": "CVE Feed",
-      "published": "2026-08-22T13:16:39+00:00"
-    },
-    {
-      "title": "CVE-2026-59808 - AVideo Authentication Bypass via Unkeyed Video Hash Disclosure",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-59808",
-      "summary": "CVE ID :CVE-2026-59808 Published : Aug. 22, 2026, 1:16 p.m. | 1 day, 9 hours ago Description :AVideo through commit 9c39d8c8 contains an authentication bypass vulnerability where...",
-      "source": "CVE Feed",
-      "published": "2026-08-22T13:16:38+00:00"
-    },
-    {
       "title": "Named Pipes Under Attack: Securing Windows Interprocess Communication",
       "link": "https://www.bleepingcomputer.com/news/security/named-pipes-under-attack-securing-windows-interprocess-communication/",
       "summary": "Windows named pipes provide fast interprocess communication, but weak access controls can expose privileged services to untrusted processes. ThreatLocker explains how endpoint verification, command...",
       "source": "BleepingComputer",
       "published": "2026-08-22T13:00:09+00:00"
-    },
-    {
-      "title": "CVE-2026-66917 - Joomla Extension - joomgalleryfriends.net - Stored XSS in JoomGallery < 4.4.0",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-66917",
-      "summary": "CVE ID :CVE-2026-66917 Published : Aug. 22, 2026, 12:16 p.m. | 1 day, 10 hours ago Description :Joomla Extension - joomgalleryfriends.net - Stored XSS in JoomGallery Severity: 8.6 | HIGH Visit the...",
-      "source": "CVE Feed",
-      "published": "2026-08-22T12:16:25+00:00"
     },
     {
       "title": "Banking Trojans Manic, Grandoreiro, ToxicPanda 2.0 in the Spotlight",
