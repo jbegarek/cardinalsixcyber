@@ -1,12 +1,173 @@
 {
-  "last_updated": "2026-08-26T14:13:46.315118+00:00",
+  "last_updated": "2026-08-26T16:26:40.973636+00:00",
   "articles": [
+    {
+      "title": "CVE-2026-81036 - Stalwart Mail Server through 0.16.19 Authorization Code Disclosure via Unvalidated OAuth redirect_uri",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-81036",
+      "summary": "CVE ID :CVE-2026-81036 Published : Aug. 26, 2026, 3:45 p.m. | 37 minutes ago Description :Stalwart Mail Server does not compare an OAuth redirect target against any registered destination in its...",
+      "source": "CVE Feed",
+      "published": "2026-08-26T15:45:02+00:00"
+    },
+    {
+      "title": "CVE-2026-81035 - Midday Missing Owner Check on Team Deletion",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-81035",
+      "summary": "CVE ID :CVE-2026-81035 Published : Aug. 26, 2026, 3:45 p.m. | 37 minutes ago Description :Midday allows any member of a team to delete it. The delete procedure in apps/api/src/trpc/routers/team.ts...",
+      "source": "CVE Feed",
+      "published": "2026-08-26T15:45:02+00:00"
+    },
+    {
+      "title": "CVE-2026-81034 - Netmaker through 1.6.0 Improper Certificate Validation in SMTP Client",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-81034",
+      "summary": "CVE ID :CVE-2026-81034 Published : Aug. 26, 2026, 3:45 p.m. | 37 minutes ago Description :Netmaker disables certificate verification on the connection to the configured mail server. The sender in...",
+      "source": "CVE Feed",
+      "published": "2026-08-26T15:45:01+00:00"
+    },
+    {
+      "title": "Iran-linked hackers expand infrastructure across Europe and Middle East, report says",
+      "link": "https://therecord.media/iran-linked-hackers-expand-infrastructure-europe-middle-east",
+      "summary": "Researchers said they identified servers and domains associated with several countries in Europe and the Middle East, potentially pointing to a broader targeting profile for an Iranian hacking group.",
+      "source": "The Record",
+      "published": "2026-08-26T15:45:00+00:00"
+    },
+    {
+      "title": "CVE-2026-81032 - NebulaGraph through 3.8.0 Unauthenticated Read and Modification of Runtime Configuration",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-81032",
+      "summary": "CVE ID :CVE-2026-81032 Published : Aug. 26, 2026, 3:45 p.m. | 37 minutes ago Description :NebulaGraph exposes its runtime configuration over an unauthenticated HTTP service. Each daemon starts the...",
+      "source": "CVE Feed",
+      "published": "2026-08-26T15:45:00+00:00"
+    },
+    {
+      "title": "CVE-2026-81031 - IDURAR ERP CRM through 4.1.1 Account Takeover via Unverified Identifier on Password Update",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-81031",
+      "summary": "CVE ID :CVE-2026-81031 Published : Aug. 26, 2026, 3:44 p.m. | 37 minutes ago Description :IDURAR ERP CRM changes the password of whichever account a request names rather than the account making the...",
+      "source": "CVE Feed",
+      "published": "2026-08-26T15:44:59+00:00"
+    },
+    {
+      "title": "CVE-2026-81029 - OpenMetadata before 2.0.0 JWT Disclosure via Unvalidated SAML and OIDC Redirect URI",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-81029",
+      "summary": "CVE ID :CVE-2026-81029 Published : Aug. 26, 2026, 3:44 p.m. | 37 minutes ago Description :OpenMetadata accepts a caller-supplied post-authentication redirect target and appends the issued token to...",
+      "source": "CVE Feed",
+      "published": "2026-08-26T15:44:57+00:00"
+    },
+    {
+      "title": "CVE-2026-81027 - one-api through 0.6.10 Missing Authorization on URL-Parameter Channel Pinning",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-81027",
+      "summary": "CVE ID :CVE-2026-81027 Published : Aug. 26, 2026, 3:44 p.m. | 37 minutes ago Description :one-api gates one of its two channel-pinning paths and not the other. middleware/auth.go permits a request to...",
+      "source": "CVE Feed",
+      "published": "2026-08-26T15:44:56+00:00"
+    },
+    {
+      "title": "CVE-2026-80428 - ILIAS before 9.22, 10.10 and 11.3 Unauthenticated PHP Object Injection via Shibboleth Logout Endpoint",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-80428",
+      "summary": "CVE ID :CVE-2026-80428 Published : Aug. 26, 2026, 3:44 p.m. | 37 minutes ago Description :ILIAS deserialises stored session data for an unauthenticated caller. The Shibboleth back-channel endpoint at...",
+      "source": "CVE Feed",
+      "published": "2026-08-26T15:44:55+00:00"
+    },
+    {
+      "title": "CVE-2026-80427 - bestzip before 2.2.6 and 3.0.x before 3.0.2 Argument Injection via Missing Option Delimiter",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-80427",
+      "summary": "CVE ID :CVE-2026-80427 Published : Aug. 26, 2026, 3:44 p.m. | 37 minutes ago Description :bestzip builds the argument list for the system zip utility without separating options from operands. The...",
+      "source": "CVE Feed",
+      "published": "2026-08-26T15:44:55+00:00"
+    },
+    {
+      "title": "AI Speeds Up Malware Development, Not Its Success Rate: Analysis",
+      "link": "https://www.securityweek.com/ai-speeds-up-malware-development-not-its-success-rate-analysis/",
+      "summary": "Palo Alto Networks Unit 42 analyzed 405 AI-linked malware samples and found only 12 reached production endpoints. The post AI Speeds Up Malware Development, Not Its Success Rate: Analysis appeared...",
+      "source": "SecurityWeek",
+      "published": "2026-08-26T15:23:45+00:00"
+    },
+    {
+      "title": "Boston Scientific says cyberattack disrupted operations globally",
+      "link": "https://www.bleepingcomputer.com/news/security/boston-scientific-says-cyberattack-disrupted-operations-globally/",
+      "summary": "Medical technology company Boston Scientific has been targeted in a cyberattack that disrupted some of its IT systems, causing operational disruptions globally. [...]",
+      "source": "BleepingComputer",
+      "published": "2026-08-26T15:19:21+00:00"
+    },
+    {
+      "title": "CVE-2026-75062 - Eval Injection in google/langfun via default lf.query protocol",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-75062",
+      "summary": "CVE ID :CVE-2026-75062 Published : Aug. 26, 2026, 3:16 p.m. | 1 hour, 5 minutes ago Description :Improper Neutralization of Directives in Dynamically Evaluated Code ('Eval Injection') in the default...",
+      "source": "CVE Feed",
+      "published": "2026-08-26T15:16:55+00:00"
+    },
+    {
+      "title": "CVE-2026-54556 - Http4s: HTTP/2 Denial of Service with Ember Backend",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54556",
+      "summary": "CVE ID :CVE-2026-54556 Published : Aug. 26, 2026, 3:16 p.m. | 1 hour, 5 minutes ago Description :Http4s is a Scala interface for HTTP services. Prior to 0.23.35 and 1.0.0-M47, an unauthenticated...",
+      "source": "CVE Feed",
+      "published": "2026-08-26T15:16:49+00:00"
+    },
+    {
+      "title": "CVE-2026-54523 - Kyverno: NamespacedGeneratingPolicy generator.apply() namespace argument unvalidated -- background controller creates RoleBindings in any namespace including kube-system",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54523",
+      "summary": "CVE ID :CVE-2026-54523 Published : Aug. 26, 2026, 3:16 p.m. | 1 hour, 6 minutes ago Description :Kyverno is a policy engine designed for cloud native platform engineering teams. From 1.18.0 until...",
+      "source": "CVE Feed",
+      "published": "2026-08-26T15:16:48+00:00"
+    },
+    {
+      "title": "CVE-2026-54511 - @logtape/syslog: syslog log injection via unescaped control characters and unvalidated SD-NAME keys",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54511",
+      "summary": "CVE ID :CVE-2026-54511 Published : Aug. 26, 2026, 3:16 p.m. | 1 hour, 6 minutes ago Description :LogTape is an unobtrusive logging library. Prior to 1.3.11, 2.0.14, and 2.1.5, the @logtape/syslog...",
+      "source": "CVE Feed",
+      "published": "2026-08-26T15:16:48+00:00"
+    },
+    {
+      "title": "Hackers target Microsoft SharePoint RCE chain with PoC exploit",
+      "link": "https://www.bleepingcomputer.com/news/security/hackers-target-microsoft-sharepoint-rce-chain-with-poc-exploit/",
+      "summary": "Attackers are now targeting a chain of two Microsoft SharePoint vulnerabilities that can allow them to execute arbitrary code on unpatched servers, according to threat intelligence company Defused...",
+      "source": "BleepingComputer",
+      "published": "2026-08-26T14:47:51+00:00"
+    },
+    {
+      "title": "FBI disrupts proxy network enabling Chinese espionage operations",
+      "link": "https://www.bleepingcomputer.com/news/security/fbi-disrupts-proxy-network-enabling-chinese-espionage-operations/",
+      "summary": "The FBI has disrupted infrastructure associated with a technical \"quartermaster\" that provided reconnaissance, proxy management, and operational routing capabilities for Chinese cyber espionage...",
+      "source": "BleepingComputer",
+      "published": "2026-08-26T14:17:59+00:00"
+    },
+    {
+      "title": "CVE-2026-75960 - Insufficiently Protected Credentials in Rently Smart Home",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-75960",
+      "summary": "CVE ID :CVE-2026-75960 Published : Aug. 26, 2026, 2:17 p.m. | 2 hours, 5 minutes ago Description :Rently Smart Home versions 20.1.0 and prior are vulnerable to an Insufficiently Protected Credentials...",
+      "source": "CVE Feed",
+      "published": "2026-08-26T14:17:13+00:00"
+    },
+    {
+      "title": "CVE-2026-75896 - Use of Hard-coded LDAP Credentials in TÜBİTAK BİLGEM's Liderahenk",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-75896",
+      "summary": "CVE ID :CVE-2026-75896 Published : Aug. 26, 2026, 2:17 p.m. | 2 hours, 5 minutes ago Description :Use of Hard-coded Credentials vulnerability in TÜBİTAK BİLGEM Software Technologies Research...",
+      "source": "CVE Feed",
+      "published": "2026-08-26T14:17:13+00:00"
+    },
+    {
+      "title": "CVE-2026-73108 - RustDesk < 1.4.7 Uncontrolled Memory Allocation DoS via BytesCodec",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-73108",
+      "summary": "CVE ID :CVE-2026-73108 Published : Aug. 26, 2026, 2:17 p.m. | 2 hours, 5 minutes ago Description :RustDesk versions before 1.4.7 contain an uncontrolled speculative memory allocation vulnerability in...",
+      "source": "CVE Feed",
+      "published": "2026-08-26T14:17:12+00:00"
+    },
+    {
+      "title": "CVE-2026-12717 - Remote Code Execution in BigQuery Data Transfer Service via JDBC Connection String Injection",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-12717",
+      "summary": "CVE ID :CVE-2026-12717 Published : Aug. 26, 2026, 2:17 p.m. | 2 hours, 5 minutes ago Description :An Improper Input Validation vulnerability in CData JDBC driver integration in Google Cloud BigQuery...",
+      "source": "CVE Feed",
+      "published": "2026-08-26T14:17:07+00:00"
+    },
     {
       "title": "Snowflake ends service-account passwords. Now comes the hard part",
       "link": "https://www.bleepingcomputer.com/news/security/snowflake-ends-service-account-passwords-now-comes-the-hard-part/",
       "summary": "Snowflake is ending password authentication for legacy service accounts, forcing organizations to migrate them to passwordless methods. Token Security explains why the harder challenge is identifying...",
       "source": "BleepingComputer",
       "published": "2026-08-26T14:01:11+00:00"
+    },
+    {
+      "title": "NovaCookies Campaigns Abuse Genuine Docusign Notifications to Steal Microsoft 365 Sessions",
+      "link": "https://thehackernews.com/2026/08/novacookies-campaigns-abuse-genuine.html",
+      "summary": "Cybersecurity researchers have disclosed details of a new adversary-in-the-middle (AitM) phishing toolkit called NovaCookies that's used as a proxy to redirect Microsoft 365 sign-ins, while capturing...",
+      "source": "The Hacker News",
+      "published": "2026-08-26T13:44:31+00:00"
     },
     {
       "title": "Ubiquiti patches three max severity security vulnerabilities",
@@ -16,6 +177,20 @@
       "published": "2026-08-26T13:17:54+00:00"
     },
     {
+      "title": "CVE-2026-12587 - Embedded credentials in Virtuagym",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-12587",
+      "summary": "CVE ID :CVE-2026-12587 Published : Aug. 26, 2026, 1:17 p.m. | 3 hours, 5 minutes ago Description :The vulnerability allows the unauthorised generation of physical access QR codes due to the use of...",
+      "source": "CVE Feed",
+      "published": "2026-08-26T13:17:45+00:00"
+    },
+    {
+      "title": "CISA Red Team Compromised Two Critical Infrastructure Orgs, One Detected Nothing",
+      "link": "https://thehackernews.com/2026/08/cisa-red-team-compromised-two-critical.html",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has published the results of two red team assessments it conducted simultaneously against two critical infrastructure organizations...",
+      "source": "The Hacker News",
+      "published": "2026-08-26T13:07:02+00:00"
+    },
+    {
       "title": "Adobe and Nvidia Patch Dozens of Vulnerabilities",
       "link": "https://www.securityweek.com/adobe-and-nvidia-patch-dozens-of-vulnerabilities/",
       "summary": "Adobe and Nvidia each published several advisories, including ones that address critical vulnerabilities in their products. The post Adobe and Nvidia Patch Dozens of Vulnerabilities appeared first on...",
@@ -23,11 +198,11 @@
       "published": "2026-08-26T12:39:38+00:00"
     },
     {
-      "title": "CVE-2026-12587 - Embedded credentials in Virtuagym",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-12587",
-      "summary": "CVE ID :CVE-2026-12587 Published : Aug. 26, 2026, 12:20 p.m. | 40 minutes ago Description :The vulnerability allows the unauthorised generation of physical access QR codes due to the use of...",
+      "title": "CVE-2026-15985 - Classified Listing - Mobile Number Verification <= 1.6.0 - Unauthenticated Authentication Bypass via Firebase OTP Login",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-15985",
+      "summary": "CVE ID :CVE-2026-15985 Published : Aug. 26, 2026, 12:16 p.m. | 4 hours, 6 minutes ago Description :The Classified Listing - Mobile Number Verification plugin for WordPress is vulnerable to...",
       "source": "CVE Feed",
-      "published": "2026-08-26T12:20:52+00:00"
+      "published": "2026-08-26T12:16:20+00:00"
     },
     {
       "title": "Microsoft tests new privacy controls for Windows 11 desktop apps",
@@ -39,8 +214,8 @@
     {
       "title": "Unpatched Kaltura mwEmbed Flaws Could Let Remote Attackers Read Files and Run Code",
       "link": "https://thehackernews.com/2026/08/unpatched-kaltura-mwembed-flaws-could.html",
-      "summary": "The CERT Coordination Center (CERT/CC) has disclosed two unpatched vulnerabilities in Kaltura's HTML5 video player library that allow a remote, unauthenticated attacker to read arbitrary files from a...",
-      "source": "The Hacker News",
+      "summary": "Unpatched Kaltura mwEmbed Flaws Could Let Remote Attackers Read Files and Run Code The CERT Coordination Center (CERT/CC) has disclosed two unpatched vulnerabilities in Kaltura's HTML5 video player...",
+      "source": "CVE Newsroom",
       "published": "2026-08-26T11:55:00+00:00"
     },
     {
@@ -65,18 +240,53 @@
       "published": "2026-08-26T11:29:50+00:00"
     },
     {
+      "title": "CVE-2026-80206 - NLTK 3.10.2 Regular Expression Denial of Service via tgrep",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-80206",
+      "summary": "CVE ID :CVE-2026-80206 Published : Aug. 26, 2026, 11:16 a.m. | 5 hours, 6 minutes ago Description :NLTK before 3.10.3 contains a regular expression denial of service (ReDoS) vulnerability in the...",
+      "source": "CVE Feed",
+      "published": "2026-08-26T11:16:40+00:00"
+    },
+    {
+      "title": "CVE-2026-80205 - NLTK before 3.10.0 ReDoS via Text.findall() unvalidated regex",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-80205",
+      "summary": "CVE ID :CVE-2026-80205 Published : Aug. 26, 2026, 11:16 a.m. | 5 hours, 6 minutes ago Description :NLTK versions before 3.10.0 contain a regular expression denial of service vulnerability in...",
+      "source": "CVE Feed",
+      "published": "2026-08-26T11:16:39+00:00"
+    },
+    {
+      "title": "CVE-2026-80204 - Grav before 1.0.18 Authentication Bypass via Scoped API Key",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-80204",
+      "summary": "CVE ID :CVE-2026-80204 Published : Aug. 26, 2026, 11:16 a.m. | 5 hours, 6 minutes ago Description :The Grav API plugin (getgrav/grav-plugin-api) before 1.0.18 does not apply the API-key scope cap in...",
+      "source": "CVE Feed",
+      "published": "2026-08-26T11:16:39+00:00"
+    },
+    {
+      "title": "CVE-2026-80203 - Grav before 1.0.18 Authentication Bypass via Scoped API Key",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-80203",
+      "summary": "CVE ID :CVE-2026-80203 Published : Aug. 26, 2026, 11:16 a.m. | 5 hours, 6 minutes ago Description :The getgrav/grav-plugin-api plugin before 1.0.18 does not enforce API-key scope in the...",
+      "source": "CVE Feed",
+      "published": "2026-08-26T11:16:39+00:00"
+    },
+    {
+      "title": "CVE-2026-77557 - UniFi Protect AI Key Improper Access Control Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-77557",
+      "summary": "CVE ID :CVE-2026-77557 Published : Aug. 26, 2026, 11:16 a.m. | 5 hours, 6 minutes ago Description :A malicious actor with access to the network could exploit an Improper Access Control vulnerability...",
+      "source": "CVE Feed",
+      "published": "2026-08-26T11:16:39+00:00"
+    },
+    {
+      "title": "CVE-2026-77554 - UniFi Talk Application Command Injection Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-77554",
+      "summary": "CVE ID :CVE-2026-77554 Published : Aug. 26, 2026, 11:16 a.m. | 5 hours, 6 minutes ago Description :A malicious actor with access to the network could exploit an Improper Input Validation...",
+      "source": "CVE Feed",
+      "published": "2026-08-26T11:16:39+00:00"
+    },
+    {
       "title": "Hackers now exploit critical Gitea flaw in code injection attacks",
       "link": "https://www.bleepingcomputer.com/news/security/hackers-now-exploit-critical-gitea-flaw-in-code-injection-attacks/",
       "summary": "Attackers are now exploiting a critical-severity vulnerability in the Gitea self-hosted Git service, according to the U.S. Cybersecurity and Infrastructure Security Agency (CISA). [...]",
       "source": "BleepingComputer",
       "published": "2026-08-26T11:07:48+00:00"
-    },
-    {
-      "title": "CVE-2026-77532 - Ubiquiti EdgeMAX EdgeSwitch Buffer Overflow Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-77532",
-      "summary": "CVE ID :CVE-2026-77532 Published : Aug. 26, 2026, 11:01 a.m. | 1 hour, 59 minutes ago Description :A malicious actor with access to an adjacent network could exploit a Buffer Overflow vulnerability...",
-      "source": "CVE Feed",
-      "published": "2026-08-26T11:01:30+00:00"
     },
     {
       "title": "The MFA Identity Trap: When Authentication Creates a False Sense of Security",
@@ -86,172 +296,11 @@
       "published": "2026-08-26T11:00:00+00:00"
     },
     {
-      "title": "CVE-2026-77557 - UniFi Protect AI Key Improper Access Control Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-77557",
-      "summary": "CVE ID :CVE-2026-77557 Published : Aug. 26, 2026, 10:53 a.m. | 2 hours, 7 minutes ago Description :A malicious actor with access to the network could exploit an Improper Access Control vulnerability...",
-      "source": "CVE Feed",
-      "published": "2026-08-26T10:53:27+00:00"
-    },
-    {
-      "title": "CVE-2026-77554 - UniFi Talk Application Command Injection Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-77554",
-      "summary": "CVE ID :CVE-2026-77554 Published : Aug. 26, 2026, 10:45 a.m. | 2 hours, 15 minutes ago Description :A malicious actor with access to the network could exploit an Improper Input Validation...",
-      "source": "CVE Feed",
-      "published": "2026-08-26T10:45:46+00:00"
-    },
-    {
-      "title": "CVE-2026-77553 - UniFi Access Application Improper Access Control Privilege Escalation",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-77553",
-      "summary": "CVE ID :CVE-2026-77553 Published : Aug. 26, 2026, 10:42 a.m. | 2 hours, 18 minutes ago Description :A malicious actor with access to the network and low privileges could exploit an Improper Access...",
-      "source": "CVE Feed",
-      "published": "2026-08-26T10:42:54+00:00"
-    },
-    {
-      "title": "CVE-2026-77552 - UniFi Enterprise Audio/Video Bridge Command Injection Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-77552",
-      "summary": "CVE ID :CVE-2026-77552 Published : Aug. 26, 2026, 10:40 a.m. | 2 hours, 21 minutes ago Description :A malicious actor with access to the network could exploit an Improper Input Validation...",
-      "source": "CVE Feed",
-      "published": "2026-08-26T10:40:05+00:00"
-    },
-    {
-      "title": "CVE-2026-77551 - UniFi Connect Display Cast Pro Improper Access Control Privilege Escalation",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-77551",
-      "summary": "CVE ID :CVE-2026-77551 Published : Aug. 26, 2026, 10:37 a.m. | 2 hours, 23 minutes ago Description :A malicious actor with access to the network and under certain conditions could exploit an Improper...",
-      "source": "CVE Feed",
-      "published": "2026-08-26T10:37:19+00:00"
-    },
-    {
-      "title": "CVE-2026-77550 - UniFi OS Improper Neutralization of CRLF Sequences Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-77550",
-      "summary": "CVE ID :CVE-2026-77550 Published : Aug. 26, 2026, 10:33 a.m. | 2 hours, 27 minutes ago Description :A malicious actor with access to the network could exploit an Improper Neutralization of CRLF...",
-      "source": "CVE Feed",
-      "published": "2026-08-26T10:33:29+00:00"
-    },
-    {
-      "title": "CVE-2026-77549 - UniFi OS CRLF Injection Authentication Bypass",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-77549",
-      "summary": "CVE ID :CVE-2026-77549 Published : Aug. 26, 2026, 10:30 a.m. | 2 hours, 31 minutes ago Description :A malicious actor with access to the network and under certain conditions could exploit an Improper...",
-      "source": "CVE Feed",
-      "published": "2026-08-26T10:30:06+00:00"
-    },
-    {
-      "title": "CVE-2026-80206 - NLTK 3.10.2 Regular Expression Denial of Service via tgrep",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-80206",
-      "summary": "CVE ID :CVE-2026-80206 Published : Aug. 26, 2026, 10:28 a.m. | 2 hours, 33 minutes ago Description :NLTK before 3.10.3 contains a regular expression denial of service (ReDoS) vulnerability in the...",
-      "source": "CVE Feed",
-      "published": "2026-08-26T10:28:15+00:00"
-    },
-    {
-      "title": "CVE-2026-80205 - NLTK before 3.10.0 ReDoS via Text.findall() unvalidated regex",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-80205",
-      "summary": "CVE ID :CVE-2026-80205 Published : Aug. 26, 2026, 10:28 a.m. | 2 hours, 33 minutes ago Description :NLTK versions before 3.10.0 contain a regular expression denial of service vulnerability in...",
-      "source": "CVE Feed",
-      "published": "2026-08-26T10:28:14+00:00"
-    },
-    {
-      "title": "CVE-2026-80204 - Grav before 1.0.18 Authentication Bypass via Scoped API Key",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-80204",
-      "summary": "CVE ID :CVE-2026-80204 Published : Aug. 26, 2026, 10:28 a.m. | 2 hours, 33 minutes ago Description :The Grav API plugin (getgrav/grav-plugin-api) before 1.0.18 does not apply the API-key scope cap in...",
-      "source": "CVE Feed",
-      "published": "2026-08-26T10:28:13+00:00"
-    },
-    {
-      "title": "CVE-2026-80203 - Grav before 1.0.18 Authentication Bypass via Scoped API Key",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-80203",
-      "summary": "CVE ID :CVE-2026-80203 Published : Aug. 26, 2026, 10:28 a.m. | 2 hours, 33 minutes ago Description :The getgrav/grav-plugin-api plugin before 1.0.18 does not enforce API-key scope in the...",
-      "source": "CVE Feed",
-      "published": "2026-08-26T10:28:12+00:00"
-    },
-    {
       "title": "Claude Opus 4.6 Bypasses Gym Booking Limit, Cancels Other Users' Reservations in Tests",
       "link": "https://thehackernews.com/2026/08/claude-opus-46-bypasses-gym-booking.html",
       "summary": "Aikido Security has published research that recreates the Australian gym-booking incident in a synthetic environment, finding that Claude Opus 4.6, running on the OpenClaw agent harness, exploited a...",
       "source": "The Hacker News",
       "published": "2026-08-26T10:27:23+00:00"
-    },
-    {
-      "title": "CVE-2026-77548 - UniFi Protect Application Command Injection Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-77548",
-      "summary": "CVE ID :CVE-2026-77548 Published : Aug. 26, 2026, 10:23 a.m. | 2 hours, 37 minutes ago Description :A malicious actor with access to the network and low privileges could exploit an Improper Input...",
-      "source": "CVE Feed",
-      "published": "2026-08-26T10:23:37+00:00"
-    },
-    {
-      "title": "CVE-2026-77547 - UniFi Access Application Command Injection Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-77547",
-      "summary": "CVE ID :CVE-2026-77547 Published : Aug. 26, 2026, 10:20 a.m. | 2 hours, 41 minutes ago Description :A malicious actor with access to the network and low privileges could exploit an Improper Input...",
-      "source": "CVE Feed",
-      "published": "2026-08-26T10:20:14+00:00"
-    },
-    {
-      "title": "CVE-2026-77546 - UniFi Access Application Command Injection Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-77546",
-      "summary": "CVE ID :CVE-2026-77546 Published : Aug. 26, 2026, 10:16 a.m. | 2 hours, 44 minutes ago Description :A malicious actor with access to the network and low privileges could exploit an Improper Input...",
-      "source": "CVE Feed",
-      "published": "2026-08-26T10:16:47+00:00"
-    },
-    {
-      "title": "CVE-2026-77545 - Ubiquiti UniFi OS Active Debug Code Privilege Escalation",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-77545",
-      "summary": "CVE ID :CVE-2026-77545 Published : Aug. 26, 2026, 10:13 a.m. | 2 hours, 47 minutes ago Description :A malicious actor with access to the network, low privileges and under certain conditions could...",
-      "source": "CVE Feed",
-      "published": "2026-08-26T10:13:43+00:00"
-    },
-    {
-      "title": "CVE-2026-80349 - TarsWeb through 3.0.14 Authentication Bypass via Spoofed X-Forwarded-For and uid Parameter",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-80349",
-      "summary": "CVE ID :CVE-2026-80349 Published : Aug. 26, 2026, 10:09 a.m. | 2 hours, 51 minutes ago Description :TarsWeb decides whether a request comes from a trusted local caller using a client-controlled...",
-      "source": "CVE Feed",
-      "published": "2026-08-26T10:09:49+00:00"
-    },
-    {
-      "title": "CVE-2026-80348 - TarsWeb through 3.0.16 Missing Authorization on Patch Deploy, Download and Delete Endpoints",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-80348",
-      "summary": "CVE ID :CVE-2026-80348 Published : Aug. 26, 2026, 10:09 a.m. | 2 hours, 51 minutes ago Description :TarsWeb enforces its per-application roles by calling AuthService from individual controller...",
-      "source": "CVE Feed",
-      "published": "2026-08-26T10:09:48+00:00"
-    },
-    {
-      "title": "CVE-2026-80347 - mcp-fetch through 1.6.3 Server-Side Request Forgery via Unstripped IPv6 Literal Brackets",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-80347",
-      "summary": "CVE ID :CVE-2026-80347 Published : Aug. 26, 2026, 10:09 a.m. | 2 hours, 51 minutes ago Description :mcp-fetch checks a fetch target against its SSRF guard without removing the brackets that surround...",
-      "source": "CVE Feed",
-      "published": "2026-08-26T10:09:47+00:00"
-    },
-    {
-      "title": "CVE-2026-77543 - UniFi Access Application Command Injection Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-77543",
-      "summary": "CVE ID :CVE-2026-77543 Published : Aug. 26, 2026, 10:07 a.m. | 2 hours, 53 minutes ago Description :A malicious actor with access to the network and low privileges could exploit an Improper Input...",
-      "source": "CVE Feed",
-      "published": "2026-08-26T10:07:54+00:00"
-    },
-    {
-      "title": "CVE-2026-77542 - UID Enterprise Agent Command Injection Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-77542",
-      "summary": "CVE ID :CVE-2026-77542 Published : Aug. 26, 2026, 10:01 a.m. | 2 hours, 59 minutes ago Description :A malicious actor with access to the network and high privileges could exploit an Improper Input...",
-      "source": "CVE Feed",
-      "published": "2026-08-26T10:01:39+00:00"
-    },
-    {
-      "title": "CVE-2026-77541 - UniFi Network Application Improper Access Control Privilege Escalation",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-77541",
-      "summary": "CVE ID :CVE-2026-77541 Published : Aug. 26, 2026, 9:58 a.m. | 3 hours, 3 minutes ago Description :A malicious actor with access to the network and high privileges could exploit an Improper Access...",
-      "source": "CVE Feed",
-      "published": "2026-08-26T09:58:08+00:00"
-    },
-    {
-      "title": "CVE-2026-77540 - UniFi OS Server Command Injection Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-77540",
-      "summary": "CVE ID :CVE-2026-77540 Published : Aug. 26, 2026, 9:53 a.m. | 3 hours, 7 minutes ago Description :A malicious actor with access to the network and high privileges could exploit an Improper Input...",
-      "source": "CVE Feed",
-      "published": "2026-08-26T09:53:45+00:00"
-    },
-    {
-      "title": "CVE-2026-77539 - UniFi OS Server Command Injection Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-77539",
-      "summary": "CVE ID :CVE-2026-77539 Published : Aug. 26, 2026, 9:50 a.m. | 3 hours, 10 minutes ago Description :A malicious actor with access to the network and high privileges could exploit an Improper Input...",
-      "source": "CVE Feed",
-      "published": "2026-08-26T09:50:36+00:00"
     },
     {
       "title": "Chrome 152 Patches Over 300 Vulnerabilities",
@@ -319,8 +368,8 @@
     {
       "title": "Critical Gitea RCE Actively Exploited as Reported Attack Drops Miner-Like Payload",
       "link": "https://thehackernews.com/2026/08/critical-gitea-rce-actively-exploited.html",
-      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday warned of active exploitation efforts targeting a recently patched critical security flaw impacting Gitea. The...",
-      "source": "The Hacker News",
+      "summary": "Critical Gitea RCE Actively Exploited as Reported Attack Drops Miner-Like Payload The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday warned of active exploitation efforts...",
+      "source": "CVE Newsroom",
       "published": "2026-08-26T06:27:07+00:00"
     },
     {
@@ -445,8 +494,8 @@
     {
       "title": "A Malicious Webpage Could Poison Your Local AI Model Behind NVIDIA NemoClaw",
       "link": "https://thehackernews.com/2026/08/a-malicious-webpage-could-poison-your.html",
-      "summary": "Oasis Security has disclosed a weakness in NVIDIA NemoClaw that could let an attacker-controlled webpage take unauthenticated control of the local Ollama instance serving an AI agent and plant hidden...",
-      "source": "The Hacker News",
+      "summary": "A Malicious Webpage Could Poison Your Local AI Model Behind NVIDIA NemoClaw Oasis Security has disclosed a weakness in NVIDIA NemoClaw that could let an attacker-controlled webpage take...",
+      "source": "CVE Newsroom",
       "published": "2026-08-25T14:07:37+00:00"
     },
     {
@@ -499,13 +548,6 @@
       "published": "2026-08-25T13:00:00+00:00"
     },
     {
-      "title": "WhatsApp Adds Multiple Passkeys and Stronger 2SV in Account Security Update",
-      "link": "https://www.securityweek.com/whatsapp-adds-multiple-passkeys-and-stronger-2sv-in-account-security-update/",
-      "summary": "When Android users get a call from a non-contact, they will see more information about the caller, including their country. The post WhatsApp Adds Multiple Passkeys and Stronger 2SV in Account...",
-      "source": "SecurityWeek",
-      "published": "2026-08-25T13:00:00+00:00"
-    },
-    {
       "title": "DrayTek dicht lekken die aanvaller commando's als root laten uitvoeren",
       "link": "https://www.security.nl/posting/950443/DrayTek+dicht+lekken+die+aanvaller+commando%27s+als+root+laten+uitvoeren?channel=rss",
       "summary": "DrayTek dicht lekken die aanvaller commando's als root laten uitvoeren Netwerkfabrikant DrayTek heeft meerdere kwetsbaarheden in switches en access points verholpen, waaronder een aantal die...",
@@ -522,16 +564,9 @@
     {
       "title": "Marimo Notebook Flaw Could Run MCP Commands Before Cells Execute in Edit Mode",
       "link": "https://thehackernews.com/2026/08/marimo-notebook-flaw-could-run-mcp.html",
-      "summary": "Marimo has addressed a high-severity security flaw in its notebook software that allowed an attacker to execute an attacker-supplied Model Context Protocol (MCP) command in a specially crafted...",
-      "source": "The Hacker News",
+      "summary": "Marimo Notebook Flaw Could Run MCP Commands Before Cells Execute in Edit Mode Marimo has addressed a high-severity security flaw in its notebook software that allowed an attacker to execute an...",
+      "source": "CVE Newsroom",
       "published": "2026-08-25T12:43:51+00:00"
-    },
-    {
-      "title": "Hackers breached over 270 Zimbra servers in ongoing attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/hackers-breached-over-270-zimbra-servers-in-ongoing-attacks/",
-      "summary": "Threat actors have already compromised over 270 Zimbra instances in remote code execution attacks targeting a high-severity Zimbra Collaboration Suite (ZCS) vulnerability. [...]",
-      "source": "BleepingComputer",
-      "published": "2026-08-25T12:04:02+00:00"
     },
     {
       "title": "Mirage2FA Surge Hits 4,500 US and EU Companies, Abusing Microsoft 365 Login Flows",
@@ -548,13 +583,6 @@
       "published": "2026-08-25T11:52:43+00:00"
     },
     {
-      "title": "Large DDoS attack knocks Norwegian public services offline",
-      "link": "https://therecord.media/norway-cyberattack-ddos-government",
-      "summary": "The Norwegian Digitalisation Agency said it was working with its IT partner to stabilize systems affected by a distributed denial-of-service attack, with some services gradually coming back online.",
-      "source": "The Record",
-      "published": "2026-08-25T11:45:00+00:00"
-    },
-    {
       "title": "E4del and PINHOLE RATs Turn FTP Banners Into Dead Drops for Malware Commands",
       "link": "https://thehackernews.com/2026/08/e4del-and-pinhole-rats-turn-ftp-banners.html",
       "summary": "Cybersecurity researchers are calling attention to a new campaign that employs FTP banners as dead drop resolvers (DDRs) to deliver two previously unreported remote access trojans (RATs) tracked as...",
@@ -569,13 +597,6 @@
       "published": "2026-08-25T11:14:07+00:00"
     },
     {
-      "title": "Police arrests dozens of suspects in global cybercrime crackdown",
-      "link": "https://www.bleepingcomputer.com/news/security/police-arrests-dozens-of-suspects-in-global-cybercrime-crackdown/",
-      "summary": "Law enforcement agencies from 22 countries helped identify 263 suspects and arrested 58 individuals linked to cybercrime networks coordinated by African crime groups. [...]",
-      "source": "BleepingComputer",
-      "published": "2026-08-25T10:53:20+00:00"
-    },
-    {
       "title": "Ledger Fixes Ethereum App Flaw as Disclosure Timeline Is Disputed",
       "link": "https://thecyberexpress.com/ledger-ethereum-app-clear-signing-flaw/",
       "summary": "Ledger Fixes Ethereum App Flaw as Disclosure Timeline Is Disputed Ledger CTO Charles Guillemet said on Aug. 23, 2026, that the company had fixed a clear-signing flaw in its Ethereum app two weeks...",
@@ -585,8 +606,8 @@
     {
       "title": "Attackers Target miniOrange SAML Flaws That Can Grant WordPress Admin Access",
       "link": "https://thehackernews.com/2026/08/attackers-target-miniorange-saml-flaws.html",
-      "summary": "Bad actors are attempting to exploit two severe unauthenticated authentication bypasses in the Xecurify miniOrange SAML 2.0 Single Sign On plugin that make it possible for an attacker to sign in as...",
-      "source": "The Hacker News",
+      "summary": "Attackers Target miniOrange SAML Flaws That Can Grant WordPress Admin Access Bad actors are attempting to exploit two severe unauthenticated authentication bypasses in the Xecurify miniOrange SAML...",
+      "source": "CVE Newsroom",
       "published": "2026-08-25T08:34:07+00:00"
     },
     {
@@ -599,8 +620,8 @@
     {
       "title": "Actively Exploited Oracle WebLogic Flaw Lets Unauthenticated Attackers Access Critical Data",
       "link": "https://thehackernews.com/2026/08/actively-exploited-oracle-weblogic-flaw.html",
-      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added a maximum-severity security flaw impacting Oracle HTTP Server and Oracle WebLogic Server to its Known Exploited...",
-      "source": "The Hacker News",
+      "summary": "Actively Exploited Oracle WebLogic Flaw Lets Unauthenticated Attackers Access Critical Data The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added a maximum-severity...",
+      "source": "CVE Newsroom",
       "published": "2026-08-25T06:12:35+00:00"
     },
     {
@@ -609,13 +630,6 @@
       "summary": "CISA issued a three-day deadline for agencies to patch a Zimbra security vulnerability, CVE-2026-73570, which allows full takeover of a user's communications.",
       "source": "Dark Reading",
       "published": "2026-08-24T21:46:55+00:00"
-    },
-    {
-      "title": "Unpatched Calix flaw lets hackers bypass NAT to expose internal devices",
-      "link": "https://www.bleepingcomputer.com/news/security/unpatched-calix-flaw-lets-hackers-bypass-nat-to-expose-internal-devices/",
-      "summary": "An unpatched vulnerability in Calix GS7 XGS (GS5239XG) residential routers used by multiple U.S. broadband providers allows remote, unauthenticated attackers to create port-forwarding rules that can...",
-      "source": "BleepingComputer",
-      "published": "2026-08-24T21:14:30+00:00"
     },
     {
       "title": "Foul Language: WordlistLoader Disguises Malware as Ordinary Text",
@@ -655,8 +669,8 @@
     {
       "title": "⚡ Weekly Recap: AI-Powered PLC Attacks, GitLab Attacks, Stripe Key Leaks and More",
       "link": "https://thehackernews.com/2026/08/weekly-recap-ai-powered-plc-attacks.html",
-      "summary": "A package gets installed. A login prompt opens. A box sits exposed to the internet. Nothing looks unusual yet. That’s roughly the mood this week. Trusted tools turn hostile, old weak spots get fresh...",
-      "source": "The Hacker News",
+      "summary": "⚡ Weekly Recap: AI-Powered PLC Attacks, GitLab Attacks, Stripe Key Leaks and More A package gets installed. A login prompt opens. A box sits exposed to the internet. Nothing looks unusual yet. That’s...",
+      "source": "CVE Newsroom",
       "published": "2026-08-24T14:32:10+00:00"
     },
     {
@@ -683,8 +697,8 @@
     {
       "title": "Critical Keycloak Password Reset Flaw Could Let Unauthenticated Attackers Take Over Any Account",
       "link": "https://thehackernews.com/2026/08/critical-keycloak-password-reset-flaw.html",
-      "summary": "Red Hat and the Keycloak project have released patches to address a critical security flaw in the open-source identity and access management server that could allow an unauthenticated remote attacker...",
-      "source": "The Hacker News",
+      "summary": "Critical Keycloak Password Reset Flaw Could Let Unauthenticated Attackers Take Over Any Account Red Hat and the Keycloak project have released patches to address a critical security flaw in the...",
+      "source": "CVE Newsroom",
       "published": "2026-08-24T11:56:34+00:00"
     },
     {
@@ -725,8 +739,8 @@
     {
       "title": "UAT-10147 Uses AI to Scale Server Attacks, Deploys SPECTRE With EDR Bypass and Linux Rootkit",
       "link": "https://thehackernews.com/2026/08/uat-10147-uses-ai-to-scale-server.html",
-      "summary": "Cybersecurity researchers have disclosed details of a Chinese-speaking cybercrime group dubbed UAT-10147 that's targeting Windows and Linux web servers globally across the education, media...",
-      "source": "The Hacker News",
+      "summary": "UAT-10147 Uses AI to Scale Server Attacks, Deploys SPECTRE With EDR Bypass and Linux Rootkit Cybersecurity researchers have disclosed details of a Chinese-speaking cybercrime group dubbed UAT-10147...",
+      "source": "CVE Newsroom",
       "published": "2026-08-24T08:08:31+00:00"
     },
     {
@@ -767,8 +781,8 @@
     {
       "title": "Microsoft Defender's Own Driver Can Be Weaponized to Delete Security Software at Boot",
       "link": "https://thehackernews.com/2026/08/microsoft-defenders-own-driver-can-be.html",
-      "summary": "Check Point Research has disclosed a technique that uses Microsoft Defender's own legitimately signed boot-time remediation driver to perform arbitrary kernel-level file and registry operations on...",
-      "source": "The Hacker News",
+      "summary": "Microsoft Defender's Own Driver Can Be Weaponized to Delete Security Software at Boot Check Point Research has disclosed a technique that uses Microsoft Defender's own legitimately signed boot-time...",
+      "source": "CVE Newsroom",
       "published": "2026-08-21T15:52:10+00:00"
     },
     {
@@ -812,13 +826,6 @@
       "summary": "The coming threat of super-powerful computers capable of cracking today's algorithms requires upgrading encryption now. Tech companies have begun building defenses.",
       "source": "Dark Reading",
       "published": "2026-08-21T13:10:33+00:00"
-    },
-    {
-      "title": "The Good, the Bad and the Ugly in Cybersecurity – Week 34",
-      "link": "https://www.sentinelone.com/blog/the-good-the-bad-and-the-ugly-in-cybersecurity-week-34-8/",
-      "summary": "The Good, the Bad and the Ugly in Cybersecurity – Week 34 The Good | U.S. Charges Iranian Cyberattackers Over Mass Intellectual Property Theft The U.S. Justice Department has indicted 17 Iranian...",
-      "source": "CVE Newsroom",
-      "published": "2026-08-21T13:00:56+00:00"
     },
     {
       "title": "Wazuh and AI For Enhanced SOC Workflows",
@@ -989,20 +996,6 @@
       "published": "2026-08-20T10:38:28+00:00"
     },
     {
-      "title": "40 Malicious Firefox Extensions Pose as Web3 Products to Steal Wallet Secrets",
-      "link": "https://thehackernews.com/2026/08/40-malicious-firefox-extensions-pose-as.html",
-      "summary": "A set of 40 Mozilla Firefox extensions has been found to engage in cryptocurrency wallet theft by masquerading as OKX, Rabby Wallet, TronLink, and other Web3 products. According to the Socket Threat...",
-      "source": "The Hacker News",
-      "published": "2026-08-20T08:42:03+00:00"
-    },
-    {
-      "title": "Elementor Pro Flaw Could Let Unauthenticated Attackers Upload PHP and Execute Code",
-      "link": "https://thehackernews.com/2026/08/elementor-pro-flaw-could-let.html",
-      "summary": "Cybersecurity researchers have disclosed details of a critical flaw in the Elementor Pro WordPress plugin that, if successfully exploited, could lead to remote code execution. The vulnerability...",
-      "source": "The Hacker News",
-      "published": "2026-08-20T06:04:34+00:00"
-    },
-    {
       "title": "No-Filter 'Kriminal' AI Platform Raises Cybercrime Concerns",
       "link": "https://www.darkreading.com/application-security/no-filter-kriminal-ai-platform-cybercrime-concerns",
       "summary": "The AI company officially forbids illicit use, while offering guardrail-free social engineering, offensive cybercrime, and OSINT scanning to anyone with a bit of cryptocurrency.",
@@ -1059,16 +1052,16 @@
       "published": "2026-08-18T18:32:01+00:00"
     },
     {
-      "title": "Silent 'TwinLoot' Cyber Threat Operates Entirely From Microsoft's Cloud",
-      "link": "https://www.darkreading.com/cloud-security/silent-twinloot-threat-operates-microsoft-cloud",
-      "summary": "The Python-based malware framework takes living-off-the-land tactics to a new heights of stealth, with a modular implant that steals credentials and achieves persistence.",
+      "title": "'Ransom Busters': Ransomware Actor Poses as Incident-Recovery Service",
+      "link": "https://www.darkreading.com/cyberattacks-data-breaches/ransom-busters-ransomware-actor-incident-recovery-service",
+      "summary": "A ransomware affiliate appears to be sidling up to victims with offers of aid, masking its true intention of diverting ransom payments.",
       "source": "Dark Reading",
       "published": "2026-08-18T13:00:00+00:00"
     },
     {
-      "title": "'Ransom Busters': Ransomware Actor Poses as Incident-Recovery Service",
-      "link": "https://www.darkreading.com/cyberattacks-data-breaches/ransom-busters-ransomware-actor-incident-recovery-service",
-      "summary": "A ransomware affiliate appears to be sidling up to victims with offers of aid, masking its true intention of diverting ransom payments.",
+      "title": "Silent 'TwinLoot' Cyber Threat Operates Entirely From Microsoft's Cloud",
+      "link": "https://www.darkreading.com/cloud-security/silent-twinloot-threat-operates-microsoft-cloud",
+      "summary": "The Python-based malware framework takes living-off-the-land tactics to a new heights of stealth, with a modular implant that steals credentials and achieves persistence.",
       "source": "Dark Reading",
       "published": "2026-08-18T13:00:00+00:00"
     },
