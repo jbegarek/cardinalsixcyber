@@ -1,59 +1,73 @@
 {
-  "last_updated": "2026-08-27T01:16:28.933106+00:00",
+  "last_updated": "2026-08-27T03:39:01.026496+00:00",
   "articles": [
+    {
+      "title": "CVE-2026-65956 - KubePi: Unauthenticated SSO/OIDC configuration allows admin account takeover and SSRF",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-65956",
+      "summary": "CVE ID :CVE-2026-65956 Published : Aug. 26, 2026, 11:17 p.m. | 3 hours, 5 minutes ago Description :KubePi is a Kubernetes multi-cluster management panel. In versions up to and including 1.6.15, the...",
+      "source": "CVE Feed",
+      "published": "2026-08-26T23:17:15+00:00"
+    },
+    {
+      "title": "CVE-2026-47665 - Penpot: Stored XSS via comment content, innerHTML renders unsanitized HTML",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-47665",
+      "summary": "CVE ID :CVE-2026-47665 Published : Aug. 26, 2026, 11:17 p.m. | 3 hours, 5 minutes ago Description :Penpot is an open-source design and prototyping platform. In versions up to and including 2.14.3...",
+      "source": "CVE Feed",
+      "published": "2026-08-26T23:17:13+00:00"
+    },
     {
       "title": "CVE-2026-77317 - SeaweedFS: SFTP path ACL literal prefix match permits cross-tenant file read and overwrite",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-77317",
-      "summary": "CVE ID :CVE-2026-77317 Published : Aug. 26, 2026, 10:16 p.m. | 1 hour, 12 minutes ago Description :SeaweedFS is a distributed storage system for files and blobs. In versions from 3.88 through 4.39...",
+      "summary": "CVE ID :CVE-2026-77317 Published : Aug. 26, 2026, 10:16 p.m. | 4 hours, 6 minutes ago Description :SeaweedFS is a distributed storage system for files and blobs. In versions from 3.88 through 4.39...",
       "source": "CVE Feed",
       "published": "2026-08-26T22:16:29+00:00"
     },
     {
       "title": "CVE-2026-77298 - SeaweedFS S3 OIDC Bearer authentication bypasses IAM role trust policy",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-77298",
-      "summary": "CVE ID :CVE-2026-77298 Published : Aug. 26, 2026, 10:16 p.m. | 1 hour, 12 minutes ago Description :SeaweedFS is a distributed storage system for files and blobs. In versions 4.39 and earlier, the S3...",
+      "summary": "CVE ID :CVE-2026-77298 Published : Aug. 26, 2026, 10:16 p.m. | 4 hours, 6 minutes ago Description :SeaweedFS is a distributed storage system for files and blobs. In versions 4.39 and earlier, the S3...",
       "source": "CVE Feed",
       "published": "2026-08-26T22:16:29+00:00"
     },
     {
       "title": "CVE-2026-65647 - Plesk Improper Symlink Resolution Arbitrary Code Execution",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-65647",
-      "summary": "CVE ID :CVE-2026-65647 Published : Aug. 26, 2026, 10:16 p.m. | 1 hour, 12 minutes ago Description :Improper symlink resolution before file access in Plesk allows remote authenticated users to execute...",
+      "summary": "CVE ID :CVE-2026-65647 Published : Aug. 26, 2026, 10:16 p.m. | 4 hours, 6 minutes ago Description :Improper symlink resolution before file access in Plesk allows remote authenticated users to execute...",
       "source": "CVE Feed",
       "published": "2026-08-26T22:16:26+00:00"
     },
     {
       "title": "CVE-2026-65646 - Plesk Improper Neutralization of Special Elements Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-65646",
-      "summary": "CVE ID :CVE-2026-65646 Published : Aug. 26, 2026, 10:16 p.m. | 1 hour, 12 minutes ago Description :Improper neutralization of special elements in Plesk allows remote authenticated users to disclose...",
+      "summary": "CVE ID :CVE-2026-65646 Published : Aug. 26, 2026, 10:16 p.m. | 4 hours, 6 minutes ago Description :Improper neutralization of special elements in Plesk allows remote authenticated users to disclose...",
       "source": "CVE Feed",
       "published": "2026-08-26T22:16:26+00:00"
     },
     {
       "title": "CVE-2026-65642 - Plesk Insecure Direct Object Reference Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-65642",
-      "summary": "CVE ID :CVE-2026-65642 Published : Aug. 26, 2026, 10:16 p.m. | 1 hour, 12 minutes ago Description :Insecure direct object reference in Plesk 18.0.79.7 and earlier or 18.0.80 through 18.0.80.3, allows...",
+      "summary": "CVE ID :CVE-2026-65642 Published : Aug. 26, 2026, 10:16 p.m. | 4 hours, 6 minutes ago Description :Insecure direct object reference in Plesk 18.0.79.7 and earlier or 18.0.80 through 18.0.80.3, allows...",
       "source": "CVE Feed",
       "published": "2026-08-26T22:16:25+00:00"
     },
     {
       "title": "CVE-2026-65641 - Microsoft SMB Server NTLM Authentication Relay Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-65641",
-      "summary": "CVE ID :CVE-2026-65641 Published : Aug. 26, 2026, 10:16 p.m. | 1 hour, 12 minutes ago Description :A vulnerability allowing an unauthenticated network attacker to coerce SMB authentication from the...",
+      "summary": "CVE ID :CVE-2026-65641 Published : Aug. 26, 2026, 10:16 p.m. | 4 hours, 6 minutes ago Description :A vulnerability allowing an unauthenticated network attacker to coerce SMB authentication from the...",
       "source": "CVE Feed",
       "published": "2026-08-26T22:16:25+00:00"
     },
     {
       "title": "CVE-2026-64632 - Reporter Service NTLM Credential Exposure",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-64632",
-      "summary": "CVE ID :CVE-2026-64632 Published : Aug. 26, 2026, 10:16 p.m. | 1 hour, 12 minutes ago Description :A vulnerability allowing a low-privileged user to capture the NTLM credentials of the Reporter...",
+      "summary": "CVE ID :CVE-2026-64632 Published : Aug. 26, 2026, 10:16 p.m. | 4 hours, 6 minutes ago Description :A vulnerability allowing a low-privileged user to capture the NTLM credentials of the Reporter...",
       "source": "CVE Feed",
       "published": "2026-08-26T22:16:25+00:00"
     },
     {
       "title": "CVE-2026-55182 - LibreNMS: Remote Code Execution by Signal Alert Transportation Module",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-55182",
-      "summary": "CVE ID :CVE-2026-55182 Published : Aug. 26, 2026, 10:16 p.m. | 1 hour, 12 minutes ago Description :LibreNMS is a network monitoring system. In versions from 21.6.0 up to 26.5.0, the Signal alert...",
+      "summary": "CVE ID :CVE-2026-55182 Published : Aug. 26, 2026, 10:16 p.m. | 4 hours, 6 minutes ago Description :LibreNMS is a network monitoring system. In versions from 21.6.0 up to 26.5.0, the Signal alert...",
       "source": "CVE Feed",
       "published": "2026-08-26T22:16:24+00:00"
     },
@@ -74,21 +88,21 @@
     {
       "title": "CVE-2026-79921 - amqp091-go has a Potential Memory Exhaustion/Protocol Violation via Broker-Controlled Oversized Payload",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-79921",
-      "summary": "CVE ID :CVE-2026-79921 Published : Aug. 26, 2026, 9:16 p.m. | 2 hours, 12 minutes ago Description :amqp091-go is a Go AMQP 0.9.1 client. Before version 1.13.0, a compromised or malicious AMQP broker...",
+      "summary": "CVE ID :CVE-2026-79921 Published : Aug. 26, 2026, 9:16 p.m. | 5 hours, 6 minutes ago Description :amqp091-go is a Go AMQP 0.9.1 client. Before version 1.13.0, a compromised or malicious AMQP broker...",
       "source": "CVE Feed",
       "published": "2026-08-26T21:16:41+00:00"
     },
     {
       "title": "CVE-2026-55228 - Weblate:: WebIDOR in GroupViewSet allows authenticated project manager to gain unauthorized read access to any private project",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-55228",
-      "summary": "CVE ID :CVE-2026-55228 Published : Aug. 26, 2026, 9:16 p.m. | 2 hours, 12 minutes ago Description :Weblate is a web-based continuous localization platform used to manage software translations. In...",
+      "summary": "CVE ID :CVE-2026-55228 Published : Aug. 26, 2026, 9:16 p.m. | 5 hours, 6 minutes ago Description :Weblate is a web-based continuous localization platform used to manage software translations. In...",
       "source": "CVE Feed",
       "published": "2026-08-26T21:16:38+00:00"
     },
     {
       "title": "CVE-2026-15973 - LimeSurvey 7.0.5 - Stored XSS in Survey Menu Entries",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-15973",
-      "summary": "CVE ID :CVE-2026-15973 Published : Aug. 26, 2026, 9:16 p.m. | 2 hours, 12 minutes ago Description :LimeSurvey Community Edition 7.0.5 contains a stored cross-site scripting vulnerability in the...",
+      "summary": "CVE ID :CVE-2026-15973 Published : Aug. 26, 2026, 9:16 p.m. | 5 hours, 6 minutes ago Description :LimeSurvey Community Edition 7.0.5 contains a stored cross-site scripting vulnerability in the Survey...",
       "source": "CVE Feed",
       "published": "2026-08-26T21:16:38+00:00"
     },
@@ -102,21 +116,21 @@
     {
       "title": "CVE-2026-74770 - Dell PowerProtect One OS Command Injection Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-74770",
-      "summary": "CVE ID :CVE-2026-74770 Published : Aug. 26, 2026, 8:17 p.m. | 3 hours, 11 minutes ago Description :Dell PowerProtect One, versions 20.1.0.0 and below, contain an Improper Neutralization of Special...",
+      "summary": "CVE ID :CVE-2026-74770 Published : Aug. 26, 2026, 8:17 p.m. | 6 hours, 5 minutes ago Description :Dell PowerProtect One, versions 20.1.0.0 and below, contain an Improper Neutralization of Special...",
       "source": "CVE Feed",
       "published": "2026-08-26T20:17:59+00:00"
     },
     {
       "title": "CVE-2026-68861 - Dell PowerProtect One OS Command Injection Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-68861",
-      "summary": "CVE ID :CVE-2026-68861 Published : Aug. 26, 2026, 8:17 p.m. | 3 hours, 11 minutes ago Description :Dell PowerProtect One, versions 20.1.0.0 and below, contain an Improper Neutralization of Special...",
+      "summary": "CVE ID :CVE-2026-68861 Published : Aug. 26, 2026, 8:17 p.m. | 6 hours, 5 minutes ago Description :Dell PowerProtect One, versions 20.1.0.0 and below, contain an Improper Neutralization of Special...",
       "source": "CVE Feed",
       "published": "2026-08-26T20:17:57+00:00"
     },
     {
       "title": "CVE-2026-60004 - Gitea Code Injection Vulnerability - [Actively Exploited]",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-60004",
-      "summary": "CVE ID :CVE-2026-60004 Published : Aug. 26, 2026, 8:17 p.m. | 3 hours, 11 minutes ago Description :Gitea before 1.27.1 allows remote code execution via the diffpatch API through Git hook...",
+      "summary": "CVE ID :CVE-2026-60004 Published : Aug. 26, 2026, 8:17 p.m. | 6 hours, 5 minutes ago Description :Gitea before 1.27.1 allows remote code execution via the diffpatch API through Git hook installation...",
       "source": "CVE Feed",
       "published": "2026-08-26T20:17:56+00:00"
     },
@@ -130,14 +144,14 @@
     {
       "title": "CVE-2026-70419 - Dell Cloud Disaster Recovery OS Command Injection Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-70419",
-      "summary": "CVE ID :CVE-2026-70419 Published : Aug. 26, 2026, 7:16 p.m. | 4 hours, 12 minutes ago Description :Dell Cloud Disaster Recovery, versions 20.2 and prior, contain an Improper Neutralization of Special...",
+      "summary": "CVE ID :CVE-2026-70419 Published : Aug. 26, 2026, 7:16 p.m. | 7 hours, 6 minutes ago Description :Dell Cloud Disaster Recovery, versions 20.2 and prior, contain an Improper Neutralization of Special...",
       "source": "CVE Feed",
       "published": "2026-08-26T19:16:56+00:00"
     },
     {
       "title": "CVE-2026-19485 - Bucket Squatting in Vertex AI Search for Commerce",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-19485",
-      "summary": "CVE ID :CVE-2026-19485 Published : Aug. 26, 2026, 7:16 p.m. | 4 hours, 12 minutes ago Description :A Predictable Resource Name vulnerability in BigQuery Import Staging in Google Cloud Vertex AI...",
+      "summary": "CVE ID :CVE-2026-19485 Published : Aug. 26, 2026, 7:16 p.m. | 7 hours, 6 minutes ago Description :A Predictable Resource Name vulnerability in BigQuery Import Staging in Google Cloud Vertex AI Search...",
       "source": "CVE Feed",
       "published": "2026-08-26T19:16:49+00:00"
     },
@@ -165,14 +179,14 @@
     {
       "title": "CVE-2026-76784 - Insufficient Cryptographic Protections in Local Device Communication Protocol on Multiple TP-Link Kasa Smart Home Devices",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-76784",
-      "summary": "CVE ID :CVE-2026-76784 Published : Aug. 26, 2026, 6:17 p.m. | 5 hours, 12 minutes ago Description :Multiple TP-Link Kasa smart home devices contain insufficient cryptographic protections in the local...",
+      "summary": "CVE ID :CVE-2026-76784 Published : Aug. 26, 2026, 6:17 p.m. | 8 hours, 6 minutes ago Description :Multiple TP-Link Kasa smart home devices contain insufficient cryptographic protections in the local...",
       "source": "CVE Feed",
       "published": "2026-08-26T18:17:01+00:00"
     },
     {
       "title": "CVE-2026-58474 - whichllm < 0.5.16 Code Injection via run and snippet commands",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-58474",
-      "summary": "CVE ID :CVE-2026-58474 Published : Aug. 26, 2026, 6:16 p.m. | 5 hours, 12 minutes ago Description :whichllm before 0.5.16 contains a code injection vulnerability in the run and snippet commands that...",
+      "summary": "CVE ID :CVE-2026-58474 Published : Aug. 26, 2026, 6:16 p.m. | 8 hours, 6 minutes ago Description :whichllm before 0.5.16 contains a code injection vulnerability in the run and snippet commands that...",
       "source": "CVE Feed",
       "published": "2026-08-26T18:16:42+00:00"
     },
@@ -186,14 +200,14 @@
     {
       "title": "CVE-2026-32258 - Winter: Stored XSS through Editor Settings custom styles",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-32258",
-      "summary": "CVE ID :CVE-2026-32258 Published : Aug. 26, 2026, 5:16 p.m. | 6 hours, 12 minutes ago Description :Winter is a free, open-source content management system (CMS) based on the Laravel PHP framework...",
+      "summary": "CVE ID :CVE-2026-32258 Published : Aug. 26, 2026, 5:16 p.m. | 9 hours, 6 minutes ago Description :Winter is a free, open-source content management system (CMS) based on the Laravel PHP framework...",
       "source": "CVE Feed",
       "published": "2026-08-26T17:16:53+00:00"
     },
     {
       "title": "CVE-2026-32257 - Winter: Stored XSS through Brand Settings custom styles",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-32257",
-      "summary": "CVE ID :CVE-2026-32257 Published : Aug. 26, 2026, 5:16 p.m. | 6 hours, 12 minutes ago Description :Winter is a free, open-source content management system (CMS) based on the Laravel PHP framework...",
+      "summary": "CVE ID :CVE-2026-32257 Published : Aug. 26, 2026, 5:16 p.m. | 9 hours, 6 minutes ago Description :Winter is a free, open-source content management system (CMS) based on the Laravel PHP framework...",
       "source": "CVE Feed",
       "published": "2026-08-26T17:16:53+00:00"
     },
@@ -221,37 +235,23 @@
     {
       "title": "CVE-2026-81036 - Stalwart Mail Server through 0.16.19 Authorization Code Disclosure via Unvalidated OAuth redirect_uri",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-81036",
-      "summary": "CVE ID :CVE-2026-81036 Published : Aug. 26, 2026, 4:16 p.m. | 7 hours, 12 minutes ago Description :Stalwart Mail Server does not compare an OAuth redirect target against any registered destination in...",
+      "summary": "CVE ID :CVE-2026-81036 Published : Aug. 26, 2026, 4:16 p.m. | 10 hours, 6 minutes ago Description :Stalwart Mail Server does not compare an OAuth redirect target against any registered destination in...",
       "source": "CVE Feed",
       "published": "2026-08-26T16:16:46+00:00"
     },
     {
       "title": "CVE-2026-81035 - Midday Missing Owner Check on Team Deletion",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-81035",
-      "summary": "CVE ID :CVE-2026-81035 Published : Aug. 26, 2026, 4:16 p.m. | 7 hours, 12 minutes ago Description :Midday allows any member of a team to delete it. The delete procedure in...",
+      "summary": "CVE ID :CVE-2026-81035 Published : Aug. 26, 2026, 4:16 p.m. | 10 hours, 6 minutes ago Description :Midday allows any member of a team to delete it. The delete procedure in...",
       "source": "CVE Feed",
       "published": "2026-08-26T16:16:46+00:00"
     },
     {
       "title": "CVE-2026-81034 - Netmaker through 1.6.0 Improper Certificate Validation in SMTP Client",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-81034",
-      "summary": "CVE ID :CVE-2026-81034 Published : Aug. 26, 2026, 4:16 p.m. | 7 hours, 12 minutes ago Description :Netmaker disables certificate verification on the connection to the configured mail server. The...",
+      "summary": "CVE ID :CVE-2026-81034 Published : Aug. 26, 2026, 4:16 p.m. | 10 hours, 6 minutes ago Description :Netmaker disables certificate verification on the connection to the configured mail server. The...",
       "source": "CVE Feed",
       "published": "2026-08-26T16:16:46+00:00"
-    },
-    {
-      "title": "CVE-2026-81032 - NebulaGraph through 3.8.0 Unauthenticated Read and Modification of Runtime Configuration",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-81032",
-      "summary": "CVE ID :CVE-2026-81032 Published : Aug. 26, 2026, 4:16 p.m. | 7 hours, 12 minutes ago Description :NebulaGraph exposes its runtime configuration over an unauthenticated HTTP service. Each daemon...",
-      "source": "CVE Feed",
-      "published": "2026-08-26T16:16:46+00:00"
-    },
-    {
-      "title": "CVE-2026-81029 - OpenMetadata before 2.0.0 JWT Disclosure via Unvalidated SAML and OIDC Redirect URI",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-81029",
-      "summary": "CVE ID :CVE-2026-81029 Published : Aug. 26, 2026, 4:16 p.m. | 7 hours, 12 minutes ago Description :OpenMetadata accepts a caller-supplied post-authentication redirect target and appends the issued...",
-      "source": "CVE Feed",
-      "published": "2026-08-26T16:16:45+00:00"
     },
     {
       "title": "Iran-linked hackers expand infrastructure across Europe and Middle East, report says",
@@ -347,8 +347,8 @@
     {
       "title": "Unpatched Kaltura mwEmbed Flaws Could Let Remote Attackers Read Files and Run Code",
       "link": "https://thehackernews.com/2026/08/unpatched-kaltura-mwembed-flaws-could.html",
-      "summary": "The CERT Coordination Center (CERT/CC) has disclosed two unpatched vulnerabilities in Kaltura's HTML5 video player library that allow a remote, unauthenticated attacker to read arbitrary files from a...",
-      "source": "The Hacker News",
+      "summary": "Unpatched Kaltura mwEmbed Flaws Could Let Remote Attackers Read Files and Run Code The CERT Coordination Center (CERT/CC) has disclosed two unpatched vulnerabilities in Kaltura's HTML5 video player...",
+      "source": "CVE Newsroom",
       "published": "2026-08-26T11:55:00+00:00"
     },
     {
@@ -459,8 +459,8 @@
     {
       "title": "Critical Gitea RCE Actively Exploited as Reported Attack Drops Miner-Like Payload",
       "link": "https://thehackernews.com/2026/08/critical-gitea-rce-actively-exploited.html",
-      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday warned of active exploitation efforts targeting a recently patched critical security flaw impacting Gitea. The...",
-      "source": "The Hacker News",
+      "summary": "Critical Gitea RCE Actively Exploited as Reported Attack Drops Miner-Like Payload The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday warned of active exploitation efforts...",
+      "source": "CVE Newsroom",
       "published": "2026-08-26T06:27:07+00:00"
     },
     {
@@ -571,8 +571,8 @@
     {
       "title": "A Malicious Webpage Could Poison Your Local AI Model Behind NVIDIA NemoClaw",
       "link": "https://thehackernews.com/2026/08/a-malicious-webpage-could-poison-your.html",
-      "summary": "Oasis Security has disclosed a weakness in NVIDIA NemoClaw that could let an attacker-controlled webpage take unauthenticated control of the local Ollama instance serving an AI agent and plant hidden...",
-      "source": "The Hacker News",
+      "summary": "A Malicious Webpage Could Poison Your Local AI Model Behind NVIDIA NemoClaw Oasis Security has disclosed a weakness in NVIDIA NemoClaw that could let an attacker-controlled webpage take...",
+      "source": "CVE Newsroom",
       "published": "2026-08-25T14:07:37+00:00"
     },
     {
@@ -606,8 +606,8 @@
     {
       "title": "Marimo Notebook Flaw Could Run MCP Commands Before Cells Execute in Edit Mode",
       "link": "https://thehackernews.com/2026/08/marimo-notebook-flaw-could-run-mcp.html",
-      "summary": "Marimo has addressed a high-severity security flaw in its notebook software that allowed an attacker to execute an attacker-supplied Model Context Protocol (MCP) command in a specially crafted...",
-      "source": "The Hacker News",
+      "summary": "Marimo Notebook Flaw Could Run MCP Commands Before Cells Execute in Edit Mode Marimo has addressed a high-severity security flaw in its notebook software that allowed an attacker to execute an...",
+      "source": "CVE Newsroom",
       "published": "2026-08-25T12:43:51+00:00"
     },
     {
@@ -648,8 +648,8 @@
     {
       "title": "Attackers Target miniOrange SAML Flaws That Can Grant WordPress Admin Access",
       "link": "https://thehackernews.com/2026/08/attackers-target-miniorange-saml-flaws.html",
-      "summary": "Bad actors are attempting to exploit two severe unauthenticated authentication bypasses in the Xecurify miniOrange SAML 2.0 Single Sign On plugin that make it possible for an attacker to sign in as...",
-      "source": "The Hacker News",
+      "summary": "Attackers Target miniOrange SAML Flaws That Can Grant WordPress Admin Access Bad actors are attempting to exploit two severe unauthenticated authentication bypasses in the Xecurify miniOrange SAML...",
+      "source": "CVE Newsroom",
       "published": "2026-08-25T08:34:07+00:00"
     },
     {
@@ -662,8 +662,8 @@
     {
       "title": "Actively Exploited Oracle WebLogic Flaw Lets Unauthenticated Attackers Access Critical Data",
       "link": "https://thehackernews.com/2026/08/actively-exploited-oracle-weblogic-flaw.html",
-      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added a maximum-severity security flaw impacting Oracle HTTP Server and Oracle WebLogic Server to its Known Exploited...",
-      "source": "The Hacker News",
+      "summary": "Actively Exploited Oracle WebLogic Flaw Lets Unauthenticated Attackers Access Critical Data The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added a maximum-severity...",
+      "source": "CVE Newsroom",
       "published": "2026-08-25T06:12:35+00:00"
     },
     {
@@ -711,8 +711,8 @@
     {
       "title": "⚡ Weekly Recap: AI-Powered PLC Attacks, GitLab Attacks, Stripe Key Leaks and More",
       "link": "https://thehackernews.com/2026/08/weekly-recap-ai-powered-plc-attacks.html",
-      "summary": "A package gets installed. A login prompt opens. A box sits exposed to the internet. Nothing looks unusual yet. That’s roughly the mood this week. Trusted tools turn hostile, old weak spots get fresh...",
-      "source": "The Hacker News",
+      "summary": "⚡ Weekly Recap: AI-Powered PLC Attacks, GitLab Attacks, Stripe Key Leaks and More A package gets installed. A login prompt opens. A box sits exposed to the internet. Nothing looks unusual yet. That’s...",
+      "source": "CVE Newsroom",
       "published": "2026-08-24T14:32:10+00:00"
     },
     {
@@ -739,8 +739,8 @@
     {
       "title": "Critical Keycloak Password Reset Flaw Could Let Unauthenticated Attackers Take Over Any Account",
       "link": "https://thehackernews.com/2026/08/critical-keycloak-password-reset-flaw.html",
-      "summary": "Red Hat and the Keycloak project have released patches to address a critical security flaw in the open-source identity and access management server that could allow an unauthenticated remote attacker...",
-      "source": "The Hacker News",
+      "summary": "Critical Keycloak Password Reset Flaw Could Let Unauthenticated Attackers Take Over Any Account Red Hat and the Keycloak project have released patches to address a critical security flaw in the...",
+      "source": "CVE Newsroom",
       "published": "2026-08-24T11:56:34+00:00"
     },
     {
@@ -781,8 +781,8 @@
     {
       "title": "UAT-10147 Uses AI to Scale Server Attacks, Deploys SPECTRE With EDR Bypass and Linux Rootkit",
       "link": "https://thehackernews.com/2026/08/uat-10147-uses-ai-to-scale-server.html",
-      "summary": "Cybersecurity researchers have disclosed details of a Chinese-speaking cybercrime group dubbed UAT-10147 that's targeting Windows and Linux web servers globally across the education, media...",
-      "source": "The Hacker News",
+      "summary": "UAT-10147 Uses AI to Scale Server Attacks, Deploys SPECTRE With EDR Bypass and Linux Rootkit Cybersecurity researchers have disclosed details of a Chinese-speaking cybercrime group dubbed UAT-10147...",
+      "source": "CVE Newsroom",
       "published": "2026-08-24T08:08:31+00:00"
     },
     {
@@ -823,8 +823,8 @@
     {
       "title": "Microsoft Defender's Own Driver Can Be Weaponized to Delete Security Software at Boot",
       "link": "https://thehackernews.com/2026/08/microsoft-defenders-own-driver-can-be.html",
-      "summary": "Check Point Research has disclosed a technique that uses Microsoft Defender's own legitimately signed boot-time remediation driver to perform arbitrary kernel-level file and registry operations on...",
-      "source": "The Hacker News",
+      "summary": "Microsoft Defender's Own Driver Can Be Weaponized to Delete Security Software at Boot Check Point Research has disclosed a technique that uses Microsoft Defender's own legitimately signed boot-time...",
+      "source": "CVE Newsroom",
       "published": "2026-08-21T15:52:10+00:00"
     },
     {
