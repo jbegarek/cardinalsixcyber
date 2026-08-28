@@ -1,159 +1,187 @@
 {
-  "last_updated": "2026-08-27T23:06:42.106298+00:00",
+  "last_updated": "2026-08-28T02:39:28.948822+00:00",
   "articles": [
+    {
+      "title": "CVE-2026-78239 - Xiiaozet LK100W Missing Authentication for Critical Function",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-78239",
+      "summary": "CVE ID :CVE-2026-78239 Published : Aug. 28, 2026, 12:18 a.m. | 1 hour, 11 minutes ago Description :Xiiaozet LK100W exposes a critical management function that can be invoked without authentication...",
+      "source": "CVE Feed",
+      "published": "2026-08-28T00:18:16+00:00"
+    },
+    {
+      "title": "CVE-2026-78037 - Xiiaozet LK100W OS Command Injection",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-78037",
+      "summary": "CVE ID :CVE-2026-78037 Published : Aug. 28, 2026, 12:18 a.m. | 1 hour, 11 minutes ago Description :Xiiaozet LK100W is vulnerable to OS command injection through its web-based management interface. An...",
+      "source": "CVE Feed",
+      "published": "2026-08-28T00:18:16+00:00"
+    },
+    {
+      "title": "CVE-2026-77977 - Ebyte NE2-D11 Missing Authentication for Critical Function",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-77977",
+      "summary": "CVE ID :CVE-2026-77977 Published : Aug. 28, 2026, 12:18 a.m. | 1 hour, 11 minutes ago Description :Ebyte gateway product's vendor configuration utility does not require authentication before allowing...",
+      "source": "CVE Feed",
+      "published": "2026-08-28T00:18:15+00:00"
+    },
+    {
+      "title": "CVE-2026-77358 - cpp-httplib: Use-after-free of TLS session in WebSocketClient::shutdown_and_close()",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-77358",
+      "summary": "CVE ID :CVE-2026-77358 Published : Aug. 28, 2026, 12:18 a.m. | 1 hour, 11 minutes ago Description :cpp-httplib is a C++ header-only HTTP/HTTPS library. In versions 0.33.0 through 0.50.0, the...",
+      "source": "CVE Feed",
+      "published": "2026-08-28T00:18:15+00:00"
+    },
+    {
+      "title": "CVE-2026-76945 - Ebyte NE2-D11 Use of Client-Side Authentication",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-76945",
+      "summary": "CVE ID :CVE-2026-76945 Published : Aug. 28, 2026, 12:18 a.m. | 1 hour, 11 minutes ago Description :The affected Ebyte device relies on client-managed authentication tokens without sufficient...",
+      "source": "CVE Feed",
+      "published": "2026-08-28T00:18:15+00:00"
+    },
+    {
+      "title": "CVE-2026-76943 - Xiiaozet LK100W Authentication Bypass Using an Alternate Path or Channel",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-76943",
+      "summary": "CVE ID :CVE-2026-76943 Published : Aug. 28, 2026, 12:18 a.m. | 1 hour, 11 minutes ago Description :Xiiaozet LK100Wt contains an authentication weakness within an administrative service that may allow...",
+      "source": "CVE Feed",
+      "published": "2026-08-28T00:18:15+00:00"
+    },
+    {
+      "title": "CVE-2026-76940 - Ebyte NE2-D11 Improper Restriction of Excessive Authentication Attempts",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-76940",
+      "summary": "CVE ID :CVE-2026-76940 Published : Aug. 28, 2026, 12:18 a.m. | 1 hour, 11 minutes ago Description :The affected Ebyte device does not restrict repeated authentication attempts through rate limiting...",
+      "source": "CVE Feed",
+      "published": "2026-08-28T00:18:15+00:00"
+    },
+    {
+      "title": "CVE-2026-76179 - Ebyte NE2-D11 Use of GET Request Method With Sensitive Query Strings",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-76179",
+      "summary": "CVE ID :CVE-2026-76179 Published : Aug. 28, 2026, 12:18 a.m. | 1 hour, 11 minutes ago Description :An improper protection of authentication tokens vulnerability exists in certain Ebyte gateway...",
+      "source": "CVE Feed",
+      "published": "2026-08-28T00:18:14+00:00"
+    },
+    {
+      "title": "CVE-2026-76060 - OS Command Injection in PayRange API",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-76060",
+      "summary": "CVE ID :CVE-2026-76060 Published : Aug. 28, 2026, 12:18 a.m. | 1 hour, 11 minutes ago Description :An authenticated OS command injection vulnerability exists in ZoneMinder's event export...",
+      "source": "CVE Feed",
+      "published": "2026-08-28T00:18:14+00:00"
+    },
+    {
+      "title": "CVE-2026-75814 - Ebyte NE2-D11 Cross-Site Request Forgery",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-75814",
+      "summary": "CVE ID :CVE-2026-75814 Published : Aug. 28, 2026, 12:18 a.m. | 1 hour, 11 minutes ago Description :The Ebyte device does not adequately verify the origin or authenticity of requests submitted to the...",
+      "source": "CVE Feed",
+      "published": "2026-08-28T00:18:14+00:00"
+    },
+    {
+      "title": "CVE-2026-75813 - Ebyte NE2-D11 Missing Authorization",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-75813",
+      "summary": "CVE ID :CVE-2026-75813 Published : Aug. 28, 2026, 12:18 a.m. | 1 hour, 11 minutes ago Description :Certain configuration endpoints may lack proper server-side authorization checks, allowing...",
+      "source": "CVE Feed",
+      "published": "2026-08-28T00:18:14+00:00"
+    },
+    {
+      "title": "CVE-2026-75419 - GoWind CMS Missing Authorization Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-75419",
+      "summary": "CVE ID :CVE-2026-75419 Published : Aug. 28, 2026, 12:18 a.m. | 1 hour, 11 minutes ago Description :go-wind-cms (GoWind) before 1.0.0 has a missing authorization vulnerability. The NewAuthorizer()...",
+      "source": "CVE Feed",
+      "published": "2026-08-28T00:18:12+00:00"
+    },
+    {
+      "title": "CVE-2026-73809 - Ebyte NE2-D11 Cleartext Transmission of Sensitive Information",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-73809",
+      "summary": "CVE ID :CVE-2026-73809 Published : Aug. 28, 2026, 12:18 a.m. | 1 hour, 11 minutes ago Description :A cleartext transmission of sensitive information vulnerability exists in certain Ebyte gateway...",
+      "source": "CVE Feed",
+      "published": "2026-08-28T00:18:11+00:00"
+    },
+    {
+      "title": "CVE-2026-73125 - Ebyte NE2-D11 Missing Authentication for Critical Function",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-73125",
+      "summary": "CVE ID :CVE-2026-73125 Published : Aug. 28, 2026, 12:18 a.m. | 1 hour, 11 minutes ago Description :Ebyte device web management interface does not consistently enforce authentication before granting...",
+      "source": "CVE Feed",
+      "published": "2026-08-28T00:18:11+00:00"
+    },
+    {
+      "title": "CVE-2026-71187 - Ebyte NE2-D11 Use of Client-Side Authentication",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-71187",
+      "summary": "CVE ID :CVE-2026-71187 Published : Aug. 28, 2026, 12:18 a.m. | 1 hour, 11 minutes ago Description :The Ebyte device relies on client side authentication logic that can be reproduced by...",
+      "source": "CVE Feed",
+      "published": "2026-08-28T00:18:09+00:00"
+    },
+    {
+      "title": "CVE-2026-69658 - Ebyte NE2-D11 Cleartext Transmission of Sensitive Information",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-69658",
+      "summary": "CVE ID :CVE-2026-69658 Published : Aug. 28, 2026, 12:18 a.m. | 1 hour, 11 minutes ago Description :MQTT credentials and control traffic are transmitted in cleartext, exposing sensitive information to...",
+      "source": "CVE Feed",
+      "published": "2026-08-28T00:18:08+00:00"
+    },
+    {
+      "title": "CVE-2026-68929 - FastGPT: Unauthenticated WeChat channel hijack and denial of service via shareId-only authorization",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-68929",
+      "summary": "CVE ID :CVE-2026-68929 Published : Aug. 28, 2026, 12:18 a.m. | 1 hour, 11 minutes ago Description :FastGPT is an open-source LLM platform for building AI applications on a knowledge base. In versions...",
+      "source": "CVE Feed",
+      "published": "2026-08-28T00:18:08+00:00"
+    },
+    {
+      "title": "CVE-2026-5706 - Buffer overflow in Bluetooth Mesh SDK when handling extended advertisements",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-5706",
+      "summary": "CVE ID :CVE-2026-5706 Published : Aug. 28, 2026, 12:18 a.m. | 1 hour, 11 minutes ago Description :In Bluetooth Mesh SDK 6.1.4 and earlier, malformed extended advertisements can trigger out-of-bounds...",
+      "source": "CVE Feed",
+      "published": "2026-08-28T00:18:07+00:00"
+    },
+    {
+      "title": "CVE-2026-54330 - Ceph RGW SigV4 handler accepts unsigned x-amz-* headers on presigned requests, allowing privilege escalation",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54330",
+      "summary": "CVE ID :CVE-2026-54330 Published : Aug. 28, 2026, 12:18 a.m. | 1 hour, 11 minutes ago Description :Ceph is an open-source distributed storage platform providing object, block, and file storage. In...",
+      "source": "CVE Feed",
+      "published": "2026-08-28T00:18:07+00:00"
+    },
+    {
+      "title": "CVE-2026-54083 - Wazuh: Path traversal in ip-customblock active response allows arbitrary file creation and deletion",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54083",
+      "summary": "CVE ID :CVE-2026-54083 Published : Aug. 28, 2026, 12:18 a.m. | 1 hour, 11 minutes ago Description :Wazuh is an open-source security platform providing unified XDR and SIEM protection for endpoints...",
+      "source": "CVE Feed",
+      "published": "2026-08-28T00:18:07+00:00"
+    },
+    {
+      "title": "CVE-2026-50152 - Ceph Monitor subscription handler improperly authorizes config-key store reads, exposing cluster secrets to read-only users",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-50152",
+      "summary": "CVE ID :CVE-2026-50152 Published : Aug. 28, 2026, 12:18 a.m. | 1 hour, 11 minutes ago Description :Ceph is an open-source distributed storage platform providing object, block, and file storage. In...",
+      "source": "CVE Feed",
+      "published": "2026-08-28T00:18:07+00:00"
+    },
+    {
+      "title": "CVE-2026-39944 - Ceph: CephX AES Authentication error",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-39944",
+      "summary": "CVE ID :CVE-2026-39944 Published : Aug. 28, 2026, 12:17 a.m. | 1 hour, 12 minutes ago Description :Ceph is an open-source distributed storage platform providing object, block, and file storage. In...",
+      "source": "CVE Feed",
+      "published": "2026-08-28T00:17:27+00:00"
+    },
+    {
+      "title": "CVE-2026-18965 - Missing Authorization in PayRange API",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-18965",
+      "summary": "CVE ID :CVE-2026-18965 Published : Aug. 28, 2026, 12:16 a.m. | 1 hour, 13 minutes ago Description :PayRange API is missing proper authorization on management endpoints, which allows verbose details...",
+      "source": "CVE Feed",
+      "published": "2026-08-28T00:16:48+00:00"
+    },
+    {
+      "title": "CVE-2026-18717 - Improper Certificate Validation in ASE 2000",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-18717",
+      "summary": "CVE ID :CVE-2026-18717 Published : Aug. 28, 2026, 12:16 a.m. | 1 hour, 13 minutes ago Description :ASE2000 2.35 through 2.37 is vulnerable to an improper certificate validation vulnerability, which...",
+      "source": "CVE Feed",
+      "published": "2026-08-28T00:16:48+00:00"
+    },
+    {
+      "title": "CVE-2025-30156 - Ceph: AES-CBC misuse in CephX and RADOSGW enables authentication bypass and credential forgery",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2025-30156",
+      "summary": "CVE ID :CVE-2025-30156 Published : Aug. 28, 2026, 12:16 a.m. | 1 hour, 13 minutes ago Description :Ceph is an open-source distributed storage platform providing object, block, and file storage. In...",
+      "source": "CVE Feed",
+      "published": "2026-08-28T00:16:45+00:00"
+    },
     {
       "title": "Nearly 700 rogue AI agents coordinated in the Hugging Face attack",
       "link": "https://www.bleepingcomputer.com/news/security/nearly-700-rogue-ai-agents-coordinated-in-the-hugging-face-attack/",
       "summary": "New details about the July attack on Hugging Face reveal that hundreds of AI agents driven by OpenAI's internal IM1 model coordinated the compromise through an unauthorized message board. [...]",
       "source": "BleepingComputer",
       "published": "2026-08-27T21:38:53+00:00"
-    },
-    {
-      "title": "CVE-2026-81934 - Redis TLS pending-data list use-after-free",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-81934",
-      "summary": "CVE ID :CVE-2026-81934 Published : Aug. 27, 2026, 8:18 p.m. | 2 hours, 41 minutes ago Description :Redis contains a use-after-free vulnerability in the 'tlsProcessPendingData()' function, which...",
-      "source": "CVE Feed",
-      "published": "2026-08-27T20:18:57+00:00"
-    },
-    {
-      "title": "CVE-2026-81730 - Dolibarr 9.0.0 through 23.0.4 Path Traversal via EmailCollector Attachment Filename",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-81730",
-      "summary": "CVE ID :CVE-2026-81730 Published : Aug. 27, 2026, 8:18 p.m. | 2 hours, 41 minutes ago Description :Dolibarr 9.0.0 through 23.0.4 saves inbound email attachments under the name supplied in the...",
-      "source": "CVE Feed",
-      "published": "2026-08-27T20:18:55+00:00"
-    },
-    {
-      "title": "CVE-2026-81728 - Dolibarr before 24.0.0 SQL Injection via the CSV and XLSX Import Update Keys",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-81728",
-      "summary": "CVE ID :CVE-2026-81728 Published : Aug. 27, 2026, 8:18 p.m. | 2 hours, 41 minutes ago Description :Dolibarr before 24.0.0 contains a SQL injection in its CSV and XLSX import wizard. The wizard reads...",
-      "source": "CVE Feed",
-      "published": "2026-08-27T20:18:55+00:00"
-    },
-    {
-      "title": "CVE-2026-81525 - Cross-tenant database retargeting via dot/NUL injection in namespace strings in the PHP Driver",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-81525",
-      "summary": "CVE ID :CVE-2026-81525 Published : Aug. 27, 2026, 8:18 p.m. | 2 hours, 41 minutes ago Description :The MongoDB client library for PHP does not sufficiently sanitize special elements in...",
-      "source": "CVE Feed",
-      "published": "2026-08-27T20:18:50+00:00"
-    },
-    {
-      "title": "CVE-2026-81522 - Cross-tenant database retargeting via dot/NUL injection in namespace strings in the C++ Driver",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-81522",
-      "summary": "CVE ID :CVE-2026-81522 Published : Aug. 27, 2026, 8:18 p.m. | 2 hours, 41 minutes ago Description :A weakness in the MongoDB C++ Driver's handling of caller-supplied namespace identifiers allows...",
-      "source": "CVE Feed",
-      "published": "2026-08-27T20:18:50+00:00"
-    },
-    {
-      "title": "CVE-2026-76639 - Unitree G1 EDU 1.5.2 Unauthenticated RCE via DDS Bridge and Path Traversal",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-76639",
-      "summary": "CVE ID :CVE-2026-76639 Published : Aug. 27, 2026, 8:18 p.m. | 2 hours, 41 minutes ago Description :Unitree G1 EDU firmware through 1.5.2 contains an unauthenticated remote code execution...",
-      "source": "CVE Feed",
-      "published": "2026-08-27T20:18:38+00:00"
-    },
-    {
-      "title": "CVE-2026-74820 - Unauthenticated SQL Injection via Dynamic Schema ORDER BY Clause",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-74820",
-      "summary": "CVE ID :CVE-2026-74820 Published : Aug. 27, 2026, 8:18 p.m. | 2 hours, 41 minutes ago Description :ServiceNow has remediated a SQL injection vulnerability that was identified in in the ServiceNow AI...",
-      "source": "CVE Feed",
-      "published": "2026-08-27T20:18:36+00:00"
-    },
-    {
-      "title": "CVE-2026-6876 - Sandbox Escape in Now Platform",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-6876",
-      "summary": "CVE ID :CVE-2026-6876 Published : Aug. 27, 2026, 8:18 p.m. | 2 hours, 41 minutes ago Description :ServiceNow has remediated a sandbox escape security issue that was identified in the Now Platform...",
-      "source": "CVE Feed",
-      "published": "2026-08-27T20:18:32+00:00"
-    },
-    {
-      "title": "CVE-2026-59324 - fluxTransform shared RequestMessageHolder causes cross-message header leakage under async fluxFunction",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-59324",
-      "summary": "CVE ID :CVE-2026-59324 Published : Aug. 27, 2026, 8:17 p.m. | 2 hours, 42 minutes ago Description :When an IntegrationFlow uses .fluxTransform() with an asynchronous/reordering fluxFunction that...",
-      "source": "CVE Feed",
-      "published": "2026-08-27T20:17:58+00:00"
-    },
-    {
-      "title": "CVE-2026-59316 - Spring Authorization Server Default Consent Page is vulnerable to Cross-Site Scripting (XSS)",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-59316",
-      "summary": "CVE ID :CVE-2026-59316 Published : Aug. 27, 2026, 8:17 p.m. | 2 hours, 42 minutes ago Description :Spring Authorization Server's default consent page renders user-controlled values without HTML...",
-      "source": "CVE Feed",
-      "published": "2026-08-27T20:17:57+00:00"
-    },
-    {
-      "title": "CVE-2026-59307 - Deserialization allow-list silently bypassed: setBeanClassLoader replaces deserializer but mapper keeps stale reference",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-59307",
-      "summary": "CVE ID :CVE-2026-59307 Published : Aug. 27, 2026, 8:17 p.m. | 2 hours, 42 minutes ago Description :An operator who calls JdbcMessageStore.addAllowedPatterns(...) to restrict deserialization receives...",
-      "source": "CVE Feed",
-      "published": "2026-08-27T20:17:57+00:00"
-    },
-    {
-      "title": "CVE-2026-54721 - Silverstripe UserForms: Remote code execution via userforms email subject",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54721",
-      "summary": "CVE ID :CVE-2026-54721 Published : Aug. 27, 2026, 8:17 p.m. | 2 hours, 42 minutes ago Description :Silverstripe UserForms provides a visual form builder for the Silverstripe CMS. From 6.0.0 until...",
-      "source": "CVE Feed",
-      "published": "2026-08-27T20:17:49+00:00"
-    },
-    {
-      "title": "CVE-2026-53580 - Trilium arbitrary file read and denial of service via file:// URLs in the automatic image-download feature",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-53580",
-      "summary": "CVE ID :CVE-2026-53580 Published : Aug. 27, 2026, 8:17 p.m. | 2 hours, 42 minutes ago Description :Trilium is an open-source hierarchical note-taking application. In versions prior to 0.104.0, the...",
-      "source": "CVE Feed",
-      "published": "2026-08-27T20:17:49+00:00"
-    },
-    {
-      "title": "CVE-2026-53579 - Trilium: Note Import to RCE via Book Note",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-53579",
-      "summary": "CVE ID :CVE-2026-53579 Published : Aug. 27, 2026, 8:17 p.m. | 2 hours, 42 minutes ago Description :Trilium is an open-source hierarchical note-taking application. In versions up to and including...",
-      "source": "CVE Feed",
-      "published": "2026-08-27T20:17:49+00:00"
-    },
-    {
-      "title": "CVE-2026-53578 - Trilium: Note Import to RCE via Mind Elixir dangerouslySetInnerHtml",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-53578",
-      "summary": "CVE ID :CVE-2026-53578 Published : Aug. 27, 2026, 8:17 p.m. | 2 hours, 42 minutes ago Description :Trilium is an open-source hierarchical note-taking application. In versions up to and including...",
-      "source": "CVE Feed",
-      "published": "2026-08-27T20:17:48+00:00"
-    },
-    {
-      "title": "CVE-2026-48996 - Trilium: Malicious import with GeoMap marker title XSS leads to RCE on the desktop client",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48996",
-      "summary": "CVE ID :CVE-2026-48996 Published : Aug. 27, 2026, 8:17 p.m. | 2 hours, 42 minutes ago Description :Trilium is an open-source hierarchical note-taking application. In versions up to and including...",
-      "source": "CVE Feed",
-      "published": "2026-08-27T20:17:47+00:00"
-    },
-    {
-      "title": "CVE-2026-47727 - Trilium: RCE via `shareTemplate` relation missing `isDangerous` flag — Safe import bypass leading to EJS SSTI (Incomplete Fix of CVE-2026-45668)",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-47727",
-      "summary": "CVE ID :CVE-2026-47727 Published : Aug. 27, 2026, 8:17 p.m. | 2 hours, 42 minutes ago Description :Trilium is an open-source hierarchical note-taking application. In versions prior to 0.104.0, the...",
-      "source": "CVE Feed",
-      "published": "2026-08-27T20:17:44+00:00"
-    },
-    {
-      "title": "CVE-2026-19092 - Tutor LMS < 4.0.6 - Unauthenticated Arbitrary Zero-Argument Function Invocation via Template Variable Shadowing",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-19092",
-      "summary": "CVE ID :CVE-2026-19092 Published : Aug. 27, 2026, 8:17 p.m. | 2 hours, 43 minutes ago Description :The Tutor LMS WordPress plugin before 4.0.6 does not prevent request data from overwriting internal...",
-      "source": "CVE Feed",
-      "published": "2026-08-27T20:17:04+00:00"
-    },
-    {
-      "title": "CVE-2026-18886 - Unauthenticated Privilege Escalation via System Configuration Image Upload Processor",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-18886",
-      "summary": "CVE ID :CVE-2026-18886 Published : Aug. 27, 2026, 8:17 p.m. | 2 hours, 43 minutes ago Description :ServiceNow has remediated an improper access control vulnerability that was identified in the...",
-      "source": "CVE Feed",
-      "published": "2026-08-27T20:17:04+00:00"
-    },
-    {
-      "title": "CVE-2026-18885 - Unauthenticated Remote Code Execution in GraphQL Composite Data API",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-18885",
-      "summary": "CVE ID :CVE-2026-18885 Published : Aug. 27, 2026, 8:17 p.m. | 2 hours, 43 minutes ago Description :ServiceNow has remediated a code injection vulnerability that was identified in the ServiceNow AI...",
-      "source": "CVE Feed",
-      "published": "2026-08-27T20:17:03+00:00"
-    },
-    {
-      "title": "CVE-2026-10036 - SpeechBrain < 1.1.1 Arbitrary Code Execution via CKPT.yaml Parsing",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-10036",
-      "summary": "CVE ID :CVE-2026-10036 Published : Aug. 27, 2026, 8:17 p.m. | 2 hours, 43 minutes ago Description :SpeechBrain before 1.1.1 contains an arbitrary code execution vulnerability that allows attackers to...",
-      "source": "CVE Feed",
-      "published": "2026-08-27T20:17:02+00:00"
     },
     {
       "title": "White House bans foreign-made equipment for power generation over cyber backdoor concerns",
@@ -172,8 +200,8 @@
     {
       "title": "OpenAI Says Reward Hacking Drove AI Agents to Exploit Zero-Days and Breach Hugging Face",
       "link": "https://thehackernews.com/2026/08/openai-says-reward-hacking-drove-ai.html",
-      "summary": "OpenAI on Wednesday revealed that reward hacking was a key driver behind the artificial intelligence (AI)-powered hack of Hugging Face last month, adding that it found evidence of misaligned behavior...",
-      "source": "The Hacker News",
+      "summary": "OpenAI Says Reward Hacking Drove AI Agents to Exploit Zero-Days and Breach Hugging Face OpenAI on Wednesday revealed that reward hacking was a key driver behind the artificial intelligence...",
+      "source": "CVE Newsroom",
       "published": "2026-08-27T18:36:19+00:00"
     },
     {
@@ -182,34 +210,6 @@
       "summary": "This installment of the Reporters' Notebook video series discusses the topics that dominated the cybersecurity conference, such as AI's effects on vulnerability reporting and security research.",
       "source": "Dark Reading",
       "published": "2026-08-27T17:25:09+00:00"
-    },
-    {
-      "title": "CVE-2026-81826 - Flowintel Fails to Invalidate Active Sessions After Password Change",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-81826",
-      "summary": "CVE ID :CVE-2026-81826 Published : Aug. 27, 2026, 5:21 p.m. | 5 hours, 39 minutes ago Description :Affected versions of Flowintel do not revoke existing authenticated sessions when a user’s password...",
-      "source": "CVE Feed",
-      "published": "2026-08-27T17:21:05+00:00"
-    },
-    {
-      "title": "CVE-2026-81818 - Flowintel Organization Administrator Can Reset Full Administrator Password and Escalate Privileges",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-81818",
-      "summary": "CVE ID :CVE-2026-81818 Published : Aug. 27, 2026, 5:21 p.m. | 5 hours, 39 minutes ago Description :Affected versions of Flowintel contain an authorization flaw in the administrative user-edit API...",
-      "source": "CVE Feed",
-      "published": "2026-08-27T17:21:05+00:00"
-    },
-    {
-      "title": "CVE-2026-81735 - UI-TARS-desktop @agent-infra MCP Servers Bind Every Interface Without Authentication, Exposing Arbitrary Command Execution",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-81735",
-      "summary": "CVE ID :CVE-2026-81735 Published : Aug. 27, 2026, 5:21 p.m. | 5 hours, 39 minutes ago Description :startServer.ts in the mcp-http-server package of UI-TARS-desktop defaulted its listen address to...",
-      "source": "CVE Feed",
-      "published": "2026-08-27T17:21:03+00:00"
-    },
-    {
-      "title": "CVE-2026-81726 - NLTK through 3.10.3 Path Traversal via Model-Artifact APIs",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-81726",
-      "summary": "CVE ID :CVE-2026-81726 Published : Aug. 27, 2026, 5:21 p.m. | 5 hours, 39 minutes ago Description :NLTK through 3.10.3 contains a path traversal vulnerability in model-artifact APIs that bypass...",
-      "source": "CVE Feed",
-      "published": "2026-08-27T17:21:03+00:00"
     },
     {
       "title": "PaperCut warns of NG, MF flaw exploited in zero-day attacks",
@@ -844,8 +844,8 @@
     {
       "title": "⚡ Weekly Recap: AI-Powered PLC Attacks, GitLab Attacks, Stripe Key Leaks and More",
       "link": "https://thehackernews.com/2026/08/weekly-recap-ai-powered-plc-attacks.html",
-      "summary": "⚡ Weekly Recap: AI-Powered PLC Attacks, GitLab Attacks, Stripe Key Leaks and More A package gets installed. A login prompt opens. A box sits exposed to the internet. Nothing looks unusual yet. That’s...",
-      "source": "CVE Newsroom",
+      "summary": "A package gets installed. A login prompt opens. A box sits exposed to the internet. Nothing looks unusual yet. That’s roughly the mood this week. Trusted tools turn hostile, old weak spots get fresh...",
+      "source": "The Hacker News",
       "published": "2026-08-24T14:32:10+00:00"
     },
     {
