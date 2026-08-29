@@ -1,6 +1,76 @@
 {
-  "last_updated": "2026-08-29T16:03:54.738126+00:00",
+  "last_updated": "2026-08-29T18:04:52.542376+00:00",
   "articles": [
+    {
+      "title": "CVE-2026-82475 - iFlytek astron-agent through 1.1.1 Workflow Hijacking via Missing Ownership Check",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-82475",
+      "summary": "CVE ID :CVE-2026-82475 Published : Aug. 29, 2026, 5:18 p.m. | 18 minutes ago Description :iFlytek astron-agent through 1.1.1 contains an authorization bypass vulnerability in the copyFlow endpoint...",
+      "source": "CVE Feed",
+      "published": "2026-08-29T17:18:00+00:00"
+    },
+    {
+      "title": "CVE-2026-82474 - Sudo through 1.9.17p2 Intercept Policy Bypass via execveat",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-82474",
+      "summary": "CVE ID :CVE-2026-82474 Published : Aug. 29, 2026, 5:17 p.m. | 18 minutes ago Description :Sudo through 1.9.17p2 fails to apply intercept policy checks to the execveat system call in ptrace-based...",
+      "source": "CVE Feed",
+      "published": "2026-08-29T17:17:59+00:00"
+    },
+    {
+      "title": "CVE-2026-82473 - KubeEdge CloudCore through 1.23.1 Missing Authentication on Node Task Endpoints",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-82473",
+      "summary": "CVE ID :CVE-2026-82473 Published : Aug. 29, 2026, 5:17 p.m. | 18 minutes ago Description :KubeEdge CloudCore through 1.23.1 accepts node task status reports on its HTTPS server without authentication...",
+      "source": "CVE Feed",
+      "published": "2026-08-29T17:17:59+00:00"
+    },
+    {
+      "title": "CVE-2026-82472 - Documenso before 2.13.0 Unauthenticated File Upload via /api/files/upload-pdf",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-82472",
+      "summary": "CVE ID :CVE-2026-82472 Published : Aug. 29, 2026, 5:17 p.m. | 18 minutes ago Description :Documenso before 2.13.0 accepts PDF file uploads on the /api/files/upload-pdf endpoint without requiring...",
+      "source": "CVE Feed",
+      "published": "2026-08-29T17:17:59+00:00"
+    },
+    {
+      "title": "CVE-2026-82466 - Rodauth before 2.46.0 Authentication Bypass via webauthn_login",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-82466",
+      "summary": "CVE ID :CVE-2026-82466 Published : Aug. 29, 2026, 5:17 p.m. | 18 minutes ago Description :Rodauth before 2.46.0 contains an authentication bypass vulnerability in the webauthn_login route that allows...",
+      "source": "CVE Feed",
+      "published": "2026-08-29T17:17:58+00:00"
+    },
+    {
+      "title": "CVE-2026-82463 - pac4j-core before 6.5.6 Authorization Bypass via Reversed Profile Type Check",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-82463",
+      "summary": "CVE ID :CVE-2026-82463 Published : Aug. 29, 2026, 5:17 p.m. | 18 minutes ago Description :pac4j-core before 6.5.6 contains an authentication bypass vulnerability in CheckProfileTypeAuthorizer that...",
+      "source": "CVE Feed",
+      "published": "2026-08-29T17:17:58+00:00"
+    },
+    {
+      "title": "CVE-2026-82461 - pac4j-oidc before 6.5.6 Privilege Escalation via Unverified Keycloak Access Token",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-82461",
+      "summary": "CVE ID :CVE-2026-82461 Published : Aug. 29, 2026, 5:17 p.m. | 18 minutes ago Description :pac4j-oidc before 6.5.6 fails to verify access token signatures, issuers, audiences, or expiry when...",
+      "source": "CVE Feed",
+      "published": "2026-08-29T17:17:58+00:00"
+    },
+    {
+      "title": "CVE-2026-82460 - Cloud Commander before 19.20.2 Directory Traversal via REST and Markdown",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-82460",
+      "summary": "CVE ID :CVE-2026-82460 Published : Aug. 29, 2026, 5:17 p.m. | 18 minutes ago Description :Cloud Commander before 19.20.2 contains a directory traversal vulnerability in REST file-operation and...",
+      "source": "CVE Feed",
+      "published": "2026-08-29T17:17:58+00:00"
+    },
+    {
+      "title": "Five Critical WordPress Plugin and Theme Flaws Enable Site Takeover or RCE",
+      "link": "https://thehackernews.com/2026/08/five-critical-wordpress-plugin-and.html",
+      "summary": "Multiple critical security flaws have been disclosed in WordPress plugins and themes, including WPMU DEV Dashboard, Avada, TranslatePress, Pods, and GiveWP, that could lead to authentication bypass...",
+      "source": "The Hacker News",
+      "published": "2026-08-29T16:25:03+00:00"
+    },
+    {
+      "title": "CVE-2026-82481 - cohttp Directory Traversal Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-82481",
+      "summary": "CVE ID :CVE-2026-82481 Published : Aug. 29, 2026, 3:17 p.m. | 2 hours, 18 minutes ago Description :The cohttp package before 6.3.0 for OCaml allows directory traversal. Severity: 8.7 | HIGH Visit the...",
+      "source": "CVE Feed",
+      "published": "2026-08-29T15:17:55+00:00"
+    },
     {
       "title": "Brave browser adds email aliases to help users evade tracking",
       "link": "https://www.bleepingcomputer.com/news/security/brave-browser-adds-email-aliases-to-help-users-evade-tracking/",
@@ -9,65 +79,51 @@
       "published": "2026-08-29T14:19:23+00:00"
     },
     {
-      "title": "CVE-2026-82457 - su-exec through 0.3 Privilege Escalation via Numeric User ID",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-82457",
-      "summary": "CVE ID :CVE-2026-82457 Published : Aug. 29, 2026, 1:47 p.m. | 36 minutes ago Description :su-exec through 0.3 fails to validate numeric user and group identifiers parsed with strtol before assigning...",
-      "source": "CVE Feed",
-      "published": "2026-08-29T13:47:58+00:00"
-    },
-    {
       "title": "CVE-2026-82456 - argocd-mcp 0.8.0 Authentication Bypass via Unauthenticated HTTP",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-82456",
-      "summary": "CVE ID :CVE-2026-82456 Published : Aug. 29, 2026, 1:47 p.m. | 36 minutes ago Description :argocd-mcp 0.8.0 binds its HTTP transport to every network interface and accepts MCP sessions without...",
+      "summary": "CVE ID :CVE-2026-82456 Published : Aug. 29, 2026, 2:16 p.m. | 3 hours, 19 minutes ago Description :argocd-mcp 0.8.0 binds its HTTP transport to every network interface and accepts MCP sessions...",
       "source": "CVE Feed",
-      "published": "2026-08-29T13:47:57+00:00"
+      "published": "2026-08-29T14:16:38+00:00"
     },
     {
       "title": "CVE-2026-82454 - Omnivore before android-0.227.0 Authentication Bypass via Apple Sign-in",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-82454",
-      "summary": "CVE ID :CVE-2026-82454 Published : Aug. 29, 2026, 1:47 p.m. | 36 minutes ago Description :The Omnivore API (packages/api) before the fix in commit abf53d6 contains an authentication bypass in Apple...",
+      "summary": "CVE ID :CVE-2026-82454 Published : Aug. 29, 2026, 2:16 p.m. | 3 hours, 19 minutes ago Description :The Omnivore API (packages/api) before the fix in commit abf53d6 contains an authentication bypass...",
       "source": "CVE Feed",
-      "published": "2026-08-29T13:47:56+00:00"
-    },
-    {
-      "title": "CVE-2026-82453 - rust-iot-platform Cleartext Password Storage via User Model",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-82453",
-      "summary": "CVE ID :CVE-2026-82453 Published : Aug. 29, 2026, 1:47 p.m. | 36 minutes ago Description :rust-iot-platform through commit 5df942ab stores user passwords in cleartext without hashing in the user...",
-      "source": "CVE Feed",
-      "published": "2026-08-29T13:47:55+00:00"
+      "published": "2026-08-29T14:16:38+00:00"
     },
     {
       "title": "CVE-2026-82452 - rust-iot-platform Authentication Bypass via Missing Request Guards",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-82452",
-      "summary": "CVE ID :CVE-2026-82452 Published : Aug. 29, 2026, 1:47 p.m. | 36 minutes ago Description :rust-iot-platform through commit 5df942ab contains an authentication bypass vulnerability where most REST API...",
+      "summary": "CVE ID :CVE-2026-82452 Published : Aug. 29, 2026, 2:16 p.m. | 3 hours, 19 minutes ago Description :rust-iot-platform through commit 5df942ab contains an authentication bypass vulnerability where most...",
       "source": "CVE Feed",
-      "published": "2026-08-29T13:47:54+00:00"
+      "published": "2026-08-29T14:16:38+00:00"
     },
     {
       "title": "CVE-2026-82450 - BookStack before 26.05.4 Remote Code Execution via Book Cover",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-82450",
-      "summary": "CVE ID :CVE-2026-82450 Published : Aug. 29, 2026, 1:47 p.m. | 36 minutes ago Description :BookStack before 26.05.4 contains a remote code execution vulnerability in the portable ZIP import...",
+      "summary": "CVE ID :CVE-2026-82450 Published : Aug. 29, 2026, 2:16 p.m. | 3 hours, 19 minutes ago Description :BookStack before 26.05.4 contains a remote code execution vulnerability in the portable ZIP import...",
       "source": "CVE Feed",
-      "published": "2026-08-29T13:47:53+00:00"
+      "published": "2026-08-29T14:16:37+00:00"
     },
     {
       "title": "CVE-2026-82448 - Shinobi before commit 5a76c74f Arbitrary Database Query Execution via Hardcoded Child Node Key",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-82448",
-      "summary": "CVE ID :CVE-2026-82448 Published : Aug. 29, 2026, 1:16 p.m. | 1 hour, 7 minutes ago Description :Shinobi before commit 5a76c74f contains a hardcoded connection key in the child node service that...",
+      "summary": "CVE ID :CVE-2026-82448 Published : Aug. 29, 2026, 1:16 p.m. | 4 hours, 19 minutes ago Description :Shinobi before commit 5a76c74f contains a hardcoded connection key in the child node service that...",
       "source": "CVE Feed",
       "published": "2026-08-29T13:16:38+00:00"
     },
     {
       "title": "CVE-2026-82447 - Skyvern before 1.0.45 Sandbox Escape via TextPromptBlock",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-82447",
-      "summary": "CVE ID :CVE-2026-82447 Published : Aug. 29, 2026, 1:16 p.m. | 1 hour, 7 minutes ago Description :Skyvern before 1.0.45 contains a sandbox escape vulnerability in TextPromptBlock that renders prompts...",
+      "summary": "CVE ID :CVE-2026-82447 Published : Aug. 29, 2026, 1:16 p.m. | 4 hours, 19 minutes ago Description :Skyvern before 1.0.45 contains a sandbox escape vulnerability in TextPromptBlock that renders...",
       "source": "CVE Feed",
       "published": "2026-08-29T13:16:38+00:00"
     },
     {
       "title": "CVE-2026-14494 - Sigma Forms Pro <= 1.4.5 - Unauthenticated Unauthenticated Arbitrary File Upload Leading to Remote Code Execution via Pre-built Template File Upload Field",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-14494",
-      "summary": "CVE ID :CVE-2026-14494 Published : Aug. 29, 2026, 12:16 p.m. | 2 hours, 7 minutes ago Description :The Sigma Forms Pro plugin for WordPress is vulnerable to Remote Code Execution in all versions up...",
+      "summary": "CVE ID :CVE-2026-14494 Published : Aug. 29, 2026, 12:16 p.m. | 5 hours, 19 minutes ago Description :The Sigma Forms Pro plugin for WordPress is vulnerable to Remote Code Execution in all versions up...",
       "source": "CVE Feed",
       "published": "2026-08-29T12:16:41+00:00"
     },
@@ -81,14 +137,14 @@
     {
       "title": "CVE-2026-55848 - mapfish-print: XXE on MapFish Print allows reading arbitrary files of certain types",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-55848",
-      "summary": "CVE ID :CVE-2026-55848 Published : Aug. 28, 2026, 11:17 p.m. | 15 hours, 7 minutes ago Description :mapfish-print is a component of MapFish for printing templated cartographic maps. Prior to 3.28.30...",
+      "summary": "CVE ID :CVE-2026-55848 Published : Aug. 28, 2026, 11:17 p.m. | 18 hours, 19 minutes ago Description :mapfish-print is a component of MapFish for printing templated cartographic maps. Prior to...",
       "source": "CVE Feed",
       "published": "2026-08-28T23:17:08+00:00"
     },
     {
       "title": "CVE-2026-55764 - Klever-Go: SFT add-quantity `int64` overflow bypasses a finite per-nonce MaxSupply",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-55764",
-      "summary": "CVE ID :CVE-2026-55764 Published : Aug. 28, 2026, 11:17 p.m. | 15 hours, 7 minutes ago Description :Klever-Go is the Go implementation of the Klever blockchain protocol. Prior to 1.7.19, Klever-Go...",
+      "summary": "CVE ID :CVE-2026-55764 Published : Aug. 28, 2026, 11:17 p.m. | 18 hours, 19 minutes ago Description :Klever-Go is the Go implementation of the Klever blockchain protocol. Prior to 1.7.19, Klever-Go...",
       "source": "CVE Feed",
       "published": "2026-08-28T23:17:07+00:00"
     },
@@ -102,78 +158,57 @@
     {
       "title": "CVE-2026-81532 - BI Connector ODBC Driver Improper Bounds Checking on Cursor Name Leading to Memory Corruption",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-81532",
-      "summary": "CVE ID :CVE-2026-81532 Published : Aug. 28, 2026, 10:16 p.m. | 16 hours, 7 minutes ago Description :A user able to submit SQL through an application using the MongoDB Connector for BI ODBC driver can...",
+      "summary": "CVE ID :CVE-2026-81532 Published : Aug. 28, 2026, 10:16 p.m. | 19 hours, 19 minutes ago Description :A user able to submit SQL through an application using the MongoDB Connector for BI ODBC driver...",
       "source": "CVE Feed",
       "published": "2026-08-28T22:16:54+00:00"
     },
     {
       "title": "CVE-2026-75118 - http_gdpr_decrypt Pre-Authentication Stack-Based Buffer Overflow",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-75118",
-      "summary": "CVE ID :CVE-2026-75118 Published : Aug. 28, 2026, 10:16 p.m. | 16 hours, 7 minutes ago Description :A pre-authentication stack-based buffer overflow vulnerability exists in the http_gdpr_decrypt...",
+      "summary": "CVE ID :CVE-2026-75118 Published : Aug. 28, 2026, 10:16 p.m. | 19 hours, 19 minutes ago Description :A pre-authentication stack-based buffer overflow vulnerability exists in the http_gdpr_decrypt...",
       "source": "CVE Feed",
       "published": "2026-08-28T22:16:52+00:00"
     },
     {
       "title": "CVE-2026-55763 - Klever-Go: Percentage-transfer royalty skips the source debit at exactly-100% splits",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-55763",
-      "summary": "CVE ID :CVE-2026-55763 Published : Aug. 28, 2026, 10:16 p.m. | 16 hours, 7 minutes ago Description :Klever-Go is the Go implementation of the Klever blockchain protocol. Prior to 1.7.19...",
+      "summary": "CVE ID :CVE-2026-55763 Published : Aug. 28, 2026, 10:16 p.m. | 19 hours, 19 minutes ago Description :Klever-Go is the Go implementation of the Klever blockchain protocol. Prior to 1.7.19...",
       "source": "CVE Feed",
       "published": "2026-08-28T22:16:51+00:00"
     },
     {
       "title": "CVE-2026-3627 - Multiple Vulnerabilities in IBM Concert Software",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-3627",
-      "summary": "CVE ID :CVE-2026-3627 Published : Aug. 28, 2026, 10:16 p.m. | 16 hours, 7 minutes ago Description :IBM Concert 1.0.0 through 2.3.1 is vulnerable to SQL injection. A remote attacker could send...",
+      "summary": "CVE ID :CVE-2026-3627 Published : Aug. 28, 2026, 10:16 p.m. | 19 hours, 19 minutes ago Description :IBM Concert 1.0.0 through 2.3.1 is vulnerable to SQL injection. A remote attacker could send...",
       "source": "CVE Feed",
       "published": "2026-08-28T22:16:49+00:00"
     },
     {
       "title": "CVE-2026-19295 - Langflow is affected by multiple remote code execution vulnerabilities due to insufficient code-execution policy enforcement",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-19295",
-      "summary": "CVE ID :CVE-2026-19295 Published : Aug. 28, 2026, 10:16 p.m. | 16 hours, 7 minutes ago Description :IBM Langflow OSS 1.0.0 through 1.11.1 allows an authenticated attacker to execute arbitrary...",
+      "summary": "CVE ID :CVE-2026-19295 Published : Aug. 28, 2026, 10:16 p.m. | 19 hours, 19 minutes ago Description :IBM Langflow OSS 1.0.0 through 1.11.1 allows an authenticated attacker to execute arbitrary...",
       "source": "CVE Feed",
       "published": "2026-08-28T22:16:47+00:00"
     },
     {
       "title": "CVE-2026-19286 - Langflow is affected by multiple remote code execution vulnerabilities due to insufficient code-execution policy enforcement",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-19286",
-      "summary": "CVE ID :CVE-2026-19286 Published : Aug. 28, 2026, 10:16 p.m. | 16 hours, 7 minutes ago Description :IBM Langflow OSS 1.0.0 through 1.11.1 could allow a remote attacker to execute arbitrary code due...",
+      "summary": "CVE ID :CVE-2026-19286 Published : Aug. 28, 2026, 10:16 p.m. | 19 hours, 19 minutes ago Description :IBM Langflow OSS 1.0.0 through 1.11.1 could allow a remote attacker to execute arbitrary code due...",
       "source": "CVE Feed",
       "published": "2026-08-28T22:16:47+00:00"
     },
     {
       "title": "CVE-2026-18904 - Langflow is affected by multiple authentication bypass, path traversal, authorization, and server-side request forgery vulnerabilities",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-18904",
-      "summary": "CVE ID :CVE-2026-18904 Published : Aug. 28, 2026, 10:16 p.m. | 16 hours, 7 minutes ago Description :IBM Langflow OSS 1.0.0 through 1.11.1 could allow a remote attacker to obtain sensitive information...",
+      "summary": "CVE ID :CVE-2026-18904 Published : Aug. 28, 2026, 10:16 p.m. | 19 hours, 19 minutes ago Description :IBM Langflow OSS 1.0.0 through 1.11.1 could allow a remote attacker to obtain sensitive...",
       "source": "CVE Feed",
       "published": "2026-08-28T22:16:47+00:00"
     },
     {
-      "title": "CVE-2026-18891 - Langflow is affected by multiple authentication bypass, path traversal, authorization, and server-side request forgery vulnerabilities",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-18891",
-      "summary": "CVE ID :CVE-2026-18891 Published : Aug. 28, 2026, 10:16 p.m. | 16 hours, 7 minutes ago Description :IBM Langflow OSS 1.0.0 through 1.11.1 could allow a remote attacker to execute arbitrary flows and...",
-      "source": "CVE Feed",
-      "published": "2026-08-28T22:16:46+00:00"
-    },
-    {
-      "title": "CVE-2026-18729 - Langflow is affected by multiple remote code execution vulnerabilities due to insufficient code-execution policy enforcement",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-18729",
-      "summary": "CVE ID :CVE-2026-18729 Published : Aug. 28, 2026, 10:16 p.m. | 16 hours, 7 minutes ago Description :IBM Langflow OSS 1.0.0 through 1.11.1 could allow a remote authenticated attacker to execute...",
-      "source": "CVE Feed",
-      "published": "2026-08-28T22:16:46+00:00"
-    },
-    {
-      "title": "CVE-2026-18527 - IBM Application Runtime Expert (ARE) for IBM i is vulnerable to a user gaining elevated privileges and sensitive information [, ].",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-18527",
-      "summary": "CVE ID :CVE-2026-18527 Published : Aug. 28, 2026, 10:16 p.m. | 16 hours, 7 minutes ago Description :IBM Administration Runtime Expert for i 1R1M0 IBM Application Runtime Expert (ARE) for i could...",
-      "source": "CVE Feed",
-      "published": "2026-08-28T22:16:46+00:00"
-    },
-    {
       "title": "Berlin Refuses to Pay Hackers Who Stole Data From the City's State Network",
       "link": "https://thehackernews.com/2026/08/berlin-refuses-to-pay-hackers-who-stole.html",
-      "summary": "Berlin Refuses to Pay Hackers Who Stole Data From the City's State Network Berlin's state government has confirmed that it is the target of an extortion attempt following the August compromise of the...",
-      "source": "CVE Newsroom",
+      "summary": "Berlin's state government has confirmed that it is the target of an extortion attempt following the August compromise of the city's state administrative network, and said it will not meet the...",
+      "source": "The Hacker News",
       "published": "2026-08-28T21:30:52+00:00"
     },
     {
@@ -182,34 +217,6 @@
       "summary": "Cosmos Labs has warned that a critical balance-handling flaw in the shared Cosmos EVM module was exploited to drain funds from six blockchains between August 20 and August 25, 2026. The...",
       "source": "The Hacker News",
       "published": "2026-08-28T20:38:47+00:00"
-    },
-    {
-      "title": "CVE-2026-82329 - Potential authentication bypass leading to administrative access in Artifactory",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-82329",
-      "summary": "CVE ID :CVE-2026-82329 Published : Aug. 28, 2026, 8:20 p.m. | 18 hours, 4 minutes ago Description :JFrog Artifactory contains an authentication weakness that, under default configuration, may allow...",
-      "source": "CVE Feed",
-      "published": "2026-08-28T20:20:21+00:00"
-    },
-    {
-      "title": "CVE-2026-82291 - HeyForm Reflects Any Origin in CORS Responses While Allowing Credentials",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-82291",
-      "summary": "CVE ID :CVE-2026-82291 Published : Aug. 28, 2026, 8:20 p.m. | 18 hours, 4 minutes ago Description :HeyForm before 3.0.0-rc.8 reflects the request Origin header in CORS responses while allowing...",
-      "source": "CVE Feed",
-      "published": "2026-08-28T20:20:20+00:00"
-    },
-    {
-      "title": "CVE-2026-82287 - Rybbit Reflects Any Origin in CORS Responses While Allowing Credentials",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-82287",
-      "summary": "CVE ID :CVE-2026-82287 Published : Aug. 28, 2026, 8:20 p.m. | 18 hours, 4 minutes ago Description :Rybbit before 2.7.0 contains a CORS misconfiguration vulnerability that allows attackers to bypass...",
-      "source": "CVE Feed",
-      "published": "2026-08-28T20:20:20+00:00"
-    },
-    {
-      "title": "CVE-2026-82286 - gpt-crawler Arbitrary File Write via outputFileName Parameter",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-82286",
-      "summary": "CVE ID :CVE-2026-82286 Published : Aug. 28, 2026, 8:20 p.m. | 18 hours, 4 minutes ago Description :gpt-crawler through 1.5.1 fails to validate the outputFileName parameter in the POST /crawl...",
-      "source": "CVE Feed",
-      "published": "2026-08-28T20:20:20+00:00"
     },
     {
       "title": "Hundreds of OpenAI Agents Invaded Hugging Face Servers",
@@ -249,8 +256,8 @@
     {
       "title": "Attackers Chain Two PaperCut Flaws to Execute Code Without Authentication",
       "link": "https://thehackernews.com/2026/08/attackers-chain-two-papercut-flaws-to.html",
-      "summary": "Attackers Chain Two PaperCut Flaws to Execute Code Without Authentication Malicious actors are exploiting a newly patched security flaw in PaperCut NG and MF to execute arbitrary code on susceptible...",
-      "source": "CVE Newsroom",
+      "summary": "Malicious actors are exploiting a newly patched security flaw in PaperCut NG and MF to execute arbitrary code on susceptible instances, as the company released a fresh emergency fix with additional...",
+      "source": "The Hacker News",
       "published": "2026-08-28T17:12:15+00:00"
     },
     {
@@ -284,8 +291,8 @@
     {
       "title": "ownCloud Flaw Exploited to Steal Nuclear Records From Philippine Research Body",
       "link": "https://thehackernews.com/2026/08/snowflake-github-actions-flaw-lets.html",
-      "summary": "ownCloud Flaw Exploited to Steal Nuclear Records From Philippine Research Body The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Thursday added a critical security flaw impacting...",
-      "source": "CVE Newsroom",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Thursday added a critical security flaw impacting ownCloud to its Known Exploited Vulnerabilities (KEV) catalog following reports...",
+      "source": "The Hacker News",
       "published": "2026-08-28T15:56:55+00:00"
     },
     {
@@ -368,8 +375,8 @@
     {
       "title": "Two Unitree G1 EDU Humanoid Robot Flaws Enable Root RCE, One Starts Over Bluetooth",
       "link": "https://thehackernews.com/2026/08/two-unitree-g1-edu-humanoid-robot-flaws.html",
-      "summary": "Two Unitree G1 EDU Humanoid Robot Flaws Enable Root RCE, One Starts Over Bluetooth Security researcher Olivier Laflamme has disclosed two independent root remote code execution (RCE) chains affecting...",
-      "source": "CVE Newsroom",
+      "summary": "Security researcher Olivier Laflamme has disclosed two independent root remote code execution (RCE) chains affecting the Unitree G1 EDU, including a Bluetooth Low Energy (BLE) path that can reach...",
+      "source": "The Hacker News",
       "published": "2026-08-28T12:07:24+00:00"
     },
     {
@@ -403,8 +410,8 @@
     {
       "title": "Three CVSS 10.0 ServiceNow Flaws Could Let Unauthenticated Attackers Execute Code and SQL",
       "link": "https://thehackernews.com/2026/08/three-cvss-100-servicenow-flaws-could.html",
-      "summary": "Three CVSS 10.0 ServiceNow Flaws Could Let Unauthenticated Attackers Execute Code and SQL ServiceNow has released patches for four security flaws impacting the ServiceNow AI Platform, three of them...",
-      "source": "CVE Newsroom",
+      "summary": "ServiceNow has released patches for four security flaws impacting the ServiceNow AI Platform, three of them rated 10.0 on the CVSS scoring system and exploitable, in certain circumstances, by an...",
+      "source": "The Hacker News",
       "published": "2026-08-28T11:20:32+00:00"
     },
     {
@@ -424,8 +431,8 @@
     {
       "title": "China-Made ZBT Routers Ship With Two Implants Giving Unauthenticated Attackers Root Access",
       "link": "https://thehackernews.com/2026/08/china-made-zbt-routers-ship-with-two.html",
-      "summary": "China-Made ZBT Routers Ship With Two Implants Giving Unauthenticated Attackers Root Access VulnCheck has disclosed two previously undocumented factory implants in firmware for routers built by...",
-      "source": "CVE Newsroom",
+      "summary": "VulnCheck has disclosed two previously undocumented factory implants in firmware for routers built by Shenzhen Zhibotong Electronics (ZBT), each of which gives an unauthenticated remote attacker the...",
+      "source": "The Hacker News",
       "published": "2026-08-28T10:58:29+00:00"
     },
     {
@@ -452,8 +459,8 @@
     {
       "title": "Critical cPanel Flaw Could Let One Hosting Customer Take Root Control of a Whole Server",
       "link": "https://thehackernews.com/2026/08/critical-cpanel-flaw-could-let-one.html",
-      "summary": "Critical cPanel Flaw Could Let One Hosting Customer Take Root Control of a Whole Server cPanel has released patches for a security flaw affecting domain parking and addon domain functionality in...",
-      "source": "CVE Newsroom",
+      "summary": "cPanel has released patches for a security flaw affecting domain parking and addon domain functionality in cPanel and WebHost Manager (WHM), which could allow code execution as the root user. The...",
+      "source": "The Hacker News",
       "published": "2026-08-28T09:45:15+00:00"
     },
     {
@@ -473,8 +480,8 @@
     {
       "title": "PaperCut Zero-Day Exploited in Attacks, Affecting All NG and MF Versions",
       "link": "https://thehackernews.com/2026/08/papercut-zero-day-exploited-in-attacks.html",
-      "summary": "PaperCut Zero-Day Exploited in Attacks, Affecting All NG and MF Versions PaperCut has alerted customers that bad actors are actively exploiting a vulnerability impacting all versions of its PaperCut...",
-      "source": "CVE Newsroom",
+      "summary": "PaperCut has alerted customers that bad actors are actively exploiting a vulnerability impacting all versions of its PaperCut NG and PaperCut MF print management software in zero-day attacks. The...",
+      "source": "The Hacker News",
       "published": "2026-08-28T08:25:36+00:00"
     },
     {
@@ -529,8 +536,8 @@
     {
       "title": "OpenAI Says Reward Hacking Drove AI Agents to Exploit Zero-Days and Breach Hugging Face",
       "link": "https://thehackernews.com/2026/08/openai-says-reward-hacking-drove-ai.html",
-      "summary": "OpenAI Says Reward Hacking Drove AI Agents to Exploit Zero-Days and Breach Hugging Face OpenAI on Wednesday revealed that reward hacking was a key driver behind the artificial intelligence...",
-      "source": "CVE Newsroom",
+      "summary": "OpenAI on Wednesday revealed that reward hacking was a key driver behind the artificial intelligence (AI)-powered hack of Hugging Face last month, adding that it found evidence of misaligned behavior...",
+      "source": "The Hacker News",
       "published": "2026-08-27T18:36:19+00:00"
     },
     {
@@ -564,15 +571,15 @@
     {
       "title": "Next.js Patches Critical AVIF and Windows Flaws Enabling Unauthenticated RCE",
       "link": "https://thehackernews.com/2026/08/nextjs-patches-critical-avif-and.html",
-      "summary": "Next.js Patches Critical AVIF and Windows Flaws Enabling Unauthenticated RCE Credit: Hacktron Vercel has released security patches for two critical-severity vulnerabilities in the Next.js web...",
-      "source": "CVE Newsroom",
+      "summary": "Credit: Hacktron Vercel has released security patches for two critical-severity vulnerabilities in the Next.js web framework, both of which allow unauthenticated remote code execution, one...",
+      "source": "The Hacker News",
       "published": "2026-08-27T15:13:00+00:00"
     },
     {
       "title": "ThreatsDay: 296K IoT Botnet, 100+ Water Systems Targeted, SharePoint RCE Chain + 27 New Stories",
       "link": "https://thehackernews.com/2026/08/threatsday-296k-iot-botnet-100-water.html",
-      "summary": "ThreatsDay: 296K IoT Botnet, 100+ Water Systems Targeted, SharePoint RCE Chain + 27 New Stories A fake login page. A fake security scan. A fake productivity app. Apparently, pretending to be useful...",
-      "source": "CVE Newsroom",
+      "summary": "A fake login page. A fake security scan. A fake productivity app. Apparently, pretending to be useful is still one of the easier ways into a machine. The rest of the week gets stranger: botnets...",
+      "source": "The Hacker News",
       "published": "2026-08-27T15:12:16+00:00"
     },
     {
@@ -613,8 +620,8 @@
     {
       "title": "Amazon Kiro Prompt Injection Can Exfiltrate Sensitive Data Through Kiro Powers",
       "link": "https://thehackernews.com/2026/08/amazon-kiro-prompt-injection-can.html",
-      "summary": "Amazon Kiro Prompt Injection Can Exfiltrate Sensitive Data Through Kiro Powers Cybersecurity researchers have disclosed details of a vulnerability in Amazon Kiro, an artificial intelligence...",
-      "source": "CVE Newsroom",
+      "summary": "Cybersecurity researchers have disclosed details of a vulnerability in Amazon Kiro, an artificial intelligence (AI)-powered, agentic integrated development environment (IDE), that could facilitate...",
+      "source": "The Hacker News",
       "published": "2026-08-27T13:39:56+00:00"
     },
     {
@@ -980,13 +987,6 @@
       "summary": "The combination of AI both discovering more vulnerabilities at a faster pace and the tightening regulatory environment is making this an all-hands-on-deck moment for the cybersecurity community.",
       "source": "Dark Reading",
       "published": "2026-08-24T14:00:00+00:00"
-    },
-    {
-      "title": "WordlistLoader Delivers Amatera via ClickFix, SynkLoader Phishes Windows Passwords",
-      "link": "https://thehackernews.com/2026/08/wordlistloader-delivers-amatera-via.html",
-      "summary": "Cybersecurity researchers have flagged two new malware families called WordlistLoader and SynkLoader that's used to deliver next-stage payloads and likely sell access to ransomware groups. According...",
-      "source": "The Hacker News",
-      "published": "2026-08-24T12:35:36+00:00"
     },
     {
       "title": "How an Emerging Industrial Protocol Family Could Put OT at Risk",
