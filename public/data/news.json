@@ -1,6 +1,34 @@
 {
-  "last_updated": "2026-08-31T20:04:33.070936+00:00",
+  "last_updated": "2026-08-31T22:03:57.612649+00:00",
   "articles": [
+    {
+      "title": "Anthropic Users Hit by Infostealer Attacks, Session Thefts",
+      "link": "https://www.darkreading.com/cyberattacks-data-breaches/anthropic-users-infostealer-attacks-session-thefts",
+      "summary": "A threat actor used a variety of infostealers to collect session information and access Claude accounts belonging to an unknown number of users.",
+      "source": "Dark Reading",
+      "published": "2026-08-31T21:08:46+00:00"
+    },
+    {
+      "title": "Cronos blockchain restarts after $74 million Tectonic exploit",
+      "link": "https://www.bleepingcomputer.com/news/security/cronos-blockchain-restarts-after-74-million-tectonic-exploit/",
+      "summary": "The Cronos blockchain network has resumed trading activity after a price-manipulation attack on the Tectonic cryptocurrency lending platform allowed an attacker to borrow $74 million. [...]",
+      "source": "BleepingComputer",
+      "published": "2026-08-31T20:47:54+00:00"
+    },
+    {
+      "title": "Five plead guilty in latest federal ATM jackpotting case",
+      "link": "https://therecord.media/kansas-atm-jackpotting-guilty-pleas",
+      "summary": "Federal law enforcement continued to warn about ATM jackpotting gangs as it announced guilty pleas from five Venezuelan nationals.",
+      "source": "The Record",
+      "published": "2026-08-31T20:31:00+00:00"
+    },
+    {
+      "title": "'TerminalFix' Campaign Weaponizes PowerShell for Enterprise Attacks",
+      "link": "https://www.darkreading.com/threat-intelligence/terminalfix-campaign-weaponizes-powershell-enterprise-attacks",
+      "summary": "The ClickFix-style campaign features a sophisticated, multistage attack chain that includes reverse tunnels into victim organizations' networks.",
+      "source": "Dark Reading",
+      "published": "2026-08-31T20:25:36+00:00"
+    },
     {
       "title": "Fraudsters steal $6 million from Tectonic crypto platform after inflating token price",
       "link": "https://therecord.media/crypto-tectonic-hack-cronos",
@@ -9,11 +37,67 @@
       "published": "2026-08-31T19:45:00+00:00"
     },
     {
+      "title": "CVE-2026-83497 - Unrestricted Java Deserialization in OpenSearch SQL Plugin Cursor Pagination",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-83497",
+      "summary": "CVE ID :CVE-2026-83497 Published : Aug. 31, 2026, 7:17 p.m. | 59 minutes ago Description :Unrestricted deserialization of untrusted data in the cursor pagination component in the OpenSearch SQL...",
+      "source": "CVE Feed",
+      "published": "2026-08-31T19:17:24+00:00"
+    },
+    {
+      "title": "CVE-2026-72001 - Pangolin < 1.22.0 Authentication Bypass via Share-Link Endpoint",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-72001",
+      "summary": "CVE ID :CVE-2026-72001 Published : Aug. 31, 2026, 7:17 p.m. | 59 minutes ago Description :Pangolin before 1.22.0 contains an authentication bypass vulnerability that allows unauthenticated attackers...",
+      "source": "CVE Feed",
+      "published": "2026-08-31T19:17:10+00:00"
+    },
+    {
+      "title": "CVE-2026-53552 - Goploy: Cross-namespace IDOR and RCE via body-supplied row id in project and project_file handlers",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-53552",
+      "summary": "CVE ID :CVE-2026-53552 Published : Aug. 31, 2026, 7:16 p.m. | 59 minutes ago Description :Goploy is an open-source automation deployment system. In versions 1.17.5 and prior, Project.AddFile...",
+      "source": "CVE Feed",
+      "published": "2026-08-31T19:16:50+00:00"
+    },
+    {
+      "title": "CVE-2026-53507 - oasdiff actions resolve external $refs by default, enabling SSRF and disclosure of structured files on pull-request runs",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-53507",
+      "summary": "CVE ID :CVE-2026-53507 Published : Aug. 31, 2026, 7:16 p.m. | 59 minutes ago Description :oasdiff-action is a GitHub Action that detects breaking changes in OpenAPI specs and post a review on every...",
+      "source": "CVE Feed",
+      "published": "2026-08-31T19:16:49+00:00"
+    },
+    {
       "title": "Microsoft warns of TerminalFix attacks deploying reverse tunnels",
       "link": "https://www.bleepingcomputer.com/news/security/microsoft-warns-of-terminalfix-attacks-deploying-reverse-tunnels/",
       "summary": "A new ClickFix variant dubbed TerminalFix uses fake Cloudflare CAPTCHA prompts on compromised websites to trick victims into running malicious PowerShell commands in Windows Terminal. [...]",
       "source": "BleepingComputer",
       "published": "2026-08-31T18:51:04+00:00"
+    },
+    {
+      "title": "CVE-2026-79748 - MCPHub: Authenticated non-admin user achieves RCE via POST /api/servers (missing authorization on stdio command/args)",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-79748",
+      "summary": "CVE ID :CVE-2026-79748 Published : Aug. 31, 2026, 6:17 p.m. | 1 hour, 59 minutes ago Description :MCPHub is a unified hub for centrally managing and dynamically orchestrating multiple MCP...",
+      "source": "CVE Feed",
+      "published": "2026-08-31T18:17:20+00:00"
+    },
+    {
+      "title": "CVE-2026-79746 - MCPHub: Server-scoped bearer key gains access to an entire group via partial (any-overlap) server matching",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-79746",
+      "summary": "CVE ID :CVE-2026-79746 Published : Aug. 31, 2026, 6:17 p.m. | 1 hour, 59 minutes ago Description :MCPHub is a unified hub for centrally managing and dynamically orchestrating multiple MCP...",
+      "source": "CVE Feed",
+      "published": "2026-08-31T18:17:20+00:00"
+    },
+    {
+      "title": "CVE-2026-79744 - MCPHub: Missing Authorization on `PUT /api/system-config` Lets Any Non-Admin Rewrite Global Security Configuration",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-79744",
+      "summary": "CVE ID :CVE-2026-79744 Published : Aug. 31, 2026, 6:17 p.m. | 1 hour, 59 minutes ago Description :MCPHub is a unified hub for centrally managing and dynamically orchestrating multiple MCP...",
+      "source": "CVE Feed",
+      "published": "2026-08-31T18:17:19+00:00"
+    },
+    {
+      "title": "CVE-2026-51725 - TOTOLINK T6 Improper Access Control",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-51725",
+      "summary": "CVE ID :CVE-2026-51725 Published : Aug. 31, 2026, 6:17 p.m. | 1 hour, 59 minutes ago Description :Incorrect access control in the NTPSyncWithHost function of TOTOLINK T6 4.1.5cu.748_B20211015 allows...",
+      "source": "CVE Feed",
+      "published": "2026-08-31T18:17:18+00:00"
     },
     {
       "title": "AI Model Rules Are Not Security Controls",
@@ -37,6 +121,13 @@
       "published": "2026-08-31T17:18:45+00:00"
     },
     {
+      "title": "CVE-2026-51720 - TOTOLINK T6 Firewall Filter Rule Access Control Bypass",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-51720",
+      "summary": "CVE ID :CVE-2026-51720 Published : Aug. 31, 2026, 5:17 p.m. | 2 hours, 59 minutes ago Description :Incorrect access control in the delIpPortFilterRules function of TOTOLINK T6 4.1.5cu.748_B20211015...",
+      "source": "CVE Feed",
+      "published": "2026-08-31T17:17:41+00:00"
+    },
+    {
       "title": "Microsoft Exchange Online outage causes email failures, auth issues",
       "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-exchange-online-outage-causes-email-failures-auth-issues/",
       "summary": "Microsoft is investigating a widespread service issue causing authentication issues, email delays and failures, and various other issues for Exchange Online customers. [...]",
@@ -53,56 +144,49 @@
     {
       "title": "CVE-2026-82807 - ieungSoft Ultra RAMDisk Pro Kernel Driver URDSCSI.sys privileges management",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-82807",
-      "summary": "CVE ID :CVE-2026-82807 Published : Aug. 31, 2026, 4:19 p.m. | 1 hour, 50 minutes ago Description :A vulnerability was determined in ieungSoft Ultra RAMDisk Pro 1.82. This issue affects some unknown...",
+      "summary": "CVE ID :CVE-2026-82807 Published : Aug. 31, 2026, 4:19 p.m. | 3 hours, 57 minutes ago Description :A vulnerability was determined in ieungSoft Ultra RAMDisk Pro 1.82. This issue affects some unknown...",
       "source": "CVE Feed",
       "published": "2026-08-31T16:19:19+00:00"
     },
     {
       "title": "CVE-2026-77966 - Ebyte NA111-M Missing Authorization",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-77966",
-      "summary": "CVE ID :CVE-2026-77966 Published : Aug. 31, 2026, 4:19 p.m. | 1 hour, 50 minutes ago Description :The affected Ebyte product does not provide separation between limited and administrative management...",
+      "summary": "CVE ID :CVE-2026-77966 Published : Aug. 31, 2026, 4:19 p.m. | 3 hours, 57 minutes ago Description :The affected Ebyte product does not provide separation between limited and administrative management...",
       "source": "CVE Feed",
       "published": "2026-08-31T16:19:13+00:00"
     },
     {
       "title": "CVE-2026-76133 - Ebyte NA111-M Use of a Broken or Risky Cryptographic Algorithm",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-76133",
-      "summary": "CVE ID :CVE-2026-76133 Published : Aug. 31, 2026, 4:19 p.m. | 1 hour, 50 minutes ago Description :The affected Ebyte product uses a deprecated hashing algorithm in an authentication-related...",
+      "summary": "CVE ID :CVE-2026-76133 Published : Aug. 31, 2026, 4:19 p.m. | 3 hours, 57 minutes ago Description :The affected Ebyte product uses a deprecated hashing algorithm in an authentication-related...",
       "source": "CVE Feed",
       "published": "2026-08-31T16:19:12+00:00"
     },
     {
-      "title": "CVE-2026-75133 - Keep Backup Daily WordPress Plugin < 2.1.4 Sensitive Information Exposure via kbd_cron_process",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-75133",
-      "summary": "CVE ID :CVE-2026-75133 Published : Aug. 31, 2026, 4:19 p.m. | 1 hour, 50 minutes ago Description :Keep Backup Daily plugin for WordPress before 2.1.4 contains a sensitive information exposure...",
-      "source": "CVE Feed",
-      "published": "2026-08-31T16:19:11+00:00"
-    },
-    {
       "title": "CVE-2026-73819 - Ebyte NA111-M Weak Authentication",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-73819",
-      "summary": "CVE ID :CVE-2026-73819 Published : Aug. 31, 2026, 4:19 p.m. | 1 hour, 50 minutes ago Description :The affected Ebyte product's vendor configuration utility permits access to administrative functions...",
+      "summary": "CVE ID :CVE-2026-73819 Published : Aug. 31, 2026, 4:19 p.m. | 3 hours, 57 minutes ago Description :The affected Ebyte product's vendor configuration utility permits access to administrative functions...",
       "source": "CVE Feed",
       "published": "2026-08-31T16:19:10+00:00"
     },
     {
       "title": "CVE-2026-82970 - WordPress WP Cookie Notice for GDPR, CCPA & ePrivacy Consent plugin <= 4.4.1 - Arbitrary File Upload vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-82970",
-      "summary": "CVE ID :CVE-2026-82970 Published : Aug. 31, 2026, 3:18 p.m. | 2 hours, 51 minutes ago Description :Unrestricted Upload of File with Dangerous Type vulnerability in WP Legal Pages WP Cookie Notice for...",
+      "summary": "CVE ID :CVE-2026-82970 Published : Aug. 31, 2026, 3:18 p.m. | 4 hours, 58 minutes ago Description :Unrestricted Upload of File with Dangerous Type vulnerability in WP Legal Pages WP Cookie Notice for...",
       "source": "CVE Feed",
       "published": "2026-08-31T15:18:33+00:00"
     },
     {
       "title": "CVE-2026-66047 - ProfilePress WordPress Plugin < 4.17.2 Unauthenticated Arbitrary Plugin Installation RCE",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-66047",
-      "summary": "CVE ID :CVE-2026-66047 Published : Aug. 31, 2026, 3:17 p.m. | 2 hours, 52 minutes ago Description :ProfilePress (wp-user-avatar) WordPress plugin before 4.17.2 contains an unauthenticated remote code...",
+      "summary": "CVE ID :CVE-2026-66047 Published : Aug. 31, 2026, 3:17 p.m. | 4 hours, 59 minutes ago Description :ProfilePress (wp-user-avatar) WordPress plugin before 4.17.2 contains an unauthenticated remote code...",
       "source": "CVE Feed",
       "published": "2026-08-31T15:17:37+00:00"
     },
     {
       "title": "CVE-2026-59111 - Command Injection vulnerability in eObčanka-Identifikace",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-59111",
-      "summary": "CVE ID :CVE-2026-59111 Published : Aug. 31, 2026, 3:17 p.m. | 2 hours, 52 minutes ago Description :Improper neutralization of special elements used in an OS command ('OS command injection')...",
+      "summary": "CVE ID :CVE-2026-59111 Published : Aug. 31, 2026, 3:17 p.m. | 4 hours, 59 minutes ago Description :Improper neutralization of special elements used in an OS command ('OS command injection')...",
       "source": "CVE Feed",
       "published": "2026-08-31T15:17:35+00:00"
     },
@@ -130,30 +214,51 @@
     {
       "title": "CVE-2026-82217 - Eclipse Theia Path Traversal Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-82217",
-      "summary": "CVE ID :CVE-2026-82217 Published : Aug. 31, 2026, 2:17 p.m. | 3 hours, 52 minutes ago Description :In Eclipse Theia versions 1.73.0 up to but not including 1.75.0, the AI \"Agent Mode\" file-change...",
+      "summary": "CVE ID :CVE-2026-82217 Published : Aug. 31, 2026, 2:17 p.m. | 5 hours, 59 minutes ago Description :In Eclipse Theia versions 1.73.0 up to but not including 1.75.0, the AI \"Agent Mode\" file-change...",
       "source": "CVE Feed",
       "published": "2026-08-31T14:17:26+00:00"
     },
     {
       "title": "CVE-2026-78078 - Joomla Extension - joomshaper.com - Privileged File Upload Bypass via Content Spoofing in Helix Ultimate < 2.2.10",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-78078",
-      "summary": "CVE ID :CVE-2026-78078 Published : Aug. 31, 2026, 2:17 p.m. | 3 hours, 52 minutes ago Description :Joomla Extension - joomshaper.com - Privileged File Upload Bypass via Content Spoofing in Helix...",
+      "summary": "CVE ID :CVE-2026-78078 Published : Aug. 31, 2026, 2:17 p.m. | 5 hours, 59 minutes ago Description :Joomla Extension - joomshaper.com - Privileged File Upload Bypass via Content Spoofing in Helix...",
       "source": "CVE Feed",
       "published": "2026-08-31T14:17:24+00:00"
     },
     {
       "title": "CVE-2026-78077 - Joomla Extension - joomshaper.com - Stored Cross-Site Scripting (XSS) in MegaMenu Layout Container & Embed Inputs in Helix Ultimate < 2.2.10",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-78077",
-      "summary": "CVE ID :CVE-2026-78077 Published : Aug. 31, 2026, 2:17 p.m. | 3 hours, 52 minutes ago Description :Joomla Extension - joomshaper.com - Stored Cross-Site Scripting (XSS) in MegaMenu Layout Container &...",
+      "summary": "CVE ID :CVE-2026-78077 Published : Aug. 31, 2026, 2:17 p.m. | 5 hours, 59 minutes ago Description :Joomla Extension - joomshaper.com - Stored Cross-Site Scripting (XSS) in MegaMenu Layout Container &...",
       "source": "CVE Feed",
       "published": "2026-08-31T14:17:24+00:00"
     },
     {
       "title": "CVE-2026-78074 - Joomla Extension - miniorgange.com - Unauthenticated arbitrary extension deinstallation via various miniOrange extensions",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-78074",
-      "summary": "CVE ID :CVE-2026-78074 Published : Aug. 31, 2026, 2:17 p.m. | 3 hours, 52 minutes ago Description :Joomla Extension - miniorgange.com - Unauthenticated arbitrary extension deinstallation via various...",
+      "summary": "CVE ID :CVE-2026-78074 Published : Aug. 31, 2026, 2:17 p.m. | 5 hours, 59 minutes ago Description :Joomla Extension - miniorgange.com - Unauthenticated arbitrary extension deinstallation via various...",
       "source": "CVE Feed",
       "published": "2026-08-31T14:17:23+00:00"
+    },
+    {
+      "title": "CVE-2026-51681 - TOTOLINK T6 Incorrect Access Control Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-51681",
+      "summary": "CVE ID :CVE-2026-51681 Published : Aug. 31, 2026, 2:17 p.m. | 5 hours, 59 minutes ago Description :Incorrect access control in the setRemoteCfg function of TOTOLINK T6 4.1.5cu.748_B20211015 allows...",
+      "source": "CVE Feed",
+      "published": "2026-08-31T14:17:16+00:00"
+    },
+    {
+      "title": "CVE-2026-51680 - TOTOLINK T6 Incorrect Access Control Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-51680",
+      "summary": "CVE ID :CVE-2026-51680 Published : Aug. 31, 2026, 2:17 p.m. | 5 hours, 59 minutes ago Description :Incorrect access control in the setLedCfg function of TOTOLINK T6 4.1.5cu.748_B20211015 allows...",
+      "source": "CVE Feed",
+      "published": "2026-08-31T14:17:16+00:00"
+    },
+    {
+      "title": "CVE-2026-51679 - TOTOLINK T6 Improper Access Control",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-51679",
+      "summary": "CVE ID :CVE-2026-51679 Published : Aug. 31, 2026, 2:17 p.m. | 5 hours, 59 minutes ago Description :Incorrect access control in the setPasswordCfg function of TOTOLINK T6 4.1.5cu.748_B20211015 allows...",
+      "source": "CVE Feed",
+      "published": "2026-08-31T14:17:16+00:00"
     },
     {
       "title": "File servers are here to stay. Here’s how to manage them securely",
@@ -186,44 +291,16 @@
     {
       "title": "CVE-2026-82695 - Tenda AC18 Telnet telnet missing authentication",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-82695",
-      "summary": "CVE ID :CVE-2026-82695 Published : Aug. 31, 2026, 1:18 p.m. | 4 hours, 51 minutes ago Description :A security flaw has been discovered in Tenda AC18 15.03.05.19. Impacted is an unknown function of...",
+      "summary": "CVE ID :CVE-2026-82695 Published : Aug. 31, 2026, 1:18 p.m. | 6 hours, 58 minutes ago Description :A security flaw has been discovered in Tenda AC18 15.03.05.19. Impacted is an unknown function of...",
       "source": "CVE Feed",
       "published": "2026-08-31T13:18:29+00:00"
     },
     {
       "title": "CVE-2026-82694 - Tenda AC1206 Web UI ate R7WebsSecurityHandler missing authentication",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-82694",
-      "summary": "CVE ID :CVE-2026-82694 Published : Aug. 31, 2026, 1:18 p.m. | 4 hours, 51 minutes ago Description :A vulnerability was identified in Tenda AC1206 15.03.06.23. This issue affects the function...",
+      "summary": "CVE ID :CVE-2026-82694 Published : Aug. 31, 2026, 1:18 p.m. | 6 hours, 58 minutes ago Description :A vulnerability was identified in Tenda AC1206 15.03.06.23. This issue affects the function...",
       "source": "CVE Feed",
       "published": "2026-08-31T13:18:29+00:00"
-    },
-    {
-      "title": "CVE-2026-82693 - Tenda AC1206 Web UI telnet TendaTelnet missing authentication",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-82693",
-      "summary": "CVE ID :CVE-2026-82693 Published : Aug. 31, 2026, 1:18 p.m. | 4 hours, 51 minutes ago Description :A vulnerability was determined in Tenda AC1206 15.03.06.23. This vulnerability affects the function...",
-      "source": "CVE Feed",
-      "published": "2026-08-31T13:18:29+00:00"
-    },
-    {
-      "title": "CVE-2026-82692 - D-Link DNS-340L/DNS-345 iscsi_mgr.cgi os command injection",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-82692",
-      "summary": "CVE ID :CVE-2026-82692 Published : Aug. 31, 2026, 1:18 p.m. | 4 hours, 51 minutes ago Description :A vulnerability was found in D-Link DNS-340L and DNS-345 up to 20260717. This affects an unknown...",
-      "source": "CVE Feed",
-      "published": "2026-08-31T13:18:29+00:00"
-    },
-    {
-      "title": "CVE-2026-5956 - SQLi in Ankara Hosting's Site Management Panel",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-5956",
-      "summary": "CVE ID :CVE-2026-5956 Published : Aug. 31, 2026, 1:18 p.m. | 4 hours, 51 minutes ago Description :Improper neutralization of special elements used in an SQL command ('SQL injection') vulnerability in...",
-      "source": "CVE Feed",
-      "published": "2026-08-31T13:18:22+00:00"
-    },
-    {
-      "title": "CVE-2026-12894 - Quarkus-qute: io.quarkus.qute.reflectionvalueresolver: quarkus:server-side template injection (ssti) vulnerability in reflectionvalueresolver of the quarkus qute template engine",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-12894",
-      "summary": "CVE ID :CVE-2026-12894 Published : Aug. 31, 2026, 1:17 p.m. | 4 hours, 52 minutes ago Description :A flaw was found in the Qute template engine, which is used by Quarkus to generate dynamic content...",
-      "source": "CVE Feed",
-      "published": "2026-08-31T13:17:20+00:00"
     },
     {
       "title": "McKesson Confirms Data Breach as Attacker Deadline Looms",
@@ -245,27 +322,6 @@
       "summary": "One of Slovenia’s largest gambling and tourism groups has begun reopening its casinos after a cyberattack forced them to shut down for several days.",
       "source": "The Record",
       "published": "2026-08-31T12:30:00+00:00"
-    },
-    {
-      "title": "CVE-2026-82691 - D-Link DNS-320L/DNS-327L/DNS-340L/DNS-345 CGI usb_device.cgi os command injection",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-82691",
-      "summary": "CVE ID :CVE-2026-82691 Published : Aug. 31, 2026, 12:17 p.m. | 5 hours, 51 minutes ago Description :A vulnerability has been found in D-Link DNS-320L, DNS-327L, DNS-340L and DNS-345 up to 20260717...",
-      "source": "CVE Feed",
-      "published": "2026-08-31T12:17:58+00:00"
-    },
-    {
-      "title": "CVE-2026-82690 - D-Link DNS-327L/DNS-340L ve_mgr.cgi os command injection",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-82690",
-      "summary": "CVE ID :CVE-2026-82690 Published : Aug. 31, 2026, 12:17 p.m. | 5 hours, 51 minutes ago Description :A flaw has been found in D-Link DNS-327L and DNS-340L up to 20260717. Affected by this...",
-      "source": "CVE Feed",
-      "published": "2026-08-31T12:17:57+00:00"
-    },
-    {
-      "title": "CVE-2026-82689 - D-Link DNS-320L/DNS-327L/DNS-340L/DNS-345 ISO Image isomount_mgr.cgi os command injection",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-82689",
-      "summary": "CVE ID :CVE-2026-82689 Published : Aug. 31, 2026, 12:17 p.m. | 5 hours, 51 minutes ago Description :A vulnerability was detected in D-Link DNS-320L, DNS-327L, DNS-340L and DNS-345 up to 20260717...",
-      "source": "CVE Feed",
-      "published": "2026-08-31T12:17:57+00:00"
     },
     {
       "title": "What the Hugging Face Incident Teaches Security Leaders About AI Agent Access",
@@ -315,34 +371,6 @@
       "summary": "Named KindaRails2Shell, the arbitrary file read flaw allows attackers to extract secrets and execute arbitrary code remotely. The post Critical Ruby on Rails Vulnerability in Attackers’ Crosshairs...",
       "source": "SecurityWeek",
       "published": "2026-08-31T11:24:17+00:00"
-    },
-    {
-      "title": "CVE-2026-82880 - YaCy Search Server through 1.941 XML External Entity Injection via Parsers",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-82880",
-      "summary": "CVE ID :CVE-2026-82880 Published : Aug. 31, 2026, 11:16 a.m. | 6 hours, 53 minutes ago Description :YaCy Search Server through 1.941 contains an XML external entity injection vulnerability in SVG...",
-      "source": "CVE Feed",
-      "published": "2026-08-31T11:16:41+00:00"
-    },
-    {
-      "title": "CVE-2026-82876 - Phison PS3111-S11 Controller Firmware Signature Verification Bypass",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-82876",
-      "summary": "CVE ID :CVE-2026-82876 Published : Aug. 31, 2026, 11:16 a.m. | 6 hours, 53 minutes ago Description :Phison PS3111-S11 controller firmware verifies RSA signatures using a public modulus embedded...",
-      "source": "CVE Feed",
-      "published": "2026-08-31T11:16:41+00:00"
-    },
-    {
-      "title": "CVE-2026-82688 - D-Link DNS-340L/DNS-345 Virtual Volume virtual_vol.cgi os command injection",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-82688",
-      "summary": "CVE ID :CVE-2026-82688 Published : Aug. 31, 2026, 11:16 a.m. | 6 hours, 53 minutes ago Description :A security vulnerability has been detected in D-Link DNS-340L and DNS-345...",
-      "source": "CVE Feed",
-      "published": "2026-08-31T11:16:40+00:00"
-    },
-    {
-      "title": "CVE-2026-82680 - D-Link DSM-G600 Multipart load_file.cgi out-of-bounds write",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-82680",
-      "summary": "CVE ID :CVE-2026-82680 Published : Aug. 31, 2026, 11:16 a.m. | 6 hours, 53 minutes ago Description :A weakness has been identified in D-Link DSM-G600 1.01. This affects an unknown function of the...",
-      "source": "CVE Feed",
-      "published": "2026-08-31T11:16:40+00:00"
     },
     {
       "title": "Boston Scientific Still Recovering From Cyberattack",
@@ -478,13 +506,6 @@
       "published": "2026-08-29T14:19:23+00:00"
     },
     {
-      "title": "McKesson discloses breach after ShinyHunters claims patient data theft",
-      "link": "https://www.bleepingcomputer.com/news/security/mckesson-discloses-breach-after-shinyhunters-claims-patient-data-theft/",
-      "summary": "Healthcare and pharmaceutical distribution giant McKesson has disclosed a cybersecurity incident involving unauthorized access to third-party applications and data theft, with the ShinyHunters...",
-      "source": "BleepingComputer",
-      "published": "2026-08-28T22:40:17+00:00"
-    },
-    {
       "title": "Berlin Refuses to Pay Hackers Who Stole Data From the City's State Network",
       "link": "https://thehackernews.com/2026/08/berlin-refuses-to-pay-hackers-who-stole.html",
       "summary": "Berlin Refuses to Pay Hackers Who Stole Data From the City's State Network Berlin's state government has confirmed that it is the target of an extortion attempt following the August compromise of the...",
@@ -525,13 +546,6 @@
       "summary": "Attackers Chain Two PaperCut Flaws to Execute Code Without Authentication Malicious actors are exploiting a newly patched security flaw in PaperCut NG and MF to execute arbitrary code on susceptible...",
       "source": "CVE Newsroom",
       "published": "2026-08-28T17:12:15+00:00"
-    },
-    {
-      "title": "PaperCut warns of hackers using printer management software flaw in attacks",
-      "link": "https://therecord.media/papercut-warns-of-hackers-using-printer-management-vulnerabilities",
-      "summary": "PaperCut released an emergency advisory on Thursday evening saying vulnerabilities in their print management software, PaperCut NG and MF, are under active exploitation.",
-      "source": "The Record",
-      "published": "2026-08-28T16:30:00+00:00"
     },
     {
       "title": "Android 17 Adds OS-Wide ECH to Hide Website Visits From Network Providers",
@@ -1155,20 +1169,6 @@
       "summary": "Researchers found that by combining two vulnerabilities, they could take over an Android device by delivering a payload and getting the victim to answer their phone.",
       "source": "Dark Reading",
       "published": "2026-08-17T21:37:23+00:00"
-    },
-    {
-      "title": "'Turf War' Between Claude Agents Leads to Self-Replicating Malware",
-      "link": "https://www.darkreading.com/threat-intelligence/turf-war-claude-agents-self-replicating-malware",
-      "summary": "Three testing models with the same goal but different directives engaged in \"increasingly aggressive\" territorial attacks on one another, according to Anthropic.",
-      "source": "Dark Reading",
-      "published": "2026-08-17T20:26:34+00:00"
-    },
-    {
-      "title": "Hugging Face Breach Raises Big Questions About AI Security Controls",
-      "link": "https://www.darkreading.com/vulnerabilities-threats/adam-shostack-talks-hugging-face-phantom-b",
-      "summary": "Adam Shostack, president of Shostack & Associates and an affiliate professor at the University of Washington, talks with the Dark Reading News Desk about why he was \"blown away\" by OpenAI's...",
-      "source": "Dark Reading",
-      "published": "2026-08-17T19:22:56+00:00"
     },
     {
       "title": "Who’s Tracking You? Use This New Service to Find Out",
