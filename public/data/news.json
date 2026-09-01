@@ -1,6 +1,244 @@
 {
-  "last_updated": "2026-09-01T14:24:37.746837+00:00",
+  "last_updated": "2026-09-01T19:01:09.041096+00:00",
   "articles": [
+    {
+      "title": "Sevii Targets AI-Speed Attacks With Preemptive Autonomous Defense",
+      "link": "https://www.securityweek.com/sevii-targets-ai-speed-attacks-with-preemptive-autonomous-defense/",
+      "summary": "Sevii has expanded its ADR platform with AI agents designed to investigate, contain, and remediate AI-driven attacks within minutes. The post Sevii Targets AI-Speed Attacks With Preemptive Autonomous...",
+      "source": "SecurityWeek",
+      "published": "2026-09-01T18:30:00+00:00"
+    },
+    {
+      "title": "Coast Guard Establishes Office of Maritime Cybersecurity Policy",
+      "link": "https://www.securityweek.com/coast-guard-establishes-office-of-maritime-cybersecurity-policy/",
+      "summary": "The new office will serve as the central authority for cybersecurity policy covering US ports, vessels, and maritime facilities. The post Coast Guard Establishes Office of Maritime Cybersecurity...",
+      "source": "SecurityWeek",
+      "published": "2026-09-01T18:26:22+00:00"
+    },
+    {
+      "title": "Critical Langflow flaw exploited to steal OpenAI and AWS keys",
+      "link": "https://www.bleepingcomputer.com/news/security/critical-langflow-flaw-exploited-to-steal-openai-and-aws-keys/",
+      "summary": "Threat actors are exploiting an unauthenticated remote code execution vulnerability (CVE-2026-0768) in Langflow, an open-source framework for building AI applications, to steal credentials, tokens...",
+      "source": "BleepingComputer",
+      "published": "2026-09-01T17:54:22+00:00"
+    },
+    {
+      "title": "Attackers Exploit Critical JFrog Artifactory Flaw to Mint Admin Tokens Days After Disclosure",
+      "link": "https://thehackernews.com/2026/09/attackers-exploit-critical-jfrog.html",
+      "summary": "Threat actors are exploiting a newly patched critical security flaw impacting JFrog Artifactory merely days after public disclosure, according to watchTowr. The vulnerability in question is...",
+      "source": "The Hacker News",
+      "published": "2026-09-01T17:53:11+00:00"
+    },
+    {
+      "title": "Breeze Comet Executes Hundreds of Fraudulent Transactions via Brazilian Payment Systems",
+      "link": "https://thehackernews.com/2026/09/breeze-comet-executes-hundreds-of.html",
+      "summary": "Brazilian financial services, retail, and e-commerce organizations have become the target of a financially motivated threat actor dubbed Breeze Comet (formerly UNC5669) since 2024. Google Threat...",
+      "source": "The Hacker News",
+      "published": "2026-09-01T17:19:24+00:00"
+    },
+    {
+      "title": "CVE-2026-84268 - Gvfs: sftp: heap-based buffer overflow in read_reply()",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-84268",
+      "summary": "CVE ID :CVE-2026-84268 Published : Sept. 1, 2026, 4:17 p.m. | 1 hour, 1 minute ago Description :A flaw was found in the SFTP backend in gvfs. When mounting a share and reading a file, a malicious...",
+      "source": "CVE Feed",
+      "published": "2026-09-01T16:17:37+00:00"
+    },
+    {
+      "title": "CVE-2026-84203 - Memos 0.26.0 through 0.30.0 Insufficient Session Expiration on Password Change",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-84203",
+      "summary": "CVE ID :CVE-2026-84203 Published : Sept. 1, 2026, 4:17 p.m. | 1 hour, 1 minute ago Description :Memos versions 0.26.0 through 0.30.0 fail to revoke refresh tokens when a user changes their password...",
+      "source": "CVE Feed",
+      "published": "2026-09-01T16:17:34+00:00"
+    },
+    {
+      "title": "CVE-2026-84202 - ModelScope through 1.40.0 Unsafe YAML Deserialization in Model Config Loading",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-84202",
+      "summary": "CVE ID :CVE-2026-84202 Published : Sept. 1, 2026, 4:17 p.m. | 1 hour, 1 minute ago Description :ModelScope uses PyYAML's unsafe yaml.Loader to parse model configuration files, allowing arbitrary code...",
+      "source": "CVE Feed",
+      "published": "2026-09-01T16:17:34+00:00"
+    },
+    {
+      "title": "CVE-2026-79687 - Dell PowerStore Missing Authentication for Critical Function Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-79687",
+      "summary": "CVE ID :CVE-2026-79687 Published : Sept. 1, 2026, 4:17 p.m. | 1 hour, 2 minutes ago Description :Dell PowerStore SDNAS contains a Missing Authentication for Critical Function vulnerability. An...",
+      "source": "CVE Feed",
+      "published": "2026-09-01T16:17:20+00:00"
+    },
+    {
+      "title": "CVE-2026-79682 - Dell PowerStore Command Injection Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-79682",
+      "summary": "CVE ID :CVE-2026-79682 Published : Sept. 1, 2026, 4:17 p.m. | 1 hour, 2 minutes ago Description :Dell PowerStore contains a Command Injection vulnerability. An authenticated user with limited...",
+      "source": "CVE Feed",
+      "published": "2026-09-01T16:17:19+00:00"
+    },
+    {
+      "title": "CVE-2026-58567 - Dell PowerStore OS Command Injection Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-58567",
+      "summary": "CVE ID :CVE-2026-58567 Published : Sept. 1, 2026, 4:17 p.m. | 1 hour, 2 minutes ago Description :Dell PowerStore contains an OS Command Injection vulnerability. An authenticated user with limited...",
+      "source": "CVE Feed",
+      "published": "2026-09-01T16:17:06+00:00"
+    },
+    {
+      "title": "CVE-2026-18931 - Hardcoded Credentials in TMT Machine's Talassoft Industrial Management Software",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-18931",
+      "summary": "CVE ID :CVE-2026-18931 Published : Sept. 1, 2026, 4:16 p.m. | 1 hour, 2 minutes ago Description :Use of Hard-coded Credentials vulnerability in TMT Machine Industry and Trade Ltd. Co. Talassoft...",
+      "source": "CVE Feed",
+      "published": "2026-09-01T16:16:54+00:00"
+    },
+    {
+      "title": "CVE-2026-10195 - FS Poster <= 8.0.1 - Authenticated (Subscriber+) Remote Code Execution via FFmpeg Path Setting",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-10195",
+      "summary": "CVE ID :CVE-2026-10195 Published : Sept. 1, 2026, 4:16 p.m. | 1 hour, 2 minutes ago Description :The FS-Poster plugin for WordPress is vulnerable to Remote Code Execution in versions up to and...",
+      "source": "CVE Feed",
+      "published": "2026-09-01T16:16:47+00:00"
+    },
+    {
+      "title": "CVE-2026-58566 - Dell PowerStore Incorrect Authorization Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-58566",
+      "summary": "CVE ID :CVE-2026-58566 Published : Sept. 1, 2026, 4:08 p.m. | 1 hour, 11 minutes ago Description :Dell PowerStore, an Incorrect Authorization vulnerability. A low privileged attacker with remote...",
+      "source": "CVE Feed",
+      "published": "2026-09-01T16:08:24+00:00"
+    },
+    {
+      "title": "Healthcare facilities operator Nutex says patient, employee data stolen in August incident",
+      "link": "https://therecord.media/nutex-health-data-breach",
+      "summary": "Cybercriminals breached company data and made an extortion attempt with it, Houston-based Nutex Health said in a filing with federal regulators.",
+      "source": "The Record",
+      "published": "2026-09-01T15:31:00+00:00"
+    },
+    {
+      "title": "CVE-2026-84115 - Cleo Harmony JWT Refresh Token connections privileges management",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-84115",
+      "summary": "CVE ID :CVE-2026-84115 Published : Sept. 1, 2026, 3:17 p.m. | 2 hours, 1 minute ago Description :A vulnerability was found in Cleo Harmony up to 5.8.1.10. The affected element is an unknown function...",
+      "source": "CVE Feed",
+      "published": "2026-09-01T15:17:41+00:00"
+    },
+    {
+      "title": "CVE-2026-83619 - xmldom: End-tag Whitespace-Trim Regex ReDoS — quadratic backtracking in the 0.8.x end-tag parser",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-83619",
+      "summary": "CVE ID :CVE-2026-83619 Published : Sept. 1, 2026, 3:17 p.m. | 2 hours, 1 minute ago Description :xmldom is a pure JavaScript W3C standard-based (XML DOM Level 2 Core) DOMParser and XMLSerializer...",
+      "source": "CVE Feed",
+      "published": "2026-09-01T15:17:40+00:00"
+    },
+    {
+      "title": "CVE-2026-83618 - xmldom: requireWellFormed DocType publicId/systemId validation is bypassable via an embedded line terminator",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-83618",
+      "summary": "CVE ID :CVE-2026-83618 Published : Sept. 1, 2026, 3:17 p.m. | 2 hours, 1 minute ago Description :xmldom is a pure JavaScript W3C standard-based (XML DOM Level 2 Core) DOMParser and XMLSerializer...",
+      "source": "CVE Feed",
+      "published": "2026-09-01T15:17:40+00:00"
+    },
+    {
+      "title": "CVE-2026-83617 - xmldom: requireWellFormed element/attribute name validation is bypassable via an embedded line terminator",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-83617",
+      "summary": "CVE ID :CVE-2026-83617 Published : Sept. 1, 2026, 3:17 p.m. | 2 hours, 1 minute ago Description :xmldom is a pure JavaScript W3C standard-based (XML DOM Level 2 Core) DOMParser and XMLSerializer...",
+      "source": "CVE Feed",
+      "published": "2026-09-01T15:17:40+00:00"
+    },
+    {
+      "title": "CVE-2026-83616 - xmldom: Processing Instruction Target Injection Bypasses requireWellFormed",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-83616",
+      "summary": "CVE ID :CVE-2026-83616 Published : Sept. 1, 2026, 3:17 p.m. | 2 hours, 1 minute ago Description :xmldom is a pure JavaScript W3C standard-based (XML DOM Level 2 Core) DOMParser and XMLSerializer...",
+      "source": "CVE Feed",
+      "published": "2026-09-01T15:17:40+00:00"
+    },
+    {
+      "title": "CVE-2026-83615 - xmldom: Quadratic-memory consumption",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-83615",
+      "summary": "CVE ID :CVE-2026-83615 Published : Sept. 1, 2026, 3:17 p.m. | 2 hours, 1 minute ago Description :xmldom is a pure JavaScript W3C standard-based (XML DOM Level 2 Core) DOMParser and XMLSerializer...",
+      "source": "CVE Feed",
+      "published": "2026-09-01T15:17:39+00:00"
+    },
+    {
+      "title": "CVE-2026-83614 - xmldom: Quadratic-time parsing via the malformed-input recovery path — `parseElementStartPart` re-scan and `normalize()` adjacent-text merge",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-83614",
+      "summary": "CVE ID :CVE-2026-83614 Published : Sept. 1, 2026, 3:17 p.m. | 2 hours, 1 minute ago Description :xmldom is a pure JavaScript W3C standard-based (XML DOM Level 2 Core) DOMParser and XMLSerializer...",
+      "source": "CVE Feed",
+      "published": "2026-09-01T15:17:39+00:00"
+    },
+    {
+      "title": "CVE-2026-83613 - xmldom: Quadratic-time attribute deduplication",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-83613",
+      "summary": "CVE ID :CVE-2026-83613 Published : Sept. 1, 2026, 3:17 p.m. | 2 hours, 1 minute ago Description :xmldom is a pure JavaScript W3C standard-based (XML DOM Level 2 Core) DOMParser and XMLSerializer...",
+      "source": "CVE Feed",
+      "published": "2026-09-01T15:17:39+00:00"
+    },
+    {
+      "title": "CVE-2026-83612 - xmldom: HTML raw-text closing-tag case mismatch causes output amplification",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-83612",
+      "summary": "CVE ID :CVE-2026-83612 Published : Sept. 1, 2026, 3:17 p.m. | 2 hours, 1 minute ago Description :xmldom is a pure JavaScript W3C standard-based (XML DOM Level 2 Core) DOMParser and XMLSerializer...",
+      "source": "CVE Feed",
+      "published": "2026-09-01T15:17:39+00:00"
+    },
+    {
+      "title": "CVE-2026-83609 - xmldom: Creation-time XML Name/QName validation is bypassable via an embedded line terminator, allowing injection on the default serialization path",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-83609",
+      "summary": "CVE ID :CVE-2026-83609 Published : Sept. 1, 2026, 3:17 p.m. | 2 hours, 1 minute ago Description :xmldom is a pure JavaScript W3C standard-based (XML DOM Level 2 Core) DOMParser and XMLSerializer...",
+      "source": "CVE Feed",
+      "published": "2026-09-01T15:17:38+00:00"
+    },
+    {
+      "title": "CVE-2026-83608 - xmldom: DocType `name` Injection Bypasses requireWellFormed",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-83608",
+      "summary": "CVE ID :CVE-2026-83608 Published : Sept. 1, 2026, 3:17 p.m. | 2 hours, 1 minute ago Description :xmldom is a pure JavaScript W3C standard-based (XML DOM Level 2 Core) DOMParser and XMLSerializer...",
+      "source": "CVE Feed",
+      "published": "2026-09-01T15:17:38+00:00"
+    },
+    {
+      "title": "CVE-2026-83607 - xmldom: Element name injection via createElement() bypasses requireWellFormed",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-83607",
+      "summary": "CVE ID :CVE-2026-83607 Published : Sept. 1, 2026, 3:17 p.m. | 2 hours, 1 minute ago Description :xmldom is a pure JavaScript W3C standard-based (XML DOM Level 2 Core) DOMParser and XMLSerializer...",
+      "source": "CVE Feed",
+      "published": "2026-09-01T15:17:38+00:00"
+    },
+    {
+      "title": "CVE-2026-83606 - xmldom PI grammar regex ReDoS: quadratic backtracking on unterminated processing instructions",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-83606",
+      "summary": "CVE ID :CVE-2026-83606 Published : Sept. 1, 2026, 3:17 p.m. | 2 hours, 1 minute ago Description :xmldom is a pure JavaScript W3C standard-based (XML DOM Level 2 Core) DOMParser and XMLSerializer...",
+      "source": "CVE Feed",
+      "published": "2026-09-01T15:17:38+00:00"
+    },
+    {
+      "title": "CVE-2026-83605 - xmldom: Attribute name injection via setAttribute() bypasses requireWellFormed",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-83605",
+      "summary": "CVE ID :CVE-2026-83605 Published : Sept. 1, 2026, 3:17 p.m. | 2 hours, 1 minute ago Description :xmldom is a pure JavaScript W3C standard-based (XML DOM Level 2 Core) DOMParser and XMLSerializer...",
+      "source": "CVE Feed",
+      "published": "2026-09-01T15:17:38+00:00"
+    },
+    {
+      "title": "CVE-2026-79686 - Dell PowerStore Privilege Escalation Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-79686",
+      "summary": "CVE ID :CVE-2026-79686 Published : Sept. 1, 2026, 3:17 p.m. | 2 hours, 1 minute ago Description :Dell PowerStore contains a Protection Mechanism Failure vulnerability. An authenticated user with...",
+      "source": "CVE Feed",
+      "published": "2026-09-01T15:17:29+00:00"
+    },
+    {
+      "title": "CVE-2026-78012 - Stack-based Buffer Overflow in Pyramid Solutions NetStaX EtherNet/IP Stack",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-78012",
+      "summary": "CVE ID :CVE-2026-78012 Published : Sept. 1, 2026, 3:17 p.m. | 2 hours, 1 minute ago Description :An issue in the NetStaX EtherNet/IP Stack prior to v5.6.1 could allow a large Class 3 explicit-message...",
+      "source": "CVE Feed",
+      "published": "2026-09-01T15:17:28+00:00"
+    },
+    {
+      "title": "Hackers push malicious Virtualizor update in BGP hijacking attack",
+      "link": "https://www.bleepingcomputer.com/news/security/hackers-push-malicious-virtualizor-update-in-bgp-hijacking-attack/",
+      "summary": "Hackers delivered malicious updates to the Virtualizor VPS management software after hijacking BGP routing for its update infrastructure and redirecting update requests to malicious servers. [...]",
+      "source": "BleepingComputer",
+      "published": "2026-09-01T14:45:06+00:00"
+    },
+    {
+      "title": "Novocure data breach affects more than 1,400 cancer patients",
+      "link": "https://www.bleepingcomputer.com/news/security/novocure-data-breach-affects-more-than-1-400-cancer-patients/",
+      "summary": "Healthtech company Novocure says the data of an undisclosed number of employees and more than 1,400 U.S. cancer patients has been exposed in a mid-August cyberattack. [...]",
+      "source": "BleepingComputer",
+      "published": "2026-09-01T14:28:40+00:00"
+    },
+    {
+      "title": "13 Malicious Packagist Packages Target Unpatched iPhones to Steal Crypto Wallet Seeds",
+      "link": "https://thehackernews.com/2026/09/13-malicious-packagist-packages-target.html",
+      "summary": "13 Malicious Packagist Packages Target Unpatched iPhones to Steal Crypto Wallet Seeds Cybersecurity researchers have identified a set of 13 malicious Composer theme packages on Packagist that are...",
+      "source": "CVE Newsroom",
+      "published": "2026-09-01T14:07:20+00:00"
+    },
     {
       "title": "Why Even the Best Edge Security Still Misses High-Risk Sessions",
       "link": "https://www.bleepingcomputer.com/news/security/why-even-the-best-edge-security-still-misses-high-risk-sessions/",
@@ -9,95 +247,11 @@
       "published": "2026-09-01T14:01:11+00:00"
     },
     {
-      "title": "CVE-2026-58572 - Dell PowerStore Code Injection Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-58572",
-      "summary": "CVE ID :CVE-2026-58572 Published : Sept. 1, 2026, 1:25 p.m. | 10 minutes ago Description :Dell PowerStore contains a Code Injection vulnerability. An authenticated user with limited privileges could...",
-      "source": "CVE Feed",
-      "published": "2026-09-01T13:25:05+00:00"
-    },
-    {
-      "title": "CVE-2026-18808 - Unauthenticated Remote Code Execution via Code Injection in Klemsan's KIO",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-18808",
-      "summary": "CVE ID :CVE-2026-18808 Published : Sept. 1, 2026, 1:20 p.m. | 14 minutes ago Description :Improper Control of Generation of Code ('Code Injection') vulnerability in Klemsan Electrical Electronics...",
-      "source": "CVE Feed",
-      "published": "2026-09-01T13:20:59+00:00"
-    },
-    {
-      "title": "CVE-2026-84218 - Org.jolokia/jolokia-core: incomplete jndi denylist in jolokia jsr-160 proxy (bypass of cve-2018-1000130 fix)",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-84218",
-      "summary": "CVE ID :CVE-2026-84218 Published : Sept. 1, 2026, 1:20 p.m. | 14 minutes ago Description :A flaw was found in Jolokia's JSR-160 proxy functionality where insufficient validation of client-controlled...",
-      "source": "CVE Feed",
-      "published": "2026-09-01T13:20:27+00:00"
-    },
-    {
-      "title": "CVE-2024-10085 - OPC UA Communication Platform Resource Exhaustion Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2024-10085",
-      "summary": "CVE ID :CVE-2024-10085 Published : Sept. 1, 2026, 1:20 p.m. | 14 minutes ago Description :CWE-770: Allocation of Resources Without Limits or Throttling vulnerability exists that could cause denial of...",
-      "source": "CVE Feed",
-      "published": "2026-09-01T13:20:20+00:00"
-    },
-    {
-      "title": "CVE-2026-84235 - Rockwell Automation 1756-ENBT Denial of Service Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-84235",
-      "summary": "CVE ID :CVE-2026-84235 Published : Sept. 1, 2026, 1:20 p.m. | 15 minutes ago Description :A denial-of-service security issue exists in the affected product. The security issue stems from a crafted...",
-      "source": "CVE Feed",
-      "published": "2026-09-01T13:20:09+00:00"
-    },
-    {
-      "title": "CVE-2026-84149 - Information Disclosure Vulnerability in Manacle Technologies ERP System",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-84149",
-      "summary": "CVE ID :CVE-2026-84149 Published : Sept. 1, 2026, 1:20 p.m. | 15 minutes ago Description :This vulnerability exists in the ERP system due to exposure of repository information through a publicly...",
-      "source": "CVE Feed",
-      "published": "2026-09-01T13:20:09+00:00"
-    },
-    {
-      "title": "CVE-2026-84148 - Insecure Direct Object Reference Vulnerability in Manacle Technologies ERP System",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-84148",
-      "summary": "CVE ID :CVE-2026-84148 Published : Sept. 1, 2026, 1:20 p.m. | 15 minutes ago Description :This vulnerability exists in the ERP system due to improper authentication and authorization controls in the...",
-      "source": "CVE Feed",
-      "published": "2026-09-01T13:20:08+00:00"
-    },
-    {
-      "title": "CVE-2026-84147 - Remote Code Execution Vulnerability in Manacle Technologies ERP System",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-84147",
-      "summary": "CVE ID :CVE-2026-84147 Published : Sept. 1, 2026, 1:20 p.m. | 15 minutes ago Description :This vulnerability exists in the ERP system due to improper authentication controls and inadequate file type...",
-      "source": "CVE Feed",
-      "published": "2026-09-01T13:20:08+00:00"
-    },
-    {
-      "title": "CVE-2026-79683 - Dell PowerStore Protection Mechanism Failure Arbitrary File Write",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-79683",
-      "summary": "CVE ID :CVE-2026-79683 Published : Sept. 1, 2026, 1:19 p.m. | 15 minutes ago Description :Dell PowerStore contains a Protection Mechanism Failure vulnerability. An authenticated user with limited...",
-      "source": "CVE Feed",
-      "published": "2026-09-01T13:19:59+00:00"
-    },
-    {
-      "title": "CVE-2026-58575 - Dell PowerStore Authentication Bypass Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-58575",
-      "summary": "CVE ID :CVE-2026-58575 Published : Sept. 1, 2026, 1:19 p.m. | 15 minutes ago Description :Dell PowerStore contains an Authentication Bypass by Spoofing vulnerability. An authenticated attacker could...",
-      "source": "CVE Feed",
-      "published": "2026-09-01T13:19:52+00:00"
-    },
-    {
-      "title": "CVE-2026-16675 - Rockwell Automation FactoryTalk® Activation Manager - Privilege Escalation",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-16675",
-      "summary": "CVE ID :CVE-2026-16675 Published : Sept. 1, 2026, 1:18 p.m. | 16 minutes ago Description :A privilege escalation security issue exists within FactoryTalk® Activation Manager. The security issue stems...",
-      "source": "CVE Feed",
-      "published": "2026-09-01T13:18:58+00:00"
-    },
-    {
-      "title": "CVE-2026-19472 - Rockwell Automation ArmorStart® LT Denial Of Service",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-19472",
-      "summary": "CVE ID :CVE-2026-19472 Published : Sept. 1, 2026, 1:18 p.m. | 17 minutes ago Description :A denial-of-service security issue exists within ArmorStart® LT. The security issue stems from improper...",
-      "source": "CVE Feed",
-      "published": "2026-09-01T13:18:12+00:00"
-    },
-    {
-      "title": "CVE-2026-18765 - SQL Injection in Teracity Sotware's Teracity E-OSB Platform",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-18765",
-      "summary": "CVE ID :CVE-2026-18765 Published : Sept. 1, 2026, 1:18 p.m. | 17 minutes ago Description :Improper neutralization of special elements used in an SQL command ('SQL injection') vulnerability in...",
-      "source": "CVE Feed",
-      "published": "2026-09-01T13:18:11+00:00"
+      "title": "ClickFix Campaign Compromises 31 Orgs, Abuses Polygon Blockchain",
+      "link": "https://www.darkreading.com/endpoint-security/clickfix-campaign-comprises-31-orgs-abuses-polygon-blockchain",
+      "summary": "The campaign uses EtherHiding to dynamically update its command-and-control server, abusing the blockchain as an attacker-controlled address book.",
+      "source": "Dark Reading",
+      "published": "2026-09-01T13:56:42+00:00"
     },
     {
       "title": "Iranian Hackers Pose as Recruiters to Deliver Cross-Platform RATs Through Coding Tests",
@@ -135,83 +289,6 @@
       "published": "2026-09-01T12:28:00+00:00"
     },
     {
-      "title": "CVE-2026-84200 - Kyverno before v1.13.0 Policy Bypass via Multiple Exceptions",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-84200",
-      "summary": "CVE ID :CVE-2026-84200 Published : Sept. 1, 2026, 12:17 p.m. | 1 hour, 17 minutes ago Description :Kyverno versions v1.9.0 through v1.12.7 contain a policy exception handling flaw. When a policy in...",
-      "source": "CVE Feed",
-      "published": "2026-09-01T12:17:49+00:00"
-    },
-    {
-      "title": "CVE-2026-84196 - Kyverno before 1.18.0 Server-Side Request Forgery via apiCall",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-84196",
-      "summary": "CVE ID :CVE-2026-84196 Published : Sept. 1, 2026, 12:17 p.m. | 1 hour, 17 minutes ago Description :Kyverno before 1.18.0 contains a server-side request forgery vulnerability in apiCall.service.url...",
-      "source": "CVE Feed",
-      "published": "2026-09-01T12:17:49+00:00"
-    },
-    {
-      "title": "CVE-2026-84195 - Kyverno before 1.16.4 Credential Leak via apiCall",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-84195",
-      "summary": "CVE ID :CVE-2026-84195 Published : Sept. 1, 2026, 12:17 p.m. | 1 hour, 17 minutes ago Description :Kyverno before 1.16.4 automatically attaches the admission controller's ServiceAccount token to...",
-      "source": "CVE Feed",
-      "published": "2026-09-01T12:17:49+00:00"
-    },
-    {
-      "title": "CVE-2026-84194 - LibreNMS 23.10.0 before 26.4.0 OS Command Injection via Hostname",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-84194",
-      "summary": "CVE ID :CVE-2026-84194 Published : Sept. 1, 2026, 12:17 p.m. | 1 hour, 17 minutes ago Description :LibreNMS versions >= 23.10.0 and getDevice()->hostname) is concatenated into shell commands (ssh...",
-      "source": "CVE Feed",
-      "published": "2026-09-01T12:17:49+00:00"
-    },
-    {
-      "title": "CVE-2026-84190 - LibreNMS before 26.5.0 Remote Code Execution via AboutController",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-84190",
-      "summary": "CVE ID :CVE-2026-84190 Published : Sept. 1, 2026, 12:17 p.m. | 1 hour, 17 minutes ago Description :LibreNMS versions before 26.5.0 contain a remote code execution vulnerability in the AboutController...",
-      "source": "CVE Feed",
-      "published": "2026-09-01T12:17:48+00:00"
-    },
-    {
-      "title": "CVE-2026-84189 - LibreNMS before 26.7.0 Stored XSS via Oxidized API",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-84189",
-      "summary": "CVE ID :CVE-2026-84189 Published : Sept. 1, 2026, 12:17 p.m. | 1 hour, 17 minutes ago Description :LibreNMS through 26.4.0 renders JSON fields (name, ip, model, author, commit message) returned by...",
-      "source": "CVE Feed",
-      "published": "2026-09-01T12:17:48+00:00"
-    },
-    {
-      "title": "CVE-2026-84187 - AVideo on_publish.php Missing Authentication Check via RTMP Callback",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-84187",
-      "summary": "CVE ID :CVE-2026-84187 Published : Sept. 1, 2026, 12:17 p.m. | 1 hour, 17 minutes ago Description :AVideo contains a missing authentication vulnerability in plugin/Live/on_publish.php that allows...",
-      "source": "CVE Feed",
-      "published": "2026-09-01T12:17:48+00:00"
-    },
-    {
-      "title": "CVE-2026-83595 - AVideo Cross-Site Request Forgery via plugin/API/set.json.php",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-83595",
-      "summary": "CVE ID :CVE-2026-83595 Published : Sept. 1, 2026, 12:17 p.m. | 1 hour, 17 minutes ago Description :AVideo contains a cross-site request forgery vulnerability in plugin/API/set.json.php that allows...",
-      "source": "CVE Feed",
-      "published": "2026-09-01T12:17:47+00:00"
-    },
-    {
-      "title": "CVE-2026-76111 - Dell PowerStore Incorrect Authorization Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-76111",
-      "summary": "CVE ID :CVE-2026-76111 Published : Sept. 1, 2026, 12:17 p.m. | 1 hour, 17 minutes ago Description :Dell PowerStore contains an Incorrect Authorization vulnerability. An authenticated attacker with...",
-      "source": "CVE Feed",
-      "published": "2026-09-01T12:17:47+00:00"
-    },
-    {
-      "title": "CVE-2026-18550 - Nokri - Job Board WordPress Theme <= 1.6.6 - Unauthenticated Privilege Escalation via 'token' Parameter",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-18550",
-      "summary": "CVE ID :CVE-2026-18550 Published : Sept. 1, 2026, 12:17 p.m. | 1 hour, 17 minutes ago Description :The Nokri - Job Board WordPress Theme for WordPress is vulnerable to Privilege Escalation via...",
-      "source": "CVE Feed",
-      "published": "2026-09-01T12:17:35+00:00"
-    },
-    {
-      "title": "CVE-2023-54356 - Kyverno before 1.9.5 Sweet32 Medium Strength Cipher Suites",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2023-54356",
-      "summary": "CVE ID :CVE-2023-54356 Published : Sept. 1, 2026, 12:17 p.m. | 1 hour, 18 minutes ago Description :Kyverno versions 1.9.4 and earlier support insecure 3DES cipher suites...",
-      "source": "CVE Feed",
-      "published": "2026-09-01T12:17:11+00:00"
-    },
-    {
       "title": "Hackers Start Exploiting Critical Langflow Vulnerability",
       "link": "https://www.securityweek.com/hackers-start-exploiting-critical-langflow-vulnerability/",
       "summary": "Tracked as CVE-2026-0768, the security defect allows unauthenticated attackers to execute arbitrary Python code remotely. The post Hackers Start Exploiting Critical Langflow Vulnerability appeared...",
@@ -238,13 +315,6 @@
       "summary": "The defendants unsuccessfully attempted to physically install malware on ATMs to force them to dispense cash. The post Five Venezuelans Plead Guilty in US Court to ATM Jackpotting appeared first on...",
       "source": "SecurityWeek",
       "published": "2026-09-01T11:24:25+00:00"
-    },
-    {
-      "title": "CVE-2026-84165 - Lack of authorisation in OpenNebula by OpenNebula Systems",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-84165",
-      "summary": "CVE ID :CVE-2026-84165 Published : Sept. 1, 2026, 11:16 a.m. | 2 hours, 18 minutes ago Description :A vulnerability relating to incorrect access control in OpenNebula by OpenNebula Systems, affecting...",
-      "source": "CVE Feed",
-      "published": "2026-09-01T11:16:45+00:00"
     },
     {
       "title": "Ransomware Gang Claims Nutex Health Data Breach",
@@ -408,32 +478,11 @@
       "published": "2026-08-31T14:52:03+00:00"
     },
     {
-      "title": "Berlin says it won’t pay ransom after hackers steal government data",
-      "link": "https://therecord.media/berlin-says-it-wont-pay-ransom-after-hackers-steal-gov-data",
-      "summary": "Governing Mayor Kai Wegner said that Berlin had received an extortion demand following the cyberattack, which was discovered in mid-August.",
-      "source": "The Record",
-      "published": "2026-08-31T14:45:00+00:00"
-    },
-    {
-      "title": "Nightmare Eclipse Drops ‘HardBreacher’ Kaspersky Product Exploit",
-      "link": "https://www.securityweek.com/nightmare-eclipse-drops-hardbreacher-kaspersky-product-exploit/",
-      "summary": "Kaspersky told SecurityWeek that it patched the vulnerability affecting its Endpoint Security product. The post Nightmare Eclipse Drops ‘HardBreacher’ Kaspersky Product Exploit appeared first on...",
-      "source": "SecurityWeek",
-      "published": "2026-08-31T14:32:34+00:00"
-    },
-    {
       "title": "File servers are here to stay. Here’s how to manage them securely",
       "link": "https://www.bleepingcomputer.com/news/security/file-servers-are-here-to-stay-heres-how-to-manage-them-securely/",
       "summary": "File servers remain a critical part of many IT environments, but managing access securely can become complex as permissions accumulate. tenfold Software outlines five best practices for simplifying...",
       "source": "BleepingComputer",
       "published": "2026-08-31T14:00:10+00:00"
-    },
-    {
-      "title": "ServiceNow Patches 3 Critical Code Injection Vulnerabilities",
-      "link": "https://www.securityweek.com/servicenow-patches-3-critical-code-injection-vulnerabilities/",
-      "summary": "Attackers could exploit the security defects to execute arbitrary code and access or tamper with data. The post ServiceNow Patches 3 Critical Code Injection Vulnerabilities appeared first on...",
-      "source": "SecurityWeek",
-      "published": "2026-08-31T13:59:19+00:00"
     },
     {
       "title": "⚡ Weekly Recap: Chinese Spy Proxy, AI Agents Go Off-Task, Router Backdoors and More",
@@ -492,13 +541,6 @@
       "published": "2026-08-31T10:23:46+00:00"
     },
     {
-      "title": "Nigerians extradited to US for sextortion, deaths of two teens",
-      "link": "https://www.bleepingcomputer.com/news/security/nigerians-charged-US-over-sextortion-deaths-of-us-teens/",
-      "summary": "Two Nigerian men extradited to the U.S. on Thursday have been charged with involvement in sextortion schemes that resulted in the deaths of two minor victims in Mississippi and North Carolina. [...]",
-      "source": "BleepingComputer",
-      "published": "2026-08-31T09:22:47+00:00"
-    },
-    {
       "title": "AshSqlite Vulnerability (CVE-2026-77846) Exposes Hidden JSON Fields",
       "link": "https://thecyberexpress.com/cve-2026-77846-ashsqlite-vulnerability/",
       "summary": "AshSqlite Vulnerability (CVE-2026-77846) Exposes Hidden JSON Fields CVE-2026-77846, a newly disclosed AshSqlite vulnerability, can allow attackers to access hidden or sensitive fields stored inside...",
@@ -520,25 +562,11 @@
       "published": "2026-08-31T08:51:16+00:00"
     },
     {
-      "title": "Microsoft asks users to ignore 'Antivirus is turned off' errors",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-asks-users-to-ignore-antivirus-is-turned-off-errors/",
-      "summary": "Microsoft asked customers this week to ignore alerts that Defender Antivirus has been turned off after installing the latest Defender updates. [...]",
-      "source": "BleepingComputer",
-      "published": "2026-08-31T08:29:42+00:00"
-    },
-    {
       "title": "DoJ Corrects China Hacking Claim, Says U.S. Agencies Were Targets, Not Victims",
       "link": "https://thehackernews.com/2026/08/doj-corrects-china-hacking-claim-says.html",
       "summary": "DoJ Corrects China Hacking Claim, Says U.S. Agencies Were Targets, Not Victims The U.S. Department of Justice (DoJ) on Friday corrected a previously issued press statement that several of its...",
       "source": "CVE Newsroom",
       "published": "2026-08-31T07:56:53+00:00"
-    },
-    {
-      "title": "FulcrumSec claims Manchester Airports hack, theft of 86 GB of data",
-      "link": "https://www.bleepingcomputer.com/news/security/fulcrumsec-claims-manchester-airports-hack-theft-of-86-gb-of-data/",
-      "summary": "FulcrumSec claims it stole 86 GB of data from Manchester Airports Group. BleepingComputer validated one traveller's record, while samples revealed detailed customer, booking, and travel information...",
-      "source": "BleepingComputer",
-      "published": "2026-08-30T15:00:21+00:00"
     },
     {
       "title": "TerminalFix Uses Fake Cloudflare CAPTCHAs to Deploy Reverse-Tunnel Backdoor",
@@ -707,13 +735,6 @@
       "summary": "China-Made ZBT Routers Ship With Two Implants Giving Unauthenticated Attackers Root Access VulnCheck has disclosed two previously undocumented factory implants in firmware for routers built by...",
       "source": "CVE Newsroom",
       "published": "2026-08-28T10:58:29+00:00"
-    },
-    {
-      "title": "Filipijns nucleair onderzoeksinstituut gehackt via kritiek ownCloud-lek",
-      "link": "https://www.security.nl/posting/950848/Filipijns+nucleair+onderzoeksinstituut+gehackt+via+kritiek+ownCloud-lek?channel=rss",
-      "summary": "Filipijns nucleair onderzoeksinstituut gehackt via kritiek ownCloud-lek Aanvallers hebben een Filipijns nucleair onderzoeksinstituut door middel van een bekende kritieke kwetsbaarheid in ownCloud...",
-      "source": "CVE Newsroom",
-      "published": "2026-08-28T09:47:30+00:00"
     },
     {
       "title": "Critical cPanel Flaw Could Let One Hosting Customer Take Root Control of a Whole Server",
@@ -954,27 +975,6 @@
       "published": "2026-08-26T07:54:12+00:00"
     },
     {
-      "title": "New SLEEPWALKER Backdoor Waits for One Crafted Packet, Then Runs Its Own Bytecode",
-      "link": "https://thehackernews.com/2026/08/newly-sleepwalker-backdoor-waits-for.html",
-      "summary": "An independent malware researcher has documented a previously unreported Windows backdoor, dubbed SLEEPWALKER, that stays inert in memory until a specifically crafted network packet reaches the...",
-      "source": "The Hacker News",
-      "published": "2026-08-26T07:12:55+00:00"
-    },
-    {
-      "title": "Critical Gitea RCE Actively Exploited as Reported Attack Drops Miner-Like Payload",
-      "link": "https://thehackernews.com/2026/08/critical-gitea-rce-actively-exploited.html",
-      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday warned of active exploitation efforts targeting a recently patched critical security flaw impacting Gitea. The...",
-      "source": "The Hacker News",
-      "published": "2026-08-26T06:27:07+00:00"
-    },
-    {
-      "title": "Fake Apple Support AI Calls Target Stolen-Device Owners for Passcodes and 2FA Codes",
-      "link": "https://thehackernews.com/2026/08/fake-apple-support-ai-calls-target.html",
-      "summary": "Cybersecurity researchers have disclosed details of a phishing-as-a-service (PhaaS) platform built to strip Apple's Activation Lock from stolen devices, using rented AI voice agents that call theft...",
-      "source": "The Hacker News",
-      "published": "2026-08-26T05:47:28+00:00"
-    },
-    {
       "title": "Hidden Prompts Trick AI Into False Email Summaries",
       "link": "https://www.darkreading.com/cyber-risk/hidden-prompts-trick-ai-false-email-summaries",
       "summary": "With some simple HTML that's invisible to users, attackers can manipulate AI-powered email summarizers into producing malicious information.",
@@ -1162,13 +1162,6 @@
       "summary": "Million-dollar heists, divorce, and career-ending burnout are all stories told in the latest docuseries revealing a behind-the-scenes look at the cybersecurity community.",
       "source": "Dark Reading",
       "published": "2026-08-18T18:32:01+00:00"
-    },
-    {
-      "title": "Silent 'TwinLoot' Cyber Threat Operates Entirely From Microsoft's Cloud",
-      "link": "https://www.darkreading.com/cloud-security/silent-twinloot-threat-operates-microsoft-cloud",
-      "summary": "The Python-based malware framework takes living-off-the-land tactics to a new heights of stealth, with a modular implant that steals credentials and achieves persistence.",
-      "source": "Dark Reading",
-      "published": "2026-08-18T13:00:00+00:00"
     },
     {
       "title": "'Ransom Busters': Ransomware Actor Poses as Incident-Recovery Service",
