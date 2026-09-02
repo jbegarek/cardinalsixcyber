@@ -1,101 +1,171 @@
 {
-  "last_updated": "2026-09-01T22:12:25.298194+00:00",
+  "last_updated": "2026-09-02T02:05:22.756291+00:00",
   "articles": [
+    {
+      "title": "Old, Unpatched Flaws Give Attackers Access to Philippines Nuclear Agency",
+      "link": "https://www.darkreading.com/cyberattacks-data-breaches/old-unpatched-flaws-attackers-philippines-nuclear-agency",
+      "summary": "Threat actors exploited commodity in ownCloud to gain initial access, resulting in stolen reactor databases, personnel records, and credential stores.",
+      "source": "Dark Reading",
+      "published": "2026-09-02T01:00:00+00:00"
+    },
+    {
+      "title": "CVE-2026-84482 - WWBN AVideo Cross-Site Request Forgery via get_domain() validation",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-84482",
+      "summary": "CVE ID :CVE-2026-84482 Published : Sept. 1, 2026, 11:17 p.m. | 1 hour, 37 minutes ago Description :WWBN AVideo through commit 9c39d8c8 contains a cross-site request forgery vulnerability in the...",
+      "source": "CVE Feed",
+      "published": "2026-09-01T23:17:22+00:00"
+    },
+    {
+      "title": "CVE-2026-84480 - WWBN AVideo Password Recovery Token Expiration Bypass",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-84480",
+      "summary": "CVE ID :CVE-2026-84480 Published : Sept. 1, 2026, 11:17 p.m. | 1 hour, 37 minutes ago Description :WWBN AVideo fails to validate password recovery token expiration in userRecoverPassSave.json.php...",
+      "source": "CVE Feed",
+      "published": "2026-09-01T23:17:22+00:00"
+    },
+    {
+      "title": "CVE-2026-84479 - WWBN AVideo Authentication Bypass via User-Agent Header",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-84479",
+      "summary": "CVE ID :CVE-2026-84479 Published : Sept. 1, 2026, 11:17 p.m. | 1 hour, 37 minutes ago Description :WWBN AVideo (current e01e41ecc and earlier) makes three login-time security controls depend solely...",
+      "source": "CVE Feed",
+      "published": "2026-09-01T23:17:22+00:00"
+    },
+    {
+      "title": "CVE-2026-84476 - WWBN AVideo Authentication Bypass via X-Real-IP Header",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-84476",
+      "summary": "CVE ID :CVE-2026-84476 Published : Sept. 1, 2026, 11:17 p.m. | 1 hour, 37 minutes ago Description :WWBN AVideo fails to validate trusted proxies before accepting X-Real-IP and X-Forwarded-For...",
+      "source": "CVE Feed",
+      "published": "2026-09-01T23:17:21+00:00"
+    },
+    {
+      "title": "CVE-2026-84208 - AVideo User_Location Plugin Unauthenticated SQL Injection",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-84208",
+      "summary": "CVE ID :CVE-2026-84208 Published : Sept. 1, 2026, 11:17 p.m. | 1 hour, 37 minutes ago Description :AVideo through version 29.0 contains an unauthenticated SQL injection vulnerability in the...",
+      "source": "CVE Feed",
+      "published": "2026-09-01T23:17:21+00:00"
+    },
+    {
+      "title": "FBI Probes Service Selling 153M+ Drivers Licenses",
+      "link": "https://krebsonsecurity.com/2026/09/fbi-probes-service-selling-153m-drivers-licenses/",
+      "summary": "A new identity theft service launched on the dark web this week is selling digital scans of more than 153 million drivers licenses from people in the United States and Canada. Based on interviews...",
+      "source": "Krebs on Security",
+      "published": "2026-09-01T22:40:28+00:00"
+    },
+    {
+      "title": "CVE-2026-84372 - Predis: Redis command injection and denial of service via CRLF smuggling in pipelined commands on aggregate connections",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-84372",
+      "summary": "CVE ID :CVE-2026-84372 Published : Sept. 1, 2026, 10:17 p.m. | 2 hours, 37 minutes ago Description :Predis is a flexible and feature-complete Redis and Valkey client for PHP. From version 3.0.0-RC1...",
+      "source": "CVE Feed",
+      "published": "2026-09-01T22:17:18+00:00"
+    },
+    {
+      "title": "CVE-2026-75604 - Next.js: Unauthenticated Remote Code Execution on windows-hosted servers",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-75604",
+      "summary": "CVE ID :CVE-2026-75604 Published : Sept. 1, 2026, 10:17 p.m. | 2 hours, 37 minutes ago Description :Next.js is a React framework for building full-stack web applications. From 13.4.0 until 15.5.24...",
+      "source": "CVE Feed",
+      "published": "2026-09-01T22:17:12+00:00"
+    },
     {
       "title": "CVE-2026-18730 - Server-side request forgery vulnerability in GitHub Enterprise Server Manage API leaked a replayable gateway-agent bearer token",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-18730",
-      "summary": "CVE ID :CVE-2026-18730 Published : Sept. 1, 2026, 9:54 p.m. | 17 minutes ago Description :A server-side request forgery (SSRF) vulnerability was identified in GitHub Enterprise Server that allowed an...",
+      "summary": "CVE ID :CVE-2026-18730 Published : Sept. 1, 2026, 10:17 p.m. | 2 hours, 38 minutes ago Description :A server-side request forgery (SSRF) vulnerability was identified in GitHub Enterprise Server that...",
       "source": "CVE Feed",
-      "published": "2026-09-01T21:54:58+00:00"
+      "published": "2026-09-01T22:17:10+00:00"
+    },
+    {
+      "title": "CVE-2023-54391 - Proxmox VE 7.0-8.0 Authentication Bypass via tfa-challenge Parameter",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2023-54391",
+      "summary": "CVE ID :CVE-2023-54391 Published : Sept. 1, 2026, 10:17 p.m. | 2 hours, 38 minutes ago Description :Proxmox Virtual Environment (VE) 7.0 through 8.0 contains an authentication bypass vulnerability in...",
+      "source": "CVE Feed",
+      "published": "2026-09-01T22:17:10+00:00"
     },
     {
       "title": "CVE-2026-84370 - SVGO: removeScripts allows executable links through namespace and control-character bypasses",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-84370",
-      "summary": "CVE ID :CVE-2026-84370 Published : Sept. 1, 2026, 9:18 p.m. | 53 minutes ago Description :SVGO, short for SVG Optimizer, is a Node.js library and command-line application for optimizing SVG files...",
+      "summary": "CVE ID :CVE-2026-84370 Published : Sept. 1, 2026, 9:18 p.m. | 3 hours, 36 minutes ago Description :SVGO, short for SVG Optimizer, is a Node.js library and command-line application for optimizing SVG...",
       "source": "CVE Feed",
       "published": "2026-09-01T21:18:48+00:00"
     },
     {
       "title": "CVE-2026-73782 - Unauthenticated Format String Vulnerability leads to Remote Code Execution in AOS-CX",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-73782",
-      "summary": "CVE ID :CVE-2026-73782 Published : Sept. 1, 2026, 9:18 p.m. | 53 minutes ago Description :A format string vulnerability exists in the command line interface of AOS-CX that could lead to...",
+      "summary": "CVE ID :CVE-2026-73782 Published : Sept. 1, 2026, 9:18 p.m. | 3 hours, 36 minutes ago Description :A format string vulnerability exists in the command line interface of AOS-CX that could lead to...",
       "source": "CVE Feed",
       "published": "2026-09-01T21:18:45+00:00"
     },
     {
       "title": "CVE-2026-73781 - Authenticated Stored Cross-Site Scripting Vulnerability (XSS) in AOS-CX Web-Based Management Interface",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-73781",
-      "summary": "CVE ID :CVE-2026-73781 Published : Sept. 1, 2026, 9:18 p.m. | 53 minutes ago Description :A vulnerability in the web-based management interface of AOS-CX could allow an authenticated remote attacker...",
+      "summary": "CVE ID :CVE-2026-73781 Published : Sept. 1, 2026, 9:18 p.m. | 3 hours, 36 minutes ago Description :A vulnerability in the web-based management interface of AOS-CX could allow an authenticated remote...",
       "source": "CVE Feed",
       "published": "2026-09-01T21:18:44+00:00"
     },
     {
       "title": "CVE-2026-73780 - Lack of Cross-Site Request Forgery (CSRF) Protections for Certificate-Authenticated Sessions in AOS-CX",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-73780",
-      "summary": "CVE ID :CVE-2026-73780 Published : Sept. 1, 2026, 9:18 p.m. | 53 minutes ago Description :A vulnerability in the web-based management interface of AOS-CX switches exposes some sessions to a lack of...",
+      "summary": "CVE ID :CVE-2026-73780 Published : Sept. 1, 2026, 9:18 p.m. | 3 hours, 36 minutes ago Description :A vulnerability in the web-based management interface of AOS-CX switches exposes some sessions to a...",
       "source": "CVE Feed",
       "published": "2026-09-01T21:18:44+00:00"
     },
     {
       "title": "CVE-2026-73779 - Authentication Bypass Vulnerabilities Leading to Information Disclosure, Unauthorized Modification, and Service Disruption in AOS-CX",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-73779",
-      "summary": "CVE ID :CVE-2026-73779 Published : Sept. 1, 2026, 9:18 p.m. | 53 minutes ago Description :Vulnerabilities have been identified in the operating system of AOS-CX switches that could potentially allow...",
+      "summary": "CVE ID :CVE-2026-73779 Published : Sept. 1, 2026, 9:18 p.m. | 3 hours, 36 minutes ago Description :Vulnerabilities have been identified in the operating system of AOS-CX switches that could...",
       "source": "CVE Feed",
       "published": "2026-09-01T21:18:44+00:00"
     },
     {
       "title": "CVE-2026-73778 - Credential Manager Vulnerability Allows Unauthorized Administrative Access",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-73778",
-      "summary": "CVE ID :CVE-2026-73778 Published : Sept. 1, 2026, 9:18 p.m. | 53 minutes ago Description :A vulnerability exists in the Credential Manager component that may allow for unauthorized administrative...",
+      "summary": "CVE ID :CVE-2026-73778 Published : Sept. 1, 2026, 9:18 p.m. | 3 hours, 36 minutes ago Description :A vulnerability exists in the Credential Manager component that may allow for unauthorized...",
       "source": "CVE Feed",
       "published": "2026-09-01T21:18:44+00:00"
     },
     {
       "title": "CVE-2026-73777 - Authorization Bypass Vulnerabilities Leading to Privilege Escalation in AOS-CX API Endpoint",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-73777",
-      "summary": "CVE ID :CVE-2026-73777 Published : Sept. 1, 2026, 9:18 p.m. | 53 minutes ago Description :Vulnerabilities have been identified in the API endpoint of AOS-CX switches that could potentially allow an...",
+      "summary": "CVE ID :CVE-2026-73777 Published : Sept. 1, 2026, 9:18 p.m. | 3 hours, 36 minutes ago Description :Vulnerabilities have been identified in the API endpoint of AOS-CX switches that could potentially...",
       "source": "CVE Feed",
       "published": "2026-09-01T21:18:44+00:00"
     },
     {
       "title": "CVE-2026-73753 - Authenticated Remote Command Injection Vulnerabilities in AOS-CX Command Line Interface",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-73753",
-      "summary": "CVE ID :CVE-2026-73753 Published : Sept. 1, 2026, 9:18 p.m. | 53 minutes ago Description :Exploitation through affected command-line operations could allow an authenticated low-privileged user to...",
+      "summary": "CVE ID :CVE-2026-73753 Published : Sept. 1, 2026, 9:18 p.m. | 3 hours, 36 minutes ago Description :Exploitation through affected command-line operations could allow an authenticated low-privileged...",
       "source": "CVE Feed",
       "published": "2026-09-01T21:18:41+00:00"
     },
     {
       "title": "CVE-2026-73752 - Unauthenticated Arbitrary File Write Vulnerability Leads to Remote Code Execution in AOS-CX",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-73752",
-      "summary": "CVE ID :CVE-2026-73752 Published : Sept. 1, 2026, 9:18 p.m. | 53 minutes ago Description :An unauthenticated arbitrary file write vulnerability exists in an API endpoint of AOS-CX. Successful...",
+      "summary": "CVE ID :CVE-2026-73752 Published : Sept. 1, 2026, 9:18 p.m. | 3 hours, 36 minutes ago Description :An unauthenticated arbitrary file write vulnerability exists in an API endpoint of AOS-CX...",
       "source": "CVE Feed",
       "published": "2026-09-01T21:18:41+00:00"
     },
     {
       "title": "CVE-2026-73751 - Authenticated Remote Command Injection in AOS-CX Web-based Management Interface",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-73751",
-      "summary": "CVE ID :CVE-2026-73751 Published : Sept. 1, 2026, 9:18 p.m. | 53 minutes ago Description :An authenticated user with low-privileged access could submit crafted input through the web-based management...",
+      "summary": "CVE ID :CVE-2026-73751 Published : Sept. 1, 2026, 9:18 p.m. | 3 hours, 36 minutes ago Description :An authenticated user with low-privileged access could submit crafted input through the web-based...",
       "source": "CVE Feed",
       "published": "2026-09-01T21:18:41+00:00"
     },
     {
       "title": "CVE-2026-73750 - Authenticated Buffer Overflow Vulnerabilities in AOS-CX API Endpoint Leads to Possible Code Execution",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-73750",
-      "summary": "CVE ID :CVE-2026-73750 Published : Sept. 1, 2026, 9:18 p.m. | 53 minutes ago Description :Vulnerabilities exist in the authentication module that may improperly process malformed or truncated input...",
+      "summary": "CVE ID :CVE-2026-73750 Published : Sept. 1, 2026, 9:18 p.m. | 3 hours, 36 minutes ago Description :Vulnerabilities exist in the authentication module that may improperly process malformed or...",
       "source": "CVE Feed",
       "published": "2026-09-01T21:18:41+00:00"
     },
     {
       "title": "CVE-2026-73749 - Unauthenticated Buffer Overflow Vulnerabilities lead to Remote Code Execution in AOS-CX",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-73749",
-      "summary": "CVE ID :CVE-2026-73749 Published : Sept. 1, 2026, 9:18 p.m. | 53 minutes ago Description :Multiple vulnerabilities exist in a daemon of AOS-CX that may allow for improper processing of malformed...",
+      "summary": "CVE ID :CVE-2026-73749 Published : Sept. 1, 2026, 9:18 p.m. | 3 hours, 36 minutes ago Description :Multiple vulnerabilities exist in a daemon of AOS-CX that may allow for improper processing of...",
       "source": "CVE Feed",
       "published": "2026-09-01T21:18:41+00:00"
     },
     {
       "title": "CVE-2026-71981 - Cypht < 2.12.2 PHP Object Injection RCE via back_query Parameter",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-71981",
-      "summary": "CVE ID :CVE-2026-71981 Published : Sept. 1, 2026, 9:18 p.m. | 53 minutes ago Description :Cypht before 2.12.2 contains a PHP object injection vulnerability that allows authenticated attackers to...",
+      "summary": "CVE ID :CVE-2026-71981 Published : Sept. 1, 2026, 9:18 p.m. | 3 hours, 36 minutes ago Description :Cypht before 2.12.2 contains a PHP object injection vulnerability that allows authenticated...",
       "source": "CVE Feed",
       "published": "2026-09-01T21:18:36+00:00"
     },
@@ -144,79 +214,23 @@
     {
       "title": "CVE-2026-76658 - Unauthenticated Remote Code Execution in HPE Networking Fabric Composer SSH Daemon",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-76658",
-      "summary": "CVE ID :CVE-2026-76658 Published : Sept. 1, 2026, 8:17 p.m. | 1 hour, 54 minutes ago Description :A vulnerability has been identified in the SSH daemon of HPE Networking Fabric Composer that could...",
+      "summary": "CVE ID :CVE-2026-76658 Published : Sept. 1, 2026, 8:17 p.m. | 4 hours, 37 minutes ago Description :A vulnerability has been identified in the SSH daemon of HPE Networking Fabric Composer that could...",
       "source": "CVE Feed",
       "published": "2026-09-01T20:17:23+00:00"
     },
     {
       "title": "CVE-2026-76657 - Authentication Bypass in HPE Networking Fabric Composer API allows Administrative Access",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-76657",
-      "summary": "CVE ID :CVE-2026-76657 Published : Sept. 1, 2026, 8:17 p.m. | 1 hour, 54 minutes ago Description :Vulnerabilities have been identified in the API of HPE Networking Fabric Composer that could...",
+      "summary": "CVE ID :CVE-2026-76657 Published : Sept. 1, 2026, 8:17 p.m. | 4 hours, 37 minutes ago Description :Vulnerabilities have been identified in the API of HPE Networking Fabric Composer that could...",
       "source": "CVE Feed",
       "published": "2026-09-01T20:17:22+00:00"
     },
     {
       "title": "CVE-2026-73712 - Unauthenticated Remote Code Execution in HPE Networking Fabric Composer API",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-73712",
-      "summary": "CVE ID :CVE-2026-73712 Published : Sept. 1, 2026, 8:17 p.m. | 1 hour, 54 minutes ago Description :A vulnerability in the API of HPE Networking Fabric Composer could allow an unauthenticated remote...",
+      "summary": "CVE ID :CVE-2026-73712 Published : Sept. 1, 2026, 8:17 p.m. | 4 hours, 37 minutes ago Description :A vulnerability in the API of HPE Networking Fabric Composer could allow an unauthenticated remote...",
       "source": "CVE Feed",
       "published": "2026-09-01T20:17:18+00:00"
-    },
-    {
-      "title": "CVE-2026-73711 - Unauthenticated Privilege Escalation allows Administrative Access in HPE Networking Fabric Composer API",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-73711",
-      "summary": "CVE ID :CVE-2026-73711 Published : Sept. 1, 2026, 8:17 p.m. | 1 hour, 54 minutes ago Description :A privilege escalation vulnerability exists in the API endpoint of HPE Networking Fabric Composer...",
-      "source": "CVE Feed",
-      "published": "2026-09-01T20:17:18+00:00"
-    },
-    {
-      "title": "CVE-2026-73710 - Unauthenticated Denial of Service Vulnerabilities in API Endpoint of HPE Networking Fabric Composer",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-73710",
-      "summary": "CVE ID :CVE-2026-73710 Published : Sept. 1, 2026, 8:17 p.m. | 1 hour, 54 minutes ago Description :Vulnerabilities in an API endpoint of HPE Networking Fabric Composer could allow an unauthenticated...",
-      "source": "CVE Feed",
-      "published": "2026-09-01T20:17:18+00:00"
-    },
-    {
-      "title": "CVE-2026-73709 - Unauthenticated Remote Code Execution during HPE Networking Fabric Composer Installation Process",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-73709",
-      "summary": "CVE ID :CVE-2026-73709 Published : Sept. 1, 2026, 8:17 p.m. | 1 hour, 54 minutes ago Description :A vulnerability in the underlying operating system of HPE Networking Fabric Composer could allow an...",
-      "source": "CVE Feed",
-      "published": "2026-09-01T20:17:18+00:00"
-    },
-    {
-      "title": "CVE-2026-73708 - Fault in Business Logic allows Authenticated Sensitive Information Disclosure in HPE Networking Fabric Composer",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-73708",
-      "summary": "CVE ID :CVE-2026-73708 Published : Sept. 1, 2026, 8:17 p.m. | 1 hour, 54 minutes ago Description :A business logic vulnerability exists in the API of HPE Networking Fabric Composer. Successful...",
-      "source": "CVE Feed",
-      "published": "2026-09-01T20:17:18+00:00"
-    },
-    {
-      "title": "CVE-2026-73707 - Authenticated Privilege Escalation via Broken Access Control in HPE Networking Fabric Composer API",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-73707",
-      "summary": "CVE ID :CVE-2026-73707 Published : Sept. 1, 2026, 8:17 p.m. | 1 hour, 54 minutes ago Description :Privilege escalation vulnerabilities exist in the API of HPE Networking Fabric Composer. Successful...",
-      "source": "CVE Feed",
-      "published": "2026-09-01T20:17:18+00:00"
-    },
-    {
-      "title": "CVE-2026-73706 - Authentication Bypass in the API of HPE Networking Fabric Composer allows Data Exposure and Unauthorized Changes",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-73706",
-      "summary": "CVE ID :CVE-2026-73706 Published : Sept. 1, 2026, 8:17 p.m. | 1 hour, 54 minutes ago Description :A vulnerability in the API of HPE Networking Fabric Composer could allow an unauthenticated remote...",
-      "source": "CVE Feed",
-      "published": "2026-09-01T20:17:17+00:00"
-    },
-    {
-      "title": "CVE-2026-73705 - Authenticated Arbitrary File Write leads to Remote Code Execution in HPE Networking Fabric Composer",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-73705",
-      "summary": "CVE ID :CVE-2026-73705 Published : Sept. 1, 2026, 8:17 p.m. | 1 hour, 54 minutes ago Description :An arbitrary file write vulnerability in the API of HPE Networking Fabric Composer could allow an...",
-      "source": "CVE Feed",
-      "published": "2026-09-01T20:17:17+00:00"
-    },
-    {
-      "title": "CVE-2026-73704 - Authenticated Command Injection Leading to Administrative Access in HPE Networking Fabric Composer API",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-73704",
-      "summary": "CVE ID :CVE-2026-73704 Published : Sept. 1, 2026, 8:17 p.m. | 1 hour, 54 minutes ago Description :A command sanitization bypass exists in the API of HPE Networking Fabric Composer. Successful...",
-      "source": "CVE Feed",
-      "published": "2026-09-01T20:17:17+00:00"
     },
     {
       "title": "AI Model Evaluator METR Hit by Credential Theft, Probing",
@@ -1164,13 +1178,6 @@
       "published": "2026-08-19T01:00:00+00:00"
     },
     {
-      "title": "Critical GitLab Zero-Click Flaw Poses Mitigation Challenges",
-      "link": "https://www.darkreading.com/application-security/critical-gitlab-zero-click-flaw-mitigation-challenges",
-      "summary": "A lack of technical details could make it hard for organizations running self-managed GitLab versions to detect potential exploitation of CVE-2026-19478.",
-      "source": "Dark Reading",
-      "published": "2026-08-18T21:25:58+00:00"
-    },
-    {
       "title": "Who’s Tracking You? Use This New Service to Find Out",
       "link": "https://krebsonsecurity.com/2026/08/whos-tracking-you-use-this-new-service-to-find-out/",
       "summary": "It can be daunting to determine who's responsible for showing ads on the websites we visit, or who's harvesting data from the mobile apps we use every day. That information is already semi-public...",
@@ -1225,13 +1232,6 @@
       "summary": "A cybersecurity startup dangling millions of dollars to acquire zero-day security vulnerabilities in popular software is run by a pair of far-right conspiracy theorists and convicted felons whose...",
       "source": "Krebs on Security",
       "published": "2026-07-08T12:31:39+00:00"
-    },
-    {
-      "title": "FBI Seizes NetNut Proxy Platform, Popa Botnet",
-      "link": "https://krebsonsecurity.com/2026/07/fbi-seizes-netnut-proxy-platform-popa-botnet/",
-      "summary": "The Federal Bureau of Investigation (FBI) said today it worked with industry partners to seize hundreds of domains associated with NetNut, a sprawling residential proxy service operated by the...",
-      "source": "Krebs on Security",
-      "published": "2026-07-02T19:27:33+00:00"
     },
     {
       "title": "[Virtual Event] What Every Enterprise Should Know About Securing Cloud Assets in the Age of AI",
