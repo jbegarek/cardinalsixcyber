@@ -1,61 +1,180 @@
 {
-  "last_updated": "2026-09-04T20:03:36.465686+00:00",
+  "last_updated": "2026-09-04T23:34:29.704186+00:00",
   "articles": [
+    {
+      "title": "CVE-2026-75925 - IXON VPN Client CRLF Injection",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-75925",
+      "summary": "CVE ID :CVE-2026-75925 Published : Sept. 4, 2026, 9:19 p.m. | 1 hour, 9 minutes ago Description :Improper neutralization of CRLF sequences in IXON VPN Client before version 1.4.7 allows an attacker...",
+      "source": "CVE Feed",
+      "published": "2026-09-04T21:19:02+00:00"
+    },
+    {
+      "title": "CVE-2026-82712 - Tycon Systems TPDIN-Monitor-WEB3 Cross-Site Request Forgery",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-82712",
+      "summary": "CVE ID :CVE-2026-82712 Published : Sept. 4, 2026, 9:17 p.m. | 1 hour, 10 minutes ago Description :Tycon Systems TPDIN-Monitor-WEB3 versions 2.2.9 and prior are vulnerable to a cross-site request...",
+      "source": "CVE Feed",
+      "published": "2026-09-04T21:17:26+00:00"
+    },
+    {
+      "title": "CVE-2026-77393 - Inductive Automation Ignition Incorrect Default Permissions",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-77393",
+      "summary": "CVE ID :CVE-2026-77393 Published : Sept. 4, 2026, 9:10 p.m. | 1 hour, 17 minutes ago Description :In Ignition 8.1.53 and earlier, the Gateway \"Create Project Role(s)\" setting shipped blank, which...",
+      "source": "CVE Feed",
+      "published": "2026-09-04T21:10:25+00:00"
+    },
+    {
+      "title": "CVE-2026-82684 - Tycon Systems TPDIN-Monitor-WEB3 Missing Authorization",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-82684",
+      "summary": "CVE ID :CVE-2026-82684 Published : Sept. 4, 2026, 9:01 p.m. | 1 hour, 27 minutes ago Description :Tycon Systems TPDIN-Monitor-WEB3 versions 2.2.9 and prior are vulnerable to a Missing Authorization...",
+      "source": "CVE Feed",
+      "published": "2026-09-04T21:01:16+00:00"
+    },
+    {
+      "title": "CVE-2026-85786 - Incomplete fix for CVE-2026-75936 memory-amplification denial of service in Amazon ion-java",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-85786",
+      "summary": "CVE ID :CVE-2026-85786 Published : Sept. 4, 2026, 8:17 p.m. | 2 hours, 10 minutes ago Description :Improper handling of highly compressed data in Amazon ion-java before 1.12.1 might allow remote...",
+      "source": "CVE Feed",
+      "published": "2026-09-04T20:17:33+00:00"
+    },
+    {
+      "title": "CVE-2026-61699 - nebula-mesh: Certificate revocation is never enforced at the mesh",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-61699",
+      "summary": "CVE ID :CVE-2026-61699 Published : Sept. 4, 2026, 8:17 p.m. | 2 hours, 10 minutes ago Description :nebula-mesh is a self-hosted control plane for Slack Nebula mesh VPN. Prior to version 0.7.1...",
+      "source": "CVE Feed",
+      "published": "2026-09-04T20:17:24+00:00"
+    },
+    {
+      "title": "CVE-2026-53932 - wnx/laravel-backup-restore: Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') and Improper Neutralization of Special Elements used in a Command ('Command Injection')",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-53932",
+      "summary": "CVE ID :CVE-2026-53932 Published : Sept. 4, 2026, 8:17 p.m. | 2 hours, 10 minutes ago Description :laravel-backup-restore restores database backups made with spatie/laravel-backup. Prior to version...",
+      "source": "CVE Feed",
+      "published": "2026-09-04T20:17:23+00:00"
+    },
+    {
+      "title": "CVE-2026-85781 - Unverified access point ownership in Amazon EFS CSI Driver",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-85781",
+      "summary": "CVE ID :CVE-2026-85781 Published : Sept. 4, 2026, 7:17 p.m. | 3 hours, 10 minutes ago Description :Unverified ownership of a storage access point in the volume deletion component of the Amazon EFS...",
+      "source": "CVE Feed",
+      "published": "2026-09-04T19:17:34+00:00"
+    },
+    {
+      "title": "CVE-2026-81939 - SonicWall Network Security Manager Path Traversal Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-81939",
+      "summary": "CVE ID :CVE-2026-81939 Published : Sept. 4, 2026, 7:17 p.m. | 3 hours, 10 minutes ago Description :A Zip Slip vulnerability in the SonicWall Network Security Manager (NSM) On-Prem file upload and...",
+      "source": "CVE Feed",
+      "published": "2026-09-04T19:17:29+00:00"
+    },
+    {
+      "title": "CVE-2026-80119 - PassMark PerformanceTest, BurnInTest, and OSForensics Physical Memory Disclosure via DirectIo64.sys IOCTL",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-80119",
+      "summary": "CVE ID :CVE-2026-80119 Published : Sept. 4, 2026, 7:17 p.m. | 3 hours, 10 minutes ago Description :PassMark PerformanceTest before 11.1 build 1012, BurnInTest before 11.1 build 1000, and OSForensics...",
+      "source": "CVE Feed",
+      "published": "2026-09-04T19:17:28+00:00"
+    },
+    {
+      "title": "CVE-2026-80118 - PassMark PerformanceTest, BurnInTest, and OSForensics Kernel Null Pointer Dereference via DirectIo64.sys IOCTL",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-80118",
+      "summary": "CVE ID :CVE-2026-80118 Published : Sept. 4, 2026, 7:17 p.m. | 3 hours, 10 minutes ago Description :PassMark PerformanceTest before 11.1 build 1012, BurnInTest before 11.1 build 1000, and OSForensics...",
+      "source": "CVE Feed",
+      "published": "2026-09-04T19:17:28+00:00"
+    },
+    {
+      "title": "CVE-2026-80116 - PassMark PerformanceTest, BurnInTest, and OSForensics Privilege Escalation via DirectIo64.sys IOCTL",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-80116",
+      "summary": "CVE ID :CVE-2026-80116 Published : Sept. 4, 2026, 7:17 p.m. | 3 hours, 10 minutes ago Description :PassMark PerformanceTest before 11.1 build 1012, BurnInTest before 11.1 build 1000, and OSForensics...",
+      "source": "CVE Feed",
+      "published": "2026-09-04T19:17:28+00:00"
+    },
+    {
+      "title": "CVE-2026-80114 - PassMark PerformanceTest, BurnInTest, and OSForensics Hard-coded Credentials Authentication Bypass via DirectIo64.sys",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-80114",
+      "summary": "CVE ID :CVE-2026-80114 Published : Sept. 4, 2026, 7:17 p.m. | 3 hours, 10 minutes ago Description :PassMark PerformanceTest before 11.1 build 1012, BurnInTest before 11.1 build 1000, and OSForensics...",
+      "source": "CVE Feed",
+      "published": "2026-09-04T19:17:28+00:00"
+    },
+    {
+      "title": "CVE-2026-80112 - PassMark PerformanceTest, BurnInTest, and OSForensics Improper Access Control via DirectIo64.sys",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-80112",
+      "summary": "CVE ID :CVE-2026-80112 Published : Sept. 4, 2026, 7:17 p.m. | 3 hours, 10 minutes ago Description :PassMark PerformanceTest before 11.1 build 1012, BurnInTest before 11.1 build 1000, and OSForensics...",
+      "source": "CVE Feed",
+      "published": "2026-09-04T19:17:27+00:00"
+    },
+    {
+      "title": "CVE-2026-78328 - SonicWall Network Security Manager Privilege Escalation Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-78328",
+      "summary": "CVE ID :CVE-2026-78328 Published : Sept. 4, 2026, 7:17 p.m. | 3 hours, 10 minutes ago Description :A missing authorization vulnerability in the SonicWall Network Security Manager (NSM) On-Prem...",
+      "source": "CVE Feed",
+      "published": "2026-09-04T19:17:27+00:00"
+    },
+    {
+      "title": "CVE-2026-78327 - SonicWall Network Security Manager OS Command Injection",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-78327",
+      "summary": "CVE ID :CVE-2026-78327 Published : Sept. 4, 2026, 7:17 p.m. | 3 hours, 10 minutes ago Description :An Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection')...",
+      "source": "CVE Feed",
+      "published": "2026-09-04T19:17:27+00:00"
+    },
     {
       "title": "CVE-2026-9317 - Nango < 0.71.6 Missing Authentication RCE via runner tRPC server",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-9317",
-      "summary": "CVE ID :CVE-2026-9317 Published : Sept. 4, 2026, 5:56 p.m. | 31 minutes ago Description :Nango before 0.71.6 contains a missing authentication vulnerability in the runner tRPC server that allows...",
+      "summary": "CVE ID :CVE-2026-9317 Published : Sept. 4, 2026, 6:18 p.m. | 4 hours, 10 minutes ago Description :Nango before 0.71.6 contains a missing authentication vulnerability in the runner tRPC server that...",
       "source": "CVE Feed",
-      "published": "2026-09-04T17:56:20+00:00"
-    },
-    {
-      "title": "CVE-2026-82538 - ILIAS Arbitrary SQL Injection via Repository Trash Table Sort Parameter",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-82538",
-      "summary": "CVE ID :CVE-2026-82538 Published : Sept. 4, 2026, 5:37 p.m. | 50 minutes ago Description :ILIAS before versions 9.22, 10.10, and 11.3 contains a SQL injection vulnerability in the repository trash...",
-      "source": "CVE Feed",
-      "published": "2026-09-04T17:37:16+00:00"
+      "published": "2026-09-04T18:18:07+00:00"
     },
     {
       "title": "CVE-2026-85656 - OS command injection in Amazon log4j-cve-2021-44228-hotpatch",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-85656",
-      "summary": "CVE ID :CVE-2026-85656 Published : Sept. 4, 2026, 5:33 p.m. | 54 minutes ago Description :An OS command injection issue in the log4j-cve-2021-44228-hotpatch package in Amazon Linux before 1.3-9 might...",
+      "summary": "CVE ID :CVE-2026-85656 Published : Sept. 4, 2026, 6:18 p.m. | 4 hours, 10 minutes ago Description :An OS command injection issue in the log4j-cve-2021-44228-hotpatch package in Amazon Linux before...",
       "source": "CVE Feed",
-      "published": "2026-09-04T17:33:20+00:00"
+      "published": "2026-09-04T18:18:06+00:00"
     },
     {
-      "title": "CVE-2026-75430 - PowerJob Worker Remote Code Execution Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-75430",
-      "summary": "CVE ID :CVE-2026-75430 Published : Sept. 4, 2026, 5:16 p.m. | 1 hour, 10 minutes ago Description :PowerJob Worker version 5.1.2 (and likely earlier versions) exposes the /worker/deployContainer HTTP...",
+      "title": "CVE-2026-82538 - ILIAS Arbitrary SQL Injection via Repository Trash Table Sort Parameter",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-82538",
+      "summary": "CVE ID :CVE-2026-82538 Published : Sept. 4, 2026, 6:18 p.m. | 4 hours, 10 minutes ago Description :ILIAS before versions 9.22, 10.10, and 11.3 contains a SQL injection vulnerability in the repository...",
       "source": "CVE Feed",
-      "published": "2026-09-04T17:16:57+00:00"
+      "published": "2026-09-04T18:18:01+00:00"
     },
     {
-      "title": "CVE-2026-18486 - IBM ContextForge MCP Gateway is affected by credential disclosure and privilege escalation via jq filter execution",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-18486",
-      "summary": "CVE ID :CVE-2026-18486 Published : Sept. 4, 2026, 5:16 p.m. | 1 hour, 10 minutes ago Description :IBM ContextForge MCP Gateway Severity: 8.8 | HIGH Visit the link for more details, such as CVSS...",
+      "title": "CVE-2026-57164 - PJSIP: Heap overflow in the HTTP client",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-57164",
+      "summary": "CVE ID :CVE-2026-57164 Published : Sept. 4, 2026, 6:17 p.m. | 4 hours, 10 minutes ago Description :PJSIP is a free and open source multimedia communication library written in C. Prior to commit...",
       "source": "CVE Feed",
-      "published": "2026-09-04T17:16:56+00:00"
+      "published": "2026-09-04T18:17:54+00:00"
     },
     {
-      "title": "CVE-2026-18221 - IBM i is Affected By Improper Authorization and Authentication Vulnerabilities in DDM / DRDA [, ]",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-18221",
-      "summary": "CVE ID :CVE-2026-18221 Published : Sept. 4, 2026, 5:16 p.m. | 1 hour, 10 minutes ago Description :IBM i 7.6, 7.5, 7.4, and 7.3 could allow a remote attacker to gain unauthorized access due to...",
+      "title": "CVE-2026-57163 - PJSIP: Stack overflow parsing a TLS peer certificate's SubjectAltName in GnuTLS backend",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-57163",
+      "summary": "CVE ID :CVE-2026-57163 Published : Sept. 4, 2026, 6:17 p.m. | 4 hours, 10 minutes ago Description :PJSIP is a free and open source multimedia communication library written in C. Prior to commit...",
       "source": "CVE Feed",
-      "published": "2026-09-04T17:16:56+00:00"
+      "published": "2026-09-04T18:17:54+00:00"
     },
     {
-      "title": "CVE-2026-18175 - IBM i is Affected By Improper Authorization and Authentication Vulnerabilities in DDM / DRDA [, ]",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-18175",
-      "summary": "CVE ID :CVE-2026-18175 Published : Sept. 4, 2026, 5:16 p.m. | 1 hour, 10 minutes ago Description :IBM i 7.6, 7.5, 7.4, and 7.3 could allow a remote attacker to manipulate database transactions due to...",
+      "title": "CVE-2026-57162 - PJSIP: Stack overflow parsing SDP a=crypto attributes",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-57162",
+      "summary": "CVE ID :CVE-2026-57162 Published : Sept. 4, 2026, 6:17 p.m. | 4 hours, 10 minutes ago Description :PJSIP is a free and open source multimedia communication library written in C. Prior to commit...",
       "source": "CVE Feed",
-      "published": "2026-09-04T17:16:56+00:00"
+      "published": "2026-09-04T18:17:54+00:00"
     },
     {
-      "title": "CVE-2026-18745 - ILIAS PHP Object Injection via Shibboleth Logout",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-18745",
-      "summary": "CVE ID :CVE-2026-18745 Published : Sept. 4, 2026, 5:15 p.m. | 1 hour, 12 minutes ago Description :ILIAS before versions 9.22, 10.10, and 11.3 contains an unauthenticated PHP object injection...",
+      "title": "CVE-2026-57161 - PJSIP: Stack overflow handling Service-Route headers in a registration response",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-57161",
+      "summary": "CVE ID :CVE-2026-57161 Published : Sept. 4, 2026, 6:17 p.m. | 4 hours, 10 minutes ago Description :PJSIP is a free and open source multimedia communication library written in C. Prior to commit...",
       "source": "CVE Feed",
-      "published": "2026-09-04T17:15:45+00:00"
+      "published": "2026-09-04T18:17:54+00:00"
+    },
+    {
+      "title": "CVE-2026-57159 - PJSIP: SDP parser out-of-bounds write in remote payload-type map maintenance",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-57159",
+      "summary": "CVE ID :CVE-2026-57159 Published : Sept. 4, 2026, 6:17 p.m. | 4 hours, 10 minutes ago Description :PJSIP is a free and open source multimedia communication library written in C. Prior to commit...",
+      "source": "CVE Feed",
+      "published": "2026-09-04T18:17:53+00:00"
+    },
+    {
+      "title": "CVE-2026-53761 - Frappe CRM: Authentication Bypass via Logged Invitation Keys in crm/api",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-53761",
+      "summary": "CVE ID :CVE-2026-53761 Published : Sept. 4, 2026, 6:17 p.m. | 4 hours, 10 minutes ago Description :Frappe CRM is an open-source customer relationship management tool. Prior to version 1.73.0, there...",
+      "source": "CVE Feed",
+      "published": "2026-09-04T18:17:52+00:00"
     },
     {
       "title": "IDScan sued over alleged data breach affecting 153 million drivers",
@@ -70,69 +189,6 @@
       "summary": "Noteworthy stories that might have slipped under the radar: Microsoft rolled out patches for cloud services, hackers compromised 5,000 Dropbox accounts, and Guardio is now valued at $1.1 billion. The...",
       "source": "SecurityWeek",
       "published": "2026-09-04T16:18:30+00:00"
-    },
-    {
-      "title": "CVE-2026-85730 - smol-toml: Denial of Service via malformed TOML documents",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-85730",
-      "summary": "CVE ID :CVE-2026-85730 Published : Sept. 4, 2026, 4:18 p.m. | 2 hours, 9 minutes ago Description :smol-toml is a small, fast, and correct TOML parser and serializer. Prior to 1.7.1, parse() can enter...",
-      "source": "CVE Feed",
-      "published": "2026-09-04T16:18:23+00:00"
-    },
-    {
-      "title": "CVE-2026-77822 - IBM ContextForge MCP Gateway is affected by server-side request forgery (DNS rebinding) via the A2A agent invocation endpoint",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-77822",
-      "summary": "CVE ID :CVE-2026-77822 Published : Sept. 4, 2026, 4:17 p.m. | 2 hours, 9 minutes ago Description :IBM ContextForge MCP Gateway could allow a remote authenticated attacker to obtain sensitive...",
-      "source": "CVE Feed",
-      "published": "2026-09-04T16:17:59+00:00"
-    },
-    {
-      "title": "CVE-2026-75431 - PowerJob Server JWT Authentication Bypass leading to Remote Code Execution",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-75431",
-      "summary": "CVE ID :CVE-2026-75431 Published : Sept. 4, 2026, 4:17 p.m. | 2 hours, 9 minutes ago Description :PowerJob Server version 5.1.2 (and likely earlier) uses a predictable JWT signing key for HS256-based...",
-      "source": "CVE Feed",
-      "published": "2026-09-04T16:17:59+00:00"
-    },
-    {
-      "title": "CVE-2026-44402 - Voltronic Power SNMP Web Pro 1.1 Unauthenticated RCE via upload.cgi",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-44402",
-      "summary": "CVE ID :CVE-2026-44402 Published : Sept. 4, 2026, 4:17 p.m. | 2 hours, 10 minutes ago Description :Voltronic Power SNMP Web Pro 1.1 contains an unauthenticated remote code execution vulnerability in...",
-      "source": "CVE Feed",
-      "published": "2026-09-04T16:17:25+00:00"
-    },
-    {
-      "title": "CVE-2026-19305 - Langflow is vulnerable to Server-Side Request Forgery due to missing or bypassable URL validation in multiple components",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-19305",
-      "summary": "CVE ID :CVE-2026-19305 Published : Sept. 4, 2026, 4:17 p.m. | 2 hours, 10 minutes ago Description :IBM Langflow OSS 1.0.0 through 1.11.2 could allow a remote attacker to obtain sensitive information...",
-      "source": "CVE Feed",
-      "published": "2026-09-04T16:17:24+00:00"
-    },
-    {
-      "title": "CVE-2026-19303 - Langflow is vulnerable to arbitrary file write and arbitrary file deletion due to unvalidated paths in file-processing components",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-19303",
-      "summary": "CVE ID :CVE-2026-19303 Published : Sept. 4, 2026, 4:17 p.m. | 2 hours, 10 minutes ago Description :IBM Langflow OSS 1.0.0 through 1.11.2 could allow a remote authenticated attacker to delete...",
-      "source": "CVE Feed",
-      "published": "2026-09-04T16:17:24+00:00"
-    },
-    {
-      "title": "CVE-2026-19298 - Langflow is vulnerable to remote code execution due to authorization policy bypass in the authenticated flow-build endpoint",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-19298",
-      "summary": "CVE ID :CVE-2026-19298 Published : Sept. 4, 2026, 4:17 p.m. | 2 hours, 10 minutes ago Description :IBM Langflow OSS 1.0.0 through 1.11.2 could allow a remote authenticated attacker to execute...",
-      "source": "CVE Feed",
-      "published": "2026-09-04T16:17:21+00:00"
-    },
-    {
-      "title": "CVE-2026-19274 - IBM Instana Observability is affected by multiple vulnerabilities within Instana Agent container image",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-19274",
-      "summary": "CVE ID :CVE-2026-19274 Published : Sept. 4, 2026, 4:17 p.m. | 2 hours, 10 minutes ago Description :IBM Observability with Instana (Agent) Build 1.0.303 through 1.0.323 IBM Instana Agent Operator...",
-      "source": "CVE Feed",
-      "published": "2026-09-04T16:17:21+00:00"
-    },
-    {
-      "title": "CVE-2026-18658 - IBM Operational Decision Manager for Aug 2026 - Multiple CVEs addressed",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-18658",
-      "summary": "CVE ID :CVE-2026-18658 Published : Sept. 4, 2026, 4:17 p.m. | 2 hours, 10 minutes ago Description :IBM Operational Decision Manager 9.6.0.0, 9.5.0.0, 8.11.1.0, 8.11.0.1, 8.12.0.1, 9.5.0.1, and...",
-      "source": "CVE Feed",
-      "published": "2026-09-04T16:17:21+00:00"
     },
     {
       "title": "HPE Patches Critical RCE Vulnerabilities in AOS-CX",
@@ -182,62 +238,6 @@
       "summary": "PostgreSQL has released updates to address a security flaw that allows an account with the REPLICATION attribute to run arbitrary code as the operating-system user running the database server. The...",
       "source": "The Hacker News",
       "published": "2026-09-04T15:20:19+00:00"
-    },
-    {
-      "title": "CVE-2026-85699 - jina-ai reader server-side request forgery via redirect validation bypass",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-85699",
-      "summary": "CVE ID :CVE-2026-85699 Published : Sept. 4, 2026, 3:17 p.m. | 3 hours, 9 minutes ago Description :jina-ai reader contains a server-side request forgery vulnerability where URL validation is performed...",
-      "source": "CVE Feed",
-      "published": "2026-09-04T15:17:48+00:00"
-    },
-    {
-      "title": "CVE-2026-85696 - SadTalker OS Command Injection via Audio Filename",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-85696",
-      "summary": "CVE ID :CVE-2026-85696 Published : Sept. 4, 2026, 3:17 p.m. | 3 hours, 9 minutes ago Description :SadTalker contains an OS command injection vulnerability in the video muxing process where uploaded...",
-      "source": "CVE Feed",
-      "published": "2026-09-04T15:17:48+00:00"
-    },
-    {
-      "title": "CVE-2026-85695 - FastChat Unauthenticated Worker Registration SSRF and Model Spoofing",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-85695",
-      "summary": "CVE ID :CVE-2026-85695 Published : Sept. 4, 2026, 3:17 p.m. | 3 hours, 9 minutes ago Description :FastChat contains an authentication bypass vulnerability in the /register_worker endpoint that allows...",
-      "source": "CVE Feed",
-      "published": "2026-09-04T15:17:47+00:00"
-    },
-    {
-      "title": "CVE-2026-85694 - LaVague 0.2.35 Remote Code Execution via eval extraction",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-85694",
-      "summary": "CVE ID :CVE-2026-85694 Published : Sept. 4, 2026, 3:17 p.m. | 3 hours, 9 minutes ago Description :LaVague 0.2.35 contains a remote code execution vulnerability in...",
-      "source": "CVE Feed",
-      "published": "2026-09-04T15:17:47+00:00"
-    },
-    {
-      "title": "CVE-2026-85691 - MegaParse 0.0.55 Server-Side Request Forgery via POST /v1/url",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-85691",
-      "summary": "CVE ID :CVE-2026-85691 Published : Sept. 4, 2026, 3:17 p.m. | 3 hours, 9 minutes ago Description :MegaParse 0.0.55 contains an unauthenticated server-side request forgery vulnerability in the POST...",
-      "source": "CVE Feed",
-      "published": "2026-09-04T15:17:47+00:00"
-    },
-    {
-      "title": "CVE-2026-85690 - Plandex 2.2.1 Path Traversal via ApplyFiles",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-85690",
-      "summary": "CVE ID :CVE-2026-85690 Published : Sept. 4, 2026, 3:17 p.m. | 3 hours, 9 minutes ago Description :Plandex 2.2.1 contains a path traversal vulnerability in the ApplyFiles function that allows...",
-      "source": "CVE Feed",
-      "published": "2026-09-04T15:17:46+00:00"
-    },
-    {
-      "title": "CVE-2026-85688 - TEN Framework 0.11.71 Unauthenticated File Read/Write via TMAN Designer",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-85688",
-      "summary": "CVE ID :CVE-2026-85688 Published : Sept. 4, 2026, 3:17 p.m. | 3 hours, 9 minutes ago Description :TEN Framework 0.11.71 contains unauthenticated arbitrary file read and write vulnerabilities in the...",
-      "source": "CVE Feed",
-      "published": "2026-09-04T15:17:46+00:00"
-    },
-    {
-      "title": "CVE-2026-85687 - surya 0.22.1 Unauthenticated Arbitrary File Read via screenshot server",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-85687",
-      "summary": "CVE ID :CVE-2026-85687 Published : Sept. 4, 2026, 3:17 p.m. | 3 hours, 10 minutes ago Description :surya 0.22.1 screenshot server contains an unauthenticated arbitrary file read vulnerability in the...",
-      "source": "CVE Feed",
-      "published": "2026-09-04T15:17:46+00:00"
     },
     {
       "title": "New Ted Backdoor Hides Inside Victims' Own HAProxy Builds to Intercept Web Traffic",
@@ -315,6 +315,13 @@
       "summary": "Microsoft is working to resolve an ongoing Exchange Online outage that is delaying email sent to and received from external domains. [...]",
       "source": "BleepingComputer",
       "published": "2026-09-04T12:22:30+00:00"
+    },
+    {
+      "title": "Insurers Search for Answers to Rein in Rogue AI",
+      "link": "https://www.darkreading.com/cyber-risk/insurers-search-answers-rogue-ai",
+      "summary": "As incidents of unintended harm caused by rogue AI agents mount, CISOs and insurance firms are figuring out how to handle the fallout.",
+      "source": "Dark Reading",
+      "published": "2026-09-04T12:15:03+00:00"
     },
     {
       "title": "12-Year-Old PostgreSQL Vulnerability Enables Database, Server Takeover",
@@ -1176,13 +1183,6 @@
       "summary": "Government agencies with smaller budgets need support — and here's how you can help.",
       "source": "Dark Reading",
       "published": "2026-08-21T14:00:00+00:00"
-    },
-    {
-      "title": "OpenAI Adds Controls That Should've Been There Already",
-      "link": "https://www.darkreading.com/application-security/openai-adds-controls-already",
-      "summary": "The new AI security controls follow the Hugging Face incident last month, though experts say many of these additions should have been in place prior to the frontier models escaping.",
-      "source": "Dark Reading",
-      "published": "2026-08-21T13:30:00+00:00"
     },
     {
       "title": "Who’s Tracking You? Use This New Service to Find Out",
