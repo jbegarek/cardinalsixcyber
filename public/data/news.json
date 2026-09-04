@@ -1,6 +1,272 @@
 {
-  "last_updated": "2026-09-04T13:53:12.078033+00:00",
+  "last_updated": "2026-09-04T17:16:28.953442+00:00",
   "articles": [
+    {
+      "title": "IDScan sued over alleged data breach affecting 153 million drivers",
+      "link": "https://www.bleepingcomputer.com/news/security/idscan-sued-over-alleged-data-breach-affecting-153-million-drivers/",
+      "summary": "Multiple lawsuits have been filed against identity verification company IDScan after hackers allegedly breached the service and offered to sell more than 153 million driver's licenses. [...]",
+      "source": "BleepingComputer",
+      "published": "2026-09-04T16:56:45+00:00"
+    },
+    {
+      "title": "CVE-2026-18175 - IBM i is Affected By Improper Authorization and Authentication Vulnerabilities in DDM / DRDA [, ]",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-18175",
+      "summary": "CVE ID :CVE-2026-18175 Published : Sept. 4, 2026, 4:26 p.m. | 18 minutes ago Description :IBM i 7.6, 7.5, 7.4, and 7.3 could allow a remote attacker to manipulate database transactions due to...",
+      "source": "CVE Feed",
+      "published": "2026-09-04T16:26:14+00:00"
+    },
+    {
+      "title": "CVE-2026-18221 - IBM i is Affected By Improper Authorization and Authentication Vulnerabilities in DDM / DRDA [, ]",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-18221",
+      "summary": "CVE ID :CVE-2026-18221 Published : Sept. 4, 2026, 4:25 p.m. | 18 minutes ago Description :IBM i 7.6, 7.5, 7.4, and 7.3 could allow a remote attacker to gain unauthorized access due to improper...",
+      "source": "CVE Feed",
+      "published": "2026-09-04T16:25:59+00:00"
+    },
+    {
+      "title": "CVE-2026-18486 - IBM ContextForge MCP Gateway is affected by credential disclosure and privilege escalation via jq filter execution",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-18486",
+      "summary": "CVE ID :CVE-2026-18486 Published : Sept. 4, 2026, 4:24 p.m. | 20 minutes ago Description :IBM ContextForge MCP Gateway Severity: 8.8 | HIGH Visit the link for more details, such as CVSS details...",
+      "source": "CVE Feed",
+      "published": "2026-09-04T16:24:45+00:00"
+    },
+    {
+      "title": "In Other News: Microsoft’s Cloud Patches, Hacked Dropbox Accounts, Guardio’s $1.1B Valuation",
+      "link": "https://www.securityweek.com/in-other-news-microsofts-cloud-patches-hacked-dropbox-accounts-guardios-1-1b-valuation/",
+      "summary": "Noteworthy stories that might have slipped under the radar: Microsoft rolled out patches for cloud services, hackers compromised 5,000 Dropbox accounts, and Guardio is now valued at $1.1 billion. The...",
+      "source": "SecurityWeek",
+      "published": "2026-09-04T16:18:30+00:00"
+    },
+    {
+      "title": "CVE-2026-85730 - smol-toml: Denial of Service via malformed TOML documents",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-85730",
+      "summary": "CVE ID :CVE-2026-85730 Published : Sept. 4, 2026, 4:18 p.m. | 26 minutes ago Description :smol-toml is a small, fast, and correct TOML parser and serializer. Prior to 1.7.1, parse() can enter an...",
+      "source": "CVE Feed",
+      "published": "2026-09-04T16:18:23+00:00"
+    },
+    {
+      "title": "CVE-2026-77822 - IBM ContextForge MCP Gateway is affected by server-side request forgery (DNS rebinding) via the A2A agent invocation endpoint",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-77822",
+      "summary": "CVE ID :CVE-2026-77822 Published : Sept. 4, 2026, 4:17 p.m. | 26 minutes ago Description :IBM ContextForge MCP Gateway could allow a remote authenticated attacker to obtain sensitive information due...",
+      "source": "CVE Feed",
+      "published": "2026-09-04T16:17:59+00:00"
+    },
+    {
+      "title": "CVE-2026-75431 - PowerJob Server JWT Authentication Bypass leading to Remote Code Execution",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-75431",
+      "summary": "CVE ID :CVE-2026-75431 Published : Sept. 4, 2026, 4:17 p.m. | 26 minutes ago Description :PowerJob Server version 5.1.2 (and likely earlier) uses a predictable JWT signing key for HS256-based...",
+      "source": "CVE Feed",
+      "published": "2026-09-04T16:17:59+00:00"
+    },
+    {
+      "title": "CVE-2026-44402 - Voltronic Power SNMP Web Pro 1.1 Unauthenticated RCE via upload.cgi",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-44402",
+      "summary": "CVE ID :CVE-2026-44402 Published : Sept. 4, 2026, 4:17 p.m. | 27 minutes ago Description :Voltronic Power SNMP Web Pro 1.1 contains an unauthenticated remote code execution vulnerability in the...",
+      "source": "CVE Feed",
+      "published": "2026-09-04T16:17:25+00:00"
+    },
+    {
+      "title": "CVE-2026-19305 - Langflow is vulnerable to Server-Side Request Forgery due to missing or bypassable URL validation in multiple components",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-19305",
+      "summary": "CVE ID :CVE-2026-19305 Published : Sept. 4, 2026, 4:17 p.m. | 27 minutes ago Description :IBM Langflow OSS 1.0.0 through 1.11.2 could allow a remote attacker to obtain sensitive information due to...",
+      "source": "CVE Feed",
+      "published": "2026-09-04T16:17:24+00:00"
+    },
+    {
+      "title": "CVE-2026-19303 - Langflow is vulnerable to arbitrary file write and arbitrary file deletion due to unvalidated paths in file-processing components",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-19303",
+      "summary": "CVE ID :CVE-2026-19303 Published : Sept. 4, 2026, 4:17 p.m. | 27 minutes ago Description :IBM Langflow OSS 1.0.0 through 1.11.2 could allow a remote authenticated attacker to delete arbitrary local...",
+      "source": "CVE Feed",
+      "published": "2026-09-04T16:17:24+00:00"
+    },
+    {
+      "title": "CVE-2026-19298 - Langflow is vulnerable to remote code execution due to authorization policy bypass in the authenticated flow-build endpoint",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-19298",
+      "summary": "CVE ID :CVE-2026-19298 Published : Sept. 4, 2026, 4:17 p.m. | 27 minutes ago Description :IBM Langflow OSS 1.0.0 through 1.11.2 could allow a remote authenticated attacker to execute arbitrary code...",
+      "source": "CVE Feed",
+      "published": "2026-09-04T16:17:21+00:00"
+    },
+    {
+      "title": "CVE-2026-19274 - IBM Instana Observability is affected by multiple vulnerabilities within Instana Agent container image",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-19274",
+      "summary": "CVE ID :CVE-2026-19274 Published : Sept. 4, 2026, 4:17 p.m. | 27 minutes ago Description :IBM Observability with Instana (Agent) Build 1.0.303 through 1.0.323 IBM Instana Agent Operator could allow...",
+      "source": "CVE Feed",
+      "published": "2026-09-04T16:17:21+00:00"
+    },
+    {
+      "title": "CVE-2026-18658 - IBM Operational Decision Manager for Aug 2026 - Multiple CVEs addressed",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-18658",
+      "summary": "CVE ID :CVE-2026-18658 Published : Sept. 4, 2026, 4:17 p.m. | 27 minutes ago Description :IBM Operational Decision Manager 9.6.0.0, 9.5.0.0, 8.11.1.0, 8.11.0.1, 8.12.0.1, 9.5.0.1, and 9.0.0.1 is...",
+      "source": "CVE Feed",
+      "published": "2026-09-04T16:17:21+00:00"
+    },
+    {
+      "title": "HPE Patches Critical RCE Vulnerabilities in AOS-CX",
+      "link": "https://www.securityweek.com/hpe-patches-critical-rce-vulnerabilities-in-aos-cx/",
+      "summary": "Nearly two dozen issues, tracked collectively as CVE-2026-73749 (CVSS score of 9.8), were addressed with the updates. The post HPE Patches Critical RCE Vulnerabilities in AOS-CX appeared first on...",
+      "source": "SecurityWeek",
+      "published": "2026-09-04T16:11:06+00:00"
+    },
+    {
+      "title": "OpenAI Pledges $1 Billion to Bring Frontier AI to Critical Infrastructure Defenders",
+      "link": "https://www.securityweek.com/openai-pledges-1-billion-to-bring-frontier-ai-to-critical-infrastructure-defenders/",
+      "summary": "The Daybreak initiative will provide subsidized AI cyber capabilities, training and technical assistance, though OpenAI has disclosed few details about costs and eligibility. The post OpenAI Pledges...",
+      "source": "SecurityWeek",
+      "published": "2026-09-04T16:07:22+00:00"
+    },
+    {
+      "title": "Companies Have Six Months to Prepare for Automated Attacks",
+      "link": "https://www.darkreading.com/cybersecurity-operations/companies-six-months-prepare-automated-attacks",
+      "summary": "Frontier AI models have already demonstrated they can autonomously — and in some cases, inadvertently — conduct end-to-end compromises, but the situation will become more urgent very soon.",
+      "source": "Dark Reading",
+      "published": "2026-09-04T15:57:31+00:00"
+    },
+    {
+      "title": "Phishing Campaign Sends Millions of Emails Using Invisible Unicode to Evade Filters",
+      "link": "https://thehackernews.com/2026/09/phishing-campaign-sends-millions-of.html",
+      "summary": "Microsoft is alerting of a \"high-volume phishing campaign\" that's using invisible Unicode tag characters to bypass email filters. \"Instead of using these characters to hide instructions from people...",
+      "source": "The Hacker News",
+      "published": "2026-09-04T15:57:15+00:00"
+    },
+    {
+      "title": "US, Britain to coordinate on scam center takedowns",
+      "link": "https://therecord.media/scam-compounds-coordination-us-uk-memorandum",
+      "summary": "The U.S. Department of Justice and the U.K.'s National Crime Agency and Crown Prosecutor signed a memorandum to cooperate on cases involving Southeast Asian scam operations.",
+      "source": "The Record",
+      "published": "2026-09-04T15:42:00+00:00"
+    },
+    {
+      "title": "Critical Citrix NetScaler auth bypass now leveraged in attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/hackers-target-critical-citrix-netscaler-auth-bypass-in-attacks/",
+      "summary": "Attackers have begun targeting a critical-severity Citrix NetScaler auth bypass flaw (CVE-2026-19490) in the wild, according to vulnerability intelligence company Previdian. [...]",
+      "source": "BleepingComputer",
+      "published": "2026-09-04T15:25:59+00:00"
+    },
+    {
+      "title": "PostgreSQL Fixes 12-Year-Old Logical Decoding Flaw Enabling Replication-Role Code Execution",
+      "link": "https://thehackernews.com/2026/09/postgresql-fixes-12-year-old-logical.html",
+      "summary": "PostgreSQL has released updates to address a security flaw that allows an account with the REPLICATION attribute to run arbitrary code as the operating-system user running the database server. The...",
+      "source": "The Hacker News",
+      "published": "2026-09-04T15:20:19+00:00"
+    },
+    {
+      "title": "CVE-2026-85699 - jina-ai reader server-side request forgery via redirect validation bypass",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-85699",
+      "summary": "CVE ID :CVE-2026-85699 Published : Sept. 4, 2026, 3:17 p.m. | 1 hour, 27 minutes ago Description :jina-ai reader contains a server-side request forgery vulnerability where URL validation is performed...",
+      "source": "CVE Feed",
+      "published": "2026-09-04T15:17:48+00:00"
+    },
+    {
+      "title": "CVE-2026-85696 - SadTalker OS Command Injection via Audio Filename",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-85696",
+      "summary": "CVE ID :CVE-2026-85696 Published : Sept. 4, 2026, 3:17 p.m. | 1 hour, 27 minutes ago Description :SadTalker contains an OS command injection vulnerability in the video muxing process where uploaded...",
+      "source": "CVE Feed",
+      "published": "2026-09-04T15:17:48+00:00"
+    },
+    {
+      "title": "CVE-2026-85695 - FastChat Unauthenticated Worker Registration SSRF and Model Spoofing",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-85695",
+      "summary": "CVE ID :CVE-2026-85695 Published : Sept. 4, 2026, 3:17 p.m. | 1 hour, 27 minutes ago Description :FastChat contains an authentication bypass vulnerability in the /register_worker endpoint that allows...",
+      "source": "CVE Feed",
+      "published": "2026-09-04T15:17:47+00:00"
+    },
+    {
+      "title": "CVE-2026-85694 - LaVague 0.2.35 Remote Code Execution via eval extraction",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-85694",
+      "summary": "CVE ID :CVE-2026-85694 Published : Sept. 4, 2026, 3:17 p.m. | 1 hour, 27 minutes ago Description :LaVague 0.2.35 contains a remote code execution vulnerability in...",
+      "source": "CVE Feed",
+      "published": "2026-09-04T15:17:47+00:00"
+    },
+    {
+      "title": "CVE-2026-85691 - MegaParse 0.0.55 Server-Side Request Forgery via POST /v1/url",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-85691",
+      "summary": "CVE ID :CVE-2026-85691 Published : Sept. 4, 2026, 3:17 p.m. | 1 hour, 27 minutes ago Description :MegaParse 0.0.55 contains an unauthenticated server-side request forgery vulnerability in the POST...",
+      "source": "CVE Feed",
+      "published": "2026-09-04T15:17:47+00:00"
+    },
+    {
+      "title": "CVE-2026-85690 - Plandex 2.2.1 Path Traversal via ApplyFiles",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-85690",
+      "summary": "CVE ID :CVE-2026-85690 Published : Sept. 4, 2026, 3:17 p.m. | 1 hour, 27 minutes ago Description :Plandex 2.2.1 contains a path traversal vulnerability in the ApplyFiles function that allows...",
+      "source": "CVE Feed",
+      "published": "2026-09-04T15:17:46+00:00"
+    },
+    {
+      "title": "CVE-2026-85688 - TEN Framework 0.11.71 Unauthenticated File Read/Write via TMAN Designer",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-85688",
+      "summary": "CVE ID :CVE-2026-85688 Published : Sept. 4, 2026, 3:17 p.m. | 1 hour, 27 minutes ago Description :TEN Framework 0.11.71 contains unauthenticated arbitrary file read and write vulnerabilities in the...",
+      "source": "CVE Feed",
+      "published": "2026-09-04T15:17:46+00:00"
+    },
+    {
+      "title": "CVE-2026-85687 - surya 0.22.1 Unauthenticated Arbitrary File Read via screenshot server",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-85687",
+      "summary": "CVE ID :CVE-2026-85687 Published : Sept. 4, 2026, 3:17 p.m. | 1 hour, 27 minutes ago Description :surya 0.22.1 screenshot server contains an unauthenticated arbitrary file read vulnerability in the...",
+      "source": "CVE Feed",
+      "published": "2026-09-04T15:17:46+00:00"
+    },
+    {
+      "title": "CVE-2026-85686 - ms-swift 4.5.2 Unauthenticated SSRF via Multimodal Media URLs",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-85686",
+      "summary": "CVE ID :CVE-2026-85686 Published : Sept. 4, 2026, 3:17 p.m. | 1 hour, 27 minutes ago Description :ms-swift 4.5.2 contains a server-side request forgery vulnerability in the swift deploy...",
+      "source": "CVE Feed",
+      "published": "2026-09-04T15:17:46+00:00"
+    },
+    {
+      "title": "CVE-2026-85685 - AgentScope through 2.0.7.post1 Arbitrary Directory Copy via add_skill",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-85685",
+      "summary": "CVE ID :CVE-2026-85685 Published : Sept. 4, 2026, 3:17 p.m. | 1 hour, 27 minutes ago Description :AgentScope through 2.0.7.post1 contains a path traversal vulnerability in LocalWorkspace.add_skill...",
+      "source": "CVE Feed",
+      "published": "2026-09-04T15:17:46+00:00"
+    },
+    {
+      "title": "CVE-2026-85684 - marker through 2.0.0 Path Traversal via upload filename",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-85684",
+      "summary": "CVE ID :CVE-2026-85684 Published : Sept. 4, 2026, 3:17 p.m. | 1 hour, 27 minutes ago Description :marker through 2.0.0 contains a path traversal vulnerability in the FastAPI /marker/upload handler...",
+      "source": "CVE Feed",
+      "published": "2026-09-04T15:17:46+00:00"
+    },
+    {
+      "title": "CVE-2026-85675 - OWL DocumentProcessingToolkit Server-Side Request Forgery via URL Fetching",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-85675",
+      "summary": "CVE ID :CVE-2026-85675 Published : Sept. 4, 2026, 3:17 p.m. | 1 hour, 27 minutes ago Description :OWL's DocumentProcessingToolkit contains a server-side request forgery vulnerability in the...",
+      "source": "CVE Feed",
+      "published": "2026-09-04T15:17:45+00:00"
+    },
+    {
+      "title": "CVE-2026-85674 - aider 0.86.2 Remote Code Execution via .aider.conf.yml",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-85674",
+      "summary": "CVE ID :CVE-2026-85674 Published : Sept. 4, 2026, 3:17 p.m. | 1 hour, 27 minutes ago Description :aider (aider-chat) automatically loads a .aider.conf.yml configuration file from the root of the git...",
+      "source": "CVE Feed",
+      "published": "2026-09-04T15:17:45+00:00"
+    },
+    {
+      "title": "New Ted Backdoor Hides Inside Victims' Own HAProxy Builds to Intercept Web Traffic",
+      "link": "https://thehackernews.com/2026/09/new-ted-backdoor-hides-inside-victims.html",
+      "summary": "A previously undocumented Linux toolkit has been found compiled directly into the trojanized HAProxy load balancers of two South Korean organizations, where it intercepted web traffic and served...",
+      "source": "The Hacker News",
+      "published": "2026-09-04T14:51:13+00:00"
+    },
+    {
+      "title": "UK account-hack losses surge as new reporting system exposes hidden cases",
+      "link": "https://therecord.media/uk-account-hack-losses-surge-as-reporting-changes",
+      "summary": "In its first annual assessment, published Friday, the City of London Police said victims reported losing £6.3 million ($8.5 million) to account hacks in the year ending March 31, up from £1.2 million...",
+      "source": "The Record",
+      "published": "2026-09-04T14:45:00+00:00"
+    },
+    {
+      "title": "Microsoft says some users can’t open the Teams desktop client",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-some-users-cant-open-the-teams-desktop-client/",
+      "summary": "Microsoft is working to resolve a known issue that causes delays or blocks some users from opening the Microsoft Teams desktop client on Windows systems. [...]",
+      "source": "BleepingComputer",
+      "published": "2026-09-04T14:30:15+00:00"
+    },
+    {
+      "title": "39 New Methods That Compromise Passkey Authentication",
+      "link": "https://www.bleepingcomputer.com/news/security/39-new-methods-that-compromise-passkey-authentication/",
+      "summary": "Passkeys eliminate many password-based attacks, but researchers have documented 39 methods for compromising authentication built around them. Token explains how attackers can abuse authentication...",
+      "source": "BleepingComputer",
+      "published": "2026-09-04T14:01:11+00:00"
+    },
     {
       "title": "Russian data centers face new security requirements amid Ukraine's drone threats",
       "link": "https://therecord.media/russia-data-centers-ukraine-drone-threats",
@@ -21,6 +287,13 @@
       "summary": "An anonymous security researcher who uses the \"Nightmare Eclipse\" handle released a CrowdStrike Falcon zero-day exploit named \"FalconFlank\" that lets attackers escalate privileges on up-to-date...",
       "source": "BleepingComputer",
       "published": "2026-09-04T13:22:01+00:00"
+    },
+    {
+      "title": "Beveiligingslek in 7-Zip laat aanvaller Mark-of-the-Web omzeilen",
+      "link": "https://www.security.nl/posting/951784/Beveiligingslek+in+7-Zip+laat+aanvaller+Mark-of-the-Web+omzeilen?channel=rss",
+      "summary": "Beveiligingslek in 7-Zip laat aanvaller Mark-of-the-Web omzeilen Een kwetsbaarheid in de populaire archiveringssoftware 7-Zip maakt het mogelijk voor aanvallers om het Mark-of-the-Web te omzeilen...",
+      "source": "CVE Newsroom",
+      "published": "2026-09-04T13:10:28+00:00"
     },
     {
       "title": "AI Is Ending the Era of Hidden Vulnerabilities — Are Vendors Ready?",
@@ -86,172 +359,11 @@
       "published": "2026-09-04T11:31:52+00:00"
     },
     {
-      "title": "CVE-2026-85617 - snipe-it before 8.6.3 Authorization Bypass via Bulk Delete",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-85617",
-      "summary": "CVE ID :CVE-2026-85617 Published : Sept. 4, 2026, 11:30 a.m. | 57 minutes ago Description :snipe-it versions before 8.6.3 contain an authorization bypass vulnerability in the bulk delete...",
-      "source": "CVE Feed",
-      "published": "2026-09-04T11:30:11+00:00"
-    },
-    {
-      "title": "CVE-2026-85616 - Snipe-IT before 8.6.2 Authorization Bypass via Checkout-Acceptance",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-85616",
-      "summary": "CVE ID :CVE-2026-85616 Published : Sept. 4, 2026, 11:30 a.m. | 57 minutes ago Description :Snipe-IT versions before 8.6.2 contain an authorization bypass vulnerability in checkout-acceptance report...",
-      "source": "CVE Feed",
-      "published": "2026-09-04T11:30:10+00:00"
-    },
-    {
-      "title": "CVE-2026-85614 - OpenPanel API before 2.3.0 Unauthenticated SSRF via site-checker",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-85614",
-      "summary": "CVE ID :CVE-2026-85614 Published : Sept. 4, 2026, 11:30 a.m. | 57 minutes ago Description :OpenPanel before 2.3.0 contains an unauthenticated server-side request forgery vulnerability in the GET...",
-      "source": "CVE Feed",
-      "published": "2026-09-04T11:30:09+00:00"
-    },
-    {
-      "title": "CVE-2026-85613 - OpenPanel Unauthenticated XSS via SVG Favicon Proxy",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-85613",
-      "summary": "CVE ID :CVE-2026-85613 Published : Sept. 4, 2026, 11:30 a.m. | 57 minutes ago Description :OpenPanel before 2.3.0 contains a cross-site scripting vulnerability in the unauthenticated favicon proxy...",
-      "source": "CVE Feed",
-      "published": "2026-09-04T11:30:08+00:00"
-    },
-    {
-      "title": "CVE-2026-85612 - OpenPanel before 2.3.0 SSRF via favicon and og endpoints",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-85612",
-      "summary": "CVE ID :CVE-2026-85612 Published : Sept. 4, 2026, 11:30 a.m. | 57 minutes ago Description :OpenPanel before 2.3.0 contains an unauthenticated server-side request forgery vulnerability in the...",
-      "source": "CVE Feed",
-      "published": "2026-09-04T11:30:08+00:00"
-    },
-    {
-      "title": "CVE-2026-85610 - OpenPanel before 2.3.0 Remote Code Execution via chart formulas",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-85610",
-      "summary": "CVE ID :CVE-2026-85610 Published : Sept. 4, 2026, 11:30 a.m. | 57 minutes ago Description :OpenPanel before 2.3.0 fails to properly validate chart formula expressions, allowing authenticated project...",
-      "source": "CVE Feed",
-      "published": "2026-09-04T11:30:06+00:00"
-    },
-    {
-      "title": "CVE-2026-85604 - Grav before 2.0.19 Remote Code Execution via sort filter",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-85604",
-      "summary": "CVE ID :CVE-2026-85604 Published : Sept. 4, 2026, 11:30 a.m. | 57 minutes ago Description :Grav before 2.0.19 (affected versions Severity: 8.8 | HIGH Visit the link for more details, such as CVSS...",
-      "source": "CVE Feed",
-      "published": "2026-09-04T11:30:05+00:00"
-    },
-    {
-      "title": "CVE-2026-85602 - Grav Form Plugin before 9.1.20 reCAPTCHA v3 Authentication Bypass",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-85602",
-      "summary": "CVE ID :CVE-2026-85602 Published : Sept. 4, 2026, 11:30 a.m. | 57 minutes ago Description :The Grav Form plugin (getgrav/grav-plugin-form) versions 8.0.6 through 9.1.19 select the reCAPTCHA version...",
-      "source": "CVE Feed",
-      "published": "2026-09-04T11:30:04+00:00"
-    },
-    {
-      "title": "CVE-2026-85597 - Traefik before v2.11.55 mTLS Bypass via TLS Option Conflict",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-85597",
-      "summary": "CVE ID :CVE-2026-85597 Published : Sept. 4, 2026, 11:30 a.m. | 57 minutes ago Description :Traefik before v2.11.55 contains a TLS option conflict resolution vulnerability that allows unauthenticated...",
-      "source": "CVE Feed",
-      "published": "2026-09-04T11:30:00+00:00"
-    },
-    {
-      "title": "CVE-2026-85596 - Traefik v3.7 Authentication Bypass via TLS Option Conflict",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-85596",
-      "summary": "CVE ID :CVE-2026-85596 Published : Sept. 4, 2026, 11:30 a.m. | 57 minutes ago Description :Traefik versions >= v3.7.0 and Severity: 8.2 | HIGH Visit the link for more details, such as CVSS details...",
-      "source": "CVE Feed",
-      "published": "2026-09-04T11:30:00+00:00"
-    },
-    {
-      "title": "CVE-2026-85595 - Traefik before v2.11.55 Authentication Bypass via digestAuth",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-85595",
-      "summary": "CVE ID :CVE-2026-85595 Published : Sept. 4, 2026, 11:29 a.m. | 57 minutes ago Description :Traefik versions before v2.11.55 contain an authentication bypass vulnerability in the digestAuth middleware...",
-      "source": "CVE Feed",
-      "published": "2026-09-04T11:29:59+00:00"
-    },
-    {
-      "title": "CVE-2026-85585 - SiYuan before v3.8.2 Unbounded Memory Consumption via ControlConcurrency",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-85585",
-      "summary": "CVE ID :CVE-2026-85585 Published : Sept. 4, 2026, 11:29 a.m. | 57 minutes ago Description :SiYuan before v3.8.2 contains an unbounded resource consumption vulnerability in the request-concurrency...",
-      "source": "CVE Feed",
-      "published": "2026-09-04T11:29:52+00:00"
-    },
-    {
-      "title": "CVE-2026-85584 - SiYuan before v3.8.2 Denial of Service via Auth Throttle",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-85584",
-      "summary": "CVE ID :CVE-2026-85584 Published : Sept. 4, 2026, 11:29 a.m. | 57 minutes ago Description :SiYuan versions before v3.8.2 contain a denial of service vulnerability in the publish-service Basic Auth...",
-      "source": "CVE Feed",
-      "published": "2026-09-04T11:29:52+00:00"
-    },
-    {
-      "title": "CVE-2026-85581 - SiYuan before v3.8.2 Denial of Service via unauthenticated UI-process registration",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-85581",
-      "summary": "CVE ID :CVE-2026-85581 Published : Sept. 4, 2026, 11:29 a.m. | 57 minutes ago Description :SiYuan before v3.8.2 contains a denial of service vulnerability in the unauthenticated /api/system/uiproc...",
-      "source": "CVE Feed",
-      "published": "2026-09-04T11:29:50+00:00"
-    },
-    {
-      "title": "CVE-2026-79707 - Arbitrary File Read in Google Agent Development Kit (ADK)",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-79707",
-      "summary": "CVE ID :CVE-2026-79707 Published : Sept. 4, 2026, 11:17 a.m. | 1 hour, 10 minutes ago Description :A Path Traversal vulnerability in the builder endpoint in Google Cloud Agent Development Kit (ADK)...",
-      "source": "CVE Feed",
-      "published": "2026-09-04T11:17:19+00:00"
-    },
-    {
-      "title": "CVE-2026-4644 - Improper Authorization in Google Cloud Integration Connectors Leads to Project Takeover",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-4644",
-      "summary": "CVE ID :CVE-2026-4644 Published : Sept. 4, 2026, 11:17 a.m. | 1 hour, 10 minutes ago Description :A Missing Authorization vulnerability in HTTP Connector in Google Cloud Integration Connectors...",
-      "source": "CVE Feed",
-      "published": "2026-09-04T11:17:18+00:00"
-    },
-    {
-      "title": "CVE-2026-85546 - MISP Sharing Group Quick-Edit Actions Allow CSRF via State-Changing GET Requests",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-85546",
-      "summary": "CVE ID :CVE-2026-85546 Published : Sept. 4, 2026, 10:17 a.m. | 2 hours, 10 minutes ago Description :MISP contains a cross-site request forgery (CSRF) vulnerability in the sharing group quick-edit...",
-      "source": "CVE Feed",
-      "published": "2026-09-04T10:17:14+00:00"
-    },
-    {
-      "title": "CVE-2026-85540 - Interinfo｜DreamMaker - SQL Injection",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-85540",
-      "summary": "CVE ID :CVE-2026-85540 Published : Sept. 4, 2026, 10:17 a.m. | 2 hours, 10 minutes ago Description :DreamMaker developed by Interinfo has a SQL Injection vulnerability. Authenticated remote attackers...",
-      "source": "CVE Feed",
-      "published": "2026-09-04T10:17:14+00:00"
-    },
-    {
-      "title": "CVE-2026-85184 - @fastify/middie vulnerable to path-scoped middleware bypass via absolute-form request target",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-85184",
-      "summary": "CVE ID :CVE-2026-85184 Published : Sept. 4, 2026, 10:17 a.m. | 2 hours, 10 minutes ago Description :@fastify/middie versions >= 9.1.0 and before 9.3.4 decide whether to run path-scoped middleware by...",
-      "source": "CVE Feed",
-      "published": "2026-09-04T10:17:13+00:00"
-    },
-    {
-      "title": "CVE-2026-84504 - fastify vulnerable to request body replacement via an async validation result collision",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-84504",
-      "summary": "CVE ID :CVE-2026-84504 Published : Sept. 4, 2026, 10:17 a.m. | 2 hours, 10 minutes ago Description :fastify versions before 5.12.2 treat the object resolved by a successful Ajv async validator as the...",
-      "source": "CVE Feed",
-      "published": "2026-09-04T10:17:13+00:00"
-    },
-    {
-      "title": "CVE-2026-82923 - AI Website Builder (GitHub build) 1.0.0 - Unauthenticated RCE via Unprotected REST Routes",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-82923",
-      "summary": "CVE ID :CVE-2026-82923 Published : Sept. 4, 2026, 10:17 a.m. | 2 hours, 10 minutes ago Description :The AI Website Builder WordPress plugin (GitHub build) 1.0.0 does not perform any authorisation or...",
-      "source": "CVE Feed",
-      "published": "2026-09-04T10:17:13+00:00"
-    },
-    {
       "title": "Nvidia Is Buying AI Platform Hugging Face for $13 Billion",
       "link": "https://www.securityweek.com/nvidia-is-buying-ai-platform-hugging-face-for-13-billion/",
       "summary": "The deal highlights Nvidia’s push to champion increasingly popular open-source AI models. The post Nvidia Is Buying AI Platform Hugging Face for $13 Billion appeared first on SecurityWeek.",
       "source": "SecurityWeek",
       "published": "2026-09-04T10:00:00+00:00"
-    },
-    {
-      "title": "CVE-2026-85538 - MISP Attribute Deletion Authorization Bypass Allows Users Without Modify Permissions to Delete Attributes",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-85538",
-      "summary": "CVE ID :CVE-2026-85538 Published : Sept. 4, 2026, 9:17 a.m. | 3 hours, 10 minutes ago Description :An incorrect authorization vulnerability in MISP allowed authenticated users to delete attributes...",
-      "source": "CVE Feed",
-      "published": "2026-09-04T09:17:11+00:00"
-    },
-    {
-      "title": "CVE-2026-81302 - PALLET CONTROL Incorrect Default Permissions Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-81302",
-      "summary": "CVE ID :CVE-2026-81302 Published : Sept. 4, 2026, 9:17 a.m. | 3 hours, 10 minutes ago Description :PALLET CONTROL products contain an incorrect default permission vulnerability, which may allow a...",
-      "source": "CVE Feed",
-      "published": "2026-09-04T09:17:11+00:00"
     },
     {
       "title": "Over 440,000 Exploit Attempts Target Super Forms and Elementor Pro RCE Flaws",
@@ -273,20 +385,6 @@
       "summary": "Google Releases Chrome Update to Patch Actively Exploited V8 Zero-Day Google on Thursday released security updates to patch 12 vulnerabilities, including one that has come under active exploitation...",
       "source": "CVE Newsroom",
       "published": "2026-09-04T07:18:47+00:00"
-    },
-    {
-      "title": "CVE-2026-85094 - Canva Android App WebView Cross-Origin Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-85094",
-      "summary": "CVE ID :CVE-2026-85094 Published : Sept. 4, 2026, 7:17 a.m. | 5 hours, 10 minutes ago Description :The Canva Android App before 2.376.0 did not restrict the headers returned to an external origin...",
-      "source": "CVE Feed",
-      "published": "2026-09-04T07:17:11+00:00"
-    },
-    {
-      "title": "CVE-2026-85085 - Canva Android App WebView Cross-Origin Resource Access Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-85085",
-      "summary": "CVE ID :CVE-2026-85085 Published : Sept. 4, 2026, 7:17 a.m. | 5 hours, 10 minutes ago Description :The Canva Android App before 2.376.0 allowed an external origin to be loaded in a privileged...",
-      "source": "CVE Feed",
-      "published": "2026-09-04T07:17:11+00:00"
     },
     {
       "title": "Google waarschuwt voor actief misbruik van beveiligingslek in Chrome",
@@ -387,13 +485,6 @@
       "published": "2026-09-03T15:22:33+00:00"
     },
     {
-      "title": "Capsule Security Launches ‘AI Circuit Breaker’ to Stop Rogue Agents",
-      "link": "https://www.securityweek.com/capsule-security-launches-ai-circuit-breaker-to-stop-rogue-agents/",
-      "summary": "New models, trained using NVIDIA Nemotron 3 Ultra, aim to catch rogue agent behavior before it executes, without the latency of large-model review. The post Capsule Security Launches ‘AI Circuit...",
-      "source": "SecurityWeek",
-      "published": "2026-09-03T15:15:00+00:00"
-    },
-    {
       "title": "OpenAI confirms ChatGPT is down ahead of 'Astra' model launch",
       "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-confirms-chatgpt-is-down-ahead-of-astra-model-launch/",
       "summary": "ChatGPT and Codex are experiencing a major outage, with users reporting errors across nearly every major ChatGPT feature. [...]",
@@ -443,39 +534,11 @@
       "published": "2026-09-03T13:50:59+00:00"
     },
     {
-      "title": "HiddenLayer Raises $100 Million for AI Runtime Security",
-      "link": "https://www.securityweek.com/hiddenlayer-raises-100-million-for-ai-runtime-security/",
-      "summary": "The Austin-based company will invest in agentic runtime security capabilities to secure AI coding agents. The post HiddenLayer Raises $100 Million for AI Runtime Security appeared first on...",
-      "source": "SecurityWeek",
-      "published": "2026-09-03T12:17:30+00:00"
-    },
-    {
-      "title": "Microsoft says KB5120998 Windows update resets desktop settings",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-kb5120998-windows-update-resets-desktop-settings/",
-      "summary": "Microsoft has confirmed that desktop settings are lost or reset on some Windows devices after installing the KB5120998 August 2026 preview update. [...]",
-      "source": "BleepingComputer",
-      "published": "2026-09-03T12:16:32+00:00"
-    },
-    {
       "title": "Kritieke VMware-kwetsbaarheid laat vm-aanvaller code op host uitvoeren",
       "link": "https://www.security.nl/posting/951602/Kritieke+VMware-kwetsbaarheid+laat+vm-aanvaller+code+op+host+uitvoeren?channel=rss",
       "summary": "Kritieke VMware-kwetsbaarheid laat vm-aanvaller code op host uitvoeren Leverancier van virtualisatiesoftware Broadcom waarschuwt vandaag voor een kritieke kwetsbaarheid in VMware Workstation en...",
       "source": "CVE Newsroom",
       "published": "2026-09-03T12:00:44+00:00"
-    },
-    {
-      "title": "US and Canadian court data exposed in Thomson Reuters breach",
-      "link": "https://therecord.media/thomson-reuters-cyberattack-data",
-      "summary": "Sealed court information and sensitive personal data were exposed in a breach of a Thomson Reuters records platform affecting courts in at least 12 U.S. states, the U.S. Virgin Islands and Canada.",
-      "source": "The Record",
-      "published": "2026-09-03T12:00:00+00:00"
-    },
-    {
-      "title": "AI Agent Firewall Startup AIR Security Emerges From Stealth With $50 Million",
-      "link": "https://www.securityweek.com/ai-agent-firewall-startup-air-security-emerges-from-stealth-with-50-million/",
-      "summary": "The startup’s firewall evaluates AI skills, plugins and MCP servers for malicious instructions, excessive permissions and software supply chain risks. The post AI Agent Firewall Startup AIR Security...",
-      "source": "SecurityWeek",
-      "published": "2026-09-03T12:00:00+00:00"
     },
     {
       "title": "'Breeze Comet' Tears Into Brazilian & Global Financial Systems",
@@ -490,13 +553,6 @@
       "summary": "An RMM phishing campaign initially associated with Canadian targeting due to its use of Canada Revenue Agency (CRA) tax forms as lures has turned out to be part of a broader campaign spanning 46...",
       "source": "The Hacker News",
       "published": "2026-09-03T11:58:00+00:00"
-    },
-    {
-      "title": "Plex warns users to patch security vulnerabilities immediately",
-      "link": "https://www.bleepingcomputer.com/news/security/plex-warns-users-to-patch-security-vulnerabilities-immediately/",
-      "summary": "Plex urged users this week to update their desktop clients and media servers immediately to patch multiple security vulnerabilities. [...]",
-      "source": "BleepingComputer",
-      "published": "2026-09-03T11:02:22+00:00"
     },
     {
       "title": "Vulnerability in OptimiDoc Server (On-Premise) software",
@@ -532,13 +588,6 @@
       "summary": "WordPress-sites aangevallen via kritiek upload-lek in Elementor Pro Aanvallers maken actief misbruik van een kritieke upload-kwetsbaarheid in Elementor Pro voor het aanvallen van WordPress-sites...",
       "source": "CVE Newsroom",
       "published": "2026-09-03T09:16:01+00:00"
-    },
-    {
-      "title": "Microsoft Teams, Outlook fail to launch on ARM-based Windows PCs",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-teams-outlook-fail-to-launch-on-arm-based-windows-pcs/",
-      "summary": "Microsoft is working to fix a known issue that causes crashes and launch failures for Microsoft Teams and New Outlook users after installing updates released since the August 2026 Patch Tuesday. [...]",
-      "source": "BleepingComputer",
-      "published": "2026-09-03T08:55:25+00:00"
     },
     {
       "title": "Pegasus Zero-Click Spyware Exploit Infects Serbian Student Movement Member's iPhone",
@@ -590,13 +639,6 @@
       "published": "2026-09-02T21:14:06+00:00"
     },
     {
-      "title": "Hackers exploit Sangoma Switchvox flaw to deploy reverse shells",
-      "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-sangoma-switchvox-flaw-to-deploy-reverse-shells/",
-      "summary": "Attackers are actively exploiting CVE-2026-9586, an unauthenticated SQL injection vulnerability in the Sangoma Switchvox VoIP platform that can lead to remote code execution. [...]",
-      "source": "BleepingComputer",
-      "published": "2026-09-02T21:00:13+00:00"
-    },
-    {
       "title": "SonicWall SMA 1000 Zero-Days Enable Unauthenticated RCE",
       "link": "https://www.darkreading.com/vulnerabilities-threats/sonicwall-sma-1000-zero-days-unauthenticated-rce",
       "summary": "The exploitation activity follows attacks earlier this summer on two other zero-day vulnerabilities in the vendor's edge devices.",
@@ -609,13 +651,6 @@
       "summary": "Former cybercriminal Brett Johnson provides a look inside the mind of a threat actor and discusses where AI provides the most value for attackers.",
       "source": "Dark Reading",
       "published": "2026-09-02T19:46:31+00:00"
-    },
-    {
-      "title": "Russian national facing 20 years for malware campaign that infected 80,000 freelancers",
-      "link": "https://therecord.media/russian-national-facing-20-years-malware-campaign",
-      "summary": "Searzhudin Tamirlanovich Aktulaev appeared in a San Francisco federal court on Monday after being arrested in Cyprus in May 2025 and extradited to the U.S. last week.",
-      "source": "The Record",
-      "published": "2026-09-02T18:43:00+00:00"
     },
     {
       "title": "Google, Anthropic, and OpenAI Unveil Cyber AI Models, Safeguards, and Access Programs",
@@ -725,8 +760,8 @@
     {
       "title": "Attackers Exploit Critical Switchvox Flaw to Deploy Reverse Shells Without Credentials",
       "link": "https://thehackernews.com/2026/09/attackers-exploit-critical-switchvox.html",
-      "summary": "Attackers Exploit Critical Switchvox Flaw to Deploy Reverse Shells Without Credentials Threat actors are exploiting a severe security vulnerability in Sangoma Switchvox, an enterprise VoIP platform...",
-      "source": "CVE Newsroom",
+      "summary": "Threat actors are exploiting a severe security vulnerability in Sangoma Switchvox, an enterprise VoIP platform, that could allow unauthenticated remote code execution. The vulnerability in question...",
+      "source": "The Hacker News",
       "published": "2026-09-02T07:08:50+00:00"
     },
     {
@@ -968,27 +1003,6 @@
       "published": "2026-08-28T17:12:15+00:00"
     },
     {
-      "title": "Android 17 Adds OS-Wide ECH to Hide Website Visits From Network Providers",
-      "link": "https://thehackernews.com/2026/08/android-17-adds-os-wide-ech-to-hide.html",
-      "summary": "Google on Thursday announced new network security protections in Android 17 to bolster connection privacy, address cellular vulnerabilities, and safeguard the privacy of users' home networks. Topping...",
-      "source": "The Hacker News",
-      "published": "2026-08-28T16:20:46+00:00"
-    },
-    {
-      "title": "ownCloud Flaw Exploited to Steal Nuclear Records From Philippine Research Body",
-      "link": "https://thehackernews.com/2026/08/snowflake-github-actions-flaw-lets.html",
-      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Thursday added a critical security flaw impacting ownCloud to its Known Exploited Vulnerabilities (KEV) catalog following reports...",
-      "source": "The Hacker News",
-      "published": "2026-08-28T15:56:55+00:00"
-    },
-    {
-      "title": "19 Chrome and Edge Extensions Found With Wallet-Stealing and Crypto-Draining Code",
-      "link": "https://thehackernews.com/2026/08/19-chrome-and-edge-extensions-found.html",
-      "summary": "Cybersecurity researchers have discovered a cluster of 18 Google Chrome and one Microsoft Edge extensions that were published over the last six months and harbored wallet secret stealing and...",
-      "source": "The Hacker News",
-      "published": "2026-08-28T15:27:26+00:00"
-    },
-    {
       "title": "You Need Cyber Deception for OT",
       "link": "https://www.darkreading.com/ics-ot-security/you-need-cyber-deception-ot",
       "summary": "The frustrating reality after an OT cyberattack: no data, no trail, and no history.",
@@ -1176,13 +1190,6 @@
       "summary": "The coming threat of super-powerful computers capable of cracking today's algorithms requires upgrading encryption now. Tech companies have begun building defenses.",
       "source": "Dark Reading",
       "published": "2026-08-21T13:10:33+00:00"
-    },
-    {
-      "title": "New CUSTODY Framework Constrains AI Agents Inside the Network",
-      "link": "https://www.darkreading.com/perimeter/new-custody-framework-constrains-ai-agents-inside-network",
-      "summary": "Enterprise cybersecurity expert Jake Williams joins the Dark Reading News Desk to explain why he decided to release his new agentic AI framework in the wake of the OpenAI attacks on Hugging Face.",
-      "source": "Dark Reading",
-      "published": "2026-08-20T20:42:18+00:00"
     },
     {
       "title": "Who’s Tracking You? Use This New Service to Find Out",
