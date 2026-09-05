@@ -1,6 +1,69 @@
 {
-  "last_updated": "2026-09-05T14:16:18.513878+00:00",
+  "last_updated": "2026-09-05T17:48:36.755287+00:00",
   "articles": [
+    {
+      "title": "Attackers Breached JetBrains Cadence via Unpatched TeamCity, Extracting AWS Credentials",
+      "link": "https://thehackernews.com/2026/09/attackers-breached-jetbrains-cadence.html",
+      "summary": "JetBrains is urging Cadence users to revoke and rotate all credentials following a security incident last month in which unidentified threat actors exploited a recently disclosed critical...",
+      "source": "The Hacker News",
+      "published": "2026-09-05T16:52:33+00:00"
+    },
+    {
+      "title": "Critical VMware Workstation and Fusion Flaw Lets VM Admins Execute Host Code",
+      "link": "https://thehackernews.com/2026/09/critical-vmware-workstation-and-fusion.html",
+      "summary": "Broadcom has released security updates for two security flaws impacting VMware Workstation and Fusion, including one critical bug that could result in arbitrary code execution under certain...",
+      "source": "The Hacker News",
+      "published": "2026-09-05T16:05:08+00:00"
+    },
+    {
+      "title": "Over 5,400 hacked sites serve ClickFix payloads stored on the blockchain",
+      "link": "https://www.bleepingcomputer.com/news/security/over-5-400-hacked-sites-serve-clickfix-payloads-stored-on-the-blockchain/",
+      "summary": "A massive cybercriminal operation is leveraging thousands of compromised small-business websites to deliver ClickFix payloads stored in smart contracts on the BNB Smart Chain (BSC). [...]",
+      "source": "BleepingComputer",
+      "published": "2026-09-05T14:29:13+00:00"
+    },
+    {
+      "title": "Trezor Says ShipMonk Breach Exposed 67,000 U.S. Customers' Data It Said Was Deleted",
+      "link": "https://thehackernews.com/2026/09/trezor-says-shipmonk-breach-exposed.html",
+      "summary": "Trezor Says ShipMonk Breach Exposed 67,000 U.S. Customers' Data It Said Was Deleted Hardware wallet manufacturer Trezor on Friday disclosed that another 67,000 customers from the U.S. have been...",
+      "source": "CVE Newsroom",
+      "published": "2026-09-05T14:17:02+00:00"
+    },
+    {
+      "title": "CVE-2026-86196 - Grav API Plugin before 1.0.20 Authentication Bypass via Host Header",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-86196",
+      "summary": "CVE ID :CVE-2026-86196 Published : Sept. 5, 2026, 1:18 p.m. | 4 hours, 19 minutes ago Description :Grav API plugin versions before 1.0.20 build password reset links from the untrusted Host header in...",
+      "source": "CVE Feed",
+      "published": "2026-09-05T13:18:14+00:00"
+    },
+    {
+      "title": "CVE-2026-86195 - grav-plugin-api 1.0.0 through 1.0.19 Privilege Escalation via Dot-Keyed Super Flag",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-86195",
+      "summary": "CVE ID :CVE-2026-86195 Published : Sept. 5, 2026, 1:18 p.m. | 4 hours, 19 minutes ago Description :grav-plugin-api versions before 1.0.20 contain a privilege escalation vulnerability in the...",
+      "source": "CVE Feed",
+      "published": "2026-09-05T13:18:14+00:00"
+    },
+    {
+      "title": "CVE-2026-86193 - Grav API Plugin Authentication Bypass via Group-Inherited Super",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-86193",
+      "summary": "CVE ID :CVE-2026-86193 Published : Sept. 5, 2026, 1:18 p.m. | 4 hours, 19 minutes ago Description :grav-plugin-api before 1.0.20 fails to validate group-inherited super permissions in user-management...",
+      "source": "CVE Feed",
+      "published": "2026-09-05T13:18:14+00:00"
+    },
+    {
+      "title": "CVE-2026-86190 - WWBN AVideo Broken Access Control via videoViewsInfo hash Parameter",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-86190",
+      "summary": "CVE ID :CVE-2026-86190 Published : Sept. 5, 2026, 1:18 p.m. | 4 hours, 19 minutes ago Description :WWBN AVideo contains a broken access control vulnerability in videoViewsInfo endpoints that returns...",
+      "source": "CVE Feed",
+      "published": "2026-09-05T13:18:14+00:00"
+    },
+    {
+      "title": "CVE-2026-86189 - WWBN AVideo Unauthenticated Path Traversal via notify.ffmpeg.json.php",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-86189",
+      "summary": "CVE ID :CVE-2026-86189 Published : Sept. 5, 2026, 1:18 p.m. | 4 hours, 19 minutes ago Description :WWBN AVideo contains a path traversal vulnerability in notify.ffmpeg.json.php that allows...",
+      "source": "CVE Feed",
+      "published": "2026-09-05T13:18:14+00:00"
+    },
     {
       "title": "Elementor Pro WordPress Plugin Vulnerability Exploited to Hack Sites",
       "link": "https://www.securityweek.com/elementor-pro-wordpress-plugin-vulnerability-exploited-to-hack-sites/",
@@ -9,86 +72,58 @@
       "published": "2026-09-05T13:00:28+00:00"
     },
     {
+      "title": "VMware VM Escape: When the Guest Becomes the Path to the Host",
+      "link": "https://thecyberthrone.in/2026/09/05/vmware-vm-escape-when-the-guest-becomes-the-path-to-the-host/",
+      "summary": "VMware VM Escape: When the Guest Becomes the Path to the Host September 5, 2026A virtual machine is supposed to create a boundary.You run an application inside the VM, experiment with software, or...",
+      "source": "CVE Newsroom",
+      "published": "2026-09-05T12:53:38+00:00"
+    },
+    {
       "title": "CVE-2026-86185 - Bilibili Desktop through 1.18.0 Remote Code Execution via TLS Verification Bypass",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-86185",
-      "summary": "CVE ID :CVE-2026-86185 Published : Sept. 5, 2026, 12:16 p.m. | 30 minutes ago Description :Bilibili Desktop through 1.18.0 disables TLS certificate verification process-wide and executes unsigned...",
+      "summary": "CVE ID :CVE-2026-86185 Published : Sept. 5, 2026, 12:16 p.m. | 5 hours, 20 minutes ago Description :Bilibili Desktop through 1.18.0 disables TLS certificate verification process-wide and executes...",
       "source": "CVE Feed",
       "published": "2026-09-05T12:16:49+00:00"
     },
     {
       "title": "CVE-2026-86184 - Lara Dashboard before 1.3.0 Missing Authentication in screenshot-login Route",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-86184",
-      "summary": "CVE ID :CVE-2026-86184 Published : Sept. 5, 2026, 12:16 p.m. | 30 minutes ago Description :Lara Dashboard before 1.3.0 contains an authentication bypass vulnerability in the screenshot-login route...",
+      "summary": "CVE ID :CVE-2026-86184 Published : Sept. 5, 2026, 12:16 p.m. | 5 hours, 20 minutes ago Description :Lara Dashboard before 1.3.0 contains an authentication bypass vulnerability in the screenshot-login...",
       "source": "CVE Feed",
       "published": "2026-09-05T12:16:49+00:00"
     },
     {
       "title": "CVE-2026-10196 - Mail Mint <= 1.31.0 - Unauthenticated PHP Object Injection in Arbitrary Form Fields",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-10196",
-      "summary": "CVE ID :CVE-2026-10196 Published : Sept. 5, 2026, 12:16 p.m. | 30 minutes ago Description :The Mail Mint – Email Marketing, Newsletter, Email Automation & WooCommerce Emails plugin for WordPress is...",
+      "summary": "CVE ID :CVE-2026-10196 Published : Sept. 5, 2026, 12:16 p.m. | 5 hours, 20 minutes ago Description :The Mail Mint – Email Marketing, Newsletter, Email Automation & WooCommerce Emails plugin for...",
       "source": "CVE Feed",
       "published": "2026-09-05T12:16:46+00:00"
     },
     {
       "title": "CVE-2025-9049 - Nokri – Job Board WordPress Theme <= 1.6.4 - Missing Authorization to Authenticated (Subscriber +) Privilege Escalation via Account Takeover",
       "link": "https://cvefeed.io/vuln/detail/CVE-2025-9049",
-      "summary": "CVE ID :CVE-2025-9049 Published : Sept. 5, 2026, 12:16 p.m. | 30 minutes ago Description :The Nokri – Job Board WordPress Theme theme for WordPress is vulnerable to unauthorized modification of data...",
+      "summary": "CVE ID :CVE-2025-9049 Published : Sept. 5, 2026, 12:16 p.m. | 5 hours, 20 minutes ago Description :The Nokri – Job Board WordPress Theme theme for WordPress is vulnerable to unauthorized modification...",
       "source": "CVE Feed",
       "published": "2026-09-05T12:16:46+00:00"
     },
     {
-      "title": "CVE-2026-86196 - Grav API Plugin before 1.0.20 Authentication Bypass via Host Header",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-86196",
-      "summary": "CVE ID :CVE-2026-86196 Published : Sept. 5, 2026, 12:09 p.m. | 38 minutes ago Description :Grav API plugin versions before 1.0.20 build password reset links from the untrusted Host header in the...",
-      "source": "CVE Feed",
-      "published": "2026-09-05T12:09:09+00:00"
-    },
-    {
-      "title": "CVE-2026-86195 - grav-plugin-api 1.0.0 through 1.0.19 Privilege Escalation via Dot-Keyed Super Flag",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-86195",
-      "summary": "CVE ID :CVE-2026-86195 Published : Sept. 5, 2026, 12:09 p.m. | 38 minutes ago Description :grav-plugin-api versions before 1.0.20 contain a privilege escalation vulnerability in the...",
-      "source": "CVE Feed",
-      "published": "2026-09-05T12:09:08+00:00"
-    },
-    {
-      "title": "CVE-2026-86193 - Grav API Plugin Authentication Bypass via Group-Inherited Super",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-86193",
-      "summary": "CVE ID :CVE-2026-86193 Published : Sept. 5, 2026, 12:09 p.m. | 38 minutes ago Description :grav-plugin-api before 1.0.20 fails to validate group-inherited super permissions in user-management guards...",
-      "source": "CVE Feed",
-      "published": "2026-09-05T12:09:07+00:00"
-    },
-    {
-      "title": "CVE-2026-86190 - WWBN AVideo Broken Access Control via videoViewsInfo hash Parameter",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-86190",
-      "summary": "CVE ID :CVE-2026-86190 Published : Sept. 5, 2026, 12:09 p.m. | 38 minutes ago Description :WWBN AVideo contains a broken access control vulnerability in videoViewsInfo endpoints that returns complete...",
-      "source": "CVE Feed",
-      "published": "2026-09-05T12:09:05+00:00"
-    },
-    {
-      "title": "CVE-2026-86189 - WWBN AVideo Unauthenticated Path Traversal via notify.ffmpeg.json.php",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-86189",
-      "summary": "CVE ID :CVE-2026-86189 Published : Sept. 5, 2026, 12:09 p.m. | 38 minutes ago Description :WWBN AVideo contains a path traversal vulnerability in notify.ffmpeg.json.php that allows unauthenticated...",
-      "source": "CVE Feed",
-      "published": "2026-09-05T12:09:04+00:00"
-    },
-    {
       "title": "CVE-2026-86177 - Pterodactyl Panel before 1.14.1 Privilege Escalation via Schedule Tasks",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-86177",
-      "summary": "CVE ID :CVE-2026-86177 Published : Sept. 5, 2026, 11:16 a.m. | 1 hour, 30 minutes ago Description :Pterodactyl Panel before 1.14.1 fails to validate action-specific permissions in scheduled task...",
+      "summary": "CVE ID :CVE-2026-86177 Published : Sept. 5, 2026, 11:16 a.m. | 6 hours, 20 minutes ago Description :Pterodactyl Panel before 1.14.1 fails to validate action-specific permissions in scheduled task...",
       "source": "CVE Feed",
       "published": "2026-09-05T11:16:46+00:00"
     },
     {
       "title": "CVE-2026-86173 - MindsDB through 26.1.0 Unauthenticated SSRF via Web Crawler",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-86173",
-      "summary": "CVE ID :CVE-2026-86173 Published : Sept. 5, 2026, 11:16 a.m. | 1 hour, 30 minutes ago Description :MindsDB through 26.1.0 contains a server-side request forgery vulnerability in the web crawler...",
+      "summary": "CVE ID :CVE-2026-86173 Published : Sept. 5, 2026, 11:16 a.m. | 6 hours, 20 minutes ago Description :MindsDB through 26.1.0 contains a server-side request forgery vulnerability in the web crawler...",
       "source": "CVE Feed",
       "published": "2026-09-05T11:16:45+00:00"
     },
     {
       "title": "CVE-2026-86169 - Axolotl through 0.18.0 Remote Code Execution via Multipack Patching",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-86169",
-      "summary": "CVE ID :CVE-2026-86169 Published : Sept. 5, 2026, 11:16 a.m. | 1 hour, 30 minutes ago Description :Axolotl through 0.18.0 contains a remote code execution vulnerability in the multipack patch path...",
+      "summary": "CVE ID :CVE-2026-86169 Published : Sept. 5, 2026, 11:16 a.m. | 6 hours, 20 minutes ago Description :Axolotl through 0.18.0 contains a remote code execution vulnerability in the multipack patch path...",
       "source": "CVE Feed",
       "published": "2026-09-05T11:16:45+00:00"
     },
@@ -102,49 +137,49 @@
     {
       "title": "CVE-2026-86124 - AutoAgent Unauthenticated Remote Code Execution via the Sandbox TCP Command Server",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-86124",
-      "summary": "CVE ID :CVE-2026-86124 Published : Sept. 5, 2026, 10:16 a.m. | 2 hours, 30 minutes ago Description :AutoAgent contains an unauthenticated remote code execution vulnerability in the TCP server that...",
+      "summary": "CVE ID :CVE-2026-86124 Published : Sept. 5, 2026, 10:16 a.m. | 7 hours, 20 minutes ago Description :AutoAgent contains an unauthenticated remote code execution vulnerability in the TCP server that...",
       "source": "CVE Feed",
       "published": "2026-09-05T10:16:43+00:00"
     },
     {
       "title": "CVE-2026-86123 - SQL Chat Unauthenticated Database-Connection Proxy in the /api/connection Endpoints",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-86123",
-      "summary": "CVE ID :CVE-2026-86123 Published : Sept. 5, 2026, 10:16 a.m. | 2 hours, 31 minutes ago Description :SQL Chat contains four unauthenticated API endpoints that accept client-supplied database...",
+      "summary": "CVE ID :CVE-2026-86123 Published : Sept. 5, 2026, 10:16 a.m. | 7 hours, 20 minutes ago Description :SQL Chat contains four unauthenticated API endpoints that accept client-supplied database...",
       "source": "CVE Feed",
       "published": "2026-09-05T10:16:43+00:00"
     },
     {
       "title": "CVE-2026-86121 - Cua computer-server before 0.3.42 Unauthenticated RCE via Desktop Control",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-86121",
-      "summary": "CVE ID :CVE-2026-86121 Published : Sept. 5, 2026, 10:16 a.m. | 2 hours, 31 minutes ago Description :Cua computer-server versions before 0.3.42 skip authentication when the CONTAINER_NAME environment...",
+      "summary": "CVE ID :CVE-2026-86121 Published : Sept. 5, 2026, 10:16 a.m. | 7 hours, 20 minutes ago Description :Cua computer-server versions before 0.3.42 skip authentication when the CONTAINER_NAME environment...",
       "source": "CVE Feed",
       "published": "2026-09-05T10:16:43+00:00"
     },
     {
       "title": "CVE-2026-86119 - Webstudio through 0.296.0 SSRF via /cgi proxy routes",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-86119",
-      "summary": "CVE ID :CVE-2026-86119 Published : Sept. 5, 2026, 10:16 a.m. | 2 hours, 31 minutes ago Description :Webstudio through 0.296.0 contains an unauthenticated server-side request forgery vulnerability in...",
+      "summary": "CVE ID :CVE-2026-86119 Published : Sept. 5, 2026, 10:16 a.m. | 7 hours, 20 minutes ago Description :Webstudio through 0.296.0 contains an unauthenticated server-side request forgery vulnerability in...",
       "source": "CVE Feed",
       "published": "2026-09-05T10:16:43+00:00"
     },
     {
       "title": "CVE-2026-86117 - Coolify through 4.3.17 OAuth Account Takeover via Unverified Email Matching",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-86117",
-      "summary": "CVE ID :CVE-2026-86117 Published : Sept. 5, 2026, 10:16 a.m. | 2 hours, 31 minutes ago Description :Coolify through 4.3.17 contains an authentication bypass vulnerability in the OAuth callback...",
+      "summary": "CVE ID :CVE-2026-86117 Published : Sept. 5, 2026, 10:16 a.m. | 7 hours, 20 minutes ago Description :Coolify through 4.3.17 contains an authentication bypass vulnerability in the OAuth callback...",
       "source": "CVE Feed",
       "published": "2026-09-05T10:16:42+00:00"
     },
     {
       "title": "CVE-2024-11080 - Post Grid and Gutenberg Blocks – ComboBlocks 2.2.85 - 2.3.32 - Unauthenticated Hook Injection",
       "link": "https://cvefeed.io/vuln/detail/CVE-2024-11080",
-      "summary": "CVE ID :CVE-2024-11080 Published : Sept. 5, 2026, 9:16 a.m. | 3 hours, 30 minutes ago Description :The Post Grid and Gutenberg Blocks – ComboBlocks plugin for WordPress is vulnerable to...",
+      "summary": "CVE ID :CVE-2024-11080 Published : Sept. 5, 2026, 9:16 a.m. | 8 hours, 20 minutes ago Description :The Post Grid and Gutenberg Blocks – ComboBlocks plugin for WordPress is vulnerable to...",
       "source": "CVE Feed",
       "published": "2026-09-05T09:16:48+00:00"
     },
     {
       "title": "CVE-2026-81543 - Abandoned Cart Pro for WooCommerce <= 10.7.1 - Missing Authorization to Authenticated (Subscriber+) Privilege Escalation",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-81543",
-      "summary": "CVE ID :CVE-2026-81543 Published : Sept. 5, 2026, 8:16 a.m. | 4 hours, 31 minutes ago Description :The Abandoned Cart Pro for WooCommerce plugin for WordPress is vulnerable to Privilege Escalation in...",
+      "summary": "CVE ID :CVE-2026-81543 Published : Sept. 5, 2026, 8:16 a.m. | 9 hours, 20 minutes ago Description :The Abandoned Cart Pro for WooCommerce plugin for WordPress is vulnerable to Privilege Escalation in...",
       "source": "CVE Feed",
       "published": "2026-09-05T08:16:40+00:00"
     },
@@ -165,42 +200,42 @@
     {
       "title": "CVE-2026-19887 - Welcart e-Commerce <= 2.12.1 - Unauthenticated Arbitrary File Deletion via PHP Object Injection via 'reserve' Checkout Parameter and 'option' EDY Callback",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-19887",
-      "summary": "CVE ID :CVE-2026-19887 Published : Sept. 5, 2026, 7:17 a.m. | 5 hours, 30 minutes ago Description :The Welcart e-Commerce plugin for WordPress is vulnerable to PHP Object Injection in all versions up...",
+      "summary": "CVE ID :CVE-2026-19887 Published : Sept. 5, 2026, 7:17 a.m. | 10 hours, 20 minutes ago Description :The Welcart e-Commerce plugin for WordPress is vulnerable to PHP Object Injection in all versions...",
       "source": "CVE Feed",
       "published": "2026-09-05T07:17:11+00:00"
     },
     {
       "title": "CVE-2026-86145 - PCRE2 Out-of-Bounds Write Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-86145",
-      "summary": "CVE ID :CVE-2026-86145 Published : Sept. 5, 2026, 6:17 a.m. | 6 hours, 30 minutes ago Description :PCRE2 before 10.48 allows a pcre2_dfa_match out-of-bounds write because reuse of a cached workspace...",
+      "summary": "CVE ID :CVE-2026-86145 Published : Sept. 5, 2026, 6:17 a.m. | 11 hours, 20 minutes ago Description :PCRE2 before 10.48 allows a pcre2_dfa_match out-of-bounds write because reuse of a cached workspace...",
       "source": "CVE Feed",
       "published": "2026-09-05T06:17:10+00:00"
     },
     {
       "title": "CVE-2026-83627 - Hummingbird – Speed Optimization, Caching, Minify, Compress & CDN <= 3.21.0 - Unauthenticated Remote Code Execution via Cookie Name in Page Cache Debug Log",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-83627",
-      "summary": "CVE ID :CVE-2026-83627 Published : Sept. 5, 2026, 6:17 a.m. | 6 hours, 30 minutes ago Description :The Hummingbird – Speed Optimization, Caching, Minify, Compress & CDN plugin for WordPress is...",
+      "summary": "CVE ID :CVE-2026-83627 Published : Sept. 5, 2026, 6:17 a.m. | 11 hours, 20 minutes ago Description :The Hummingbird – Speed Optimization, Caching, Minify, Compress & CDN plugin for WordPress is...",
       "source": "CVE Feed",
       "published": "2026-09-05T06:17:10+00:00"
     },
     {
       "title": "CVE-2026-13447 - MStore API <= 4.20.0 - Unauthenticated Authentication Bypass via 'id_token' Parameter JWT Forgery",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-13447",
-      "summary": "CVE ID :CVE-2026-13447 Published : Sept. 5, 2026, 6:17 a.m. | 6 hours, 30 minutes ago Description :The Mstore Api plugin for WordPress is vulnerable to Authentication Bypass via JWT Forgery in...",
+      "summary": "CVE ID :CVE-2026-13447 Published : Sept. 5, 2026, 6:17 a.m. | 11 hours, 20 minutes ago Description :The Mstore Api plugin for WordPress is vulnerable to Authentication Bypass via JWT Forgery in...",
       "source": "CVE Feed",
       "published": "2026-09-05T06:17:09+00:00"
     },
     {
       "title": "CVE-2026-86140 - libxml2 Stack-Based Buffer Overflow",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-86140",
-      "summary": "CVE ID :CVE-2026-86140 Published : Sept. 5, 2026, 5:17 a.m. | 7 hours, 30 minutes ago Description :In libxml2 before 2.15.4, xmlSnprintfElements in valid.c has a strcat stack-based buffer overflow...",
+      "summary": "CVE ID :CVE-2026-86140 Published : Sept. 5, 2026, 5:17 a.m. | 12 hours, 20 minutes ago Description :In libxml2 before 2.15.4, xmlSnprintfElements in valid.c has a strcat stack-based buffer overflow...",
       "source": "CVE Feed",
       "published": "2026-09-05T05:17:12+00:00"
     },
     {
       "title": "CVE-2026-52777 - YesWiki: Authenticated PHP Object Injection in BazarImportAction via unserialize",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-52777",
-      "summary": "CVE ID :CVE-2026-52777 Published : Sept. 5, 2026, 12:17 a.m. | 12 hours, 30 minutes ago Description :YesWiki is a wiki system written in PHP. Prior to version 4.6.6, there is an authenticated PHP...",
+      "summary": "CVE ID :CVE-2026-52777 Published : Sept. 5, 2026, 12:17 a.m. | 17 hours, 19 minutes ago Description :YesWiki is a wiki system written in PHP. Prior to version 4.6.6, there is an authenticated PHP...",
       "source": "CVE Feed",
       "published": "2026-09-05T00:17:20+00:00"
     },
@@ -534,13 +569,6 @@
       "published": "2026-09-03T15:02:52+00:00"
     },
     {
-      "title": "Critical Elementor Pro flaw exploited to take over WordPress sites",
-      "link": "https://www.bleepingcomputer.com/news/security/critical-elementor-pro-flaw-exploited-to-take-over-wordpress-sites/",
-      "summary": "A recently patched critical vulnerability (CVE-2026-32475) in the Elementor Pro plugin for WordPress is being exploited in attacks that deliver a webshell payload and execute arbitrary commands on...",
-      "source": "BleepingComputer",
-      "published": "2026-09-03T14:52:20+00:00"
-    },
-    {
       "title": "Thomson Reuters Court Software Breach May Have Exposed SSNs and Sealed Data",
       "link": "https://thehackernews.com/2026/09/thomson-reuters-court-software-breach.html",
       "summary": "Thomson Reuters disclosed on Wednesday that an unauthorized party obtained files from C-Track, the court case management platform sold by its West Publishing Corporation unit, in March 2026...",
@@ -753,8 +781,8 @@
     {
       "title": "GeoNetwork Fixes Unauthenticated RCE Chain Affecting Government Geoportal Backends",
       "link": "https://thehackernews.com/2026/09/geonetwork-fixes-unauthenticated-rce.html",
-      "summary": "GeoNetwork Fixes Unauthenticated RCE Chain Affecting Government Geoportal Backends Two vulnerabilities in GeoNetwork can be chained to achieve unauthenticated remote code execution (RCE) on the...",
-      "source": "CVE Newsroom",
+      "summary": "Two vulnerabilities in GeoNetwork can be chained to achieve unauthenticated remote code execution (RCE) on the open-source geospatial metadata catalog, which sits behind many government and agency...",
+      "source": "The Hacker News",
       "published": "2026-09-02T09:18:02+00:00"
     },
     {
@@ -763,13 +791,6 @@
       "summary": "The U.S. Department of Justice (DoJ) has charged a Russian national, extradited from Cyprus on August 28, with using roughly 255 fake accounts on a freelance platform to send malware-laced Excel...",
       "source": "The Hacker News",
       "published": "2026-09-02T09:10:23+00:00"
-    },
-    {
-      "title": "Google dicht Chrome-lekken die remote code execution mogelijk maken",
-      "link": "https://www.security.nl/posting/951418/Google+dicht+Chrome-lekken+die+remote+code+execution+mogelijk+maken?channel=rss",
-      "summary": "Google dicht Chrome-lekken die remote code execution mogelijk maken Google heeft beveiligingsupdates uitgebracht voor kritieke kwetsbaarheden in Chrome die remote code execution mogelijk maken. Een...",
-      "source": "CVE Newsroom",
-      "published": "2026-09-02T08:17:34+00:00"
     },
     {
       "title": "Researchers Use Claude to Port Pre-Auth RCE Exploit From One PLC Model to Another",
@@ -973,27 +994,6 @@
       "summary": "The U.S. Department of Justice (DoJ) on Friday corrected a previously issued press statement that several of its agencies were victims of attacks carried out by Chinese threat actors, instead now...",
       "source": "The Hacker News",
       "published": "2026-08-31T07:56:53+00:00"
-    },
-    {
-      "title": "TerminalFix Uses Fake Cloudflare CAPTCHAs to Deploy Reverse-Tunnel Backdoor",
-      "link": "https://thehackernews.com/2026/08/terminalfix-uses-fake-cloudflare.html",
-      "summary": "Microsoft has disclosed details of a new ClickFix variant, dubbed TerminalFix, that aims to trick users into running a malicious command in Windows Terminal or PowerShell. \"While traditional ClickFix...",
-      "source": "The Hacker News",
-      "published": "2026-08-30T07:36:33+00:00"
-    },
-    {
-      "title": "Five Critical WordPress Plugin and Theme Flaws Enable Site Takeover or RCE",
-      "link": "https://thehackernews.com/2026/08/five-critical-wordpress-plugin-and.html",
-      "summary": "Multiple critical security flaws have been disclosed in WordPress plugins and themes, including WPMU DEV Dashboard, Avada, TranslatePress, Pods, and GiveWP, that could lead to authentication bypass...",
-      "source": "The Hacker News",
-      "published": "2026-08-29T16:25:03+00:00"
-    },
-    {
-      "title": "Berlin Refuses to Pay Hackers Who Stole Data From the City's State Network",
-      "link": "https://thehackernews.com/2026/08/berlin-refuses-to-pay-hackers-who-stole.html",
-      "summary": "Berlin's state government has confirmed that it is the target of an extortion attempt following the August compromise of the city's state administrative network, and said it will not meet the...",
-      "source": "The Hacker News",
-      "published": "2026-08-28T21:30:52+00:00"
     },
     {
       "title": "Hundreds of OpenAI Agents Invaded Hugging Face Servers",
