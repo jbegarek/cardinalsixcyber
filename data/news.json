@@ -1,145 +1,215 @@
 {
-  "last_updated": "2026-09-07T15:23:48.652470+00:00",
+  "last_updated": "2026-09-07T19:29:39.922101+00:00",
   "articles": [
+    {
+      "title": "PEEP Turns Chrome and Edge Into Post-Compromise Backdoors for Host Command Execution",
+      "link": "https://thehackernews.com/2026/09/peep-turns-chrome-and-edge-into-post.html",
+      "summary": "Cybersecurity researchers have disclosed details of a complex Chromium-based post-exploitation toolkit called PEEP that masquerades as a bookmarks extension for the web browser. \"Requiring prior...",
+      "source": "The Hacker News",
+      "published": "2026-09-07T18:12:09+00:00"
+    },
+    {
+      "title": "CVE-2026-86502 - JetBrains IntelliJ IDEA IJent gRPC Server Remote Code Execution",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-86502",
+      "summary": "CVE ID :CVE-2026-86502 Published : Sept. 7, 2026, 5:17 p.m. | 1 hour, 25 minutes ago Description :In JetBrains IntelliJ IDEA before 2026.2.2 missing TLS and authentication on the IJent gRPC server...",
+      "source": "CVE Feed",
+      "published": "2026-09-07T17:17:28+00:00"
+    },
+    {
+      "title": "CVE-2026-86492 - JetBrains YouTrack Cross-Tenant GitHub App Token Disclosure",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-86492",
+      "summary": "CVE ID :CVE-2026-86492 Published : Sept. 7, 2026, 5:17 p.m. | 1 hour, 25 minutes ago Description :In JetBrains YouTrack before 2026.2.18634 a shared token cache allowed cross-tenant theft of GitHub...",
+      "source": "CVE Feed",
+      "published": "2026-09-07T17:17:27+00:00"
+    },
+    {
+      "title": "CVE-2026-86482 - JetBrains YouTrack Privilege Escalation via Group Membership Modification",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-86482",
+      "summary": "CVE ID :CVE-2026-86482 Published : Sept. 7, 2026, 5:17 p.m. | 1 hour, 25 minutes ago Description :In JetBrains YouTrack before 2026.2.18634 unchecked group membership changes allowed privilege...",
+      "source": "CVE Feed",
+      "published": "2026-09-07T17:17:26+00:00"
+    },
+    {
+      "title": "CVE-2026-86480 - JetBrains Hub Improper Authorization Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-86480",
+      "summary": "CVE ID :CVE-2026-86480 Published : Sept. 7, 2026, 5:17 p.m. | 1 hour, 25 minutes ago Description :In JetBrains Hub before 2026.2.52442 an unauthenticated attacker could register a trusted service and...",
+      "source": "CVE Feed",
+      "published": "2026-09-07T17:17:26+00:00"
+    },
+    {
+      "title": "CVE-2026-86479 - JetBrains YouTrack Insecure Direct Object Reference Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-86479",
+      "summary": "CVE ID :CVE-2026-86479 Published : Sept. 7, 2026, 5:17 p.m. | 1 hour, 25 minutes ago Description :In JetBrains YouTrack before 2026.2.18788, 2026.1.14055, 2025.3.161254 missing authorisation allowed...",
+      "source": "CVE Feed",
+      "published": "2026-09-07T17:17:26+00:00"
+    },
+    {
+      "title": "CVE-2026-86478 - JetBrains YouTrack Improper Authentication Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-86478",
+      "summary": "CVE ID :CVE-2026-86478 Published : Sept. 7, 2026, 5:17 p.m. | 1 hour, 25 minutes ago Description :In JetBrains YouTrack before 2025.3.161254, 2026.1.14042 improper authentication in YouTrack Helpdesk...",
+      "source": "CVE Feed",
+      "published": "2026-09-07T17:17:25+00:00"
+    },
+    {
+      "title": "Magento StyleSmuggler zero-day exploited to deploy Linux backdoor",
+      "link": "https://www.bleepingcomputer.com/news/security/magento-stylesmuggler-zero-day-exploited-to-deploy-linux-backdoor/",
+      "summary": "A zero-day vulnerability dubbed \"StyleSmuggler\" affecting all versions of Magento and Adobe Commerce is being exploited in attacks to deploy a backdoor. [...]",
+      "source": "BleepingComputer",
+      "published": "2026-09-07T16:50:29+00:00"
+    },
+    {
+      "title": "Fake IT Calls Target Executives in Microsoft 365 Data Theft and Extortion Attacks",
+      "link": "https://thehackernews.com/2026/09/microsoft-365-attackers-use-help-desk.html",
+      "summary": "Threat hunters have disclosed details of a widespread data theft and extortion threat cluster that's targeting Microsoft 365 and other software-as-a-service (SaaS) offerings through information...",
+      "source": "The Hacker News",
+      "published": "2026-09-07T15:51:56+00:00"
+    },
+    {
+      "title": "BigBear Microsoft 365 phishing service bypassed MFA at 258 organizations",
+      "link": "https://www.bleepingcomputer.com/news/security/bigbear-microsoft-365-phishing-service-bypassed-mfa-at-258-organizations/",
+      "summary": "A phishing-as-a-service framework called BigBear 2.0 has been used to bypass multi-factor authentication at 258 organizations and steal more than 5,000 Microsoft 365 credentials. [...]",
+      "source": "BleepingComputer",
+      "published": "2026-09-07T15:39:51+00:00"
+    },
     {
       "title": "CVE-2026-7861 - Code Injection in Next4Biz's CSM (Customer Service Management)",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-7861",
-      "summary": "CVE ID :CVE-2026-7861 Published : Sept. 7, 2026, 2:19 p.m. | 21 minutes ago Description :Deserialization of untrusted data vulnerability in Next4Biz Information Technologies Inc. CSM (Customer...",
+      "summary": "CVE ID :CVE-2026-7861 Published : Sept. 7, 2026, 3:17 p.m. | 3 hours, 25 minutes ago Description :Deserialization of untrusted data vulnerability in Next4Biz Information Technologies Inc. CSM...",
       "source": "CVE Feed",
-      "published": "2026-09-07T14:19:16+00:00"
-    },
-    {
-      "title": "CVE-2026-86452 - MISP Unauthenticated Mail Endpoints Allow Unbounded Storage Consumption and Request Flooding",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-86452",
-      "summary": "CVE ID :CVE-2026-86452 Published : Sept. 7, 2026, 2:16 p.m. | 23 minutes ago Description :Affected versions of MISP permit unauthenticated or weakly constrained request paths to perform persistent...",
-      "source": "CVE Feed",
-      "published": "2026-09-07T14:16:56+00:00"
-    },
-    {
-      "title": "CVE-2026-19843 - 389-ds-base: 389-ds-base: command injection via unescaped ldap dn in cockpit 389 console ldap editor",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-19843",
-      "summary": "CVE ID :CVE-2026-19843 Published : Sept. 7, 2026, 2:14 p.m. | 25 minutes ago Description :A flaw was found in 389-ds-base. The Cockpit 389 Console's LDAP editor constructs an ldapsearch command by...",
-      "source": "CVE Feed",
-      "published": "2026-09-07T14:14:58+00:00"
-    },
-    {
-      "title": "CVE-2026-18922 - 389-ds-base: 389-ds-base: sasl plain authentication allows privilege escalation to directory manager via stale identity in cyrus sasl auxiliary property",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-18922",
-      "summary": "CVE ID :CVE-2026-18922 Published : Sept. 7, 2026, 2:14 p.m. | 25 minutes ago Description :A flaw was found in 389 Directory Server. During SASL PLAIN authentication, a stale identity carried in a...",
-      "source": "CVE Feed",
-      "published": "2026-09-07T14:14:53+00:00"
+      "published": "2026-09-07T15:17:32+00:00"
     },
     {
       "title": "CVE-2026-79645 - Dell Secure Connect Gateway Missing Authentication for Critical Function Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-79645",
-      "summary": "CVE ID :CVE-2026-79645 Published : Sept. 7, 2026, 2:04 p.m. | 35 minutes ago Description :Dell SCG 5.0 Appliance versions prior to 5.36.00.16 and Dell SCG 5.0 Application versions prior to...",
+      "summary": "CVE ID :CVE-2026-79645 Published : Sept. 7, 2026, 3:17 p.m. | 3 hours, 25 minutes ago Description :Dell SCG 5.0 Appliance versions prior to 5.36.00.16 and Dell SCG 5.0 Application versions prior to...",
       "source": "CVE Feed",
-      "published": "2026-09-07T14:04:57+00:00"
+      "published": "2026-09-07T15:17:32+00:00"
+    },
+    {
+      "title": "CVE-2026-19843 - 389-ds-base: 389-ds-base: command injection via unescaped ldap dn in cockpit 389 console ldap editor",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-19843",
+      "summary": "CVE ID :CVE-2026-19843 Published : Sept. 7, 2026, 3:17 p.m. | 3 hours, 25 minutes ago Description :A flaw was found in 389-ds-base. The Cockpit 389 Console's LDAP editor constructs an ldapsearch...",
+      "source": "CVE Feed",
+      "published": "2026-09-07T15:17:31+00:00"
+    },
+    {
+      "title": "CVE-2026-18922 - 389-ds-base: 389-ds-base: sasl plain authentication allows privilege escalation to directory manager via stale identity in cyrus sasl auxiliary property",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-18922",
+      "summary": "CVE ID :CVE-2026-18922 Published : Sept. 7, 2026, 3:17 p.m. | 3 hours, 25 minutes ago Description :A flaw was found in 389 Directory Server. During SASL PLAIN authentication, a stale identity carried...",
+      "source": "CVE Feed",
+      "published": "2026-09-07T15:17:31+00:00"
+    },
+    {
+      "title": "⚡ Weekly Recap: Chrome 0-Day, Router Hijacks, Coder Supply Chain Attack and More",
+      "link": "https://thehackernews.com/2026/09/weekly-recap-chrome-0-day-router.html",
+      "summary": "Turning off email images should at least stop the pictures. This week, attackers had a workaround: a scannable QR code built out of text. It still appears, even with images blocked. A small detail...",
+      "source": "The Hacker News",
+      "published": "2026-09-07T14:36:07+00:00"
+    },
+    {
+      "title": "CVE-2026-86452 - MISP Unauthenticated Mail Endpoints Allow Unbounded Storage Consumption and Request Flooding",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-86452",
+      "summary": "CVE ID :CVE-2026-86452 Published : Sept. 7, 2026, 2:16 p.m. | 4 hours, 26 minutes ago Description :Affected versions of MISP permit unauthenticated or weakly constrained request paths to perform...",
+      "source": "CVE Feed",
+      "published": "2026-09-07T14:16:56+00:00"
     },
     {
       "title": "CVE-2026-86435 - commonmark 1.5.0 before 2.8.4 Denial of Service via Footnote",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-86435",
-      "summary": "CVE ID :CVE-2026-86435 Published : Sept. 7, 2026, 1:20 p.m. | 1 hour, 19 minutes ago Description :commonmark versions from 1.5.0 before 2.8.4 contain a denial of service vulnerability in the Footnote...",
+      "summary": "CVE ID :CVE-2026-86435 Published : Sept. 7, 2026, 1:20 p.m. | 5 hours, 22 minutes ago Description :commonmark versions from 1.5.0 before 2.8.4 contain a denial of service vulnerability in the...",
       "source": "CVE Feed",
       "published": "2026-09-07T13:20:43+00:00"
     },
     {
       "title": "CVE-2026-86434 - commonmark 2.0.0 through 2.8.3 Denial of Service via Slug Collision",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-86434",
-      "summary": "CVE ID :CVE-2026-86434 Published : Sept. 7, 2026, 1:20 p.m. | 1 hour, 19 minutes ago Description :league/commonmark versions >= 2.0.0 and Severity: 8.7 | HIGH Visit the link for more details, such as...",
+      "summary": "CVE ID :CVE-2026-86434 Published : Sept. 7, 2026, 1:20 p.m. | 5 hours, 22 minutes ago Description :league/commonmark versions >= 2.0.0 and Severity: 8.7 | HIGH Visit the link for more details, such...",
       "source": "CVE Feed",
       "published": "2026-09-07T13:20:42+00:00"
     },
     {
       "title": "CVE-2026-86433 - commonmark 1.5.0 before 2.8.4 Denial of Service via Attributes",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-86433",
-      "summary": "CVE ID :CVE-2026-86433 Published : Sept. 7, 2026, 1:20 p.m. | 1 hour, 19 minutes ago Description :commonmark versions from 1.5.0 before 2.8.4 contain a denial of service vulnerability in the...",
+      "summary": "CVE ID :CVE-2026-86433 Published : Sept. 7, 2026, 1:20 p.m. | 5 hours, 22 minutes ago Description :commonmark versions from 1.5.0 before 2.8.4 contain a denial of service vulnerability in the...",
       "source": "CVE Feed",
       "published": "2026-09-07T13:20:42+00:00"
     },
     {
       "title": "CVE-2026-86430 - league/commonmark before 2.9.1 Denial of Service via parsing",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-86430",
-      "summary": "CVE ID :CVE-2026-86430 Published : Sept. 7, 2026, 1:20 p.m. | 1 hour, 19 minutes ago Description :league/commonmark versions before 2.9.1 contain multiple denial of service vulnerabilities in fenced...",
+      "summary": "CVE ID :CVE-2026-86430 Published : Sept. 7, 2026, 1:20 p.m. | 5 hours, 22 minutes ago Description :league/commonmark versions before 2.9.1 contain multiple denial of service vulnerabilities in fenced...",
       "source": "CVE Feed",
       "published": "2026-09-07T13:20:42+00:00"
     },
     {
       "title": "CVE-2026-86429 - commonmark before 2.9.1 Denial of Service via SmartPunct and Attributes",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-86429",
-      "summary": "CVE ID :CVE-2026-86429 Published : Sept. 7, 2026, 1:20 p.m. | 1 hour, 19 minutes ago Description :The league/commonmark (thephpleague/commonmark) library in versions >= 1.5.0 and Severity: 8.7 | HIGH...",
+      "summary": "CVE ID :CVE-2026-86429 Published : Sept. 7, 2026, 1:20 p.m. | 5 hours, 22 minutes ago Description :The league/commonmark (thephpleague/commonmark) library in versions >= 1.5.0 and Severity: 8.7 |...",
       "source": "CVE Feed",
       "published": "2026-09-07T13:20:42+00:00"
     },
     {
       "title": "CVE-2026-86428 - commonmark 1.5.0 before 2.10.0 Denial of Service via Attributes",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-86428",
-      "summary": "CVE ID :CVE-2026-86428 Published : Sept. 7, 2026, 1:20 p.m. | 1 hour, 19 minutes ago Description :commonmark versions from 1.5.0 before 2.10.0 contain a denial of service vulnerability in the...",
+      "summary": "CVE ID :CVE-2026-86428 Published : Sept. 7, 2026, 1:20 p.m. | 5 hours, 22 minutes ago Description :commonmark versions from 1.5.0 before 2.10.0 contain a denial of service vulnerability in the...",
       "source": "CVE Feed",
       "published": "2026-09-07T13:20:42+00:00"
     },
     {
       "title": "CVE-2026-86427 - LibreNMS before 26.8.0 Argument Injection via graph_title",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-86427",
-      "summary": "CVE ID :CVE-2026-86427 Published : Sept. 7, 2026, 1:20 p.m. | 1 hour, 19 minutes ago Description :LibreNMS before 26.8.0 contains an argument injection vulnerability in the graph_title parameter that...",
+      "summary": "CVE ID :CVE-2026-86427 Published : Sept. 7, 2026, 1:20 p.m. | 5 hours, 22 minutes ago Description :LibreNMS before 26.8.0 contains an argument injection vulnerability in the graph_title parameter...",
       "source": "CVE Feed",
       "published": "2026-09-07T13:20:41+00:00"
     },
     {
       "title": "CVE-2026-86426 - LibreNMS before 26.8.0 Authentication Bypass via API Token Type Confusion",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-86426",
-      "summary": "CVE ID :CVE-2026-86426 Published : Sept. 7, 2026, 1:20 p.m. | 1 hour, 19 minutes ago Description :LibreNMS before 26.8.0 contains an authentication bypass vulnerability in the REST API that allows...",
+      "summary": "CVE ID :CVE-2026-86426 Published : Sept. 7, 2026, 1:20 p.m. | 5 hours, 22 minutes ago Description :LibreNMS before 26.8.0 contains an authentication bypass vulnerability in the REST API that allows...",
       "source": "CVE Feed",
       "published": "2026-09-07T13:20:41+00:00"
     },
     {
       "title": "CVE-2026-80238 - Dell Secure Connect Gateway Privilege Escalation Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-80238",
-      "summary": "CVE ID :CVE-2026-80238 Published : Sept. 7, 2026, 1:20 p.m. | 1 hour, 19 minutes ago Description :Dell SCG 5.0 Appliance versions prior to 5.36.00.16 and Dell SCG 5.0 Application versions prior to...",
+      "summary": "CVE ID :CVE-2026-80238 Published : Sept. 7, 2026, 1:20 p.m. | 5 hours, 22 minutes ago Description :Dell SCG 5.0 Appliance versions prior to 5.36.00.16 and Dell SCG 5.0 Application versions prior to...",
       "source": "CVE Feed",
       "published": "2026-09-07T13:20:39+00:00"
     },
     {
       "title": "CVE-2026-80132 - Dell Secure Connect Gateway Missing Authentication for Critical Function Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-80132",
-      "summary": "CVE ID :CVE-2026-80132 Published : Sept. 7, 2026, 1:20 p.m. | 1 hour, 19 minutes ago Description :ell SCG 5.0 Appliance versions prior to 5.36.00.16 and Dell SCG 5.0 Application versions prior to...",
+      "summary": "CVE ID :CVE-2026-80132 Published : Sept. 7, 2026, 1:20 p.m. | 5 hours, 22 minutes ago Description :ell SCG 5.0 Appliance versions prior to 5.36.00.16 and Dell SCG 5.0 Application versions prior to...",
       "source": "CVE Feed",
       "published": "2026-09-07T13:20:38+00:00"
     },
     {
       "title": "CVE-2026-79678 - Freeipa: idm: freeipa: idp-add eval() reachable before authorization check allows environment disclosure and denial of service",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-79678",
-      "summary": "CVE ID :CVE-2026-79678 Published : Sept. 7, 2026, 1:20 p.m. | 1 hour, 19 minutes ago Description :A flaw was found in FreeIPA's idp-add command, where insufficiently validated...",
+      "summary": "CVE ID :CVE-2026-79678 Published : Sept. 7, 2026, 1:20 p.m. | 5 hours, 22 minutes ago Description :A flaw was found in FreeIPA's idp-add command, where insufficiently validated...",
       "source": "CVE Feed",
       "published": "2026-09-07T13:20:38+00:00"
     },
     {
       "title": "CVE-2026-76578 - Ipa: freeipa: freeipa: unauthenticated ldap client can obtain administrator credentials via the self-managed-token aci",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-76578",
-      "summary": "CVE ID :CVE-2026-76578 Published : Sept. 7, 2026, 1:20 p.m. | 1 hour, 19 minutes ago Description :A flaw was found in FreeIPA. The self-managed OTP token ACI does not require authentication and does...",
+      "summary": "CVE ID :CVE-2026-76578 Published : Sept. 7, 2026, 1:20 p.m. | 5 hours, 22 minutes ago Description :A flaw was found in FreeIPA. The self-managed OTP token ACI does not require authentication and does...",
       "source": "CVE Feed",
       "published": "2026-09-07T13:20:36+00:00"
     },
     {
       "title": "CVE-2026-6223 - OTP Bypass in Bahçelievler Muncipality's BiHayat App",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-6223",
-      "summary": "CVE ID :CVE-2026-6223 Published : Sept. 7, 2026, 1:20 p.m. | 1 hour, 19 minutes ago Description :Improper restriction of excessive authentication attempts vulnerability in Bahçelievler Muncipality...",
+      "summary": "CVE ID :CVE-2026-6223 Published : Sept. 7, 2026, 1:20 p.m. | 5 hours, 22 minutes ago Description :Improper restriction of excessive authentication attempts vulnerability in Bahçelievler Muncipality...",
       "source": "CVE Feed",
       "published": "2026-09-07T13:20:33+00:00"
     },
     {
       "title": "CVE-2026-61410 - Dell Secure Connect Gateway Missing Authorization Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-61410",
-      "summary": "CVE ID :CVE-2026-61410 Published : Sept. 7, 2026, 1:20 p.m. | 1 hour, 19 minutes ago Description :Dell SCG 5.0 Appliance versions prior to 5.36.00.16 and Dell SCG 5.0 Application versions prior to...",
+      "summary": "CVE ID :CVE-2026-61410 Published : Sept. 7, 2026, 1:20 p.m. | 5 hours, 22 minutes ago Description :Dell SCG 5.0 Appliance versions prior to 5.36.00.16 and Dell SCG 5.0 Application versions prior to...",
       "source": "CVE Feed",
       "published": "2026-09-07T13:20:33+00:00"
-    },
-    {
-      "title": "CVE-2022-51017 - PocketMine-MP before 3.26.5 and 4.0.5 Denial of Service via Skin Data",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2022-51017",
-      "summary": "CVE ID :CVE-2022-51017 Published : Sept. 7, 2026, 1:17 p.m. | 1 hour, 23 minutes ago Description :PocketMine-MP versions before 3.26.5 and 4.0.5 fail to validate the length of skin data fields...",
-      "source": "CVE Feed",
-      "published": "2026-09-07T13:17:23+00:00"
     },
     {
       "title": "Mathspace discloses data breach affecting over 1 million people",
@@ -154,20 +224,6 @@
       "summary": "Attackers Exploit Unpatched Magento Zero-Day to Backdoor Online Stores Attackers are exploiting an unpatched remote code execution flaw in Adobe Commerce and Magento Open Source to install persistent...",
       "source": "CVE Newsroom",
       "published": "2026-09-07T12:32:45+00:00"
-    },
-    {
-      "title": "CVE-2026-86404 - Artemis-server: artemis-jms-client: artemis-core-client: undertow-core: wildfly-messaging-activemq-subsystem: artemis messaging handlers in red hat eap permit deserialization by default",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-86404",
-      "summary": "CVE ID :CVE-2026-86404 Published : Sept. 7, 2026, 12:17 p.m. | 2 hours, 23 minutes ago Description :EAP's Artemis deserialization configuration permits deserialization by default...",
-      "source": "CVE Feed",
-      "published": "2026-09-07T12:17:21+00:00"
-    },
-    {
-      "title": "CVE-2026-86299 - Linksys RE7000 PingTest json.cgi platform_event_pingTest os command injection",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-86299",
-      "summary": "CVE ID :CVE-2026-86299 Published : Sept. 7, 2026, 12:17 p.m. | 2 hours, 23 minutes ago Description :A vulnerability was detected in Linksys RE7000 2.0.15. This affects the function...",
-      "source": "CVE Feed",
-      "published": "2026-09-07T12:17:21+00:00"
     },
     {
       "title": "Trezor data breach impact now reaches 81,000 customers",
@@ -245,27 +301,6 @@
       "summary": "A TantoSec proof-of-concept turns an AES-CBC \"padding oracle\" in Telerik UI for ASP.NET AJAX into unauthenticated remote code execution — but only against applications in a specific non-default...",
       "source": "The Hacker News",
       "published": "2026-09-07T11:20:14+00:00"
-    },
-    {
-      "title": "CVE-2026-86297 - D-Link DIR-605 L2TP Control Message tunnel.c tunnel_set_params off-by-one",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-86297",
-      "summary": "CVE ID :CVE-2026-86297 Published : Sept. 7, 2026, 11:17 a.m. | 3 hours, 22 minutes ago Description :A vulnerability was identified in D-Link DIR-605 B1v202WWB03. This issue affects the function...",
-      "source": "CVE Feed",
-      "published": "2026-09-07T11:17:39+00:00"
-    },
-    {
-      "title": "CVE-2026-86296 - D-Link DIR-822A udhcpcd serverpacket.c strcpy stack-based overflow",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-86296",
-      "summary": "CVE ID :CVE-2026-86296 Published : Sept. 7, 2026, 11:17 a.m. | 3 hours, 22 minutes ago Description :A vulnerability was determined in D-Link DIR-822A A_101. This vulnerability affects the function...",
-      "source": "CVE Feed",
-      "published": "2026-09-07T11:17:39+00:00"
-    },
-    {
-      "title": "CVE-2026-86295 - D-Link DIR-895L udhcpcd serverpacket.c sendACK command injection",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-86295",
-      "summary": "CVE ID :CVE-2026-86295 Published : Sept. 7, 2026, 11:17 a.m. | 3 hours, 22 minutes ago Description :A vulnerability was found in D-Link DIR-895L A1_102b07. This affects the function sendACK of the...",
-      "source": "CVE Feed",
-      "published": "2026-09-07T11:17:39+00:00"
     },
     {
       "title": "ChatGPT can now connect to your personal apps to mimic writing style",
@@ -534,13 +569,6 @@
       "published": "2026-09-04T14:30:15+00:00"
     },
     {
-      "title": "39 New Methods That Compromise Passkey Authentication",
-      "link": "https://www.bleepingcomputer.com/news/security/39-new-methods-that-compromise-passkey-authentication/",
-      "summary": "Passkeys eliminate many password-based attacks, but researchers have documented 39 methods for compromising authentication built around them. Token explains how attackers can abuse authentication...",
-      "source": "BleepingComputer",
-      "published": "2026-09-04T14:01:11+00:00"
-    },
-    {
       "title": "Russian data centers face new security requirements amid Ukraine's drone threats",
       "link": "https://therecord.media/russia-data-centers-ukraine-drone-threats",
       "summary": "Russia's data centers are concentrated in areas increasingly exposed to Ukrainian drone attacks. The Kremlin wants them to stiffen their physical defenses.",
@@ -553,13 +581,6 @@
       "summary": "Tracked as CVE-2026-9586, the unauthenticated SQL injection flaw can be exploited remotely for arbitrary code execution. The post Sangoma Switchvox Vulnerabilities Exploited in the Wild appeared...",
       "source": "SecurityWeek",
       "published": "2026-09-04T13:23:12+00:00"
-    },
-    {
-      "title": "New CrowdStrike 'FalconFlank' zero-day grants SYSTEM privileges",
-      "link": "https://www.bleepingcomputer.com/news/security/new-crowdstrike-falconflank-zero-day-grants-system-privileges/",
-      "summary": "An anonymous security researcher who uses the \"Nightmare Eclipse\" handle released a CrowdStrike Falcon zero-day exploit named \"FalconFlank\" that lets attackers escalate privileges on up-to-date...",
-      "source": "BleepingComputer",
-      "published": "2026-09-04T13:22:01+00:00"
     },
     {
       "title": "Beveiligingslek in 7-Zip laat aanvaller Mark-of-the-Web omzeilen",
@@ -693,13 +714,6 @@
       "summary": "The incident demonstrates how frontier AI agents can dramatically compress an attack timeline and coordinate a large-scale breach, according to researchers.",
       "source": "Dark Reading",
       "published": "2026-09-03T14:38:49+00:00"
-    },
-    {
-      "title": "Cyber Brief 26-09 - August 2026",
-      "link": "https://cert.europa.eu/publications/threat-intelligence/cb26-09/",
-      "summary": "Cyber Brief 26-09 - August 2026 Cyber Brief (August 2026)September 3, 2026 - Version 1TLP:CLEARExecutive summaryWe analysed 385 open source reports for this Cyber Brief1.Relating to cyber policy and...",
-      "source": "CVE Newsroom",
-      "published": "2026-09-03T14:00:00+00:00"
     },
     {
       "title": "'Breeze Comet' Tears Into Brazilian & Global Financial Systems",
@@ -945,27 +959,6 @@
       "summary": "The Iranian Nimbus Manticore hacking group has been attributed to two previously undocumented malware families that highlight the continued evolution of its toolset and likely expand its targeting...",
       "source": "The Hacker News",
       "published": "2026-09-01T13:08:58+00:00"
-    },
-    {
-      "title": "Threat Actors Don’t Want Better Attacks. They Want Repeatable Ones",
-      "link": "https://thehackernews.com/2026/09/threat-actors-dont-want-better-attacks.html",
-      "summary": "The most common way into a company last year was to ask. A web page tells the visitor to prove they are not a robot. While they read the instructions, it quietly places a command on their clipboard...",
-      "source": "The Hacker News",
-      "published": "2026-09-01T11:30:00+00:00"
-    },
-    {
-      "title": "Attackers Steal METR API Key and Consume AI Credits Worth About $600,000",
-      "link": "https://thehackernews.com/2026/09/attackers-steal-metr-api-key-and.html",
-      "summary": "METR (short for Model Evaluation and Threat Research and pronounced \"Meter\"), a research non-profit that evaluates frontier artificial intelligence (AI) models for their ability to carry out...",
-      "source": "The Hacker News",
-      "published": "2026-09-01T09:05:30+00:00"
-    },
-    {
-      "title": "Russia-Aligned UAC-0099 Plants Nuclear Weapon Prompt in Malware to Disrupt AI Analysis",
-      "link": "https://thehackernews.com/2026/09/russia-aligned-uac-0099-plants-nuclear.html",
-      "summary": "Cybersecurity researchers have disclosed a new technique dubbed GuardBreaker that's been put to use by a Russia-aligned threat actor known as UAC-0099 against a target in Ukraine with an aim to...",
-      "source": "The Hacker News",
-      "published": "2026-09-01T08:26:24+00:00"
     },
     {
       "title": "Anthropic Users Hit by Infostealer Attacks, Session Thefts",
