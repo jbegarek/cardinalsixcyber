@@ -1,6 +1,216 @@
 {
-  "last_updated": "2026-09-10T17:28:50.034274+00:00",
+  "last_updated": "2026-09-10T20:14:43.105372+00:00",
   "articles": [
+    {
+      "title": "Surfshark VPN says hackers breached internal testing, proxy servers",
+      "link": "https://www.bleepingcomputer.com/news/security/surfshark-vpn-says-hackers-breached-internal-testing-proxy-servers/",
+      "summary": "Surfshark disclosed that hackers accessed one of its internal test servers after a configuration error exposed it to the internet. [...]",
+      "source": "BleepingComputer",
+      "published": "2026-09-10T19:15:07+00:00"
+    },
+    {
+      "title": "Microsoft Excel KB5002914 update breaks copy and paste for some users",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-excel-kb5002914-update-breaks-copy-and-paste-for-some-users/",
+      "summary": "Microsoft Excel users report that this week's KB5002914 Office security update is breaking copy-and-paste operations and formula dragging, with affected users saying that removing or rolling back the...",
+      "source": "BleepingComputer",
+      "published": "2026-09-10T19:07:33+00:00"
+    },
+    {
+      "title": "IDScan confirms breach after hackers offer 153 million driver’s license scans for sale",
+      "link": "https://therecord.media/idscan-data-breach-notice-drivers-licenses",
+      "summary": "A notice dated September 4 but not widely shared shows that IDScan acknowledged a data breach but did not specify how many people were affected.",
+      "source": "The Record",
+      "published": "2026-09-10T18:55:00+00:00"
+    },
+    {
+      "title": "Cyber Command turns to veteran of intelligence agencies for top AI role",
+      "link": "https://therecord.media/cyber-command-ai-leader-ronzelle-green",
+      "summary": "Ronzelle Green, most recently a senior official at the National Geospatial-Intelligence Agency, will be U.S. Cyber Command's chief AI officer.",
+      "source": "The Record",
+      "published": "2026-09-10T18:25:00+00:00"
+    },
+    {
+      "title": "ThreatsDay: 200 Android Flaws, Browser-Built Phishing, 119K Scam Shops + 23 More Stories",
+      "link": "https://thehackernews.com/2026/09/threatsday-200-android-flaws-browser.html",
+      "summary": "A lot of this week’s security news has the same awkward answer to one question: “Why was that allowed to work?” An extension asks for access and takes too much. A trusted service becomes part of a...",
+      "source": "The Hacker News",
+      "published": "2026-09-10T17:47:38+00:00"
+    },
+    {
+      "title": "CVE-2026-88025 - GridFS data disclosure and deletion via query-operator injection in file IDs in the MongoDB C# Driver",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-88025",
+      "summary": "CVE ID :CVE-2026-88025 Published : Sept. 10, 2026, 5:46 p.m. | 28 minutes ago Description :Improper neutralization of special elements in data query logic in the GridFS component of the MongoDB C#...",
+      "source": "CVE Feed",
+      "published": "2026-09-10T17:46:43+00:00"
+    },
+    {
+      "title": "CVE-2026-88024 - GridFS data disclosure and deletion via query-operator injection in file IDs in the MongoDB Rust Driver",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-88024",
+      "summary": "CVE ID :CVE-2026-88024 Published : Sept. 10, 2026, 5:43 p.m. | 31 minutes ago Description :Improper neutralization of special elements in data query logic in the GridFS component of the MongoDB Rust...",
+      "source": "CVE Feed",
+      "published": "2026-09-10T17:43:29+00:00"
+    },
+    {
+      "title": "CVE-2026-88023 - GridFS data disclosure and deletion via query-operator injection in file IDs in the MongoDB PHP Library",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-88023",
+      "summary": "CVE ID :CVE-2026-88023 Published : Sept. 10, 2026, 5:41 p.m. | 33 minutes ago Description :Improper neutralization of special elements in data query logic in the GridFS component of the MongoDB PHP...",
+      "source": "CVE Feed",
+      "published": "2026-09-10T17:41:10+00:00"
+    },
+    {
+      "title": "CVE-2026-89046 - zstd-jni 1.5.5-6 through 1.5.7-13 Out-of-Bounds Read via Negative Offset",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-89046",
+      "summary": "CVE ID :CVE-2026-89046 Published : Sept. 10, 2026, 5:39 p.m. | 35 minutes ago Description :zstd-jni versions 1.5.5-6 through 1.5.7-13 contain an out-of-bounds read vulnerability in...",
+      "source": "CVE Feed",
+      "published": "2026-09-10T17:39:35+00:00"
+    },
+    {
+      "title": "CVE-2026-89043 - passport-saml-encrypted through 0.1.13 XML Signature Wrapping via Assertion Prepending",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-89043",
+      "summary": "CVE ID :CVE-2026-89043 Published : Sept. 10, 2026, 5:39 p.m. | 35 minutes ago Description :passport-saml-encrypted through 0.1.13 contains an XML signature wrapping vulnerability where signature...",
+      "source": "CVE Feed",
+      "published": "2026-09-10T17:39:33+00:00"
+    },
+    {
+      "title": "CVE-2026-89042 - passport-saml-encrypted through 0.1.13 Authentication Bypass via Missing Signature Verification",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-89042",
+      "summary": "CVE ID :CVE-2026-89042 Published : Sept. 10, 2026, 5:39 p.m. | 35 minutes ago Description :passport-saml-encrypted through 0.1.13 makes SAML signature verification conditional on an optional cert...",
+      "source": "CVE Feed",
+      "published": "2026-09-10T17:39:32+00:00"
+    },
+    {
+      "title": "CVE-2026-88022 - Unauthorized document disclosure and deletion via query-operator injection in explicit equality filters in MongoDB integration for Laravel",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-88022",
+      "summary": "CVE ID :CVE-2026-88022 Published : Sept. 10, 2026, 5:37 p.m. | 37 minutes ago Description :Improper neutralization of special elements in data query logic in the MongoDB integration for Laravel can...",
+      "source": "CVE Feed",
+      "published": "2026-09-10T17:37:03+00:00"
+    },
+    {
+      "title": "CVE-2026-88049 - Tesseract: Heap out-of-bounds write in LSTM::Forward via na_/gate-matrix dimension mismatch",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-88049",
+      "summary": "CVE ID :CVE-2026-88049 Published : Sept. 10, 2026, 5:17 p.m. | 57 minutes ago Description :Tesseract is an open source OCR engine. In version 5.5.3 and earlier, prior .traineddata hardening added...",
+      "source": "CVE Feed",
+      "published": "2026-09-10T17:17:09+00:00"
+    },
+    {
+      "title": "CVE-2026-88048 - Tesseract: Heap out-of-bounds write/read in FullyConnected::Forward via layer/weight-matrix dimension mismatch",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-88048",
+      "summary": "CVE ID :CVE-2026-88048 Published : Sept. 10, 2026, 5:17 p.m. | 57 minutes ago Description :Tesseract is an open source OCR engine. In version 5.5.3 and earlier, FullyConnected::DeSerialize in...",
+      "source": "CVE Feed",
+      "published": "2026-09-10T17:17:08+00:00"
+    },
+    {
+      "title": "CVE-2026-88047 - Tesseract: ReadNormProtos stack buffer overflow",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-88047",
+      "summary": "CVE ID :CVE-2026-88047 Published : Sept. 10, 2026, 5:17 p.m. | 57 minutes ago Description :Tesseract is an open source OCR engine. In version 5.5.3 and earlier, Classify::ReadNormProtos in...",
+      "source": "CVE Feed",
+      "published": "2026-09-10T17:17:08+00:00"
+    },
+    {
+      "title": "CVE-2026-88044 - rclone: RC per-server auth-proxy bypass",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-88044",
+      "summary": "CVE ID :CVE-2026-88044 Published : Sept. 10, 2026, 5:17 p.m. | 57 minutes ago Description :rclone is a command-line program to sync files and directories to and from different cloud storage...",
+      "source": "CVE Feed",
+      "published": "2026-09-10T17:17:08+00:00"
+    },
+    {
+      "title": "CVE-2026-85228 - Integer overflow in tensor buffer validation in Deep Java Library",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-85228",
+      "summary": "CVE ID :CVE-2026-85228 Published : Sept. 10, 2026, 5:17 p.m. | 57 minutes ago Description :An integer overflow in the tensor buffer validation component in Amazon Deep Java Library (DJL) from 0.13.0...",
+      "source": "CVE Feed",
+      "published": "2026-09-10T17:17:06+00:00"
+    },
+    {
+      "title": "CVE-2026-73699 - FileRun < 2026.3.0 PHP Object Injection via Perms::getPerms()",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-73699",
+      "summary": "CVE ID :CVE-2026-73699 Published : Sept. 10, 2026, 5:17 p.m. | 57 minutes ago Description :FileRun before 2026.3.0 contains a PHP object injection vulnerability that allows authenticated attackers to...",
+      "source": "CVE Feed",
+      "published": "2026-09-10T17:17:06+00:00"
+    },
+    {
+      "title": "CVE-2026-73698 - FileRun < 2026.3.0 Authenticated SQL Injection via Groups Add Action",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-73698",
+      "summary": "CVE ID :CVE-2026-73698 Published : Sept. 10, 2026, 5:17 p.m. | 57 minutes ago Description :FileRun before 2026.3.0 contains a SQL injection vulnerability that allows delegated or simple...",
+      "source": "CVE Feed",
+      "published": "2026-09-10T17:17:05+00:00"
+    },
+    {
+      "title": "CVE-2026-73694 - FileRun < 2026.3.0 OS Command Injection via escapeshellcmd() No-Op Redefinition",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-73694",
+      "summary": "CVE ID :CVE-2026-73694 Published : Sept. 10, 2026, 5:17 p.m. | 57 minutes ago Description :FileRun before 2026.3.0 contains an OS command injection vulnerability caused by a no-op redefinition of...",
+      "source": "CVE Feed",
+      "published": "2026-09-10T17:17:05+00:00"
+    },
+    {
+      "title": "CVE-2026-73693 - FileRun < 2026.3.0 OS Command Injection via PhotoProofSheet Handler",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-73693",
+      "summary": "CVE ID :CVE-2026-73693 Published : Sept. 10, 2026, 5:17 p.m. | 57 minutes ago Description :FileRun before 2026.3.0 contains an OS command injection vulnerability in the PhotoProofSheet handler that...",
+      "source": "CVE Feed",
+      "published": "2026-09-10T17:17:05+00:00"
+    },
+    {
+      "title": "CVE-2026-68488 - Plesk Time-of-Check Time-of-Use Privilege Escalation",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-68488",
+      "summary": "CVE ID :CVE-2026-68488 Published : Sept. 10, 2026, 5:17 p.m. | 57 minutes ago Description :A Time-of-check Time-of-use (TOCTOU) race condition leading to insecure symlink following in Plesk causes...",
+      "source": "CVE Feed",
+      "published": "2026-09-10T17:17:05+00:00"
+    },
+    {
+      "title": "CVE-2026-68487 - Plesk Backup Manager Path Traversal Arbitrary File Write",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-68487",
+      "summary": "CVE ID :CVE-2026-68487 Published : Sept. 10, 2026, 5:17 p.m. | 57 minutes ago Description :Path traversal in Plesk's Backup Manager causes arbitrary file write as root by an authenticated customer...",
+      "source": "CVE Feed",
+      "published": "2026-09-10T17:17:05+00:00"
+    },
+    {
+      "title": "CVE-2026-65639 - ConfigServer Security & Firewall OS Command Injection Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-65639",
+      "summary": "CVE ID :CVE-2026-65639 Published : Sept. 10, 2026, 5:17 p.m. | 57 minutes ago Description :OS command injection in the advanced-rule parser of ConfigServer Security & Firewall allows a remote...",
+      "source": "CVE Feed",
+      "published": "2026-09-10T17:17:05+00:00"
+    },
+    {
+      "title": "CVE-2026-65638 - ConfigServer Security & Firewall Shell Command Injection Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-65638",
+      "summary": "CVE ID :CVE-2026-65638 Published : Sept. 10, 2026, 5:17 p.m. | 57 minutes ago Description :Improper escaping of a request URL in ConfigServer Security & Firewall allows an unauthenticated remote...",
+      "source": "CVE Feed",
+      "published": "2026-09-10T17:17:05+00:00"
+    },
+    {
+      "title": "CVE-2026-88959 - Anchor CMS through 0.12.7 Privilege Escalation via Missing Authorization on Admin User-Management Endpoints",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-88959",
+      "summary": "CVE ID :CVE-2026-88959 Published : Sept. 10, 2026, 4:18 p.m. | 1 hour, 56 minutes ago Description :Anchor CMS through 0.12.7 fails to enforce role-based access control in admin user-management...",
+      "source": "CVE Feed",
+      "published": "2026-09-10T16:18:12+00:00"
+    },
+    {
+      "title": "CVE-2026-88939 - knowns through 0.33.0 Authorization Bypass via project.set Bootstrap Exemption",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-88939",
+      "summary": "CVE ID :CVE-2026-88939 Published : Sept. 10, 2026, 4:18 p.m. | 1 hour, 56 minutes ago Description :knowns through 0.33.0 exempts the project.set action from permission guard checks unconditionally...",
+      "source": "CVE Feed",
+      "published": "2026-09-10T16:18:12+00:00"
+    },
+    {
+      "title": "CVE-2026-88937 - knowns through 0.33.0 Path Traversal via Template Engine",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-88937",
+      "summary": "CVE ID :CVE-2026-88937 Published : Sept. 10, 2026, 4:18 p.m. | 1 hour, 56 minutes ago Description :knowns through 0.33.0 fails to properly validate template destination paths in the code generation...",
+      "source": "CVE Feed",
+      "published": "2026-09-10T16:18:12+00:00"
+    },
+    {
+      "title": "CVE-2026-88899 - knowns before 0.31.0 External Control of Agent Working Directory via x-opencode-directory Header",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-88899",
+      "summary": "CVE ID :CVE-2026-88899 Published : Sept. 10, 2026, 4:18 p.m. | 1 hour, 56 minutes ago Description :knowns versions before 0.31.0 fail to properly validate the x-opencode-directory request header in...",
+      "source": "CVE Feed",
+      "published": "2026-09-10T16:18:12+00:00"
+    },
+    {
+      "title": "CVE-2026-88018 - rclone serve s3: --auth-proxy without --auth-key authenticates nobody - full SigV4 signature bypass",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-88018",
+      "summary": "CVE ID :CVE-2026-88018 Published : Sept. 10, 2026, 4:18 p.m. | 1 hour, 56 minutes ago Description :rclone is a command-line program to sync files and directories to and from different cloud storage...",
+      "source": "CVE Feed",
+      "published": "2026-09-10T16:18:08+00:00"
+    },
     {
       "title": "Cybersecurity M&A Roundup: 33 Deals Announced in August 2026",
       "link": "https://www.securityweek.com/cybersecurity-ma-roundup-33-deals-announced-in-august-2026/",
@@ -30,55 +240,6 @@
       "published": "2026-09-10T15:29:12+00:00"
     },
     {
-      "title": "CVE-2026-88897 - Flextype CMS through 1.0.0-alpha.3 API Token Exposure via Query String",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-88897",
-      "summary": "CVE ID :CVE-2026-88897 Published : Sept. 10, 2026, 3:17 p.m. | 14 minutes ago Description :Flextype CMS through 1.0.0-alpha.3 accepts API authentication credentials through URL query string...",
-      "source": "CVE Feed",
-      "published": "2026-09-10T15:17:58+00:00"
-    },
-    {
-      "title": "CVE-2026-88007 - Traefik HTTP/3 Backend NTLM Connection Reuse",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-88007",
-      "summary": "CVE ID :CVE-2026-88007 Published : Sept. 10, 2026, 3:17 p.m. | 14 minutes ago Description :Traefik is an open source HTTP reverse proxy and load balancer. From 2.11.0 until 2.11.57 and 3.7.13, the...",
-      "source": "CVE Feed",
-      "published": "2026-09-10T15:17:56+00:00"
-    },
-    {
-      "title": "CVE-2026-81805 - WordPress SiteSkite plugin <= 2.1.5 - Privilege Escalation vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-81805",
-      "summary": "CVE ID :CVE-2026-81805 Published : Sept. 10, 2026, 3:17 p.m. | 14 minutes ago Description :Unauthenticated Privilege Escalation in SiteSkite Severity: 8.1 | HIGH Visit the link for more details, such...",
-      "source": "CVE Feed",
-      "published": "2026-09-10T15:17:46+00:00"
-    },
-    {
-      "title": "CVE-2026-81801 - WordPress WP-Stateless plugin <= 4.4.1 - Settings Change vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-81801",
-      "summary": "CVE ID :CVE-2026-81801 Published : Sept. 10, 2026, 3:17 p.m. | 14 minutes ago Description :Subscriber Settings Change in WP-Stateless Severity: 8.1 | HIGH Visit the link for more details, such as...",
-      "source": "CVE Feed",
-      "published": "2026-09-10T15:17:46+00:00"
-    },
-    {
-      "title": "CVE-2026-81800 - WordPress Verified Reviews (Avis Vérifiés) plugin <= 2.4.6 - SQL Injection vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-81800",
-      "summary": "CVE ID :CVE-2026-81800 Published : Sept. 10, 2026, 3:17 p.m. | 14 minutes ago Description :Unauthenticated SQL Injection in Verified Reviews (Avis Vérifiés) Severity: 9.3 | CRITICAL Visit the link...",
-      "source": "CVE Feed",
-      "published": "2026-09-10T15:17:46+00:00"
-    },
-    {
-      "title": "CVE-2026-81789 - WordPress Advanced Product Fields Extended for WooCommerce plugin <= 3.1.6 - Arbitrary File Deletion vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-81789",
-      "summary": "CVE ID :CVE-2026-81789 Published : Sept. 10, 2026, 3:17 p.m. | 14 minutes ago Description :Unauthenticated Arbitrary File Deletion in Advanced Product Fields Extended for WooCommerce Severity: 8.6 |...",
-      "source": "CVE Feed",
-      "published": "2026-09-10T15:17:44+00:00"
-    },
-    {
-      "title": "CVE-2026-81784 - WordPress Wise Chat plugin <= 3.4 - PHP Object Injection vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-81784",
-      "summary": "CVE ID :CVE-2026-81784 Published : Sept. 10, 2026, 3:17 p.m. | 14 minutes ago Description :Unauthenticated PHP Object Injection in Wise Chat Severity: 8.1 | HIGH Visit the link for more details, such...",
-      "source": "CVE Feed",
-      "published": "2026-09-10T15:17:43+00:00"
-    },
-    {
       "title": "IDScan confirms breach tied to 153 million stolen driver’s licenses",
       "link": "https://www.bleepingcomputer.com/news/security/idscan-confirms-breach-tied-to-153-million-stolen-drivers-licenses/",
       "summary": "Identity verification company IDScan has confirmed that hackers accessed customer data stored in its cloud platform, days after reports linked the company to a massive database containing more than...",
@@ -105,132 +266,6 @@
       "summary": "Vinnie Liu was recruited by the NSA when he was just 17 years old. He is now the CEO of Bishop Fox. The post Hacker Conversations: Vinnie Liu, Performer Turned Ringmaster appeared first on...",
       "source": "SecurityWeek",
       "published": "2026-09-10T14:30:00+00:00"
-    },
-    {
-      "title": "CVE-2026-88895 - CyberPanel before 3.0.5 Authentication Bypass via API",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-88895",
-      "summary": "CVE ID :CVE-2026-88895 Published : Sept. 10, 2026, 2:17 p.m. | 1 hour, 14 minutes ago Description :CyberPanel before 3.0.5 fails to enforce two-factor authentication on API endpoints, allowing...",
-      "source": "CVE Feed",
-      "published": "2026-09-10T14:17:18+00:00"
-    },
-    {
-      "title": "CVE-2026-88893 - OpenPanel Unauthenticated Share Lookup Information Disclosure",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-88893",
-      "summary": "CVE ID :CVE-2026-88893 Published : Sept. 10, 2026, 2:17 p.m. | 1 hour, 14 minutes ago Description :OpenPanel share lookup procedures fail to validate access controls and return password hashes and...",
-      "source": "CVE Feed",
-      "published": "2026-09-10T14:17:18+00:00"
-    },
-    {
-      "title": "CVE-2026-88891 - OpenPanel Read-Only Access Level Enforcement Bypass via Mutations",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-88891",
-      "summary": "CVE ID :CVE-2026-88891 Published : Sept. 10, 2026, 2:17 p.m. | 1 hour, 14 minutes ago Description :OpenPanel fails to enforce read-only project access level on 26 of 29 mutating procedures, allowing...",
-      "source": "CVE Feed",
-      "published": "2026-09-10T14:17:18+00:00"
-    },
-    {
-      "title": "CVE-2026-88890 - OpenPanel SQL Injection via unvalidated profile filter column identifier",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-88890",
-      "summary": "CVE ID :CVE-2026-88890 Published : Sept. 10, 2026, 2:17 p.m. | 1 hour, 14 minutes ago Description :OpenPanel through commit cd24bb8 contains an SQL injection vulnerability in the analytics filter...",
-      "source": "CVE Feed",
-      "published": "2026-09-10T14:17:18+00:00"
-    },
-    {
-      "title": "CVE-2026-88889 - Renovate before 44.14.7 Command Injection via distributionType",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-88889",
-      "summary": "CVE ID :CVE-2026-88889 Published : Sept. 10, 2026, 2:17 p.m. | 1 hour, 14 minutes ago Description :Renovate before 44.14.7 contains a command injection vulnerability in the Maven Wrapper manager that...",
-      "source": "CVE Feed",
-      "published": "2026-09-10T14:17:18+00:00"
-    },
-    {
-      "title": "CVE-2026-88887 - Renovate before 44.11.2 Credential Exfiltration via Link Header",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-88887",
-      "summary": "CVE ID :CVE-2026-88887 Published : Sept. 10, 2026, 2:17 p.m. | 1 hour, 14 minutes ago Description :Renovate is a dependency update automation tool. When listing tags/digests for a container image...",
-      "source": "CVE Feed",
-      "published": "2026-09-10T14:17:17+00:00"
-    },
-    {
-      "title": "CVE-2026-88886 - Renovate before 44.14.7 Command Injection via gradle-wrapper",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-88886",
-      "summary": "CVE ID :CVE-2026-88886 Published : Sept. 10, 2026, 2:17 p.m. | 1 hour, 14 minutes ago Description :Renovate is a dependency update automation tool. In versions before 44.14.7 (and in Mend Renovate...",
-      "source": "CVE Feed",
-      "published": "2026-09-10T14:17:17+00:00"
-    },
-    {
-      "title": "CVE-2026-88883 - Renovate before 44.14.4 TLS Private Key Log Sanitisation",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-88883",
-      "summary": "CVE ID :CVE-2026-88883 Published : Sept. 10, 2026, 2:17 p.m. | 1 hour, 14 minutes ago Description :Renovate is an automated dependency update tool. In versions before 44.14.4 (and Mend Renovate CE/EE...",
-      "source": "CVE Feed",
-      "published": "2026-09-10T14:17:16+00:00"
-    },
-    {
-      "title": "CVE-2026-88882 - Renovate before 44.11.2 Credential Exfiltration via Link Header",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-88882",
-      "summary": "CVE ID :CVE-2026-88882 Published : Sept. 10, 2026, 2:17 p.m. | 1 hour, 14 minutes ago Description :Renovate is a dependency update automation tool. In versions before 44.11.2 (and Mend Renovate CE/EE...",
-      "source": "CVE Feed",
-      "published": "2026-09-10T14:17:16+00:00"
-    },
-    {
-      "title": "CVE-2026-88881 - Renovate before 44.11.3 Credential Exfiltration via Link Header",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-88881",
-      "summary": "CVE ID :CVE-2026-88881 Published : Sept. 10, 2026, 2:17 p.m. | 1 hour, 14 minutes ago Description :Renovate, a dependency update tool, follows pagination links supplied by the GitHub server in the...",
-      "source": "CVE Feed",
-      "published": "2026-09-10T14:17:16+00:00"
-    },
-    {
-      "title": "CVE-2026-88880 - Renovate before 44.11.3 Credential Exfiltration via Link Header",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-88880",
-      "summary": "CVE ID :CVE-2026-88880 Published : Sept. 10, 2026, 2:17 p.m. | 1 hour, 14 minutes ago Description :Renovate before 44.11.3 fails to validate Link header destinations when following GitLab server...",
-      "source": "CVE Feed",
-      "published": "2026-09-10T14:17:16+00:00"
-    },
-    {
-      "title": "CVE-2026-88877 - Traefik v3.7.0 Authentication Bypass via from-to-www-redirect",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-88877",
-      "summary": "CVE ID :CVE-2026-88877 Published : Sept. 10, 2026, 2:17 p.m. | 1 hour, 14 minutes ago Description :Traefik is a HTTP reverse proxy and load balancer. In versions >= v3.7.0 and Severity: 9.8 |...",
-      "source": "CVE Feed",
-      "published": "2026-09-10T14:17:16+00:00"
-    },
-    {
-      "title": "CVE-2026-88876 - AVideo PlayerSkins seo.php Missing Authorization Password-Protected VOD",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-88876",
-      "summary": "CVE ID :CVE-2026-88876 Published : Sept. 10, 2026, 2:17 p.m. | 1 hour, 14 minutes ago Description :AVideo through revision c3edcc274c389816d434acadac07ee78eaf330c1 contains a missing authorization...",
-      "source": "CVE Feed",
-      "published": "2026-09-10T14:17:15+00:00"
-    },
-    {
-      "title": "CVE-2026-88874 - AVideo through c3edcc274c389816d434acadac07ee78eaf330c1 Authentication Bypass",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-88874",
-      "summary": "CVE ID :CVE-2026-88874 Published : Sept. 10, 2026, 2:17 p.m. | 1 hour, 14 minutes ago Description :AVideo through revision c3edcc274c389816d434acadac07ee78eaf330c1 (master, 2026-08-23) does not...",
-      "source": "CVE Feed",
-      "published": "2026-09-10T14:17:15+00:00"
-    },
-    {
-      "title": "CVE-2026-88869 - AVideo AD_Server Stored XSS via log.php label parameter",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-88869",
-      "summary": "CVE ID :CVE-2026-88869 Published : Sept. 10, 2026, 2:17 p.m. | 1 hour, 14 minutes ago Description :AVideo through commit c3edcc274c389816d434acadac07ee78eaf330c1 contains a stored cross-site...",
-      "source": "CVE Feed",
-      "published": "2026-09-10T14:17:14+00:00"
-    },
-    {
-      "title": "CVE-2026-88868 - AVideo LiveLinks Stored XSS via title and description fields",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-88868",
-      "summary": "CVE ID :CVE-2026-88868 Published : Sept. 10, 2026, 2:17 p.m. | 1 hour, 14 minutes ago Description :AVideo through commit c3edcc274c389816d434acadac07ee78eaf330c1 contains a stored cross-site...",
-      "source": "CVE Feed",
-      "published": "2026-09-10T14:17:13+00:00"
-    },
-    {
-      "title": "CVE-2026-88867 - WWBN AVideo Stored XSS via Category Name and Icon Class",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-88867",
-      "summary": "CVE ID :CVE-2026-88867 Published : Sept. 10, 2026, 2:17 p.m. | 1 hour, 14 minutes ago Description :WWBN AVideo, in versions up to and including commit c3edcc274c389816d434acadac07ee78eaf330c1...",
-      "source": "CVE Feed",
-      "published": "2026-09-10T14:17:12+00:00"
-    },
-    {
-      "title": "CVE-2026-88866 - WWBN AVideo LoginControl Stored XSS via User-Agent Header",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-88866",
-      "summary": "CVE ID :CVE-2026-88866 Published : Sept. 10, 2026, 2:17 p.m. | 1 hour, 14 minutes ago Description :WWBN AVideo through commit c3edcc274c389816d434acadac07ee78eaf330c1 contains a stored cross-site...",
-      "source": "CVE Feed",
-      "published": "2026-09-10T14:17:12+00:00"
     },
     {
       "title": "New 'BlueMoon' kit exploited Windows and Chrome zero-day flaws",
@@ -429,6 +464,13 @@
       "published": "2026-09-10T06:56:33+00:00"
     },
     {
+      "title": "Multiple crypto companies warn customers of phishing emails after alleged provider breach",
+      "link": "https://therecord.media/trezor-bitbox-cointracking-phishing-crypto-holders",
+      "summary": "Subscribers to newsletters from Trezor, CoinTracking and BitBox received corrupted messages through an email provider that all three companies use.",
+      "source": "The Record",
+      "published": "2026-09-10T04:00:00+00:00"
+    },
+    {
       "title": "CISA KEV Update – 8 Vulnerabilities Added in Two Days",
       "link": "https://thecyberthrone.in/2026/09/10/cisa-kev-update-8-vulnerabilities-added-in-two-days/",
       "summary": "CISA KEV Update – 8 Vulnerabilities Added in Two Days CISA’s Known Exploited Vulnerabilities (KEV) Catalog saw a significant two-day update on September 8 and September 9, 2026, with eight...",
@@ -450,13 +492,6 @@
       "published": "2026-09-09T21:30:36+00:00"
     },
     {
-      "title": "CISA head says agency must change quickly to prevent the 'worst that could happen'",
-      "link": "https://therecord.media/cisa-hiring-nick-andersen-warning",
-      "summary": "CISA's cybersecurity, infrastructure security and emergency communications divisions are among the priorities as the agency fills vacancies created at the beginning of the Trump administration...",
-      "source": "The Record",
-      "published": "2026-09-09T21:25:00+00:00"
-    },
-    {
       "title": "Mythos Vulnerability Firehose Hits a Human Bottleneck",
       "link": "https://www.darkreading.com/application-security/mythos-vulnerability-firehose-hits-human-bottleneck",
       "summary": "An analysis of Project Glasswing findings shows only a fraction of the bugs it has discovered have reached disclosure, and an even smaller number have been fixed.",
@@ -469,13 +504,6 @@
       "summary": "The Carnegie Mellon University CERT Coordination Center (CERT/CC) is warning that Skullcandy Dime 3 wireless earbuds accept Bluetooth pairing requests from nearby unpaired devices without requiring...",
       "source": "BleepingComputer",
       "published": "2026-09-09T21:02:14+00:00"
-    },
-    {
-      "title": "US disrupts Xinbi Guarantee marketplace fueling the cyber scam economy",
-      "link": "https://therecord.media/us-disrupts-xinbi-guarantee-marketplace-cybercrime",
-      "summary": "The U.S. government also carried out a seizure of $52.8 million from 52 wallets connected to the platform.",
-      "source": "The Record",
-      "published": "2026-09-09T19:54:00+00:00"
     },
     {
       "title": "US Government Accuses Chinese AI Firms of Distilling Frontier Models",
@@ -492,13 +520,6 @@
       "published": "2026-09-09T18:26:05+00:00"
     },
     {
-      "title": "Grindr settles privacy lawsuit tied to disclosure of users’ HIV statuses for $35 million",
-      "link": "https://therecord.media/grindr-settles-privacy-lawsuit-hiv-status-35-million",
-      "summary": "The settlement concludes a legal fight that dates to April 2024, when UK users sued for the alleged violations of their country’s privacy laws.",
-      "source": "The Record",
-      "published": "2026-09-09T18:11:00+00:00"
-    },
-    {
       "title": "US says Chinese firms extracted billions of tokens from frontier AI models",
       "link": "https://www.bleepingcomputer.com/news/security/us-says-chinese-firms-extracted-billions-of-tokens-from-frontier-ai-models/",
       "summary": "U.S. cybersecurity and intelligence agencies say that six Chinese AI companies conducted industrial-scale distillation attacks on American frontier AI models since at least late 2024. [...]",
@@ -511,13 +532,6 @@
       "summary": "Multiple espionage-motivated threat activity clusters have been found deploying a previously undocumented exploit kit called BlueMoon that chains together multiple vulnerabilities in Microsoft...",
       "source": "The Hacker News",
       "published": "2026-09-09T16:34:05+00:00"
-    },
-    {
-      "title": "Veradigm warns of patient data breach after ransomware gang claims attack",
-      "link": "https://www.bleepingcomputer.com/news/security/veradigm-discloses-patient-data-breach-after-gentlemen-gang-claims-attack/",
-      "summary": "Healthcare technology company Veradigm disclosed a data breach after a cybersecurity incident at one of its third-party vendors exposed patients' personal data. [...]",
-      "source": "BleepingComputer",
-      "published": "2026-09-09T15:31:23+00:00"
     },
     {
       "title": "Once in a BlueMoon: Multiple State-Aligned Threat Actors Rapidly Adopt Novel Exploit Chain Using Chrome and Windows Zero-Days",
@@ -539,13 +553,6 @@
       "summary": "Cybercriminals are hijacking artificial intelligence (AI) user accounts via information stealer logs to create \"stolen keys\" that grant illicit access to tools from model providers like Google...",
       "source": "The Hacker News",
       "published": "2026-09-09T14:23:55+00:00"
-    },
-    {
-      "title": "MFA's Weakest Link: Account Recovery Is the New Attack Path",
-      "link": "https://www.bleepingcomputer.com/news/security/mfas-weakest-link-account-recovery-is-the-new-attack-path/",
-      "summary": "MFA makes account takeover harder, but attackers are increasingly targeting the recovery processes used to reset passwords and authentication methods. Specops explains why stronger identity...",
-      "source": "BleepingComputer",
-      "published": "2026-09-09T14:01:11+00:00"
     },
     {
       "title": "How to completely uninstall apps on Mac and free up storage | Kaspersky official blog",
@@ -903,13 +910,6 @@
       "summary": "PostgreSQL has released updates to address a security flaw that allows an account with the REPLICATION attribute to run arbitrary code as the operating-system user running the database server. The...",
       "source": "The Hacker News",
       "published": "2026-09-04T15:20:19+00:00"
-    },
-    {
-      "title": "New Ted Backdoor Hides Inside Victims' Own HAProxy Builds to Intercept Web Traffic",
-      "link": "https://thehackernews.com/2026/09/new-ted-backdoor-hides-inside-victims.html",
-      "summary": "A previously undocumented Linux toolkit has been found compiled directly into the trojanized HAProxy load balancers of two South Korean organizations, where it intercepted web traffic and served...",
-      "source": "The Hacker News",
-      "published": "2026-09-04T14:51:13+00:00"
     },
     {
       "title": "AI Is Ending the Era of Hidden Vulnerabilities — Are Vendors Ready?",
