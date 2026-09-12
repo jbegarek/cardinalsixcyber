@@ -1,6 +1,41 @@
 {
-  "last_updated": "2026-09-12T16:38:53.093103+00:00",
+  "last_updated": "2026-09-12T19:53:31.100924+00:00",
   "articles": [
+    {
+      "title": "CVE-2026-90560 - zstd-jni 1.2.0 through 1.5.7-13 Out-of-Bounds Read via ZstdDictDecompress",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-90560",
+      "summary": "CVE ID :CVE-2026-90560 Published : Sept. 12, 2026, 6:16 p.m. | 18 minutes ago Description :zstd-jni versions 1.2.0 through 1.5.7-13 contain an out-of-bounds read vulnerability in the...",
+      "source": "CVE Feed",
+      "published": "2026-09-12T18:16:44+00:00"
+    },
+    {
+      "title": "CVE-2026-90559 - snappy-java through 1.1.10.8 Out-of-Bounds Write via uncompress",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-90559",
+      "summary": "CVE ID :CVE-2026-90559 Published : Sept. 12, 2026, 6:16 p.m. | 18 minutes ago Description :snappy-java through 1.1.10.8 contains an out-of-bounds write vulnerability in Snappy.uncompress(ByteBuffer...",
+      "source": "CVE Feed",
+      "published": "2026-09-12T18:16:44+00:00"
+    },
+    {
+      "title": "CVE-2026-90558 - sngrep through 1.8.4 Stack Buffer Overflow via SIP Headers",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-90558",
+      "summary": "CVE ID :CVE-2026-90558 Published : Sept. 12, 2026, 6:16 p.m. | 18 minutes ago Description :sngrep through 1.8.4 contains stack buffer overflow vulnerabilities in SIP attribute formatting routines...",
+      "source": "CVE Feed",
+      "published": "2026-09-12T18:16:44+00:00"
+    },
+    {
+      "title": "CVE-2026-90556 - Freeciv before 3.2.6 Heap Buffer Overflow via worklist_load",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-90556",
+      "summary": "CVE ID :CVE-2026-90556 Published : Sept. 12, 2026, 6:16 p.m. | 18 minutes ago Description :Freeciv versions before 3.2.6 contain a heap buffer overflow in worklist_load() when processing savegame...",
+      "source": "CVE Feed",
+      "published": "2026-09-12T18:16:44+00:00"
+    },
+    {
+      "title": "CISA Adds 5 Actively Exploited Artifactory, ScreenConnect, and RouterOS Flaws to KEV",
+      "link": "https://thehackernews.com/2026/09/cisa-adds-5-actively-exploited.html",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added five security flaws impacting JFrog Artifactory, ConnectWise ScreenConnect, and MikroTik RouterOS to its Known Exploited...",
+      "source": "The Hacker News",
+      "published": "2026-09-12T15:54:45+00:00"
+    },
     {
       "title": "Dutch NCSC: Critical Check Point VPN flaws exploitation is imminent",
       "link": "https://www.bleepingcomputer.com/news/security/dutch-ncsc-critical-check-point-vpn-flaws-exploitation-is-imminent/",
@@ -18,21 +53,21 @@
     {
       "title": "CVE-2026-90553 - vLLM before 0.28.0 Remote Code Execution via LlavaOnevision2 processor",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-90553",
-      "summary": "CVE ID :CVE-2026-90553 Published : Sept. 12, 2026, 1:16 p.m. | 3 hours, 3 minutes ago Description :vLLM before 0.28.0 contains a remote code execution vulnerability in the LlavaOnevision2 processor...",
+      "summary": "CVE ID :CVE-2026-90553 Published : Sept. 12, 2026, 1:16 p.m. | 5 hours, 18 minutes ago Description :vLLM before 0.28.0 contains a remote code execution vulnerability in the LlavaOnevision2 processor...",
       "source": "CVE Feed",
       "published": "2026-09-12T13:16:53+00:00"
     },
     {
       "title": "CVE-2026-90537 - WWBN AVideo Scheduler sendEmail Missing Authorization via Token",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-90537",
-      "summary": "CVE ID :CVE-2026-90537 Published : Sept. 12, 2026, 1:16 p.m. | 3 hours, 3 minutes ago Description :WWBN AVideo through commit c3edcc274c389816d434acadac07ee78eaf330c1 contains a missing authorization...",
+      "summary": "CVE ID :CVE-2026-90537 Published : Sept. 12, 2026, 1:16 p.m. | 5 hours, 18 minutes ago Description :WWBN AVideo through commit c3edcc274c389816d434acadac07ee78eaf330c1 contains a missing...",
       "source": "CVE Feed",
       "published": "2026-09-12T13:16:51+00:00"
     },
     {
       "title": "CVE-2026-15451 - MemberPress Corporate Accounts <= 1.5.39 - Authenticated (Subscriber+) Privilege Escalation via Mass Assignment in Sub-Account Creation",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-15451",
-      "summary": "CVE ID :CVE-2026-15451 Published : Sept. 12, 2026, 1:16 p.m. | 3 hours, 3 minutes ago Description :The MemberPress Corporate Accounts plugin for WordPress is vulnerable to Privilege Escalation in...",
+      "summary": "CVE ID :CVE-2026-15451 Published : Sept. 12, 2026, 1:16 p.m. | 5 hours, 18 minutes ago Description :The MemberPress Corporate Accounts plugin for WordPress is vulnerable to Privilege Escalation in...",
       "source": "CVE Feed",
       "published": "2026-09-12T13:16:50+00:00"
     },
@@ -60,37 +95,128 @@
     {
       "title": "CVE-2026-78175 - Tutor LMS <= 4.0.7 - Authenticated (Subscriber+) PHP Object Injection to Remote Code Execution",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-78175",
-      "summary": "CVE ID :CVE-2026-78175 Published : Sept. 12, 2026, 8:16 a.m. | 8 hours, 4 minutes ago Description :The Tutor LMS – eLearning and online course solution plugin for WordPress is vulnerable to PHP...",
+      "summary": "CVE ID :CVE-2026-78175 Published : Sept. 12, 2026, 8:16 a.m. | 10 hours, 19 minutes ago Description :The Tutor LMS – eLearning and online course solution plugin for WordPress is vulnerable to PHP...",
       "source": "CVE Feed",
       "published": "2026-09-12T08:16:24+00:00"
     },
     {
       "title": "CVE-2026-78159 - The Events Calendar <= 6.17.3 - Unauthenticated Code Injection to Remote Code Execution via Widget 'classes' Map Callable Invocation",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-78159",
-      "summary": "CVE ID :CVE-2026-78159 Published : Sept. 12, 2026, 8:16 a.m. | 8 hours, 4 minutes ago Description :The The Events Calendar plugin for WordPress is vulnerable to Remote Code Execution in all versions...",
+      "summary": "CVE ID :CVE-2026-78159 Published : Sept. 12, 2026, 8:16 a.m. | 10 hours, 19 minutes ago Description :The The Events Calendar plugin for WordPress is vulnerable to Remote Code Execution in all...",
       "source": "CVE Feed",
       "published": "2026-09-12T08:16:24+00:00"
     },
     {
       "title": "CVE-2026-78006 - The Events Calendar <= 6.17.4 - Unauthenticated PHP Object Injection to Remote Code Execution",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-78006",
-      "summary": "CVE ID :CVE-2026-78006 Published : Sept. 12, 2026, 8:16 a.m. | 8 hours, 4 minutes ago Description :The The Events Calendar plugin for WordPress is vulnerable to Remote Code Execution in all versions...",
+      "summary": "CVE ID :CVE-2026-78006 Published : Sept. 12, 2026, 8:16 a.m. | 10 hours, 19 minutes ago Description :The The Events Calendar plugin for WordPress is vulnerable to Remote Code Execution in all...",
       "source": "CVE Feed",
       "published": "2026-09-12T08:16:24+00:00"
     },
     {
-      "title": "CVE-2026-87719 - Deserialization of Untrusted Data in GitLab",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-87719",
-      "summary": "CVE ID :CVE-2026-87719 Published : Sept. 12, 2026, 3:16 a.m. | 13 hours, 4 minutes ago Description :GitLab has remediated an issue in GitLab EE affecting all versions from 18.3 before 19.1.8, 19.2...",
+      "title": "CVE-2026-87888 - YayPricing < 3.5.7 - Subscriber+ Stored XSS via save_page_data REST Route",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-87888",
+      "summary": "CVE ID :CVE-2026-87888 Published : Sept. 12, 2026, 6:16 a.m. | 12 hours, 18 minutes ago Description :The YayPricing WordPress plugin before 3.5.7 does not perform an authorization check on a REST...",
       "source": "CVE Feed",
-      "published": "2026-09-12T03:16:31+00:00"
+      "published": "2026-09-12T06:16:27+00:00"
     },
     {
-      "title": "CVE-2026-85706 - GitLab Community Edition and Enterprise Edition Path Traversal Vulnerability - [Actively Exploited]",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-85706",
-      "summary": "CVE ID :CVE-2026-85706 Published : Sept. 12, 2026, 3:16 a.m. | 13 hours, 4 minutes ago Description :GitLab has remediated an issue in GitLab CE/EE affecting all versions from 18.7 before 19.1.8, 19.2...",
+      "title": "CVE-2026-87759 - Add User Autocomplete < 1.2 - Subscriber+ Privilege Escalation",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-87759",
+      "summary": "CVE ID :CVE-2026-87759 Published : Sept. 12, 2026, 6:16 a.m. | 12 hours, 19 minutes ago Description :The Add User Autocomplete WordPress plugin before 1.2 does not perform any capability or nonce...",
       "source": "CVE Feed",
-      "published": "2026-09-12T03:16:30+00:00"
+      "published": "2026-09-12T06:16:27+00:00"
+    },
+    {
+      "title": "CVE-2026-85681 - WP Component <= 2.2.4 - Unauthenticated Privilege Escalation via Arbitrary Blog Option Update",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-85681",
+      "summary": "CVE ID :CVE-2026-85681 Published : Sept. 12, 2026, 6:16 a.m. | 12 hours, 19 minutes ago Description :The WP Component WordPress plugin through 2.2.4 does not have any capability or nonce checks on...",
+      "source": "CVE Feed",
+      "published": "2026-09-12T06:16:27+00:00"
+    },
+    {
+      "title": "CVE-2026-84171 - WP Images Upload on Piclect <= 1.0 - Unauthenticated Arbitrary File Upload",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-84171",
+      "summary": "CVE ID :CVE-2026-84171 Published : Sept. 12, 2026, 6:16 a.m. | 12 hours, 19 minutes ago Description :The WP images upload on piclect WordPress plugin through 1.0 does not validate the name or type of...",
+      "source": "CVE Feed",
+      "published": "2026-09-12T06:16:27+00:00"
+    },
+    {
+      "title": "CVE-2026-84099 - IDB Ecommerce (wpStoreCart 5) <= 5.0.7 - Unauthenticated PHP Object Injection via bundled wpsc-membership-pro paypal.php",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-84099",
+      "summary": "CVE ID :CVE-2026-84099 Published : Sept. 12, 2026, 6:16 a.m. | 12 hours, 19 minutes ago Description :The wpstorecart WordPress plugin through 5.0.7 does not prevent direct, unauthenticated access to...",
+      "source": "CVE Feed",
+      "published": "2026-09-12T06:16:27+00:00"
+    },
+    {
+      "title": "CVE-2026-84047 - Album Cover Finder <= 0.7.0 - Unauthenticated SQLi via and_action",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-84047",
+      "summary": "CVE ID :CVE-2026-84047 Published : Sept. 12, 2026, 6:16 a.m. | 12 hours, 19 minutes ago Description :The Album Cover Finder WordPress plugin through 0.7.0 does not properly sanitize and escape a...",
+      "source": "CVE Feed",
+      "published": "2026-09-12T06:16:26+00:00"
+    },
+    {
+      "title": "CVE-2026-82845 - Masteriyo LMS < 3.4.1 - Subscriber+ PHP Object Injection",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-82845",
+      "summary": "CVE ID :CVE-2026-82845 Published : Sept. 12, 2026, 6:16 a.m. | 12 hours, 19 minutes ago Description :The Masteriyo LMS WordPress plugin before 3.4.1 does not prevent user-supplied values held as...",
+      "source": "CVE Feed",
+      "published": "2026-09-12T06:16:26+00:00"
+    },
+    {
+      "title": "CVE-2026-81742 - BE REST Endpoints <= 1.0.0 - Unauthenticated Stored XSS and Widget Manipulation",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-81742",
+      "summary": "CVE ID :CVE-2026-81742 Published : Sept. 12, 2026, 6:16 a.m. | 12 hours, 19 minutes ago Description :The BE REST Endpoints WordPress plugin through 1.0.0 does not perform any authorization check...",
+      "source": "CVE Feed",
+      "published": "2026-09-12T06:16:25+00:00"
+    },
+    {
+      "title": "CVE-2026-81402 - DS Ad Rotator <= 0.8 - Unauthenticated Arbitrary File Upload",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-81402",
+      "summary": "CVE ID :CVE-2026-81402 Published : Sept. 12, 2026, 6:16 a.m. | 12 hours, 19 minutes ago Description :The DS Ad Rotator WordPress plugin through 0.8 does not perform any capability check, nonce...",
+      "source": "CVE Feed",
+      "published": "2026-09-12T06:16:25+00:00"
+    },
+    {
+      "title": "CVE-2026-80494 - Yogeta WP Cloud <= 1.0 - Unauthenticated Arbitrary File Download",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-80494",
+      "summary": "CVE ID :CVE-2026-80494 Published : Sept. 12, 2026, 6:16 a.m. | 12 hours, 19 minutes ago Description :The Yogeta WP Cloud WordPress plugin through 1.0 does not validate a user-supplied file path...",
+      "source": "CVE Feed",
+      "published": "2026-09-12T06:16:25+00:00"
+    },
+    {
+      "title": "CVE-2026-80491 - SAMO Forms <= 1.0.0 - Unauthenticated SQLi",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-80491",
+      "summary": "CVE ID :CVE-2026-80491 Published : Sept. 12, 2026, 6:16 a.m. | 12 hours, 19 minutes ago Description :The SAMO Forms WordPress plugin through 1.0.0 does not properly sanitise and escape user input...",
+      "source": "CVE Feed",
+      "published": "2026-09-12T06:16:25+00:00"
+    },
+    {
+      "title": "CVE-2026-77006 - WebTotem Backups <= 1.0.1 - Subscriber+ Arbitrary File Deletion via Path Traversal",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-77006",
+      "summary": "CVE ID :CVE-2026-77006 Published : Sept. 12, 2026, 6:16 a.m. | 12 hours, 19 minutes ago Description :The WebTotem Backups WordPress plugin through 1.0.1 does not validate a user-supplied file path...",
+      "source": "CVE Feed",
+      "published": "2026-09-12T06:16:24+00:00"
+    },
+    {
+      "title": "CVE-2026-77005 - Code Monkeys Proposals <= 1.0.1 - Subscriber+ Arbitrary File Deletion via Path Traversal",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-77005",
+      "summary": "CVE ID :CVE-2026-77005 Published : Sept. 12, 2026, 6:16 a.m. | 12 hours, 19 minutes ago Description :The CODE MONKEYS PROPOSALS WordPress plugin through 1.0.1 does not validate a user-supplied file...",
+      "source": "CVE Feed",
+      "published": "2026-09-12T06:16:24+00:00"
+    },
+    {
+      "title": "CVE-2026-75800 - Frontegg SAML SSO <= 1.0.1 - Unauthenticated Account Takeover via Unverified SAMLResponse",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-75800",
+      "summary": "CVE ID :CVE-2026-75800 Published : Sept. 12, 2026, 6:16 a.m. | 12 hours, 19 minutes ago Description :The Frontegg SAML SSO WordPress plugin through 1.0.1 does not verify the signature or issuer of...",
+      "source": "CVE Feed",
+      "published": "2026-09-12T06:16:23+00:00"
+    },
+    {
+      "title": "CVE-2026-87719 - Deserialization of Untrusted Data in GitLab",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-87719",
+      "summary": "CVE ID :CVE-2026-87719 Published : Sept. 12, 2026, 3:16 a.m. | 15 hours, 18 minutes ago Description :GitLab has remediated an issue in GitLab EE affecting all versions from 18.3 before 19.1.8, 19.2...",
+      "source": "CVE Feed",
+      "published": "2026-09-12T03:16:31+00:00"
     },
     {
       "title": "Users in Houthi-Held Yemen Tried to Develop Advanced Weapons With AI, Anthropic Says",
@@ -100,116 +226,11 @@
       "published": "2026-09-12T01:50:53+00:00"
     },
     {
-      "title": "CVE-2026-89266 - stb_vorbis through 1.22 heap buffer overflow via codebook multiplicands",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-89266",
-      "summary": "CVE ID :CVE-2026-89266 Published : Sept. 12, 2026, 12:17 a.m. | 16 hours, 3 minutes ago Description :stb_vorbis through 1.22 contains a heap buffer overflow in start_decoder() where the codebook...",
-      "source": "CVE Feed",
-      "published": "2026-09-12T00:17:06+00:00"
-    },
-    {
-      "title": "CVE-2026-90456 - Inventory Management Component Default Administrative Credential Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-90456",
-      "summary": "CVE ID :CVE-2026-90456 Published : Sept. 11, 2026, 10:16 p.m. | 18 hours, 3 minutes ago Description :An example environment-configuration file for a bundled inventory-management component ships with...",
-      "source": "CVE Feed",
-      "published": "2026-09-11T22:16:47+00:00"
-    },
-    {
-      "title": "CVE-2026-90451 - Packet-Analysis Component Authentication Cookie Forgery via Hardcoded Secret",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-90451",
-      "summary": "CVE ID :CVE-2026-90451 Published : Sept. 11, 2026, 10:16 p.m. | 18 hours, 3 minutes ago Description :An example environment-configuration file ships with a fixed, publicly-known secret value used to...",
-      "source": "CVE Feed",
-      "published": "2026-09-11T22:16:47+00:00"
-    },
-    {
-      "title": "CVE-2026-90444 - Product Name OS Command Injection via Filename Validation Bypass",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-90444",
-      "summary": "CVE ID :CVE-2026-90444 Published : Sept. 11, 2026, 10:16 p.m. | 18 hours, 3 minutes ago Description :A file-transfer interface that requires valid credentials accepts attacker-controlled filenames...",
-      "source": "CVE Feed",
-      "published": "2026-09-11T22:16:46+00:00"
-    },
-    {
-      "title": "CVE-2026-44715 - OpenMRS has Broken Access Control in HL7 Configuration",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-44715",
-      "summary": "CVE ID :CVE-2026-44715 Published : Sept. 11, 2026, 10:16 p.m. | 18 hours, 4 minutes ago Description :OpenMRS is an open source electronic medical record system platform. Prior to versions 1.23.0 and...",
-      "source": "CVE Feed",
-      "published": "2026-09-11T22:16:37+00:00"
-    },
-    {
-      "title": "CVE-2026-61534 - Yayson Prototype Pollution Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-61534",
-      "summary": "CVE ID :CVE-2026-61534 Published : Sept. 11, 2026, 10:11 p.m. | 18 hours, 8 minutes ago Description :# Summary `Store`/`LegacyStore` key internal lookup tables by the `type`, `id`, and relationship...",
-      "source": "CVE Feed",
-      "published": "2026-09-11T22:11:38+00:00"
-    },
-    {
-      "title": "CVE-2026-59973 - FrontMCP Server-Side Request Forgery Security Fix Bypass",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-59973",
-      "summary": "CVE ID :CVE-2026-59973 Published : Sept. 11, 2026, 10:02 p.m. | 18 hours, 18 minutes ago Description :## Summary The published fix for GHSA-v6ph-xcq9-qxxj / CVE-2026-39885 added a direct hostname...",
-      "source": "CVE Feed",
-      "published": "2026-09-11T22:02:04+00:00"
-    },
-    {
-      "title": "CVE-2026-56825 - Shopper Authorization Bypass in CollectionProducts Component",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56825",
-      "summary": "CVE ID :CVE-2026-56825 Published : Sept. 11, 2026, 9:31 p.m. | 18 hours, 49 minutes ago Description :## Title Missing authorization on product removal actions in CollectionProducts component ##...",
-      "source": "CVE Feed",
-      "published": "2026-09-11T21:31:26+00:00"
-    },
-    {
-      "title": "CVE-2026-56829 - Shopper Unauthorized Inventory Manipulation Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56829",
-      "summary": "CVE ID :CVE-2026-56829 Published : Sept. 11, 2026, 9:29 p.m. | 18 hours, 51 minutes ago Description :## Title Unauthorized inventory stock manipulation via unlocked variant property in VariantStock...",
-      "source": "CVE Feed",
-      "published": "2026-09-11T21:29:20+00:00"
-    },
-    {
-      "title": "CVE-2026-56828 - Shopper Improper Authorization Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56828",
-      "summary": "CVE ID :CVE-2026-56828 Published : Sept. 11, 2026, 9:28 p.m. | 18 hours, 51 minutes ago Description :## Summary Three Livewire admin components in `shopper/framework` (latest master at commit...",
-      "source": "CVE Feed",
-      "published": "2026-09-11T21:28:54+00:00"
-    },
-    {
-      "title": "CVE-2026-54174 - melange: Incomplete package integrity verification allows data section substitution",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54174",
-      "summary": "CVE ID :CVE-2026-54174 Published : Sept. 11, 2026, 9:17 p.m. | 19 hours, 3 minutes ago Description :melange allows users to build apk packages using declarative pipelines. Apko prior to version...",
-      "source": "CVE Feed",
-      "published": "2026-09-11T21:17:11+00:00"
-    },
-    {
-      "title": "CVE-2026-49464 - NL Portal: IDOR allows any authenticated user to complete and tamper with another user's taak",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-49464",
-      "summary": "CVE ID :CVE-2026-49464 Published : Sept. 11, 2026, 9:17 p.m. | 19 hours, 3 minutes ago Description :NL Portal Backend Libraries provide backend components for Dutch government portals that interact...",
-      "source": "CVE Feed",
-      "published": "2026-09-11T21:17:10+00:00"
-    },
-    {
-      "title": "CVE-2026-56827 - Shopper Missing Authorization in Filament Bulk Actions",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56827",
-      "summary": "CVE ID :CVE-2026-56827 Published : Sept. 11, 2026, 8:47 p.m. | 19 hours, 33 minutes ago Description :## Summary Five Filament `groupedBulkActions` blocks across the Shopper admin Livewire pages omit...",
-      "source": "CVE Feed",
-      "published": "2026-09-11T20:47:17+00:00"
-    },
-    {
-      "title": "CVE-2026-59971 - mysql_mcp_server Unauthenticated Remote Code Execution",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-59971",
-      "summary": "CVE ID :CVE-2026-59971 Published : Sept. 11, 2026, 8:35 p.m. | 19 hours, 44 minutes ago Description :## Summary In SSE/HTTP transport mode, `mysql_mcp_server` constructs `SseServerTransport` without...",
-      "source": "CVE Feed",
-      "published": "2026-09-11T20:35:42+00:00"
-    },
-    {
       "title": "Hackers abused Claude to extract secrets from 1.8M Android apps",
       "link": "https://www.bleepingcomputer.com/news/security/hackers-abused-claude-to-extract-secrets-from-18m-android-apps/",
       "summary": "Anthropic says multiple threat groups, including the financially motivated and state-sponsored espionage groups linked to Russia and China, tried to abuse its Claude AI model for malicious purposes...",
       "source": "BleepingComputer",
       "published": "2026-09-11T20:19:09+00:00"
-    },
-    {
-      "title": "CVE-2026-53952 - GetSimple CMS & GetSimpleCMS-CE have an Unauthenticated Admin Account Creation via Setup Logic Flaw",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-53952",
-      "summary": "CVE ID :CVE-2026-53952 Published : Sept. 11, 2026, 8:17 p.m. | 20 hours, 3 minutes ago Description :GetSimple CMS is a content management system (CMS), and GetSimple CMS CE is the community edition...",
-      "source": "CVE Feed",
-      "published": "2026-09-11T20:17:14+00:00"
     },
     {
       "title": "Florida says motor vehicle data breach tied to credentials stolen from officer’s personal device",
@@ -224,20 +245,6 @@
       "summary": "Cybercriminals behind malicious email campaigns no longer have to compromise volume for credibility, or vice versa, thanks to AI.",
       "source": "Dark Reading",
       "published": "2026-09-11T19:21:08+00:00"
-    },
-    {
-      "title": "CVE-2026-79395 - Xiongmai IP Camera Sofia IPC Daemon Improper Authentication Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-79395",
-      "summary": "CVE ID :CVE-2026-79395 Published : Sept. 11, 2026, 7:17 p.m. | 21 hours, 2 minutes ago Description :An improper authentication vulnerability in the WS-Security (wsse:UsernameToken) verification...",
-      "source": "CVE Feed",
-      "published": "2026-09-11T19:17:46+00:00"
-    },
-    {
-      "title": "CVE-2026-62107 - WordPress Masteriyo - LMS plugin <= 3.4.0 - PHP Object Injection vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-62107",
-      "summary": "CVE ID :CVE-2026-62107 Published : Sept. 11, 2026, 7:17 p.m. | 21 hours, 2 minutes ago Description :Unauthenticated PHP Object Injection in Masteriyo - LMS Severity: 8.8 | HIGH Visit the link for...",
-      "source": "CVE Feed",
-      "published": "2026-09-11T19:17:43+00:00"
     },
     {
       "title": "Florida confirms DMV database breached via stolen police account",
@@ -548,10 +555,10 @@
       "published": "2026-09-10T15:55:56+00:00"
     },
     {
-      "title": "Nightmare-Eclipse Strikes Again With 'ShieldCrash' Windows Exploit",
+      "title": "Nightmare-Eclipse Strikes Again with 'ShieldCrash' Windows Exploit",
       "link": "https://www.darkreading.com/vulnerabilities-threats/nightmare-eclipse-strikes-again-shieldcrash-windows-exploit",
-      "summary": "The disgruntled researcher continued their vendetta against Microsoft by publishing yet another zero-day exploit for Windows Defender.",
-      "source": "Dark Reading",
+      "summary": "Nightmare-Eclipse Strikes Again with 'ShieldCrash' Windows Exploit 4 Min ReadSource: Andriy Popov via Alamy Stock PhotoOn the heels of a record-breaking Patch Tuesday, the disgruntled security...",
+      "source": "CVE Newsroom",
       "published": "2026-09-10T15:29:12+00:00"
     },
     {
@@ -707,13 +714,6 @@
       "summary": "Cybercriminals are hijacking artificial intelligence (AI) user accounts via information stealer logs to create \"stolen keys\" that grant illicit access to tools from model providers like Google...",
       "source": "The Hacker News",
       "published": "2026-09-09T14:23:55+00:00"
-    },
-    {
-      "title": "How to completely uninstall apps on Mac and free up storage | Kaspersky official blog",
-      "link": "https://www.kaspersky.co.uk/blog/kaspersky-premium-app-cleaner-for-macos/30871/",
-      "summary": "How to completely uninstall apps on Mac and free up storage | Kaspersky official blog Every so often you need to tidy up, and that goes for your devices as well as your closets and drawers. But a...",
-      "source": "CVE Newsroom",
-      "published": "2026-09-09T12:21:03+00:00"
     },
     {
       "title": "Webinar: Learn How to Answer “Are We Exposed?” Faster After a New CVE",
@@ -945,13 +945,6 @@
       "summary": "A TantoSec proof-of-concept turns an AES-CBC \"padding oracle\" in Telerik UI for ASP.NET AJAX into unauthenticated remote code execution — but only against applications in a specific non-default...",
       "source": "The Hacker News",
       "published": "2026-09-07T11:20:14+00:00"
-    },
-    {
-      "title": "N-able Issues Fourth N-central Hotfix in Five Weeks for Unauthenticated RCE Flaw",
-      "link": "https://thehackernews.com/2026/09/n-able-issues-fourth-n-central-hotfix.html",
-      "summary": "Every on-premises N-central build below 2026.3.1.14 — including servers updated to Hotfix 3 a day earlier — needs Hotfix 4. N-able's incident notice says the flaw has been exploited in the wild; its...",
-      "source": "The Hacker News",
-      "published": "2026-09-07T08:31:12+00:00"
     },
     {
       "title": "Companies Have 6 Months to Prepare for Automated Attacks",
