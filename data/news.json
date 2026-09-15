@@ -1,6 +1,69 @@
 {
-  "last_updated": "2026-09-14T21:12:01.847130+00:00",
+  "last_updated": "2026-09-15T00:05:27.932581+00:00",
   "articles": [
+    {
+      "title": "CVE-2026-91144 - ZFile through 5.0.5 Share Entry Filter Bypass via Download Endpoint",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-91144",
+      "summary": "CVE ID :CVE-2026-91144 Published : Sept. 14, 2026, 10:16 p.m. | 37 minutes ago Description :ZFile through 5.0.5 fails to validate requested file paths against a share link's allowed entries on the...",
+      "source": "CVE Feed",
+      "published": "2026-09-14T22:16:59+00:00"
+    },
+    {
+      "title": "CVE-2026-12944 - Incomplete Security Scanner Blocklist Enables Network-Based Code Execution",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-12944",
+      "summary": "CVE ID :CVE-2026-12944 Published : Sept. 14, 2026, 10:16 p.m. | 38 minutes ago Description :IBM Langflow OSS 1.0.0 through 1.10.0 can allow attackers to execute arbitrary Python code with root...",
+      "source": "CVE Feed",
+      "published": "2026-09-14T22:16:56+00:00"
+    },
+    {
+      "title": "CVE-2026-91200 - DevSpace through 6.3.21 Path Traversal via tar extraction",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-91200",
+      "summary": "CVE ID :CVE-2026-91200 Published : Sept. 14, 2026, 10:10 p.m. | 44 minutes ago Description :DevSpace through 6.3.21 fails to reject parent-directory segments in tar entry names from the in-pod sync...",
+      "source": "CVE Feed",
+      "published": "2026-09-14T22:10:57+00:00"
+    },
+    {
+      "title": "'Sandworm' Chains Cisco Vulnerabilities to Deploy Cyclops Blink",
+      "link": "https://www.darkreading.com/cyberattacks-data-breaches/sandworm-chains-cisco-vulnerabilities-cyclops-blink",
+      "summary": "'Sandworm' Chains Cisco Vulnerabilities to Deploy Cyclops Blink 4 Min ReadSource: ratpack223 via Getty ImagesA likely Russian threat actor is deploying a sophisticated malware implant capable of...",
+      "source": "CVE Newsroom",
+      "published": "2026-09-14T21:37:28+00:00"
+    },
+    {
+      "title": "CVE-2026-90896 - Missing authentication in Ecommerce Template checkout session endpoint allows unauthenticated disclosure of buyer PII",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-90896",
+      "summary": "CVE ID :CVE-2026-90896 Published : Sept. 14, 2026, 9:17 p.m. | 1 hour, 37 minutes ago Description :Missing Authentication for Critical Function (CWE-306) in the checkout session lookup handler...",
+      "source": "CVE Feed",
+      "published": "2026-09-14T21:17:42+00:00"
+    },
+    {
+      "title": "CVE-2026-68489 - Plesk Extensions Ruby and Node.js Toolkit Static Code Injection",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-68489",
+      "summary": "CVE ID :CVE-2026-68489 Published : Sept. 14, 2026, 9:17 p.m. | 1 hour, 37 minutes ago Description :Static Code Injection in Plesk extensions \"Ruby\" before 1.6.6 and \"Node.js Toolkit\" before 2.5.0...",
+      "source": "CVE Feed",
+      "published": "2026-09-14T21:17:25+00:00"
+    },
+    {
+      "title": "CVE-2026-67399 - WHMCS Deserialization of Untrusted Data Remote Code Execution",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-67399",
+      "summary": "CVE ID :CVE-2026-67399 Published : Sept. 14, 2026, 9:17 p.m. | 1 hour, 37 minutes ago Description :Deserialization of untrusted data in WHMCS 9.0.0 before 9.0.8 and 8.0.0 before 8.13.7 allows remote...",
+      "source": "CVE Feed",
+      "published": "2026-09-14T21:17:25+00:00"
+    },
+    {
+      "title": "CVE-2026-53713 - Envoy Gateway: Authentication Bypass via Improper Input Validation in EnvoyExtensionPolicy Lua Allows Secret Disclosure",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-53713",
+      "summary": "CVE ID :CVE-2026-53713 Published : Sept. 14, 2026, 9:17 p.m. | 1 hour, 37 minutes ago Description :Envoy Gateway is an open source project for managing Envoy Proxy as a standalone or Kubernetes-based...",
+      "source": "CVE Feed",
+      "published": "2026-09-14T21:17:12+00:00"
+    },
+    {
+      "title": "CVE-2026-13293 - IBM MQ Java messaging is vulnerable to remote code execution",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-13293",
+      "summary": "CVE ID :CVE-2026-13293 Published : Sept. 14, 2026, 9:17 p.m. | 1 hour, 37 minutes ago Description :IBM MQ 9.1.0.0 through 9.1.0.37 LTS, 9.2.0.0 through 9.2.0.43 LTS, 9.3.0.0 through 9.3.0.41 LTS...",
+      "source": "CVE Feed",
+      "published": "2026-09-14T21:17:02+00:00"
+    },
     {
       "title": "Microsoft releases emergency Windows updates to fix RDS failures",
       "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-emergency-windows-updates-to-fix-rds-failures/",
@@ -18,105 +81,105 @@
     {
       "title": "Maximum Severity GitLab Flaw Puts Supply Chains at Risk",
       "link": "https://www.darkreading.com/cyberattacks-data-breaches/maximum-severity-gitlab-flaw-supply-chains-risk",
-      "summary": "CVE-2026-85706 is a path traversal vulnerability with a 10 out of 10 CVSS score, affecting both GitLab Community Edition and Enterprise Edition instances.",
-      "source": "Dark Reading",
+      "summary": "Maximum Severity GitLab Flaw Puts Supply Chains at Risk Rob Wright,Senior News Director,Dark ReadingSeptember 14, 20263 Min ReadSource: Infinite Creations via Getty ImagesThreat actors are exploiting...",
+      "source": "CVE Newsroom",
       "published": "2026-09-14T20:19:22+00:00"
     },
     {
       "title": "CVE-2026-82028 - Magistrala < 1.0.0 SQL Injection via format Parameter in Reader API",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-82028",
-      "summary": "CVE ID :CVE-2026-82028 Published : Sept. 14, 2026, 8:16 p.m. | 34 minutes ago Description :Magistrala before 1.0.0 contains a SQL injection vulnerability in the timescale-reader and postgres-reader...",
+      "summary": "CVE ID :CVE-2026-82028 Published : Sept. 14, 2026, 8:16 p.m. | 2 hours, 38 minutes ago Description :Magistrala before 1.0.0 contains a SQL injection vulnerability in the timescale-reader and...",
       "source": "CVE Feed",
       "published": "2026-09-14T20:16:54+00:00"
     },
     {
       "title": "CVE-2026-65838 - Skipper: an oversized declared-`Content-Length` body still hands OPA an empty `parsed_body`, so deny-on-presence Rego policies fail OPEN while the full payload reaches upstream",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-65838",
-      "summary": "CVE ID :CVE-2026-65838 Published : Sept. 14, 2026, 8:16 p.m. | 34 minutes ago Description :Skipper is an HTTP router and reverse proxy for service composition. Prior to 0.27.35, the...",
+      "summary": "CVE ID :CVE-2026-65838 Published : Sept. 14, 2026, 8:16 p.m. | 2 hours, 38 minutes ago Description :Skipper is an HTTP router and reverse proxy for service composition. Prior to 0.27.35, the...",
       "source": "CVE Feed",
       "published": "2026-09-14T20:16:49+00:00"
     },
     {
       "title": "CVE-2026-55209 - resdata insufficiently validates untrusted GRDECL files",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-55209",
-      "summary": "CVE ID :CVE-2026-55209 Published : Sept. 14, 2026, 8:16 p.m. | 34 minutes ago Description :resdata is software for reading and writing result files from the Eclipse reservoir simulator. Prior to...",
+      "summary": "CVE ID :CVE-2026-55209 Published : Sept. 14, 2026, 8:16 p.m. | 2 hours, 38 minutes ago Description :resdata is software for reading and writing result files from the Eclipse reservoir simulator...",
       "source": "CVE Feed",
       "published": "2026-09-14T20:16:47+00:00"
     },
     {
       "title": "CVE-2026-54628 - Anyquery: Server-Side Request Forgery (SSRF) via Unrestricted SQLite Virtual Table Modules in Server Mode",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-54628",
-      "summary": "CVE ID :CVE-2026-54628 Published : Sept. 14, 2026, 8:16 p.m. | 34 minutes ago Description :Anyquery is an SQL query engine built on top of SQLite. Prior to 0.4.5, anyquery server exposes URL-capable...",
+      "summary": "CVE ID :CVE-2026-54628 Published : Sept. 14, 2026, 8:16 p.m. | 2 hours, 38 minutes ago Description :Anyquery is an SQL query engine built on top of SQLite. Prior to 0.4.5, anyquery server exposes...",
       "source": "CVE Feed",
       "published": "2026-09-14T20:16:46+00:00"
     },
     {
       "title": "CVE-2026-54447 - garminconnect: Insecure Permission Assignment for Garmin OAuth Token Store",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-54447",
-      "summary": "CVE ID :CVE-2026-54447 Published : Sept. 14, 2026, 8:16 p.m. | 34 minutes ago Description :garminconnect is a Python 3 API wrapper for Garmin Connect that retrieves statistics and manages activities...",
+      "summary": "CVE ID :CVE-2026-54447 Published : Sept. 14, 2026, 8:16 p.m. | 2 hours, 38 minutes ago Description :garminconnect is a Python 3 API wrapper for Garmin Connect that retrieves statistics and manages...",
       "source": "CVE Feed",
       "published": "2026-09-14T20:16:46+00:00"
     },
     {
       "title": "CVE-2026-54334 - UEFI Firmware Parser: Heap out-of-bounds write in tiano decompressor `ReadCLen`",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-54334",
-      "summary": "CVE ID :CVE-2026-54334 Published : Sept. 14, 2026, 8:16 p.m. | 34 minutes ago Description :UEFI Firmware Parser parses BIOS, Intel ME, and UEFI firmware structures including volumes, file systems...",
+      "summary": "CVE ID :CVE-2026-54334 Published : Sept. 14, 2026, 8:16 p.m. | 2 hours, 38 minutes ago Description :UEFI Firmware Parser parses BIOS, Intel ME, and UEFI firmware structures including volumes, file...",
       "source": "CVE Feed",
       "published": "2026-09-14T20:16:46+00:00"
     },
     {
       "title": "CVE-2026-54333 - UEFI Firmware Parser: Stack out-of-bounds write in tiano decompressor MakeTable",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-54333",
-      "summary": "CVE ID :CVE-2026-54333 Published : Sept. 14, 2026, 8:16 p.m. | 34 minutes ago Description :UEFI Firmware Parser parses BIOS, Intel ME, and UEFI firmware structures including volumes, file systems...",
+      "summary": "CVE ID :CVE-2026-54333 Published : Sept. 14, 2026, 8:16 p.m. | 2 hours, 38 minutes ago Description :UEFI Firmware Parser parses BIOS, Intel ME, and UEFI firmware structures including volumes, file...",
       "source": "CVE Feed",
       "published": "2026-09-14T20:16:45+00:00"
     },
     {
       "title": "CVE-2026-50006 - Anyquery: Arbitrary File Write (AFW) which could lead to Remote Code Execution (RCE) via Unrestricted ATTACH DATABASE in Server Mode",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-50006",
-      "summary": "CVE ID :CVE-2026-50006 Published : Sept. 14, 2026, 8:16 p.m. | 34 minutes ago Description :Anyquery is an SQL query engine built on top of SQLite. Prior to 0.4.5, anyquery server forwards...",
+      "summary": "CVE ID :CVE-2026-50006 Published : Sept. 14, 2026, 8:16 p.m. | 2 hours, 38 minutes ago Description :Anyquery is an SQL query engine built on top of SQLite. Prior to 0.4.5, anyquery server forwards...",
       "source": "CVE Feed",
       "published": "2026-09-14T20:16:44+00:00"
     },
     {
       "title": "CVE-2026-17467 - Vulnerabilities exists in IBM Cloud Pak for Data System",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-17467",
-      "summary": "CVE ID :CVE-2026-17467 Published : Sept. 14, 2026, 8:16 p.m. | 34 minutes ago Description :IBM Cloud Pak for Data System (Yosemite 1.0) 3.0.5.2 could allow a remote attacker to obtain sensitive...",
+      "summary": "CVE ID :CVE-2026-17467 Published : Sept. 14, 2026, 8:16 p.m. | 2 hours, 38 minutes ago Description :IBM Cloud Pak for Data System (Yosemite 1.0) 3.0.5.2 could allow a remote attacker to obtain...",
       "source": "CVE Feed",
       "published": "2026-09-14T20:16:42+00:00"
     },
     {
       "title": "CVE-2026-16673 - DataStage on Cloud Pak for Data has several vulnerabilities due to open source software",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-16673",
-      "summary": "CVE ID :CVE-2026-16673 Published : Sept. 14, 2026, 8:16 p.m. | 34 minutes ago Description :IBM DataStage on Cloud Pak for Data 5.4.0.0 IBM DataStage could allow a remote authenticated attacker to...",
+      "summary": "CVE ID :CVE-2026-16673 Published : Sept. 14, 2026, 8:16 p.m. | 2 hours, 38 minutes ago Description :IBM DataStage on Cloud Pak for Data 5.4.0.0 IBM DataStage could allow a remote authenticated...",
       "source": "CVE Feed",
       "published": "2026-09-14T20:16:41+00:00"
     },
     {
       "title": "CVE-2026-16466 - DataStage on Cloud Pak for Data has several vulnerabilities due to open source software",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-16466",
-      "summary": "CVE ID :CVE-2026-16466 Published : Sept. 14, 2026, 8:16 p.m. | 34 minutes ago Description :IBM DataStage on Cloud Pak for Data 5.4.0.0 IBM DataStage could allow a remote authenticated attacker to...",
+      "summary": "CVE ID :CVE-2026-16466 Published : Sept. 14, 2026, 8:16 p.m. | 2 hours, 38 minutes ago Description :IBM DataStage on Cloud Pak for Data 5.4.0.0 IBM DataStage could allow a remote authenticated...",
       "source": "CVE Feed",
       "published": "2026-09-14T20:16:40+00:00"
     },
     {
       "title": "CVE-2026-16428 - DataStage on Cloud Pak for Data has several vulnerabilities due to open source software",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-16428",
-      "summary": "CVE ID :CVE-2026-16428 Published : Sept. 14, 2026, 8:16 p.m. | 34 minutes ago Description :IBM DataStage on Cloud Pak for Data 5.4.0.0 IBM DataStage could allow a remote authenticated attacker to...",
+      "summary": "CVE ID :CVE-2026-16428 Published : Sept. 14, 2026, 8:16 p.m. | 2 hours, 38 minutes ago Description :IBM DataStage on Cloud Pak for Data 5.4.0.0 IBM DataStage could allow a remote authenticated...",
       "source": "CVE Feed",
       "published": "2026-09-14T20:16:40+00:00"
     },
     {
       "title": "CVE-2026-16338 - DataStage on Cloud Pak for Data has several vulnerabilities due to open source software",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-16338",
-      "summary": "CVE ID :CVE-2026-16338 Published : Sept. 14, 2026, 8:16 p.m. | 34 minutes ago Description :IBM DataStage on Cloud Pak for Data 5.4.0.0 IBM DataStage could allow a remote authenticated attacker to...",
+      "summary": "CVE ID :CVE-2026-16338 Published : Sept. 14, 2026, 8:16 p.m. | 2 hours, 38 minutes ago Description :IBM DataStage on Cloud Pak for Data 5.4.0.0 IBM DataStage could allow a remote authenticated...",
       "source": "CVE Feed",
       "published": "2026-09-14T20:16:40+00:00"
     },
     {
       "title": "CVE-2026-16335 - DataStage on Cloud Pak for Data has several vulnerabilities due to open source software",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-16335",
-      "summary": "CVE ID :CVE-2026-16335 Published : Sept. 14, 2026, 8:16 p.m. | 34 minutes ago Description :IBM DataStage on Cloud Pak for Data 5.4.0.0 IBM DataStage could allow a remote authenticated attacker to...",
+      "summary": "CVE ID :CVE-2026-16335 Published : Sept. 14, 2026, 8:16 p.m. | 2 hours, 38 minutes ago Description :IBM DataStage on Cloud Pak for Data 5.4.0.0 IBM DataStage could allow a remote authenticated...",
       "source": "CVE Feed",
       "published": "2026-09-14T20:16:40+00:00"
     },
@@ -137,30 +200,23 @@
     {
       "title": "CVE-2026-89023 - ThemeAtelier Domain For Sale < 3.5.2 Missing Authorization via REST API",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-89023",
-      "summary": "CVE ID :CVE-2026-89023 Published : Sept. 14, 2026, 7:17 p.m. | 1 hour, 33 minutes ago Description :ThemeAtelier Domain For Sale plugin for WordPress before 3.5.2 contains a missing authorization...",
+      "summary": "CVE ID :CVE-2026-89023 Published : Sept. 14, 2026, 7:17 p.m. | 3 hours, 37 minutes ago Description :ThemeAtelier Domain For Sale plugin for WordPress before 3.5.2 contains a missing authorization...",
       "source": "CVE Feed",
       "published": "2026-09-14T19:17:55+00:00"
     },
     {
       "title": "CVE-2026-86830 - Incorrect privilege assignment in Temporary Elevated Access Management (TEAM) for AWS IAM Identity Center",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-86830",
-      "summary": "CVE ID :CVE-2026-86830 Published : Sept. 14, 2026, 7:17 p.m. | 1 hour, 33 minutes ago Description :Incorrect privilege assignment in Temporary Elevated Access Management (TEAM) for AWS IAM Identity...",
+      "summary": "CVE ID :CVE-2026-86830 Published : Sept. 14, 2026, 7:17 p.m. | 3 hours, 37 minutes ago Description :Incorrect privilege assignment in Temporary Elevated Access Management (TEAM) for AWS IAM Identity...",
       "source": "CVE Feed",
       "published": "2026-09-14T19:17:52+00:00"
     },
     {
       "title": "CVE-2026-82049 - tarfile extraction filters allow file modification and content disclosure via hard link to symlink",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-82049",
-      "summary": "CVE ID :CVE-2026-82049 Published : Sept. 14, 2026, 7:17 p.m. | 1 hour, 33 minutes ago Description :In CPython 3.13 and earlier, the tarfile module's data and tar extraction filters are vulnerable to...",
+      "summary": "CVE ID :CVE-2026-82049 Published : Sept. 14, 2026, 7:17 p.m. | 3 hours, 37 minutes ago Description :In CPython 3.13 and earlier, the tarfile module's data and tar extraction filters are vulnerable to...",
       "source": "CVE Feed",
       "published": "2026-09-14T19:17:50+00:00"
-    },
-    {
-      "title": "CVE-2026-59178 - ESPHome Device Builder: Renamed auth env vars silently disable dashboard authentication on upgrade",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-59178",
-      "summary": "CVE ID :CVE-2026-59178 Published : Sept. 14, 2026, 7:17 p.m. | 1 hour, 33 minutes ago Description :ESPHome Device Builder Dashboard is a dashboard for the ESPHome home management software. Prior to...",
-      "source": "CVE Feed",
-      "published": "2026-09-14T19:17:37+00:00"
     },
     {
       "title": "Twitch extension with 30K installs exposes users’ OAuth tokens",
@@ -175,55 +231,6 @@
       "summary": "Hackers compromised HBO Max's official Reddit account and used it to push malicious ads that launched ClickFix attacks to infect Windows and macOS devices with information-stealing malware. [...]",
       "source": "BleepingComputer",
       "published": "2026-09-14T18:34:16+00:00"
-    },
-    {
-      "title": "CVE-2026-91080 - webhook through 2.8.3 Memory Exhaustion via Oversized Request Body",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-91080",
-      "summary": "CVE ID :CVE-2026-91080 Published : Sept. 14, 2026, 6:20 p.m. | 2 hours, 30 minutes ago Description :webhook through 2.8.3 reads the entire request body into memory before evaluating trigger rules...",
-      "source": "CVE Feed",
-      "published": "2026-09-14T18:20:29+00:00"
-    },
-    {
-      "title": "CVE-2026-91079 - Huly Platform through 0.7.426 SSRF via Print Service",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-91079",
-      "summary": "CVE ID :CVE-2026-91079 Published : Sept. 14, 2026, 6:20 p.m. | 2 hours, 30 minutes ago Description :Huly Platform through 0.7.426 contains a server-side request forgery vulnerability in the print...",
-      "source": "CVE Feed",
-      "published": "2026-09-14T18:20:29+00:00"
-    },
-    {
-      "title": "CVE-2026-90946 - DeepWiki-Open through commit d92819a Arbitrary File Read via /ws/chat WebSocket",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-90946",
-      "summary": "CVE ID :CVE-2026-90946 Published : Sept. 14, 2026, 6:20 p.m. | 2 hours, 30 minutes ago Description :DeepWiki-Open through commit d92819a contains an arbitrary file read vulnerability in the...",
-      "source": "CVE Feed",
-      "published": "2026-09-14T18:20:29+00:00"
-    },
-    {
-      "title": "CVE-2026-90945 - Crawlab through 0.6.3 Authentication Bypass via Hard-coded JWT Secret",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-90945",
-      "summary": "CVE ID :CVE-2026-90945 Published : Sept. 14, 2026, 6:20 p.m. | 2 hours, 30 minutes ago Description :Crawlab through 0.6.3 uses a hard-coded HMAC-SHA256 secret for JWT token signing that cannot be...",
-      "source": "CVE Feed",
-      "published": "2026-09-14T18:20:29+00:00"
-    },
-    {
-      "title": "CVE-2026-90944 - Krayin CRM through 2.2.6 Unauthenticated Email Injection via inbound-parse",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-90944",
-      "summary": "CVE ID :CVE-2026-90944 Published : Sept. 14, 2026, 6:20 p.m. | 2 hours, 30 minutes ago Description :Krayin CRM through 2.2.6 exposes the POST /admin/mail/inbound-parse endpoint without...",
-      "source": "CVE Feed",
-      "published": "2026-09-14T18:20:28+00:00"
-    },
-    {
-      "title": "CVE-2026-90942 - Casdoor through 4.4.0 Private Key Exposure via Certificate Endpoints",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-90942",
-      "summary": "CVE ID :CVE-2026-90942 Published : Sept. 14, 2026, 6:20 p.m. | 2 hours, 30 minutes ago Description :Casdoor through 4.4.0 fails to properly mask the instance-wide built-in certificate private key in...",
-      "source": "CVE Feed",
-      "published": "2026-09-14T18:20:28+00:00"
-    },
-    {
-      "title": "CVE-2026-86836 - Eclipse Ankaios Workload Control Interface Improper Path Validation and Impersonation Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-86836",
-      "summary": "CVE ID :CVE-2026-86836 Published : Sept. 14, 2026, 6:20 p.m. | 2 hours, 30 minutes ago Description :In Eclipse Ankaios versions 0.1.0 through 1.0.2, the agent creates workload files and Control...",
-      "source": "CVE Feed",
-      "published": "2026-09-14T18:20:20+00:00"
     },
     {
       "title": "New DDRop Attack Breaks Intel TDX and AMD SEV-SNP Confidential Computing",
@@ -723,20 +730,6 @@
       "published": "2026-09-10T11:33:43+00:00"
     },
     {
-      "title": "Google Chrome-gebruikers op Windows 10 doelwit zeroday-aanval",
-      "link": "https://www.security.nl/posting/952499/Google+Chrome-gebruikers+op+Windows+10+doelwit+zeroday-aanval?channel=rss",
-      "summary": "Google Chrome-gebruikers op Windows 10 doelwit zeroday-aanval Gebruikers van Google Chrome op Windows 10 zijn het doelwit geworden van een zeroday-aanval, zo meldt cybersecuritybedrijf Proofpoint. De...",
-      "source": "CVE Newsroom",
-      "published": "2026-09-10T11:19:43+00:00"
-    },
-    {
-      "title": "EU’s 24-Hr Vulnerability Reporting Rules Take Effect Friday, a Year Before the Rest of the Cyber Resilience Act",
-      "link": "https://thecyberexpress.com/eu-cyber-resilience-act-24-hr-reporting/",
-      "summary": "EU’s 24-Hr Vulnerability Reporting Rules Take Effect Friday, a Year Before the Rest of the Cyber Resilience Act Manufacturers selling connected products in the European Union face a new legal duty...",
-      "source": "CVE Newsroom",
-      "published": "2026-09-10T11:09:23+00:00"
-    },
-    {
       "title": "CISA Flags Exploited Cisco, Citrix, Fortinet Flaws, Sets Sept. 12 Federal Patch Deadline",
       "link": "https://thehackernews.com/2026/09/cisa-flags-exploited-cisco-citrix.html",
       "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added three flaws, each impacting Cisco, Citrix, and Fortinet, to its Known Exploited Vulnerabilities (KEV) catalog...",
@@ -1169,13 +1162,6 @@
       "summary": "The surge in AI-powered vulnerability reports is driving down bug bounty prices, and that could spell trouble for independent researchers.",
       "source": "Dark Reading",
       "published": "2026-08-28T13:00:00+00:00"
-    },
-    {
-      "title": "Chinese Routers Sold Worldwide Contain Backdoors",
-      "link": "https://www.darkreading.com/vulnerabilities-threats/chinese-routers-sold-worldwide-backdoors",
-      "summary": "An untold number of ZBT routers sold around the world as white-label products come with several implants built by the manufacturer.",
-      "source": "Dark Reading",
-      "published": "2026-08-27T19:31:45+00:00"
     },
     {
       "title": "Two Alleged ‘TeamPCP’ Hackers Arrested in Australia",
