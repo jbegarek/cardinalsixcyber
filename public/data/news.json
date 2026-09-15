@@ -1,26 +1,89 @@
 {
-  "last_updated": "2026-09-15T00:05:27.932581+00:00",
+  "last_updated": "2026-09-15T06:58:47.303510+00:00",
   "articles": [
+    {
+      "title": "Cisco Secure Email Gateway Flaw Exploited in the Wild, Enables Root Command Execution",
+      "link": "https://thehackernews.com/2026/09/cisco-secure-email-gateway-flaw.html",
+      "summary": "Cisco has warned that a new critical vulnerability impacting AsyncOS Software for Cisco Secure Email Gateway has come under active exploitation in the wild. The vulnerability, tracked as...",
+      "source": "The Hacker News",
+      "published": "2026-09-15T06:11:11+00:00"
+    },
+    {
+      "title": "China-Linked Hackers Exploit Chrome-Windows Zero-Day Chain to Deploy GRIMWEDGE",
+      "link": "https://thehackernews.com/2026/09/china-linked-hackers-exploit-chrome.html",
+      "summary": "A Chinese threat actor has been attributed to a spear-phishing campaign that exploits recently patched security flaws in Google Chrome and Microsoft Windows to deliver a malicious JavaScript backdoor...",
+      "source": "The Hacker News",
+      "published": "2026-09-15T05:31:05+00:00"
+    },
+    {
+      "title": "Root RCE Zero-Day in Cisco Secure Email Gateway Under Active Exploitation",
+      "link": "https://www.securityweek.com/root-rce-zero-day-in-cisco-secure-email-gateway-under-active-exploitation/",
+      "summary": "An unauthenticated attacker can exploit CVE-2026-76461 to execute arbitrary commands on the underlying OS with root privileges. The post Root RCE Zero-Day in Cisco Secure Email Gateway Under Active...",
+      "source": "SecurityWeek",
+      "published": "2026-09-15T05:18:51+00:00"
+    },
+    {
+      "title": "CVE-2026-88262 - bizwell xClick Insufficient Session Expiration Authentication Bypass",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-88262",
+      "summary": "CVE ID :CVE-2026-88262 Published : Sept. 15, 2026, 3:17 a.m. | 1 hour, 56 minutes ago Description :Insufficient session expiration vulnerability in bizwell xClick allows Authentication Bypass. This...",
+      "source": "CVE Feed",
+      "published": "2026-09-15T03:17:06+00:00"
+    },
+    {
+      "title": "CVE-2026-91771 - Weights & Biases wandb before 0.29.0 Path Traversal via File Download",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-91771",
+      "summary": "CVE ID :CVE-2026-91771 Published : Sept. 15, 2026, 2:16 a.m. | 2 hours, 56 minutes ago Description :Weights & Biases wandb before 0.29.0 fails to validate the file name from server responses in the...",
+      "source": "CVE Feed",
+      "published": "2026-09-15T02:16:49+00:00"
+    },
+    {
+      "title": "CVE-2026-91752 - GNU libextractor before 1.15 Stack Overflow via OLE2",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-91752",
+      "summary": "CVE ID :CVE-2026-91752 Published : Sept. 15, 2026, 1:16 a.m. | 3 hours, 56 minutes ago Description :GNU libextractor before 1.15 contains a stack-based buffer overflow vulnerability in the...",
+      "source": "CVE Feed",
+      "published": "2026-09-15T01:16:54+00:00"
+    },
+    {
+      "title": "CVE-2026-91751 - Flextype CMS through 1.0.0-alpha.3 Path Traversal via Entries REST API",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-91751",
+      "summary": "CVE ID :CVE-2026-91751 Published : Sept. 15, 2026, 1:16 a.m. | 3 hours, 56 minutes ago Description :Flextype CMS through 1.0.0-alpha.3 fails to properly validate id and new_id parameters in the...",
+      "source": "CVE Feed",
+      "published": "2026-09-15T01:16:54+00:00"
+    },
+    {
+      "title": "CVE-2026-90847 - EFM ipTIME C200E System Setup iux_set.cgi os command injection",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-90847",
+      "summary": "CVE ID :CVE-2026-90847 Published : Sept. 15, 2026, 1:16 a.m. | 3 hours, 56 minutes ago Description :A vulnerability was determined in EFM ipTIME C200E 1.094. The impacted element is an unknown...",
+      "source": "CVE Feed",
+      "published": "2026-09-15T01:16:54+00:00"
+    },
+    {
+      "title": "CVE-2026-90843 - SabyasachiRana WebMap New Nmap Scan functions_nmap.py nmap_newscan os command injection",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-90843",
+      "summary": "CVE ID :CVE-2026-90843 Published : Sept. 15, 2026, 1:16 a.m. | 3 hours, 56 minutes ago Description :A security vulnerability has been detected in SabyasachiRana WebMap up to...",
+      "source": "CVE Feed",
+      "published": "2026-09-15T01:16:53+00:00"
+    },
+    {
+      "title": "CVE-2026-91200 - DevSpace through 6.3.21 Path Traversal via tar extraction",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-91200",
+      "summary": "CVE ID :CVE-2026-91200 Published : Sept. 14, 2026, 11:19 p.m. | 5 hours, 54 minutes ago Description :DevSpace through 6.3.21 fails to reject parent-directory segments in tar entry names from the...",
+      "source": "CVE Feed",
+      "published": "2026-09-14T23:19:00+00:00"
+    },
     {
       "title": "CVE-2026-91144 - ZFile through 5.0.5 Share Entry Filter Bypass via Download Endpoint",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-91144",
-      "summary": "CVE ID :CVE-2026-91144 Published : Sept. 14, 2026, 10:16 p.m. | 37 minutes ago Description :ZFile through 5.0.5 fails to validate requested file paths against a share link's allowed entries on the...",
+      "summary": "CVE ID :CVE-2026-91144 Published : Sept. 14, 2026, 10:16 p.m. | 6 hours, 56 minutes ago Description :ZFile through 5.0.5 fails to validate requested file paths against a share link's allowed entries...",
       "source": "CVE Feed",
       "published": "2026-09-14T22:16:59+00:00"
     },
     {
       "title": "CVE-2026-12944 - Incomplete Security Scanner Blocklist Enables Network-Based Code Execution",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-12944",
-      "summary": "CVE ID :CVE-2026-12944 Published : Sept. 14, 2026, 10:16 p.m. | 38 minutes ago Description :IBM Langflow OSS 1.0.0 through 1.10.0 can allow attackers to execute arbitrary Python code with root...",
+      "summary": "CVE ID :CVE-2026-12944 Published : Sept. 14, 2026, 10:16 p.m. | 6 hours, 56 minutes ago Description :IBM Langflow OSS 1.0.0 through 1.10.0 can allow attackers to execute arbitrary Python code with...",
       "source": "CVE Feed",
       "published": "2026-09-14T22:16:56+00:00"
-    },
-    {
-      "title": "CVE-2026-91200 - DevSpace through 6.3.21 Path Traversal via tar extraction",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-91200",
-      "summary": "CVE ID :CVE-2026-91200 Published : Sept. 14, 2026, 10:10 p.m. | 44 minutes ago Description :DevSpace through 6.3.21 fails to reject parent-directory segments in tar entry names from the in-pod sync...",
-      "source": "CVE Feed",
-      "published": "2026-09-14T22:10:57+00:00"
     },
     {
       "title": "'Sandworm' Chains Cisco Vulnerabilities to Deploy Cyclops Blink",
@@ -32,35 +95,49 @@
     {
       "title": "CVE-2026-90896 - Missing authentication in Ecommerce Template checkout session endpoint allows unauthenticated disclosure of buyer PII",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-90896",
-      "summary": "CVE ID :CVE-2026-90896 Published : Sept. 14, 2026, 9:17 p.m. | 1 hour, 37 minutes ago Description :Missing Authentication for Critical Function (CWE-306) in the checkout session lookup handler...",
+      "summary": "CVE ID :CVE-2026-90896 Published : Sept. 14, 2026, 9:17 p.m. | 7 hours, 55 minutes ago Description :Missing Authentication for Critical Function (CWE-306) in the checkout session lookup handler...",
       "source": "CVE Feed",
       "published": "2026-09-14T21:17:42+00:00"
     },
     {
       "title": "CVE-2026-68489 - Plesk Extensions Ruby and Node.js Toolkit Static Code Injection",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-68489",
-      "summary": "CVE ID :CVE-2026-68489 Published : Sept. 14, 2026, 9:17 p.m. | 1 hour, 37 minutes ago Description :Static Code Injection in Plesk extensions \"Ruby\" before 1.6.6 and \"Node.js Toolkit\" before 2.5.0...",
+      "summary": "CVE ID :CVE-2026-68489 Published : Sept. 14, 2026, 9:17 p.m. | 7 hours, 55 minutes ago Description :Static Code Injection in Plesk extensions \"Ruby\" before 1.6.6 and \"Node.js Toolkit\" before 2.5.0...",
       "source": "CVE Feed",
       "published": "2026-09-14T21:17:25+00:00"
     },
     {
       "title": "CVE-2026-67399 - WHMCS Deserialization of Untrusted Data Remote Code Execution",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-67399",
-      "summary": "CVE ID :CVE-2026-67399 Published : Sept. 14, 2026, 9:17 p.m. | 1 hour, 37 minutes ago Description :Deserialization of untrusted data in WHMCS 9.0.0 before 9.0.8 and 8.0.0 before 8.13.7 allows remote...",
+      "summary": "CVE ID :CVE-2026-67399 Published : Sept. 14, 2026, 9:17 p.m. | 7 hours, 55 minutes ago Description :Deserialization of untrusted data in WHMCS 9.0.0 before 9.0.8 and 8.0.0 before 8.13.7 allows remote...",
+      "source": "CVE Feed",
+      "published": "2026-09-14T21:17:25+00:00"
+    },
+    {
+      "title": "CVE-2026-65414 - Apple Software Out-of-Bounds Write Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-65414",
+      "summary": "CVE ID :CVE-2026-65414 Published : Sept. 14, 2026, 9:17 p.m. | 7 hours, 55 minutes ago Description :An out-of-bounds write issue was addressed with improved bounds checking. This issue is fixed in...",
       "source": "CVE Feed",
       "published": "2026-09-14T21:17:25+00:00"
     },
     {
       "title": "CVE-2026-53713 - Envoy Gateway: Authentication Bypass via Improper Input Validation in EnvoyExtensionPolicy Lua Allows Secret Disclosure",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-53713",
-      "summary": "CVE ID :CVE-2026-53713 Published : Sept. 14, 2026, 9:17 p.m. | 1 hour, 37 minutes ago Description :Envoy Gateway is an open source project for managing Envoy Proxy as a standalone or Kubernetes-based...",
+      "summary": "CVE ID :CVE-2026-53713 Published : Sept. 14, 2026, 9:17 p.m. | 7 hours, 56 minutes ago Description :Envoy Gateway is an open source project for managing Envoy Proxy as a standalone or...",
       "source": "CVE Feed",
       "published": "2026-09-14T21:17:12+00:00"
     },
     {
+      "title": "CVE-2026-43692 - Apple macOS Input Validation Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-43692",
+      "summary": "CVE ID :CVE-2026-43692 Published : Sept. 14, 2026, 9:17 p.m. | 7 hours, 56 minutes ago Description :A validation issue was addressed with improved input sanitization. This issue is fixed in macOS...",
+      "source": "CVE Feed",
+      "published": "2026-09-14T21:17:08+00:00"
+    },
+    {
       "title": "CVE-2026-13293 - IBM MQ Java messaging is vulnerable to remote code execution",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-13293",
-      "summary": "CVE ID :CVE-2026-13293 Published : Sept. 14, 2026, 9:17 p.m. | 1 hour, 37 minutes ago Description :IBM MQ 9.1.0.0 through 9.1.0.37 LTS, 9.2.0.0 through 9.2.0.43 LTS, 9.3.0.0 through 9.3.0.41 LTS...",
+      "summary": "CVE ID :CVE-2026-13293 Published : Sept. 14, 2026, 9:17 p.m. | 7 hours, 56 minutes ago Description :IBM MQ 9.1.0.0 through 9.1.0.37 LTS, 9.2.0.0 through 9.2.0.43 LTS, 9.3.0.0 through 9.3.0.41 LTS...",
       "source": "CVE Feed",
       "published": "2026-09-14T21:17:02+00:00"
     },
@@ -88,100 +165,65 @@
     {
       "title": "CVE-2026-82028 - Magistrala < 1.0.0 SQL Injection via format Parameter in Reader API",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-82028",
-      "summary": "CVE ID :CVE-2026-82028 Published : Sept. 14, 2026, 8:16 p.m. | 2 hours, 38 minutes ago Description :Magistrala before 1.0.0 contains a SQL injection vulnerability in the timescale-reader and...",
+      "summary": "CVE ID :CVE-2026-82028 Published : Sept. 14, 2026, 8:16 p.m. | 8 hours, 56 minutes ago Description :Magistrala before 1.0.0 contains a SQL injection vulnerability in the timescale-reader and...",
       "source": "CVE Feed",
       "published": "2026-09-14T20:16:54+00:00"
     },
     {
       "title": "CVE-2026-65838 - Skipper: an oversized declared-`Content-Length` body still hands OPA an empty `parsed_body`, so deny-on-presence Rego policies fail OPEN while the full payload reaches upstream",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-65838",
-      "summary": "CVE ID :CVE-2026-65838 Published : Sept. 14, 2026, 8:16 p.m. | 2 hours, 38 minutes ago Description :Skipper is an HTTP router and reverse proxy for service composition. Prior to 0.27.35, the...",
+      "summary": "CVE ID :CVE-2026-65838 Published : Sept. 14, 2026, 8:16 p.m. | 8 hours, 56 minutes ago Description :Skipper is an HTTP router and reverse proxy for service composition. Prior to 0.27.35, the...",
       "source": "CVE Feed",
       "published": "2026-09-14T20:16:49+00:00"
     },
     {
       "title": "CVE-2026-55209 - resdata insufficiently validates untrusted GRDECL files",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-55209",
-      "summary": "CVE ID :CVE-2026-55209 Published : Sept. 14, 2026, 8:16 p.m. | 2 hours, 38 minutes ago Description :resdata is software for reading and writing result files from the Eclipse reservoir simulator...",
+      "summary": "CVE ID :CVE-2026-55209 Published : Sept. 14, 2026, 8:16 p.m. | 8 hours, 56 minutes ago Description :resdata is software for reading and writing result files from the Eclipse reservoir simulator...",
       "source": "CVE Feed",
       "published": "2026-09-14T20:16:47+00:00"
     },
     {
       "title": "CVE-2026-54628 - Anyquery: Server-Side Request Forgery (SSRF) via Unrestricted SQLite Virtual Table Modules in Server Mode",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-54628",
-      "summary": "CVE ID :CVE-2026-54628 Published : Sept. 14, 2026, 8:16 p.m. | 2 hours, 38 minutes ago Description :Anyquery is an SQL query engine built on top of SQLite. Prior to 0.4.5, anyquery server exposes...",
+      "summary": "CVE ID :CVE-2026-54628 Published : Sept. 14, 2026, 8:16 p.m. | 8 hours, 56 minutes ago Description :Anyquery is an SQL query engine built on top of SQLite. Prior to 0.4.5, anyquery server exposes...",
       "source": "CVE Feed",
       "published": "2026-09-14T20:16:46+00:00"
     },
     {
       "title": "CVE-2026-54447 - garminconnect: Insecure Permission Assignment for Garmin OAuth Token Store",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-54447",
-      "summary": "CVE ID :CVE-2026-54447 Published : Sept. 14, 2026, 8:16 p.m. | 2 hours, 38 minutes ago Description :garminconnect is a Python 3 API wrapper for Garmin Connect that retrieves statistics and manages...",
+      "summary": "CVE ID :CVE-2026-54447 Published : Sept. 14, 2026, 8:16 p.m. | 8 hours, 56 minutes ago Description :garminconnect is a Python 3 API wrapper for Garmin Connect that retrieves statistics and manages...",
       "source": "CVE Feed",
       "published": "2026-09-14T20:16:46+00:00"
     },
     {
       "title": "CVE-2026-54334 - UEFI Firmware Parser: Heap out-of-bounds write in tiano decompressor `ReadCLen`",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-54334",
-      "summary": "CVE ID :CVE-2026-54334 Published : Sept. 14, 2026, 8:16 p.m. | 2 hours, 38 minutes ago Description :UEFI Firmware Parser parses BIOS, Intel ME, and UEFI firmware structures including volumes, file...",
+      "summary": "CVE ID :CVE-2026-54334 Published : Sept. 14, 2026, 8:16 p.m. | 8 hours, 56 minutes ago Description :UEFI Firmware Parser parses BIOS, Intel ME, and UEFI firmware structures including volumes, file...",
       "source": "CVE Feed",
       "published": "2026-09-14T20:16:46+00:00"
     },
     {
       "title": "CVE-2026-54333 - UEFI Firmware Parser: Stack out-of-bounds write in tiano decompressor MakeTable",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-54333",
-      "summary": "CVE ID :CVE-2026-54333 Published : Sept. 14, 2026, 8:16 p.m. | 2 hours, 38 minutes ago Description :UEFI Firmware Parser parses BIOS, Intel ME, and UEFI firmware structures including volumes, file...",
+      "summary": "CVE ID :CVE-2026-54333 Published : Sept. 14, 2026, 8:16 p.m. | 8 hours, 56 minutes ago Description :UEFI Firmware Parser parses BIOS, Intel ME, and UEFI firmware structures including volumes, file...",
       "source": "CVE Feed",
       "published": "2026-09-14T20:16:45+00:00"
     },
     {
       "title": "CVE-2026-50006 - Anyquery: Arbitrary File Write (AFW) which could lead to Remote Code Execution (RCE) via Unrestricted ATTACH DATABASE in Server Mode",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-50006",
-      "summary": "CVE ID :CVE-2026-50006 Published : Sept. 14, 2026, 8:16 p.m. | 2 hours, 38 minutes ago Description :Anyquery is an SQL query engine built on top of SQLite. Prior to 0.4.5, anyquery server forwards...",
+      "summary": "CVE ID :CVE-2026-50006 Published : Sept. 14, 2026, 8:16 p.m. | 8 hours, 56 minutes ago Description :Anyquery is an SQL query engine built on top of SQLite. Prior to 0.4.5, anyquery server forwards...",
       "source": "CVE Feed",
       "published": "2026-09-14T20:16:44+00:00"
     },
     {
       "title": "CVE-2026-17467 - Vulnerabilities exists in IBM Cloud Pak for Data System",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-17467",
-      "summary": "CVE ID :CVE-2026-17467 Published : Sept. 14, 2026, 8:16 p.m. | 2 hours, 38 minutes ago Description :IBM Cloud Pak for Data System (Yosemite 1.0) 3.0.5.2 could allow a remote attacker to obtain...",
+      "summary": "CVE ID :CVE-2026-17467 Published : Sept. 14, 2026, 8:16 p.m. | 8 hours, 56 minutes ago Description :IBM Cloud Pak for Data System (Yosemite 1.0) 3.0.5.2 could allow a remote attacker to obtain...",
       "source": "CVE Feed",
       "published": "2026-09-14T20:16:42+00:00"
-    },
-    {
-      "title": "CVE-2026-16673 - DataStage on Cloud Pak for Data has several vulnerabilities due to open source software",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-16673",
-      "summary": "CVE ID :CVE-2026-16673 Published : Sept. 14, 2026, 8:16 p.m. | 2 hours, 38 minutes ago Description :IBM DataStage on Cloud Pak for Data 5.4.0.0 IBM DataStage could allow a remote authenticated...",
-      "source": "CVE Feed",
-      "published": "2026-09-14T20:16:41+00:00"
-    },
-    {
-      "title": "CVE-2026-16466 - DataStage on Cloud Pak for Data has several vulnerabilities due to open source software",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-16466",
-      "summary": "CVE ID :CVE-2026-16466 Published : Sept. 14, 2026, 8:16 p.m. | 2 hours, 38 minutes ago Description :IBM DataStage on Cloud Pak for Data 5.4.0.0 IBM DataStage could allow a remote authenticated...",
-      "source": "CVE Feed",
-      "published": "2026-09-14T20:16:40+00:00"
-    },
-    {
-      "title": "CVE-2026-16428 - DataStage on Cloud Pak for Data has several vulnerabilities due to open source software",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-16428",
-      "summary": "CVE ID :CVE-2026-16428 Published : Sept. 14, 2026, 8:16 p.m. | 2 hours, 38 minutes ago Description :IBM DataStage on Cloud Pak for Data 5.4.0.0 IBM DataStage could allow a remote authenticated...",
-      "source": "CVE Feed",
-      "published": "2026-09-14T20:16:40+00:00"
-    },
-    {
-      "title": "CVE-2026-16338 - DataStage on Cloud Pak for Data has several vulnerabilities due to open source software",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-16338",
-      "summary": "CVE ID :CVE-2026-16338 Published : Sept. 14, 2026, 8:16 p.m. | 2 hours, 38 minutes ago Description :IBM DataStage on Cloud Pak for Data 5.4.0.0 IBM DataStage could allow a remote authenticated...",
-      "source": "CVE Feed",
-      "published": "2026-09-14T20:16:40+00:00"
-    },
-    {
-      "title": "CVE-2026-16335 - DataStage on Cloud Pak for Data has several vulnerabilities due to open source software",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-16335",
-      "summary": "CVE ID :CVE-2026-16335 Published : Sept. 14, 2026, 8:16 p.m. | 2 hours, 38 minutes ago Description :IBM DataStage on Cloud Pak for Data 5.4.0.0 IBM DataStage could allow a remote authenticated...",
-      "source": "CVE Feed",
-      "published": "2026-09-14T20:16:40+00:00"
     },
     {
       "title": "Homebrew 7.0.0 gets built-in GUI, better security controls",
@@ -196,27 +238,6 @@
       "summary": "Prosecutors unsealed a 2021 indictment accusing the five men of conducting lucrative romance scams that stole thousands of dollars from more than 100 people.",
       "source": "The Record",
       "published": "2026-09-14T19:40:00+00:00"
-    },
-    {
-      "title": "CVE-2026-89023 - ThemeAtelier Domain For Sale < 3.5.2 Missing Authorization via REST API",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-89023",
-      "summary": "CVE ID :CVE-2026-89023 Published : Sept. 14, 2026, 7:17 p.m. | 3 hours, 37 minutes ago Description :ThemeAtelier Domain For Sale plugin for WordPress before 3.5.2 contains a missing authorization...",
-      "source": "CVE Feed",
-      "published": "2026-09-14T19:17:55+00:00"
-    },
-    {
-      "title": "CVE-2026-86830 - Incorrect privilege assignment in Temporary Elevated Access Management (TEAM) for AWS IAM Identity Center",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-86830",
-      "summary": "CVE ID :CVE-2026-86830 Published : Sept. 14, 2026, 7:17 p.m. | 3 hours, 37 minutes ago Description :Incorrect privilege assignment in Temporary Elevated Access Management (TEAM) for AWS IAM Identity...",
-      "source": "CVE Feed",
-      "published": "2026-09-14T19:17:52+00:00"
-    },
-    {
-      "title": "CVE-2026-82049 - tarfile extraction filters allow file modification and content disclosure via hard link to symlink",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-82049",
-      "summary": "CVE ID :CVE-2026-82049 Published : Sept. 14, 2026, 7:17 p.m. | 3 hours, 37 minutes ago Description :In CPython 3.13 and earlier, the tarfile module's data and tar extraction filters are vulnerable to...",
-      "source": "CVE Feed",
-      "published": "2026-09-14T19:17:50+00:00"
     },
     {
       "title": "Twitch extension with 30K installs exposes users’ OAuth tokens",
@@ -483,13 +504,6 @@
       "summary": "Threat actors linked to a China-aligned espionage group are exploiting a critical vulnerability (CVE-2026-51990) in Tencent's Sogou Input Method for Windows to deploy the GrayRabbit backdoor. [...]",
       "source": "BleepingComputer",
       "published": "2026-09-13T14:26:32+00:00"
-    },
-    {
-      "title": "Anthropic CEO Dario Amodei Says AI Industry Needs to Give Safety Measures Time to Catch Up",
-      "link": "https://www.securityweek.com/anthropic-ceo-dario-amodei-says-ai-industry-needs-to-give-safety-measures-time-to-catch-up/",
-      "summary": "Dario Amodei warned that within six to 12 months AI could be capable of leading a swarm of agents that could take over the entire internet. The post Anthropic CEO Dario Amodei Says AI Industry Needs...",
-      "source": "SecurityWeek",
-      "published": "2026-09-13T13:27:25+00:00"
     },
     {
       "title": "Attackers Use Passkey Phishing to Hijack Microsoft Cloud Accounts and Exfiltrate Data",
@@ -952,20 +966,6 @@
       "summary": "Researchers at the security firm Calif have built a worm that takes over a WeChat account via an incoming call and demonstrated it spreading among three test phones. The person being called does not...",
       "source": "The Hacker News",
       "published": "2026-09-08T11:54:29+00:00"
-    },
-    {
-      "title": "What It Took to Reach 1 Billion Build Manifests",
-      "link": "https://thehackernews.com/2026/09/what-it-took-to-reach-1-billion-build.html",
-      "summary": "In the last six months, Chainguard doubled its output from 500 million to more than 1 billion container build manifests. We also surpassed 3,000 unique container images and 675,000 image versions in...",
-      "source": "The Hacker News",
-      "published": "2026-09-08T11:49:02+00:00"
-    },
-    {
-      "title": "FreeIPA Flaw Chain Lets Anonymous Clients Create Reusable Administrator Credentials",
-      "link": "https://thehackernews.com/2026/09/freeipa-flaw-chain-lets-anonymous.html",
-      "summary": "A flaw in FreeIPA lets a client that has never logged in create a Kerberos identity of its own choosing in the directory and end up in the administrators group, Red Hat says. FreeIPA is the system...",
-      "source": "The Hacker News",
-      "published": "2026-09-08T11:22:07+00:00"
     },
     {
       "title": "Companies Have 6 Months to Prepare for Automated Attacks",
