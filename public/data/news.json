@@ -1,6 +1,223 @@
 {
-  "last_updated": "2026-09-16T02:29:38.534606+00:00",
+  "last_updated": "2026-09-16T08:56:35.747120+00:00",
   "articles": [
+    {
+      "title": "Enterprises Warned of Attacks Exploiting WSO2 Vulnerability",
+      "link": "https://www.securityweek.com/enterprises-warned-of-attacks-exploiting-wso2-vulnerability/",
+      "summary": "The vulnerability, tracked as CVE-2026-5430, can be exploited to gain access to valuable enterprise data. The post Enterprises Warned of Attacks Exploiting WSO2 Vulnerability appeared first on...",
+      "source": "SecurityWeek",
+      "published": "2026-09-16T08:39:05+00:00"
+    },
+    {
+      "title": "CVE-2026-73464 - Security Advisory 0166",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-73464",
+      "summary": "CVE ID :CVE-2026-73464 Published : Sept. 16, 2026, 8:32 a.m. | 22 minutes ago Description :On affected platforms running Arista EOS with gRPC Network Management Interface (gNMI) enabled, a specially...",
+      "source": "CVE Feed",
+      "published": "2026-09-16T08:32:54+00:00"
+    },
+    {
+      "title": "CVE-2026-82717 - CNAME synthesis could lead to heap corruption",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-82717",
+      "summary": "CVE ID :CVE-2026-82717 Published : Sept. 16, 2026, 8:31 a.m. | 23 minutes ago Description :In NLnet Labs Unbound up to and including 1.26.0, a vulnerability was found in that can progressively...",
+      "source": "CVE Feed",
+      "published": "2026-09-16T08:31:59+00:00"
+    },
+    {
+      "title": "CVE-2026-81642 - Heap buffer overflow and possible Remote Code Execution when digesting DNSKEY",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-81642",
+      "summary": "CVE ID :CVE-2026-81642 Published : Sept. 16, 2026, 8:30 a.m. | 24 minutes ago Description :In NLnet Labs Unbound up to and including 1.26.0, a vulnerability was found in the DNSSEC validator that...",
+      "source": "CVE Feed",
+      "published": "2026-09-16T08:30:58+00:00"
+    },
+    {
+      "title": "CVE-2026-92355 - Octopus Server Path Traversal Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-92355",
+      "summary": "CVE ID :CVE-2026-92355 Published : Sept. 16, 2026, 8:16 a.m. | 38 minutes ago Description :In affected versions of Octopus Server, a user with permission to modify non built-in external feeds could...",
+      "source": "CVE Feed",
+      "published": "2026-09-16T08:16:40+00:00"
+    },
+    {
+      "title": "CVE-2026-88263 - XikeStor Layer3 Switches Authentication Bypass",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-88263",
+      "summary": "CVE ID :CVE-2026-88263 Published : Sept. 16, 2026, 8:16 a.m. | 38 minutes ago Description :XikeStor Layer3 switches miss authentication for downloading configuration data. Unauthenticated attacker...",
+      "source": "CVE Feed",
+      "published": "2026-09-16T08:16:40+00:00"
+    },
+    {
+      "title": "CVE-2026-84408 - QND Named Pipe Improper Access Control Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-84408",
+      "summary": "CVE ID :CVE-2026-84408 Published : Sept. 16, 2026, 8:16 a.m. | 38 minutes ago Description :QND contains an improper access control vulnerability in a named pipe, which may allow a local attacker who...",
+      "source": "CVE Feed",
+      "published": "2026-09-16T08:16:40+00:00"
+    },
+    {
+      "title": "CVE-2026-27565 - Remote code execution via uploading a malicious IODD file",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-27565",
+      "summary": "CVE ID :CVE-2026-27565 Published : Sept. 16, 2026, 8:16 a.m. | 38 minutes ago Description :An unauthenticated remote attacker can upload a malicious IODD file that places and executes a shell script...",
+      "source": "CVE Feed",
+      "published": "2026-09-16T08:16:39+00:00"
+    },
+    {
+      "title": "CVE-2026-27559 - Command Injection via GET in /api/status/data",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-27559",
+      "summary": "CVE ID :CVE-2026-27559 Published : Sept. 16, 2026, 8:16 a.m. | 38 minutes ago Description :A low-privileged remote attacker can exploit a command injection vulnerability in the /api/status/data...",
+      "source": "CVE Feed",
+      "published": "2026-09-16T08:16:38+00:00"
+    },
+    {
+      "title": "CVE-2026-27558 - Command Injection in /index.php/attached_devices_tab/ajax_remove_uploaded_iodd_files",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-27558",
+      "summary": "CVE ID :CVE-2026-27558 Published : Sept. 16, 2026, 8:16 a.m. | 38 minutes ago Description :A low-privileged remote attacker can exploit a command injection vulnerability in the...",
+      "source": "CVE Feed",
+      "published": "2026-09-16T08:16:38+00:00"
+    },
+    {
+      "title": "CVE-2026-27556 - Local File Inclusion in /index.php/ajax/save_iodd_parameters",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-27556",
+      "summary": "CVE ID :CVE-2026-27556 Published : Sept. 16, 2026, 8:16 a.m. | 38 minutes ago Description :A low-privileged remote attacker can exploit a local file inclusion vulnerability in the...",
+      "source": "CVE Feed",
+      "published": "2026-09-16T08:16:38+00:00"
+    },
+    {
+      "title": "CVE-2026-27555 - Local File Inclusion in /index.php/ajax/get_iodd_port_info",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-27555",
+      "summary": "CVE ID :CVE-2026-27555 Published : Sept. 16, 2026, 8:16 a.m. | 38 minutes ago Description :A low-privileged remote attacker can exploit a local file inclusion vulnerability in the...",
+      "source": "CVE Feed",
+      "published": "2026-09-16T08:16:38+00:00"
+    },
+    {
+      "title": "CVE-2026-27554 - Command Injection in /index.php/ajax/save_iodd_parameters",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-27554",
+      "summary": "CVE ID :CVE-2026-27554 Published : Sept. 16, 2026, 8:16 a.m. | 38 minutes ago Description :A low-privileged remote attacker can exploit a command injection vulnerability in the...",
+      "source": "CVE Feed",
+      "published": "2026-09-16T08:16:38+00:00"
+    },
+    {
+      "title": "CVE-2026-27552 - Unauthorized IODD File Upload due to Improper Authorization",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-27552",
+      "summary": "CVE ID :CVE-2026-27552 Published : Sept. 16, 2026, 8:16 a.m. | 38 minutes ago Description :A low-privileged remote attacker can exploit improper authorization in the...",
+      "source": "CVE Feed",
+      "published": "2026-09-16T08:16:37+00:00"
+    },
+    {
+      "title": "CVE-2026-27551 - Command Injection in /index.php/ajax/parameterManage",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-27551",
+      "summary": "CVE ID :CVE-2026-27551 Published : Sept. 16, 2026, 8:16 a.m. | 38 minutes ago Description :A low-privileged remote attacker can exploit a command injection vulnerability in the...",
+      "source": "CVE Feed",
+      "published": "2026-09-16T08:16:37+00:00"
+    },
+    {
+      "title": "CVE-2026-27550 - Command Injection in Field_Shadow_Password Class",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-27550",
+      "summary": "CVE ID :CVE-2026-27550 Published : Sept. 16, 2026, 8:16 a.m. | 38 minutes ago Description :A low-privileged remote attacker can exploit a command injection vulnerability in the Field_Shadow_Password...",
+      "source": "CVE Feed",
+      "published": "2026-09-16T08:16:37+00:00"
+    },
+    {
+      "title": "CVE-2026-27549 - Command Injection in /index.php/attached_devices_tab/do_upload",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-27549",
+      "summary": "CVE ID :CVE-2026-27549 Published : Sept. 16, 2026, 8:16 a.m. | 38 minutes ago Description :A low-privileged remote attacker can exploit a command injection vulnerability in the...",
+      "source": "CVE Feed",
+      "published": "2026-09-16T08:16:37+00:00"
+    },
+    {
+      "title": "CVE-2026-27548 - Command Injection in /index.php/ajax/get_iodd_port_info",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-27548",
+      "summary": "CVE ID :CVE-2026-27548 Published : Sept. 16, 2026, 8:16 a.m. | 38 minutes ago Description :A low-privileged remote attacker can exploit a command injection vulnerability in the...",
+      "source": "CVE Feed",
+      "published": "2026-09-16T08:16:37+00:00"
+    },
+    {
+      "title": "CVE-2026-27547 - Command Injection in /index.php/ajax/get_iodd_menu_info",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-27547",
+      "summary": "CVE ID :CVE-2026-27547 Published : Sept. 16, 2026, 8:16 a.m. | 38 minutes ago Description :A low-privileged remote attacker can exploit a command injection vulnerability in the...",
+      "source": "CVE Feed",
+      "published": "2026-09-16T08:16:37+00:00"
+    },
+    {
+      "title": "CVE-2026-27546 - Authentication Bypass in _account_log",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-27546",
+      "summary": "CVE ID :CVE-2026-27546 Published : Sept. 16, 2026, 8:16 a.m. | 38 minutes ago Description :An unauthenticated remote attacker can exploit an authentication bypass in the _account_log function to log...",
+      "source": "CVE Feed",
+      "published": "2026-09-16T08:16:36+00:00"
+    },
+    {
+      "title": "CVE-2026-73454 - Security Advisory 0165",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-73454",
+      "summary": "CVE ID :CVE-2026-73454 Published : Sept. 16, 2026, 8:14 a.m. | 40 minutes ago Description :On affected platforms running Arista EOS with gRPC Network Security Interface (gNSI) Credentialz configured...",
+      "source": "CVE Feed",
+      "published": "2026-09-16T08:14:40+00:00"
+    },
+    {
+      "title": "Oracle Patches 800+ Vulnerabilities in September 2026 Security Update",
+      "link": "https://www.securityweek.com/oracle-patches-800-vulnerabilities-in-september-2026-security-update/",
+      "summary": "The security updates resolve over 800 vulnerabilities across 17 product families, including over 100 critical-severity flaws. The post Oracle Patches 800+ Vulnerabilities in September 2026 Security...",
+      "source": "SecurityWeek",
+      "published": "2026-09-16T08:06:33+00:00"
+    },
+    {
+      "title": "CVE-2026-73461 - Security Advisory 0163",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-73461",
+      "summary": "CVE ID :CVE-2026-73461 Published : Sept. 16, 2026, 8:01 a.m. | 53 minutes ago Description :On affected EOS platforms with AAA-based gRPC authorization enabled for OpenConfig, gRPC requests of an...",
+      "source": "CVE Feed",
+      "published": "2026-09-16T08:01:20+00:00"
+    },
+    {
+      "title": "CVE-2026-79708 - Incorrect Authorization in GitLab",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-79708",
+      "summary": "CVE ID :CVE-2026-79708 Published : Sept. 16, 2026, 7:16 a.m. | 1 hour, 38 minutes ago Description :GitLab has remediated an issue in GitLab EE affecting all versions from 19.0 before 19.1.8, 19.2...",
+      "source": "CVE Feed",
+      "published": "2026-09-16T07:16:37+00:00"
+    },
+    {
+      "title": "CVE-2026-78252 - Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') in GitLab",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-78252",
+      "summary": "CVE ID :CVE-2026-78252 Published : Sept. 16, 2026, 7:16 a.m. | 1 hour, 38 minutes ago Description :GitLab has remediated an issue in GitLab CE/EE affecting all versions from 15.3 before 19.1.8, 19.2...",
+      "source": "CVE Feed",
+      "published": "2026-09-16T07:16:37+00:00"
+    },
+    {
+      "title": "CVE-2026-73447 - Security Advisory 0162 - gNSI Certz/Bootz OS Command Injection via Crafted Rotate Request",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-73447",
+      "summary": "CVE ID :CVE-2026-73447 Published : Sept. 16, 2026, 7:16 a.m. | 1 hour, 38 minutes ago Description :A privileged attacker can exploit certain operation to execute arbitrary commands with root...",
+      "source": "CVE Feed",
+      "published": "2026-09-16T07:16:37+00:00"
+    },
+    {
+      "title": "Google fixes actively exploited Android zero-day on Pixel devices",
+      "link": "https://www.bleepingcomputer.com/news/security/google-fixes-actively-exploited-android-zero-day-on-pixel-devices/",
+      "summary": "Google has released the September 2026 security patches to address 110 vulnerabilities affecting its Pixel devices, including one zero-day flaw actively exploited in targeted attacks. [...]",
+      "source": "BleepingComputer",
+      "published": "2026-09-16T07:00:19+00:00"
+    },
+    {
+      "title": "Attackers Exploit WooCommerce Wholesale Lead Capture Flaw to Plant PHP Web Shells",
+      "link": "https://thehackernews.com/2026/09/attackers-exploit-woocommerce-wholesale.html",
+      "summary": "Threat actors are exploiting a critical security flaw in WooCommerce Wholesale Lead Capture, a premium WordPress plugin that has more than 6,000 active installs. \"This vulnerability can be leveraged...",
+      "source": "The Hacker News",
+      "published": "2026-09-16T05:48:28+00:00"
+    },
+    {
+      "title": "Active Exploitation Attempts Target WSO2 API Manager JWT Bypass With Forged Admin Tokens",
+      "link": "https://thehackernews.com/2026/09/active-exploitation-attempts-target.html",
+      "summary": "A critical security flaw in WSO2 API Manager has come under active exploitation in the wild, according to findings from watchTowr. The vulnerability, tracked as CVE-2026-5430 (CVSS score: 9.8/10.0)...",
+      "source": "The Hacker News",
+      "published": "2026-09-16T05:18:06+00:00"
+    },
+    {
+      "title": "CVE-2026-78088 - Contest Gallery <= 32.0.1 - Unauthenticated Arbitrary File Upload via 'baseUrlForFacebook' Parameter",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-78088",
+      "summary": "CVE ID :CVE-2026-78088 Published : Sept. 16, 2026, 4:18 a.m. | 4 hours, 36 minutes ago Description :The Contest Gallery – Upload & Vote Photos, Media, Sell with PayPal & Stripe plugin for WordPress...",
+      "source": "CVE Feed",
+      "published": "2026-09-16T04:18:41+00:00"
+    },
+    {
+      "title": "Oracle September 2026 Security Patch Tuesday",
+      "link": "https://thecyberthrone.in/2026/09/16/oracle-september-2026-security-patch-tuesday/",
+      "summary": "Oracle September 2026 Security Patch Tuesday 673 Security Patches Across the EnterpriseQuick ReferenceRelease Date: 15 September 2026Release: Oracle September 2026 Critical Security Patch Update...",
+      "source": "CVE Newsroom",
+      "published": "2026-09-16T03:04:32+00:00"
+    },
     {
       "title": "Cyber Op Targets South Korean Media & Automotive Sectors",
       "link": "https://www.darkreading.com/cyberattacks-data-breaches/cyber-south-korean-media-automotive",
@@ -9,186 +226,11 @@
       "published": "2026-09-16T01:00:00+00:00"
     },
     {
-      "title": "CVE-2026-15640 - Authentication Bypass via SAML Response Manipulation",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-15640",
-      "summary": "CVE ID :CVE-2026-15640 Published : Sept. 16, 2026, 12:17 a.m. | 59 minutes ago Description :Under certain conditions a valid SAML IdP response may be used to impersonate another Secret Server user...",
-      "source": "CVE Feed",
-      "published": "2026-09-16T00:17:03+00:00"
-    },
-    {
-      "title": "CVE-2026-15639 - Reflected Cross-Site Scripting",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-15639",
-      "summary": "CVE ID :CVE-2026-15639 Published : Sept. 16, 2026, 12:17 a.m. | 59 minutes ago Description :An attacker can craft a malicious link that, if used by a legitimate user, may cause the user's browser to...",
-      "source": "CVE Feed",
-      "published": "2026-09-16T00:17:03+00:00"
-    },
-    {
-      "title": "CVE-2026-15638 - Cryptographic Padding Oracle",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-15638",
-      "summary": "CVE ID :CVE-2026-15638 Published : Sept. 16, 2026, 12:17 a.m. | 59 minutes ago Description :An unauthenticated user with access to Secret Server could leverage a padding oracle to decrypt or encrypt...",
-      "source": "CVE Feed",
-      "published": "2026-09-16T00:17:02+00:00"
-    },
-    {
-      "title": "CVE-2026-85893 - Microsoft Edge (Chromium-based) Elevation of Privilege Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-85893",
-      "summary": "CVE ID :CVE-2026-85893 Published : Sept. 15, 2026, 11:19 p.m. | 1 hour, 57 minutes ago Description :Use after free in Microsoft Edge (Chromium-based) allows an unauthorized attacker to elevate...",
-      "source": "CVE Feed",
-      "published": "2026-09-15T23:19:12+00:00"
-    },
-    {
-      "title": "CVE-2026-69486 - Microsoft Edge (Chromium-based) Remote Code Execution Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-69486",
-      "summary": "CVE ID :CVE-2026-69486 Published : Sept. 15, 2026, 11:17 p.m. | 1 hour, 59 minutes ago Description :Heap-based buffer overflow in Microsoft Edge (Chromium-based) allows an unauthorized attacker to...",
-      "source": "CVE Feed",
-      "published": "2026-09-15T23:17:41+00:00"
-    },
-    {
-      "title": "CVE-2026-83408 - Vulnerability in the Oracle GraalVM for JDK, Oracl",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-83408",
-      "summary": "CVE ID :CVE-2026-83408 Published : Sept. 15, 2026, 10:17 p.m. | 2 hours, 59 minutes ago Description :Vulnerability in the Oracle GraalVM for JDK, Oracle GraalVM product of Oracle Java SE (component...",
-      "source": "CVE Feed",
-      "published": "2026-09-15T22:17:03+00:00"
-    },
-    {
-      "title": "CVE-2026-83357 - Vulnerability in the Oracle GraalVM for JDK, Oracl",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-83357",
-      "summary": "CVE ID :CVE-2026-83357 Published : Sept. 15, 2026, 10:17 p.m. | 2 hours, 59 minutes ago Description :Vulnerability in the Oracle GraalVM for JDK, Oracle GraalVM product of Oracle Java SE (component...",
-      "source": "CVE Feed",
-      "published": "2026-09-15T22:17:03+00:00"
-    },
-    {
-      "title": "CVE-2026-81855 - Wärtsilä FOS-Onboard Use of Hard-coded Cryptographic Key",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-81855",
-      "summary": "CVE ID :CVE-2026-81855 Published : Sept. 15, 2026, 10:17 p.m. | 2 hours, 59 minutes ago Description :A hardcoded cryptographic client authentication key vulnerability exists in the robot testing...",
-      "source": "CVE Feed",
-      "published": "2026-09-15T22:17:03+00:00"
-    },
-    {
-      "title": "CVE-2026-78225 - Wärtsilä FOS-Onboard Use of Hard-coded Cryptographic Key",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-78225",
-      "summary": "CVE ID :CVE-2026-78225 Published : Sept. 15, 2026, 10:17 p.m. | 2 hours, 59 minutes ago Description :A hardcoded cryptographic server key vulnerability exists in the deployer-ng Update Controller...",
-      "source": "CVE Feed",
-      "published": "2026-09-15T22:17:02+00:00"
-    },
-    {
-      "title": "CVE-2026-76869 - Netcore NR255-V 1.5.130703 Stack-Based Buffer Overflow in reboot_timer_set.cgi",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-76869",
-      "summary": "CVE ID :CVE-2026-76869 Published : Sept. 15, 2026, 10:17 p.m. | 2 hours, 59 minutes ago Description :Netcore NR255-V version 1.5.130703 contains a stack-based buffer overflow in reboot_timer_set.cgi...",
-      "source": "CVE Feed",
-      "published": "2026-09-15T22:17:01+00:00"
-    },
-    {
-      "title": "CVE-2026-76866 - Netcore NR255-V 1.5.130703 OS Command Argument Injection via Unquoted DDNS Parameters",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-76866",
-      "summary": "CVE ID :CVE-2026-76866 Published : Sept. 15, 2026, 10:17 p.m. | 2 hours, 59 minutes ago Description :Netcore NR255-V firmware version 1.5.130703 builds root-run command lines from unquoted...",
-      "source": "CVE Feed",
-      "published": "2026-09-15T22:17:01+00:00"
-    },
-    {
-      "title": "CVE-2026-76862 - Netcore NR255-V 1.5.130703 OS Command Argument Injection in Nettools tcpdump Launch Paths",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-76862",
-      "summary": "CVE ID :CVE-2026-76862 Published : Sept. 15, 2026, 10:17 p.m. | 2 hours, 59 minutes ago Description :Netcore NR255-V version 1.5.130703 contains an os command argument injection vulnerability in the...",
-      "source": "CVE Feed",
-      "published": "2026-09-15T22:17:00+00:00"
-    },
-    {
-      "title": "CVE-2026-76861 - Netcore NR255-V 1.5.130703 Stack-Based Buffer Overflow in ntools_tcpdump_start_set.cgi",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-76861",
-      "summary": "CVE ID :CVE-2026-76861 Published : Sept. 15, 2026, 10:17 p.m. | 2 hours, 59 minutes ago Description :Netcore NR255-V version 1.5.130703 contains a stack-based buffer overflow in...",
-      "source": "CVE Feed",
-      "published": "2026-09-15T22:17:00+00:00"
-    },
-    {
-      "title": "CVE-2026-76860 - Netcore NR255-V 1.5.130703 Stack-Based Buffer Overflow in wake_up_set.cgi via MAC and ID Tokenization",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-76860",
-      "summary": "CVE ID :CVE-2026-76860 Published : Sept. 15, 2026, 10:17 p.m. | 2 hours, 59 minutes ago Description :Netcore NR255-V version 1.5.130703 contains a stack-based buffer overflow in wake_up_set.cgi...",
-      "source": "CVE Feed",
-      "published": "2026-09-15T22:17:00+00:00"
-    },
-    {
-      "title": "CVE-2026-76856 - Netcore NR255-V 1.5.130703 Cross-Site Request Forgery in WAN/LAN Configuration Endpoints",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-76856",
-      "summary": "CVE ID :CVE-2026-76856 Published : Sept. 15, 2026, 10:16 p.m. | 2 hours, 59 minutes ago Description :Netcore NR255-V firmware version 1.5.130703 contains a cross-site request forgery vulnerability...",
-      "source": "CVE Feed",
-      "published": "2026-09-15T22:16:59+00:00"
-    },
-    {
-      "title": "CVE-2026-76853 - Netcore NR268 1.7.121109 Security Check Bypass in parame_put_file.cgi",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-76853",
-      "summary": "CVE ID :CVE-2026-76853 Published : Sept. 15, 2026, 10:16 p.m. | 2 hours, 59 minutes ago Description :Netcore NR268 firmware version 1.7.121109 contains a security check bypass vulnerability in the...",
-      "source": "CVE Feed",
-      "published": "2026-09-15T22:16:59+00:00"
-    },
-    {
-      "title": "CVE-2026-76852 - Netcore NR268 1.7.121109 Forgeable Firmware Authenticity Check in mtd_write",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-76852",
-      "summary": "CVE ID :CVE-2026-76852 Published : Sept. 15, 2026, 10:16 p.m. | 2 hours, 59 minutes ago Description :Netcore NR268 firmware version 1.7.121109 has an improper integrity verification flaw in mtd_write...",
-      "source": "CVE Feed",
-      "published": "2026-09-15T22:16:58+00:00"
-    },
-    {
-      "title": "CVE-2026-73807 - mySCADA myPRO Manager Missing Authorization",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-73807",
-      "summary": "CVE ID :CVE-2026-73807 Published : Sept. 15, 2026, 10:16 p.m. | 2 hours, 59 minutes ago Description :The mySCADA myPRO Manager command API does not properly enforce authentication for privileged...",
-      "source": "CVE Feed",
-      "published": "2026-09-15T22:16:58+00:00"
-    },
-    {
-      "title": "CVE-2026-73437 - On affected platforms running Arista EOS with Dynamic Host Configuration Protocol (DHCP) relay configured, an unauthenticated attacker with network access could send a crafted DHCP reply packet from an IP address that is not configured as a helper/destinat",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-73437",
-      "summary": "CVE ID :CVE-2026-73437 Published : Sept. 15, 2026, 10:16 p.m. | 2 hours, 59 minutes ago Description :On affected platforms running Arista EOS with Dynamic Host Configuration Protocol (DHCP) relay...",
-      "source": "CVE Feed",
-      "published": "2026-09-15T22:16:58+00:00"
-    },
-    {
-      "title": "CVE-2026-61560 - @zereight/mcp-gitlab's unauthenticated arbitrary file read via `upload_markdown` enables PAT exfiltration and full account takeover",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-61560",
-      "summary": "CVE ID :CVE-2026-61560 Published : Sept. 15, 2026, 10:16 p.m. | 2 hours, 59 minutes ago Description :`@zereight/mcp-gitlab` is a Model Context Protocol server for GitLab. Prior to version 2.1.27, the...",
-      "source": "CVE Feed",
-      "published": "2026-09-15T22:16:58+00:00"
-    },
-    {
       "title": "Acronis warns of actively exploited flaw in its cPanel backup plugin",
       "link": "https://www.bleepingcomputer.com/news/security/acronis-warns-of-actively-exploited-flaw-in-its-cpanel-backup-plugin/",
       "summary": "Acronis disclosed a high-severity Linux local privilege escalation vulnerability in its backup plugin for cPanel, WebHost Manager (WHM), and Plesk that may be exploited in the wild. [...]",
       "source": "BleepingComputer",
       "published": "2026-09-15T21:37:35+00:00"
-    },
-    {
-      "title": "CVE-2026-92000 - adm-zip 0.5.14 through 0.6.0 Denial of Service via Zero Declared Uncompressed Size",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-92000",
-      "summary": "CVE ID :CVE-2026-92000 Published : Sept. 15, 2026, 9:16 p.m. | 4 hours ago Description :adm-zip versions 0.5.14 through 0.6.0 fail to apply zlib decompression output limits when ZIP entries declare...",
-      "source": "CVE Feed",
-      "published": "2026-09-15T21:16:49+00:00"
-    },
-    {
-      "title": "CVE-2026-91939 - Cotonti 1.0.0 Comments Plugin PHP Object Injection via ci Parameter",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-91939",
-      "summary": "CVE ID :CVE-2026-91939 Published : Sept. 15, 2026, 9:16 p.m. | 4 hours ago Description :Cotonti 1.0.0 Comments plugin passes the ci GET parameter to unserialize() without allowed_classes restriction...",
-      "source": "CVE Feed",
-      "published": "2026-09-15T21:16:48+00:00"
-    },
-    {
-      "title": "CVE-2026-91749 - Google Chrome Workers Use-After-Free Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-91749",
-      "summary": "CVE ID :CVE-2026-91749 Published : Sept. 15, 2026, 9:16 p.m. | 4 hours ago Description :Use after free in Workers in Google Chrome prior to 153.0.8010.47 allowed a remote attacker to potentially...",
-      "source": "CVE Feed",
-      "published": "2026-09-15T21:16:48+00:00"
-    },
-    {
-      "title": "CVE-2026-91748 - Google Chrome Extensions Race Condition Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-91748",
-      "summary": "CVE ID :CVE-2026-91748 Published : Sept. 15, 2026, 9:16 p.m. | 4 hours ago Description :Race condition in Extensions in Google Chrome on on Mac prior to 153.0.8010.47 allowed a remote attacker who...",
-      "source": "CVE Feed",
-      "published": "2026-09-15T21:16:48+00:00"
-    },
-    {
-      "title": "CVE-2026-91743 - Google Chrome Core Race Condition Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-91743",
-      "summary": "CVE ID :CVE-2026-91743 Published : Sept. 15, 2026, 9:16 p.m. | 4 hours ago Description :Race condition in Core in Google Chrome prior to 153.0.8010.47 allowed a remote attacker who had compromised...",
-      "source": "CVE Feed",
-      "published": "2026-09-15T21:16:48+00:00"
     },
     {
       "title": "Malcious Admin Menu Editor Pro plugin backdoors 1,500 WordPress sites",
@@ -387,25 +429,11 @@
       "published": "2026-09-15T11:12:32+00:00"
     },
     {
-      "title": "Apple Patches 200 Vulnerabilities With New iOS 27, macOS Golden Gate 27 Releases",
-      "link": "https://www.securityweek.com/apple-patches-200-vulnerabilities-with-new-ios-27-macos-golden-gate-27-releases/",
-      "summary": "The updates resolve kernel vulnerabilities that could lead to memory corruption, privilege escalation, system termination, and information leaks. The post Apple Patches 200 Vulnerabilities With New...",
-      "source": "SecurityWeek",
-      "published": "2026-09-15T11:06:11+00:00"
-    },
-    {
       "title": "Suspected Black Axe gang leaders face cybercrime charges in the US",
       "link": "https://www.bleepingcomputer.com/news/security/black-axe-gang-members-extradited-to-us-face-cybercrime-charges/",
       "summary": "Five alleged leaders of the Black Axe cybercrime syndicate, known for its involvement in global-scale cyber-enabled financial fraud, have been extradited to the United States to face wire fraud and...",
       "source": "BleepingComputer",
       "published": "2026-09-15T09:50:25+00:00"
-    },
-    {
-      "title": "Microsoft AI Code of Conduct Sets Cyberattack Boundaries, Chain of Command, Safety Constraints",
-      "link": "https://www.securityweek.com/microsoft-ai-code-of-conduct-sets-cyberattack-boundaries-chain-of-command-safety-constraints/",
-      "summary": "The Humanist AI Code of Conduct draws a line between defensive cyber research and operational attack capability. The post Microsoft AI Code of Conduct Sets Cyberattack Boundaries, Chain of Command...",
-      "source": "SecurityWeek",
-      "published": "2026-09-15T09:40:25+00:00"
     },
     {
       "title": "Bluetooth-lek maakt uitvoeren van code op iPhones en Macs mogelijk",
@@ -518,13 +546,6 @@
       "summary": "A browser extension called Twitch Enhanced Viewer | JeetBot, available in the official Chrome and Firefox stores, sends users' Twitch OAuth session tokens to a commercial bot service. [...]",
       "source": "BleepingComputer",
       "published": "2026-09-14T19:03:51+00:00"
-    },
-    {
-      "title": "Hackers hijack HBO Max Reddit account to push malware in ClickFix ads",
-      "link": "https://www.bleepingcomputer.com/news/security/hackers-hijack-hbo-max-reddit-account-to-push-malware-in-clickfix-ads/",
-      "summary": "Hackers compromised HBO Max's official Reddit account and used it to push malicious ads that launched ClickFix attacks to infect Windows and macOS devices with information-stealing malware. [...]",
-      "source": "BleepingComputer",
-      "published": "2026-09-14T18:34:16+00:00"
     },
     {
       "title": "New DDRop Attack Breaks Intel TDX and AMD SEV-SNP Confidential Computing",
@@ -737,13 +758,6 @@
       "published": "2026-09-11T14:10:20+00:00"
     },
     {
-      "title": "Kritiek ScreenConnect-lek laat aanvaller code op clients uitvoeren",
-      "link": "https://www.security.nl/posting/952702/Kritiek+ScreenConnect-lek+laat+aanvaller+code+op+clients+uitvoeren?channel=rss",
-      "summary": "Kritiek ScreenConnect-lek laat aanvaller code op clients uitvoeren Een kritieke kwetsbaarheid in ConnectWise ScreenConnect maakt het mogelijk voor aanvallers om code op kwetsbare client-systemen uit...",
-      "source": "CVE Newsroom",
-      "published": "2026-09-11T14:02:00+00:00"
-    },
-    {
       "title": "Your Critical Vulnerabilities Might Not Be Your Biggest Risk",
       "link": "https://thehackernews.com/2026/09/your-critical-vulnerabilities-might-not.html",
       "summary": "Security teams have become exceptionally talented at finding vulnerabilities. Now, it’s time to turn our attention to optimizing the process for determining which of those vulnerabilities actually...",
@@ -952,20 +966,6 @@
       "summary": "Malware linked to break-ins at F5 BIG-IP Access Policy Manager appliances hides a PHP web shell in memory instead of in a file on disk, Sophos said in an analysis published on September 7. When...",
       "source": "The Hacker News",
       "published": "2026-09-09T07:36:49+00:00"
-    },
-    {
-      "title": "Researcher Drops New Microsoft Defender PoC Showing ShieldBreak Patch Can Be Bypassed",
-      "link": "https://thehackernews.com/2026/09/researcher-drops-new-microsoft-defender.html",
-      "summary": "The security researcher known as Chaotic Eclipse has dropped a proof-of-concept (PoC) for yet another zero-day in Microsoft Defender. The vulnerability, codenamed ShieldCrash, is assessed to be a...",
-      "source": "The Hacker News",
-      "published": "2026-09-09T06:47:27+00:00"
-    },
-    {
-      "title": "SAP Patches CVSS 10.0 Kernel Flaw Enabling Unauthenticated Remote Code Execution",
-      "link": "https://thehackernews.com/2026/09/sap-patches-cvss-100-kernel-flaw.html",
-      "summary": "SAP has released security updates to address multiple vulnerabilities, including a maximum-severity flaw in SAP Extended Passport (EPP) Processing that could have a severe impact on the...",
-      "source": "The Hacker News",
-      "published": "2026-09-09T06:25:45+00:00"
     },
     {
       "title": "Microsoft Plugs Nearly 1,000 Security Holes",
