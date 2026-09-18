@@ -1,6 +1,181 @@
 {
-  "last_updated": "2026-09-17T22:32:21.892797+00:00",
+  "last_updated": "2026-09-18T02:19:21.181266+00:00",
   "articles": [
+    {
+      "title": "CVE-2026-93453 - SOGo before 5.12.11 Password Reset Token Interception via Origin Header",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-93453",
+      "summary": "CVE ID :CVE-2026-93453 Published : Sept. 18, 2026, 12:17 a.m. | 32 minutes ago Description :SOGo before 5.12.11 constructs password-reset links using the client-supplied Origin header as the...",
+      "source": "CVE Feed",
+      "published": "2026-09-18T00:17:49+00:00"
+    },
+    {
+      "title": "CVE-2026-93452 - snappy-java through 1.1.10.8 Buffer Overflow in Snappy.compress",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-93452",
+      "summary": "CVE ID :CVE-2026-93452 Published : Sept. 18, 2026, 12:17 a.m. | 32 minutes ago Description :snappy-java through 1.1.10.8 contains a buffer overflow vulnerability in Snappy.compress(ByteBuffer...",
+      "source": "CVE Feed",
+      "published": "2026-09-18T00:17:49+00:00"
+    },
+    {
+      "title": "CVE-2026-93450 - go-openapi/swag jsonutils before 0.27.1 Uncontrolled Recursion in Ordered JSON Marshal and Unmarshal",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-93450",
+      "summary": "CVE ID :CVE-2026-93450 Published : Sept. 18, 2026, 12:17 a.m. | 32 minutes ago Description :go-openapi/swag jsonutils before 0.27.1 contains a stack overflow vulnerability in ordered JSON parsing and...",
+      "source": "CVE Feed",
+      "published": "2026-09-18T00:17:49+00:00"
+    },
+    {
+      "title": "CVE-2026-85878 - Azure Database for PostgreSQL Elevation of Privilege Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-85878",
+      "summary": "CVE ID :CVE-2026-85878 Published : Sept. 18, 2026, 12:17 a.m. | 32 minutes ago Description :Improper authorization in Azure Database for PostgreSQL allows an authorized attacker to elevate privileges...",
+      "source": "CVE Feed",
+      "published": "2026-09-18T00:17:47+00:00"
+    },
+    {
+      "title": "CVE-2026-83946 - Azure Portal Spoofing Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-83946",
+      "summary": "CVE ID :CVE-2026-83946 Published : Sept. 18, 2026, 12:17 a.m. | 32 minutes ago Description :Improper neutralization of input during web page generation ('cross-site scripting') in Azure Portal allows...",
+      "source": "CVE Feed",
+      "published": "2026-09-18T00:17:44+00:00"
+    },
+    {
+      "title": "CVE-2026-69843 - Microsoft Fabric Elevation of Privilege Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-69843",
+      "summary": "CVE ID :CVE-2026-69843 Published : Sept. 18, 2026, 12:17 a.m. | 32 minutes ago Description :Authentication bypass by spoofing in Microsoft Fabric allows an unauthorized attacker to elevate privileges...",
+      "source": "CVE Feed",
+      "published": "2026-09-18T00:17:24+00:00"
+    },
+    {
+      "title": "CVE-2026-62874 - Azure Billing Elevation of Privilege Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-62874",
+      "summary": "CVE ID :CVE-2026-62874 Published : Sept. 18, 2026, 12:16 a.m. | 33 minutes ago Description :Insufficient verification of data authenticity in Azure Billing allows an unauthorized attacker to elevate...",
+      "source": "CVE Feed",
+      "published": "2026-09-18T00:16:57+00:00"
+    },
+    {
+      "title": "CVE-2026-93436 - vLLM through 0.29.0 Memory Exhaustion via Rejected Requests",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-93436",
+      "summary": "CVE ID :CVE-2026-93436 Published : Sept. 17, 2026, 11:18 p.m. | 1 hour, 31 minutes ago Description :vLLM through 0.29.0 fails to properly clean up decode-side metadata for rejected inference requests...",
+      "source": "CVE Feed",
+      "published": "2026-09-17T23:18:54+00:00"
+    },
+    {
+      "title": "CVE-2026-93435 - redis-parser through 3.0.0 Denial of Service via Unbounded Recursion",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-93435",
+      "summary": "CVE ID :CVE-2026-93435 Published : Sept. 17, 2026, 11:18 p.m. | 1 hour, 31 minutes ago Description :redis-parser through 3.0.0 contains a denial of service vulnerability in the RESP protocol parser...",
+      "source": "CVE Feed",
+      "published": "2026-09-17T23:18:54+00:00"
+    },
+    {
+      "title": "CVE-2026-87701 - Azure Cosmos DB Elevation of Privilege Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-87701",
+      "summary": "CVE ID :CVE-2026-87701 Published : Sept. 17, 2026, 11:18 p.m. | 1 hour, 31 minutes ago Description :Improper neutralization of special elements in output used by a downstream component ('injection')...",
+      "source": "CVE Feed",
+      "published": "2026-09-17T23:18:53+00:00"
+    },
+    {
+      "title": "CVE-2026-85889 - Azure AI Foundry Elevation of Privilege Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-85889",
+      "summary": "CVE ID :CVE-2026-85889 Published : Sept. 17, 2026, 11:18 p.m. | 1 hour, 31 minutes ago Description :Missing authentication for critical function in Azure AI Foundry allows an unauthorized attacker to...",
+      "source": "CVE Feed",
+      "published": "2026-09-17T23:18:53+00:00"
+    },
+    {
+      "title": "CVE-2026-85885 - Microsoft 365 Copilot Elevation of Privilege Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-85885",
+      "summary": "CVE ID :CVE-2026-85885 Published : Sept. 17, 2026, 11:18 p.m. | 1 hour, 31 minutes ago Description :Improper neutralization of special elements used in a command ('command injection') in M365 Copilot...",
+      "source": "CVE Feed",
+      "published": "2026-09-17T23:18:53+00:00"
+    },
+    {
+      "title": "CVE-2026-83944 - Azure Logic Apps Elevation of Privilege Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-83944",
+      "summary": "CVE ID :CVE-2026-83944 Published : Sept. 17, 2026, 11:18 p.m. | 1 hour, 31 minutes ago Description :Improper access control in Azure Logic Apps allows an unauthorized attacker to elevate privileges...",
+      "source": "CVE Feed",
+      "published": "2026-09-17T23:18:51+00:00"
+    },
+    {
+      "title": "CVE-2026-77903 - Microsoft Dataverse Elevation of Privilege Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-77903",
+      "summary": "CVE ID :CVE-2026-77903 Published : Sept. 17, 2026, 11:18 p.m. | 1 hour, 31 minutes ago Description :Authentication bypass by spoofing in Microsoft Dataverse allows an unauthorized attacker to elevate...",
+      "source": "CVE Feed",
+      "published": "2026-09-17T23:18:44+00:00"
+    },
+    {
+      "title": "CVE-2026-70200 - Azure Logic Apps Elevation of Privilege Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-70200",
+      "summary": "CVE ID :CVE-2026-70200 Published : Sept. 17, 2026, 11:18 p.m. | 1 hour, 31 minutes ago Description :Improper limitation of a pathname to a restricted directory ('path traversal') in Azure Logic Apps...",
+      "source": "CVE Feed",
+      "published": "2026-09-17T23:18:36+00:00"
+    },
+    {
+      "title": "CVE-2026-70009 - Azure Arc Elevation of Privilege Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-70009",
+      "summary": "CVE ID :CVE-2026-70009 Published : Sept. 17, 2026, 11:18 p.m. | 1 hour, 31 minutes ago Description :Improper limitation of a pathname to a restricted directory ('path traversal') in Azure Arc allows...",
+      "source": "CVE Feed",
+      "published": "2026-09-17T23:18:35+00:00"
+    },
+    {
+      "title": "CVE-2026-69865 - Microsoft Container Registry Elevation of Privilege Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-69865",
+      "summary": "CVE ID :CVE-2026-69865 Published : Sept. 17, 2026, 11:18 p.m. | 1 hour, 31 minutes ago Description :Authorization bypass through user-controlled key in Microsoft Container Registry allows an...",
+      "source": "CVE Feed",
+      "published": "2026-09-17T23:18:34+00:00"
+    },
+    {
+      "title": "CVE-2026-69399 - Azure Arc Elevation of Privilege Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-69399",
+      "summary": "CVE ID :CVE-2026-69399 Published : Sept. 17, 2026, 11:18 p.m. | 1 hour, 31 minutes ago Description :Azure Arc Elevation of Privilege Vulnerability Severity: 10.0 | CRITICAL Visit the link for more...",
+      "source": "CVE Feed",
+      "published": "2026-09-17T23:18:18+00:00"
+    },
+    {
+      "title": "CVE-2026-68791 - Azure Machine Learning Information Disclosure Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-68791",
+      "summary": "CVE ID :CVE-2026-68791 Published : Sept. 17, 2026, 11:18 p.m. | 1 hour, 31 minutes ago Description :Incorrect authorization in Azure Machine Learning allows an unauthorized attacker to disclose...",
+      "source": "CVE Feed",
+      "published": "2026-09-17T23:18:08+00:00"
+    },
+    {
+      "title": "CVE-2026-93426 - SigNoz 0.87.0 before 0.142.0 - SQL Injection in v5 Query Builder Field Key Names",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-93426",
+      "summary": "CVE ID :CVE-2026-93426 Published : Sept. 17, 2026, 10:17 p.m. | 2 hours, 33 minutes ago Description :SigNoz versions 0.87.0 before 0.142.0 fail to escape user-supplied telemetry field-key names in...",
+      "source": "CVE Feed",
+      "published": "2026-09-17T22:17:04+00:00"
+    },
+    {
+      "title": "CVE-2026-76949 - Remember-me sign-in guard reads a session key that is never written in ash_authentication, allowing session replacement",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-76949",
+      "summary": "CVE ID :CVE-2026-76949 Published : Sept. 17, 2026, 10:17 p.m. | 2 hours, 33 minutes ago Description :Authentication Bypass by Spoofing vulnerability in team-alembic ash_authentication allows an...",
+      "source": "CVE Feed",
+      "published": "2026-09-17T22:17:03+00:00"
+    },
+    {
+      "title": "CVE-2026-54767 - WeGIA: Hardcoded Secret Key Backdoor — Mass Data Destruction via deletar_socios.php",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54767",
+      "summary": "CVE ID :CVE-2026-54767 Published : Sept. 17, 2026, 10:17 p.m. | 2 hours, 33 minutes ago Description :WeGIA is a web manager for charitable institutions. Prior to 3.8.5...",
+      "source": "CVE Feed",
+      "published": "2026-09-17T22:17:03+00:00"
+    },
+    {
+      "title": "CVE-2026-54734 - Prebid Server Java: Vulnerability to request forgery allows for possible host environment data extraction",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54734",
+      "summary": "CVE ID :CVE-2026-54734 Published : Sept. 17, 2026, 10:17 p.m. | 2 hours, 33 minutes ago Description :Prebid Server Java is the Java version of Prebid Server. Prior to 3.43.0, certain bidder adapters...",
+      "source": "CVE Feed",
+      "published": "2026-09-17T22:17:03+00:00"
+    },
+    {
+      "title": "CVE-2026-54671 - WeGIA: Authorization Bypass via Empty Resource Array in InternoControle",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54671",
+      "summary": "CVE ID :CVE-2026-54671 Published : Sept. 17, 2026, 10:17 p.m. | 2 hours, 33 minutes ago Description :WeGIA is a web manager for charitable institutions. Prior to 3.8.5, WeGIA maps InternoControle to...",
+      "source": "CVE Feed",
+      "published": "2026-09-17T22:17:03+00:00"
+    },
+    {
+      "title": "CVE-2026-54670 - WeGIA: Unauthenticated Auth Bypass + Local File Inclusion",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54670",
+      "summary": "CVE ID :CVE-2026-54670 Published : Sept. 17, 2026, 10:17 p.m. | 2 hours, 33 minutes ago Description :WeGIA is a web manager for charitable institutions. Prior to 3.8.5, the contribution request...",
+      "source": "CVE Feed",
+      "published": "2026-09-17T22:17:02+00:00"
+    },
     {
       "title": "New RatHat Android malware uses AI to automate device control",
       "link": "https://www.bleepingcomputer.com/news/security/new-rathat-android-malware-uses-ai-to-automate-device-control/",
@@ -23,118 +198,6 @@
       "published": "2026-09-17T20:36:00+00:00"
     },
     {
-      "title": "CVE-2026-93393 - Heap overflow via oversized decrypted TLS record sequence in Windows Secure Channel stream",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-93393",
-      "summary": "CVE ID :CVE-2026-93393 Published : Sept. 17, 2026, 8:26 p.m. | 23 minutes ago Description :A heap-based buffer overflow exists in the TLS transport layer of the MongoDB C Driver when built with the...",
-      "source": "CVE Feed",
-      "published": "2026-09-17T20:26:38+00:00"
-    },
-    {
-      "title": "CVE-2026-93337 - NetworkManager-l2tp Privilege Escalation via pppd Plugin Injection",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-93337",
-      "summary": "CVE ID :CVE-2026-93337 Published : Sept. 17, 2026, 8:19 p.m. | 30 minutes ago Description :NetworkManager-l2tp contains an improper input validation vulnerability that allows local users with VPN...",
-      "source": "CVE Feed",
-      "published": "2026-09-17T20:19:00+00:00"
-    },
-    {
-      "title": "CVE-2026-92943 - Improper validation of certificate with host mismatch in AWS IoT Device SDK for Python",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-92943",
-      "summary": "CVE ID :CVE-2026-92943 Published : Sept. 17, 2026, 8:18 p.m. | 30 minutes ago Description :Improper validation of certificate with host mismatch in the MQTT client TLS connection layer in AWS IoT...",
-      "source": "CVE Feed",
-      "published": "2026-09-17T20:18:59+00:00"
-    },
-    {
-      "title": "CVE-2026-54752 - NetBox Device Type Library: Insecure Pickle Deserialization in Test Suite Allows Remote Code Execution via Malicious Pull Request",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54752",
-      "summary": "CVE ID :CVE-2026-54752 Published : Sept. 17, 2026, 8:16 p.m. | 32 minutes ago Description :NetBox Device Type Library is a collection of community-sourced device type definitions for import into...",
-      "source": "CVE Feed",
-      "published": "2026-09-17T20:16:52+00:00"
-    },
-    {
-      "title": "CVE-2026-54627 - SAIL: Heap out-of-bounds write in SAIL PSD decoder (Bitmap mode ignores depth)",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54627",
-      "summary": "CVE ID :CVE-2026-54627 Published : Sept. 17, 2026, 8:16 p.m. | 32 minutes ago Description :SAIL is a cross-platform library for loading and saving images with support for animation, metadata, and ICC...",
-      "source": "CVE Feed",
-      "published": "2026-09-17T20:16:52+00:00"
-    },
-    {
-      "title": "CVE-2026-54626 - SAIL: Heap out-of-bounds write in SAIL TGA decoder (indexed-RLE bpp/stride mismatch)",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54626",
-      "summary": "CVE ID :CVE-2026-54626 Published : Sept. 17, 2026, 8:16 p.m. | 32 minutes ago Description :SAIL is a cross-platform library for loading and saving images with support for animation, metadata, and ICC...",
-      "source": "CVE Feed",
-      "published": "2026-09-17T20:16:51+00:00"
-    },
-    {
-      "title": "CVE-2026-54618 - Obsidian Web MCP: Unauthenticated vault access: /oauth/authorize auto-approves without authenticating the user",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54618",
-      "summary": "CVE ID :CVE-2026-54618 Published : Sept. 17, 2026, 8:16 p.m. | 32 minutes ago Description :Obsidian Web MCP is a secure remote MCP server for Obsidian vaults. Prior to 0.2.0, /oauth/authorize issues...",
-      "source": "CVE Feed",
-      "published": "2026-09-17T20:16:51+00:00"
-    },
-    {
-      "title": "CVE-2026-55062 - uniget: Path Traversal in Hook Files - Directory Escape Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55062",
-      "summary": "CVE ID :CVE-2026-55062 Published : Sept. 17, 2026, 7:16 p.m. | 1 hour, 32 minutes ago Description :uniget is a universal installer and updater for (container) tools. Prior to 0.27.6, the hooks edit...",
-      "source": "CVE Feed",
-      "published": "2026-09-17T19:16:51+00:00"
-    },
-    {
-      "title": "CVE-2026-54617 - GravitLauncher: Unauthenticated path traversal in LaunchServer FileServerHandler",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54617",
-      "summary": "CVE ID :CVE-2026-54617 Published : Sept. 17, 2026, 7:16 p.m. | 1 hour, 32 minutes ago Description :GravitLauncher is an open-source Minecraft launcher based on sashok724's v3. Prior to 5.7.12, an...",
-      "source": "CVE Feed",
-      "published": "2026-09-17T19:16:51+00:00"
-    },
-    {
-      "title": "CVE-2026-54571 - ESPAsyncWebServer: Integer overflow in multipart boundary parser causes denial of service",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54571",
-      "summary": "CVE ID :CVE-2026-54571 Published : Sept. 17, 2026, 7:16 p.m. | 1 hour, 32 minutes ago Description :ESPAsyncWebServer is an asynchronous HTTP and WebSocket server library for ESP32, ESP8266, RP2040...",
-      "source": "CVE Feed",
-      "published": "2026-09-17T19:16:50+00:00"
-    },
-    {
-      "title": "CVE-2026-54504 - MCP Documentation Server: Web UI API binds to all interfaces without authentication by default",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54504",
-      "summary": "CVE ID :CVE-2026-54504 Published : Sept. 17, 2026, 7:16 p.m. | 1 hour, 32 minutes ago Description :MCP Documentation Server is a local-first document management and semantic search server for AI...",
-      "source": "CVE Feed",
-      "published": "2026-09-17T19:16:50+00:00"
-    },
-    {
-      "title": "CVE-2026-54451 - Elixir protobuf: Unbounded recursion depth in embedded-message decoding",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54451",
-      "summary": "CVE ID :CVE-2026-54451 Published : Sept. 17, 2026, 7:16 p.m. | 1 hour, 32 minutes ago Description :Elixir protobuf is a pure Elixir implementation of Google Protobuf. From 0.8.0 until 0.16.1...",
-      "source": "CVE Feed",
-      "published": "2026-09-17T19:16:50+00:00"
-    },
-    {
-      "title": "CVE-2026-54253 - TS3 Manager: Reflected XSS via /api/download port parameter steals operator session",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54253",
-      "summary": "CVE ID :CVE-2026-54253 Published : Sept. 17, 2026, 7:16 p.m. | 1 hour, 32 minutes ago Description :TS3 Manager is modern web interface for maintaining Teamspeak3 servers. Prior to 2.2.6, the...",
-      "source": "CVE Feed",
-      "published": "2026-09-17T19:16:50+00:00"
-    },
-    {
-      "title": "CVE-2026-54239 - FaustWP — Authentication Bypass via Initialization Vector Modification in Token Envelope",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54239",
-      "summary": "CVE ID :CVE-2026-54239 Published : Sept. 17, 2026, 7:16 p.m. | 1 hour, 32 minutes ago Description :Faust.js is a headless WordPress toolkit. Prior to 1.8.11, the FaustWP WordPress plugin...",
-      "source": "CVE Feed",
-      "published": "2026-09-17T19:16:50+00:00"
-    },
-    {
-      "title": "CVE-2026-47252 - Anyquery: AppleScript/JXA Code Injection via Unescaped URL in macOS plugins (Brave, Chrome, Edge, Reminders, Safari)",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-47252",
-      "summary": "CVE ID :CVE-2026-47252 Published : Sept. 17, 2026, 7:16 p.m. | 1 hour, 32 minutes ago Description :Anyquery is an SQL query engine built on top of SQLite. Prior to 0.4.5, authenticated users with...",
-      "source": "CVE Feed",
-      "published": "2026-09-17T19:16:48+00:00"
-    },
-    {
-      "title": "CVE-2026-19477 - Stack-based Buffer Overflow Vulnerability in Linux (uldaq)",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-19477",
-      "summary": "CVE ID :CVE-2026-19477 Published : Sept. 17, 2026, 7:16 p.m. | 1 hour, 33 minutes ago Description :There is stack-based buffer overflow vulnerability recently discovered in MCC Universal Library for...",
-      "source": "CVE Feed",
-      "published": "2026-09-17T19:16:41+00:00"
-    },
-    {
       "title": "China's FamousSparrow APT Spies on US Politics in Latin America",
       "link": "https://www.darkreading.com/cyberattacks-data-breaches/china-famoussparrow-spies-latin-america",
       "summary": "Amid the US and China's fight for eco-colonial influence in Latin America, a stealthy backdoor has taken flight.",
@@ -147,69 +210,6 @@
       "summary": "OpenAI has presented new examples of what they call \"AI model misalignment\" from the past six months, including unauthorized file uploads, following self-generated instructions, hiding mistakes, and...",
       "source": "BleepingComputer",
       "published": "2026-09-17T18:55:12+00:00"
-    },
-    {
-      "title": "CVE-2026-54446 - NetLicensing MCP Server: Unauthenticated Use of Server-Side NetLicensing API Key in HTTP Mode",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54446",
-      "summary": "CVE ID :CVE-2026-54446 Published : Sept. 17, 2026, 6:16 p.m. | 2 hours, 33 minutes ago Description :NetLicensing MCP Server is a natural-language interface that enables agentic applications to manage...",
-      "source": "CVE Feed",
-      "published": "2026-09-17T18:16:46+00:00"
-    },
-    {
-      "title": "CVE-2026-54053 - Many Notes: Path Traversal via ZIP import allows arbitrary file write and stored XSS in other users' vaults",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54053",
-      "summary": "CVE ID :CVE-2026-54053 Published : Sept. 17, 2026, 6:16 p.m. | 2 hours, 33 minutes ago Description :Many Notes is a Markdown note-taking web application designed for simplicity. Prior to 0.16.0, the...",
-      "source": "CVE Feed",
-      "published": "2026-09-17T18:16:45+00:00"
-    },
-    {
-      "title": "CVE-2026-52836 - OpenDDS: out-of-bounds `rd_ptr` dereference in `RtpsSampleHeader::init` — triggered by malformed RTPS submessage, remotely exploitable denial of service",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-52836",
-      "summary": "CVE ID :CVE-2026-52836 Published : Sept. 17, 2026, 6:16 p.m. | 2 hours, 33 minutes ago Description :OpenDDS is an open source C++ implementation of the Object Management Group (OMG) Data Distribution...",
-      "source": "CVE Feed",
-      "published": "2026-09-17T18:16:44+00:00"
-    },
-    {
-      "title": "CVE-2026-93292 - SigNoz 0.88.0 before 0.142.1 - SQL Injection in Trace Funnel Analytics Query Builders",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-93292",
-      "summary": "CVE ID :CVE-2026-93292 Published : Sept. 17, 2026, 5:18 p.m. | 3 hours, 31 minutes ago Description :SigNoz versions from 0.88.0 before 0.142.1 contain a SQL injection vulnerability in trace-funnel...",
-      "source": "CVE Feed",
-      "published": "2026-09-17T17:18:16+00:00"
-    },
-    {
-      "title": "CVE-2026-92980 - HortusFox-Web < 6.1 Remote Code Execution via Import/Export",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-92980",
-      "summary": "CVE ID :CVE-2026-92980 Published : Sept. 17, 2026, 5:17 p.m. | 3 hours, 31 minutes ago Description :HortusFox-Web prior to version 6.1 contains a remote code execution vulnerability that allows...",
-      "source": "CVE Feed",
-      "published": "2026-09-17T17:17:56+00:00"
-    },
-    {
-      "title": "CVE-2026-54583 - mport package bundle downloads allow unsafe destination filenames",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54583",
-      "summary": "CVE ID :CVE-2026-54583 Published : Sept. 17, 2026, 5:16 p.m. | 3 hours, 33 minutes ago Description :mport is the MidnightBSD Package Manager. Prior to 2.7.8, libmport/fetch.c did not consistently...",
-      "source": "CVE Feed",
-      "published": "2026-09-17T17:16:43+00:00"
-    },
-    {
-      "title": "CVE-2026-54581 - mport bootstrap index fetch can continue after hash verification failure",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54581",
-      "summary": "CVE ID :CVE-2026-54581 Published : Sept. 17, 2026, 5:16 p.m. | 3 hours, 33 minutes ago Description :mport is the MidnightBSD Package Manager. Prior to 2.7.8, the mport_fetch_bootstrap_index()...",
-      "source": "CVE Feed",
-      "published": "2026-09-17T17:16:43+00:00"
-    },
-    {
-      "title": "CVE-2026-54580 - mport index decompression can leave partial or corrupt index data after zstd failures",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54580",
-      "summary": "CVE ID :CVE-2026-54580 Published : Sept. 17, 2026, 5:16 p.m. | 3 hours, 33 minutes ago Description :mport is the MidnightBSD Package Manager. Prior to 2.7.8, libmport/util.c did not make every...",
-      "source": "CVE Feed",
-      "published": "2026-09-17T17:16:43+00:00"
-    },
-    {
-      "title": "CVE-2026-28326 - SolarWinds Access Rights Manager Unauthenticated Remote Code Execution Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-28326",
-      "summary": "CVE ID :CVE-2026-28326 Published : Sept. 17, 2026, 5:16 p.m. | 3 hours, 33 minutes ago Description :SolarWinds Access Rights Manager was reported to be affected by an unauthenticated remote code...",
-      "source": "CVE Feed",
-      "published": "2026-09-17T17:16:39+00:00"
     },
     {
       "title": "Brevo supply-chain attack injected ClickFix scripts on customer sites",
@@ -298,8 +298,8 @@
     {
       "title": "Critical Unbound DNSSEC Validator Flaw Could Allow RCE via a Malicious DNS Zone",
       "link": "https://thehackernews.com/2026/09/critical-unbound-dnssec-validator-flaw.html",
-      "summary": "Critical Unbound DNSSEC Validator Flaw Could Allow RCE via a Malicious DNS Zone Every release of the Unbound DNS resolver before 1.26.1 has a critical heap overflow in its DNSSEC validator...",
-      "source": "CVE Newsroom",
+      "summary": "Every release of the Unbound DNS resolver before 1.26.1 has a critical heap overflow in its DNSSEC validator, maintainer NLnet Labs said in an advisory on Wednesday. An attacker who controls a...",
+      "source": "The Hacker News",
       "published": "2026-09-17T12:30:00+00:00"
     },
     {
@@ -375,8 +375,8 @@
     {
       "title": "BIND 9 Update Fixes 14 Flaws, Including an Unauthenticated Crash Over DNS-over-HTTPS",
       "link": "https://thehackernews.com/2026/09/bind-9-update-fixes-14-flaws-including.html",
-      "summary": "BIND 9 Update Fixes 14 Flaws, Including an Unauthenticated Crash Over DNS-over-HTTPS The Internet Systems Consortium (ISC) has released BIND 9.20.29 and 9.21.26 to fix fourteen security flaws it...",
-      "source": "CVE Newsroom",
+      "summary": "The Internet Systems Consortium (ISC) has released BIND 9.20.29 and 9.21.26 to fix fourteen security flaws it disclosed on 16 September in BIND 9, its open-source DNS server software. One of them...",
+      "source": "The Hacker News",
       "published": "2026-09-17T08:00:29+00:00"
     },
     {
@@ -417,8 +417,8 @@
     {
       "title": "Cisco Warns of New Zero-Day ISE Auth Bypass (CVSS 10.0) Exploited in Active Attacks",
       "link": "https://thehackernews.com/2026/09/cisco-warns-of-new-zero-day-ise-auth.html",
-      "summary": "Cisco Warns of New Zero-Day ISE Auth Bypass (CVSS 10.0) Exploited in Active Attacks Cisco has warned of a fresh maximum-severity security flaw impacting Identity Services Engine (ISE) that has come...",
-      "source": "CVE Newsroom",
+      "summary": "Cisco has warned of a fresh maximum-severity security flaw impacting Identity Services Engine (ISE) that has come under active exploitation. The vulnerability, tracked as CVE-2026-76460 (CVSS score...",
+      "source": "The Hacker News",
       "published": "2026-09-17T06:39:40+00:00"
     },
     {
@@ -501,15 +501,15 @@
     {
       "title": "Attackers Exploit Issabel Framework Flaw Enabling Unauthenticated OS Command Execution",
       "link": "https://thehackernews.com/2026/09/attackers-exploit-issabel-framework.html",
-      "summary": "Attackers Exploit Issabel Framework Flaw Enabling Unauthenticated OS Command Execution A critical security flaw in Issabel Framework, a web-based framework for the open-source unified communications...",
-      "source": "CVE Newsroom",
+      "summary": "A critical security flaw in Issabel Framework, a web-based framework for the open-source unified communications PBX software, has come under active exploitation. The vulnerability in question is...",
+      "source": "The Hacker News",
       "published": "2026-09-16T15:50:59+00:00"
     },
     {
       "title": "Three Threat Groups Target Russian Enterprises With Backdoors, Ransomware, and Wipers",
       "link": "https://thehackernews.com/2026/09/three-threat-groups-target-russian.html",
-      "summary": "Three Threat Groups Target Russian Enterprises With Backdoors, Ransomware, and Wipers Enterprises in Russia have emerged as the target of three threat activity clusters tracked as NightEagle, Hacking...",
-      "source": "CVE Newsroom",
+      "summary": "Enterprises in Russia have emerged as the target of three threat activity clusters tracked as NightEagle, Hacking Cat, and Toy Ghouls, according to multiple reports from Kaspersky. The cybersecurity...",
+      "source": "The Hacker News",
       "published": "2026-09-16T15:27:49+00:00"
     },
     {
@@ -522,8 +522,8 @@
     {
       "title": "One Extension Could Hijack AI Assistants Across Chrome, Comet, Edge, Opera Neon and Claude",
       "link": "https://thehackernews.com/2026/09/one-extension-could-hijack-ai.html",
-      "summary": "One Extension Could Hijack AI Assistants Across Chrome, Comet, Edge, Opera Neon and Claude Security researchers at Forever Security have shown that one ordinary browser extension could take control...",
-      "source": "CVE Newsroom",
+      "summary": "Security researchers at Forever Security have shown that one ordinary browser extension could take control of the AI assistants built into five Chromium-based products: Gemini Live in Chrome...",
+      "source": "The Hacker News",
       "published": "2026-09-16T14:36:44+00:00"
     },
     {
@@ -543,8 +543,8 @@
     {
       "title": "Parallels Desktop Flaw Lets Non-Admin Mac Users Gain Root, but Intel Macs Can't Install Fix",
       "link": "https://thehackernews.com/2026/09/parallels-desktop-flaw-lets-non-admin.html",
-      "summary": "Parallels Desktop Flaw Lets Non-Admin Mac Users Gain Root, but Intel Macs Can't Install Fix Parallels Desktop for Mac has a flaw that lets an ordinary local account run code as root, the highest...",
-      "source": "CVE Newsroom",
+      "summary": "Parallels Desktop for Mac has a flaw that lets an ordinary local account run code as root, the highest level of access on a Mac, software company JFrog said this week. The attack needs code already...",
+      "source": "The Hacker News",
       "published": "2026-09-16T13:14:05+00:00"
     },
     {
@@ -571,8 +571,8 @@
     {
       "title": "Google Patches Pixel Modem Flaw Amid Signs of Limited Targeted Exploitation",
       "link": "https://thehackernews.com/2026/09/google-patches-pixel-modem-flaw-amid.html",
-      "summary": "Google Patches Pixel Modem Flaw Amid Signs of Limited Targeted Exploitation Google has disclosed that a high-severity security flaw in its Pixel Cellular Modem has come under exploitation in the...",
-      "source": "CVE Newsroom",
+      "summary": "Google has disclosed that a high-severity security flaw in its Pixel Cellular Modem has come under exploitation in the wild. The vulnerability, tracked as CVE-2026-58704 (CVSS score: 8.0), is a...",
+      "source": "The Hacker News",
       "published": "2026-09-16T11:15:58+00:00"
     },
     {
@@ -585,8 +585,8 @@
     {
       "title": "Acronis cPanel Backup Plugin Vulnerability Exploited in Targeted Attacks",
       "link": "https://thehackernews.com/2026/09/acronis-cpanel-backup-plugin.html",
-      "summary": "Acronis cPanel Backup Plugin Vulnerability Exploited in Targeted Attacks Acronis has warned that a high-severity security flaw in its Backup plugin for cPanel and Web Host Manager (WHM) deployments...",
-      "source": "CVE Newsroom",
+      "summary": "Acronis has warned that a high-severity security flaw in its Backup plugin for cPanel and Web Host Manager (WHM) deployments has been exploited in the wild. The vulnerability, tracked as...",
+      "source": "The Hacker News",
       "published": "2026-09-16T11:08:54+00:00"
     },
     {
@@ -599,15 +599,15 @@
     {
       "title": "Attackers Exploit WooCommerce Wholesale Lead Capture Flaw to Plant PHP Web Shells",
       "link": "https://thehackernews.com/2026/09/attackers-exploit-woocommerce-wholesale.html",
-      "summary": "Attackers Exploit WooCommerce Wholesale Lead Capture Flaw to Plant PHP Web Shells Threat actors are exploiting a critical security flaw in WooCommerce Wholesale Lead Capture, a premium WordPress...",
-      "source": "CVE Newsroom",
+      "summary": "Threat actors are exploiting a critical security flaw in WooCommerce Wholesale Lead Capture, a premium WordPress plugin that has more than 6,000 active installs. \"This vulnerability can be leveraged...",
+      "source": "The Hacker News",
       "published": "2026-09-16T05:48:28+00:00"
     },
     {
       "title": "Active Exploitation Attempts Target WSO2 API Manager JWT Bypass With Forged Admin Tokens",
       "link": "https://thehackernews.com/2026/09/active-exploitation-attempts-target.html",
-      "summary": "Active Exploitation Attempts Target WSO2 API Manager JWT Bypass With Forged Admin Tokens A critical security flaw in WSO2 API Manager has come under active exploitation in the wild, according to...",
-      "source": "CVE Newsroom",
+      "summary": "A critical security flaw in WSO2 API Manager has come under active exploitation in the wild, according to findings from watchTowr. The vulnerability, tracked as CVE-2026-5430 (CVSS score: 9.8/10.0)...",
+      "source": "The Hacker News",
       "published": "2026-09-16T05:18:06+00:00"
     },
     {
@@ -669,8 +669,8 @@
     {
       "title": "Human Attacker Exploits Marimo RCE, Reaches SSH Bastion in Eight Seconds",
       "link": "https://thehackernews.com/2026/09/human-attacker-exploits-marimo-rce.html",
-      "summary": "Human Attacker Exploits Marimo RCE, Reaches SSH Bastion in Eight Seconds With artificial intelligence (AI) shrinking the window between vulnerability discovery and exploitation and lowering the...",
-      "source": "CVE Newsroom",
+      "summary": "With artificial intelligence (AI) shrinking the window between vulnerability discovery and exploitation and lowering the barrier to entry for bad actors, new findings from Sysdig show that skilled...",
+      "source": "The Hacker News",
       "published": "2026-09-15T11:52:28+00:00"
     },
     {
@@ -683,8 +683,8 @@
     {
       "title": "Mass-Scanning Campaign Exploits Vite Flaw to Extract Cloud Credentials From Exposed Dev Servers",
       "link": "https://thehackernews.com/2026/09/mass-scanning-campaign-exploits-vite.html",
-      "summary": "Mass-Scanning Campaign Exploits Vite Flaw to Extract Cloud Credentials From Exposed Dev Servers Cybersecurity researchers have disclosed details of a mass-scanning campaign that has targeted Vite...",
-      "source": "CVE Newsroom",
+      "summary": "Cybersecurity researchers have disclosed details of a mass-scanning campaign that has targeted Vite deployments siphon sensitive data. The first is an automated effort aimed at internet-exposed Vite...",
+      "source": "The Hacker News",
       "published": "2026-09-15T11:12:32+00:00"
     },
     {
