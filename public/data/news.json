@@ -1,180 +1,208 @@
 {
-  "last_updated": "2026-09-18T17:33:09.353189+00:00",
+  "last_updated": "2026-09-18T20:10:28.679537+00:00",
   "articles": [
     {
-      "title": "CVE-2026-81321 - CareCam CM2507 Cleartext Storage of Sensitive Information",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-81321",
-      "summary": "CVE ID :CVE-2026-81321 Published : Sept. 18, 2026, 4:22 p.m. | 37 minutes ago Description :CM2507 IP cameras store configured wireless network credentials in cleartext within the device filesystem...",
+      "title": "Cisco Zero-Day Highlights API Endpoint Authentication Issues",
+      "link": "https://www.darkreading.com/vulnerabilities-threats/cisco-zero-day-api-endpoint-authentication-issues",
+      "summary": "The authentication bypass flaw CVE-2026-76460 impacts Cisco's Identity Services Engine (ISE) and received a maximum 10 out of 10 CVSS score.",
+      "source": "Dark Reading",
+      "published": "2026-09-18T19:26:47+00:00"
+    },
+    {
+      "title": "EY Survey Finds Autonomous AI Implementation Outpaces Oversight",
+      "link": "https://www.darkreading.com/cyberattacks-data-breaches/ey-survey-autonomous-ai-implementation-outpaces-oversight",
+      "summary": "A new survey of senior AI execs shows that while organizations are rapidly deploying AI and autonomous systems, their process and controls are not keeping pace.",
+      "source": "Dark Reading",
+      "published": "2026-09-18T19:23:48+00:00"
+    },
+    {
+      "title": "CVE-2026-93762 - Data deletion and attribute disclosure via field-name method injection in in-memory queries",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-93762",
+      "summary": "CVE ID :CVE-2026-93762 Published : Sept. 18, 2026, 6:18 p.m. | 38 minutes ago Description :Mongoid contains an unsafe reflection weakness in the query path used for embedded documents. An application...",
       "source": "CVE Feed",
-      "published": "2026-09-18T16:22:32+00:00"
+      "published": "2026-09-18T18:18:35+00:00"
+    },
+    {
+      "title": "CVE-2026-93761 - Denial of service via unbounded regex matching in Mongoid's in-memory query matcher",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-93761",
+      "summary": "CVE ID :CVE-2026-93761 Published : Sept. 18, 2026, 6:18 p.m. | 38 minutes ago Description :An inefficient regular expression complexity issue in the in-memory query evaluation component of the...",
+      "source": "CVE Feed",
+      "published": "2026-09-18T18:18:34+00:00"
+    },
+    {
+      "title": "CVE-2026-93760 - NoSQL injection of JavaScript-executing query operators via unsafe-by-default operator guard",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-93760",
+      "summary": "CVE ID :CVE-2026-93760 Published : Sept. 18, 2026, 6:18 p.m. | 38 minutes ago Description :Mongoid does not restrict which query operators may come from caller-supplied filter data when an...",
+      "source": "CVE Feed",
+      "published": "2026-09-18T18:18:34+00:00"
+    },
+    {
+      "title": "CVE-2026-93759 - Server-side JavaScript injection via string query criteria bypassing the strict operator allowlist",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-93759",
+      "summary": "CVE ID :CVE-2026-93759 Published : Sept. 18, 2026, 6:18 p.m. | 38 minutes ago Description :Mongoid does not neutralize a string-typed query criterion supplied to its query builder, and instead passes...",
+      "source": "CVE Feed",
+      "published": "2026-09-18T18:18:34+00:00"
+    },
+    {
+      "title": "CVE-2026-93753 - deepmerge through 4.3.1 Prototype Poisoning via mergeObject",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-93753",
+      "summary": "CVE ID :CVE-2026-93753 Published : Sept. 18, 2026, 6:18 p.m. | 38 minutes ago Description :deepmerge through 4.3.1 contains a prototype poisoning vulnerability in the mergeObject() function that...",
+      "source": "CVE Feed",
+      "published": "2026-09-18T18:18:34+00:00"
+    },
+    {
+      "title": "CVE-2026-93752 - CSSOM through 0.5.0 Denial of Service via length Property",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-93752",
+      "summary": "CVE ID :CVE-2026-93752 Published : Sept. 18, 2026, 6:18 p.m. | 38 minutes ago Description :CSSOM through 0.5.0 contains a denial of service vulnerability in CSSStyleDeclaration.setProperty() that...",
+      "source": "CVE Feed",
+      "published": "2026-09-18T18:18:34+00:00"
+    },
+    {
+      "title": "CVE-2026-93750 - http-cache-semantics through 4.2.0 Cross-Client Cache Disclosure via Vary Wildcard",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-93750",
+      "summary": "CVE ID :CVE-2026-93750 Published : Sept. 18, 2026, 6:18 p.m. | 38 minutes ago Description :http-cache-semantics through 4.2.0 contains a cache validation vulnerability in the _varyMatches() function...",
+      "source": "CVE Feed",
+      "published": "2026-09-18T18:18:33+00:00"
+    },
+    {
+      "title": "CVE-2026-93749 - source-map-js through 1.2.1 Event Loop Denial of Service",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-93749",
+      "summary": "CVE ID :CVE-2026-93749 Published : Sept. 18, 2026, 6:18 p.m. | 38 minutes ago Description :source-map-js through 1.2.1 fails to validate the per-section offset line value in indexed source maps...",
+      "source": "CVE Feed",
+      "published": "2026-09-18T18:18:33+00:00"
+    },
+    {
+      "title": "CVE-2026-93748 - http-cache-semantics through 4.2.0 Cross-User Cache Disclosure via max-stale",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-93748",
+      "summary": "CVE ID :CVE-2026-93748 Published : Sept. 18, 2026, 6:18 p.m. | 38 minutes ago Description :http-cache-semantics through 4.2.0 fails to properly validate security-zeroed cache entries when processing...",
+      "source": "CVE Feed",
+      "published": "2026-09-18T18:18:33+00:00"
+    },
+    {
+      "title": "CVE-2026-92702 - Cocos AI: Intra-handshake attested TLS implementation can accept Evidence with nil, empty, or omitted reportData in the AMD SEV-SNP path",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-92702",
+      "summary": "CVE ID :CVE-2026-92702 Published : Sept. 18, 2026, 6:18 p.m. | 38 minutes ago Description :Cocos AI is a confidential computing system for running AI workloads inside trusted execution environments...",
+      "source": "CVE Feed",
+      "published": "2026-09-18T18:18:16+00:00"
+    },
+    {
+      "title": "CVE-2026-92701 - Cocos AI: Intra-handshake attested TLS implementation is vulnerable to session-misbinding attacks for Intel TDX verifier path",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-92701",
+      "summary": "CVE ID :CVE-2026-92701 Published : Sept. 18, 2026, 6:18 p.m. | 38 minutes ago Description :trusted execution environments. In versions up to and including 0.8.2, the intra-handshake attested TLS...",
+      "source": "CVE Feed",
+      "published": "2026-09-18T18:18:16+00:00"
+    },
+    {
+      "title": "CVE-2026-91127 - File Viewer: DOM XSS via unsafe hyperlink schemes in the legacy DOC renderer",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-91127",
+      "summary": "CVE ID :CVE-2026-91127 Published : Sept. 18, 2026, 6:18 p.m. | 38 minutes ago Description :File Viewer is a browser-native viewer for Office, PDF, CAD, archive, and other files in private and...",
+      "source": "CVE Feed",
+      "published": "2026-09-18T18:18:02+00:00"
+    },
+    {
+      "title": "CVE-2026-81180 - SysReptor: Authenticated RCE by insecure image processing",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-81180",
+      "summary": "CVE ID :CVE-2026-81180 Published : Sept. 18, 2026, 6:17 p.m. | 39 minutes ago Description :SysReptor is a fully customizable pentest reporting platform. Prior to 2026.61, authenticated users of...",
+      "source": "CVE Feed",
+      "published": "2026-09-18T18:17:15+00:00"
+    },
+    {
+      "title": "CVE-2026-81179 - SysReptor: Host header injection might allow account takeover",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-81179",
+      "summary": "CVE ID :CVE-2026-81179 Published : Sept. 18, 2026, 6:17 p.m. | 39 minutes ago Description :SysReptor is a fully customizable pentest reporting platform. Prior to 2026.58, installations that enable...",
+      "source": "CVE Feed",
+      "published": "2026-09-18T18:17:15+00:00"
+    },
+    {
+      "title": "CVE-2026-63199 - Perses: Missing authorization in datasource proxy allows cross-scope secret disclosure",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-63199",
+      "summary": "CVE ID :CVE-2026-63199 Published : Sept. 18, 2026, 6:17 p.m. | 39 minutes ago Description :Perses is an open-source dashboard and visualization project for observability data. From 0.43.0 until...",
+      "source": "CVE Feed",
+      "published": "2026-09-18T18:17:09+00:00"
+    },
+    {
+      "title": "CVE-2026-62278 - LubeLogger: Path Traversal in HandleTranslationFileUpload Allows Authenticated Users to Write Files Outside Data Directory",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-62278",
+      "summary": "CVE ID :CVE-2026-62278 Published : Sept. 18, 2026, 6:17 p.m. | 39 minutes ago Description :LubeLogger is a self-hosted, open-source, web-based vehicle maintenance and fuel mileage tracker. Prior to...",
+      "source": "CVE Feed",
+      "published": "2026-09-18T18:17:09+00:00"
+    },
+    {
+      "title": "CVE-2026-61551 - Icinga 2: Stack overflow via deeply nested JSON objects",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-61551",
+      "summary": "CVE ID :CVE-2026-61551 Published : Sept. 18, 2026, 6:17 p.m. | 39 minutes ago Description :Icinga 2 is an open source monitoring system. Prior to 2.14.9, 2.15.4, and 2.16.2, parsing deeply nested...",
+      "source": "CVE Feed",
+      "published": "2026-09-18T18:17:08+00:00"
+    },
+    {
+      "title": "CVE-2026-61550 - Icinga 2: Improper access control for JSON-RPC update certificate messages",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-61550",
+      "summary": "CVE ID :CVE-2026-61550 Published : Sept. 18, 2026, 6:17 p.m. | 39 minutes ago Description :Icinga 2 is an open source monitoring system. From 2.8 until 2.14.9, 2.15.4, and 2.16.2, certificate update...",
+      "source": "CVE Feed",
+      "published": "2026-09-18T18:17:08+00:00"
+    },
+    {
+      "title": "CVE-2026-59163 - Mnemosyne has JWT signature verification bypass sync server that allows authentication bypass",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-59163",
+      "summary": "CVE ID :CVE-2026-59163 Published : Sept. 18, 2026, 6:17 p.m. | 39 minutes ago Description :Mnemosyne is a memory layer for artificial intelligence agents. Prior to v3.10.1, the auth check in...",
+      "source": "CVE Feed",
+      "published": "2026-09-18T18:17:07+00:00"
+    },
+    {
+      "title": "CVE-2026-33625 - LMDeploy vulnerable to arbitrary code execution via eval() of untrusted quant_dtype in model config loading",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-33625",
+      "summary": "CVE ID :CVE-2026-33625 Published : Sept. 18, 2026, 6:17 p.m. | 39 minutes ago Description :LMDeploy is a toolkit for compressing, deploying, and serving large language models. Versions 012.1 through...",
+      "source": "CVE Feed",
+      "published": "2026-09-18T18:17:06+00:00"
+    },
+    {
+      "title": "CVE-2025-66455 - LMDeploy has Remote Code Execution by Pickle Deserialization via handle_zmq_recv in lmdeploy/lmdeploy/pytorch/disagg/conn/engine_conn.py",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2025-66455",
+      "summary": "CVE ID :CVE-2025-66455 Published : Sept. 18, 2026, 6:17 p.m. | 39 minutes ago Description :LMDeploy is a toolkit for compressing, deploying, and serving large language models. Starting in version...",
+      "source": "CVE Feed",
+      "published": "2026-09-18T18:17:04+00:00"
+    },
+    {
+      "title": "MFA Won't Save You From OAuth Consent Abuse",
+      "link": "https://www.darkreading.com/vulnerabilities-threats/mfa-oauth-consent-abuse",
+      "summary": "MFA is essential, but it cannot replace OAuth governance, least-privilege scopes, consent monitoring, and rapid revocation.",
+      "source": "Dark Reading",
+      "published": "2026-09-18T18:15:20+00:00"
+    },
+    {
+      "title": "CVE-2026-93765 - Document deletion and process crash via unvalidated method-name dispatch in atomic pop operation",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-93765",
+      "summary": "CVE ID :CVE-2026-93765 Published : Sept. 18, 2026, 5:17 p.m. | 1 hour, 39 minutes ago Description :Mongoid contains an unsafe reflection weakness in the document persistence layer of its...",
+      "source": "CVE Feed",
+      "published": "2026-09-18T17:17:07+00:00"
+    },
+    {
+      "title": "CVE-2026-93758 - Cross-principal document update, theft, and deletion via unvalidated id in nested attributes",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-93758",
+      "summary": "CVE ID :CVE-2026-93758 Published : Sept. 18, 2026, 5:17 p.m. | 1 hour, 39 minutes ago Description :An insecure direct object reference in the nested attributes handling of the Mongoid object-document...",
+      "source": "CVE Feed",
+      "published": "2026-09-18T17:17:07+00:00"
     },
     {
       "title": "CVE-2026-85497 - CareCam CM2507 Use of Password Hash With Insufficient Computational Effort",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-85497",
-      "summary": "CVE ID :CVE-2026-85497 Published : Sept. 18, 2026, 4:19 p.m. | 41 minutes ago Description :CareCam CM2507 IP cameras store the device's root-account password using a fixed legacy password hash that...",
+      "summary": "CVE ID :CVE-2026-85497 Published : Sept. 18, 2026, 5:17 p.m. | 1 hour, 39 minutes ago Description :CareCam CM2507 IP cameras store the device's root-account password using a fixed legacy password...",
       "source": "CVE Feed",
-      "published": "2026-09-18T16:19:23+00:00"
+      "published": "2026-09-18T17:17:04+00:00"
     },
     {
-      "title": "CVE-2026-93690 - uri-js through 4.4.1 Denial of Service via removeDotSegments",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-93690",
-      "summary": "CVE ID :CVE-2026-93690 Published : Sept. 18, 2026, 4:17 p.m. | 43 minutes ago Description :uri-js through 4.4.1 contains a denial of service vulnerability in the removeDotSegments function that loops...",
+      "title": "CVE-2026-81321 - CareCam CM2507 Cleartext Storage of Sensitive Information",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-81321",
+      "summary": "CVE ID :CVE-2026-81321 Published : Sept. 18, 2026, 5:17 p.m. | 1 hour, 39 minutes ago Description :CM2507 IP cameras store configured wireless network credentials in cleartext within the device...",
       "source": "CVE Feed",
-      "published": "2026-09-18T16:17:16+00:00"
+      "published": "2026-09-18T17:17:01+00:00"
     },
     {
-      "title": "CVE-2026-93688 - SGLang through 0.5.19 Unbounded Memory Allocation via bootstrap_room",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-93688",
-      "summary": "CVE ID :CVE-2026-93688 Published : Sept. 18, 2026, 4:17 p.m. | 43 minutes ago Description :SGLang through 0.5.19 in prefill/decode disaggregation mode with Mooncake KV transfer backend fails to...",
-      "source": "CVE Feed",
-      "published": "2026-09-18T16:17:15+00:00"
-    },
-    {
-      "title": "CVE-2026-93687 - braces through 3.0.3 Stack Overflow via Deeply Nested Patterns",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-93687",
-      "summary": "CVE ID :CVE-2026-93687 Published : Sept. 18, 2026, 4:17 p.m. | 43 minutes ago Description :braces through 3.0.3 contains a stack overflow vulnerability in the recursive AST walkers that lack depth...",
-      "source": "CVE Feed",
-      "published": "2026-09-18T16:17:15+00:00"
-    },
-    {
-      "title": "CVE-2026-88259 - CareCam CM2507 Missing Authentication for Critical Function",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-88259",
-      "summary": "CVE ID :CVE-2026-88259 Published : Sept. 18, 2026, 4:17 p.m. | 43 minutes ago Description :CareCam CM2507 IP cameras do not require authentication for access to its network video streaming service...",
-      "source": "CVE Feed",
-      "published": "2026-09-18T16:17:14+00:00"
-    },
-    {
-      "title": "CVE-2026-86689 - Cleartext Transmission of Sensitive Information in Bransys ELD",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-86689",
-      "summary": "CVE ID :CVE-2026-86689 Published : Sept. 18, 2026, 4:17 p.m. | 43 minutes ago Description :Bransys ELD is shipped with hardcoded MQTT credentials, which will grant read access to real-time data for...",
-      "source": "CVE Feed",
-      "published": "2026-09-18T16:17:14+00:00"
-    },
-    {
-      "title": "CVE-2026-86520 - Use of Hard-coded Credentials in Bransys ELD",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-86520",
-      "summary": "CVE ID :CVE-2026-86520 Published : Sept. 18, 2026, 4:17 p.m. | 43 minutes ago Description :Bransys ELD is shipped with hardcoded MQTT credentials, which will grant read access to real-time data for...",
-      "source": "CVE Feed",
-      "published": "2026-09-18T16:17:13+00:00"
-    },
-    {
-      "title": "CVE-2026-84398 - CareCam CM2507 Empty Password in Configuration File",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-84398",
-      "summary": "CVE ID :CVE-2026-84398 Published : Sept. 18, 2026, 4:17 p.m. | 43 minutes ago Description :CM2507 IP cameras accept an empty password for a privileged account exposed through its ONVIF management...",
-      "source": "CVE Feed",
-      "published": "2026-09-18T16:17:12+00:00"
-    },
-    {
-      "title": "CVE-2026-84383 - libheif: Heap buffer overflow in `scale_nearest_neighbor()` via duplicate Alpha planes from nested `iden`/`auxl` items",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-84383",
-      "summary": "CVE ID :CVE-2026-84383 Published : Sept. 18, 2026, 4:17 p.m. | 43 minutes ago Description :libheif is a HEIF and AVIF file format decoder and encoder. From 1.22.0 until 1.23.2, a crafted HEIF, HEIC...",
-      "source": "CVE Feed",
-      "published": "2026-09-18T16:17:11+00:00"
-    },
-    {
-      "title": "CVE-2026-81943 - PLANET IGS-5225-8P2T4S V1/V2 Debug Mode RCE",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-81943",
-      "summary": "CVE ID :CVE-2026-81943 Published : Sept. 18, 2026, 4:17 p.m. | 43 minutes ago Description :PLANET IGS-5225-8P2T4S industrial managed switch V1 and V2 firmware versions before 1.2412b260707 and...",
-      "source": "CVE Feed",
-      "published": "2026-09-18T16:17:10+00:00"
-    },
-    {
-      "title": "CVE-2026-81942 - PLANET IGS-5225-8P2T4S V1/V2 OS Command Injection via Web Server",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-81942",
-      "summary": "CVE ID :CVE-2026-81942 Published : Sept. 18, 2026, 4:17 p.m. | 43 minutes ago Description :PLANET IGS-5225-8P2T4S industrial managed switch V1 and V2 firmware versions before 1.2412b260707 and...",
-      "source": "CVE Feed",
-      "published": "2026-09-18T16:17:10+00:00"
-    },
-    {
-      "title": "CVE-2026-68914 - Mojolicious pure-Perl Mojo::JSON decoder allows memory exhaustion via deeply nested data",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-68914",
-      "summary": "CVE ID :CVE-2026-68914 Published : Sept. 18, 2026, 4:17 p.m. | 43 minutes ago Description :Mojolicious is a real-time web framework for Perl. Prior to 9.47, the pure-Perl implementation of Mojo::JSON...",
-      "source": "CVE Feed",
-      "published": "2026-09-18T16:17:08+00:00"
-    },
-    {
-      "title": "CVE-2026-63638 - OpenImageIO: Cineon invalid bit depth heap out-of-bounds write",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-63638",
-      "summary": "CVE ID :CVE-2026-63638 Published : Sept. 18, 2026, 4:17 p.m. | 43 minutes ago Description :OpenImageIO is a toolset for reading, writing, and manipulating image files of any image file format...",
-      "source": "CVE Feed",
-      "published": "2026-09-18T16:17:08+00:00"
-    },
-    {
-      "title": "CVE-2026-61682 - kcp front-proxy does not strip inbound X-Remote-* identity headers, allowing any authenticated client to inject groups/warrants and impersonate system:masters in any workspace",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-61682",
-      "summary": "CVE ID :CVE-2026-61682 Published : Sept. 18, 2026, 4:17 p.m. | 43 minutes ago Description :kcp is a Kubernetes-like control plane for form-factors and use-cases beyond Kubernetes and container...",
-      "source": "CVE Feed",
-      "published": "2026-09-18T16:17:07+00:00"
-    },
-    {
-      "title": "CVE-2026-54148 - http4k: `DigestAuthProvider.verify` did not bind to request URI",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54148",
-      "summary": "CVE ID :CVE-2026-54148 Published : Sept. 18, 2026, 4:17 p.m. | 43 minutes ago Description :http4k is a functional toolkit for Kotlin HTTP applications. Prior to 4.51.0.0, 5.42.0.0, and 6.50.0.0...",
-      "source": "CVE Feed",
-      "published": "2026-09-18T16:17:06+00:00"
-    },
-    {
-      "title": "CVE-2026-11381 - IBM MQ for HPE NonStop is vulnerable to a denial of service issue",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-11381",
-      "summary": "CVE ID :CVE-2026-11381 Published : Sept. 18, 2026, 4:17 p.m. | 43 minutes ago Description :IBM MQ could allow an authenticated attacker to cause a denial of service or potentially execute arbitrary...",
-      "source": "CVE Feed",
-      "published": "2026-09-18T16:17:05+00:00"
-    },
-    {
-      "title": "CVE-2026-11378 - IBM MQ queue manager is vulnerable to remote code execution",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-11378",
-      "summary": "CVE ID :CVE-2026-11378 Published : Sept. 18, 2026, 4:17 p.m. | 43 minutes ago Description :IBM MQ could allow an authenticated attacker to cause a denial of service or potentially execute arbitrary...",
-      "source": "CVE Feed",
-      "published": "2026-09-18T16:17:05+00:00"
-    },
-    {
-      "title": "CVE-2026-11375 - IBM MQ queue manager is vulnerable to remote code execution",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-11375",
-      "summary": "CVE ID :CVE-2026-11375 Published : Sept. 18, 2026, 4:17 p.m. | 43 minutes ago Description :IBM MQ could allow an authenticated attacker to cause a denial of service or potentially execute arbitrary...",
-      "source": "CVE Feed",
-      "published": "2026-09-18T16:17:05+00:00"
-    },
-    {
-      "title": "CVE-2026-10858 - IBM MQ for HPE NonStop is vulnerable to a denial of service attack",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-10858",
-      "summary": "CVE ID :CVE-2026-10858 Published : Sept. 18, 2026, 4:17 p.m. | 43 minutes ago Description :IBM MQ for HPE NonStop 8.1.0 through 8.1.0.40 could allow an authenticated attacker to cause a denial of...",
-      "source": "CVE Feed",
-      "published": "2026-09-18T16:17:05+00:00"
-    },
-    {
-      "title": "CVE-2026-10747 - IBM MQ Appliance is affected by a heap buffer overflow vulnerability in protocol message processing",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-10747",
-      "summary": "CVE ID :CVE-2026-10747 Published : Sept. 18, 2026, 4:17 p.m. | 43 minutes ago Description :IBM MQ Appliance could allow a remote attacker to cause a denial of service or potentially execute arbitrary...",
-      "source": "CVE Feed",
-      "published": "2026-09-18T16:17:04+00:00"
-    },
-    {
-      "title": "CVE-2026-10575 - IBM MQ queue manager is vulnerable to remote code execution",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-10575",
-      "summary": "CVE ID :CVE-2026-10575 Published : Sept. 18, 2026, 4:17 p.m. | 43 minutes ago Description :IBM MQ could allow an authenticated attacker to cause a denial of service or potentially escalate privileges...",
-      "source": "CVE Feed",
-      "published": "2026-09-18T16:17:04+00:00"
-    },
-    {
-      "title": "CVE-2026-10027 - IBM MQ queue manager is vulnerable to unauthenticated remote code execution",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-10027",
-      "summary": "CVE ID :CVE-2026-10027 Published : Sept. 18, 2026, 4:17 p.m. | 43 minutes ago Description :IBM MQ could allow a remote attacker to cause a denial of service or execute arbitrary code due to a buffer...",
-      "source": "CVE Feed",
-      "published": "2026-09-18T16:17:03+00:00"
-    },
-    {
-      "title": "CVE-2025-61682 - Semantic MediaWiki vulnerable to stored XSS through wikitext via improper use of non-reserved data attributes",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2025-61682",
-      "summary": "CVE ID :CVE-2025-61682 Published : Sept. 18, 2026, 4:17 p.m. | 43 minutes ago Description :Semantic MediaWiki is a free, open-source extension to MediaWiki that lets users store and query data within...",
-      "source": "CVE Feed",
-      "published": "2026-09-18T16:17:03+00:00"
-    },
-    {
-      "title": "CVE-2025-53837 - org.xwiki.rendering:xwiki-rendering-xml has an Eval Injection issue",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2025-53837",
-      "summary": "CVE ID :CVE-2025-53837 Published : Sept. 18, 2026, 4:17 p.m. | 43 minutes ago Description :XWiki Rendering is a generic rendering system that converts textual input in a given syntax (wiki syntax...",
-      "source": "CVE Feed",
-      "published": "2026-09-18T16:17:03+00:00"
+      "title": "New WordPress Click2Shell Flaw Forces Theme Installs, Can Chain to Code Execution",
+      "link": "https://thehackernews.com/2026/09/new-wordpress-click2shell-flaw-forces.html",
+      "summary": "WordPress today released patches to fix a new set of vulnerabilities in its core software, one of which could allow a crafted web link, opened by a logged-in administrator, to install a theme from...",
+      "source": "The Hacker News",
+      "published": "2026-09-18T16:56:19+00:00"
     },
     {
       "title": "Gyazo server flaw exploited to steal 23.6 million user records",
@@ -366,6 +394,13 @@
       "published": "2026-09-18T06:17:25+00:00"
     },
     {
+      "title": "North Korean hackers infect thousands of devices across 100 countries as part of ‘WaterPlum’ campaign",
+      "link": "https://therecord.media/north-korean-hackers-infect-thousands-of-devices-waterplum-scheme",
+      "summary": "The FBI and Defense Department partnered with Japan’s National Police Agency and law enforcement agencies in Australia and Germany on a new advisory about “WaterPlum” — a group of cyber actors...",
+      "source": "The Record",
+      "published": "2026-09-18T04:00:00+00:00"
+    },
+    {
       "title": "New RatHat Android malware uses AI to automate device control",
       "link": "https://www.bleepingcomputer.com/news/security/new-rathat-android-malware-uses-ai-to-automate-device-control/",
       "summary": "A new Android malware called RatHat has been discovered, targeting users with an AI-powered subsystem that helps operators remotely navigate compromised devices. [...]",
@@ -455,13 +490,6 @@
       "summary": "AI is making credential theft faster and easier to scale, giving attackers more opportunities to abuse valid identities. Specops explains why identity security must go beyond successful...",
       "source": "BleepingComputer",
       "published": "2026-09-17T14:01:11+00:00"
-    },
-    {
-      "title": "Hackers claim breach of Russian election systems days before parliamentary vote",
-      "link": "https://therecord.media/russia-election-hackers-breach",
-      "summary": "An anonymous hacking group claimed to have broken into computer systems connected to Russia’s election infrastructure just days before the country begins voting for a new parliament.",
-      "source": "The Record",
-      "published": "2026-09-17T13:45:00+00:00"
     },
     {
       "title": "Windows 11 24H2 Home and Pro reach end of support in October",
@@ -877,13 +905,6 @@
       "published": "2026-09-13T10:11:48+00:00"
     },
     {
-      "title": "CISA Adds 5 Actively Exploited Artifactory, ScreenConnect, and RouterOS Flaws to KEV",
-      "link": "https://thehackernews.com/2026/09/cisa-adds-5-actively-exploited.html",
-      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added five security flaws impacting JFrog Artifactory, ConnectWise ScreenConnect, and MikroTik RouterOS to its Known Exploited...",
-      "source": "The Hacker News",
-      "published": "2026-09-12T15:54:45+00:00"
-    },
-    {
       "title": "Threat Actor Generates 1M Personalized Fraud Emails in 3 Days",
       "link": "https://www.darkreading.com/cyberattacks-data-breaches/1m-personalized-fraud-emails-3-days",
       "summary": "Cybercriminals behind malicious email campaigns no longer have to compromise volume for credibility, or vice versa, thanks to AI.",
@@ -1127,27 +1148,6 @@
       "summary": "Some security researchers have observed an uptick in insider-assisted ransomware attacks, but malicious insiders pose other threats that cost companies millions.",
       "source": "Dark Reading",
       "published": "2026-09-01T21:03:19+00:00"
-    },
-    {
-      "title": "Critical Langflow Vulnerability Exploited as Attacks on AI Platform Rise",
-      "link": "https://www.darkreading.com/vulnerabilities-threats/critical-langflow-flaw-exploited-attacks-rise",
-      "summary": "The attacks targeting CVE-2026-0768 are the latest threat against the low-code AI development platform, which is receiving more attention from adversaries this year.",
-      "source": "Dark Reading",
-      "published": "2026-09-01T20:48:52+00:00"
-    },
-    {
-      "title": "AI Model Evaluator METR Hit by Credential Theft, Probing",
-      "link": "https://www.darkreading.com/identity-access-management-security/ai-model-evaluator-metr-credential-theft-probing",
-      "summary": "In one attack, threat actors stole an API key that ultimately led to the consumption of $600,000 in public AI model credits for the security nonprofit.",
-      "source": "Dark Reading",
-      "published": "2026-09-01T20:13:09+00:00"
-    },
-    {
-      "title": "ClickFix Campaign Compromises 31 Orgs, Abuses Polygon Blockchain",
-      "link": "https://www.darkreading.com/endpoint-security/clickfix-campaign-comprises-31-orgs-abuses-polygon-blockchain",
-      "summary": "The campaign uses EtherHiding to dynamically update its command-and-control server, abusing the blockchain as an attacker-controlled address book.",
-      "source": "Dark Reading",
-      "published": "2026-09-01T13:56:42+00:00"
     },
     {
       "title": "Two Alleged ‘TeamPCP’ Hackers Arrested in Australia",
