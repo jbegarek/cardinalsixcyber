@@ -1,52 +1,101 @@
 {
-  "last_updated": "2026-09-22T00:24:50.761913+00:00",
+  "last_updated": "2026-09-22T07:04:04.047473+00:00",
   "articles": [
+    {
+      "title": "One Hidden Meta Muse Setting Could Let Attackers Turn the AI Assistant Into a Backdoor",
+      "link": "https://thehackernews.com/2026/09/one-hidden-meta-muse-setting-could-let.html",
+      "summary": "Malware already running on a Mac can quietly take over Meta's Muse assistant and use the broad access its owner granted the app, security researcher Patrick Wardle has shown in a proof-of-concept...",
+      "source": "The Hacker News",
+      "published": "2026-09-22T06:33:57+00:00"
+    },
+    {
+      "title": "WordPress Comment2Shell Flaw Can Turn Anonymous Comment XSS Into RCE via Admin Session",
+      "link": "https://thehackernews.com/2026/09/wordpress-comment2shell-flaw-can-turn.html",
+      "summary": "A new flaw in WordPress core let an anonymous visitor leave a comment that planted a hidden script on the page. If a logged-in administrator later opened that page, the script could run code on the...",
+      "source": "The Hacker News",
+      "published": "2026-09-22T06:03:14+00:00"
+    },
+    {
+      "title": "Zyxel and Veeam Flaws Under Active Exploitation With Command and SYSTEM Access",
+      "link": "https://thehackernews.com/2026/09/zyxel-and-veeam-flaws-under-active.html",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added a now-patched security flaw impacting Zyxel GS1900 series switches to its Known Exploited Vulnerabilities (KEV)...",
+      "source": "The Hacker News",
+      "published": "2026-09-22T05:31:59+00:00"
+    },
+    {
+      "title": "CVE-2026-19658 - Give Tributes <= 2.3.1 - Unauthenticated PHP Object Injection via 'give_tributes_ecard_notify[recipient][personalized][]' Parameter",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-19658",
+      "summary": "CVE ID :CVE-2026-19658 Published : Sept. 22, 2026, 5:16 a.m. | 25 minutes ago Description :The Give Tributes plugin for WordPress is vulnerable to PHP Object Injection in all versions up to, and...",
+      "source": "CVE Feed",
+      "published": "2026-09-22T05:16:55+00:00"
+    },
+    {
+      "title": "CVE-2026-13355 - Meta Box AIO <= 3.11.0 And Standalone Plugin Extensions - Unauthenticated Privilege Escalation to Administrator to 'rwmb_frontend_field_object_id' Parameter",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-13355",
+      "summary": "CVE ID :CVE-2026-13355 Published : Sept. 22, 2026, 5:16 a.m. | 25 minutes ago Description :The Meta Box AIO plugin for WordPress is vulnerable to Privilege Escalation to Administrator in versions up...",
+      "source": "CVE Feed",
+      "published": "2026-09-22T05:16:54+00:00"
+    },
+    {
+      "title": "US Proposes AI Incident Alert System in Talks With China, Bessent Says",
+      "link": "https://www.securityweek.com/us-proposes-ai-incident-alert-system-in-talks-with-china-bessent-says/",
+      "summary": "Trump has resisted calls to slow down AI development, saying that would help China catch up to U.S. companies. The post US Proposes AI Incident Alert System in Talks With China, Bessent Says appeared...",
+      "source": "SecurityWeek",
+      "published": "2026-09-22T02:01:24+00:00"
+    },
+    {
+      "title": "CVE-2026-94493 - Gigatech PDV5701 WebSocket Service index.html missing authentication",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-94493",
+      "summary": "CVE ID :CVE-2026-94493 Published : Sept. 22, 2026, 1:16 a.m. | 4 hours, 25 minutes ago Description :A vulnerability was detected in Gigatech PDV5701 1.0.31_240305_112640. This issue affects some...",
+      "source": "CVE Feed",
+      "published": "2026-09-22T01:16:56+00:00"
+    },
     {
       "title": "CVE-2026-94425 - Moore Threads MTT S80 Driver Package IOCTL mtdispkm64.sys sub_140006F0C privileges management",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-94425",
-      "summary": "CVE ID :CVE-2026-94425 Published : Sept. 21, 2026, 11:16 p.m. | 43 minutes ago Description :A vulnerability was found in Moore Threads MTT S80 Driver Package 340.150. The affected element is the...",
+      "summary": "CVE ID :CVE-2026-94425 Published : Sept. 21, 2026, 11:16 p.m. | 6 hours, 25 minutes ago Description :A vulnerability was found in Moore Threads MTT S80 Driver Package 340.150. The affected element is...",
       "source": "CVE Feed",
       "published": "2026-09-21T23:16:56+00:00"
     },
     {
       "title": "CVE-2026-94627 - vLLM through 0.29.0 GPU KV Cache Leak via Mooncake Transfer ID Collision",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-94627",
-      "summary": "CVE ID :CVE-2026-94627 Published : Sept. 21, 2026, 10:17 p.m. | 1 hour, 43 minutes ago Description :vLLM Mooncake connector through 0.29.0 fails to properly manage GPU KV cache block ownership when...",
+      "summary": "CVE ID :CVE-2026-94627 Published : Sept. 21, 2026, 10:17 p.m. | 7 hours, 25 minutes ago Description :vLLM Mooncake connector through 0.29.0 fails to properly manage GPU KV cache block ownership when...",
       "source": "CVE Feed",
       "published": "2026-09-21T22:17:01+00:00"
     },
     {
       "title": "CVE-2026-94626 - vLLM through 0.29.0 Memory Exhaustion via Unvalidated NIXL tp_size",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-94626",
-      "summary": "CVE ID :CVE-2026-94626 Published : Sept. 21, 2026, 10:17 p.m. | 1 hour, 43 minutes ago Description :vLLM through 0.29.0 fails to validate the tp_size parameter in kv_transfer_params on...",
+      "summary": "CVE ID :CVE-2026-94626 Published : Sept. 21, 2026, 10:17 p.m. | 7 hours, 25 minutes ago Description :vLLM through 0.29.0 fails to validate the tp_size parameter in kv_transfer_params on...",
       "source": "CVE Feed",
       "published": "2026-09-21T22:17:01+00:00"
     },
     {
       "title": "CVE-2026-94624 - vLLM through 0.29.0 Denial of Service via Unbounded P2P KV Offloading Sessions",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-94624",
-      "summary": "CVE ID :CVE-2026-94624 Published : Sept. 21, 2026, 10:17 p.m. | 1 hour, 43 minutes ago Description :vLLM through 0.29.0 contains a denial of service vulnerability in P2P KV offloading when...",
+      "summary": "CVE ID :CVE-2026-94624 Published : Sept. 21, 2026, 10:17 p.m. | 7 hours, 25 minutes ago Description :vLLM through 0.29.0 contains a denial of service vulnerability in P2P KV offloading when...",
       "source": "CVE Feed",
       "published": "2026-09-21T22:17:01+00:00"
     },
     {
       "title": "CVE-2026-94623 - vLLM through 0.29.0 Denial of Service via NIXL Multi-Prompt Assertion Failure",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-94623",
-      "summary": "CVE ID :CVE-2026-94623 Published : Sept. 21, 2026, 10:17 p.m. | 1 hour, 43 minutes ago Description :vLLM through 0.29.0 contains a denial of service vulnerability in the NIXL connector's prefix...",
+      "summary": "CVE ID :CVE-2026-94623 Published : Sept. 21, 2026, 10:17 p.m. | 7 hours, 25 minutes ago Description :vLLM through 0.29.0 contains a denial of service vulnerability in the NIXL connector's prefix...",
       "source": "CVE Feed",
       "published": "2026-09-21T22:17:01+00:00"
     },
     {
       "title": "CVE-2026-94622 - vLLM through 0.29.0 Denial of Service via Incomplete NIXL KV Transfer Metadata",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-94622",
-      "summary": "CVE ID :CVE-2026-94622 Published : Sept. 21, 2026, 10:17 p.m. | 1 hour, 43 minutes ago Description :vLLM versions through 0.29.0 contain a denial of service vulnerability in the NIXL connector's...",
+      "summary": "CVE ID :CVE-2026-94622 Published : Sept. 21, 2026, 10:17 p.m. | 7 hours, 25 minutes ago Description :vLLM versions through 0.29.0 contain a denial of service vulnerability in the NIXL connector's...",
       "source": "CVE Feed",
       "published": "2026-09-21T22:17:00+00:00"
     },
     {
       "title": "CVE-2026-61652 - Zapros: Streaming decoders ignored the requested chunk size, allowing a single compressed response chunk to allocate unbounded memory (decompression bomb)",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-61652",
-      "summary": "CVE ID :CVE-2026-61652 Published : Sept. 21, 2026, 10:16 p.m. | 1 hour, 43 minutes ago Description :Zapros, a Python HTTP client, prior to version 0.14.0 is vulnerable to denial of service via memory...",
+      "summary": "CVE ID :CVE-2026-61652 Published : Sept. 21, 2026, 10:16 p.m. | 7 hours, 25 minutes ago Description :Zapros, a Python HTTP client, prior to version 0.14.0 is vulnerable to denial of service via...",
       "source": "CVE Feed",
       "published": "2026-09-21T22:16:57+00:00"
     },
@@ -67,77 +116,77 @@
     {
       "title": "CVE-2026-94572 - OpenStack Octavia Amphora Provider Driver Improper Input Validation Configuration Injection",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-94572",
-      "summary": "CVE ID :CVE-2026-94572 Published : Sept. 21, 2026, 9:17 p.m. | 2 hours, 43 minutes ago Description :In OpenStack Octavia before 18.0.1, the Amphora provider driver did not validate the listener and...",
+      "summary": "CVE ID :CVE-2026-94572 Published : Sept. 21, 2026, 9:17 p.m. | 8 hours, 25 minutes ago Description :In OpenStack Octavia before 18.0.1, the Amphora provider driver did not validate the listener and...",
       "source": "CVE Feed",
       "published": "2026-09-21T21:17:22+00:00"
     },
     {
       "title": "CVE-2026-94571 - OpenStack Octavia Amphora Provider Driver HAProxy Configuration Injection Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-94571",
-      "summary": "CVE ID :CVE-2026-94571 Published : Sept. 21, 2026, 9:17 p.m. | 2 hours, 43 minutes ago Description :In OpenStack Octavia before 18.0.1, the Amphora provider driver did not reject control characters...",
+      "summary": "CVE ID :CVE-2026-94571 Published : Sept. 21, 2026, 9:17 p.m. | 8 hours, 25 minutes ago Description :In OpenStack Octavia before 18.0.1, the Amphora provider driver did not reject control characters...",
       "source": "CVE Feed",
       "published": "2026-09-21T21:17:21+00:00"
     },
     {
       "title": "CVE-2026-94424 - Moore Threads MTT S80 Driver Package IOCTL mtdispkm64.sys sub_140001000 heap-based overflow",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-94424",
-      "summary": "CVE ID :CVE-2026-94424 Published : Sept. 21, 2026, 9:17 p.m. | 2 hours, 43 minutes ago Description :A vulnerability has been found in Moore Threads MTT S80 Driver Package up to 340.150. Impacted is...",
+      "summary": "CVE ID :CVE-2026-94424 Published : Sept. 21, 2026, 9:17 p.m. | 8 hours, 25 minutes ago Description :A vulnerability has been found in Moore Threads MTT S80 Driver Package up to 340.150. Impacted is...",
       "source": "CVE Feed",
       "published": "2026-09-21T21:17:21+00:00"
     },
     {
       "title": "CVE-2026-88409 - FalkorDB Buffer Overflow Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-88409",
-      "summary": "CVE ID :CVE-2026-88409 Published : Sept. 21, 2026, 9:17 p.m. | 2 hours, 43 minutes ago Description :FalkorDB (Redis module) v4.20.1 to v4.20.4 was discovered to contain a buffer overflow in the...",
+      "summary": "CVE ID :CVE-2026-88409 Published : Sept. 21, 2026, 9:17 p.m. | 8 hours, 25 minutes ago Description :FalkorDB (Redis module) v4.20.1 to v4.20.4 was discovered to contain a buffer overflow in the...",
       "source": "CVE Feed",
       "published": "2026-09-21T21:17:15+00:00"
     },
     {
       "title": "CVE-2026-79916 - MaxKB AWS Bedrock model credential injection leads to remote code execution",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-79916",
-      "summary": "CVE ID :CVE-2026-79916 Published : Sept. 21, 2026, 9:17 p.m. | 2 hours, 43 minutes ago Description :MaxKB is an open-source AI assistant for enterprise. Prior to 2.10.5-lts, authenticated workspace...",
+      "summary": "CVE ID :CVE-2026-79916 Published : Sept. 21, 2026, 9:17 p.m. | 8 hours, 25 minutes ago Description :MaxKB is an open-source AI assistant for enterprise. Prior to 2.10.5-lts, authenticated workspace...",
       "source": "CVE Feed",
       "published": "2026-09-21T21:17:12+00:00"
     },
     {
       "title": "CVE-2026-77521 - MaxKB: Prompt-injectable agent can lead to command execution",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-77521",
-      "summary": "CVE ID :CVE-2026-77521 Published : Sept. 21, 2026, 9:17 p.m. | 2 hours, 43 minutes ago Description :MaxKB is an open-source AI assistant for enterprise. Prior to version 2.10.5-lts, assistants with a...",
+      "summary": "CVE ID :CVE-2026-77521 Published : Sept. 21, 2026, 9:17 p.m. | 8 hours, 25 minutes ago Description :MaxKB is an open-source AI assistant for enterprise. Prior to version 2.10.5-lts, assistants with a...",
       "source": "CVE Feed",
       "published": "2026-09-21T21:17:10+00:00"
     },
     {
       "title": "CVE-2026-46649 - Joplin: SSO Auth Code Login Missing Rate Limiting — 9-Digit Numeric Code Brute-Forceable via Unprotected Endpoint",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-46649",
-      "summary": "CVE ID :CVE-2026-46649 Published : Sept. 21, 2026, 9:17 p.m. | 2 hours, 43 minutes ago Description :Joplin is an open source note-taking and to-do application that organises notes and lists into...",
+      "summary": "CVE ID :CVE-2026-46649 Published : Sept. 21, 2026, 9:17 p.m. | 8 hours, 25 minutes ago Description :Joplin is an open source note-taking and to-do application that organises notes and lists into...",
       "source": "CVE Feed",
       "published": "2026-09-21T21:17:03+00:00"
     },
     {
       "title": "CVE-2026-58269 - Sync-in Server has a complete 2FA Bypass via `POST /api/auth/token`",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-58269",
-      "summary": "CVE ID :CVE-2026-58269 Published : Sept. 21, 2026, 8:17 p.m. | 3 hours, 42 minutes ago Description :Sync-in Server is an open-source platform for file storage, sharing, collaboration, and syncing...",
+      "summary": "CVE ID :CVE-2026-58269 Published : Sept. 21, 2026, 8:17 p.m. | 9 hours, 25 minutes ago Description :Sync-in Server is an open-source platform for file storage, sharing, collaboration, and syncing...",
       "source": "CVE Feed",
       "published": "2026-09-21T20:17:26+00:00"
     },
     {
       "title": "CVE-2026-55897 - luci-app-advanced-reboot read ACL exposes /bin/sh through file.exec, allowing delegated users to run commands as root",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-55897",
-      "summary": "CVE ID :CVE-2026-55897 Published : Sept. 21, 2026, 8:17 p.m. | 3 hours, 42 minutes ago Description :luci-app-advanced-reboot is a LuCI (web interface) application for OpenWrt that provides a way to...",
+      "summary": "CVE ID :CVE-2026-55897 Published : Sept. 21, 2026, 8:17 p.m. | 9 hours, 25 minutes ago Description :luci-app-advanced-reboot is a LuCI (web interface) application for OpenWrt that provides a way to...",
       "source": "CVE Feed",
       "published": "2026-09-21T20:17:26+00:00"
     },
     {
       "title": "CVE-2026-55159 - luci-app-adblock-fast: Delegated `luci-app-adblock-fast` users can reach root command execution by injecting newline-separated cron entries",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-55159",
-      "summary": "CVE ID :CVE-2026-55159 Published : Sept. 21, 2026, 8:17 p.m. | 3 hours, 42 minutes ago Description :luci-app-adblock-fast a WebUI for fast, lightweight DNS-based ad-blocker for OpenWrt that works...",
+      "summary": "CVE ID :CVE-2026-55159 Published : Sept. 21, 2026, 8:17 p.m. | 9 hours, 25 minutes ago Description :luci-app-adblock-fast a WebUI for fast, lightweight DNS-based ad-blocker for OpenWrt that works...",
       "source": "CVE Feed",
       "published": "2026-09-21T20:17:26+00:00"
     },
     {
       "title": "CVE-2026-49811 - Dell Command | Monitor Incorrect Permission Assignment Elevation of Privilege Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-49811",
-      "summary": "CVE ID :CVE-2026-49811 Published : Sept. 21, 2026, 8:17 p.m. | 3 hours, 43 minutes ago Description :Dell Command | Monitor (DCM), versions prior to 10.13.2, contain an Incorrect Permission Assignment...",
+      "summary": "CVE ID :CVE-2026-49811 Published : Sept. 21, 2026, 8:17 p.m. | 9 hours, 25 minutes ago Description :Dell Command | Monitor (DCM), versions prior to 10.13.2, contain an Incorrect Permission Assignment...",
       "source": "CVE Feed",
       "published": "2026-09-21T20:17:25+00:00"
     },
@@ -158,51 +207,30 @@
     {
       "title": "CVE-2026-94501 - jshERP through 3.6 Privilege Escalation via userBusiness CRUD",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-94501",
-      "summary": "CVE ID :CVE-2026-94501 Published : Sept. 21, 2026, 7:17 p.m. | 4 hours, 43 minutes ago Description :jshERP through 3.6 contains an authorization bypass vulnerability in the userBusiness CRUD...",
+      "summary": "CVE ID :CVE-2026-94501 Published : Sept. 21, 2026, 7:17 p.m. | 10 hours, 25 minutes ago Description :jshERP through 3.6 contains an authorization bypass vulnerability in the userBusiness CRUD...",
       "source": "CVE Feed",
       "published": "2026-09-21T19:17:21+00:00"
     },
     {
       "title": "CVE-2026-94497 - jshERP through 3.6 Unauthorized Access via by-id Endpoints",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-94497",
-      "summary": "CVE ID :CVE-2026-94497 Published : Sept. 21, 2026, 7:17 p.m. | 4 hours, 43 minutes ago Description :jshERP through 3.6 fails to validate object ownership in by-id info, update, and delete endpoints...",
+      "summary": "CVE ID :CVE-2026-94497 Published : Sept. 21, 2026, 7:17 p.m. | 10 hours, 25 minutes ago Description :jshERP through 3.6 fails to validate object ownership in by-id info, update, and delete endpoints...",
       "source": "CVE Feed",
       "published": "2026-09-21T19:17:21+00:00"
     },
     {
       "title": "CVE-2026-94496 - jshERP through 3.6 Privilege Escalation via Role Management",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-94496",
-      "summary": "CVE ID :CVE-2026-94496 Published : Sept. 21, 2026, 7:17 p.m. | 4 hours, 43 minutes ago Description :jshERP through 3.6 fails to validate caller permissions in role management endpoints, allowing...",
+      "summary": "CVE ID :CVE-2026-94496 Published : Sept. 21, 2026, 7:17 p.m. | 10 hours, 25 minutes ago Description :jshERP through 3.6 fails to validate caller permissions in role management endpoints, allowing...",
       "source": "CVE Feed",
       "published": "2026-09-21T19:17:21+00:00"
     },
     {
       "title": "CVE-2026-94412 - jshERP through 3.6 Authorization Bypass via resetPwd",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-94412",
-      "summary": "CVE ID :CVE-2026-94412 Published : Sept. 21, 2026, 7:17 p.m. | 4 hours, 43 minutes ago Description :jshERP through 3.6 contains an authorization bypass vulnerability in the POST /user/resetPwd...",
+      "summary": "CVE ID :CVE-2026-94412 Published : Sept. 21, 2026, 7:17 p.m. | 10 hours, 25 minutes ago Description :jshERP through 3.6 contains an authorization bypass vulnerability in the POST /user/resetPwd...",
       "source": "CVE Feed",
       "published": "2026-09-21T19:17:20+00:00"
-    },
-    {
-      "title": "CVE-2026-94411 - jshERP 3.6 Privilege Escalation via updateOneValueByKeyIdAndType",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-94411",
-      "summary": "CVE ID :CVE-2026-94411 Published : Sept. 21, 2026, 7:17 p.m. | 4 hours, 43 minutes ago Description :jshERP 3.6 contains a privilege escalation vulnerability in the updateOneValueByKeyIdAndType...",
-      "source": "CVE Feed",
-      "published": "2026-09-21T19:17:20+00:00"
-    },
-    {
-      "title": "CVE-2026-94403 - ColorFul iGameCenter IOCTL ene.sys sub_140001AF0 untrusted pointer dereference",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-94403",
-      "summary": "CVE ID :CVE-2026-94403 Published : Sept. 21, 2026, 7:17 p.m. | 4 hours, 43 minutes ago Description :A weakness has been identified in ColorFul iGameCenter 1.0.3.4. This impacts the function...",
-      "source": "CVE Feed",
-      "published": "2026-09-21T19:17:19+00:00"
-    },
-    {
-      "title": "CVE-2026-58491 - Warpgate: Reflected XSS in SSO return endpoint via attacker-controlled next parameter",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-58491",
-      "summary": "CVE ID :CVE-2026-58491 Published : Sept. 21, 2026, 7:17 p.m. | 4 hours, 43 minutes ago Description :Warpgate is an open source SSH, HTTPS and MySQL bastion host for Linux. Prior to 0.25.5, the...",
-      "source": "CVE Feed",
-      "published": "2026-09-21T19:17:06+00:00"
     },
     {
       "title": "EU data regulator fines Google more than $460 million for location data violations",
@@ -420,13 +448,6 @@
       "summary": "Threat actors are leveraging ClickFix-like lures to deliver a previously undocumented remote access trojan (RAT) called ChainScript. \"ChainScript has appeared under multiple build names, including...",
       "source": "The Hacker News",
       "published": "2026-09-21T08:39:38+00:00"
-    },
-    {
-      "title": "Google Confirms Gemini AI Breached Three Firms",
-      "link": "https://www.securityweek.com/google-confirms-gemini-ai-breached-three-firms/",
-      "summary": "Google is the latest AI giant to confirm that its models escaped a testing environment and hacked real companies. The post Google Confirms Gemini AI Breached Three Firms appeared first on...",
-      "source": "SecurityWeek",
-      "published": "2026-09-21T07:20:46+00:00"
     },
     {
       "title": "Jade Sleet Linked to Indian IT Provider Breach With FLATROOF and ROOFDECK Backdoors",
@@ -884,32 +905,11 @@
       "published": "2026-09-15T19:27:19+00:00"
     },
     {
-      "title": "KREMLIN Banking Malware Hijacks Chrome and Edge to Steal Credentials and Session Tokens",
-      "link": "https://thehackernews.com/2026/09/kremlin-banking-malware-hijacks-chrome.html",
-      "summary": "Cybersecurity researchers have shed light on a previously undocumented Brazilian banking malware operation that delivers a toolkit called KREMLIN. Elastic Security Labs is tracking the activity under...",
-      "source": "The Hacker News",
-      "published": "2026-09-15T18:54:14+00:00"
-    },
-    {
       "title": "VectraRAT Can Hack Windows Enterprises for $250 per Month",
       "link": "https://www.darkreading.com/endpoint-security/vectrarat-hack-windows-enterprises",
       "summary": "The full-service malware-as-a-service (MaaS) platform offers a Windows implant, command-and-control (C2) infrastructure, and an operator panel for comprehensive remote access.",
       "source": "Dark Reading",
       "published": "2026-09-15T16:45:37+00:00"
-    },
-    {
-      "title": "Iranian Hackers Use Telegram-Controlled Malware to Spy on Dissidents and Journalists",
-      "link": "https://thehackernews.com/2026/09/iranian-hackers-use-telegram-controlled.html",
-      "summary": "Cybersecurity agencies in the United States, the United Kingdom, and the Netherlands have detailed a Windows malware that they say Iran's intelligence service uses to spy on dissidents, journalists...",
-      "source": "The Hacker News",
-      "published": "2026-09-15T16:29:51+00:00"
-    },
-    {
-      "title": "BambooToken Malware Uses MQTT to Control Windows and Linux Systems",
-      "link": "https://thehackernews.com/2026/09/bambootoken-malware-uses-mqtt-to.html",
-      "summary": "Cybersecurity researchers have disclosed details of a multi-platform campaign that uses the Message Queueing Telemetry Transport (MQTT) protocol as a communication channel to control Windows and...",
-      "source": "The Hacker News",
-      "published": "2026-09-15T15:23:19+00:00"
     },
     {
       "title": "'Sandworm' Chains Cisco Vulnerabilities to Deploy Cyclops Blink",
