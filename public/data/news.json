@@ -1,6 +1,48 @@
 {
-  "last_updated": "2026-09-24T22:50:30.407268+00:00",
+  "last_updated": "2026-09-25T02:37:29.467535+00:00",
   "articles": [
+    {
+      "title": "CVE-2026-85082 - Maple Media Root Browser Classic 3.3.0 - OS command injection through crafted SQLite filenames",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-85082",
+      "summary": "CVE ID :CVE-2026-85082 Published : Sept. 25, 2026, 12:16 a.m. | 2 hours, 8 minutes ago Description :Root Browser Classic 3.3.0 passes the path of a selected SQLite database to an operating-system...",
+      "source": "CVE Feed",
+      "published": "2026-09-25T00:16:57+00:00"
+    },
+    {
+      "title": "CVE-2026-87722 - Regular Expression Denial of Service (ReDoS) in Search Query Predicates and REST Filter Endpoints in Gerrit Code Review",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-87722",
+      "summary": "CVE ID :CVE-2026-87722 Published : Sept. 24, 2026, 10:17 p.m. | 4 hours, 8 minutes ago Description :Uncontrolled Resource Consumption (CWE-400 / CWE-1333) in regex search query predicates (such as...",
+      "source": "CVE Feed",
+      "published": "2026-09-24T22:17:02+00:00"
+    },
+    {
+      "title": "CVE-2026-87721 - Denial of Service via Exponential Backtracking in ANTLR Search Query Parser in Gerrit Code Review",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-87721",
+      "summary": "CVE ID :CVE-2026-87721 Published : Sept. 24, 2026, 10:17 p.m. | 4 hours, 8 minutes ago Description :Uncontrolled Resource Consumption (CWE-400 / CWE-407) in the ANTLR 3 search query parser...",
+      "source": "CVE Feed",
+      "published": "2026-09-24T22:17:02+00:00"
+    },
+    {
+      "title": "CVE-2026-95699 - MrSteam iSteamX Improper Isolation or Compartmentalization",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-95699",
+      "summary": "CVE ID :CVE-2026-95699 Published : Sept. 24, 2026, 9:18 p.m. | 5 hours, 6 minutes ago Description :Prior to 9/18/2026, the iSteamX mobile application's AWS policy could grant authenticated users...",
+      "source": "CVE Feed",
+      "published": "2026-09-24T21:18:58+00:00"
+    },
+    {
+      "title": "CVE-2026-81630 - Botslab G980H Dashcams Insufficient Verification of Data Authenticity",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-81630",
+      "summary": "CVE ID :CVE-2026-81630 Published : Sept. 24, 2026, 9:18 p.m. | 5 hours, 6 minutes ago Description :The Botslab G980H dash camera firmware does not adequately verify the authenticity of firmware...",
+      "source": "CVE Feed",
+      "published": "2026-09-24T21:18:48+00:00"
+    },
+    {
+      "title": "CVE-2026-14443 - Incomplete log sanitization during bulk IPsec policy collection in Brocade SANnav before 3.0.1a",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-14443",
+      "summary": "CVE ID :CVE-2026-14443 Published : Sept. 24, 2026, 9:17 p.m. | 5 hours, 8 minutes ago Description :Incomplete log sanitization during bulk IPsec policy collection in Brocade SANnav versions before...",
+      "source": "CVE Feed",
+      "published": "2026-09-24T21:17:12+00:00"
+    },
     {
       "title": "'Salesbleed' Exploits Salesforce Agents to Enable Slack Phishing",
       "link": "https://www.darkreading.com/application-security/salesbleed-exploits-salesforce-agents-slack-phishing",
@@ -14,13 +56,6 @@
       "summary": "A new variant of the MacSync malware targeting macOS systems now uses public iCloud calendar events to deliver new native payloads. [...]",
       "source": "BleepingComputer",
       "published": "2026-09-24T20:53:35+00:00"
-    },
-    {
-      "title": "CVE-2026-95699 - MrSteam iSteamX Improper Isolation or Compartmentalization",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-95699",
-      "summary": "CVE ID :CVE-2026-95699 Published : Sept. 24, 2026, 8:39 p.m. | 20 minutes ago Description :Prior to 9/18/2026, the iSteamX mobile application's AWS policy could grant authenticated users access to...",
-      "source": "CVE Feed",
-      "published": "2026-09-24T20:39:59+00:00"
     },
     {
       "title": "Autonomous AI Hacks Raise Thorny Questions of Legal Accountability",
@@ -37,74 +72,81 @@
       "published": "2026-09-24T20:32:50+00:00"
     },
     {
+      "title": "Digital forensics firm with US federal contracts covered up ties to Russia, DOJ alleges",
+      "link": "https://therecord.media/russia-forensics-technology-doj",
+      "summary": "Two executives at a data extraction and digital forensics company that sold several U.S. agencies its software were arrested for allegedly lying about the fact that its technology is made in Russia.",
+      "source": "The Record",
+      "published": "2026-09-24T20:30:00+00:00"
+    },
+    {
       "title": "CVE-2026-96883 - Type confusion in AWS pgcollection allows remote code execution",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-96883",
-      "summary": "CVE ID :CVE-2026-96883 Published : Sept. 24, 2026, 8:17 p.m. | 43 minutes ago Description :pgcollection is an open source extension to PostgreSQL. A type confusion issue in AWS pgcollection 2.0.0...",
+      "summary": "CVE ID :CVE-2026-96883 Published : Sept. 24, 2026, 8:17 p.m. | 6 hours, 7 minutes ago Description :pgcollection is an open source extension to PostgreSQL. A type confusion issue in AWS pgcollection...",
       "source": "CVE Feed",
       "published": "2026-09-24T20:17:35+00:00"
     },
     {
       "title": "CVE-2026-93354 - Taskview Community Missing Authentication via OAuth Dynamic Client Registration",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-93354",
-      "summary": "CVE ID :CVE-2026-93354 Published : Sept. 24, 2026, 8:17 p.m. | 43 minutes ago Description :Taskview Community before 1.56.0 contains a missing authentication vulnerability that allows unauthenticated...",
+      "summary": "CVE ID :CVE-2026-93354 Published : Sept. 24, 2026, 8:17 p.m. | 6 hours, 7 minutes ago Description :Taskview Community before 1.56.0 contains a missing authentication vulnerability that allows...",
       "source": "CVE Feed",
       "published": "2026-09-24T20:17:34+00:00"
     },
     {
       "title": "CVE-2026-93291 - Improper certificate validation in Eufy Omni C20",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-93291",
-      "summary": "CVE ID :CVE-2026-93291 Published : Sept. 24, 2026, 8:17 p.m. | 43 minutes ago Description :Omni C20 lacks proper certificate validation which could allow an attacker to perform a man-in-the-middle...",
+      "summary": "CVE ID :CVE-2026-93291 Published : Sept. 24, 2026, 8:17 p.m. | 6 hours, 7 minutes ago Description :Omni C20 lacks proper certificate validation which could allow an attacker to perform a...",
       "source": "CVE Feed",
       "published": "2026-09-24T20:17:34+00:00"
     },
     {
       "title": "CVE-2026-93289 - OS command injection in Eufy Omni C20, Omni X10 Pro",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-93289",
-      "summary": "CVE ID :CVE-2026-93289 Published : Sept. 24, 2026, 8:17 p.m. | 43 minutes ago Description :The affected products are vulnerable to command injection attack that could allow an unauthenticated...",
+      "summary": "CVE ID :CVE-2026-93289 Published : Sept. 24, 2026, 8:17 p.m. | 6 hours, 7 minutes ago Description :The affected products are vulnerable to command injection attack that could allow an unauthenticated...",
       "source": "CVE Feed",
       "published": "2026-09-24T20:17:34+00:00"
     },
     {
       "title": "CVE-2026-85496 - Botslab G980H Dashcams Generation of Predictable Numbers or Identifiers",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-85496",
-      "summary": "CVE ID :CVE-2026-85496 Published : Sept. 24, 2026, 8:17 p.m. | 43 minutes ago Description :The Botslab G980H dash camera firmware generates session identifiers using a small sequential value space...",
+      "summary": "CVE ID :CVE-2026-85496 Published : Sept. 24, 2026, 8:17 p.m. | 6 hours, 7 minutes ago Description :The Botslab G980H dash camera firmware generates session identifiers using a small sequential value...",
       "source": "CVE Feed",
       "published": "2026-09-24T20:17:32+00:00"
     },
     {
       "title": "CVE-2026-84399 - Botslab G980H Dashcams Incorrect Authorization",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-84399",
-      "summary": "CVE ID :CVE-2026-84399 Published : Sept. 24, 2026, 8:17 p.m. | 43 minutes ago Description :The Botslab G980H dash camera firmware contains an authorization vulnerability in its session based command...",
+      "summary": "CVE ID :CVE-2026-84399 Published : Sept. 24, 2026, 8:17 p.m. | 6 hours, 7 minutes ago Description :The Botslab G980H dash camera firmware contains an authorization vulnerability in its session based...",
       "source": "CVE Feed",
       "published": "2026-09-24T20:17:32+00:00"
     },
     {
       "title": "CVE-2026-82566 - Botslab G980H Dashcams Insufficient session expiration",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-82566",
-      "summary": "CVE ID :CVE-2026-82566 Published : Sept. 24, 2026, 8:17 p.m. | 43 minutes ago Description :The Botslab G980H dash camera firmware contains a session management vulnerability in which authentication...",
+      "summary": "CVE ID :CVE-2026-82566 Published : Sept. 24, 2026, 8:17 p.m. | 6 hours, 7 minutes ago Description :The Botslab G980H dash camera firmware contains a session management vulnerability in which...",
       "source": "CVE Feed",
       "published": "2026-09-24T20:17:32+00:00"
     },
     {
       "title": "CVE-2026-82372 - Improper handling of sensitive data during IPsec policy creation and modification in Brocade SANnav before 3.0.1.a",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-82372",
-      "summary": "CVE ID :CVE-2026-82372 Published : Sept. 24, 2026, 8:17 p.m. | 43 minutes ago Description :Improper handling of sensitive data during IPsec policy creation and modification in Brocade SANnav versions...",
+      "summary": "CVE ID :CVE-2026-82372 Published : Sept. 24, 2026, 8:17 p.m. | 6 hours, 7 minutes ago Description :Improper handling of sensitive data during IPsec policy creation and modification in Brocade SANnav...",
       "source": "CVE Feed",
       "published": "2026-09-24T20:17:32+00:00"
     },
     {
       "title": "CVE-2026-77967 - Botslab G980H Dashcams Authentication Bypass by Capture-replay",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-77967",
-      "summary": "CVE ID :CVE-2026-77967 Published : Sept. 24, 2026, 8:17 p.m. | 43 minutes ago Description :The Botslab G980H dash camera firmware accepts a reusable authentication value without adequately verifying...",
+      "summary": "CVE ID :CVE-2026-77967 Published : Sept. 24, 2026, 8:17 p.m. | 6 hours, 8 minutes ago Description :The Botslab G980H dash camera firmware accepts a reusable authentication value without adequately...",
       "source": "CVE Feed",
       "published": "2026-09-24T20:17:30+00:00"
     },
     {
-      "title": "CVE-2026-81630 - Botslab G980H Dashcams Insufficient Verification of Data Authenticity",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-81630",
-      "summary": "CVE ID :CVE-2026-81630 Published : Sept. 24, 2026, 8:14 p.m. | 45 minutes ago Description :The Botslab G980H dash camera firmware does not adequately verify the authenticity of firmware updates. The...",
-      "source": "CVE Feed",
-      "published": "2026-09-24T20:14:42+00:00"
+      "title": "Lawmakers introduce bill for voluntary telecom cyber rules after Salt Typhoon hacks",
+      "link": "https://therecord.media/lawmakers-introduce-bill-for-voluntary-telecom-cyber-rules",
+      "summary": "U.S. Sens. Mark Warner (D-VA) and Ted Cruz (R-TX) introduced the Telecommunications Cybersecurity and Resilience Act on Thursday, arguing that the new effort was necessary in light of the Salt...",
+      "source": "The Record",
+      "published": "2026-09-24T20:15:00+00:00"
     },
     {
       "title": "New Carbonato malware uses AI agents to hijack exposed Docker hosts",
@@ -114,102 +156,81 @@
       "published": "2026-09-24T20:10:48+00:00"
     },
     {
-      "title": "CVE-2026-14443 - Incomplete log sanitization during bulk IPsec policy collection in Brocade SANnav before 3.0.1a",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-14443",
-      "summary": "CVE ID :CVE-2026-14443 Published : Sept. 24, 2026, 8:06 p.m. | 54 minutes ago Description :Incomplete log sanitization during bulk IPsec policy collection in Brocade SANnav versions before 3.0.1a...",
-      "source": "CVE Feed",
-      "published": "2026-09-24T20:06:28+00:00"
-    },
-    {
       "title": "CVE-2026-96749 - Heap out-of-bounds write via signed size overflow in BSON document encoding",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-96749",
-      "summary": "CVE ID :CVE-2026-96749 Published : Sept. 24, 2026, 7:17 p.m. | 1 hour, 43 minutes ago Description :An integer overflow in the BSON document encoding component of the MongoDB Python Driver's bundled...",
+      "summary": "CVE ID :CVE-2026-96749 Published : Sept. 24, 2026, 7:17 p.m. | 7 hours, 8 minutes ago Description :An integer overflow in the BSON document encoding component of the MongoDB Python Driver's bundled...",
       "source": "CVE Feed",
       "published": "2026-09-24T19:17:20+00:00"
     },
     {
       "title": "CVE-2026-96748 - Connection redirection via percent-encoded delimiter injection in connection string hosts",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-96748",
-      "summary": "CVE ID :CVE-2026-96748 Published : Sept. 24, 2026, 7:17 p.m. | 1 hour, 43 minutes ago Description :PyMongo's connection string parsing decodes percent-encoded characters in the host portion before...",
+      "summary": "CVE ID :CVE-2026-96748 Published : Sept. 24, 2026, 7:17 p.m. | 7 hours, 8 minutes ago Description :PyMongo's connection string parsing decodes percent-encoded characters in the host portion before...",
       "source": "CVE Feed",
       "published": "2026-09-24T19:17:20+00:00"
     },
     {
       "title": "CVE-2026-86860 - Unauthenticated Sensitive Data Disclosure in ServiceNow AI Platform",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-86860",
-      "summary": "CVE ID :CVE-2026-86860 Published : Sept. 24, 2026, 7:17 p.m. | 1 hour, 43 minutes ago Description :ServiceNow has remediated a missing authorization vulnerability that was identified in the...",
+      "summary": "CVE ID :CVE-2026-86860 Published : Sept. 24, 2026, 7:17 p.m. | 7 hours, 8 minutes ago Description :ServiceNow has remediated a missing authorization vulnerability that was identified in the...",
       "source": "CVE Feed",
       "published": "2026-09-24T19:17:18+00:00"
     },
     {
       "title": "CVE-2026-86859 - Unauthenticated Arbitrary Record Disclosure in ServiceNow AI Platform",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-86859",
-      "summary": "CVE ID :CVE-2026-86859 Published : Sept. 24, 2026, 7:17 p.m. | 1 hour, 43 minutes ago Description :ServiceNow has remediated an authorization bypass security issue that was identified in the...",
+      "summary": "CVE ID :CVE-2026-86859 Published : Sept. 24, 2026, 7:17 p.m. | 7 hours, 8 minutes ago Description :ServiceNow has remediated an authorization bypass security issue that was identified in the...",
       "source": "CVE Feed",
       "published": "2026-09-24T19:17:18+00:00"
     },
     {
       "title": "CVE-2026-86858 - Unauthenticated Privilege Escalation via GraphQL in ServiceNow AI Platform",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-86858",
-      "summary": "CVE ID :CVE-2026-86858 Published : Sept. 24, 2026, 7:17 p.m. | 1 hour, 43 minutes ago Description :ServiceNow has remediated an improper access control security issue that was identified in the...",
+      "summary": "CVE ID :CVE-2026-86858 Published : Sept. 24, 2026, 7:17 p.m. | 7 hours, 8 minutes ago Description :ServiceNow has remediated an improper access control security issue that was identified in the...",
       "source": "CVE Feed",
       "published": "2026-09-24T19:17:18+00:00"
     },
     {
       "title": "CVE-2026-86857 - Authorization Bypass in ServiceNow AI Platform",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-86857",
-      "summary": "CVE ID :CVE-2026-86857 Published : Sept. 24, 2026, 7:17 p.m. | 1 hour, 43 minutes ago Description :ServiceNow has remediated an authorization bypass security issue that was identified in the...",
+      "summary": "CVE ID :CVE-2026-86857 Published : Sept. 24, 2026, 7:17 p.m. | 7 hours, 8 minutes ago Description :ServiceNow has remediated an authorization bypass security issue that was identified in the...",
       "source": "CVE Feed",
       "published": "2026-09-24T19:17:18+00:00"
     },
     {
       "title": "CVE-2026-82371 - Plaintext exposure of sensitive authentication data in SANnav discovery service log files",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-82371",
-      "summary": "CVE ID :CVE-2026-82371 Published : Sept. 24, 2026, 7:17 p.m. | 1 hour, 43 minutes ago Description :Plaintext exposure of sensitive authentication data in Brocade SANnav discovery service log files...",
+      "summary": "CVE ID :CVE-2026-82371 Published : Sept. 24, 2026, 7:17 p.m. | 7 hours, 8 minutes ago Description :Plaintext exposure of sensitive authentication data in Brocade SANnav discovery service log files...",
       "source": "CVE Feed",
       "published": "2026-09-24T19:17:18+00:00"
     },
     {
       "title": "CVE-2026-82157 - Dell ThinOS Improper Certificate Validation Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-82157",
-      "summary": "CVE ID :CVE-2026-82157 Published : Sept. 24, 2026, 7:17 p.m. | 1 hour, 43 minutes ago Description :Dell ThinOS 10, versions prior to SecurityAddon_2605.10.2766_T10, contains an Improper Certificate...",
+      "summary": "CVE ID :CVE-2026-82157 Published : Sept. 24, 2026, 7:17 p.m. | 7 hours, 8 minutes ago Description :Dell ThinOS 10, versions prior to SecurityAddon_2605.10.2766_T10, contains an Improper Certificate...",
       "source": "CVE Feed",
       "published": "2026-09-24T19:17:17+00:00"
     },
     {
       "title": "CVE-2026-81473 - Dell Rugged Control Center Improper Authorization Elevation of Privilege",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-81473",
-      "summary": "CVE ID :CVE-2026-81473 Published : Sept. 24, 2026, 7:17 p.m. | 1 hour, 43 minutes ago Description :Dell Rugged Control Center (RCC), versions prior to 5.2.206, contain an Improper Authorization...",
+      "summary": "CVE ID :CVE-2026-81473 Published : Sept. 24, 2026, 7:17 p.m. | 7 hours, 8 minutes ago Description :Dell Rugged Control Center (RCC), versions prior to 5.2.206, contain an Improper Authorization...",
       "source": "CVE Feed",
       "published": "2026-09-24T19:17:17+00:00"
     },
     {
       "title": "CVE-2026-81455 - Dell ThinOS Missing Authentication for Critical Function Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-81455",
-      "summary": "CVE ID :CVE-2026-81455 Published : Sept. 24, 2026, 7:17 p.m. | 1 hour, 43 minutes ago Description :Dell ThinOS 10, versions prior to SecurityAddon_2605.10.2766_T10, contain a Missing Authentication...",
+      "summary": "CVE ID :CVE-2026-81455 Published : Sept. 24, 2026, 7:17 p.m. | 7 hours, 8 minutes ago Description :Dell ThinOS 10, versions prior to SecurityAddon_2605.10.2766_T10, contain a Missing Authentication...",
       "source": "CVE Feed",
       "published": "2026-09-24T19:17:17+00:00"
     },
     {
-      "title": "CVE-2026-77294 - TREK: Server-Side Request Forgery via User-Configurable LLM Base URL",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-77294",
-      "summary": "CVE ID :CVE-2026-77294 Published : Sept. 24, 2026, 7:17 p.m. | 1 hour, 43 minutes ago Description :TREK is a collaborative travel planner. Prior to 3.3.0, TREK allows an authenticated user to store...",
-      "source": "CVE Feed",
-      "published": "2026-09-24T19:17:16+00:00"
-    },
-    {
-      "title": "CVE-2026-61825 - code16/sharp has a stored XSS via data-html-content Sanitizer Bypass",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-61825",
-      "summary": "CVE ID :CVE-2026-61825 Published : Sept. 24, 2026, 7:17 p.m. | 1 hour, 43 minutes ago Description :code16 Sharp is a Laravel-based framework for building content-management and administrative...",
-      "source": "CVE Feed",
-      "published": "2026-09-24T19:17:15+00:00"
-    },
-    {
-      "title": "CVE-2026-13249 - Unauthenticated RCE Arbitrary File Upload Honeywell PD45 Industrial Printer version F10.19.010040",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-13249",
-      "summary": "CVE ID :CVE-2026-13249 Published : Sept. 24, 2026, 7:17 p.m. | 1 hour, 43 minutes ago Description :An unauthenticated Remote Code Execution via Arbitrary File Upload vulnerability in the web...",
-      "source": "CVE Feed",
-      "published": "2026-09-24T19:17:13+00:00"
+      "title": "Rydox cybercriminal marketplace operator pleads guilty following co-conspirator brothers’s deportation",
+      "link": "https://therecord.media/rydox-criminal-marketplace-operator-pleads-guilty",
+      "summary": "Ardit Kutleshi, 28, was extradited from his home country of Kosovo last year after prosecutors accused him and his older brother of running Rydox — an illicit platform used by cybercriminals to sell...",
+      "source": "The Record",
+      "published": "2026-09-24T18:57:00+00:00"
     },
     {
       "title": "Unpatched OnePlus Flaws Let Installed Android Apps Gain Root Without Permissions",
@@ -282,6 +303,13 @@
       "published": "2026-09-24T14:02:12+00:00"
     },
     {
+      "title": "Kyiv internet providers report major outages after Russian attacks damage data centers",
+      "link": "https://therecord.media/kyiv-internet-providers-report-outages-after-russian-strikes",
+      "summary": "At least four internet providers serving Kyiv and other parts of Ukraine suffered partial connectivity losses following Wednesday’s drone attack, according to internet monitoring group NetBlocks.",
+      "source": "The Record",
+      "published": "2026-09-24T13:30:00+00:00"
+    },
+    {
       "title": "Ghost Service Accounts Enable M365 Data Theft in Chile",
       "link": "https://www.darkreading.com/cyberattacks-data-breaches/ghost-service-accounts-m365-data-theft-chile",
       "summary": "Even if the organization locks down employee accounts, forgotten and lost service accounts can still undo the organization's entire M365 environment.",
@@ -296,17 +324,24 @@
       "published": "2026-09-24T13:27:57+00:00"
     },
     {
-      "title": "The Not So Silent Miner: Threat Actor Compiles Cryptominer on the Endpoint",
-      "link": "https://www.huntress.com/blog/threat-actor-compiles-cryptominer",
-      "summary": "The Not So Silent Miner: Threat Actor Compiles Cryptominer on the Endpoint BackgroundHuntress researchers recently came across a unique incident where, after gaining initial access via exploiting a...",
-      "source": "CVE Newsroom",
-      "published": "2026-09-24T13:00:00+00:00"
+      "title": "Astrana latest healthcare tech firm to report data breach to SEC",
+      "link": "https://therecord.media/astrana-cyberattack-sec-ransomware",
+      "summary": "The healthcare firm Astrana warned regulators that hackers accessed confidential information by impersonating company personnel.",
+      "source": "The Record",
+      "published": "2026-09-24T13:15:00+00:00"
     },
     {
       "title": "Prompt-Injection Bug Hits $4B Agentic AI App 'Manus'",
       "link": "https://www.darkreading.com/application-security/prompt-injection-bug-agentic-ai-app-manus",
       "summary": "AI apps that interpret external data (read: most AI apps) need exceptionally rigorous security filters, or attackers can take advantage.",
       "source": "Dark Reading",
+      "published": "2026-09-24T13:00:00+00:00"
+    },
+    {
+      "title": "The Not So Silent Miner: Threat Actor Compiles Cryptominer on the Endpoint",
+      "link": "https://www.huntress.com/blog/threat-actor-compiles-cryptominer",
+      "summary": "The Not So Silent Miner: Threat Actor Compiles Cryptominer on the Endpoint BackgroundHuntress researchers recently came across a unique incident where, after gaining initial access via exploiting a...",
+      "source": "CVE Newsroom",
       "published": "2026-09-24T13:00:00+00:00"
     },
     {
@@ -345,17 +380,17 @@
       "published": "2026-09-24T11:05:16+00:00"
     },
     {
-      "title": "Secrets Sprawl Is an Identity Problem That AI Just Made Impossible to Ignore",
-      "link": "https://thehackernews.com/2026/09/secrets-sprawl-is-identity-problem-that.html",
-      "summary": "AI coding agents are changing how quickly developers can build and ship software as well as how quickly credentials can become exposed. According to GitGuardian’s 2026 State of Secrets Sprawl Report...",
-      "source": "The Hacker News",
-      "published": "2026-09-24T11:00:00+00:00"
-    },
-    {
       "title": "Begin at the End: How to Enable Agentic Remediation",
       "link": "https://www.securityweek.com/begin-at-the-end-how-to-enable-agentic-remediation/",
       "summary": "Agentic remediation is not an act of faith. We are talking about fixing known problems, not judgment calls about unfamiliar risk. The post Begin at the End: How to Enable Agentic Remediation appeared...",
       "source": "SecurityWeek",
+      "published": "2026-09-24T11:00:00+00:00"
+    },
+    {
+      "title": "Secrets Sprawl Is an Identity Problem That AI Just Made Impossible to Ignore",
+      "link": "https://thehackernews.com/2026/09/secrets-sprawl-is-identity-problem-that.html",
+      "summary": "AI coding agents are changing how quickly developers can build and ship software as well as how quickly credentials can become exposed. According to GitGuardian’s 2026 State of Secrets Sprawl Report...",
+      "source": "The Hacker News",
       "published": "2026-09-24T11:00:00+00:00"
     },
     {
