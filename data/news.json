@@ -1,180 +1,194 @@
 {
-  "last_updated": "2026-09-27T07:21:48.279103+00:00",
+  "last_updated": "2026-09-27T13:25:02.063540+00:00",
   "articles": [
+    {
+      "title": "CVE-2026-93302 - Trusted peer certificate match ignores public key, allowing forged CA clones",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-93302",
+      "summary": "CVE ID :CVE-2026-93302 Published : Sept. 27, 2026, 10:16 a.m. | 2 hours, 45 minutes ago Description :MatchTrustedPeer ignores the public key used, leading to forged CA clones passing verification...",
+      "source": "CVE Feed",
+      "published": "2026-09-27T10:16:59+00:00"
+    },
+    {
+      "title": "CVE-2026-89136 - Client accepts unsolicited RawPublicKey server certificate type",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-89136",
+      "summary": "CVE ID :CVE-2026-89136 Published : Sept. 27, 2026, 10:16 a.m. | 2 hours, 45 minutes ago Description :When using RPK (Raw Public Key), the client side of a TLS 1.2, 1.3 and DTLS 1.2 connection could...",
+      "source": "CVE Feed",
+      "published": "2026-09-27T10:16:59+00:00"
+    },
+    {
+      "title": "CVE-2026-89102 - OCSP stapling v2 multi accepts non-CA chain certificates as issuers",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-89102",
+      "summary": "CVE ID :CVE-2026-89102 Published : Sept. 27, 2026, 10:16 a.m. | 2 hours, 45 minutes ago Description :In wolfSSL versions 5.7.2 through 5.9.2 there is a client-side implementation flaw in RFC 6961...",
+      "source": "CVE Feed",
+      "published": "2026-09-27T10:16:58+00:00"
+    },
+    {
+      "title": "Microsoft SharePoint Flaw CVE-2026-65660 Now Exploited in Attacks",
+      "link": "https://www.securityweek.com/microsoft-sharepoint-flaw-cve-2026-65660-now-exploited-in-attacks/",
+      "summary": "CISA added CVE-2026-65660 to its KEV catalog, giving federal agencies a patching deadline of September 28. The post Microsoft SharePoint Flaw CVE-2026-65660 Now Exploited in Attacks appeared first on...",
+      "source": "SecurityWeek",
+      "published": "2026-09-27T09:23:09+00:00"
+    },
+    {
+      "title": "CVE-2026-100741 - Improper Neutralization of Directives in Dynamically Evaluated Code ('Eval Injection') in hMailServer",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-100741",
+      "summary": "CVE ID :CVE-2026-100741 Published : Sept. 27, 2026, 8:16 a.m. | 4 hours, 45 minutes ago Description :Eval injection in the JScript event-script dispatcher in Progressive Robot Ltd's hMailServer...",
+      "source": "CVE Feed",
+      "published": "2026-09-27T08:16:26+00:00"
+    },
+    {
+      "title": "Warning: Two Unpatched Citrix NetScaler RCE Zero-Days Under Active Exploitation",
+      "link": "https://thehackernews.com/2026/09/warning-two-unpatched-citrix-netscaler.html",
+      "summary": "Two new unpatched zero-day vulnerabilities in Citrix NetScaler ADC and NetScaler Gateway appliances that allow remote code execution are being actively exploited in the wild, security firm watchTowr...",
+      "source": "The Hacker News",
+      "published": "2026-09-27T07:47:57+00:00"
+    },
     {
       "title": "CVE-2026-100865 - Heym before 0.0.53 Multiple RCE and Authentication Bypass Vulnerabilities",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-100865",
-      "summary": "CVE ID :CVE-2026-100865 Published : Sept. 27, 2026, 2:17 a.m. | 4 hours, 14 minutes ago Description :Heym before 0.0.53 contains multiple independent vulnerabilities. (1) The workflow condition...",
+      "summary": "CVE ID :CVE-2026-100865 Published : Sept. 27, 2026, 2:17 a.m. | 10 hours, 44 minutes ago Description :Heym before 0.0.53 contains multiple independent vulnerabilities. (1) The workflow condition...",
       "source": "CVE Feed",
       "published": "2026-09-27T02:17:26+00:00"
     },
     {
       "title": "CVE-2026-100864 - heym before 0.0.91 Remote Code Execution via Expression Engine",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-100864",
-      "summary": "CVE ID :CVE-2026-100864 Published : Sept. 27, 2026, 2:17 a.m. | 4 hours, 14 minutes ago Description :heym before 0.0.91 contains a sandbox escape vulnerability in the expression engine's DotList...",
+      "summary": "CVE ID :CVE-2026-100864 Published : Sept. 27, 2026, 2:17 a.m. | 10 hours, 44 minutes ago Description :heym before 0.0.91 contains a sandbox escape vulnerability in the expression engine's DotList...",
       "source": "CVE Feed",
       "published": "2026-09-27T02:17:26+00:00"
     },
     {
       "title": "CVE-2026-100857 - AzuraCast before 0.23.4 Remote Code Execution via Liquidsoap string interpolation",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-100857",
-      "summary": "CVE ID :CVE-2026-100857 Published : Sept. 27, 2026, 2:17 a.m. | 4 hours, 14 minutes ago Description :AzuraCast before 0.23.4 contains a code injection vulnerability in the...",
+      "summary": "CVE ID :CVE-2026-100857 Published : Sept. 27, 2026, 2:17 a.m. | 10 hours, 44 minutes ago Description :AzuraCast before 0.23.4 contains a code injection vulnerability in the...",
       "source": "CVE Feed",
       "published": "2026-09-27T02:17:25+00:00"
     },
     {
       "title": "CVE-2026-100856 - AzuraCast before 0.23.6 Code Injection via Remote Relay Password",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-100856",
-      "summary": "CVE ID :CVE-2026-100856 Published : Sept. 27, 2026, 2:17 a.m. | 4 hours, 14 minutes ago Description :AzuraCast before 0.23.6 contains a code injection vulnerability in the remote relay password field...",
+      "summary": "CVE ID :CVE-2026-100856 Published : Sept. 27, 2026, 2:17 a.m. | 10 hours, 44 minutes ago Description :AzuraCast before 0.23.6 contains a code injection vulnerability in the remote relay password...",
       "source": "CVE Feed",
       "published": "2026-09-27T02:17:25+00:00"
     },
     {
       "title": "CVE-2026-100853 - AzuraCast before 0.23.8 On-Demand Download Endpoint Authorization Bypass",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-100853",
-      "summary": "CVE ID :CVE-2026-100853 Published : Sept. 27, 2026, 2:17 a.m. | 4 hours, 14 minutes ago Description :In AzuraCast before 0.23.8, the public On-Demand download endpoint fails to verify playlist-level...",
+      "summary": "CVE ID :CVE-2026-100853 Published : Sept. 27, 2026, 2:17 a.m. | 10 hours, 44 minutes ago Description :In AzuraCast before 0.23.8, the public On-Demand download endpoint fails to verify playlist-level...",
       "source": "CVE Feed",
       "published": "2026-09-27T02:17:24+00:00"
     },
     {
       "title": "CVE-2026-100852 - AzuraCast through 0.23.x Command Injection via Streamer Username",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-100852",
-      "summary": "CVE ID :CVE-2026-100852 Published : Sept. 27, 2026, 2:17 a.m. | 4 hours, 14 minutes ago Description :AzuraCast through 0.23.x contains a command injection vulnerability in the Liquidsoap config...",
+      "summary": "CVE ID :CVE-2026-100852 Published : Sept. 27, 2026, 2:17 a.m. | 10 hours, 44 minutes ago Description :AzuraCast through 0.23.x contains a command injection vulnerability in the Liquidsoap config...",
       "source": "CVE Feed",
       "published": "2026-09-27T02:17:24+00:00"
     },
     {
       "title": "CVE-2026-100847 - AzuraCast before 0.23.8 DQL Injection via sortOrder",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-100847",
-      "summary": "CVE ID :CVE-2026-100847 Published : Sept. 27, 2026, 2:17 a.m. | 4 hours, 14 minutes ago Description :AzuraCast before 0.23.8 contains a DQL injection vulnerability in the sortOrder API parameter of...",
+      "summary": "CVE ID :CVE-2026-100847 Published : Sept. 27, 2026, 2:17 a.m. | 10 hours, 44 minutes ago Description :AzuraCast before 0.23.8 contains a DQL injection vulnerability in the sortOrder API parameter of...",
       "source": "CVE Feed",
       "published": "2026-09-27T02:17:23+00:00"
     },
     {
       "title": "CVE-2026-100846 - MONAI before 1.5.2 Remote Code Execution via Pickle Deserialization",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-100846",
-      "summary": "CVE ID :CVE-2026-100846 Published : Sept. 27, 2026, 2:17 a.m. | 4 hours, 14 minutes ago Description :MONAI before 1.5.2 contains a deserialization of untrusted data vulnerability in the...",
+      "summary": "CVE ID :CVE-2026-100846 Published : Sept. 27, 2026, 2:17 a.m. | 10 hours, 44 minutes ago Description :MONAI before 1.5.2 contains a deserialization of untrusted data vulnerability in the...",
       "source": "CVE Feed",
       "published": "2026-09-27T02:17:23+00:00"
     },
     {
       "title": "CVE-2026-100845 - MONAI before 1.6.0 Remote Code Execution via NumpyReader",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-100845",
-      "summary": "CVE ID :CVE-2026-100845 Published : Sept. 27, 2026, 2:17 a.m. | 4 hours, 14 minutes ago Description :MONAI before 1.6.0 contains an unsafe deserialization vulnerability in the NumpyReader class that...",
+      "summary": "CVE ID :CVE-2026-100845 Published : Sept. 27, 2026, 2:17 a.m. | 10 hours, 44 minutes ago Description :MONAI before 1.6.0 contains an unsafe deserialization vulnerability in the NumpyReader class that...",
       "source": "CVE Feed",
       "published": "2026-09-27T02:17:23+00:00"
     },
     {
       "title": "CVE-2026-100844 - MONAI before 1.6.0 OS Command Injection via dataset_name_or_id",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-100844",
-      "summary": "CVE ID :CVE-2026-100844 Published : Sept. 27, 2026, 2:17 a.m. | 4 hours, 14 minutes ago Description :MONAI before 1.6.0 is vulnerable to OS command injection in the nnUNetV2Runner component...",
+      "summary": "CVE ID :CVE-2026-100844 Published : Sept. 27, 2026, 2:17 a.m. | 10 hours, 44 minutes ago Description :MONAI before 1.6.0 is vulnerable to OS command injection in the nnUNetV2Runner component...",
       "source": "CVE Feed",
       "published": "2026-09-27T02:17:22+00:00"
     },
     {
       "title": "CVE-2026-100843 - MONAI before 1.6.0 Remote Code Execution via algo_from_pickle",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-100843",
-      "summary": "CVE ID :CVE-2026-100843 Published : Sept. 27, 2026, 2:17 a.m. | 4 hours, 14 minutes ago Description :MONAI versions before 1.6.0 contain a remote code execution vulnerability in the...",
+      "summary": "CVE ID :CVE-2026-100843 Published : Sept. 27, 2026, 2:17 a.m. | 10 hours, 44 minutes ago Description :MONAI versions before 1.6.0 contain a remote code execution vulnerability in the...",
       "source": "CVE Feed",
       "published": "2026-09-27T02:17:22+00:00"
     },
     {
       "title": "CVE-2026-100841 - MONAI 1.6.0 PersistentDataset Remote Code Execution via Pickle Cache",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-100841",
-      "summary": "CVE ID :CVE-2026-100841 Published : Sept. 27, 2026, 2:17 a.m. | 4 hours, 14 minutes ago Description :In MONAI 1.6.0, PersistentDataset (monai/data/dataset.py) explicitly rejects the combination...",
+      "summary": "CVE ID :CVE-2026-100841 Published : Sept. 27, 2026, 2:17 a.m. | 10 hours, 44 minutes ago Description :In MONAI 1.6.0, PersistentDataset (monai/data/dataset.py) explicitly rejects the combination...",
       "source": "CVE Feed",
       "published": "2026-09-27T02:17:22+00:00"
     },
     {
       "title": "CVE-2026-100840 - MONAI through 1.6.0 Remote Code Execution via bundle configuration",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-100840",
-      "summary": "CVE ID :CVE-2026-100840 Published : Sept. 27, 2026, 2:17 a.m. | 4 hours, 14 minutes ago Description :MONAI through 1.6.0 contains a remote code execution vulnerability in the bundle configuration...",
+      "summary": "CVE ID :CVE-2026-100840 Published : Sept. 27, 2026, 2:17 a.m. | 10 hours, 44 minutes ago Description :MONAI through 1.6.0 contains a remote code execution vulnerability in the bundle configuration...",
       "source": "CVE Feed",
       "published": "2026-09-27T02:17:22+00:00"
     },
     {
       "title": "CVE-2026-100839 - Contrast before 1.18.0 AML Injection Remote Code Execution",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-100839",
-      "summary": "CVE ID :CVE-2026-100839 Published : Sept. 27, 2026, 2:17 a.m. | 4 hours, 14 minutes ago Description :Contrast is a confidential-computing runtime for Kubernetes. In versions before 1.18.0, the guest...",
+      "summary": "CVE ID :CVE-2026-100839 Published : Sept. 27, 2026, 2:17 a.m. | 10 hours, 44 minutes ago Description :Contrast is a confidential-computing runtime for Kubernetes. In versions before 1.18.0, the guest...",
       "source": "CVE Feed",
       "published": "2026-09-27T02:17:22+00:00"
     },
     {
       "title": "CVE-2026-100838 - Contrast before 1.19.1 CopyFile Policy Symlink Subversion",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-100838",
-      "summary": "CVE ID :CVE-2026-100838 Published : Sept. 27, 2026, 2:17 a.m. | 4 hours, 14 minutes ago Description :Contrast is a confidential-computing runtime for Kubernetes. In versions before 1.19.1, the Kata...",
+      "summary": "CVE ID :CVE-2026-100838 Published : Sept. 27, 2026, 2:17 a.m. | 10 hours, 44 minutes ago Description :Contrast is a confidential-computing runtime for Kubernetes. In versions before 1.19.1, the Kata...",
       "source": "CVE Feed",
       "published": "2026-09-27T02:17:22+00:00"
     },
     {
       "title": "CVE-2026-100835 - Contrast before 1.16.0 Remote Attestation Relay Attack",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-100835",
-      "summary": "CVE ID :CVE-2026-100835 Published : Sept. 27, 2026, 2:17 a.m. | 4 hours, 14 minutes ago Description :Contrast before 1.16.0 is susceptible to remote attestation relay attacks. Contrast accepted any...",
+      "summary": "CVE ID :CVE-2026-100835 Published : Sept. 27, 2026, 2:17 a.m. | 10 hours, 44 minutes ago Description :Contrast before 1.16.0 is susceptible to remote attestation relay attacks. Contrast accepted any...",
       "source": "CVE Feed",
       "published": "2026-09-27T02:17:21+00:00"
     },
     {
       "title": "CVE-2026-100834 - http4k before 6.48.0.0 Digest Authentication Replay Protection Bypass",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-100834",
-      "summary": "CVE ID :CVE-2026-100834 Published : Sept. 27, 2026, 2:17 a.m. | 4 hours, 14 minutes ago Description :http4k's Digest authentication module (org.http4k:http4k-security-digest) before versions...",
+      "summary": "CVE ID :CVE-2026-100834 Published : Sept. 27, 2026, 2:17 a.m. | 10 hours, 44 minutes ago Description :http4k's Digest authentication module (org.http4k:http4k-security-digest) before versions...",
       "source": "CVE Feed",
       "published": "2026-09-27T02:17:21+00:00"
     },
     {
       "title": "CVE-2026-100833 - Contrast before 1.23.1 Image Substitution via Policy Generation",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-100833",
-      "summary": "CVE ID :CVE-2026-100833 Published : Sept. 27, 2026, 2:17 a.m. | 4 hours, 14 minutes ago Description :Contrast (edgelesssys/contrast) versions 1.14.0 before 1.23.1 generate runtime policies that fail...",
+      "summary": "CVE ID :CVE-2026-100833 Published : Sept. 27, 2026, 2:17 a.m. | 10 hours, 44 minutes ago Description :Contrast (edgelesssys/contrast) versions 1.14.0 before 1.23.1 generate runtime policies that fail...",
       "source": "CVE Feed",
       "published": "2026-09-27T02:17:21+00:00"
     },
     {
       "title": "CVE-2026-100725 - http4k before 6.48.0.0 Cookie Scoping Bypass via BasicCookieStorage",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-100725",
-      "summary": "CVE ID :CVE-2026-100725 Published : Sept. 27, 2026, 2:17 a.m. | 4 hours, 14 minutes ago Description :http4k (Maven artifact org.http4k:http4k-core) before 6.48.0.0, 5.42.0.0, and 4.51.0.0 ships a...",
+      "summary": "CVE ID :CVE-2026-100725 Published : Sept. 27, 2026, 2:17 a.m. | 10 hours, 44 minutes ago Description :http4k (Maven artifact org.http4k:http4k-core) before 6.48.0.0, 5.42.0.0, and 4.51.0.0 ships a...",
       "source": "CVE Feed",
       "published": "2026-09-27T02:17:20+00:00"
     },
     {
       "title": "CVE-2026-100722 - vm2 before 3.12.2 Host Process Termination via Construct Trap",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-100722",
-      "summary": "CVE ID :CVE-2026-100722 Published : Sept. 27, 2026, 2:17 a.m. | 4 hours, 14 minutes ago Description :vm2 before 3.12.2 does not apply host-side Promise rejection handling in the sandbox-to-host...",
+      "summary": "CVE ID :CVE-2026-100722 Published : Sept. 27, 2026, 2:17 a.m. | 10 hours, 44 minutes ago Description :vm2 before 3.12.2 does not apply host-side Promise rejection handling in the sandbox-to-host...",
       "source": "CVE Feed",
       "published": "2026-09-27T02:17:18+00:00"
     },
     {
       "title": "CVE-2026-100721 - vm2 before 3.12.2 Authorization Bypass via Custom Resolver",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-100721",
-      "summary": "CVE ID :CVE-2026-100721 Published : Sept. 27, 2026, 2:17 a.m. | 4 hours, 14 minutes ago Description :vm2 before 3.12.2 contains an authorization bypass in the NodeVM external-module resolver. When an...",
+      "summary": "CVE ID :CVE-2026-100721 Published : Sept. 27, 2026, 2:17 a.m. | 10 hours, 44 minutes ago Description :vm2 before 3.12.2 contains an authorization bypass in the NodeVM external-module resolver. When...",
       "source": "CVE Feed",
       "published": "2026-09-27T02:17:17+00:00"
-    },
-    {
-      "title": "CVE-2025-71425 - Contrast before 1.8.1 Information Disclosure via Logging",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2025-71425",
-      "summary": "CVE ID :CVE-2025-71425 Published : Sept. 27, 2026, 2:17 a.m. | 4 hours, 14 minutes ago Description :Contrast (Edgeless Systems) before 1.8.1 logs the workload secret to stderr, and thus to Kubernetes...",
-      "source": "CVE Feed",
-      "published": "2026-09-27T02:17:16+00:00"
-    },
-    {
-      "title": "CVE-2025-71423 - Edgelesssys Contrast before 1.12.2 Workload Secrets Information Disclosure",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2025-71423",
-      "summary": "CVE ID :CVE-2025-71423 Published : Sept. 27, 2026, 2:17 a.m. | 4 hours, 14 minutes ago Description :Edgelesssys Contrast is a confidential-computing runtime for Kubernetes. In versions 1.9.0 before...",
-      "source": "CVE Feed",
-      "published": "2026-09-27T02:17:15+00:00"
-    },
-    {
-      "title": "CVE-2026-100740 - D-Link DIR-895L L2TP Control Channel tunnel.c tunnel_set_params out-of-bounds write",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-100740",
-      "summary": "CVE ID :CVE-2026-100740 Published : Sept. 27, 2026, 1:17 a.m. | 5 hours, 14 minutes ago Description :A vulnerability was detected in D-Link DIR-895L A1_102b07. Impacted is the function...",
-      "source": "CVE Feed",
-      "published": "2026-09-27T01:17:17+00:00"
-    },
-    {
-      "title": "CVE-2026-82901 - Ultra Addons for Contact Form 7 <= 3.5.50 - Unauthenticated Arbitrary File Upload via Signature Form Field",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-82901",
-      "summary": "CVE ID :CVE-2026-82901 Published : Sept. 26, 2026, 7:16 p.m. | 11 hours, 15 minutes ago Description :The Ultra Addons for Contact Form 7 plugin for WordPress is vulnerable to Arbitrary File Upload...",
-      "source": "CVE Feed",
-      "published": "2026-09-26T19:16:28+00:00"
     },
     {
       "title": "ShinyHunters uses WAF bypass trick in Oracle PeopleSoft attacks",
@@ -513,13 +527,6 @@
       "published": "2026-09-25T07:00:00+00:00"
     },
     {
-      "title": "Roundcube Webmail Vulnerability in Attackers’ Crosshairs",
-      "link": "https://www.securityweek.com/roundcube-webmail-vulnerability-in-attackers-crosshairs/",
-      "summary": "Tracked as CVE-2026-48842, the exploited bug is an SQL injection that can be exploited without authentication. The post Roundcube Webmail Vulnerability in Attackers’ Crosshairs appeared first on...",
-      "source": "SecurityWeek",
-      "published": "2026-09-25T06:57:40+00:00"
-    },
-    {
       "title": "Cloudflare Fixes Flaw That Let One Container Read Another Customer's Leftover Disk Data",
       "link": "https://thehackernews.com/2026/09/cloudflare-fixes-flaw-that-let-one.html",
       "summary": "A flaw in Cloudflare Containers let a paying customer read data that other customers' containers had left behind on the same server, Cloudflare and the researchers who found it said on Thursday. The...",
@@ -597,17 +604,17 @@
       "published": "2026-09-24T13:30:00+00:00"
     },
     {
-      "title": "Prompt-Injection Bug Hits $4B Agentic AI App 'Manus'",
-      "link": "https://www.darkreading.com/application-security/prompt-injection-bug-agentic-ai-app-manus",
-      "summary": "AI apps that interpret external data (read: most AI apps) need exceptionally rigorous security filters, or attackers can take advantage.",
-      "source": "Dark Reading",
-      "published": "2026-09-24T13:00:00+00:00"
-    },
-    {
       "title": "The Not So Silent Miner: Threat Actor Compiles Cryptominer on the Endpoint",
       "link": "https://www.huntress.com/blog/threat-actor-compiles-cryptominer",
       "summary": "The Not So Silent Miner: Threat Actor Compiles Cryptominer on the Endpoint BackgroundHuntress researchers recently came across a unique incident where, after gaining initial access via exploiting a...",
       "source": "CVE Newsroom",
+      "published": "2026-09-24T13:00:00+00:00"
+    },
+    {
+      "title": "Prompt-Injection Bug Hits $4B Agentic AI App 'Manus'",
+      "link": "https://www.darkreading.com/application-security/prompt-injection-bug-agentic-ai-app-manus",
+      "summary": "AI apps that interpret external data (read: most AI apps) need exceptionally rigorous security filters, or attackers can take advantage.",
+      "source": "Dark Reading",
       "published": "2026-09-24T13:00:00+00:00"
     },
     {
@@ -966,13 +973,6 @@
       "summary": "The threat actor known as SideCopy has been observed using spear-phishing lures to target academic institutions in India, expanding their strategic focus beyond government entities. \"SideCopy...",
       "source": "The Hacker News",
       "published": "2026-09-22T07:52:03+00:00"
-    },
-    {
-      "title": "One Hidden Meta Muse Setting Could Let Attackers Turn the AI Assistant Into a Backdoor",
-      "link": "https://thehackernews.com/2026/09/one-hidden-meta-muse-setting-could-let.html",
-      "summary": "Malware already running on a Mac can quietly take over Meta's Muse assistant and use the broad access its owner granted the app, security researcher Patrick Wardle has shown in a proof-of-concept...",
-      "source": "The Hacker News",
-      "published": "2026-09-22T06:33:57+00:00"
     },
     {
       "title": "How AI Agents Can Trigger Runaway Costs for Enterprises",
