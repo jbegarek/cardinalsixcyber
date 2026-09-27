@@ -1,24 +1,136 @@
 {
-  "last_updated": "2026-09-27T13:25:02.063540+00:00",
+  "last_updated": "2026-09-27T17:59:17.011961+00:00",
   "articles": [
+    {
+      "title": "CVE-2026-88778 - TCP Initial Sequence Number (ISN) prediction",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-88778",
+      "summary": "CVE ID :CVE-2026-88778 Published : Sept. 27, 2026, 4:43 p.m. | 19 minutes ago Description :Predictable exact value from previous values vulnerability in Citrix NetScaler ADC and Citrix NetScaler...",
+      "source": "CVE Feed",
+      "published": "2026-09-27T16:43:16+00:00"
+    },
+    {
+      "title": "CVE-2026-88777 - Memory overflow vulnerability leading to unpredictable or erroneous behavior or Denial of Service",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-88777",
+      "summary": "CVE ID :CVE-2026-88777 Published : Sept. 27, 2026, 4:37 p.m. | 24 minutes ago Description :Memory overflow vulnerability vulnerability in Citrix NetScaler ADC and Citrix NetScaler Gateway. This issue...",
+      "source": "CVE Feed",
+      "published": "2026-09-27T16:37:44+00:00"
+    },
+    {
+      "title": "CVE-2026-88776 - Memory overflow vulnerability leading to unpredictable or erroneous behavior or Denial of Service",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-88776",
+      "summary": "CVE ID :CVE-2026-88776 Published : Sept. 27, 2026, 4:36 p.m. | 25 minutes ago Description :Memory overflow vulnerability vulnerability in Citrix NetScaler ADC and Citrix NetScaler Gateway. This issue...",
+      "source": "CVE Feed",
+      "published": "2026-09-27T16:36:40+00:00"
+    },
+    {
+      "title": "CVE-2026-101050 - Heym before 0.0.53 Authentication Bypass via Telegram Webhook",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-101050",
+      "summary": "CVE ID :CVE-2026-101050 Published : Sept. 27, 2026, 4:28 p.m. | 33 minutes ago Description :Heym before 0.0.53 fails to verify the X-Telegram-Bot-Api-Secret-Token header on Telegram webhook endpoints...",
+      "source": "CVE Feed",
+      "published": "2026-09-27T16:28:28+00:00"
+    },
+    {
+      "title": "CVE-2026-101049 - Heym before 0.0.53 Slack Webhook Signature Verification Bypass",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-101049",
+      "summary": "CVE ID :CVE-2026-101049 Published : Sept. 27, 2026, 4:28 p.m. | 33 minutes ago Description :Heym before 0.0.53 fails to verify Slack request signatures when trigger nodes lack credential IDs or have...",
+      "source": "CVE Feed",
+      "published": "2026-09-27T16:28:28+00:00"
+    },
+    {
+      "title": "CVE-2026-88775 - Memory overflow vulnerability leading to unpredictable or erroneous behavior or Denial of Service",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-88775",
+      "summary": "CVE ID :CVE-2026-88775 Published : Sept. 27, 2026, 4:21 p.m. | 41 minutes ago Description :Vulnerability in Citrix NetScaler ADC and Citrix NetScaler Gateway. This issue affects ADC: before...",
+      "source": "CVE Feed",
+      "published": "2026-09-27T16:21:12+00:00"
+    },
+    {
+      "title": "CVE-2026-88773 - HTTP Request Smuggling",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-88773",
+      "summary": "CVE ID :CVE-2026-88773 Published : Sept. 27, 2026, 4:20 p.m. | 42 minutes ago Description :Inconsistent interpretation of HTTP requests ('HTTP Request/Response smuggling') vulnerability in Citrix...",
+      "source": "CVE Feed",
+      "published": "2026-09-27T16:20:08+00:00"
+    },
+    {
+      "title": "CVE-2026-88772 - Memory overflow vulnerability leading to Remote Code Execution or Denial of Service",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-88772",
+      "summary": "CVE ID :CVE-2026-88772 Published : Sept. 27, 2026, 4:09 p.m. | 52 minutes ago Description :Vulnerability in Citrix NetScaler ADC and Citrix NetScaler Gateway. This issue affects ADC: before...",
+      "source": "CVE Feed",
+      "published": "2026-09-27T16:09:56+00:00"
+    },
+    {
+      "title": "Citrix confirms two NetScaler RCE zero-days exploited in attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/citrix-admins-warned-to-shut-down-netscalers-over-2-exploited-zero-days/",
+      "summary": "Citrix has confirmed that two critical NetScaler remote code execution vulnerabilities, tracked as CVE-2026-88771 and CVE-2026-88772, are being exploited in attacks and that it has released security...",
+      "source": "BleepingComputer",
+      "published": "2026-09-27T16:02:37+00:00"
+    },
+    {
+      "title": "CVE-2026-88771 - A remote code execution vulnerability exists due to improper input validation, which can allow an unauthenticated attacker to execute arbitrary commands",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-88771",
+      "summary": "CVE ID :CVE-2026-88771 Published : Sept. 27, 2026, 4:02 p.m. | 1 hour ago Description :Improper input validation vulnerability in Citrix NetScaler ADC and Citrix NetScaler Gateway. This issue affects...",
+      "source": "CVE Feed",
+      "published": "2026-09-27T16:02:07+00:00"
+    },
+    {
+      "title": "Cloudflare fixes Containers cross-tenant flaw exposing customer data",
+      "link": "https://www.bleepingcomputer.com/news/security/cloudflare-fixes-containers-cross-tenant-flaw-exposing-customer-data/",
+      "summary": "Cloudflare has fixed a vulnerability in Containers and Sandboxes that allowed customers with a Workers Paid account to recover residual data from other customers' containers on the same physical...",
+      "source": "BleepingComputer",
+      "published": "2026-09-27T14:13:31+00:00"
+    },
+    {
+      "title": "Anthropic turns Claude into an AI marketplace with 2,000+ plugins and connectors",
+      "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-turns-claude-into-an-ai-marketplace-with-2-000-plus-plugins-and-connectors/",
+      "summary": "Anthropic has just announced a new Claude Marketplace, and it brings all AI-related tools into one place, including plugins, connectors, agents, and more. [...]",
+      "source": "BleepingComputer",
+      "published": "2026-09-27T13:38:40+00:00"
+    },
+    {
+      "title": "CVE-2026-100872 - Sylius 2.x before 2.1.16 and 2.2.9 Payment Amount Overwrite",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-100872",
+      "summary": "CVE ID :CVE-2026-100872 Published : Sept. 27, 2026, 1:16 p.m. | 3 hours, 45 minutes ago Description :Sylius versions before 2.1.16 and 2.2.9 fail to validate payment amounts during cart...",
+      "source": "CVE Feed",
+      "published": "2026-09-27T13:16:38+00:00"
+    },
+    {
+      "title": "CVE-2026-100871 - Sylius before 1.12.25, 1.13.17, 1.14.20, 2.1.16, and 2.2.9 JWT Audience Confusion Allows Admin API Authentication",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-100871",
+      "summary": "CVE ID :CVE-2026-100871 Published : Sept. 27, 2026, 1:16 p.m. | 3 hours, 45 minutes ago Description :Sylius versions before 1.12.25, 1.13.17, 1.14.20, 2.1.16, and 2.2.9 fail to include firewall...",
+      "source": "CVE Feed",
+      "published": "2026-09-27T13:16:38+00:00"
+    },
+    {
+      "title": "CVE-2026-100870 - Sylius before 1.12.25, 1.13.17, 1.14.20, 2.1.16, and 2.2.9 Admin Password Reset Poisoning via Host Header",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-100870",
+      "summary": "CVE ID :CVE-2026-100870 Published : Sept. 27, 2026, 1:16 p.m. | 3 hours, 45 minutes ago Description :Sylius versions before 1.12.25, 1.13.17, 1.14.20, 2.1.16, and 2.2.9 build administrator...",
+      "source": "CVE Feed",
+      "published": "2026-09-27T13:16:38+00:00"
+    },
+    {
+      "title": "CVE-2026-100869 - Sylius 2.x before 2.1.16 and 2.2.9 Arbitrary Payment Action via Shop API",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-100869",
+      "summary": "CVE ID :CVE-2026-100869 Published : Sept. 27, 2026, 1:16 p.m. | 3 hours, 45 minutes ago Description :Sylius versions before 2.1.16 and 2.2.9 fail to restrict payment request actions in the Shop API...",
+      "source": "CVE Feed",
+      "published": "2026-09-27T13:16:38+00:00"
+    },
     {
       "title": "CVE-2026-93302 - Trusted peer certificate match ignores public key, allowing forged CA clones",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-93302",
-      "summary": "CVE ID :CVE-2026-93302 Published : Sept. 27, 2026, 10:16 a.m. | 2 hours, 45 minutes ago Description :MatchTrustedPeer ignores the public key used, leading to forged CA clones passing verification...",
+      "summary": "CVE ID :CVE-2026-93302 Published : Sept. 27, 2026, 10:16 a.m. | 6 hours, 45 minutes ago Description :MatchTrustedPeer ignores the public key used, leading to forged CA clones passing verification...",
       "source": "CVE Feed",
       "published": "2026-09-27T10:16:59+00:00"
     },
     {
       "title": "CVE-2026-89136 - Client accepts unsolicited RawPublicKey server certificate type",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-89136",
-      "summary": "CVE ID :CVE-2026-89136 Published : Sept. 27, 2026, 10:16 a.m. | 2 hours, 45 minutes ago Description :When using RPK (Raw Public Key), the client side of a TLS 1.2, 1.3 and DTLS 1.2 connection could...",
+      "summary": "CVE ID :CVE-2026-89136 Published : Sept. 27, 2026, 10:16 a.m. | 6 hours, 45 minutes ago Description :When using RPK (Raw Public Key), the client side of a TLS 1.2, 1.3 and DTLS 1.2 connection could...",
       "source": "CVE Feed",
       "published": "2026-09-27T10:16:59+00:00"
     },
     {
       "title": "CVE-2026-89102 - OCSP stapling v2 multi accepts non-CA chain certificates as issuers",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-89102",
-      "summary": "CVE ID :CVE-2026-89102 Published : Sept. 27, 2026, 10:16 a.m. | 2 hours, 45 minutes ago Description :In wolfSSL versions 5.7.2 through 5.9.2 there is a client-side implementation flaw in RFC 6961...",
+      "summary": "CVE ID :CVE-2026-89102 Published : Sept. 27, 2026, 10:16 a.m. | 6 hours, 45 minutes ago Description :In wolfSSL versions 5.7.2 through 5.9.2 there is a client-side implementation flaw in RFC 6961...",
       "source": "CVE Feed",
       "published": "2026-09-27T10:16:58+00:00"
     },
@@ -32,163 +144,72 @@
     {
       "title": "CVE-2026-100741 - Improper Neutralization of Directives in Dynamically Evaluated Code ('Eval Injection') in hMailServer",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-100741",
-      "summary": "CVE ID :CVE-2026-100741 Published : Sept. 27, 2026, 8:16 a.m. | 4 hours, 45 minutes ago Description :Eval injection in the JScript event-script dispatcher in Progressive Robot Ltd's hMailServer...",
+      "summary": "CVE ID :CVE-2026-100741 Published : Sept. 27, 2026, 8:16 a.m. | 8 hours, 45 minutes ago Description :Eval injection in the JScript event-script dispatcher in Progressive Robot Ltd's hMailServer...",
       "source": "CVE Feed",
       "published": "2026-09-27T08:16:26+00:00"
     },
     {
       "title": "Warning: Two Unpatched Citrix NetScaler RCE Zero-Days Under Active Exploitation",
       "link": "https://thehackernews.com/2026/09/warning-two-unpatched-citrix-netscaler.html",
-      "summary": "Two new unpatched zero-day vulnerabilities in Citrix NetScaler ADC and NetScaler Gateway appliances that allow remote code execution are being actively exploited in the wild, security firm watchTowr...",
-      "source": "The Hacker News",
+      "summary": "Warning: Two Unpatched Citrix NetScaler RCE Zero-Days Under Active Exploitation Two new unpatched zero-day vulnerabilities in Citrix NetScaler ADC and NetScaler Gateway appliances that allow remote...",
+      "source": "CVE Newsroom",
       "published": "2026-09-27T07:47:57+00:00"
     },
     {
-      "title": "CVE-2026-100865 - Heym before 0.0.53 Multiple RCE and Authentication Bypass Vulnerabilities",
+      "title": "CVE-2026-100865 - Heym before 0.0.53 Remote Code Execution via eval() Sandbox Escape",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-100865",
-      "summary": "CVE ID :CVE-2026-100865 Published : Sept. 27, 2026, 2:17 a.m. | 10 hours, 44 minutes ago Description :Heym before 0.0.53 contains multiple independent vulnerabilities. (1) The workflow condition...",
+      "summary": "CVE ID :CVE-2026-100865 Published : Sept. 27, 2026, 2:17 a.m. | 14 hours, 44 minutes ago Description :Heym before 0.0.53 contains multiple independent vulnerabilities. (1) The workflow condition...",
       "source": "CVE Feed",
       "published": "2026-09-27T02:17:26+00:00"
     },
     {
       "title": "CVE-2026-100864 - heym before 0.0.91 Remote Code Execution via Expression Engine",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-100864",
-      "summary": "CVE ID :CVE-2026-100864 Published : Sept. 27, 2026, 2:17 a.m. | 10 hours, 44 minutes ago Description :heym before 0.0.91 contains a sandbox escape vulnerability in the expression engine's DotList...",
+      "summary": "CVE ID :CVE-2026-100864 Published : Sept. 27, 2026, 2:17 a.m. | 14 hours, 44 minutes ago Description :heym before 0.0.91 contains a sandbox escape vulnerability in the expression engine's DotList...",
       "source": "CVE Feed",
       "published": "2026-09-27T02:17:26+00:00"
     },
     {
       "title": "CVE-2026-100857 - AzuraCast before 0.23.4 Remote Code Execution via Liquidsoap string interpolation",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-100857",
-      "summary": "CVE ID :CVE-2026-100857 Published : Sept. 27, 2026, 2:17 a.m. | 10 hours, 44 minutes ago Description :AzuraCast before 0.23.4 contains a code injection vulnerability in the...",
+      "summary": "CVE ID :CVE-2026-100857 Published : Sept. 27, 2026, 2:17 a.m. | 14 hours, 44 minutes ago Description :AzuraCast before 0.23.4 contains a code injection vulnerability in the...",
       "source": "CVE Feed",
       "published": "2026-09-27T02:17:25+00:00"
     },
     {
       "title": "CVE-2026-100856 - AzuraCast before 0.23.6 Code Injection via Remote Relay Password",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-100856",
-      "summary": "CVE ID :CVE-2026-100856 Published : Sept. 27, 2026, 2:17 a.m. | 10 hours, 44 minutes ago Description :AzuraCast before 0.23.6 contains a code injection vulnerability in the remote relay password...",
+      "summary": "CVE ID :CVE-2026-100856 Published : Sept. 27, 2026, 2:17 a.m. | 14 hours, 44 minutes ago Description :AzuraCast before 0.23.6 contains a code injection vulnerability in the remote relay password...",
       "source": "CVE Feed",
       "published": "2026-09-27T02:17:25+00:00"
     },
     {
       "title": "CVE-2026-100853 - AzuraCast before 0.23.8 On-Demand Download Endpoint Authorization Bypass",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-100853",
-      "summary": "CVE ID :CVE-2026-100853 Published : Sept. 27, 2026, 2:17 a.m. | 10 hours, 44 minutes ago Description :In AzuraCast before 0.23.8, the public On-Demand download endpoint fails to verify playlist-level...",
+      "summary": "CVE ID :CVE-2026-100853 Published : Sept. 27, 2026, 2:17 a.m. | 14 hours, 44 minutes ago Description :In AzuraCast before 0.23.8, the public On-Demand download endpoint fails to verify playlist-level...",
       "source": "CVE Feed",
       "published": "2026-09-27T02:17:24+00:00"
     },
     {
-      "title": "CVE-2026-100852 - AzuraCast through 0.23.x Command Injection via Streamer Username",
+      "title": "CVE-2026-100852 - AzuraCast before 0.23.8 Command Injection via Streamer Username",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-100852",
-      "summary": "CVE ID :CVE-2026-100852 Published : Sept. 27, 2026, 2:17 a.m. | 10 hours, 44 minutes ago Description :AzuraCast through 0.23.x contains a command injection vulnerability in the Liquidsoap config...",
+      "summary": "CVE ID :CVE-2026-100852 Published : Sept. 27, 2026, 2:17 a.m. | 14 hours, 44 minutes ago Description :AzuraCast through 0.23.x contains a command injection vulnerability in the Liquidsoap config...",
       "source": "CVE Feed",
       "published": "2026-09-27T02:17:24+00:00"
     },
     {
       "title": "CVE-2026-100847 - AzuraCast before 0.23.8 DQL Injection via sortOrder",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-100847",
-      "summary": "CVE ID :CVE-2026-100847 Published : Sept. 27, 2026, 2:17 a.m. | 10 hours, 44 minutes ago Description :AzuraCast before 0.23.8 contains a DQL injection vulnerability in the sortOrder API parameter of...",
+      "summary": "CVE ID :CVE-2026-100847 Published : Sept. 27, 2026, 2:17 a.m. | 14 hours, 44 minutes ago Description :AzuraCast before 0.23.8 contains a DQL injection vulnerability in the sortOrder API parameter of...",
       "source": "CVE Feed",
       "published": "2026-09-27T02:17:23+00:00"
     },
     {
       "title": "CVE-2026-100846 - MONAI before 1.5.2 Remote Code Execution via Pickle Deserialization",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-100846",
-      "summary": "CVE ID :CVE-2026-100846 Published : Sept. 27, 2026, 2:17 a.m. | 10 hours, 44 minutes ago Description :MONAI before 1.5.2 contains a deserialization of untrusted data vulnerability in the...",
+      "summary": "CVE ID :CVE-2026-100846 Published : Sept. 27, 2026, 2:17 a.m. | 14 hours, 44 minutes ago Description :MONAI before 1.5.2 contains a deserialization of untrusted data vulnerability in the...",
       "source": "CVE Feed",
       "published": "2026-09-27T02:17:23+00:00"
-    },
-    {
-      "title": "CVE-2026-100845 - MONAI before 1.6.0 Remote Code Execution via NumpyReader",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-100845",
-      "summary": "CVE ID :CVE-2026-100845 Published : Sept. 27, 2026, 2:17 a.m. | 10 hours, 44 minutes ago Description :MONAI before 1.6.0 contains an unsafe deserialization vulnerability in the NumpyReader class that...",
-      "source": "CVE Feed",
-      "published": "2026-09-27T02:17:23+00:00"
-    },
-    {
-      "title": "CVE-2026-100844 - MONAI before 1.6.0 OS Command Injection via dataset_name_or_id",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-100844",
-      "summary": "CVE ID :CVE-2026-100844 Published : Sept. 27, 2026, 2:17 a.m. | 10 hours, 44 minutes ago Description :MONAI before 1.6.0 is vulnerable to OS command injection in the nnUNetV2Runner component...",
-      "source": "CVE Feed",
-      "published": "2026-09-27T02:17:22+00:00"
-    },
-    {
-      "title": "CVE-2026-100843 - MONAI before 1.6.0 Remote Code Execution via algo_from_pickle",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-100843",
-      "summary": "CVE ID :CVE-2026-100843 Published : Sept. 27, 2026, 2:17 a.m. | 10 hours, 44 minutes ago Description :MONAI versions before 1.6.0 contain a remote code execution vulnerability in the...",
-      "source": "CVE Feed",
-      "published": "2026-09-27T02:17:22+00:00"
-    },
-    {
-      "title": "CVE-2026-100841 - MONAI 1.6.0 PersistentDataset Remote Code Execution via Pickle Cache",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-100841",
-      "summary": "CVE ID :CVE-2026-100841 Published : Sept. 27, 2026, 2:17 a.m. | 10 hours, 44 minutes ago Description :In MONAI 1.6.0, PersistentDataset (monai/data/dataset.py) explicitly rejects the combination...",
-      "source": "CVE Feed",
-      "published": "2026-09-27T02:17:22+00:00"
-    },
-    {
-      "title": "CVE-2026-100840 - MONAI through 1.6.0 Remote Code Execution via bundle configuration",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-100840",
-      "summary": "CVE ID :CVE-2026-100840 Published : Sept. 27, 2026, 2:17 a.m. | 10 hours, 44 minutes ago Description :MONAI through 1.6.0 contains a remote code execution vulnerability in the bundle configuration...",
-      "source": "CVE Feed",
-      "published": "2026-09-27T02:17:22+00:00"
-    },
-    {
-      "title": "CVE-2026-100839 - Contrast before 1.18.0 AML Injection Remote Code Execution",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-100839",
-      "summary": "CVE ID :CVE-2026-100839 Published : Sept. 27, 2026, 2:17 a.m. | 10 hours, 44 minutes ago Description :Contrast is a confidential-computing runtime for Kubernetes. In versions before 1.18.0, the guest...",
-      "source": "CVE Feed",
-      "published": "2026-09-27T02:17:22+00:00"
-    },
-    {
-      "title": "CVE-2026-100838 - Contrast before 1.19.1 CopyFile Policy Symlink Subversion",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-100838",
-      "summary": "CVE ID :CVE-2026-100838 Published : Sept. 27, 2026, 2:17 a.m. | 10 hours, 44 minutes ago Description :Contrast is a confidential-computing runtime for Kubernetes. In versions before 1.19.1, the Kata...",
-      "source": "CVE Feed",
-      "published": "2026-09-27T02:17:22+00:00"
-    },
-    {
-      "title": "CVE-2026-100835 - Contrast before 1.16.0 Remote Attestation Relay Attack",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-100835",
-      "summary": "CVE ID :CVE-2026-100835 Published : Sept. 27, 2026, 2:17 a.m. | 10 hours, 44 minutes ago Description :Contrast before 1.16.0 is susceptible to remote attestation relay attacks. Contrast accepted any...",
-      "source": "CVE Feed",
-      "published": "2026-09-27T02:17:21+00:00"
-    },
-    {
-      "title": "CVE-2026-100834 - http4k before 6.48.0.0 Digest Authentication Replay Protection Bypass",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-100834",
-      "summary": "CVE ID :CVE-2026-100834 Published : Sept. 27, 2026, 2:17 a.m. | 10 hours, 44 minutes ago Description :http4k's Digest authentication module (org.http4k:http4k-security-digest) before versions...",
-      "source": "CVE Feed",
-      "published": "2026-09-27T02:17:21+00:00"
-    },
-    {
-      "title": "CVE-2026-100833 - Contrast before 1.23.1 Image Substitution via Policy Generation",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-100833",
-      "summary": "CVE ID :CVE-2026-100833 Published : Sept. 27, 2026, 2:17 a.m. | 10 hours, 44 minutes ago Description :Contrast (edgelesssys/contrast) versions 1.14.0 before 1.23.1 generate runtime policies that fail...",
-      "source": "CVE Feed",
-      "published": "2026-09-27T02:17:21+00:00"
-    },
-    {
-      "title": "CVE-2026-100725 - http4k before 6.48.0.0 Cookie Scoping Bypass via BasicCookieStorage",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-100725",
-      "summary": "CVE ID :CVE-2026-100725 Published : Sept. 27, 2026, 2:17 a.m. | 10 hours, 44 minutes ago Description :http4k (Maven artifact org.http4k:http4k-core) before 6.48.0.0, 5.42.0.0, and 4.51.0.0 ships a...",
-      "source": "CVE Feed",
-      "published": "2026-09-27T02:17:20+00:00"
-    },
-    {
-      "title": "CVE-2026-100722 - vm2 before 3.12.2 Host Process Termination via Construct Trap",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-100722",
-      "summary": "CVE ID :CVE-2026-100722 Published : Sept. 27, 2026, 2:17 a.m. | 10 hours, 44 minutes ago Description :vm2 before 3.12.2 does not apply host-side Promise rejection handling in the sandbox-to-host...",
-      "source": "CVE Feed",
-      "published": "2026-09-27T02:17:18+00:00"
-    },
-    {
-      "title": "CVE-2026-100721 - vm2 before 3.12.2 Authorization Bypass via Custom Resolver",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-100721",
-      "summary": "CVE ID :CVE-2026-100721 Published : Sept. 27, 2026, 2:17 a.m. | 10 hours, 44 minutes ago Description :vm2 before 3.12.2 contains an authorization bypass in the NodeVM external-module resolver. When...",
-      "source": "CVE Feed",
-      "published": "2026-09-27T02:17:17+00:00"
     },
     {
       "title": "ShinyHunters uses WAF bypass trick in Oracle PeopleSoft attacks",
@@ -200,8 +221,8 @@
     {
       "title": "Lunex Stealer Abuses AMD Driver to Disable Security Monitoring and Steal Browser Credentials",
       "link": "https://thehackernews.com/2026/09/lunex-stealer-abuses-amd-driver-to.html",
-      "summary": "The Psychedelic Stealer malware distributed via compromised Ukrainian websites using ClickFix-style Cloudflare verification checks is part of a wider malware-as-a-service (MaaS) platform called...",
-      "source": "The Hacker News",
+      "summary": "Lunex Stealer Abuses AMD Driver to Disable Security Monitoring and Steal Browser Credentials The Psychedelic Stealer malware distributed via compromised Ukrainian websites using ClickFix-style...",
+      "source": "CVE Newsroom",
       "published": "2026-09-26T18:22:52+00:00"
     },
     {
@@ -249,8 +270,8 @@
     {
       "title": "Attackers Bypass WAFs to Exploit Oracle PeopleSoft Flaw and Deploy Web Shells",
       "link": "https://thehackernews.com/2026/09/attackers-bypass-wafs-to-exploit-oracle.html",
-      "summary": "Google is warning of renewed mass exploitation of a known security vulnerability in Oracle PeopleSoft as part of a campaign targeting multiple sectors globally. The ShinyHunters-linked activity...",
-      "source": "The Hacker News",
+      "summary": "Attackers Bypass WAFs to Exploit Oracle PeopleSoft Flaw and Deploy Web Shells Google is warning of renewed mass exploitation of a known security vulnerability in Oracle PeopleSoft as part of a...",
+      "source": "CVE Newsroom",
       "published": "2026-09-26T11:46:40+00:00"
     },
     {
@@ -277,8 +298,8 @@
     {
       "title": "SharePoint RCE and MikroTik RouterOS Flaws Actively Exploited in the Wild",
       "link": "https://thehackernews.com/2026/09/sharepoint-rce-and-mikrotik-routeros.html",
-      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added two security flaws impacting Microsoft SharePoint and Mikrotik RouterOS to its Known Exploited Vulnerabilities (KEV)...",
-      "source": "The Hacker News",
+      "summary": "SharePoint RCE and MikroTik RouterOS Flaws Actively Exploited in the Wild The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added two security flaws impacting Microsoft...",
+      "source": "CVE Newsroom",
       "published": "2026-09-26T08:49:53+00:00"
     },
     {
@@ -429,13 +450,6 @@
       "published": "2026-09-25T13:18:06+00:00"
     },
     {
-      "title": "Microsoft plans to deprecate Windows Deployment Services",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-to-deprecate-windows-deployment-services-after-windows-server-2025/",
-      "summary": "Microsoft announced it will deprecate the Windows Deployment Services (WDS) server role starting with the next Windows Server release. [...]",
-      "source": "BleepingComputer",
-      "published": "2026-09-25T12:40:59+00:00"
-    },
-    {
       "title": "CISA Election Security Plan Flags Patching Barriers, Voter Database Attacks",
       "link": "https://www.securityweek.com/cisa-election-security-plan-flags-patching-barriers-voter-database-attacks/",
       "summary": "Homeland Security Secretary Markwayne Mullin tasked CISA with developing the plan in July. The post CISA Election Security Plan Flags Patching Barriers, Voter Database Attacks appeared first on...",
@@ -455,13 +469,6 @@
       "summary": "Researchers are questioning whether an OpenAI agent needed to hack an Australian government health portal to access it, after a review of the website’s archived code found it explicitly directed...",
       "source": "The Record",
       "published": "2026-09-25T12:00:00+00:00"
-    },
-    {
-      "title": "Rydox marketplace admin pleads guilty, faces 22 years in prison",
-      "link": "https://www.bleepingcomputer.com/news/security/rydox-marketplace-admin-pleads-guilty-faces-22-years-in-prison/",
-      "summary": "A Kosovar national has pleaded guilty to operating Rydox, a large illegal online marketplace that sold stolen personal information, login credentials, credit card details, and cybercrime tools. [...]",
-      "source": "BleepingComputer",
-      "published": "2026-09-25T11:35:14+00:00"
     },
     {
       "title": "Roundcube Webmail SQL Injection-lek misbruikt bij aanvallen",
@@ -492,17 +499,10 @@
       "published": "2026-09-25T10:35:55+00:00"
     },
     {
-      "title": "Microsoft: Recent Windows updates cause desktop loading issues",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-recent-windows-updates-cause-desktop-loading-issues/",
-      "summary": "Microsoft has confirmed that some users may experience desktop loading issues, including black screens, after installing the August 2026 preview updates and subsequent updates. [...]",
-      "source": "BleepingComputer",
-      "published": "2026-09-25T10:30:38+00:00"
-    },
-    {
       "title": "Roundcube Pre-Auth SQL Injection Flaw Actively Exploited in the Wild",
       "link": "https://thehackernews.com/2026/09/roundcube-pre-auth-sql-injection-flaw.html",
-      "summary": "The Canadian Centre for Cyber Security has warned that a now-patched Roundcube Webmail vulnerability is being actively exploited in the wild. The vulnerability in question is CVE-2026-48842 (CVSS...",
-      "source": "The Hacker News",
+      "summary": "Roundcube Pre-Auth SQL Injection Flaw Actively Exploited in the Wild The Canadian Centre for Cyber Security has warned that a now-patched Roundcube Webmail vulnerability is being actively exploited...",
+      "source": "CVE Newsroom",
       "published": "2026-09-25T10:14:02+00:00"
     },
     {
@@ -536,8 +536,8 @@
     {
       "title": "WSO2 and Adobe Commerce Flaws Exploited in Attacks, Added to CISA KEV",
       "link": "https://thehackernews.com/2026/09/wso2-and-adobe-commerce-flaws-exploited.html",
-      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA), on Thursday, added two critical security flaws impacting WSO2 and Adobe Commerce and Magento to its Known Exploited Vulnerabilities...",
-      "source": "The Hacker News",
+      "summary": "WSO2 and Adobe Commerce Flaws Exploited in Attacks, Added to CISA KEV The U.S. Cybersecurity and Infrastructure Security Agency (CISA), on Thursday, added two critical security flaws impacting WSO2...",
+      "source": "CVE Newsroom",
       "published": "2026-09-25T04:46:34+00:00"
     },
     {
@@ -557,15 +557,15 @@
     {
       "title": "Unpatched OnePlus Flaws Let Installed Android Apps Gain Root Without Permissions",
       "link": "https://thehackernews.com/2026/09/unpatched-oneplus-flaws-let-installed.html",
-      "summary": "A OnePlus 15 running the latest OxygenOS can be rooted by a malicious app the owner installs, one that asks for no special permissions. A researcher, Rasmus Moorats, chained two flaws in OnePlus's...",
-      "source": "The Hacker News",
+      "summary": "Unpatched OnePlus Flaws Let Installed Android Apps Gain Root Without Permissions A OnePlus 15 running the latest OxygenOS can be rooted by a malicious app the owner installs, one that asks for no...",
+      "source": "CVE Newsroom",
       "published": "2026-09-24T18:10:18+00:00"
     },
     {
       "title": "ThreatsDay: AI Search Poisoning, AI Coding Tool Leaking Repos, One-Click Code Execution and 13 More Stories",
       "link": "https://thehackernews.com/2026/09/threatsday-ai-search-poisoning-ai.html",
-      "summary": "This week, the dangerous stuff keeps arriving dressed as something boring. An update. A login box. A search answer. A coding tool. A link you have clicked a hundred times before. That is the thread...",
-      "source": "The Hacker News",
+      "summary": "ThreatsDay: AI Search Poisoning, AI Coding Tool Leaking Repos, One-Click Code Execution and 13 More Stories This week, the dangerous stuff keeps arriving dressed as something boring. An update. A...",
+      "source": "CVE Newsroom",
       "published": "2026-09-24T17:52:43+00:00"
     },
     {
@@ -669,8 +669,8 @@
     {
       "title": "Attackers Exploit WordPress CVE-2026-87902 Within Hours of Disclosure",
       "link": "https://thehackernews.com/2026/09/attackers-exploit-wordpress-cve-2026.html",
-      "summary": "Threat actors have begun to actively exploit a critical security flaw in WordPress within hours of public disclosure. The vulnerability in question is CVE-2026-87902 (CVSS score: 9.2), which could...",
-      "source": "The Hacker News",
+      "summary": "Attackers Exploit WordPress CVE-2026-87902 Within Hours of Disclosure Threat actors have begun to actively exploit a critical security flaw in WordPress within hours of public disclosure. The...",
+      "source": "CVE Newsroom",
       "published": "2026-09-24T05:36:18+00:00"
     },
     {
@@ -711,8 +711,8 @@
     {
       "title": "MikroTrick Chain Let Attackers Take Over MikroTik Routers Without a Password or SSH Key",
       "link": "https://thehackernews.com/2026/09/mikrotrick-chain-let-attackers-take.html",
-      "summary": "Two MikroTik RouterOS SSH vulnerabilities chained together let attackers take full administrative control of Internet-exposed routers without a password, SSH key, or completed authentication. The...",
-      "source": "The Hacker News",
+      "summary": "MikroTrick Chain Let Attackers Take Over MikroTik Routers Without a Password or SSH Key Two MikroTik RouterOS SSH vulnerabilities chained together let attackers take full administrative control of...",
+      "source": "CVE Newsroom",
       "published": "2026-09-23T16:06:41+00:00"
     },
     {
@@ -760,8 +760,8 @@
     {
       "title": "New cPanel Flaw Lets a Hosting Account Run Code as Root, Take Full Server Control",
       "link": "https://thehackernews.com/2026/09/new-cpanel-flaw-lets-hosting-account_0272795595.html",
-      "summary": "A flaw in cPanel's CalDAV and CardDAV service lets anyone with a cPanel hosting account run code as root and take \"full control of the server,\" the company said on September 22. A second bug in the...",
-      "source": "The Hacker News",
+      "summary": "New cPanel Flaw Lets a Hosting Account Run Code as Root, Take Full Server Control A flaw in cPanel's CalDAV and CardDAV service lets anyone with a cPanel hosting account run code as root and take...",
+      "source": "CVE Newsroom",
       "published": "2026-09-23T12:16:00+00:00"
     },
     {
@@ -781,8 +781,8 @@
     {
       "title": "Exploit Released for Unpatched Ubuntu Linux Flaw Enabling Host-Root Container Escape",
       "link": "https://thehackernews.com/2026/09/exploit-released-for-unpatched-ubuntu.html",
-      "summary": "A use-after-free in the Linux kernel's AF_UNIX socket subsystem can be used to escape a container and gain root on the host, security firm DepthFirst said in research published September 22. The...",
-      "source": "The Hacker News",
+      "summary": "Exploit Released for Unpatched Ubuntu Linux Flaw Enabling Host-Root Container Escape A use-after-free in the Linux kernel's AF_UNIX socket subsystem can be used to escape a container and gain root on...",
+      "source": "CVE Newsroom",
       "published": "2026-09-23T11:12:18+00:00"
     },
     {
@@ -802,15 +802,15 @@
     {
       "title": "F5 Patches Critical BIG-IP APM Zero-Day Exploited for Unauthenticated RCE on OAuth Servers",
       "link": "https://thehackernews.com/2026/09/f5-patches-critical-big-ip-apm-zero-day.html",
-      "summary": "Attackers are exploiting a critical flaw in F5 BIG-IP Access Policy Manager (APM) that lets them run code on a BIG-IP system without logging in, F5 says. The flaw, CVE-2026-94127, affects only...",
-      "source": "The Hacker News",
+      "summary": "F5 Patches Critical BIG-IP APM Zero-Day Exploited for Unauthenticated RCE on OAuth Servers Attackers are exploiting a critical flaw in F5 BIG-IP Access Policy Manager (APM) that lets them run code on...",
+      "source": "CVE Newsroom",
       "published": "2026-09-23T08:29:48+00:00"
     },
     {
       "title": "Chinese Hackers Exploit Chrome-Windows Zero-Day Chain to Deploy CLEANGULP Malware",
       "link": "https://thehackernews.com/2026/09/chinese-hackers-exploit-chrome-windows.html",
-      "summary": "A Chinese threat actor codenamed UTA0565 has been observed exploiting the recently disclosed Google Chrome-Microsoft Windows exploit chain as zero-days through fake websites. The attacks, detected on...",
-      "source": "The Hacker News",
+      "summary": "Chinese Hackers Exploit Chrome-Windows Zero-Day Chain to Deploy CLEANGULP Malware A Chinese threat actor codenamed UTA0565 has been observed exploiting the recently disclosed Google Chrome-Microsoft...",
+      "source": "CVE Newsroom",
       "published": "2026-09-23T08:29:24+00:00"
     },
     {
