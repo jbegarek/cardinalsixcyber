@@ -1,12 +1,145 @@
 {
-  "last_updated": "2026-10-01T22:08:51.995125+00:00",
+  "last_updated": "2026-10-02T03:15:34.914872+00:00",
   "articles": [
+    {
+      "title": "CVE-2026-104480 - Improper MLS Welcome roster validation in Discord libdave allows unauthorized group membership",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-104480",
+      "summary": "CVE ID :CVE-2026-104480 Published : Oct. 2, 2026, 2:17 a.m. | 42 minutes ago Description :Discord libdave before 1.2.0 did not reject an MLS Welcome message when the resulting group roster contained...",
+      "source": "CVE Feed",
+      "published": "2026-10-02T02:17:02+00:00"
+    },
+    {
+      "title": "CVE-2026-86345 - 389-ds-base: 389-ds-base: starttls plaintext-buffer retention allows on-path attacker to forge an ldap client's authentication result",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-86345",
+      "summary": "CVE ID :CVE-2026-86345 Published : Oct. 2, 2026, 12:17 a.m. | 2 hours, 42 minutes ago Description :A flaw was found in 389-ds-base. The server does not discard plaintext bytes already buffered from a...",
+      "source": "CVE Feed",
+      "published": "2026-10-02T00:17:04+00:00"
+    },
+    {
+      "title": "CVE-2026-103766 - ClipBucket v5 through 5.5.3-#197 SQL Injection via ads_manager.php delete Parameter",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-103766",
+      "summary": "CVE ID :CVE-2026-103766 Published : Oct. 2, 2026, 12:16 a.m. | 2 hours, 42 minutes ago Description :ClipBucket v5 through 5.5.3-#197 contains an sql injection vulnerability that allows authenticated...",
+      "source": "CVE Feed",
+      "published": "2026-10-02T00:16:59+00:00"
+    },
+    {
+      "title": "CVE-2026-103765 - Mooncake through 0.3.13.post1 Missing Authentication in HTTP Metadata Server",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-103765",
+      "summary": "CVE ID :CVE-2026-103765 Published : Oct. 2, 2026, 12:16 a.m. | 2 hours, 42 minutes ago Description :Mooncake through 0.3.13.post1 contains a missing authentication vulnerability in the HTTP metadata...",
+      "source": "CVE Feed",
+      "published": "2026-10-02T00:16:59+00:00"
+    },
+    {
+      "title": "CVE-2026-103764 - Mooncake transfer engine before 0.3.13 Unauthenticated Arbitrary Memory Read/Write via TCP Transport",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-103764",
+      "summary": "CVE ID :CVE-2026-103764 Published : Oct. 2, 2026, 12:16 a.m. | 2 hours, 42 minutes ago Description :Mooncake transfer engine before 0.3.13 contains an untrusted pointer dereference in...",
+      "source": "CVE Feed",
+      "published": "2026-10-02T00:16:59+00:00"
+    },
+    {
+      "title": "CVE-2026-103761 - Mooncake transfer engine through 0.3.13.post1 Memory Exhaustion via Unbounded Notify Queue",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-103761",
+      "summary": "CVE ID :CVE-2026-103761 Published : Oct. 1, 2026, 11:16 p.m. | 3 hours, 43 minutes ago Description :Mooncake transfer engine through 0.3.13.post1 contains a memory exhaustion vulnerability in...",
+      "source": "CVE Feed",
+      "published": "2026-10-01T23:16:46+00:00"
+    },
+    {
+      "title": "CVE-2026-103760 - Mooncake transfer engine through 0.3.13.post1 Denial of Service via P2P Handshake Daemon Response Write",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-103760",
+      "summary": "CVE ID :CVE-2026-103760 Published : Oct. 1, 2026, 11:16 p.m. | 3 hours, 43 minutes ago Description :Mooncake transfer engine through 0.3.13.post1 contains a denial of service vulnerability that...",
+      "source": "CVE Feed",
+      "published": "2026-10-01T23:16:46+00:00"
+    },
+    {
+      "title": "Fortinet warns of critical FortiMail flaw exploited in zero-day attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/fortinet-warns-of-critical-fortimail-flaw-exploited-in-zero-day-attacks/",
+      "summary": "Fortinet is warning customers of a critical FortiMail vulnerability, tracked as CVE-2026-104286, that is being actively exploited in zero-day attacks to execute unauthorized code or commands on...",
+      "source": "BleepingComputer",
+      "published": "2026-10-01T22:42:49+00:00"
+    },
+    {
+      "title": "CVE-2026-71452 - Johnson Controls EasyIO FS32 OS Command Injection",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-71452",
+      "summary": "CVE ID :CVE-2026-71452 Published : Oct. 1, 2026, 10:17 p.m. | 4 hours, 42 minutes ago Description :- OS Command Injection vulnerability in Johnson Controls EasyIO FS32 allows OS Command Injection...",
+      "source": "CVE Feed",
+      "published": "2026-10-01T22:17:05+00:00"
+    },
+    {
+      "title": "CVE-2026-71449 - Johnson Controls EasyIO FS32 Hard-coded Cryptographic Key Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-71449",
+      "summary": "CVE ID :CVE-2026-71449 Published : Oct. 1, 2026, 10:17 p.m. | 4 hours, 42 minutes ago Description :: Use of Hard-coded Cryptographic Key vulnerability in Johnson Controls EasyIO FS32 allows...",
+      "source": "CVE Feed",
+      "published": "2026-10-01T22:17:04+00:00"
+    },
+    {
+      "title": "CVE-2026-18397 - SConnect: Native Host Unauthenticated Remote Code Execution Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-18397",
+      "summary": "CVE ID :CVE-2026-18397 Published : Oct. 1, 2026, 10:17 p.m. | 4 hours, 42 minutes ago Description :This vulnerability enables unauthenticated remote code execution (RCE) on a victim's machine by...",
+      "source": "CVE Feed",
+      "published": "2026-10-01T22:17:01+00:00"
+    },
+    {
+      "title": "CVE-2026-104356 - PictShare < 3.7.1 Predictable Delete Code via rand()",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-104356",
+      "summary": "CVE ID :CVE-2026-104356 Published : Oct. 1, 2026, 10:17 p.m. | 4 hours, 42 minutes ago Description :PictShare before version 3.7.1 contains a weak randomness vulnerability where the getRandomString()...",
+      "source": "CVE Feed",
+      "published": "2026-10-01T22:17:00+00:00"
+    },
+    {
+      "title": "CVE-2026-104051 - PictShare < 3.7.1 Sensitive Information Disclosure via info API",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-104051",
+      "summary": "CVE ID :CVE-2026-104051 Published : Oct. 1, 2026, 10:17 p.m. | 4 hours, 42 minutes ago Description :PictShare before 3.7.1 contains an information disclosure vulnerability that allows unauthenticated...",
+      "source": "CVE Feed",
+      "published": "2026-10-01T22:17:00+00:00"
+    },
     {
       "title": "Alleged KillSec Ransomware Mastermind a 16-Year-Old",
       "link": "https://www.darkreading.com/cyberattacks-data-breaches/killsec-ransomware-mastermind-16-year-old",
       "summary": "Law enforcement from multiple countries collaborated to disrupt a cybercrime operation that has claimed some 500 victims worldwide in the past two years.",
       "source": "Dark Reading",
       "published": "2026-10-01T21:37:50+00:00"
+    },
+    {
+      "title": "CVE-2026-96780 - figlet is vulnerable to denial of service via unbounded loop when whitespaceBreak is used with a small width",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-96780",
+      "summary": "CVE ID :CVE-2026-96780 Published : Oct. 1, 2026, 9:17 p.m. | 5 hours, 42 minutes ago Description :figlet.js is a FIG driver written in JavaScript that aims to implement the FIGfont specification...",
+      "source": "CVE Feed",
+      "published": "2026-10-01T21:17:26+00:00"
+    },
+    {
+      "title": "CVE-2026-55396 - Unencrypted UDP Control Traffic in Teledyne FLIR Robots running Aware2",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55396",
+      "summary": "CVE ID :CVE-2026-55396 Published : Oct. 1, 2026, 9:17 p.m. | 5 hours, 42 minutes ago Description :Cleartext transmission without a cryptographic integrity check in operator control unit to robot UDP...",
+      "source": "CVE Feed",
+      "published": "2026-10-01T21:17:21+00:00"
+    },
+    {
+      "title": "CVE-2026-55395 - Hardcoded Passwords in Teledyne FLIR Robots running Aware2",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55395",
+      "summary": "CVE ID :CVE-2026-55395 Published : Oct. 1, 2026, 9:17 p.m. | 5 hours, 42 minutes ago Description :Hardcoded passwords in the access control in Teledyne FLIR Aware2 versions through 6.9.0.2 (PackBot)...",
+      "source": "CVE Feed",
+      "published": "2026-10-01T21:17:21+00:00"
+    },
+    {
+      "title": "CVE-2026-55393 - Local File Inclusion in Teledyne FLIR Robots running Aware2",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55393",
+      "summary": "CVE ID :CVE-2026-55393 Published : Oct. 1, 2026, 9:17 p.m. | 5 hours, 42 minutes ago Description :Unvalidated pathnames in the web interface in Teledyne FLIR Aware2 versions through 6.9.0.2 (PackBot)...",
+      "source": "CVE Feed",
+      "published": "2026-10-01T21:17:21+00:00"
+    },
+    {
+      "title": "CVE-2026-104020 - Uncontrolled recursion in the Ion reader in Amazon Ion Python",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-104020",
+      "summary": "CVE ID :CVE-2026-104020 Published : Oct. 1, 2026, 9:17 p.m. | 5 hours, 42 minutes ago Description :Uncontrolled recursion in the Ion reader in Amazon Ion Python before 0.15.0 might allow a remote...",
+      "source": "CVE Feed",
+      "published": "2026-10-01T21:17:18+00:00"
+    },
+    {
+      "title": "CVE-2026-102514 - Out-of-bounds write in PeaZip PEA extractor allows code execution via a crafted .pea archive",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-102514",
+      "summary": "CVE ID :CVE-2026-102514 Published : Oct. 1, 2026, 9:17 p.m. | 5 hours, 42 minutes ago Description :Out-of-bounds Write (CWE-787) in the PEA archive extraction routine (pea.pas, unpea_procedure) of...",
+      "source": "CVE Feed",
+      "published": "2026-10-01T21:17:18+00:00"
     },
     {
       "title": "Autonomous AI agents tried to hack US, Canadian government websites",
@@ -18,79 +151,51 @@
     {
       "title": "CVE-2026-71542 - GetSimple CMS: Stored Cross-Site Scripting (XSS) via the \"title\" parameter in admin/components.php",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-71542",
-      "summary": "CVE ID :CVE-2026-71542 Published : Oct. 1, 2026, 8:17 p.m. | 39 minutes ago Description :GetSimple CMS is a content management system (CMS), and GetSimple CMS CE is the community edition of that CMS...",
+      "summary": "CVE ID :CVE-2026-71542 Published : Oct. 1, 2026, 8:17 p.m. | 6 hours, 42 minutes ago Description :GetSimple CMS is a content management system (CMS), and GetSimple CMS CE is the community edition of...",
       "source": "CVE Feed",
       "published": "2026-10-01T20:17:29+00:00"
     },
     {
       "title": "CVE-2026-70650 - GetSimple CMS: Authenticated Stored XSS in backup viewer (backup-edit.php) via output decoding of page meta fields and content",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-70650",
-      "summary": "CVE ID :CVE-2026-70650 Published : Oct. 1, 2026, 8:17 p.m. | 39 minutes ago Description :GetSimple CMS is a content management system (CMS), and GetSimple CMS CE is the community edition of that CMS...",
+      "summary": "CVE ID :CVE-2026-70650 Published : Oct. 1, 2026, 8:17 p.m. | 6 hours, 42 minutes ago Description :GetSimple CMS is a content management system (CMS), and GetSimple CMS CE is the community edition of...",
       "source": "CVE Feed",
       "published": "2026-10-01T20:17:29+00:00"
     },
     {
       "title": "CVE-2026-56662 - GetSimple CMS: Missing CSRF protection in UpdateCE allows forging a privileged server-side update request",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-56662",
-      "summary": "CVE ID :CVE-2026-56662 Published : Oct. 1, 2026, 8:17 p.m. | 39 minutes ago Description :GetSimple CMS is a content management system (CMS), and GetSimple CMS CE is the community edition of that CMS...",
+      "summary": "CVE ID :CVE-2026-56662 Published : Oct. 1, 2026, 8:17 p.m. | 6 hours, 42 minutes ago Description :GetSimple CMS is a content management system (CMS), and GetSimple CMS CE is the community edition of...",
       "source": "CVE Feed",
       "published": "2026-10-01T20:17:26+00:00"
     },
     {
       "title": "CVE-2026-56660 - GetSimple CMS: CSRF, SSRF, and Unrestricted Zip Extraction",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-56660",
-      "summary": "CVE ID :CVE-2026-56660 Published : Oct. 1, 2026, 8:17 p.m. | 39 minutes ago Description :GetSimple CMS is a content management system (CMS), and GetSimple CMS CE is the community edition of that CMS...",
+      "summary": "CVE ID :CVE-2026-56660 Published : Oct. 1, 2026, 8:17 p.m. | 6 hours, 42 minutes ago Description :GetSimple CMS is a content management system (CMS), and GetSimple CMS CE is the community edition of...",
       "source": "CVE Feed",
       "published": "2026-10-01T20:17:26+00:00"
     },
     {
       "title": "CVE-2026-54049 - Sakai Conversations has a Stored XSS Issue",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-54049",
-      "summary": "CVE ID :CVE-2026-54049 Published : Oct. 1, 2026, 8:17 p.m. | 39 minutes ago Description :Sakai is a Collaboration and Learning Environment (CLE). From versions 23.0 to before 23.5, and versions 25.0...",
+      "summary": "CVE ID :CVE-2026-54049 Published : Oct. 1, 2026, 8:17 p.m. | 6 hours, 42 minutes ago Description :Sakai is a Collaboration and Learning Environment (CLE). From versions 23.0 to before 23.5, and...",
       "source": "CVE Feed",
       "published": "2026-10-01T20:17:25+00:00"
     },
     {
       "title": "CVE-2026-53953 - GetSimple CMS: Predictable Password Reset Password Allows Administrator Account Takeover",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-53953",
-      "summary": "CVE ID :CVE-2026-53953 Published : Oct. 1, 2026, 8:17 p.m. | 39 minutes ago Description :GetSimple CMS is a content management system (CMS), and GetSimple CMS CE is the community edition of that CMS...",
+      "summary": "CVE ID :CVE-2026-53953 Published : Oct. 1, 2026, 8:17 p.m. | 6 hours, 42 minutes ago Description :GetSimple CMS is a content management system (CMS), and GetSimple CMS CE is the community edition of...",
       "source": "CVE Feed",
       "published": "2026-10-01T20:17:25+00:00"
     },
     {
       "title": "CVE-2026-14984 - Cleartext HTTP for Control Traffic in Teledyne FLIR Robots running Aware2",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-14984",
-      "summary": "CVE ID :CVE-2026-14984 Published : Oct. 1, 2026, 8:17 p.m. | 39 minutes ago Description :Cleartext transmission in the primary control endpoints of Teledyne FLIR Aware2 versions through 6.9.0.2...",
+      "summary": "CVE ID :CVE-2026-14984 Published : Oct. 1, 2026, 8:17 p.m. | 6 hours, 42 minutes ago Description :Cleartext transmission in the primary control endpoints of Teledyne FLIR Aware2 versions through...",
       "source": "CVE Feed",
       "published": "2026-10-01T20:17:24+00:00"
-    },
-    {
-      "title": "CVE-2026-104286 - Fortinet FortiMail Path Traversal Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-104286",
-      "summary": "CVE ID :CVE-2026-104286 Published : Oct. 1, 2026, 8:17 p.m. | 39 minutes ago Description :An improper limitation of a pathname to a restricted directory ('path traversal') vulnerability in Fortinet...",
-      "source": "CVE Feed",
-      "published": "2026-10-01T20:17:24+00:00"
-    },
-    {
-      "title": "CVE-2026-103484 - pgvector buffer overflow in IVFFlat index build",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-103484",
-      "summary": "CVE ID :CVE-2026-103484 Published : Oct. 1, 2026, 8:17 p.m. | 39 minutes ago Description :IVFFlat index build in pgvector before 0.8.7 allows a database user to write data out-of-bounds, which can...",
-      "source": "CVE Feed",
-      "published": "2026-10-01T20:17:23+00:00"
-    },
-    {
-      "title": "CVE-2026-102667 - Joyland AI WebView command injection",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-102667",
-      "summary": "CVE ID :CVE-2026-102667 Published : Oct. 1, 2026, 8:17 p.m. | 39 minutes ago Description :Joyland AI app allows an attacker with shared network access to inject JavaScript into content loaded in...",
-      "source": "CVE Feed",
-      "published": "2026-10-01T20:17:21+00:00"
-    },
-    {
-      "title": "CVE-2026-102628 - Cadmos LTI exposure of sensitive information via debug mode",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-102628",
-      "summary": "CVE ID :CVE-2026-102628 Published : Oct. 1, 2026, 8:17 p.m. | 39 minutes ago Description :The Cadmos LTI application hosted at cadmos.eummena.io had Laravel debug mode enabled (APP_DEBUG=true...",
-      "source": "CVE Feed",
-      "published": "2026-10-01T20:17:21+00:00"
     },
     {
       "title": "Iranian accused of hacking American universities extradited from Montenegro",
@@ -98,34 +203,6 @@
       "summary": "An Iranian national accused by the U.S. of taking part in dozens of breaches involving the theft of academic data and intellectual property has been extradited from Montenegro.",
       "source": "The Record",
       "published": "2026-10-01T20:15:00+00:00"
-    },
-    {
-      "title": "CVE-2026-102514 - Out-of-bounds write in PeaZip PEA extractor allows code execution via a crafted .pea archive",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-102514",
-      "summary": "CVE ID :CVE-2026-102514 Published : Oct. 1, 2026, 8 p.m. | 55 minutes ago Description :Out-of-bounds Write (CWE-787) in the PEA archive extraction routine (pea.pas, unpea_procedure) of the...",
-      "source": "CVE Feed",
-      "published": "2026-10-01T20:00:51+00:00"
-    },
-    {
-      "title": "CVE-2026-55396 - Unencrypted UDP Control Traffic in Teledyne FLIR Robots running Aware2",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55396",
-      "summary": "CVE ID :CVE-2026-55396 Published : Oct. 1, 2026, 7:59 p.m. | 57 minutes ago Description :Cleartext transmission without a cryptographic integrity check in operator control unit to robot UDP traffic...",
-      "source": "CVE Feed",
-      "published": "2026-10-01T19:59:39+00:00"
-    },
-    {
-      "title": "CVE-2026-55395 - Hardcoded Passwords in Teledyne FLIR Robots running Aware2",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55395",
-      "summary": "CVE ID :CVE-2026-55395 Published : Oct. 1, 2026, 7:59 p.m. | 57 minutes ago Description :Hardcoded passwords in the access control in Teledyne FLIR Aware2 versions through 6.9.0.2 (PackBot) and 1.7.9...",
-      "source": "CVE Feed",
-      "published": "2026-10-01T19:59:32+00:00"
-    },
-    {
-      "title": "CVE-2026-55393 - Local File Inclusion in Teledyne FLIR Robots running Aware2",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55393",
-      "summary": "CVE ID :CVE-2026-55393 Published : Oct. 1, 2026, 7:59 p.m. | 57 minutes ago Description :Unvalidated pathnames in the web interface in Teledyne FLIR Aware2 versions through 6.9.0.2 (PackBot) and...",
-      "source": "CVE Feed",
-      "published": "2026-10-01T19:59:20+00:00"
     },
     {
       "title": "Microsoft says threat actors are ahead in the early AI race",
@@ -140,76 +217,6 @@
       "summary": "The findings, released Thursday by Asymmetric Security, are just the latest example of rogue behavior spurred by OpenAI’s software.",
       "source": "The Record",
       "published": "2026-10-01T19:25:00+00:00"
-    },
-    {
-      "title": "CVE-2026-55230 - Vvveb: Stored XSS in Vvveb via sanitizeHTML() filter bypass using a quoted greater-than character",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55230",
-      "summary": "CVE ID :CVE-2026-55230 Published : Oct. 1, 2026, 7:17 p.m. | 1 hour, 39 minutes ago Description :Vvveb is a powerful and easy to use CMS with page builder to build websites, blogs or ecommerce...",
-      "source": "CVE Feed",
-      "published": "2026-10-01T19:17:21+00:00"
-    },
-    {
-      "title": "CVE-2026-55083 - DHIS2: Unsafe Java Deserialization - Remote Code Execution (RCE)",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55083",
-      "summary": "CVE ID :CVE-2026-55083 Published : Oct. 1, 2026, 7:17 p.m. | 1 hour, 39 minutes ago Description :DHIS2 is a flexible information system for data capture, management, validation, analytics and...",
-      "source": "CVE Feed",
-      "published": "2026-10-01T19:17:21+00:00"
-    },
-    {
-      "title": "CVE-2026-104059 - Lektor 3.3.14 CSRF via Admin API Endpoints",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-104059",
-      "summary": "CVE ID :CVE-2026-104059 Published : Oct. 1, 2026, 7:17 p.m. | 1 hour, 39 minutes ago Description :Lektor 3.3.14 and 3.4.0b15 contains a cross-site request forgery vulnerability in the admin API...",
-      "source": "CVE Feed",
-      "published": "2026-10-01T19:17:19+00:00"
-    },
-    {
-      "title": "CVE-2026-104057 - Podgrab Unauthenticated DoS via Concurrent Map Access in WebSocket Handler",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-104057",
-      "summary": "CVE ID :CVE-2026-104057 Published : Oct. 1, 2026, 7:17 p.m. | 1 hour, 39 minutes ago Description :Podgrab contains an unauthenticated denial-of-service vulnerability caused by unsynchronized...",
-      "source": "CVE Feed",
-      "published": "2026-10-01T19:17:19+00:00"
-    },
-    {
-      "title": "CVE-2026-97662 - Argument injection in the diff scan operation in AWS security-agent-mcp-server allows arbitrary host file creation, overwrite, and truncation outside the intended workspace",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-97662",
-      "summary": "CVE ID :CVE-2026-97662 Published : Oct. 1, 2026, 6:17 p.m. | 2 hours, 39 minutes ago Description :An argument injection issue in the diff scan operation in AWS security-agent-mcp-server before...",
-      "source": "CVE Feed",
-      "published": "2026-10-01T18:17:29+00:00"
-    },
-    {
-      "title": "CVE-2026-104018 - VxWorks 7 improper privilege management",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-104018",
-      "summary": "CVE ID :CVE-2026-104018 Published : Oct. 1, 2026, 6:17 p.m. | 2 hours, 39 minutes ago Description :An improper privilege management vulnerability (CWE-269) exists in the command shell of Wind River...",
-      "source": "CVE Feed",
-      "published": "2026-10-01T18:17:14+00:00"
-    },
-    {
-      "title": "CVE-2026-103922 - Capacitor Android and iOS: remote content can be loaded at the app origin via the internal HTTP proxy path",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-103922",
-      "summary": "CVE ID :CVE-2026-103922 Published : Oct. 1, 2026, 6:17 p.m. | 2 hours, 39 minutes ago Description :Capacitor is a cross-platform native runtime for web applications. From 6.0.0 until 6.2.2, 7.6.9...",
-      "source": "CVE Feed",
-      "published": "2026-10-01T18:17:12+00:00"
-    },
-    {
-      "title": "CVE-2026-102369 - Unauthenticated Remote Code Execution via MacTool Command Injection in TP-Link Tapo C120 & C200",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-102369",
-      "summary": "CVE ID :CVE-2026-102369 Published : Oct. 1, 2026, 6:17 p.m. | 2 hours, 39 minutes ago Description :Tapo C120 v1 and C200 V5 do not adequately protect login challenge data or sanitize...",
-      "source": "CVE Feed",
-      "published": "2026-10-01T18:17:12+00:00"
-    },
-    {
-      "title": "CVE-2026-102294 - Authenticated OS Command Injection in TL-WR841N IPv6 WAN Configuration",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-102294",
-      "summary": "CVE ID :CVE-2026-102294 Published : Oct. 1, 2026, 6:17 p.m. | 2 hours, 39 minutes ago Description :TP-Link TL-WR841N contains an authenticated OS command injection vulnerability in the IPv6 WAN...",
-      "source": "CVE Feed",
-      "published": "2026-10-01T18:17:12+00:00"
-    },
-    {
-      "title": "CVE-2023-54404 - Zod 4.6.5 Uncontrolled Resource Consumption via Array Validation",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2023-54404",
-      "summary": "CVE ID :CVE-2023-54404 Published : Oct. 1, 2026, 6:17 p.m. | 2 hours, 39 minutes ago Description :Zod schema-validation library through 4.6.5 contains an uncontrolled resource consumption...",
-      "source": "CVE Feed",
-      "published": "2026-10-01T18:17:11+00:00"
     },
     {
       "title": "Researchers find Chinese hacking campaigns targeting AI firms, Asian governments",
@@ -574,13 +581,6 @@
       "summary": "OpenSSL dicht kwetsbaarheid waardoor heap memory kan lekken De makers van OpenSSL hebben updates uitgebracht voor meerdere kwetsbaarheden in de software, waaronder een beveiligingslek waardoor...",
       "source": "CVE Newsroom",
       "published": "2026-09-30T13:37:28+00:00"
-    },
-    {
-      "title": "Microsoft to block Entra ID script injection attacks starting October",
-      "link": "https://www.bleepingcomputer.com/news/security/microsoft-to-block-entra-id-script-injection-attacks-starting-october/",
-      "summary": "Microsoft has reminded customers that the Entra ID authentication system will get better protection against external script injection attacks starting next month. [...]",
-      "source": "BleepingComputer",
-      "published": "2026-09-30T13:37:15+00:00"
     },
     {
       "title": "TeamViewer adviseert gebruikers om update zo snel mogelijk te installeren",
