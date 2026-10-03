@@ -1,24 +1,80 @@
 {
-  "last_updated": "2026-10-02T21:36:19.321647+00:00",
+  "last_updated": "2026-10-03T00:49:36.222084+00:00",
   "articles": [
+    {
+      "title": "CVE-2026-104476 - Backdrop CMS before 1.35.1 Information Disclosure via Configuration Export Archive",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-104476",
+      "summary": "CVE ID :CVE-2026-104476 Published : Oct. 3, 2026, 12:16 a.m. | 17 minutes ago Description :Backdrop CMS before 1.35.1 contains an information disclosure vulnerability that allows unauthenticated...",
+      "source": "CVE Feed",
+      "published": "2026-10-03T00:16:35+00:00"
+    },
+    {
+      "title": "CVE-2026-104433 - Mooncake before 0.3.12 Out-of-Bounds Read via P2P Handshake readString",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-104433",
+      "summary": "CVE ID :CVE-2026-104433 Published : Oct. 3, 2026, 12:16 a.m. | 17 minutes ago Description :Mooncake transfer engine before 0.3.12 contains an out-of-bounds read vulnerability in the readString...",
+      "source": "CVE Feed",
+      "published": "2026-10-03T00:16:35+00:00"
+    },
+    {
+      "title": "CVE-2026-84411 - MikroTik RouterOS Integer Underflow",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-84411",
+      "summary": "CVE ID :CVE-2026-84411 Published : Oct. 2, 2026, 11:16 p.m. | 1 hour, 16 minutes ago Description :The web management service in affected RouterOS versions contains an integer underflow in its HTTP...",
+      "source": "CVE Feed",
+      "published": "2026-10-02T23:16:58+00:00"
+    },
+    {
+      "title": "CVE-2026-97363 - Monta monta.app Improper Restriction of Excessive Authentication Attempts",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-97363",
+      "summary": "CVE ID :CVE-2026-97363 Published : Oct. 2, 2026, 10:16 p.m. | 2 hours, 16 minutes ago Description :The WebSocket Application Programming Interface lacks restrictions on the number of authentication...",
+      "source": "CVE Feed",
+      "published": "2026-10-02T22:16:56+00:00"
+    },
+    {
+      "title": "CVE-2026-95102 - Monta monta.app Missing Authentication for Critical Function",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-95102",
+      "summary": "CVE ID :CVE-2026-95102 Published : Oct. 2, 2026, 10:16 p.m. | 2 hours, 16 minutes ago Description :WebSocket endpoints lack proper authentication mechanisms, enabling attackers to impersonate...",
+      "source": "CVE Feed",
+      "published": "2026-10-02T22:16:56+00:00"
+    },
+    {
+      "title": "CVE-2026-94593 - Armatura LLC Armatura One Insertion of Sensitive Information into Log File",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-94593",
+      "summary": "CVE ID :CVE-2026-94593 Published : Oct. 2, 2026, 10:16 p.m. | 2 hours, 16 minutes ago Description :Armatura One's backup and restore routine records the full database connection command, including...",
+      "source": "CVE Feed",
+      "published": "2026-10-02T22:16:56+00:00"
+    },
+    {
+      "title": "CVE-2026-94592 - Armatura LLC Armatura One Use of Hard-coded Credentials",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-94592",
+      "summary": "CVE ID :CVE-2026-94592 Published : Oct. 2, 2026, 10:16 p.m. | 2 hours, 16 minutes ago Description :Armatura One's database initialization routine assigns a fixed, vendor-defined password to the...",
+      "source": "CVE Feed",
+      "published": "2026-10-02T22:16:56+00:00"
+    },
+    {
+      "title": "CVE-2026-94591 - Armatura LLC Armatura One Use of Hard-coded Cryptographic Key",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-94591",
+      "summary": "CVE ID :CVE-2026-94591 Published : Oct. 2, 2026, 10:16 p.m. | 2 hours, 16 minutes ago Description :Armatura One stores database and message-broker credentials in an install configuration file...",
+      "source": "CVE Feed",
+      "published": "2026-10-02T22:16:56+00:00"
+    },
     {
       "title": "CVE-2026-82042 - UTMStack < 11.2.16 Authentication Bypass via InternalApiKeyFilter",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-82042",
-      "summary": "CVE ID :CVE-2026-82042 Published : Oct. 2, 2026, 9:16 p.m. | 19 minutes ago Description :UTMStack before 11.2.16 contains an authentication bypass vulnerability that allows remote attackers to gain...",
+      "summary": "CVE ID :CVE-2026-82042 Published : Oct. 2, 2026, 9:16 p.m. | 3 hours, 16 minutes ago Description :UTMStack before 11.2.16 contains an authentication bypass vulnerability that allows remote attackers...",
       "source": "CVE Feed",
       "published": "2026-10-02T21:16:56+00:00"
     },
     {
       "title": "CVE-2026-82041 - UTMStack < 11.2.16 Missing Authorization via Command WebSocket",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-82041",
-      "summary": "CVE ID :CVE-2026-82041 Published : Oct. 2, 2026, 9:16 p.m. | 19 minutes ago Description :UTMStack before 11.2.16 contains a missing authorization vulnerability in...",
+      "summary": "CVE ID :CVE-2026-82041 Published : Oct. 2, 2026, 9:16 p.m. | 3 hours, 16 minutes ago Description :UTMStack before 11.2.16 contains a missing authorization vulnerability in...",
       "source": "CVE Feed",
       "published": "2026-10-02T21:16:56+00:00"
     },
     {
       "title": "CVE-2026-75937 - OS Command Injection in Digi Accelerated Linux (DAL OS)",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-75937",
-      "summary": "CVE ID :CVE-2026-75937 Published : Oct. 2, 2026, 9:16 p.m. | 19 minutes ago Description :A specially crafted HTTP POST request to the web administration interface allows an unauthenticated attacker...",
+      "summary": "CVE ID :CVE-2026-75937 Published : Oct. 2, 2026, 9:16 p.m. | 3 hours, 16 minutes ago Description :A specially crafted HTTP POST request to the web administration interface allows an unauthenticated...",
       "source": "CVE Feed",
       "published": "2026-10-02T21:16:56+00:00"
     },
@@ -39,28 +95,28 @@
     {
       "title": "CVE-2026-82039 - UTMStack < 11.2.16 SQL Injection via searchGroupsByFilter",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-82039",
-      "summary": "CVE ID :CVE-2026-82039 Published : Oct. 2, 2026, 8:17 p.m. | 1 hour, 19 minutes ago Description :UTMStack before 11.2.16 contains a SQL injection vulnerability in...",
+      "summary": "CVE ID :CVE-2026-82039 Published : Oct. 2, 2026, 8:17 p.m. | 4 hours, 16 minutes ago Description :UTMStack before 11.2.16 contains a SQL injection vulnerability in...",
       "source": "CVE Feed",
       "published": "2026-10-02T20:17:04+00:00"
     },
     {
       "title": "CVE-2026-39718 - WordPress Wallstreet theme <= 2.8.6 - Cross Site Request Forgery (CSRF) vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-39718",
-      "summary": "CVE ID :CVE-2026-39718 Published : Oct. 2, 2026, 8:17 p.m. | 1 hour, 19 minutes ago Description :Cross-Site Request Forgery (CSRF) vulnerability in Webriti Wallstreet wallstreet allows Cross Site...",
+      "summary": "CVE ID :CVE-2026-39718 Published : Oct. 2, 2026, 8:17 p.m. | 4 hours, 16 minutes ago Description :Cross-Site Request Forgery (CSRF) vulnerability in Webriti Wallstreet wallstreet allows Cross Site...",
       "source": "CVE Feed",
       "published": "2026-10-02T20:17:02+00:00"
     },
     {
       "title": "CVE-2026-104988 - Pki-core: dogtag-pki: redhat-pki: pki: est fullcmc authentication bypass allows certificate mis-issuance with arbitrary subject",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-104988",
-      "summary": "CVE ID :CVE-2026-104988 Published : Oct. 2, 2026, 8:17 p.m. | 1 hour, 19 minutes ago Description :A flaw was found in Dogtag PKI (pki-core). The CMCAuthForEST authentication plugin fails open when an...",
+      "summary": "CVE ID :CVE-2026-104988 Published : Oct. 2, 2026, 8:17 p.m. | 4 hours, 16 minutes ago Description :A flaw was found in Dogtag PKI (pki-core). The CMCAuthForEST authentication plugin fails open when...",
       "source": "CVE Feed",
       "published": "2026-10-02T20:17:01+00:00"
     },
     {
       "title": "CVE-2026-104019 - OS command injection in the Studio Space startup validation script in Amazon SageMaker Distribution when running on Amazon SageMaker Unified Studio",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-104019",
-      "summary": "CVE ID :CVE-2026-104019 Published : Oct. 2, 2026, 8:17 p.m. | 1 hour, 19 minutes ago Description :OS command injection in the Studio Space startup validation script in Amazon SageMaker Distribution...",
+      "summary": "CVE ID :CVE-2026-104019 Published : Oct. 2, 2026, 8:17 p.m. | 4 hours, 16 minutes ago Description :OS command injection in the Studio Space startup validation script in Amazon SageMaker Distribution...",
       "source": "CVE Feed",
       "published": "2026-10-02T20:17:00+00:00"
     },
@@ -74,49 +130,49 @@
     {
       "title": "CVE-2026-96940 - Microsoft Exchange Server Elevation of Privilege Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-96940",
-      "summary": "CVE ID :CVE-2026-96940 Published : Oct. 2, 2026, 7:16 p.m. | 2 hours, 19 minutes ago Description :Weak authorization in Microsoft Exchange Server allows an authenticated attacker to elevate...",
+      "summary": "CVE ID :CVE-2026-96940 Published : Oct. 2, 2026, 7:16 p.m. | 5 hours, 17 minutes ago Description :Weak authorization in Microsoft Exchange Server allows an authenticated attacker to elevate...",
       "source": "CVE Feed",
       "published": "2026-10-02T19:16:43+00:00"
     },
     {
       "title": "CVE-2026-103958 - Server-side request forgery in the tool server and remote agent connection handling in Loom for AWS",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-103958",
-      "summary": "CVE ID :CVE-2026-103958 Published : Oct. 2, 2026, 7:16 p.m. | 2 hours, 19 minutes ago Description :Server-side request forgery in the tool server and remote agent connection handling in Loom for AWS...",
+      "summary": "CVE ID :CVE-2026-103958 Published : Oct. 2, 2026, 7:16 p.m. | 5 hours, 17 minutes ago Description :Server-side request forgery in the tool server and remote agent connection handling in Loom for AWS...",
       "source": "CVE Feed",
       "published": "2026-10-02T19:16:40+00:00"
     },
     {
       "title": "CVE-2026-103957 - Server-side request forgery in the OAuth2 discovery handling in Loom for AWS",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-103957",
-      "summary": "CVE ID :CVE-2026-103957 Published : Oct. 2, 2026, 7:16 p.m. | 2 hours, 19 minutes ago Description :Server-side request forgery in the OAuth2 discovery handling in Loom for AWS before 1.7.0 might...",
+      "summary": "CVE ID :CVE-2026-103957 Published : Oct. 2, 2026, 7:16 p.m. | 5 hours, 17 minutes ago Description :Server-side request forgery in the OAuth2 discovery handling in Loom for AWS before 1.7.0 might...",
       "source": "CVE Feed",
       "published": "2026-10-02T19:16:39+00:00"
     },
     {
       "title": "CVE-2026-103956 - Missing authentication for critical function in Loom for AWS",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-103956",
-      "summary": "CVE ID :CVE-2026-103956 Published : Oct. 2, 2026, 7:16 p.m. | 2 hours, 19 minutes ago Description :Missing authentication for critical function in the authentication dependency in Loom for AWS before...",
+      "summary": "CVE ID :CVE-2026-103956 Published : Oct. 2, 2026, 7:16 p.m. | 5 hours, 17 minutes ago Description :Missing authentication for critical function in the authentication dependency in Loom for AWS before...",
       "source": "CVE Feed",
       "published": "2026-10-02T19:16:39+00:00"
     },
     {
       "title": "CVE-2023-54405 - H3C CVM Unauthenticated File Upload via fileUpload/upload Token",
       "link": "https://cvefeed.io/vuln/detail/CVE-2023-54405",
-      "summary": "CVE ID :CVE-2023-54405 Published : Oct. 2, 2026, 7:16 p.m. | 2 hours, 19 minutes ago Description :H3C CVM, the Cloud Virtualization Management component of the H3C CAS cloud platform, contains an...",
+      "summary": "CVE ID :CVE-2023-54405 Published : Oct. 2, 2026, 7:16 p.m. | 5 hours, 17 minutes ago Description :H3C CVM, the Cloud Virtualization Management component of the H3C CAS cloud platform, contains an...",
       "source": "CVE Feed",
       "published": "2026-10-02T19:16:38+00:00"
     },
     {
       "title": "CVE-2020-37278 - Weaver e-Bridge Unauthenticated Arbitrary File Read via saveYZJFile",
       "link": "https://cvefeed.io/vuln/detail/CVE-2020-37278",
-      "summary": "CVE ID :CVE-2020-37278 Published : Oct. 2, 2026, 7:16 p.m. | 2 hours, 19 minutes ago Description :Weaver e-Bridge contains an unauthenticated arbitrary file read vulnerability that allows remote...",
+      "summary": "CVE ID :CVE-2020-37278 Published : Oct. 2, 2026, 7:16 p.m. | 5 hours, 17 minutes ago Description :Weaver e-Bridge contains an unauthenticated arbitrary file read vulnerability that allows remote...",
       "source": "CVE Feed",
       "published": "2026-10-02T19:16:38+00:00"
     },
     {
       "title": "CVE-2014-125130 - CodeArt Google MP3 Audio Player 1.0.11 Arbitrary File Read via direct_download.php",
       "link": "https://cvefeed.io/vuln/detail/CVE-2014-125130",
-      "summary": "CVE ID :CVE-2014-125130 Published : Oct. 2, 2026, 7:16 p.m. | 2 hours, 19 minutes ago Description :CodeArt Google MP3 Audio Player plugin (google-mp3-audio-player) for WordPress through 1.0.11...",
+      "summary": "CVE ID :CVE-2014-125130 Published : Oct. 2, 2026, 7:16 p.m. | 5 hours, 17 minutes ago Description :CodeArt Google MP3 Audio Player plugin (google-mp3-audio-player) for WordPress through 1.0.11...",
       "source": "CVE Feed",
       "published": "2026-10-02T19:16:37+00:00"
     },
@@ -137,15 +193,15 @@
     {
       "title": "CVE-2026-102795 - Apache Traffic Server: SNI to Host header matching policy is not properly enforced",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-102795",
-      "summary": "CVE ID :CVE-2026-102795 Published : Oct. 2, 2026, 6:16 p.m. | 3 hours, 19 minutes ago Description :Improper Access Control vulnerability in Apache Traffic Server. This issue affects Apache Traffic...",
+      "summary": "CVE ID :CVE-2026-102795 Published : Oct. 2, 2026, 6:16 p.m. | 6 hours, 16 minutes ago Description :Improper Access Control vulnerability in Apache Traffic Server. This issue affects Apache Traffic...",
       "source": "CVE Feed",
       "published": "2026-10-02T18:16:59+00:00"
     },
     {
       "title": "GitLab Patches Critical 9.9 AI Gateway Flaw Allowing Command Execution on Self-Hosted Servers",
       "link": "https://thehackernews.com/2026/10/gitlab-patches-critical-self-hosted-ai.html",
-      "summary": "A critical flaw in GitLab's AI Gateway could let a logged-in user with Duo Agent Platform access run commands on the gateway under certain conditions, GitLab said in an advisory. The gateway is the...",
-      "source": "The Hacker News",
+      "summary": "GitLab Patches Critical 9.9 AI Gateway Flaw Allowing Command Execution on Self-Hosted Servers A critical flaw in GitLab's AI Gateway could let a logged-in user with Duo Agent Platform access run...",
+      "source": "CVE Newsroom",
       "published": "2026-10-02T17:33:31+00:00"
     },
     {
@@ -158,50 +214,36 @@
     {
       "title": "CVE-2026-104854 - Nx daemon and plugin worker sockets are accessible to other local users",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-104854",
-      "summary": "CVE ID :CVE-2026-104854 Published : Oct. 2, 2026, 5:17 p.m. | 4 hours, 19 minutes ago Description :Nx is a monorepo solution for TypeScript and polyglot codebases. From 14.6.0 until 22.7.9 and...",
+      "summary": "CVE ID :CVE-2026-104854 Published : Oct. 2, 2026, 5:17 p.m. | 7 hours, 16 minutes ago Description :Nx is a monorepo solution for TypeScript and polyglot codebases. From 14.6.0 until 22.7.9 and...",
       "source": "CVE Feed",
       "published": "2026-10-02T17:17:04+00:00"
     },
     {
       "title": "CVE-2026-104851 - fsspec: Server-Side Template Injection in ReferenceFileSystem leads to Remote Code Execution",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-104851",
-      "summary": "CVE ID :CVE-2026-104851 Published : Oct. 2, 2026, 5:17 p.m. | 4 hours, 19 minutes ago Description :fsspec is a specification and Python implementation framework for filesystem interfaces. From 0.9.0...",
-      "source": "CVE Feed",
-      "published": "2026-10-02T17:17:03+00:00"
-    },
-    {
-      "title": "CVE-2026-104849 - Tinypool: Prototype Pollution Gadget to RCE in run() options",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-104849",
-      "summary": "CVE ID :CVE-2026-104849 Published : Oct. 2, 2026, 5:17 p.m. | 4 hours, 19 minutes ago Description :Tinypool is a minimal Node.js worker thread pool implementation. Prior to 2.1.2, Tinypool reads...",
-      "source": "CVE Feed",
-      "published": "2026-10-02T17:17:03+00:00"
-    },
-    {
-      "title": "CVE-2026-104848 - Tinypool: Prototype Pollution gadget in worker options leads to Remote Code Execution",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-104848",
-      "summary": "CVE ID :CVE-2026-104848 Published : Oct. 2, 2026, 5:17 p.m. | 4 hours, 19 minutes ago Description :Tinypool is a minimal Node.js worker thread pool implementation. Prior to 2.1.1, Tinypool constructs...",
+      "summary": "CVE ID :CVE-2026-104851 Published : Oct. 2, 2026, 5:17 p.m. | 7 hours, 16 minutes ago Description :fsspec is a specification and Python implementation framework for filesystem interfaces. From 0.9.0...",
       "source": "CVE Feed",
       "published": "2026-10-02T17:17:03+00:00"
     },
     {
       "title": "Dell CSM Flaws Enable Unauthenticated Admin Access and Root on Kubernetes Nodes",
       "link": "https://thehackernews.com/2026/10/dell-csm-flaws-enable-unauthenticated.html",
-      "summary": "Dell has released security updates to address multiple critical security flaws in Dell Container Storage Modules (CSM) that could be exploited by bad actors to take over susceptible systems. The...",
-      "source": "The Hacker News",
+      "summary": "Dell CSM Flaws Enable Unauthenticated Admin Access and Root on Kubernetes Nodes Dell has released security updates to address multiple critical security flaws in Dell Container Storage Modules (CSM)...",
+      "source": "CVE Newsroom",
       "published": "2026-10-02T17:02:12+00:00"
     },
     {
       "title": "Kiteworks & Citrix Incidents Show Challenges of Zero-Day Response",
       "link": "https://www.darkreading.com/cybersecurity-operations/kiteworks-citrix-incidents-challenges-zero-day-response",
-      "summary": "One company told customers to power down its data-protection platform during a nine-hour window, while the other remained mum on reported attacks prior to releasing a patch for its product.",
-      "source": "Dark Reading",
+      "summary": "Kiteworks & Citrix Incidents Show Challenges of Zero-Day Response 5 Min ReadOn Sept. 24, threat detection firm GreyNoise Intelligence observed a single US-based IP address scanning for Citrix...",
+      "source": "CVE Newsroom",
       "published": "2026-10-02T16:56:30+00:00"
     },
     {
       "title": "SWIFT Banking & Government Middleware Enables RCE",
       "link": "https://www.darkreading.com/cybersecurity-operations/swift-banking-govt-middleware-rce",
-      "summary": "Patch middleware vulnerabilities now to avoid hardware-based MFA exploits in ultra-sensitive environments.",
-      "source": "Dark Reading",
+      "summary": "SWIFT Banking & Government Middleware Enables RCE 5 Min ReadSource: years via Getty ImagesResearchers have discovered a critical vulnerability in a hardware authentication program used to access...",
+      "source": "CVE Newsroom",
       "published": "2026-10-02T16:27:54+00:00"
     },
     {
@@ -217,48 +259,6 @@
       "summary": "FortiMail Zero-Day Exploited in the Wild — CVE-2026-104286 October 2, 2026Executive SummaryFortinet has confirmed active exploitation of a critical FortiMail zero-day, CVE-2026-104286. The...",
       "source": "CVE Newsroom",
       "published": "2026-10-02T16:19:00+00:00"
-    },
-    {
-      "title": "CVE-2026-94483 - Next.js: Server-Side Request Forgery in Image Optimization",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-94483",
-      "summary": "CVE ID :CVE-2026-94483 Published : Oct. 2, 2026, 4:16 p.m. | 5 hours, 19 minutes ago Description :Next.js is a React framework for building full-stack web applications. From 16.0.0 until 16.3.8...",
-      "source": "CVE Feed",
-      "published": "2026-10-02T16:16:51+00:00"
-    },
-    {
-      "title": "CVE-2026-51907 - TaskingAI QR Code Generator Plugin Path Traversal Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-51907",
-      "summary": "CVE ID :CVE-2026-51907 Published : Oct. 2, 2026, 4:16 p.m. | 5 hours, 19 minutes ago Description :In TaskingAI v0.3.0 in the QR Code Generator plugin save_base64_image function, a path traversal...",
-      "source": "CVE Feed",
-      "published": "2026-10-02T16:16:50+00:00"
-    },
-    {
-      "title": "CVE-2026-104847 - ProseMirror: XSS vulnerability in prosemirror-view's paste handling",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-104847",
-      "summary": "CVE ID :CVE-2026-104847 Published : Oct. 2, 2026, 4:16 p.m. | 5 hours, 19 minutes ago Description :ProseMirror's view component renders and manages the editable browser interface for ProseMirror...",
-      "source": "CVE Feed",
-      "published": "2026-10-02T16:16:47+00:00"
-    },
-    {
-      "title": "CVE-2026-104846 - Seroval: `fromJSON()` Promise thenable assimilation invokes plugin-produced callables (bypass of CVE-2026-59940)",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-104846",
-      "summary": "CVE ID :CVE-2026-104846 Published : Oct. 2, 2026, 4:16 p.m. | 5 hours, 19 minutes ago Description :Seroval facilitates JS value stringification, including complex structures beyond JSON.stringify...",
-      "source": "CVE Feed",
-      "published": "2026-10-02T16:16:47+00:00"
-    },
-    {
-      "title": "CVE-2026-103648 - Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') in image-downloader",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-103648",
-      "summary": "CVE ID :CVE-2026-103648 Published : Oct. 2, 2026, 4:16 p.m. | 5 hours, 19 minutes ago Description :Path traversal in image-downloader 4.3.0 allows an attacker who can control the download URL to...",
-      "source": "CVE Feed",
-      "published": "2026-10-02T16:16:44+00:00"
-    },
-    {
-      "title": "CVE-2026-103628 - Google Chrome WebGL Out-of-Bounds Write Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-103628",
-      "summary": "CVE ID :CVE-2026-103628 Published : Oct. 2, 2026, 4:16 p.m. | 5 hours, 19 minutes ago Description :Out of bounds write in WebGL in Google Chrome prior to 154.0.8037.97 allowed a remote attacker to...",
-      "source": "CVE Feed",
-      "published": "2026-10-02T16:16:43+00:00"
     },
     {
       "title": "Is Your Organization Ready for 2027's AI Accountability Era?",
@@ -431,8 +431,8 @@
     {
       "title": "Critical FortiMail Zero-Day Flaw Exploited in Attacks Allows Unauthenticated Arbitrary File Writes",
       "link": "https://thehackernews.com/2026/10/critical-fortimail-zero-day-flaw.html",
-      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA), on Thursday, added a critical security flaw impacting Fortinet FortiMail to its Known Exploited Vulnerabilities (KEV) catalog...",
-      "source": "The Hacker News",
+      "summary": "Critical FortiMail Zero-Day Flaw Exploited in Attacks Allows Unauthenticated Arbitrary File Writes The U.S. Cybersecurity and Infrastructure Security Agency (CISA), on Thursday, added a critical...",
+      "source": "CVE Newsroom",
       "published": "2026-10-02T05:49:50+00:00"
     },
     {
@@ -494,8 +494,8 @@
     {
       "title": "ThreatsDay: AI-Powered Zero-Day Chain, 543K Live Secrets, Model Inspection RCE and 13 More Stories",
       "link": "https://thehackernews.com/2026/10/threatsday-ai-powered-zero-day-chain.html",
-      "summary": "This week, the useful words are boring ones: inspect, cache, compile, store, trust. Each sounds harmless. Each can become an attack path when a system does a little more than people expect. A model...",
-      "source": "The Hacker News",
+      "summary": "ThreatsDay: AI-Powered Zero-Day Chain, 543K Live Secrets, Model Inspection RCE and 13 More Stories This week, the useful words are boring ones: inspect, cache, compile, store, trust. Each sounds...",
+      "source": "CVE Newsroom",
       "published": "2026-10-01T16:45:38+00:00"
     },
     {
@@ -508,8 +508,8 @@
     {
       "title": "WordPress Backdoor Rebuilds Itself After Cleanup Using Files, Database, and Shared Memory",
       "link": "https://thehackernews.com/2026/10/wordpress-backdoor-rebuilds-itself.html",
-      "summary": "Cybersecurity researchers have shed light on a WordPress compromise in which threat actors deployed multiple persistence mechanisms to ensure that the final payload kept returning without having to...",
-      "source": "The Hacker News",
+      "summary": "WordPress Backdoor Rebuilds Itself After Cleanup Using Files, Database, and Shared Memory Cybersecurity researchers have shed light on a WordPress compromise in which threat actors deployed multiple...",
+      "source": "CVE Newsroom",
       "published": "2026-10-01T14:37:35+00:00"
     },
     {
@@ -571,8 +571,8 @@
     {
       "title": "CISA Adds Exploited Cisco Catalyst SD-WAN Manager Auth Bypass to KEV",
       "link": "https://thehackernews.com/2026/10/cisa-adds-exploited-cisco-catalyst-sd.html",
-      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a critical authentication bypass flaw impacting Cisco Catalyst SD-WAN Manager to its Known Exploited...",
-      "source": "The Hacker News",
+      "summary": "CISA Adds Exploited Cisco Catalyst SD-WAN Manager Auth Bypass to KEV The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a critical authentication bypass flaw...",
+      "source": "CVE Newsroom",
       "published": "2026-10-01T10:33:16+00:00"
     },
     {
@@ -599,8 +599,8 @@
     {
       "title": "Apple CoreGraphics PoC Emerges as WhatsApp PDF Checks Hint at Possible Delivery Path",
       "link": "https://thehackernews.com/2026/10/apple-coregraphics-poc-emerges-as.html",
-      "summary": "Security researchers have published the first public proof-of-concept for CVE-2026-86950, an Apple CoreGraphics flaw Apple says may have been used in attacks against specific targeted individuals...",
-      "source": "The Hacker News",
+      "summary": "Apple CoreGraphics PoC Emerges as WhatsApp PDF Checks Hint at Possible Delivery Path Security researchers have published the first public proof-of-concept for CVE-2026-86950, an Apple CoreGraphics...",
+      "source": "CVE Newsroom",
       "published": "2026-10-01T05:54:41+00:00"
     },
     {
@@ -620,8 +620,8 @@
     {
       "title": "Citrix NetScaler Post-Exploitation Payload Creates Superuser, Maps Web Shell to CSS-Like URLs",
       "link": "https://thehackernews.com/2026/10/citrix-netscaler-post-exploitation.html",
-      "summary": "Threat actors have been observed exploiting a critical pre-authentication command injection vulnerability in Citrix NetScaler ADC and NetScaler Gateway to drop web shells and attempt theft of...",
-      "source": "The Hacker News",
+      "summary": "Citrix NetScaler Post-Exploitation Payload Creates Superuser, Maps Web Shell to CSS-Like URLs Threat actors have been observed exploiting a critical pre-authentication command injection vulnerability...",
+      "source": "CVE Newsroom",
       "published": "2026-10-01T04:35:34+00:00"
     },
     {
@@ -662,8 +662,8 @@
     {
       "title": "Attackers Exploit Zimbra Flaw to Deploy Web Shells and Harvest Authentication Secrets",
       "link": "https://thehackernews.com/2026/09/attackers-exploit-zimbra-flaw-to-deploy.html",
-      "summary": "Threat actors have weaponized a now-patched security flaw in Zimbra Collaboration Suite (ZCS) to deploy web shells and access mailbox data, according to findings from the Microsoft Security Research...",
-      "source": "The Hacker News",
+      "summary": "Attackers Exploit Zimbra Flaw to Deploy Web Shells and Harvest Authentication Secrets Threat actors have weaponized a now-patched security flaw in Zimbra Collaboration Suite (ZCS) to deploy web...",
+      "source": "CVE Newsroom",
       "published": "2026-09-30T16:46:29+00:00"
     },
     {
@@ -676,8 +676,8 @@
     {
       "title": "Cisco Warns of Attackers Exploiting Critical Authentication Bypass in SD-WAN Manager",
       "link": "https://thehackernews.com/2026/09/cisco-warns-of-attackers-exploiting.html",
-      "summary": "Attackers are exploiting a new critical zero-day flaw in Cisco Catalyst SD-WAN Manager, the system companies use to manage their Cisco SD-WAN networks, Cisco said in an advisory on September 30. The...",
-      "source": "The Hacker News",
+      "summary": "Cisco Warns of Attackers Exploiting Critical Authentication Bypass in SD-WAN Manager Attackers are exploiting a new critical zero-day flaw in Cisco Catalyst SD-WAN Manager, the system companies use...",
+      "source": "CVE Newsroom",
       "published": "2026-09-30T15:24:54+00:00"
     },
     {
