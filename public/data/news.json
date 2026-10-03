@@ -1,80 +1,115 @@
 {
-  "last_updated": "2026-10-03T00:49:36.222084+00:00",
+  "last_updated": "2026-10-03T07:19:57.892006+00:00",
   "articles": [
+    {
+      "title": "CVE-2026-101923 - Photo Reviews for WooCommerce <= 1.2.30 - Missing Authorization to Unauthenticated Arbitrary Post Deletion via 'wcpr_image_upload_id' Parameter",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-101923",
+      "summary": "CVE ID :CVE-2026-101923 Published : Oct. 3, 2026, 6:16 a.m. | 17 minutes ago Description :The Photo Reviews for WooCommerce plugin for WordPress is vulnerable to Arbitrary Content Deletion in...",
+      "source": "CVE Feed",
+      "published": "2026-10-03T06:16:39+00:00"
+    },
+    {
+      "title": "CVE-2026-97644 - Groundhogg <= 4.9 - Authenticated (Sales Person+) Privilege Escalation via Contact Identity Rebinding leading to Administrator Account Takeover to 'user_id' Parameter (v3 /contacts) chained with v4 /emails/test",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-97644",
+      "summary": "CVE ID :CVE-2026-97644 Published : Oct. 3, 2026, 4:18 a.m. | 2 hours, 16 minutes ago Description :The Groundhogg — CRM, Newsletters, and Marketing Automation plugin for WordPress is vulnerable to...",
+      "source": "CVE Feed",
+      "published": "2026-10-03T04:18:04+00:00"
+    },
+    {
+      "title": "CVE-2026-92536 - Paid Membership Plugin, Ecommerce, User Registration Form, Login Form, User Profile & Restrict Content <= 4.17.4 - Authenticated (Subscriber+) Sensitive Information Exposure via Shortcode Injection via Nickname and Biographical Info Profile Fields",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-92536",
+      "summary": "CVE ID :CVE-2026-92536 Published : Oct. 3, 2026, 4:18 a.m. | 2 hours, 16 minutes ago Description :The Paid Membership Plugin, Ecommerce, User Registration Form, Login Form, User Profile & Restrict...",
+      "source": "CVE Feed",
+      "published": "2026-10-03T04:18:01+00:00"
+    },
+    {
+      "title": "CVE-2026-105080 - ConvertX Arbitrary Code Execution",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-105080",
+      "summary": "CVE ID :CVE-2026-105080 Published : Oct. 3, 2026, 1:17 a.m. | 5 hours, 17 minutes ago Description :In ConvertX before 0.19.0, converters/calibre.ts does not block recipe files, and instead passes...",
+      "source": "CVE Feed",
+      "published": "2026-10-03T01:17:23+00:00"
+    },
     {
       "title": "CVE-2026-104476 - Backdrop CMS before 1.35.1 Information Disclosure via Configuration Export Archive",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-104476",
-      "summary": "CVE ID :CVE-2026-104476 Published : Oct. 3, 2026, 12:16 a.m. | 17 minutes ago Description :Backdrop CMS before 1.35.1 contains an information disclosure vulnerability that allows unauthenticated...",
+      "summary": "CVE ID :CVE-2026-104476 Published : Oct. 3, 2026, 12:16 a.m. | 6 hours, 17 minutes ago Description :Backdrop CMS before 1.35.1 contains an information disclosure vulnerability that allows...",
       "source": "CVE Feed",
       "published": "2026-10-03T00:16:35+00:00"
     },
     {
       "title": "CVE-2026-104433 - Mooncake before 0.3.12 Out-of-Bounds Read via P2P Handshake readString",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-104433",
-      "summary": "CVE ID :CVE-2026-104433 Published : Oct. 3, 2026, 12:16 a.m. | 17 minutes ago Description :Mooncake transfer engine before 0.3.12 contains an out-of-bounds read vulnerability in the readString...",
+      "summary": "CVE ID :CVE-2026-104433 Published : Oct. 3, 2026, 12:16 a.m. | 6 hours, 17 minutes ago Description :Mooncake transfer engine before 0.3.12 contains an out-of-bounds read vulnerability in the...",
       "source": "CVE Feed",
       "published": "2026-10-03T00:16:35+00:00"
     },
     {
+      "title": "CVE-2026-73802 - Gitea act_runner Container Sandbox Escape Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-73802",
+      "summary": "CVE ID :CVE-2026-73802 Published : Oct. 2, 2026, 11:18 p.m. | 7 hours, 16 minutes ago Description :### Summary act_runner appends workflow-controlled `jobs..container.options` directly to the Docker...",
+      "source": "CVE Feed",
+      "published": "2026-10-02T23:18:12+00:00"
+    },
+    {
       "title": "CVE-2026-84411 - MikroTik RouterOS Integer Underflow",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-84411",
-      "summary": "CVE ID :CVE-2026-84411 Published : Oct. 2, 2026, 11:16 p.m. | 1 hour, 16 minutes ago Description :The web management service in affected RouterOS versions contains an integer underflow in its HTTP...",
+      "summary": "CVE ID :CVE-2026-84411 Published : Oct. 2, 2026, 11:16 p.m. | 7 hours, 17 minutes ago Description :The web management service in affected RouterOS versions contains an integer underflow in its HTTP...",
       "source": "CVE Feed",
       "published": "2026-10-02T23:16:58+00:00"
     },
     {
       "title": "CVE-2026-97363 - Monta monta.app Improper Restriction of Excessive Authentication Attempts",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-97363",
-      "summary": "CVE ID :CVE-2026-97363 Published : Oct. 2, 2026, 10:16 p.m. | 2 hours, 16 minutes ago Description :The WebSocket Application Programming Interface lacks restrictions on the number of authentication...",
+      "summary": "CVE ID :CVE-2026-97363 Published : Oct. 2, 2026, 10:16 p.m. | 8 hours, 17 minutes ago Description :The WebSocket Application Programming Interface lacks restrictions on the number of authentication...",
       "source": "CVE Feed",
       "published": "2026-10-02T22:16:56+00:00"
     },
     {
       "title": "CVE-2026-95102 - Monta monta.app Missing Authentication for Critical Function",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-95102",
-      "summary": "CVE ID :CVE-2026-95102 Published : Oct. 2, 2026, 10:16 p.m. | 2 hours, 16 minutes ago Description :WebSocket endpoints lack proper authentication mechanisms, enabling attackers to impersonate...",
+      "summary": "CVE ID :CVE-2026-95102 Published : Oct. 2, 2026, 10:16 p.m. | 8 hours, 17 minutes ago Description :WebSocket endpoints lack proper authentication mechanisms, enabling attackers to impersonate...",
       "source": "CVE Feed",
       "published": "2026-10-02T22:16:56+00:00"
     },
     {
       "title": "CVE-2026-94593 - Armatura LLC Armatura One Insertion of Sensitive Information into Log File",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-94593",
-      "summary": "CVE ID :CVE-2026-94593 Published : Oct. 2, 2026, 10:16 p.m. | 2 hours, 16 minutes ago Description :Armatura One's backup and restore routine records the full database connection command, including...",
+      "summary": "CVE ID :CVE-2026-94593 Published : Oct. 2, 2026, 10:16 p.m. | 8 hours, 17 minutes ago Description :Armatura One's backup and restore routine records the full database connection command, including...",
       "source": "CVE Feed",
       "published": "2026-10-02T22:16:56+00:00"
     },
     {
       "title": "CVE-2026-94592 - Armatura LLC Armatura One Use of Hard-coded Credentials",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-94592",
-      "summary": "CVE ID :CVE-2026-94592 Published : Oct. 2, 2026, 10:16 p.m. | 2 hours, 16 minutes ago Description :Armatura One's database initialization routine assigns a fixed, vendor-defined password to the...",
+      "summary": "CVE ID :CVE-2026-94592 Published : Oct. 2, 2026, 10:16 p.m. | 8 hours, 17 minutes ago Description :Armatura One's database initialization routine assigns a fixed, vendor-defined password to the...",
       "source": "CVE Feed",
       "published": "2026-10-02T22:16:56+00:00"
     },
     {
       "title": "CVE-2026-94591 - Armatura LLC Armatura One Use of Hard-coded Cryptographic Key",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-94591",
-      "summary": "CVE ID :CVE-2026-94591 Published : Oct. 2, 2026, 10:16 p.m. | 2 hours, 16 minutes ago Description :Armatura One stores database and message-broker credentials in an install configuration file...",
+      "summary": "CVE ID :CVE-2026-94591 Published : Oct. 2, 2026, 10:16 p.m. | 8 hours, 17 minutes ago Description :Armatura One stores database and message-broker credentials in an install configuration file...",
       "source": "CVE Feed",
       "published": "2026-10-02T22:16:56+00:00"
     },
     {
       "title": "CVE-2026-82042 - UTMStack < 11.2.16 Authentication Bypass via InternalApiKeyFilter",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-82042",
-      "summary": "CVE ID :CVE-2026-82042 Published : Oct. 2, 2026, 9:16 p.m. | 3 hours, 16 minutes ago Description :UTMStack before 11.2.16 contains an authentication bypass vulnerability that allows remote attackers...",
+      "summary": "CVE ID :CVE-2026-82042 Published : Oct. 2, 2026, 9:16 p.m. | 9 hours, 17 minutes ago Description :UTMStack before 11.2.16 contains an authentication bypass vulnerability that allows remote attackers...",
       "source": "CVE Feed",
       "published": "2026-10-02T21:16:56+00:00"
     },
     {
       "title": "CVE-2026-82041 - UTMStack < 11.2.16 Missing Authorization via Command WebSocket",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-82041",
-      "summary": "CVE ID :CVE-2026-82041 Published : Oct. 2, 2026, 9:16 p.m. | 3 hours, 16 minutes ago Description :UTMStack before 11.2.16 contains a missing authorization vulnerability in...",
+      "summary": "CVE ID :CVE-2026-82041 Published : Oct. 2, 2026, 9:16 p.m. | 9 hours, 17 minutes ago Description :UTMStack before 11.2.16 contains a missing authorization vulnerability in...",
       "source": "CVE Feed",
       "published": "2026-10-02T21:16:56+00:00"
     },
     {
       "title": "CVE-2026-75937 - OS Command Injection in Digi Accelerated Linux (DAL OS)",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-75937",
-      "summary": "CVE ID :CVE-2026-75937 Published : Oct. 2, 2026, 9:16 p.m. | 3 hours, 16 minutes ago Description :A specially crafted HTTP POST request to the web administration interface allows an unauthenticated...",
+      "summary": "CVE ID :CVE-2026-75937 Published : Oct. 2, 2026, 9:16 p.m. | 9 hours, 17 minutes ago Description :A specially crafted HTTP POST request to the web administration interface allows an unauthenticated...",
       "source": "CVE Feed",
       "published": "2026-10-02T21:16:56+00:00"
     },
@@ -95,28 +130,28 @@
     {
       "title": "CVE-2026-82039 - UTMStack < 11.2.16 SQL Injection via searchGroupsByFilter",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-82039",
-      "summary": "CVE ID :CVE-2026-82039 Published : Oct. 2, 2026, 8:17 p.m. | 4 hours, 16 minutes ago Description :UTMStack before 11.2.16 contains a SQL injection vulnerability in...",
+      "summary": "CVE ID :CVE-2026-82039 Published : Oct. 2, 2026, 8:17 p.m. | 10 hours, 17 minutes ago Description :UTMStack before 11.2.16 contains a SQL injection vulnerability in...",
       "source": "CVE Feed",
       "published": "2026-10-02T20:17:04+00:00"
     },
     {
       "title": "CVE-2026-39718 - WordPress Wallstreet theme <= 2.8.6 - Cross Site Request Forgery (CSRF) vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-39718",
-      "summary": "CVE ID :CVE-2026-39718 Published : Oct. 2, 2026, 8:17 p.m. | 4 hours, 16 minutes ago Description :Cross-Site Request Forgery (CSRF) vulnerability in Webriti Wallstreet wallstreet allows Cross Site...",
+      "summary": "CVE ID :CVE-2026-39718 Published : Oct. 2, 2026, 8:17 p.m. | 10 hours, 17 minutes ago Description :Cross-Site Request Forgery (CSRF) vulnerability in Webriti Wallstreet wallstreet allows Cross Site...",
       "source": "CVE Feed",
       "published": "2026-10-02T20:17:02+00:00"
     },
     {
       "title": "CVE-2026-104988 - Pki-core: dogtag-pki: redhat-pki: pki: est fullcmc authentication bypass allows certificate mis-issuance with arbitrary subject",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-104988",
-      "summary": "CVE ID :CVE-2026-104988 Published : Oct. 2, 2026, 8:17 p.m. | 4 hours, 16 minutes ago Description :A flaw was found in Dogtag PKI (pki-core). The CMCAuthForEST authentication plugin fails open when...",
+      "summary": "CVE ID :CVE-2026-104988 Published : Oct. 2, 2026, 8:17 p.m. | 10 hours, 17 minutes ago Description :A flaw was found in Dogtag PKI (pki-core). The CMCAuthForEST authentication plugin fails open when...",
       "source": "CVE Feed",
       "published": "2026-10-02T20:17:01+00:00"
     },
     {
       "title": "CVE-2026-104019 - OS command injection in the Studio Space startup validation script in Amazon SageMaker Distribution when running on Amazon SageMaker Unified Studio",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-104019",
-      "summary": "CVE ID :CVE-2026-104019 Published : Oct. 2, 2026, 8:17 p.m. | 4 hours, 16 minutes ago Description :OS command injection in the Studio Space startup validation script in Amazon SageMaker Distribution...",
+      "summary": "CVE ID :CVE-2026-104019 Published : Oct. 2, 2026, 8:17 p.m. | 10 hours, 17 minutes ago Description :OS command injection in the Studio Space startup validation script in Amazon SageMaker Distribution...",
       "source": "CVE Feed",
       "published": "2026-10-02T20:17:00+00:00"
     },
@@ -130,51 +165,37 @@
     {
       "title": "CVE-2026-96940 - Microsoft Exchange Server Elevation of Privilege Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-96940",
-      "summary": "CVE ID :CVE-2026-96940 Published : Oct. 2, 2026, 7:16 p.m. | 5 hours, 17 minutes ago Description :Weak authorization in Microsoft Exchange Server allows an authenticated attacker to elevate...",
+      "summary": "CVE ID :CVE-2026-96940 Published : Oct. 2, 2026, 7:16 p.m. | 11 hours, 17 minutes ago Description :Weak authorization in Microsoft Exchange Server allows an authenticated attacker to elevate...",
       "source": "CVE Feed",
       "published": "2026-10-02T19:16:43+00:00"
     },
     {
       "title": "CVE-2026-103958 - Server-side request forgery in the tool server and remote agent connection handling in Loom for AWS",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-103958",
-      "summary": "CVE ID :CVE-2026-103958 Published : Oct. 2, 2026, 7:16 p.m. | 5 hours, 17 minutes ago Description :Server-side request forgery in the tool server and remote agent connection handling in Loom for AWS...",
+      "summary": "CVE ID :CVE-2026-103958 Published : Oct. 2, 2026, 7:16 p.m. | 11 hours, 17 minutes ago Description :Server-side request forgery in the tool server and remote agent connection handling in Loom for AWS...",
       "source": "CVE Feed",
       "published": "2026-10-02T19:16:40+00:00"
     },
     {
       "title": "CVE-2026-103957 - Server-side request forgery in the OAuth2 discovery handling in Loom for AWS",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-103957",
-      "summary": "CVE ID :CVE-2026-103957 Published : Oct. 2, 2026, 7:16 p.m. | 5 hours, 17 minutes ago Description :Server-side request forgery in the OAuth2 discovery handling in Loom for AWS before 1.7.0 might...",
+      "summary": "CVE ID :CVE-2026-103957 Published : Oct. 2, 2026, 7:16 p.m. | 11 hours, 17 minutes ago Description :Server-side request forgery in the OAuth2 discovery handling in Loom for AWS before 1.7.0 might...",
       "source": "CVE Feed",
       "published": "2026-10-02T19:16:39+00:00"
     },
     {
       "title": "CVE-2026-103956 - Missing authentication for critical function in Loom for AWS",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-103956",
-      "summary": "CVE ID :CVE-2026-103956 Published : Oct. 2, 2026, 7:16 p.m. | 5 hours, 17 minutes ago Description :Missing authentication for critical function in the authentication dependency in Loom for AWS before...",
+      "summary": "CVE ID :CVE-2026-103956 Published : Oct. 2, 2026, 7:16 p.m. | 11 hours, 17 minutes ago Description :Missing authentication for critical function in the authentication dependency in Loom for AWS...",
       "source": "CVE Feed",
       "published": "2026-10-02T19:16:39+00:00"
     },
     {
       "title": "CVE-2023-54405 - H3C CVM Unauthenticated File Upload via fileUpload/upload Token",
       "link": "https://cvefeed.io/vuln/detail/CVE-2023-54405",
-      "summary": "CVE ID :CVE-2023-54405 Published : Oct. 2, 2026, 7:16 p.m. | 5 hours, 17 minutes ago Description :H3C CVM, the Cloud Virtualization Management component of the H3C CAS cloud platform, contains an...",
+      "summary": "CVE ID :CVE-2023-54405 Published : Oct. 2, 2026, 7:16 p.m. | 11 hours, 17 minutes ago Description :H3C CVM, the Cloud Virtualization Management component of the H3C CAS cloud platform, contains an...",
       "source": "CVE Feed",
       "published": "2026-10-02T19:16:38+00:00"
-    },
-    {
-      "title": "CVE-2020-37278 - Weaver e-Bridge Unauthenticated Arbitrary File Read via saveYZJFile",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2020-37278",
-      "summary": "CVE ID :CVE-2020-37278 Published : Oct. 2, 2026, 7:16 p.m. | 5 hours, 17 minutes ago Description :Weaver e-Bridge contains an unauthenticated arbitrary file read vulnerability that allows remote...",
-      "source": "CVE Feed",
-      "published": "2026-10-02T19:16:38+00:00"
-    },
-    {
-      "title": "CVE-2014-125130 - CodeArt Google MP3 Audio Player 1.0.11 Arbitrary File Read via direct_download.php",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2014-125130",
-      "summary": "CVE ID :CVE-2014-125130 Published : Oct. 2, 2026, 7:16 p.m. | 5 hours, 17 minutes ago Description :CodeArt Google MP3 Audio Player plugin (google-mp3-audio-player) for WordPress through 1.0.11...",
-      "source": "CVE Feed",
-      "published": "2026-10-02T19:16:37+00:00"
     },
     {
       "title": "Frontline Education breach exposes school district employee data",
@@ -191,13 +212,6 @@
       "published": "2026-10-02T18:33:01+00:00"
     },
     {
-      "title": "CVE-2026-102795 - Apache Traffic Server: SNI to Host header matching policy is not properly enforced",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-102795",
-      "summary": "CVE ID :CVE-2026-102795 Published : Oct. 2, 2026, 6:16 p.m. | 6 hours, 16 minutes ago Description :Improper Access Control vulnerability in Apache Traffic Server. This issue affects Apache Traffic...",
-      "source": "CVE Feed",
-      "published": "2026-10-02T18:16:59+00:00"
-    },
-    {
       "title": "GitLab Patches Critical 9.9 AI Gateway Flaw Allowing Command Execution on Self-Hosted Servers",
       "link": "https://thehackernews.com/2026/10/gitlab-patches-critical-self-hosted-ai.html",
       "summary": "GitLab Patches Critical 9.9 AI Gateway Flaw Allowing Command Execution on Self-Hosted Servers A critical flaw in GitLab's AI Gateway could let a logged-in user with Duo Agent Platform access run...",
@@ -210,20 +224,6 @@
       "summary": "Government and policy organizations across Asia have become the target of a new campaign orchestrated by a China-nexus threat actor. The activity, which has targeted government and policy...",
       "source": "The Hacker News",
       "published": "2026-10-02T17:33:16+00:00"
-    },
-    {
-      "title": "CVE-2026-104854 - Nx daemon and plugin worker sockets are accessible to other local users",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-104854",
-      "summary": "CVE ID :CVE-2026-104854 Published : Oct. 2, 2026, 5:17 p.m. | 7 hours, 16 minutes ago Description :Nx is a monorepo solution for TypeScript and polyglot codebases. From 14.6.0 until 22.7.9 and...",
-      "source": "CVE Feed",
-      "published": "2026-10-02T17:17:04+00:00"
-    },
-    {
-      "title": "CVE-2026-104851 - fsspec: Server-Side Template Injection in ReferenceFileSystem leads to Remote Code Execution",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-104851",
-      "summary": "CVE ID :CVE-2026-104851 Published : Oct. 2, 2026, 5:17 p.m. | 7 hours, 16 minutes ago Description :fsspec is a specification and Python implementation framework for filesystem interfaces. From 0.9.0...",
-      "source": "CVE Feed",
-      "published": "2026-10-02T17:17:03+00:00"
     },
     {
       "title": "Dell CSM Flaws Enable Unauthenticated Admin Access and Root on Kubernetes Nodes",
