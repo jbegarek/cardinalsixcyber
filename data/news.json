@@ -1,180 +1,229 @@
 {
-  "last_updated": "2026-10-09T00:03:10.903863+00:00",
+  "last_updated": "2026-10-09T08:11:44.730668+00:00",
   "articles": [
+    {
+      "title": "Co-creator of Empire Market dark web marketplace given 40-year sentence",
+      "link": "https://therecord.media/co-creator-empire-dark-net-market-sentenced",
+      "summary": "Raheim Hamilton, 30, pleaded guilty earlier this year to a drug conspiracy charge and agreed to forfeit more than $100 million worth of Bitcoin and several properties in Virginia.",
+      "source": "The Record",
+      "published": "2026-10-10T00:55:00+00:00"
+    },
+    {
+      "title": "Citrix Urges Immediate Patching of Critical NetScaler Vulnerability",
+      "link": "https://www.securityweek.com/citrix-urges-immediate-patching-of-critical-netscaler-vulnerability/",
+      "summary": "The security defect, tracked as CVE-2026-107406, could lead to remote code execution or denial-of-service. The post Citrix Urges Immediate Patching of Critical NetScaler Vulnerability appeared first...",
+      "source": "SecurityWeek",
+      "published": "2026-10-09T06:53:53+00:00"
+    },
+    {
+      "title": "Google Pixel 10 Exploits Earned Hackers $560,000 at Pwn2Own",
+      "link": "https://www.securityweek.com/google-pixel-10-exploits-earned-hackers-560000-at-pwn2own/",
+      "summary": "$1.2 million was paid out at Pwn2Own Ireland 2026 for exploits targeting phones, printers, smart speakers, smart home hubs, and AI infrastructure and coding tools. The post Google Pixel 10 Exploits...",
+      "source": "SecurityWeek",
+      "published": "2026-10-09T06:39:55+00:00"
+    },
+    {
+      "title": "FBI Seizes 7 Domains, Disrupts Flax Typhoon Tools Used in Critical Infrastructure Intrusions",
+      "link": "https://thehackernews.com/2026/10/fbi-seizes-7-domains-disrupts-flax.html",
+      "summary": "The U.S. Federal Bureau of Investigation (FBI) and Department of Justice (DoJ) have announced the disruption of malicious tools used by a China-linked advanced persistent threat group known as Flax...",
+      "source": "The Hacker News",
+      "published": "2026-10-09T06:39:29+00:00"
+    },
+    {
+      "title": "CVE-2026-107910 - Authentication bypass in FalkorDB Bolt endpoint via fail-open AUTH probe error handling",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-107910",
+      "summary": "CVE ID :CVE-2026-107910 Published : Oct. 9, 2026, 6:17 a.m. | 44 minutes ago Description :An improper authentication vulnerability in the is_authenticated function (src/bolt/bolt_api.c) in FalkorDB...",
+      "source": "CVE Feed",
+      "published": "2026-10-09T06:17:12+00:00"
+    },
+    {
+      "title": "CVE-2026-107909 - Pre-authentication heap out-of-bounds write in FalkorDB Bolt WebSocket frame handling via unbounded payload length",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-107909",
+      "summary": "CVE ID :CVE-2026-107909 Published : Oct. 9, 2026, 6:17 a.m. | 44 minutes ago Description :A heap-based out-of-bounds write in the ws_read_frame function (src/bolt/ws.c) and the buffer_apply_mask...",
+      "source": "CVE Feed",
+      "published": "2026-10-09T06:17:12+00:00"
+    },
+    {
+      "title": "CVE-2026-107908 - Pre-authentication heap out-of-bounds write in FalkorDB Bolt BoltReadHandler via RESET message",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-107908",
+      "summary": "CVE ID :CVE-2026-107908 Published : Oct. 9, 2026, 6:17 a.m. | 44 minutes ago Description :A heap-based out-of-bounds write in the BoltReadHandler function (src/bolt/bolt_api.c) in FalkorDB before...",
+      "source": "CVE Feed",
+      "published": "2026-10-09T06:17:10+00:00"
+    },
+    {
+      "title": "Hackers get $1,262,000 for 98 zero-days at Pwn2Own Ireland",
+      "link": "https://www.bleepingcomputer.com/news/security/hackers-earn-1262000-for-98-zero-days-at-pwn2own-ireland/",
+      "summary": "The Pwn2Own Ireland 2026 hacking contest has concluded, with hackers collecting $1,262,000 in rewards after exploiting 98 zero-day flaws. [...]",
+      "source": "BleepingComputer",
+      "published": "2026-10-09T05:41:04+00:00"
+    },
+    {
+      "title": "CVE-2026-7827 - Stack-based buffer overflow in FalkorDB _RdbLoadEntity via unbounded property count in crafted RDB",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-7827",
+      "summary": "CVE ID :CVE-2026-7827 Published : Oct. 9, 2026, 5:16 a.m. | 1 hour, 44 minutes ago Description :A stack-based buffer overflow in the _RdbLoadEntity function of the RDB graph decoders...",
+      "source": "CVE Feed",
+      "published": "2026-10-09T05:16:45+00:00"
+    },
+    {
+      "title": "CVE-2026-7826 - Heap out-of-bounds read in FalkorDB BufferSerializerIOv2_ReadBuffer via crafted RDB",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-7826",
+      "summary": "CVE ID :CVE-2026-7826 Published : Oct. 9, 2026, 5:16 a.m. | 1 hour, 44 minutes ago Description :A heap-based out-of-bounds read in the BufferSerializerIOv2_ReadBuffer function...",
+      "source": "CVE Feed",
+      "published": "2026-10-09T05:16:45+00:00"
+    },
+    {
+      "title": "CVE-2026-5759 - Double free and use-after-free in FalkorDB RdbLoadDeletedNodes allows remote code execution via crafted RDB",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-5759",
+      "summary": "CVE ID :CVE-2026-5759 Published : Oct. 9, 2026, 5:16 a.m. | 1 hour, 44 minutes ago Description :A double free and use-after-free vulnerability in the RdbLoadDeletedNodes function of the RDB graph...",
+      "source": "CVE Feed",
+      "published": "2026-10-09T05:16:44+00:00"
+    },
+    {
+      "title": "Formula Predicts When AI Chatbots Are at Risk of Turning Bad",
+      "link": "https://www.securityweek.com/formula-predicts-when-ai-chatbots-are-at-risk-of-turning-bad/",
+      "summary": "Researchers from George Washington University have published a paper examining whether the time and cause of AI going rogue can be predicted. The post Formula Predicts When AI Chatbots Are at Risk of...",
+      "source": "SecurityWeek",
+      "published": "2026-10-09T04:12:38+00:00"
+    },
+    {
+      "title": "Critical NetScaler RCE Vulnerability CVE-2026-107406",
+      "link": "https://thecyberthrone.in/2026/10/09/critical-netscaler-rce-vulnerability-cve-2026-107406/",
+      "summary": "Critical NetScaler RCE Vulnerability CVE-2026-107406 Executive SummaryCitrix has disclosed CVE-2026-107406, a critical memory overflow vulnerability affecting Citrix NetScaler ADC and NetScaler...",
+      "source": "CVE Newsroom",
+      "published": "2026-10-09T02:05:03+00:00"
+    },
+    {
+      "title": "CVE-2026-96207 - Microsoft Partner Center Elevation of Privilege Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-96207",
+      "summary": "CVE ID :CVE-2026-96207 Published : Oct. 8, 2026, 11:17 p.m. | 7 hours, 44 minutes ago Description :Improper certificate validation in Microsoft Partner Center allows an unauthorized attacker to...",
+      "source": "CVE Feed",
+      "published": "2026-10-08T23:17:05+00:00"
+    },
+    {
+      "title": "CVE-2026-94510 - Microsoft Bookings Elevation of Privilege Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-94510",
+      "summary": "CVE ID :CVE-2026-94510 Published : Oct. 8, 2026, 11:17 p.m. | 7 hours, 44 minutes ago Description :Authorization bypass through user-controlled key in Microsoft Bookings allows an unauthorized...",
+      "source": "CVE Feed",
+      "published": "2026-10-08T23:17:05+00:00"
+    },
+    {
+      "title": "CVE-2026-88131 - Microsoft Dataverse Remote Code Execution Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-88131",
+      "summary": "CVE ID :CVE-2026-88131 Published : Oct. 8, 2026, 11:17 p.m. | 7 hours, 44 minutes ago Description :Deserialization of untrusted data in Microsoft Dataverse allows an unauthorized attacker to execute...",
+      "source": "CVE Feed",
+      "published": "2026-10-08T23:17:04+00:00"
+    },
+    {
+      "title": "CVE-2026-83943 - Azure API Center Information Disclosure Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-83943",
+      "summary": "CVE ID :CVE-2026-83943 Published : Oct. 8, 2026, 11:17 p.m. | 7 hours, 44 minutes ago Description :Exposure of sensitive information to an unauthorized actor in Azure API Center allows an...",
+      "source": "CVE Feed",
+      "published": "2026-10-08T23:17:04+00:00"
+    },
+    {
+      "title": "CVE-2026-77900 - Azure App Service Remote Code Execution Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-77900",
+      "summary": "CVE ID :CVE-2026-77900 Published : Oct. 8, 2026, 11:17 p.m. | 7 hours, 44 minutes ago Description :Missing authentication for critical function in Azure App Service allows an unauthorized attacker to...",
+      "source": "CVE Feed",
+      "published": "2026-10-08T23:17:03+00:00"
+    },
+    {
+      "title": "CVE-2026-69435 - Azure SRE Agent Elevation of Privilege Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-69435",
+      "summary": "CVE ID :CVE-2026-69435 Published : Oct. 8, 2026, 11:17 p.m. | 7 hours, 44 minutes ago Description :Missing authorization in Azure SRE Agent allows an authorized attacker to elevate privileges over a...",
+      "source": "CVE Feed",
+      "published": "2026-10-08T23:17:02+00:00"
+    },
+    {
+      "title": "CVE-2026-107732 - SumatraPDF: Markup/command-link injection into UI notification text",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-107732",
+      "summary": "CVE ID :CVE-2026-107732 Published : Oct. 8, 2026, 11:16 p.m. | 7 hours, 44 minutes ago Description :SumatraPDF is a multi-format reader for Windows. In 3.6.1 and earlier, untrusted document paths and...",
+      "source": "CVE Feed",
+      "published": "2026-10-08T23:16:58+00:00"
+    },
     {
       "title": "CVE-2026-105674 - Predictable Media Stream Pre-Shared Key Vulnerability in TP-Link Tapo C325WB",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-105674",
-      "summary": "CVE ID :CVE-2026-105674 Published : Oct. 8, 2026, 10:21 p.m. | 59 minutes ago Description :TP-Link Tapo C325WB V2 generates the pre-shared key used by its local media streaming service with a...",
+      "summary": "CVE ID :CVE-2026-105674 Published : Oct. 8, 2026, 11:16 p.m. | 7 hours, 44 minutes ago Description :TP-Link Tapo C325WB V2 generates the pre-shared key used by its local media streaming service with...",
       "source": "CVE Feed",
-      "published": "2026-10-08T22:21:45+00:00"
+      "published": "2026-10-08T23:16:57+00:00"
     },
     {
       "title": "CVE-2026-105672 - Unauthenticated JSON API Authorization Bypass Vulnerability in TP-Link Tapo C325WB",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-105672",
-      "summary": "CVE ID :CVE-2026-105672 Published : Oct. 8, 2026, 10:21 p.m. | 59 minutes ago Description :TP-Link Tapo C325WB V2 contains an unauthenticated authorization bypass vulnerability in the HTTPS JSON API...",
+      "summary": "CVE ID :CVE-2026-105672 Published : Oct. 8, 2026, 11:16 p.m. | 7 hours, 44 minutes ago Description :TP-Link Tapo C325WB V2 contains an unauthenticated authorization bypass vulnerability in the HTTPS...",
       "source": "CVE Feed",
-      "published": "2026-10-08T22:21:34+00:00"
+      "published": "2026-10-08T23:16:57+00:00"
     },
     {
       "title": "CVE-2026-89091 - Ansible-core: ansible-core: ansible-galaxy collection install symlink path escape allows arbitrary file write / code execution",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-89091",
-      "summary": "CVE ID :CVE-2026-89091 Published : Oct. 8, 2026, 10:17 p.m. | 1 hour, 3 minutes ago Description :A flaw was found in ansible-core. When installing a collection with `ansible-galaxy collection...",
+      "summary": "CVE ID :CVE-2026-89091 Published : Oct. 8, 2026, 10:17 p.m. | 8 hours, 43 minutes ago Description :A flaw was found in ansible-core. When installing a collection with `ansible-galaxy collection...",
       "source": "CVE Feed",
       "published": "2026-10-08T22:17:35+00:00"
     },
     {
       "title": "CVE-2026-84249 - IBM Guardium Data Protection is affected by vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-84249",
-      "summary": "CVE ID :CVE-2026-84249 Published : Oct. 8, 2026, 10:17 p.m. | 1 hour, 3 minutes ago Description :IBM Guardium Data Protection 12.2, and 12.2.2 could allow a remote attacker to execute arbitrary...",
+      "summary": "CVE ID :CVE-2026-84249 Published : Oct. 8, 2026, 10:17 p.m. | 8 hours, 43 minutes ago Description :IBM Guardium Data Protection 12.2, and 12.2.2 could allow a remote attacker to execute arbitrary...",
       "source": "CVE Feed",
       "published": "2026-10-08T22:17:34+00:00"
     },
     {
       "title": "CVE-2026-84247 - IBM Guardium Data Protection is affected by multiple vulnerabilities.",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-84247",
-      "summary": "CVE ID :CVE-2026-84247 Published : Oct. 8, 2026, 10:17 p.m. | 1 hour, 3 minutes ago Description :IBM Guardium Data Protection 12.2 could allow a remote authenticated attacker to cause a denial of...",
+      "summary": "CVE ID :CVE-2026-84247 Published : Oct. 8, 2026, 10:17 p.m. | 8 hours, 43 minutes ago Description :IBM Guardium Data Protection 12.2 could allow a remote authenticated attacker to cause a denial of...",
       "source": "CVE Feed",
       "published": "2026-10-08T22:17:33+00:00"
     },
     {
       "title": "CVE-2026-84246 - Multiple vulnerabilities affect the Sniffer component as part of IBM Guardium Data Protection",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-84246",
-      "summary": "CVE ID :CVE-2026-84246 Published : Oct. 8, 2026, 10:17 p.m. | 1 hour, 3 minutes ago Description :IBM Guardium Data Protection 12.0, 12.1, and 12.2 could allow a remote attacker to execute arbitrary...",
+      "summary": "CVE ID :CVE-2026-84246 Published : Oct. 8, 2026, 10:17 p.m. | 8 hours, 43 minutes ago Description :IBM Guardium Data Protection 12.0, 12.1, and 12.2 could allow a remote attacker to execute arbitrary...",
       "source": "CVE Feed",
       "published": "2026-10-08T22:17:33+00:00"
     },
     {
       "title": "CVE-2026-84209 - IBM Guardium Data Protection is affected by multiple vulnerabilities.",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-84209",
-      "summary": "CVE ID :CVE-2026-84209 Published : Oct. 8, 2026, 10:17 p.m. | 1 hour, 3 minutes ago Description :IBM Guardium Data Protection 12.2.2, and 12.1 could allow a remote attacker to execute arbitrary SQL...",
+      "summary": "CVE ID :CVE-2026-84209 Published : Oct. 8, 2026, 10:17 p.m. | 8 hours, 43 minutes ago Description :IBM Guardium Data Protection 12.2.2, and 12.1 could allow a remote attacker to execute arbitrary SQL...",
       "source": "CVE Feed",
       "published": "2026-10-08T22:17:33+00:00"
     },
     {
       "title": "CVE-2026-84198 - Multiple vulnerabilities affect the Sniffer component as part of IBM Guardium Data Protection",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-84198",
-      "summary": "CVE ID :CVE-2026-84198 Published : Oct. 8, 2026, 10:17 p.m. | 1 hour, 3 minutes ago Description :IBM Guardium Data Protection 12.0, 12.1, and 12.2 could allow a remote attacker to execute arbitrary...",
+      "summary": "CVE ID :CVE-2026-84198 Published : Oct. 8, 2026, 10:17 p.m. | 8 hours, 43 minutes ago Description :IBM Guardium Data Protection 12.0, 12.1, and 12.2 could allow a remote attacker to execute arbitrary...",
       "source": "CVE Feed",
       "published": "2026-10-08T22:17:33+00:00"
     },
     {
       "title": "CVE-2026-84058 - Multiple vulnerabilities affect the Sniffer component as part of IBM Guardium Data Protection",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-84058",
-      "summary": "CVE ID :CVE-2026-84058 Published : Oct. 8, 2026, 10:17 p.m. | 1 hour, 3 minutes ago Description :IBM Guardium Data Protection 12.0, 12.1, and 12.2 is vulnerable to a buffer overrun in the TDS...",
+      "summary": "CVE ID :CVE-2026-84058 Published : Oct. 8, 2026, 10:17 p.m. | 8 hours, 43 minutes ago Description :IBM Guardium Data Protection 12.0, 12.1, and 12.2 is vulnerable to a buffer overrun in the TDS...",
       "source": "CVE Feed",
       "published": "2026-10-08T22:17:33+00:00"
     },
     {
       "title": "CVE-2026-84057 - IBM Guardium Data Protection is affected by multiple vulnerabilities.",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-84057",
-      "summary": "CVE ID :CVE-2026-84057 Published : Oct. 8, 2026, 10:17 p.m. | 1 hour, 3 minutes ago Description :IBM Guardium Data Protection 12.2.2, and 12.1 could allow a remote attacker to execute arbitrary...",
+      "summary": "CVE ID :CVE-2026-84057 Published : Oct. 8, 2026, 10:17 p.m. | 8 hours, 43 minutes ago Description :IBM Guardium Data Protection 12.2.2, and 12.1 could allow a remote attacker to execute arbitrary...",
       "source": "CVE Feed",
       "published": "2026-10-08T22:17:33+00:00"
     },
     {
       "title": "CVE-2026-84035 - Multiple vulnerabilities affect the Sniffer component as part of IBM Guardium Data Protection",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-84035",
-      "summary": "CVE ID :CVE-2026-84035 Published : Oct. 8, 2026, 10:17 p.m. | 1 hour, 3 minutes ago Description :IBM Guardium Data Protection 12.0, 12.1, and 12.2 could allow a remote attacker to execute arbitrary...",
+      "summary": "CVE ID :CVE-2026-84035 Published : Oct. 8, 2026, 10:17 p.m. | 8 hours, 43 minutes ago Description :IBM Guardium Data Protection 12.0, 12.1, and 12.2 could allow a remote attacker to execute arbitrary...",
       "source": "CVE Feed",
       "published": "2026-10-08T22:17:33+00:00"
     },
     {
       "title": "CVE-2026-82900 - IBM Guardium Data Protection is affected by multiple vulnerabilities.",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-82900",
-      "summary": "CVE ID :CVE-2026-82900 Published : Oct. 8, 2026, 10:17 p.m. | 1 hour, 3 minutes ago Description :IBM Guardium Data Protection 12.2.2, and 12.1 could allow a remote attacker to delete arbitrary files...",
+      "summary": "CVE ID :CVE-2026-82900 Published : Oct. 8, 2026, 10:17 p.m. | 8 hours, 43 minutes ago Description :IBM Guardium Data Protection 12.2.2, and 12.1 could allow a remote attacker to delete arbitrary...",
       "source": "CVE Feed",
       "published": "2026-10-08T22:17:32+00:00"
-    },
-    {
-      "title": "CVE-2026-82895 - Multiple vulnerabilities affect the Sniffer component as part of IBM Guardium Data Protection",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-82895",
-      "summary": "CVE ID :CVE-2026-82895 Published : Oct. 8, 2026, 10:17 p.m. | 1 hour, 3 minutes ago Description :IBM Guardium Data Protection 12.0, 12.1, and 12.2 could allow a remote attacker to execute arbitrary...",
-      "source": "CVE Feed",
-      "published": "2026-10-08T22:17:32+00:00"
-    },
-    {
-      "title": "CVE-2026-81932 - Multiple vulnerabilities affect the Sniffer component as part of IBM Guardium Data Protection",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-81932",
-      "summary": "CVE ID :CVE-2026-81932 Published : Oct. 8, 2026, 10:17 p.m. | 1 hour, 3 minutes ago Description :IBM Guardium Data Protection 12.0, 12.1, and 12.2 is vulnerable to SQL injection. A remote...",
-      "source": "CVE Feed",
-      "published": "2026-10-08T22:17:32+00:00"
-    },
-    {
-      "title": "CVE-2026-80381 - Multiple vulnerabilities affect the Sniffer component as part of IBM Guardium Data Protection",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-80381",
-      "summary": "CVE ID :CVE-2026-80381 Published : Oct. 8, 2026, 10:17 p.m. | 1 hour, 3 minutes ago Description :IBM Guardium Data Protection 12.0, 12.1, and 12.2 could allow a remote attacker to execute...",
-      "source": "CVE Feed",
-      "published": "2026-10-08T22:17:32+00:00"
-    },
-    {
-      "title": "CVE-2026-75875 - Multiple vulnerabilities affect the Sniffer component as part of IBM Guardium Data Protection",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-75875",
-      "summary": "CVE ID :CVE-2026-75875 Published : Oct. 8, 2026, 10:17 p.m. | 1 hour, 3 minutes ago Description :IBM Guardium Data Protection 12.0, 12.1, and 12.2 could allow a remote attacker to execute arbitrary...",
-      "source": "CVE Feed",
-      "published": "2026-10-08T22:17:32+00:00"
-    },
-    {
-      "title": "CVE-2026-107829 - Jivejdon through 5.0 Unsalted MD5 Password Storage via AccountDaoSql",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-107829",
-      "summary": "CVE ID :CVE-2026-107829 Published : Oct. 8, 2026, 10:17 p.m. | 1 hour, 3 minutes ago Description :Jivejdon through 5.0 contains a weak password storage vulnerability that stores account passwords as...",
-      "source": "CVE Feed",
-      "published": "2026-10-08T22:17:30+00:00"
-    },
-    {
-      "title": "CVE-2026-107726 - Hazelcast: Arbitrary member memory access by low-privileged client",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-107726",
-      "summary": "CVE ID :CVE-2026-107726 Published : Oct. 8, 2026, 10:17 p.m. | 1 hour, 3 minutes ago Description :Hazelcast is a unified real-time data platform combining stream processing with a fast data store...",
-      "source": "CVE Feed",
-      "published": "2026-10-08T22:17:29+00:00"
-    },
-    {
-      "title": "CVE-2026-107725 - Hazelcast: Authorization bypass in IMap Predicates API",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-107725",
-      "summary": "CVE ID :CVE-2026-107725 Published : Oct. 8, 2026, 10:17 p.m. | 1 hour, 3 minutes ago Description :Hazelcast is a unified real-time data platform combining stream processing with a fast data store...",
-      "source": "CVE Feed",
-      "published": "2026-10-08T22:17:28+00:00"
-    },
-    {
-      "title": "CVE-2026-107723 - fast-jwt : Silent claim-validator bypass when JWT payload is a JSON array",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-107723",
-      "summary": "CVE ID :CVE-2026-107723 Published : Oct. 8, 2026, 10:17 p.m. | 1 hour, 3 minutes ago Description :fast-jwt provides fast JSON Web Token (JWT) implementation. Prior to 6.3.0, fast-jwt createVerifier...",
-      "source": "CVE Feed",
-      "published": "2026-10-08T22:17:28+00:00"
-    },
-    {
-      "title": "CVE-2026-107722 - fast-jwt: Incomplete patch of CVE-2026-34950: Non-whitespace key-prefix re-enables RSA→HS256 algorithm confusion",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-107722",
-      "summary": "CVE ID :CVE-2026-107722 Published : Oct. 8, 2026, 10:17 p.m. | 1 hour, 3 minutes ago Description :fast-jwt provides fast JSON Web Token (JWT) implementation. From 6.2.0 until 6.3.0, fast-jwt can...",
-      "source": "CVE Feed",
-      "published": "2026-10-08T22:17:28+00:00"
-    },
-    {
-      "title": "CVE-2026-107406 - Memory overflow vulnerability leading to Remote Code Execution or Denial of Service",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-107406",
-      "summary": "CVE ID :CVE-2026-107406 Published : Oct. 8, 2026, 10:17 p.m. | 1 hour, 3 minutes ago Description :Memory overflow vulnerability leading to Remote Code Execution or Denial of Service Vulnerability in...",
-      "source": "CVE Feed",
-      "published": "2026-10-08T22:17:26+00:00"
-    },
-    {
-      "title": "CVE-2026-105269 - Satel Netco Design Cross-site Scripting",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-105269",
-      "summary": "CVE ID :CVE-2026-105269 Published : Oct. 8, 2026, 10:17 p.m. | 1 hour, 3 minutes ago Description :Satel Netco Design versions prior to v2.1.7 contains a stored cross site scripting vulnerability. An...",
-      "source": "CVE Feed",
-      "published": "2026-10-08T22:17:26+00:00"
-    },
-    {
-      "title": "CVE-2026-96207 - Microsoft Partner Center Elevation of Privilege Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-96207",
-      "summary": "CVE ID :CVE-2026-96207 Published : Oct. 8, 2026, 10:15 p.m. | 1 hour, 5 minutes ago Description :None Severity: 10.0 | CRITICAL Visit the link for more details, such as CVSS details, affected...",
-      "source": "CVE Feed",
-      "published": "2026-10-08T22:15:33+00:00"
-    },
-    {
-      "title": "CVE-2026-94510 - Microsoft Bookings Elevation of Privilege Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-94510",
-      "summary": "CVE ID :CVE-2026-94510 Published : Oct. 8, 2026, 10:15 p.m. | 1 hour, 5 minutes ago Description :None Severity: 9.9 | CRITICAL Visit the link for more details, such as CVSS details, affected...",
-      "source": "CVE Feed",
-      "published": "2026-10-08T22:15:32+00:00"
     },
     {
       "title": "FBI disrupts Chinese hacking tools used to breach critical infrastructure",
@@ -273,13 +322,6 @@
       "summary": "Attackers behind a string of personal data leaks at Japanese organizations have abused APIs for mobile apps and targeted known software flaws, the JPCERT Coordination Center (JPCERT/CC) said. The...",
       "source": "The Hacker News",
       "published": "2026-10-08T15:45:56+00:00"
-    },
-    {
-      "title": "Crypto thief who splurged on gold grills sentenced in London",
-      "link": "https://therecord.media/cryptocurrency-sim-swap-london",
-      "summary": "A 25-year-old man who helped steal nearly $260,000 in cryptocurrency through a SIM-swapping fraud scheme was sentenced to two and a half years in prison at a London court.",
-      "source": "The Record",
-      "published": "2026-10-08T15:45:00+00:00"
     },
     {
       "title": "Cisco Patches a Dozen Critical Vulnerabilities",
@@ -429,27 +471,6 @@
       "published": "2026-10-08T09:46:32+00:00"
     },
     {
-      "title": "Fake Decryption Tools Masked $11M Markup in Ransomware Recovery Scheme",
-      "link": "https://www.securityweek.com/fake-decryption-tools-masked-11m-markup-in-ransomware-recovery-scheme/",
-      "summary": "Zohar Pinhasi was paying ransoms to obtain decryption keys and then charging victims substantially more for remediation. The post Fake Decryption Tools Masked $11M Markup in Ransomware Recovery...",
-      "source": "SecurityWeek",
-      "published": "2026-10-08T09:27:55+00:00"
-    },
-    {
-      "title": "Oracle Health Data Breach Tally Climbs to Nearly 20 Million",
-      "link": "https://www.securityweek.com/oracle-health-data-breach-tally-climbs-to-nearly-20-million/",
-      "summary": "The figure is far higher than the counts that surfaced in earlier filings and patient notifications. The post Oracle Health Data Breach Tally Climbs to Nearly 20 Million appeared first on...",
-      "source": "SecurityWeek",
-      "published": "2026-10-08T08:23:31+00:00"
-    },
-    {
-      "title": "FortiBleed Attackers Locking Victims Out of Fortinet Devices",
-      "link": "https://www.securityweek.com/fortibleed-attackers-locking-victims-out-of-fortinet-devices/",
-      "summary": "Attackers are creating new accounts and deleting existing ones and passwords to prevent legitimate access. The post FortiBleed Attackers Locking Victims Out of Fortinet Devices appeared first on...",
-      "source": "SecurityWeek",
-      "published": "2026-10-08T07:52:33+00:00"
-    },
-    {
       "title": "U.S. Offers Up to $10 Million for Tips on Zhang Yu, Charged in HAFNIUM Hacks",
       "link": "https://thehackernews.com/2026/10/us-offers-up-to-10-million-for-tips-on.html",
       "summary": "The U.S. State Department is offering up to $10 million for information leading to the identification or location of Zhang Yu, a Chinese national charged in the United States in connection with the...",
@@ -546,13 +567,6 @@
       "summary": "SonicWall has released hotfixes for four flaws in its SMA1000 appliances, the gateways that give remote workers access to a company's network and applications. The most serious could allow an...",
       "source": "The Hacker News",
       "published": "2026-10-07T16:17:44+00:00"
-    },
-    {
-      "title": "Microsoft Outlook to block MSIX attachments starting November",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-outlook-to-block-msix-attachments-used-in-attacks/",
-      "summary": "Microsoft announced that it will add .msix and .msixbundle attachments to the list of blocked attachments in Outlook Web and the new Outlook Windows client starting next month. [...]",
-      "source": "BleepingComputer",
-      "published": "2026-10-07T15:44:22+00:00"
     },
     {
       "title": "Unpatched Critical LMCache Flaw Lets Unauthenticated Attackers Run Code Remotely",
@@ -973,13 +987,6 @@
       "summary": "Google has announced a new security measure that limits access to Android's accessibility services to verified applications classified as Accessibility Tools when Advanced Protection is enabled. With...",
       "source": "The Hacker News",
       "published": "2026-10-02T08:01:30+00:00"
-    },
-    {
-      "title": "Critical FortiMail Zero-Day Flaw Exploited in Attacks Allows Unauthenticated Arbitrary File Writes",
-      "link": "https://thehackernews.com/2026/10/critical-fortimail-zero-day-flaw.html",
-      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA), on Thursday, added a critical security flaw impacting Fortinet FortiMail to its Known Exploited Vulnerabilities (KEV) catalog...",
-      "source": "The Hacker News",
-      "published": "2026-10-02T05:49:50+00:00"
     },
     {
       "title": "Alleged KillSec Ransomware Mastermind a 16-Year-Old",
